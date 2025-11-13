@@ -3,13 +3,11 @@
 **Teammitglieder**  
 David Leitner, Maximilian Baumgartner  
 
-**Deutsch:**  
 PC-Builder – Auswahl und Preisberechnung von PC-Komponenten  
 
 ---
 
 ## Ausgangssituation / Problemstellung / Vorgeschichte  
-### Deutsch:
 Viele PC-Käufer wissen nicht genau, welche Komponenten sie benötigen oder wie teuer ihr Computer insgesamt wird.  
 Um diesen Prozess zu vereinfachen, soll eine einfache Website entstehen, auf der man PC-Teile wie CPU, RAM, SSD oder GPU auswählen kann.  
 Der Gesamtpreis wird automatisch berechnet.
@@ -17,7 +15,6 @@ Der Gesamtpreis wird automatisch berechnet.
 ---
 
 ## Projektziele / Nicht-Ziele  
-### Deutsch:
 **Projektziele:**  
 - Erstellung einer einfachen HTML-Website mit Dropdown-Menüs für PC-Komponenten  
 - Automatische Berechnung des Gesamtpreises  
@@ -32,7 +29,6 @@ Der Gesamtpreis wird automatisch berechnet.
 ---
 
 ## Projektinhalte / Project Contents  
-### Deutsch:
 Die Website besteht aus einer HTML-Seite und einer separaten CSS-Datei.  
 Mit JavaScript werden die ausgewählten Komponenten (z. B. CPU, GPU, RAM, SSD, Netzteil, Gehäuse) verwaltet.  
 Für jede Komponente gibt es ein Dropdown-Menü mit Preis und Link.  
@@ -41,7 +37,6 @@ Der Gesamtpreis wird automatisch berechnet und angezeigt.
 ---
 
 ## Kritische Erfolgsfaktoren / Critical Success Factors  
-### Deutsch:
 - Korrekte Berechnung des Gesamtpreises  
 - Funktionierende Dropdown-Auswahl mit Links  
 - Übersichtliche Struktur und verständlicher Code  
@@ -50,7 +45,6 @@ Der Gesamtpreis wird automatisch berechnet und angezeigt.
 ---
 
 ## Termine / Milestones  
-### Deutsch:
 **Projektstart:**  
 - Ereignis: Beginn der Website-Entwicklung  
 - Termin: 21. Oktober 2025  
@@ -64,3 +58,4 @@ Der Gesamtpreis wird automatisch berechnet und angezeigt.
 - CSS-Design abgeschlossen – 23. Oktober 2025  
 - JavaScript-Preisberechnung funktioniert – 25. Oktober 2025  
 - Endprüfung und Präsentation – 28. Oktober 2025
+
