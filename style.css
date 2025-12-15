@@ -1,72 +1,259 @@
-/* === Allgemeines Seitenlayout === */
+:root {
+  /* Slate Theme - Ein modernes, bläuliches Grau für einen professionellen Look */
+  --bg-body: #f1f5f9;
+  --bg-card: #ffffff;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --accent-color: #334155;
+  --highlight: #0f172a;
+  
+  /* Farbverläufe für Highlights */
+  --success-gradient: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  --ai-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); /* Indigo zu Lila für AI */
+  
+  --row-hover-bg: #f8fafc;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 20px;
-  background-color: #f8f8f8;
-  color: #222;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+  /* Wichtig: Platz lassen für die fixierte Preisleiste unten */
+  padding-bottom: 140px; 
 }
 
-/* === Kopf- und Fußzeile === */
-header, footer {
-  background-color: #e0e0e0;
-  text-align: center;
-  padding: 15px;
+/* === Header === */
+header {
+  background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+  padding: 1.5rem 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  margin-bottom: 2rem;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.8rem;
+  letter-spacing: -0.5px;
+}
+
+/* === Cards === */
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: var(--bg-card);
+}
+
+.card-header {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.card-header h2 {
+  font-weight: 700;
+  color: var(--highlight);
+}
+
+/* === AI Bereich (Sidebar) === */
+.ai-card {
+  /* Doppelter Rand-Effekt mit Gradient */
+  border: 2px solid transparent;
+  background-image: linear-gradient(white, white), var(--ai-gradient);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  position: relative;
+}
+
+.ai-badge {
+  background: var(--ai-gradient);
+  color: white;
+  padding: 0.35rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ai-response-box {
+  background-color: #f8fafc;
+  border-left: 4px solid #818cf8;
+  padding: 1.5rem;
   border-radius: 8px;
+  margin-top: 1.5rem;
+  display: none; /* Standardmäßig ausgeblendet */
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
-header h1 {
-  margin: 0;
+/* Markdown Styling in der AI Antwort */
+.ai-response-box p:last-child { margin-bottom: 0; }
+.ai-response-box ul { margin-bottom: 1rem; padding-left: 1.5rem; }
+.ai-response-box h1, .ai-response-box h2 { 
+    font-size: 1.1rem; font-weight: 700; color: #312e81; margin-top: 1rem; margin-bottom: 0.5rem; 
 }
 
-footer p {
-  margin: 0;
-  font-size: 0.9em;
-  color: #555;
+/* Lade-Animation (Spinner) */
+.ai-loading {
+  display: none;
+  align-items: center;
+  gap: 10px;
+  color: #6366f1;
+  font-weight: 600;
+  margin-top: 1rem;
 }
+.spinner-dots {
+  width: 20px;
+  aspect-ratio: 4;
+  background: radial-gradient(circle closest-side,#6366f1 90%,#0000) 0/calc(100%/3) 100% space;
+  clip-path: inset(0 100% 0 0);
+  animation: l1 1s steps(4) infinite;
+}
+@keyframes l1 {to{clip-path: inset(0 -34% 0 0)}}
 
 /* === Tabelle === */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 15px;
+.table { margin-bottom: 0; }
+.table thead th {
+  background-color: #f1f5f9;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  padding: 1rem;
+  color: var(--text-secondary);
+  border-bottom: 2px solid #cbd5e1;
+}
+.table tbody tr {
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid #f1f5f9;
+}
+.table tbody tr:hover {
   background-color: #fff;
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  z-index: 10;
+  position: relative;
+}
+.table td {
+  vertical-align: middle;
+  padding: 1.5rem 1rem;
+  font-size: 1.05rem;
+}
+
+/* === Inputs & Selects === */
+.form-select, .form-control {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
   border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border: 1px solid #cbd5e1;
+  background-color: #f8fafc;
+}
+.form-select:focus, .form-control:focus {
+  background-color: #fff;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 4px rgba(51, 65, 85, 0.1);
 }
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: left;
-}
-
-th {
-  background-color: #f2f2f2;
-}
-
-/* === Formularelemente === */
-select, input {
+/* === Sticky Footer (Preisleiste) === */
+.sticky-price-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid #e2e8f0;
+  padding: 1rem 0;
+  box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+  z-index: 1000;
+  transform: translateY(0);
+  transition: transform 0.3s;
 }
 
-/* === Gesamtsumme === */
-.total {
+.total-label {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.total-price {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: var(--success-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 180px;
   text-align: right;
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-top: 15px;
 }
 
-/* === Links === */
-a {
-  color: #0077cc;
-  text-decoration: none;
+/* Pulsier-Animation bei Preisänderung */
+@keyframes pulse-green {
+  0% { transform: scale(1); filter: brightness(1); }
+  50% { transform: scale(1.1); filter: brightness(1.2); }
+  100% { transform: scale(1); filter: brightness(1); }
+}
+.price-update-anim { animation: pulse-green 0.4s ease-out; }
+
+/* === Buttons === */
+.btn-link-custom {
+  background-color: #e2e8f0;
+  color: #334155;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  transition: all 0.2s;
+}
+.btn-link-custom:hover {
+  background-color: #cbd5e1;
+  color: #0f172a;
+  transform: translateY(-2px);
 }
 
-a:hover {
-  text-decoration: underline;
+.btn-ai {
+    background: var(--ai-gradient);
+    color: white;
+    border: none;
+    font-weight: 600;
+    transition: filter 0.2s;
+}
+.btn-ai:hover {
+    color: white;
+    filter: brightness(1.1);
+}
+
+/* === Tipps Box & Accordions === */
+.tips-box {
+  background-color: #fff;
+  border-left: 5px solid var(--accent-color);
+  padding: 1.5rem;
+  border-radius: 0 8px 8px 0;
+  margin-top: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e2e8f0;
+  color: var(--text-primary);
+  box-shadow: none;
+}
+.accordion-item {
+  border: 1px solid #e2e8f0;
+  margin-bottom: 10px;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.info-card {
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
 }

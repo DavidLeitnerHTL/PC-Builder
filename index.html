@@ -3,144 +3,431 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Einfacher PC-Builder</title>
+  <title>PC-Konfigurator AI-Powered</title>
+  
+  <!-- Bootstrap 5 CSS (Framework für Layout) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts (Schriftarten) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- Unser eigenes Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
-    <h1>PC-Teile Auswahl</h1>
-    <p>Wähle deine gewünschten Komponenten aus</p>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <span style="font-size: 2rem; margin-right: 15px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));">🚀</span> 
+          PC-Konfigurator
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav nav-pills ms-auto gap-2" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active px-4 py-2" id="builder-tab" data-bs-toggle="tab" data-bs-target="#builder-content" type="button" role="tab">🛠 Konfigurator</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link px-4 py-2" id="theory-tab" data-bs-toggle="tab" data-bs-target="#theory-content" type="button" role="tab">📚 Experten-Wissen</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
 
-  <table>
-    <tr>
-      <th>Teil</th>
-      <th>Option</th>
-      <th>Preis (€)</th>
-      <th>Menge</th>
-      <th>Link</th>
-    </tr>
+  <main class="container">
+    
+    <div class="tab-content" id="myTabContent">
 
-    <!-- CPU -->
-    <tr>
-      <td>CPU</td>
-      <td>
-        <select onchange="update(this)">
-          <option value="99.00,https://www.idealo.de/preisvergleich/OffersOfProduct/200733045_-ryzen-5-5600x-amd.html">AMD Ryzen 5 5600X</option>
-          <option value="146.90,https://www.idealo.de/preisvergleich/OffersOfProduct/200733026_-ryzen-7-5800x-amd.html">AMD Ryzen 7 5800X</option>
-          <option value="303.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202722732_-ryzen-7-7800x3d-amd.html">AMD Ryzen 7 7800X3D</option>
-          <option value="103.90,https://www.idealo.de/preisvergleich/OffersOfProduct/201785821_-core-i5-12400f-intel.html">Intel Core i5-12400F</option>
-          <option value="113.38,https://www.idealo.de/preisvergleich/OffersOfProduct/202265862_-core-i5-13400f-intel.html">Intel Core i5-13400F</option>
-        </select>
-      </td>
-      <td><input type="number" value="99.90" readonly></td>
-      <td><input type="number" min="1" value="1" onchange="calcTotal()"></td>
-      <td><a href="https://www.idealo.de/preisvergleich/OffersOfProduct/200733045_-ryzen-5-5600x-amd.html" target="_blank">Link</a></td>
-    </tr>
+      <!-- === BUILDER TAB === -->
+      <div class="tab-pane fade show active" id="builder-content" role="tabpanel">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Hardware Table -->
+                <div class="card mb-4">
+                  <div class="card-header">
+                    <h2>Hardware Auswahl</h2>
+                    <p class="text-muted mb-0">Wähle deine Komponenten. Der Preis aktualisiert sich in Echtzeit.</p>
+                  </div>
+                  <div class="card-body p-0">
+                    
+                    <div class="table-responsive">
+                      <table class="table" id="hardware-table">
+                        <thead>
+                          <tr>
+                            <th style="width: 25%;">Komponente</th>
+                            <th style="width: 45%;">Modellwahl</th>
+                            <th style="width: 15%;">Preis (€)</th>
+                            <th style="width: 15%;">Details</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <!-- CPU -->
+                          <tr data-category="CPU">
+                            <td><div class="fw-bold text-dark">Prozessor (CPU)</div></td>
+                            <td>
+                              <select class="form-select component-select" onchange="update(this)">
+                                <option value="99.00,https://www.idealo.de/preisvergleich/OffersOfProduct/200733045_-ryzen-5-5600x-amd.html">AMD Ryzen 5 5600X</option>
+                                <option value="146.90,https://www.idealo.de/preisvergleich/OffersOfProduct/200733026_-ryzen-7-5800x-amd.html">AMD Ryzen 7 5800X</option>
+                                <option value="303.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202722732_-ryzen-7-7800x3d-amd.html">AMD Ryzen 7 7800X3D</option>
+                                <option value="103.90,https://www.idealo.de/preisvergleich/OffersOfProduct/201785821_-core-i5-12400f-intel.html">Intel Core i5-12400F</option>
+                                <option value="113.38,https://www.idealo.de/preisvergleich/OffersOfProduct/202265862_-core-i5-13400f-intel.html">Intel Core i5-13400F</option>
+                              </select>
+                            </td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="99.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                          </tr>
 
-    <!-- Grafikkarte -->
-    <tr>
-      <td>Grafikkarte</td>
-      <td>
-        <select onchange="update(this)">
-          <option value="339.90,https://www.idealo.de/preisvergleich/OffersOfProduct/202923288_-geforce-rtx-4060-gigabyte.html">RTX 4060</option>
-          <option value="799.90,https://www.idealo.de/preisvergleich/OffersOfProduct/202646842_-geforce-rtx-4070-gigabyte.html">RTX 4070</option>
-          <option value="989.99,https://www.idealo.de/preisvergleich/OffersOfProduct/202264031_-geforce-rtx-4070-ti-gigabyte.html">RTX 4070 Ti</option>
-          <option value="923.99,https://www.idealo.de/preisvergleich/OffersOfProduct/202208764_-geforce-rtx-4080-gamerock-palit.html">RTX 4080</option>
-        </select>
-      </td>
-      <td><input type="number" value="349.00" readonly></td>
-      <td><input type="number" min="1" value="1" onchange="calcTotal()"></td>
-      <td><a href="https://www.idealo.de/preisvergleich/OffersOfProduct/202923288_-geforce-rtx-4060-gigabyte.html" target="_blank">Link</a></td>
-    </tr>
+                          <!-- Kühler -->
+                          <tr data-category="Kühler">
+                            <td><div class="fw-bold text-dark">CPU-Kühler</div></td>
+                            <td>
+                              <select class="form-select component-select" onchange="update(this)">
+                                <option value="39.90,https://www.idealo.de/preisvergleich/OffersOfProduct/200925232_-freezer-34-esports-duo-arctic.html">Arctic Freezer 34 eSports</option>
+                                <option value="65.00,https://www.idealo.de/preisvergleich/OffersOfProduct/200326442_-dark-rock-4-be-quiet.html">be quiet! Dark Rock 4</option>
+                                <option value="129.90,https://www.idealo.de/preisvergleich/OffersOfProduct/202265930_-kraken-x53-nzxt.html">NZXT Kraken X53 (AiO)</option>
+                              </select>
+                            </td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="39.90" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                          </tr>
 
-    <!-- RAM -->
-    <tr>
-      <td>RAM</td>
-      <td>
-        <select onchange="update(this)">
-          <option value="98.90,https://www.idealo.de/preisvergleich/OffersOfProduct/6195479_-vengeance-rgb-16gb-kit-ddr4-3600-cl18-cmw16gx4m2c3600c18w-corsair.html">Corsair Vengeance 16GB</option>
-          <option value="134.20,https://www.idealo.de/preisvergleich/OffersOfProduct/202056498_-vengeance-rgb-32gb-kit-ddr5-6000-cl36-corsair.html">Corsair Vengeance 32GB</option>
-          <option value="399.00,https://www.idealo.de/preisvergleich/OffersOfProduct/203002475_-vengeance-rgb-64gb-kit-ddr5-6000-cl30-cmh64gx5m2b6000z30-corsair.html">Corsair Vengeance 64GB</option>
-        </select>
-      </td>
-      <td><input type="number" value="59.90" readonly></td>
-      <td><input type="number" min="1" value="1" onchange="calcTotal()"></td>
-      <td><a href="https://www.idealo.de/preisvergleich/OffersOfProduct/6195479_-vengeance-rgb-16gb-kit-ddr4-3600-cl18-cmw16gx4m2c3600c18w-corsair.html" target="_blank">Link</a></td>
-    </tr>
+                          <!-- Mainboard -->
+                          <tr data-category="Mainboard">
+                            <td><div class="fw-bold text-dark">Mainboard</div></td>
+                            <td>
+                              <select class="form-select component-select" onchange="update(this)">
+                                <option value="110.00,https://www.idealo.de/preisvergleich/OffersOfProduct/200788934.html">MSI B550-A PRO (AM4)</option>
+                                <option value="180.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202161201.html">GIGABYTE Z790 UD (Intel 1700)</option>
+                                <option value="210.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202265741.html">ASUS ROG Strix B650-A (AM5)</option>
+                              </select>
+                            </td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="110.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                          </tr>
 
-    <!-- SSD -->
-    <tr>
-      <td>SSD</td>
-      <td>
-        <select onchange="update(this)">
-          <option value="45.90,https://www.idealo.de/preisvergleich/OffersOfProduct/204697964_-nv3-m-2-kingston.html">Kingston NV3 M.2 500GB</option>
-          <option value="65.90,https://www.idealo.de/preisvergleich/OffersOfProduct/204697967_-nv3-1tb-kingston.html">Kingston NV3 M.2 1TB</option>
-          <option value="123.50,https://www.idealo.de/preisvergleich/OffersOfProduct/204697964_-nv3-m-2-kingston.html">Kingston NV3 M.2 2TB</option>
-        </select>
-      </td>
-      <td><input type="number" value="49.90" readonly></td>
-      <td><input type="number" min="1" value="1" onchange="calcTotal()"></td>
-      <td><a href="https://www.idealo.de/preisvergleich/OffersOfProduct/204697967_-nv3-1tb-kingston.html" target="_blank">Link</a></td>
-    </tr>
+                          <!-- GPU -->
+                          <tr data-category="Grafikkarte">
+                            <td><div class="fw-bold text-dark">Grafikkarte</div></td>
+                            <td>
+                              <select class="form-select component-select" onchange="update(this)">
+                                <option value="339.90,https://www.idealo.de/preisvergleich/OffersOfProduct/202923288_-geforce-rtx-4060-gigabyte.html">NVIDIA RTX 4060 (8GB)</option>
+                                <option value="549.00,https://www.idealo.de/preisvergleich/OffersOfProduct/203112111.html">AMD Radeon RX 7800 XT (16GB)</option>
+                                <option value="799.90,https://www.idealo.de/preisvergleich/OffersOfProduct/202646842_-geforce-rtx-4070-gigabyte.html">NVIDIA RTX 4070 (12GB)</option>
+                                <option value="1200.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202208764_-geforce-rtx-4080-gamerock-palit.html">NVIDIA RTX 4080 Super</option>
+                              </select>
+                            </td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="339.90" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                          </tr>
 
-    <!-- Netzteil -->
-    <tr>
-      <td>Netzteil</td>
-      <td>
-        <select onchange="update(this)">
-          <option value="59.90,https://www.idealo.de/preisvergleich/OffersOfProduct/206603567_-pure-power-13-m-550w-be-quiet.html">be quiet! Pure Power 13 M 550W</option>
-          <option value="69.90,https://www.idealo.de/preisvergleich/OffersOfProduct/201008676.html">600W</option>
-          <option value="89.00,https://www.idealo.de/preisvergleich/OffersOfProduct/201008677.html">700W</option>
-        </select>
-      </td>
-      <td><input type="number" value="59.90" readonly></td>
-      <td><input type="number" min="1" value="1" onchange="calcTotal()"></td>
-      <td><a href="https://www.idealo.de/preisvergleich/OffersOfProduct/206603567_-pure-power-13-m-550w-be-quiet.html" target="_blank">Link</a></td>
-    </tr>
+                          <!-- RAM -->
+                          <tr data-category="RAM">
+                            <td><div class="fw-bold text-dark">RAM</div></td>
+                            <td>
+                              <select class="form-select component-select" onchange="update(this)">
+                                <option value="60.00,https://www.idealo.de/preisvergleich/OffersOfProduct/6195479.html">Kingston Fury 16GB DDR4</option>
+                                <option value="134.20,https://www.idealo.de/preisvergleich/OffersOfProduct/202056498_-vengeance-rgb-32gb-kit-ddr5-6000-cl36-corsair.html">Corsair Vengeance 32GB DDR5</option>
+                              </select>
+                            </td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="60.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                          </tr>
 
-    <!-- Gehäuse -->
-    <tr>
-      <td>Gehäuse</td>
-      <td>
-        <select onchange="update(this)">
-          <option value="69.00,https://www.idealo.de/preisvergleich/OffersOfProduct/201302559.html">NZXT H510</option>
-          <option value="79.00,https://www.idealo.de/preisvergleich/OffersOfProduct/203112254.html">Corsair 4000D</option>
-          <option value="99.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202197143.html">Fractal Meshify 2</option>
-        </select>
-      </td>
-      <td><input type="number" value="69.00" readonly></td>
-      <td><input type="number" min="1" value="1" onchange="calcTotal()"></td>
-      <td><a href="https://www.idealo.de/preisvergleich/OffersOfProduct/201302559.html" target="_blank">Link</a></td>
-    </tr>
-  </table>
+                          <!-- SSD -->
+                          <tr data-category="SSD">
+                            <td><div class="fw-bold text-dark">SSD Speicher</div></td>
+                            <td>
+                              <select class="form-select component-select" onchange="update(this)">
+                                <option value="45.90,https://www.idealo.de/preisvergleich/OffersOfProduct/204697964_-nv3-m-2-kingston.html">Kingston NV3 M.2 500GB</option>
+                                <option value="65.90,https://www.idealo.de/preisvergleich/OffersOfProduct/204697967_-nv3-1tb-kingston.html">Kingston NV3 M.2 1TB</option>
+                                <option value="150.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202112345.html">Samsung 990 Pro 2TB</option>
+                              </select>
+                            </td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="45.90" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                          </tr>
 
-  <p class="total">Gesamt: <span id="total">0.00</span> €</p>
+                          <!-- Netzteil -->
+                          <tr data-category="Netzteil">
+                            <td><div class="fw-bold text-dark">Netzteil</div></td>
+                            <td>
+                              <select class="form-select component-select" onchange="update(this)">
+                                <option value="59.90,https://www.idealo.de/preisvergleich/OffersOfProduct/206603567_-pure-power-13-m-550w-be-quiet.html">be quiet! Pure Power 13 M 550W</option>
+                                <option value="85.00,https://www.idealo.de/preisvergleich/OffersOfProduct/201008676.html">Corsair RM750e 750W (Gold)</option>
+                                <option value="120.00,https://www.idealo.de/preisvergleich/OffersOfProduct/201008677.html">be quiet! Straight Power 12 850W</option>
+                              </select>
+                            </td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="59.90" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                          </tr>
 
-  <footer>
-    <p>Erstellt von David Leitner & Maximilian Baumgartner | © 2025</p>
-  </footer>
+                          <!-- Gehäuse -->
+                          <tr data-category="Gehäuse">
+                            <td><div class="fw-bold text-dark">Gehäuse</div></td>
+                            <td>
+                              <select class="form-select component-select" onchange="update(this)">
+                                <option value="69.00,https://www.idealo.de/preisvergleich/OffersOfProduct/201302559.html">NZXT H510</option>
+                                <option value="79.00,https://www.idealo.de/preisvergleich/OffersOfProduct/203112254.html">Corsair 4000D Airflow</option>
+                                <option value="99.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202197143.html">Fractal Design North</option>
+                              </select>
+                            </td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="69.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+            </div>
 
-  <script>
-    function update(select) {
-      const [preis, link] = select.value.split(',');
-      const row = select.parentElement.parentElement;
-      row.querySelector('input[type="number"][readonly]').value = preis;
-      row.querySelector('a').href = link;
-      calcTotal();
-    }
+            <!-- AI Sidebar -->
+            <div class="col-lg-4">
+                <div class="card ai-card mb-4">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h3 class="h5 fw-bold m-0 text-dark">✨ AI Assistent</h3>
+                            <span class="ai-badge">Gemini Powered</span>
+                        </div>
+                        <p class="small text-muted mb-3">
+                            Lass deine Konfiguration von künstlicher Intelligenz prüfen oder stelle Fragen zu deinem Build.
+                        </p>
 
-    function calcTotal() {
-      let sum = 0;
-      document.querySelectorAll("table tr").forEach(row => {
-        const preis = parseFloat(row.querySelector('input[type=\"number\"][readonly]')?.value) || 0;
-        const menge = parseInt(row.querySelector('input[type=\"number\"]:not([readonly])')?.value) || 0;
-        sum += preis * menge;
-      });
-      document.getElementById("total").textContent = sum.toFixed(2);
-    }
+                        <div class="d-grid gap-2">
+                            <button id="btn-check-build" class="btn btn-ai shadow-sm py-2">
+                                🛡️ Systemprüfung starten
+                            </button>
+                        </div>
 
-    calcTotal();
-  </script>
+                        <hr class="my-3">
+
+                        <label class="form-label fw-bold small text-dark">Frag den Experten:</label>
+                        <div class="input-group mb-2">
+                            <input type="text" id="ai-question-input" class="form-control" placeholder="z.B. Reicht das für 4K?">
+                            <button class="btn btn-outline-secondary" type="button" id="btn-ask-ai">➤</button>
+                        </div>
+                        
+                        <div id="ai-loading" class="ai-loading">
+                            <div class="spinner-dots"></div>
+                            <span>Gemini analysiert...</span>
+                        </div>
+
+                        <div id="ai-output" class="ai-response-box shadow-sm">
+                            <!-- AI Antwort kommt hier rein -->
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Tipps Box -->
+                <div class="tips-box d-none d-lg-block">
+                    <h5 class="text-dark">🛠️ Quick Tipps</h5>
+                    <ul class="mb-0 text-muted small ps-3">
+                      <li class="mb-2"><strong>Airflow:</strong> Warme Luft muss raus!</li>
+                      <li class="mb-2"><strong>Paste:</strong> Weniger ist mehr.</li>
+                      <li><strong>ESD:</strong> Heizung anfassen vor dem Bau.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- === THEORY TAB === -->
+      <div class="tab-pane fade" id="theory-content" role="tabpanel">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <div class="card p-4 theory-section shadow-lg">
+              <div class="border-bottom pb-4 mb-4 text-center">
+                <h2 class="display-6 fw-bold text-dark">PC-Hardware Kompendium 2025</h2>
+                <p class="lead text-muted">Tiefgehendes Fachwissen für Enthusiasten und Einsteiger.</p>
+              </div>
+
+              <div class="accordion" id="accordionTheory">
+
+                <!-- 1. PROZESSOREN -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                      🧠 Prozessoren (CPU) – Das Gehirn
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionTheory">
+                    <div class="accordion-body">
+                      <div class="info-grid">
+                        <div class="info-card">
+                          <h5>Kerne & Threads</h5>
+                          <p class="small text-muted">
+                            Kerne sind physische Recheneinheiten. <strong>Hyperthreading/SMT</strong> teilt einen Kern in zwei virtuelle "Threads", um die Auslastung zu optimieren. Für Gaming reichen oft 6-8 Kerne, für Rendering sind 12+ Kerne empfehlenswert.
+                          </p>
+                        </div>
+                        <div class="info-card">
+                          <h5>Architektur: Intel vs. AMD</h5>
+                          <p class="small text-muted">
+                            <strong>Intel:</strong> Nutzt ab der 12. Gen ein "Hybrid-Design" aus starken P-Cores und effizienten E-Cores.<br>
+                            <strong>AMD:</strong> Setzt auf "Chiplets". Besonders die <strong>X3D-Modelle</strong> haben extra viel L3-Cache, was sie in Spielen extrem schnell macht.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2. GRAFIKKARTEN -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                      🎮 Grafikkarten (GPU) – Pixelpower & KI
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                    <div class="accordion-body">
+                      <div class="info-grid">
+                         <div class="info-card">
+                          <h5>VRAM (Videospeicher)</h5>
+                          <p class="small text-muted">
+                            • <strong>8 GB:</strong> Minimum für 1080p.<br>
+                            • <strong>12 GB:</strong> Empfohlen für 1440p (WQHD).<br>
+                            • <strong>16 GB+:</strong> Pflicht für 4K Gaming.
+                          </p>
+                        </div>
+                        <div class="info-card">
+                          <h5>Upscaling (DLSS / FSR)</h5>
+                          <p class="small text-muted">
+                            Die GPU berechnet das Bild in niedriger Auflösung und skaliert es per KI hoch (DLSS bei Nvidia, FSR bei AMD). Das bringt massiv mehr FPS.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                 <!-- 3. MAINBOARD & RAM -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                      🔌 Mainboard & Arbeitsspeicher (RAM)
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                    <div class="accordion-body">
+                      <div class="row">
+                        <div class="col-md-6 mb-3">
+                          <h5 class="text-primary">RAM Details</h5>
+                          <ul class="small text-muted">
+                            <li><strong>DDR4 vs DDR5:</strong> DDR5 ist der neue Standard (ab 6000 MT/s).</li>
+                            <li><strong>Latenz (CL):</strong> Niedriger ist besser (z.B. CL30).</li>
+                            <li><strong>Dual Channel:</strong> Immer 2 Riegel nutzen!</li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                          <h5 class="text-primary">Mainboard Chipsätze</h5>
+                          <ul class="small text-muted">
+                            <li><strong>AMD:</strong> B650 (Gamer) vs. X670 (Profi).</li>
+                            <li><strong>Intel:</strong> B760 (Gamer) vs. Z790 (OC).</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 4. SPEICHER -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                      💾 Massenspeicher (SSD) – NVMe & PCIe
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                    <div class="accordion-body">
+                      <p class="small text-muted">HDDs nur noch als Datengrab für Fotos/Videos nutzen.</p>
+                      <table class="table table-sm table-bordered text-center small">
+                        <thead class="table-light">
+                          <tr>
+                            <th>Technologie</th>
+                            <th>Geschwindigkeit</th>
+                            <th>Nutzung</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>SATA SSD</td>
+                            <td>~550 MB/s</td>
+                            <td>Budget / Alt-PC</td>
+                          </tr>
+                          <tr>
+                            <td>NVMe PCIe 4.0</td>
+                            <td>~7.000 MB/s</td>
+                            <td>Standard (PS5)</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+                 <!-- 5. NETZTEIL -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                      ⚡ Netzteil (PSU) – Effizienz & Sicherheit
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                    <div class="accordion-body">
+                      <div class="info-grid">
+                        <div class="info-card">
+                           <h5>80 PLUS Zertifizierung</h5>
+                           <p class="small text-muted mb-0">Gibt an, wie effizient das Netzteil Strom wandelt.</p>
+                           <ul class="small text-muted ps-3 mt-1">
+                             <li><strong>Gold:</strong> Standardempfehlung (87-90%)</li>
+                             <li><strong>Platinum:</strong> High-End, spart Strom (>92%)</li>
+                           </ul>
+                        </div>
+                        <div class="info-card">
+                          <h5>Headroom</h5>
+                          <p class="small text-muted">
+                            Kaufe immer ca. 20-30% mehr Watt als dein PC maximal braucht.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div> <!-- End Accordion -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Sticky Footer Price Bar -->
+  <div class="sticky-price-bar">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>
+        <div class="total-label">Gesamtpreis</div>
+        <small class="text-muted d-none d-md-block">Inkl. MwSt. (Schätzung)</small>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="total-price"><span id="total">0.00</span> €</span>
+        <button class="btn btn-primary btn-lg ms-4 shadow px-4 py-2" onclick="window.print()">
+          🖨️ Drucken
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skripte -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
