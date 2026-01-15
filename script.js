@@ -1,7 +1,7 @@
 /**
  * KONFIGURATION
  */
-const apiKey = "AIzaSyDhsBHrpDgfGze7Pw3MYL_QVIRRiNPSJTs"; 
+const apiKey = "AIzaSyDhsBHrpDgfGze7Pw3MYL_QVIRRiNPSJTs"; // API Key wird zur Laufzeit injected
 
 /**
  * FUNKTION: update(select)
@@ -83,6 +83,10 @@ function toggleLoading(show) {
 }
 
 async function callGemini(prompt) {
+    if (!apiKey) {
+         return "⚠️ Konfiguration: API Key fehlt.";
+    }
+    
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
     
     const payload = {

@@ -18,14 +18,12 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: var(--bg-body);
   color: var(--text-primary);
-  /* Wir nutzen flexbox für sticky footer, daher kein padding-bottom mehr nötig wenn Struktur stimmt,
-     aber wir behalten es sicherheitshalber für die fixierte Leiste */
 }
 
 /* === Header === */
 header {
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   margin-bottom: 2rem;
   border-bottom: 1px solid #334155;
@@ -36,10 +34,20 @@ header {
   letter-spacing: -0.5px;
 }
 
-.nav-link.active {
-    background-color: rgba(255,255,255,0.1) !important;
-    border: 1px solid rgba(255,255,255,0.2);
+.nav-pills .nav-link {
+    color: rgba(255,255,255,0.7);
+    transition: all 0.3s;
+}
+.nav-pills .nav-link:hover {
+    color: #fff;
+    background-color: rgba(255,255,255,0.05);
+}
+.nav-pills .nav-link.active {
+    background-color: rgba(255,255,255,0.15) !important;
+    border: 1px solid rgba(255,255,255,0.3);
     border-radius: 8px;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 /* === Footer === */
@@ -114,7 +122,6 @@ footer {
 }
 
 /* === EXPANDED MODE (MODAL) === */
-/* Hier wird der ganze Wrapper zum Overlay */
 .ai-result-wrapper.expanded {
     position: fixed;
     top: 50%;          
@@ -130,31 +137,28 @@ footer {
     box-shadow: 0 10px 50px rgba(0,0,0,0.5); 
     background-color: #ffffff;
     border: 2px solid #6366f1; 
-    padding: 0; /* Padding innen regeln wir anders */
+    padding: 0; 
     margin: 0; 
     border-radius: 12px; 
-    display: flex; /* Flexbox für bessere Struktur */
+    display: flex; 
     flex-direction: column;
 }
 
-/* Im Expanded Mode: Buttons Container fixieren */
 .ai-result-wrapper.expanded .ai-buttons-container {
     position: absolute;
     top: 15px;
     right: 20px;
 }
 
-/* Im Expanded Mode: Box anpassen */
 .ai-result-wrapper.expanded .ai-response-box {
     border: none;
     background-color: transparent;
-    max-height: none; /* Scrollbar übernimmt der Wrapper oder Box selbst */
+    max-height: none; 
     overflow-y: auto;
-    padding: 3rem 2rem 2rem 2rem; /* Platz für Buttons oben */
+    padding: 3rem 2rem 2rem 2rem; 
     flex-grow: 1;
 }
 
-/* Hintergrund abdunkeln (Backdrop) */
 .ai-result-wrapper.expanded::before {
     content: '';
     position: fixed;
@@ -164,7 +168,6 @@ footer {
     z-index: -1; 
 }
 
-/* Markdown Styling in der AI Antwort */
 .ai-response-box p:last-child { margin-bottom: 0; }
 .ai-response-box ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 .ai-response-box h1, .ai-response-box h2 { 
@@ -314,6 +317,7 @@ footer {
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
+/* === Expert Accordion Styles === */
 .accordion-button:not(.collapsed) {
   background-color: #e2e8f0;
   color: var(--text-primary);
@@ -321,10 +325,22 @@ footer {
 }
 .accordion-item {
   border: 1px solid #e2e8f0;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   border-radius: 8px !important;
   overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
 }
+
+.accordion-body img {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+    transition: transform 0.3s;
+}
+.accordion-body img:hover {
+    transform: scale(1.02);
+}
+
 .info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -335,4 +351,14 @@ footer {
   padding: 1.5rem;
   border-radius: 8px;
   border: 1px solid #e2e8f0;
+}
+
+.source-badge {
+    font-size: 0.75rem;
+    background: #e2e8f0;
+    color: #475569;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-weight: 600;
 }

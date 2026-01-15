@@ -3,12 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PC-Konfigurator AI-Powered</title>
+  <title>PC-Konfigurator Ultimate AI</title>
   
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome für Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
@@ -23,7 +26,7 @@
             <span style="font-size: 2.2rem; margin-right: 15px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">🚀</span> 
             <span class="fw-bold" style="font-size: 1.8rem; letter-spacing: -0.5px;">PC-Konfigurator</span>
           </div>
-          <span class="text-white-50 small ms-5 ps-2" style="margin-top: -5px;">    Hardware Builder</span>
+          <span class="text-white-50 small ms-5 ps-2" style="margin-top: -5px;">Hardware Builder Ultimate</span>
         </a>
         
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -31,15 +34,15 @@
         </button>
         
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav nav-pills ms-auto gap-2" id="myTab" role="tablist">
+          <ul class="nav nav-pills ms-auto gap-2 align-items-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active px-4 py-2 fw-semibold" id="builder-tab" data-bs-toggle="tab" data-bs-target="#builder-content" type="button" role="tab">
-                🛠 Konfigurator
+                <i class="fas fa-tools me-2"></i>Konfigurator
               </button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link px-4 py-2 fw-semibold" id="theory-tab" data-bs-toggle="tab" data-bs-target="#theory-content" type="button" role="tab">
-                📚 Experten-Wissen
+                <i class="fas fa-book-open me-2"></i>Experten-Wissen
               </button>
             </li>
           </ul>
@@ -259,10 +262,15 @@
       <div class="tab-pane fade" id="theory-content" role="tabpanel">
         <div class="row">
           <div class="col-lg-12 mx-auto">
-            <div class="card p-4 theory-section shadow-lg">
-              <div class="border-bottom pb-4 mb-4 text-center">
-                <h2 class="display-6 fw-bold text-dark">PC-Hardware Kompendium 2025</h2>
-                <p class="lead text-muted">Tiefgehendes Fachwissen für Enthusiasten und Einsteiger.</p>
+            <div class="card p-4 theory-section shadow-lg border-0">
+              
+              <div class="text-center mb-5 pb-3 border-bottom">
+                  <h2 class="display-6 fw-bold text-dark mb-2">PC-Hardware Kompendium</h2>
+                  <p class="lead text-muted">Umfassendes Fachwissen von A wie "Airflow" bis Z wie "Z-Chipsatz".</p>
+                  <div class="mt-3">
+                      <span class="badge bg-light text-dark border me-2">Stand: 2026</span>
+                      <span class="badge bg-light text-dark border">Level: Experte</span>
+                  </div>
               </div>
 
               <div class="accordion" id="accordionTheory">
@@ -270,32 +278,40 @@
                 <!-- 1. PROZESSOREN -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
                       🧠 Prozessoren (CPU) – Das Herzstück
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionTheory">
-                    <div class="accordion-body">
+                    <div class="accordion-body bg-light">
+                      <div class="row align-items-center mb-4">
+                          <div class="col-md-8">
+                              <h5 class="text-primary mb-3">Kerne & Threads verstehen</h5>
+                              <p class="text-muted">
+                                Die CPU ist die Zentraleinheit. Physische <strong>Kerne</strong> erledigen die Arbeit. <strong>Threads</strong> sind virtuelle Kerne (Hyperthreading bei Intel, SMT bei AMD), die die Effizienz steigern.
+                                <br><br>
+                                <i class="fas fa-gamepad text-secondary me-2"></i><strong>Gaming:</strong> 6-8 Kerne sind der "Sweetspot".
+                                <br>
+                                <i class="fas fa-video text-secondary me-2"></i><strong>Produktivität:</strong> Video-Editing profitiert von 12+ Kernen.
+                              </p>
+                          </div>
+                          <div class="col-md-4">
+                              <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="CPU Chip Nahaufnahme">
+                          </div>
+                      </div>
+                      
                       <div class="info-grid">
-                        <div class="info-card">
-                          <h5>Kerne & Threads</h5>
-                          <p class="small text-muted">
-                            Die CPU ist die Zentraleinheit. Physische <strong>Kerne</strong> erledigen die Arbeit. <strong>Threads</strong> sind virtuelle Kerne (Hyperthreading bei Intel, SMT bei AMD), die die Effizienz steigern.
-                            <br>• <strong>Gaming:</strong> 6-8 Kerne sind ideal. Viele Spiele nutzen nicht mehr als 8 Kerne effektiv.
-                            <br>• <strong>Produktivität:</strong> Video-Editing, 3D-Rendering und Kompilieren profitieren massiv von 12+ Kernen.
+                        <div class="info-card bg-white">
+                          <h6 class="fw-bold"><i class="fas fa-microchip me-2"></i>Architektur-Vergleich</h6>
+                          <p class="small text-muted mb-0">
+                            <strong>Intel (Hybrid):</strong> Kombiniert P-Cores (Power) für Spiele mit E-Cores (Efficiency) für Hintergrundlast. Benötigt oft Windows 11 für optimales Scheduling.<br>
+                            <strong>AMD (X3D):</strong> Die "3D V-Cache" Modelle haben einen riesigen Cache direkt auf dem Chip. Das reduziert Latenzen massiv und macht sie zu den aktuell schnellsten Gaming-CPUs.
                           </p>
                         </div>
-                        <div class="info-card">
-                          <h5>Architekturen im Vergleich</h5>
-                          <p class="small text-muted">
-                            <strong>Intel (Hybrid):</strong> Kombiniert starke P-Cores (Performance) für Spiele mit sparsamen E-Cores (Efficiency) für Hintergrundaufgaben (Discord, Browser). Erfordert Windows 11 für optimales Scheduling.<br>
-                            <strong>AMD (Chiplet):</strong> Baut CPUs aus kleineren Modulen. Die <strong>X3D-Modelle</strong> besitzen einen riesigen gestapelten L3-Cache ("3D V-Cache"), der Daten schneller bereitstellt als der RAM. Das macht sie zur absoluten Speerspitze für Gamer.
-                          </p>
-                        </div>
-                        <div class="info-card">
-                          <h5>Takt & IPC</h5>
-                          <p class="small text-muted">
-                            Gigahertz (GHz) sind nicht alles. Die <strong>IPC (Instructions Per Clock)</strong> bestimmt, wie viele Befehle die CPU pro Taktzyklus abarbeiten kann. Eine moderne CPU mit 4 GHz ist oft deutlich schneller als eine 5 Jahre alte CPU mit 5 GHz, einfach weil sie effizienter arbeitet.
+                        <div class="info-card bg-white">
+                          <h6 class="fw-bold"><i class="fas fa-tachometer-alt me-2"></i>Takt vs. IPC</h6>
+                          <p class="small text-muted mb-0">
+                            Gigahertz (GHz) sind nicht alles. Die <strong>IPC (Instructions Per Clock)</strong> bestimmt, wie viele Befehle pro Takt erledigt werden. Eine 4 GHz CPU von heute schlägt eine 5 GHz CPU von 2018 deutlich.
                           </p>
                         </div>
                       </div>
@@ -306,38 +322,40 @@
                 <!-- 2. GRAFIKKARTEN -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
                       🎮 Grafikkarten (GPU) – Pixelpower & KI
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
-                    <div class="accordion-body">
+                    <div class="accordion-body bg-light">
+                      <div class="row mb-4">
+                          <div class="col-md-4 order-md-2 mb-3 mb-md-0">
+                               <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="Modern Graphics Card">
+                          </div>
+                          <div class="col-md-8 order-md-1">
+                              <h5 class="text-primary">VRAM & Auflösung</h5>
+                              <p class="text-muted">
+                                Der Videospeicher ist entscheidend für Texturen.
+                                <ul class="list-unstyled mt-2">
+                                    <li class="mb-2"><span class="badge bg-secondary me-2">8 GB</span> Minimum für 1080p.</li>
+                                    <li class="mb-2"><span class="badge bg-secondary me-2">12 GB</span> Empfohlen für WQHD (1440p).</li>
+                                    <li><span class="badge bg-primary me-2">16 GB+</span> Pflicht für 4K Gaming.</li>
+                                </ul>
+                              </p>
+                          </div>
+                      </div>
+
                       <div class="info-grid">
-                         <div class="info-card">
-                          <h5>VRAM (Videospeicher)</h5>
-                          <p class="small text-muted">
-                            Hier werden Texturen und Geometriedaten zwischengespeichert. Ist der VRAM voll, ruckelt das Spiel extrem ("Nachladeruckler").
-                            <br>• <strong>8 GB:</strong> Minimum für Full HD (1080p). Oft schon grenzwertig bei neuen Titeln.
-                            <br>• <strong>12 GB:</strong> Empfohlen für WQHD (1440p).
-                            <br>• <strong>16 GB+:</strong> Pflicht für 4K Gaming und Zukunftssicherheit.
+                        <div class="info-card bg-white">
+                          <h6 class="fw-bold">🚀 Upscaling (DLSS/FSR)</h6>
+                          <p class="small text-muted mb-0">
+                            Das Spiel wird intern kleiner berechnet (z.B. 720p) und per KI auf 1440p hochskaliert. Das bringt oft 30-50% mehr FPS bei fast gleicher Qualität.
                           </p>
                         </div>
-                        <div class="info-card">
-                          <h5>Upscaling & KI</h5>
-                          <p class="small text-muted">
-                            Technologien wie <strong>NVIDIA DLSS</strong>, <strong>AMD FSR</strong> und <strong>Intel XeSS</strong> rendern das Spiel intern in einer niedrigeren Auflösung (z.B. 720p) und skalieren es per KI auf deine Monitorauflösung (z.B. 1440p) hoch. Das entlastet die GPU und bringt massiv mehr FPS bei oft fast identischer Bildqualität.
-                          </p>
-                        </div>
-                        <div class="info-card">
-                          <h5>Raytracing (RT) & Path Tracing</h5>
-                          <p class="small text-muted">
-                            Simuliert physikalisch korrektes Licht (realistische Schatten, Spiegelungen in Pfützen, globale Beleuchtung). Sieht fantastisch aus, kostet aber extrem viel Leistung. Nvidia-Karten haben hier aktuell durch spezielle "RT-Cores" einen deutlichen Vorsprung vor AMD.
-                          </p>
-                        </div>
-                        <div class="info-card">
-                          <h5>Speicherbus & Bandbreite</h5>
-                          <p class="small text-muted">
-                            Nicht nur die Menge an VRAM zählt, sondern wie schnell er angebunden ist. Ein schmales Interface (z.B. 128-bit) kann bei hohen Auflösungen (4K) zum Flaschenhals werden, selbst wenn der Chip schnell genug wäre.
+                        <div class="info-card bg-white">
+                          <h6 class="fw-bold">💡 Raytracing</h6>
+                          <p class="small text-muted mb-0">
+                            Simuliert physikalisches Licht (Schatten, Spiegelungen). Nvidia ("RTX") hat hier durch spezielle Hardware-Kerne aktuell noch Vorteile gegenüber AMD.
                           </p>
                         </div>
                       </div>
@@ -348,33 +366,39 @@
                  <!-- 3. MAINBOARD & RAM -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
                       🔌 Mainboard & Arbeitsspeicher (RAM)
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
-                    <div class="accordion-body">
+                    <div class="accordion-body bg-light">
                       <div class="row">
                         <div class="col-md-6 mb-3">
-                          <h5 class="text-primary">RAM (Kurzzeitgedächtnis)</h5>
-                          <ul class="small text-muted">
-                            <li><strong>Dual Channel:</strong> Immer 2 oder 4 Riegel nutzen (Kit), nie nur einen einzelnen Stick! Das verdoppelt die Datenbandbreite zur CPU.</li>
-                            <li><strong>DDR4 vs DDR5:</strong> DDR5 ist der aktuelle Standard mit höherer Geschwindigkeit (ab 6000 MT/s). Er hat integrierte Fehlerkorrektur (On-die ECC).</li>
-                            <li><strong>Latenz (CL):</strong> Die CAS Latency gibt an, wie viele Taktzyklen der RAM braucht, um auf eine Anfrage zu reagieren. Niedriger ist besser. CL30 ist bei DDR5-6000 ein sehr guter Wert ("Sweetspot" für AMD Ryzen).</li>
-                            <li><strong>XMP / EXPO:</strong> RAM läuft standardmäßig oft langsam. Man muss im BIOS das XMP (Intel) oder EXPO (AMD) Profil aktivieren, um die beworbene Geschwindigkeit zu erreichen.</li>
-                          </ul>
+                          <div class="card h-100 border-0 shadow-sm">
+                              <img src="https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="RAM Sticks" style="height: 150px; object-fit: cover;">
+                              <div class="card-body">
+                                  <h5 class="text-primary card-title">RAM (Kurzzeitgedächtnis)</h5>
+                                  <ul class="small text-muted list-unstyled">
+                                    <li class="mb-2">⚡ <strong>Dual Channel:</strong> Immer 2 Riegel nutzen für doppelte Bandbreite.</li>
+                                    <li class="mb-2">🆕 <strong>DDR5:</strong> Der neue Standard (ab 6000 MT/s).</li>
+                                    <li class="mb-2">⏱ <strong>Latenz (CL):</strong> CL30 ist der "Sweetspot" für DDR5-6000.</li>
+                                    <li>⚙️ <strong>XMP/EXPO:</strong> Muss im BIOS aktiviert werden, sonst läuft der RAM langsam!</li>
+                                  </ul>
+                              </div>
+                          </div>
                         </div>
                         <div class="col-md-6 mb-3">
-                          <h5 class="text-primary">Mainboard (Nervensystem)</h5>
-                          <ul class="small text-muted">
-                            <li><strong>Sockel:</strong> Muss mechanisch zur CPU passen (z.B. AM5 für Ryzen 7000/9000, LGA1700 für Intel 12/13/14. Gen).</li>
-                            <li><strong>Chipsatz:</strong> 
-                                <br>- <strong>B-Serie (B650/B760):</strong> Die Vernunftwahl. Bietet fast alle Features, erlaubt aber oft weniger PCIe-Lanes.
-                                <br>- <strong>Z/X-Serie (Z790/X670):</strong> Für Enthusiasten. Mehr USB-Ports, mehr M.2 Slots und volle Übertaktungsfunktionen.
-                            </li>
-                            <li><strong>VRMs (Spannungswandler):</strong> Wichtig für High-End CPUs. Gute VRMs mit Kühlkörpern sorgen dafür, dass die CPU auch unter Volllast stabil mit Strom versorgt wird und nicht drosselt.</li>
-                            <li><strong>Formfaktor:</strong> ATX (Standard), Micro-ATX (Kleiner, oft günstiger, weniger PCIe Slots), Mini-ITX (Winzig, für SFF Builds).</li>
-                          </ul>
+                           <div class="card h-100 border-0 shadow-sm">
+                              <div class="card-body">
+                                  <h5 class="text-primary card-title">Mainboard (Nervensystem)</h5>
+                                  <ul class="small text-muted">
+                                    <li class="mb-2"><strong>Chipsatz B-Serie:</strong> Vernunftwahl. Bietet fast alles für Gamer.</li>
+                                    <li class="mb-2"><strong>Chipsatz Z/X-Serie:</strong> Für Übertakter & Profis mit vielen Laufwerken.</li>
+                                    <li class="mb-2"><strong>VRMs:</strong> Spannungswandler sollten Kühlkörper haben.</li>
+                                    <li><strong>Formfaktor:</strong> ATX ist Standard, mATX ist oft günstiger.</li>
+                                  </ul>
+                              </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -384,156 +408,207 @@
                 <!-- 4. SPEICHER -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
                       💾 Massenspeicher (SSD) – NVMe & PCIe
                     </button>
                   </h2>
                   <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
-                    <div class="accordion-body">
-                      <p class="small text-muted">Alte HDDs (Festplatten mit rotierenden Scheiben) sind laut, langsam und anfällig. Sie taugen nur noch als günstiges Datengrab für Fotos/Videos, haben aber im Gaming-PC für Programme nichts mehr verloren.</p>
-                      <table class="table table-sm table-bordered text-center small">
-                        <thead class="table-light">
-                          <tr>
-                            <th>Technologie</th>
-                            <th>Geschwindigkeit</th>
-                            <th>Einsatzzweck & Info</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>SATA SSD</td>
-                            <td>~550 MB/s</td>
-                            <td>Budget-PCs, Aufrüsten alter Laptops. Wird per Kabel angeschlossen.</td>
-                          </tr>
-                          <tr>
-                            <td>NVMe PCIe 3.0</td>
-                            <td>~3.500 MB/s</td>
-                            <td>Preis-Leistungs-Tipp. Für Spiele kaum spürbar langsamer als Gen 4.</td>
-                          </tr>
-                          <tr>
-                            <td>NVMe PCIe 4.0</td>
-                            <td>~7.000 MB/s</td>
-                            <td>Der aktuelle Standard (auch in PS5). Unterstützt <strong>DirectStorage</strong> für extrem schnelle Ladezeiten in unterstützten Spielen.</td>
-                          </tr>
-                          <tr>
-                            <td>NVMe PCIe 5.0</td>
-                            <td>~12.000+ MB/s</td>
-                            <td>Enthusiasten. Extrem teuer und wird im Betrieb sehr heiß (benötigt massiven Kühler). Nur für professionelle Workstations sinnvoll.</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <div class="accordion-body bg-light">
+                        <div class="row align-items-center mb-3">
+                            <div class="col-md-3">
+                                <img src="https://images.unsplash.com/photo-1628135822668-384c7188701e?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="M.2 SSD">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="small text-muted">Alte HDDs sind für Spiele tot. NVMe SSDs sind der Standard.</p>
+                                <table class="table table-sm table-bordered bg-white small mb-0">
+                                    <thead class="table-light">
+                                    <tr>
+                                        <th>Tech</th>
+                                        <th>Tempo</th>
+                                        <th>Fazit</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>SATA SSD</td>
+                                        <td>~550 MB/s</td>
+                                        <td>Nur noch für alte PCs.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>NVMe PCIe 4.0</strong></td>
+                                        <td>~7.000 MB/s</td>
+                                        <td><strong>Der aktuelle Standard.</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>NVMe PCIe 5.0</td>
+                                        <td>~12.000+ MB/s</td>
+                                        <td>Teuer & heiß. Nur für Profis.</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                   </div>
                 </div>
 
-                 <!-- 5. NETZTEIL -->
+                <!-- 5. MONITORE -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingMonitor">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMonitor">
+                        🖥️ Monitore & Displays – Das Fenster zur Welt
+                      </button>
+                    </h2>
+                    <div id="collapseMonitor" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                      <div class="accordion-body bg-light">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6 class="fw-bold text-dark">Panel-Technologien</h6>
+                                <ul class="list-group list-group-flush small mb-3">
+                                    <li class="list-group-item bg-transparent"><strong>IPS:</strong> Beste Farben, gute Blickwinkel. Der Standard für Gamer.</li>
+                                    <li class="list-group-item bg-transparent"><strong>VA:</strong> Bester Kontrast (Schwarz ist Schwarz), aber oft "Ghosting" bei schnellen Bewegungen.</li>
+                                    <li class="list-group-item bg-transparent"><strong>OLED:</strong> Perfektes Schwarz, extrem schnell, aber teuer und Gefahr von "Burn-in".</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="fw-bold text-dark">Hertz & Auflösung</h6>
+                                <p class="small text-muted">
+                                    <strong>144 Hz / 165 Hz:</strong> Ist heute Pflicht für Gaming. Das Bild ist viel ruhiger und flüssiger als bei 60 Hz.
+                                    <br><br>
+                                    <strong>Auflösungs-Guide:</strong>
+                                    <br>• 24 Zoll ➔ 1080p (Full HD)
+                                    <br>• 27 Zoll ➔ 1440p (WQHD) - <em>Empfehlung!</em>
+                                    <br>• 32+ Zoll ➔ 4K (UHD)
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                 <!-- 6. PERIPHERIE -->
+                 <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingPeripherie">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeripherie">
+                        ⌨️ Peripherie – Maus & Tastatur
+                      </button>
+                    </h2>
+                    <div id="collapsePeripherie" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                      <div class="accordion-body bg-light">
+                        <div class="info-grid">
+                            <div class="info-card bg-white">
+                                <h6>Mechanische Tastaturen</h6>
+                                <p class="small text-muted mb-0">
+                                    <strong>Red Switches (Linear):</strong> Kein Klick, schnell, beliebt bei Gamern.<br>
+                                    <strong>Blue Switches (Clicky):</strong> Lautes Klicken, gut für Vielschreiber.<br>
+                                    <strong>Brown Switches (Tactile):</strong> Spürbarer Widerstand, aber leise. Der Allrounder.
+                                </p>
+                            </div>
+                            <div class="info-card bg-white">
+                                <h6>Gaming Mäuse</h6>
+                                <p class="small text-muted mb-0">
+                                    <strong>DPI:</strong> Hohe Zahlen (20.000+) sind Marketing. Wichtiger ist ein fehlerfreier Sensor.<br>
+                                    <strong>Gewicht:</strong> Der Trend geht zu ultraleichten Mäusen (< 60g) für Shooter.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                 <!-- 7. NETZTEIL -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
                       ⚡ Netzteil (PSU) – Das Kraftwerk
                     </button>
                   </h2>
                   <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
-                    <div class="accordion-body">
-                      <div class="info-grid">
-                        <div class="info-card">
-                           <h5>80 PLUS Zertifizierung</h5>
-                           <p class="small text-muted mb-0">Wie effizient wird Strom aus der Steckdose umgewandelt?</p>
-                           <ul class="small text-muted ps-3 mt-1">
-                             <li><strong>White/Bronze:</strong> Budget-Klasse. Oft ältere Technik.</li>
-                             <li><strong>Gold:</strong> Der "Gold-Standard". Gute Effizienz (ca. 90%), hochwertige Bauteile, faire Preise.</li>
-                             <li><strong>Platinum/Titanium:</strong> High-End, spart langfristig Strom, oft semi-passiv (Lüfter aus bei geringer Last).</li>
-                           </ul>
+                    <div class="accordion-body bg-light">
+                        <p class="small text-muted">Niemals am Netzteil sparen! Wenn es stirbt, kann es den ganzen PC mit in den Tod reißen.</p>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="p-3 bg-white border rounded h-100">
+                                    <strong>80 PLUS Gold</strong>
+                                    <p class="small text-muted mb-0 mt-1">Gute Effizienz (90%), hochwertige Bauteile. Der Standard.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="p-3 bg-white border rounded h-100">
+                                    <strong>ATX 3.0 / 12VHPWR</strong>
+                                    <p class="small text-muted mb-0 mt-1">Wichtig für neue Nvidia-Karten. Ein Kabel statt Adapter-Chaos.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="info-card">
-                          <h5>ATX 3.0 / 3.1 & 12VHPWR</h5>
-                          <p class="small text-muted">
-                            Der neue Standard für moderne GPUs. Netzteile haben nativ den <strong>12VHPWR-Stecker</strong> (12+4 Pin). Dieser einzelne Stecker kann Grafikkarten mit bis zu 600 Watt versorgen und kommuniziert mit der GPU über Leistungsspitzen – kein Adapter-Chaos mehr!
-                          </p>
-                        </div>
-                        <div class="info-card">
-                          <h5>Sicherheit & Schutzschaltungen</h5>
-                          <p class="small text-muted">
-                            Ein gutes Netzteil ist die Lebensversicherung für den PC. Wichtige Schutzschaltungen:
-                            <br>• <strong>OVP/UVP:</strong> Überspannungs-/Unterspannungsschutz.
-                            <br>• <strong>SCP:</strong> Kurzschlussschutz.
-                            <br>• <strong>OPP:</strong> Überlastschutz.
-                            <br>Billige "China-Böller" sparen hier oft – Brandgefahr!
-                          </p>
-                        </div>
-                        <div class="info-card">
-                          <h5>Modularität</h5>
-                          <p class="small text-muted">
-                            <strong>Vollmodular:</strong> Alle Kabel sind abnehmbar. Das macht den Bau viel einfacher und sauberer (Cable Management), da man nur die Kabel im Gehäuse hat, die man wirklich braucht.
-                          </p>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
 
-                <!-- 6. GEHÄUSE & KÜHLUNG (NEU) -->
+                <!-- 8. HÄUFIGE FRAGEN (FAQ) - INTEGRIERT -->
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingSix">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix">
-                      ❄️ Gehäuse & Kühlung – Airflow ist alles
+                  <h2 class="accordion-header" id="headingFAQ">
+                    <button class="accordion-button collapsed fw-bold bg-warning-subtle text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ">
+                      ❓ Häufige Fragen & Probleme (FAQ)
                     </button>
                   </h2>
-                  <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
-                    <div class="accordion-body">
-                      <div class="row">
-                        <div class="col-md-6 mb-3">
-                          <h5 class="text-primary">Airflow-Konzepte</h5>
-                          <p class="small text-muted">
-                            <strong>Mesh-Front:</strong> Ein Gitter vorne lässt viel Luft rein. Beste Kühlleistung.
-                            <br><strong>Glas-Front:</strong> Sieht schick aus, blockiert aber Luft. Lüfter müssen seitlich Luft ziehen (oft wärmer).
-                            <br><strong>Positive Pressure:</strong> Mehr Lüfter blasen rein als raus. Verhindert Staubeintritt durch Ritzen.
-                          </p>
+                  <div id="collapseFAQ" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                    <div class="accordion-body bg-white">
+                        <div class="mb-3">
+                            <strong class="text-primary">Hilfe, mein PC startet nicht! (Schwarzer Bildschirm)</strong>
+                            <p class="small text-muted">Prüfe die Debug-LEDs am Mainboard. Steckt das Monitor-Kabel in der Grafikkarte (unten) und nicht im Mainboard? Sitzt der RAM fest?</p>
                         </div>
-                        <div class="col-md-6 mb-3">
-                          <h5 class="text-primary">Luft vs. Wasser (AIO)</h5>
-                          <p class="small text-muted">
-                            <strong>Luftkühler:</strong> Zuverlässig (kann nicht auslaufen), günstig, hält ewig. Große Modelle kühlen fast so gut wie Wasser.
-                            <br><strong>AIO (All-in-One Wasserkühlung):</strong> Sieht cleaner aus, transportiert Hitze direkt aus dem Gehäuse (wenn Radiator oben/vorne). Pumpe kann aber brummen und verschleißen.
-                          </p>
+                        <div class="mb-3">
+                            <strong class="text-primary">Mein RAM läuft nur langsam (4800 MHz)</strong>
+                            <p class="small text-muted">Aktiviere im BIOS das <strong>XMP</strong> (Intel) oder <strong>EXPO</strong> (AMD) Profil.</p>
                         </div>
-                      </div>
+                        <div class="mb-3">
+                            <strong class="text-primary">Windows 10 oder 11?</strong>
+                            <p class="small text-muted">Für neue Intel CPUs (ab 12. Gen) ist Windows 11 Pflicht wegen der E-Core Steuerung.</p>
+                        </div>
                     </div>
                   </div>
                 </div>
 
-                <!-- 7. QUELLEN & LINKS -->
+                <!-- 9. QUELLEN & LINKS -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingSeven">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
-                      🔗 Weiterführende Quellen & Tools
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                      🔗 Weiterführende Quellen & YouTube
                     </button>
                   </h2>
                   <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
                     <div class="accordion-body">
-                      <p class="small text-muted">Hier findest du vertrauenswürdige Seiten für Tests und Konfigurationen.</p>
-                      <ul class="list-group list-group-flush small">
+                      <p class="small text-muted">Vertrauenswürdige Quellen für tiefergehende Recherche.</p>
+                      
+                      <h6 class="text-uppercase text-secondary small fw-bold mt-3 mb-2">Webseiten & Foren</h6>
+                      <ul class="list-group list-group-flush small mb-3">
                         <li class="list-group-item">
-                            <strong>🇩🇪 ComputerBase:</strong> <a href="https://www.computerbase.de/forum/threads/der-ideale-gaming-pc-spiele-pc-selbst-zusammenstellen.215394/" target="_blank">Der ideale Gaming-PC (Forum FAQ)</a> 
-                            <br><span class="text-muted">Der Gold-Standard in Deutschland. Perfekt gepflegte Listen für jedes Budget.</span>
+                            <span class="source-badge">DE</span> <strong>ComputerBase:</strong> <a href="https://www.computerbase.de/forum/threads/der-ideale-gaming-pc-spiele-pc-selbst-zusammenstellen.215394/" target="_blank">Der ideale Gaming-PC (Forum FAQ)</a> 
                         </li>
                         <li class="list-group-item">
-                            <strong>🇩🇪 HardwareLuxx:</strong> <a href="https://www.hardwareluxx.de/" target="_blank">News & Tests</a> 
-                            <br><span class="text-muted">Sehr tiefgehende technische Analysen und eine große Community.</span>
+                            <span class="source-badge">DE</span> <strong>HardwareLuxx:</strong> <a href="https://www.hardwareluxx.de/" target="_blank">News & Tests</a> 
                         </li>
                         <li class="list-group-item">
-                            <strong>🇺🇸 PCPartPicker:</strong> <a href="https://pcpartpicker.com/" target="_blank">System Builder</a> 
-                            <br><span class="text-muted">Das beste Tool weltweit, um Kompatibilität (z.B. Kühlerhöhe, GPU-Länge) automatisch zu prüfen.</span>
-                        </li>
-                        <li class="list-group-item">
-                            <strong>🇩🇪 Igor's Lab:</strong> <a href="https://www.igorslab.de/" target="_blank">Tech-Analysen</a> 
-                            <br><span class="text-muted">Extrem detaillierte Analysen, besonders zu Grafikkarten-Platinen und Netzteilen.</span>
-                        </li>
-                        <li class="list-group-item">
-                            <strong>🇺🇸 Gamers Nexus (YouTube):</strong> <a href="https://www.youtube.com/user/GamersNexus" target="_blank">Channel</a> 
-                            <br><span class="text-muted">Die Adresse für wissenschaftlich fundierte Gehäuse- und Lüftertests.</span>
+                            <span class="source-badge">US</span> <strong>PCPartPicker:</strong> <a href="https://pcpartpicker.com/" target="_blank">Kompatibilitäts-Checker</a> 
                         </li>
                       </ul>
+
+                      <h6 class="text-uppercase text-secondary small fw-bold mt-3 mb-2">YouTube Kanäle (Empfohlen)</h6>
+                      <ul class="list-group list-group-flush small">
+                          <li class="list-group-item">
+                              <span class="source-badge">US</span> <strong>Gamers Nexus:</strong> <a href="https://www.youtube.com/user/GamersNexus" target="_blank">Wissenschaftliche Analysen</a> (Sehr technisch)
+                          </li>
+                          <li class="list-group-item">
+                              <span class="source-badge">US</span> <strong>Hardware Unboxed:</strong> <a href="https://www.youtube.com/channel/UCI8iQa1hv7Kuo_7uz6QCuVQ" target="_blank">Beste Monitor- & GPU-Tests</a>
+                          </li>
+                           <li class="list-group-item">
+                              <span class="source-badge">DE</span> <strong>Der8auer:</strong> <a href="https://www.youtube.com/user/der8auer" target="_blank">Overclocking & Hardware-Checks</a>
+                          </li>
+                           <li class="list-group-item">
+                              <span class="source-badge">DE</span> <strong>Igor's Lab:</strong> <a href="https://www.igorslab.de/" target="_blank">Tiefenanalyse & Elektronik</a>
+                          </li>
+                      </ul>
+
                     </div>
                   </div>
                 </div>
@@ -565,9 +640,8 @@
         <div class="col-md-4 mb-4">
           <h5 class="text-uppercase fw-bold text-primary mb-3">Links</h5>
           <ul class="list-unstyled small">
-            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-white">Startseite</a></li>
-            <li class="mb-2"><a href="#builder-content" class="text-white-50 text-decoration-none hover-white">Konfigurator</a></li>
-            <li class="mb-2"><a href="#theory-content" class="text-white-50 text-decoration-none hover-white">Experten-Wissen</a></li>
+            <li class="mb-2"><a href="#" onclick="document.getElementById('builder-tab').click()" class="text-white-50 text-decoration-none hover-white">Konfigurator</a></li>
+            <li class="mb-2"><a href="#" onclick="document.getElementById('theory-tab').click()" class="text-white-50 text-decoration-none hover-white">Experten-Wissen</a></li>
             <li class="mb-2"><a href="https://www.idealo.de" target="_blank" class="text-white-50 text-decoration-none hover-white">Preisvergleich</a></li>
           </ul>
         </div>
@@ -601,7 +675,7 @@
       <div class="d-flex align-items-center">
         <span class="total-price"><span id="total">0.00</span> €</span>
         <button class="btn btn-primary btn-lg ms-4 shadow px-4 py-2" onclick="window.print()">
-          🖨️ Drucken
+          <i class="fas fa-print me-2"></i>Drucken
         </button>
       </div>
     </div>
@@ -610,6 +684,7 @@
   <!-- Skripte -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  
   <script src="script.js"></script>
 </body>
 </html>
