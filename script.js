@@ -1,7 +1,8 @@
 /**
  * KONFIGURATION
  */
-const apiKey = "AIzaSyDhsBHrpDgfGze7Pw3MYL_QVIRRiNPSJTs"; // API Key wird zur Laufzeit injected
+// API Key wird jetzt aus config.js geladen
+const apiKey = typeof CONFIG !== 'undefined' ? CONFIG.GEMINI_API_KEY : ""; 
 
 /**
  * FUNKTION: update(select)
@@ -84,7 +85,7 @@ function toggleLoading(show) {
 
 async function callGemini(prompt) {
     if (!apiKey) {
-         return " Konfiguration: API Key fehlt.";
+         return " Konfiguration: API Key fehlt. Stelle sicher, dass config.js geladen wird.";
     }
     
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
