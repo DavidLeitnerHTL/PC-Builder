@@ -1,14 +1,141 @@
-
 /**
  * KONFIGURATION
  */
-// API Key wird jetzt aus config.js geladen
 const apiKey = typeof CONFIG !== 'undefined' ? CONFIG.GEMINI_API_KEY : ""; 
+
+// Flag um zu prüfen, ob gerade ein Preset geladen wird
+let isPresetLoading = false;
+
+/**
+ * PRESETS (Vorauswahlen für 2026 Hardware)
+ */
+const PRESETS = {
+    budget: {
+        cpu: "Ryzen 5 9600X",
+        cooler: "Peerless Assassin",
+        mb: "MSI B650",
+        gpu: "RTX 5060",  
+        ram: "Vengeance",
+        ssd: "SN770",
+        psu: "Pure Power 12 M",
+        case: "Arx 700"
+    },
+    midrange: {
+        cpu: "Ryzen 7 9800X3D",
+        cooler: "Dark Rock Elite",
+        mb: "B850",
+        gpu: "RTX 5070",
+        ram: "Trident Z5",
+        ssd: "Samsung 990 Pro",
+        psu: "Vertex GX-1000",
+        case: "North XL"
+    },
+    highend: {
+        cpu: "Ryzen 9 9950X3D",
+        cooler: "Liquid Freezer III",
+        mb: "X870E",
+        gpu: "RTX 5090", 
+        ram: "Dominator Titanium",
+        ssd: "T705",
+        psu: "Dark Power Pro",
+        case: "Hyte Y70"
+    }
+};
+
+/**
+ * Hilfsfunktion: Setzt alle Preset-Buttons auf den Normalzustand zurück
+ */
+function resetPresetButtons() {
+    const btnBudget = document.getElementById('preset-budget');
+    const btnMid = document.getElementById('preset-midrange');
+    const btnHigh = document.getElementById('preset-highend');
+
+    // Budget: grün
+    if (btnBudget) {
+        btnBudget.classList.remove('btn-success');
+        btnBudget.classList.add('btn-outline-success');
+    }
+    // Midrange: blau
+    if (btnMid) {
+        btnMid.classList.remove('btn-primary');
+        btnMid.classList.add('btn-outline-primary');
+    }
+    // Highend: rot
+    if (btnHigh) {
+        btnHigh.classList.remove('btn-danger');
+        btnHigh.classList.add('btn-outline-danger');
+    }
+}
+
+/**
+ * Hilfsfunktion: Setzt einen bestimmten Button auf "Aktiv" (gefüllt)
+ */
+function activatePresetButton(type) {
+    resetPresetButtons(); // Erstmal alle zurücksetzen
+    
+    let btn;
+    let colorClass;
+    
+    if (type === 'budget') {
+        btn = document.getElementById('preset-budget');
+        colorClass = 'success';
+    } else if (type === 'midrange') {
+        btn = document.getElementById('preset-midrange');
+        colorClass = 'primary';
+    } else if (type === 'highend') {
+        btn = document.getElementById('preset-highend');
+        colorClass = 'danger';
+    }
+
+    if (btn) {
+        // Outline entfernen, Full Color hinzufügen
+        btn.classList.remove(`btn-outline-${colorClass}`);
+        btn.classList.add(`btn-${colorClass}`);
+    }
+}
+
+/**
+ * FUNKTION: Preset laden
+ */
+function loadPreset(type) {
+    const preset = PRESETS[type];
+    if (!preset) return;
+
+    isPresetLoading = true; // Flag setzen: Wir ändern jetzt programmatisch
+
+    // Button Highlighting
+    activatePresetButton(type);
+
+    // Mapping der HTML-IDs zu den Preset-Keys
+    const mapping = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case'];
+
+    mapping.forEach(id => {
+        const select = document.getElementById(id);
+        if (select) {
+            // Suche die Option, die den Text aus dem Preset enthält
+            for (let i = 0; i < select.options.length; i++) {
+                if (select.options[i].text.includes(preset[id])) {
+                    select.selectedIndex = i;
+                    update(select); 
+                    break;
+                }
+            }
+        }
+    });
+
+    isPresetLoading = false; // Fertig
+}
 
 /**
  * FUNKTION: update(select)
+ * Berechnet Preis und aktualisiert den Amazon-Link
  */
 function update(select) {
+    // Wenn der User selbst klickt (nicht durch Preset-Laden), Buttons resetten
+    if (!isPresetLoading) {
+        resetPresetButtons();
+    }
+
   const value = select.value;
   if (!value.includes(',')) return;
   
@@ -57,7 +184,7 @@ function getSelectedComponents() {
     document.querySelectorAll('#hardware-table tbody tr').forEach(row => {
         const category = row.getAttribute('data-category');
         const select = row.querySelector('select');
-        if(select && select.options.length > 0) {
+        if(select && select.selectedIndex > -1) { 
             const selectedText = select.options[select.selectedIndex].text;
             components.push(`- ${category}: ${selectedText}`);
         }
@@ -70,15 +197,9 @@ function toggleLoading(show) {
     const resultWrapper = document.getElementById('ai-result-wrapper');
     
     if(loadingEl) loadingEl.style.display = show ? 'flex' : 'none';
-    
-    // Wenn Resultat gezeigt wird, blende Wrapper ein (default hidden)
-    if(resultWrapper && !show) {
-        resultWrapper.style.display = 'block';
-    }
-    // Wenn geladen wird, Wrapper ausblenden (damit alte Antworten verschwinden)
+    if(resultWrapper && !show) resultWrapper.style.display = 'block';
     if(resultWrapper && show) {
         resultWrapper.style.display = 'none';
-        // Reset expanded state bei neuer Suche
         resultWrapper.classList.remove('expanded');
         resetButtons(false);
     }
@@ -86,7 +207,7 @@ function toggleLoading(show) {
 
 async function callGemini(prompt) {
     if (!apiKey) {
-         return " Konfiguration: API Key fehlt. Stelle sicher, dass config.js geladen wird.";
+         return "Fehler: API Key fehlt in config.js.";
     }
     
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
@@ -96,7 +217,6 @@ async function callGemini(prompt) {
     };
 
     const delays = [1000, 2000, 4000];
-    
     for (let i = 0; i <= delays.length; i++) {
         try {
             const response = await fetch(url, {
@@ -106,26 +226,23 @@ async function callGemini(prompt) {
             });
 
             if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
-
             const data = await response.json();
             return data.candidates[0].content.parts[0].text;
         } catch (error) {
             console.error(error);
-            if (i === delays.length) return "Fehler: Die AI konnte nicht antworten. Überprüfe deine Internetverbindung.";
+            if (i === delays.length) return "Fehler: KI antwortet nicht. Bitte später versuchen.";
             await new Promise(resolve => setTimeout(resolve, delays[i]));
         }
     }
 }
 
-// === Event Listener für UI ===
-
+// UI Event Listener
 const btnResize = document.getElementById('btn-resize-ai');
 const btnClose = document.getElementById('btn-close-expanded');
 const wrapper = document.getElementById('ai-result-wrapper');
 
 function toggleExpandedView() {
     if(!wrapper) return;
-    
     wrapper.classList.toggle('expanded');
     const isExpanded = wrapper.classList.contains('expanded');
     resetButtons(isExpanded);
@@ -150,16 +267,21 @@ const btnCheck = document.getElementById('btn-check-build');
 if(btnCheck) {
     btnCheck.addEventListener('click', async () => {
         const components = getSelectedComponents();
-        const prompt = `Du bist ein erfahrener PC-Hardware-Experte.
-        Analysiere folgende Konfiguration auf:
-        1. Kompatibilität (passen Sockel, RAM?)
-        2. Flaschenhälse (CPU zu schwach für GPU?)
-        3. Netzteil (reicht die Wattzahl?)
-        
-        Konfiguration:
+        if(!components) {
+            alert("Bitte wähle zuerst Hardware aus.");
+            return;
+        }
+
+        const prompt = `Du bist ein PC-Hardware-Experte (Stand 2026).
+        Analysiere folgende Konfiguration:
         ${components}
         
-        Antworte auf Deutsch. Fasse dich extrem kurz und prägnant. Nutze Stichpunkte. Antworte in Markdown Formatierung.`;
+        Prüfe auf:
+        1. Kompatibilität (Sockel AM5/LGA1851, DDR5, PCIe 5.0)
+        2. Flaschenhälse (Passt CPU zur GPU?)
+        3. Netzteil (Genug Watt für RTX 50er Serie?)
+        
+        Antworte auf Deutsch, kurz und in Markdown.`;
 
         toggleLoading(true);
         const result = await callGemini(prompt);
@@ -185,13 +307,13 @@ if(btnAsk) {
         if(!question) return;
 
         const components = getSelectedComponents();
-        const prompt = `Du bist ein PC-Bau Experte.
-        Der Nutzer hat folgende Konfiguration gewählt:
+        const prompt = `Du bist ein PC-Bau Experte (Stand 2026).
+        Konfiguration des Nutzers:
         ${components}
         
-        Frage des Nutzers: "${question}"
+        Frage: "${question}"
         
-        Antworte spezifisch basierend auf der Hardware oben. Antworte auf Deutsch. Fasse dich sehr kurz (max 3-4 Sätze).`;
+        Antworte kurz auf Deutsch.`;
 
         toggleLoading(true);
         const result = await callGemini(prompt);
@@ -207,5 +329,6 @@ if(btnAsk) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  loadPreset('midrange');
   calcTotal();
 });

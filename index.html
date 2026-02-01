@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PC Configurator</title>
+  <title>PC Konfigurator 2026</title>
   
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <!-- FontAwesome for Icons (Technical UI elements) -->
+  <!-- FontAwesome for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <!-- Custom CSS -->
@@ -23,11 +23,10 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <a class="navbar-brand d-flex flex-column" href="#">
           <div class="d-flex align-items-center">
-            <!-- Replaced Logo.png with FontAwesome Icon for reliability -->
             <i class="fas fa-microchip fa-2x me-2 text-white"></i>
-            <span class="fw-bold" style="font-size: 1.8rem; letter-spacing: -0.5px; margin-left: 10px;">PC Configurator</span>
+            <span class="fw-bold" style="font-size: 1.8rem; letter-spacing: -0.5px; margin-left: 10px;">PC Builder</span>
           </div>
-          <span class="text-white-50 small ms-5 ps-2" style="margin-top: -5px;">Hardware Builder Ultimate</span>
+          <span class="text-white-50 small ms-5 ps-2" style="margin-top: -5px;">Professional Hardware Systems</span>
         </a>
         
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -38,12 +37,12 @@
           <ul class="nav nav-pills ms-auto gap-2 align-items-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active px-3 py-2 fw-semibold" id="builder-tab" data-bs-toggle="tab" data-bs-target="#builder-content" type="button" role="tab">
-                <i class="fas fa-tools me-2"></i>Configurator
+                <i class="fas fa-tools me-2"></i>Konfigurator
               </button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link px-3 py-2 fw-semibold" id="theory-tab" data-bs-toggle="tab" data-bs-target="#theory-content" type="button" role="tab">
-                <i class="fas fa-book-open me-2"></i>Expert Knowledge
+                <i class="fas fa-book-open me-2"></i>Expertenwissen
               </button>
             </li>
             <li class="nav-item" role="presentation">
@@ -70,11 +69,24 @@
       <div class="tab-pane fade show active" id="builder-content" role="tabpanel">
         <div class="row">
             <div class="col-lg-8">
+                
+                <!-- PRESET BUTTONS -->
+                <div class="mb-3 d-flex gap-2 justify-content-center justify-content-md-start flex-wrap">
+                    <button id="preset-budget" class="btn btn-outline-success fw-bold" onclick="loadPreset('budget')">
+                        <i class="fas fa-piggy-bank me-1"></i> Budget
+                    </button>
+                    <button id="preset-midrange" class="btn btn-outline-primary fw-bold" onclick="loadPreset('midrange')">
+                        <i class="fas fa-gamepad me-1"></i> Mid-Range
+                    </button>
+                    <button id="preset-highend" class="btn btn-outline-danger fw-bold" onclick="loadPreset('highend')">
+                        <i class="fas fa-rocket me-1"></i> High-End
+                    </button>
+                </div>
+
                 <!-- Hardware Table -->
                 <div class="card shadow-sm mb-4">
                   <div class="card-header bg-white py-3">
-                    <h2 class="h4 mb-1 text-dark">Hardware Selection</h2>
-                    <p class="text-muted small mb-0">Choose your components. The price updates in real-time.</p>
+                    <h2 class="h4 mb-1 text-dark">Hardware Konfiguration</h2>
                   </div>
                   <div class="card-body p-0">
                     
@@ -83,125 +95,137 @@
                       <table class="table mb-0" id="hardware-table">
                         <thead class="bg-light">
                           <tr>
-                            <th style="width: 25%;">Component</th>
-                            <th style="width: 45%;">Model Selection</th>
-                            <th style="width: 15%;">Price (€)</th>
-                            <th style="width: 15%;">Details</th>
+                            <th style="width: 25%;">Komponente</th>
+                            <th style="width: 45%;">Modell Auswahl</th>
+                            <th style="width: 15%;">Preis (€)</th>
+                            <th style="width: 15%;">Bezugsquelle</th>
                           </tr>
                         </thead>
                         <tbody>
                           <!-- CPU -->
                           <tr data-category="CPU">
-                            <td><div class="fw-bold text-dark">Processor (CPU)</div></td>
+                            <td><div class="fw-bold text-dark">Prozessor (CPU)</div></td>
                             <td>
-                              <select class="form-select component-select" onchange="update(this)">
-                                <option value="99.00,https://www.idealo.de/preisvergleich/OffersOfProduct/200733045_-ryzen-5-5600x-amd.html">AMD Ryzen 5 5600X</option>
-                                <option value="146.90,https://www.idealo.de/preisvergleich/OffersOfProduct/200733026_-ryzen-7-5800x-amd.html">AMD Ryzen 7 5800X</option>
-                                <option value="303.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202722732_-ryzen-7-7800x3d-amd.html">AMD Ryzen 7 7800X3D</option>
-                                <option value="103.90,https://www.idealo.de/preisvergleich/OffersOfProduct/201785821_-core-i5-12400f-intel.html">Intel Core i5-12400F</option>
-                                <option value="113.38,https://www.idealo.de/preisvergleich/OffersOfProduct/202265862_-core-i5-13400f-intel.html">Intel Core i5-13400F</option>
+                              <select id="cpu" class="form-select component-select" onchange="update(this)">
+                                <!-- Budget -->
+                                <option value="195.00,https://www.amazon.de/s?k=AMD+Ryzen+5+9600X">AMD Ryzen 5 9600X (6 Kerne, Zen 5)</option>
+                                <option value="210.00,https://www.amazon.de/s?k=Intel+Core+i5-14400F">Intel Core i5-14400F</option>
+                                <!-- Mid Range -->
+                                <option value="420.00,https://www.amazon.de/s?k=AMD+Ryzen+7+9800X3D">AMD Ryzen 7 9800X3D (Gaming King)</option>
+                                <option value="340.00,https://www.amazon.de/s?k=Intel+Core+Ultra+5+245K">Intel Core Ultra 5 245K (Arrow Lake)</option>
+                                <!-- High End -->
+                                <option value="650.00,https://www.amazon.de/s?k=AMD+Ryzen+9+9950X3D">AMD Ryzen 9 9950X3D (16 Kerne)</option>
+                                <option value="620.00,https://www.amazon.de/s?k=Intel+Core+Ultra+9+285K">Intel Core Ultra 9 285K</option>
                               </select>
                             </td>
-                            <td><input type="number" class="form-control text-end fw-bold price-input" value="99.00" readonly></td>
-                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
                           </tr>
 
                           <!-- Cooler -->
                           <tr data-category="Cooler">
-                            <td><div class="fw-bold text-dark">CPU Cooler</div></td>
+                            <td><div class="fw-bold text-dark">CPU Kühler</div></td>
                             <td>
-                              <select class="form-select component-select" onchange="update(this)">
-                                <option value="39.90,https://www.idealo.de/preisvergleich/OffersOfProduct/200925232_-freezer-34-esports-duo-arctic.html">Arctic Freezer 34 eSports</option>
-                                <option value="65.00,https://www.idealo.de/preisvergleich/OffersOfProduct/200326442_-dark-rock-4-be-quiet.html">be quiet! Dark Rock 4</option>
-                                <option value="129.90,https://www.idealo.de/preisvergleich/OffersOfProduct/202265930_-kraken-x53-nzxt.html">NZXT Kraken X53 (AiO)</option>
+                              <select id="cooler" class="form-select component-select" onchange="update(this)">
+                                <option value="42.90,https://www.amazon.de/s?k=Thermalright+Peerless+Assassin+120+SE">Thermalright Peerless Assassin 120 SE</option>
+                                <option value="99.00,https://www.amazon.de/s?k=be+quiet+Dark+Rock+Elite">be quiet! Dark Rock Elite</option>
+                                <option value="145.00,https://www.amazon.de/s?k=Arctic+Liquid+Freezer+III+360+ARGB">Arctic Liquid Freezer III 360 ARGB</option>
+                                <option value="260.00,https://www.amazon.de/s?k=Lian+Li+Galahad+II+LCD">Lian Li Galahad II LCD</option>
                               </select>
                             </td>
-                            <td><input type="number" class="form-control text-end fw-bold price-input" value="39.90" readonly></td>
-                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
                           </tr>
 
                           <!-- Mainboard -->
                           <tr data-category="Mainboard">
-                            <td><div class="fw-bold text-dark">Motherboard</div></td>
+                            <td><div class="fw-bold text-dark">Mainboard</div></td>
                             <td>
-                              <select class="form-select component-select" onchange="update(this)">
-                                <option value="110.00,https://www.idealo.de/preisvergleich/OffersOfProduct/200788934.html">MSI B550-A PRO (AM4)</option>
-                                <option value="180.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202161201.html">GIGABYTE Z790 UD (Intel 1700)</option>
-                                <option value="210.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202265741.html">ASUS ROG Strix B650-A (AM5)</option>
+                              <select id="mb" class="form-select component-select" onchange="update(this)">
+                                <option value="160.00,https://www.amazon.de/s?k=MSI+B650+Gaming+Plus+WiFi">MSI B650 Gaming Plus WiFi (AM5)</option>
+                                <option value="240.00,https://www.amazon.de/s?k=GIGABYTE+B850+AORUS+ELITE">GIGABYTE B850 AORUS ELITE (Neu)</option>
+                                <option value="290.00,https://www.amazon.de/s?k=ASUS+ROG+Strix+Z890-F">ASUS ROG Strix Z890-F (Intel)</option>
+                                <option value="550.00,https://www.amazon.de/s?k=MSI+MEG+X870E+ACE">MSI MEG X870E ACE</option>
                               </select>
                             </td>
-                            <td><input type="number" class="form-control text-end fw-bold price-input" value="110.00" readonly></td>
-                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
                           </tr>
 
                           <!-- GPU -->
                           <tr data-category="Graphics Card">
-                            <td><div class="fw-bold text-dark">Graphics Card</div></td>
+                            <td><div class="fw-bold text-dark">Grafikkarte (GPU)</div></td>
                             <td>
-                              <select class="form-select component-select" onchange="update(this)">
-                                <option value="339.90,https://www.idealo.de/preisvergleich/OffersOfProduct/202923288_-geforce-rtx-4060-gigabyte.html">NVIDIA RTX 4060 (8GB)</option>
-                                <option value="549.00,https://www.idealo.de/preisvergleich/OffersOfProduct/203112111.html">AMD Radeon RX 7800 XT (16GB)</option>
-                                <option value="799.90,https://www.idealo.de/preisvergleich/OffersOfProduct/202646842_-geforce-rtx-4070-gigabyte.html">NVIDIA RTX 4070 (12GB)</option>
-                                <option value="1200.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202208764_-geforce-rtx-4080-gamerock-palit.html">NVIDIA RTX 4080 Super</option>
+                              <select id="gpu" class="form-select component-select" onchange="update(this)">
+                                <!-- Budget/Entry -->
+                                <option value="340.00,https://www.amazon.de/s?k=NVIDIA+GeForce+RTX+4060+Ti">NVIDIA RTX 4060 Ti (8GB)</option>
+                                <option value="499.00,https://www.amazon.de/s?k=NVIDIA+GeForce+RTX+5060">NVIDIA RTX 5060 (10GB) - Neu</option>
+                                <!-- Mid Range -->
+                                <option value="780.00,https://www.amazon.de/s?k=NVIDIA+GeForce+RTX+5070">NVIDIA RTX 5070 (12GB) - Blackwell</option>
+                                <option value="620.00,https://www.amazon.de/s?k=AMD+Radeon+RX+7900+GRE">AMD Radeon RX 7900 GRE (16GB)</option>
+                                <!-- High End -->
+                                <option value="1150.00,https://www.amazon.de/s?k=NVIDIA+GeForce+RTX+5080">NVIDIA RTX 5080 (16GB GDDR7)</option>
+                                <option value="2100.00,https://www.amazon.de/s?k=NVIDIA+GeForce+RTX+5090">NVIDIA RTX 5090 (32GB GDDR7)</option>
                               </select>
                             </td>
-                            <td><input type="number" class="form-control text-end fw-bold price-input" value="339.90" readonly></td>
-                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
                           </tr>
 
                           <!-- RAM -->
                           <tr data-category="RAM">
-                            <td><div class="fw-bold text-dark">RAM</div></td>
+                            <td><div class="fw-bold text-dark">Arbeitsspeicher</div></td>
                             <td>
-                              <select class="form-select component-select" onchange="update(this)">
-                                <option value="60.00,https://www.idealo.de/preisvergleich/OffersOfProduct/6195479.html">Kingston Fury 16GB DDR4</option>
-                                <option value="134.20,https://www.idealo.de/preisvergleich/OffersOfProduct/202056498_-vengeance-rgb-32gb-kit-ddr5-6000-cl36-corsair.html">Corsair Vengeance 32GB DDR5</option>
+                              <select id="ram" class="form-select component-select" onchange="update(this)">
+                                <option value="110.00,https://www.amazon.de/s?k=Corsair+Vengeance+DDR5+32GB+6000MHz">32GB Corsair Vengeance DDR5-6000 CL30</option>
+                                <option value="135.00,https://www.amazon.de/s?k=G.Skill+Trident+Z5+Neo+32GB+6400MHz">32GB G.Skill Trident Z5 Neo RGB DDR5-6400</option>
+                                <option value="260.00,https://www.amazon.de/s?k=Corsair+Dominator+Titanium+64GB+7200MHz">64GB Corsair Dominator Titanium DDR5-7200</option>
                               </select>
                             </td>
-                            <td><input type="number" class="form-control text-end fw-bold price-input" value="60.00" readonly></td>
-                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
                           </tr>
 
                           <!-- SSD -->
                           <tr data-category="SSD">
-                            <td><div class="fw-bold text-dark">SSD Storage</div></td>
+                            <td><div class="fw-bold text-dark">SSD Speicher</div></td>
                             <td>
-                              <select class="form-select component-select" onchange="update(this)">
-                                <option value="45.90,https://www.idealo.de/preisvergleich/OffersOfProduct/204697964_-nv3-m-2-kingston.html">Kingston NV3 M.2 500GB</option>
-                                <option value="65.90,https://www.idealo.de/preisvergleich/OffersOfProduct/204697967_-nv3-1tb-kingston.html">Kingston NV3 M.2 1TB</option>
-                                <option value="150.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202112345.html">Samsung 990 Pro 2TB</option>
+                              <select id="ssd" class="form-select component-select" onchange="update(this)">
+                                <option value="85.00,https://www.amazon.de/s?k=WD+Black+SN770+1TB">WD Black SN770 1TB (PCIe 4.0)</option>
+                                <option value="155.00,https://www.amazon.de/s?k=Samsung+990+Pro+2TB">Samsung 990 Pro 2TB (Heatsink)</option>
+                                <option value="340.00,https://www.amazon.de/s?k=Crucial+T705+2TB+PCIe+5.0">Crucial T705 2TB (PCIe 5.0 Speed)</option>
                               </select>
                             </td>
-                            <td><input type="number" class="form-control text-end fw-bold price-input" value="45.90" readonly></td>
-                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
                           </tr>
 
                           <!-- PSU -->
                           <tr data-category="Power Supply">
-                            <td><div class="fw-bold text-dark">Power Supply</div></td>
+                            <td><div class="fw-bold text-dark">Netzteil</div></td>
                             <td>
-                              <select class="form-select component-select" onchange="update(this)">
-                                <option value="59.90,https://www.idealo.de/preisvergleich/OffersOfProduct/206603567_-pure-power-13-m-550w-be-quiet.html">be quiet! Pure Power 13 M 550W</option>
-                                <option value="85.00,https://www.idealo.de/preisvergleich/OffersOfProduct/201008676.html">Corsair RM750e 750W (Gold)</option>
-                                <option value="120.00,https://www.idealo.de/preisvergleich/OffersOfProduct/201008677.html">be quiet! Straight Power 12 850W</option>
+                              <select id="psu" class="form-select component-select" onchange="update(this)">
+                                <option value="85.00,https://www.amazon.de/s?k=be+quiet+Pure+Power+12+M+750W">be quiet! Pure Power 12 M 750W (ATX 3.1)</option>
+                                <option value="160.00,https://www.amazon.de/s?k=Seasonic+Vertex+GX-1000">Seasonic Vertex GX-1000 (1000W Gold)</option>
+                                <option value="290.00,https://www.amazon.de/s?k=be+quiet+Dark+Power+Pro+13+1300W">be quiet! Dark Power Pro 13 1300W</option>
                               </select>
                             </td>
-                            <td><input type="number" class="form-control text-end fw-bold price-input" value="59.90" readonly></td>
-                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
                           </tr>
 
                           <!-- Case -->
                           <tr data-category="Case">
-                            <td><div class="fw-bold text-dark">Case</div></td>
+                            <td><div class="fw-bold text-dark">Gehäuse</div></td>
                             <td>
-                              <select class="form-select component-select" onchange="update(this)">
-                                <option value="69.00,https://www.idealo.de/preisvergleich/OffersOfProduct/201302559.html">NZXT H510</option>
-                                <option value="79.00,https://www.idealo.de/preisvergleich/OffersOfProduct/203112254.html">Corsair 4000D Airflow</option>
-                                <option value="99.00,https://www.idealo.de/preisvergleich/OffersOfProduct/202197143.html">Fractal Design North</option>
+                              <select id="case" class="form-select component-select" onchange="update(this)">
+                                <option value="90.00,https://www.amazon.de/s?k=Endorfy+Arx+700+ARGB">Endorfy Arx 700 ARGB</option>
+                                <option value="155.00,https://www.amazon.de/s?k=Fractal+Design+North+XL">Fractal Design North XL (Holz/Mesh)</option>
+                                <option value="210.00,https://www.amazon.de/s?k=Hyte+Y70+Touch">Hyte Y70 (Panoramaglas)</option>
                               </select>
                             </td>
-                            <td><input type="number" class="form-control text-end fw-bold price-input" value="69.00" readonly></td>
-                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100">Info</a></td>
+                            <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
+                            <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
                           </tr>
                         </tbody>
                       </table>
@@ -219,38 +243,33 @@
                             <span class="ai-badge">Gemini Powered</span>
                         </div>
                         <p class="small text-muted mb-3">
-                            Let artificial intelligence check your configuration or ask questions about your build.
+                            Lass die KI deine Konfiguration prüfen oder stelle Fragen.
                         </p>
 
                         <div class="d-grid gap-2">
                             <button id="btn-check-build" class="btn btn-ai shadow-sm py-2">
-                                Start System Check
+                                System Check Starten
                             </button>
                         </div>
 
                         <hr class="my-3">
 
-                        <label class="form-label fw-bold small text-dark">Ask the Expert:</label>
+                        <label class="form-label fw-bold small text-dark">Experten-Frage:</label>
                         <div class="input-group mb-2">
-                            <input type="text" id="ai-question-input" class="form-control" placeholder="e.g. Is this enough for 4K?">
+                            <input type="text" id="ai-question-input" class="form-control" placeholder="z.B. Reicht das für GTA 6?">
                             <button class="btn btn-outline-secondary" type="button" id="btn-ask-ai">➤</button>
                         </div>
                         
                         <div id="ai-loading" class="ai-loading">
                             <div class="spinner-dots"></div>
-                            <span>Gemini is analyzing...</span>
+                            <span>Gemini analysiert...</span>
                         </div>
 
-                        <!-- Wrapper for Result (Box + Buttons) -->
                         <div id="ai-result-wrapper" class="ai-result-wrapper" style="display: none;">
-                            
-                            <!-- Buttons -->
                             <div class="ai-buttons-container">
-                                <button id="btn-resize-ai" class="btn btn-sm btn-light border shadow-sm" title="Expand">⤢</button>
-                                <button id="btn-close-expanded" class="btn btn-sm btn-danger border shadow-sm" title="Close" style="display: none;">✕ Close</button>
+                                <button id="btn-resize-ai" class="btn btn-sm btn-light border shadow-sm" title="Vergrößern">⤢</button>
+                                <button id="btn-close-expanded" class="btn btn-sm btn-danger border shadow-sm" title="Schließen" style="display: none;">✕ Schließen</button>
                             </div>
-
-                            <!-- Text Content -->
                             <div id="ai-output" class="ai-response-box shadow-sm"></div>
                         </div>
 
@@ -267,12 +286,8 @@
             <div class="card p-4 theory-section shadow-lg border-0">
               
               <div class="text-center mb-5 pb-3 border-bottom">
-                  <h2 class="display-6 fw-bold text-dark mb-2">PC Hardware Compendium</h2>
-                  <p class="lead text-muted">Comprehensive knowledge from A like "Airflow" to Z like "Z-Chipset".</p>
-                  <div class="mt-3">
-                      <span class="badge bg-light text-dark border me-2">Status: 2026</span>
-                      <span class="badge bg-light text-dark border">Level: Expert</span>
-                  </div>
+                  <h2 class="display-6 fw-bold text-dark mb-2">Hardware-Kompendium 2026</h2>
+                  <p class="lead text-muted">Technische Spezifikationen und Architektur-Analysen für professionelle Anwender.</p>
               </div>
 
               <div class="accordion" id="accordionTheory">
@@ -281,41 +296,29 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                       Processors (CPU) – The Heart
+                       Prozessor (CPU)
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionTheory">
                     <div class="accordion-body bg-light">
-                      <div class="row align-items-center mb-4">
+                      <div class="row align-items-start mb-4">
                           <div class="col-md-8">
-                              <h5 class="text-primary mb-3">Cores & Threads – What really counts?</h5>
-                              <p class="text-muted">
-                                The CPU runs the show. Physical <strong>Cores</strong> do the heavy lifting, while <strong>Threads</strong> (virtual cores) ensure there's no waiting time. Think of supermarket checkouts: Cores are the registers, threads are the cashiers scanning the next customer while the first is packing.
+                              <h5 class="text-primary mb-3">Architektur & Mikroprozessor-Metriken</h5>
+                              <p class="text-muted text-justify">
+                                Die Bewertung einer modernen CPU geht weit über die reine Taktfrequenz (GHz) hinaus. Entscheidend ist die <strong>IPC (Instructions Per Cycle)</strong>, also wie viele Befehle ein Kern pro Taktzyklus abarbeiten kann. Dies erklärt, warum ein 4.0 GHz Prozessor der Generation 2026 einen 5.0 GHz Prozessor von 2020 in der Rechenleistung deutlich übertrifft.
                                 <br><br>
-                                <i class="fas fa-gamepad text-secondary me-2"></i><strong>Gaming:</strong> 6-8 cores are plenty. More rarely adds FPS in games.
-                                <br>
-                                <i class="fas fa-video text-secondary me-2"></i><strong>Productivity:</strong> Anyone editing or streaming welcomes every extra core (12+).
+                                <strong>Kerne vs. Threads:</strong> Physische Kerne übernehmen die tatsächliche Rechenarbeit. SMT (Simultaneous Multithreading) oder Hyper-Threading erlaubt es einem physischen Kern, zwei Aufgabenstränge (Threads) quasi-simultan zu bearbeiten, indem Leerlaufzeiten (Pipeline Stalls) effizient genutzt werden. Für Gaming sind 8 physische Kerne aktuell das Optimum; für Rendering und Virtualisierung skaliert die Leistung linear mit der Kernanzahl.
+                                <br><br>
+                                <strong>Cache-Hierarchie (L1/L2/L3):</strong> Der Cache ist ein ultraschneller Zwischenspeicher direkt auf dem Die. AMDs <strong>3D V-Cache Technologie</strong> stapelt den L3-Cache vertikal, was die Latenzzeiten bei speicherintensiven Aufgaben (wie Gaming) massiv reduziert und die 1% Low-FPS drastisch verbessert.
                               </p>
                           </div>
                           <div class="col-md-4">
                               <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="CPU Chip Closeup">
+                              <div class="small bg-white p-3 border rounded">
+                                  <strong>Thermische Designleistung (TDP)</strong>
+                                  <p class="text-muted mb-0 mt-1">Die TDP gibt nicht den Stromverbrauch an, sondern die Wärmeenergie, die das Kühlsystem abführen muss. Moderne CPUs können kurzzeitig (PL2 State) das Doppelte ihrer TDP an Leistung aufnehmen.</p>
+                              </div>
                           </div>
-                      </div>
-                      
-                      <div class="info-grid">
-                        <div class="info-card bg-white">
-                          <h6 class="fw-bold"><i class="fas fa-microchip me-2"></i>Architecture Check</h6>
-                          <p class="small text-muted mb-0">
-                            <strong>Intel (P- & E-Cores):</strong> A mix of powerhouses for gaming and efficient cores for background tasks. Needs Windows 11 to run smoothly.<br>
-                            <strong>AMD (X3D):</strong> The "3D V-Cache" models have a massive cache directly on the chip. Often the top choice for gamers right now as it minimizes stuttering.
-                          </p>
-                        </div>
-                        <div class="info-card bg-white">
-                          <h6 class="fw-bold"><i class="fas fa-tachometer-alt me-2"></i>Clock speed isn't everything</h6>
-                          <p class="small text-muted mb-0">
-                            Don't be blinded by GHz. A modern 4 GHz CPU runs circles around an old 5 GHz chip. The underlying technology (IPC) makes the difference.
-                          </p>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -325,41 +328,27 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                       Graphics Cards (GPU) – Pixel Power
+                       Grafikkarte (GPU)
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
                     <div class="accordion-body bg-light">
-                      <div class="row mb-4">
+                      <div class="row mb-4 align-items-start">
                           <div class="col-md-4 order-md-2 mb-3 mb-md-0">
                                <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="Modern Graphics Card">
+                               <div class="small bg-white p-3 border rounded">
+                                  <strong>PCIe-Stromversorgung</strong>
+                                  <p class="text-muted mb-0 mt-1">Der 12V-2x6 (Nachfolger des 12VHPWR) Stecker ist bei High-End Karten Standard. Er liefert bis zu 600 Watt über ein einziges Kabel und besitzt verkürzte Sense-Pins für mehr Sicherheit.</p>
+                              </div>
                           </div>
                           <div class="col-md-8 order-md-1">
-                              <h5 class="text-primary">VRAM – How much memory do you need?</h5>
-                              <p class="text-muted">
-                                Video memory is like the trunk for textures. If it's full, things stutter.
-                                <ul class="list-unstyled mt-2">
-                                    <li class="mb-2"><span class="badge bg-secondary me-2">8 GB</span> Enough for Full HD (1080p), but getting tight.</li>
-                                    <li class="mb-2"><span class="badge bg-secondary me-2">12 GB</span> The sweet spot for WQHD (1440p).</li>
-                                    <li><span class="badge bg-primary me-2">16 GB+</span> Mandatory for 4K enjoyment.</li>
-                                </ul>
+                              <h5 class="text-primary">Speicherinterface, VRAM & Raytracing</h5>
+                              <p class="text-muted text-justify">
+                                Neben der reinen VRAM-Kapazität ist die <strong>Speicherbandbreite</strong> der limitierende Faktor bei hohen Auflösungen. Sie ergibt sich aus der Breite des Speicherbusses (z.B. 256-bit oder 384-bit) und dem Takt des Speichers. <strong>GDDR7</strong> ermöglicht hier Durchsatzraten, die für 4K-Textur-Streaming und komplexe Geometriedaten essenziell sind.
+                                <br><br>
+                                <strong>Raytracing & KI-Kerne:</strong> Während Rasterisierung (klassische 3D-Darstellung) weiterhin wichtig ist, übernehmen spezialisierte Recheneinheiten (RT-Cores) die physikalisch korrekte Berechnung von Lichtpfaden in Echtzeit. Tensor-Cores (NVIDIA) oder AI-Accelerators (AMD) sind für Matrix-Multiplikationen zuständig, die Technologien wie <strong>DLSS (Deep Learning Super Sampling)</strong> oder FSR ermöglichen. Hierbei wird das Bild in niedrigerer Auflösung gerendert und per KI verlustarm hochskaliert, was die Framerate oft verdoppelt.
                               </p>
                           </div>
-                      </div>
-
-                      <div class="info-grid">
-                        <div class="info-card bg-white">
-                          <h6 class="fw-bold">🚀 DLSS & FSR (Upscaling)</h6>
-                          <p class="small text-muted mb-0">
-                            The magic trick: The card renders the image smaller (saving power) and an AI blows it up sharp. Looks almost as good as native, but brings significantly more FPS.
-                          </p>
-                        </div>
-                        <div class="info-card bg-white">
-                          <h6 class="fw-bold">💡 Raytracing</h6>
-                          <p class="small text-muted mb-0">
-                            Real light rays instead of fake shadows. Looks fantastic (reflections!), but eats performance for breakfast. NVIDIA is usually still ahead here.
-                          </p>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -369,34 +358,37 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                       Motherboard & RAM
+                       Mainboard & RAM
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
                     <div class="accordion-body bg-light">
-                      <div class="row">
+                      <div class="row align-items-start">
                         <div class="col-md-6 mb-3">
                           <div class="card h-100 border-0 shadow-sm">
-                              <img src="https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="RAM Sticks" style="height: 150px; object-fit: cover;">
+                              <!-- IMAGE UPDATED: Mainboard - object-fit: contain to avoid cutting off -->
+                              <img src="https://www.hardware-journal.de/images/Bilder/2022/news/MSI/godlike/MSI_MEG_Z690_GODLIKE-1.jpg" class="img-fluid rounded shadow-sm" alt="High End Mainboard" style="height: 180px; object-fit: contain;">
                               <div class="card-body">
-                                  <h5 class="text-primary card-title">RAM (Short-term memory)</h5>
-                                  <ul class="small text-muted list-unstyled">
-                                    <li class="mb-2"> <strong>Always Duo:</strong> Always buy a kit of 2 sticks ("Dual Channel"). Single sticks waste performance.</li>
-                                    <li class="mb-2"> <strong>DDR5:</strong> The new standard. Fast, but watch the latency (CL30 is top).</li>
-                                    <li> <strong>Important:</strong> Turn on "XMP" or "EXPO" in BIOS after building, otherwise RAM runs slow!</li>
-                                  </ul>
+                                  <h5 class="text-primary card-title">Spannungsversorgung (VRM) & Chipsatz</h5>
+                                  <p class="small text-muted text-justify">
+                                    Die Qualität eines Mainboards definiert sich über die <strong>VRMs (Voltage Regulator Modules)</strong>. Ein 16+2 Phasen-Design sorgt für eine stabile Spannungsglättung, die notwendig ist, um High-End-CPUs (z.B. i9 oder Ryzen 9) unter Volllast ohne Throttling zu betreiben.
+                                    <br><br>
+                                    <strong>Chipsätze:</strong> B-Serie Boards bieten meist weniger PCIe-Lanes (Anbindungsleitungen für Erweiterungskarten), reichen aber für Gaming völlig aus. Z- oder X-Serie Boards bieten volle PCIe-Lanes für mehrere NVMe SSDs bei voller Geschwindigkeit und erweiterte Overclocking-Funktionen.
+                                  </p>
                               </div>
                           </div>
                         </div>
                         <div class="col-md-6 mb-3">
                            <div class="card h-100 border-0 shadow-sm">
+                              <!-- IMAGE UPDATED: RAM - object-fit: contain to avoid cutting off -->
+                              <img src="https://www.proshop.at/Images/915x900/3275214_6c58e2ab8613.jpg" class="img-fluid rounded shadow-sm" alt="RAM Sticks" style="height: 180px; object-fit: contain;">
                               <div class="card-body">
-                                  <h5 class="text-primary card-title">Motherboard (Nervous System)</h5>
-                                  <ul class="small text-muted">
-                                    <li class="mb-2"><strong>B-Series (e.g. B650):</strong> The rational choice. Has everything gamers need.</li>
-                                    <li class="mb-2"><strong>Z/X-Series:</strong> Only for people who want to overclock or need 10 SSDs.</li>
-                                    <li class="mb-2"><strong>VRM Cooling:</strong> Make sure there are metal heatsinks around the CPU socket. Bare boards get hot.</li>
-                                  </ul>
+                                  <h5 class="text-primary card-title">DDR5 Latenz & Timings</h5>
+                                  <p class="small text-muted text-justify">
+                                    Bei Arbeitsspeicher ist nicht nur die Frequenz (MT/s) wichtig, sondern die <strong>CAS Latency (CL)</strong>. Sie gibt an, wie viele Taktzyklen der Speicher braucht, um auf eine Anfrage zu reagieren. Die absolute Latenz in Nanosekunden errechnet sich aus Takt und CL.
+                                    <br><br>
+                                    Ein Kit mit <strong>6000 MT/s CL30</strong> hat eine geringere Latenz (schnellere Reaktion) als eines mit 6400 MT/s CL40. Zudem ist <strong>Dual Channel</strong> Betrieb (2 Riegel) Pflicht, um die Bandbreite zur CPU zu verdoppeln. Profile wie XMP oder EXPO müssen im BIOS aktiviert werden, sonst läuft der RAM nur auf langsamem JEDEC-Standard (4800 MT/s).
+                                  </p>
                               </div>
                           </div>
                         </div>
@@ -409,44 +401,22 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingFour">
                     <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-                       SSD & Storage – No more loading bars
+                       SSD Speicher
                     </button>
                   </h2>
                   <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
                     <div class="accordion-body bg-light">
                         <div class="row align-items-center mb-3">
                             <div class="col-md-3">
-                                <!-- FIX: New Image for SSD -->
                                 <img src="https://gzhls.at/octri/medium_Maxx_Studio_shutterstock_1711587be3.jpg" class="img-fluid rounded shadow-sm" alt="M.2 NVMe SSD installed on motherboard">
                             </div>
                             <div class="col-md-9">
-                                <p class="small text-muted">Forget old hard drives (HDDs) for games. They just slow you down. M.2 NVMe is the standard.</p>
-                                <table class="table table-sm table-bordered bg-white small mb-0">
-                                    <thead class="table-light">
-                                    <tr>
-                                        <th>Tech</th>
-                                        <th>Speed</th>
-                                        <th>Verdict</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>SATA SSD</td>
-                                        <td>~500 MB/s</td>
-                                        <td>Okay for mass storage, but outdated.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>NVMe PCIe 4.0</strong></td>
-                                        <td>~7.000 MB/s</td>
-                                        <td><strong>The Sweetspot. Buy!</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>NVMe PCIe 5.0</td>
-                                        <td>~12.000+ MB/s</td>
-                                        <td>Expensive, hot, and barely noticeably faster in daily use.</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+                                <h5 class="text-primary mb-2">NVMe Protokoll, IOPS & Haltbarkeit</h5>
+                                <p class="small text-muted text-justify">
+                                    Moderne SSDs nutzen das NVMe-Protokoll über den PCIe-Bus. Entscheidend für das "Snappy"-Gefühl eines Systems sind die <strong>IOPS (Input/Output Operations Per Second)</strong> bei kleinen 4K-Dateien, nicht die maximale sequenzielle Leserate.
+                                    <br>
+                                    Für das Betriebssystem sollte immer eine SSD mit <strong>DRAM-Cache</strong> gewählt werden, da dieser die Mapping-Tabellen puffert und Schreibzugriffe massiv beschleunigt sowie die Lebensdauer (TBW - Terabytes Written) erhöht. PCIe 5.0 SSDs bieten zwar theoretisch bis zu 14 GB/s, benötigen aber massive Kühlkörper, um thermisches Drosseln zu verhindern, und bieten in Spielen aktuell kaum messbare Vorteile gegenüber guten PCIe 4.0 Laufwerken.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -457,27 +427,28 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingMonitor">
                       <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMonitor">
-                         Monitor – Your Window to the Game
+                         Monitor
                       </button>
                     </h2>
                     <div id="collapseMonitor" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
                       <div class="accordion-body bg-light">
-                        <div class="row">
+                        <div class="row align-items-start">
                             <div class="col-md-4 mb-3 mb-md-0">
-                                <img src="https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="Gaming Setup Monitor">
+                                <!-- IMAGE UPDATED: Monitor -->
+                                <img src="https://rog.asus.com/media/1766092420430.jpg" class="img-fluid rounded shadow-sm" alt="Gaming Setup Monitor">
+                                <div class="small bg-white p-3 border rounded mt-2">
+                                  <strong>Pixeldichte (PPI)</strong>
+                                  <p class="text-muted mb-0 mt-1">Die Schärfe hängt vom Verhältnis Auflösung zu Größe ab. <br>• 27" WQHD = 109 PPI (Ideal)<br>• 24" FHD = 92 PPI (Standard)<br>• 32" 4K = 138 PPI (Sehr scharf)</p>
+                              </div>
                             </div>
                             <div class="col-md-8">
-                                <h6 class="fw-bold text-dark">IPS vs. OLED</h6>
-                                <p class="small text-muted">
-                                    <strong>IPS</strong> is the standard: Good colors, fair prices. <br>
-                                    <strong>OLED</strong> is luxury: Perfect black, insanely fast, but more expensive and requires some care (burn-in).
-                                </p>
-                                <h6 class="fw-bold text-dark mt-3">Resolution & Hz</h6>
-                                <p class="small text-muted">
-                                    Below <strong>144 Hz</strong> is a no-go for gaming today.
-                                    <br>• <strong>Full HD (1080p):</strong> Okay for budget & shooters.
-                                    <br>• <strong>WQHD (1440p):</strong> The best compromise of sharpness & performance.
-                                    <br>• <strong>4K (UHD):</strong> Looks mega, but needs a graphics card the caliber of an RTX 4080/4090.
+                                <h5 class="text-primary">Panel-Technologie & Motion Clarity</h5>
+                                <p class="small text-muted text-justify">
+                                    <strong>OLED:</strong> Organische LEDs leuchten selbst. Dies ermöglicht perfektes Schwarz (unendlicher Kontrast) und Reaktionszeiten von unter 0,03ms. Dies eliminiert Ghosting (Schlierenbildung) fast vollständig. Nachteil: Burn-In Risiko bei statischen Elementen.
+                                    <br>
+                                    <strong>IPS:</strong> Flüssigkristalle, die parallel zur Bildebene schalten. Bietet sehr gute Farbtreue und Blickwinkelstabilität. "Fast-IPS" Panele erreichen heute auch 1ms Reaktionszeit und sind der Standard für Gamer.
+                                    <br><br>
+                                    <strong>Hertzzahl (Hz):</strong> Beschreibt, wie oft das Bild pro Sekunde aktualisiert wird. Ab 144Hz wird die Bewegungswahrnehmung signifikant flüssiger, was die Reaktionszeit des Spielers verbessert (geringerer Input Lag). Technologien wie <strong>G-Sync</strong> oder <strong>FreeSync</strong> synchronisieren die Hz des Monitors mit den FPS der Grafikkarte, um "Screen Tearing" (Bildzerreißen) zu verhindern.
                                 </p>
                             </div>
                         </div>
@@ -485,113 +456,120 @@
                     </div>
                   </div>
 
-                 <!-- 6. PERIPHERALS -->
+                 <!-- 6. KEYBOARD (UPDATED) -->
                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingPeripherie">
-                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeripherie">
-                         Mouse & Keyboard
+                    <h2 class="accordion-header" id="headingKeyboard">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKeyboard">
+                         Tastatur
                       </button>
                     </h2>
-                    <div id="collapsePeripherie" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                    <div id="collapseKeyboard" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
                       <div class="accordion-body bg-light">
-                        <div class="row">
+                        <div class="row align-items-center">
                             <div class="col-md-8">
-                                <div class="info-grid">
-                                    <div class="info-card bg-white">
-                                        <h6>Mechanical Keyboards</h6>
-                                        <p class="small text-muted mb-0">
-                                            The feel decides. <strong>Red</strong> switches are linear and fast (no click). <strong>Blue</strong> are noisy (clicky). <strong>Brown</strong> are a good middle ground.
-                                        </p>
-                                    </div>
-                                    <div class="info-card bg-white">
-                                        <h6>Mice</h6>
-                                        <p class="small text-muted mb-0">
-                                            DPI numbers of 25,000 are marketing nonsense. More important: A good shape and low weight (under 70g is trendy for shooters). Wireless is just as fast as wired nowadays.
-                                        </p>
-                                    </div>
-                                </div>
+                                <h5 class="text-primary">Hall-Effekt & Rapid Trigger</h5>
+                                <p class="small text-muted text-justify">
+                                    Klassische mechanische Schalter lösen durch einen physischen Metallkontakt aus. <strong>Hall-Effekt (HE)</strong> Switches nutzen stattdessen einen Magneten im Stempel und einen Sensor auf der Platine, um die Position der Taste analog zu messen.
+                                    <br><br>
+                                    Dies ermöglicht <strong>Rapid Trigger</strong>: Der Auslösepunkt ist nicht fix. Sobald die Taste auch nur minimal losgelassen wird (z.B. 0,1mm), wird das Signal unterbrochen. Dies erlaubt extrem schnelle Richtungswechsel (Counter-Strafing) in Taktik-Shootern wie CS2 oder Valorant. Der Auslösepunkt kann per Software oft zwischen 0,1mm und 4,0mm frei konfiguriert werden.
+                                </p>
                             </div>
                             <div class="col-md-4 mt-3 mt-md-0">
-                                <img src="https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="Mechanical Keyboard closeup">
+                                <!-- IMAGE UPDATED: Wooting Link from User -->
+                                <img src="https://wooting-website.ams3.cdn.digitaloceanspaces.com/612ca8920bc3a648125ffac3/673369c241fbbe87656fa6a9_menu.png" class="img-fluid rounded shadow-sm" alt="Wooting HE Keyboard">
                             </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                 <!-- 7. POWER SUPPLY -->
+                  <!-- 7. MOUSE (NEW SPLIT SECTION) -->
+                 <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingMouse">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMouse">
+                         Maus
+                      </button>
+                    </h2>
+                    <div id="collapseMouse" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                      <div class="accordion-body bg-light">
+                        <div class="row align-items-center">
+                            <div class="col-md-8">
+                                <h5 class="text-primary">Sensoren, Polling Rate & Gewicht</h5>
+                                <p class="small text-muted text-justify">
+                                    Moderne optische Sensoren (z.B. PixArt PAW3395) arbeiten fehlerfrei. Hohe DPI-Werte (>20.000) sind reines Marketing; wichtig ist die <strong>IPS (Inches Per Second)</strong> Geschwindigkeit, also ab welcher Bewegungsgeschwindigkeit der Sensor aussetzt (gute Mäuse schaffen >650 IPS).
+                                    <br><br>
+                                    <strong>Polling Rate:</strong> Standard sind 1000 Hz (1ms Latenz). High-End Mäuse bieten 4000 Hz oder 8000 Hz (0,125ms), was Bewegungen auf Monitoren mit hoher Bildwiederholrate (240Hz+) noch flüssiger macht, aber die CPU stärker belastet.
+                                    <br>
+                                    Das Gewicht ist entscheidend für das Aiming: Ultraleichte Mäuse (unter 60g) reduzieren die Massenträgheit, was präziseres Stoppen und Anfahren bei schnellen Bewegungen (Flicks) ermöglicht.
+                                </p>
+                            </div>
+                            <div class="col-md-4 mt-3 mt-md-0">
+                                <!-- IMAGE NEW: Honeycomb/Lightweight Mouse Placeholder -->
+                                <img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="Ultralight Gaming Mouse">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                 <!-- 8. POWER SUPPLY -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingFive">
                     <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-                       Power Supply – Don't buy cheap junk
+                       Netzteil
                     </button>
                   </h2>
                   <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
                     <div class="accordion-body bg-light">
-                        <div class="row align-items-center">
+                        <div class="row align-items-start">
                             <div class="col-md-8">
-                                <p class="small text-muted fw-bold">Those who save here pay twice. A bad power supply can grill your whole PC.</p>
-                                <div class="row g-3">
-                                    <div class="col-sm-6">
-                                        <div class="p-3 bg-white border rounded h-100">
-                                            <strong>80 PLUS Gold</strong>
-                                            <p class="small text-muted mb-0 mt-1">Look for this seal. It guarantees good efficiency and usually decent components.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="p-3 bg-white border rounded h-100">
-                                            <strong>ATX 3.0 Standard</strong>
-                                            <p class="small text-muted mb-0 mt-1">Important for modern graphics cards. Includes the new 12VHPWR cable directly – bye bye adapters!</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <h5 class="text-primary">ATX 3.1 & Spannungsregulation</h5>
+                                <p class="small text-muted text-justify">
+                                    Das Netzteil ist das Herz des PCs. Moderne Grafikkarten erzeugen Millisekunden-kurze Lastspitzen (Transients), die das Doppelte ihrer Nennleistung betragen können. Ältere Netzteile schalten hier oft wegen Überlastschutz (OPP) ab.
+                                    <br><br>
+                                    Der <strong>ATX 3.0 / 3.1 Standard</strong> schreibt vor, dass Netzteile diese Lastspitzen (bis zu 200% der Gesamtleistung für 100µs) abfangen müssen. Zudem ist die <strong>Effizienz</strong> (80 PLUS Gold/Platinum) entscheidend: Ein Netzteil arbeitet am effizientesten bei ca. 50% Auslastung. Hochwertige Netzteile nutzen DC-DC-Wandler für stabile Spannungen auf den 3.3V und 5V Leitungen, unabhängig von der 12V Last.
+                                </p>
                             </div>
                             <div class="col-md-4 mt-3 mt-md-0">
-                                <!-- FIX: New Image for Power Supply -->
-                                <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="PC Cables and PSU">
+                                <!-- IMAGE UPDATED: PSU -->
+                                <img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_123160670?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402" class="img-fluid rounded shadow-sm" alt="PC Cables and PSU">
                             </div>
                         </div>
                     </div>
                   </div>
                 </div>
 
-                <!-- 8. SOURCES & LINKS -->
+                <!-- 9. SOURCES & LINKS -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingSeven">
                     <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
-                       Sources & Deep Dives
+                       Quellen & Technische Referenzen
                     </button>
                   </h2>
                   <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
                     <div class="accordion-body">
-                      <p class="small text-muted">Here we get our info. Honest tests without marketing blah-blah.</p>
+                      <p class="small text-muted">Unsere Datenbasis stützt sich auf unabhängige technische Analysen und Messwerte.</p>
                       
-                      <h6 class="text-uppercase text-secondary small fw-bold mt-3 mb-2">The Bible (Forums & Sites)</h6>
+                      <h6 class="text-uppercase text-secondary small fw-bold mt-3 mb-2">Fachpublikationen & Foren</h6>
                       <ul class="list-group list-group-flush small mb-3">
                         <li class="list-group-item">
-                            <span class="source-badge">DE</span> <strong>ComputerBase:</strong> <a href="https://www.computerbase.de/forum/threads/der-ideale-gaming-pc-spiele-pc-selbst-zusammenstellen.215394/" target="_blank">FAQ "The Ideal Gaming PC"</a> (Must read!)
+                            <span class="source-badge">DE</span> <strong>ComputerBase:</strong> <a href="https://www.computerbase.de/forum/threads/der-ideale-gaming-pc-spiele-pc-selbst-zusammenstellen.215394/" target="_blank">FAQ "Der ideale Gaming PC"</a>
                         </li>
                         <li class="list-group-item">
-                            <span class="source-badge">DE</span> <strong>HardwareLuxx:</strong> <a href="https://www.hardwareluxx.de/" target="_blank">News & Community Tests</a> 
-                        </li>
-                        <li class="list-group-item">
-                            <span class="source-badge">US</span> <strong>PCPartPicker:</strong> <a href="https://pcpartpicker.com/" target="_blank">The Build Simulator</a> (checks if everything fits)
+                            <span class="source-badge">DE</span> <strong>HardwareLuxx:</strong> <a href="https://www.hardwareluxx.de/" target="_blank">Tests & Community</a> 
                         </li>
                       </ul>
 
-                      <h6 class="text-uppercase text-secondary small fw-bold mt-3 mb-2">YouTube (Tests & Analysis)</h6>
+                      <h6 class="text-uppercase text-secondary small fw-bold mt-3 mb-2">Technische Analysen (Video)</h6>
                       <ul class="list-group list-group-flush small">
                           <li class="list-group-item">
-                              <span class="source-badge">US</span> <strong>Gamers Nexus:</strong> <a href="https://www.youtube.com/user/GamersNexus" target="_blank">Tech Jesus</a> (Extremely detailed, critical tests)
+                              <span class="source-badge">US</span> <strong>Gamers Nexus:</strong> <a href="https://www.youtube.com/user/GamersNexus" target="_blank">Technische Validierung & thermische Analysen</a>
                           </li>
                           <li class="list-group-item">
-                              <span class="source-badge">US</span> <strong>Hardware Unboxed:</strong> <a href="https://www.youtube.com/channel/UCI8iQa1hv7Kuo_7uz6QCuVQ" target="_blank">Monitor & GPU Benchmarks</a>
+                              <span class="source-badge">US</span> <strong>Hardware Unboxed:</strong> <a href="https://www.youtube.com/channel/UCI8iQa1hv7Kuo_7uz6QCuVQ" target="_blank">Performance-Skalierung</a>
                           </li>
                            <li class="list-group-item">
-                              <span class="source-badge">DE</span> <strong>Der8auer:</strong> <a href="https://www.youtube.com/user/der8auer" target="_blank">Overclocking & Engineering View</a>
-                          </li>
-                           <li class="list-group-item">
-                              <span class="source-badge">DE</span> <strong>Igor's Lab:</strong> <a href="https://www.igorslab.de/" target="_blank">Electronics Analysis</a> (If you want to know exactly)
+                              <span class="source-badge">DE</span> <strong>Der8auer:</strong> <a href="https://www.youtube.com/user/der8auer" target="_blank">Engineering & Mikroarchitektur</a>
                           </li>
                       </ul>
 
@@ -611,8 +589,8 @@
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <div class="card p-5 shadow-sm border-0">
-                    <h3 class="fw-bold mb-4 text-center">First Aid Kit</h3>
-                    <p class="text-center text-muted mb-5">Don't panic. Most PC building problems are classics and easy to solve.</p>
+                    <h3 class="fw-bold mb-4 text-center">Troubleshooting & Diagnose</h3>
+                    <p class="text-center text-muted mb-5">Systematische Lösungsansätze für häufige Hardware-Initialisierungsfehler.</p>
                     
                     <div class="accordion accordion-flush" id="faqAccordion">
                         
@@ -620,16 +598,15 @@
                         <div class="accordion-item border mb-3 rounded overflow-hidden">
                           <h2 class="accordion-header" id="faqHeadingOne">
                             <button class="accordion-button collapsed fw-bold bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne">
-                               The PC won't start (Black Screen)
+                               System POST fehlgeschlagen (Black Screen)
                             </button>
                           </h2>
                           <div id="faqCollapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
                               <ol class="small text-muted mb-0">
-                                <li class="mb-2"><strong>Debug LEDs:</strong> Look at the motherboard (usually top right). Is a small light on (CPU, DRAM, VGA)? That reveals the culprit.</li>
-                                <li class="mb-2"><strong>Monitor Cable:</strong> Classic mistake. The cable must go into the <em>graphics card</em> at the bottom, not the motherboard at the top!</li>
-                                <li class="mb-2"><strong>Power:</strong> Are the thick 24-pin connector and the 8-pin CPU connector (top left) really tight?</li>
-                                <li><strong>RAM:</strong> Memory often needs to be pushed in with decent force until it clicks loudly.</li>
+                                <li class="mb-2"><strong>Debug-LEDs prüfen:</strong> Moderne Mainboards besitzen Status-LEDs (CPU, DRAM, VGA, BOOT). Das Leuchten einer spezifischen LED indiziert die Fehlerquelle.</li>
+                                <li class="mb-2"><strong>Display-Verbindung:</strong> Stellen Sie sicher, dass das Signalkabel an der dedizierten Grafikkarte (untere Ports) und nicht am I/O-Shield des Mainboards angeschlossen ist.</li>
+                                <li class="mb-2"><strong>DDR5 Training:</strong> Der erste Systemstart mit DDR5-Speicher kann aufgrund des "Memory Trainings" mehrere Minuten in Anspruch nehmen.</li>
                               </ol>
                             </div>
                           </div>
@@ -639,15 +616,15 @@
                          <div class="accordion-item border mb-3 rounded overflow-hidden">
                           <h2 class="accordion-header" id="faqHeadingTwo">
                             <button class="accordion-button collapsed fw-bold bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo">
-                               Why is my RAM so slow (4800 MHz instead of 6000)?
+                               RAM-Taktfrequenz unter Spezifikation (JEDEC vs. XMP)
                             </button>
                           </h2>
                           <div id="faqCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
                                 <p class="small text-muted">
-                                    No worries, nothing broken. DDR5 always runs in safety mode out of the box.
+                                    Arbeitsspeicher bootet standardmäßig mit konservativen JEDEC-Timings (z.B. 4800 MHz), um Kompatibilität zu gewährleisten.
                                     <br><br>
-                                    <strong>Solution:</strong> Go into BIOS (hammer 'Del' or 'F2' at start) and activate the profile <strong>XMP</strong> (Intel) or <strong>EXPO</strong> (AMD). Save & Restart (F10) – done.
+                                    <strong>Lösung:</strong> Aktivieren Sie im UEFI/BIOS das <strong>XMP</strong> (Intel) oder <strong>EXPO</strong> (AMD) Profil, um die vom Hersteller beworbenen Taktfrequenzen und Latenzen zu laden.
                                 </p>
                             </div>
                           </div>
@@ -657,15 +634,14 @@
                         <div class="accordion-item border mb-3 rounded overflow-hidden">
                           <h2 class="accordion-header" id="faqHeadingThree">
                             <button class="accordion-button collapsed fw-bold bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree">
-                               How do I install Windows without a drive?
+                               OS-Installation ohne optisches Laufwerk
                             </button>
                           </h2>
                           <div id="faqCollapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
                                 <p class="small text-muted">
-                                    DVDs are dead. You need a USB stick (8GB+).
-                                    <br>Google "Windows Media Creation Tool" on another PC. The program makes your stick bootable.
-                                    <br>Stick in the new PC -> Turn on -> Boot from stick -> Install.
+                                    Die Installation erfolgt über ein bootfähiges USB-Medium.
+                                    <br>Nutzen Sie das "Windows Media Creation Tool", um einen USB-Stick (min. 8GB) vorzubereiten. Booten Sie anschließend über das BIOS-Boot-Menü (meist F11 oder F12) vom UEFI-USB-Datenträger.
                                 </p>
                             </div>
                           </div>
@@ -675,14 +651,14 @@
                         <div class="accordion-item border mb-3 rounded overflow-hidden">
                           <h2 class="accordion-header" id="faqHeadingFour">
                             <button class="accordion-button collapsed fw-bold bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour">
-                               Graphics card making weird noises (Coil Whine)
+                               Akustische Resonanz bei GPU-Last (Spulenfiepen)
                             </button>
                           </h2>
                           <div id="faqCollapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
                                 <p class="small text-muted">
-                                    Sounds like an electrical buzz? That's "Coil Whine". Physically caused and unfortunately not a defect (exchange is goodwill).
-                                    <br><strong>Trick:</strong> Limit FPS in games to your monitor Hz (e.g. 144). Less load = less whine.
+                                    Hochfrequente Geräusche ("Coil Whine") entstehen durch Vibrationen der Spulen auf der Grafikkarte bei hohen Bildraten. Dies ist physikalisch bedingt und stellt keinen technischen Defekt dar.
+                                    <br><strong>Mitigation:</strong> Eine Limitierung der FPS (Frame Rate Cap) passend zur Monitor-Hertzzahl reduziert die elektrische Last und damit die Geräuschentwicklung.
                                 </p>
                             </div>
                           </div>
@@ -692,14 +668,14 @@
                         <div class="accordion-item border mb-3 rounded overflow-hidden">
                           <h2 class="accordion-header" id="faqHeadingFive">
                             <button class="accordion-button collapsed fw-bold bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive">
-                               Win 10 or Win 11?
+                               Betriebssystem-Kompatibilität (Windows 10 vs. 11)
                             </button>
                           </h2>
                           <div id="faqCollapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
                                 <p class="small text-muted">
-                                    Short answer: <strong>Take Windows 11.</strong>
-                                    <br>Especially if you have a newer Intel CPU, you need Win 11 so the PC knows which cores to use for games ("Thread Director"). HDR also looks much better in 11.
+                                    Für aktuelle Prozessor-Architekturen (Intel Core 12. Gen+, AMD Ryzen 7000+) wird <strong>Windows 11</strong> dringend empfohlen.
+                                    <br>Der integrierte "Thread Director" in Windows 11 ist notwendig, um Workloads korrekt zwischen Performance- und Efficiency-Cores zuzuweisen.
                                 </p>
                             </div>
                           </div>
@@ -716,56 +692,55 @@
         <div class="container pb-5">
             <div class="text-center mb-5">
                  <h2 class="fw-bold display-6">Tech News Feed</h2>
-                 <p class="text-muted">Current developments from the hardware industry.</p>
-                 <span class="badge bg-secondary">Placeholder Layout</span>
+                 <p class="text-muted">Aktuelle Entwicklungen aus der Hardware-Industrie.</p>
             </div>
 
             <div class="row g-4">
                 
-                <!-- News Template 1 -->
+                <!-- News 1 -->
                 <div class="col-md-4">
                     <div class="card news-card h-100 shadow-sm border-0 overflow-hidden">
                         <div class="position-relative">
-                             <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Technology Abstract" style="height: 200px; object-fit: cover;">
+                             <img src="https://images.unsplash.com/photo-1624705002806-5d72df96c312?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="NVIDIA GPU" style="height: 200px; object-fit: cover;">
                              <span class="news-tag">Hardware</span>
                         </div>
                         <div class="card-body d-flex flex-column">
-                            <small class="text-muted mb-2">Date: DD.MM.YYYY</small>
-                            <h5 class="card-title fw-bold">Article Headline Placeholder #1</h5>
-                            <p class="card-text small text-muted flex-grow-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                            <a href="#" class="btn btn-sm btn-outline-primary mt-3 stretched-link">Read more</a>
+                            <small class="text-muted mb-2">12.02.2026</small>
+                            <h5 class="card-title fw-bold">RTX 5090 Verfügbarkeit</h5>
+                            <p class="card-text small text-muted flex-grow-1">Die Verfügbarkeit der neuen Blackwell-Karten bessert sich. Erste Custom-Designs sind nun zur UVP erhältlich.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary mt-3 stretched-link">Mehr lesen</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- News Template 2 -->
+                <!-- News 2 -->
                 <div class="col-md-4">
                     <div class="card news-card h-100 shadow-sm border-0 overflow-hidden">
                         <div class="position-relative">
-                             <img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Electronics" style="height: 200px; object-fit: cover;">
+                             <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Gaming Screen" style="height: 200px; object-fit: cover;">
                              <span class="news-tag">Gaming</span>
                         </div>
                         <div class="card-body d-flex flex-column">
-                            <small class="text-muted mb-2">Date: DD.MM.YYYY</small>
-                            <h5 class="card-title fw-bold">Article Headline Placeholder #2</h5>
-                            <p class="card-text small text-muted flex-grow-1">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                            <a href="#" class="btn btn-sm btn-outline-primary mt-3 stretched-link">Read more</a>
+                            <small class="text-muted mb-2">08.02.2026</small>
+                            <h5 class="card-title fw-bold">GTA 6 PC-Specs geleakt?</h5>
+                            <p class="card-text small text-muted flex-grow-1">Insider vermuten: Für 4K/60FPS mit Raytracing wird mindestens eine RTX 5070 oder RX 8800 XT nötig sein.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary mt-3 stretched-link">Mehr lesen</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- News Template 3 -->
+                <!-- News 3 -->
                 <div class="col-md-4">
                     <div class="card news-card h-100 shadow-sm border-0 overflow-hidden">
                         <div class="position-relative">
-                             <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Coding Screen" style="height: 200px; object-fit: cover;">
-                             <span class="news-tag">Software</span>
+                             <img src="https://images.unsplash.com/photo-1603481588233-66232d198b89?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="CPU Chip" style="height: 200px; object-fit: cover;">
+                             <span class="news-tag">Tech</span>
                         </div>
                         <div class="card-body d-flex flex-column">
-                            <small class="text-muted mb-2">Date: DD.MM.YYYY</small>
-                            <h5 class="card-title fw-bold">Article Headline Placeholder #3</h5>
-                            <p class="card-text small text-muted flex-grow-1">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
-                            <a href="#" class="btn btn-sm btn-outline-primary mt-3 stretched-link">Read more</a>
+                            <small class="text-muted mb-2">01.02.2026</small>
+                            <h5 class="card-title fw-bold">AMD Ryzen 9000X3D im Test</h5>
+                            <p class="card-text small text-muted flex-grow-1">Der neue Gaming-König? Erste Benchmarks zeigen bis zu 15% mehr Leistung gegenüber dem Vorgänger.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary mt-3 stretched-link">Mehr lesen</a>
                         </div>
                     </div>
                 </div>
@@ -782,42 +757,22 @@
   <footer class="bg-dark text-light mt-auto pt-5 pb-3">
     <div class="container">
       <div class="row">
-        <!-- Col 1: Project -->
-        <div class="col-md-4 mb-4">
-          <h5 class="text-uppercase fw-bold text-primary mb-3">About the Project</h5>
+        <div class="col-md-6 mb-4">
+          <h5 class="text-uppercase fw-bold text-primary mb-3">Über das Projekt</h5>
           <p class="small text-white-50">
-            A modern PC configurator, created as a school project. Our goal is to simplify hardware selection through AI support and expert knowledge.
+            Ein moderner PC Konfigurator mit AI-Support. Erstellt als Schulprojekt an der HTL Leonding.
           </p>
-          <p class="small text-white-50">© 2025 David Leitner & Maximilian Baumgartner</p>
+          <p class="small text-white-50">© 2026 David Leitner & Maximilian Baumgartner</p>
         </div>
-        
-        <!-- Col 2: Quick Links -->
-        <div class="col-md-4 mb-4">
+        <div class="col-md-6 mb-4 text-md-end">
           <h5 class="text-uppercase fw-bold text-primary mb-3">Links</h5>
           <ul class="list-unstyled small">
-            <li class="mb-2"><a href="#" onclick="document.getElementById('builder-tab').click()" class="text-white-50 text-decoration-none hover-white">Configurator</a></li>
-            <li class="mb-2"><a href="#" onclick="document.getElementById('theory-tab').click()" class="text-white-50 text-decoration-none hover-white">Expert Knowledge</a></li>
-            <li class="mb-2"><a href="https://www.idealo.de" target="_blank" class="text-white-50 text-decoration-none hover-white">Price Comparison</a></li>
+            <li class="mb-2"><a href="https://www.amazon.de" target="_blank" class="text-white-50 text-decoration-none hover-white">Amazon Hardware</a></li>
           </ul>
         </div>
-
-        <!-- Col 3: Legal/Contact -->
-        <div class="col-md-4 mb-4">
-          <h5 class="text-uppercase fw-bold text-primary mb-3">Contact & Info</h5>
-          <ul class="list-unstyled small text-white-50">
-            <li class="mb-2"> Leonding, Austria</li>
-            <li class="mb-2"> d.leitner@students.htl-leonding.ac.at</li>
-            <li class="mb-2"> m.baumgartner1@students.htl-leonding.ac.at</li>
-            <li class="mb-2"> Github Repository</li>
-            <li class="mt-3"><a href="#" class="text-white-50">Imprint</a> | <a href="#" class="text-white-50">Privacy</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr class="border-secondary my-3">
-      <div class="text-center small text-secondary">
       </div>
     </div>
-    <!-- Placeholder so sticky price bar doesn't cover anything -->
+    <!-- Platzhalter damit Sticky Bar nichts verdeckt -->
     <div style="height: 80px;"></div>
   </footer>
 
@@ -825,12 +780,11 @@
   <div class="sticky-price-bar">
     <div class="container d-flex justify-content-between align-items-center">
       <div>
-        <div class="total-label">Total Price</div>
-        <small class="text-muted d-none d-md-block">Incl. VAT (Estimate)</small>
+        <div class="total-label">Gesamtpreis</div>
+        <small class="text-muted d-none d-md-block">inkl. MwSt. (Schätzung)</small>
       </div>
       <div class="d-flex align-items-center">
         <span class="total-price"><span id="total">0.00</span> €</span>
-        <!-- PRINT BUTTON REMOVED -->
       </div>
     </div>
   </div>
@@ -839,6 +793,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   
+  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
