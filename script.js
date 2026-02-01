@@ -176,7 +176,7 @@ function calcTotal() {
 }
 
 // ==========================================
-// AI LOGIK
+// AI LOGIK (MIT AUTO-FALLBACK FÜR NEUE MODELLE)
 // ==========================================
 
 function getSelectedComponents() {
@@ -213,16 +213,25 @@ async function callGemini(prompt) {
     
     const cleanKey = apiKey.trim();
 
-    // 2. Modell: Wir nutzen den Standard-Alias "gemini-1.5-flash" ohne Versionsnummer (-001).
-    // Das behebt meistens den 404 Fehler.
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${cleanKey}`;
-    
-    const payload = {
-        contents: [{ parts: [{ text: prompt }] }]
-    };
+    // 2. Modell-Liste aktualisiert basierend auf deinem Dashboard
+    const modelsToTry = [
+        "gemini-2.5-flash",  // Deine verfügbare Version
+        "gemini-3-flash",    // Deine verfügbare Version
+        "gemini-1.5-flash",  // Fallback
+        "gemini-2.0-flash-exp" // Experimenteller Fallback
+    ];
 
-    const delays = [1000, 2000, 4000];
-    for (let i = 0; i <= delays.length; i++) {
+    let lastError = "";
+
+    // Wir probieren die Modelle nacheinander durch
+    for (const model of modelsToTry) {
+        console.log(`Versuche KI-Modell: ${model}...`);
+        
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${cleanKey}`;
+        const payload = {
+            contents: [{ parts: [{ text: prompt }] }]
+        };
+
         try {
             const response = await fetch(url, {
                 method: 'POST',
@@ -230,29 +239,42 @@ async function callGemini(prompt) {
                 body: JSON.stringify(payload)
             });
 
-            if (!response.ok) {
-                const errorData = await response.json().catch(() => ({}));
-                console.error("API Error Details:", errorData);
-                
-                // Spezialbehandlung für den 403 Referer Fehler
-                if (response.status === 403 && (errorData.error?.message?.includes("referer") || errorData.error?.status === "PERMISSION_DENIED")) {
-                    throw new Error(`Google API Blockiert (Referer). Bitte teste auf Vercel oder deaktiviere die Domain-Einschränkung kurzzeitig.`);
+            if (response.ok) {
+                const data = await response.json();
+                return data.candidates[0].content.parts[0].text;
+            } else {
+                // Fehler analysieren
+                let errorDetails = await response.text();
+                try {
+                    const jsonError = JSON.parse(errorDetails);
+                    errorDetails = jsonError.error?.message || JSON.stringify(jsonError);
+                } catch(e) {}
+
+                // Wenn es ein 404 ist, probieren wir das nächste Modell
+                if (response.status === 404) {
+                    console.warn(`Modell ${model} nicht gefunden (404). Versuche nächstes...`);
+                    lastError = `Modell ${model} nicht verfügbar.`;
+                    continue; // Nächster Schleifendurchlauf
                 }
 
-                // Gibt den genauen Fehlergrund zurück
-                throw new Error(`Google API Fehler: ${response.status} (${response.statusText}).`);
+                // Bei anderen Fehlern (z.B. API nicht aktiviert) brechen wir ab
+                if (errorDetails.includes("API has not been used") || errorDetails.includes("Enable it")) {
+                    throw new Error("Die 'Generative Language API' ist in deinem Google Cloud Projekt noch nicht aktiviert. Bitte suche nach der API in der Google Console und klicke auf 'ENABLE'.");
+                }
+
+                throw new Error(`API Fehler (${response.status}): ${errorDetails}`);
             }
-            
-            const data = await response.json();
-            return data.candidates[0].content.parts[0].text;
         } catch (error) {
-            console.error("Fetch Fehler:", error);
-            if (i === delays.length) {
-                return `Es gab ein Problem: ${error.message}`;
+            console.error(`Fehler bei ${model}:`, error);
+            lastError = error.message;
+            // Wenn es kein 404-ähnlicher Fehler ist, ist es vermutlich ein Key-Problem -> Abbruch
+            if (!lastError.includes("404") && !lastError.includes("nicht verfügbar")) {
+                return `Es gab ein Problem: ${lastError}`;
             }
-            await new Promise(resolve => setTimeout(resolve, delays[i]));
         }
     }
+
+    return `Fehler: Kein KI-Modell konnte erreicht werden. (Probierte Modelle: ${modelsToTry.join(', ')})`;
 }
 
 // UI Event Listener
