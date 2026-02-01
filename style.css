@@ -1,16 +1,14 @@
 :root {
-  /* Slate Theme - Ein modernes, bläuliches Grau für einen professionellen Look */
+  /* Slate Theme */
   --bg-body: #f1f5f9;
   --bg-card: #ffffff; 
   --text-primary: #040f29;
-  --text-secondary: #000000;
-  --accent-color: #000000;
-  --highlight: #000000;
+  --text-secondary: #334155;
+  --accent-color: #0435a6;
   
-  /* Farbverläufe für Highlights */
-  --success-gradient: linear-gradient(135deg, #0435a6 0%, #0435a6 100%);
-  --ai-gradient: linear-gradient(135deg, #0435a6 0%, #0435a6 100%); 
-  --row-hover-bg: #f8fafc;
+  /* Farbverläufe */
+  --success-gradient: linear-gradient(135deg, #0435a6 0%, #00d4ff 100%);
+  --ai-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); 
 }
 
 body {
@@ -25,13 +23,7 @@ header {
   padding: 1.5rem 0;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   margin-bottom: 2rem;
-  border-bottom: 1px solid #000000;
-}
-
-/* FIX: Logo spezifisch begrenzen, statt global alle Bilder zu schrumpfen */
-.navbar-brand img {
-    max-width: 100px; /* Logo etwas größer gemacht (war 60px) */
-    height: auto;
+  border-bottom: 1px solid #1e293b;
 }
 
 .navbar-brand {
@@ -57,10 +49,9 @@ header {
 
 /* === Footer === */
 footer {
-    background-color: #040f29 !important; /* Sehr dunkles Slate */
-    border-top: 5px solid #040f29;
+    background-color: #040f29 !important;
+    border-top: 5px solid #1e293b;
 }
-
 .hover-white:hover {
     color: #fff !important;
     text-decoration: underline !important;
@@ -70,19 +61,17 @@ footer {
 .card {
   border: none;
   border-radius: 12px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: transform 0.3s ease;
   background-color: var(--bg-card);
 }
 
-/* === AI Bereich (Sidebar) === */
+/* === AI Bereich === */
 .ai-card {
   border: 2px solid transparent;
   background-image: linear-gradient(white, white), var(--ai-gradient);
   background-origin: border-box;
   background-clip: padding-box, border-box;
-  position: relative;
 }
 
 .ai-badge {
@@ -92,105 +81,34 @@ footer {
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
 }
 
-/* Wrapper: Hält Inhalt und Buttons zusammen */
-.ai-result-wrapper {
-    position: relative; 
-    margin-top: 1rem;
-}
+.ai-result-wrapper { position: relative; margin-top: 1rem; }
 
-/* AI Response Box - Standard */
 .ai-response-box {
   background-color: #f8fafc;
-  border-left: 4px solid #0435a6;
+  border-left: 4px solid #6366f1;
   padding: 1.5rem;
   border-radius: 8px;
   font-size: 0.95rem;
   line-height: 1.6;
-  
-  /* Größe limitiert aber scrollbar */
   max-height: 400px; 
   overflow-y: auto;
-  transition: all 0.3s ease-in-out;
 }
 
-/* Buttons Container im Wrapper */
-.ai-buttons-container {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 10; /* Über dem Text */
+.ai-buttons-container { position: absolute; top: 10px; right: 10px; z-index: 10; }
+
+/* Transition für Spaltenwechsel */
+.transition-col {
+    transition: flex 0.4s ease, max-width 0.4s ease;
 }
 
-/* === EXPANDED MODE (MODAL) === */
-.ai-result-wrapper.expanded {
-    position: fixed;
-    top: 50%;          
-    left: 50%;         
-    transform: translate(-50%, -50%); 
-    
-    width: 90%;        
-    max-width: 1000px;  /* Breiter als Tabelle */
-    height: auto;
-    max-height: 85vh;  
-    
-    z-index: 9999;     /* Ganz oben */
-    box-shadow: 0 10px 50px rgba(0,0,0,0.5); 
-    background-color: #ffffff;
-    border: 2px solid #040f29; 
-    padding: 0; 
-    margin: 0; 
-    border-radius: 12px; 
-    display: flex; 
-    flex-direction: column;
-}
-
-.ai-result-wrapper.expanded .ai-buttons-container {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-}
-
-.ai-result-wrapper.expanded .ai-response-box {
-    border: none;
-    background-color: transparent;
-    max-height: none; 
-    overflow-y: auto;
-    padding: 3rem 2rem 2rem 2rem; 
-    flex-grow: 1;
-}
-
-.ai-result-wrapper.expanded::before {
-    content: '';
-    position: fixed;
-    top: -50vh; left: -50vw; 
-    width: 200vw; height: 200vh;
-    background: rgba(0,0,0,0.4); 
-    z-index: -1; 
-}
-
-.ai-response-box p:last-child { margin-bottom: 0; }
-.ai-response-box ul { margin-bottom: 1rem; padding-left: 1.5rem; }
-.ai-response-box h1, .ai-response-box h2 { 
-    font-size: 1.1rem; font-weight: 700; color: #040f29; margin-top: 1rem; margin-bottom: 0.5rem; 
-}
-
-/* Lade-Animation (Spinner) */
+/* Loading Spinner */
 .ai-loading {
-  display: none;
-  align-items: center;
-  gap: 10px;
-  color: #040f29;
-  font-weight: 600;
-  margin-top: 1rem;
+  display: none; align-items: center; gap: 10px; color: #040f29; font-weight: 600; margin-top: 1rem;
 }
 .spinner-dots {
-  width: 20px;
-  aspect-ratio: 4;
+  width: 20px; aspect-ratio: 4;
   background: radial-gradient(circle closest-side,#040f29 90%,#0000) 0/calc(100%/3) 100% space;
   clip-path: inset(0 100% 0 0);
   animation: l1 1s steps(4) infinite;
@@ -198,7 +116,6 @@ footer {
 @keyframes l1 {to{clip-path: inset(0 -34% 0 0)}}
 
 /* === Tabelle === */
-.table { margin-bottom: 0; }
 .table thead th {
   background-color: #f1f5f9;
   text-transform: uppercase;
@@ -206,188 +123,50 @@ footer {
   letter-spacing: 1px;
   padding: 1rem;
   color: var(--text-secondary);
-  border-bottom: 2px solid #cbd5e1;
 }
-.table tbody tr {
-  transition: all 0.2s ease-in-out;
-  border-bottom: 1px solid #f1f5f9;
-}
+.table tbody tr { border-bottom: 1px solid #f1f5f9; }
+.table tbody tr:hover { background-color: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.table td { vertical-align: middle; padding: 1.5rem 1rem; }
 
-/* FIX: Scrollbar entfernt durch Entfernen von transform: scale */
-.table tbody tr:hover {
-  background-color: #fff;
-  /* transform: scale(1.01); REMOVED TO FIX SCROLLBAR */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  z-index: 10;
-  position: relative;
-}
-.table td {
-  vertical-align: middle;
-  padding: 1.5rem 1rem;
-  font-size: 1.05rem;
-}
-
-/* FIX: Scrollbar für .table-responsive ausblenden */
-.table-responsive::-webkit-scrollbar {
-    display: none;
-}
-.table-responsive {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-/* === Inputs & Selects === */
+/* === Inputs === */
 .form-select, .form-control {
   padding: 0.8rem 1rem;
-  font-size: 1rem;
   border-radius: 8px;
   border: 1px solid #cbd5e1;
   background-color: #f8fafc;
 }
-.form-select:focus, .form-control:focus {
-  background-color: #fff;
-  border-color: var(--accent-color);
-  box-shadow: 0 0 0 4px rgba(51, 65, 85, 0.1);
-}
+.price-input { min-width: 120px !important; }
 
-.price-input {
-  min-width: 120px !important;
-  font-feature-settings: "tnum"; 
-}
-
-/* === Sticky Footer (Preisleiste) === */
+/* === Sticky Footer === */
 .sticky-price-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  position: fixed; bottom: 0; left: 0; width: 100%;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   border-top: 1px solid #e2e8f0;
   padding: 1rem 0;
   box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
   z-index: 1000;
-  transform: translateY(0);
-  transition: transform 0.3s;
-}
-
-.total-label {
-  font-size: 1.1rem;
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  font-weight: 600;
 }
 .total-price {
-  font-size: 2.5rem;
-  font-weight: 800;
+  font-size: 2.5rem; font-weight: 800;
   background: var(--success-gradient);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block;
-  min-width: 180px;
-  text-align: right;
+  min-width: 180px; text-align: right;
 }
-
 @keyframes pulse-green {
-  0% { transform: scale(1); filter: brightness(1); }
-  50% { transform: scale(1.1); filter: brightness(1.2); }
-  100% { transform: scale(1); filter: brightness(1); }
+  0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); }
 }
 .price-update-anim { animation: pulse-green 0.4s ease-out; }
 
 /* === Buttons === */
 .btn-link-custom {
-  background-color: #e2e8f0;
-  color: #334155;
-  font-weight: 600;
-  border-radius: 8px;
-  padding: 0.6rem 1rem;
-  transition: all 0.2s;
+  background-color: #e2e8f0; color: #334155;
+  font-weight: 600; border-radius: 8px; padding: 0.6rem 1rem;
 }
-.btn-link-custom:hover {
-  background-color: #cbd5e1;
-  color: #0f172a;
-  transform: translateY(-2px);
-}
+.btn-link-custom:hover { background-color: #cbd5e1; color: #0f172a; }
 
 .btn-ai {
-    background: var(--ai-gradient);
-    color: white;
-    border: none;
-    font-weight: 600;
-    transition: filter 0.2s;
-}
-.btn-ai:hover {
-    color: white;
-    filter: brightness(1.1);
-}
-
-/* === Expert Accordion Styles === */
-.accordion-button:not(.collapsed) {
-  background-color: #e2e8f0;
-  color: var(--text-primary);
-  box-shadow: none;
-}
-.accordion-item {
-  border: 1px solid #e2e8f0;
-  margin-bottom: 12px;
-  border-radius: 8px !important;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-}
-
-.accordion-body img {
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    margin-bottom: 1rem;
-    transition: transform 0.3s;
-}
-.accordion-body img:hover {
-    transform: scale(1.02);
-}
-
-.info-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-}
-.info-card {
-  background: #f8fafc;
-  padding: 1.5rem;
-  border-radius: 8px;
-  border: 1px solid #e2e8f0;
-}
-
-.source-badge {
-    font-size: 0.75rem;
-    background: #e2e8f0;
-    color: #475569;
-    padding: 2px 6px;
-    border-radius: 4px;
-    margin-right: 5px;
-    font-weight: 600;
-}
-
-/* === News Cards === */
-.news-card {
-    transition: transform 0.3s;
-    height: 100%;
-    border: 1px solid #e2e8f0;
-}
-.news-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
-}
-.news-tag {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: rgba(15, 23, 42, 0.85);
-    color: white;
-    padding: 4px 10px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    backdrop-filter: blur(4px);
+    background: var(--ai-gradient); color: white; border: none; font-weight: 600;
 }

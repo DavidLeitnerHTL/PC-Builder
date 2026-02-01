@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PC Konfigurator</title>
+  <title>PC Konfigurator 2026</title>
   
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -68,18 +68,19 @@
       <!-- === BUILDER TAB === -->
       <div class="tab-pane fade show active" id="builder-content" role="tabpanel">
         <div class="row">
-            <div class="col-lg-8">
+            <!-- Linke Spalte (Hardware) mit ID -->
+            <div class="col-lg-8 transition-col" id="hardware-column">
                 
                 <!-- PRESET BUTTONS -->
                 <div class="mb-3 d-flex gap-2 justify-content-center justify-content-md-start flex-wrap">
                     <button id="preset-budget" class="btn btn-outline-success fw-bold" onclick="loadPreset('budget')">
-                        <i class="fas fa-piggy-bank me-1"></i> Budget
+                        Budget
                     </button>
                     <button id="preset-midrange" class="btn btn-outline-primary fw-bold" onclick="loadPreset('midrange')">
-                        <i class="fas fa-gamepad me-1"></i> Mid-Range
+                        Mid-Range
                     </button>
                     <button id="preset-highend" class="btn btn-outline-danger fw-bold" onclick="loadPreset('highend')">
-                        <i class="fas fa-rocket me-1"></i> High-End
+                        High-End
                     </button>
                 </div>
 
@@ -234,8 +235,8 @@
                 </div>
             </div>
 
-            <!-- AI Sidebar -->
-            <div class="col-lg-4">
+            <!-- AI Sidebar (Rechte Spalte mit ID) -->
+            <div class="col-lg-4 transition-col" id="ai-column">
                 <div class="card ai-card mb-4">
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between mb-3">
@@ -267,8 +268,8 @@
 
                         <div id="ai-result-wrapper" class="ai-result-wrapper" style="display: none;">
                             <div class="ai-buttons-container">
-                                <button id="btn-resize-ai" class="btn btn-sm btn-light border shadow-sm" title="Vergrößern">⤢</button>
-                                <button id="btn-close-expanded" class="btn btn-sm btn-danger border shadow-sm" title="Schließen" style="display: none;">✕ Schließen</button>
+                                <button id="btn-resize-ai" class="btn btn-sm btn-light border shadow-sm" title="Ansicht umschalten">⤢</button>
+                                <button id="btn-close-expanded" class="btn btn-sm btn-danger border shadow-sm" title="Standardansicht" style="display: none;">✕ Reset</button>
                             </div>
                             <div id="ai-output" class="ai-response-box shadow-sm"></div>
                         </div>
@@ -281,6 +282,7 @@
 
       <!-- === THEORY TAB === -->
       <div class="tab-pane fade" id="theory-content" role="tabpanel">
+        <!-- ... existing theory content ... -->
         <div class="row">
           <div class="col-lg-12 mx-auto">
             <div class="card p-4 theory-section shadow-lg border-0">
@@ -291,8 +293,10 @@
               </div>
 
               <div class="accordion" id="accordionTheory">
-
-                <!-- 1. PROCESSORS -->
+                <!-- Content same as previous, just keeping file structure valid -->
+                <!-- ... -->
+                <!-- Include all accordion items from previous file to ensure full functionality -->
+                 <!-- 1. PROCESSORS -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
@@ -760,7 +764,7 @@
         <div class="col-md-6 mb-4">
           <h5 class="text-uppercase fw-bold text-primary mb-3">Über das Projekt</h5>
           <p class="small text-white-50">
-            Ein PC Konfigurator mit AI-Assistant. Erstellt als Schulprojekt an der HTL Leonding.
+            Ein moderner PC Konfigurator mit AI-Support. Erstellt als Schulprojekt an der HTL Leonding.
           </p>
           <p class="small text-white-50">© 2026 David Leitner & Maximilian Baumgartner</p>
         </div>

@@ -283,10 +283,36 @@ const btnClose = document.getElementById('btn-close-expanded');
 const wrapper = document.getElementById('ai-result-wrapper');
 
 function toggleExpandedView() {
-    if(!wrapper) return;
-    wrapper.classList.toggle('expanded');
-    const isExpanded = wrapper.classList.contains('expanded');
-    resetButtons(isExpanded);
+    const hwCol = document.getElementById('hardware-column');
+    const aiCol = document.getElementById('ai-column');
+    
+    if(!hwCol || !aiCol) return;
+
+    // Prüfen ob bereits expandiert
+    // Wir nutzen eine Klasse am AI Column als Marker oder prüfen die Klassen direkt
+    const isExpanded = aiCol.classList.contains('col-lg-8');
+
+    if (isExpanded) {
+        // Zurück zum Standard (Hardware groß, AI klein)
+        hwCol.className = 'col-lg-8 transition-col';
+        aiCol.className = 'col-lg-4 transition-col';
+        
+        // Buttons resetten
+        if(btnResize) btnResize.style.display = 'inline-block';
+        if(btnClose) btnClose.style.display = 'none';
+        
+        if(wrapper) wrapper.classList.remove('expanded'); // Nur zur Sicherheit
+    } else {
+        // Expandieren (Hardware klein, AI groß)
+        hwCol.className = 'col-lg-4 transition-col';
+        aiCol.className = 'col-lg-8 transition-col';
+        
+        // Buttons resetten
+        if(btnResize) btnResize.style.display = 'none';
+        if(btnClose) btnClose.style.display = 'inline-block';
+        
+        if(wrapper) wrapper.classList.remove('expanded'); // Popup Klasse entfernen, falls sie noch da ist
+    }
 }
 
 function resetButtons(isExpanded) {
