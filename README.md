@@ -69,7 +69,8 @@ Um den Google Gemini API Key vor automatischen Scannern (z.B. auf GitHub) zu sch
 
 Erstelle eine Datei config.js im Hauptverzeichnis:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   // Schutz vor automatischen Scannern durch Aufteilung des Strings  const PART_A = "AIzaSy..."; // Erste Hälfte deines Keys  const PART_B = "...deinKeyRest"; // Zweite Hälfte  const CONFIG = {      GEMINI_API_KEY: PART_A + PART_B  };   `
+<img width="802" height="90" alt="image" src="https://github.com/user-attachments/assets/857d3cb0-9696-4b15-9d93-e2c547c8dfa2" />
+
 
 ### Deployment auf Cloudflare Pages
 
