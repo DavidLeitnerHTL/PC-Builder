@@ -69,7 +69,8 @@ Um den Google Gemini API Key vor automatischen Scannern (z.B. auf GitHub) zu sch
 
 Erstelle eine Datei config.js im Hauptverzeichnis:
 
-<img width="802" height="90" alt="image" src="https://github.com/user-attachments/assets/857d3cb0-9696-4b15-9d93-e2c547c8dfa2" />
+<img width="568" height="79" alt="image" src="https://github.com/user-attachments/assets/5b66fc2a-994e-42f7-9c4f-74811629a244" />
+
 
 
 ### Deployment auf Cloudflare Pages
