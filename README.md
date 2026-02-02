@@ -1,14 +1,14 @@
-Professional Hardware Systems - PC Konfigurator 2026
+PC Builder
 ====================================================
 
-Ein moderner, webbasierter PC-Konfigurator, der Nutzern hilft, kompatible Computer-Systeme zusammenzustellen. Das Projekt bietet kuratierte Hardware-Vorauswahlen (Presets), Echtzeit-Preisberechnung und einen integrierten KI-Assistenten zur Beratung.
+Ein moderner, webbasierter PC-Konfigurator, der Nutzern hilft, kompatible Pc's zusammenzustellen. Das Projekt bietet Hardware-Vorauswahlen (Presets), Echtzeit-Preisberechnung und einen integrierten KI-Assistenten zur Beratung.
 
 Features
 --------
 
 ### 1\. Interaktiver Konfigurator
 
-*   **Aktuelle Hardware (Stand 2026):** Unterstützung für NVIDIA RTX 50-Serie (Blackwell), AMD Ryzen 9000 & Intel Core Ultra.
+*   **Aktuelle Hardware:** Unterstützung für NVIDIA RTX 50-Serie (Blackwell), AMD Ryzen 9000 & Intel Core Ultra.
     
 *   **Smarte Presets:** Ein-Klick-Lösungen für _Budget_, _Mid-Range_ und _High-End_ Setups.
     
@@ -32,7 +32,7 @@ Features
     
 *   **News Feed:** Aktuelle Schlagzeilen aus der Hardware-Industrie.
     
-*   **Troubleshooting:** Hilfestellungen bei gängigen PC-Bau-Problemen.
+*   **Troubleshooting(FAQ):** Hilfestellungen bei gängigen PC-Bau-Problemen.
     
 
 Technologien
