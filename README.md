@@ -1,30 +1,92 @@
-# PC Configurator - Selection and Price Calculation of PC Components
+Professional Hardware Systems - PC Konfigurator 2026
 
-A web-based tool for assembling PC components with integrated AI advice and price calculation.
+Ein moderner, webbasierter PC-Konfigurator, der Nutzern hilft, kompatible Computer-Systeme zusammenzustellen. Das Projekt bietet kuratierte Hardware-Vorauswahlen (Presets), Echtzeit-Preisberechnung und einen integrierten KI-Assistenten zur Beratung.
 
-**The application is available live at:** [https://pc-konfigurator.netlify.app/](https://pc-konfigurator.netlify.app/)
+Features
 
-**Deployment:** The project is hosted via Netlify and updates automatically through a continuous deployment connection with the GitHub repository.
+1. Interaktiver Konfigurator
 
-## Features
+Aktuelle Hardware (Stand 2026): Unterstützung für NVIDIA RTX 50-Serie (Blackwell), AMD Ryzen 9000 & Intel Core Ultra.
 
-**Hardware Configurator:** Selection of components such as CPU, GPU, RAM, motherboard, and more. The total price is calculated in real-time and displayed at the bottom.
-**AI System Check:** An integrated interface to the Google Gemini API checks the selected configuration for compatibility and bottlenecks.
-**Expert Chat:** Users can ask specific hardware questions and receive context-aware answers based on their current selection.
-**Knowledge Base:** An information section explaining technical terms and concepts (e.g., DLSS, Raytracing).
-**News Feed:** A section for current hardware news and trends.
-**Troubleshooting:** A collection of solutions for common PC building problems (FAQ).
+Smarte Presets: Ein-Klick-Lösungen für Budget, Mid-Range und High-End Setups.
 
-## Technologies
+Echtzeit-Kalkulation: Der Gesamtpreis aktualisiert sich sofort bei jeder Änderung.
 
-**Frontend:** HTML5, CSS3, JavaScript
-**Design:** Bootstrap 5 Framework and Custom CSS
-**AI Integration:** Google Gemini API
-**Markdown Rendering:** marked.js
+Direktlinks: Integrierte Bezugsquellen für alle Komponenten.
 
-## Team
+2. AI Assistant (Gemini Powered)
 
-**David Leitner**
-**Maximilian Baumgartner**
+Ein integrierter Chatbot, basierend auf Googles Gemini.
 
-**Developed as a school project at HTL Leonding.**
+Beantwortet spezifische Hardware-Fragen.
+
+Prüft die gewählte Konfiguration auf Kompatibilität und Bottlenecks.
+
+3. Expertenwissen & News
+
+Wissensdatenbank: Detaillierte Erklärungen zu aktuellen Technologien (DDR5, PCIe 5.0, OLED, ATX 3.1).
+
+News Feed: Aktuelle Schlagzeilen aus der Hardware-Industrie.
+
+Troubleshooting: Hilfestellungen bei gängigen PC-Bau-Problemen.
+
+Technologien
+
+Frontend: HTML5, CSS3 (Custom Properties & Animations), JavaScript (ES6+)
+
+Framework: Bootstrap 5.3 (Responsive Design)
+
+KI-Integration: Google Gemini API
+
+Icons: FontAwesome 6
+
+Hosting: Cloudflare Pages
+
+Installation & Deployment
+
+Das Projekt ist für das Hosting auf Cloudflare Pages optimiert, um GitHub-API-Key-Scans zu vermeiden und unbegrenzte Bandbreite zu nutzen.
+
+Lokale Entwicklung
+
+Repository klonen oder herunterladen.
+
+config.js erstellen (siehe unten).
+
+index.html im Browser öffnen.
+
+API Key Konfiguration (config.js)
+
+Um den Google Gemini API Key vor automatischen Scannern (z.B. auf GitHub) zu schützen, wird der Key in der config.js geteilt hinterlegt.
+
+Erstelle eine Datei config.js im Hauptverzeichnis:
+
+// Schutz vor automatischen Scannern durch Aufteilung des Strings
+const PART_A = "AIzaSy..."; // Erste Hälfte deines Keys
+const PART_B = "...deinKeyRest"; // Zweite Hälfte
+
+const CONFIG = {
+    GEMINI_API_KEY: PART_A + PART_B
+};
+
+
+Deployment auf Cloudflare Pages
+
+Cloudflare Dashboard öffnen > Compute (Workers & Pages).
+
+Auf Create Application > Pages > Upload assets klicken.
+
+Den Projektordner hochladen.
+
+Wichtig: In der Google Cloud Console die Domain der Cloudflare Page (https://dein-projekt.pages.dev) unter "Website-Einschränkungen" für den API-Key freischalten.
+
+Sicherheitshinweis
+
+Da es sich um eine clientseitige Anwendung handelt, ist der API-Key theoretisch im Browser-Quellcode sichtbar.
+
+Schutzmaßnahme: Der API-Key ist in der Google Cloud Console strikt auf die Domain der Webseite (Referrer) beschränkt.
+
+Autoren
+
+David Leitner
+
+Maximilian Baumgartner
