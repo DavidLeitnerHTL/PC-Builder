@@ -66,12 +66,23 @@ footer {
   background-color: var(--bg-card);
 }
 
-/* === AI Bereich === */
+/* === AI Bereich (Fixes) === */
 .ai-card {
   border: 2px solid transparent;
   background-image: linear-gradient(white, white), var(--ai-gradient);
   background-origin: border-box;
   background-clip: padding-box, border-box;
+  
+  /* FIX 1: Keine erzwungene 100% Höhe mehr */
+  display: flex;
+  flex-direction: column;
+  height: auto; /* Passt sich dem Inhalt an */
+}
+
+.ai-card .card-body {
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; entfernt */
 }
 
 .ai-badge {
@@ -83,8 +94,16 @@ footer {
   font-weight: 600;
 }
 
-.ai-result-wrapper { position: relative; margin-top: 1rem; }
+/* Wrapper */
+.ai-result-wrapper { 
+    position: relative; 
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* min-height entfernt, damit es nicht unnötig Platz braucht */
+}
 
+/* Die Antwort-Box - FIX 2: Max-Height Limits */
 .ai-response-box {
   background-color: #f8fafc;
   border-left: 4px solid #6366f1;
@@ -92,43 +111,26 @@ footer {
   border-radius: 8px;
   font-size: 0.95rem;
   line-height: 1.6;
-  max-height: 400px; 
-  overflow-y: auto;
+  overflow-y: auto; /* Scrollbar wenn zu viel Text */
+  
+  /* Standard Limit: Nicht zu hoch */
+  max-height: 300px;
+  transition: max-height 0.3s ease;
+}
+
+/* Wenn die Spalte breit ist (Expanded Mode), darf die Box etwas höher sein, aber nicht unendlich */
+#ai-column.col-lg-8 .ai-response-box {
+    max-height: 500px; 
 }
 
 .ai-buttons-container { position: absolute; top: 10px; right: 10px; z-index: 10; }
 
-/* === Column Transitions & Animations === */
-
-/* Basis Transition für die Spalten */
+/* === COLUMN ANIMATION === */
 .transition-col {
-    transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1); /* Smoother Ease-Out */
-    overflow: hidden; /* Wichtig, damit Inhalt beim Verkleinern abgeschnitten wird */
+    transition: width 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), 
+                flex 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), 
+                max-width 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-
-/* Klasse zum kompletten Schließen einer Spalte (Breite 0) */
-.col-closed {
-    flex: 0 0 0% !important;
-    width: 0% !important;
-    max-width: 0% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin: 0 !important;
-    opacity: 0;
-}
-
-/* WICHTIG: Verhindert, dass der Inhalt (Tabelle) während der Animation 
-   zusammengequetscht wird. Wir zwingen den Inhalt, seine Breite zu behalten. */
-#hardware-column > * {
-    min-width: 800px; /* Breite der Tabelle bleibt erhalten -> Slide-Effekt */
-    transition: opacity 0.3s ease;
-}
-
-/* Wenn geschlossen, Inhalt transparent machen */
-.col-closed > * {
-    opacity: 0;
-}
-
 
 /* Loading Spinner */
 .ai-loading {
@@ -143,6 +145,16 @@ footer {
 @keyframes l1 {to{clip-path: inset(0 -34% 0 0)}}
 
 /* === Tabelle === */
+.table-responsive {
+    overflow-x: auto; 
+    width: 100%;
+}
+
+#hardware-table th, 
+#hardware-table td {
+    white-space: nowrap; 
+}
+
 .table thead th {
   background-color: #f1f5f9;
   text-transform: uppercase;
@@ -155,13 +167,22 @@ footer {
 .table tbody tr:hover { background-color: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
 .table td { vertical-align: middle; padding: 1.5rem 1rem; }
 
-/* === Inputs === */
+/* === Inputs & Selects - FIX 3: Dropdown Pfeile === */
 .form-select, .form-control {
   padding: 0.8rem 1rem;
   border-radius: 8px;
   border: 1px solid #cbd5e1;
   background-color: #f8fafc;
 }
+
+/* Spezifischer Fix für Selects */
+.form-select {
+    padding-right: 2.5rem; /* Mehr Platz für den Pfeil rechts */
+    text-overflow: ellipsis; /* Text abschneiden mit "..." */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .price-input { min-width: 120px !important; }
 
 /* === Sticky Footer === */

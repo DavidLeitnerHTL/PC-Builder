@@ -197,11 +197,10 @@ function toggleLoading(show) {
     const resultWrapper = document.getElementById('ai-result-wrapper');
     
     if(loadingEl) loadingEl.style.display = show ? 'flex' : 'none';
-    if(resultWrapper && !show) resultWrapper.style.display = 'block';
+    if(resultWrapper && !show) resultWrapper.style.display = 'flex'; // Use flex to maintain structure
+    
     if(resultWrapper && show) {
         resultWrapper.style.display = 'none';
-        resultWrapper.classList.remove('expanded');
-        resetButtons(false);
     }
 }
 
@@ -277,40 +276,39 @@ async function callGemini(prompt) {
     return `Fehler: Kein KI-Modell konnte erreicht werden. (Probierte Modelle: ${modelsToTry.join(', ')})`;
 }
 
-// UI Event Listener
+// UI Event Listener für Expand/Collapse
 const btnResize = document.getElementById('btn-resize-ai');
 const btnClose = document.getElementById('btn-close-expanded');
-const wrapper = document.getElementById('ai-result-wrapper');
 
+// Funktion zum Umschalten des Modus
 function toggleExpandedView() {
     const hwCol = document.getElementById('hardware-column');
     const aiCol = document.getElementById('ai-column');
-    
+
     if(!hwCol || !aiCol) return;
 
-    // Prüfen ob bereits expandiert (Wir nutzen jetzt die Klasse 'col-closed')
-    const isExpanded = hwCol.classList.contains('col-closed');
+    // Check current state by looking at classes
+    // Standard: hw=col-lg-8, ai=col-lg-4
+    const isExpanded = aiCol.classList.contains('col-lg-8');
 
     if (isExpanded) {
         // ZURÜCK ZUM NORMALZUSTAND
-        // 1. Hardware Spalte sichtbar machen (col-8)
-        hwCol.classList.remove('col-closed');
+        // Hardware wieder breit (8), AI wieder schmal (4)
+        hwCol.classList.remove('col-lg-4');
         hwCol.classList.add('col-lg-8');
         
-        // 2. AI Spalte wieder normal (col-4)
-        aiCol.classList.remove('col-lg-12');
+        aiCol.classList.remove('col-lg-8');
         aiCol.classList.add('col-lg-4');
 
         resetButtons(false);
     } else {
-        // EXPANDIEREN (Hardware wegschieben)
-        // 1. Hardware Spalte schließen (width: 0)
+        // EXPANDIEREN
+        // Hardware schmal (4), AI breit (8)
         hwCol.classList.remove('col-lg-8');
-        hwCol.classList.add('col-closed');
+        hwCol.classList.add('col-lg-4');
         
-        // 2. AI Spalte auf volle Breite
         aiCol.classList.remove('col-lg-4');
-        aiCol.classList.add('col-lg-12');
+        aiCol.classList.add('col-lg-8');
 
         resetButtons(true);
     }

@@ -67,8 +67,12 @@
 
       <!-- === BUILDER TAB === -->
       <div class="tab-pane fade show active" id="builder-content" role="tabpanel">
-        <div class="row">
-            <!-- Linke Spalte (Hardware) mit ID -->
+        
+        <!-- Standard Bootstrap Row mit ID für Zugriff -->
+        <div class="row align-items-stretch" id="main-builder-row">
+            
+            <!-- Linke Spalte (Hardware): Standardmäßig col-lg-8 -->
+            <!-- 'transition-col' für die Animation -->
             <div class="col-lg-8 transition-col" id="hardware-column">
                 
                 <!-- PRESET BUTTONS -->
@@ -85,14 +89,13 @@
                 </div>
 
                 <!-- Hardware Table -->
-                <div class="card shadow-sm mb-4">
+                <div class="card shadow-sm mb-4 h-100">
                   <div class="card-header bg-white py-3">
                     <h2 class="h4 mb-1 text-dark">Hardware Konfiguration</h2>
                   </div>
                   <div class="card-body p-0">
                     
-                    <!-- Scroll Container -->
-                    <div class="table-responsive hardware-scroll-container">
+                    <div class="table-responsive">
                       <table class="table mb-0" id="hardware-table">
                         <thead class="bg-light">
                           <tr>
@@ -235,7 +238,8 @@
                 </div>
             </div>
 
-            <!-- AI Sidebar (Rechte Spalte mit ID) -->
+            <!-- Rechte Spalte (AI): Standardmäßig col-lg-4 -->
+            <!-- 'transition-col' für die Animation -->
             <div class="col-lg-4 transition-col" id="ai-column">
                 <div class="card ai-card mb-4">
                     <div class="card-body">
