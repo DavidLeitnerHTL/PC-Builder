@@ -6,10 +6,12 @@ from selenium.webdriver.support import expected_conditions as EC
 import csv
 import urllib.parse
 import time
+import sys
 
 # =========================
 # KONFIGURATION
 # =========================
+
 GPUS = [
     "RTX 4060 Ti",
     "RTX 5070",
@@ -18,64 +20,132 @@ GPUS = [
 ]
 
 CSV_DATEI = "gpu_preise_idealo.csv"
+QUELLE = "idealo.at"
+MAX_PREISE = 3
+WAIT_TIMEOUT = 10
+PAUSE_SEKUNDEN = 5
 
-# Chrome Optionen für Headless-Browser
-chrome_options = Options()
-chrome_options.add_argument("--headless")  # Browser unsichtbar
-chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--window-size=1920,1080")
+# =========================
+# CHROME OPTIONEN
+# =========================
+
+def erstelle_chrome_optionen():
+    """Erstellt und gibt Chrome-Optionen zurück."""
+    try:
+        options = Options()
+        options.add_argument("--headless")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--window-size=1920,1080")
+        return options
+    except Exception as e:
+        print("Fehler bei Chrome-Optionen:", e)
+        sys.exit(1)
+
+# =========================
+# DRIVER STARTEN
+# =========================
+
+def starte_driver():
+    """Startet den Chrome WebDriver."""
+    try:
+        options = erstelle_chrome_optionen()
+        driver = webdriver.Chrome(options=options)
+        return driver
+    except Exception as e:
+        print("Fehler beim Starten des WebDrivers:", e)
+        sys.exit(1)
 
 # =========================
 # PREISE HOLEN
 # =========================
-def hole_preise(gpu_name, driver, max_preise=3):
+
+def hole_preise(gpu_name, driver):
     """
-    Liest die ersten max_preise Preise für eine GPU aus Idealo aus.
+    Holt bis zu MAX_PREISE Preise von Idealo.
+    Gibt immer eine Liste mit genau MAX_PREISE Einträgen zurück.
     """
-    query = urllib.parse.quote(gpu_name)
-    url = f"https://www.idealo.at/preisvergleich/MainSearchProductCategory.html?q={query}"
-    driver.get(url)
+    preise = []
 
     try:
-        # Warten bis mindestens ein Preis sichtbar ist (max. 10 Sekunden)
-        WebDriverWait(driver, 10).until(
+        query = urllib.parse.quote(gpu_name)
+        url = f"https://www.idealo.at/preisvergleich/MainSearchProductCategory.html?q={query}"
+        driver.get(url)
+    except Exception as e:
+        print(f"Fehler beim Laden der Seite für {gpu_name}:", e)
+        return ["Kein Preis gefunden"] * MAX_PREISE
+
+    try:
+        WebDriverWait(driver, WAIT_TIMEOUT).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "span[data-testid='price']"))
         )
-        # Alle Preise sammeln
-        preis_elements = driver.find_elements(By.CSS_SELECTOR, "span[data-testid='price']")
-        preise = [el.text.strip() for el in preis_elements[:max_preise]]
-        if not preise:
-            return ["Kein Preis gefunden"]
-        return preise
-    except:
-        return ["Kein Preis gefunden"]
+    except Exception:
+        print(f"Keine Preise sichtbar für {gpu_name}")
+        return ["Kein Preis gefunden"] * MAX_PREISE
+
+    try:
+        preis_elemente = driver.find_elements(By.CSS_SELECTOR, "span[data-testid='price']")
+        for element in preis_elemente[:MAX_PREISE]:
+            preise.append(element.text.strip())
+    except Exception as e:
+        print(f"Fehler beim Auslesen der Preise für {gpu_name}:", e)
+
+    while len(preise) < MAX_PREISE:
+        preise.append("-")
+
+    return preise
 
 # =========================
-# HAUPTPROGRAMM
+# CSV DATEI ERSTELLEN
 # =========================
-def main():
-    driver = webdriver.Chrome(options=chrome_options)
 
-    with open(CSV_DATEI, "w", newline="", encoding="utf-8") as datei:
+def schreibe_csv(driver):
+    """Schreibt alle GPU-Preise in eine CSV-Datei."""
+    try:
+        datei = open(CSV_DATEI, "w", newline="", encoding="utf-8")
+    except Exception as e:
+        print("Fehler beim Öffnen der CSV-Datei:", e)
+        sys.exit(1)
+
+    with datei:
         writer = csv.writer(datei)
         writer.writerow(["Grafikkarte", "Preis 1", "Preis 2", "Preis 3", "Quelle"])
 
         for gpu in GPUS:
             print("Suche:", gpu)
-            preise = hole_preise(gpu, driver)
-            # Füllen mit "-" falls weniger als 3 Preise gefunden wurden
-            while len(preise) < 3:
-                preise.append("-")
-            writer.writerow([gpu] + preise + ["idealo.at"])
-            print("Preise gefunden:", preise)
-            time.sleep(5)  # Pause, damit Seite nicht blockiert
 
-    driver.quit()
+            preise = hole_preise(gpu, driver)
+
+            try:
+                writer.writerow([gpu] + preise + [QUELLE])
+                print("Preise:", preise)
+            except Exception as e:
+                print(f"Fehler beim Schreiben in CSV für {gpu}:", e)
+
+            time.sleep(PAUSE_SEKUNDEN)
+
+# =========================
+# HAUPTPROGRAMM
+# =========================
+
+def main():
+    driver = starte_driver()
+
+    try:
+        schreibe_csv(driver)
+    except Exception as e:
+        print("Unerwarteter Fehler:", e)
+    finally:
+        try:
+            driver.quit()
+        except:
+            pass
+
     print("Fertig. CSV wurde erstellt.")
 
 # =========================
 # START
 # =========================
+
 if __name__ == "__main__":
     main()
