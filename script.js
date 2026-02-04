@@ -1,13 +1,13 @@
 /**
- * KONFIGURATION
+ * CONFIGURATION
  */
 const apiKey = typeof CONFIG !== 'undefined' ? CONFIG.GEMINI_API_KEY : ""; 
 
-// Flag um zu prüfen, ob gerade ein Preset geladen wird
+// Flag to check if a preset is currently loading
 let isPresetLoading = false;
 
 /**
- * PRESETS (Vorauswahlen für 2026 Hardware)
+ * PRESETS (Hardware Selection for 2026)
  */
 const PRESETS = {
     budget: {
@@ -43,24 +43,24 @@ const PRESETS = {
 };
 
 /**
- * Hilfsfunktion: Setzt alle Preset-Buttons auf den Normalzustand zurück
+ * Helper function: Resets all preset buttons to normal state
  */
 function resetPresetButtons() {
     const btnBudget = document.getElementById('preset-budget');
     const btnMid = document.getElementById('preset-midrange');
     const btnHigh = document.getElementById('preset-highend');
 
-    // Budget: grün
+    // Budget: green
     if (btnBudget) {
         btnBudget.classList.remove('btn-success');
         btnBudget.classList.add('btn-outline-success');
     }
-    // Midrange: blau
+    // Midrange: blue
     if (btnMid) {
         btnMid.classList.remove('btn-primary');
         btnMid.classList.add('btn-outline-primary');
     }
-    // Highend: rot
+    // Highend: red
     if (btnHigh) {
         btnHigh.classList.remove('btn-danger');
         btnHigh.classList.add('btn-outline-danger');
@@ -68,10 +68,10 @@ function resetPresetButtons() {
 }
 
 /**
- * Hilfsfunktion: Setzt einen bestimmten Button auf "Aktiv" (gefüllt)
+ * Helper function: Sets a specific button to "Active" (filled)
  */
 function activatePresetButton(type) {
-    resetPresetButtons(); // Erstmal alle zurücksetzen
+    resetPresetButtons(); // Reset all first
     
     let btn;
     let colorClass;
@@ -88,31 +88,31 @@ function activatePresetButton(type) {
     }
 
     if (btn) {
-        // Outline entfernen, Full Color hinzufügen
+        // Remove outline, add full color
         btn.classList.remove(`btn-outline-${colorClass}`);
         btn.classList.add(`btn-${colorClass}`);
     }
 }
 
 /**
- * FUNKTION: Preset laden
+ * FUNCTION: Load Preset
  */
 function loadPreset(type) {
     const preset = PRESETS[type];
     if (!preset) return;
 
-    isPresetLoading = true; // Flag setzen: Wir ändern jetzt programmatisch
+    isPresetLoading = true; // Set flag: Programmatic change
 
     // Button Highlighting
     activatePresetButton(type);
 
-    // Mapping der HTML-IDs zu den Preset-Keys
+    // Map HTML IDs to Preset Keys
     const mapping = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case'];
 
     mapping.forEach(id => {
         const select = document.getElementById(id);
         if (select) {
-            // Suche die Option, die den Text aus dem Preset enthält
+            // Find option containing the preset text
             for (let i = 0; i < select.options.length; i++) {
                 if (select.options[i].text.includes(preset[id])) {
                     select.selectedIndex = i;
@@ -123,15 +123,15 @@ function loadPreset(type) {
         }
     });
 
-    isPresetLoading = false; // Fertig
+    isPresetLoading = false; // Done
 }
 
 /**
- * FUNKTION: update(select)
- * Berechnet Preis und aktualisiert den Amazon-Link
+ * FUNCTION: update(select)
+ * Calculates price and updates Amazon link
  */
 function update(select) {
-    // Wenn der User selbst klickt (nicht durch Preset-Laden), Buttons resetten
+    // If user clicks (not via preset loading), reset buttons
     if (!isPresetLoading) {
         resetPresetButtons();
     }
@@ -176,7 +176,7 @@ function calcTotal() {
 }
 
 // ==========================================
-// AI LOGIK (MIT AUTO-FALLBACK FÜR NEUE MODELLE)
+// AI LOGIC (WITH AUTO-FALLBACK)
 // ==========================================
 
 function getSelectedComponents() {
@@ -197,7 +197,7 @@ function toggleLoading(show) {
     const resultWrapper = document.getElementById('ai-result-wrapper');
     
     if(loadingEl) loadingEl.style.display = show ? 'flex' : 'none';
-    if(resultWrapper && !show) resultWrapper.style.display = 'flex'; // Use flex to maintain structure
+    if(resultWrapper && !show) resultWrapper.style.display = 'flex'; 
     
     if(resultWrapper && show) {
         resultWrapper.style.display = 'none';
@@ -205,26 +205,25 @@ function toggleLoading(show) {
 }
 
 async function callGemini(prompt) {
-    // 1. Prüfen ob Key existiert
+    // 1. Check if Key exists
     if (!apiKey || apiKey.trim() === "") {
          return "Fehler: API Key fehlt. Bitte überprüfe die config.js Datei.";
     }
     
     const cleanKey = apiKey.trim();
 
-    // 2. Modell-Liste aktualisiert basierend auf deinem Dashboard
+    // 2. Updated Model List
     const modelsToTry = [
-        "gemini-2.5-flash",  // Deine verfügbare Version
-        "gemini-3-flash",    // Deine verfügbare Version
-        "gemini-1.5-flash",  // Fallback
-        "gemini-2.0-flash-exp" // Experimenteller Fallback
+        "gemini-2.5-flash", 
+        "gemini-1.5-flash",
+        "gemini-2.0-flash-exp"
     ];
 
     let lastError = "";
 
-    // Wir probieren die Modelle nacheinander durch
+    // Try models sequentially
     for (const model of modelsToTry) {
-        console.log(`Versuche KI-Modell: ${model}...`);
+        console.log(`Trying AI Model: ${model}...`);
         
         const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${cleanKey}`;
         const payload = {
@@ -242,58 +241,54 @@ async function callGemini(prompt) {
                 const data = await response.json();
                 return data.candidates[0].content.parts[0].text;
             } else {
-                // Fehler analysieren
+                // Parse error
                 let errorDetails = await response.text();
                 try {
                     const jsonError = JSON.parse(errorDetails);
                     errorDetails = jsonError.error?.message || JSON.stringify(jsonError);
                 } catch(e) {}
 
-                // Wenn es ein 404 ist, probieren wir das nächste Modell
+                // If 404, try next model
                 if (response.status === 404) {
-                    console.warn(`Modell ${model} nicht gefunden (404). Versuche nächstes...`);
+                    console.warn(`Model ${model} not found (404). Trying next...`);
                     lastError = `Modell ${model} nicht verfügbar.`;
-                    continue; // Nächster Schleifendurchlauf
+                    continue; 
                 }
 
-                // Bei anderen Fehlern (z.B. API nicht aktiviert) brechen wir ab
+                // If API not enabled
                 if (errorDetails.includes("API has not been used") || errorDetails.includes("Enable it")) {
-                    throw new Error("Die 'Generative Language API' ist in deinem Google Cloud Projekt noch nicht aktiviert. Bitte suche nach der API in der Google Console und klicke auf 'ENABLE'.");
+                    throw new Error("Die 'Generative Language API' ist in deinem Google Cloud Projekt noch nicht aktiviert.");
                 }
 
                 throw new Error(`API Fehler (${response.status}): ${errorDetails}`);
             }
         } catch (error) {
-            console.error(`Fehler bei ${model}:`, error);
+            console.error(`Error with ${model}:`, error);
             lastError = error.message;
-            // Wenn es kein 404-ähnlicher Fehler ist, ist es vermutlich ein Key-Problem -> Abbruch
             if (!lastError.includes("404") && !lastError.includes("nicht verfügbar")) {
                 return `Es gab ein Problem: ${lastError}`;
             }
         }
     }
 
-    return `Fehler: Kein KI-Modell konnte erreicht werden. (Probierte Modelle: ${modelsToTry.join(', ')})`;
+    return `Fehler: Kein KI-Modell konnte erreicht werden.`;
 }
 
-// UI Event Listener für Expand/Collapse
+// UI Event Listener for Expand/Collapse
 const btnResize = document.getElementById('btn-resize-ai');
 const btnClose = document.getElementById('btn-close-expanded');
 
-// Funktion zum Umschalten des Modus
 function toggleExpandedView() {
     const hwCol = document.getElementById('hardware-column');
     const aiCol = document.getElementById('ai-column');
 
     if(!hwCol || !aiCol) return;
 
-    // Check current state by looking at classes
     // Standard: hw=col-lg-8, ai=col-lg-4
     const isExpanded = aiCol.classList.contains('col-lg-8');
 
     if (isExpanded) {
-        // ZURÜCK ZUM NORMALZUSTAND
-        // Hardware wieder breit (8), AI wieder schmal (4)
+        // Back to normal
         hwCol.classList.remove('col-lg-4');
         hwCol.classList.add('col-lg-8');
         
@@ -302,8 +297,7 @@ function toggleExpandedView() {
 
         resetButtons(false);
     } else {
-        // EXPANDIEREN
-        // Hardware schmal (4), AI breit (8)
+        // Expand
         hwCol.classList.remove('col-lg-8');
         hwCol.classList.add('col-lg-4');
         
@@ -328,7 +322,7 @@ if(btnResize) btnResize.addEventListener('click', toggleExpandedView);
 if(btnClose) btnClose.addEventListener('click', toggleExpandedView);
 
 
-// 1. Button: Systemprüfung
+// 1. Button: Check System
 const btnCheck = document.getElementById('btn-check-build');
 if(btnCheck) {
     btnCheck.addEventListener('click', async () => {
@@ -363,7 +357,7 @@ if(btnCheck) {
 }
 
 
-// 2. Button: Frage stellen
+// 2. Button: Ask Question
 const btnAsk = document.getElementById('btn-ask-ai');
 if(btnAsk) {
     btnAsk.addEventListener('click', async () => {
@@ -394,7 +388,40 @@ if(btnAsk) {
     });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  loadPreset('midrange');
-  calcTotal();
+// ==========================================
+// DARK MODE LOGIC
+// ==========================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Initialize Dark Mode
+    const toggleBtn = document.getElementById('theme-toggle');
+    const htmlElement = document.documentElement; // <html> Tag
+    
+    // Check local storage or system preference
+    const savedTheme = localStorage.getItem('theme');
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+        htmlElement.setAttribute('data-theme', 'dark');
+    } else {
+        htmlElement.setAttribute('data-theme', 'light');
+    }
+
+    // Click Handler
+    if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            // Set attribute (controls CSS)
+            htmlElement.setAttribute('data-theme', newTheme);
+            
+            // Save to local storage
+            localStorage.setItem('theme', newTheme);
+        });
+    }
+
+    // 2. Initialize Preset and Total Calculation
+    loadPreset('midrange');
+    calcTotal();
 });

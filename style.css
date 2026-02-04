@@ -1,27 +1,79 @@
 :root {
-  /* Slate Theme */
+  /* Slate Theme (Light Mode Default) */
   --bg-body: #f1f5f9;
   --bg-card: #ffffff; 
-  --text-primary: #040f29;
-  --text-secondary: #334155;
+  --bg-header: #f8fafc;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
   --accent-color: #0435a6;
+  --border-color: #e2e8f0;
+  --input-bg: #ffffff;
+  --input-border: #cbd5e1;
+  --hover-bg: #f8fafc;
+  --row-bg: #ffffff;
   
-  /* Farbverläufe */
+  /* Color Gradients */
   --success-gradient: linear-gradient(135deg, #0435a6 0%, #00d4ff 100%);
   --ai-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); 
+}
+
+/* === DARK MODE VARIABLES === */
+[data-theme="dark"] {
+  --bg-body: #0f172a; /* Slate 900 */
+  --bg-card: #1e293b; /* Slate 800 */
+  --bg-header: #1e293b;
+  --text-primary: #f8fafc; /* Slate 50 */
+  --text-secondary: #94a3b8; /* Slate 400 */
+  --accent-color: #38bdf8; /* Sky 400 */
+  --border-color: #334155;
+  --input-bg: #020617; /* Slate 950 */
+  --input-border: #475569;
+  --hover-bg: #334155;
+  --row-bg: #1e293b;
+  
+  /* Browser UI Elements (Scrollbars, Select Dropdowns) */
+  color-scheme: dark;
+
+  /* FIX: Override Bootstrap variables to ensure bg-body/border classes adapt */
+  --bs-body-bg: var(--bg-body);
+  --bs-body-color: var(--text-primary);
+  --bs-border-color: var(--border-color);
 }
 
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--bg-body);
   color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* === Global Text Colors === */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+}
+/* Force Card Titles to be readable in Dark Mode */
+.card-title {
+    color: var(--text-primary) !important;
+}
+
+.text-muted {
+    color: var(--text-secondary) !important;
+}
+.lead {
+    color: var(--text-secondary);
+}
+
+/* FIX: Ensure Bootstrap 'bg-body' utility respects our dark mode */
+[data-theme="dark"] .bg-body {
+    background-color: var(--bg-body) !important;
+    color: var(--text-primary) !important;
 }
 
 /* === Header === */
 header {
-  background-color: #040f29;
+  background-color: #040f29; /* Always dark for contrast */
   padding: 1.5rem 0;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
   margin-bottom: 2rem;
   border-bottom: 1px solid #1e293b;
 }
@@ -33,188 +85,306 @@ header {
 
 .nav-pills .nav-link {
     color: rgba(255,255,255,0.7);
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 .nav-pills .nav-link:hover {
     color: #fff;
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(255,255,255,0.1);
 }
 .nav-pills .nav-link.active {
-    background-color: rgba(255,255,255,0.15) !important;
+    background-color: rgba(255,255,255,0.2) !important;
     border: 1px solid rgba(255,255,255,0.3);
-    border-radius: 8px;
     color: #fff;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-/* === Footer === */
-footer {
-    background-color: #040f29 !important;
-    border-top: 5px solid #1e293b;
-}
-.hover-white:hover {
-    color: #fff !important;
-    text-decoration: underline !important;
+    backdrop-filter: blur(5px);
 }
 
 /* === Cards === */
 .card {
-  border: none;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+  border: 1px solid var(--border-color);
   background-color: var(--bg-card);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
-/* === AI Bereich (Fixes) === */
-.ai-card {
-  border: 2px solid transparent;
-  background-image: linear-gradient(white, white), var(--ai-gradient);
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-  
-  /* FIX 1: Keine erzwungene 100% Höhe mehr */
-  display: flex;
-  flex-direction: column;
-  height: auto; /* Passt sich dem Inhalt an */
+.card-header {
+    background-color: var(--bg-header);
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-primary);
 }
 
-.ai-card .card-body {
-    display: flex;
-    flex-direction: column;
-    /* height: 100%; entfernt */
+/* Accordion */
+.accordion-item {
+    background-color: var(--bg-card);
+    border-color: var(--border-color);
+}
+.accordion-button {
+    background-color: var(--bg-card);
+    color: var(--text-primary);
+    box-shadow: none !important; /* Remove blue focus ring */
+}
+.accordion-button:not(.collapsed) {
+    background-color: var(--hover-bg);
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--border-color);
+}
+.accordion-button::after {
+    filter: grayscale(100%) brightness(0.7);
+}
+[data-theme="dark"] .accordion-button::after {
+    filter: invert(1);
+}
+.accordion-body {
+    background-color: var(--bg-body) !important;
+    color: var(--text-secondary);
 }
 
-.ai-badge {
-  background: var(--ai-gradient);
-  color: white;
-  padding: 0.35rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
-/* Wrapper */
-.ai-result-wrapper { 
-    position: relative; 
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    /* min-height entfernt, damit es nicht unnötig Platz braucht */
-}
-
-/* Die Antwort-Box - FIX 2: Max-Height Limits */
-.ai-response-box {
-  background-color: #f8fafc;
-  border-left: 4px solid #6366f1;
-  padding: 1.5rem;
+/* === Inputs & Selects === */
+.form-select, .form-control {
+  background-color: var(--input-bg);
+  border-color: var(--input-border);
+  color: var(--text-primary);
   border-radius: 8px;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  overflow-y: auto; /* Scrollbar wenn zu viel Text */
-  
-  /* Standard Limit: Nicht zu hoch */
-  max-height: 300px;
-  transition: max-height 0.3s ease;
+  padding: 0.7rem 1rem;
+}
+.form-select:focus, .form-control:focus {
+    background-color: var(--input-bg);
+    border-color: var(--accent-color);
+    color: var(--text-primary);
+    box-shadow: 0 0 0 3px rgba(4, 53, 166, 0.15);
+}
+.form-control[readonly] {
+    background-color: var(--hover-bg);
+    color: var(--text-primary);
+    opacity: 1;
 }
 
-/* Wenn die Spalte breit ist (Expanded Mode), darf die Box etwas höher sein, aber nicht unendlich */
-#ai-column.col-lg-8 .ai-response-box {
-    max-height: 500px; 
-}
-
-.ai-buttons-container { position: absolute; top: 10px; right: 10px; z-index: 10; }
-
-/* === COLUMN ANIMATION === */
-.transition-col {
-    transition: width 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), 
-                flex 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), 
-                max-width 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-/* Loading Spinner */
-.ai-loading {
-  display: none; align-items: center; gap: 10px; color: #040f29; font-weight: 600; margin-top: 1rem;
-}
-.spinner-dots {
-  width: 20px; aspect-ratio: 4;
-  background: radial-gradient(circle closest-side,#040f29 90%,#0000) 0/calc(100%/3) 100% space;
-  clip-path: inset(0 100% 0 0);
-  animation: l1 1s steps(4) infinite;
-}
-@keyframes l1 {to{clip-path: inset(0 -34% 0 0)}}
-
-/* === Tabelle === */
+/* === Modern Floating Table === */
 .table-responsive {
-    overflow-x: auto; 
-    width: 100%;
+    /* FIX: Hide scrollbar visually but keep functionality */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+.table-responsive::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
 }
 
-#hardware-table th, 
-#hardware-table td {
-    white-space: nowrap; 
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-color: var(--text-primary);
+    border-collapse: separate; 
+    border-spacing: 0 8px; /* Spacing between rows */
+    margin-bottom: 0;
 }
 
 .table thead th {
-  background-color: #f1f5f9;
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  letter-spacing: 1px;
-  padding: 1rem;
+  background-color: transparent;
   color: var(--text-secondary);
+  border: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0 1rem 0.5rem 1rem;
 }
-.table tbody tr { border-bottom: 1px solid #f1f5f9; }
-.table tbody tr:hover { background-color: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-.table td { vertical-align: middle; padding: 1.5rem 1rem; }
 
-/* === Inputs & Selects - FIX 3: Dropdown Pfeile === */
-.form-select, .form-control {
-  padding: 0.8rem 1rem;
+.table tbody tr {
+    background-color: var(--row-bg);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+                box-shadow 0.2s ease, 
+                background-color 0.2s;
+    border-radius: 10px;
+}
+
+/* Rounded Corners for Rows */
+.table tbody tr td:first-child { border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+.table tbody tr td:last-child { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+
+.table td {
+    vertical-align: middle;
+    border: none;
+    padding: 1rem;
+}
+
+/* Hover Animation */
+.table tbody tr:hover { 
+    transform: scale(1.01) translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    background-color: var(--input-bg); 
+    z-index: 10;
+    position: relative;
+}
+
+/* Border fix for dark mode inputs in table */
+.table .form-select, .table .form-control {
+    border: 1px solid var(--border-color);
+}
+
+
+/* === AI Area (Minimalist) === */
+.ai-card {
+  background-color: var(--bg-card); 
+  border: 1px solid #6366f1; /* Thin violet border */
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.ai-card::before { display: none; }
+
+.ai-response-box {
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-left: 4px solid #6366f1;
+  padding: 1.5rem;
   border-radius: 8px;
-  border: 1px solid #cbd5e1;
-  background-color: #f8fafc;
+  max-height: 300px;
+  overflow-y: auto;
 }
 
-/* Spezifischer Fix für Selects */
-.form-select {
-    padding-right: 2.5rem; /* Mehr Platz für den Pfeil rechts */
-    text-overflow: ellipsis; /* Text abschneiden mit "..." */
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.price-input { min-width: 120px !important; }
-
-/* === Sticky Footer === */
+/* === Sticky Footer (FIXED) === */
 .sticky-price-bar {
-  position: fixed; bottom: 0; left: 0; width: 100%;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  border-top: 1px solid #e2e8f0;
-  padding: 1rem 0;
-  box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
-  z-index: 1000;
+  position: fixed; /* Stick to viewport */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it floats above other content */
+  
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid var(--border-color);
+  box-shadow: 0 -5px 25px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
+
+[data-theme="dark"] .sticky-price-bar {
+    background: rgba(15, 23, 42, 0.85); /* Slate 900 with Transparency */
+    border-color: var(--border-color);
+}
+
+.total-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
 .total-price {
   font-size: 2.5rem; font-weight: 800;
   background: var(--success-gradient);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  min-width: 180px; text-align: right;
 }
-@keyframes pulse-green {
-  0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); }
-}
-.price-update-anim { animation: pulse-green 0.4s ease-out; }
 
-/* === Buttons === */
+/* === Buttons & Links === */
 .btn-link-custom {
-  background-color: #e2e8f0; color: #334155;
-  font-weight: 600; border-radius: 8px; padding: 0.6rem 1rem;
+  background-color: var(--bg-body);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  transition: all 0.2s;
 }
-.btn-link-custom:hover { background-color: #cbd5e1; color: #0f172a; }
+.btn-link-custom:hover {
+    background-color: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+}
 
-.btn-ai {
-    background: var(--ai-gradient); color: white; border: none; font-weight: 600;
+/* === DARK MODE SWITCH === */
+.toggle-btn {
+  --bg: #e8e8e8;
+  --fg: #212121;
+  --dimensions: 35px;
+  
+  background-color: var(--bg);
+  border-radius: 10px;
+  width: var(--dimensions);
+  height: var(--dimensions);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+  outline: none;
 }
+
+.toggle-btn .main-circle {
+  --dimensions: 14px;
+  width: var(--dimensions);
+  height: var(--dimensions);
+  background-color: var(--fg);
+  border-radius: 50%;
+  position: absolute;
+  transition: transform 0.4s ease; 
+  z-index: 2;
+}
+
+.toggle-btn .main-circle::after {
+  content: "";
+  background-color: var(--bg);
+  border-radius: 50%;
+  --dimensions: 11px;
+  width: var(--dimensions);
+  height: var(--dimensions);
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  transform-origin: right top;
+  transform: scale(0);
+  transition: transform 0.4s ease, background-color 0.4s ease;
+}
+
+.toggle-btn .sun-rays {
+  display: grid;
+  place-items: center;
+  transition: transform 0.4s ease; 
+  z-index: 1;
+}
+
+.toggle-btn .sun-rays,
+.toggle-btn .sun-rays::after,
+.toggle-btn .sun-rays::before {
+  --width: 2px;
+  --height: 5px;
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--fg);
+  position: absolute;
+  box-shadow: 0 11px 0 var(--fg), 0 -11px 0 var(--fg); 
+}
+
+.toggle-btn .sun-rays::after {
+  content: "";
+  transform: rotate(120deg);
+}
+
+.toggle-btn .sun-rays::before {
+  content: "";
+  transform: rotate(240deg);
+}
+
+/* --- STATE: DARK MODE ACTIVE --- */
+[data-theme="dark"] .toggle-btn {
+    --bg: #212121;
+    --fg: #e8e8e8;
+}
+[data-theme="dark"] .toggle-btn .main-circle {
+    transform: scale(1.3);
+}
+[data-theme="dark"] .toggle-btn .main-circle::after {
+    transform: scale(1);
+    background-color: var(--bg);
+}
+[data-theme="dark"] .toggle-btn .sun-rays {
+    transform: scale(0) rotate(90deg);
+}
+
+/* Utility Animations */
+.price-update-anim { animation: pulse 0.3s ease-in-out; }
+@keyframes pulse { 50% { transform: scale(1.05); } }
+
+footer { margin-top: auto; }

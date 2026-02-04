@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PC Builder 2026 - FAQ</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent p-0">
+        <a class="navbar-brand d-flex flex-column" href="index.html">
+          <div class="d-flex align-items-center">
+            <i class="fas fa-microchip fa-2x me-2 text-white"></i>
+            <span class="fw-bold" style="font-size: 1.8rem; letter-spacing: -0.5px; margin-left: 10px;">PC Builder</span>
+          </div>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav nav-pills ms-auto gap-2 align-items-center">
+            <li class="nav-item"><a class="nav-link px-3 py-2 fw-semibold" href="index.html"><i class="fas fa-tools me-2"></i>Konfigurator</a></li>
+            <li class="nav-item"><a class="nav-link px-3 py-2 fw-semibold" href="knowledge.html"><i class="fas fa-book-open me-2"></i>Wissen</a></li>
+            <li class="nav-item"><a class="nav-link active px-3 py-2" href="faq.html"><i class="fas fa-question-circle me-1"></i>FAQ</a></li>
+            <li class="nav-item"><a class="nav-link px-3 py-2" href="news.html"><i class="fas fa-newspaper me-1"></i>News</a></li>
+            <li class="nav-item d-flex align-items-center ms-lg-3 mt-2 mt-lg-0">
+                <button id="theme-toggle" class="toggle-btn" aria-label="Toggle Dark Mode">
+                    <div class="sun-rays"></div>
+                    <div class="main-circle"></div>
+                </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container my-5 pb-5 flex-grow-1">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <div class="card p-5 shadow-sm border-0">
+                <h3 class="fw-bold mb-4 text-center">Troubleshooting & Diagnose</h3>
+                <p class="text-center text-secondary mb-5">Systematische Lösungsansätze für häufige Hardware-Initialisierungsfehler.</p>
+                
+                <div class="accordion accordion-flush" id="faqAccordion">
+                    
+                    <!-- Question 1 -->
+                    <div class="accordion-item border mb-3 rounded overflow-hidden">
+                      <h2 class="accordion-header" id="faqHeadingOne">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne">
+                           System POST fehlgeschlagen (Black Screen)
+                        </button>
+                      </h2>
+                      <div id="faqCollapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                          <ol class="small text-secondary mb-0">
+                            <li class="mb-2"><strong>Debug-LEDs prüfen:</strong> Moderne Mainboards besitzen Status-LEDs. Das Leuchten einer LED indiziert die Fehlerquelle (CPU/RAM/VGA).</li>
+                            <li class="mb-2"><strong>Display-Verbindung:</strong> Monitor an Grafikkarte anschließen, NICHT ans Mainboard.</li>
+                            <li class="mb-2"><strong>DDR5 Training:</strong> Der erste Start kann bis zu 5 Minuten dauern.</li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Question 2 -->
+                     <div class="accordion-item border mb-3 rounded overflow-hidden">
+                      <h2 class="accordion-header" id="faqHeadingTwo">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo">
+                           RAM läuft langsam (JEDEC vs. XMP)
+                        </button>
+                      </h2>
+                      <div id="faqCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <p class="small text-secondary">
+                                Arbeitsspeicher bootet sicherheitshalber langsam (4800 MHz).
+                                <br><strong>Lösung:</strong> Im BIOS das <strong>XMP</strong> (Intel) oder <strong>EXPO</strong> (AMD) Profil aktivieren.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Question 3 -->
+                    <div class="accordion-item border mb-3 rounded overflow-hidden">
+                      <h2 class="accordion-header" id="faqHeadingThree">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree">
+                           Windows Installation ohne Laufwerk
+                        </button>
+                      </h2>
+                      <div id="faqCollapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <p class="small text-secondary">
+                                Nutzen Sie das "Media Creation Tool" an einem anderen PC, um einen USB-Stick zu erstellen.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Question 4 -->
+                    <div class="accordion-item border mb-3 rounded overflow-hidden">
+                      <h2 class="accordion-header" id="faqHeadingFour">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour">
+                           Spulenfiepen (Coil Whine)
+                        </button>
+                      </h2>
+                      <div id="faqCollapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <p class="small text-secondary">
+                                Physikalisch bedingtes Vibrieren der Spulen bei hohen FPS.
+                                <br><strong>Lösung:</strong> FPS im Spiel limitieren (V-Sync oder Cap).
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light mt-auto pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <h5 class="text-uppercase fw-bold text-white mb-3">Über das Projekt</h5>
+          <p class="small text-white-50">© 2026 David Leitner & Maximilian Baumgartner</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

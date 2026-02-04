@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PC Builder 2026 - Wissen</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- === HEADER === -->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent p-0">
+        <a class="navbar-brand d-flex flex-column" href="index.html">
+          <div class="d-flex align-items-center">
+            <i class="fas fa-microchip fa-2x me-2 text-white"></i>
+            <span class="fw-bold" style="font-size: 1.8rem; letter-spacing: -0.5px; margin-left: 10px;">PC Builder</span>
+          </div>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav nav-pills ms-auto gap-2 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2 fw-semibold" href="index.html">
+                <i class="fas fa-tools me-2"></i>Konfigurator
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active px-3 py-2 fw-semibold" href="knowledge.html">
+                <i class="fas fa-book-open me-2"></i>Wissen
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2" href="faq.html">
+                <i class="fas fa-question-circle me-1"></i>FAQ
+              </a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link px-3 py-2" href="news.html">
+                <i class="fas fa-newspaper me-1"></i>News
+              </a>
+            </li>
+            <li class="nav-item d-flex align-items-center ms-lg-3 mt-2 mt-lg-0">
+                <button id="theme-toggle" class="toggle-btn" aria-label="Toggle Dark Mode">
+                    <div class="sun-rays"></div>
+                    <div class="main-circle"></div>
+                </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container my-5 pb-5 flex-grow-1">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <div class="card p-4 theory-section shadow-lg">
+          
+          <div class="text-center mb-5 pb-3 border-bottom">
+              <h2 class="display-6 fw-bold mb-2">Hardware Wissen 2026</h2>
+              <p class="lead">Technik einfach erklärt.</p>
+          </div>
+
+          <div class="accordion" id="accordionTheory">
+
+            <!-- 1. PROCESSORS -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                   Prozessor (CPU)
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionTheory">
+                <div class="accordion-body">
+                  <div class="row align-items-start mb-4">
+                      <div class="col-md-8">
+                          <h5 class="text-primary mb-3">Architektur & Mikroprozessor-Metriken</h5>
+                          <p class="text-justify">
+                            Die Bewertung einer modernen CPU geht weit über die reine Taktfrequenz (GHz) hinaus. Entscheidend ist die <strong>IPC (Instructions Per Cycle)</strong>, also wie viele Befehle ein Kern pro Taktzyklus abarbeiten kann. Dies erklärt, warum ein 4.0 GHz Prozessor der Generation 2026 einen 5.0 GHz Prozessor von 2020 in der Rechenleistung deutlich übertrifft.
+                            <br><br>
+                            <strong>Kerne vs. Threads:</strong> Physische Kerne übernehmen die tatsächliche Rechenarbeit. SMT (Simultaneous Multithreading) oder Hyper-Threading erlaubt es einem physischen Kern, zwei Aufgabenstränge (Threads) quasi-simultan zu bearbeiten, indem Leerlaufzeiten (Pipeline Stalls) effizient genutzt werden. Für Gaming sind 8 physische Kerne aktuell das Optimum; für Rendering und Virtualisierung skaliert die Leistung linear mit der Kernanzahl.
+                          </p>
+                      </div>
+                      <div class="col-md-4">
+                          <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="CPU Chip Closeup">
+                          <div class="small bg-body p-3 border rounded mt-2">
+                              <strong>Thermische Designleistung (TDP)</strong>
+                              <p class="text-muted mb-0 mt-1">Die TDP gibt nicht den Stromverbrauch an, sondern die Wärmeenergie, die das Kühlsystem abführen muss.</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. GRAPHICS CARDS -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                   Grafikkarte (GPU)
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                <div class="accordion-body">
+                  <div class="row mb-4 align-items-start">
+                      <div class="col-md-4 order-md-2 mb-3 mb-md-0">
+                           <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="Modern Graphics Card">
+                      </div>
+                      <div class="col-md-8 order-md-1">
+                          <h5 class="text-primary">Speicherinterface, VRAM & Raytracing</h5>
+                          <p class="text-justify">
+                            Neben der reinen VRAM-Kapazität ist die <strong>Speicherbandbreite</strong> der limitierende Faktor bei hohen Auflösungen. <strong>GDDR7</strong> ermöglicht hier Durchsatzraten, die für 4K-Textur-Streaming und komplexe Geometriedaten essenziell sind.
+                            <br><br>
+                            <strong>Raytracing:</strong> Spezialisierte Recheneinheiten (RT-Cores) berechnen Lichtpfade in Echtzeit. Technologien wie <strong>DLSS</strong> oder FSR skalieren Bilder per KI hoch, um die Framerate zu verdoppeln.
+                          </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- 3. MOTHERBOARD & RAM -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                   Mainboard & RAM
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                <div class="accordion-body">
+                  <div class="row align-items-start">
+                    <div class="col-md-6 mb-3">
+                      <div class="card h-100 border shadow-sm">
+                          <img src="https://www.hardware-journal.de/images/Bilder/2022/news/MSI/godlike/MSI_MEG_Z690_GODLIKE-1.jpg" class="img-fluid rounded-top" alt="High End Mainboard" style="height: 180px; object-fit: contain;">
+                          <div class="card-body">
+                              <h5 class="text-primary card-title">Spannungsversorgung (VRM)</h5>
+                              <p class="small text-justify">
+                                Die Qualität eines Mainboards definiert sich über die <strong>VRMs</strong>. Ein starkes Phasen-Design sorgt für eine stabile Spannungsglättung für High-End-CPUs.
+                              </p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                       <div class="card h-100 border shadow-sm">
+                          <img src="https://www.proshop.at/Images/915x900/3275214_6c58e2ab8613.jpg" class="img-fluid rounded-top" alt="RAM Sticks" style="height: 180px; object-fit: contain;">
+                          <div class="card-body">
+                              <h5 class="text-primary card-title">DDR5 Latenz & Timings</h5>
+                              <p class="small text-justify">
+                                Bei Arbeitsspeicher ist die <strong>CAS Latency (CL)</strong> entscheidend. Ein Kit mit 6000 MT/s CL30 reagiert oft schneller als eines mit höherem Takt aber schlechterer Latenz.
+                              </p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. STORAGE -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                   SSD Speicher
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                <div class="accordion-body">
+                    <div class="row align-items-center mb-3">
+                        <div class="col-md-3">
+                            <img src="https://gzhls.at/octri/medium_Maxx_Studio_shutterstock_1711587be3.jpg" class="img-fluid rounded shadow-sm" alt="M.2 NVMe SSD installed on motherboard">
+                        </div>
+                        <div class="col-md-9">
+                            <h5 class="text-primary mb-2">NVMe Protokoll & DRAM Cache</h5>
+                            <p class="small text-justify">
+                                Entscheiden Sie sich immer für eine SSD mit <strong>DRAM-Cache</strong> für das Betriebssystem. Dies verlängert die Lebensdauer und beschleunigt kleine Schreibzugriffe massiv.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5. MONITOR -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingMonitor">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMonitor">
+                     Monitor
+                  </button>
+                </h2>
+                <div id="collapseMonitor" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                  <div class="accordion-body">
+                    <div class="row align-items-start">
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <img src="https://rog.asus.com/media/1766092420430.jpg" class="img-fluid rounded shadow-sm" alt="Gaming Setup Monitor" style="height: 180px; object-fit: contain;">
+                            <div class="small bg-body p-3 border rounded mt-2">
+                              <strong>Pixeldichte (PPI)</strong>
+                              <p class="text-muted mb-0 mt-1">Die Schärfe hängt vom Verhältnis Auflösung zu Größe ab. <br>• 27" WQHD = 109 PPI (Ideal)<br>• 24" FHD = 92 PPI (Standard)<br>• 32" 4K = 138 PPI (Sehr scharf)</p>
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="text-primary">Panel-Technologie & Motion Clarity</h5>
+                            <p class="small text-justify">
+                                <strong>OLED:</strong> Organische LEDs leuchten selbst. Dies ermöglicht perfektes Schwarz (unendlicher Kontrast) und Reaktionszeiten von unter 0,03ms. Dies eliminiert Ghosting (Schlierenbildung) fast vollständig.
+                                <br><br>
+                                <strong>IPS:</strong> Flüssigkristalle, die parallel zur Bildebene schalten. Bietet sehr gute Farbtreue und Blickwinkelstabilität. "Fast-IPS" Panele erreichen heute auch 1ms Reaktionszeit und sind der Standard für Gamer.
+                            </p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+             <!-- 6. KEYBOARD -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingKeyboard">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKeyboard">
+                     Tastatur
+                  </button>
+                </h2>
+                <div id="collapseKeyboard" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                  <div class="accordion-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <h5 class="text-primary">Hall-Effekt & Rapid Trigger</h5>
+                            <p class="small text-justify">
+                                Klassische mechanische Schalter lösen durch einen physischen Metallkontakt aus. <strong>Hall-Effekt (HE)</strong> Switches nutzen stattdessen einen Magneten im Stempel und einen Sensor auf der Platine, um die Position der Taste analog zu messen.
+                                <br><br>
+                                Dies ermöglicht <strong>Rapid Trigger</strong>: Der Auslösepunkt ist nicht fix. Sobald die Taste auch nur minimal losgelassen wird (z.B. 0,1mm), wird das Signal unterbrochen. Dies erlaubt extrem schnelle Richtungswechsel (Counter-Strafing) in Taktik-Shootern wie CS2 oder Valorant.
+                            </p>
+                        </div>
+                        <div class="col-md-4 mt-3 mt-md-0">
+                            <img src="https://wooting-website.ams3.cdn.digitaloceanspaces.com/612ca8920bc3a648125ffac3/673369c241fbbe87656fa6a9_menu.png" class="img-fluid rounded shadow-sm" alt="Wooting HE Keyboard">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 7. MOUSE -->
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingMouse">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMouse">
+                     Maus
+                  </button>
+                </h2>
+                <div id="collapseMouse" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                  <div class="accordion-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <h5 class="text-primary">Sensoren, Polling Rate & Gewicht</h5>
+                            <p class="small text-justify">
+                                Moderne optische Sensoren (z.B. PixArt PAW3395) arbeiten fehlerfrei. Hohe DPI-Werte (>20.000) sind reines Marketing; wichtig ist die <strong>IPS (Inches Per Second)</strong> Geschwindigkeit.
+                                <br><br>
+                                Das Gewicht ist entscheidend für das Aiming: Ultraleichte Mäuse (unter 60g) reduzieren die Massenträgheit, was präziseres Stoppen und Anfahren bei schnellen Bewegungen (Flicks) ermöglicht.
+                            </p>
+                        </div>
+                        <div class="col-md-4 mt-3 mt-md-0">
+                            <img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-sm" alt="Ultralight Gaming Mouse">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- 8. POWER SUPPLY -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                   Netzteil (PSU)
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionTheory">
+                <div class="accordion-body">
+                    <div class="row align-items-start">
+                        <div class="col-md-8">
+                            <h5 class="text-primary">ATX 3.1 & Spannungsregulation</h5>
+                            <p class="small text-justify">
+                                Moderne GPUs erzeugen Lastspitzen. <strong>ATX 3.0/3.1</strong> Netzteile sind dafür ausgelegt, kurzzeitig bis zu 200% ihrer Nennleistung zu liefern, ohne abzuschalten. Zudem ist die <strong>Effizienz</strong> (80 PLUS Gold/Platinum) entscheidend.
+                            </p>
+                        </div>
+                        <div class="col-md-4 mt-3 mt-md-0">
+                            <img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_123160670?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402" class="img-fluid rounded shadow-sm" alt="PC Cables and PSU">
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+          </div> <!-- End Accordion -->
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light mt-auto pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <h5 class="text-uppercase fw-bold text-white mb-3">Über das Projekt</h5>
+          <p class="small text-white-50">© 2026 David Leitner & Maximilian Baumgartner</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

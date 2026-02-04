@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PC Builder 2026 - News</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent p-0">
+        <a class="navbar-brand d-flex flex-column" href="index.html">
+          <div class="d-flex align-items-center">
+            <i class="fas fa-microchip fa-2x me-2 text-white"></i>
+            <span class="fw-bold" style="font-size: 1.8rem; letter-spacing: -0.5px; margin-left: 10px;">PC Builder</span>
+          </div>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav nav-pills ms-auto gap-2 align-items-center">
+            <li class="nav-item"><a class="nav-link px-3 py-2 fw-semibold" href="index.html"><i class="fas fa-tools me-2"></i>Konfigurator</a></li>
+            <li class="nav-item"><a class="nav-link px-3 py-2 fw-semibold" href="knowledge.html"><i class="fas fa-book-open me-2"></i>Wissen</a></li>
+            <li class="nav-item"><a class="nav-link px-3 py-2" href="faq.html"><i class="fas fa-question-circle me-1"></i>FAQ</a></li>
+            <li class="nav-item"><a class="nav-link active px-3 py-2" href="news.html"><i class="fas fa-newspaper me-1"></i>News</a></li>
+            <li class="nav-item d-flex align-items-center ms-lg-3 mt-2 mt-lg-0">
+                <button id="theme-toggle" class="toggle-btn" aria-label="Toggle Dark Mode">
+                    <div class="sun-rays"></div>
+                    <div class="main-circle"></div>
+                </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container my-5 pb-5 flex-grow-1">
+    <div class="container pb-5">
+        <div class="text-center mb-5">
+             <h2 class="fw-bold display-6">Tech News Feed</h2>
+             <p class="text-secondary">Aktuelle Entwicklungen aus der Hardware-Industrie.</p>
+        </div>
+
+        <div class="row g-4">
+            
+            <!-- News 1 -->
+            <div class="col-md-4">
+                <div class="card news-card h-100 shadow-sm border-0 overflow-hidden">
+                    <div class="position-relative">
+                         <img src="https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="RAM Speicher" style="height: 200px; object-fit: cover;">
+                         <span class="news-tag m-3">Markt</span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <small class="text-muted mb-2">28.01.2026</small>
+                        <h5 class="card-title fw-bold">DDR4-RAM Preise explodieren</h5>
+                        <p class="card-text small text-secondary flex-grow-1">Preise steigen doppelt so schnell wie bei DDR5.</p>
+                        <a href="https://www.notebookcheck.com/DDR4-RAM-Preise-steigen-doppelt-so-schnell-wie-DDR5-Speicherknappheit-treibt-Nachfrage-nach-aelteren-CPUs-an.1214109.0.html" target="_blank" class="btn btn-sm btn-outline-primary mt-3 stretched-link">Mehr lesen</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- News 2 -->
+            <div class="col-md-4">
+                <div class="card news-card h-100 shadow-sm border-0 overflow-hidden">
+                    <div class="position-relative">
+                         <!-- Image Updated here -->
+                         <img src="https://www.gigabyte.com/FileUpload/Global/KeyFeature/3983/innergigabyte/images/kv-img.png" class="card-img-top" alt="Grafikkarte" style="height: 200px; object-fit: contain; padding: 1rem;">
+                         <span class="news-tag m-3">Hardware</span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <small class="text-muted mb-2">30.01.2026</small>
+                        <h5 class="card-title fw-bold">NVIDIA Q1 2026: RTX 5060 Ti Dominanz</h5>
+                        <p class="card-text small text-secondary flex-grow-1">Drei Modelle der RTX 5060 Ti (8GB) sollen 75 Prozent aller Nvidia-Auslieferungen stellen.</p>
+                        <a href="https://www.pcgameshardware.de/Geforce-RTX-5060-Ti-8GB-Grafikkarte-281132/News/3-Modelle-sollen-75-Prozent-von-Nvidias-Q1-2026-Auslieferungen-stellen-1493885/" target="_blank" class="btn btn-sm btn-outline-primary mt-3 stretched-link">Mehr lesen</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- News 3 -->
+            <div class="col-md-4">
+                <div class="card news-card h-100 shadow-sm border-0 overflow-hidden">
+                    <div class="position-relative">
+                         <img src="https://gzhls.at/pix/cd/50/cd5078ec008292de-l.webp" class="card-img-top" alt="Gaming Monitor" style="height: 200px; object-fit: contain; padding: 1rem;">
+                         <span class="news-tag m-3">Angebote</span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <small class="text-muted mb-2">30.01.2026</small>
+                        <h5 class="card-title fw-bold">Samsung Odyssey OLED & AOC Deals</h5>
+                        <p class="card-text small text-secondary flex-grow-1">Starke Rabatte für WQHD-Gaming Monitore aktuell verfügbar.</p>
+                        <a href="https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/News/Gaming-Monitor-Samsung-Odyssey-OLED-G50SF-LS27FG502SUXEN-AOC-Q27G41ZDF-WQHD-guenstig-kaufen-Angebot-1494013/" target="_blank" class="btn btn-sm btn-outline-primary mt-3 stretched-link">Mehr lesen</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light mt-auto pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <h5 class="text-uppercase fw-bold text-white mb-3">Über das Projekt</h5>
+          <p class="small text-white-50">© 2026 David Leitner & Maximilian Baumgartner</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
