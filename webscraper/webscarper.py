@@ -1,126 +1,101 @@
-import requests
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import csv
-import sys
+import re
 import time
 
 # =========================
 # KONFIGURATION
 # =========================
 
-# Geizhals GPU-Kategorie (Grafikkarten)
-URL = "https://geizhals.at/?cat=gra16_512"
+URL = "https://www.amazon.de/s?k=grafikkarte"  # Suche nach Grafikkarten
+CSV_DATEI = "amazon_gpu_preise.csv"
+MAX_GPU_ANZAHL = 20  # Anzahl der GPUs, die gespeichert werden sollen
 
-CSV_DATEI = "gpu_preise_geizhals.csv"
+# =========================
+# FUNKTIONEN
+# =========================
 
-# Wie viele GPUs maximal gespeichert werden sollen
-MAX_GPU_ANZAHL = 20
+def starte_browser():
+    options = Options()
+    options.add_argument("--headless")  # Browser im Hintergrund
+    options.add_argument("--disable-gpu")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--lang=de-DE")
+    # optional: User-Agent setzen, um Blockierung zu vermeiden
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                         "AppleWebKit/537.36 (KHTML, like Gecko) "
+                         "Chrome/120.0.0.0 Safari/537.36")
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    return driver
 
-# HTTP Header (wichtig, sonst Block oder falsche Seite)
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/120.0.0.0 Safari/537.36"
+def lade_seite(driver, url):
+    driver.get(url)
+    # Warten, bis die Suchergebnisse geladen sind
+    WebDriverWait(driver, 15).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, "div.s-main-slot"))
     )
-}
-
-# =========================
-# HTML SEITE LADEN
-# =========================
-
-def lade_webseite(url):
-    """
-    Lädt die Webseite und gibt den HTML-Inhalt zurück.
-    Beendet das Programm bei Fehlern.
-    """
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=10)
-    except requests.exceptions.RequestException as e:
-        print("Fehler beim HTTP-Request:", e)
-        sys.exit(1)
-
-    if response.status_code != 200:
-        print("HTTP Fehlercode:", response.status_code)
-        sys.exit(1)
-
-    return response.text
-
-# =========================
-# GPU DATEN PARSEN
-# =========================
+    return driver.page_source
 
 def parse_gpus(html):
-    """
-    Extrahiert GPU-Namen und Preise aus dem HTML.
-    Gibt eine Liste von Tupeln zurück: (name, preis)
-    """
     soup = BeautifulSoup(html, "html.parser")
     gpus = []
 
-    # Jede GPU steht in einem Artikel-Block
-    artikel = soup.select("article.listview__item")
-
-    if not artikel:
-        print("Keine GPU-Einträge gefunden.")
-        sys.exit(1)
-
-    for item in artikel[:MAX_GPU_ANZAHL]:
+    items = soup.select("div.s-main-slot > div[data-component-type='s-search-result']")
+    for item in items[:MAX_GPU_ANZAHL]:
         try:
-            # Name der Grafikkarte
-            name_element = item.select_one("h3 a span")
-            name = name_element.text.strip() if name_element else "Unbekannt"
+            name = item.h2.text.strip()
+            preis_whole = item.select_one("span.a-price-whole")
+            preis_fraction = item.select_one("span.a-price-fraction")
+            if preis_whole and preis_fraction:
+                preis_text = f"{preis_whole.text.strip()},{preis_fraction.text.strip()} €"
+                preis_float = float(preis_whole.text.replace(".", "") + "." + preis_fraction.text)
+            else:
+                preis_text = "Kein Preis"
+                preis_float = None
 
-            # Preis
-            preis_element = item.select_one("span.price")
-            preis = preis_element.text.strip() if preis_element else "Kein Preis"
-
-            gpus.append((name, preis))
-
-        except Exception as e:
-            print("Fehler beim Parsen eines Eintrags:", e)
-
+            gpus.append((name, preis_float, preis_text))
+        except Exception:
+            continue
     return gpus
 
-# =========================
-# CSV SCHREIBEN
-# =========================
-
 def schreibe_csv(gpus):
-    """
-    Schreibt die GPU-Daten in eine CSV-Datei.
-    """
-    try:
-        with open(CSV_DATEI, "w", newline="", encoding="utf-8") as datei:
-            writer = csv.writer(datei)
-            writer.writerow(["Grafikkarte", "Preis", "Quelle"])
-
-            for name, preis in gpus:
-                writer.writerow([name, preis, "geizhals.at"])
-
-    except Exception as e:
-        print("Fehler beim Schreiben der CSV:", e)
-        sys.exit(1)
+    with open(CSV_DATEI, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Grafikkarte", "Preis (float)", "Preis (Text)", "Quelle"])
+        for name, preis_float, preis_text in gpus:
+            writer.writerow([name, preis_float, preis_text, "amazon.de"])
 
 # =========================
 # MAIN
 # =========================
 
 def main():
-    print("Lade Webseite...")
-    html = lade_webseite(URL)
+    print("Starte Browser...")
+    driver = starte_browser()
+
+    print("Lade Amazon-Seite...")
+    html = lade_seite(driver, URL)
+
+    print("Schließe Browser...")
+    driver.quit()
 
     print("Analysiere HTML...")
     gpus = parse_gpus(html)
 
     if not gpus:
-        print("Keine Daten zum Speichern gefunden.")
-        sys.exit(1)
+        print("Keine GPU-Daten gefunden.")
+        return
 
-    print("Schreibe CSV...")
     schreibe_csv(gpus)
-
-    print("Fertig. CSV wurde erstellt:", CSV_DATEI)
+    print(f"CSV erstellt: {CSV_DATEI}")
+    print(f"{len(gpus)} GPUs gespeichert.")
 
 # =========================
 # START
