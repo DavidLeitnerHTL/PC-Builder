@@ -28,22 +28,37 @@ jobs:
           repository: 'buildcores/buildcores-open-db' 
           path: 'buildcore-repo'
 
-      # 3. Copy the specific folder you need to your repository
-      - name: Sync data to my repository
+      # 3. Setup Python to run the processor
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # 4. Copy data temporarily, process it, and clean up
+      - name: Process data and cleanup
         run: |
-          # Create the target folder in your repository
+          # Create temporary folder
           mkdir -p main-repo/raw_hardware_data
           
-          # Copy the contents from the 'open-db' folder to your folder
+          # Copy the contents from the 'open-db' folder
           cp -a buildcore-repo/open-db/* main-repo/raw_hardware_data/
           
-      # 4. Commit and Push the updated files back to your repository
+          # Navigate to repo and run the python processor script
+          cd main-repo
+          python data_processor.py
+          
+          # IMPORTANT: Delete the 42,000 raw files so they are NOT committed to GitHub
+          rm -rf raw_hardware_data/
+          
+      # 5. Commit and Push ALL generated category JSON files
       - name: Commit and push changes
         run: |
           cd main-repo
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add raw_hardware_data/
+          
+          # Add all generated JSON files (e.g. cpus.json, gpus.json, motherboards.json)
+          git add *.json
           
           # Only commit and push if there are actual changes
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update OpenDB hardware data [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update processed hardware categories [skip ci]" && git push)
