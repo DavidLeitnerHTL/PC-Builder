@@ -1,0 +1,34 @@
+{
+  "opendb_id": "4d75b855-7b72-4584-bc70-4e1b3ca2596b",
+  "metadata": {
+    "name": "Silverstone Shark Force 120mm Black PWM 1-Pack",
+    "manufacturer": "SilverStone",
+    "part_numbers": [
+      "SF120B",
+      "SST-SF120B"
+    ],
+    "series": "Shark",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 0,
+  "max_airflow": 100,
+  "min_noise_level": 0,
+  "max_noise_level": 41.2,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 4.66,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0B6D1B3JZ",
+    "newegg_sku": "13C-0060-000C1",
+    "walmart_sku": 1028179024
+  }
+}

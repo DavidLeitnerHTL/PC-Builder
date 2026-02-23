@@ -1,0 +1,31 @@
+{
+  "opendb_id": "576b709f-bb65-4565-9244-c041802ea702",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "In Win P65F Black ATX 650W Non-Modular 80+ Gold Certified",
+    "manufacturer": "In Win",
+    "part_numbers": [
+      "IW-PS-PF650W"
+    ],
+    "series": "P65F",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

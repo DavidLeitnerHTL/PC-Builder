@@ -1,0 +1,27 @@
+{
+  "opendb_id": "399a173c-b0c5-4962-abef-ae9c85f550bd",
+  "metadata": {
+    "name": "NoiseBlocker Multiframe 80mm Translucent Gray PWM",
+    "manufacturer": "NoiseBlocker",
+    "part_numbers": [],
+    "series": "Multiframe",
+    "variant": "80mm Translucent Gray"
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 31.78,
+  "max_airflow": null,
+  "min_noise_level": 17,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

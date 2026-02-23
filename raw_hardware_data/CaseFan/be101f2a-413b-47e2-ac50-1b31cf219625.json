@@ -1,0 +1,27 @@
+{
+  "opendb_id": "be101f2a-413b-47e2-ac50-1b31cf219625",
+  "metadata": {
+    "name": "NoiseBlocker ELoop B 120mm White PWM 77.92 CFM",
+    "manufacturer": "NoiseBlocker",
+    "part_numbers": [],
+    "series": "ELoop",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 77.92,
+  "max_airflow": null,
+  "min_noise_level": 28,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

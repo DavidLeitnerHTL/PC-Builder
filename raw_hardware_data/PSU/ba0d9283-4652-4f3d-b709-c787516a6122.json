@@ -1,0 +1,32 @@
+{
+  "opendb_id": "ba0d9283-4652-4f3d-b709-c787516a6122",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair AX850 850W Fully Modular 80+ Gold",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CMPSU-850AX                                                    CMPSU-850AXUK",
+      "CMPSU-850AX"
+    ],
+    "series": "AX850",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B003PJ6QW4"
+  }
+}

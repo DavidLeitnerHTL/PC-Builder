@@ -1,0 +1,52 @@
+{
+  "opendb_id": "01c38047-7ff9-4c99-9e81-402b8aa3bb58",
+  "cores": {
+    "total": 24,
+    "threads": 32
+  },
+  "clocks": {
+    "performance": {
+      "base": 1.1,
+      "boost": 5.3
+    },
+    "efficiency": {
+      "base": 0.8,
+      "boost": 3.9
+    }
+  },
+  "cache": {
+    "l2": 32,
+    "l3": 36
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel UHD Graphics 770"
+    },
+    "memory": {
+      "maxSupport": 192,
+      "types": [
+        "DDR5",
+        "DDR4"
+      ]
+    },
+    "tdp": 35,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "10 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i9 13900T 1.1 GHz 24-Core LGA1700 OEM/Tray",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8071504820403"
+    ],
+    "series": "Intel Core i9"
+  },
+  "series": "Intel Core i9",
+  "microarchitecture": "Raptor Lake",
+  "coreFamily": "Raptor Lake",
+  "socket": "LGA 1700",
+  "general_product_information": {}
+}

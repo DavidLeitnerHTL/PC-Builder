@@ -1,0 +1,27 @@
+{
+  "opendb_id": "9aeb2345-7053-469d-8ecd-f63b11daa232",
+  "metadata": {
+    "name": "Deepcool XFAN 80mm Black",
+    "manufacturer": "Deepcool",
+    "part_numbers": [],
+    "series": "XFAN",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.8,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

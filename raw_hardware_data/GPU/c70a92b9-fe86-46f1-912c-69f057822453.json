@@ -1,0 +1,49 @@
+{
+  "opendb_id": "c70a92b9-fe86-46f1-912c-69f057822453",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "AMD Radeon Pro WX 2100 2GB GDDR5 Blue",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "100-506001",
+      "3600823"
+    ],
+    "series": "Radeon Pro WX 2100",
+    "variant": "AMD"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon PRO WX 2100",
+  "memory": 2,
+  "memory_type": "GDDR5",
+  "core_base_clock": 925,
+  "core_boost_clock": 1219,
+  "effective_memory_clock": 7000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLUE"
+  ],
+  "length": 145,
+  "tdp": 35,
+  "total_slot_width": 1,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 1,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c7c2865ad0c3553ebdbc"
+  },
+  "core_count": 0,
+  "general_product_information": {
+    "amazon_sku": "B073CK9MLR"
+  }
+}

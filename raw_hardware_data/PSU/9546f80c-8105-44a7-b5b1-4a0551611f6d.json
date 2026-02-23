@@ -1,0 +1,36 @@
+{
+  "opendb_id": "9546f80c-8105-44a7-b5b1-4a0551611f6d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair VS600 (2020) Black 600W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020224-NA                                                    CP-9020224-UK                                                    CP-9020224-AU",
+      "CP-9020224-NA"
+    ],
+    "series": "VS600",
+    "variant": "600W Bronze"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 125,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08FNLGGQ2",
+    "newegg_sku": "9SIB8AKKAN3206",
+    "walmart_sku": 958797624
+  }
+}

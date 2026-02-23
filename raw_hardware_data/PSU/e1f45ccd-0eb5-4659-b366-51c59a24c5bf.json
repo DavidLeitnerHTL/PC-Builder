@@ -1,0 +1,37 @@
+{
+  "opendb_id": "e1f45ccd-0eb5-4659-b366-51c59a24c5bf",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MEG Ai1000P PCIE5 Black / Copper ATX 1000W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MEG Ai1000P PCIE5",
+      "MEGAI1000PPCIE5"
+    ],
+    "series": "MEG",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GOLD"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0B433KXLJ",
+    "newegg_sku": "9SIAPH8KD05042",
+    "walmart_sku": 2125961522
+  }
+}

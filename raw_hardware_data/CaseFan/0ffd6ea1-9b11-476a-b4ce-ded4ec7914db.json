@@ -1,0 +1,28 @@
+{
+  "opendb_id": "0ffd6ea1-9b11-476a-b4ce-ded4ec7914db",
+  "metadata": {
+    "name": "YEYIAN Typhoon 120mm Black / White 36 CFM Addressable RGB 3-Pack",
+    "manufacturer": "YEYIAN",
+    "part_numbers": [],
+    "series": "Typhoon",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 36,
+  "max_airflow": null,
+  "min_noise_level": 23,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Addressable RGB",
+  "connector": "Proprietary",
+  "controller": "Manual",
+  "static_pressure": 1.95,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,20 @@
+{
+  "opendb_id": "9cee1e39-0587-4384-a16f-ef4732bab98a",
+  "metadata": {
+    "name": "PNY CS2240 1TB SSD M.2 PCIe 4.0 NVMe",
+    "manufacturer": "PNY",
+    "part_numbers": [
+      "M280CS2240-1TB-RB"
+    ],
+    "series": "CS2240",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0B4F3JGPZ"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "ffab8771-cde5-4bfe-b563-d84fb5b2b7fe",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 12,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thortech Thunderbolt ATX 1200W 80+ Gold Certified Fully Modular",
+    "manufacturer": "Thortech",
+    "part_numbers": [
+      "TTBK20G"
+    ],
+    "series": "Thunderbolt",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

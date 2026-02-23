@@ -1,0 +1,51 @@
+{
+  "opendb_id": "d119dccf-733c-427a-b478-386419476cf4",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Asus TUF GAMING OC GeForce RTX 5060 Ti 16GB GDDR7 Black / Silver",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "TUF-RTX5060TI-O16G-GAMING",
+      "90YV0MG0-M0AA00"
+    ],
+    "series": "GeForce RTX 5060 Ti",
+    "variant": "Asus"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5060 Ti 16 GB",
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "core_base_clock": 2410,
+  "core_boost_clock": 2692,
+  "effective_memory_clock": 0,
+  "memory_bus": 128,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 302,
+  "tdp": 180,
+  "total_slot_width": 4,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 3,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "680e7d5253adf782a1c72cd2"
+  },
+  "core_count": 4608,
+  "general_product_information": {
+    "newegg_sku": "N82E16814126790",
+    "bestbuy_sku": 11013361
+  }
+}

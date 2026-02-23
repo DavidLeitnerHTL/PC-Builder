@@ -1,0 +1,34 @@
+{
+  "opendb_id": "1d0a2ee5-e867-41cf-8ba9-98bd0ce0b5fb",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill VMG Black 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "VMG850"
+    ],
+    "series": "VMG",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0FFQN6344",
+    "newegg_sku": "N82E16817182468"
+  }
+}

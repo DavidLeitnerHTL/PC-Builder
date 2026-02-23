@@ -1,0 +1,27 @@
+{
+  "opendb_id": "62858a36-65a2-46f0-a1e3-f09382f686c6",
+  "metadata": {
+    "name": "Xigmatek XLF 120mm Blue 61 CFM LED White 1-Pack",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "XLF",
+    "variant": "120mm Blue"
+  },
+  "size": 120,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 61,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

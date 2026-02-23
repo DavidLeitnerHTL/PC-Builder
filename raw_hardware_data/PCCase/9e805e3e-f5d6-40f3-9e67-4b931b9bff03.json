@@ -1,0 +1,55 @@
+{
+  "opendb_id": "9e805e3e-f5d6-40f3-9e67-4b931b9bff03",
+  "metadata": {
+    "name": "Fractal Design North XL ATX Full Tower Black with Tinted Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-C-NOR1X-02"
+    ],
+    "series": "North",
+    "variant": "XL Black with Tinted Tempered Glass",
+    "releaseYear": 2024,
+    "last_manually_spec_verified_at": "2025-09-17T12:28:28.261Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX",
+    "EATX"
+  ],
+  "form_factor": "ATX Full Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tinted Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "1x USB 3.2 Gen 2x2 Type-C                                                        2x USB 3.0",
+  "max_video_card_length": 413,
+  "max_cpu_cooler_height": 185,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 7,
+  "dimensions": "240 x 509 x 503",
+  "volume": 61.446,
+  "weight": 20.9439,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "1 x USB 3.1 Gen 2 Type C",
+    "2 x USB 3.0"
+  ],
+  "dimensions_mm": {
+    "width": 240,
+    "height": 509,
+    "depth": 503,
+    "_id": "689a25bc6d25aca956c7dbd0"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0CJCJ3ZZB",
+    "newegg_sku": "N82E16811352216",
+    "bestbuy_sku": 6611001,
+    "walmart_sku": 5484763115,
+    "ibuypower_sku": "31469",
+    "manufacturer_url": "https://www.fractal-design.com/products/cases/north/north-xl/"
+  }
+}

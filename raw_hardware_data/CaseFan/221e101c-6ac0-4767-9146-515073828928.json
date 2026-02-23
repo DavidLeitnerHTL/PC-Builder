@@ -1,0 +1,28 @@
+{
+  "opendb_id": "221e101c-6ac0-4767-9146-515073828928",
+  "metadata": {
+    "name": "Xilence Performance C 120mm Black / Red PWM 57.9 CFM",
+    "manufacturer": "Xilence",
+    "part_numbers": [],
+    "series": "Performance",
+    "variant": "120mm Black / Red"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 57.9,
+  "max_airflow": null,
+  "min_noise_level": 28,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,28 @@
+{
+  "opendb_id": "43fd12e0-3056-4283-b573-57b4616c3317",
+  "metadata": {
+    "name": "Deepcool GF 140mm Black / Green PWM 1-Pack",
+    "manufacturer": "Deepcool",
+    "part_numbers": [],
+    "series": "GF",
+    "variant": "140mm Black / Green"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "GREEN"
+  ],
+  "quantity": 1,
+  "min_airflow": 71.8,
+  "max_airflow": null,
+  "min_noise_level": 17.6,
+  "max_noise_level": 26.7,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

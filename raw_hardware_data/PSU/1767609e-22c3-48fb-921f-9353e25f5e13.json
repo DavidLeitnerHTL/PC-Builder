@@ -1,0 +1,31 @@
+{
+  "opendb_id": "1767609e-22c3-48fb-921f-9353e25f5e13",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "NZXT E650 ATX 650W Fully Modular 80+ Gold Certified",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "NP-1PM-E650A                                                    NP-1PM-E650A-US                                                    NP-1PM-E650A-AU                                                    NP-1PM-E650A-EU                                                    NP-1PM-E650A-UK                                                    NP-1PM-E650A-JP                                                    NP-1PM-E650A-WO"
+    ],
+    "series": "E650",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

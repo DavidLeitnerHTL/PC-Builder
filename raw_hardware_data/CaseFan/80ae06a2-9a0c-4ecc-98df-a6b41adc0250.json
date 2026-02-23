@@ -1,0 +1,34 @@
+{
+  "opendb_id": "80ae06a2-9a0c-4ecc-98df-a6b41adc0250",
+  "metadata": {
+    "name": "Thermaltake CT140 140mm White PWM 77.37 CFM 2-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CT140",
+      "CL-F152-PL14WT-A"
+    ],
+    "series": "CT140",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 2,
+  "min_airflow": 77.37,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.3,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BSP43F7G",
+    "newegg_sku": "N82E16835106713",
+    "walmart_sku": 2487265999
+  }
+}

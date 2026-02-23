@@ -1,0 +1,31 @@
+{
+  "opendb_id": "1ab577a6-2b0c-41ce-8b0a-3e1d98e36b7e",
+  "metadata": {
+    "name": "Mars Gaming MF-LINKFINITY 120mm White PWM Addressable RGB 69 CFM 1-Pack",
+    "manufacturer": "Mars Gaming",
+    "part_numbers": [
+      "MFLINKFINITYW"
+    ],
+    "series": "MF-LINKFINITY",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 69,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CJ9DTFSV"
+  }
+}

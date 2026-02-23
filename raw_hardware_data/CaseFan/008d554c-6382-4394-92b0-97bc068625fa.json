@@ -1,0 +1,33 @@
+{
+  "opendb_id": "008d554c-6382-4394-92b0-97bc068625fa",
+  "metadata": {
+    "name": "Phanteks D30-120 120mm Black PWM ARGB 3-Pack",
+    "manufacturer": "Phanteks",
+    "part_numbers": [
+      "PH-F120D30_DRGB_PWM_BK01_3P"
+    ],
+    "series": "D30-120",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 64.3,
+  "max_airflow": null,
+  "min_noise_level": 30.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 3.01,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BZCKP9QF",
+    "newegg_sku": "N82E16835709223",
+    "walmart_sku": 3509897001
+  }
+}

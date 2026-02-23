@@ -1,0 +1,36 @@
+{
+  "opendb_id": "8721b673-f40f-41c8-b013-71519bbf4db4",
+  "modules": {
+    "quantity": 2,
+    "capacity_gb": 32
+  },
+  "metadata": {
+    "name": "G.Skill Ripjaws M5 Neo RGB White DDR5-6000 CL36 64GB (2x32GB)",
+    "manufacturer": "G.SKILL",
+    "part_numbers": [
+      "F5-6000J3636F32GX2-RM5NRW"
+    ],
+    "series": "Ripjaws",
+    "variant": "6000 CL36",
+    "last_manually_spec_verified_at": "2025-09-12T09:29:44.297Z"
+  },
+  "speed": 6000,
+  "ram_type": "DDR5",
+  "form_factor": "288-pin DIMM",
+  "capacity": 64,
+  "color": [
+    "WHITE"
+  ],
+  "cas_latency": 36,
+  "timings": "36-36-36-96",
+  "voltage": 1.25,
+  "ecc": "Non-ECC",
+  "registered": "Unbuffered",
+  "heat_spreader": true,
+  "rgb": true,
+  "profile_support": [],
+  "general_product_information": {
+    "amazon_sku": "B0DC7QSDWV",
+    "walmart_sku": 9394053002
+  }
+}

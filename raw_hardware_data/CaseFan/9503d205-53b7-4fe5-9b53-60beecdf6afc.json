@@ -1,0 +1,30 @@
+{
+  "opendb_id": "9503d205-53b7-4fe5-9b53-60beecdf6afc",
+  "metadata": {
+    "name": "Kingwin CFBL-08LB 80mm Transparent Blue LED",
+    "manufacturer": "Kingwin",
+    "part_numbers": [
+      "CFBL-08LB"
+    ],
+    "series": "CFBL-08LB",
+    "variant": "80mm Transparent"
+  },
+  "size": 80,
+  "color": [],
+  "quantity": 1,
+  "min_airflow": 30,
+  "max_airflow": null,
+  "min_noise_level": 25,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B003MDQAI8",
+    "walmart_sku": 30339210
+  }
+}

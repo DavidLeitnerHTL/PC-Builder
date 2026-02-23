@@ -1,0 +1,32 @@
+{
+  "opendb_id": "c39fb3dd-7aa9-43c9-aa6b-6f4ba7e3b9f9",
+  "metadata": {
+    "name": "Silverstone FHP 140mm 171 CFM Black 1-Pack",
+    "manufacturer": "SilverStone",
+    "part_numbers": [
+      "FHP-141"
+    ],
+    "series": "FHP",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 42.8,
+  "max_airflow": 171,
+  "min_noise_level": 43.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00A460TK6",
+    "walmart_sku": 887627289
+  }
+}

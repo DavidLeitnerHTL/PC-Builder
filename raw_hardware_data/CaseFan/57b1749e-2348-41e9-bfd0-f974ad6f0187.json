@@ -1,0 +1,32 @@
+{
+  "opendb_id": "57b1749e-2348-41e9-bfd0-f974ad6f0187",
+  "metadata": {
+    "name": "be quiet! Light Wings LX 140mm White Addressable RGB PWM 56 CFM 3-Pack",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL128"
+    ],
+    "series": "Light",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 56,
+  "max_airflow": null,
+  "min_noise_level": 22.9,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 0.9,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DGKNRF9P",
+    "newegg_sku": "N82E16835269017"
+  }
+}

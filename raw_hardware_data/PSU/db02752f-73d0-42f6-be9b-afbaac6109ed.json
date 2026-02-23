@@ -1,0 +1,29 @@
+{
+  "opendb_id": "db02752f-73d0-42f6-be9b-afbaac6109ed",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "LEPA MaxGold ATX 700W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "LEPA",
+    "part_numbers": [
+      "G700-MB"
+    ],
+    "series": "MaxGold",
+    "variant": "700W Gold"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

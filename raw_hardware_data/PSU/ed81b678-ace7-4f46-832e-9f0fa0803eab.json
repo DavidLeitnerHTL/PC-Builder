@@ -1,0 +1,31 @@
+{
+  "opendb_id": "ed81b678-ace7-4f46-832e-9f0fa0803eab",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec NeoECO V2 Black ATX 550W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "NE550M V2                                                    0-761345-10573-6"
+    ],
+    "series": "NeoECO",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

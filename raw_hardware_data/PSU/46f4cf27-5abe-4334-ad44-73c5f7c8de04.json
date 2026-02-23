@@ -1,0 +1,29 @@
+{
+  "opendb_id": "46f4cf27-5abe-4334-ad44-73c5f7c8de04",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "HEC Raptor500 500W Non-Modular",
+    "manufacturer": "HEC",
+    "part_numbers": [
+      "Raptor500"
+    ],
+    "series": "Raptor500",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

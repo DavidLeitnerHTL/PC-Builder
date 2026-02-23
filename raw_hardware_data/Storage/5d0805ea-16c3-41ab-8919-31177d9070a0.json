@@ -1,0 +1,23 @@
+{
+  "opendb_id": "5d0805ea-16c3-41ab-8919-31177d9070a0",
+  "metadata": {
+    "name": "Western Digital WD_BLACK SN770M 500GB SSD M.2 2230 PCIe 4.0 NVMe",
+    "manufacturer": "Western Digital",
+    "part_numbers": [
+      "WDBDNH5000ABK-WRSN",
+      "WDS500G3X0G"
+    ],
+    "series": "WD_BLACK",
+    "variant": "500GB"
+  },
+  "capacity": 500,
+  "type": "SSD",
+  "form_factor": "M.2-2230",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0CP61ZSST",
+    "newegg_sku": "0D9-001A-003K7",
+    "walmart_sku": 5404557820
+  }
+}

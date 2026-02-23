@@ -1,0 +1,32 @@
+{
+  "opendb_id": "93802681-b6e7-42e6-b88a-9865388ec69f",
+  "metadata": {
+    "name": "Silverstone Air Penetrator 120mm Clear White LED",
+    "manufacturer": "SilverStone",
+    "part_numbers": [
+      "AP121-WL"
+    ],
+    "series": "Air",
+    "variant": "120mm Clear"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 35.36,
+  "max_airflow": null,
+  "min_noise_level": 22.4,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.71,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00452V26K",
+    "walmart_sku": 197101719
+  }
+}

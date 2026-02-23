@@ -1,0 +1,31 @@
+{
+  "opendb_id": "49ea76a6-2896-4f77-b217-bb4ca9bdd873",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master MWE GOLD V2 Black 850W Non-Modular 80+ Gold",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPE-8501-ACAAG"
+    ],
+    "series": "MWE",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

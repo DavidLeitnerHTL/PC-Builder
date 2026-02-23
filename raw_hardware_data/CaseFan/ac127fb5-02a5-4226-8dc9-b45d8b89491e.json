@@ -1,0 +1,33 @@
+{
+  "opendb_id": "ac127fb5-02a5-4226-8dc9-b45d8b89491e",
+  "metadata": {
+    "name": "Apevia C 120mm Black / White White LED 57.67 CFM 3-Pack",
+    "manufacturer": "Apevia",
+    "series": "C",
+    "variant": "120mm Black / White",
+    "part_numbers": [
+      "312L-CWH"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 57.67,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0711RYDBZ",
+    "newegg_sku": "9SIB698K3T1230"
+  }
+}

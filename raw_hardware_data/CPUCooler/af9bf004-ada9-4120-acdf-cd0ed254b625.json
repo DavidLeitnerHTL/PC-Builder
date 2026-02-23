@@ -1,0 +1,35 @@
+{
+  "opendb_id": "af9bf004-ada9-4120-acdf-cd0ed254b625",
+  "metadata": {
+    "name": "Corsair iCUE LINK TITAN Water 240mm RX LCD 73.5 CFM White",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CW-9061025-WW"
+    ],
+    "series": "iCUE",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 300,
+  "max_fan_rpm": 2100,
+  "min_noise_level": 10,
+  "max_noise_level": 36,
+  "color": [
+    "WHITE"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "newegg_sku": "N82E16835181481"
+  }
+}

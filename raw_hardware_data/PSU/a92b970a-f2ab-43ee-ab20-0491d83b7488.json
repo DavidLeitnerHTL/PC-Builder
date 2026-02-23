@@ -1,0 +1,32 @@
+{
+  "opendb_id": "a92b970a-f2ab-43ee-ab20-0491d83b7488",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 7,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec CSK Black / Yellow ATX 450W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "CSK450                                                    X5000A251HC-20"
+    ],
+    "series": "CSK",
+    "variant": "450W Bronze"
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "YELLOW"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

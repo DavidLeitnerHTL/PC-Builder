@@ -1,0 +1,36 @@
+{
+  "opendb_id": "9501890d-1e6a-4a90-a6bd-07bd780e0b31",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master X Silent Edge Platinum Fanless ATX 850W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPS-8501-AFAP-BUS                                                    MPS-8501-AFAP-BAU                                                    MPS-8501-AFAP-BUK                                                    MPS-8501-AFAP-BWO                                                    MPS-8501-AFAP-BNL                                                    MPS-8501-AFAP-BEU                                                    MPS-8501-AZAP-BUS",
+      "MPS-8501-AZAP-BUS"
+    ],
+    "series": "X",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 180,
+  "fanless": true,
+  "general_product_information": {
+    "amazon_sku": "B0D62X3Y39",
+    "newegg_sku": "N82E16817171245",
+    "walmart_sku": 15759359458
+  }
+}

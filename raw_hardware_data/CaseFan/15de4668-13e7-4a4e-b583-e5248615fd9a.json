@@ -1,0 +1,27 @@
+{
+  "opendb_id": "15de4668-13e7-4a4e-b583-e5248615fd9a",
+  "metadata": {
+    "name": "NZXT Air Flow 83.6 CFM 140mm Clear Orange LED 1-Pack",
+    "manufacturer": "NZXT",
+    "part_numbers": [],
+    "series": "Air",
+    "variant": "140mm Clear"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 83.6,
+  "max_airflow": null,
+  "min_noise_level": 24.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Orange",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

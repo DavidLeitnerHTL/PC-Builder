@@ -1,0 +1,38 @@
+{
+  "opendb_id": "a74e645a-a42a-4bdf-b857-ac8b3dde0db0",
+  "metadata": {
+    "name": "ARCTIC Freezer 12 Air 130mm",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFRE00027A"
+    ],
+    "series": "Freezer",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": null,
+  "max_fan_rpm": null,
+  "min_noise_level": 22.5,
+  "max_noise_level": null,
+  "color": [],
+  "height": 130,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B06WRPFFJN"
+  }
+}

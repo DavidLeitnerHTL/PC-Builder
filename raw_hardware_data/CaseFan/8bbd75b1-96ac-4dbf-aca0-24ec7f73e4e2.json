@@ -1,0 +1,34 @@
+{
+  "opendb_id": "8bbd75b1-96ac-4dbf-aca0-24ec7f73e4e2",
+  "metadata": {
+    "name": "Noctua A12x15 120mm Black chromax.black.swap PWM",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-A12x15 PWM chromax.black.swap",
+      "NF-A12x15 PWM CH.BK.S"
+    ],
+    "series": "A12x15",
+    "variant": "120mm Black / Multicolor"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "RGB"
+  ],
+  "quantity": 1,
+  "min_airflow": 55.44,
+  "max_airflow": null,
+  "min_noise_level": 23.9,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.53,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0813X9G8T",
+    "newegg_sku": "1YF-000T-002G6"
+  }
+}

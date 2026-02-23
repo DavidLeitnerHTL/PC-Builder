@@ -1,0 +1,39 @@
+{
+  "opendb_id": "26deb540-2ade-4413-82f7-5b32072fbd11",
+  "metadata": {
+    "name": "Cougar FV150 ATX Mid Tower Black with RGB, Tempered Glass Side Panel, and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
+    "manufacturer": "Cougar",
+    "part_numbers": [
+      "CGR-5KA1B-RGB                                            385KA10.0001                                            FV150 RGB",
+      "CGR-5KA1B-RGB"
+    ],
+    "series": "FV150",
+    "variant": ""
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.2 Gen 2 Type-C                                            USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 400,
+  "max_cpu_cooler_height": null,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 1,
+  "expansion_slots": 7,
+  "dimensions": "415 x 300 x 400",
+  "volume": 49.8,
+  "weight": null,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [],
+  "general_product_information": {
+    "amazon_sku": "B0DY848VMP"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "a3cbcd91-2fc0-4542-a82d-025d837759d7",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master V SFX Platinum 1300W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPZ-D001-SFBP-BEU                                                    MPZ-D001-SFBP-BAU                                                    MPZ-D001-SFBP-BUK",
+      "MPZ-D001-SFBP-BUK"
+    ],
+    "series": "V",
+    "variant": "1300W Platinum"
+  },
+  "wattage": 1300,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BS9WKYJP"
+  }
+}

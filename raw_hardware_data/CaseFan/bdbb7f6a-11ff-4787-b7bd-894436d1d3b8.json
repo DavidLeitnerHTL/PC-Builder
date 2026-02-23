@@ -1,0 +1,33 @@
+{
+  "opendb_id": "bdbb7f6a-11ff-4787-b7bd-894436d1d3b8",
+  "metadata": {
+    "name": "Noctua A8 80mm Brown PWM 32.66 CFM",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-A8 PWM"
+    ],
+    "series": "A8",
+    "variant": "80mm Brown"
+  },
+  "size": 80,
+  "color": [
+    "BROWN"
+  ],
+  "quantity": 1,
+  "min_airflow": 25.84,
+  "max_airflow": 32.66,
+  "min_noise_level": 13.8,
+  "max_noise_level": 17.7,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.37,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00NEMG62M",
+    "newegg_sku": "N82E16835608069",
+    "walmart_sku": 47439976
+  }
+}

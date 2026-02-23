@@ -1,0 +1,35 @@
+{
+  "opendb_id": "6e69dcd8-e7e4-4cec-8372-d4d8804ce6b0",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Xilence XP500R6 Black / Red 500W Non-Modular",
+    "manufacturer": "Xilence",
+    "part_numbers": [
+      "XN042",
+      "4044953500220"
+    ],
+    "series": "XP500R6",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B00OZ08W3S"
+  }
+}

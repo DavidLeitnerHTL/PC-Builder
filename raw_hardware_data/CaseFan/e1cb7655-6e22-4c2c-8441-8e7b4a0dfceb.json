@@ -1,0 +1,29 @@
+{
+  "opendb_id": "e1cb7655-6e22-4c2c-8441-8e7b4a0dfceb",
+  "metadata": {
+    "name": "Fractal Design Momentum 120 RGB White",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [],
+    "series": "Momentum",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 0,
+  "max_airflow": 62.44,
+  "min_noise_level": 0,
+  "max_noise_level": 28.03,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM",
+  "controller": "ARGB Controller",
+  "static_pressure": 2.42,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "manufacturer_url": "https://www.fractal-design.com/products/fans/momentum/momentum-12-rgb/white/"
+  }
+}

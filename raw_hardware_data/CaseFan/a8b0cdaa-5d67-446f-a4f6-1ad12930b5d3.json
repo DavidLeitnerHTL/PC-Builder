@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a8b0cdaa-5d67-446f-a4f6-1ad12930b5d3",
+  "metadata": {
+    "name": "Antec LED80XFAN 80mm Transparent Blue LED 34 CFM",
+    "manufacturer": "Antec",
+    "part_numbers": [],
+    "series": "LED80XFAN",
+    "variant": "80mm Transparent"
+  },
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 34,
+  "max_airflow": null,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

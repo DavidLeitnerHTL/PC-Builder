@@ -1,0 +1,31 @@
+{
+  "opendb_id": "0a1c8fe8-8b2d-4db0-8e9a-e41d6076c4e4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "LC-Power LC6650GP3 V2.3 230V ATX 650W Non-Modular 80+ Silver Certified",
+    "manufacturer": "LC-Power",
+    "part_numbers": [
+      "LC6650GP3 V2.3"
+    ],
+    "series": "LC6650GP3",
+    "variant": "650W Silver"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Silver",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

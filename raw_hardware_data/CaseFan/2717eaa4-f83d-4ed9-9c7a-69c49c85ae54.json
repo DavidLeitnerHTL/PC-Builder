@@ -1,0 +1,31 @@
+{
+  "opendb_id": "2717eaa4-f83d-4ed9-9c7a-69c49c85ae54",
+  "metadata": {
+    "name": "Gelid Solutions Silent 8 80mm Black PWM",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [
+      "FN-PX08-21"
+    ],
+    "series": "Silent",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 27,
+  "max_airflow": null,
+  "min_noise_level": 21.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.65,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09MJ3LGGK"
+  }
+}

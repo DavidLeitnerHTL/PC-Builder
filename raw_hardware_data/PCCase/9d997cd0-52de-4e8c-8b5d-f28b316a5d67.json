@@ -1,0 +1,52 @@
+{
+  "opendb_id": "9d997cd0-52de-4e8c-8b5d-f28b316a5d67",
+  "metadata": {
+    "name": "Thermaltake View 270 Plus ATX Mid Tower Green Tempered Glass ARGB",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CA-1Y7-00MEWN-01"
+    ],
+    "series": "View",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-08-31T18:35:39.566Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX",
+    "EATX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "GREEN"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.2 Gen 2 Type-C                                                   2x  USB 3.0  Type-A",
+  "max_video_card_length": 420,
+  "max_cpu_cooler_height": 180,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 1,
+  "expansion_slots": 7,
+  "dimensions": "230 x 456 x 454",
+  "volume": 47.616,
+  "weight": 14,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "USB 3.2 Gen 2 Type-C",
+    "2x  USB 3.0  Type-A"
+  ],
+  "dimensions_mm": {
+    "width": 230,
+    "height": 456,
+    "depth": 454,
+    "_id": "68b495ffcad96f630aa7937d"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0D1MPSVML",
+    "newegg_sku": "2AM-000X-00323",
+    "bestbuy_sku": 6603502,
+    "walmart_sku": 5740655659
+  }
+}

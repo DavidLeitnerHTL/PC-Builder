@@ -1,0 +1,47 @@
+{
+  "opendb_id": "e419c407-7e32-4165-af96-2763f857239a",
+  "power_connectors": {
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Asus STRIX OC Black / Red GeForce GTX 1060 6GB GDDR5",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "STRIX-GTX1060-DC2O6G"
+    ],
+    "series": "GeForce GTX 1060 6GB",
+    "variant": "Asus"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce GTX 1060",
+  "memory": 6,
+  "memory_type": "GDDR5",
+  "core_base_clock": 1569,
+  "core_boost_clock": 1811,
+  "effective_memory_clock": 8008,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 218,
+  "tdp": 120,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 2,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 2,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c5e2865ad0c3553e9f6d"
+  },
+  "core_count": 0,
+  "general_product_information": {}
+}

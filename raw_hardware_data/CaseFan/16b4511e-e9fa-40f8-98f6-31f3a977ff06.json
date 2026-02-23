@@ -1,0 +1,27 @@
+{
+  "opendb_id": "16b4511e-e9fa-40f8-98f6-31f3a977ff06",
+  "metadata": {
+    "name": "Thermalright TL-H12-X28 120mm Black PWM 80.45 CFM",
+    "manufacturer": "Thermalright",
+    "part_numbers": [],
+    "series": "TL-H12-X28",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 80.45,
+  "max_airflow": null,
+  "min_noise_level": 29.4,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.65,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

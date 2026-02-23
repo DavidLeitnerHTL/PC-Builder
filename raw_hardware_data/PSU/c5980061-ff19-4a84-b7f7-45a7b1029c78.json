@@ -1,0 +1,29 @@
+{
+  "opendb_id": "c5980061-ff19-4a84-b7f7-45a7b1029c78",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! Pure Power 10 CM 600W Semi-Modular 80+ Silver Certified",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN278                                                    BN678"
+    ],
+    "series": "Pure",
+    "variant": "600W Silver"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Silver",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

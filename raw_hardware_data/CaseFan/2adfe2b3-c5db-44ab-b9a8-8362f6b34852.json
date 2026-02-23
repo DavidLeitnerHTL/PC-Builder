@@ -1,0 +1,27 @@
+{
+  "opendb_id": "2adfe2b3-c5db-44ab-b9a8-8362f6b34852",
+  "metadata": {
+    "name": "Silverstone Air Penetrator 120mm Clear 35.36 CFM 1-Pack",
+    "manufacturer": "SilverStone",
+    "part_numbers": [],
+    "series": "Air",
+    "variant": "120mm Clear"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 35.36,
+  "max_airflow": null,
+  "min_noise_level": 22.4,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

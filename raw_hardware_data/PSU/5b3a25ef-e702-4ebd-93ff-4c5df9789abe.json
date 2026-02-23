@@ -1,0 +1,29 @@
+{
+  "opendb_id": "5b3a25ef-e702-4ebd-93ff-4c5df9789abe",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake TR2 1000W Semi-Modular 80+",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "TRX-1000M"
+    ],
+    "series": "TR2",
+    "variant": "1000W 80+"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

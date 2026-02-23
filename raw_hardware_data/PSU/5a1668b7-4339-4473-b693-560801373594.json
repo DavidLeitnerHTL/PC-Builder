@@ -1,0 +1,37 @@
+{
+  "opendb_id": "5a1668b7-4339-4473-b693-560801373594",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MAG A550BN Black 550W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MAG A550BN                                                    306-7ZP2A11-CE0",
+      "MAG A550BN",
+      "306-7ZP2A11-CE0"
+    ],
+    "series": "MAG",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0991W1HKT",
+    "newegg_sku": "N82E16817701012",
+    "walmart_sku": 3421448202
+  }
+}

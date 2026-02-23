@@ -1,0 +1,52 @@
+{
+  "opendb_id": "eb2defa6-7e19-4bba-a43c-545bc09a3d0a",
+  "metadata": {
+    "name": "Corsair iCUE H100i ELITE LCD XT Water 240mm Black",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CW-9060074-WW"
+    ],
+    "series": "iCUE",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 550,
+  "max_fan_rpm": 2100,
+  "min_noise_level": 5,
+  "max_noise_level": 34.1,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0BQWVNZDC",
+    "newegg_sku": "N82E16835181336",
+    "bestbuy_sku": 6534170,
+    "walmart_sku": 2136159620
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "6266f680-756e-4971-a398-11e6b9d2a645",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ARESGAME AGS 850W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "ARESGAME",
+    "part_numbers": [
+      "PZ850                                                    AGS850"
+    ],
+    "series": "AGS",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

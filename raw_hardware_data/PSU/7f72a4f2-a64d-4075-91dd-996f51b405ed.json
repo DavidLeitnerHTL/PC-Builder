@@ -1,0 +1,29 @@
+{
+  "opendb_id": "7f72a4f2-a64d-4075-91dd-996f51b405ed",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 10,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair HX620 620W Fully Modular 80+ Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CMPSU-620HX"
+    ],
+    "series": "HX620",
+    "variant": "620W 80+"
+  },
+  "wattage": 620,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Full",
+  "color": [],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

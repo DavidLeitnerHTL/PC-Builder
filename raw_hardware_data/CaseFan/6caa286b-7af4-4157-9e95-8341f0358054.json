@@ -1,0 +1,27 @@
+{
+  "opendb_id": "6caa286b-7af4-4157-9e95-8341f0358054",
+  "metadata": {
+    "name": "Xion Alphawing 120mm Translucent Black Red LED 1-Pack",
+    "manufacturer": "Xion",
+    "part_numbers": [],
+    "series": "Alphawing",
+    "variant": "120mm Translucent Black"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 51.02,
+  "max_airflow": null,
+  "min_noise_level": 19.6,
+  "max_noise_level": 25.2,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

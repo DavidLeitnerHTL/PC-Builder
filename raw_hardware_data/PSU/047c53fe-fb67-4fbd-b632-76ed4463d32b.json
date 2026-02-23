@@ -1,0 +1,35 @@
+{
+  "opendb_id": "047c53fe-fb67-4fbd-b632-76ed4463d32b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA 600 W1 600W Non-Modular 80+ Certified",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "100-W1-0600-K1                                                    100-W1-0600-K2                                                    100-W1-0600-K3",
+      "100-W1-0600-K1"
+    ],
+    "series": "600",
+    "variant": "600W 80+"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0160XJAQK",
+    "newegg_sku": "N82E16817438243",
+    "bestbuy_sku": 8511029,
+    "walmart_sku": 100809405
+  }
+}

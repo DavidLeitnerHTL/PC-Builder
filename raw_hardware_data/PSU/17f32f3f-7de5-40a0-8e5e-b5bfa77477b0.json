@@ -1,0 +1,31 @@
+{
+  "opendb_id": "17f32f3f-7de5-40a0-8e5e-b5bfa77477b0",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master MWE GOLD 650 V2 Black 650W Fully Modular 80+ Gold",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPE-6501-AFAAG"
+    ],
+    "series": "MWE",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

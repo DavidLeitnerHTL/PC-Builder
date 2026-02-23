@@ -1,0 +1,29 @@
+{
+  "opendb_id": "83055ff3-03f8-45d1-acc7-fcc06ab091fc",
+  "metadata": {
+    "name": "Apevia Cosmos CO312L-RD 120mm Black Red LED 3-Pack",
+    "manufacturer": "Apevia",
+    "series": "APEVIA",
+    "variant": "120mm ",
+    "part_numbers": [
+      "CO312L-RD"
+    ]
+  },
+  "size": 120,
+  "color": [],
+  "quantity": 3,
+  "min_airflow": 57.67,
+  "max_airflow": 56.67,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07NF3LM29"
+  }
+}

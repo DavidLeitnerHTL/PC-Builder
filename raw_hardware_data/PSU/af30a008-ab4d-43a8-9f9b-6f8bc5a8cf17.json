@@ -1,0 +1,34 @@
+{
+  "opendb_id": "af30a008-ab4d-43a8-9f9b-6f8bc5a8cf17",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Lian Li SP850 SFX 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Lian Li",
+    "part_numbers": [
+      "SP850 Black                                                    SP850B                                                    SP850",
+      "SP850 BLACK"
+    ],
+    "series": "SP850",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BCV9JCCH"
+  }
+}

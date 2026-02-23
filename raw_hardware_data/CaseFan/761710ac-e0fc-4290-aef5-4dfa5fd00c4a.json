@@ -1,0 +1,32 @@
+{
+  "opendb_id": "761710ac-e0fc-4290-aef5-4dfa5fd00c4a",
+  "metadata": {
+    "name": "ARCTIC P9 92mm Black Silent PWM 23.96 CFM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00297A"
+    ],
+    "series": "P9",
+    "variant": "92mm Black"
+  },
+  "size": 92,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 23.96,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.32,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09VGWCH8K",
+    "walmart_sku": 16526361876
+  }
+}

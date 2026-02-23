@@ -1,0 +1,29 @@
+{
+  "opendb_id": "5ec38fd4-aade-4c23-864f-fb6f11ab94e8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "OCZ ZT ATX 550W Fully Modular 80+ Bronze Certified",
+    "manufacturer": "OCZ",
+    "part_numbers": [
+      "OCZ-ZT550W"
+    ],
+    "series": "ZT",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Full",
+  "color": [],
+  "length": 175,
+  "fanless": false,
+  "general_product_information": {}
+}

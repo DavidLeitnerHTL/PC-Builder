@@ -1,0 +1,31 @@
+{
+  "opendb_id": "fb2a633d-045f-4faa-ae3e-2729e35f2ec4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MAG A850GL PCIE5 II Black 850W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MAG A850GL PCIE5 II"
+    ],
+    "series": "MAG",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

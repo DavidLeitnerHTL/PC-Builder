@@ -1,0 +1,33 @@
+{
+  "opendb_id": "4672438b-7753-4c59-8fe9-f9e07998f70a",
+  "metadata": {
+    "name": "Noctua A15 140mm Brown PWM",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-A15 PWM"
+    ],
+    "series": "A15",
+    "variant": "140mm Brown"
+  },
+  "size": 140,
+  "color": [
+    "BROWN"
+  ],
+  "quantity": 1,
+  "min_airflow": null,
+  "max_airflow": null,
+  "min_noise_level": 13.8,
+  "max_noise_level": 19.2,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00AED7XFI",
+    "newegg_sku": "N82E16835608036",
+    "walmart_sku": 47516843
+  }
+}

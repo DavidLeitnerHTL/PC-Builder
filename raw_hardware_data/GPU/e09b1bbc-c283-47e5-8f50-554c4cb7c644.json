@@ -1,0 +1,47 @@
+{
+  "opendb_id": "e09b1bbc-c283-47e5-8f50-554c4cb7c644",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 2,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Asus GeForce RTX 3080 LHR TUF GAMING 12GB GDDR6X Black / Silver",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "TUF-RTX3080-12G-GAMING                                                    90YV0FB7-M0NM00"
+    ],
+    "series": "GeForce RTX 3080 12GB LHR",
+    "variant": "Asus"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 3080 12 GB",
+  "memory": 12,
+  "memory_type": "GDDR6X",
+  "core_base_clock": 1260,
+  "core_boost_clock": 1740,
+  "effective_memory_clock": 19000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 300,
+  "tdp": 350,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 2,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c618865ad0c3553ea315"
+  },
+  "core_count": 0,
+  "general_product_information": {}
+}

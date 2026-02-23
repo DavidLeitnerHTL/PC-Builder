@@ -1,0 +1,33 @@
+{
+  "opendb_id": "a3e019f7-95f7-4e07-9e20-dd4004b9e50d",
+  "metadata": {
+    "name": "Gigabyte AORUS 140mm Black ARGB PWM",
+    "manufacturer": "Gigabyte",
+    "series": "AORUS",
+    "variant": "140mm Black",
+    "part_numbers": [
+      "GP-AR140RFAN"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 30.3,
+  "max_airflow": 60.64,
+  "min_noise_level": 8.9,
+  "max_noise_level": 35.8,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.18,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09T5WL6YW",
+    "newegg_sku": "N82E16835128034",
+    "walmart_sku": 2282079144
+  }
+}

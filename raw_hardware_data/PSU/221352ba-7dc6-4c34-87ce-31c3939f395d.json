@@ -1,0 +1,34 @@
+{
+  "opendb_id": "221352ba-7dc6-4c34-87ce-31c3939f395d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 16,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair HX750 Platinum 750W 80+ Platinum Certified Fully Modular",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020137-NA                                                    CP-9020137-WW                                                    CP-9020137-UK                                                    CP-9020137-EU                                                    CP-9020137-AU                                                    CP-9020137-CN                                                    CP-9020137-JP                                                    CP-9020137-KR",
+      "CP-9020137-NA"
+    ],
+    "series": "HX750",
+    "variant": "750W Platinum"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B01N6PEBNL",
+    "newegg_sku": "9SIB8AKKAN6951",
+    "walmart_sku": 546861397
+  }
+}

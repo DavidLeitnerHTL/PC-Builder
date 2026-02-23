@@ -1,0 +1,31 @@
+{
+  "opendb_id": "4e7b55e6-e0ad-4525-b0e3-bc8658688961",
+  "metadata": {
+    "name": "NoiseBlocker ELoop B 140mm Black PWM",
+    "manufacturer": "NoiseBlocker",
+    "part_numbers": [
+      "ITR-B14-PS-BL"
+    ],
+    "series": "ELoop",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 83.93,
+  "max_airflow": null,
+  "min_noise_level": 24,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B06ZXZ996G"
+  }
+}

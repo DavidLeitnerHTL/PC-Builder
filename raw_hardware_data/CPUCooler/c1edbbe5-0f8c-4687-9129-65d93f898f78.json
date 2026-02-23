@@ -1,0 +1,48 @@
+{
+  "opendb_id": "c1edbbe5-0f8c-4687-9129-65d93f898f78",
+  "metadata": {
+    "name": "NZXT Kraken Z63 RGB Water 280mm RGB 91.19 CFM Black",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RL-KRZ63-R1"
+    ],
+    "series": "Kraken",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 1500,
+  "min_noise_level": 22,
+  "max_noise_level": 33,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": true,
+  "radiator_size": 280,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B09GKR95F9",
+    "newegg_sku": "N82E16835146082",
+    "bestbuy_sku": 6486435,
+    "walmart_sku": 327676421
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "opendb_id": "2d9c4f09-b081-4a7d-96b3-5b50586048f9",
+  "metadata": {
+    "name": "ARCTIC P14 140mm White PWM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00197A"
+    ],
+    "series": "P14",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 72.8,
+  "max_airflow": null,
+  "min_noise_level": 22.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.4,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08QNCNTKB",
+    "newegg_sku": "9SIA2W0C591205",
+    "walmart_sku": 2747567154
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "opendb_id": "fc93e3dc-2fc0-4637-9f3d-22dd921d9e8f",
+  "metadata": {
+    "name": "Thermalright Frozen Warframe PRO Water 360mm ARGB 70.84 CFM White / Blue",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "Frozen Warframe PRO 360 WHITE ARGB",
+      "FROWARP36-WH",
+      "FW-PRO360WHITE-ARGB"
+    ],
+    "series": "Frozen",
+    "variant": "White / Blue",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 2000,
+  "max_fan_rpm": null,
+  "min_noise_level": 29.8,
+  "max_noise_level": null,
+  "color": [
+    "WHITE",
+    "BLUE"
+  ],
+  "height": 60,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0DFM2VQDL"
+  }
+}

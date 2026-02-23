@@ -1,0 +1,27 @@
+{
+  "opendb_id": "6d4aad86-5b74-46c7-896e-e1d1b369f65b",
+  "metadata": {
+    "name": "Xigmatek XLF 120mm Clear 61 CFM White LED",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "XLF",
+    "variant": "120mm Clear"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 61,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

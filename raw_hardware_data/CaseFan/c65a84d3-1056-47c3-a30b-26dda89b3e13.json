@@ -1,0 +1,33 @@
+{
+  "opendb_id": "c65a84d3-1056-47c3-a30b-26dda89b3e13",
+  "metadata": {
+    "name": "StarTech FAN9X25TX3L 92mm Black 31.84 CFM 1-Pack",
+    "manufacturer": "StarTech",
+    "part_numbers": [
+      "FAN9X25TX3L",
+      "SV411K"
+    ],
+    "series": "FAN9X25TX3L",
+    "variant": "92mm Black"
+  },
+  "size": 92,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 31.84,
+  "max_airflow": null,
+  "min_noise_level": 25,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00006B8EN",
+    "newegg_sku": "N82E16835230023"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "635b2e57-46f0-414c-aa76-1386c59d44a3",
+  "metadata": {
+    "name": "Apevia CF20SL-UBL 200mm Blue UV LED 125 CFM",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "CF20SL-UBL",
+    "variant": "200mm Blue"
+  },
+  "size": 200,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 125,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Multicolor",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.68,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

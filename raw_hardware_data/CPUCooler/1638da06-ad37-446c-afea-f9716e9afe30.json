@@ -1,0 +1,38 @@
+{
+  "opendb_id": "1638da06-ad37-446c-afea-f9716e9afe30",
+  "metadata": {
+    "name": "Cooler Master i50 Air 60mm 34.1 CFM Black / Silver",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "RH-I50-20FK-R1                                                    i50",
+      "i50"
+    ],
+    "series": "i50",
+    "variant": "Black / Silver",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 2000,
+  "max_fan_rpm": null,
+  "min_noise_level": 28,
+  "max_noise_level": null,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "height": 60,
+  "cpu_sockets": [
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B07QNP4V84"
+  }
+}

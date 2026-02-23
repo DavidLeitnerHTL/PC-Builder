@@ -1,0 +1,29 @@
+{
+  "opendb_id": "2e7acf2a-2c98-4e0d-a91f-96cc6f818df2",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Xigmatek Vector 750W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [
+      "Vector G750"
+    ],
+    "series": "Vector",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

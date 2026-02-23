@@ -1,0 +1,48 @@
+{
+  "opendb_id": "1c19203f-0572-4ed0-80b4-37d940f1d8c9",
+  "cores": {
+    "total": 2,
+    "performance": 2,
+    "threads": 2
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.8,
+      "boost": 4
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon R5 (on-die)"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": [
+        "DDR4"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "28 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A6 A6-9550 3.8 GHz 2-Core AM4",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD9550AGABBOX"
+    ],
+    "series": "AMD A6"
+  },
+  "series": "AMD A6",
+  "microarchitecture": "Excavator",
+  "coreFamily": "Bristol Ridge",
+  "socket": "AM4",
+  "general_product_information": {}
+}

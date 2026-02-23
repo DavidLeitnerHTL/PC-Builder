@@ -1,0 +1,29 @@
+{
+  "opendb_id": "c5401646-1df7-454c-984d-4eae3a7f1999",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill ARC M550 ATX 550W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "ARC M550"
+    ],
+    "series": "ARC",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "7e807ed8-d76e-47f1-9634-c5a1c8adce1a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cougar VTE X2 Black 700W Non-Modular 80+ Certified",
+    "manufacturer": "Cougar",
+    "part_numbers": [
+      "VTE X2 700                                                    31VX070.0001P                                                    CGR VX-700"
+    ],
+    "series": "VTE",
+    "variant": "700W 80+"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "717c7476-66dc-4f75-bfff-be00147e2294",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake TR2 S 550W Non-Modular 80+ Certified",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "TRS-0550P-2                                                    PS-TRS-0550NPCWAU-2"
+    ],
+    "series": "TR2",
+    "variant": "550W 80+"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

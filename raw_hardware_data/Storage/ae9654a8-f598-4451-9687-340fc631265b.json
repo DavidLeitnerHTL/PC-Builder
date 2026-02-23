@@ -1,0 +1,24 @@
+{
+  "opendb_id": "ae9654a8-f598-4451-9687-340fc631265b",
+  "metadata": {
+    "name": "Kingston Fury Renegade 2TB SSD M.2 PCIe 4.0 NVMe",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SFYRD",
+      "2000G",
+      "SFYRD/2000G"
+    ],
+    "series": "Fury",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B09K36S11S",
+    "newegg_sku": "N82E16820242656",
+    "ibuypower_sku": "28474"
+  }
+}

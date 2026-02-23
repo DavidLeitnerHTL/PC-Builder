@@ -1,0 +1,35 @@
+{
+  "opendb_id": "7953bd84-d9ab-4e02-a216-d075091f7e22",
+  "metadata": {
+    "name": "Thermaltake CT140 EX 140mm Black Addressable RGB Sync PWM 90.3 CFM 3-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CLF182PL14SWA",
+      "CT140 EX",
+      "CL-F182-PL14SW-A"
+    ],
+    "series": "CT140",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 90.3,
+  "max_airflow": null,
+  "min_noise_level": 30.7,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 3.07,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CY6JXPDT",
+    "newegg_sku": "13C-001H-00271",
+    "walmart_sku": 5655622398
+  }
+}

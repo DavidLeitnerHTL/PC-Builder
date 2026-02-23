@@ -1,0 +1,27 @@
+{
+  "opendb_id": "bd608b0e-d07a-4e93-8311-ebc64c6ab8e3",
+  "metadata": {
+    "name": "Antec Fusion 120mm Black ARGB PWM 57.93 CFM 1-Pack",
+    "manufacturer": "Antec",
+    "part_numbers": [],
+    "series": "Fusion",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 57.93,
+  "max_airflow": null,
+  "min_noise_level": 17.02,
+  "max_noise_level": 31.24,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.11,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

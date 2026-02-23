@@ -1,0 +1,31 @@
+{
+  "opendb_id": "5a04de5e-d645-4f81-a26c-afb1206e6f05",
+  "metadata": {
+    "name": "Cooler Master JetFlo 120mm Black PWM 95 CFM Blue LED",
+    "manufacturer": "Cooler Master",
+    "series": "JetFlo",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "R4-JFDP-20PB-R1"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 95,
+  "max_airflow": null,
+  "min_noise_level": 36,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Blue",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00E20SSZ8"
+  }
+}

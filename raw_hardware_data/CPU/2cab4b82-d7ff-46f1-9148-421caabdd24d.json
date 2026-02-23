@@ -1,0 +1,56 @@
+{
+  "opendb_id": "2cab4b82-d7ff-46f1-9148-421caabdd24d",
+  "cores": {
+    "total": 16,
+    "threads": 24
+  },
+  "clocks": {
+    "performance": {
+      "base": 1.4,
+      "boost": 4.9
+    },
+    "efficiency": {
+      "base": 1,
+      "boost": 3.6
+    }
+  },
+  "cache": {
+    "l2": 24,
+    "l3": 30
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 192,
+      "types": [
+        "DDR5",
+        "DDR4"
+      ]
+    },
+    "tdp": 35,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "10 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i7 13700T OEM/Tray 1.4 GHz 16-Core LGA1700",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8071504820903",
+      "BX8071513700"
+    ],
+    "series": "Intel Core i7"
+  },
+  "series": "Intel Core i7",
+  "microarchitecture": "Raptor Lake",
+  "coreFamily": "Raptor Lake",
+  "socket": "LGA 1700",
+  "general_product_information": {
+    "amazon_sku": "B0BJ92P6NP",
+    "walmart_sku": 2135520256
+  }
+}

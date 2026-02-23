@@ -1,0 +1,29 @@
+{
+  "opendb_id": "06e192c5-bd7d-4404-a612-328733c59a0f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Raidmax Scorpio 735W 80+ Bronze Certified Semi-Modular",
+    "manufacturer": "Raidmax",
+    "part_numbers": [
+      "RX-735AP-S"
+    ],
+    "series": "Scorpio",
+    "variant": "735W Bronze"
+  },
+  "wattage": 735,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

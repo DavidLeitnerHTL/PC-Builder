@@ -1,0 +1,48 @@
+{
+  "opendb_id": "88180f38-a27a-4c37-8022-5aeb06d158fe",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.5,
+      "boost": 3.9
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 80,
+    "eccSupport": true,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "22 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E3 1241 V3 3.5 GHz 4-Core LGA1150",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80646E31241V3"
+    ],
+    "series": "Intel Xeon E3"
+  },
+  "series": "Intel Xeon E3",
+  "microarchitecture": "Haswell Refresh",
+  "coreFamily": "Haswell Refresh",
+  "socket": "LGA 1150",
+  "general_product_information": {
+    "amazon_sku": "B00KB4A7HG"
+  }
+}

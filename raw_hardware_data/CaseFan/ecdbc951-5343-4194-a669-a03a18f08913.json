@@ -1,0 +1,33 @@
+{
+  "opendb_id": "ecdbc951-5343-4194-a669-a03a18f08913",
+  "metadata": {
+    "name": "Corsair iCUE LINK QX140 140mm Black ARGB PWM",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9051003-WW"
+    ],
+    "series": "iCUE",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 12.1,
+  "max_airflow": 82.5,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "Proprietary PWM",
+  "controller": "USB",
+  "static_pressure": 3.5,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0C64WFQGC",
+    "newegg_sku": "N82E16835181360",
+    "walmart_sku": 2622384159
+  }
+}

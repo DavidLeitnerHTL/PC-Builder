@@ -1,0 +1,31 @@
+{
+  "opendb_id": "bbe159b5-266e-444d-b7a0-4728c18a772a",
+  "metadata": {
+    "name": "Enermax T.B. Silence 92mm Black 27.18 CFM",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "UCTB9"
+    ],
+    "series": "T.B.",
+    "variant": "92mm Black"
+  },
+  "size": 92,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 27.18,
+  "max_airflow": null,
+  "min_noise_level": 13,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.2,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B003IB2HXG"
+  }
+}

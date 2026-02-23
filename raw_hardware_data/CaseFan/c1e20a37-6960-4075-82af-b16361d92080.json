@@ -1,0 +1,32 @@
+{
+  "opendb_id": "c1e20a37-6960-4075-82af-b16361d92080",
+  "metadata": {
+    "name": "EK Loop Fan FPT 120mm Black PWM 77 CFM 1-Pack",
+    "manufacturer": "EK",
+    "part_numbers": [
+      "3831109900000"
+    ],
+    "series": "Loop",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 77,
+  "max_airflow": null,
+  "min_noise_level": 36,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.7,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BPMJGDFY",
+    "newegg_sku": "2YM-0010-005E7"
+  }
+}

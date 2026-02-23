@@ -1,0 +1,44 @@
+{
+  "opendb_id": "1a87c76e-a650-4249-bb44-2eedf67c24ea",
+  "metadata": {
+    "name": "Enermax LIQMAXFLO SR Water 240mm Black",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "ELC-LMF240-SF"
+    ],
+    "series": "LIQMAXFLO",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 1800,
+  "min_noise_level": 23.46,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0CJT2L72Y",
+    "walmart_sku": 5070231535
+  }
+}

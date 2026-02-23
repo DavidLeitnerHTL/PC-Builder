@@ -1,0 +1,34 @@
+{
+  "opendb_id": "437839ae-7b22-4c93-b5cc-2ea2b42d64a2",
+  "metadata": {
+    "name": "Noctua R8 redux-1200 80mm Black / Gray 1200RPM 21.07 CFM 1-Pack",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-R8 redux-1200"
+    ],
+    "series": "R8",
+    "variant": "80mm Black / Gray"
+  },
+  "size": 80,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.07,
+  "max_airflow": null,
+  "min_noise_level": 9.1,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.67,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00KF7T9MI",
+    "newegg_sku": "N82E16835608054",
+    "walmart_sku": 47313490
+  }
+}

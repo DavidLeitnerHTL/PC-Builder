@@ -1,0 +1,46 @@
+{
+  "opendb_id": "1c2b069f-0b2a-4983-b63e-b313d9ba4fbe",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 2,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "MSI ARMOR OC Radeon RX 590 8GB GDDR5 Black / White",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "RX 590 ARMOR 8G OC                                                    Radeon RX 590 ARMOR 8G OC                                                    R590AR8C                                                    V341-295R"
+    ],
+    "series": "Radeon RX 590",
+    "variant": "MSI"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 590",
+  "memory": 8,
+  "memory_type": "GDDR5",
+  "core_base_clock": 1469,
+  "core_boost_clock": 1565,
+  "effective_memory_clock": 8000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "length": 278,
+  "tdp": 225,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 2,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 2,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c77e865ad0c3553eb94e"
+  },
+  "general_product_information": {}
+}

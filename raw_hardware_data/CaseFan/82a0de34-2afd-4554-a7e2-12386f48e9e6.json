@@ -1,0 +1,28 @@
+{
+  "opendb_id": "82a0de34-2afd-4554-a7e2-12386f48e9e6",
+  "metadata": {
+    "name": "ID-COOLING WF-14025 140mm Black / White PWM 76.8 CFM 1-Pack",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "WF-14025",
+    "variant": "140mm Black / White"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 76.8,
+  "max_airflow": null,
+  "min_noise_level": 16.8,
+  "max_noise_level": 32.6,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.14,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

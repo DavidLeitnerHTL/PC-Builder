@@ -1,0 +1,31 @@
+{
+  "opendb_id": "5694e9c9-9f90-490e-9df7-d90a6c71f5a3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "RAIJINTEK CRATOS White 850W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "RAIJINTEK",
+    "part_numbers": [
+      "0R30B00008                                                    CRATOS 850 WHITE"
+    ],
+    "series": "CRATOS",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

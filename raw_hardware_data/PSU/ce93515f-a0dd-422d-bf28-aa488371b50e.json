@@ -1,0 +1,35 @@
+{
+  "opendb_id": "ce93515f-a0dd-422d-bf28-aa488371b50e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Apevia Premier ATX 650W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "Apevia",
+    "part_numbers": [
+      "ATX-PM650W"
+    ],
+    "series": "Premier",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B09425ZHVZ",
+    "newegg_sku": "9SIA1K6K056568",
+    "walmart_sku": 2686632710
+  }
+}

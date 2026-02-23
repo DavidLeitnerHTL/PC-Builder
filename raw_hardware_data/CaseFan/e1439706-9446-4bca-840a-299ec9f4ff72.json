@@ -1,0 +1,31 @@
+{
+  "opendb_id": "e1439706-9446-4bca-840a-299ec9f4ff72",
+  "metadata": {
+    "name": "Fractal Design Prisma AL 120mm White PWM ARGB",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-FAN-PRI-AL12-PWM-WT"
+    ],
+    "series": "Prisma",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 20.68,
+  "max_airflow": 85.71,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.78,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BPS4HNDW"
+  }
+}

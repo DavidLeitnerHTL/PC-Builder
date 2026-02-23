@@ -1,0 +1,36 @@
+{
+  "opendb_id": "1e1cc06c-c8fd-46c6-bd62-aae6f8ec6365",
+  "metadata": {
+    "name": "Fractal Design Dynamic X2 GP-18 180mm Black PWM",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-FAN-DYN-X2-GP18-PWM-BK"
+    ],
+    "series": "Dynamic",
+    "variant": "180mm Black",
+    "last_manually_spec_verified_at": "2026-01-05T12:00:16.582Z"
+  },
+  "size": 180,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 44.9,
+  "max_airflow": 153.7,
+  "min_noise_level": 16,
+  "max_noise_level": 35.4,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.26,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B083M7WLXC",
+    "newegg_sku": "9SIA25VKBT0958",
+    "bestbuy_sku": 10920339,
+    "walmart_sku": 781205221,
+    "manufacturer_url": "https://www.fractal-design.com/products/fans/dynamic/dynamic-x2-gp-18-pwm/black/"
+  }
+}

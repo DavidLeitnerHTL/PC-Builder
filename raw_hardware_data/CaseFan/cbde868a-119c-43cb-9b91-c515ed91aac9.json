@@ -1,0 +1,34 @@
+{
+  "opendb_id": "cbde868a-119c-43cb-9b91-c515ed91aac9",
+  "metadata": {
+    "name": "NZXT F Core 140mm Black RGB PWM 2-Pack 89.48 CFM Fans",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RF-C14DF-B1"
+    ],
+    "series": "F",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 2,
+  "min_airflow": 24.85,
+  "max_airflow": 89.48,
+  "min_noise_level": 20,
+  "max_noise_level": 32.5,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "USB",
+  "static_pressure": 3.39,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BYMZ1S55",
+    "newegg_sku": "N82E16835146141",
+    "bestbuy_sku": 6563125,
+    "walmart_sku": 5061691700
+  }
+}

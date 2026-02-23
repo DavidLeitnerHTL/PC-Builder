@@ -1,0 +1,29 @@
+{
+  "opendb_id": "ffd60bb8-1b1a-43c0-8ac8-770f273f059a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 12,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill RBR1000-M 1000W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "RBR1000-M"
+    ],
+    "series": "RBR1000-M",
+    "variant": "1000W Bronze"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

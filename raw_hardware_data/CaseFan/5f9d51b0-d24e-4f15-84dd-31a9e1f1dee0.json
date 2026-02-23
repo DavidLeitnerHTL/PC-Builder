@@ -1,0 +1,27 @@
+{
+  "opendb_id": "5f9d51b0-d24e-4f15-84dd-31a9e1f1dee0",
+  "metadata": {
+    "name": "Cougar VORTEX VK120 120mm Black Addressable RGB PWM 48.98 CFM 3-Pack",
+    "manufacturer": "COUGAR",
+    "part_numbers": [],
+    "series": "VORTEX",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 48.98,
+  "max_airflow": null,
+  "min_noise_level": 29.8,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.04,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

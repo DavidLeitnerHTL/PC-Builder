@@ -1,0 +1,48 @@
+{
+  "opendb_id": "aa55c16e-e71e-45f9-a1ba-b11d9056b691",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 4,
+      "boost": 4.4
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel HD Graphics 4600"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 88,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "22 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i7 4790K 4 GHz 4-Core LGA1150",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80646I74790K"
+    ],
+    "series": "Intel Core i7"
+  },
+  "series": "Intel Core i7",
+  "microarchitecture": "Haswell Refresh",
+  "coreFamily": "Haswell Refresh",
+  "socket": "LGA 1150",
+  "general_product_information": {
+    "amazon_sku": "B00KPRWAX8"
+  }
+}

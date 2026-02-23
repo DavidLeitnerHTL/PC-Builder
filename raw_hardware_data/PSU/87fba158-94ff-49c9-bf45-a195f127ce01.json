@@ -1,0 +1,35 @@
+{
+  "opendb_id": "87fba158-94ff-49c9-bf45-a195f127ce01",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 9,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA SuperNOVA 850 G+ 850W Fully Modular 80+ Gold",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "120-GP-0850-X1                                                    120-GP-0850-X2                                                    120-GP-0850-X3",
+      "120-GP-0850-X1"
+    ],
+    "series": "SuperNOVA",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0797D6G5R",
+    "newegg_sku": "9SIAMG8K7W3769",
+    "bestbuy_sku": 6459364,
+    "walmart_sku": 381054999
+  }
+}

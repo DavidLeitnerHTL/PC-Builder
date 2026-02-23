@@ -1,0 +1,31 @@
+{
+  "opendb_id": "84e270a7-c1b5-43d3-bd6f-2654f3789bc2",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group Hydro M Pro ATX3.0(PCIe5.0) Black 700W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "HP2-700M"
+    ],
+    "series": "Hydro",
+    "variant": "700W Bronze"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

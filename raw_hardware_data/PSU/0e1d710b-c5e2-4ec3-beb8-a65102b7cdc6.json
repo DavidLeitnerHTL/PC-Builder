@@ -1,0 +1,35 @@
+{
+  "opendb_id": "0e1d710b-c5e2-4ec3-beb8-a65102b7cdc6",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 10,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair CV650 Black 650W Non-Modular 80+ Bronze Certified ATX",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020236-NA                                                    CP-9020211-NA                                                    CP-9020236-UK                                                    CP-9020236-EU                                                    CP-9020236-AU",
+      "CP-9020211-NA"
+    ],
+    "series": "CV650",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 125,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0838YDBP3",
+    "newegg_sku": "9SIB8AKKAN3207"
+  }
+}

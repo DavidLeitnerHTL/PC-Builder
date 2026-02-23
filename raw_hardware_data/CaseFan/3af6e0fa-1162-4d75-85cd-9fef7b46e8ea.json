@@ -1,0 +1,27 @@
+{
+  "opendb_id": "3af6e0fa-1162-4d75-85cd-9fef7b46e8ea",
+  "metadata": {
+    "name": "Thermaltake Mobile Fan II 80mm Black 47.28 CFM",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [],
+    "series": "Mobile",
+    "variant": "80mm Black"
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 47.28,
+  "max_airflow": null,
+  "min_noise_level": 17,
+  "max_noise_level": 31,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

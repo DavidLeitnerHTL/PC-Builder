@@ -1,0 +1,32 @@
+{
+  "opendb_id": "0dac2411-55b0-4125-92a3-e0759b3059ac",
+  "metadata": {
+    "name": "Thermalright TL-K12 120mm White PWM 69 CFM",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "TL-K12W",
+      "TL-K12"
+    ],
+    "series": "TL-K12",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 69,
+  "max_airflow": null,
+  "min_noise_level": 27,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.87,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CJFFMZ6P"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "opendb_id": "dcfae233-64c1-4ea3-b81c-eed72fe76a9c",
+  "metadata": {
+    "name": "Nextorage NEM-PA 4TB M.2 SSD PCIe 4.0 NVMe",
+    "manufacturer": "Nextorage",
+    "part_numbers": [
+      "NEM-PA4TB                                                    NEM-PA4TB",
+      "N SYM"
+    ],
+    "series": "NEM-PA",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {}
+}

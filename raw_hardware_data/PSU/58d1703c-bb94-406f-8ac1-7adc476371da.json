@@ -1,0 +1,36 @@
+{
+  "opendb_id": "58d1703c-bb94-406f-8ac1-7adc476371da",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair HX1200i (2025) Black 1200W Fully Modular 80+ Platinum Certified ATX",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020307-NA                                                    CP-9020307-AU                                                    CP-9020307-WW                                                    CP-9020307-UK                                                    CP-9020307                                                    CP-9020307-EU",
+      "CP-9020307-NA",
+      "CP-9020307-EU"
+    ],
+    "series": "HX1200i",
+    "variant": "1200W Platinum"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 200,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0F1NF61BQ",
+    "bestbuy_sku": 6618664
+  }
+}

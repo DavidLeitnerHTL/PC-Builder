@@ -1,0 +1,24 @@
+{
+  "opendb_id": "dc78d5f8-d540-45bf-bc93-c8eed25d8ed9",
+  "metadata": {
+    "name": "Kingston KC600 512GB 2.5\" SSD SATA 6.0 Gb/s",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SKC600",
+      "512G",
+      "SKC600/512G"
+    ],
+    "series": "KC600",
+    "variant": "512GB"
+  },
+  "capacity": 512,
+  "type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07ZDBT15M",
+    "newegg_sku": "0D9-001B-002M1",
+    "walmart_sku": 802599819
+  }
+}

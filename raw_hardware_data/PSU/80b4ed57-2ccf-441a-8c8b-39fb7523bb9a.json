@@ -1,0 +1,37 @@
+{
+  "opendb_id": "80b4ed57-2ccf-441a-8c8b-39fb7523bb9a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 18,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic VERTEX PX-1000 Black / Silver 1000W Fully Modular 80+ Platinum",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "VERTEX PX-1000",
+      "VERTEX1000P",
+      "Vertex PX-1000 ATX 3.1"
+    ],
+    "series": "VERTEX",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0C571R3V8",
+    "newegg_sku": "N82E16817320024"
+  }
+}

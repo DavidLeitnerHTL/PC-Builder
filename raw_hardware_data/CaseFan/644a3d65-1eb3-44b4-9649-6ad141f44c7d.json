@@ -1,0 +1,27 @@
+{
+  "opendb_id": "644a3d65-1eb3-44b4-9649-6ad141f44c7d",
+  "metadata": {
+    "name": "BitFenix Spectre 120mm Black 43.5 CFM Green LED 1-Pack",
+    "manufacturer": "BitFenix",
+    "part_numbers": [],
+    "series": "Spectre",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 43.5,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Green",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.62,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

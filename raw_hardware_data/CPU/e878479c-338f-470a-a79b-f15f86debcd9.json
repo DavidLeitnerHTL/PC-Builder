@@ -1,0 +1,49 @@
+{
+  "opendb_id": "e878479c-338f-470a-a79b-f15f86debcd9",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3,
+      "boost": 3.5
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    },
+    "tdp": 72,
+    "eccSupport": true,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Xeon E3 1220 V6 3 GHz 4-Core LGA1151",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80677E31220V6"
+    ],
+    "series": "Intel Xeon E3"
+  },
+  "series": "Intel Xeon E3",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake-S",
+  "socket": "LGA 1151",
+  "general_product_information": {
+    "amazon_sku": "B06XX2KWCX",
+    "walmart_sku": 515065257
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "f4bcc4fe-6336-42e1-85c4-8e9d7ac4c118",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic CORE GX ATX 3 (2024) White 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "CORE ATX 3 GX-850 White"
+    ],
+    "series": "CORE",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

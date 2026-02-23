@@ -1,0 +1,34 @@
+{
+  "opendb_id": "80425842-fc48-4ec1-a830-ca2400e56859",
+  "metadata": {
+    "name": "Corsair iCUE SP140 RGB ELITE 140mm Black / White PWM Addressable RGB 2-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050111-WW"
+    ],
+    "series": "iCUE",
+    "variant": "140mm Black / White"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 2,
+  "min_airflow": null,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + Proprietary RGB",
+  "controller": "USB",
+  "static_pressure": 1.66,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08XK4LMPJ",
+    "newegg_sku": "N82E16835181238",
+    "walmart_sku": 541436220
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "5b38b35a-c49a-4316-91ac-ec96487a64fd",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider 650W Non-Modular 80+ Bronze",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "ST65EF                                                    SST-ST65EF"
+    ],
+    "series": "Strider",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

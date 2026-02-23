@@ -1,0 +1,38 @@
+{
+  "opendb_id": "8f13d4b6-6005-46a6-8495-8551f21e1dd4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Asus ROG LOKI SFX 750W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "90YE00N4-B0NA00                                                    rog-loki-750p-sfx-l-gaming                                                    rog-loki-750p-sfx-l",
+      "ROG-LOKI-750P-SFX-L-GAMING",
+      "90YE00N4-B0NA00"
+    ],
+    "series": "ROG",
+    "variant": "750W Platinum"
+  },
+  "wattage": 750,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 125,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BHJB4VG7",
+    "newegg_sku": "N82E16817320037",
+    "walmart_sku": 3490947409
+  }
+}

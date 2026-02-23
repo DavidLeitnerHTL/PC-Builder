@@ -1,0 +1,33 @@
+{
+  "opendb_id": "2575e833-5644-4688-8e97-bc15fcae33ff",
+  "metadata": {
+    "name": "Noctua A20 chromax.black.swap 200mm Black / Multicolor PWM",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-A20PWMchromaxblackswap"
+    ],
+    "series": "A20",
+    "variant": "200mm Black / Multicolor"
+  },
+  "size": 200,
+  "color": [
+    "BLACK",
+    "RGB"
+  ],
+  "quantity": 1,
+  "min_airflow": 86.46,
+  "max_airflow": null,
+  "min_noise_level": 18.1,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07ZP46RNR",
+    "newegg_sku": "1YF-000T-002G5"
+  }
+}

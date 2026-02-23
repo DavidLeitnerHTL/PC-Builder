@@ -1,0 +1,22 @@
+{
+  "opendb_id": "300ca6c2-71bd-4081-9514-f5990f1909ab",
+  "metadata": {
+    "name": "Corsair MP600 1TB M.2 SSD PCIe 4.0 NVMe",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CSSD-F1000GBMP600R2"
+    ],
+    "series": "MP600",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B09M8PRGPT",
+    "newegg_sku": "N82E16820236824",
+    "walmart_sku": 584889131
+  }
+}

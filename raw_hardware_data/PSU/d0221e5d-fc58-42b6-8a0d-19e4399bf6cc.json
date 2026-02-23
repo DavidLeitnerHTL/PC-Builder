@@ -1,0 +1,29 @@
+{
+  "opendb_id": "d0221e5d-fc58-42b6-8a0d-19e4399bf6cc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake EVO_Blue ATX 650W Fully Modular",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "W0307RU"
+    ],
+    "series": "EVO_Blue",
+    "variant": "650W "
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Full",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

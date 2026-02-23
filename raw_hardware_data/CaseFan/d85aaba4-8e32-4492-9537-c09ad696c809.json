@@ -1,0 +1,31 @@
+{
+  "opendb_id": "d85aaba4-8e32-4492-9537-c09ad696c809",
+  "metadata": {
+    "name": "Vantec Tornado 80mm Black 84.1 CFM",
+    "manufacturer": "Vantec",
+    "part_numbers": [
+      "TD8038H"
+    ],
+    "series": "Tornado",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 84.1,
+  "max_airflow": null,
+  "min_noise_level": 55.2,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B000234VZK"
+  }
+}

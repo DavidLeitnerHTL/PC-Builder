@@ -1,0 +1,29 @@
+{
+  "opendb_id": "fe7e389d-4f2a-4330-9077-0b14a11dc277",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "OCZ ModXStream 700W 80+ Certified Semi-Modular",
+    "manufacturer": "OCZ",
+    "part_numbers": [
+      "OCZ700MXSP"
+    ],
+    "series": "ModXStream",
+    "variant": "700W 80+"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

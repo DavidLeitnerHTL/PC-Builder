@@ -1,0 +1,31 @@
+{
+  "opendb_id": "ed758184-c852-4d03-afd5-27a7230b422d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Montech GAMMA II Black 750W Non-Modular 80+ Gold",
+    "manufacturer": "Montech",
+    "part_numbers": [
+      "GAMMA II 750"
+    ],
+    "series": "GAMMA",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

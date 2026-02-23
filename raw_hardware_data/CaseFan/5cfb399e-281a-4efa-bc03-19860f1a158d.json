@@ -1,0 +1,27 @@
+{
+  "opendb_id": "5cfb399e-281a-4efa-bc03-19860f1a158d",
+  "metadata": {
+    "name": "Xigmatek XAF 140mm Blue White LED",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "XAF",
+    "variant": "140mm Blue"
+  },
+  "isOEM": false,
+  "size": 140,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 90.3,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

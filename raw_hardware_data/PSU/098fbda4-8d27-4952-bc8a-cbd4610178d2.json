@@ -1,0 +1,31 @@
+{
+  "opendb_id": "098fbda4-8d27-4952-bc8a-cbd4610178d2",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax REVOLUTION DUO 700W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "ERD700AWL-F"
+    ],
+    "series": "REVOLUTION",
+    "variant": "700W Gold"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

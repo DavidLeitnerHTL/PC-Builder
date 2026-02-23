@@ -1,0 +1,46 @@
+{
+  "opendb_id": "63f01f11-0a14-485a-aa5f-81ec3c9fd6a4",
+  "power_connectors": {
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "HP RTX A4000 20X24AT 16GB GDDR6 Black",
+    "manufacturer": "HP",
+    "part_numbers": [
+      "20X24AT"
+    ],
+    "series": "RTX A4000",
+    "variant": "HP"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "RTX A4000",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 735,
+  "core_boost_clock": 1560,
+  "effective_memory_clock": 14000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 242,
+  "tdp": 140,
+  "total_slot_width": 1,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 4,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c5ee865ad0c3553ea04b"
+  },
+  "core_count": 0,
+  "general_product_information": {}
+}

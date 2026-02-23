@@ -1,0 +1,29 @@
+{
+  "opendb_id": "03e56ff4-f326-4eae-b093-39c99253f830",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 9,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cougar COUGAR-GX700 ATX 700W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Cougar",
+    "part_numbers": [
+      "COUGAR-GX700"
+    ],
+    "series": "COUGAR-GX700",
+    "variant": "700W Gold"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

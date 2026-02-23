@@ -1,0 +1,29 @@
+{
+  "opendb_id": "03fb3b0a-3c09-41e1-ad30-72923e4812af",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 12,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "OCZ Fatal1ty 1000W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "OCZ",
+    "part_numbers": [
+      "OCZ-FTY1000W"
+    ],
+    "series": "Fatal1ty",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

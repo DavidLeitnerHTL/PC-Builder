@@ -1,0 +1,89 @@
+{
+  "opendb_id": "9b4275f5-fa56-4def-b30a-948123b3634f",
+  "memory": {
+    "max": 64,
+    "ram_type": "DDR4",
+    "slots": 2
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 0,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "power_connectors": {
+    "cpu_power": []
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "ASRock B760M ITX/D4 WiFi DDR4 Mini ITX",
+    "manufacturer": "ASRock",
+    "part_numbers": [
+      "B760M-ITX",
+      "D4 WiFi                                                    90-MXBKY0-A0CAYZ",
+      "B760M-ITX/D4 WIFI"
+    ],
+    "series": "B760M",
+    "variant": ""
+  },
+  "socket": "LGA 1700",
+  "form_factor": "Mini-ITX",
+  "chipset": "Intel B760",
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16,
+      "_id": "67f9b6dd865ad0c3553d9733"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b6dd865ad0c3553d9734"
+    },
+    {
+      "size": "2280",
+      "key": "E",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b6dd865ad0c3553d9735"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek RTL8111H",
+      "_id": "67f9b6dd865ad0c3553d9736"
+    }
+  ],
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false,
+    "_id": "67f9b6dd865ad0c3553d9737"
+  },
+  "back_panel_ports": [
+    "1 x 1 Gb/s Ports (Realtek RTL8111H)"
+  ],
+  "general_product_information": {
+    "amazon_sku": "B0BQWQ9QPK",
+    "newegg_sku": "N82E16813162111"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "opendb_id": "abbfdee2-d4ad-4266-9e7b-74ba798204cf",
+  "metadata": {
+    "name": "Netac NV7000-t 512GB SSD M.2 PCIe 4.0 NVMe",
+    "manufacturer": "Netac",
+    "part_numbers": [
+      "NT01NV7000t-512-E4X",
+      "NV7000-t"
+    ],
+    "series": "NV7000-t",
+    "variant": "512GB"
+  },
+  "capacity": 512,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0C7TS8RQR"
+  }
+}

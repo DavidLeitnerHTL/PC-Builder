@@ -1,0 +1,28 @@
+{
+  "opendb_id": "2ba7ace1-f6fe-462a-aa42-943af964aa2f",
+  "metadata": {
+    "name": "Deepcool UF 120mm White / Blue PWM 1-Pack",
+    "manufacturer": "Deepcool",
+    "part_numbers": [],
+    "series": "UF",
+    "variant": "120mm White / Blue"
+  },
+  "size": 120,
+  "color": [
+    "WHITE",
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 66.3,
+  "max_airflow": null,
+  "min_noise_level": 17.6,
+  "max_noise_level": 27.8,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

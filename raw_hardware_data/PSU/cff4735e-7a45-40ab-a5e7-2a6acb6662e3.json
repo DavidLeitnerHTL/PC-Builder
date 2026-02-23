@@ -1,0 +1,31 @@
+{
+  "opendb_id": "cff4735e-7a45-40ab-a5e7-2a6acb6662e3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 2,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Apex AL-8250SFX SFX 250W Non-Modular",
+    "manufacturer": "Apex",
+    "part_numbers": [
+      "AL-8250SFX"
+    ],
+    "series": "AL-8250SFX",
+    "variant": "250W "
+  },
+  "wattage": 250,
+  "form_factor": "SFX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B004O9U9M2"
+  }
+}

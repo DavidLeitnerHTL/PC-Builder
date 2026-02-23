@@ -1,0 +1,31 @@
+{
+  "opendb_id": "84f4e771-2bf0-4878-ae2a-c910fa2e2a61",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic FOCUS SPX (2021) SFX 650W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "FOCUS-SPX-650-2021"
+    ],
+    "series": "FOCUS",
+    "variant": "650W Platinum"
+  },
+  "wattage": 650,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {}
+}

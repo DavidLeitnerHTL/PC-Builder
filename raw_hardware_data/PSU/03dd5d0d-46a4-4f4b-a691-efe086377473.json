@@ -1,0 +1,34 @@
+{
+  "opendb_id": "03dd5d0d-46a4-4f4b-a691-efe086377473",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 3,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "KOLINK Classic Black/Red 400W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "KOLINK",
+    "part_numbers": [
+      "KL-400v2"
+    ],
+    "series": "Classic",
+    "variant": "400W Bronze"
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07ZK1Z8Y7"
+  }
+}

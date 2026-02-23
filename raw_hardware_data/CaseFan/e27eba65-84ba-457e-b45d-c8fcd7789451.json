@@ -1,0 +1,27 @@
+{
+  "opendb_id": "e27eba65-84ba-457e-b45d-c8fcd7789451",
+  "metadata": {
+    "name": "Azza Hurricane II Digital 120mm White Addressable RGB PWM 43.06 CFM",
+    "manufacturer": "Azza",
+    "part_numbers": [],
+    "series": "Hurricane",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 43.06,
+  "max_airflow": null,
+  "min_noise_level": 29,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.79,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

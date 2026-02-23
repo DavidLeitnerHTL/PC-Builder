@@ -1,0 +1,27 @@
+{
+  "opendb_id": "36a0f761-5d49-493d-bd5b-21aa15a892c7",
+  "metadata": {
+    "name": "MagniumGear Skiron 120mm Black 50 CFM PWM",
+    "manufacturer": "MagniumGear",
+    "part_numbers": [],
+    "series": "Skiron",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 50,
+  "max_airflow": null,
+  "min_noise_level": 29,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

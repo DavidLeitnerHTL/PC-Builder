@@ -1,0 +1,33 @@
+{
+  "opendb_id": "f32f1956-fbb3-4643-8fc3-8d4b42007876",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 10,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Gigabyte UD750GM-A 750W 80+ Gold Fully Modular",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GP-UD750GM-A"
+    ],
+    "series": "UD750GM-A",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "newegg_sku": "N82E16817233049"
+  }
+}

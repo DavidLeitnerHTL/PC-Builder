@@ -1,0 +1,27 @@
+{
+  "opendb_id": "1846c1df-4a46-48e9-a730-6565ae2b67e4",
+  "metadata": {
+    "name": "EK Vardar F4-120ER 120mm White PWM 77 CFM",
+    "manufacturer": "EK",
+    "part_numbers": [],
+    "series": "Vardar",
+    "variant": "120mm White"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 77,
+  "max_airflow": null,
+  "min_noise_level": 33.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 3.16,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

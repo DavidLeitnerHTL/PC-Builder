@@ -1,0 +1,31 @@
+{
+  "opendb_id": "9bbe86f0-1d7d-44a6-b46d-d4084aa2b324",
+  "metadata": {
+    "name": "Xilence XPF60.S.W 60mm Black 12 CFM 1-Pack",
+    "manufacturer": "Xilence",
+    "part_numbers": [
+      "XF032"
+    ],
+    "series": "XPF60.S.W",
+    "variant": "60mm Black"
+  },
+  "size": 60,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 12,
+  "max_airflow": null,
+  "min_noise_level": 22,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B01L6PKKIO"
+  }
+}

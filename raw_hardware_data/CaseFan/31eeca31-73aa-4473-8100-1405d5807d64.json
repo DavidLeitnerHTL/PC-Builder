@@ -1,0 +1,33 @@
+{
+  "opendb_id": "31eeca31-73aa-4473-8100-1405d5807d64",
+  "metadata": {
+    "name": "Iceberg Thermal IceGALE Xtra 140mm Gray PWM 169 CFM 2-Pack",
+    "manufacturer": "Iceberg Thermal",
+    "part_numbers": [
+      "ICEGALE14X-B2A",
+      "ICEGALE14X-X0A"
+    ],
+    "series": "IceGALE",
+    "variant": "140mm Gray"
+  },
+  "size": 140,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 2,
+  "min_airflow": 169,
+  "max_airflow": null,
+  "min_noise_level": 0,
+  "max_noise_level": 47,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 4.7,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08XLHCPWG",
+    "newegg_sku": "1YF-0184-00046"
+  }
+}

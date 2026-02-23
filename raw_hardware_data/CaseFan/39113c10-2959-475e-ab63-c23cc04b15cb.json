@@ -1,0 +1,27 @@
+{
+  "opendb_id": "39113c10-2959-475e-ab63-c23cc04b15cb",
+  "metadata": {
+    "name": "Antec 75000 80mm Clear",
+    "manufacturer": "Antec",
+    "part_numbers": [],
+    "series": "75000",
+    "variant": "80mm Clear"
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 34,
+  "max_airflow": null,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

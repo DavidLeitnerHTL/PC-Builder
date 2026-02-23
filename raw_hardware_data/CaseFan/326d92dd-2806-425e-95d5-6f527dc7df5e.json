@@ -1,0 +1,28 @@
+{
+  "opendb_id": "326d92dd-2806-425e-95d5-6f527dc7df5e",
+  "metadata": {
+    "name": "Bitspower Touchaqua NJORD 120mm Black / White RGB PWM 70 CFM 3-Pack",
+    "manufacturer": "Bitspower",
+    "part_numbers": [],
+    "series": "Touchaqua",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 70,
+  "max_airflow": null,
+  "min_noise_level": 29,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

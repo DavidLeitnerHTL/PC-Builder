@@ -1,0 +1,32 @@
+{
+  "opendb_id": "8b05ad89-b2fe-4e5d-976a-6ad23f77fbce",
+  "metadata": {
+    "name": "Rosewill RASF-141213 120mm Black PWM 1-Pack",
+    "manufacturer": "Rosewill",
+    "series": "RASF-141213",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "RASF-141213"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 54.55,
+  "max_airflow": null,
+  "min_noise_level": 11,
+  "max_noise_level": 30.32,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00T9D680U",
+    "newegg_sku": "N82E16835200107"
+  }
+}

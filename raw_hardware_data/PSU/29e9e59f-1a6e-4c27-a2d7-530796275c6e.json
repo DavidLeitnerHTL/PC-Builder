@@ -1,0 +1,37 @@
+{
+  "opendb_id": "29e9e59f-1a6e-4c27-a2d7-530796275c6e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair RM750x SHIFT White Side Interface 750W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020273-NA                                                    CP-9020273-UK                                                    CP-9020273-AU                                                    CP-9020273-EU",
+      "CP-9020273-NA"
+    ],
+    "series": "RM750x",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "WHITE"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CWLTQD5K",
+    "newegg_sku": "N82E16817139326",
+    "bestbuy_sku": 6577061,
+    "walmart_sku": 5497118277
+  }
+}

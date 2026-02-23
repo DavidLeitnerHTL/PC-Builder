@@ -1,0 +1,37 @@
+{
+  "opendb_id": "af5fe2a4-748e-48e4-a91c-4be0c1783693",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Essential Black ATX 550W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-ET550-B                                                    ET550-B",
+      "SST-ET550-B",
+      "ET550-B"
+    ],
+    "series": "Essential",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B071HHSY2M",
+    "newegg_sku": "N82E16817256189",
+    "walmart_sku": 450904907
+  }
+}

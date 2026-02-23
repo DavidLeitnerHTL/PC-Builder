@@ -1,0 +1,33 @@
+{
+  "opendb_id": "ee5ec974-358f-42c6-a320-b4d452e17f90",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 9,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ASRock Steel Legend SL-850G Black 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "ASRock",
+    "part_numbers": [
+      "SL-850G"
+    ],
+    "series": "Steel",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "newegg_sku": "N82E16817955009"
+  }
+}

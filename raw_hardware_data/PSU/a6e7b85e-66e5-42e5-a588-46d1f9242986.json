@@ -1,0 +1,35 @@
+{
+  "opendb_id": "a6e7b85e-66e5-42e5-a588-46d1f9242986",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Asus ROG Strix Aura Edition White Aura Edition 1000W Fully Modular 80+ Gold",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "90YE00P5-B0NA00                                                    90YE00P5-BVAA00                                                    ROG-STRIX-1000G-AURA-WHITE-GAMING",
+      "ROG-STRIX-1000G-AURA-WHITE-GAMING"
+    ],
+    "series": "ROG",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0D38H1L99",
+    "walmart_sku": 5932942175
+  }
+}

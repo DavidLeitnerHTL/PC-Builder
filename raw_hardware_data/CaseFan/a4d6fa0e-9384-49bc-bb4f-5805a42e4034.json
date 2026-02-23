@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a4d6fa0e-9384-49bc-bb4f-5805a42e4034",
+  "metadata": {
+    "name": "ID-COOLING WF-12025-XT-G 120mm Black PWM Green LED 71.2 CFM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "WF-12025-XT-G",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 71.2,
+  "max_airflow": null,
+  "min_noise_level": 14,
+  "max_noise_level": 35,
+  "pwm": true,
+  "led": "Green",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.1,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

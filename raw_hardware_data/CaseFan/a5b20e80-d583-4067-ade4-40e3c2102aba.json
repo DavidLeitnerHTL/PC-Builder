@@ -1,0 +1,28 @@
+{
+  "opendb_id": "a5b20e80-d583-4067-ade4-40e3c2102aba",
+  "metadata": {
+    "name": "Raidmax RX-120SR-G 120mm Black / Green 38 CFM",
+    "manufacturer": "Raidmax",
+    "part_numbers": [],
+    "series": "RX-120SR-G",
+    "variant": "120mm Black / Green"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "GREEN"
+  ],
+  "quantity": 1,
+  "min_airflow": 38,
+  "max_airflow": null,
+  "min_noise_level": 22,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

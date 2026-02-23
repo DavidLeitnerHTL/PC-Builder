@@ -1,0 +1,36 @@
+{
+  "opendb_id": "4cbabb99-5580-4f0a-a1f8-0bc68d0b21b6",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Lian Li EDGE White 1000W Fully Modular 80+ Platinum",
+    "manufacturer": "Lian Li",
+    "part_numbers": [
+      "EG1000 White",
+      "EG1000WE.US"
+    ],
+    "series": "EDGE",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 182,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0D8SPDPRY",
+    "newegg_sku": "1HU-01PP-00009",
+    "walmart_sku": 6934619867
+  }
+}

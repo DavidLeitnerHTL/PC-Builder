@@ -1,0 +1,35 @@
+{
+  "opendb_id": "893c83e4-5d68-4b43-b0fa-6f45418aef4f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 9,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA SuperNOVA 850 GA 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "220-GA-0850-X1"
+    ],
+    "series": "SuperNOVA",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07WSXQTD9",
+    "newegg_sku": "9SIB8AKKCT9707",
+    "walmart_sku": 744875137
+  }
+}

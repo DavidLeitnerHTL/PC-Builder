@@ -1,0 +1,28 @@
+{
+  "opendb_id": "e434c9b2-eb41-4b9e-985f-c846a6a6bcb0",
+  "metadata": {
+    "name": "Apevia CF12SL-SOG 120mm Black / Orange Orange LED 50.28 CFM 1-Pack",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "CF12SL-SOG",
+    "variant": "120mm Black / Orange"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK",
+    "ORANGE"
+  ],
+  "quantity": 1,
+  "min_airflow": 50.28,
+  "max_airflow": null,
+  "min_noise_level": 21.1,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Orange",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

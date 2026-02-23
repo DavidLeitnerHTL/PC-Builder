@@ -1,0 +1,32 @@
+{
+  "opendb_id": "edf10e3c-ee4d-4b71-bb5d-af93f4e71d21",
+  "metadata": {
+    "name": "be quiet! Light Wings LX 140mm Black Addressable RGB PWM 75.5 CFM",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL129"
+    ],
+    "series": "Light",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 75.5,
+  "max_airflow": null,
+  "min_noise_level": 30.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.45,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DGKXNDZG",
+    "newegg_sku": "N82E16835269008"
+  }
+}

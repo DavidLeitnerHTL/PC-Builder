@@ -1,0 +1,21 @@
+{
+  "opendb_id": "aaf55e55-63f2-4723-862f-573d327d3bc9",
+  "metadata": {
+    "name": "Seagate SkyHawk AI 14TB HDD 3.5\" 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST14000VE0008"
+    ],
+    "series": "SkyHawk",
+    "variant": "14000GB"
+  },
+  "capacity": 14000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07PXL3Y4J",
+    "walmart_sku": 445570138
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "opendb_id": "e0cbd741-4caf-4a26-a204-d4eb219026d6",
+  "metadata": {
+    "name": "MSI SPATIUM M371 2TB SSD M.2-2280 PCIe 3.0 x4 NVMe",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "SPATIUM-M371-2TB                                                    SM371N2TB",
+      "SM371N2TB"
+    ],
+    "series": "SPATIUM",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0BRQSXFZJ",
+    "newegg_sku": "9SIAD6HJT13978",
+    "walmart_sku": 3705071713
+  }
+}

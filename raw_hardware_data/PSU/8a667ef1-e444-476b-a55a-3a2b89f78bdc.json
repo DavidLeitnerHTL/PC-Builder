@@ -1,0 +1,36 @@
+{
+  "opendb_id": "8a667ef1-e444-476b-a55a-3a2b89f78bdc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MPG A750G PCIE5 750W Fully Modular 80+ Gold ATX",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MPG A750G PCIE5",
+      "306-7ZP7A11-CE0"
+    ],
+    "series": "MPG",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0B434JDXG",
+    "newegg_sku": "N82E16817701020",
+    "walmart_sku": 2784873763
+  }
+}

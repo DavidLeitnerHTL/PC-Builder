@@ -1,0 +1,31 @@
+{
+  "opendb_id": "913e4fc0-04bd-4e51-99fe-7e9848d5a012",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "KOLINK ENCLAVE Black 700W Fully Modular 80+ Gold Certified",
+    "manufacturer": "KOLINK",
+    "part_numbers": [
+      "PGW-PS-KOL-018                                                    KL-G700FM"
+    ],
+    "series": "ENCLAVE",
+    "variant": "700W Gold"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

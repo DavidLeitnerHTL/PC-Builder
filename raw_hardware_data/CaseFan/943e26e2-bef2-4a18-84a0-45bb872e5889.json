@@ -1,0 +1,31 @@
+{
+  "opendb_id": "943e26e2-bef2-4a18-84a0-45bb872e5889",
+  "metadata": {
+    "name": "EK Vardar X3M 120mm Black PWM Addressable RGB 120ER 67 CFM",
+    "manufacturer": "EK",
+    "series": "Vardar",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "3830046996909"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": null,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.75,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B085KSQWTZ"
+  }
+}

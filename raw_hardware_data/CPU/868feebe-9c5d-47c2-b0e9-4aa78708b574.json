@@ -1,0 +1,56 @@
+{
+  "opendb_id": "868feebe-9c5d-47c2-b0e9-4aa78708b574",
+  "cores": {
+    "total": 12,
+    "threads": 20
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.1,
+      "boost": 4.9
+    },
+    "efficiency": {
+      "base": 1.6,
+      "boost": 3.6
+    }
+  },
+  "cache": {
+    "l2": 12,
+    "l3": 25
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel UHD Graphics 770"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": [
+        "DDR5",
+        "DDR4"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "10 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i7 12700 2.1 GHz 12-Core LGA1700",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX8071512700"
+    ],
+    "series": "Intel Core i7"
+  },
+  "series": "Intel Core i7",
+  "microarchitecture": "Alder Lake",
+  "coreFamily": "Alder Lake",
+  "socket": "LGA 1700",
+  "general_product_information": {
+    "amazon_sku": "B09NPHHSZ1",
+    "newegg_sku": "N82E16819118368",
+    "walmart_sku": 175042101
+  }
+}

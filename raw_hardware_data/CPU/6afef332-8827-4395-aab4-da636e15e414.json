@@ -1,0 +1,49 @@
+{
+  "opendb_id": "6afef332-8827-4395-aab4-da636e15e414",
+  "cores": {
+    "total": 14,
+    "performance": 14,
+    "threads": 28
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.3,
+      "boost": 4.4
+    }
+  },
+  "cache": {
+    "l2": 14,
+    "l3": 25
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    },
+    "tdp": 165,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i9 9940X 3.3 GHz 14-Core LGA2066",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80673I99940X",
+      "I9-9940X"
+    ],
+    "series": "Intel Core i9"
+  },
+  "series": "Intel Core i9",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
+  "socket": "LGA 2066",
+  "general_product_information": {
+    "amazon_sku": "B07LDB72CB"
+  }
+}

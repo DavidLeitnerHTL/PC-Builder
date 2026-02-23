@@ -1,0 +1,28 @@
+{
+  "opendb_id": "400efcad-a63e-4f48-a3f3-f53598f3d1ea",
+  "metadata": {
+    "name": "Thermaltake Riing 140mm Black / Red Red 51.15 CFM 1-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [],
+    "series": "Riing",
+    "variant": "140mm Black / Red"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 51.15,
+  "max_airflow": null,
+  "min_noise_level": 22.1,
+  "max_noise_level": 28.1,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.58,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

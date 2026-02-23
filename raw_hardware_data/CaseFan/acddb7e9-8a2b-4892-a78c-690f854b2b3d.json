@@ -1,0 +1,27 @@
+{
+  "opendb_id": "acddb7e9-8a2b-4892-a78c-690f854b2b3d",
+  "metadata": {
+    "name": "Scythe Slipstream 140mm Black",
+    "manufacturer": "SCYTHE",
+    "series": "Slipstream",
+    "variant": "140mm Black",
+    "part_numbers": []
+  },
+  "isOEM": false,
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 65.2,
+  "max_airflow": null,
+  "min_noise_level": 23.2,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

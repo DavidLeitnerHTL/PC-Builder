@@ -1,0 +1,32 @@
+{
+  "opendb_id": "20c51dee-0fc8-46c8-a8b6-3d52bb2c41c9",
+  "metadata": {
+    "name": "Enermax SquA 120mm Black RGB PWM 68.27 CFM 3-Pack",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "UCSQARGB12P-BP3"
+    ],
+    "series": "SquA",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 24.53,
+  "max_airflow": 68.27,
+  "min_noise_level": 12,
+  "max_noise_level": 23,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "Manual",
+  "static_pressure": 1.898,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07PJVTPXN",
+    "walmart_sku": 962788111
+  }
+}

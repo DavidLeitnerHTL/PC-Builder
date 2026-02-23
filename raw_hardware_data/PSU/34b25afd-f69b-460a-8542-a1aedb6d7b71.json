@@ -1,0 +1,31 @@
+{
+  "opendb_id": "34b25afd-f69b-460a-8542-a1aedb6d7b71",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 8,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Deepcool PN750D White 750W Non-Modular 80+ Gold Certified ATX",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "R-PN750D-FC0W-US                                                    R-PN750D-FC0W-EU                                                    R-PN750D-FC0W-WO                                                    PN750D WH                                                    R-PN750D-FC0W-UK"
+    ],
+    "series": "PN750D",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

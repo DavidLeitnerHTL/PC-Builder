@@ -1,0 +1,32 @@
+{
+  "opendb_id": "5061ae80-180a-4a13-872c-8a0e4dc115a7",
+  "metadata": {
+    "name": "be quiet! Light Wings 140mm Black PWM RGB high-speed 71.7 CFM 3-Pack",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL079"
+    ],
+    "series": "Light",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 71.7,
+  "max_airflow": null,
+  "min_noise_level": 31,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "5V Addressable RGB",
+  "static_pressure": 2.3,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09KMF2PX1",
+    "newegg_sku": "1YF-001D-000E3"
+  }
+}

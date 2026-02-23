@@ -1,0 +1,51 @@
+{
+  "opendb_id": "45118c9a-09c6-47e8-b3b0-9abca47b472f",
+  "cores": {
+    "total": 6,
+    "performance": 6,
+    "threads": 12
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.6,
+      "boost": 4.2
+    }
+  },
+  "cache": {
+    "l2": 3,
+    "l3": 99
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": [
+        "DDR4"
+      ]
+    },
+    "tdp": 95,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "12 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "AMD Ryzen 5 2600X 3.6 GHz 6-Core AM4 OEM/Tray",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "YD260XBCM6IAF",
+      "2600X"
+    ],
+    "series": "AMD Ryzen 5"
+  },
+  "series": "AMD Ryzen 5",
+  "microarchitecture": "Zen+",
+  "coreFamily": "Pinnacle Ridge",
+  "socket": "AM4",
+  "general_product_information": {
+    "amazon_sku": "B0C7KB1S4J"
+  }
+}

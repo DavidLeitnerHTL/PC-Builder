@@ -1,0 +1,22 @@
+{
+  "opendb_id": "5bd5002b-f2c6-4e9d-bea3-87e03cea9fb5",
+  "metadata": {
+    "name": "Seagate EXOS Enterprise 4TB 3.5\" HDD 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST4000NM0035"
+    ],
+    "series": "EXOS",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B01CG0DD1E",
+    "newegg_sku": "9SIADU0K822989",
+    "walmart_sku": 179761183
+  }
+}

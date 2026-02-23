@@ -1,0 +1,31 @@
+{
+  "opendb_id": "2c1f1154-a72a-4363-89d7-33327f2700cc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Phanteks PH-P550GF Black 550W Non-Modular 80+ Gold",
+    "manufacturer": "Phanteks",
+    "part_numbers": [
+      "PH-P550GF"
+    ],
+    "series": "PH-P550GF",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

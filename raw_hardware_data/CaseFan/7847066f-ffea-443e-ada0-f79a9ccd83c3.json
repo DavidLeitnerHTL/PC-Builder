@@ -1,0 +1,27 @@
+{
+  "opendb_id": "7847066f-ffea-443e-ada0-f79a9ccd83c3",
+  "metadata": {
+    "name": "Deepcool CF 120mm Black 56.5 CFM PWM Addressable RGB 1-Pack",
+    "manufacturer": "Deepcool",
+    "part_numbers": [],
+    "series": "CF",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 56.5,
+  "max_airflow": null,
+  "min_noise_level": 17.8,
+  "max_noise_level": 27,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.63,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

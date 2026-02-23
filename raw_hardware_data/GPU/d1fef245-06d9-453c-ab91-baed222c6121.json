@@ -1,0 +1,50 @@
+{
+  "opendb_id": "d1fef245-06d9-453c-ab91-baed222c6121",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "HP FirePro W7100 J3G93AT 8GB GDDR5 Black / Red",
+    "manufacturer": "HP",
+    "part_numbers": [
+      "J3G93AT"
+    ],
+    "series": "FirePro W7100",
+    "variant": "HP"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "FirePro W7100",
+  "memory": 8,
+  "memory_type": "GDDR5",
+  "core_base_clock": 920,
+  "core_boost_clock": 920,
+  "effective_memory_clock": 5000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 241,
+  "tdp": 150,
+  "total_slot_width": 1,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 4,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "688ec9a93ebf909c29b821e9"
+  },
+  "core_count": 0,
+  "general_product_information": {
+    "amazon_sku": "B00TCMHEKQ",
+    "walmart_sku": 44064553
+  }
+}

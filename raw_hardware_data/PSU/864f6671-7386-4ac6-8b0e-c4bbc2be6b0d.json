@@ -1,0 +1,37 @@
+{
+  "opendb_id": "864f6671-7386-4ac6-8b0e-c4bbc2be6b0d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Asus ROG LOKI Black / Silver SFX 850W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "90YE00N3-B0NA00                                                    rog-loki-850p-sfx-l-gaming                                                    rog-loki-850p-sfx-l",
+      "ROG-LOKI-850P-SFX-L-GAMING"
+    ],
+    "series": "ROG",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 125,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BZFPPT6C",
+    "newegg_sku": "N82E16817320031",
+    "walmart_sku": 3533962387
+  }
+}

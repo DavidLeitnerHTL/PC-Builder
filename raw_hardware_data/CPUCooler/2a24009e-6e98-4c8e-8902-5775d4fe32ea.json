@@ -1,0 +1,42 @@
+{
+  "opendb_id": "2a24009e-6e98-4c8e-8902-5775d4fe32ea",
+  "metadata": {
+    "name": "PC Cooler RZ400 V2 Air 155mm 86.73 CFM Black",
+    "manufacturer": "PC Cooler",
+    "part_numbers": [
+      "RZ400V2-BKNWNX-GL                                                    RZ400 V2 BK",
+      "RZ400V2BK",
+      "RZ400 V2 BK CPU Cooler"
+    ],
+    "series": "RZ400",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2200,
+  "min_noise_level": 32,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": 155,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0CY2N17F6"
+  }
+}

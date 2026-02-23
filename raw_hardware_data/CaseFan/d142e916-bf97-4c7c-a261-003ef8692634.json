@@ -1,0 +1,30 @@
+{
+  "opendb_id": "d142e916-bf97-4c7c-a261-003ef8692634",
+  "metadata": {
+    "name": "Deepcool RF M 56.5 CFM 120mm Black / White RGB PWM 5-Pack",
+    "manufacturer": "Deepcool",
+    "series": "RF",
+    "variant": "120mm Black / White",
+    "part_numbers": []
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 5,
+  "min_airflow": 56.5,
+  "max_airflow": null,
+  "min_noise_level": 27,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "Manual",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07GDRDGN2"
+  }
+}

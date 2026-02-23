@@ -1,0 +1,27 @@
+{
+  "opendb_id": "22e152de-a88e-4fe5-8dd8-364cfde029d6",
+  "metadata": {
+    "name": "Scythe Wonder Snail 120mm Black PWM",
+    "manufacturer": "SCYTHE",
+    "part_numbers": [],
+    "series": "Wonder",
+    "variant": "120mm Black"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 8.01,
+  "max_airflow": 37.73,
+  "min_noise_level": 4,
+  "max_noise_level": 18.6,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 0.89,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

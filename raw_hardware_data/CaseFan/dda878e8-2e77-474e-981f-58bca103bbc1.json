@@ -1,0 +1,27 @@
+{
+  "opendb_id": "dda878e8-2e77-474e-981f-58bca103bbc1",
+  "metadata": {
+    "name": "Apevia CF8SL-B4C 80mm Clear RGB 17.21 CFM",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "CF8SL-B4C",
+    "variant": "80mm Clear"
+  },
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 17.21,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Multicolor",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.88,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "eeee828a-6bea-4da9-81dc-40b89464b568",
+  "metadata": {
+    "name": "Antec Neo Prizm T3 120mm White Addressable RGB PWM 69.86 CFM 3-Pack",
+    "manufacturer": "Antec",
+    "part_numbers": [],
+    "series": "Neo",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 19.24,
+  "max_airflow": 69.86,
+  "min_noise_level": 9.73,
+  "max_noise_level": 31.62,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "Manual",
+  "static_pressure": 2.05,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "46972715-c610-4836-bade-64cf88f4371e",
+  "metadata": {
+    "name": "Gelid Solutions Stella 120mm Black ARGB PWM 5-Pack",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [],
+    "series": "Stella",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 5,
+  "min_airflow": 70,
+  "max_airflow": null,
+  "min_noise_level": 35,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "Manual",
+  "static_pressure": 1.3,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

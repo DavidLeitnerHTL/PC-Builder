@@ -1,0 +1,27 @@
+{
+  "opendb_id": "ae0fc614-67a3-48a7-9be6-c974b9180551",
+  "metadata": {
+    "name": "Lian Li UNI SL120 120mm Addressable RGB PWM 58.54 CFM Black",
+    "manufacturer": "Lian Li",
+    "part_numbers": [],
+    "series": "UNI",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 58.54,
+  "max_airflow": null,
+  "min_noise_level": 17,
+  "max_noise_level": 31,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "USB",
+  "static_pressure": 2.54,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

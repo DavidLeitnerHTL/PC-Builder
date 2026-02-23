@@ -1,0 +1,31 @@
+{
+  "opendb_id": "d1a90a5a-0230-4127-8b6e-76a2df2fbf05",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair TX750 750W Non-Modular 80+",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CMPSU-750TX"
+    ],
+    "series": "TX750",
+    "variant": "750W 80+"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B000X2677A"
+  }
+}

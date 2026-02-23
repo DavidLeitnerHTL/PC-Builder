@@ -1,0 +1,29 @@
+{
+  "opendb_id": "ac63ec12-d7a1-4058-8242-333261379453",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Topower TOP-800WB ATX 800W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Topower",
+    "part_numbers": [
+      "TOP-800WB"
+    ],
+    "series": "TOP-800WB",
+    "variant": "800W Bronze"
+  },
+  "wattage": 800,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

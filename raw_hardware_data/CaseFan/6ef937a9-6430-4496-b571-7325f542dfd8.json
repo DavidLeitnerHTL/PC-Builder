@@ -1,0 +1,31 @@
+{
+  "opendb_id": "6ef937a9-6430-4496-b571-7325f542dfd8",
+  "metadata": {
+    "name": "Evercool EC9238H12BP 92mm Black PWM",
+    "manufacturer": "Evercool",
+    "part_numbers": [
+      "EV9238"
+    ],
+    "series": "EC9238H12BP",
+    "variant": "92mm Black"
+  },
+  "size": 92,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": null,
+  "max_airflow": null,
+  "min_noise_level": 35,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B079MGK1W2"
+  }
+}

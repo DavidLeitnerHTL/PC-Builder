@@ -1,0 +1,28 @@
+{
+  "opendb_id": "fb1bcbf0-bf4f-4f4b-9912-dc11d5f35f81",
+  "metadata": {
+    "name": "Azza Hurricane 120mm Black / White RGB PWM 1-Pack",
+    "manufacturer": "Azza",
+    "part_numbers": [],
+    "series": "Hurricane",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 56.12,
+  "max_airflow": null,
+  "min_noise_level": 29.8,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 1.79,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

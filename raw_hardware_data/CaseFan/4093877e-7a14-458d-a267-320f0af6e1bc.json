@@ -1,0 +1,27 @@
+{
+  "opendb_id": "4093877e-7a14-458d-a267-320f0af6e1bc",
+  "metadata": {
+    "name": "Logisys LT400RD 80mm Clear Red 21.71 CFM 1-Pack",
+    "manufacturer": "Logisys",
+    "part_numbers": [],
+    "series": "LT400RD",
+    "variant": "80mm Clear"
+  },
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.71,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

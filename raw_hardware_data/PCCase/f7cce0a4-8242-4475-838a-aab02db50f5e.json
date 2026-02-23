@@ -1,0 +1,52 @@
+{
+  "opendb_id": "f7cce0a4-8242-4475-838a-aab02db50f5e",
+  "metadata": {
+    "name": "Montech AIR 903 BASE ATX Mid Tower White Tempered Glass Side Panel",
+    "manufacturer": "MONTECH",
+    "part_numbers": [
+      "AIR 903 BASE (W)                                                    AIR 903 BASE W",
+      "AIR 903 BASE (W)",
+      "AIR903BASEW"
+    ],
+    "series": "AIR",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-08-24T16:45:01.216Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "WHITE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.0                                                   Type-C*1 ",
+  "max_video_card_length": 400,
+  "max_cpu_cooler_height": 180,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 3,
+  "expansion_slots": 7,
+  "dimensions": "478 x 230 x 493",
+  "volume": 54.2,
+  "weight": 18.39,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "2x USB 3.0 ",
+    "Type-C*1 "
+  ],
+  "dimensions_mm": {
+    "width": 230,
+    "height": 493,
+    "depth": 478,
+    "_id": "68aabe70059e84b3b25e48f8"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0C98TR925",
+    "newegg_sku": "2AM-00CN-00058",
+    "manufacturer_url": "https://www.montechpc.com/air-903-base"
+  }
+}

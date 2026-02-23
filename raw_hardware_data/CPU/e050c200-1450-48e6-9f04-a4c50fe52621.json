@@ -1,0 +1,51 @@
+{
+  "opendb_id": "e050c200-1450-48e6-9f04-a4c50fe52621",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.3,
+      "boost": 3.7
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 6
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel Iris Pro Graphics 6200"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i7 5775C 3.3 GHz 4-Core LGA1150",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80658I75775C",
+      "BX80658i75775C"
+    ],
+    "series": "Intel Core i7"
+  },
+  "series": "Intel Core i7",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell",
+  "socket": "LGA 1150",
+  "general_product_information": {
+    "amazon_sku": "B00YAEA0U2",
+    "newegg_sku": "9SIA4REFJW0890",
+    "walmart_sku": 46673902
+  }
+}

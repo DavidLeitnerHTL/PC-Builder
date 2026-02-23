@@ -1,0 +1,46 @@
+{
+  "opendb_id": "9a764112-12e1-41b3-9d9c-26c4e910cca2",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Sapphire PULSE Radeon RX 590 8GB GDDR5 Black / Silver",
+    "manufacturer": "Sapphire",
+    "part_numbers": [
+      "11289-06-20G                                                    100415P8GL"
+    ],
+    "series": "Radeon RX 590",
+    "variant": "Sapphire"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 590",
+  "memory": 8,
+  "memory_type": "GDDR5",
+  "core_base_clock": 1469,
+  "core_boost_clock": 1545,
+  "effective_memory_clock": 8000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 230,
+  "tdp": 225,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 2,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 2,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c481865ad0c3553e8a04"
+  },
+  "general_product_information": {}
+}

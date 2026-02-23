@@ -1,0 +1,32 @@
+{
+  "opendb_id": "793b968c-f242-458b-ac97-30f0022095b1",
+  "metadata": {
+    "name": "SeaSonic MAGFLOW 120mm Black PWM 63.33 CFM 3-Pack",
+    "manufacturer": "Seasonic",
+    "part_numbers": [
+      "MagFlow 3-Fan Kit"
+    ],
+    "series": "MAGFLOW",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 63.33,
+  "max_airflow": null,
+  "min_noise_level": 9.9,
+  "max_noise_level": 33.78,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.61,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BS1BWLD8",
+    "walmart_sku": 3328358738
+  }
+}

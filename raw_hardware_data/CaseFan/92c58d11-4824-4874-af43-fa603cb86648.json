@@ -1,0 +1,33 @@
+{
+  "opendb_id": "92c58d11-4824-4874-af43-fa603cb86648",
+  "metadata": {
+    "name": "Antec NOVA 120mm Black PWM 3-Pack",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "Nova 120_3PK",
+      "0-761345-40051-0"
+    ],
+    "series": "NOVA",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 44,
+  "max_airflow": 95.32,
+  "min_noise_level": 21.5,
+  "max_noise_level": 38.7,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 6.56,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DPFMWJ9W",
+    "walmart_sku": 15798450854
+  }
+}

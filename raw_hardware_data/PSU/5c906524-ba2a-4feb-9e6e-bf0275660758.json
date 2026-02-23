@@ -1,0 +1,33 @@
+{
+  "opendb_id": "5c906524-ba2a-4feb-9e6e-bf0275660758",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 12,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA SuperNOVA 1200 P2 1200W 80+ Platinum Fully Modular",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "220-P2-1200-X1                                                    220-P2-1200-X4                                                    220-P2-1200-X3                                                    220-P2-1200-X2",
+      "220-P2-1200-X1"
+    ],
+    "series": "SuperNOVA",
+    "variant": "1200W Platinum"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [],
+  "length": 200,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B00KYK1CKI",
+    "walmart_sku": 38398746
+  }
+}

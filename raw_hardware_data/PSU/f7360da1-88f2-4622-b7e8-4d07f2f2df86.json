@@ -1,0 +1,33 @@
+{
+  "opendb_id": "f7360da1-88f2-4622-b7e8-4d07f2f2df86",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Chieftec ATMOS Black 850W 80+ Gold Fully Modular",
+    "manufacturer": "Chieftec",
+    "part_numbers": [
+      "CPX-850FC"
+    ],
+    "series": "ATMOS",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CLWKDH4M"
+  }
+}

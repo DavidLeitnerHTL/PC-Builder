@@ -1,0 +1,37 @@
+{
+  "opendb_id": "68a66784-19c9-4564-b73a-175660911309",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone DA650 Gold Black / White ATX 650W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-DA650-G",
+      "DA650-G"
+    ],
+    "series": "DA650",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B091R6VHQ9",
+    "newegg_sku": "2AM-006F-001J9",
+    "walmart_sku": 884318903
+  }
+}

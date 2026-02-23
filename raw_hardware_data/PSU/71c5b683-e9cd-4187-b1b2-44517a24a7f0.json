@@ -1,0 +1,31 @@
+{
+  "opendb_id": "71c5b683-e9cd-4187-b1b2-44517a24a7f0",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Zalman TeraMax II White 850W Fully Modular 80+ Gold",
+    "manufacturer": "Zalman",
+    "part_numbers": [
+      "ZM850-TMX2 WH"
+    ],
+    "series": "TeraMax",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

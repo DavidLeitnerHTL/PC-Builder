@@ -1,0 +1,51 @@
+{
+  "opendb_id": "a5cbfd80-bea2-4dd1-ac95-3f2735e29165",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.9,
+      "boost": 4.1
+    }
+  },
+  "cache": {
+    "l2": 4,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 95,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "28 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD Athlon X4 870K 3.9 GHz 4-Core FM2+",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD870KXBJCSBX",
+      "HB30C3A1CFS",
+      "Black",
+      "B960956"
+    ],
+    "series": "AMD Athlon X4"
+  },
+  "series": "AMD Athlon X4",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Godavari",
+  "socket": "FM2+",
+  "general_product_information": {
+    "amazon_sku": "B01B7MOIPC"
+  }
+}

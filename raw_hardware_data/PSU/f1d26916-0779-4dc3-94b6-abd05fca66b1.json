@@ -1,0 +1,29 @@
+{
+  "opendb_id": "f1d26916-0779-4dc3-94b6-abd05fca66b1",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Ultra LSP650 ATX 650W Non-Modular",
+    "manufacturer": "Ultra",
+    "part_numbers": [
+      "LSP650"
+    ],
+    "series": "LSP650",
+    "variant": "650W "
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

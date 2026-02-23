@@ -1,0 +1,31 @@
+{
+  "opendb_id": "3af3db74-dde5-4caf-9411-89252f7aa6a1",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "KOLINK Modular Black 600W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "KOLINK",
+    "part_numbers": [
+      "KL-600MV2"
+    ],
+    "series": "Modular",
+    "variant": "600W Bronze"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

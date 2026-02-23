@@ -1,0 +1,46 @@
+{
+  "opendb_id": "f3afc880-6bcf-43d3-95f1-8a63c88e1121",
+  "cores": {
+    "total": 2,
+    "performance": 2,
+    "threads": 2
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.2,
+      "boost": 3.6
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD Sempron X2 250 3.2 GHz 2-Core FM2 OEM/Tray",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "SD250XOKA23HL"
+    ],
+    "series": "AMD Sempron X2"
+  },
+  "series": "AMD Sempron X2",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
+  "general_product_information": {}
+}

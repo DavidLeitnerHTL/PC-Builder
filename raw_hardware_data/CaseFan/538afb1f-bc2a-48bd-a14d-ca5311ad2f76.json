@@ -1,0 +1,28 @@
+{
+  "opendb_id": "538afb1f-bc2a-48bd-a14d-ca5311ad2f76",
+  "metadata": {
+    "name": "Lian Li Bora 120mm Black / White RGB PWM 3-Pack",
+    "manufacturer": "Lian Li",
+    "part_numbers": [],
+    "series": "Bora",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 57.2,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "Proprietary PWM",
+  "controller": "Manual",
+  "static_pressure": 1.9,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "e7673ba7-a142-4b99-8677-8f003934c967",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 16,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider Titanium 1300W Fully Modular 80+ Titanium Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-ST1300-TI"
+    ],
+    "series": "Strider",
+    "variant": "1300W Titanium"
+  },
+  "wattage": 1300,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Titanium",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {
+    "newegg_sku": "N82E16817256195"
+  }
+}

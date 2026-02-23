@@ -1,0 +1,36 @@
+{
+  "opendb_id": "2ee7face-229c-49d9-b362-fe2923f28ca0",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA 600 GD 600W Non-Modular 80+ Gold Certified",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "100-GD-0600-V1                                                    100-GD-0600-V2                                                    100-GD-0600-V3                                                    100-GD-0600-V4",
+      "100-GD-0600-V1"
+    ],
+    "series": "600",
+    "variant": "600W Gold"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07W5WZCTR",
+    "newegg_sku": "N82E16817438157",
+    "walmart_sku": 296688458
+  }
+}

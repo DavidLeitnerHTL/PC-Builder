@@ -1,0 +1,50 @@
+{
+  "opendb_id": "cef6dbd8-3a42-433d-979f-c7dea8e945bc",
+  "metadata": {
+    "name": "Corsair 3000D AIRFLOW ATX Mid Tower White Tempered Glass Side Panel, USB 3.2 Gen 1 Type-A Front Panel",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CC-9011252-WW"
+    ],
+    "series": "3000D",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-08-19T04:23:34.383Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "WHITE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "2x USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 360,
+  "max_cpu_cooler_height": 170,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 7,
+  "dimensions": "462 x 230 x 466",
+  "volume": 49.517,
+  "weight": 18.95,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "2x USB 3.2 Gen 1 Type-A"
+  ],
+  "dimensions_mm": {
+    "width": 230,
+    "height": 466,
+    "depth": 462,
+    "_id": "68a3fc4b17889700c6f04825"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0C2JLCV5R",
+    "newegg_sku": "N82E16811139193",
+    "walmart_sku": 2205387060,
+    "manufacturer_url": "https://www.corsair.com/us/en/explorer/diy-builder/cases/3000d-airflow-mid-tower-case/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "opendb_id": "ab775221-b6e8-4b05-8719-023cca74755b",
+  "metadata": {
+    "name": "Apevia S 120mm Black/Pink PWM Pink LED",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "S",
+    "variant": "120mm Black / Pink"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK",
+    "PINK"
+  ],
+  "quantity": 1,
+  "min_airflow": 57.67,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Pink",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

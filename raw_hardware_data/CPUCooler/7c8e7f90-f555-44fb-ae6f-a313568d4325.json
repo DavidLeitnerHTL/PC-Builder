@@ -1,0 +1,49 @@
+{
+  "opendb_id": "7c8e7f90-f555-44fb-ae6f-a313568d4325",
+  "metadata": {
+    "name": "Cooler Master MasterLiquid ML360L ARGB V2 Water 360mm White",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MLW-D36M-A18PW-RW",
+      "MLY-D36M-A23PZ-RW"
+    ],
+    "series": "MasterLiquid",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 650,
+  "max_fan_rpm": 1800,
+  "min_noise_level": 8,
+  "max_noise_level": 27,
+  "color": [
+    "WHITE"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B08LM9B3QR",
+    "newegg_sku": "2YM-0004-000A9",
+    "walmart_sku": 2199353133
+  }
+}

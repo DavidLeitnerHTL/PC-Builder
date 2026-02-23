@@ -1,0 +1,20 @@
+{
+  "opendb_id": "28fe0ef2-60a6-476e-adda-037ba05cb4c3",
+  "metadata": {
+    "name": "Hitachi Deskstar 5K3000 3TB HDD 5400RPM 3.5\" SATA 6.0 Gb/s",
+    "manufacturer": "Hitachi",
+    "part_numbers": [
+      "HDS5C3030ALA630"
+    ],
+    "series": "Deskstar",
+    "variant": "3000GB"
+  },
+  "capacity": 3000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B00684XVFS"
+  }
+}

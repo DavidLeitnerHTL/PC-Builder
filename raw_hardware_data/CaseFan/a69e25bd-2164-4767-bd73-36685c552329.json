@@ -1,0 +1,32 @@
+{
+  "opendb_id": "a69e25bd-2164-4767-bd73-36685c552329",
+  "metadata": {
+    "name": "ARCTIC BioniX F120 PWM 69 CFM 120mm Black / Yellow 1-Pack",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00094A"
+    ],
+    "series": "BioniX",
+    "variant": "120mm Black / Yellow"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "YELLOW"
+  ],
+  "quantity": 1,
+  "min_airflow": 69,
+  "max_airflow": null,
+  "min_noise_level": 24.4,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B075CJ6GSM"
+  }
+}

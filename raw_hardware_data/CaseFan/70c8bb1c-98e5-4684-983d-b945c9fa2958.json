@@ -1,0 +1,31 @@
+{
+  "opendb_id": "70c8bb1c-98e5-4684-983d-b945c9fa2958",
+  "metadata": {
+    "name": "Jonsbo ZB-120B 120mm Black Addressable RGB PWM 65.26 CFM 1-Pack",
+    "manufacturer": "Jonsbo",
+    "part_numbers": [
+      "ZB120B"
+    ],
+    "series": "ZB-120B",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 20.95,
+  "max_airflow": 65.26,
+  "min_noise_level": 20.3,
+  "max_noise_level": 36.6,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 3.2,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DP9ZQ42P"
+  }
+}

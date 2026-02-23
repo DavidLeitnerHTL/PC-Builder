@@ -1,0 +1,29 @@
+{
+  "opendb_id": "1b1bd7f2-8866-4dcc-982f-461dacc2ed33",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair CS550M ATX 550W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CS550M                                                    CP-9020076-UK                                                    CP-9020076-EU                                                    CP-9020076-NA"
+    ],
+    "series": "CS550M",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

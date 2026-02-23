@@ -1,0 +1,28 @@
+{
+  "opendb_id": "5181e156-6875-453b-b07d-971cfcd20b5b",
+  "metadata": {
+    "name": "Apevia C 120mm Black / Blue Blue LED 1-Pack",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "C",
+    "variant": "120mm Black / Blue"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 57.67,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "54e96c54-b0ac-4eaf-b1c0-4877492fa730",
+  "metadata": {
+    "name": "Silverstone FHS 140X 140mm Black PWM 222.95 CFM",
+    "manufacturer": "SilverStone",
+    "part_numbers": [
+      "SST-FHS140X"
+    ],
+    "series": "FHS",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 222.95,
+  "max_airflow": null,
+  "min_noise_level": 50,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 10,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DJQ2M8C7",
+    "walmart_sku": 18016654803
+  }
+}

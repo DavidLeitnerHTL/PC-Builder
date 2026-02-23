@@ -1,0 +1,34 @@
+{
+  "opendb_id": "000913a6-a20d-4c69-8e3c-e020ba340221",
+  "metadata": {
+    "name": "Noctua A14 industrialPPC-2000 IP67 140mm Brown / Black PWM 107.41 CFM 1-Pack",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-A14 industrialPPC-2000 IP67 PWM"
+    ],
+    "series": "A14",
+    "variant": "140mm Brown / Black"
+  },
+  "size": 140,
+  "color": [
+    "BROWN",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 107.41,
+  "max_airflow": null,
+  "min_noise_level": 31.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 4.18,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00KFCR0PQ",
+    "newegg_sku": "N82E16835608049",
+    "walmart_sku": 47313362
+  }
+}

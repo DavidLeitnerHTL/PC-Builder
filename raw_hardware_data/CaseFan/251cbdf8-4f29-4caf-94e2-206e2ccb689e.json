@@ -1,0 +1,33 @@
+{
+  "opendb_id": "251cbdf8-4f29-4caf-94e2-206e2ccb689e",
+  "metadata": {
+    "name": "Corsair RS120 120mm Black ARGB PWM 72.8 CFM 1-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050180-WW"
+    ],
+    "series": "RS120",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 13.3,
+  "max_airflow": 72.8,
+  "min_noise_level": 10,
+  "max_noise_level": 36,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 4.15,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D49P43QP",
+    "newegg_sku": "N82E16835181445",
+    "walmart_sku": 8243211496
+  }
+}

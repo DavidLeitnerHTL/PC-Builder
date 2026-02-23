@@ -1,0 +1,31 @@
+{
+  "opendb_id": "45846f7d-a07b-4101-a585-f2b1c7b92d18",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! System Power 9 Black ATX 700W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN248"
+    ],
+    "series": "System",
+    "variant": "700W Bronze"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

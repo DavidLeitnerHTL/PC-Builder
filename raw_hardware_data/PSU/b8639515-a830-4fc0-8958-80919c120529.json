@@ -1,0 +1,29 @@
+{
+  "opendb_id": "b8639515-a830-4fc0-8958-80919c120529",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group Raider ATX 650W Non-Modular 80+ Silver Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "Raider S 650"
+    ],
+    "series": "Raider",
+    "variant": "650W Silver"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Silver",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

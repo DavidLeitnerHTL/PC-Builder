@@ -1,0 +1,32 @@
+{
+  "opendb_id": "1e3b9727-7e2f-4195-b90f-b01a99f0681b",
+  "metadata": {
+    "name": "Iceberg Thermal IceGALE Xtra 127 CFM 120mm Gray / White PWM",
+    "manufacturer": "Iceberg Thermal",
+    "part_numbers": [
+      "ICEGALE12D-B0A"
+    ],
+    "series": "IceGALE",
+    "variant": "120mm Gray / White"
+  },
+  "size": 120,
+  "color": [
+    "GREY",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 127,
+  "max_airflow": null,
+  "min_noise_level": 0,
+  "max_noise_level": 44,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 4.6,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00CWY3RXY"
+  }
+}

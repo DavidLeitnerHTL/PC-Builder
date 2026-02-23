@@ -1,0 +1,29 @@
+{
+  "opendb_id": "efe527ff-b9cc-453a-a9c8-c711b6be5206",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax MAXPRO ATX 500W Non-Modular 80+ Certified",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "EMP500AGT"
+    ],
+    "series": "MAXPRO",
+    "variant": "500W 80+"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

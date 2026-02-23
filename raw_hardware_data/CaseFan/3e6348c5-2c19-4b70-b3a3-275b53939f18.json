@@ -1,0 +1,31 @@
+{
+  "opendb_id": "3e6348c5-2c19-4b70-b3a3-275b53939f18",
+  "metadata": {
+    "name": "Thermaltake Pure 140mm Clear 67.02 CFM Red LED 1-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CL-F027-PL14RE-A"
+    ],
+    "series": "Pure",
+    "variant": "140mm Clear"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 67.02,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00NTQIIR4"
+  }
+}

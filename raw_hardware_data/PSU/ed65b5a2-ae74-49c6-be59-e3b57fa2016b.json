@@ -1,0 +1,29 @@
+{
+  "opendb_id": "ed65b5a2-ae74-49c6-be59-e3b57fa2016b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "CoolMax MP-550B ATX 550W Non-Modular 80+",
+    "manufacturer": "CoolMax",
+    "part_numbers": [
+      "MP-550B"
+    ],
+    "series": "MP-550B",
+    "variant": "550W 80+"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 142,
+  "fanless": false,
+  "general_product_information": {}
+}

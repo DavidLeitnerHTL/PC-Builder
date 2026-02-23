@@ -1,0 +1,27 @@
+{
+  "opendb_id": "815edfe1-a73f-47a3-86d1-745d04afcdcd",
+  "metadata": {
+    "name": "Cooler Master MasterFan Pro 120mm Black PWM Air Pressure 62.1 CFM",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [],
+    "series": "MasterFan",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 35,
+  "max_airflow": 62.1,
+  "min_noise_level": 6,
+  "max_noise_level": 36,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 4.6,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,36 @@
+{
+  "opendb_id": "3ff7ea8d-9333-4adb-ac75-7a7c184d848e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA 750 B5 750W 80+ Bronze Certified Fully Modular",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "220-B5-0750-V1",
+      "750 B5"
+    ],
+    "series": "750",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B084R89CJ5",
+    "newegg_sku": "9SIAA9UK9J0771",
+    "walmart_sku": 408492754
+  }
+}

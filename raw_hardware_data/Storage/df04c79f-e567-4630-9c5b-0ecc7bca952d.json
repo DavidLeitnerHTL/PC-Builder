@@ -1,0 +1,21 @@
+{
+  "opendb_id": "df04c79f-e567-4630-9c5b-0ecc7bca952d",
+  "metadata": {
+    "name": "Seagate BarraCuda 1TB HDD 7200RPM 3.5\" SATA 6.0 Gb/s Internal",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST31000524AS"
+    ],
+    "series": "BarraCuda",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B004IZN3YI",
+    "walmart_sku": 107395634
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "8c67e45d-17aa-409e-96a7-d6b1e3c61736",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Chieftec Vega M Black / Blue 750W Fully Modular 80+ Gold",
+    "manufacturer": "Chieftec",
+    "part_numbers": [
+      "PPG-750-C"
+    ],
+    "series": "Vega",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0F2GQBD7F"
+  }
+}

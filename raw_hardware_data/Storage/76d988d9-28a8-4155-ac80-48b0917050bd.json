@@ -1,0 +1,20 @@
+{
+  "opendb_id": "76d988d9-28a8-4155-ac80-48b0917050bd",
+  "metadata": {
+    "name": "XOC SP900 1TB M.2-2280 SSD PCIe 4.0 X4 NVMe",
+    "manufacturer": "XOC",
+    "part_numbers": [
+      "XC1TBSP900"
+    ],
+    "series": "SP900",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0CYXMLHYH"
+  }
+}

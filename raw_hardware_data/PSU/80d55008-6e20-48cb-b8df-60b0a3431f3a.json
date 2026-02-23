@@ -1,0 +1,29 @@
+{
+  "opendb_id": "80d55008-6e20-48cb-b8df-60b0a3431f3a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 4,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Gigabyte GE-P450P-C2 ATX 550W Non-Modular 80+ Certified",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GE-P450P-C2"
+    ],
+    "series": "GE-P450P-C2",
+    "variant": "550W 80+"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

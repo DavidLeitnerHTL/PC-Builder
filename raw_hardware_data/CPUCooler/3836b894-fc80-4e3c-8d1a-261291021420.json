@@ -1,0 +1,40 @@
+{
+  "opendb_id": "3836b894-fc80-4e3c-8d1a-261291021420",
+  "metadata": {
+    "name": "ID-COOLING FROZN A410 SE Air 152mm 55.2 CFM Black",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [
+      "FROZN A410 SE"
+    ],
+    "series": "FROZN",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 300,
+  "max_fan_rpm": 1800,
+  "min_noise_level": 24.8,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": 152,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0D1C4B2YH"
+  }
+}

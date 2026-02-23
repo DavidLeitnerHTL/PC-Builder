@@ -1,0 +1,32 @@
+{
+  "opendb_id": "07246654-287d-4034-b5ba-927544e0c47e",
+  "metadata": {
+    "name": "NZXT Aer F 120mm Black PWM 1-Pack",
+    "manufacturer": "NZXT",
+    "series": "Aer",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "RF-AF120-B1"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.01,
+  "max_airflow": 63.02,
+  "min_noise_level": 22,
+  "max_noise_level": 31,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.24,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B06XKKZQRS",
+    "newegg_sku": "9SIADFRK8S9800"
+  }
+}

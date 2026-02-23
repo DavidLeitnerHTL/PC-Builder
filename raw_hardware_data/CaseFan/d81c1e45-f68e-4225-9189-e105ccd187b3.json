@@ -1,0 +1,28 @@
+{
+  "opendb_id": "d81c1e45-f68e-4225-9189-e105ccd187b3",
+  "metadata": {
+    "name": "Deepcool RF 120mm Black / Clear PWM RGB 3-Pack",
+    "manufacturer": "Deepcool",
+    "part_numbers": [],
+    "series": "RF",
+    "variant": "120mm Black / Clear"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 56.5,
+  "max_airflow": null,
+  "min_noise_level": 17.8,
+  "max_noise_level": 27,
+  "pwm": true,
+  "led": "Multicolor",
+  "connector": "4-pin PWM",
+  "controller": "Manual",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

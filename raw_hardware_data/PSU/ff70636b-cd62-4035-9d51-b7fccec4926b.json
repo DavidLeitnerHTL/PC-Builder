@@ -1,0 +1,39 @@
+{
+  "opendb_id": "ff70636b-cd62-4035-9d51-b7fccec4926b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MPG A850G PCIE5 Black 850W Fully Modular 80+ Gold",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MPG A850G PCIE5                                                    306-7ZP7B11-CE0",
+      "MPG A850G PCIE 5",
+      "306-7ZP7B11-CE0",
+      "MPG A850G PCIE5"
+    ],
+    "series": "MPG",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0B4345YV7",
+    "newegg_sku": "N82E16817701017",
+    "bestbuy_sku": 6524434,
+    "walmart_sku": 1123476489
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "834bbabc-b7cd-4cb9-baba-2d711ee1804a",
+  "metadata": {
+    "name": "Prolimatech Vortex 120mm Clear Blue LED 72.67 CFM 1-Pack",
+    "manufacturer": "Prolimatech",
+    "part_numbers": [
+      "Blue Vortex 12 LED"
+    ],
+    "series": "Vortex",
+    "variant": "120mm Clear"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 72.67,
+  "max_airflow": null,
+  "min_noise_level": 29.1,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.05,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B006C1J8CM"
+  }
+}

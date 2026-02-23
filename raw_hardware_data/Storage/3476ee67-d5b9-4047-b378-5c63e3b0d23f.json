@@ -1,0 +1,21 @@
+{
+  "opendb_id": "3476ee67-d5b9-4047-b378-5c63e3b0d23f",
+  "metadata": {
+    "name": "Inland TN450 2TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
+    "manufacturer": "Inland",
+    "part_numbers": [
+      "2TB TN450",
+      "548263"
+    ],
+    "series": "TN450",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0C2HG312N"
+  }
+}

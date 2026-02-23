@@ -1,0 +1,46 @@
+{
+  "opendb_id": "f837a380-c3da-4789-a1df-e2b49f5cb1c6",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 2,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Asus Radeon RX 7900 XTX rx7900xtx-24g Black 24GB GDDR6",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "rx7900xtx-24g                                                    90YV0IT0-U0NM00"
+    ],
+    "series": "Radeon RX 7900 XTX",
+    "variant": "Asus"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 7900 XTX",
+  "memory": 24,
+  "memory_type": "GDDR6",
+  "core_base_clock": 2300,
+  "core_boost_clock": 2500,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 287,
+  "tdp": 355,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 2,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c4a3865ad0c3553e8c2a"
+  },
+  "core_count": 6144,
+  "general_product_information": {}
+}

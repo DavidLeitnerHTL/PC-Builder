@@ -1,0 +1,49 @@
+{
+  "opendb_id": "2b9f3872-9f5f-4574-87e0-de621b7e39cd",
+  "metadata": {
+    "name": "Cooler Master NCORE 100 MAX Mini-ITX Tower Silver Mesh Side Panel, 850W Power Supply",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "NR100-MNNN85-SL0                                                    NR100-MNNN85-SL1",
+      "NR100-MNNN85-SL0"
+    ],
+    "series": "NCORE",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-08-30T17:25:32.587Z"
+  },
+  "supported_motherboard_form_factors": [
+    "Mini-ITX"
+  ],
+  "form_factor": "Mini ITX Tower",
+  "color": [
+    "GREY"
+  ],
+  "power_supply": "850 W",
+  "side_panel": "Mesh",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "2x USB 3.2 Gen1 Type A                                                               1x USB 3.2 Gen2 x 2 Type C",
+  "max_video_card_length": 357,
+  "max_cpu_cooler_height": 48,
+  "internal_3_5_bays": 0,
+  "internal_2_5_bays": 1,
+  "expansion_slots": 3,
+  "dimensions": "172 x 212 x 481",
+  "volume": 17.539,
+  "weight": 13.89,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "2x USB 3.2 Gen1 Type A",
+    "1x USB 3.2 Gen2 x 2 Type C"
+  ],
+  "dimensions_mm": {
+    "width": 212,
+    "height": 481,
+    "depth": 172,
+    "_id": "68b3340ebe1a792b110603ff"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0CNJKNWBD",
+    "newegg_sku": "N82E16811119448",
+    "walmart_sku": 5289202233
+  }
+}

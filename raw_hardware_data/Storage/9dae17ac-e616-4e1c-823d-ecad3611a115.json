@@ -1,0 +1,22 @@
+{
+  "opendb_id": "9dae17ac-e616-4e1c-823d-ecad3611a115",
+  "metadata": {
+    "name": "Toshiba N300 NAS 6TB HDD 7200RPM SATA 6.0 Gb/s",
+    "manufacturer": "Toshiba",
+    "part_numbers": [
+      "HDWG760XZSTA"
+    ],
+    "series": "N300",
+    "variant": "6000GB"
+  },
+  "capacity": 6000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "cache": 512,
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0CYQH562B",
+    "walmart_sku": 6303705924
+  }
+}

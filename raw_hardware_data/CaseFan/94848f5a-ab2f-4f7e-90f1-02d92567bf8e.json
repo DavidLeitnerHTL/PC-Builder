@@ -1,0 +1,27 @@
+{
+  "opendb_id": "94848f5a-ab2f-4f7e-90f1-02d92567bf8e",
+  "metadata": {
+    "name": "Enermax T.B. Vegas Quad 120mm Black PWM RGB",
+    "manufacturer": "Enermax",
+    "part_numbers": [],
+    "series": "T.B.",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 50.68,
+  "max_airflow": 75.98,
+  "min_noise_level": 20,
+  "max_noise_level": 25,
+  "pwm": true,
+  "led": "Multicolor",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "25bf7b5d-584c-4069-ac8b-bdbbf36f3102",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 10,
+    "sata": 12,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA SuperNOVA 1000 PQ ATX 1000W Semi-Modular 80+ Platinum Certified",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "210-PQ-1000-X1                                                    210-PQ-1000-X2"
+    ],
+    "series": "SuperNOVA",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

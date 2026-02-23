@@ -1,0 +1,27 @@
+{
+  "opendb_id": "f9152d8a-b8a4-4565-88f6-7efeca2cebbf",
+  "metadata": {
+    "name": "Jonsbo ZG 120mm Black PWM Addressable RGB 3-Pack 60.45 CFM",
+    "manufacturer": "Jonsbo",
+    "part_numbers": [],
+    "series": "ZG",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 20.1,
+  "max_airflow": 60.45,
+  "min_noise_level": 23.8,
+  "max_noise_level": 29.3,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.29,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

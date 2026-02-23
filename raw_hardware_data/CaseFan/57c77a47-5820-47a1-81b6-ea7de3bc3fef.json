@@ -1,0 +1,27 @@
+{
+  "opendb_id": "57c77a47-5820-47a1-81b6-ea7de3bc3fef",
+  "metadata": {
+    "name": "Gelid Solutions Wing 80mm Blue 28.1 CFM 1-Pack",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [],
+    "series": "Wing",
+    "variant": "80mm Blue"
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 28.1,
+  "max_airflow": null,
+  "min_noise_level": 10,
+  "max_noise_level": 21,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

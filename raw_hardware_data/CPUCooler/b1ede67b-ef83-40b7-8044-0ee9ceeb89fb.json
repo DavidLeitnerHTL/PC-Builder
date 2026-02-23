@@ -1,0 +1,41 @@
+{
+  "opendb_id": "b1ede67b-ef83-40b7-8044-0ee9ceeb89fb",
+  "metadata": {
+    "name": "Gelid Solutions Rev. 2 Tranquillo Air 58 CFM 153mm",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [
+      "CC-TranQ-02-A",
+      "CC-TRANQ-02-A"
+    ],
+    "series": "Rev.",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 750,
+  "max_fan_rpm": 1500,
+  "min_noise_level": 12,
+  "max_noise_level": 25.5,
+  "color": [],
+  "height": 153,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 775"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0058HUSPM"
+  }
+}

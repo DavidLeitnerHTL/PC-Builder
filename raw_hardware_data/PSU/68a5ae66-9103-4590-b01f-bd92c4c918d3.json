@@ -1,0 +1,31 @@
+{
+  "opendb_id": "68a5ae66-9103-4590-b01f-bd92c4c918d3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MAG A550BNL Black ATX 550W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MAG A550BNL"
+    ],
+    "series": "MAG",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

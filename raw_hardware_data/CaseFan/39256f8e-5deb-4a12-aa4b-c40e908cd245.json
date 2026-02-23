@@ -1,0 +1,25 @@
+{
+  "opendb_id": "39256f8e-5deb-4a12-aa4b-c40e908cd245",
+  "metadata": {
+    "name": "ID-COOLING TF-12025-ARGB 120mm REVERSE PWM Addressable RGB 68.2 CFM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "TF-12025-ARGB",
+    "variant": "120mm "
+  },
+  "size": 120,
+  "color": [],
+  "quantity": 1,
+  "min_airflow": 68.2,
+  "max_airflow": null,
+  "min_noise_level": 13.8,
+  "max_noise_level": 30.5,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.87,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {}
+}

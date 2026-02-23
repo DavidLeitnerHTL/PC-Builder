@@ -1,0 +1,27 @@
+{
+  "opendb_id": "f2ada142-887e-451e-b35b-eaf159805632",
+  "metadata": {
+    "name": "NoiseBlocker BlackSilentFan X-P 120mm Translucent Blue PWM 75.33 CFM 1-Pack",
+    "manufacturer": "NoiseBlocker",
+    "part_numbers": [],
+    "series": "BlackSilentFan",
+    "variant": "120mm Translucent Blue"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 75.33,
+  "max_airflow": null,
+  "min_noise_level": 31,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

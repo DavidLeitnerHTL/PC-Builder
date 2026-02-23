@@ -1,0 +1,33 @@
+{
+  "opendb_id": "e63ab239-831b-4514-9817-a6c2d834c2de",
+  "metadata": {
+    "name": "ARCTIC Freezer 33 TR Air 155mm Black/Red",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFRE00038A                                                    FREEZER 33 TR ACFRE00038A"
+    ],
+    "series": "Freezer",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 200,
+  "max_fan_rpm": 1800,
+  "min_noise_level": 24.4,
+  "max_noise_level": null,
+  "color": [],
+  "height": 155,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 2011",
+    "LGA 2066",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

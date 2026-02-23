@@ -1,0 +1,32 @@
+{
+  "opendb_id": "28ed9f5f-5742-4246-ae0f-d2ff0daf629b",
+  "metadata": {
+    "name": "Silverstone FN 120mm Clear Blue LED",
+    "manufacturer": "SilverStone",
+    "part_numbers": [
+      "FN121-P-BL"
+    ],
+    "series": "FN",
+    "variant": "120mm Clear"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 58.47,
+  "max_airflow": null,
+  "min_noise_level": 25.15,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B009FU2AX6",
+    "walmart_sku": 47908553
+  }
+}

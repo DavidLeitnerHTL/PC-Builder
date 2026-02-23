@@ -1,0 +1,37 @@
+{
+  "opendb_id": "265d371c-5c3b-4f30-88e6-3fdd1e9c36b3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 9,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cougar POLAR 1200W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Cougar",
+    "part_numbers": [
+      "CGR PR-1200                                                    31PL120001P01                                                    Polar 1200",
+      "31PL120001P01",
+      "POLAR1200"
+    ],
+    "series": "POLAR",
+    "variant": "1200W Platinum"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0B3DGC4ZT",
+    "newegg_sku": "N82E16817553052",
+    "walmart_sku": 1254858165
+  }
+}

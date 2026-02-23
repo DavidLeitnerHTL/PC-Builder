@@ -1,0 +1,31 @@
+{
+  "opendb_id": "99c9789d-1b58-4f27-8700-c31bc2115bf3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA 500 BT Black 500W Non-Modular 80+ Bronze Certified ATX",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "100-BT-0500-K1                                                    100-BT-0500-K2                                                    100-BT-0500-K3"
+    ],
+    "series": "500",
+    "variant": "500W Bronze"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "45d732a6-a41a-499f-b1f0-5a4a417a9c3f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 0,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Sparkle FSP300-60ATV ATX 300W Non-Modular",
+    "manufacturer": "Sparkle",
+    "part_numbers": [
+      "FSP300-60ATV"
+    ],
+    "series": "FSP300-60ATV",
+    "variant": "300W "
+  },
+  "wattage": 300,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0045788AI"
+  }
+}

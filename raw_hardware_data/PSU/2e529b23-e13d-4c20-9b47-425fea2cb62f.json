@@ -1,0 +1,32 @@
+{
+  "opendb_id": "2e529b23-e13d-4c20-9b47-425fea2cb62f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "RIOTORO BUILDER Black / Red 600W Non-Modular 80+",
+    "manufacturer": "RIOTORO",
+    "part_numbers": [
+      "PR-BFX600-UK"
+    ],
+    "series": "BUILDER",
+    "variant": "600W 80+"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,46 @@
+{
+  "opendb_id": "ede4c136-7fb7-499b-b38c-a79160d704c1",
+  "metadata": {
+    "name": "Asus ROG RYUJIN III 360 ARGB Extreme Black Edition",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "90RC0131-M0EAY0                                                    ROG Ryujin III 360 ARGB Extreme                                                    90RC0131-M0AAY0",
+      "ROG RYUJIN III 360 ARGB EXTREME",
+      "RYUJIN III 360 ARGB EXTREME"
+    ],
+    "series": "ROG",
+    "variant": "ROG RYUJIN III 360 ARGB Extreme",
+    "releaseYear": null,
+    "last_manually_spec_verified_at": "2025-11-28T19:31:45.291Z"
+  },
+  "min_fan_rpm": 0,
+  "max_fan_rpm": 2800,
+  "min_noise_level": 36,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": 108,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": 120,
+  "fan_quantity": 3,
+  "general_product_information": {
+    "amazon_sku": "B0DPPBVSNC",
+    "newegg_sku": "N82E16835101119",
+    "walmart_sku": 14938105107,
+    "manufacturer_url": "https://rog.asus.com/cooling/cpu-liquid-coolers/rog-ryujin/rog-ryujin-iii-360-argb-extreme/spec/"
+  }
+}

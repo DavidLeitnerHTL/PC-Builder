@@ -1,0 +1,29 @@
+{
+  "opendb_id": "309e882f-cd05-4323-bd18-83af778b0afc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 9,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Sparkle SCC-850AF ATX 850W Semi-Modular 80+ Gold",
+    "manufacturer": "Sparkle",
+    "part_numbers": [
+      "SCC-850AF"
+    ],
+    "series": "SCC-850AF",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 174,
+  "fanless": false,
+  "general_product_information": {}
+}

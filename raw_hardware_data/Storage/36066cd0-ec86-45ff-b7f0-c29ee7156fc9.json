@@ -1,0 +1,21 @@
+{
+  "opendb_id": "36066cd0-ec86-45ff-b7f0-c29ee7156fc9",
+  "metadata": {
+    "name": "Hitachi 7K1000.C 1TB HDD 7200RPM 3.5\" SATA",
+    "manufacturer": "Hitachi",
+    "part_numbers": [
+      "HDS721010CLA332",
+      "5051868343056"
+    ],
+    "series": "7K1000.C",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 3.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B002U22U6S"
+  }
+}

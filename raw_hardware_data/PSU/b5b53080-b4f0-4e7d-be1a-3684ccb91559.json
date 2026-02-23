@@ -1,0 +1,32 @@
+{
+  "opendb_id": "b5b53080-b4f0-4e7d-be1a-3684ccb91559",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 7,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Deepcool GamerStorm DQ-M Black / Silver 650W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "DQ650-M"
+    ],
+    "series": "GamerStorm",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

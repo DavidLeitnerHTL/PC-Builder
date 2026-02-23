@@ -1,0 +1,32 @@
+{
+  "opendb_id": "9424ee00-b1a5-4e7c-8331-97a00b2e0e57",
+  "metadata": {
+    "name": "Thermaltake Pure 140mm Clear Blue 67.02 CFM",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CL-F028-PL14WT-A"
+    ],
+    "series": "Pure",
+    "variant": "140mm Clear"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 67.02,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00NTQICI4",
+    "walmart_sku": 41970744
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "opendb_id": "18f69196-6358-44bf-b485-7311d3035daa",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.9,
+      "boost": 3.9
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    },
+    "tdp": 45,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E3 1260L V5 OEM/Tray 2.9 GHz 4-Core LGA1151",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8066201921903"
+    ],
+    "series": "Intel Xeon E3"
+  },
+  "series": "Intel Xeon E3",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-H",
+  "socket": "LGA 1151",
+  "general_product_information": {}
+}

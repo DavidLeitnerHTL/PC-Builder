@@ -1,0 +1,31 @@
+{
+  "opendb_id": "efed6b7c-b36e-4d2d-aead-5e3af5e6cef8",
+  "metadata": {
+    "name": "Fractal Design Momentum 140mm Black PWM Addressable RGB 74.39 CFM 3-Pack",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-F-MR1-1403"
+    ],
+    "series": "Momentum",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 74.39,
+  "max_airflow": null,
+  "min_noise_level": 28,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.45,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "newegg_sku": "N82E16835352120"
+  }
+}

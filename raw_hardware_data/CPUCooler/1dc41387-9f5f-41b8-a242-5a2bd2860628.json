@@ -1,0 +1,32 @@
+{
+  "opendb_id": "1dc41387-9f5f-41b8-a242-5a2bd2860628",
+  "metadata": {
+    "name": "Noctua NH-U12S TR4-SP3 Air 158mm",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NH-U12S TR4-SP3"
+    ],
+    "series": "NH-U12S",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 300,
+  "max_fan_rpm": 1500,
+  "min_noise_level": 18.6,
+  "max_noise_level": 22.4,
+  "color": [],
+  "height": 158,
+  "cpu_sockets": [
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B074DW3FS2",
+    "newegg_sku": "13C-0005-00141"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "opendb_id": "b494adc6-6197-4807-b2fc-38804efc3fb1",
+  "metadata": {
+    "name": "NZXT F120 RGB Core 120mm RGB PWM 78.86 CFM White",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RF-C12SF-W1",
+      "RF-C12FF-W1"
+    ],
+    "series": "F120",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 78.86,
+  "max_airflow": null,
+  "min_noise_level": 33.88,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 2.57,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BYN32YCB",
+    "newegg_sku": "N82E16835146137",
+    "bestbuy_sku": 6563118,
+    "walmart_sku": 3105894095
+  }
+}

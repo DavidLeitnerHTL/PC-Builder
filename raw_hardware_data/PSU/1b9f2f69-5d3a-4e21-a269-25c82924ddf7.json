@@ -1,0 +1,33 @@
+{
+  "opendb_id": "1b9f2f69-5d3a-4e21-a269-25c82924ddf7",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 7,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair RM650x 650W 80+ Gold Fully Modular",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020091-NA                                                    RM650x                                                    CP-9020091-UK",
+      "CP-9020091-NA"
+    ],
+    "series": "RM650x",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B015YEIBJ8",
+    "walmart_sku": 49689873
+  }
+}

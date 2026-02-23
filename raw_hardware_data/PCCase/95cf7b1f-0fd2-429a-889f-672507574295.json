@@ -1,0 +1,55 @@
+{
+  "opendb_id": "95cf7b1f-0fd2-429a-889f-672507574295",
+  "metadata": {
+    "name": "HYTE Y60 Hakos Baelz ATX Mid Tower Red / Black Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+    "manufacturer": "HYTE",
+    "part_numbers": [
+      "CS-HYTE-Y60-HB",
+      "HYTE Y60 HAKOS BAELZ CASE BUNDLE"
+    ],
+    "series": "Y60",
+    "variant": "Hakos Baelz Edition",
+    "releaseYear": null,
+    "last_manually_spec_verified_at": "2026-01-08T18:48:14.253Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX",
+    "EATX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "RED",
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.2 Gen 2 Type-CUSB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 375,
+  "max_cpu_cooler_height": 160,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 4,
+  "expansion_slots": 7,
+  "dimensions": "285 x 462 x 456",
+  "volume": 60,
+  "weight": 21.2,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "1 x USB 3.2 Type-C",
+    "2 x USB 3.0 Type-A"
+  ],
+  "dimensions_mm": {
+    "width": 285,
+    "height": 462,
+    "depth": 456,
+    "_id": "69538a5d878ca3f3306537cb"
+  },
+  "power_supply_shroud": true,
+  "riser_expansion_slots": 3,
+  "general_product_information": {
+    "amazon_sku": "B0B5PRZM2C",
+    "manufacturer_url": "https://hyte.com/store/hakos-baelz-y60-case-deskpad-bundle/cs-hyte-y60-hb?srsltid=AfmBOor9yvyh4ikipxaZAoX55wGY7ekg_7qbu8TFvGjPhinV2V71yeNP"
+  }
+}

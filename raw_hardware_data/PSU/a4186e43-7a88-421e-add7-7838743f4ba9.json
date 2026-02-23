@@ -1,0 +1,29 @@
+{
+  "opendb_id": "a4186e43-7a88-421e-add7-7838743f4ba9",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 3,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Sparkle SPI460PFB2-MC2 ATX 460W Non-Modular 80+ Certified",
+    "manufacturer": "Sparkle",
+    "part_numbers": [
+      "SPI460PFB2-MC2"
+    ],
+    "series": "SPI460PFB2-MC2",
+    "variant": "460W 80+"
+  },
+  "wattage": 460,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

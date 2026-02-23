@@ -1,0 +1,21 @@
+{
+  "opendb_id": "163bb6b3-5862-4e02-883a-099d631f5fca",
+  "metadata": {
+    "name": "Seagate Exos 7E8 4TB HDD 3.5\" 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST4000NM010A"
+    ],
+    "series": "Exos",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07SZXFTCG",
+    "walmart_sku": 111706024
+  }
+}

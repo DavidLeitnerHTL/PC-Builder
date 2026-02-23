@@ -1,0 +1,27 @@
+{
+  "opendb_id": "4caa640d-3a6c-49cb-b837-3c4e7724b905",
+  "metadata": {
+    "name": "Xigmatek XLF 120mm Black PWM White LED 61 CFM",
+    "manufacturer": "Xigmatek",
+    "series": "XLF",
+    "variant": "120mm Black",
+    "part_numbers": []
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 61,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "White",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,50 @@
+{
+  "opendb_id": "17a81c70-a938-4b0a-9aad-370e9d924ded",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "PNY RTX 4000 SFF Ada Generation 20GB GDDR6 Black",
+    "manufacturer": "PNY",
+    "part_numbers": [
+      "VCNRTX4000ADALP-PB"
+    ],
+    "series": "RTX 4000 SFF Ada Generation",
+    "variant": "PNY"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "RTX 4000 SFF Ada",
+  "memory": 20,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1290,
+  "core_boost_clock": 1565,
+  "effective_memory_clock": 14000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 168,
+  "tdp": 70,
+  "total_slot_width": 2,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c732865ad0c3553eb4be"
+  },
+  "core_count": 0,
+  "general_product_information": {
+    "amazon_sku": "B0C2KMXQYG",
+    "newegg_sku": "N82E16814133856",
+    "walmart_sku": 1814613526
+  }
+}

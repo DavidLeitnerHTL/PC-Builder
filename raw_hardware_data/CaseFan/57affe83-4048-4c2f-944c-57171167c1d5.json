@@ -1,0 +1,27 @@
+{
+  "opendb_id": "57affe83-4048-4c2f-944c-57171167c1d5",
+  "metadata": {
+    "name": "NZXT FZ 200mm Transparent Blue LED 1-Pack",
+    "manufacturer": "NZXT",
+    "part_numbers": [],
+    "series": "FZ",
+    "variant": "200mm Transparent"
+  },
+  "size": 200,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 103,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

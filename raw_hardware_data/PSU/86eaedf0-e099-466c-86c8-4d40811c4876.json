@@ -1,0 +1,31 @@
+{
+  "opendb_id": "86eaedf0-e099-466c-86c8-4d40811c4876",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Montech CENTURY MINI SFX 650W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Montech",
+    "part_numbers": [
+      "CENTURY MINI 650"
+    ],
+    "series": "CENTURY",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {}
+}

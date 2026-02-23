@@ -1,0 +1,21 @@
+{
+  "opendb_id": "c7c2cc8c-99dd-4ac1-ac21-1c28b6faae7e",
+  "metadata": {
+    "name": "Micron 2400 2TB M.2-2230 SSD PCIe 4.0 X4 NVMe",
+    "manufacturer": "Micron",
+    "part_numbers": [
+      "MTFDKBK2T0QFM-1BD1AABYYR"
+    ],
+    "series": "2400",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2230",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0BV1GXT31",
+    "walmart_sku": 2225063902
+  }
+}

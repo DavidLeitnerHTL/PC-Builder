@@ -1,0 +1,35 @@
+{
+  "opendb_id": "73aa2fec-01ee-430d-81c9-a04c5c0380e3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 3,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic FOCUS SGX SFX 500W Fully Modular 80+ Gold Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "SSR-500SGX                                                    FOCUS SGX-500                                                    SGX-500",
+      "SGX-500",
+      "SSR-500SGX"
+    ],
+    "series": "FOCUS",
+    "variant": "500W Gold"
+  },
+  "wattage": 500,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 125,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07WVMV6R7"
+  }
+}

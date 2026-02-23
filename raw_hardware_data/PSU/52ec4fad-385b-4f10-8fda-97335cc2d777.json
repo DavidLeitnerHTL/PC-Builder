@@ -1,0 +1,31 @@
+{
+  "opendb_id": "52ec4fad-385b-4f10-8fda-97335cc2d777",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 2,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Athena Power Apollo SFX 300W Non-Modular",
+    "manufacturer": "Athena Power",
+    "part_numbers": [
+      "AP-MP4ATX30"
+    ],
+    "series": "Apollo",
+    "variant": "300W "
+  },
+  "wattage": 300,
+  "form_factor": "SFX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 105,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B002DBSRIQ"
+  }
+}

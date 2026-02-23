@@ -1,0 +1,48 @@
+{
+  "opendb_id": "3d4b0dcc-cea0-48ac-9781-f46b07e5721c",
+  "cores": {
+    "total": 10,
+    "performance": 10,
+    "threads": 20
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.6,
+      "boost": 3.3
+    }
+  },
+  "cache": {
+    "l2": 5,
+    "l3": 25
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 105,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "22 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E5 2660 V3 2.6 GHz 10-Core LGA2011-3 OEM/Tray",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8064401446117"
+    ],
+    "series": "Intel Xeon E5"
+  },
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-EP",
+  "socket": "LGA 2011-3",
+  "general_product_information": {
+    "amazon_sku": "B00PDD1GCA"
+  }
+}

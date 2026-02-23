@@ -1,0 +1,27 @@
+{
+  "opendb_id": "c826e403-2c9d-4ce2-8733-af9d296c95ce",
+  "metadata": {
+    "name": "ID-COOLING SF-12025-R 120mm Red PWM 62 CFM Black 1-Pack",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "SF-12025-R",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 62,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": 26.4,
+  "pwm": true,
+  "led": "Red",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.78,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

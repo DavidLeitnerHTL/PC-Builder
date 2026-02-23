@@ -1,0 +1,24 @@
+{
+  "opendb_id": "1e1bc84a-ba62-4b17-b55f-33a744a5680d",
+  "metadata": {
+    "name": "Kingston Fury Renegade 4TB SSD M.2 PCIe 4.0 X4 NVMe",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SFYRD",
+      "4000G",
+      "SFYRD/4000G"
+    ],
+    "series": "Fury",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B09K3PSWD2",
+    "newegg_sku": "N82E16820242657",
+    "walmart_sku": 235352524
+  }
+}

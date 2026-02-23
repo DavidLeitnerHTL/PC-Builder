@@ -1,0 +1,31 @@
+{
+  "opendb_id": "48ab0c24-6173-4bd3-adf7-d64bbc8b7204",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Vida Lite Black ATX 500W Non-Modular",
+    "manufacturer": "Vida",
+    "part_numbers": [
+      "AA-500-YY"
+    ],
+    "series": "Lite",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "c45fa298-4866-436b-a387-72f084bd5e6c",
+  "metadata": {
+    "name": "Corsair iCUE AF120 RGB ELITE 120mm Black Addressable RGB PWM 3-Pack",
+    "manufacturer": "Corsair",
+    "series": "iCUE",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "CO-9050154-WW"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 13.8,
+  "max_airflow": 65.57,
+  "min_noise_level": 5,
+  "max_noise_level": 34.1,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + Proprietary RGB",
+  "controller": "USB",
+  "static_pressure": 2.68,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BQWXHJBW",
+    "newegg_sku": "N82E16835181341",
+    "bestbuy_sku": 6532235,
+    "walmart_sku": 3824339802
+  }
+}

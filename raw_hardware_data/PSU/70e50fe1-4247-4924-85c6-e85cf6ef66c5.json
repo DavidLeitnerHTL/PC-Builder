@@ -1,0 +1,29 @@
+{
+  "opendb_id": "70e50fe1-4247-4924-85c6-e85cf6ef66c5",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 0,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic SSP-350ST 350W Non-Modular 80+ Bronze",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "SSP-350ST"
+    ],
+    "series": "SSP-350ST",
+    "variant": "350W Bronze"
+  },
+  "wattage": 350,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

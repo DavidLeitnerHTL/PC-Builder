@@ -1,0 +1,29 @@
+{
+  "opendb_id": "a7fb5416-2856-42f7-862a-45fd7f4ec068",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group Twins ATX 700W Non-Modular 80+ Gold",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "TWINS700"
+    ],
+    "series": "Twins",
+    "variant": "700W Gold"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 190,
+  "fanless": false,
+  "general_product_information": {}
+}

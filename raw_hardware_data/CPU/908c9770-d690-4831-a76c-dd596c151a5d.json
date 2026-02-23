@@ -1,0 +1,49 @@
+{
+  "opendb_id": "908c9770-d690-4831-a76c-dd596c151a5d",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.1,
+      "boost": 3.5
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 80,
+    "eccSupport": true,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "22 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Xeon E3 1220 V3 3.1 GHz 4-Core LGA1150",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80646E31220V3"
+    ],
+    "series": "Intel Xeon E3"
+  },
+  "series": "Intel Xeon E3",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell",
+  "socket": "LGA 1150",
+  "general_product_information": {
+    "amazon_sku": "B00D697OEW",
+    "walmart_sku": 183009495
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "b85677d9-2d02-4fd0-b842-1ad850c66add",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Azza PSAZ-850PT14 ATX 850W Semi-Modular 80+ Platinum Certified",
+    "manufacturer": "Azza",
+    "part_numbers": [
+      "PSAZ-850PT14"
+    ],
+    "series": "PSAZ-850PT14",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

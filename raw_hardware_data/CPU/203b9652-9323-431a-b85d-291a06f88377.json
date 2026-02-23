@@ -1,0 +1,46 @@
+{
+  "opendb_id": "203b9652-9323-431a-b85d-291a06f88377",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.5,
+      "boost": 3.9
+    }
+  },
+  "cache": {
+    "l2": 4,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon R7 (on-die)"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "28 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A-Series A10 Pro 7800B 3.5 GHz 4-Core FM2+",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD780BYBI44JA"
+    ],
+    "series": "AMD A10"
+  },
+  "series": "AMD A10",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Kaveri",
+  "socket": "FM2+",
+  "general_product_information": {}
+}

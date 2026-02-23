@@ -1,0 +1,27 @@
+{
+  "opendb_id": "e940534a-a087-466d-aa13-600232c22ecb",
+  "metadata": {
+    "name": "VIVO FAN-V120B 120mm Blue 43.2 CFM",
+    "manufacturer": "VIVO",
+    "series": "FAN-V120B",
+    "variant": "120mm Blue",
+    "part_numbers": []
+  },
+  "size": 120,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 43.2,
+  "max_airflow": null,
+  "min_noise_level": 19.8,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "5ea54440-a2ea-4f5d-a6b2-fa7ab0736250",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 2,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Logisys PS480D ATX 480W Non-Modular",
+    "manufacturer": "Logisys",
+    "part_numbers": [
+      "PS480D"
+    ],
+    "series": "PS480D",
+    "variant": "480W "
+  },
+  "wattage": 480,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B000F0DUT8"
+  }
+}

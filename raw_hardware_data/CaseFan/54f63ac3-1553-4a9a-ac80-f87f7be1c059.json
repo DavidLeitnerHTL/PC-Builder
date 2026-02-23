@@ -1,0 +1,34 @@
+{
+  "opendb_id": "54f63ac3-1553-4a9a-ac80-f87f7be1c059",
+  "metadata": {
+    "name": "Lian Li UNI FAN SL V2 120mm White / Silver Addressable RGB PWM 64.5 CFM 1-Pack",
+    "manufacturer": "Lian Li",
+    "series": "UNI",
+    "variant": "120mm White / Silver",
+    "part_numbers": [
+      "12SLV21W.00"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 64.5,
+  "max_airflow": null,
+  "min_noise_level": 29.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.59,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BMWFWDD7",
+    "newegg_sku": "1YF-005G-000A9",
+    "walmart_sku": 1623614901
+  }
+}

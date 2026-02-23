@@ -1,0 +1,31 @@
+{
+  "opendb_id": "507cf3c9-9e23-46d5-a276-4e3278ff4c1c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 16,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill SMG1050 1050W 80+ Gold Certified Fully Modular ATX",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "SMG1050"
+    ],
+    "series": "SMG1050",
+    "variant": "1050W Gold"
+  },
+  "wattage": 1050,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

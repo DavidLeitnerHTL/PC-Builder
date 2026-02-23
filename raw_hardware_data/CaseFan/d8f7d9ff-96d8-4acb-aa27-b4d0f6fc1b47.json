@@ -1,0 +1,28 @@
+{
+  "opendb_id": "d8f7d9ff-96d8-4acb-aa27-b4d0f6fc1b47",
+  "metadata": {
+    "name": "ARCTIC BioniX P120 120mm Green / Black PWM 1-Pack",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [],
+    "series": "BioniX",
+    "variant": "120mm Green / Black"
+  },
+  "size": 120,
+  "color": [
+    "GREEN",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 67.56,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.75,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

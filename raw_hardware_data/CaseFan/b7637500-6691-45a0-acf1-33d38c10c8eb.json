@@ -1,0 +1,31 @@
+{
+  "opendb_id": "b7637500-6691-45a0-acf1-33d38c10c8eb",
+  "metadata": {
+    "name": "ID-COOLING NO-12015-XT 120mm Black PWM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [
+      "NO-12015-XT-BLACK"
+    ],
+    "series": "NO-12015-XT",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 54.6,
+  "max_airflow": null,
+  "min_noise_level": 13.8,
+  "max_noise_level": 31.2,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CJF7F9HY"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "13c05104-62a2-4c16-9b0b-58f955b50fb5",
+  "metadata": {
+    "name": "Thermalright TL-H12015 120mm Black PWM 56.36 CFM 1-Pack",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "TL-H12015B"
+    ],
+    "series": "TL-H12015",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 56.36,
+  "max_airflow": null,
+  "min_noise_level": 28.4,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.58,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DRSBV8LX"
+  }
+}

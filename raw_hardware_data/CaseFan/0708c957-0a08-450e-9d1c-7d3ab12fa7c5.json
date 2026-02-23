@@ -1,0 +1,31 @@
+{
+  "opendb_id": "0708c957-0a08-450e-9d1c-7d3ab12fa7c5",
+  "metadata": {
+    "name": "Gelid Solutions Stella 120mm Black 70 CFM PWM Addressable RGB 1-Pack",
+    "manufacturer": "Gelid Solutions",
+    "series": "Stella",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "FN-Stella-01"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 70,
+  "max_airflow": null,
+  "min_noise_level": 35,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.3,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08LZ9LX4S"
+  }
+}

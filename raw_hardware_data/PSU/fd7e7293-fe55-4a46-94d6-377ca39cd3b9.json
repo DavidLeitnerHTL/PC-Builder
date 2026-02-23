@@ -1,0 +1,35 @@
+{
+  "opendb_id": "fd7e7293-fe55-4a46-94d6-377ca39cd3b9",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 3,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Apevia CAPTAIN Black 550W Non-Modular",
+    "manufacturer": "Apevia",
+    "part_numbers": [
+      "CAPTAIN550"
+    ],
+    "series": "CAPTAIN",
+    "variant": "550W "
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B089PZCB7X",
+    "newegg_sku": "9SIA0ZXK415537",
+    "walmart_sku": 829446262
+  }
+}

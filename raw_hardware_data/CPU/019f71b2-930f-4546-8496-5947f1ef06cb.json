@@ -1,0 +1,46 @@
+{
+  "opendb_id": "019f71b2-930f-4546-8496-5947f1ef06cb",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.5,
+      "boost": 3.9
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel HD Graphics P530"
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    },
+    "tdp": 80,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E3 1245 V5 OEM/Tray 3.5 GHz 4-Core LGA1151",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8066201934913"
+    ],
+    "series": "Intel Xeon E3"
+  },
+  "series": "Intel Xeon E3",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-H",
+  "socket": "LGA 1151",
+  "general_product_information": {}
+}

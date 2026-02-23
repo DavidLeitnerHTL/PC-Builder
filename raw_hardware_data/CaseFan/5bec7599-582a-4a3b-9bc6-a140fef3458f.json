@@ -1,0 +1,35 @@
+{
+  "opendb_id": "5bec7599-582a-4a3b-9bc6-a140fef3458f",
+  "metadata": {
+    "name": "Corsair iCUE QL140 140mm White / Black RGB PWM 2-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050106-WW"
+    ],
+    "series": "iCUE",
+    "variant": "140mm White / Black"
+  },
+  "size": 140,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 2,
+  "min_airflow": 50.2,
+  "max_airflow": null,
+  "min_noise_level": 26,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + Proprietary RGB",
+  "controller": "Manual",
+  "static_pressure": 1.4,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B083X4VCL7",
+    "newegg_sku": "9SIB8AKKCT9142",
+    "bestbuy_sku": 6414234,
+    "walmart_sku": 584607424
+  }
+}

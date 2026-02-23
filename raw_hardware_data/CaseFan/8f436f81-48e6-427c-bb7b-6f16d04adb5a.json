@@ -1,0 +1,34 @@
+{
+  "opendb_id": "8f436f81-48e6-427c-bb7b-6f16d04adb5a",
+  "metadata": {
+    "name": "Asus ROG STRIX XF 120mm Black PWM 62.5 CFM",
+    "manufacturer": "ASUS",
+    "part_numbers": [
+      "ROG Strix XF120/XF120A1/BK//",
+      "90DA0010-B09000"
+    ],
+    "series": "ROG",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 62.5,
+  "max_airflow": null,
+  "min_noise_level": 22.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0955WB2KL",
+    "newegg_sku": "N82E16835101057",
+    "walmart_sku": 945152605
+  }
+}

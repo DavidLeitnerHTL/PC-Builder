@@ -1,0 +1,29 @@
+{
+  "opendb_id": "77173e83-5fe5-45cb-be56-7f8f0078e243",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax DIGIFANLESS ATX 550W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "EDF550AWN"
+    ],
+    "series": "DIGIFANLESS",
+    "variant": "550W Platinum"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [],
+  "length": 175,
+  "fanless": false,
+  "general_product_information": {}
+}

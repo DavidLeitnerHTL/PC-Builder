@@ -1,0 +1,43 @@
+{
+  "opendb_id": "5aaf3d55-01e4-4ccb-a153-78c55026e2a2",
+  "metadata": {
+    "name": "Cooler Master MasterLiquid 240 Core II 70.7 CFM Water 240mm 70.7 CFM Black",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MLW-D24M-A18PA-R1"
+    ],
+    "series": "MasterLiquid",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 600,
+  "max_fan_rpm": 1750,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": 52,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0DQ2NBJ99",
+    "walmart_sku": 16032620852
+  }
+}

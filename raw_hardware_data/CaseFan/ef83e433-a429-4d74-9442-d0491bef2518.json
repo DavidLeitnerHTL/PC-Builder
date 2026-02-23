@@ -1,0 +1,33 @@
+{
+  "opendb_id": "ef83e433-a429-4d74-9442-d0491bef2518",
+  "metadata": {
+    "name": "Corsair SP140 140mm Black/Red Red LED",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050024-WW"
+    ],
+    "series": "SP140",
+    "variant": "140mm Black / Red"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 49.49,
+  "max_airflow": null,
+  "min_noise_level": 29.3,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00L64NST4",
+    "walmart_sku": 44410353
+  }
+}

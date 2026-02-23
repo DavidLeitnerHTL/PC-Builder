@@ -1,0 +1,32 @@
+{
+  "opendb_id": "945c14c5-2295-4c44-8b9b-a2f9c26dab05",
+  "metadata": {
+    "name": "be quiet! Pure Wings 2 80mm Black PWM",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL037"
+    ],
+    "series": "Pure",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 26.3,
+  "max_airflow": null,
+  "min_noise_level": 19.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.65,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B016XWZ5CQ",
+    "newegg_sku": "1YF-001D-00042"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "05410ba1-61df-455e-94e7-1aa3502c1967",
+  "metadata": {
+    "name": "Antec 75001 80mm Clear 34 CFM 1-Pack",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "PRO 80MM DBB"
+    ],
+    "series": "75001",
+    "variant": "80mm Clear"
+  },
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 34,
+  "max_airflow": null,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00009KP3I",
+    "walmart_sku": 15229248
+  }
+}

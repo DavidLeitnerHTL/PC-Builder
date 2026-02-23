@@ -1,0 +1,29 @@
+{
+  "opendb_id": "97a34ef5-b765-4fd9-a235-5b6d36c6073d",
+  "metadata": {
+    "name": "Corsair ML140 ELITE Premium 140mm Red PWM",
+    "manufacturer": "Corsair",
+    "part_numbers": [],
+    "series": "ML140",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 15,
+  "max_airflow": 82.9,
+  "min_noise_level": 10,
+  "max_noise_level": 31.8,
+  "pwm": true,
+  "led": "Red",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.06,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "newegg_sku": "N82E16835181278"
+  }
+}

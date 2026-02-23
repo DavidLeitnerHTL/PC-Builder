@@ -1,0 +1,38 @@
+{
+  "opendb_id": "d0a6a10a-ed8e-416f-8709-d5aec483256f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "NZXT C1200 (2024) Black 1200W Fully Modular 80+ Gold",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "PA-2G2BB-US                                                    PA-2G2BB-EU                                                    PA-2G2BB-AU                                                    PA-2G2BB-UK",
+      "PA-2G2BB-US"
+    ],
+    "series": "C1200",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0D1VDNCT7",
+    "newegg_sku": "N82E16817116054",
+    "bestbuy_sku": 6586155,
+    "walmart_sku": 10066318125,
+    "ibuypower_sku": "30613"
+  }
+}

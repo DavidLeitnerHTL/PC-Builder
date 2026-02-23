@@ -1,0 +1,35 @@
+{
+  "opendb_id": "da8a7560-5212-48b3-aa98-bb33ced586d8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Super Flower Leadex III ARGB White 650W 80+ Gold Certified Fully Modular ATX",
+    "manufacturer": "Super Flower",
+    "part_numbers": [
+      "SF-650F14RG",
+      "SF-650F14RG V2.0",
+      "B08BJZLCP4-localization"
+    ],
+    "series": "Leadex",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08BJZLCP4"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "1739b4f7-bc7e-48e0-b5f6-8fb9032b9314",
+  "metadata": {
+    "name": "Apevia CF12SL-URED 120mm Red Red LED 57.67 CFM 1-Pack",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "CF12SL-URED",
+    "variant": "120mm Red"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 57.67,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

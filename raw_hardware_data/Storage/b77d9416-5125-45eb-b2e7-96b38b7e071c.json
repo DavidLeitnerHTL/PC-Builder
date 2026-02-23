@@ -1,0 +1,22 @@
+{
+  "opendb_id": "b77d9416-5125-45eb-b2e7-96b38b7e071c",
+  "metadata": {
+    "name": "Seagate IronWolf Pro NAS 12TB HDD 7200RPM 3.5\" SATA 6.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST12000NT001"
+    ],
+    "series": "IronWolf",
+    "variant": "12000GB"
+  },
+  "capacity": 12000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0B94KSFTH",
+    "newegg_sku": "N82E16822185075",
+    "walmart_sku": 1344955304
+  }
+}

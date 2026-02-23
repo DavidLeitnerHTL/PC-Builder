@@ -1,0 +1,50 @@
+{
+  "opendb_id": "296774f6-2c83-4ce0-b475-125e4c88c0d1",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 4,
+      "boost": 4.2
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 6
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    },
+    "tdp": 112,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Core i5 7640X 4 GHz 4-Core LGA2066",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80677I57640X"
+    ],
+    "series": "Intel Core i5"
+  },
+  "series": "Intel Core i5",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake-X",
+  "socket": "LGA 2066",
+  "general_product_information": {
+    "amazon_sku": "B071KMBHS8",
+    "newegg_sku": "9SIBMM4KBT5552",
+    "walmart_sku": 885545333
+  }
+}

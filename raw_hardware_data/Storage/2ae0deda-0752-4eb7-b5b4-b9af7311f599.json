@@ -1,0 +1,25 @@
+{
+  "opendb_id": "2ae0deda-0752-4eb7-b5b4-b9af7311f599",
+  "metadata": {
+    "name": "Kingston NV3 2TB SSD M.2-2230 PCIe 4.0 x4 NVMe",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SNV3SM3",
+      "2T0",
+      "SNV3SM3/2T0"
+    ],
+    "series": "NV3",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2230",
+  "interface": "M.2 PCIe 4.0 x4",
+  "cache": null,
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0FD2P1L37",
+    "newegg_sku": "0D9-001B-005C7",
+    "walmart_sku": 17285513545
+  }
+}

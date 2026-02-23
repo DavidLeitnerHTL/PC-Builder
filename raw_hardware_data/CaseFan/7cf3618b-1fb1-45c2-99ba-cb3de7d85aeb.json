@@ -1,0 +1,32 @@
+{
+  "opendb_id": "7cf3618b-1fb1-45c2-99ba-cb3de7d85aeb",
+  "metadata": {
+    "name": "Lian Li UNI FAN CL Wireless 120mm White Addressable RGB PWM 77.34 CFM 3-Pack",
+    "manufacturer": "Lian Li",
+    "part_numbers": [
+      "12CL1W3W"
+    ],
+    "series": "UNI",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 77.34,
+  "max_airflow": null,
+  "min_noise_level": 29.8,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM",
+  "controller": "USB",
+  "static_pressure": 2.52,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0F4XRBLPF",
+    "newegg_sku": "1YF-005G-000R3"
+  }
+}

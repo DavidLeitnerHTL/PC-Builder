@@ -1,0 +1,29 @@
+{
+  "opendb_id": "0b57f38b-5db8-42ad-b9f8-e80b997777af",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec High 750W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "HCG-750M"
+    ],
+    "series": "High",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 170,
+  "fanless": false,
+  "general_product_information": {}
+}

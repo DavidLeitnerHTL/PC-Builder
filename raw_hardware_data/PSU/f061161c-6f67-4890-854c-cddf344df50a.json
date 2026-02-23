@@ -1,0 +1,31 @@
+{
+  "opendb_id": "f061161c-6f67-4890-854c-cddf344df50a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 5,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair Vengeance 650M 650W Semi-Modular 80+ Silver Certified ATX",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020175-NA                                                    CP-9020175-EU                                                    CP-9020175-UK                                                    CP-9020175-AU"
+    ],
+    "series": "Vengeance",
+    "variant": "650W Silver"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Silver",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

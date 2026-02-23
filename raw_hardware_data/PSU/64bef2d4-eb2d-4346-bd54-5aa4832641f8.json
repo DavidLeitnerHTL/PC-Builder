@@ -1,0 +1,32 @@
+{
+  "opendb_id": "64bef2d4-eb2d-4346-bd54-5aa4832641f8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group HYPER K PRO Black / Yellow ATX 700W Non-Modular 80+ Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "HK-700"
+    ],
+    "series": "HYPER",
+    "variant": "700W 80+"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "YELLOW"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

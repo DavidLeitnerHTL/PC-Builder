@@ -1,0 +1,33 @@
+{
+  "opendb_id": "e61d6bc8-c2ef-4021-a40b-6329b234b8b7",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 3,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Athena Power AP-MFATX40P8 Flex ATX 400W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Athena Power",
+    "part_numbers": [
+      "AP-MFATX40P8",
+      "4328505557"
+    ],
+    "series": "AP-MFATX40P8",
+    "variant": "400W Bronze"
+  },
+  "wattage": 400,
+  "form_factor": "Flex ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0137D0TNO",
+    "walmart_sku": 47842658
+  }
+}

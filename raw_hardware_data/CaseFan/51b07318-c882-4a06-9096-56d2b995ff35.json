@@ -1,0 +1,31 @@
+{
+  "opendb_id": "51b07318-c882-4a06-9096-56d2b995ff35",
+  "metadata": {
+    "name": "Antec Tranquil 120mm ARGB PWM",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "TQ 12025 ARGB"
+    ],
+    "series": "Tranquil"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 9.33,
+  "max_airflow": 64.02,
+  "min_noise_level": 18.8,
+  "max_noise_level": 26.9,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "static_pressure": 2.45,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DBZ1XTT1",
+    "walmart_sku": 14196817943,
+    "manufacturer_url": "https://www.antec.com/product/cooling/tranquil-120-argb"
+  }
+}

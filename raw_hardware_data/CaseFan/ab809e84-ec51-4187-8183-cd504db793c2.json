@@ -1,0 +1,33 @@
+{
+  "opendb_id": "ab809e84-ec51-4187-8183-cd504db793c2",
+  "metadata": {
+    "name": "Thermaltake CT140 EX 140mm Green ARGB Sync PWM 90.3 CFM 3-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CL-F197-PL14MG-A"
+    ],
+    "series": "CT140",
+    "variant": "140mm Green"
+  },
+  "size": 140,
+  "color": [
+    "GREEN"
+  ],
+  "quantity": 3,
+  "min_airflow": 90.3,
+  "max_airflow": null,
+  "min_noise_level": 30.7,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 3.07,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D8TJXZ8Z",
+    "newegg_sku": "1YF-001G-004C8",
+    "walmart_sku": 7327709093
+  }
+}

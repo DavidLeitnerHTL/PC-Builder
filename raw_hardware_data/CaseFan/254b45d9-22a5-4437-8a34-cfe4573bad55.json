@@ -1,0 +1,33 @@
+{
+  "opendb_id": "254b45d9-22a5-4437-8a34-cfe4573bad55",
+  "metadata": {
+    "name": "Thermaltake Riing Quad 14 RGB Radiator TT Premium Edition 140mm White RGB PWM 60.17 CFM 3-Pack",
+    "manufacturer": "Thermaltake",
+    "series": "Riing",
+    "variant": "140mm White",
+    "part_numbers": [
+      "CL-F101-PL14SW-B"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 60.17,
+  "max_airflow": null,
+  "min_noise_level": 26.1,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "Proprietary PWM",
+  "controller": "USB",
+  "static_pressure": 1.71,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B083FMB549",
+    "newegg_sku": "N82E16835106627",
+    "bestbuy_sku": 6459386
+  }
+}

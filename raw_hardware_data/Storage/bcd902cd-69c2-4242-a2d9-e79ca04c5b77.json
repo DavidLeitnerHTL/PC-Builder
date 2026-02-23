@@ -1,0 +1,23 @@
+{
+  "opendb_id": "bcd902cd-69c2-4242-a2d9-e79ca04c5b77",
+  "metadata": {
+    "name": "MSI SPATIUM M461 4TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "SPATIUM M461 4TB                                                    SM461N4TB",
+      "824142313848"
+    ],
+    "series": "SPATIUM",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0BZ19KPCX",
+    "newegg_sku": "N82E16820140041",
+    "walmart_sku": 3619848724
+  }
+}

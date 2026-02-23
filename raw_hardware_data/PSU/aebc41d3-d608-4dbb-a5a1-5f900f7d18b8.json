@@ -1,0 +1,29 @@
+{
+  "opendb_id": "aebc41d3-d608-4dbb-a5a1-5f900f7d18b8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Xion XON-700P12F 700W Non-Modular",
+    "manufacturer": "Xion",
+    "part_numbers": [
+      "XON-700P12F"
+    ],
+    "series": "XON-700P12F",
+    "variant": "700W "
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

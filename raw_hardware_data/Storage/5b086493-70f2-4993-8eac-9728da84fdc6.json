@@ -1,0 +1,22 @@
+{
+  "opendb_id": "5b086493-70f2-4993-8eac-9728da84fdc6",
+  "metadata": {
+    "name": "Intel DC P4510 8TB SSD 2.5\" NVMe",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "SSDPE2KX080T801",
+      "INT-SSDPE2KX080T801"
+    ],
+    "series": "DC",
+    "variant": "8000GB"
+  },
+  "capacity": 8000,
+  "type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "U.2",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0782Q4CV9",
+    "walmart_sku": 196321574
+  }
+}

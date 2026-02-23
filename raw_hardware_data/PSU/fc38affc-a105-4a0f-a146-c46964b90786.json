@@ -1,0 +1,35 @@
+{
+  "opendb_id": "fc38affc-a105-4a0f-a146-c46964b90786",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax REVOLUTION D.F. 2 1200W Fully Modular 80+ Gold",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "ERS1200EWT"
+    ],
+    "series": "REVOLUTION",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BYB75CYX",
+    "newegg_sku": "N82E16817194147",
+    "walmart_sku": 3521945622
+  }
+}

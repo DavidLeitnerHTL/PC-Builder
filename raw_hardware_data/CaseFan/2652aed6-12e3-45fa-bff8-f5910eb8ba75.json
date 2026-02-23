@@ -1,0 +1,32 @@
+{
+  "opendb_id": "2652aed6-12e3-45fa-bff8-f5910eb8ba75",
+  "metadata": {
+    "name": "Scythe Wonder Snail 120mm Black PWM 77.23 CFM",
+    "manufacturer": "SCYTHE",
+    "series": "Wonder",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "WS1225FD24-P"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 7.68,
+  "max_airflow": 77.23,
+  "min_noise_level": 3,
+  "max_noise_level": 29.3,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 3.59,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B092Q831JL",
+    "walmart_sku": 2106955685
+  }
+}

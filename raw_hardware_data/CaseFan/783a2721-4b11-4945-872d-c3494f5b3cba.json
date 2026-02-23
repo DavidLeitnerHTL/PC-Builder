@@ -1,0 +1,32 @@
+{
+  "opendb_id": "783a2721-4b11-4945-872d-c3494f5b3cba",
+  "metadata": {
+    "name": "Cooler Master MasterFan MF Halo 120mm White Addressable RGB PWM 47.2 CFM",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MFL-B2DW-18NPA-R1"
+    ],
+    "series": "MasterFan",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 47.2,
+  "max_airflow": null,
+  "min_noise_level": 6,
+  "max_noise_level": 30,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.6,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08BLVCJZG",
+    "walmart_sku": 153994301
+  }
+}

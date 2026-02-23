@@ -1,0 +1,31 @@
+{
+  "opendb_id": "16c8cef1-ac10-439a-8517-b606f7cfbd5b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Montech GAMMA II Black ATX 650W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Montech",
+    "part_numbers": [
+      "GAMMA II 650"
+    ],
+    "series": "GAMMA",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

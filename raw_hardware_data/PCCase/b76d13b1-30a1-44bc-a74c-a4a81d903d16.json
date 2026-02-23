@@ -1,0 +1,48 @@
+{
+  "opendb_id": "b76d13b1-30a1-44bc-a74c-a4a81d903d16",
+  "metadata": {
+    "name": "Silverstone ALTA D1 ATX Full Tower Black Mesh Side Panel",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-ALD1B"
+    ],
+    "series": "ALTA",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-09-05T20:56:10.078Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Full Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Mesh",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB Type-C x 1                                                         USB 3.0 x 2",
+  "max_video_card_length": 407,
+  "max_cpu_cooler_height": 191,
+  "internal_3_5_bays": 4,
+  "internal_2_5_bays": 0,
+  "expansion_slots": 11,
+  "dimensions": "457 x 265 x 651",
+  "volume": 78.839,
+  "weight": 46.95846,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "USB Type-C x 1",
+    "USB 3.0 x 2"
+  ],
+  "dimensions_mm": {
+    "width": 265,
+    "height": 651,
+    "depth": 457,
+    "_id": "68bb4e6c7137c243d3b8b120"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0DJQ73NM8"
+  }
+}

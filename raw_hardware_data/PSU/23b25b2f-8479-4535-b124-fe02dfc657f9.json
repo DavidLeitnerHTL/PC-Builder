@@ -1,0 +1,29 @@
+{
+  "opendb_id": "23b25b2f-8479-4535-b124-fe02dfc657f9",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 5,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Raidmax RX-835AP 835W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Raidmax",
+    "part_numbers": [
+      "RX-835AP"
+    ],
+    "series": "RX-835AP",
+    "variant": "835W Bronze"
+  },
+  "wattage": 835,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,49 @@
+{
+  "opendb_id": "4d736df0-5850-4884-8557-e6268ce0e3bc",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Asus Blue GeForce GT 730 2GB GDDR5 Blue",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "GT730-4H-SL-2GD5",
+      "90YV0H20-M0NA00"
+    ],
+    "series": "GeForce GT 730",
+    "variant": "Asus"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce GT 730",
+  "memory": 2,
+  "memory_type": "GDDR5",
+  "core_base_clock": 902,
+  "core_boost_clock": 927,
+  "effective_memory_clock": 5010,
+  "memory_bus": 0,
+  "interface": "PCIe x1",
+  "color": [
+    "BLUE"
+  ],
+  "length": 148,
+  "tdp": 49,
+  "total_slot_width": 1,
+  "cooling": "Passive",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c84a865ad0c3553ec630"
+  },
+  "core_count": 0,
+  "general_product_information": {
+    "amazon_sku": "B09DVN7QWH"
+  }
+}

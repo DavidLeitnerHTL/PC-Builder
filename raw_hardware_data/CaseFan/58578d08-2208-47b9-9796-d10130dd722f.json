@@ -1,0 +1,34 @@
+{
+  "opendb_id": "58578d08-2208-47b9-9796-d10130dd722f",
+  "metadata": {
+    "name": "Corsair iCUE LINK RX120 MAX Starter Kit 120mm Black PWM 71.6 CFM 3-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9051042-WW"
+    ],
+    "series": "iCUE",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 16.5,
+  "max_airflow": 71.6,
+  "min_noise_level": 10,
+  "max_noise_level": 29.5,
+  "pwm": true,
+  "led": "None",
+  "connector": "Proprietary PWM",
+  "controller": "USB",
+  "static_pressure": 4.18,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D97LL4M2",
+    "newegg_sku": "N82E16835181461",
+    "walmart_sku": 14340750972,
+    "manufacturer_url": "https://www.corsair.com/us/en/p/case-fans/co-9051042-ww/icue-link-rx120-max-120mm-pwm-thick-fans-starter-kit-co-9051042-ww"
+  }
+}

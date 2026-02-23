@@ -1,0 +1,27 @@
+{
+  "opendb_id": "1c98f005-30f8-4518-b256-49b6925187f6",
+  "metadata": {
+    "name": "Phanteks PH-F120SK 120mm Black PWM 50 CFM",
+    "manufacturer": "Phanteks",
+    "part_numbers": [],
+    "series": "PH-F120SK",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 50,
+  "max_airflow": null,
+  "min_noise_level": 27,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

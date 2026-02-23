@@ -1,0 +1,31 @@
+{
+  "opendb_id": "89c73db0-2aba-46e5-a345-898ceadc3ec8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "CoolMax ZX-500 ATX 500W Non-Modular 80+ Certified",
+    "manufacturer": "CoolMax",
+    "part_numbers": [
+      "ZX-500"
+    ],
+    "series": "ZX-500",
+    "variant": "500W 80+"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0075WFDYO"
+  }
+}

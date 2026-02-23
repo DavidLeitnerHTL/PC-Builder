@@ -1,0 +1,53 @@
+{
+  "opendb_id": "e0fdca02-ee89-4ec9-9791-431cfa262918",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "PowerColor Radeon RX 7800 XT Hellhound OC 16GB GDDR6",
+    "manufacturer": "PowerColor",
+    "part_numbers": [
+      "RX 7800 XT 16G-L",
+      "OC                                                    RX7800XT 16GB-L",
+      "OC",
+      "RX7800XT 16G-L/OC"
+    ],
+    "series": "Radeon RX 7800 XT",
+    "variant": "PowerColor"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 7800 XT",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1295,
+  "core_boost_clock": 2520,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 322,
+  "tdp": 263,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 3,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c4e3865ad0c3553e8fb8"
+  },
+  "core_count": 3840,
+  "general_product_information": {
+    "amazon_sku": "B0CFPJY54Q",
+    "bestbuy_sku": 6548537,
+    "walmart_sku": 2494337610
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "d063e3c5-c639-40f6-872f-4162d4dfbade",
+  "metadata": {
+    "name": "Alpenföhn JetStream Slim 120mm Black PWM",
+    "manufacturer": "Alpenföhn",
+    "part_numbers": [],
+    "series": "JetStream",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 52.619,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.2,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

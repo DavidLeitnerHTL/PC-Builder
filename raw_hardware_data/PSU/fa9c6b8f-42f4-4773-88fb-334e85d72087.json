@@ -1,0 +1,31 @@
+{
+  "opendb_id": "fa9c6b8f-42f4-4773-88fb-334e85d72087",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 3,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group FSP300-60GHS-R SFX 300W Non-Modular 80+ Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "FSP300-60GHS-R"
+    ],
+    "series": "FSP300-60GHS-R",
+    "variant": "300W 80+"
+  },
+  "wattage": 300,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "GREY"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {}
+}

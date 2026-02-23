@@ -1,0 +1,47 @@
+{
+  "opendb_id": "f2f91fa3-4c3e-483e-a739-60e784e4b6d4",
+  "metadata": {
+    "name": "Thermaltake Versa H18 Micro ATX Mini Tower Black Acrylic Side Panel",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CA-1J4-00S1WN-00"
+    ],
+    "series": "Versa",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-08-01T18:11:35.306Z"
+  },
+  "supported_motherboard_form_factors": [
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "Micro ATX Mini Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Acrylic",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.0 Type-A                                                    USB 2.0 Type-A",
+  "max_video_card_length": 350,
+  "max_cpu_cooler_height": 155,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 4,
+  "dimensions": "380 x 205 x 390",
+  "volume": 30.381,
+  "weight": null,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "USB 3.0 Type-A",
+    "USB 2.0 Type-A"
+  ],
+  "dimensions_mm": {
+    "width": 205,
+    "height": 390,
+    "depth": 380,
+    "_id": "688d035aa1253a29c4cd6237"
+  },
+  "general_product_information": {
+    "amazon_sku": "B077GFVY21"
+  }
+}

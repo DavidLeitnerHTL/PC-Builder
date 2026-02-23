@@ -1,0 +1,26 @@
+{
+  "opendb_id": "d99e2186-facb-4b00-9919-a2abbd8e256b",
+  "metadata": {
+    "name": "Samsung 990 Pro 4TB M.2 SSD PCIe 4.0 NVMe",
+    "manufacturer": "Samsung",
+    "part_numbers": [
+      "MZ-V9P4T0BW                                                    MZ-V9P4T0B",
+      "AM",
+      "MZ-V9P4T0B/AM"
+    ],
+    "series": "990",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0CHGT1KFJ",
+    "newegg_sku": "N82E16820147879",
+    "bestbuy_sku": 6559270,
+    "walmart_sku": 5075942372,
+    "ibuypower_sku": "28502"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "d614eccf-74ee-443a-9fa5-58d7e933653c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic G12 GM Black / Blue 850W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "G12-GM-850"
+    ],
+    "series": "G12",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "36e8ea94-8f0a-42e6-a40f-fe1d82263635",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! Pure Power 9 ATX 400W Non-Modular 80+ Silver Certified",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN262"
+    ],
+    "series": "Pure",
+    "variant": "400W Silver"
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Silver",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

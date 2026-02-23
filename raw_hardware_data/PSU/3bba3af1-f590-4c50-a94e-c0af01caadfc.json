@@ -1,0 +1,29 @@
+{
+  "opendb_id": "3bba3af1-f590-4c50-a94e-c0af01caadfc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group AURUM S 400W Non-Modular 80+ Gold Certified ATX",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "AURUM S 400W"
+    ],
+    "series": "AURUM",
+    "variant": "400W Gold"
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

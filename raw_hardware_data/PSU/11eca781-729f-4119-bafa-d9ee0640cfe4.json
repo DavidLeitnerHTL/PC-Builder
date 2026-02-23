@@ -1,0 +1,32 @@
+{
+  "opendb_id": "11eca781-729f-4119-bafa-d9ee0640cfe4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 3,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Apevia Raptor Black / Red 450W Non-Modular",
+    "manufacturer": "Apevia",
+    "part_numbers": [
+      "ATX-RP450W"
+    ],
+    "series": "Raptor",
+    "variant": "450W "
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

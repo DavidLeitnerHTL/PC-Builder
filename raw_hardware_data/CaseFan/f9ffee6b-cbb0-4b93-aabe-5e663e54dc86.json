@@ -1,0 +1,27 @@
+{
+  "opendb_id": "f9ffee6b-cbb0-4b93-aabe-5e663e54dc86",
+  "metadata": {
+    "name": "Rosewill RFX-120 120mm Red 87.5 CFM",
+    "manufacturer": "Rosewill",
+    "part_numbers": [],
+    "series": "RFX-120",
+    "variant": "120mm Red"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 87.5,
+  "max_airflow": null,
+  "min_noise_level": 38.15,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

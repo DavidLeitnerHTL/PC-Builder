@@ -1,0 +1,29 @@
+{
+  "opendb_id": "178ce920-bbfe-49a5-a9db-715a9bc167ad",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Super Flower Amazon Certified ATX 550W Non-Modular 80+ Bronze",
+    "manufacturer": "Super Flower",
+    "part_numbers": [
+      "SF-550P14HE"
+    ],
+    "series": "Amazon",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 163,
+  "fanless": false,
+  "general_product_information": {}
+}

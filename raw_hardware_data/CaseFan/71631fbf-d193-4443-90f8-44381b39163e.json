@@ -1,0 +1,28 @@
+{
+  "opendb_id": "71631fbf-d193-4443-90f8-44381b39163e",
+  "metadata": {
+    "name": "Rosewill RWCR-1612 120mm Black / Red PWM Red LED",
+    "manufacturer": "Rosewill",
+    "part_numbers": [],
+    "series": "RWCR-1612",
+    "variant": "120mm Black / Red"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 63.1,
+  "max_airflow": null,
+  "min_noise_level": 6.9,
+  "max_noise_level": 26.2,
+  "pwm": true,
+  "led": "Red",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

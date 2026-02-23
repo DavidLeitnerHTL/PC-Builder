@@ -1,0 +1,50 @@
+{
+  "opendb_id": "4102198f-b559-46e0-8973-5d95592dfdbf",
+  "cores": {
+    "total": 6,
+    "performance": 6,
+    "threads": 6
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.9,
+      "boost": 4.1
+    }
+  },
+  "cache": {
+    "l2": 5,
+    "l3": 9
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel UHD Graphics 630"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Core i5 9400 2.9 GHz 6-Core LGA1151",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80684I59400",
+      "984507"
+    ],
+    "series": "Intel Core i5"
+  },
+  "series": "Intel Core i5",
+  "microarchitecture": "Coffee Lake Refresh",
+  "coreFamily": "Coffee Lake Refresh",
+  "socket": "LGA 1151",
+  "general_product_information": {
+    "amazon_sku": "B07MGZ9FJZ",
+    "newegg_sku": "9SIAGBAKAJ6874"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "opendb_id": "27dcf29e-ab2f-4721-bc16-708dc5bb360e",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Asus ROG Matrix Platinum GeForce RTX 4090 24GB GDDR6X Black / Silver",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "ROG-MATRIX-RTX4090-P24G-GAMING                                                    90YV0ID7-M0NM00"
+    ],
+    "series": "GeForce RTX 4090",
+    "variant": "Asus"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 4090",
+  "memory": 24,
+  "memory_type": "GDDR6X",
+  "core_base_clock": 2670,
+  "core_boost_clock": 2700,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 286,
+  "tdp": 450,
+  "total_slot_width": 3,
+  "cooling": "Water Cooled",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c552865ad0c3553e969e"
+  },
+  "core_count": 16384,
+  "general_product_information": {
+    "amazon_sku": "B0CLTKRK6F"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "5ac723e6-c065-4889-b7d5-200ff012d2d8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 18,
+    "sata": 14,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group CANNON PRO (230V) ATX 2000W Fully Modular 80+ Gold Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "Cannon Pro 2000"
+    ],
+    "series": "CANNON",
+    "variant": "2000W Gold"
+  },
+  "wattage": 2000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 200,
+  "fanless": false,
+  "general_product_information": {}
+}

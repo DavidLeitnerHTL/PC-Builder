@@ -1,0 +1,40 @@
+{
+  "opendb_id": "1eb85571-77c2-4ea2-9217-0b8e03577cc9",
+  "metadata": {
+    "name": "Deepcool LE500 Water 240mm Black",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "R-LE500-BKLNMC-G-1"
+    ],
+    "series": "LE500",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2250,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0B3RX4ZC7"
+  }
+}

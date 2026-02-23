@@ -1,0 +1,36 @@
+{
+  "opendb_id": "c7ed2171-6426-4c68-94d7-fce53df8d1f3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Asus ROG Strix Aura Edition Black 1000W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "ROG-STRIX-1000G-AURA-GAMING                                                    90YE00P1-B0NA00",
+      "ROG-STRIX-1000G-AURA-GAMING"
+    ],
+    "series": "ROG",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CCG8S1VL",
+    "newegg_sku": "N82E16817320038",
+    "walmart_sku": 1551492997
+  }
+}

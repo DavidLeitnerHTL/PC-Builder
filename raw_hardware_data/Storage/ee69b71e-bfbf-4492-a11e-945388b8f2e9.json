@@ -1,0 +1,23 @@
+{
+  "opendb_id": "ee69b71e-bfbf-4492-a11e-945388b8f2e9",
+  "metadata": {
+    "name": "Seagate IronWolf NAS 4TB Internal Hard Drive",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST4000VN008"
+    ],
+    "series": "IronWolf",
+    "variant": "4TB",
+    "releaseYear": 2022
+  },
+  "capacity": 4000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B01LOOJBQY",
+    "newegg_sku": "9SIA5ADK9T7712",
+    "walmart_sku": 117964680
+  }
+}

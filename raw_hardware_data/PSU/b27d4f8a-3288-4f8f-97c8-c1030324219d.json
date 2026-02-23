@@ -1,0 +1,29 @@
+{
+  "opendb_id": "b27d4f8a-3288-4f8f-97c8-c1030324219d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair Vengeance 500 ATX 500W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020107-DE"
+    ],
+    "series": "Vengeance",
+    "variant": "500W Bronze"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

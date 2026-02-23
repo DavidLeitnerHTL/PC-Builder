@@ -1,0 +1,27 @@
+{
+  "opendb_id": "9df17cae-7950-4e29-bb50-098cc9c7c8c8",
+  "metadata": {
+    "name": "PC Cooler Moonlight 120mm Black PWM RGB 54 CFM 5-Pack",
+    "manufacturer": "PC Cooler",
+    "part_numbers": [],
+    "series": "Moonlight",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 5,
+  "min_airflow": 54,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + Proprietary RGB",
+  "controller": "Manual",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

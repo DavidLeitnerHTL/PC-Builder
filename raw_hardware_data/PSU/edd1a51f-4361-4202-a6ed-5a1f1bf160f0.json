@@ -1,0 +1,31 @@
+{
+  "opendb_id": "edd1a51f-4361-4202-a6ed-5a1f1bf160f0",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "In Win A55 Black ATX 550W Non-Modular 80+ Certified",
+    "manufacturer": "In Win",
+    "part_numbers": [
+      "IW-A550"
+    ],
+    "series": "A55",
+    "variant": "550W 80+"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

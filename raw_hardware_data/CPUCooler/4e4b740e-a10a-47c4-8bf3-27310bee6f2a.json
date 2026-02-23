@@ -1,0 +1,45 @@
+{
+  "opendb_id": "4e4b740e-a10a-47c4-8bf3-27310bee6f2a",
+  "metadata": {
+    "name": "EVGA CLCx Water 240mm 73.15 CFM Black",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "400-HY-CX24-V1",
+      "400-HY-CL24-V1"
+    ],
+    "series": "CLCx",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": null,
+  "max_fan_rpm": null,
+  "min_noise_level": 35,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B074WH52BW",
+    "newegg_sku": "N82E16835288009",
+    "walmart_sku": 553308869
+  }
+}

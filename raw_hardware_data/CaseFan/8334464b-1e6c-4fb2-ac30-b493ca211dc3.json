@@ -1,0 +1,34 @@
+{
+  "opendb_id": "8334464b-1e6c-4fb2-ac30-b493ca211dc3",
+  "metadata": {
+    "name": "StarTech FAN12025PWM 120mm Black 78.41 CFM",
+    "manufacturer": "StarTech",
+    "part_numbers": [
+      "FAN12025PWM",
+      "GLC-LH-SMD="
+    ],
+    "series": "FAN12025PWM",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 33.2,
+  "max_airflow": 78.41,
+  "min_noise_level": 17.2,
+  "max_noise_level": 39,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B006G66RAE",
+    "newegg_sku": "N82E16835230044",
+    "walmart_sku": 29951816
+  }
+}

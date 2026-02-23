@@ -1,0 +1,27 @@
+{
+  "opendb_id": "524371b0-7f47-412c-b980-355573fab150",
+  "metadata": {
+    "name": "Xigmatek Crystal 80mm Clear White LED 1-Pack",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "Crystal",
+    "variant": "80mm Clear"
+  },
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 32.6,
+  "max_airflow": null,
+  "min_noise_level": 25,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "56957625-667d-4463-8b1d-78f1cf64e24d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Azza PSAZ-500B12 ATX 500W Non-Modular",
+    "manufacturer": "Azza",
+    "part_numbers": [
+      "PSAZ-500B12"
+    ],
+    "series": "PSAZ-500B12",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "518857b1-42d6-4610-ac57-7ff31b81ec6a",
+  "metadata": {
+    "name": "Intel BXRTS2011AC Air",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BXRTS2011AC"
+    ],
+    "series": "BXRTS2011AC",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 1000,
+  "max_fan_rpm": 3000,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [],
+  "height": null,
+  "cpu_sockets": [
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

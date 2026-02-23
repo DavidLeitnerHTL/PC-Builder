@@ -1,0 +1,57 @@
+{
+  "opendb_id": "4c755ff5-c35b-433b-a2fb-66e65d2ac68e",
+  "cores": {
+    "total": 20,
+    "threads": 28
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.1,
+      "boost": 5.4
+    },
+    "efficiency": {
+      "base": 1.5,
+      "boost": 4.2
+    }
+  },
+  "cache": {
+    "l2": 28,
+    "l3": 33
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel UHD Graphics 770"
+    },
+    "memory": {
+      "maxSupport": 192,
+      "types": [
+        "DDR5",
+        "DDR4"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": true,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "7 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i7 14700 2.1 GHz 20-Core LGA1700",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX8071514700",
+      "14700"
+    ],
+    "series": "Intel Core i7"
+  },
+  "series": "Intel Core i7",
+  "microarchitecture": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Lake Refresh",
+  "socket": "LGA 1700",
+  "general_product_information": {
+    "amazon_sku": "B0CQ1QJZM2",
+    "newegg_sku": "N82E16819118476",
+    "walmart_sku": 5326503950
+  }
+}

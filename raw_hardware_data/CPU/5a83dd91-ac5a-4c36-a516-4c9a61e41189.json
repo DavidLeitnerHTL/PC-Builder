@@ -1,0 +1,46 @@
+{
+  "opendb_id": "5a83dd91-ac5a-4c36-a516-4c9a61e41189",
+  "cores": {
+    "total": 2,
+    "performance": 2,
+    "threads": 2
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.5,
+      "boost": 3.9
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD Athlon X2 350 3.5 GHz 2-Core FM2 OEM/Tray",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD350XOKA23HL"
+    ],
+    "series": "AMD Athlon X2"
+  },
+  "series": "AMD Athlon X2",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
+  "general_product_information": {}
+}

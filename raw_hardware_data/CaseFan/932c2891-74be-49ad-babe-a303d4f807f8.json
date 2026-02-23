@@ -1,0 +1,32 @@
+{
+  "opendb_id": "932c2891-74be-49ad-babe-a303d4f807f8",
+  "metadata": {
+    "name": "be quiet! Pure Wings 2 92mm Black PWM 33.15 CFM 1-Pack",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "DPMDPHD2HD"
+    ],
+    "series": "Pure",
+    "variant": "92mm Black"
+  },
+  "size": 92,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 33.15,
+  "max_airflow": null,
+  "min_noise_level": 19.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.65,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B017NL8WYE",
+    "walmart_sku": 48957888
+  }
+}

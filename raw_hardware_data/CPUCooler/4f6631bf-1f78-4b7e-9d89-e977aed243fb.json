@@ -1,0 +1,49 @@
+{
+  "opendb_id": "4f6631bf-1f78-4b7e-9d89-e977aed243fb",
+  "metadata": {
+    "name": "Fractal Design Celsius S36 Water 360mm 87.6 CFM",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-WCU-CELSIUS-S36-BK                                                    WCU-CELSIUS-S36-BK",
+      "FD-WCU-CELSIUS-S36-BK"
+    ],
+    "series": "Celsius",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2000,
+  "min_noise_level": 32.2,
+  "max_noise_level": null,
+  "color": [],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0725KY3N7",
+    "walmart_sku": 394135156
+  }
+}

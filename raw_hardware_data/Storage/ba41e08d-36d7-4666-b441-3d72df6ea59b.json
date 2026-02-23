@@ -1,0 +1,20 @@
+{
+  "opendb_id": "ba41e08d-36d7-4666-b441-3d72df6ea59b",
+  "metadata": {
+    "name": "Hitachi HUC101212CSS600 1.2TB 2.5\" HDD 10000RPM SAS",
+    "manufacturer": "Hitachi",
+    "part_numbers": [
+      "0B25168"
+    ],
+    "series": "HUC101212CSS600",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "HDD",
+  "form_factor": "2.5\"",
+  "interface": "SAS 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B00B96LSDW"
+  }
+}

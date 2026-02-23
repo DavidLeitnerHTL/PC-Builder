@@ -1,0 +1,28 @@
+{
+  "opendb_id": "91e2979d-75bd-4785-9460-c80ccdb55c8d",
+  "metadata": {
+    "name": "ARCTIC F Silent 80mm White / Black",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [],
+    "series": "F",
+    "variant": "80mm White / Black"
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 15.1,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

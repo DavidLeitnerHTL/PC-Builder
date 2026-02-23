@@ -1,0 +1,21 @@
+{
+  "opendb_id": "6e23cd00-79ba-4b67-ad07-599b3c48b7f4",
+  "metadata": {
+    "name": "KIOXIA EXCERIA w/Heatsink 1TB M.2 SSD PCIe 4.0 NVMe",
+    "manufacturer": "KIOXIA",
+    "part_numbers": [
+      "LSC11K1T02G8"
+    ],
+    "series": "EXCERIA",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "cache": null,
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0D5QC69JP"
+  }
+}

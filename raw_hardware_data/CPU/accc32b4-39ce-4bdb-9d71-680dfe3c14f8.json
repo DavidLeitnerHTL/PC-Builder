@@ -1,0 +1,46 @@
+{
+  "opendb_id": "accc32b4-39ce-4bdb-9d71-680dfe3c14f8",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 4.7,
+      "boost": 5
+    }
+  },
+  "cache": {
+    "l2": 8,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 220,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD FX 9590 4.7 GHz 8-Core AM3+",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "FD9590FHHKWOX"
+    ],
+    "series": "AMD FX"
+  },
+  "series": "AMD FX",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Vishera",
+  "socket": "AM3+",
+  "general_product_information": {}
+}

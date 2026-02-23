@@ -1,0 +1,34 @@
+{
+  "opendb_id": "ef8f4a46-f7c3-4f77-9034-bde71bfe0379",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 14,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic VERTEX PX-750 Black / Silver 750W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "VERTEX PX-750"
+    ],
+    "series": "VERTEX",
+    "variant": "750W Platinum"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0C572J6MZ"
+  }
+}

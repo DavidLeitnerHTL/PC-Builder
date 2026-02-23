@@ -1,0 +1,20 @@
+{
+  "opendb_id": "43ab3154-021f-4732-b109-2fb2635b834f",
+  "metadata": {
+    "name": "ADATA XPG SX8200 Pro 1TB SSD M.2-2280 PCIe 3.0 x4 NVMe",
+    "manufacturer": "ADATA",
+    "part_numbers": [
+      "ASX8200PNP-1TT-C"
+    ],
+    "series": "XPG",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B07K1J3C23"
+  }
+}

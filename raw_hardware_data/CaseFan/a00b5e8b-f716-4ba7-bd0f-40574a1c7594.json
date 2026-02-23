@@ -1,0 +1,32 @@
+{
+  "opendb_id": "a00b5e8b-f716-4ba7-bd0f-40574a1c7594",
+  "metadata": {
+    "name": "Thermalright TL-C12C-S 120mm Black PWM ARGB 5-Pack",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "TL-C12C-S X5",
+      "C12C-S X5-D1"
+    ],
+    "series": "TL-C12C-S",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 5,
+  "min_airflow": 66.17,
+  "max_airflow": null,
+  "min_noise_level": 25.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.53,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D9N6WS94"
+  }
+}

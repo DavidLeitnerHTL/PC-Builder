@@ -1,0 +1,27 @@
+{
+  "opendb_id": "85906a55-a054-4d1b-b2d6-074bab809122",
+  "metadata": {
+    "name": "Cougar Dual-X 140mm Green 73.18 CFM",
+    "manufacturer": "COUGAR",
+    "part_numbers": [],
+    "series": "Dual-X",
+    "variant": "140mm Green"
+  },
+  "size": 140,
+  "color": [
+    "GREEN"
+  ],
+  "quantity": 1,
+  "min_airflow": 73.18,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Green",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,51 @@
+{
+  "opendb_id": "6f26463d-b846-43af-9b16-523ac398be66",
+  "cores": {
+    "total": 14,
+    "performance": 14,
+    "threads": 28
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.3,
+      "boost": 4.8
+    }
+  },
+  "cache": {
+    "l2": 14,
+    "l3": 25
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 256,
+      "types": []
+    },
+    "tdp": 165,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i9 10940X 3.3 GHz 14-Core LGA2066",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX8069510940X"
+    ],
+    "series": "Intel Core i9"
+  },
+  "series": "Intel Core i9",
+  "microarchitecture": "Cascade Lake",
+  "coreFamily": "Cascade Lake-X",
+  "socket": "LGA 2066",
+  "general_product_information": {
+    "amazon_sku": "B07YP67PFV",
+    "newegg_sku": "N82E16819118109",
+    "bestbuy_sku": 6387647,
+    "walmart_sku": 745979071
+  }
+}

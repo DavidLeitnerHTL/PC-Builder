@@ -1,0 +1,34 @@
+{
+  "opendb_id": "87cf7830-87db-4a9a-a9c7-348deaef97f2",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "KOLINK Classic Black / Red 600W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "KOLINK",
+    "part_numbers": [
+      "KL-600v2"
+    ],
+    "series": "Classic",
+    "variant": "600W Bronze"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07ZK29K8M"
+  }
+}

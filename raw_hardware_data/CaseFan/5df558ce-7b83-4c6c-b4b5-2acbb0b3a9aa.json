@@ -1,0 +1,27 @@
+{
+  "opendb_id": "5df558ce-7b83-4c6c-b4b5-2acbb0b3a9aa",
+  "metadata": {
+    "name": "Enermax D.F. Vegas Duo 120mm Clear Multicolor 71.76 CFM",
+    "manufacturer": "Enermax",
+    "part_numbers": [],
+    "series": "D.F.",
+    "variant": "120mm Clear"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 33.26,
+  "max_airflow": 71.76,
+  "min_noise_level": 16,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Multicolor",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

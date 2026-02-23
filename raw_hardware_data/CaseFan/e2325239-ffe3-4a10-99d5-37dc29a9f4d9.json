@@ -1,0 +1,31 @@
+{
+  "opendb_id": "e2325239-ffe3-4a10-99d5-37dc29a9f4d9",
+  "metadata": {
+    "name": "be quiet! Pure Wings 2 120mm Black 65.51 CFM 1-Pack",
+    "manufacturer": "be quiet!",
+    "series": "Pure",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "BL080"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 65.51,
+  "max_airflow": null,
+  "min_noise_level": 35.9,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 2.23,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07M7TGY9Y"
+  }
+}

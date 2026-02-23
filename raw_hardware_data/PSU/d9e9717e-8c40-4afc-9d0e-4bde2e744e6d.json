@@ -1,0 +1,34 @@
+{
+  "opendb_id": "d9e9717e-8c40-4afc-9d0e-4bde2e744e6d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair TX750 V2 750W Non-Modular 80+ Bronze",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "TX750 V2                                                    CP-9020042-NA",
+      "CMPSU-750TXV2",
+      "CP-9020042-NA"
+    ],
+    "series": "TX750",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B004MYFODI",
+    "walmart_sku": 16318802
+  }
+}

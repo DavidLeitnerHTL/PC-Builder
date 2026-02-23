@@ -1,0 +1,32 @@
+{
+  "opendb_id": "d1be1953-9ed9-4d95-8fff-1c17325eb2da",
+  "metadata": {
+    "name": "Iceberg Thermal IceGALE Xtra 80mm Black / White PWM 1-Pack",
+    "manufacturer": "Iceberg Thermal",
+    "part_numbers": [
+      "ICEGALE08D-C0A"
+    ],
+    "series": "IceGALE",
+    "variant": "80mm Black / White"
+  },
+  "size": 80,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 37,
+  "max_airflow": null,
+  "min_noise_level": 0,
+  "max_noise_level": 29,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.91,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08L42MGPQ"
+  }
+}

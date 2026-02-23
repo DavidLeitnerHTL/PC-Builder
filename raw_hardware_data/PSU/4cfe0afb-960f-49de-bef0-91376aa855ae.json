@@ -1,0 +1,31 @@
+{
+  "opendb_id": "4cfe0afb-960f-49de-bef0-91376aa855ae",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 18,
+    "sata": 8,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "GameMax GM Black ATX 1800W Non-Modular 80+ Gold Certified",
+    "manufacturer": "GameMax",
+    "part_numbers": [
+      "GM-1800"
+    ],
+    "series": "GM",
+    "variant": "1800W Gold"
+  },
+  "wattage": 1800,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 230,
+  "fanless": false,
+  "general_product_information": {}
+}

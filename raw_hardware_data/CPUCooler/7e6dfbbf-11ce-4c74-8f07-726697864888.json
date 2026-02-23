@@ -1,0 +1,38 @@
+{
+  "opendb_id": "7e6dfbbf-11ce-4c74-8f07-726697864888",
+  "metadata": {
+    "name": "Cooler Master V10 Hybrid TEC 90 CFM Air 120mm",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "RR-B2P-UV10-GP"
+    ],
+    "series": "V10",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 800,
+  "max_fan_rpm": 2400,
+  "min_noise_level": 17,
+  "max_noise_level": null,
+  "color": [],
+  "height": 120,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 775"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

@@ -1,0 +1,36 @@
+{
+  "opendb_id": "759bef40-396d-4dc4-a1aa-5dbaa16fa6cf",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "NZXT C650 (2022) ATX 650W Fully Modular 80+ Gold Certified",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "PA-6G1BB-US                                                    PA-6G1BB-UK                                                    PA-6G1BB-EU                                                    PA-6G1BB-AU                                                    PA-6G1BB-JP                                                    PA-6G1BB-WO",
+      "PA-6B1BB-US"
+    ],
+    "series": "C650",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B09H3KMQZ6",
+    "newegg_sku": "9SIB8AKK6P7292",
+    "walmart_sku": 643720649
+  }
+}

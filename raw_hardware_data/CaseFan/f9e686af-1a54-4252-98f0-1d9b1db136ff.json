@@ -1,0 +1,25 @@
+{
+  "opendb_id": "f9e686af-1a54-4252-98f0-1d9b1db136ff",
+  "metadata": {
+    "name": "Aerocool Project 7 12 120mm RGB 45.8 CFM 1-Pack",
+    "manufacturer": "AeroCool",
+    "part_numbers": [],
+    "series": "Project",
+    "variant": "120mm "
+  },
+  "size": 120,
+  "color": [],
+  "quantity": 1,
+  "min_airflow": 45.8,
+  "max_airflow": null,
+  "min_noise_level": 14.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "RGB",
+  "connector": "3-pin + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 1.01,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

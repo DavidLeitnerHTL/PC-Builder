@@ -1,0 +1,32 @@
+{
+  "opendb_id": "bb75b02e-0822-4b94-8fde-b12eb928b08d",
+  "metadata": {
+    "name": "Noctua A20 200mm Brown PWM 86.46 CFM",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-A20PWM"
+    ],
+    "series": "A20",
+    "variant": "200mm Brown"
+  },
+  "size": 200,
+  "color": [
+    "BROWN"
+  ],
+  "quantity": 1,
+  "min_airflow": 59.33,
+  "max_airflow": 86.46,
+  "min_noise_level": 10.7,
+  "max_noise_level": 18.1,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.08,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B071SLFBNY",
+    "newegg_sku": "1YF-000T-00088"
+  }
+}

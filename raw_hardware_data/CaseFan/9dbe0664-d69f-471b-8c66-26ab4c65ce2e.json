@@ -1,0 +1,32 @@
+{
+  "opendb_id": "9dbe0664-d69f-471b-8c66-26ab4c65ce2e",
+  "metadata": {
+    "name": "NZXT F120Q (2022) 64 CFM 120mm Black PWM 1-Pack",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RF-Q12SF-B1"
+    ],
+    "series": "F120Q",
+    "releaseYear": 2022
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 27.77,
+  "max_airflow": 64,
+  "min_noise_level": 16.7,
+  "max_noise_level": 22.5,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.08,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0B1LLKR2G",
+    "walmart_sku": 298271451
+  }
+}

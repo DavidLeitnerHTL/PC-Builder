@@ -1,0 +1,41 @@
+{
+  "opendb_id": "909fb0d2-00c6-4bde-8b89-1759fe34fe1a",
+  "metadata": {
+    "name": "Cooler Master Elite White Water 84.2 CFM 240mm White",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "ELW-D24M-A21DA-RW"
+    ],
+    "series": "Elite",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 600,
+  "max_fan_rpm": 2100,
+  "min_noise_level": 39.5,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": 52,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B09464Z8G9",
+    "newegg_sku": "N82E16835103322"
+  }
+}

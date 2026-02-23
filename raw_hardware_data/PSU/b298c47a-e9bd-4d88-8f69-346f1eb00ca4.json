@@ -1,0 +1,38 @@
+{
+  "opendb_id": "b298c47a-e9bd-4d88-8f69-346f1eb00ca4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group Hydro PTM X PRO Gen5 Black 1000W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "HPT3-1000M-G5HPT3-1000M",
+      "Gen5PPA10A3607",
+      "HPT3-1000M-G5",
+      "PPA10A3607"
+    ],
+    "series": "Hydro",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 130,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BTTV6RXH",
+    "newegg_sku": "1HU-0095-000Y6",
+    "walmart_sku": 2057709926
+  }
+}

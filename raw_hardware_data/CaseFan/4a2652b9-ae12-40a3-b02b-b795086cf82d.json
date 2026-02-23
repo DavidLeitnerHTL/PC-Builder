@@ -1,0 +1,28 @@
+{
+  "opendb_id": "4a2652b9-ae12-40a3-b02b-b795086cf82d",
+  "metadata": {
+    "name": "Titan TFD-9515M12ZP 95mm Black / White PWM 52.95 CFM 1-Pack",
+    "manufacturer": "Titan",
+    "part_numbers": [],
+    "series": "TFD-9515M12ZP",
+    "variant": "95mm Black / White"
+  },
+  "size": 95,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 52.95,
+  "max_airflow": null,
+  "min_noise_level": 5,
+  "max_noise_level": 28.6,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

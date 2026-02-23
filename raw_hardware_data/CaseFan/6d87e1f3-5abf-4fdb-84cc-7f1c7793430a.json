@@ -1,0 +1,32 @@
+{
+  "opendb_id": "6d87e1f3-5abf-4fdb-84cc-7f1c7793430a",
+  "metadata": {
+    "name": "Thermalright TL-C12C-S X3 120mm Black Addressable RGB PWM 66.17 CFM 3-Pack",
+    "manufacturer": "Thermalright",
+    "series": "TL-C12C-S",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "TL-C12C-S X3 D6"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 66.17,
+  "max_airflow": null,
+  "min_noise_level": 25.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.53,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BKJJM5M2",
+    "walmart_sku": 3372988441
+  }
+}

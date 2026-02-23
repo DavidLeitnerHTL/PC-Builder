@@ -1,0 +1,27 @@
+{
+  "opendb_id": "390f7142-3683-4c7e-8767-08f28bbfcc8d",
+  "metadata": {
+    "name": "Silverstone Air Nexus 120mm Addressable RGB PWM 60.4 CFM White 3-Pack",
+    "manufacturer": "SilverStone",
+    "part_numbers": [],
+    "series": "Air",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 60.4,
+  "max_airflow": null,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.4,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

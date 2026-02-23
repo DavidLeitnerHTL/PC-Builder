@@ -1,0 +1,29 @@
+{
+  "opendb_id": "2223a63d-e759-4c74-b8c5-196acde2080b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Apevia ATX-CB700W ATX 700W Non-Modular",
+    "manufacturer": "Apevia",
+    "part_numbers": [
+      "ATX-CB700W"
+    ],
+    "series": "ATX-CB700W",
+    "variant": "700W "
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 154,
+  "fanless": false,
+  "general_product_information": {}
+}

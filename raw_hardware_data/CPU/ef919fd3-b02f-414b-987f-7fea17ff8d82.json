@@ -1,0 +1,51 @@
+{
+  "opendb_id": "ef919fd3-b02f-414b-987f-7fea17ff8d82",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 4.3,
+      "boost": 4.5
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    },
+    "tdp": 112,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i7 7740X 4.3 GHz 4-Core LGA2066",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80677I77740X",
+      "i7-7740X"
+    ],
+    "series": "Intel Core i7"
+  },
+  "series": "Intel Core i7",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake-X",
+  "socket": "LGA 2066",
+  "general_product_information": {
+    "amazon_sku": "B072KTRQ9G",
+    "newegg_sku": "9SIBMM4KBA9546",
+    "walmart_sku": 303078782
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "31d52470-985b-4c38-862f-343cd403fb86",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 14,
+    "molex_4_pin": 7,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Seasonic PRIME PX ATX 850W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "PRIME-PX-850"
+    ],
+    "series": "PRIME",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 170,
+  "fanless": false,
+  "general_product_information": {}
+}

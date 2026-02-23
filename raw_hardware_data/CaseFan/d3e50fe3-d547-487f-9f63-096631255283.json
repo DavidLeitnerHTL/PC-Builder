@@ -1,0 +1,33 @@
+{
+  "opendb_id": "d3e50fe3-d547-487f-9f63-096631255283",
+  "metadata": {
+    "name": "ARCTIC BioniX 120mm Black PWM A-RGB",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00146A"
+    ],
+    "series": "BioniX",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 48,
+  "max_airflow": null,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.1,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08FBG88LL",
+    "newegg_sku": "9SIA2W0JJY3763",
+    "walmart_sku": 533941438
+  }
+}

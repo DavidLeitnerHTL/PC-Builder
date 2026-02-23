@@ -1,0 +1,32 @@
+{
+  "opendb_id": "67ad1524-4074-48ee-a2d0-1c2a9cd3ad51",
+  "metadata": {
+    "name": "ID-COOLING IS-30A Air 40 CFM 30mm Black / Silver",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [
+      "IS-30A"
+    ],
+    "series": "IS-30A",
+    "variant": "Black / Silver",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 800,
+  "max_fan_rpm": 3600,
+  "min_noise_level": 17,
+  "max_noise_level": 35.8,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "height": 30,
+  "cpu_sockets": [
+    "AM4",
+    "AM5"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "81e343af-73fc-4cd1-96f8-e2eb05828c1c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "CoolMax CL-500B ATX 500W Non-Modular",
+    "manufacturer": "CoolMax",
+    "part_numbers": [
+      "CL-500B",
+      "14741"
+    ],
+    "series": "CL-500B",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B002PZTIV0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "opendb_id": "cc329b1a-917a-4b50-b652-36eb4a6b5789",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.8,
+      "boost": 4.2
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel HD Graphics P630"
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    },
+    "tdp": 73,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E3 1275 V6 3.8 GHz 4-Core LGA1151 OEM/Tray",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8067702870931"
+    ],
+    "series": "Intel Xeon E3"
+  },
+  "series": "Intel Xeon E3",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake-S",
+  "socket": "LGA 1151",
+  "general_product_information": {
+    "amazon_sku": "B06Y42CRV8",
+    "walmart_sku": 884256655
+  }
+}

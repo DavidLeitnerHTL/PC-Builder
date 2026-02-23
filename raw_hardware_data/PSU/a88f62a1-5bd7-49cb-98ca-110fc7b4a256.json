@@ -1,0 +1,31 @@
+{
+  "opendb_id": "a88f62a1-5bd7-49cb-98ca-110fc7b4a256",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA SuperNOVA 550 GT Black 550W Fully Modular 80+ Gold Certified",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "220-GT-0550-Y1"
+    ],
+    "series": "SuperNOVA",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

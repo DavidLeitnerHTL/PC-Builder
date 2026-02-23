@@ -1,0 +1,29 @@
+{
+  "opendb_id": "a6d6a341-d1b1-4b3a-8e4b-6d8bd1e20ee0",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA 450 B3 450W 80+ Bronze Fully Modular",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "220-B3-0450-V1                                                    220-B3-0450-V2                                                    220-B3-0450-V3"
+    ],
+    "series": "450",
+    "variant": "450W Bronze"
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Full",
+  "color": [],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,50 @@
+{
+  "opendb_id": "cdcb72d4-35c8-4ff6-b463-d1d82b6f7619",
+  "power_connectors": {
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "EVGA SC ULTRA GAMING GeForce GTX 1650 G6 4GB GDDR6 Black",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "04G-P4-1257-KR"
+    ],
+    "series": "GeForce GTX 1650 G6",
+    "variant": "EVGA"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce GTX 1650",
+  "memory": 4,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1410,
+  "core_boost_clock": 1710,
+  "effective_memory_clock": 12000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 202,
+  "tdp": 75,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 1,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 2,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c5a5865ad0c3553e9bb3"
+  },
+  "core_count": 0,
+  "general_product_information": {
+    "amazon_sku": "B085WV18XN",
+    "newegg_sku": "9SIAKRFH2Y8914",
+    "walmart_sku": 158074754
+  }
+}

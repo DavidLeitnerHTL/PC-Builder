@@ -1,0 +1,33 @@
+{
+  "opendb_id": "374c97a3-9ca9-4c70-8d64-bb4f6588e4a9",
+  "metadata": {
+    "name": "Lian Li UNI FAN SL-INF 120mm Black Wireless PWM ARGB 3-Pack Reverse",
+    "manufacturer": "Lian Li",
+    "part_numbers": [
+      "12RSLIN1W3B"
+    ],
+    "series": "UNI",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 69.7,
+  "max_airflow": null,
+  "min_noise_level": 32.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM",
+  "controller": "USB",
+  "static_pressure": 2.2,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DY7WLXN3",
+    "newegg_sku": "1YF-005G-000P1",
+    "walmart_sku": 17227255204
+  }
+}

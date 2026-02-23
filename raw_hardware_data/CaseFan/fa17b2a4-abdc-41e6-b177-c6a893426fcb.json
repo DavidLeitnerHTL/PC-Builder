@@ -1,0 +1,28 @@
+{
+  "opendb_id": "fa17b2a4-abdc-41e6-b177-c6a893426fcb",
+  "metadata": {
+    "name": "Thermaltake Luna Slim 140mm Black/Red Red LED",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [],
+    "series": "Luna",
+    "variant": "140mm Black / Red"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 38.59,
+  "max_airflow": null,
+  "min_noise_level": 24,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "52f33f0e-a120-43a4-9bc7-5cd74108f52a",
+  "metadata": {
+    "name": "upHere 12WT3-3-UK 120mm White 38 CFM 3-Pack",
+    "manufacturer": "upHere",
+    "part_numbers": [],
+    "series": "12WT3-3-UK",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 38,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

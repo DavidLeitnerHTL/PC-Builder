@@ -1,0 +1,31 @@
+{
+  "opendb_id": "982af11e-327a-48f2-9001-5bc0ec32aa8b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA 550 GD Black 550W Non-Modular 80+ Gold",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "100-GD-0550-V2                                                    100-GD-0550-V1                                                    100-GD-0550-V3"
+    ],
+    "series": "550",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

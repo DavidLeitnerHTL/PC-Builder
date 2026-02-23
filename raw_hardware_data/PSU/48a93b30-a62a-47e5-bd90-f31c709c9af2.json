@@ -1,0 +1,29 @@
+{
+  "opendb_id": "48a93b30-a62a-47e5-bd90-f31c709c9af2",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master i700 ATX 700W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "RS700-ACAAB1-US"
+    ],
+    "series": "i700",
+    "variant": "700W Bronze"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

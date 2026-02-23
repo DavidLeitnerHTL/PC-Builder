@@ -1,0 +1,31 @@
+{
+  "opendb_id": "917db8bd-46b9-43c9-876e-9c86d047fa75",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone NJ600 Silver Fanless ATX 600W Fully Modular 80+ Titanium Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-NJ600"
+    ],
+    "series": "NJ600",
+    "variant": "600W Titanium"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Titanium",
+  "modular": "Full",
+  "color": [
+    "GREY"
+  ],
+  "length": 170,
+  "fanless": true,
+  "general_product_information": {}
+}

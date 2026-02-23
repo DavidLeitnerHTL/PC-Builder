@@ -1,0 +1,29 @@
+{
+  "opendb_id": "fb22c919-c3a2-4713-8a32-abc5e31ca2bf",
+  "metadata": {
+    "name": "Scythe Slipstream 120mm Black 4.5 CFM",
+    "manufacturer": "SCYTHE",
+    "part_numbers": [],
+    "series": "Slipstream",
+    "variant": "120mm Black"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 4.5,
+  "max_airflow": null,
+  "min_noise_level": 7.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {
+    "newegg_sku": "1YF-0015-00009"
+  }
+}

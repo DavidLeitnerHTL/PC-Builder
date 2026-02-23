@@ -1,0 +1,31 @@
+{
+  "opendb_id": "b51de56a-7c74-4fb9-9a6d-2ee4e9953f11",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Deepcool PM650D Black ATX 650W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "R-PM650D-FA0B-US                                                    R-PM650D-FA0B-JP                                                    R-PM650D-FA0B-WO                                                    R-PM650D-FA0B-BR                                                    R-PM650D-FA0B-BU                                                    R-PM650D-FA0B-UK                                                    R-PM650D-FA0B-EU                                                    R-PM650D-FA0B-CN                                                    R-PM650D-FA0B-AR                                                    R-PM650D-FA0B-AU"
+    ],
+    "series": "PM650D",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "b6a631a9-9324-4f34-bf3d-237e496cea71",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ARESGAME AGV 650W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "ARESGAME",
+    "part_numbers": [
+      "AGV650",
+      "HU-XI-201"
+    ],
+    "series": "AGV",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0B4MVDRX4"
+  }
+}

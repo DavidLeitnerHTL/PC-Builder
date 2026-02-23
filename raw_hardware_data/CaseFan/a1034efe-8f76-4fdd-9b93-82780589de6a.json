@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a1034efe-8f76-4fdd-9b93-82780589de6a",
+  "metadata": {
+    "name": "Cougar Dual-X 140mm Red Red LED 73.18 CFM",
+    "manufacturer": "COUGAR",
+    "part_numbers": [],
+    "series": "Dual-X",
+    "variant": "140mm Red"
+  },
+  "size": 140,
+  "color": [
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 73.18,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

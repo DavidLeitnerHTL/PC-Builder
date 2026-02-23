@@ -1,0 +1,28 @@
+{
+  "opendb_id": "0e47513e-cebe-450c-9cbd-44ccb49826b4",
+  "metadata": {
+    "name": "ARCTIC F8 80mm White / Black PWM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [],
+    "series": "F8",
+    "variant": "80mm White / Black"
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 31,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

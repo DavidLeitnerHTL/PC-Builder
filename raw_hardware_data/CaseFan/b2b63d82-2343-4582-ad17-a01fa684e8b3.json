@@ -1,0 +1,27 @@
+{
+  "opendb_id": "b2b63d82-2343-4582-ad17-a01fa684e8b3",
+  "metadata": {
+    "name": "Xion Alphawing 140mm Black Blue 59.6 CFM",
+    "manufacturer": "Xion",
+    "part_numbers": [],
+    "series": "Alphawing",
+    "variant": "140mm Black"
+  },
+  "isOEM": false,
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 59.6,
+  "max_airflow": null,
+  "min_noise_level": 18.6,
+  "max_noise_level": 23.3,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

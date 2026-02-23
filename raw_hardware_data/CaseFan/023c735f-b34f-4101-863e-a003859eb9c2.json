@@ -1,0 +1,32 @@
+{
+  "opendb_id": "023c735f-b34f-4101-863e-a003859eb9c2",
+  "metadata": {
+    "name": "StarTech FANBOX 92mm Black 39.35CFM",
+    "manufacturer": "StarTech",
+    "part_numbers": [
+      "99999"
+    ],
+    "series": "FANBOX",
+    "variant": "92mm Black"
+  },
+  "size": 92,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 39.35,
+  "max_airflow": null,
+  "min_noise_level": 26,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0006L2HTK",
+    "newegg_sku": "N82E16835230026"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "d1dbfd3c-1302-41f1-8ab7-0d240ed43e1d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec True 650W Non-Modular 80+ Gold",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "TP-650C                                                    0-761345-07705-7                                                    TPC-650"
+    ],
+    "series": "True",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

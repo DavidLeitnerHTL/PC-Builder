@@ -1,0 +1,33 @@
+{
+  "opendb_id": "f75b85a2-c99a-4b60-96bc-e624dc9182e3",
+  "metadata": {
+    "name": "Silverstone AP 180mm Black PWM 1-Pack 140.13 CFM",
+    "manufacturer": "SilverStone",
+    "part_numbers": [
+      "SST-AP183"
+    ],
+    "series": "AP",
+    "variant": "180mm Black"
+  },
+  "size": 180,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 24.49,
+  "max_airflow": 140.13,
+  "min_noise_level": 18,
+  "max_noise_level": 37,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 3.17,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07QSD2ZC6",
+    "newegg_sku": "N82E16835220149",
+    "walmart_sku": 254294327
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "opendb_id": "a07795bb-ea74-44ee-ae41-27d00ea59cdc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 7,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec CSK Black / Yellow 550W Non-Modular 80+ Bronze Certified ATX",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "CSK550                                                    X5000A253HC-20                                                    0-761345-11741-8                                                    CSK550 AU",
+      "0-761345-11739-5"
+    ],
+    "series": "CSK",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "YELLOW"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B091DS1MM6"
+  }
+}

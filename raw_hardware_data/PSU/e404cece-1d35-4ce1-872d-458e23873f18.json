@@ -1,0 +1,34 @@
+{
+  "opendb_id": "e404cece-1d35-4ce1-872d-458e23873f18",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Vetroo CP-PSU-VT-850W-SFX Black SFX 850W Fully Modular 80+ Gold",
+    "manufacturer": "Vetroo",
+    "part_numbers": [
+      "CP-PSU-VT-850W-SFX (BK)",
+      "850SFX"
+    ],
+    "series": "CP-PSU-VT-850W-SFX",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 99,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0F43RWFL2"
+  }
+}

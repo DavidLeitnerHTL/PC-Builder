@@ -1,0 +1,53 @@
+{
+  "opendb_id": "ce0c1a6d-9686-4e70-ad16-583471e47758",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Gigabyte GeForce RTX 3070 Ti Vision OC 8GB GDDR6X White / Silver",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GV-N307TVISION OC-8GD",
+      "GVN307TVISIONOC8GD"
+    ],
+    "series": "GeForce RTX 3070 Ti",
+    "variant": "Gigabyte"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 3070 Ti",
+  "memory": 8,
+  "memory_type": "GDDR6X",
+  "core_base_clock": 1575,
+  "core_boost_clock": 1830,
+  "effective_memory_clock": 19000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
+  "length": 320,
+  "tdp": 290,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 2,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 2,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c5b1865ad0c3553e9c74"
+  },
+  "core_count": 6144,
+  "general_product_information": {
+    "amazon_sku": "B097G7KYJ2",
+    "newegg_sku": "N82E16814932442R",
+    "bestbuy_sku": 6467785,
+    "walmart_sku": 150865724
+  }
+}

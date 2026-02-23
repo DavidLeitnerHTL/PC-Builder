@@ -1,0 +1,31 @@
+{
+  "opendb_id": "d37d81b2-f03a-4385-bff5-245db03e21f5",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermalright AG-850 Black 850W Fully Modular 80+ Gold",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "AG-850                                                    TR-AG850"
+    ],
+    "series": "AG-850",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,50 @@
+{
+  "opendb_id": "85614f1f-2102-4099-ab88-7ff3af4d5b16",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 16
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.1,
+      "boost": 3
+    }
+  },
+  "cache": {
+    "l2": 2,
+    "l3": 20
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 1536,
+      "types": []
+    },
+    "tdp": 85,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E5 2620 V4 2.1 GHz 8-Core LGA2011-3",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80660E52620V4"
+    ],
+    "series": "Intel Xeon E5"
+  },
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell-EP",
+  "socket": "LGA 2011-3",
+  "general_product_information": {
+    "amazon_sku": "B01CNKEY8S",
+    "newegg_sku": "9SIA8UCKBG9086",
+    "walmart_sku": 197443190
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "3fa9c959-a83d-4a36-97ba-e255fc587873",
+  "metadata": {
+    "name": "Kingwin CFR-012LB 120mm Clear 40 CFM Red",
+    "manufacturer": "Kingwin",
+    "part_numbers": [],
+    "series": "CFR-012LB",
+    "variant": "120mm Clear"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 40,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "19f44080-c4ab-4bc2-b4c4-f51c566851d7",
+  "metadata": {
+    "name": "Akasa Soho 120mm Black PWM ARGB",
+    "manufacturer": "Akasa",
+    "part_numbers": [
+      "AK-FN108"
+    ],
+    "series": "Soho",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 52.91,
+  "max_airflow": null,
+  "min_noise_level": 14.2,
+  "max_noise_level": 31.8,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.75,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08W4V44SF"
+  }
+}

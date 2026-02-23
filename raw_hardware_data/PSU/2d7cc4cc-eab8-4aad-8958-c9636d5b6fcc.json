@@ -1,0 +1,33 @@
+{
+  "opendb_id": "2d7cc4cc-eab8-4aad-8958-c9636d5b6fcc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 18,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic PRIME PX-2200 ATX 3 (2024) ATX 2200W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "atx3-prime-px-2200"
+    ],
+    "series": "PRIME",
+    "variant": "2200W Platinum"
+  },
+  "wattage": 2200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 210,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CTZV31XY"
+  }
+}

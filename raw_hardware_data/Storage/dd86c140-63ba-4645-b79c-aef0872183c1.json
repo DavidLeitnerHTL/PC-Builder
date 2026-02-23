@@ -1,0 +1,23 @@
+{
+  "opendb_id": "dd86c140-63ba-4645-b79c-aef0872183c1",
+  "metadata": {
+    "name": "Seagate FireCuda 520N 2TB SSD M.2-2230 PCIe 4.0 x4 NVMe",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ZP2048GV3A002",
+      "ZP2048GV30002"
+    ],
+    "series": "FireCuda",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2230",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0CGF8V3XG",
+    "newegg_sku": "N82E16820248246",
+    "walmart_sku": 5144605673
+  }
+}

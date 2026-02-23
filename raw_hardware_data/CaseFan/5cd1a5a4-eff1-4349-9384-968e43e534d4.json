@@ -1,0 +1,32 @@
+{
+  "opendb_id": "5cd1a5a4-eff1-4349-9384-968e43e534d4",
+  "metadata": {
+    "name": "be quiet! Light Wings 120mm Black PWM ARGB high-speed 52.3 CFM 1-Pack",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL073"
+    ],
+    "series": "Light",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 52.3,
+  "max_airflow": null,
+  "min_noise_level": 31,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.6,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09KMBZ7F7",
+    "newegg_sku": "1YF-001D-000D7"
+  }
+}

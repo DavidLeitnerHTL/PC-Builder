@@ -1,0 +1,33 @@
+{
+  "opendb_id": "27e49538-d2ab-4bcc-83af-9c2606f384ad",
+  "metadata": {
+    "name": "Corsair iCUE LINK LX120-R 120mm Addressable RGB PWM 70 CFM Black 3-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9051050-WW"
+    ],
+    "series": "iCUE",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 70,
+  "max_airflow": null,
+  "min_noise_level": 35.1,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "Proprietary PWM",
+  "controller": "USB",
+  "static_pressure": 3.8,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DGW2MZDN",
+    "newegg_sku": "N82E16835181467",
+    "bestbuy_sku": 6611628
+  }
+}

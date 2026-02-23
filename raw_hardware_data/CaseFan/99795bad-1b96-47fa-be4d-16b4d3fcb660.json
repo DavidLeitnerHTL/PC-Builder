@@ -1,0 +1,28 @@
+{
+  "opendb_id": "99795bad-1b96-47fa-be4d-16b4d3fcb660",
+  "metadata": {
+    "name": "ID-COOLING NO-12025-XT 120mm Black / White PWM 76.16 CFM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "NO-12025-XT",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 76.16,
+  "max_airflow": null,
+  "min_noise_level": 15.2,
+  "max_noise_level": 32.5,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

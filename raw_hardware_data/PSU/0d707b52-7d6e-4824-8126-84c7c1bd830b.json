@@ -1,0 +1,34 @@
+{
+  "opendb_id": "0d707b52-7d6e-4824-8126-84c7c1bd830b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 14,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair RM750 750W 80+ Gold Certified Fully Modular ATX",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020234-NA                                                    CP-9020234-UK                                                    CP-9020234-AU",
+      "CP-9020234-NA"
+    ],
+    "series": "RM750",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B093NL61FB"
+  }
+}

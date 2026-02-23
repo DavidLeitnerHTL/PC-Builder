@@ -1,0 +1,29 @@
+{
+  "opendb_id": "4cb33635-ae78-4acd-a81d-ad9a3af1d7f9",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 16,
+    "molex_4_pin": 14,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "NZXT HALE90 V2 ATX 1200W Fully Modular 80+ Gold Certified",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "NP-1GM-1200A-NEEU"
+    ],
+    "series": "HALE90",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 189,
+  "fanless": false,
+  "general_product_information": {}
+}

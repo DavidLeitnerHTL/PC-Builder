@@ -1,0 +1,31 @@
+{
+  "opendb_id": "49e5baf9-96a7-4c68-a836-8b3f0989aae6",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 16,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Gigabyte UD1600PM PG5 AI TOP Black 1600W Fully Modular 80+ Platinum",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GP-UD1600PM PG5"
+    ],
+    "series": "UD1600PM",
+    "variant": "1600W Platinum"
+  },
+  "wattage": 1600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 190,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "697e331a-4092-4517-8c09-ab218eb67cfe",
+  "metadata": {
+    "name": "Thermaltake DuraMax 80mm Black 38.2 CFM",
+    "manufacturer": "Thermaltake",
+    "series": "DuraMax",
+    "variant": "80mm Black",
+    "part_numbers": []
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 38.2,
+  "max_airflow": null,
+  "min_noise_level": 31.3,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

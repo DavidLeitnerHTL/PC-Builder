@@ -1,0 +1,42 @@
+{
+  "opendb_id": "9d1e354c-f909-4ae1-a699-c5e21743e1cf",
+  "metadata": {
+    "name": "MSI MAG CORELIQUID I240 Water 240mm 70.7 CFM White",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MAG CORELIQUID I240 WHITE                                                    CLI240 WT                                                    306-7ZW7A21-C24",
+      "306-7ZW7A21-C24"
+    ],
+    "series": "MAG",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": null,
+  "max_fan_rpm": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": 62,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0BSN9JW7Z",
+    "newegg_sku": "N82E16835846066"
+  }
+}

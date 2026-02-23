@@ -1,0 +1,27 @@
+{
+  "opendb_id": "ce1fae51-a3cc-44f3-aaa5-1b99f7d42589",
+  "metadata": {
+    "name": "NoiseBlocker BlackSilentPro P-1 140mm Black",
+    "manufacturer": "NoiseBlocker",
+    "part_numbers": [],
+    "series": "BlackSilentPro",
+    "variant": "140mm Black"
+  },
+  "isOEM": false,
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 28.84,
+  "max_airflow": null,
+  "min_noise_level": 9,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "6a7e4699-90ae-434c-88b6-21abe082f659",
+  "metadata": {
+    "name": "Dynatron T459 Air 28mm",
+    "manufacturer": "Dynatron",
+    "part_numbers": [
+      "T459"
+    ],
+    "series": "T459",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": null,
+  "max_fan_rpm": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [],
+  "height": 28,
+  "cpu_sockets": [
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B006V5SZMI"
+  }
+}

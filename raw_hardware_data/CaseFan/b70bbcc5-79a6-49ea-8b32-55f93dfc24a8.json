@@ -1,0 +1,27 @@
+{
+  "opendb_id": "b70bbcc5-79a6-49ea-8b32-55f93dfc24a8",
+  "metadata": {
+    "name": "Prolimatech Ultra Sleek Vortex 120mm Black 55.7 CFM PWM",
+    "manufacturer": "Prolimatech",
+    "part_numbers": [],
+    "series": "Ultra",
+    "variant": "120mm Black"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 55.7,
+  "max_airflow": null,
+  "min_noise_level": 7,
+  "max_noise_level": 17,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 0.9,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

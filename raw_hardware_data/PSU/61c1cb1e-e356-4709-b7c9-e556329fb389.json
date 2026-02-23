@@ -1,0 +1,29 @@
+{
+  "opendb_id": "61c1cb1e-e356-4709-b7c9-e556329fb389",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 16,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider 1200W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-ST1200-G Evolution                                                    ST1200-G Evolution"
+    ],
+    "series": "Strider",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

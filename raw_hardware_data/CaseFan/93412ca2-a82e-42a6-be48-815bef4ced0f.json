@@ -1,0 +1,27 @@
+{
+  "opendb_id": "93412ca2-a82e-42a6-be48-815bef4ced0f",
+  "metadata": {
+    "name": "Cooler Master MasterFan MFR 120mm Black RGB PWM",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [],
+    "series": "MasterFan",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 49,
+  "max_airflow": null,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 2.17,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

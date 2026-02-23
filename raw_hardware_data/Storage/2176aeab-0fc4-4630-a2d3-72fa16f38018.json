@@ -1,0 +1,23 @@
+{
+  "opendb_id": "2176aeab-0fc4-4630-a2d3-72fa16f38018",
+  "metadata": {
+    "name": "PNY CS2241 4TB SSD M.2 PCIe 4.0 NVMe",
+    "manufacturer": "PNY",
+    "part_numbers": [
+      "M280CS2241-4TB-CL                                                    M280CS2241-4TB-RB",
+      "M280CS2241-4TB-RB"
+    ],
+    "series": "CS2241",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0BYL4YGLK",
+    "newegg_sku": "N82E16820177159",
+    "walmart_sku": 2125724298
+  }
+}

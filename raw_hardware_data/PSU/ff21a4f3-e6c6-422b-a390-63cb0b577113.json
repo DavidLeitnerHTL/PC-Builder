@@ -1,0 +1,32 @@
+{
+  "opendb_id": "ff21a4f3-e6c6-422b-a390-63cb0b577113",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Xilence XP830R8 Black / Red ATX 830W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Xilence",
+    "part_numbers": [
+      "XN064"
+    ],
+    "series": "XP830R8",
+    "variant": "830W Bronze"
+  },
+  "wattage": 830,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

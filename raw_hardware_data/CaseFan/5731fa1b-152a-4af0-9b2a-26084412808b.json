@@ -1,0 +1,31 @@
+{
+  "opendb_id": "5731fa1b-152a-4af0-9b2a-26084412808b",
+  "metadata": {
+    "name": "Thermalright TL-P9 92mm White PWM 32.77 CFM 1-Pack",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "TL-P9W"
+    ],
+    "series": "TL-P9",
+    "variant": "92mm White"
+  },
+  "size": 92,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 32.77,
+  "max_airflow": null,
+  "min_noise_level": 23.85,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.98,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CJFDPKKD"
+  }
+}

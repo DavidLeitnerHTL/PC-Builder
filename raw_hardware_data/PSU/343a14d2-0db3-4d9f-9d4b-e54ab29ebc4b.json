@@ -1,0 +1,31 @@
+{
+  "opendb_id": "343a14d2-0db3-4d9f-9d4b-e54ab29ebc4b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Apex AG-M Black 650W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "Apex",
+    "part_numbers": [
+      "AG-650M"
+    ],
+    "series": "AG-M",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

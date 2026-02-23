@@ -1,0 +1,32 @@
+{
+  "opendb_id": "7d10aae0-a6d2-48f5-a400-d07af32a461b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "NOX URANO VX Black / Orange 750W Non-Modular 80+ Bronze",
+    "manufacturer": "NOX",
+    "part_numbers": [
+      "NXURVX750BZ"
+    ],
+    "series": "URANO",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "ORANGE"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

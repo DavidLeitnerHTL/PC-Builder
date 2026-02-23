@@ -1,0 +1,34 @@
+{
+  "opendb_id": "15c0898d-3040-47b2-93a1-a317ea7361e7",
+  "metadata": {
+    "name": "Scythe Kaze Flex 120mm Gray / Black PWM 51.17 CFM",
+    "manufacturer": "SCYTHE",
+    "part_numbers": [
+      "SU1225FD12M-RHP"
+    ],
+    "series": "Kaze",
+    "variant": "120mm Gray / Black"
+  },
+  "size": 120,
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 16.6,
+  "max_airflow": 51.17,
+  "min_noise_level": 4,
+  "max_noise_level": 24.9,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.05,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0763TSZ59",
+    "newegg_sku": "1YF-0015-00062",
+    "walmart_sku": 877010458
+  }
+}

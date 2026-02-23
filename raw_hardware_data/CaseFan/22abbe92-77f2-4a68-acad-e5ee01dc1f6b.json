@@ -1,0 +1,31 @@
+{
+  "opendb_id": "22abbe92-77f2-4a68-acad-e5ee01dc1f6b",
+  "metadata": {
+    "name": "Silverstone Air Slimmer 140mm Black PWM 82 CFM 1-Pack",
+    "manufacturer": "SilverStone",
+    "series": "Air",
+    "variant": "140mm Black",
+    "part_numbers": [
+      "SST-AS140B"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 1,
+  "max_airflow": 82,
+  "min_noise_level": 1,
+  "max_noise_level": 33,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CVCZQ3X8"
+  }
+}

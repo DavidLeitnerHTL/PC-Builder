@@ -1,0 +1,32 @@
+{
+  "opendb_id": "11614d3c-ba3c-402e-b275-1643a6e91780",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "LC-Power LC8550 V2.31 Prophet Black / Blue 550W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "LC-Power",
+    "part_numbers": [
+      "LC8550 V2.31"
+    ],
+    "series": "LC8550",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "length": 158,
+  "fanless": false,
+  "general_product_information": {}
+}

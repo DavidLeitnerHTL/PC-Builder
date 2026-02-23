@@ -1,0 +1,28 @@
+{
+  "opendb_id": "5db29bda-945c-401b-8b6a-b1ca8a5c2237",
+  "metadata": {
+    "name": "NZXT FX 140mm Black / White PWM 98.3 CFM",
+    "manufacturer": "NZXT",
+    "part_numbers": [],
+    "series": "FX",
+    "variant": "140mm Black / White"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 54,
+  "max_airflow": 98.3,
+  "min_noise_level": 21,
+  "max_noise_level": 37,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

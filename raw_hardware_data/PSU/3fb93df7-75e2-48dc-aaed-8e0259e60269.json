@@ -1,0 +1,33 @@
+{
+  "opendb_id": "3fb93df7-75e2-48dc-aaed-8e0259e60269",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Deepcool PX1000G Black 1000W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "R-PXA00G-FC0B-US                                                    R-PXA00G-FC0B-CN                                                    R-PXA00G-FC0B-AU                                                    R-PXA00G-FC0B-UK                                                    R-PXA00G-FC0B-JP                                                    R-PXA00G-FC0B-BP                                                    R-PXA00G-FC0B-WO                                                    R-PXA00G-FC0B-EU"
+    ],
+    "series": "PX1000G",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BRXWWTBX"
+  }
+}

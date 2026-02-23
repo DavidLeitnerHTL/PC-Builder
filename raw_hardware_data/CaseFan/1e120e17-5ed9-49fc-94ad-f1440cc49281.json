@@ -1,0 +1,27 @@
+{
+  "opendb_id": "1e120e17-5ed9-49fc-94ad-f1440cc49281",
+  "metadata": {
+    "name": "NoiseBlocker BlackSilentFan X-2 92mm Translucent Blue 38.25 CFM",
+    "manufacturer": "NoiseBlocker",
+    "part_numbers": [],
+    "series": "BlackSilentFan",
+    "variant": "92mm Translucent Blue"
+  },
+  "isOEM": false,
+  "size": 92,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 38.25,
+  "max_airflow": null,
+  "min_noise_level": 21,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

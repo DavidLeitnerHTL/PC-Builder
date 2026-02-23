@@ -1,0 +1,29 @@
+{
+  "opendb_id": "434b9e17-e6f0-4b9c-bb59-94dcaf47dfa1",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "OCZ Z Series Gold 850W 80+ Gold Semi-Modular",
+    "manufacturer": "OCZ",
+    "part_numbers": [
+      "OCZZ850M"
+    ],
+    "series": "Z",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

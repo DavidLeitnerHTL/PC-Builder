@@ -1,0 +1,36 @@
+{
+  "opendb_id": "b5085745-4abc-40f2-82ec-140962d83c6f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "GAMDIAS KRATOS M1 B Black 750W Non-Modular 80+ Bronze Certified ATX",
+    "manufacturer": "GAMDIAS",
+    "part_numbers": [
+      "KRATOS M1 750B",
+      "KRATOS M1-750B"
+    ],
+    "series": "KRATOS",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07NRN6FNJ",
+    "newegg_sku": "9SIAH8WK636128",
+    "bestbuy_sku": 6370862
+  }
+}

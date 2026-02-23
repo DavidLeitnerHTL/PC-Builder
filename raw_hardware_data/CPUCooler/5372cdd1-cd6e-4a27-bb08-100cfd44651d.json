@@ -1,0 +1,41 @@
+{
+  "opendb_id": "5372cdd1-cd6e-4a27-bb08-100cfd44651d",
+  "metadata": {
+    "name": "Thermalright AXP120-X67 Air 67mm 59 CFM White",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "AXP120-X67 WHITE ARGB",
+      "AXP120-X67 WHITE ARGB 1700-d2"
+    ],
+    "series": "AXP120-X67",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 1800,
+  "max_fan_rpm": null,
+  "min_noise_level": 26.1,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": 67,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B09ZL6CRCD"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "opendb_id": "4dbdad56-5b30-4fd3-8dd1-53616ed7552a",
+  "metadata": {
+    "name": "Chieftec Visio ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+    "manufacturer": "Chieftec",
+    "part_numbers": [
+      "GM-30B-TG-OP"
+    ],
+    "series": "Visio",
+    "variant": ""
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "supported_power_supply_form_factors": [],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.2 Gen 2 Type-C                                            USB 3.2 Gen 1 Type-A",
+  "front_usb_ports": [],
+  "max_video_card_length": 410,
+  "max_cpu_cooler_height": null,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 6,
+  "dimensions": "430 x 295 x 400",
+  "volume": 50.74,
+  "weight": null,
+  "general_product_information": {
+    "amazon_sku": "B0F9SQF7RQ"
+  }
+}

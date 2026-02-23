@@ -1,0 +1,30 @@
+{
+  "opendb_id": "6e401f6d-3d13-40f8-b2e4-419d070711dc",
+  "metadata": {
+    "name": "Yeston SAKURA 120mm Blue / White Addressable RGB PWM 79 CFM 3-Pack",
+    "manufacturer": "Yeston",
+    "part_numbers": [],
+    "series": "SAKURA",
+    "variant": "120mm Blue / White"
+  },
+  "size": 120,
+  "color": [
+    "BLUE",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 79,
+  "max_airflow": null,
+  "min_noise_level": 35.4,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.99,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {
+    "newegg_sku": "1YF-01E7-00046"
+  }
+}

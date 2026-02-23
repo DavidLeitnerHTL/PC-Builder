@@ -1,0 +1,49 @@
+{
+  "opendb_id": "99bfccb7-2604-400d-9007-e58670b8f39d",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Palit StormX GeForce GTX 1050 Ti 4GB GDDR5 Black",
+    "manufacturer": "Palit",
+    "part_numbers": [
+      "NE5105T018G1-1070F                                                    NE5105T018G1F",
+      "NE5105T018G1-1070F",
+      "113797"
+    ],
+    "series": "GeForce GTX 1050 Ti",
+    "variant": "Palit"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce GTX 1050 Ti",
+  "memory": 4,
+  "memory_type": "GDDR5",
+  "core_base_clock": 1290,
+  "core_boost_clock": 1392,
+  "effective_memory_clock": 7000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 166,
+  "tdp": 75,
+  "total_slot_width": 2,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 1,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 1,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c581865ad0c3553e9984"
+  },
+  "general_product_information": {
+    "amazon_sku": "B01M2ZC61B"
+  }
+}

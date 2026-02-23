@@ -1,0 +1,31 @@
+{
+  "opendb_id": "f5052d88-48a1-4614-98a8-6e2a03525d62",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 1,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ENDORFY Supremo FM5 650W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "ENDORFY",
+    "part_numbers": [
+      "EY7A007"
+    ],
+    "series": "Supremo",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

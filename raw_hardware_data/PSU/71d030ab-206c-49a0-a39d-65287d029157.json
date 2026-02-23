@@ -1,0 +1,32 @@
+{
+  "opendb_id": "71d030ab-206c-49a0-a39d-65287d029157",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill Capstone ATX 650W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "CAPSTONE-650-M"
+    ],
+    "series": "Capstone",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 169,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B00822BTLC",
+    "walmart_sku": 742606966
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "49aa85bd-c165-42f3-b168-80faddb3b773",
+  "metadata": {
+    "name": "SilenX Ixtrema Pro 40mm Black 5 CFM 1-Pack",
+    "manufacturer": "SilenX",
+    "part_numbers": [],
+    "series": "Ixtrema",
+    "variant": "40mm Black"
+  },
+  "isOEM": false,
+  "size": 40,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 5,
+  "max_airflow": null,
+  "min_noise_level": 14,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

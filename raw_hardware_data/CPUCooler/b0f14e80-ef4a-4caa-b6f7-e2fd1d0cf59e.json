@@ -1,0 +1,47 @@
+{
+  "opendb_id": "b0f14e80-ef4a-4caa-b6f7-e2fd1d0cf59e",
+  "metadata": {
+    "name": "Corsair H100i RGB PLATINUM Water 240mm RGB 75 CFM Black / Silver",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CW-9060039-WW"
+    ],
+    "series": "H100i",
+    "variant": "Black / Silver",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 2400,
+  "max_fan_rpm": null,
+  "min_noise_level": 37,
+  "max_noise_level": null,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

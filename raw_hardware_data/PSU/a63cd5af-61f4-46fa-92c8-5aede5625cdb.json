@@ -1,0 +1,29 @@
+{
+  "opendb_id": "a63cd5af-61f4-46fa-92c8-5aede5625cdb",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 6,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill Green ATX 630W Non-Modular 80+ Certified",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "RG630-S12"
+    ],
+    "series": "Green",
+    "variant": "630W 80+"
+  },
+  "wattage": 630,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

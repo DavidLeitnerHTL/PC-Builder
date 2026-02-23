@@ -1,0 +1,32 @@
+{
+  "opendb_id": "159357af-db53-4292-aefc-c5fc6e1319c9",
+  "metadata": {
+    "name": "Geometric Future Squama 2501 120mm Black PWM RGB 3-Pack",
+    "manufacturer": "Geometric Future",
+    "part_numbers": [
+      "GEO-S2501B-3"
+    ],
+    "series": "Squama",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 80.81,
+  "max_airflow": null,
+  "min_noise_level": 34.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "5V Addressable RGB",
+  "static_pressure": 2.78,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0B3XCWF1K",
+    "newegg_sku": "1YF-01P6-00005"
+  }
+}

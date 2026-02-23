@@ -1,0 +1,27 @@
+{
+  "opendb_id": "904d93f8-75d1-4468-8e97-e1d14139c329",
+  "metadata": {
+    "name": "Deepcool XFAN 65.16 CFM 120mm White White LED",
+    "manufacturer": "Deepcool",
+    "part_numbers": [],
+    "series": "XFAN",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 65.16,
+  "max_airflow": null,
+  "min_noise_level": 26,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

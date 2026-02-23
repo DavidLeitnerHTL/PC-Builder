@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a763f391-ee35-4b36-97f6-e58e389ee911",
+  "metadata": {
+    "name": "Deepcool FL12R 120mm Black Addressable RGB PWM 55 CFM 3-Pack",
+    "manufacturer": "Deepcool",
+    "part_numbers": [],
+    "series": "FL12R",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 55,
+  "max_airflow": null,
+  "min_noise_level": 32,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.82,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {}
+}

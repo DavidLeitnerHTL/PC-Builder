@@ -1,0 +1,53 @@
+{
+  "opendb_id": "6c2170cc-f8b6-4877-9ff5-4efc9cfe7d3b",
+  "metadata": {
+    "name": "Asus A21 Micro-ATX Mini Tower White Tempered Glass",
+    "manufacturer": "ASUS",
+    "part_numbers": [
+      "90DC00H3-B09000                                                    90DC00H3-B09010",
+      "A21/WHT//"
+    ],
+    "series": "A21",
+    "variant": "White",
+    "last_manually_spec_verified_at": "2026-01-14T21:13:45.280Z"
+  },
+  "supported_motherboard_form_factors": [
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "Micro ATX Mini Tower",
+  "color": [
+    "WHITE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "2x USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 380,
+  "max_cpu_cooler_height": 165,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 1,
+  "expansion_slots": 5,
+  "dimensions": "465 x 220 x 430",
+  "volume": 43.989,
+  "weight": 16.1,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "2x USB 3.2 Gen 1 Type-A",
+    ""
+  ],
+  "dimensions_mm": {
+    "width": 220,
+    "height": 465,
+    "depth": 430,
+    "_id": "68b4a805b2cf19028303cabc"
+  },
+  "power_supply_shroud": true,
+  "supports_rear_connecting_motherboard": true,
+  "general_product_information": {
+    "amazon_sku": "‎B0CPP58899",
+    "newegg_sku": " N82E16811173058",
+    "walmart_sku": 5255738553,
+    "manufacturer_url": "https://www.asus.com/us/motherboards-components/cases/asus/asus-a21-case/techspec/"
+  }
+}

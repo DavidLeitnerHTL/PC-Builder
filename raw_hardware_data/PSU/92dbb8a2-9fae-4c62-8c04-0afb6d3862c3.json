@@ -1,0 +1,36 @@
+{
+  "opendb_id": "92dbb8a2-9fae-4c62-8c04-0afb6d3862c3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 3,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone SFX Black 450W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "ST45SF-V3",
+      "SST-ST45SF-V3"
+    ],
+    "series": "SFX",
+    "variant": "450W Bronze"
+  },
+  "wattage": 450,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B01LZFMKCI",
+    "newegg_sku": "N82E16817256176",
+    "walmart_sku": 923017731
+  }
+}

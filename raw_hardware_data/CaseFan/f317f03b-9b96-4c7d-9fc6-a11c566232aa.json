@@ -1,0 +1,28 @@
+{
+  "opendb_id": "f317f03b-9b96-4c7d-9fc6-a11c566232aa",
+  "metadata": {
+    "name": "F420 RGB Core Black",
+    "manufacturer": "NZXT",
+    "series": "F420",
+    "part_numbers": [
+      "RF-U42HF-B1"
+    ]
+  },
+  "size": 420,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 500,
+  "max_airflow": 2000,
+  "min_noise_level": 34.5,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DLWBHM8C",
+    "newegg_sku": "1YF-000Z-00146",
+    "bestbuy_sku": 6629602
+  }
+}

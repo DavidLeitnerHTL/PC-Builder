@@ -1,0 +1,27 @@
+{
+  "opendb_id": "5565f8da-db8f-4e9a-bf2c-84acd6263dc1",
+  "metadata": {
+    "name": "Apevia 14SL-BL 140mm Blue 59.6 CFM Blue LED 1-Pack",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "14SL-BL",
+    "variant": "140mm Blue"
+  },
+  "isOEM": false,
+  "size": 140,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 59.6,
+  "max_airflow": null,
+  "min_noise_level": 29.4,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

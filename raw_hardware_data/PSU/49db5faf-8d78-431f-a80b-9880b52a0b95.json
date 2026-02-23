@@ -1,0 +1,37 @@
+{
+  "opendb_id": "49db5faf-8d78-431f-a80b-9880b52a0b95",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Lian Li EDGE Black ATX 1300W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Lian Li",
+    "part_numbers": [
+      "EG1300                                                    EG1300 Black",
+      "EG1300 Black",
+      "EG1300BE.US"
+    ],
+    "series": "EDGE",
+    "variant": "1300W Platinum"
+  },
+  "wattage": 1300,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 182,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0D8SN6MP1",
+    "newegg_sku": "1HU-01PP-00010",
+    "walmart_sku": 6939116038
+  }
+}

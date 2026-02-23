@@ -1,0 +1,23 @@
+{
+  "opendb_id": "fec14383-5284-4537-a4f3-95a831fd552b",
+  "metadata": {
+    "name": "Kingston DC1000B 240GB SSD M.2-2280 PCIe 3.0 x4 NVMe",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SEDC1000BM8",
+      "240G",
+      "SEDC1000BM8/240G"
+    ],
+    "series": "DC1000B",
+    "variant": "240GB"
+  },
+  "capacity": 240,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B083VQN1QW",
+    "walmart_sku": 607631957
+  }
+}

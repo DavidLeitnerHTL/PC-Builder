@@ -1,0 +1,27 @@
+{
+  "opendb_id": "06cc084e-8e6e-42a0-9e1d-e467b4525271",
+  "metadata": {
+    "name": "ARCTIC P12 PST 120mm 56.3 CFM Black PWM 5-Pack",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [],
+    "series": "P12",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 5,
+  "min_airflow": 56.3,
+  "max_airflow": null,
+  "min_noise_level": 22.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.2,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

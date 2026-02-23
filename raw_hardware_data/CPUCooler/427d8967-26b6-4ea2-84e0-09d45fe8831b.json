@@ -1,0 +1,42 @@
+{
+  "opendb_id": "427d8967-26b6-4ea2-84e0-09d45fe8831b",
+  "metadata": {
+    "name": "Thermalright Aqua Elite ARGB V6 Liquid Water 360mm 70.84 CFM White",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "Aqua Elite 360 ARGB WHITE V6                                            AE360 V6 ARGB W D6                                            AQUA ELITE 360 V6 ARGB White",
+      "AQUA ELITE 360 V6 ARGB White",
+      "AE360 V6 ARGB WHITE-D1"
+    ],
+    "series": "Aqua",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 2000,
+  "max_fan_rpm": null,
+  "min_noise_level": 29.8,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": 54,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0F8BKKJJQ"
+  }
+}

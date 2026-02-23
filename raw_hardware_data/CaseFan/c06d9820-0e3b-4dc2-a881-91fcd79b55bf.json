@@ -1,0 +1,31 @@
+{
+  "opendb_id": "c06d9820-0e3b-4dc2-a881-91fcd79b55bf",
+  "metadata": {
+    "name": "Thermalright TL-C12B-S V3 120mm Black Addressable RGB PWM 66.17 CFM",
+    "manufacturer": "Thermalright",
+    "series": "TL-C12B-S",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "TL-C12B-S V3-D1"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 66.17,
+  "max_airflow": null,
+  "min_noise_level": 25.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.53,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CCNJN1LD"
+  }
+}

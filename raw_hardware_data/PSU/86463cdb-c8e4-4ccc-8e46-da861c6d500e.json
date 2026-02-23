@@ -1,0 +1,29 @@
+{
+  "opendb_id": "86463cdb-c8e4-4ccc-8e46-da861c6d500e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 12,
+    "molex_4_pin": 9,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "OCZ ZX ATX 1000W Fully Modular 80+ Gold Certified",
+    "manufacturer": "OCZ",
+    "part_numbers": [
+      "OCZ-ZX1000W"
+    ],
+    "series": "ZX",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 175,
+  "fanless": false,
+  "general_product_information": {}
+}

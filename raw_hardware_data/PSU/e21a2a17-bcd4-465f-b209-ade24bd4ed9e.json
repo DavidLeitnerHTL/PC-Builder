@@ -1,0 +1,31 @@
+{
+  "opendb_id": "e21a2a17-bcd4-465f-b209-ade24bd4ed9e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master MWE Bronze Black 450W Non-Modular 80+ Bronze Certified ATX",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPX-4501-ACAAB-US                                                    MPX-4501-ACAAB-AU                                                    MPX-4501-ACAAB-EU                                                    MPX-4501-ACAAB-UK                                                    MPX-4501-ACAAB-JP                                                    MPX-4501-ACAAB-KR"
+    ],
+    "series": "MWE",
+    "variant": "450W Bronze"
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

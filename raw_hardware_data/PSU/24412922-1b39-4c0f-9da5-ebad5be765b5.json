@@ -1,0 +1,36 @@
+{
+  "opendb_id": "24412922-1b39-4c0f-9da5-ebad5be765b5",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 9,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax REVOLUTION III Black / Gold 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "ERV850G-AHG-MAC                                            ERV850G-AHG-MAV",
+      "EP-RV3-850G-FR"
+    ],
+    "series": "REVOLUTION",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GOLD"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0DT2DVGFR",
+    "walmart_sku": 15984151920
+  }
+}

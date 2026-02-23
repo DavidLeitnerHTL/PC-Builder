@@ -1,0 +1,38 @@
+{
+  "opendb_id": "3afb0cf7-a08c-473e-8d61-35d5760e0266",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower GF A3 Snow 850W 80+ Gold Fully Modular",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-TPD-0850FNFAGU-N                                                    PS-TPD-0850FNFAGE-N                                                    PS-TPD-0850FNFAGA-N",
+      "TTP-0850AH2FLG",
+      "PS-TPD-0850FNFAGU-N"
+    ],
+    "series": "Toughpower",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CKS5GYH2",
+    "newegg_sku": "N82E16817153459",
+    "bestbuy_sku": 6626443,
+    "walmart_sku": 5141333654
+  }
+}

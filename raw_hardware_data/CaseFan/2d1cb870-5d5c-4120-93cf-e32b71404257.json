@@ -1,0 +1,27 @@
+{
+  "opendb_id": "2d1cb870-5d5c-4120-93cf-e32b71404257",
+  "metadata": {
+    "name": "Logisys SF120 120mm Blue 70.5 CFM 1-Pack",
+    "manufacturer": "Logisys",
+    "part_numbers": [],
+    "series": "SF120",
+    "variant": "120mm Blue"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 70.5,
+  "max_airflow": null,
+  "min_noise_level": 17.6,
+  "max_noise_level": 27.8,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

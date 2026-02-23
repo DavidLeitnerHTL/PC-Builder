@@ -1,0 +1,36 @@
+{
+  "opendb_id": "d6f1bd8e-836b-43d1-a6e4-63d200f2593b",
+  "metadata": {
+    "name": "Dynatron K5 Air 41mm 46.96 CFM Ball Bearing",
+    "manufacturer": "Dynatron",
+    "part_numbers": [
+      "K5"
+    ],
+    "series": "K5",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 1000,
+  "max_fan_rpm": 2500,
+  "min_noise_level": 14.7,
+  "max_noise_level": 29.8,
+  "color": [],
+  "height": 41,
+  "cpu_sockets": [
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B00D4MA8B2",
+    "newegg_sku": "N82E16835114136",
+    "walmart_sku": 127571991
+  }
+}

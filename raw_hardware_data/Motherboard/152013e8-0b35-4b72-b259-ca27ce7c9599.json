@@ -1,0 +1,108 @@
+{
+  "opendb_id": "152013e8-0b35-4b72-b259-ca27ce7c9599",
+  "memory": {
+    "max": 96,
+    "ram_type": "DDR5",
+    "slots": 2
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "power_connectors": {
+    "cpu_power": []
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "Asus H610 PRIME H610M-A LGA1700 DDR5 Micro ATX",
+    "manufacturer": "ASUS",
+    "part_numbers": [
+      "PRIME H610M-A"
+    ],
+    "series": "H610",
+    "variant": ""
+  },
+  "socket": "LGA 1700",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel H610",
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16,
+      "_id": "67f9b734865ad0c3553da0bd"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "67f9b734865ad0c3553da0be"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b734865ad0c3553da0bf"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b734865ad0c3553da0c0"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b734865ad0c3553da0c1"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b734865ad0c3553da0c2"
+    },
+    {
+      "size": "2280",
+      "key": "E",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b734865ad0c3553da0c3"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel",
+      "_id": "67f9b734865ad0c3553da0c4"
+    }
+  ],
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false,
+    "_id": "67f9b734865ad0c3553da0c5"
+  },
+  "back_panel_ports": [
+    "1 x 1 Gb/s (Intel)"
+  ],
+  "general_product_information": {}
+}

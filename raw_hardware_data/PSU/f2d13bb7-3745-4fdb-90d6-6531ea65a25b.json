@@ -1,0 +1,29 @@
+{
+  "opendb_id": "f2d13bb7-3745-4fdb-90d6-6531ea65a25b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider 500W Non-Modular 80+ Gold",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "ST50F-ESG                                                    SST-ST50F-ESG"
+    ],
+    "series": "Strider",
+    "variant": "500W Gold"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

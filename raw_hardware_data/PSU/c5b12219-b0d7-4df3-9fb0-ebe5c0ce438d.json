@@ -1,0 +1,37 @@
+{
+  "opendb_id": "c5b12219-b0d7-4df3-9fb0-ebe5c0ce438d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MAG A1000GL PCIE5 Black 1000W Fully Modular 80+ Gold Certified",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MAG A1000GL PCIE5",
+      "MAGA1000GLPCIE5"
+    ],
+    "series": "MAG",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CT3XNCZ9",
+    "newegg_sku": "N82E16817701026",
+    "bestbuy_sku": 6593788,
+    "walmart_sku": 5463113545
+  }
+}

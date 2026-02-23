@@ -1,0 +1,34 @@
+{
+  "opendb_id": "4e9a0ffa-3406-4102-984c-61708794ca1b",
+  "metadata": {
+    "name": "Noctua P14s redux-1200 140mm Black / Gray 64.92 CFM",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-P14s redux-1200"
+    ],
+    "series": "P14s",
+    "variant": "140mm Black / Gray"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 64.92,
+  "max_airflow": null,
+  "min_noise_level": 19.6,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.29,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00KF7RRYU",
+    "newegg_sku": "N82E16835608063",
+    "walmart_sku": 49018142
+  }
+}

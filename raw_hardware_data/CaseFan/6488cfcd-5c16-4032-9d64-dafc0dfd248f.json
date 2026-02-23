@@ -1,0 +1,31 @@
+{
+  "opendb_id": "6488cfcd-5c16-4032-9d64-dafc0dfd248f",
+  "metadata": {
+    "name": "NoiseBlocker BlackSilentPro P-P 58.85 CFM 120mm Black PWM",
+    "manufacturer": "NoiseBlocker",
+    "part_numbers": [
+      "NB-BlackSilentPro PL-PS"
+    ],
+    "series": "BlackSilentPro",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 58.85,
+  "max_airflow": null,
+  "min_noise_level": 24,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00WVPA8S6"
+  }
+}

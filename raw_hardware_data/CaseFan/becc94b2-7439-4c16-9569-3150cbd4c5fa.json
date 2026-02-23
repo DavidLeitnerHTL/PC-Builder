@@ -1,0 +1,27 @@
+{
+  "opendb_id": "becc94b2-7439-4c16-9569-3150cbd4c5fa",
+  "metadata": {
+    "name": "NZXT FN 120mm White",
+    "manufacturer": "NZXT",
+    "part_numbers": [],
+    "series": "FN",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 47.27,
+  "max_airflow": null,
+  "min_noise_level": 25.35,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

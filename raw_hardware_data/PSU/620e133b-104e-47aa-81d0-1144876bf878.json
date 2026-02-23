@@ -1,0 +1,31 @@
+{
+  "opendb_id": "620e133b-104e-47aa-81d0-1144876bf878",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 10,
+    "sata": 9,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "LC-Power LC1200 V2.4 Black 1200W Fully Modular 80+ Platinum Certified ATX",
+    "manufacturer": "LC-Power",
+    "part_numbers": [
+      "LC1200 V2.4"
+    ],
+    "series": "LC1200",
+    "variant": "1200W Platinum"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 190,
+  "fanless": false,
+  "general_product_information": {}
+}

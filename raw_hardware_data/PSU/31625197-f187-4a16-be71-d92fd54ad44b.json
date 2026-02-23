@@ -1,0 +1,29 @@
+{
+  "opendb_id": "31625197-f187-4a16-be71-d92fd54ad44b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thortech Thunderbolt PLUS ATX 800W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Thortech",
+    "part_numbers": [
+      "TTB800G"
+    ],
+    "series": "Thunderbolt",
+    "variant": "800W Gold"
+  },
+  "wattage": 800,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

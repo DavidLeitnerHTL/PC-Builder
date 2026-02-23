@@ -1,0 +1,55 @@
+{
+  "opendb_id": "11c8a8b2-048a-4492-ba06-f2b5c8c1de60",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.3,
+      "boost": 4.3
+    }
+  },
+  "cache": {
+    "l2": 5,
+    "l3": 12
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": [
+        "DDR5",
+        "DDR4"
+      ]
+    },
+    "tdp": 58,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "10 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i3 12100F 3.3 GHz 4-Core LGA1700",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX8071512100F",
+      "i3-12100F",
+      "BX8071513100F"
+    ],
+    "series": "Intel Core i3"
+  },
+  "series": "Intel Core i3",
+  "microarchitecture": "Alder Lake",
+  "coreFamily": "Alder Lake",
+  "socket": "LGA 1700",
+  "general_product_information": {
+    "amazon_sku": "B09NPJX7PV",
+    "newegg_sku": "N82E16819118357",
+    "walmart_sku": 876549698
+  }
+}

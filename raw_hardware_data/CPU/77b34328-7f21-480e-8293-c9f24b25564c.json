@@ -1,0 +1,49 @@
+{
+  "opendb_id": "77b34328-7f21-480e-8293-c9f24b25564c",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 16
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.6,
+      "boost": 5
+    }
+  },
+  "cache": {
+    "l2": 2,
+    "l3": 16
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel UHD Graphics 630"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    },
+    "tdp": 95,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i9 9900K (Standard Folding Box) 3.6 GHz 8-Core LGA1151",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX806849900K"
+    ],
+    "series": "Intel Core i9"
+  },
+  "series": "Intel Core i9",
+  "microarchitecture": "Coffee Lake Refresh",
+  "coreFamily": "Coffee Lake Refresh",
+  "socket": "LGA 1151",
+  "general_product_information": {
+    "amazon_sku": "B089J731BX",
+    "walmart_sku": 402971448
+  }
+}

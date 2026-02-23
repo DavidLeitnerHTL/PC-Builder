@@ -1,0 +1,29 @@
+{
+  "opendb_id": "f2270270-fdee-4a2e-974f-db5fb1369fc7",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! Straight Power E9 500W Non-Modular 80+ Gold",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN192"
+    ],
+    "series": "STRAIGHT",
+    "variant": "500W Gold"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

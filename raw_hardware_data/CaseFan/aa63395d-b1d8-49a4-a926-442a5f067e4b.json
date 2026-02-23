@@ -1,0 +1,27 @@
+{
+  "opendb_id": "aa63395d-b1d8-49a4-a926-442a5f067e4b",
+  "metadata": {
+    "name": "Antec Two Cool 120mm Black 42.6 CFM 1-Pack",
+    "manufacturer": "Antec",
+    "part_numbers": [],
+    "series": "Two",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.3,
+  "max_airflow": 42.6,
+  "min_noise_level": 17,
+  "max_noise_level": 23.7,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,36 @@
+{
+  "opendb_id": "6f81d585-d831-4196-8187-fb558b4dae4e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 16,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair AX1000 1000W Fully Modular 80+ Titanium Certified ATX",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020152-NA                                                    CP-9020152-UK                                                    AX1000",
+      "CP-9020152-NA"
+    ],
+    "series": "AX1000",
+    "variant": "1000W Titanium"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Titanium",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 170,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07M9TP7VM",
+    "walmart_sku": 610055764
+  }
+}

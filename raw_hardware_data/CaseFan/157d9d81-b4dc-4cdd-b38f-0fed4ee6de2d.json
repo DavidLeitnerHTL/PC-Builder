@@ -1,0 +1,27 @@
+{
+  "opendb_id": "157d9d81-b4dc-4cdd-b38f-0fed4ee6de2d",
+  "metadata": {
+    "name": "Xigmatek Crystal 120mm Clear Green LED 61.37 CFM",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "Crystal",
+    "variant": "120mm Clear"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 61.37,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Green",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

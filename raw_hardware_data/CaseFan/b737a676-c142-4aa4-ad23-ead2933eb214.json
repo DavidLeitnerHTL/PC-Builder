@@ -1,0 +1,32 @@
+{
+  "opendb_id": "b737a676-c142-4aa4-ad23-ead2933eb214",
+  "metadata": {
+    "name": "NoiseBlocker ELoop B 120mm White 1-Pack",
+    "manufacturer": "NoiseBlocker",
+    "part_numbers": [
+      "ITR-B12-3",
+      "eLoop B12-3"
+    ],
+    "series": "ELoop",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 71.33,
+  "max_airflow": null,
+  "min_noise_level": 27,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B008RO652S"
+  }
+}

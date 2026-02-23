@@ -1,0 +1,24 @@
+{
+  "opendb_id": "bb93e01d-fa8d-448e-ae02-f362242884d3",
+  "metadata": {
+    "name": "MSI SPATIUM M390 1TB SSD M.2 PCIe 3.0 NVMe",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "SM390N1TB",
+      "S78-440L650-P83",
+      "SPATIUM M390 NVMe M.2 1TB"
+    ],
+    "series": "SPATIUM",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B09NKH2V3D",
+    "newegg_sku": "N82E16820140023",
+    "walmart_sku": 384362177
+  }
+}

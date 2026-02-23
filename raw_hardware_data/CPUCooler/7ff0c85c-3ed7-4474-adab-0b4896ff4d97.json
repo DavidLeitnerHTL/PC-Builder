@@ -1,0 +1,37 @@
+{
+  "opendb_id": "7ff0c85c-3ed7-4474-adab-0b4896ff4d97",
+  "metadata": {
+    "name": "ARCTIC Liquid Freezer III Water 360mm A-RGB 48.82 CFM White",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFRE00152A"
+    ],
+    "series": "Liquid",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 200,
+  "max_fan_rpm": 2000,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B09VGMGJ7W",
+    "newegg_sku": "9SIA2W0K5W2454",
+    "walmart_sku": 5339494780
+  }
+}

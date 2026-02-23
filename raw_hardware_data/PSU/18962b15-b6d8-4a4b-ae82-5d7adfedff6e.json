@@ -1,0 +1,36 @@
+{
+  "opendb_id": "18962b15-b6d8-4a4b-ae82-5d7adfedff6e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group Hydro Ti PRO Gen 5 ATX Black 1000W Fully Modular 80+ Titanium Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "HTI-1000M",
+      "Gen5                                                    PPA10A3800"
+    ],
+    "series": "Hydro",
+    "variant": "1000W Titanium"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Titanium",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0D467S15T",
+    "newegg_sku": "1HU-0095-00115",
+    "walmart_sku": 5918102298
+  }
+}

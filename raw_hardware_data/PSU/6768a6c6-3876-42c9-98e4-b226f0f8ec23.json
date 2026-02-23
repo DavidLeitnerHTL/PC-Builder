@@ -1,0 +1,29 @@
+{
+  "opendb_id": "6768a6c6-3876-42c9-98e4-b226f0f8ec23",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 4,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Sentey ERP-500-SM ATX 500W Fully Modular",
+    "manufacturer": "Sentey",
+    "part_numbers": [
+      "ERP-500-SM"
+    ],
+    "series": "ERP-500-SM",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Full",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

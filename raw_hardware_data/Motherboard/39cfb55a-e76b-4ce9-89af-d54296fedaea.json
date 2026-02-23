@@ -1,0 +1,66 @@
+{
+  "opendb_id": "39cfb55a-e76b-4ce9-89af-d54296fedaea",
+  "memory": {
+    "max": 4,
+    "ram_type": "DDR3",
+    "slots": 2
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 0,
+    "sata_3_gb_s": 2,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 0,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "power_connectors": {
+    "cpu_power": []
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "ASRock Intel NM10 AD2700B-ITX Atom D2700 DDR3 Mini ITX",
+    "manufacturer": "ASRock",
+    "part_numbers": [
+      "AD2700B-ITX"
+    ],
+    "series": "Intel",
+    "variant": ""
+  },
+  "socket": "Integrated Atom",
+  "form_factor": "Mini-ITX",
+  "chipset": "Intel NM10",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "pcie_slots": [],
+  "m2_slots": [],
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown",
+      "_id": "67f9ba21865ad0c3553df34f"
+    }
+  ],
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false,
+    "_id": "67f9ba21865ad0c3553df350"
+  },
+  "back_panel_ports": [
+    "1 x 1 Gb/s"
+  ],
+  "general_product_information": {
+    "amazon_sku": "B0075D1A2C"
+  }
+}

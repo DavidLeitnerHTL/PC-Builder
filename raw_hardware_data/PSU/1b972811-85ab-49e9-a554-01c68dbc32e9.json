@@ -1,0 +1,33 @@
+{
+  "opendb_id": "1b972811-85ab-49e9-a554-01c68dbc32e9",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SAMA GT White 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "SAMA",
+    "part_numbers": [
+      "GT850-WHGFFXX1-US"
+    ],
+    "series": "GT",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "newegg_sku": "1HU-02S6-00059"
+  }
+}

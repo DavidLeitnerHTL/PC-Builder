@@ -1,0 +1,28 @@
+{
+  "opendb_id": "60c0cf5b-79ac-4672-abdc-34cd6fede1d9",
+  "metadata": {
+    "name": "ID-COOLING WF-12025-SD-W 120mm Black / White 60 CFM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "WF-12025-SD-W",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 60,
+  "max_airflow": null,
+  "min_noise_level": 27.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

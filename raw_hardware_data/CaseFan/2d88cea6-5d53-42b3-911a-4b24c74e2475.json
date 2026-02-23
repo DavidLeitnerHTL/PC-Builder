@@ -1,0 +1,27 @@
+{
+  "opendb_id": "2d88cea6-5d53-42b3-911a-4b24c74e2475",
+  "metadata": {
+    "name": "PREYON Falcon Eye 120mm Black PWM 54 CFM 1-Pack",
+    "manufacturer": "PREYON",
+    "part_numbers": [],
+    "series": "Falcon",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 54,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

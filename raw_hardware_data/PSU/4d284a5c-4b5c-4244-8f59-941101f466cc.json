@@ -1,0 +1,33 @@
+{
+  "opendb_id": "4d284a5c-4b5c-4244-8f59-941101f466cc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Azza ARGB ATX 650W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Azza",
+    "part_numbers": [
+      "PSAZ-650W(ARGB)"
+    ],
+    "series": "ARGB",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B084RWV5R8"
+  }
+}

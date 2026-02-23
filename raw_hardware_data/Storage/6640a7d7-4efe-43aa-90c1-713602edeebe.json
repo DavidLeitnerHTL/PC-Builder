@@ -1,0 +1,21 @@
+{
+  "opendb_id": "6640a7d7-4efe-43aa-90c1-713602edeebe",
+  "metadata": {
+    "name": "PNY CS2130 4TB SSD M.2 PCIe 3.0 NVMe",
+    "manufacturer": "PNY",
+    "part_numbers": [
+      "M280CS2130-4TB-RB"
+    ],
+    "series": "CS2130",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B08YKHTWL1",
+    "walmart_sku": 572214301
+  }
+}

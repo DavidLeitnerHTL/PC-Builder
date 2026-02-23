@@ -1,0 +1,42 @@
+{
+  "opendb_id": "2b118b75-0163-4057-8842-7d433b9740ca",
+  "metadata": {
+    "name": "Scythe Big Shuriken 4 Air 67mm 51.98 CFM Black / Silver",
+    "manufacturer": "Scythe",
+    "part_numbers": [
+      "SCBSK-4000"
+    ],
+    "series": "Big",
+    "variant": "Black / Silver",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 200,
+  "max_fan_rpm": 1900,
+  "min_noise_level": 31.78,
+  "max_noise_level": null,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "height": 67,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0FJS27CNM",
+    "newegg_sku": "13C-0004-000A1"
+  }
+}

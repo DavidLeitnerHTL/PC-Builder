@@ -1,0 +1,31 @@
+{
+  "opendb_id": "976b3e93-e5f2-4cf8-a5a7-b1b94f34e65d",
+  "metadata": {
+    "name": "Thermalright TL-B14 140mm White PWM 82.5 CFM",
+    "manufacturer": "Thermalright",
+    "series": "TL-B14",
+    "variant": "140mm White",
+    "part_numbers": [
+      "TL-B14W D6"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 82.5,
+  "max_airflow": null,
+  "min_noise_level": 27.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.35,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BVLMMVHP"
+  }
+}

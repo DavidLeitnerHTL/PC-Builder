@@ -1,0 +1,25 @@
+{
+  "opendb_id": "a9abdb73-469e-494c-8f66-daf704edf157",
+  "metadata": {
+    "name": "NZXT FZ 200mm Transparent Orange LED, 103 CFM 1-Pack",
+    "manufacturer": "NZXT",
+    "part_numbers": [],
+    "series": "FZ",
+    "variant": "200mm Transparent"
+  },
+  "isOEM": false,
+  "size": 200,
+  "color": [],
+  "quantity": 1,
+  "min_airflow": 103,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Orange",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "bbe1504f-b17f-4e4f-aa66-fea86c97e8b4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Deepcool PN850D White ATX 850W Non-Modular 80+ Gold",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "R-PN850D-FC0W-US                                                    R-PN850D-FC0W-UK                                                    R-PN850D-FC0W-EU                                                    R-PN850D-FC0W-WO                                                    PN850D WH"
+    ],
+    "series": "PN850D",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

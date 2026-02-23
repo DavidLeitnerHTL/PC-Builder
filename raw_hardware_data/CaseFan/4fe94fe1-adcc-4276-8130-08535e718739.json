@@ -1,0 +1,29 @@
+{
+  "opendb_id": "4fe94fe1-adcc-4276-8130-08535e718739",
+  "metadata": {
+    "name": "Fractal Design Momentum 140 RGB White",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [],
+    "series": "Momentum",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 0,
+  "max_airflow": 74.39,
+  "min_noise_level": 0,
+  "max_noise_level": 28,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM",
+  "controller": "ARGB Controller",
+  "static_pressure": 2.45,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "manufacturer_url": "https://www.fractal-design.com/products/fans/momentum/momentum-14-rgb/white/"
+  }
+}

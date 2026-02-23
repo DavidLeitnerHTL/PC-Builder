@@ -1,0 +1,49 @@
+{
+  "opendb_id": "fa3fa848-a686-4c5d-a31e-eaa9f9914f3f",
+  "cores": {
+    "total": 12,
+    "performance": 12,
+    "threads": 24
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.6,
+      "boost": 3.5
+    }
+  },
+  "cache": {
+    "l2": 3,
+    "l3": 30
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 135,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "22 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E5 2690 V3 2.6 GHz 12-Core LGA2011-3",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80644E52690V3",
+      "5032037064651-cr"
+    ],
+    "series": "Intel Xeon E5"
+  },
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-EP",
+  "socket": "LGA 2011-3",
+  "general_product_information": {
+    "amazon_sku": "B07N961SQ7"
+  }
+}

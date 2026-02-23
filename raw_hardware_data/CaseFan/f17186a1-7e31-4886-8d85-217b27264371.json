@@ -1,0 +1,32 @@
+{
+  "opendb_id": "f17186a1-7e31-4886-8d85-217b27264371",
+  "metadata": {
+    "name": "Corsair RS140 MAX 140mm Black PWM 104 CFM 2-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050175-WW"
+    ],
+    "series": "RS140",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 2,
+  "min_airflow": 27.5,
+  "max_airflow": 104,
+  "min_noise_level": 31,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.4,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CXSM5DB7",
+    "newegg_sku": "N82E16835181426"
+  }
+}

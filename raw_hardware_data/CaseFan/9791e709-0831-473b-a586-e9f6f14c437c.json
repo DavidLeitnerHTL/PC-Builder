@@ -1,0 +1,32 @@
+{
+  "opendb_id": "9791e709-0831-473b-a586-e9f6f14c437c",
+  "metadata": {
+    "name": "Xigmatek XAF 140mm Orange 90.3 CFM White LED",
+    "manufacturer": "Xigmatek",
+    "series": "XAF",
+    "variant": "140mm Orange",
+    "part_numbers": [
+      "XAF-F1453"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "ORANGE"
+  ],
+  "quantity": 1,
+  "min_airflow": 90.3,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0078IWSBG",
+    "newegg_sku": "9SIAJ7WE4X1091"
+  }
+}

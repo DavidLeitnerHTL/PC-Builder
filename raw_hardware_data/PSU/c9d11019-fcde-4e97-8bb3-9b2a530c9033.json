@@ -1,0 +1,31 @@
+{
+  "opendb_id": "c9d11019-fcde-4e97-8bb3-9b2a530c9033",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Zalman TXII Black Certified ATX 500W Non-Modular 80+ Certified",
+    "manufacturer": "Zalman",
+    "part_numbers": [
+      "ZM500-TXII"
+    ],
+    "series": "TXII",
+    "variant": "500W 80+"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

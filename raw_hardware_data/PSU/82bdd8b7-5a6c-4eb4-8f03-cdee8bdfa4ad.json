@@ -1,0 +1,31 @@
+{
+  "opendb_id": "82bdd8b7-5a6c-4eb4-8f03-cdee8bdfa4ad",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 10,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Super Flower Leadex Titanium 750W 80+ Titanium Certified Fully Modular",
+    "manufacturer": "Super Flower",
+    "part_numbers": [
+      "SF-750F14HT"
+    ],
+    "series": "Leadex",
+    "variant": "750W Titanium"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Titanium",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

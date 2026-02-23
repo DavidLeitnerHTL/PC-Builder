@@ -1,0 +1,29 @@
+{
+  "opendb_id": "2d0e80f8-2388-423f-9fe2-0f706ac23e13",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 7,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill RD600-M ATX 600W Semi-Modular",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "RD600-M"
+    ],
+    "series": "RD600-M",
+    "variant": "600W "
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,47 @@
+{
+  "opendb_id": "6a6aa882-2931-4506-8166-8faba9ea1bec",
+  "metadata": {
+    "name": "Aerocool Graphite v2 ATX Mid Tower Tempered Glass Side Panel",
+    "manufacturer": "AeroCool",
+    "part_numbers": [
+      "Graphite-G-BK-V2                                                    ACCM-PB24033.11",
+      "ACCM-PB2403311Graphite-v2"
+    ],
+    "series": "Graphite",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-09-28T05:57:14.729Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB3.0 x 2",
+  "max_video_card_length": 348,
+  "max_cpu_cooler_height": 180,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 3,
+  "expansion_slots": 7,
+  "dimensions": "406 x 230 x 460",
+  "volume": 42.955,
+  "weight": 11.61836,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "USB3.0 x 2"
+  ],
+  "dimensions_mm": {
+    "width": 230,
+    "height": 460,
+    "depth": 406,
+    "_id": "68d8ce43d9c33c68ddbbdb35"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0974XMPYC",
+    "manufacturer_url": "https://aerocool.io/product/graphite/"
+  }
+}

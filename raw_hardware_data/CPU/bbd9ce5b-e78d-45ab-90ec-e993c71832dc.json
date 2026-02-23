@@ -1,0 +1,46 @@
+{
+  "opendb_id": "bbd9ce5b-e78d-45ab-90ec-e993c71832dc",
+  "cores": {
+    "total": 12,
+    "performance": 12,
+    "threads": 24
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.6,
+      "boost": 3.3
+    }
+  },
+  "cache": {
+    "l2": 3,
+    "l3": 30
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 120,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "22 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E5 2685 V3 2.6 GHz 12-Core LGA2011-3 OEM/Tray",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8064401684201"
+    ],
+    "series": "Intel Xeon E5"
+  },
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-EP",
+  "socket": "LGA 2011-3",
+  "general_product_information": {}
+}

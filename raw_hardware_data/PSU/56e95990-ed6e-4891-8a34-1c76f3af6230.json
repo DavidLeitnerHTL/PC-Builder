@@ -1,0 +1,29 @@
+{
+  "opendb_id": "56e95990-ed6e-4891-8a34-1c76f3af6230",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Topower TOP-1000P12-ADJ ATX 1000W Semi-Modular",
+    "manufacturer": "Topower",
+    "part_numbers": [
+      "TOP-1000P12-ADJ"
+    ],
+    "series": "TOP-1000P12-ADJ",
+    "variant": "1000W "
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

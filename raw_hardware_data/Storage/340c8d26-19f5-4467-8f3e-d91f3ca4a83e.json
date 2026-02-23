@@ -1,0 +1,22 @@
+{
+  "opendb_id": "340c8d26-19f5-4467-8f3e-d91f3ca4a83e",
+  "metadata": {
+    "name": "Intel D3-S4520 3.84TB SSD 2.5\" SATA",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "SSDSC2KB038TZ01"
+    ],
+    "series": "D3-S4520",
+    "variant": "3000GB"
+  },
+  "capacity": 3000,
+  "type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B09DVNGHVF",
+    "newegg_sku": "0D9-002V-00AB1",
+    "walmart_sku": 119400469
+  }
+}

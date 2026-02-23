@@ -1,0 +1,29 @@
+{
+  "opendb_id": "a0443d41-7cf0-4f09-afce-f10972d465b4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax TRIATHLOR 650W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "ETA650AWT-M"
+    ],
+    "series": "TRIATHLOR",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

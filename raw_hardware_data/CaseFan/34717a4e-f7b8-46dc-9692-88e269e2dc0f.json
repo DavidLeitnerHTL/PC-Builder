@@ -1,0 +1,32 @@
+{
+  "opendb_id": "34717a4e-f7b8-46dc-9692-88e269e2dc0f",
+  "metadata": {
+    "name": "Cooler Master MasterFan MF Prismatic 120mm Black / White Addressable RGB PWM 55 CFM 3-Pack",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MFY-B2DN-203PA-R1"
+    ],
+    "series": "MasterFan",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 55,
+  "max_airflow": null,
+  "min_noise_level": 8,
+  "max_noise_level": 27,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "5V Addressable RGB",
+  "static_pressure": 2.91,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08R9KNB41"
+  }
+}

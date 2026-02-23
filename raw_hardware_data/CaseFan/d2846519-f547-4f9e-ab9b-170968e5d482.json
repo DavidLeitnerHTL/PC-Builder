@@ -1,0 +1,32 @@
+{
+  "opendb_id": "d2846519-f547-4f9e-ab9b-170968e5d482",
+  "metadata": {
+    "name": "Alphacool Apex Stealth Metal 120mm White / Black PWM 70.98 CFM",
+    "manufacturer": "Alphacool",
+    "part_numbers": [
+      "13823"
+    ],
+    "series": "Apex",
+    "variant": "120mm White / Black"
+  },
+  "size": 120,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 70.98,
+  "max_airflow": null,
+  "min_noise_level": 40.1,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 4.23,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CKPSN6VK"
+  }
+}

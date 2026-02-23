@@ -1,0 +1,31 @@
+{
+  "opendb_id": "93b7020e-aa87-4f2a-bbb4-7dd1d4ba85b8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Inter-Tech 88882037 Black 450W Non-Modular 80+",
+    "manufacturer": "Inter-Tech",
+    "part_numbers": [
+      "88882037"
+    ],
+    "series": "88882037",
+    "variant": "450W 80+"
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

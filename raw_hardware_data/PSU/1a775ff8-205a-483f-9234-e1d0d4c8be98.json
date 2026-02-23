@@ -1,0 +1,33 @@
+{
+  "opendb_id": "1a775ff8-205a-483f-9234-e1d0d4c8be98",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Segotep GN Black ATX 650W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Segotep",
+    "part_numbers": [
+      "CP-PSU-ST-GN650"
+    ],
+    "series": "GN",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0832N5XF7"
+  }
+}

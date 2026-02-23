@@ -1,0 +1,130 @@
+{
+  "opendb_id": "ed19f43f-a8c2-4249-84e5-8d33eaa499de",
+  "memory": {
+    "max": 192,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 6,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "power_connectors": {
+    "cpu_power": []
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "Colorful Z790 CVN D5 GAMING FROZEN V20 DDR5 ATX",
+    "manufacturer": "Colorful",
+    "part_numbers": [
+      "CVN Z790D5 GAMING FROZEN V20"
+    ],
+    "series": "Z790",
+    "variant": "",
+    "last_manually_spec_verified_at": "2026-02-13T19:17:19.153Z"
+  },
+  "socket": "LGA 1700",
+  "form_factor": "ATX",
+  "chipset": "Intel Z790",
+  "color": [
+    "GREY",
+    "GOLD"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 16,
+      "_id": "67f9bb66865ad0c3553e16b5"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1,
+      "_id": "67f9bb66865ad0c3553e16b6"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb66865ad0c3553e16b7"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb66865ad0c3553e16b8"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb66865ad0c3553e16b9"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb66865ad0c3553e16ba"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb66865ad0c3553e16bb"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb66865ad0c3553e16bc"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb66865ad0c3553e16bd"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb66865ad0c3553e16be"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek RTL8125",
+      "_id": "67f9bb66865ad0c3553e16bf"
+    }
+  ],
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false,
+    "_id": "67f9bb66865ad0c3553e16c0"
+  },
+  "back_panel_ports": [
+    "1 x 2.5 Gb/s (Realtek RTL8125)"
+  ],
+  "general_product_information": {
+    "newegg_sku": "9SIB66RK676108",
+    "manufacturer_url": "https://en.colorful.cn/en/home/Product?id=40e8803e-410b-4409-b297-1b90f31b7a56&mid=84"
+  }
+}

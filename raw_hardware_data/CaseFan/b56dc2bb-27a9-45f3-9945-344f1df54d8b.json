@@ -1,0 +1,27 @@
+{
+  "opendb_id": "b56dc2bb-27a9-45f3-9945-344f1df54d8b",
+  "metadata": {
+    "name": "NZXT FN 200mm White 166.2 CFM",
+    "manufacturer": "NZXT",
+    "part_numbers": [],
+    "series": "FN",
+    "variant": "200mm White"
+  },
+  "size": 200,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 166.2,
+  "max_airflow": null,
+  "min_noise_level": 37.25,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

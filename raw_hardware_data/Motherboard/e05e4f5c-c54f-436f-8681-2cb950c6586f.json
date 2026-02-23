@@ -1,0 +1,126 @@
+{
+  "opendb_id": "e05e4f5c-c54f-436f-8681-2cb950c6586f",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 0,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "power_connectors": {
+    "cpu_power": []
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "Gigabyte Z890 AORUS ELITE WIFI7 ICE DDR5 ATX",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "Z890 AORUS ELITE WIFI7 ICE                                                    Z890 A ELITE WF7 ICE",
+      "Z890 AORUS ELITE WIFI7 ICE"
+    ],
+    "series": "Z890",
+    "variant": ""
+  },
+  "socket": "LGA 1851",
+  "form_factor": "ATX",
+  "chipset": "Intel Z890",
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 16,
+      "_id": "67f9b977865ad0c3553de090"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2580-25110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b977865ad0c3553de091"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b977865ad0c3553de092"
+    },
+    {
+      "size": "2280-22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b977865ad0c3553de093"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b977865ad0c3553de094"
+    },
+    {
+      "size": "2580-25110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b977865ad0c3553de095"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b977865ad0c3553de096"
+    },
+    {
+      "size": "2280-22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b977865ad0c3553de097"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b977865ad0c3553de098"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek",
+      "_id": "67f9b977865ad0c3553de099"
+    }
+  ],
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false,
+    "_id": "67f9b977865ad0c3553de09a"
+  },
+  "back_panel_ports": [
+    "1 x 2.5 Gb/s Ports (Realtek)"
+  ],
+  "general_product_information": {
+    "amazon_sku": "B0DJP7NRXX",
+    "newegg_sku": "N82E16813145526",
+    "bestbuy_sku": 6604423,
+    "walmart_sku": 13565257675
+  }
+}

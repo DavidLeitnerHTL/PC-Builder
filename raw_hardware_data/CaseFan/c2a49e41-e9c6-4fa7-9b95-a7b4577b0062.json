@@ -1,0 +1,28 @@
+{
+  "opendb_id": "c2a49e41-e9c6-4fa7-9b95-a7b4577b0062",
+  "metadata": {
+    "name": "BitFenix Spectre Xtreme 120mm Black / Red Red LED 66 CFM",
+    "manufacturer": "BitFenix",
+    "part_numbers": [],
+    "series": "Spectre",
+    "variant": "120mm Black / Red"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 66,
+  "max_airflow": null,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 2.74,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

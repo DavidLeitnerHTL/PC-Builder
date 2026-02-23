@@ -1,0 +1,43 @@
+{
+  "opendb_id": "fb2c0a67-b820-4e52-b6c6-83f243075016",
+  "metadata": {
+    "name": "be quiet! Shadow Rock Slim Air 161mm 67.8 CFM Rifle Bearing",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BK010"
+    ],
+    "series": "Shadow",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 400,
+  "max_fan_rpm": 1400,
+  "min_noise_level": 11.5,
+  "max_noise_level": 23.7,
+  "color": [],
+  "height": 161,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 2011",
+    "LGA 2066",
+    "LGA 775"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B00HPXZF2I"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "opendb_id": "3098d24b-17d4-4193-ac8e-985d1121a7dc",
+  "metadata": {
+    "name": "Hitachi 7K1000.C 1TB 3.5\" HDD 7200RPM SATA",
+    "manufacturer": "Hitachi",
+    "part_numbers": [
+      "0F10383"
+    ],
+    "series": "7K1000.C",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 3.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0035WQBOY"
+  }
+}

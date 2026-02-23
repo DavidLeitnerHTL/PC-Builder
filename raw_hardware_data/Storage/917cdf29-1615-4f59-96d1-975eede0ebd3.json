@@ -1,0 +1,22 @@
+{
+  "opendb_id": "917cdf29-1615-4f59-96d1-975eede0ebd3",
+  "metadata": {
+    "name": "Seagate IronWolf NAS 16TB HDD 3.5\" 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST16000VN001"
+    ],
+    "series": "IronWolf",
+    "variant": "16000GB"
+  },
+  "capacity": 16000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07SNW9W48",
+    "newegg_sku": "N82E16822184805",
+    "walmart_sku": 760745634
+  }
+}

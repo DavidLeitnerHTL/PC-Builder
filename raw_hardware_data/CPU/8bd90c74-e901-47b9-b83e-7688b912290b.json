@@ -1,0 +1,46 @@
+{
+  "opendb_id": "8bd90c74-e901-47b9-b83e-7688b912290b",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.7,
+      "boost": 4
+    }
+  },
+  "cache": {
+    "l2": 4,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 95,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "28 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD Athlon X4 860K 3.7 GHz 4-Core FM2+",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD860KXBJASBX"
+    ],
+    "series": "AMD Athlon X4"
+  },
+  "series": "AMD Athlon X4",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Kaveri",
+  "socket": "FM2+",
+  "general_product_information": {}
+}

@@ -1,0 +1,28 @@
+{
+  "opendb_id": "98f5aff7-5bbd-4d8f-b558-b1011f971946",
+  "metadata": {
+    "name": "ARCTIC P PST 140mm Black / Transparent RGB PWM 68.9 CFM 3-Pack",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [],
+    "series": "P",
+    "variant": "140mm Black / Transparent"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 68.9,
+  "max_airflow": null,
+  "min_noise_level": 0,
+  "max_noise_level": 68.9,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "12V RGB",
+  "static_pressure": 2,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

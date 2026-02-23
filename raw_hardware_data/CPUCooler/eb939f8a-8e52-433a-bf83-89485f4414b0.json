@@ -1,0 +1,46 @@
+{
+  "opendb_id": "eb939f8a-8e52-433a-bf83-89485f4414b0",
+  "metadata": {
+    "name": "In Win SR24 Water 240mm 101.5 CFM Black",
+    "manufacturer": "In Win",
+    "part_numbers": [
+      "IW-LC-SR24"
+    ],
+    "series": "SR24",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2500,
+  "min_noise_level": 23,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 2011",
+    "LGA 2066",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B088B1ZT2L"
+  }
+}

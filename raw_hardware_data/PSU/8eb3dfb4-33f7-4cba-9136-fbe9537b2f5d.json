@@ -1,0 +1,35 @@
+{
+  "opendb_id": "8eb3dfb4-33f7-4cba-9136-fbe9537b2f5d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 14,
+    "molex_4_pin": 10,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax MAXREVO SLI 1350W 80+ Gold Fully Modular",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "EMR1350EWT"
+    ],
+    "series": "MAXREVO",
+    "variant": "1350W Gold"
+  },
+  "wattage": 1350,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GOLD"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0051VVU6G",
+    "walmart_sku": 29945686
+  }
+}

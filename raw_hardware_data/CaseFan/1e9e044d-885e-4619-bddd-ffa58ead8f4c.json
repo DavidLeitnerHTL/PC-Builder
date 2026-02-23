@@ -1,0 +1,28 @@
+{
+  "opendb_id": "1e9e044d-885e-4619-bddd-ffa58ead8f4c",
+  "metadata": {
+    "name": "Thermalright TL-R12 120mm Black / Gray RGB PWM 65.25 CFM",
+    "manufacturer": "Thermalright",
+    "part_numbers": [],
+    "series": "TL-R12",
+    "variant": "120mm Black / Gray"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.76,
+  "max_airflow": 65.25,
+  "min_noise_level": 15,
+  "max_noise_level": 23,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

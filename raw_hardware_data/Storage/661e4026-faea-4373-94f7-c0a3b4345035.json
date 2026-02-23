@@ -1,0 +1,21 @@
+{
+  "opendb_id": "661e4026-faea-4373-94f7-c0a3b4345035",
+  "metadata": {
+    "name": "Netac NV7000 2TB SSD M.2-2280 PCIe 4.0 X4 NVMe",
+    "manufacturer": "Netac",
+    "part_numbers": [
+      "NT01NV7000-2T0-E4X",
+      "NV7000"
+    ],
+    "series": "NV7000",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0BNBK5JGZ"
+  }
+}

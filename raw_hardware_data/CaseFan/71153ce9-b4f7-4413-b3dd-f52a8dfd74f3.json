@@ -1,0 +1,32 @@
+{
+  "opendb_id": "71153ce9-b4f7-4413-b3dd-f52a8dfd74f3",
+  "metadata": {
+    "name": "MSI MPG EZ120 120mm White PWM ARGB",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MPG EZ120 ARGB WHITE-1W"
+    ],
+    "series": "MPG",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 0,
+  "max_airflow": 73.82,
+  "min_noise_level": 0,
+  "max_noise_level": 28.82,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.56,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D5NNNY32",
+    "newegg_sku": "N82E16835846059"
+  }
+}

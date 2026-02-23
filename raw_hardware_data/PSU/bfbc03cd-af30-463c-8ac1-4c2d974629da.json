@@ -1,0 +1,32 @@
+{
+  "opendb_id": "bfbc03cd-af30-463c-8ac1-4c2d974629da",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Raidmax XT 400W Non-Modular",
+    "manufacturer": "Raidmax",
+    "part_numbers": [
+      "RX-400XT",
+      "RX-XT SERIS"
+    ],
+    "series": "XT",
+    "variant": "400W "
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 146,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B01M0RI9J4"
+  }
+}

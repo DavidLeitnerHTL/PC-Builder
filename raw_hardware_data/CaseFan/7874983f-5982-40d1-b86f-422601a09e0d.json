@@ -1,0 +1,33 @@
+{
+  "opendb_id": "7874983f-5982-40d1-b86f-422601a09e0d",
+  "metadata": {
+    "name": "Fractal Design Momentum 120mm White PWM Addressable RGB 62.44 CFM 1-Pack",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-F-MR1-1202",
+      "7340172708896"
+    ],
+    "series": "Momentum",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 62.44,
+  "max_airflow": null,
+  "min_noise_level": 28.03,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.42,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D5BL7DFB",
+    "newegg_sku": "N82E16835352116"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "opendb_id": "fa8f58be-1395-4bbf-a0ed-95939c19797a",
+  "metadata": {
+    "name": "Phanteks PH-F140D30 140mm White PWM Addressable RGB 1-Pack",
+    "manufacturer": "Phanteks",
+    "part_numbers": [
+      "PH-F140D30_DRGB_PWM_WT01"
+    ],
+    "series": "PH-F140D30",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 71.93,
+  "max_airflow": null,
+  "min_noise_level": 29.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 3.32,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CK462R8W",
+    "newegg_sku": "N82E16835709251",
+    "walmart_sku": 5069648848
+  }
+}

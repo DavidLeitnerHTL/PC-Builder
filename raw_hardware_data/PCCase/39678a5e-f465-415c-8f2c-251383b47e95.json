@@ -1,0 +1,48 @@
+{
+  "opendb_id": "39678a5e-f465-415c-8f2c-251383b47e95",
+  "metadata": {
+    "name": "Silverstone PS15 Micro ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-PS15B-G"
+    ],
+    "series": "PS15",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-09-08T10:20:40.286Z"
+  },
+  "supported_motherboard_form_factors": [
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "Micro ATX Mid Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.0 Type-A x 2",
+  "max_video_card_length": 314,
+  "max_cpu_cooler_height": 154,
+  "internal_3_5_bays": 1,
+  "internal_2_5_bays": 3,
+  "expansion_slots": 4,
+  "dimensions": "351 x 192 x 381",
+  "volume": 25.676,
+  "weight": 7.76,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "USB 3.0 Type-A x 2"
+  ],
+  "dimensions_mm": {
+    "width": 192,
+    "height": 381,
+    "depth": 351,
+    "_id": "68beadf90e06db1ea4fdc59e"
+  },
+  "general_product_information": {
+    "amazon_sku": "B07N1HL5PR",
+    "newegg_sku": "N82E16811163283",
+    "walmart_sku": 824558852
+  }
+}

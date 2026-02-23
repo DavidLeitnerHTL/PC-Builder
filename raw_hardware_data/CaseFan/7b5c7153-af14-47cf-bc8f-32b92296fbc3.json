@@ -1,0 +1,28 @@
+{
+  "opendb_id": "7b5c7153-af14-47cf-bc8f-32b92296fbc3",
+  "metadata": {
+    "name": "Corsair iCUE ML120 120mm White / Gray RGB ELITE Premium 58.1 CFM PWM 3-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [],
+    "series": "iCUE",
+    "variant": "120mm White / Gray"
+  },
+  "size": 120,
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
+  "quantity": 3,
+  "min_airflow": 14.86,
+  "max_airflow": 58.1,
+  "min_noise_level": 10,
+  "max_noise_level": 30.4,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + Proprietary RGB",
+  "controller": "12V RGB",
+  "static_pressure": 2.9,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

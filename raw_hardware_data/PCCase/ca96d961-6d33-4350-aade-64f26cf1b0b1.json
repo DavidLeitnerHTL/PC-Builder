@@ -1,0 +1,56 @@
+{
+  "opendb_id": "ca96d961-6d33-4350-aade-64f26cf1b0b1",
+  "metadata": {
+    "name": "MSI MAG PANO M100R PZ Micro ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C / USB 3.2 Gen 1 Type-A",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MAG PANO M100R PZ WHITE                                                    PANOM100RPZWHT                                                    CAM-PANOM100RPZ-W                                                    306-7G24W21-809",
+      "MAG PANO M100R PZ WHITE",
+      "306-7G24W24-809",
+      "306-7G24W21-809",
+      "824142337714"
+    ],
+    "series": "MAG",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-08-23T20:29:05.510Z"
+  },
+  "supported_motherboard_form_factors": [
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "Micro ATX Mid Tower",
+  "color": [
+    "WHITE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "1 x USB 3.2 Gen 1 Type-A                 1 x USB 3.2 Gen 2x2 Type-C",
+  "max_video_card_length": 390,
+  "max_cpu_cooler_height": 175,
+  "internal_3_5_bays": 1,
+  "internal_2_5_bays": 1,
+  "expansion_slots": 5,
+  "dimensions": "488 x 235 x 453",
+  "volume": 41.877,
+  "weight": 19.09203,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "1 x USB 3.2 Gen 1 Type-A  ",
+    "1 x USB 3.2 Gen 2x2 Type-C"
+  ],
+  "power_supply_included": false,
+  "dimensions_mm": {
+    "width": 235,
+    "height": 453,
+    "depth": 488,
+    "_id": "68aa24940988344924f6c6b0"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0CPRPMG8D",
+    "newegg_sku": "N82E16811320057",
+    "bestbuy_sku": 11064935,
+    "walmart_sku": 5294150164,
+    "manufacturer_url": "https://www.msi.com/PC-Case/MAG-PANO-M100R-PZ"
+  }
+}

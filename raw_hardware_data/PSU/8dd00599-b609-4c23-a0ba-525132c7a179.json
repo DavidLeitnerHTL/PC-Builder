@@ -1,0 +1,29 @@
+{
+  "opendb_id": "8dd00599-b609-4c23-a0ba-525132c7a179",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Raidmax RX-635AP ATX 635W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Raidmax",
+    "part_numbers": [
+      "RX-635AP"
+    ],
+    "series": "RX-635AP",
+    "variant": "635W Bronze"
+  },
+  "wattage": 635,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

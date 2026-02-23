@@ -1,0 +1,32 @@
+{
+  "opendb_id": "f23b78bb-3b9b-4ce7-9c13-a6e06b986dcb",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master V750 Black / Gold 750W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPZ-7501-AFAG-BUS                                                    MPZ-7501-AFAG-BEU                                                    MPZ-7501-AFAG-BAU                                                    MPZ-7501-AFAG-BUK                                                    MPZ-7501-AFAG-BWO"
+    ],
+    "series": "V750",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GOLD"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

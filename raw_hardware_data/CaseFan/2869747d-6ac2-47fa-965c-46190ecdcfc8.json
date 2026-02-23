@@ -1,0 +1,27 @@
+{
+  "opendb_id": "2869747d-6ac2-47fa-965c-46190ecdcfc8",
+  "metadata": {
+    "name": "NZXT Aer 120mm Black RGB PWM 3-Pack",
+    "manufacturer": "NZXT",
+    "part_numbers": [],
+    "series": "Aer",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 20,
+  "max_airflow": 61.4,
+  "min_noise_level": 22,
+  "max_noise_level": 31,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + Proprietary RGB",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,28 @@
+{
+  "opendb_id": "a51764ab-833d-4189-92a6-a70be424971b",
+  "metadata": {
+    "name": "Gelid Solutions Wing PL 120mm Black/Blue PWM Blue LED",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [],
+    "series": "Wing",
+    "variant": "120mm Black / Blue"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 75.59,
+  "max_airflow": null,
+  "min_noise_level": 10,
+  "max_noise_level": 26.8,
+  "pwm": true,
+  "led": "Blue",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

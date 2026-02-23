@@ -1,0 +1,29 @@
+{
+  "opendb_id": "37ea6f42-7737-4bbb-9f18-f57ec4e1e6cf",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "BitFenix Whisper M 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "BitFenix",
+    "part_numbers": [
+      "BP-WG850UMAG-7FM                                                    BP-WG850UMAG-0FM                                                    BP-WG850UMAG-6FM                                                    BP-WG850UMAG-8FM                                                    BP-WG850UMAG-9FM"
+    ],
+    "series": "Whisper",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

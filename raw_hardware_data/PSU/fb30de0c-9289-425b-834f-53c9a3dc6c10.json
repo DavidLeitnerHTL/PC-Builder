@@ -1,0 +1,31 @@
+{
+  "opendb_id": "fb30de0c-9289-425b-834f-53c9a3dc6c10",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "GAMDIAS HELIOS P2-1300G Black ATX 1300W Non-Modular 80+ Gold Certified",
+    "manufacturer": "GAMDIAS",
+    "part_numbers": [
+      "HELIOS P2-1300G"
+    ],
+    "series": "HELIOS",
+    "variant": "1300W Gold"
+  },
+  "wattage": 1300,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "dbaff26a-cba1-4928-9a51-00245cfdce80",
+  "metadata": {
+    "name": "Gelid Solutions Slim Silence AM1 34 CFM Air 26mm",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [
+      "CC-Ssilence-AM1",
+      "CC-SSILENCE-AM2"
+    ],
+    "series": "Slim",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 1200,
+  "max_fan_rpm": 2600,
+  "min_noise_level": 15,
+  "max_noise_level": 27.2,
+  "color": [],
+  "height": 26,
+  "cpu_sockets": [
+    "AM1"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B002OTY42A"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "opendb_id": "36c03466-0364-4e5b-be17-4d6bfd4972b6",
+  "metadata": {
+    "name": "Thermaltake Riing 120mm Black / Blue Blue 40.6 CFM",
+    "manufacturer": "Thermaltake",
+    "series": "Riing",
+    "variant": "120mm Black / Blue",
+    "part_numbers": [
+      "CL-F038-PL12BU-A"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 40.6,
+  "max_airflow": null,
+  "min_noise_level": 18.7,
+  "max_noise_level": 24.6,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 2.01,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00VRKVGP0",
+    "newegg_sku": "9SIA8EFK657899",
+    "bestbuy_sku": 4401200,
+    "walmart_sku": 46184903
+  }
+}

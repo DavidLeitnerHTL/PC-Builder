@@ -1,0 +1,31 @@
+{
+  "opendb_id": "5816ecc7-6ec1-4b8e-aed8-ce1c995eff01",
+  "metadata": {
+    "name": "Gelid Solutions Silent 14 140mm Black PWM",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [
+      "FN-PX14-16"
+    ],
+    "series": "Silent",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 78.5,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.6,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09QT83P3Q"
+  }
+}

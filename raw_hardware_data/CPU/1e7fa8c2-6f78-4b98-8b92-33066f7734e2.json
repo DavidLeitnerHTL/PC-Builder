@@ -1,0 +1,57 @@
+{
+  "opendb_id": "1e7fa8c2-6f78-4b98-8b92-33066f7734e2",
+  "cores": {
+    "total": 32,
+    "threads": 64
+  },
+  "clocks": {
+    "performance": {
+      "base": 4,
+      "boost": 5.4
+    }
+  },
+  "cache": {
+    "l1": "2560 KB",
+    "l2": 32,
+    "l3": 128
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": null
+    },
+    "memory": {
+      "types": [
+        "DDR5"
+      ],
+      "channels": 4
+    },
+    "tdp": 350,
+    "eccSupport": true,
+    "packaging": "Boxed",
+    "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "includesCooler": false
+  },
+  "metadata": {
+    "name": "AMD Ryzen Threadripper 9970X",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "Ryzen Threadripper 9970X",
+      "100-000001594WOF",
+      "100-100001594WOF"
+    ],
+    "series": " Ryzen Threadripper 9000 Series",
+    "variant": "9970X"
+  },
+  "series": "AMD Ryzen Threadripper 9000 Series",
+  "microarchitecture": "Zen 5",
+  "coreFamily": "Shimada Peak",
+  "socket": "sTR5",
+  "general_product_information": {
+    "amazon_sku": "B0FJ6FJN2H",
+    "newegg_sku": "N82E16819113915",
+    "bestbuy_sku": 6644816,
+    "walmart_sku": 17387009427,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/ryzen-threadripper/9000-series/amd-ryzen-threadripper-9970x.html"
+  }
+}

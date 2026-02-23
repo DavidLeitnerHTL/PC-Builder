@@ -1,0 +1,31 @@
+{
+  "opendb_id": "4461f8aa-c41e-400f-8984-4c7b5c139c5d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic CORE GM 650W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "CORE-GM-650"
+    ],
+    "series": "CORE",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

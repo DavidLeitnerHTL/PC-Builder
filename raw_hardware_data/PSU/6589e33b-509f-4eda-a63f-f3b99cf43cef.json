@@ -1,0 +1,31 @@
+{
+  "opendb_id": "6589e33b-509f-4eda-a63f-f3b99cf43cef",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "In Win P55F Black 550W Non-Modular 80+ Gold",
+    "manufacturer": "In Win",
+    "part_numbers": [
+      "IW-PS-PF550W"
+    ],
+    "series": "P55F",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

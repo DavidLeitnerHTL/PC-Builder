@@ -1,0 +1,31 @@
+{
+  "opendb_id": "99f33f2e-fd94-4430-ae8e-a807b9343623",
+  "metadata": {
+    "name": "Scythe Kaze Flex 120mm Black RGB",
+    "manufacturer": "SCYTHE",
+    "part_numbers": [
+      "SU1225FD12HR-RN"
+    ],
+    "series": "Kaze",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 79.76,
+  "max_airflow": null,
+  "min_noise_level": 35.8,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "RGB",
+  "connector": "3-pin + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 2.4,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07HG9SH8X"
+  }
+}

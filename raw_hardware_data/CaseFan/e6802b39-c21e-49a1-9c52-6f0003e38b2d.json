@@ -1,0 +1,30 @@
+{
+  "opendb_id": "e6802b39-c21e-49a1-9c52-6f0003e38b2d",
+  "metadata": {
+    "name": "Super Flower MEGACOOL 120mm Black / Purple PWM",
+    "manufacturer": "Super Flower",
+    "part_numbers": [],
+    "series": "MEGACOOL",
+    "variant": "120mm Black / Purple"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "PURPLE"
+  ],
+  "quantity": 1,
+  "min_airflow": 90.04,
+  "max_airflow": 151.87,
+  "min_noise_level": 35.73,
+  "max_noise_level": 48.39,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "Manual",
+  "static_pressure": 7.14,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "newegg_sku": "1YF-01B3-00002"
+  }
+}

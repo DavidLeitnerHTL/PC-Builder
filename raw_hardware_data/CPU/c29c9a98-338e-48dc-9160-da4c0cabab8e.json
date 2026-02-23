@@ -1,0 +1,46 @@
+{
+  "opendb_id": "c29c9a98-338e-48dc-9160-da4c0cabab8e",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.8,
+      "boost": 3.3
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 6
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel HD Graphics 4600"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "22 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Core i5 4440S 2.8 GHz 4-Core LGA1150",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80646I54440S"
+    ],
+    "series": "Intel Core i5"
+  },
+  "series": "Intel Core i5",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell",
+  "socket": "LGA 1150",
+  "general_product_information": {}
+}

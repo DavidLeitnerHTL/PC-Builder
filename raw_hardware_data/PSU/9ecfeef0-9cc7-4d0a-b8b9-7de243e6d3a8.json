@@ -1,0 +1,32 @@
+{
+  "opendb_id": "9ecfeef0-9cc7-4d0a-b8b9-7de243e6d3a8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 10,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic PRIME PX Black / Silver ATX 650W 80+ Platinum Certified Fully Modular",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "PRIME-PX-650"
+    ],
+    "series": "PRIME",
+    "variant": "650W Platinum"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

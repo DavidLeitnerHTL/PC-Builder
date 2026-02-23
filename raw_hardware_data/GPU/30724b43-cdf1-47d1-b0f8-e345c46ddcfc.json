@@ -1,0 +1,50 @@
+{
+  "opendb_id": "30724b43-cdf1-47d1-b0f8-e345c46ddcfc",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "ASRock Challenger OC Radeon RX 7900 GRE 16GB GDDR6 Black",
+    "manufacturer": "ASRock",
+    "part_numbers": [
+      "RX7900GRE CL 16GO                                                    90-GA52ZZ-00UANF",
+      "90-GA52ZZ-00UANF"
+    ],
+    "series": "Radeon RX 7900 GRE",
+    "variant": "ASRock"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 7900 GRE",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1270,
+  "core_boost_clock": 2293,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 269,
+  "tdp": 260,
+  "total_slot_width": 3,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 3,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c5a6865ad0c3553e9bc9"
+  },
+  "core_count": 5120,
+  "general_product_information": {
+    "amazon_sku": "B0CSPJ5DPR",
+    "newegg_sku": "N82E16814930123"
+  }
+}

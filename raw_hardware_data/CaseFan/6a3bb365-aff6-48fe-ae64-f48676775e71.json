@@ -1,0 +1,27 @@
+{
+  "opendb_id": "6a3bb365-aff6-48fe-ae64-f48676775e71",
+  "metadata": {
+    "name": "Gelid Solutions FN-SX05-40 50mm White",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [],
+    "series": "FN-SX05-40",
+    "variant": "50mm White"
+  },
+  "size": 50,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.94,
+  "max_airflow": null,
+  "min_noise_level": 23,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,20 @@
+{
+  "opendb_id": "21a00f0f-42f7-4452-a011-df36b3723b9a",
+  "metadata": {
+    "name": "IBM 90Y8572 2TB HDD 7200RPM 3.5\" SAS 6.0 Gb/s",
+    "manufacturer": "IBM",
+    "part_numbers": [
+      "90Y8572"
+    ],
+    "series": "90Y8572",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SAS 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B009SHUP1U"
+  }
+}

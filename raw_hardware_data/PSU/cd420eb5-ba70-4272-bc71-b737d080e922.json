@@ -1,0 +1,33 @@
+{
+  "opendb_id": "cd420eb5-ba70-4272-bc71-b737d080e922",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "GameMax GP ATX 650W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "GameMax",
+    "part_numbers": [
+      "GP-650"
+    ],
+    "series": "GP",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 158,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08722X8PG"
+  }
+}

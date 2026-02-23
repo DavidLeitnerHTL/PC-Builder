@@ -1,0 +1,31 @@
+{
+  "opendb_id": "717c94bc-b1b1-4d19-a29f-8e2aba49bbbd",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Super Flower Leadex V Gold Pro Black 1000W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Super Flower",
+    "part_numbers": [
+      "SF-1000F14TG v2.0"
+    ],
+    "series": "Leadex",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 130,
+  "fanless": false,
+  "general_product_information": {}
+}

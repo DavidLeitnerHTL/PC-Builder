@@ -1,0 +1,23 @@
+{
+  "opendb_id": "248add02-8d90-42c6-b40e-c712922803f3",
+  "metadata": {
+    "name": "Seagate SkyHawk AI 10TB 3.5\" HDD 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST10000VE0008",
+      "ST10000VEZ008",
+      "ST10000VEZ08"
+    ],
+    "series": "SkyHawk",
+    "variant": "10000GB"
+  },
+  "capacity": 10000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B085RH2FR7",
+    "walmart_sku": 164341962
+  }
+}

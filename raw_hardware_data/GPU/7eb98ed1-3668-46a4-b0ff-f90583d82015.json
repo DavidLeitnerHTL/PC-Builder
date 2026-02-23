@@ -1,0 +1,49 @@
+{
+  "opendb_id": "7eb98ed1-3668-46a4-b0ff-f90583d82015",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "PowerColor Radeon RX 9070 Reaper 16GB GDDR6 Black",
+    "manufacturer": "PowerColor",
+    "part_numbers": [
+      "RX9070 16G-A                                                    RX9070 16GB-A",
+      "RX9070 16G-A"
+    ],
+    "series": "Radeon RX 9070",
+    "variant": "PowerColor"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 9070",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 2070,
+  "core_boost_clock": 2520,
+  "effective_memory_clock": 0,
+  "memory_bus": 256,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 289,
+  "tdp": 220,
+  "total_slot_width": 2,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 3,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c768865ad0c3553eb808"
+  },
+  "core_count": 3584,
+  "general_product_information": {
+    "newegg_sku": "N82E16814131874"
+  }
+}

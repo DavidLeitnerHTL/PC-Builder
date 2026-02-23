@@ -1,0 +1,46 @@
+{
+  "opendb_id": "c87055d1-eccc-494c-ac27-78de9f5005b5",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Gainward Ghost GeForce RTX 3050 8GB GDDR6 Black",
+    "manufacturer": "Gainward",
+    "part_numbers": [
+      "NE63050019P1-190AB"
+    ],
+    "series": "GeForce RTX 3050 8GB",
+    "variant": "Gainward"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 3050 8 GB",
+  "memory": 8,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1550,
+  "core_boost_clock": 1777,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 245,
+  "tdp": 130,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 1,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c831865ad0c3553ec4a2"
+  },
+  "core_count": 0,
+  "general_product_information": {}
+}

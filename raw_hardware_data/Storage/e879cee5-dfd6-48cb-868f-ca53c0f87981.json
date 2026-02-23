@@ -1,0 +1,24 @@
+{
+  "opendb_id": "e879cee5-dfd6-48cb-868f-ca53c0f87981",
+  "metadata": {
+    "name": "Western Digital WD_Black SN850X 4TB M.2 SSD PCIe 4.0 NVMe (w/Heatsink)",
+    "manufacturer": "Western Digital",
+    "part_numbers": [
+      "WDS400T2XHE                                                    WDS400T2XHE-00BCA0                                                    WDBB9H0040BNC-WRSN",
+      "WDS400T2XHE"
+    ],
+    "series": "WD_Black",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0D9WTKV1B",
+    "newegg_sku": "N82E16820250271",
+    "bestbuy_sku": 6593301,
+    "walmart_sku": 8054314485
+  }
+}

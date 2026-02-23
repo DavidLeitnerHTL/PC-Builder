@@ -1,0 +1,47 @@
+{
+  "opendb_id": "cbb2e01c-c429-45d2-80d5-1c9ceaf3b160",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Inno3D GeForce GTX 1060 iChill 6GB GDDR5 Black / Silver",
+    "manufacturer": "Inno3D",
+    "part_numbers": [
+      "C1060-1SDN-N5GNX"
+    ],
+    "series": "GeForce GTX 1060 6GB",
+    "variant": "Inno3D"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce GTX 1060",
+  "memory": 6,
+  "memory_type": "GDDR5",
+  "core_base_clock": 1569,
+  "core_boost_clock": 1784,
+  "effective_memory_clock": 8200,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 303,
+  "tdp": 120,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 1,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c820865ad0c3553ec39a"
+  },
+  "core_count": 0,
+  "general_product_information": {}
+}

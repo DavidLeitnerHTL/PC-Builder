@@ -1,0 +1,38 @@
+{
+  "opendb_id": "966f787c-3fda-4b8d-bf28-2caec128816f",
+  "metadata": {
+    "name": "Jonsbo HX5230 Air 158mm 83.04 CFM Black",
+    "manufacturer": "Jonsbo",
+    "part_numbers": [
+      "HX5230"
+    ],
+    "series": "HX5230",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 700,
+  "max_fan_rpm": 1800,
+  "min_noise_level": 25.2,
+  "max_noise_level": 37.6,
+  "color": [
+    "BLACK"
+  ],
+  "height": 158,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

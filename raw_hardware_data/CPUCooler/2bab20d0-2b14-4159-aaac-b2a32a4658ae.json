@@ -1,0 +1,43 @@
+{
+  "opendb_id": "2bab20d0-2b14-4159-aaac-b2a32a4658ae",
+  "metadata": {
+    "name": "Valkyrie SYN Water 360mm 80 CFM White / Blue",
+    "manufacturer": "Valkyrie",
+    "part_numbers": [
+      "VK-E360-W"
+    ],
+    "series": "SYN",
+    "variant": "White / Blue",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 800,
+  "max_fan_rpm": 2150,
+  "min_noise_level": 29,
+  "max_noise_level": null,
+  "color": [
+    "WHITE",
+    "BLUE"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "newegg_sku": "2YM-00B2-00008"
+  }
+}

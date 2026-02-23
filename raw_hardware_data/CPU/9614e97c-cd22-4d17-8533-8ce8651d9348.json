@@ -1,0 +1,46 @@
+{
+  "opendb_id": "9614e97c-cd22-4d17-8533-8ce8651d9348",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.7,
+      "boost": 3.9
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 10
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 130,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "22 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E5 1620 V2 3.7 GHz 4-Core LGA2011",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8063501292405"
+    ],
+    "series": "Intel Xeon E5"
+  },
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Ivy Bridge",
+  "coreFamily": "Ivy Bridge-EP",
+  "socket": "LGA 2011",
+  "general_product_information": {}
+}

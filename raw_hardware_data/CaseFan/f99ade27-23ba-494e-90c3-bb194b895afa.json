@@ -1,0 +1,34 @@
+{
+  "opendb_id": "f99ade27-23ba-494e-90c3-bb194b895afa",
+  "metadata": {
+    "name": "Montech Metal Pro 120mm White Addressable RGB PWM 76.2 CFM",
+    "manufacturer": "Montech",
+    "part_numbers": [
+      "METALPRO12W",
+      "METAL PRO 120 ARGB PWM White",
+      "METAL PRO 12 ARGB PWM (W)"
+    ],
+    "series": "Metal",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 76.2,
+  "max_airflow": null,
+  "min_noise_level": 29.1,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 3.81,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DJ4D1TZ9",
+    "newegg_sku": "1YF-00Y5-00030"
+  }
+}

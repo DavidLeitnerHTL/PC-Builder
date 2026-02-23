@@ -1,0 +1,29 @@
+{
+  "opendb_id": "d81e0a52-c3e3-4d78-98bf-7eb6bf73f054",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group Raider 450W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "Raider 450"
+    ],
+    "series": "Raider",
+    "variant": "450W Bronze"
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

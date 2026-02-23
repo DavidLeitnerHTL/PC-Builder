@@ -1,0 +1,31 @@
+{
+  "opendb_id": "c15a3d7a-8614-4c40-ab45-71faf0535181",
+  "metadata": {
+    "name": "Thermalright TL-B14 140mm Gray PWM",
+    "manufacturer": "Thermalright",
+    "series": "TL-B14",
+    "variant": "140mm Gray",
+    "part_numbers": [
+      "TL-B14"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 82.5,
+  "max_airflow": null,
+  "min_noise_level": 27.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.35,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BTCP7CVL"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "opendb_id": "761d5501-690d-48e2-ba1e-4cceba77c9ec",
+  "cores": {
+    "total": 2,
+    "performance": 2,
+    "threads": 2
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.2,
+      "boost": 3.4
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon HD 7480D"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A 4 A4-4020 3.2 GHz 2-Core FM2",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD4020OKHLBOX"
+    ],
+    "series": "AMD A4"
+  },
+  "series": "AMD A4",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
+  "general_product_information": {}
+}

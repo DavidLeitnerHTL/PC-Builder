@@ -1,0 +1,29 @@
+{
+  "opendb_id": "f3148373-c55e-4200-9c52-810d265ba40f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax EPM850EWT ATX 850W Semi-Modular 80+ Platinum Certified",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "EPM850EWT"
+    ],
+    "series": "EPM850EWT",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

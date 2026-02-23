@@ -1,0 +1,32 @@
+{
+  "opendb_id": "0e7f8335-691b-4a13-bea7-8a907c5d26af",
+  "metadata": {
+    "name": "SilenX Ixtrema Pro 120mm Black",
+    "manufacturer": "SilenX",
+    "part_numbers": [
+      "IXP-76-18"
+    ],
+    "series": "Ixtrema",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 90,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B000OZ7YEG",
+    "walmart_sku": 41954382
+  }
+}

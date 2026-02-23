@@ -1,0 +1,29 @@
+{
+  "opendb_id": "3ca74ae1-3a15-48f4-8314-d6cf0a593fee",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 16,
+    "sata": 0,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill HERCULES-1600 1600W 80+ Silver Semi-Modular",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "HERCULES-1600"
+    ],
+    "series": "HERCULES-1600",
+    "variant": "1600W Silver"
+  },
+  "wattage": 1600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Silver",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 241,
+  "fanless": false,
+  "general_product_information": {}
+}

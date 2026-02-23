@@ -1,0 +1,27 @@
+{
+  "opendb_id": "5b8deb8e-99cf-406d-8b1e-9aae4f7ebed7",
+  "metadata": {
+    "name": "StarTech FANBOX 80mm Black",
+    "manufacturer": "StarTech",
+    "part_numbers": [],
+    "series": "FANBOX",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 24.81,
+  "max_airflow": null,
+  "min_noise_level": 23,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

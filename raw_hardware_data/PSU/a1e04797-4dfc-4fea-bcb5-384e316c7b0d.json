@@ -1,0 +1,34 @@
+{
+  "opendb_id": "a1e04797-4dfc-4fea-bcb5-384e316c7b0d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ARESGAME AGK Black / Red ATX 850W Fully Modular 80+ Gold",
+    "manufacturer": "ARESGAME",
+    "part_numbers": [
+      "AGK850"
+    ],
+    "series": "AGK",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B09BNBWSWJ"
+  }
+}

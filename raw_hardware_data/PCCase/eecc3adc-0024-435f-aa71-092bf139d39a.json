@@ -1,0 +1,52 @@
+{
+  "opendb_id": "eecc3adc-0024-435f-aa71-092bf139d39a",
+  "metadata": {
+    "name": "Thermaltake View 380 XL ATX Mid Tower Bumblebee",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CA-11E-00M4WN-00"
+    ],
+    "series": "View ",
+    "variant": "380 XL",
+    "last_manually_spec_verified_at": "2025-11-07T14:01:35.769Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "YELLOW"
+  ],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "supports_rear_connecting_motherboard": true,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "1x USB 3.2 Gen 2 Type-C",
+    "2x USB 3.0"
+  ],
+  "power_supply": "None",
+  "max_video_card_length": 420,
+  "max_cpu_cooler_height": 160,
+  "internal_3_5_bays": 1,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 8,
+  "dimensions": "471 x 288 x 469",
+  "dimensions_mm": {
+    "width": 288,
+    "height": 471,
+    "depth": 469,
+    "_id": "690dfbcb720e9b6c0df6bfb8"
+  },
+  "volume": 63.619,
+  "weight": 15.28,
+  "general_product_information": {
+    "amazon_sku": "B0DW141CJN",
+    "newegg_sku": "N82E16811133564",
+    "bestbuy_sku": 6626448,
+    "walmart_sku": 15566208964,
+    "manufacturer_url": "https://thermaltakeusa.com/products/view-380-xl-tg-argb-bumblebee-mid-tower-chassis-ca-11e-00m4wn-00"
+  }
+}

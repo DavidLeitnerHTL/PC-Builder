@@ -1,0 +1,54 @@
+{
+  "opendb_id": "fe2cf1aa-c66e-43ec-a55b-997584228dd1",
+  "cores": {
+    "total": 6,
+    "performance": 6,
+    "threads": 12
+  },
+  "clocks": {
+    "performance": {
+      "base": 4.7,
+      "boost": 5.3
+    }
+  },
+  "cache": {
+    "l2": 6,
+    "l3": 32
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": [
+        "DDR5"
+      ]
+    },
+    "tdp": 105,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "5 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "AMD Ryzen 5 7600X 4.7 GHz 6-Core AM5",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "100-100000593WOF",
+      "RYZEN 5 7600X"
+    ],
+    "series": "AMD Ryzen 5"
+  },
+  "series": "AMD Ryzen 5",
+  "microarchitecture": "Zen 4",
+  "coreFamily": "Raphael",
+  "socket": "AM5",
+  "general_product_information": {
+    "amazon_sku": "B0BBJDS62N",
+    "newegg_sku": "N82E16819113770",
+    "bestbuy_sku": 6519479,
+    "walmart_sku": 1693068603
+  }
+}

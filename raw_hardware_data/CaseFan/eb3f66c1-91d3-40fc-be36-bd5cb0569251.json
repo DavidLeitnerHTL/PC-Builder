@@ -1,0 +1,27 @@
+{
+  "opendb_id": "eb3f66c1-91d3-40fc-be36-bd5cb0569251",
+  "metadata": {
+    "name": "Azza Hurricane 120mm Black RGB",
+    "manufacturer": "Azza",
+    "part_numbers": [],
+    "series": "Hurricane",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 47,
+  "max_airflow": null,
+  "min_noise_level": 28.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "RGB",
+  "connector": "3-pin + 4-pin 12V RGB",
+  "controller": "Manual",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

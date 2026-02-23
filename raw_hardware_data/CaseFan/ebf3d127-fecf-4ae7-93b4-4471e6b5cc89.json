@@ -1,0 +1,27 @@
+{
+  "opendb_id": "ebf3d127-fecf-4ae7-93b4-4471e6b5cc89",
+  "metadata": {
+    "name": "Cougar Dual-X 120mm Orange Red LED",
+    "manufacturer": "COUGAR",
+    "part_numbers": [],
+    "series": "Dual-X",
+    "variant": "120mm Orange"
+  },
+  "size": 120,
+  "color": [
+    "ORANGE"
+  ],
+  "quantity": 1,
+  "min_airflow": 64.37,
+  "max_airflow": null,
+  "min_noise_level": 16.6,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

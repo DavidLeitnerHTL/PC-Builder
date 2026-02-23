@@ -1,0 +1,34 @@
+{
+  "opendb_id": "1d62f50b-a1e6-4dfb-a1dc-5ce0015cea1e",
+  "metadata": {
+    "name": "Rosewill RAWP-141411 140mm Brown / Black 82 CFM 1-Pack",
+    "manufacturer": "Rosewill",
+    "series": "RAWP-141411",
+    "variant": "140mm Brown / Black",
+    "part_numbers": [
+      "RAWP-141411"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "BROWN",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 60.23,
+  "max_airflow": 82,
+  "min_noise_level": 14.5,
+  "max_noise_level": 21.5,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00UNTG71E",
+    "newegg_sku": "N82E16835200110",
+    "walmart_sku": 100144087
+  }
+}

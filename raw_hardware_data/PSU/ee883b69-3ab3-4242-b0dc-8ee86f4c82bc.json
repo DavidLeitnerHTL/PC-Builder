@@ -1,0 +1,29 @@
+{
+  "opendb_id": "ee883b69-3ab3-4242-b0dc-8ee86f4c82bc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider ATX 600W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "ST60F-ESB                                                    SST-ST60F-ESB"
+    ],
+    "series": "Strider",
+    "variant": "600W Bronze"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

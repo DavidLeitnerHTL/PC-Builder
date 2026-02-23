@@ -1,0 +1,33 @@
+{
+  "opendb_id": "9fceaba7-1519-432c-a699-9afa0cd534f3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Smart Certified ATX 500W Non-Modular 80+",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-SPD-0500NPCWUS-W"
+    ],
+    "series": "Smart",
+    "variant": "500W 80+"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B014W3EM2W",
+    "newegg_sku": "N82E16817153233",
+    "walmart_sku": 563473101
+  }
+}

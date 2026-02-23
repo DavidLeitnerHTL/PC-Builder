@@ -1,0 +1,33 @@
+{
+  "opendb_id": "1b830871-0f40-44ba-b403-b1435e8d3266",
+  "metadata": {
+    "name": "NZXT F120P (2022) 120mm Black PWM",
+    "manufacturer": "NZXT",
+    "series": "F120P",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "RF-P12SF-B1"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.67,
+  "max_airflow": 78.02,
+  "min_noise_level": 17.9,
+  "max_noise_level": 30.6,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.7,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0B1LMGJYN",
+    "newegg_sku": "1YF-000Z-000Z7",
+    "walmart_sku": 394149448
+  }
+}

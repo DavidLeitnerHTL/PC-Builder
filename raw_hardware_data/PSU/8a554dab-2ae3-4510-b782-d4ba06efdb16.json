@@ -1,0 +1,33 @@
+{
+  "opendb_id": "8a554dab-2ae3-4510-b782-d4ba06efdb16",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 3,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! TFX Power 3 Black TFX 300W Non-Modular 80+ Gold Certified",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN323"
+    ],
+    "series": "TFX",
+    "variant": "300W Gold"
+  },
+  "wattage": 300,
+  "form_factor": "TFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 175,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0937HPKFT"
+  }
+}

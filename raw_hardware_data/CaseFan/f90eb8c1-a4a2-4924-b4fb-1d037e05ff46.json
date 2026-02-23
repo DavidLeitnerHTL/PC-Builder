@@ -1,0 +1,33 @@
+{
+  "opendb_id": "f90eb8c1-a4a2-4924-b4fb-1d037e05ff46",
+  "metadata": {
+    "name": "ARCTIC F 140mm Black PWM PST 5-Pack",
+    "manufacturer": "ARCTIC",
+    "series": "F",
+    "variant": "140mm Black",
+    "part_numbers": [
+      "ACFAN00219A"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 5,
+  "min_airflow": 74,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.6,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08QNCMQDL",
+    "newegg_sku": "9SIA1K6JHK8276",
+    "walmart_sku": 2348809317
+  }
+}

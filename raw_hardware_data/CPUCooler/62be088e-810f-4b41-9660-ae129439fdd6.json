@@ -1,0 +1,40 @@
+{
+  "opendb_id": "62be088e-810f-4b41-9660-ae129439fdd6",
+  "metadata": {
+    "name": "NZXT Kraken Elite 240 (2024) 73.47 CFM Water 240mm Black",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RL-KN24E-B2"
+    ],
+    "series": "Kraken",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2000,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "newegg_sku": "N82E16835146158"
+  }
+}

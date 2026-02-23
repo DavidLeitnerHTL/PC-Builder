@@ -1,0 +1,31 @@
+{
+  "opendb_id": "e9dcb7d1-2188-496c-a838-0826d219b5ca",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ENDORFY Supremo FM6 Black 1000W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "ENDORFY",
+    "part_numbers": [
+      "EY7A011-U1                                            EY7A011"
+    ],
+    "series": "Supremo",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

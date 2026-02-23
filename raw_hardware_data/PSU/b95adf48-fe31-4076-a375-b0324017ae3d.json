@@ -1,0 +1,31 @@
+{
+  "opendb_id": "b95adf48-fe31-4076-a375-b0324017ae3d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Seasonic FOCUS Plus Platinum 650W Fully Modular 80+ Platinum",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "SSR-650PX"
+    ],
+    "series": "FOCUS",
+    "variant": "650W Platinum"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B074N8RG74"
+  }
+}

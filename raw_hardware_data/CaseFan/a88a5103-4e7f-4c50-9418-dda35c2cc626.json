@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a88a5103-4e7f-4c50-9418-dda35c2cc626",
+  "metadata": {
+    "name": "Silverstone SCOOL 80mm Blue 1-Pack",
+    "manufacturer": "SilverStone",
+    "part_numbers": [],
+    "series": "SCOOL",
+    "variant": "80mm Blue"
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 14.68,
+  "max_airflow": 28.55,
+  "min_noise_level": 15,
+  "max_noise_level": 19,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

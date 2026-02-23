@@ -1,0 +1,29 @@
+{
+  "opendb_id": "6a00a6c2-2bd7-4a10-9966-e0cd41e0e192",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 3,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master eXtreme Power Plus 460W Non-Modular",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "RS-460-PMSR-A3"
+    ],
+    "series": "eXtreme",
+    "variant": "460W "
+  },
+  "wattage": 460,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

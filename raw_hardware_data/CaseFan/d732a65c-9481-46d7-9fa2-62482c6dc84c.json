@@ -1,0 +1,31 @@
+{
+  "opendb_id": "d732a65c-9481-46d7-9fa2-62482c6dc84c",
+  "metadata": {
+    "name": "Antec SPARK 120mm Black RGB PWM 45.03 CFM 1-Pack",
+    "manufacturer": "Antec",
+    "series": "SPARK",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "AMGSPARK"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 45.03,
+  "max_airflow": null,
+  "min_noise_level": 32.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 2.56,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07V32FKVT"
+  }
+}

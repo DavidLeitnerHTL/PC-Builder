@@ -1,0 +1,32 @@
+{
+  "opendb_id": "816a4d53-cf88-497e-92cd-b209393c0e1c",
+  "metadata": {
+    "name": "Cougar Dual-X 120mm Green Green LED 1-Pack",
+    "manufacturer": "COUGAR",
+    "series": "Dual-X",
+    "variant": "120mm Green",
+    "part_numbers": [
+      "CFD12HBG"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "GREEN"
+  ],
+  "quantity": 1,
+  "min_airflow": 64.37,
+  "max_airflow": null,
+  "min_noise_level": 16.6,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Green",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00DP5ZCS2",
+    "walmart_sku": 41527476
+  }
+}

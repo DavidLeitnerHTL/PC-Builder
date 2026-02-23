@@ -1,0 +1,35 @@
+{
+  "opendb_id": "91dc4691-8b3e-4ade-aec0-1266eb9cb667",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 7,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Apevia Prestige Black 800W Non-Modular 80+ Gold Certified ATX",
+    "manufacturer": "Apevia",
+    "part_numbers": [
+      "ATX-RP800W"
+    ],
+    "series": "Prestige",
+    "variant": "800W Gold"
+  },
+  "wattage": 800,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07NWZZXHQ",
+    "newegg_sku": "9SIA25VK8M2722",
+    "walmart_sku": 722189325
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "385d0eba-46b5-4207-b744-630dd4c1068c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 6,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "XFX P1-650X-CAH9 650W Fully Modular 80+ Bronze Certified ATX",
+    "manufacturer": "XFX",
+    "part_numbers": [
+      "P1-650X-CAH9"
+    ],
+    "series": "P1-650X-CAH9",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Full",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,33 @@
+{
+  "opendb_id": "ff7584ae-0669-4263-b2ef-21caaae30df8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Inter-Tech Argus Black RGB II 700W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Inter-Tech",
+    "part_numbers": [
+      "88882173"
+    ],
+    "series": "Argus",
+    "variant": "700W Bronze"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08P22XK5W"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "fcedde0d-da67-4453-9cbd-20223838509c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! SFX L Power Black SFX 600W 80+ Gold Certified Fully Modular",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN215                                                    BN615                                                    BN639                                                    BN239",
+      "BN239"
+    ],
+    "series": "SFX",
+    "variant": "600W Gold"
+  },
+  "wattage": 600,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 130,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07MT3VFMB"
+  }
+}

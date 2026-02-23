@@ -1,0 +1,33 @@
+{
+  "opendb_id": "9a75d7e2-fe70-4fcf-b55a-c72532ce82af",
+  "metadata": {
+    "name": "ARCTIC F9 92mm White / Black PWM",
+    "manufacturer": "ARCTIC",
+    "series": "F9",
+    "variant": "92mm White / Black",
+    "part_numbers": [
+      "ACFAN00215A"
+    ]
+  },
+  "size": 92,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 35,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B095S7WM9Y",
+    "newegg_sku": "9SIB7VEK3T7310"
+  }
+}

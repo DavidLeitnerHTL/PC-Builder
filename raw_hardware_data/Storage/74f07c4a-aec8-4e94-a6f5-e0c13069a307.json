@@ -1,0 +1,22 @@
+{
+  "opendb_id": "74f07c4a-aec8-4e94-a6f5-e0c13069a307",
+  "metadata": {
+    "name": "Seagate ST1000LM035 1TB HDD 2.5\" SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST1000LM035"
+    ],
+    "series": "ST1000LM035",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "HDD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B06XRZ8GB9",
+    "newegg_sku": "9SIAAEE6FA4486",
+    "walmart_sku": 152983940
+  }
+}

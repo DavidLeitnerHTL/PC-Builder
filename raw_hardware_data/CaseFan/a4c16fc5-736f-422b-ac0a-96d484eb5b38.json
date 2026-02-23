@@ -1,0 +1,31 @@
+{
+  "opendb_id": "a4c16fc5-736f-422b-ac0a-96d484eb5b38",
+  "metadata": {
+    "name": "Alphacool 24847 140mm Black PWM 153.9 CFM 1-Pack",
+    "manufacturer": "Alphacool",
+    "part_numbers": [
+      "1022221"
+    ],
+    "series": "24847",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 153.9,
+  "max_airflow": null,
+  "min_noise_level": 50,
+  "max_noise_level": 51,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "Manual",
+  "static_pressure": 6.99,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0C2JMXVHC"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "opendb_id": "12542441-66d4-47c3-aead-41550e0c1a41",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "PNY Dual Fan OC GeForce RTX 5060 Ti 16GB GDDR7 Black",
+    "manufacturer": "PNY",
+    "part_numbers": [
+      "VCG5060T16DFXPB1-O"
+    ],
+    "series": "GeForce RTX 5060 Ti",
+    "variant": "PNY"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5060 Ti 16 GB",
+  "core_count": 4608,
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "core_base_clock": 2407,
+  "core_boost_clock": 2691,
+  "effective_memory_clock": 28000,
+  "memory_bus": 128,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 245,
+  "tdp": 180,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 3,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "684cd42a1d3a20a8514d3959"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0F4Y6N6PW",
+    "newegg_sku": "N82E16814133993",
+    "bestbuy_sku": 6630626,
+    "walmart_sku": 16048419552
+  }
+}

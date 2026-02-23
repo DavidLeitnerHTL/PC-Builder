@@ -1,0 +1,31 @@
+{
+  "opendb_id": "b9f4c9ad-6fb2-43d0-93e1-d66f9544a281",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 5,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group HEXA Black 350W Non-Modular 80+ Bronze",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "HA2-350                                                    PPA3505301"
+    ],
+    "series": "HEXA",
+    "variant": "350W Bronze"
+  },
+  "wattage": 350,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

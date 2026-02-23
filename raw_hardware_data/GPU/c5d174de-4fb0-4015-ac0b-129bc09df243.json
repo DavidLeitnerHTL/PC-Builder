@@ -1,0 +1,48 @@
+{
+  "opendb_id": "c5d174de-4fb0-4015-ac0b-129bc09df243",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "VisionTek Red Radeon RX 550 - 512 4GB GDDR5 Red",
+    "manufacturer": "VisionTek",
+    "part_numbers": [
+      "901507"
+    ],
+    "series": "Radeon RX 550 - 512",
+    "variant": "VisionTek"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 550",
+  "memory": 4,
+  "memory_type": "GDDR5",
+  "core_base_clock": 1100,
+  "core_boost_clock": 1071,
+  "effective_memory_clock": 6000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "RED"
+  ],
+  "length": 184,
+  "tdp": 50,
+  "total_slot_width": 1,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c6b4865ad0c3553eac9a"
+  },
+  "core_count": 0,
+  "general_product_information": {
+    "newegg_sku": "N82E16814129429"
+  }
+}

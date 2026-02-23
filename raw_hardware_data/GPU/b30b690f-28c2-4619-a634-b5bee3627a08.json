@@ -1,0 +1,51 @@
+{
+  "opendb_id": "b30b690f-28c2-4619-a634-b5bee3627a08",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 2,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "XFX QuickSilver AMD Radeon RX 9070 OC White Gaming Edition",
+    "manufacturer": "XFX",
+    "part_numbers": [
+      "RX-97QICKBW9"
+    ],
+    "series": "Radeon RX 9070",
+    "variant": "QUICKSILVER WHITE",
+    "releaseYear": 2025,
+    "last_manually_spec_verified_at": "2025-10-09T15:27:34.923Z"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 9070",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1440,
+  "core_boost_clock": 2700,
+  "effective_memory_clock": 20000,
+  "memory_bus": 256,
+  "interface": "PCIe 5.0 x16",
+  "color": [
+    "WHITE"
+  ],
+  "length": 355,
+  "tdp": 220,
+  "total_slot_width": 4,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 3,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c82f865ad0c3553ec48f"
+  },
+  "core_count": 4096,
+  "frame_sync": "FreeSync",
+  "general_product_information": {
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-quicksilver-amd-radeon-rx-9070-oc-white-gaming-edition"
+  }
+}

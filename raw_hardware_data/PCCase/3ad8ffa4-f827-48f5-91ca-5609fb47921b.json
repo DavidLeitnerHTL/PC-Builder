@@ -1,0 +1,40 @@
+{
+  "opendb_id": "3ad8ffa4-f827-48f5-91ca-5609fb47921b",
+  "metadata": {
+    "name": "Antec P7 NEO ATX Mid Tower Black",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "P7 Neo                                                    0-761345-80038-9",
+      "P7 NEO"
+    ],
+    "series": "P7",
+    "variant": ""
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Solid",
+  "has_transparent_side_panel": false,
+  "front_panel_usb": "USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 350,
+  "max_cpu_cooler_height": null,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 7,
+  "dimensions": "440 x 219 x 480",
+  "volume": 46.253,
+  "weight": null,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [],
+  "general_product_information": {
+    "amazon_sku": "B08YXT4XGB",
+    "walmart_sku": 177784535
+  }
+}

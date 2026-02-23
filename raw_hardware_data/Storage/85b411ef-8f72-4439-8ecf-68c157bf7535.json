@@ -1,0 +1,24 @@
+{
+  "opendb_id": "85b411ef-8f72-4439-8ecf-68c157bf7535",
+  "metadata": {
+    "name": "MSI SPATIUM M482 2TB SSD M.2-2280 PCIe 4.0 X4 NVMe",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "SPATIUM-M482-PCIe-4.0-NVMe-M.2-2TB                                                    SM482N2TB                                                    S78-440Q730-P83",
+      "S78-440Q730-P83",
+      "SPATIUM M482 PCIe 4.0 NVMe M.2 2TB"
+    ],
+    "series": "SPATIUM",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0CVK1R1MN",
+    "newegg_sku": "N82E16820140054",
+    "walmart_sku": 5335725251
+  }
+}

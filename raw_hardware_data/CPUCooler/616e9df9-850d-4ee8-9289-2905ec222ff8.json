@@ -1,0 +1,35 @@
+{
+  "opendb_id": "616e9df9-850d-4ee8-9289-2905ec222ff8",
+  "metadata": {
+    "name": "Xilence A404T 65.4 CFM Air 55mm Red / Black",
+    "manufacturer": "Xilence",
+    "part_numbers": [
+      "XC040                                                    A404T",
+      "XC040"
+    ],
+    "series": "A404T",
+    "variant": "Red / Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 600,
+  "max_fan_rpm": 2200,
+  "min_noise_level": 14,
+  "max_noise_level": 21.8,
+  "color": [
+    "RED",
+    "BLACK"
+  ],
+  "height": 55,
+  "cpu_sockets": [
+    "AM4",
+    "AM5"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B074HZHQB6"
+  }
+}

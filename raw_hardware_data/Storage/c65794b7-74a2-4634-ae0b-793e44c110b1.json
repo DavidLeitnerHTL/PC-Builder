@@ -1,0 +1,24 @@
+{
+  "opendb_id": "c65794b7-74a2-4634-ae0b-793e44c110b1",
+  "metadata": {
+    "name": "Seagate FireCuda 530R w/Heatsink 2TB SSD M.2 PCIe 4.0 NVMe",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ZP2000GM3A073",
+      "763649183120"
+    ],
+    "series": "FireCuda",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0CWHFV66K",
+    "newegg_sku": "N82E16820248254",
+    "bestbuy_sku": 6581742,
+    "walmart_sku": 9020803244
+  }
+}

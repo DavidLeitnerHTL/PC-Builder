@@ -1,0 +1,33 @@
+{
+  "opendb_id": "c84ddf71-0539-4899-a89a-f56e9757e16f",
+  "metadata": {
+    "name": "Thermaltake TOUGHFAN 12 Pro 120mm Black PWM 2-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CL-F159-PL12BL-A"
+    ],
+    "series": "TOUGHFAN",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 2,
+  "min_airflow": 49.13,
+  "max_airflow": 70.8,
+  "min_noise_level": 18.3,
+  "max_noise_level": 22.6,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 3.19,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0C8M192HS",
+    "newegg_sku": "9SIA8EFJXT8412",
+    "walmart_sku": 3884187535
+  }
+}

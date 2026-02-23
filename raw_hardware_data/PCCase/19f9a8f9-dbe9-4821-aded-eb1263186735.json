@@ -1,0 +1,50 @@
+{
+  "opendb_id": "19f9a8f9-dbe9-4821-aded-eb1263186735",
+  "metadata": {
+    "name": "Thermaltake AX700 ATX Full Tower Black with Mesh Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CA-11B-00F1NN-00"
+    ],
+    "series": "AX700",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-09-06T06:54:14.541Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Full Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "supported_power_supply_form_factors": [],
+  "side_panel": "Mesh",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.2 (Gen 2) Type-C x 1                                             USB 3.0 x 4",
+  "front_usb_ports": [
+    "USB 3.2 (Gen 2) Type-C x 1 ",
+    " USB 3.0 x 4"
+  ],
+  "max_video_card_length": 630,
+  "max_cpu_cooler_height": 190,
+  "internal_3_5_bays": 18,
+  "internal_2_5_bays": 0,
+  "expansion_slots": 10,
+  "dimensions": "645 x 320 x 685",
+  "volume": 141.384,
+  "weight": 57.4,
+  "dimensions_mm": {
+    "width": 320,
+    "height": 645,
+    "depth": 685,
+    "_id": "68bbda981252faf865101a0c"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0F7J3XM1Y",
+    "newegg_sku": "2AM-000X-00368",
+    "walmart_sku": 16588570916
+  }
+}

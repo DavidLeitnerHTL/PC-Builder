@@ -1,0 +1,47 @@
+{
+  "opendb_id": "dd5e68d3-0c90-477c-9ac8-b6ae7a1b33fd",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Gigabyte OC Radeon RX 560 - 896 4GB GDDR5 Black / Orange",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GV-RX560OC-4GD"
+    ],
+    "series": "Radeon RX 560 - 896",
+    "variant": "Gigabyte"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 560",
+  "memory": 4,
+  "memory_type": "GDDR5",
+  "core_base_clock": 1176,
+  "core_boost_clock": 1199,
+  "effective_memory_clock": 7000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "ORANGE"
+  ],
+  "length": 170,
+  "tdp": 75,
+  "total_slot_width": 2,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 1,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 1,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c523865ad0c3553e93a5"
+  },
+  "core_count": 0,
+  "general_product_information": {}
+}

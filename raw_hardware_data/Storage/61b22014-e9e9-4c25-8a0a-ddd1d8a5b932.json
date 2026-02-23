@@ -1,0 +1,24 @@
+{
+  "opendb_id": "61b22014-e9e9-4c25-8a0a-ddd1d8a5b932",
+  "metadata": {
+    "name": "Kingston A2000 500GB M.2-2280 SSD PCIe 3.0 X4 NVMe",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SA2000M8",
+      "500G",
+      "SA2000M8/500G"
+    ],
+    "series": "A2000",
+    "variant": "500GB"
+  },
+  "capacity": 500,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B07VXCFNVS",
+    "newegg_sku": "9SIBKYEK6R5609",
+    "walmart_sku": 480544885
+  }
+}

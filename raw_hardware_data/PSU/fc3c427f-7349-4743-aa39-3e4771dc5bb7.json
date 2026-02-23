@@ -1,0 +1,33 @@
+{
+  "opendb_id": "fc3c427f-7349-4743-aa39-3e4771dc5bb7",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Deepcool PF400 Black 230V ATX 400W Non-Modular 80+ Certified",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "R-PF400D-HA0B-USR-PF400D-HA0B-EUR-PF400D-HA0B-BPR-PF400D-HA0B-CNR-PF400D-HA0B-AUR-PF400D-HA0B-UKR-PF400D-HA0B-ARR-PF400D-HA0B-WO"
+    ],
+    "series": "PF400",
+    "variant": "400W 80+"
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B005UFIVPQ"
+  }
+}

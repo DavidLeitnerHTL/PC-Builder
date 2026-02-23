@@ -1,0 +1,44 @@
+{
+  "opendb_id": "1b6e81aa-ed80-450f-90f7-4bc816db2cdf",
+  "metadata": {
+    "name": "ARCTIC Liquid Freezer II Water 120mm Black",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFRE00067A",
+      "ACFRE00067B"
+    ],
+    "series": "Liquid",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 200,
+  "max_fan_rpm": 1800,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 120,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B07WRCY747",
+    "walmart_sku": 807845293
+  }
+}

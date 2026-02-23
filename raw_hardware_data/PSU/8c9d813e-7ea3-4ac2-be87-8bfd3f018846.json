@@ -1,0 +1,29 @@
+{
+  "opendb_id": "8c9d813e-7ea3-4ac2-be87-8bfd3f018846",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Fractal Design Tesla R2 ATX Certified 650W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-PSU-TS2W-650W"
+    ],
+    "series": "Tesla",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

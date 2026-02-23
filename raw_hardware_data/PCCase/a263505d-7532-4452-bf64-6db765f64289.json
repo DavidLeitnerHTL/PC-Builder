@@ -1,0 +1,51 @@
+{
+  "opendb_id": "a263505d-7532-4452-bf64-6db765f64289",
+  "metadata": {
+    "name": "Rosewill Helium Flow ATX Mid Tower Black",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "Helium Flow"
+    ],
+    "series": "Helium",
+    "variant": "Flow Black",
+    "last_manually_spec_verified_at": "2025-09-17T20:49:03.766Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "supported_power_supply_form_factors": [],
+  "side_panel": "Solid",
+  "has_transparent_side_panel": false,
+  "front_panel_usb": "1 x USB 3.1 Type-C                                                                       2 x USB 3.0",
+  "front_usb_ports": [
+    "1 x USB 3.1 Type-C",
+    "2 x USB 3.0"
+  ],
+  "max_video_card_length": 390,
+  "max_cpu_cooler_height": 165,
+  "internal_3_5_bays": 3,
+  "internal_2_5_bays": 3,
+  "expansion_slots": 7,
+  "dimensions": "444.5 x 230 x 494",
+  "volume": 50.504,
+  "weight": 20.19,
+  "dimensions_mm": {
+    "width": 230,
+    "height": 494,
+    "depth": 444.5,
+    "_id": "68c6ef57c79e47a252020a62"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0DSJZFQLW",
+    "newegg_sku": "N82E16811147361",
+    "walmart_sku": 14972464996,
+    "manufacturer_url": "https://www.rosewill.com/p/9SIA072KEX6296"
+  }
+}

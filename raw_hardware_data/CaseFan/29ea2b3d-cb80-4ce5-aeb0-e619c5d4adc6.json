@@ -1,0 +1,34 @@
+{
+  "opendb_id": "29ea2b3d-cb80-4ce5-aeb0-e619c5d4adc6",
+  "metadata": {
+    "name": "Corsair iCUE LINK RX120 120mm White RGB 74.2 CFM 3-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9051022-WW"
+    ],
+    "series": "iCUE",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 10.5,
+  "max_airflow": 74.2,
+  "min_noise_level": 10,
+  "max_noise_level": 36,
+  "pwm": false,
+  "led": "RGB",
+  "connector": "Proprietary",
+  "controller": "USB",
+  "static_pressure": 4.38,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CSSX5CSS",
+    "newegg_sku": "N82E16835181414",
+    "bestbuy_sku": 6577060,
+    "walmart_sku": 5450301463
+  }
+}

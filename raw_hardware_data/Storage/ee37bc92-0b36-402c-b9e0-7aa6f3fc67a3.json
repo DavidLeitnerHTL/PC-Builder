@@ -1,0 +1,22 @@
+{
+  "opendb_id": "ee37bc92-0b36-402c-b9e0-7aa6f3fc67a3",
+  "metadata": {
+    "name": "Intel P3700 1.6 TB SSD PCIe NVME",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "SSDPEDMD016T401",
+      "735858276450"
+    ],
+    "series": "P3700",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "PCIe",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B00L0LFBPC",
+    "walmart_sku": 43921357
+  }
+}

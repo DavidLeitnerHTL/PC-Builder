@@ -1,0 +1,29 @@
+{
+  "opendb_id": "31bbd467-d2f9-4ac2-be2d-cbbf150f3e09",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA 650 B3 650W 80+ Bronze Certified Fully Modular",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "220-B3-0650-V1                                                    220-B3-0650-V3                                                    220-B3-0650-V2"
+    ],
+    "series": "650",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Full",
+  "color": [],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "e9577d44-4235-414c-b23e-eb622597f72b",
+  "metadata": {
+    "name": "Cooler Master SickleFlow 200mm Black / Translucent White PWM ARGB 1-Pack",
+    "manufacturer": "Cooler Master",
+    "series": "SickleFlow",
+    "variant": "200mm Black / Translucent White",
+    "part_numbers": [
+      "MFX-B3DN-08NP2-R1"
+    ]
+  },
+  "size": 200,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 0,
+  "max_airflow": 102.8,
+  "min_noise_level": 0,
+  "max_noise_level": 15.7,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.35,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09S7VDT9M",
+    "newegg_sku": "N82E16835103334",
+    "walmart_sku": 652018203
+  }
+}

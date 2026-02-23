@@ -1,0 +1,31 @@
+{
+  "opendb_id": "70a853cf-5daf-4595-b9cb-1cb1dfbd1905",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "LC-Power OFFICE SERIES Black ATX 600W Non-Modular",
+    "manufacturer": "LC-Power",
+    "part_numbers": [
+      "LC600H-12 V2.31"
+    ],
+    "series": "OFFICE",
+    "variant": "600W "
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

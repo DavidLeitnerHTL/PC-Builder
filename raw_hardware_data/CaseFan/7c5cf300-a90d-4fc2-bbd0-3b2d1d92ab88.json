@@ -1,0 +1,28 @@
+{
+  "opendb_id": "7c5cf300-a90d-4fc2-bbd0-3b2d1d92ab88",
+  "metadata": {
+    "name": "Thermaltake Luna Slim 120mm Black / Red Red LED 27.53 CFM",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [],
+    "series": "Luna",
+    "variant": "120mm Black / Red"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 27.53,
+  "max_airflow": null,
+  "min_noise_level": 24,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

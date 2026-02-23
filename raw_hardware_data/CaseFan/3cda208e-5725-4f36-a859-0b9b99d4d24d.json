@@ -1,0 +1,33 @@
+{
+  "opendb_id": "3cda208e-5725-4f36-a859-0b9b99d4d24d",
+  "metadata": {
+    "name": "Thermaltake Pure 120mm Black 40.99 CFM 1-Pack",
+    "manufacturer": "Thermaltake",
+    "series": "Pure",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "CL-F011-PL12BL-A"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 40.99,
+  "max_airflow": null,
+  "min_noise_level": 19.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.61,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00J0NZDMS",
+    "newegg_sku": "N82E16835106228",
+    "walmart_sku": 527703207
+  }
+}

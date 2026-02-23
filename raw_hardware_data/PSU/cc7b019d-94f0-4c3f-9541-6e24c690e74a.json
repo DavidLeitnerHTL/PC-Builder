@@ -1,0 +1,29 @@
+{
+  "opendb_id": "cc7b019d-94f0-4c3f-9541-6e24c690e74a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill PHOTON-750 750W Fully Modular 80+ Gold",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "PHOTON-750"
+    ],
+    "series": "PHOTON-750",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,28 @@
+{
+  "opendb_id": "4ced5f6c-c5b0-4077-9d9f-f7ec13a3cd47",
+  "metadata": {
+    "name": "Gelid Solutions Wing 92mm Black / Green 39.79 CFM 1-Pack",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [],
+    "series": "Wing",
+    "variant": "92mm Black / Green"
+  },
+  "size": 92,
+  "color": [
+    "BLACK",
+    "GREEN"
+  ],
+  "quantity": 1,
+  "min_airflow": 39.79,
+  "max_airflow": null,
+  "min_noise_level": 22.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

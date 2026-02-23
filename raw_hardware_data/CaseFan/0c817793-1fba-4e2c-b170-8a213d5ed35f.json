@@ -1,0 +1,33 @@
+{
+  "opendb_id": "0c817793-1fba-4e2c-b170-8a213d5ed35f",
+  "metadata": {
+    "name": "Fractal Design Prisma AL 180mm Black PWM Addressable RGB 2-Pack",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-FAN-PRI-AL18-PWM-2P"
+    ],
+    "series": "Prisma",
+    "variant": "180mm Black"
+  },
+  "size": 180,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 2,
+  "min_airflow": 43.1,
+  "max_airflow": 146.8,
+  "min_noise_level": 14.9,
+  "max_noise_level": 37.4,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.5,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09491DXCM",
+    "newegg_sku": "N82E16835352092",
+    "walmart_sku": 287971327
+  }
+}

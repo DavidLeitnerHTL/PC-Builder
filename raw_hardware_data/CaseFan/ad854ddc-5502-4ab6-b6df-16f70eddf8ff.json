@@ -1,0 +1,27 @@
+{
+  "opendb_id": "ad854ddc-5502-4ab6-b6df-16f70eddf8ff",
+  "metadata": {
+    "name": "ARCTIC P12 PST 120mm Black RGB PWM 0dB 48.8 CFM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [],
+    "series": "P12",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 48.8,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 1.85,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

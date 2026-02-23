@@ -1,0 +1,36 @@
+{
+  "opendb_id": "01467667-ee75-4810-8d4d-dbc76dc815d0",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair SF1000L Black SFX 1000W Fully Modular 80+ Gold",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020246-NA                                                    CP-9020246-WW                                                    CP-9020246-AU                                                    CP-9020246-UK                                                    CP-9020246-EU",
+      "CP-9020246-NA"
+    ],
+    "series": "SF1000L",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 130,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BW9TG9ZY",
+    "newegg_sku": "N82E16817139309",
+    "walmart_sku": 1411413622
+  }
+}

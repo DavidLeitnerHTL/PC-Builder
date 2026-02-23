@@ -1,0 +1,27 @@
+{
+  "opendb_id": "28c48f97-c547-42a1-a132-b7cc20630742",
+  "metadata": {
+    "name": "Aerocool Shark 120mm Red Red LED 1-Pack",
+    "manufacturer": "AeroCool",
+    "part_numbers": [],
+    "series": "Shark",
+    "variant": "120mm Red"
+  },
+  "size": 120,
+  "color": [
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 32.5,
+  "max_airflow": 82.6,
+  "min_noise_level": 12.6,
+  "max_noise_level": 26.5,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.27,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

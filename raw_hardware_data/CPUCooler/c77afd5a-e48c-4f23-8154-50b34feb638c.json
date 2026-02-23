@@ -1,0 +1,41 @@
+{
+  "opendb_id": "c77afd5a-e48c-4f23-8154-50b34feb638c",
+  "metadata": {
+    "name": "Ocypus Iota A62 Air 77 CFM 158mm White",
+    "manufacturer": "Ocypus",
+    "part_numbers": [
+      "Iota A62 WH",
+      "Air Iota A62 WH"
+    ],
+    "series": "Iota",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2000,
+  "min_noise_level": 29,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": 158,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B08G49FSDG"
+  }
+}

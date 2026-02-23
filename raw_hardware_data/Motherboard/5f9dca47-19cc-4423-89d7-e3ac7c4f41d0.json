@@ -1,0 +1,77 @@
+{
+  "opendb_id": "5f9dca47-19cc-4423-89d7-e3ac7c4f41d0",
+  "memory": {
+    "max": 8,
+    "ram_type": "DDR2",
+    "slots": 2
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 0,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 3,
+    "usb_3_2_gen_1": 0,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "power_connectors": {
+    "cpu_power": []
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "Intel B43 DB43LD LGA775 DDR2 Micro ATX",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BOXDB43LD"
+    ],
+    "series": "B43",
+    "variant": ""
+  },
+  "socket": "LGA 775",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel B43",
+  "color": [
+    "GREEN",
+    "BLUE"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16,
+      "_id": "67f9bb43865ad0c3553e12eb"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "67f9bb43865ad0c3553e12ec"
+    }
+  ],
+  "m2_slots": [],
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown",
+      "_id": "67f9bb43865ad0c3553e12ed"
+    }
+  ],
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false,
+    "_id": "67f9bb43865ad0c3553e12ee"
+  },
+  "back_panel_ports": [
+    "1 x 1 Gb/s Ports"
+  ],
+  "general_product_information": {}
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "d2742253-678c-4131-af84-1259e8364c29",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair CX400 ATX 400W Non-Modular 80+ Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CMPSU-400CX"
+    ],
+    "series": "CX400",
+    "variant": "400W 80+"
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

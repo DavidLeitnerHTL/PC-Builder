@@ -1,0 +1,37 @@
+{
+  "opendb_id": "e6a81d71-3c29-463e-b23c-435a85780ede",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 2,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Smart W3 Black 700W Non-Modular 80+ Certified ATX",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-SPW-0700NNFAWU-1",
+      "SP3-700AH2NLW"
+    ],
+    "series": "Smart",
+    "variant": "700W 80+"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0D4Y1LJFL",
+    "newegg_sku": "N82E16817153470",
+    "bestbuy_sku": 6626436,
+    "walmart_sku": 6420454713
+  }
+}

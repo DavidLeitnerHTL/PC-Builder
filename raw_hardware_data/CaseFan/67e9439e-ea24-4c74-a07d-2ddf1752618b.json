@@ -1,0 +1,27 @@
+{
+  "opendb_id": "67e9439e-ea24-4c74-a07d-2ddf1752618b",
+  "metadata": {
+    "name": "Xion Alphawing 120mm Black Blue LED 51.02 CFM 1-Pack",
+    "manufacturer": "Xion",
+    "part_numbers": [],
+    "series": "Alphawing",
+    "variant": "120mm Black"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 51.02,
+  "max_airflow": null,
+  "min_noise_level": 19.6,
+  "max_noise_level": 25.2,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

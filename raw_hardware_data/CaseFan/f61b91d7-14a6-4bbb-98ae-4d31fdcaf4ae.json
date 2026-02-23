@@ -1,0 +1,27 @@
+{
+  "opendb_id": "f61b91d7-14a6-4bbb-98ae-4d31fdcaf4ae",
+  "metadata": {
+    "name": "Cooler Master R4-C2R-20AC-GP 120mm Black",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [],
+    "series": "R4-C2R-20AC-GP",
+    "variant": "120mm Black"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 69,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

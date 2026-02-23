@@ -1,0 +1,29 @@
+{
+  "opendb_id": "8d114298-7be4-40e9-8d20-c1866af9144f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 8,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill Stallion 700W Non-Modular",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "RD700"
+    ],
+    "series": "Stallion",
+    "variant": "700W "
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

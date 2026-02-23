@@ -1,0 +1,33 @@
+{
+  "opendb_id": "549c0e31-65d1-4b00-a7e1-127799ddf5c8",
+  "metadata": {
+    "name": "NZXT F RGB Core 140mm Black RGB PWM Core 89.48 CFM 1-Pack",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RF-C14SF-B1"
+    ],
+    "series": "F",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 24.85,
+  "max_airflow": 89.48,
+  "min_noise_level": 20,
+  "max_noise_level": 32.5,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 3.39,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BYN2HHX6",
+    "newegg_sku": "1YF-000Z-00128",
+    "walmart_sku": 3958324485
+  }
+}

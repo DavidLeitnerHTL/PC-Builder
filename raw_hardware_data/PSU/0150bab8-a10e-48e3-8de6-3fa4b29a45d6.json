@@ -1,0 +1,32 @@
+{
+  "opendb_id": "0150bab8-a10e-48e3-8de6-3fa4b29a45d6",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "GAMDIAS ASTRAPE M1 Black Multicolor 550W Non-Modular 80+ Certified",
+    "manufacturer": "GAMDIAS",
+    "part_numbers": [
+      "ASTRAPE M1-550W                                                    M1-550W"
+    ],
+    "series": "ASTRAPE",
+    "variant": "550W 80+"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "RGB"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

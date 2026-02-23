@@ -1,0 +1,27 @@
+{
+  "opendb_id": "b01117c6-b600-4c8c-8402-c3a19f94c2a0",
+  "metadata": {
+    "name": "Enermax Cluster Adv 120mm White PWM White LED 86.69 CFM 1-Pack",
+    "manufacturer": "Enermax",
+    "part_numbers": [],
+    "series": "Cluster",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 53.02,
+  "max_airflow": 86.69,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "White",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

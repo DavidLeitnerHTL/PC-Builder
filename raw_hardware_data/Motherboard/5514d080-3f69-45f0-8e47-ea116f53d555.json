@@ -1,0 +1,107 @@
+{
+  "opendb_id": "5514d080-3f69-45f0-8e47-ea116f53d555",
+  "memory": {
+    "max": 128,
+    "ram_type": "DDR4",
+    "slots": 4
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 6,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "power_connectors": {
+    "cpu_power": []
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "MSI X570 MEG GODLIKE AM4 DDR4 EATX",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MEG X570 GODLIKE                                                    7C34-002R                                                    911-7C34-002                                                    X570GODLIKE"
+    ],
+    "series": "X570",
+    "variant": ""
+  },
+  "socket": "AM4",
+  "form_factor": "EATX",
+  "chipset": "AMD X570",
+  "color": [
+    "BLACK"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 4,
+      "lanes": 16,
+      "_id": "67f9b805865ad0c3553db762"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b805865ad0c3553db763"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b805865ad0c3553db764"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b805865ad0c3553db765"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b805865ad0c3553db766"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b805865ad0c3553db767"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b805865ad0c3553db768"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown",
+      "_id": "67f9b805865ad0c3553db769"
+    }
+  ],
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false,
+    "_id": "67f9b805865ad0c3553db76a"
+  },
+  "back_panel_ports": [
+    "1 x 1 Gb/s                                                    1 x 2.5 Gb/s"
+  ],
+  "general_product_information": {}
+}

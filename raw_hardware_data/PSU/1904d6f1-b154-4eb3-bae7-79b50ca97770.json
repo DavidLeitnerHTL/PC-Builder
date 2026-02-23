@@ -1,0 +1,37 @@
+{
+  "opendb_id": "1904d6f1-b154-4eb3-bae7-79b50ca97770",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 10,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair RM850x (2018) ATX 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020188-NA                                                    CP-9020188-EU                                                    CP-9020188-UK",
+      "CP-9020188-NA"
+    ],
+    "series": "RM850x",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07JWT8YV3",
+    "newegg_sku": "9SIB8AKKAN6947",
+    "walmart_sku": 366922074
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "opendb_id": "86437c10-c5cd-4108-9a91-60fd272b016a",
+  "metadata": {
+    "name": "Thermalright Frozen Warframe Water 240mm Black",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "Frozen Warframe 240 BLACK"
+    ],
+    "series": "Frozen",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 2000,
+  "max_fan_rpm": null,
+  "min_noise_level": 22.1,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

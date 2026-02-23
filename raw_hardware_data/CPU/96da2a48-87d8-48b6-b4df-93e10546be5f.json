@@ -1,0 +1,46 @@
+{
+  "opendb_id": "96da2a48-87d8-48b6-b4df-93e10546be5f",
+  "cores": {
+    "total": 2,
+    "performance": 2,
+    "threads": 2
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.8,
+      "boost": 4
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon HD 8370D"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A4 A4-6320 3.8 GHz 2-Core FM2",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD6320OKA23HL"
+    ],
+    "series": "AMD A4"
+  },
+  "series": "AMD A4",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
+  "general_product_information": {}
+}

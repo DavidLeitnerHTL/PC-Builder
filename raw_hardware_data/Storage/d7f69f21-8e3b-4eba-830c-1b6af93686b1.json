@@ -1,0 +1,21 @@
+{
+  "opendb_id": "d7f69f21-8e3b-4eba-830c-1b6af93686b1",
+  "metadata": {
+    "name": "Hitachi HDS723030ALA640 3TB HDD 7200RPM 3.5\" SATA 6.0 Gb/s",
+    "manufacturer": "Hitachi",
+    "part_numbers": [
+      "0F12450",
+      "FBA_0F12450"
+    ],
+    "series": "HDS723030ALA640",
+    "variant": "3000GB"
+  },
+  "capacity": 3000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B004D8KO7Y"
+  }
+}

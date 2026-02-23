@@ -1,0 +1,46 @@
+{
+  "opendb_id": "3b09b3ac-1c3e-4883-b95c-d6d37b510591",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "PNY Triple Fan Plus OC GeForce RTX 5070 Ti 16GB GDDR7 Black",
+    "manufacturer": "PNY",
+    "part_numbers": [
+      "VCG5071T16TFXPB1-O"
+    ],
+    "series": "GeForce RTX 5070 Ti",
+    "variant": "PNY"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5070 Ti",
+  "core_count": 8960,
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "core_base_clock": 2295,
+  "core_boost_clock": 2572,
+  "effective_memory_clock": 28000,
+  "memory_bus": 256,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 328,
+  "tdp": 300,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 3,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "684cd4111d3a20a8514d2f94"
+  },
+  "general_product_information": {}
+}

@@ -1,0 +1,33 @@
+{
+  "opendb_id": "8b546cc3-a4a9-48de-a4d7-35d732b518aa",
+  "metadata": {
+    "name": "Antec NOVA 120mm White PWM 95.32 CFM 1-Pack",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "Nova 120 White",
+      "0-761345-40052-7"
+    ],
+    "series": "NOVA",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 44,
+  "max_airflow": 95.32,
+  "min_noise_level": 21.5,
+  "max_noise_level": 38.7,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 6.56,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DPFSFBX7",
+    "walmart_sku": 15931613078
+  }
+}

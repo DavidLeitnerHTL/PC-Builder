@@ -1,0 +1,32 @@
+{
+  "opendb_id": "b2eea3b6-e916-4c17-9ac5-3b37d2500e72",
+  "metadata": {
+    "name": "be quiet! Pure Wings 2 80mm Black 26.3 CFM",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL044"
+    ],
+    "series": "Pure",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 26.3,
+  "max_airflow": null,
+  "min_noise_level": 18.2,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.85,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00IOIJ4AC",
+    "newegg_sku": "1YF-001D-00008"
+  }
+}

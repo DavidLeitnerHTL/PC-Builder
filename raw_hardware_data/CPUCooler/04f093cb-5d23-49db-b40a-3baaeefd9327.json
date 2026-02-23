@@ -1,0 +1,38 @@
+{
+  "opendb_id": "04f093cb-5d23-49db-b40a-3baaeefd9327",
+  "metadata": {
+    "name": "ARCTIC Alpine 12 CO Air 77mm Black / Gray",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACALP00031A",
+      "ACALP00027A"
+    ],
+    "series": "Alpine",
+    "variant": "Black / Gray",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 100,
+  "max_fan_rpm": 2700,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "height": 77,
+  "cpu_sockets": [
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B07HJ198TB"
+  }
+}

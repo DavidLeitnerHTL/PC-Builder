@@ -1,0 +1,32 @@
+{
+  "opendb_id": "11066641-c885-46f4-ab84-22e8496b6211",
+  "metadata": {
+    "name": "be quiet! Pure Wings 3 140mm Black PWM 57.4 CFM",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL108"
+    ],
+    "series": "Pure",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 57.4,
+  "max_airflow": null,
+  "min_noise_level": 21.9,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CM3Z4XFB",
+    "newegg_sku": "1YF-001D-000R7"
+  }
+}

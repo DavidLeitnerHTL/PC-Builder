@@ -1,0 +1,32 @@
+{
+  "opendb_id": "12ec13ff-fbed-4551-b6f4-1d874826f348",
+  "metadata": {
+    "name": "SilenX Effizio 120mm Yellow",
+    "manufacturer": "SilenX",
+    "part_numbers": [
+      "EFX-12-12"
+    ],
+    "series": "Effizio",
+    "variant": "120mm Yellow"
+  },
+  "size": 120,
+  "color": [
+    "YELLOW"
+  ],
+  "quantity": 1,
+  "min_airflow": 44,
+  "max_airflow": null,
+  "min_noise_level": 12,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B005ZF65PY",
+    "walmart_sku": 1169659501
+  }
+}

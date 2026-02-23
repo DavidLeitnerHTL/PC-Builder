@@ -1,0 +1,47 @@
+{
+  "opendb_id": "82c1191c-5ec2-4781-8887-41251b8fd911",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Gigabyte Radeon RX 6750 XT GAMING OC 12GB GDDR6 Black / Gray",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GV-R675XTGAMING OC-12GD"
+    ],
+    "series": "Radeon RX 6750 XT",
+    "variant": "Gigabyte"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 6750 XT",
+  "memory": 12,
+  "memory_type": "GDDR6",
+  "core_base_clock": 2150,
+  "core_boost_clock": 2623,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 281,
+  "tdp": 250,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 2,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c61b865ad0c3553ea33c"
+  },
+  "core_count": 2560,
+  "general_product_information": {}
+}

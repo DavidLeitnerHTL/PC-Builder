@@ -1,0 +1,32 @@
+{
+  "opendb_id": "eec255c5-2f31-4c9a-98ca-37e5c1485d21",
+  "metadata": {
+    "name": "be quiet! Shadow Wings 2 140mm White / Black",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL090"
+    ],
+    "series": "Shadow",
+    "variant": "140mm White / Black"
+  },
+  "size": 140,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 49.8,
+  "max_airflow": 85,
+  "min_noise_level": 14.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.58,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07WZPY7PF"
+  }
+}

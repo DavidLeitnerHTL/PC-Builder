@@ -1,0 +1,32 @@
+{
+  "opendb_id": "68ec97e0-2b12-44cc-bcd8-8126705b1c28",
+  "metadata": {
+    "name": "Corsair ML140 Pro 140mm Black PWM",
+    "manufacturer": "Corsair",
+    "series": "ML140",
+    "variant": "140mm Black",
+    "part_numbers": [
+      "CO-9050045-WW"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 20,
+  "max_airflow": 97,
+  "min_noise_level": 16,
+  "max_noise_level": 37,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B01G5I6MW0",
+    "walmart_sku": 165825523
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "opendb_id": "058683b3-f983-45fe-b1bf-55d021f2ca67",
+  "metadata": {
+    "name": "Seagate Momentus 5400.6 500GB 5400 RPM HDD 2.5\" SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST9500325AS"
+    ],
+    "series": "Momentus",
+    "variant": "500GB"
+  },
+  "capacity": 500,
+  "type": "HDD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 3.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B001R4BBL0"
+  }
+}

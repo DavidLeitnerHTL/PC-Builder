@@ -1,0 +1,46 @@
+{
+  "opendb_id": "643f6223-be25-462c-b89b-9470d84a2c56",
+  "cores": {
+    "total": 6,
+    "performance": 6,
+    "threads": 6
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.6,
+      "boost": 3.9
+    }
+  },
+  "cache": {
+    "l2": 6,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 125,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD FX FX FX-6130 3.6 GHz 6-Core AM3+ OEM/Tray",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "FD6130FRW6KGU"
+    ],
+    "series": "AMD FX"
+  },
+  "series": "AMD FX",
+  "microarchitecture": "Bulldozer",
+  "coreFamily": "Zambezi",
+  "socket": "AM3+",
+  "general_product_information": {}
+}

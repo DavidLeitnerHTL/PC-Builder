@@ -1,0 +1,31 @@
+{
+  "opendb_id": "9e8146ed-ea4e-4619-8915-435382a43947",
+  "metadata": {
+    "name": "upHere T7SYC7 120mm Black PWM ARGB 3-Pack",
+    "manufacturer": "upHere",
+    "series": "T7SYC7",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "T7SYC7-3"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": null,
+  "max_airflow": null,
+  "min_noise_level": 16.1,
+  "max_noise_level": 27.7,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07HK5XKBT"
+  }
+}

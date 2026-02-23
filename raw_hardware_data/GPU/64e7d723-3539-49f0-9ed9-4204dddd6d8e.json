@@ -1,0 +1,53 @@
+{
+  "opendb_id": "64e7d723-3539-49f0-9ed9-4204dddd6d8e",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 2,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "MSI VENTUS 2X GeForce RTX 5070 12GB GDDR7 White",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "G5070-12V2W"
+    ],
+    "series": "GeForce RTX 5070",
+    "variant": "VENTUS 2X OC",
+    "releaseYear": 2025,
+    "last_manually_spec_verified_at": "2025-10-27T23:16:26.990Z"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5070",
+  "memory": 12,
+  "memory_type": "GDDR7",
+  "core_base_clock": 2325,
+  "core_boost_clock": 2527,
+  "effective_memory_clock": 28000,
+  "memory_bus": 192,
+  "interface": "PCIe 5.0 x16",
+  "color": [
+    "WHITE"
+  ],
+  "length": 236,
+  "tdp": 250,
+  "total_slot_width": 3,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": null,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c560865ad0c3553e977d"
+  },
+  "core_count": 6144,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-2X-WHITE/"
+  }
+}

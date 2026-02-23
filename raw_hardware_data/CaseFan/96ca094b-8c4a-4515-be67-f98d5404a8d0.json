@@ -1,0 +1,32 @@
+{
+  "opendb_id": "96ca094b-8c4a-4515-be67-f98d5404a8d0",
+  "metadata": {
+    "name": "Thermaltake Riing 140mm Black RGB PWM 51.15 CFM 3-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CL-F043-PL14SW-B"
+    ],
+    "series": "Riing",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 51.15,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": 28.1,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "Proprietary PWM",
+  "controller": "USB",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B017AUFGHE",
+    "walmart_sku": 193947129
+  }
+}

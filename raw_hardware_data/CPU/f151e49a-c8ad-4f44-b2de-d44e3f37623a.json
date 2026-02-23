@@ -1,0 +1,50 @@
+{
+  "opendb_id": "f151e49a-c8ad-4f44-b2de-d44e3f37623a",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.5,
+      "boost": 3.8
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "28 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD Athlon X4 845 3.5 GHz 4-Core FM2+",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD845XACKASBX",
+      "B960961"
+    ],
+    "series": "AMD Athlon X4"
+  },
+  "series": "AMD Athlon X4",
+  "microarchitecture": "Puma+",
+  "coreFamily": "Carrizo",
+  "socket": "FM2+",
+  "general_product_information": {
+    "amazon_sku": "B01BF376EI",
+    "walmart_sku": 131311191
+  }
+}

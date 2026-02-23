@@ -1,0 +1,28 @@
+{
+  "opendb_id": "15732127-9ed0-4ce0-950f-e0112d25c12f",
+  "metadata": {
+    "name": "In Win AURORA 120mm Black / Red RGB PWM 57.64 CFM 3-Pack",
+    "manufacturer": "In Win",
+    "part_numbers": [],
+    "series": "AURORA",
+    "variant": "120mm Black / Red"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 3,
+  "min_airflow": 40.26,
+  "max_airflow": 57.64,
+  "min_noise_level": 23.7,
+  "max_noise_level": 39.2,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "Proprietary PWM",
+  "controller": "USB",
+  "static_pressure": 2.77,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

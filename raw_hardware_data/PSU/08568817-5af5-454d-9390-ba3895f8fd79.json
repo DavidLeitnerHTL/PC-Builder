@@ -1,0 +1,31 @@
+{
+  "opendb_id": "08568817-5af5-454d-9390-ba3895f8fd79",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Essential Black 750W Non-Modular 80+ Bronze",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-ET750-B"
+    ],
+    "series": "Essential",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

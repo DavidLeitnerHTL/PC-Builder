@@ -1,0 +1,32 @@
+{
+  "opendb_id": "db8723c2-1f8b-4e3a-b8a4-9fe5fc103b82",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA SuperNOVA 650 G7 650W 80+ Gold Certified Fully Modular",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "220-G7-0650-X1"
+    ],
+    "series": "SuperNOVA",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "length": 130,
+  "fanless": false,
+  "general_product_information": {}
+}

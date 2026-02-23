@@ -1,0 +1,123 @@
+{
+  "opendb_id": "d7055bdf-d7db-4315-bc05-78157ff1b97a",
+  "memory": {
+    "max": 128,
+    "ram_type": "DDR4",
+    "slots": 4
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 0,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 1,
+    "usb_4": 0
+  },
+  "power_connectors": {
+    "cpu_power": []
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "ASRock H670 Steel Legend DDR4 ATX",
+    "manufacturer": "ASRock",
+    "part_numbers": [
+      "H670 Steel Legend                                                    90-MXBHB0-A0UAYZ",
+      "H670 STEEL LEGEND"
+    ],
+    "series": "H670",
+    "variant": ""
+  },
+  "socket": "LGA 1700",
+  "form_factor": "ATX",
+  "chipset": "Intel H670",
+  "color": [
+    "GREY"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 16,
+      "_id": "67f9b6a5865ad0c3553d9139"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 1,
+      "_id": "67f9b6a5865ad0c3553d913a"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260-2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b6a5865ad0c3553d913b"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b6a5865ad0c3553d913c"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b6a5865ad0c3553d913d"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b6a5865ad0c3553d913e"
+    },
+    {
+      "size": "2260-2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b6a5865ad0c3553d913f"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b6a5865ad0c3553d9140"
+    },
+    {
+      "size": "2280",
+      "key": "E",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9b6a5865ad0c3553d9141"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek Dragon RTL8125BG",
+      "_id": "67f9b6a5865ad0c3553d9142"
+    }
+  ],
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false,
+    "_id": "67f9b6a5865ad0c3553d9143"
+  },
+  "back_panel_ports": [
+    "1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"
+  ],
+  "general_product_information": {
+    "amazon_sku": "B09QFV15T9",
+    "newegg_sku": "N82E16813162043"
+  }
+}

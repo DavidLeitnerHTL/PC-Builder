@@ -1,0 +1,21 @@
+{
+  "opendb_id": "a798ebe2-bbea-4016-afdb-95650331858f",
+  "metadata": {
+    "name": "Seagate Exos 7E10 8TB 3.5\" HDD 7200RPM SATA 512e/4Kn",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST8000NM017B"
+    ],
+    "series": "Exos",
+    "variant": "8000GB"
+  },
+  "capacity": 8000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B09FH857LY",
+    "newegg_sku": "1Z4-002P-024F9"
+  }
+}

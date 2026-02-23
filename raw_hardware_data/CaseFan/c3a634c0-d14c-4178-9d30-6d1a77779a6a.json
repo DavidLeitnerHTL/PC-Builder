@@ -1,0 +1,31 @@
+{
+  "opendb_id": "c3a634c0-d14c-4178-9d30-6d1a77779a6a",
+  "metadata": {
+    "name": "Thermalright TL-E12B EXTREM 120mm Black PWM 78 CFM",
+    "manufacturer": "Thermalright",
+    "series": "TL-E12B",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "TL-E12B EXTREM"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 78,
+  "max_airflow": null,
+  "min_noise_level": 27.7,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.34,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0C8MWNL9X"
+  }
+}

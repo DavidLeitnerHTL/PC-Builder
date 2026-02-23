@@ -1,0 +1,31 @@
+{
+  "opendb_id": "549654db-21df-46b3-903d-7c6724f91810",
+  "metadata": {
+    "name": "Enermax T.B. Silence 120mm Translucent Gray 42.13 CFM",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "UCTB12"
+    ],
+    "series": "T.B.",
+    "variant": "120mm Translucent Gray"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 42.13,
+  "max_airflow": null,
+  "min_noise_level": 11,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {
+    "amazon_sku": "B003IB2HYA"
+  }
+}

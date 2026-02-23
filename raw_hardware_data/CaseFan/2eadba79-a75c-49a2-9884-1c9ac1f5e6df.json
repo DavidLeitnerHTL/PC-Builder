@@ -1,0 +1,27 @@
+{
+  "opendb_id": "2eadba79-a75c-49a2-9884-1c9ac1f5e6df",
+  "metadata": {
+    "name": "Nexus DF1209SL-3 92mm White 27 CFM 1-Pack",
+    "manufacturer": "Nexus",
+    "part_numbers": [],
+    "series": "DF1209SL-3",
+    "variant": "92mm White"
+  },
+  "size": 92,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 27,
+  "max_airflow": null,
+  "min_noise_level": 19.2,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

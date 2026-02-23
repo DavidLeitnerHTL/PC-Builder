@@ -1,0 +1,37 @@
+{
+  "opendb_id": "86cba8c3-a9c0-4559-ba1d-e0c37c1cadcd",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Razer Katana Chroma Black 850W 80+ Platinum Certified Fully Modular",
+    "manufacturer": "Razer",
+    "part_numbers": [
+      "RC21-01840200-R3UT                                                    RC21-01840200-R3B1                                                    RC21-01840200-R3W1                                                    RC21-01840200-R351",
+      "RC21-01840200-R3U1",
+      "RC21-01840200-R3UT"
+    ],
+    "series": "Katana",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0B6Y8Y1RL",
+    "newegg_sku": "N82E16817954001",
+    "walmart_sku": 13328668113
+  }
+}

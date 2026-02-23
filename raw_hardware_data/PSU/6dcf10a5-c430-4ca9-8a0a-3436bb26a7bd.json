@@ -1,0 +1,29 @@
+{
+  "opendb_id": "6dcf10a5-c430-4ca9-8a0a-3436bb26a7bd",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec High Current Gamer 400W Semi-Modular 80+ Bronze Certified ATX",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "HCG-400M"
+    ],
+    "series": "High",
+    "variant": "400W Bronze"
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

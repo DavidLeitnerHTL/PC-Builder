@@ -1,0 +1,27 @@
+{
+  "opendb_id": "60f87f58-29aa-4b10-832a-4e25002d0797",
+  "metadata": {
+    "name": "Thermaltake Mobile 120mm Orange",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [],
+    "series": "Mobile",
+    "variant": "120mm Orange"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "ORANGE"
+  ],
+  "quantity": 1,
+  "min_airflow": 66.55,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": 33.5,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

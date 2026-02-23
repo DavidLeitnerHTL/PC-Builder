@@ -1,0 +1,31 @@
+{
+  "opendb_id": "42ecec86-fd82-4432-9a45-abd700709559",
+  "metadata": {
+    "name": "Lian Li UNI FAN TL LCD 120 120mm White Addressable RGB PWM 90.1 CFM 3-Pack",
+    "manufacturer": "Lian Li",
+    "part_numbers": [
+      "12TLLCD3W"
+    ],
+    "series": "UNI",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 90.1,
+  "max_airflow": null,
+  "min_noise_level": 33,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "Proprietary PWM + 3-pin 5V Addressable RGB",
+  "controller": "USB",
+  "static_pressure": 3.97,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CQRNXRHY"
+  }
+}

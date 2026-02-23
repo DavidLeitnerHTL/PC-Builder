@@ -1,0 +1,33 @@
+{
+  "opendb_id": "0d074746-5140-42c5-b297-9fc561e37f54",
+  "metadata": {
+    "name": "Thermaltake Pure Duo 120mm White 56.51 CFM PWM Addressable RGB 2-Pack",
+    "manufacturer": "Thermaltake",
+    "series": "Pure",
+    "variant": "120mm White",
+    "part_numbers": [
+      "CL-F097-PL12SW-B"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 2,
+  "min_airflow": null,
+  "max_airflow": null,
+  "min_noise_level": 28,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "Manual",
+  "static_pressure": 1.72,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08CS53NM4",
+    "newegg_sku": "9SIA8EFK657981",
+    "walmart_sku": 878351230
+  }
+}

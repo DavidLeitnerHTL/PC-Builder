@@ -1,0 +1,42 @@
+{
+  "opendb_id": "89638a63-dbb2-4cc8-8ccd-2b1fb5f02937",
+  "metadata": {
+    "name": "upHere CC2402-usa Water 240mm 49.7 CFM Black",
+    "manufacturer": "upHere",
+    "part_numbers": [
+      "CC2402-usa"
+    ],
+    "series": "CC2402-usa",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 600,
+  "max_fan_rpm": 1700,
+  "min_noise_level": 16.1,
+  "max_noise_level": 27.7,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

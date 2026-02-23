@@ -1,0 +1,46 @@
+{
+  "opendb_id": "b7e510f1-0c89-4747-b8c1-459041432009",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.1,
+      "boost": 3.7
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 6
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel UHD Graphics 630"
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    },
+    "tdp": 35,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Core i3 9100T OEM/Tray 3.1 GHz 4-Core LGA1151",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8068403377425"
+    ],
+    "series": "Intel Core i3"
+  },
+  "series": "Intel Core i3",
+  "microarchitecture": "Coffee Lake Refresh",
+  "coreFamily": "Coffee Lake Refresh",
+  "socket": "LGA 1151",
+  "general_product_information": {}
+}

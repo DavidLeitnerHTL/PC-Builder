@@ -1,0 +1,34 @@
+{
+  "opendb_id": "3a8120c0-2deb-4715-b9c4-036b736b7011",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Montech APX Black 650W Non-Modular 80+ Certified",
+    "manufacturer": "Montech",
+    "part_numbers": [
+      "APX 650W",
+      "APX650"
+    ],
+    "series": "APX",
+    "variant": "650W 80+"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0D81NWX43"
+  }
+}

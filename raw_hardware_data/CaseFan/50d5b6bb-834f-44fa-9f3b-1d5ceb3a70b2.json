@@ -1,0 +1,27 @@
+{
+  "opendb_id": "50d5b6bb-834f-44fa-9f3b-1d5ceb3a70b2",
+  "metadata": {
+    "name": "Aerocool Aluminum-Quadro 80mm Silver Multicolor",
+    "manufacturer": "AeroCool",
+    "part_numbers": [],
+    "series": "Aluminum-Quadro",
+    "variant": "80mm Silver"
+  },
+  "size": 80,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.5,
+  "max_airflow": null,
+  "min_noise_level": 20.3,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Multicolor",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

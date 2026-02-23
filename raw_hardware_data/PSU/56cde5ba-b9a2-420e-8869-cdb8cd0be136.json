@@ -1,0 +1,34 @@
+{
+  "opendb_id": "56cde5ba-b9a2-420e-8869-cdb8cd0be136",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "KOLINK ENCLAVE ATX 600W Fully Modular 80+ Gold Certified",
+    "manufacturer": "KOLINK",
+    "part_numbers": [
+      "KL-G600FM"
+    ],
+    "series": "ENCLAVE",
+    "variant": "600W Gold"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "YELLOW"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07X8S6XJ1"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "f98c3d08-5281-434c-b40a-9e0645977ca5",
+  "metadata": {
+    "name": "Montech HP 140mm Black Addressable RGB PWM 95.61 CFM 3-Pack",
+    "manufacturer": "Montech",
+    "part_numbers": [
+      "HP140B3IN1",
+      "HP 140 ARGB PWM Black 3in1",
+      "HP140 ARGB PWM 3 in 1 Pack (B)"
+    ],
+    "series": "HP",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 95.61,
+  "max_airflow": null,
+  "min_noise_level": 29.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.95,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DJ4LM5Q8",
+    "newegg_sku": "1YF-00Y5-00033"
+  }
+}

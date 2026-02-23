@@ -1,0 +1,34 @@
+{
+  "opendb_id": "e80cfe75-0b85-4059-a524-8c4aa78b1aba",
+  "metadata": {
+    "name": "Silverstone AP 120mm Black / White PWM ARGB",
+    "manufacturer": "SilverStone",
+    "part_numbers": [
+      "SST-AP124-ARGB"
+    ],
+    "series": "AP",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 6.37,
+  "max_airflow": 25.5,
+  "min_noise_level": 19.25,
+  "max_noise_level": 23.54,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07FQ81L64",
+    "newegg_sku": "N82E16835220145",
+    "walmart_sku": 139427955
+  }
+}

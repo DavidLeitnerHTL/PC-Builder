@@ -1,0 +1,29 @@
+{
+  "opendb_id": "81cc8e73-18a8-44b4-98b6-4d85786bd890",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider ATX 700W Non-Modular 80+",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "ST70F-ES                                                    SST-ST70F-ES"
+    ],
+    "series": "Strider",
+    "variant": "700W 80+"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

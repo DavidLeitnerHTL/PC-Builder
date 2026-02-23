@@ -1,0 +1,29 @@
+{
+  "opendb_id": "34bc04c0-43ad-44cd-904e-08b9a165a938",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Smart ATX 630W Non-Modular 80+ Certified",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "SP-630P"
+    ],
+    "series": "Smart",
+    "variant": "630W 80+"
+  },
+  "wattage": 630,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,54 @@
+{
+  "opendb_id": "04984638-674b-4384-8866-a7b20d55f8b4",
+  "cores": {
+    "total": 6,
+    "performance": 6,
+    "threads": 12
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.5,
+      "boost": 4.4
+    }
+  },
+  "cache": {
+    "l2": 3,
+    "l3": 32
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": [
+        "DDR4"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "7 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "AMD Ryzen 5 5600 3.5 GHz 6-Core AM4",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "100-100000927BOX",
+      "AMD Ryzen 5 5600"
+    ],
+    "series": "AMD Ryzen 5"
+  },
+  "series": "AMD Ryzen 5",
+  "microarchitecture": "Zen 3",
+  "coreFamily": "Vermeer",
+  "socket": "AM4",
+  "general_product_information": {
+    "amazon_sku": "B09VCHR1VH",
+    "newegg_sku": "N82E16819113736",
+    "bestbuy_sku": 6510772,
+    "walmart_sku": 330013066
+  }
+}

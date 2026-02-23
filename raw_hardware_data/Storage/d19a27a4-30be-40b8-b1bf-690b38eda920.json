@@ -1,0 +1,21 @@
+{
+  "opendb_id": "d19a27a4-30be-40b8-b1bf-690b38eda920",
+  "metadata": {
+    "name": "Seagate SkyHawk AI 8TB 3.5\" HDD 7200RPM SATA 6.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST8000VE000"
+    ],
+    "series": "SkyHawk",
+    "variant": "8000GB"
+  },
+  "capacity": 8000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07XF5RRCD",
+    "newegg_sku": "1Z4-002P-01M06"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "opendb_id": "53bba6ac-3ef1-4f1d-8079-9ccbedd463ef",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.1,
+      "boost": 3.8
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 6
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel HD Graphics 4600"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "22 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Core i5 4670S 3.1 GHz 4-Core LGA1150",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8064601465703"
+    ],
+    "series": "Intel Core i5"
+  },
+  "series": "Intel Core i5",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell",
+  "socket": "LGA 1150",
+  "general_product_information": {}
+}

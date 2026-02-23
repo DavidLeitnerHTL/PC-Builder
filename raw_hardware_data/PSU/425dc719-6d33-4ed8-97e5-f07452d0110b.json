@@ -1,0 +1,29 @@
+{
+  "opendb_id": "425dc719-6d33-4ed8-97e5-f07452d0110b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cougar SL500 ATX 500W Non-Modular",
+    "manufacturer": "Cougar",
+    "part_numbers": [
+      "SL500"
+    ],
+    "series": "SL500",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

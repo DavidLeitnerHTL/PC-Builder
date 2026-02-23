@@ -1,0 +1,21 @@
+{
+  "opendb_id": "006a3315-d7ff-4a83-9409-fc74d0fbc040",
+  "metadata": {
+    "name": "Seagate IronWolf Pro 8TB HDD 7200RPM 3.5\" SATA Internal",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST8000NE001"
+    ],
+    "series": "IronWolf",
+    "variant": "8000GB"
+  },
+  "capacity": 8000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07SRVXPQ2",
+    "walmart_sku": 903261458
+  }
+}

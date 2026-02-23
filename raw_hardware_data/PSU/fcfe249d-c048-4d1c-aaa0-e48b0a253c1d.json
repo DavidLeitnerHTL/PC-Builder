@@ -1,0 +1,34 @@
+{
+  "opendb_id": "fcfe249d-c048-4d1c-aaa0-e48b0a253c1d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 10,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic FOCUS 650W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "FOCUS-PX-650",
+      "FOCUS PX-650"
+    ],
+    "series": "FOCUS",
+    "variant": "650W Platinum"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07W7YD7D1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "opendb_id": "84301b4b-29ea-4e8c-b533-527106adaabd",
+  "metadata": {
+    "name": "BGears b-ARGB Vortex 101 CFM 120mm White / Black Addressable RGB PWM",
+    "manufacturer": "BGears",
+    "part_numbers": [],
+    "series": "b-ARGB",
+    "variant": "120mm White / Black"
+  },
+  "size": 120,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 101,
+  "max_airflow": null,
+  "min_noise_level": 28,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 3.9,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "newegg_sku": "N82E16835132054"
+  }
+}

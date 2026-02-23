@@ -1,0 +1,34 @@
+{
+  "opendb_id": "2e77717b-c2be-4422-9820-628433d41e9b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! Pure Power 11 750W 80+ Gold Fully Modular",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN672                                                    BN319                                                    BN962",
+      "BN672"
+    ],
+    "series": "Pure",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0948RJG1C"
+  }
+}

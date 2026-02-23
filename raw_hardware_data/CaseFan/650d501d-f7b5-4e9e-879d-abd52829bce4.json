@@ -1,0 +1,33 @@
+{
+  "opendb_id": "650d501d-f7b5-4e9e-879d-abd52829bce4",
+  "metadata": {
+    "name": "Razer Kunai Chroma 140mm Black PWM RGB 3-Pack",
+    "manufacturer": "Razer",
+    "series": "Kunai",
+    "variant": "140mm Black",
+    "part_numbers": [
+      "RC21-01810200-R3M1"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 34.48,
+  "max_airflow": 81,
+  "min_noise_level": 15,
+  "max_noise_level": 30,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.31,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09JRZ7KGS",
+    "newegg_sku": "N82E16835837004",
+    "bestbuy_sku": 6486202
+  }
+}

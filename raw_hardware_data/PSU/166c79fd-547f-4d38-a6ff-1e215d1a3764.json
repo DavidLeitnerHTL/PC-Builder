@@ -1,0 +1,36 @@
+{
+  "opendb_id": "166c79fd-547f-4d38-a6ff-1e215d1a3764",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cougar GEX Black 1050W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Cougar",
+    "part_numbers": [
+      "GEX1050                                                    31GE105003P01",
+      "GEX1050"
+    ],
+    "series": "GEX",
+    "variant": "1050W Gold"
+  },
+  "wattage": 1050,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B09WTH5TGJ",
+    "newegg_sku": "N82E16817553047",
+    "walmart_sku": 486802582
+  }
+}

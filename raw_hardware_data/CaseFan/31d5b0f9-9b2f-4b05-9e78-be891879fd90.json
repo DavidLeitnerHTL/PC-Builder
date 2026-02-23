@@ -1,0 +1,33 @@
+{
+  "opendb_id": "31d5b0f9-9b2f-4b05-9e78-be891879fd90",
+  "metadata": {
+    "name": "Lian Li Uni Fan SL 140mm Black Addressable RGB PWM 70.5 CFM",
+    "manufacturer": "Lian Li",
+    "series": "Uni",
+    "variant": "140mm Black",
+    "part_numbers": [
+      "UF SL140-1"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 70.5,
+  "max_airflow": null,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08R7BL2TX",
+    "newegg_sku": "9SIAFSTC524426",
+    "walmart_sku": 271967326
+  }
+}

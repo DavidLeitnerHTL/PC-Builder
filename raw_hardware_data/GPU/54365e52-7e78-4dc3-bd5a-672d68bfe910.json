@@ -1,0 +1,50 @@
+{
+  "opendb_id": "54365e52-7e78-4dc3-bd5a-672d68bfe910",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Lenovo RTX A5000 Black 24GB GDDR6",
+    "manufacturer": "Lenovo",
+    "part_numbers": [
+      "4X61D97085",
+      "11646772000"
+    ],
+    "series": "RTX A5000",
+    "variant": "Lenovo"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "RTX A5000",
+  "memory": 24,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1170,
+  "core_boost_clock": 1695,
+  "effective_memory_clock": 16000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 267,
+  "tdp": 230,
+  "total_slot_width": 2,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 4,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c58b865ad0c3553e9a27"
+  },
+  "core_count": 0,
+  "general_product_information": {
+    "amazon_sku": "B09PJSBFMG",
+    "walmart_sku": 1642957099
+  }
+}

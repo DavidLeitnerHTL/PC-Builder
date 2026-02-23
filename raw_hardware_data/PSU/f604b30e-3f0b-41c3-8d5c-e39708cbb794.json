@@ -1,0 +1,31 @@
+{
+  "opendb_id": "f604b30e-3f0b-41c3-8d5c-e39708cbb794",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Xilence XP650R6.2 Black 650W Non-Modular 80+ Certified",
+    "manufacturer": "Xilence",
+    "part_numbers": [
+      "XN420                                                    XP650R6.2"
+    ],
+    "series": "XP650R6.2",
+    "variant": "650W 80+"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

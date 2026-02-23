@@ -1,0 +1,35 @@
+{
+  "opendb_id": "274a92b4-c54f-424e-8c6c-379f670c7fb7",
+  "metadata": {
+    "name": "Noctua NH-U9DXi4 Air 125mm",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NH-U9DXi4"
+    ],
+    "series": "NH-U9DXi4",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 300,
+  "max_fan_rpm": 1600,
+  "min_noise_level": 13.1,
+  "max_noise_level": 17.6,
+  "color": [],
+  "height": 125,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1366",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B00E1JGFA0",
+    "walmart_sku": 49018230
+  }
+}

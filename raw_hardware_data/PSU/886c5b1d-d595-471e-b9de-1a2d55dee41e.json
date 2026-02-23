@@ -1,0 +1,31 @@
+{
+  "opendb_id": "886c5b1d-d595-471e-b9de-1a2d55dee41e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax MarbleBron White 850W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "EMB850EWT-W"
+    ],
+    "series": "MarbleBron",
+    "variant": "850W Bronze"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

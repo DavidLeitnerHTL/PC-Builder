@@ -1,0 +1,35 @@
+{
+  "opendb_id": "80864fdb-d2fb-4878-9ee4-11872b622c4a",
+  "metadata": {
+    "name": "Noctua NF-A12x25 120mm Black PWM chromax.black.swap 60.09 CFM 1-Pack",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-A12x25chromaxbl",
+      "NF-A12x25 PWM chromax.black.swap",
+      "NF-A12X25PWM CH.BK.S"
+    ],
+    "series": "NF-A12x25",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 60.09,
+  "max_airflow": null,
+  "min_noise_level": 22.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.34,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09C6DQDNT",
+    "newegg_sku": "1YF-000T-00387",
+    "ibuypower_sku": "28462"
+  }
+}

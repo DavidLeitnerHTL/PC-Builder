@@ -1,0 +1,31 @@
+{
+  "opendb_id": "46481c77-47c6-43ab-a95d-90131a1e238f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Asus Prime Black ATX Certified 750W Non-Modular 80+ Bronze",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "PRIME-750B-BLACK                                                    90YE00Y0-B0NA00"
+    ],
+    "series": "Prime",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

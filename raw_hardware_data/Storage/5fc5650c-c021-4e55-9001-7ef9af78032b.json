@@ -1,0 +1,24 @@
+{
+  "opendb_id": "5fc5650c-c021-4e55-9001-7ef9af78032b",
+  "metadata": {
+    "name": "Kingston A400 1.92TB SSD 2.5\" SATA",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SA400S37",
+      "1920G",
+      "SA400S37/1920G"
+    ],
+    "series": "A400",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07YQJSGWY",
+    "newegg_sku": "9SIBKT3JVT2305",
+    "walmart_sku": 512311658
+  }
+}

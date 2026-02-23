@@ -1,0 +1,21 @@
+{
+  "opendb_id": "f61c2801-1229-4281-a1d9-f0e24b1bdd19",
+  "metadata": {
+    "name": "Intel DC S4600 1.9 TB SSD 2.5\" SATA 6.0 Gb/s",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "SSDSC2KG019T701",
+      "956906"
+    ],
+    "series": "DC",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B075LDDF3Y"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "37d4cba7-6a1d-40a8-ae6f-9401cad93008",
+  "metadata": {
+    "name": "In Win Sirius Loop ASL 120mm Black PWM ARGB",
+    "manufacturer": "In Win",
+    "part_numbers": [],
+    "series": "Sirius",
+    "variant": "120mm Black"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 50,
+  "max_airflow": null,
+  "min_noise_level": 27,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.67,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

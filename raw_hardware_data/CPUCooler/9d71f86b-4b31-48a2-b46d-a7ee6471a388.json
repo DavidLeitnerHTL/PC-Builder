@@ -1,0 +1,47 @@
+{
+  "opendb_id": "9d71f86b-4b31-48a2-b46d-a7ee6471a388",
+  "metadata": {
+    "name": "Scythe Mugen 5 PCGH Edition Air 155mm 43.03 CFM Silver / Black",
+    "manufacturer": "Scythe",
+    "part_numbers": [
+      "SCMG-5PCGH"
+    ],
+    "series": "Mugen",
+    "variant": "Silver / Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 300,
+  "max_fan_rpm": 800,
+  "min_noise_level": 4,
+  "max_noise_level": 14.5,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "height": 155,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066",
+    "LGA 775"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

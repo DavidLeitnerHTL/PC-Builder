@@ -1,0 +1,27 @@
+{
+  "opendb_id": "94144644-e164-422f-bdea-63a5ce1844a8",
+  "metadata": {
+    "name": "be quiet! Light Wings LX 120mm White Addressable RGB PWM 48.8 CFM",
+    "manufacturer": "be quiet!",
+    "part_numbers": [],
+    "series": "Light",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 48.8,
+  "max_airflow": null,
+  "min_noise_level": 28.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.04,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {}
+}

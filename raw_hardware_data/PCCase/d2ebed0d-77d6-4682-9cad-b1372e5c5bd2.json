@@ -1,0 +1,39 @@
+{
+  "opendb_id": "d2ebed0d-77d6-4682-9cad-b1372e5c5bd2",
+  "metadata": {
+    "name": "Silverstone SG05-LITE Mini-ITX Desktop White",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SG05W-LITESST-SG05W-LITESST-SG05W-Lite USB 3.0",
+      "SG05W-LITE"
+    ],
+    "series": "SG05-LITE",
+    "variant": ""
+  },
+  "supported_motherboard_form_factors": [
+    "Mini-ITX"
+  ],
+  "form_factor": "Mini ITX Tower",
+  "color": [
+    "WHITE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Solid",
+  "has_transparent_side_panel": false,
+  "front_panel_usb": "USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 254,
+  "max_cpu_cooler_height": null,
+  "internal_3_5_bays": 1,
+  "internal_2_5_bays": 1,
+  "expansion_slots": 2,
+  "dimensions": "221 x 176 x 276",
+  "volume": 10.735,
+  "weight": null,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [],
+  "general_product_information": {
+    "amazon_sku": "B00CKNOVLO",
+    "newegg_sku": "N82E16811163232",
+    "walmart_sku": 42462750
+  }
+}

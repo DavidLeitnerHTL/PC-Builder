@@ -1,0 +1,31 @@
+{
+  "opendb_id": "1e984ad5-d686-43eb-aace-c65f55e9a28b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 5,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "KOLINK Core Black ATX 1000W Non-Modular 80+ Certified",
+    "manufacturer": "KOLINK",
+    "part_numbers": [
+      "KL-C1000"
+    ],
+    "series": "Core",
+    "variant": "1000W 80+"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

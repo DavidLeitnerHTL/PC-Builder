@@ -1,0 +1,34 @@
+{
+  "opendb_id": "7a3d4bd6-72c5-4b21-8489-ec52af040663",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 12,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! Dark Power 12 Black 850W Fully Modular 80+ Titanium Certified ATX",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN315                                                    BN657",
+      "BN658"
+    ],
+    "series": "Dark",
+    "variant": "850W Titanium"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Titanium",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 175,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08XXXVCS2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "37449521-e857-4bc4-a0f3-f4e97b336c88",
+  "metadata": {
+    "name": "Kingwin CFBL-020LB 200mm White Blue LED 31.21 CFM",
+    "manufacturer": "Kingwin",
+    "part_numbers": [],
+    "series": "CFBL-020LB",
+    "variant": "200mm White"
+  },
+  "size": 200,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 31.21,
+  "max_airflow": null,
+  "min_noise_level": 19.87,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

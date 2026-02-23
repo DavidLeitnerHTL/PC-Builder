@@ -1,0 +1,29 @@
+{
+  "opendb_id": "4176dd46-f25e-44bf-a9d2-4841721fa3c6",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "LEPA G1200-MA 1200W 80+ Gold Certified Semi-Modular",
+    "manufacturer": "LEPA",
+    "part_numbers": [
+      "G1200-MA"
+    ],
+    "series": "G1200-MA",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 175,
+  "fanless": false,
+  "general_product_information": {}
+}

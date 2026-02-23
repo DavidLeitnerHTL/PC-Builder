@@ -1,0 +1,32 @@
+{
+  "opendb_id": "439ed025-5e8a-45a3-99df-4de3909ffba2",
+  "metadata": {
+    "name": "ARCTIC S12038-4K 120mm Black PWM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00296A"
+    ],
+    "series": "S12038-4K",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 106,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 11.45,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D5B3G7VK",
+    "walmart_sku": 14162166898
+  }
+}

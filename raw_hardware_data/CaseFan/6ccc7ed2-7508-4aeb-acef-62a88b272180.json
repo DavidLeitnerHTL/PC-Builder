@@ -1,0 +1,34 @@
+{
+  "opendb_id": "6ccc7ed2-7508-4aeb-acef-62a88b272180",
+  "metadata": {
+    "name": "Silverstone Air Slimmer 120 120mm Black PWM 63.67 CFM",
+    "manufacturer": "SilverStone",
+    "part_numbers": [
+      "AS120B",
+      "SST-AS120B"
+    ],
+    "series": "Air",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 0,
+  "max_airflow": 63.67,
+  "min_noise_level": 0,
+  "max_noise_level": 31.7,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.4,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09SMQPJ6X",
+    "newegg_sku": "2S7-05S9-00024",
+    "walmart_sku": 725345922
+  }
+}

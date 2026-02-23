@@ -1,0 +1,46 @@
+{
+  "opendb_id": "7c486517-d6ce-4e2e-b5c7-52036eb4e64c",
+  "metadata": {
+    "name": "Silverstone AR12 Air RGB 154mm Silver / Black",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-AR12-RGB"
+    ],
+    "series": "AR12",
+    "variant": "Silver / Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 700,
+  "max_fan_rpm": 2200,
+  "min_noise_level": 9,
+  "max_noise_level": 29,
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
+  "height": 154,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B085VLHKNJ",
+    "walmart_sku": 633832784
+  }
+}

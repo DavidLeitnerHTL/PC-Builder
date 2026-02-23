@@ -1,0 +1,29 @@
+{
+  "opendb_id": "d3552c30-d035-4d34-a4ae-73b6ab8356b2",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 9,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider 600W Non-Modular 80+ Gold",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "ST60F-ESG                                                    SST-ST60F-ESG"
+    ],
+    "series": "Strider",
+    "variant": "600W Gold"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

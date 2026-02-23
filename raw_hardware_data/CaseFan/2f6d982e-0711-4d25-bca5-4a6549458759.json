@@ -1,0 +1,33 @@
+{
+  "opendb_id": "2f6d982e-0711-4d25-bca5-4a6549458759",
+  "metadata": {
+    "name": "Corsair iCUE LINK LX140 140mm Black RGB PWM 84.7 CFM 2-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9051028-WW"
+    ],
+    "series": "iCUE",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 2,
+  "min_airflow": 10.74,
+  "max_airflow": 84.7,
+  "min_noise_level": 10,
+  "max_noise_level": 36,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "Proprietary PWM",
+  "controller": "USB",
+  "static_pressure": 4.86,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D3H6YW9X",
+    "newegg_sku": "N82E16835181430",
+    "walmart_sku": 7703666160
+  }
+}

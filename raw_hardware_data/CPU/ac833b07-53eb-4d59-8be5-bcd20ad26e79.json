@@ -1,0 +1,54 @@
+{
+  "opendb_id": "ac833b07-53eb-4d59-8be5-bcd20ad26e79",
+  "cores": {
+    "total": 6,
+    "performance": 6,
+    "threads": 12
+  },
+  "clocks": {
+    "performance": {
+      "base": 4.3,
+      "boost": 5
+    }
+  },
+  "cache": {
+    "l2": 6,
+    "l3": 16
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon 760M"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": [
+        "DDR5"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "4 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "AMD Ryzen 5 8600G 4.3 GHz 6-Core AM5",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "100-100001237BOX",
+      "AMD Ryzen™ 5 8600G",
+      "Ryzen 5 8600G"
+    ],
+    "series": "AMD Ryzen 5"
+  },
+  "series": "AMD Ryzen 5",
+  "microarchitecture": "Zen 4",
+  "coreFamily": "Phoenix 1",
+  "socket": "AM5",
+  "general_product_information": {
+    "amazon_sku": "B0CQ4GYTTX",
+    "newegg_sku": "N82E16819113814",
+    "walmart_sku": 5295336778
+  }
+}

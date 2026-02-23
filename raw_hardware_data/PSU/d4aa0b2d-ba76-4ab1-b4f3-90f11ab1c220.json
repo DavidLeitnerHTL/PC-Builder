@@ -1,0 +1,38 @@
+{
+  "opendb_id": "d4aa0b2d-ba76-4ab1-b4f3-90f11ab1c220",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair RM850x (2024) Black ATX 850W Fully Modular",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020270-NA                                                    CP-9020270-EU                                                    CP-9020270-AU                                                    CP-9020270-UK",
+      "CP-9020270-NA"
+    ],
+    "series": "RM850x",
+    "variant": "850W "
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0DJ1JL3MK",
+    "newegg_sku": "N82E16817139333",
+    "bestbuy_sku": 6587623,
+    "walmart_sku": 12865812424,
+    "ibuypower_sku": "29944"
+  }
+}

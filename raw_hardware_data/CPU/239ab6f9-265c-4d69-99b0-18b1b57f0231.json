@@ -1,0 +1,48 @@
+{
+  "opendb_id": "239ab6f9-265c-4d69-99b0-18b1b57f0231",
+  "cores": {
+    "total": 10,
+    "performance": 10,
+    "threads": 20
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.4,
+      "boost": 3.2
+    }
+  },
+  "cache": {
+    "l2": 5,
+    "l3": 25
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 384,
+      "types": []
+    },
+    "tdp": 95,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "22 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E5 2470V2 2.4 GHz 10-Core LGA1356",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80634E52470V2"
+    ],
+    "series": "Intel Xeon E5"
+  },
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Ivy Bridge",
+  "coreFamily": "Ivy Bridge-EN",
+  "socket": "LGA 1356",
+  "general_product_information": {
+    "amazon_sku": "B00HTKVLLG"
+  }
+}

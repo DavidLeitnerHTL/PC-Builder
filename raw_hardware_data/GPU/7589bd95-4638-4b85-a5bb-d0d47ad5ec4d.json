@@ -1,0 +1,45 @@
+{
+  "opendb_id": "7589bd95-4638-4b85-a5bb-d0d47ad5ec4d",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Asus DUAL EVO OC GeForce RTX 2060 SUPER 8GB GDDR6 Black",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "DUAL-RTX2060S-O8G-EVO"
+    ],
+    "series": "GeForce RTX 2060 SUPER",
+    "variant": "Asus"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 2060 SUPER",
+  "memory": 8,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1500,
+  "core_boost_clock": 1725,
+  "effective_memory_clock": 14000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 267,
+  "tdp": 175,
+  "total_slot_width": 3,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 2,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 2,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c780865ad0c3553eb97a"
+  },
+  "general_product_information": {}
+}

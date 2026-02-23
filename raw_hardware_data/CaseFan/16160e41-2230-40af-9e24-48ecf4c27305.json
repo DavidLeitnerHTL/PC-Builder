@@ -1,0 +1,27 @@
+{
+  "opendb_id": "16160e41-2230-40af-9e24-48ecf4c27305",
+  "metadata": {
+    "name": "Cougar VORTEX SPB 120mm Black Addressable RGB PWM 43.54 CFM",
+    "manufacturer": "COUGAR",
+    "part_numbers": [],
+    "series": "VORTEX",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 43.54,
+  "max_airflow": null,
+  "min_noise_level": 26,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

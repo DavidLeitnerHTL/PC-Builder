@@ -1,0 +1,47 @@
+{
+  "opendb_id": "adc2a334-9f9b-40a8-a2ab-b0366859a2ad",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "XFX Swift Radeon RX 9070 XT 16GB GDDR6",
+    "manufacturer": "XFX",
+    "part_numbers": [
+      "RX-97TSWF3BA"
+    ],
+    "series": "Radeon RX 9070 XT",
+    "variant": "XFX"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 9070 XT",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1660,
+  "core_boost_clock": 2970,
+  "effective_memory_clock": 20000,
+  "memory_bus": 256,
+  "interface": "PCIe x16",
+  "color": [],
+  "length": 325,
+  "tdp": 304,
+  "total_slot_width": 4,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 3,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "688ec9933ebf909c29b81e38"
+  },
+  "core_count": 4096,
+  "general_product_information": {
+    "amazon_sku": "B0DW4FRCQR",
+    "walmart_sku": 15780969019
+  }
+}

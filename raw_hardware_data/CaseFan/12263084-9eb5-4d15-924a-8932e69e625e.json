@@ -1,0 +1,28 @@
+{
+  "opendb_id": "12263084-9eb5-4d15-924a-8932e69e625e",
+  "metadata": {
+    "name": "Xion Alphawing 120mm Red / Black 51.02 CFM 1-Pack",
+    "manufacturer": "Xion",
+    "series": "Alphawing",
+    "variant": "120mm Red / Black",
+    "part_numbers": []
+  },
+  "size": 120,
+  "color": [
+    "RED",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 51.02,
+  "max_airflow": null,
+  "min_noise_level": 19.6,
+  "max_noise_level": 25.2,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

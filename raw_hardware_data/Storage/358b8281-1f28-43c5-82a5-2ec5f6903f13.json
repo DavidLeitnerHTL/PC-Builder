@@ -1,0 +1,24 @@
+{
+  "opendb_id": "358b8281-1f28-43c5-82a5-2ec5f6903f13",
+  "metadata": {
+    "name": "Seagate FireCuda 530 w/Heatsink 4TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ZP4000GM3A023                                                    ZP4000GM30023",
+      "ZP4000GM3A023"
+    ],
+    "series": "FireCuda",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0977K3N1M",
+    "newegg_sku": "9SIA6ZPK9U5998",
+    "bestbuy_sku": 6474701,
+    "walmart_sku": 591410494
+  }
+}

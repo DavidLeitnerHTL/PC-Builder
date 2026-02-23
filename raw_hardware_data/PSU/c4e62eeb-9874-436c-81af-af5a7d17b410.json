@@ -1,0 +1,36 @@
+{
+  "opendb_id": "c4e62eeb-9874-436c-81af-af5a7d17b410",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 14,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Phanteks Revolt Pro Silver / Black 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Phanteks",
+    "part_numbers": [
+      "PH-P850GC                                                    PH-P850GC_EU",
+      "PH-P850GC"
+    ],
+    "series": "Revolt",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
+  "length": 170,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07JVC234Z",
+    "walmart_sku": 825482997
+  }
+}

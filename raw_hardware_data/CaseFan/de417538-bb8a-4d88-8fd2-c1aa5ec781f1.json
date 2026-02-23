@@ -1,0 +1,27 @@
+{
+  "opendb_id": "de417538-bb8a-4d88-8fd2-c1aa5ec781f1",
+  "metadata": {
+    "name": "Xigmatek Crystal 120mm Clear 68.33 CFM Red LED",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "Crystal",
+    "variant": "120mm Clear"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 68.33,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

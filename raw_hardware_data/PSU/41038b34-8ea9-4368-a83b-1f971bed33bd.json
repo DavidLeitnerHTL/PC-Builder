@@ -1,0 +1,29 @@
+{
+  "opendb_id": "41038b34-8ea9-4368-a83b-1f971bed33bd",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake TR2 ATX 1200W Semi-Modular 80+ Certified",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "TRX-1200M"
+    ],
+    "series": "TR2",
+    "variant": "1200W 80+"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

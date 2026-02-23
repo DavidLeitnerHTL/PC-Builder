@@ -1,0 +1,28 @@
+{
+  "opendb_id": "549f1aed-e969-4cb0-b10f-06cd709aface",
+  "metadata": {
+    "name": "Aerocool X-Static 80mm Black / Clear 22.9 CFM",
+    "manufacturer": "AeroCool",
+    "part_numbers": [],
+    "series": "X-Static",
+    "variant": "80mm Black / Clear"
+  },
+  "size": 80,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 22.9,
+  "max_airflow": null,
+  "min_noise_level": 21.8,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

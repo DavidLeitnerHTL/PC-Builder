@@ -1,0 +1,27 @@
+{
+  "opendb_id": "aaa3819e-3085-49da-844c-6af35599a934",
+  "metadata": {
+    "name": "ID-COOLING XF-12025-SD 120mm Black PWM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "XF-12025-SD",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 74.5,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": 35.2,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.15,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

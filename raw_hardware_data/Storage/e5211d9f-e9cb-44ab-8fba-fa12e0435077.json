@@ -1,0 +1,22 @@
+{
+  "opendb_id": "e5211d9f-e9cb-44ab-8fba-fa12e0435077",
+  "metadata": {
+    "name": "Seagate Enterprise Capacity 10TB HDD 3.5\" 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST10000NM0086"
+    ],
+    "series": "Enterprise",
+    "variant": "10000GB"
+  },
+  "capacity": 10000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B01LXXV880",
+    "newegg_sku": "9SIAJP2K760222",
+    "walmart_sku": 190994130
+  }
+}

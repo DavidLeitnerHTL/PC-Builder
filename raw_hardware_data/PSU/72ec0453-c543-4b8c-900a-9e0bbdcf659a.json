@@ -1,0 +1,29 @@
+{
+  "opendb_id": "72ec0453-c543-4b8c-900a-9e0bbdcf659a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 3,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Apevia ATX-VN500W ATX 500W Non-Modular",
+    "manufacturer": "Apevia",
+    "part_numbers": [
+      "ATX-VN500W"
+    ],
+    "series": "ATX-VN500W",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "f30a1547-aa33-4566-ab6d-2555d5d20259",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 7,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec Earthwatts ATX 650W Non-Modular 80+ Bronze",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "EA-650 Green"
+    ],
+    "series": "Earthwatts",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 154,
+  "fanless": false,
+  "general_product_information": {}
+}

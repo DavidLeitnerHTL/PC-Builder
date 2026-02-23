@@ -1,0 +1,27 @@
+{
+  "opendb_id": "2d82265f-b5cb-47a6-913f-92cfc0a9d176",
+  "metadata": {
+    "name": "Prolimatech Ultra Sleek Vortex 120mm White PWM 56 CFM",
+    "manufacturer": "Prolimatech",
+    "part_numbers": [],
+    "series": "Ultra",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 56,
+  "max_airflow": null,
+  "min_noise_level": 7,
+  "max_noise_level": 13,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,38 @@
+{
+  "opendb_id": "4d764726-433a-4e37-b365-d8d59157c2ac",
+  "metadata": {
+    "name": "Corsair iCUE LINK H150i LCD Water 360mm 63.1 CFM Black",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CW-9061008-WW"
+    ],
+    "series": "iCUE",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 480,
+  "max_fan_rpm": 2400,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

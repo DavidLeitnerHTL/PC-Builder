@@ -1,0 +1,52 @@
+{
+  "opendb_id": "4d38212f-3d5a-4c53-861e-bd73af4a664e",
+  "metadata": {
+    "name": "Vetroo V240 52 CFM Water 240mm White / Gray",
+    "manufacturer": "Vetroo",
+    "part_numbers": [
+      "VT-AIO-V240-WT                                                    V240 WH                                                    V240 White",
+      "V240 White",
+      "VT-AIO-V240-WT"
+    ],
+    "series": "V240",
+    "variant": "White / Gray",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 800,
+  "max_fan_rpm": 1800,
+  "min_noise_level": 30.8,
+  "max_noise_level": null,
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066",
+    "LGA 775"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B08L8PSMDS",
+    "newegg_sku": "9SIBGX1JA27011"
+  }
+}

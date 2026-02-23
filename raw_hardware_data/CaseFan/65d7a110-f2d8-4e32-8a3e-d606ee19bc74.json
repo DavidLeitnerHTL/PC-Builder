@@ -1,0 +1,27 @@
+{
+  "opendb_id": "65d7a110-f2d8-4e32-8a3e-d606ee19bc74",
+  "metadata": {
+    "name": "Masscool FDC08025S1M 80mm Clear 32.95 CFM",
+    "manufacturer": "Masscool",
+    "part_numbers": [],
+    "series": "FDC08025S1M",
+    "variant": "80mm Clear"
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 32.95,
+  "max_airflow": null,
+  "min_noise_level": 26.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

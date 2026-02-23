@@ -1,0 +1,28 @@
+{
+  "opendb_id": "856db57f-e09d-4b7f-87b1-121f6a6ccb29",
+  "metadata": {
+    "name": "Aerocool DS 140mm Black / Red Red LED 93.4 CFM",
+    "manufacturer": "AeroCool",
+    "part_numbers": [],
+    "series": "DS",
+    "variant": "140mm Black / Red"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 71.2,
+  "max_airflow": 93.4,
+  "min_noise_level": 15.5,
+  "max_noise_level": 23.4,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

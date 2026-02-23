@@ -1,0 +1,31 @@
+{
+  "opendb_id": "02979005-550d-4c3b-ac46-bf512adfce56",
+  "metadata": {
+    "name": "Aerocool Silent Master 200mm Red 76CFM",
+    "manufacturer": "AeroCool",
+    "part_numbers": [
+      "Silent Master 200mm Red LED fan"
+    ],
+    "series": "Silent",
+    "variant": "200mm Red"
+  },
+  "size": 200,
+  "color": [
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 76,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.36,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B009XERH8C"
+  }
+}

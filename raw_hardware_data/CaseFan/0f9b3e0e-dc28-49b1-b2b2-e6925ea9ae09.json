@@ -1,0 +1,27 @@
+{
+  "opendb_id": "0f9b3e0e-dc28-49b1-b2b2-e6925ea9ae09",
+  "metadata": {
+    "name": "Xion Alphawing 120mm Blue 51.02 CFM 1-Pack",
+    "manufacturer": "Xion",
+    "part_numbers": [],
+    "series": "Alphawing",
+    "variant": "120mm Blue"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 51.02,
+  "max_airflow": null,
+  "min_noise_level": 19.6,
+  "max_noise_level": 25.2,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

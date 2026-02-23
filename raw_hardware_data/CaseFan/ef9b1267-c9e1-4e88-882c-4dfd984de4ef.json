@@ -1,0 +1,32 @@
+{
+  "opendb_id": "ef9b1267-c9e1-4e88-882c-4dfd984de4ef",
+  "metadata": {
+    "name": "Titan TFD-12025H12ZP 120mm White/Blue PWM",
+    "manufacturer": "Titan",
+    "part_numbers": [
+      "TFD-12025H12ZP/KU(RB)"
+    ],
+    "series": "TFD-12025H12ZP",
+    "variant": "120mm White / Blue"
+  },
+  "size": 120,
+  "color": [
+    "WHITE",
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 24.23,
+  "max_airflow": 66.62,
+  "min_noise_level": 15,
+  "max_noise_level": 35,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0042HIORI"
+  }
+}

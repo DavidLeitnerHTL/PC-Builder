@@ -1,0 +1,41 @@
+{
+  "opendb_id": "b229bc26-6a50-4e14-85c5-57e04027dd58",
+  "metadata": {
+    "name": "Cooler Master Seidon 240P Water 240mm 95 CFM",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "RL-S24V-20PB-R2"
+    ],
+    "series": "Seidon",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 800,
+  "max_fan_rpm": 2400,
+  "min_noise_level": 12,
+  "max_noise_level": 35,
+  "color": [],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 2011",
+    "LGA 2066",
+    "LGA 775"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

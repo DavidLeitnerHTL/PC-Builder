@@ -1,0 +1,33 @@
+{
+  "opendb_id": "fdae2f5a-9217-4a1c-a21c-74275b3006fe",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "GameMax RGB Pro White 850W Fully Modular 80+ Gold",
+    "manufacturer": "GameMax",
+    "part_numbers": [
+      "RGB850-WHITE"
+    ],
+    "series": "RGB",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 170,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CLGLYDHM"
+  }
+}

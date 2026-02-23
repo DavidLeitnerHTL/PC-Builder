@@ -1,0 +1,32 @@
+{
+  "opendb_id": "dbe1da83-828c-4f13-acdf-815142ea1c22",
+  "metadata": {
+    "name": "Scythe Gentle Typhoon 120mm Gray 18.25 CFM",
+    "manufacturer": "SCYTHE",
+    "part_numbers": [
+      "D1225C12B1AP-11",
+      "4571225042411"
+    ],
+    "series": "Gentle",
+    "variant": "120mm Gray"
+  },
+  "size": 120,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 18.25,
+  "max_airflow": null,
+  "min_noise_level": 5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B001CSBVWK"
+  }
+}

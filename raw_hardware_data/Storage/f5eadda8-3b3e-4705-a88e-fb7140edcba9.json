@@ -1,0 +1,24 @@
+{
+  "opendb_id": "f5eadda8-3b3e-4705-a88e-fb7140edcba9",
+  "metadata": {
+    "name": "MSI SPATIUM M461 2TB M.2-2280 SSD PCIe 4.0 x4 NVMe",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "SPATIUM M461 2TB                                                    SM461N2TB",
+      "S78-440Q550-P83",
+      "SPATIUM M461 PCIe 4.0 NVMe M.2 2TB"
+    ],
+    "series": "SPATIUM",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0BWSHLJMJ",
+    "newegg_sku": "N82E16820140040",
+    "walmart_sku": 2980532812
+  }
+}

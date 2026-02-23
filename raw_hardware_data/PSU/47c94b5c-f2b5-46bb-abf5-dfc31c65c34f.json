@@ -1,0 +1,31 @@
+{
+  "opendb_id": "47c94b5c-f2b5-46bb-abf5-dfc31c65c34f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 14,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Seasonic PRIME Black 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "PRIME-GX-850"
+    ],
+    "series": "PRIME",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 170,
+  "fanless": false,
+  "general_product_information": {}
+}

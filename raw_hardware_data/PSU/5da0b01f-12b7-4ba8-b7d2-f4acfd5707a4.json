@@ -1,0 +1,29 @@
+{
+  "opendb_id": "5da0b01f-12b7-4ba8-b7d2-f4acfd5707a4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 7,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair RM650 650W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "RM650                                                    CP-9020054-UK                                                    CP-9020054-NA                                                    CP-9020054-EU"
+    ],
+    "series": "RM650",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

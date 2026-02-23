@@ -1,0 +1,51 @@
+{
+  "opendb_id": "e6654154-2082-4a02-8a84-d9fe71d7be1c",
+  "metadata": {
+    "name": "Cooler Master Hyper 212 RGB Air 159mm Black",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "RR-212S-20PC-R1",
+      "RR-212S-25PZ-R1"
+    ],
+    "series": "Hyper",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 650,
+  "max_fan_rpm": 2000,
+  "min_noise_level": 8,
+  "max_noise_level": 30,
+  "color": [
+    "BLACK"
+  ],
+  "height": 159,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B07H22TC1N",
+    "newegg_sku": "N82E16835103370",
+    "bestbuy_sku": 6316592,
+    "walmart_sku": 493745079
+  }
+}

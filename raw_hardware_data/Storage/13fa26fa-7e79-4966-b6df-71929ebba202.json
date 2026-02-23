@@ -1,0 +1,24 @@
+{
+  "opendb_id": "13fa26fa-7e79-4966-b6df-71929ebba202",
+  "metadata": {
+    "name": "Kingston A2000 250GB SSD M.2-2280 PCIe 3.0 X4 NVMe",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SA2000M8",
+      "250G",
+      "SA2000M8/250G"
+    ],
+    "series": "A2000",
+    "variant": "250GB"
+  },
+  "capacity": 250,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B07VYG5HQD",
+    "newegg_sku": "9SIA22FKCG3235",
+    "walmart_sku": 400146778
+  }
+}

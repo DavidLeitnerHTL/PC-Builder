@@ -1,0 +1,32 @@
+{
+  "opendb_id": "f12902f3-e517-4aa3-9b00-218e4213b424",
+  "metadata": {
+    "name": "In Win Neptune DN120 Pro 120mm Black / Red PWM 60.56 CFM 1-Pack",
+    "manufacturer": "In Win",
+    "part_numbers": [
+      "IW-FN-DN120PRO-1PK"
+    ],
+    "series": "Neptune",
+    "variant": "120mm Black / Red"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 24.15,
+  "max_airflow": 60.56,
+  "min_noise_level": 20.3,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.83,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CJKKMLV3"
+  }
+}

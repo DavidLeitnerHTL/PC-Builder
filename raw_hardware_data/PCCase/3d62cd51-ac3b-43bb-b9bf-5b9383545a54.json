@@ -1,0 +1,51 @@
+{
+  "opendb_id": "3d62cd51-ac3b-43bb-b9bf-5b9383545a54",
+  "metadata": {
+    "name": "Silverstone FARA R1 PRO ATX Mid Tower Black Tempered Glass Side Panel",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-FAR1B-PRO",
+      "RNAB08KZ586CQ"
+    ],
+    "series": "FARA",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-09-22T09:21:24.087Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.0 x 2                                                   USB 2.0 x 1",
+  "max_video_card_length": 322,
+  "max_cpu_cooler_height": 165,
+  "internal_3_5_bays": 1,
+  "internal_2_5_bays": 4,
+  "expansion_slots": 7,
+  "dimensions": "390 x 207 x 446",
+  "volume": 36.006,
+  "weight": 11.83882,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "USB 3.0 x 2 ",
+    "USB 2.0 x 1"
+  ],
+  "dimensions_mm": {
+    "width": 207,
+    "height": 446,
+    "depth": 390,
+    "_id": "68d115158cdf3cc96cc2496c"
+  },
+  "general_product_information": {
+    "amazon_sku": "B08KZ586CQ",
+    "newegg_sku": "2AM-006F-00130",
+    "walmart_sku": 217759083
+  }
+}

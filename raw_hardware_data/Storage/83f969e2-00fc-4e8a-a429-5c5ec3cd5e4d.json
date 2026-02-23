@@ -1,0 +1,20 @@
+{
+  "opendb_id": "83f969e2-00fc-4e8a-a429-5c5ec3cd5e4d",
+  "metadata": {
+    "name": "Seagate IronWolf 6TB 3.5\" HDD 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST6000VN0041"
+    ],
+    "series": "IronWolf",
+    "variant": "6000GB"
+  },
+  "capacity": 6000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B01LZDFMWQ"
+  }
+}

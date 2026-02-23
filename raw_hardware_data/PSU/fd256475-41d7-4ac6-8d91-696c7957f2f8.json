@@ -1,0 +1,35 @@
+{
+  "opendb_id": "fd256475-41d7-4ac6-8d91-696c7957f2f8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 10,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Super Flower Leadex Platinum Black 850W Fully Modular 80+ Platinum",
+    "manufacturer": "Super Flower",
+    "part_numbers": [
+      "SF-850F14MP",
+      "SF-850F14PE"
+    ],
+    "series": "Leadex",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BV39BY8H",
+    "newegg_sku": "1HU-024C-00036"
+  }
+}

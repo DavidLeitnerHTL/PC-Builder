@@ -1,0 +1,56 @@
+{
+  "opendb_id": "6ac6af9c-ce11-4466-bdc2-781547645907",
+  "cores": {
+    "total": 14,
+    "threads": 14
+  },
+  "clocks": {
+    "performance": {
+      "base": 4.2,
+      "boost": 5.2
+    },
+    "efficiency": {
+      "base": 3.6,
+      "boost": 4.6
+    }
+  },
+  "cache": {
+    "l2": 26,
+    "l3": 24
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 256,
+      "types": [
+        "DDR5"
+      ]
+    },
+    "tdp": 125,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "3 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Core Ultra 5 245KF 4.2 GHz 14-Core LGA1851",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80768245KF",
+      "Intel Core Ultra 5 245KF"
+    ],
+    "series": "Intel Core Ultra 5"
+  },
+  "series": "Intel Core Ultra 5",
+  "microarchitecture": "Arrow Lake",
+  "coreFamily": "Arrow Lake",
+  "socket": "LGA 1851",
+  "general_product_information": {
+    "amazon_sku": "B0DFK8HHK4",
+    "newegg_sku": "N82E16819118509",
+    "walmart_sku": 13847700188
+  }
+}

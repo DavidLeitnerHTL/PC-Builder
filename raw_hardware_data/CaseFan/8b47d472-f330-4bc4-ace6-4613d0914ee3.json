@@ -1,0 +1,27 @@
+{
+  "opendb_id": "8b47d472-f330-4bc4-ace6-4613d0914ee3",
+  "metadata": {
+    "name": "Masscool BLD-14025S1L 140mm Clear Blue LED 57.12 CFM 1-Pack",
+    "manufacturer": "Masscool",
+    "part_numbers": [],
+    "series": "BLD-14025S1L",
+    "variant": "140mm Clear"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 57.12,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a0b87aa2-7a42-4b99-804d-4efa91df2798",
+  "metadata": {
+    "name": "Aerocool Shark 140mm White White LED 96.5 CFM",
+    "manufacturer": "AeroCool",
+    "part_numbers": [],
+    "series": "Shark",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 50,
+  "max_airflow": 96.5,
+  "min_noise_level": 14.5,
+  "max_noise_level": 29.6,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,41 @@
+{
+  "opendb_id": "fc396129-cbb2-44a1-bfa1-f00b6777958d",
+  "metadata": {
+    "name": "BitFenix Cube ARGB 60 CFM Water 240mm White",
+    "manufacturer": "BitFenix",
+    "part_numbers": [
+      "BFW-AIO-240-WW27A-RP",
+      "0"
+    ],
+    "series": "Cube",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 2000,
+  "max_fan_rpm": null,
+  "min_noise_level": 34,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0CMD2ZYHG"
+  }
+}

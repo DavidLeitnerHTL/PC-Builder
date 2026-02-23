@@ -1,0 +1,46 @@
+{
+  "opendb_id": "f5cd63b4-9aa1-4fbc-9ab5-b449aded063d",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.7,
+      "boost": 4
+    }
+  },
+  "cache": {
+    "l2": 4,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon R7 (on-die)"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 95,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "28 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A10 7850K 3.7 GHz 4-Core FM2+ OEM/Tray",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD785KXBI44JA"
+    ],
+    "series": "AMD A10"
+  },
+  "series": "AMD A10",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Kaveri",
+  "socket": "FM2+",
+  "general_product_information": {}
+}

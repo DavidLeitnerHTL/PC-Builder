@@ -1,0 +1,40 @@
+{
+  "opendb_id": "d9c74cd8-7d00-4a7d-b238-a04256d0c39b",
+  "metadata": {
+    "name": "Lian Li Galahad II Trinity Performance 108.29 CFM Water 360mm Black",
+    "manufacturer": "Lian Li",
+    "part_numbers": [
+      "GA2P36B"
+    ],
+    "series": "Galahad",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 2300,
+  "max_fan_rpm": 3000,
+  "min_noise_level": 32.1,
+  "max_noise_level": 39.9,
+  "color": [
+    "BLACK"
+  ],
+  "height": 79,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "newegg_sku": "N82E16835353020"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "opendb_id": "1e2fe0a1-31bf-4192-8241-60311c7e8f52",
+  "metadata": {
+    "name": "Seagate BarraCuda 500GB HDD 2.5\" 5400 RPM SATA 6.0 Gb/s Internal",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST500LM030"
+    ],
+    "series": "BarraCuda",
+    "variant": "500GB"
+  },
+  "capacity": 500,
+  "type": "HDD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B01M0AAA6X",
+    "walmart_sku": 101781283
+  }
+}

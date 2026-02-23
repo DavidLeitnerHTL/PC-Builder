@@ -1,0 +1,28 @@
+{
+  "opendb_id": "d534c7c0-5946-413d-b37e-372b85e881da",
+  "metadata": {
+    "name": "ARCTIC F9 Pro 39 CFM 92mm White / Black",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [],
+    "series": "F9",
+    "variant": "92mm White / Black"
+  },
+  "size": 92,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 39,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

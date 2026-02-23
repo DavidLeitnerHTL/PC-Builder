@@ -1,0 +1,46 @@
+{
+  "opendb_id": "237237d3-39f7-4483-a812-d028e8a0dd86",
+  "metadata": {
+    "name": "Corsair H80i v2 Water 120mm",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CW-9060024-WW                                                    H80i V2",
+      "CW-9060017-WW"
+    ],
+    "series": "H80i",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 2435,
+  "max_fan_rpm": null,
+  "min_noise_level": 37.7,
+  "max_noise_level": null,
+  "color": [],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 2011",
+    "LGA 2066",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": true,
+  "radiator_size": 120,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B00SV7IIDU"
+  }
+}

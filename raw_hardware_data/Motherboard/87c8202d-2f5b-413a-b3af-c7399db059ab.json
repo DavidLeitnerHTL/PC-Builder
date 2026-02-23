@@ -1,0 +1,77 @@
+{
+  "opendb_id": "87c8202d-2f5b-413a-b3af-c7399db059ab",
+  "memory": {
+    "max": 64,
+    "ram_type": "DDR3",
+    "slots": 8
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 4,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 4,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "power_connectors": {
+    "cpu_power": []
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "Intel X79 DX79SR LGA2011 DDR3 ATX",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BOXDX79SR"
+    ],
+    "series": "X79",
+    "variant": ""
+  },
+  "socket": "LGA 2011",
+  "form_factor": "ATX",
+  "chipset": "Intel X79",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 16,
+      "_id": "67f9b866865ad0c3553dc20b"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1,
+      "_id": "67f9b866865ad0c3553dc20c"
+    }
+  ],
+  "m2_slots": [],
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown",
+      "_id": "67f9b866865ad0c3553dc20d"
+    }
+  ],
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false,
+    "_id": "67f9b866865ad0c3553dc20e"
+  },
+  "back_panel_ports": [
+    "2 x 1 Gb/s"
+  ],
+  "general_product_information": {}
+}

@@ -1,0 +1,42 @@
+{
+  "opendb_id": "9ae52c56-d579-4147-b5d5-8c748a2de0c4",
+  "metadata": {
+    "name": "Corsair H100i GTX Water 240mm",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CW-9060021-WW                                                    H100i GTX",
+      "CW-9060021-WW"
+    ],
+    "series": "H100i",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 2435,
+  "max_fan_rpm": null,
+  "min_noise_level": 37.7,
+  "max_noise_level": null,
+  "color": [],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B00SV7IEJI"
+  }
+}

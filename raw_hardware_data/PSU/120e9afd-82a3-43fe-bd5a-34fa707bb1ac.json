@@ -1,0 +1,31 @@
+{
+  "opendb_id": "120e9afd-82a3-43fe-bd5a-34fa707bb1ac",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Inter-Tech SAMA XPH-1200A Black 1200W Fully Modular 80+ Platinum",
+    "manufacturer": "Inter-Tech",
+    "part_numbers": [
+      "88882233                                                    SAMA XPH-1200A"
+    ],
+    "series": "SAMA",
+    "variant": "1200W Platinum"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 155,
+  "fanless": false,
+  "general_product_information": {}
+}

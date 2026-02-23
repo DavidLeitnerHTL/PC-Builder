@@ -1,0 +1,32 @@
+{
+  "opendb_id": "a33d8114-5e4d-47f5-b82b-edd8532cb20c",
+  "metadata": {
+    "name": "Vantec Stealth 120mm Black 53 CFM 1-Pack",
+    "manufacturer": "Vantec",
+    "part_numbers": [
+      "SF12025L"
+    ],
+    "series": "Stealth",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 53,
+  "max_airflow": null,
+  "min_noise_level": 28,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B000279516",
+    "walmart_sku": 29929649
+  }
+}

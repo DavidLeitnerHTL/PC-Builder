@@ -1,0 +1,33 @@
+{
+  "opendb_id": "33070eff-4729-4a12-936c-9a23064b6f37",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Deepcool PQ650M ATX 650W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "R-PQ650M-FA0B-US"
+    ],
+    "series": "PQ650M",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B005VBGRZK"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "5fd8cfb4-1221-41a3-8c25-81a6ea3932c1",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Triton Black 850W Non-Modular",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-TR850R-GF"
+    ],
+    "series": "Triton",
+    "variant": "850W "
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

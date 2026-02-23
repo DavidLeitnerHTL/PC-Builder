@@ -1,0 +1,20 @@
+{
+  "opendb_id": "4ef6ea01-7524-4ee7-8400-c704c8ec39c7",
+  "metadata": {
+    "name": "XOC SP900 2TB SSD M.2 PCIe 4.0 NVMe",
+    "manufacturer": "XOC",
+    "part_numbers": [
+      "XC2TBSP900"
+    ],
+    "series": "SP900",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0CYXNC7F7"
+  }
+}

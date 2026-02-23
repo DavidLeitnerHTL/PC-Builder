@@ -1,0 +1,22 @@
+{
+  "opendb_id": "de181ffc-fea6-4815-888c-fa1bf00add33",
+  "metadata": {
+    "name": "Seagate SkyHawk 8TB 3.5\" HDD 5900RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST8000VX0022",
+      "ST8000VXB22"
+    ],
+    "series": "SkyHawk",
+    "variant": "8000GB"
+  },
+  "capacity": 8000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B01LXF9W9C",
+    "walmart_sku": 656225276
+  }
+}

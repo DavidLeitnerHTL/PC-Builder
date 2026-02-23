@@ -1,0 +1,29 @@
+{
+  "opendb_id": "67294bdb-6c0a-40f8-ab34-285775f60262",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax ETL450AWT-M ATX 450W 80+ Bronze Certified Semi-Modular",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "ETL450AWT-M"
+    ],
+    "series": "ETL450AWT-M",
+    "variant": "450W Bronze"
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

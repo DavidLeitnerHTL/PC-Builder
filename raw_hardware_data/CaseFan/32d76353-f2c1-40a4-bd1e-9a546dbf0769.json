@@ -1,0 +1,34 @@
+{
+  "opendb_id": "32d76353-f2c1-40a4-bd1e-9a546dbf0769",
+  "metadata": {
+    "name": "Corsair AF120 ELITE 120mm Black 59.1 CFM PWM",
+    "manufacturer": "Corsair",
+    "series": "AF120",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "CO-9050140-WW"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 10.9,
+  "max_airflow": 59.1,
+  "min_noise_level": 31.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.93,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09XR618LP",
+    "newegg_sku": "N82E16835181311",
+    "bestbuy_sku": 6508540,
+    "walmart_sku": 1901094654
+  }
+}

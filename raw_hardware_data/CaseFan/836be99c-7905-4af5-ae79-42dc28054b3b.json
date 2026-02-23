@@ -1,0 +1,25 @@
+{
+  "opendb_id": "836be99c-7905-4af5-ae79-42dc28054b3b",
+  "metadata": {
+    "name": "Silverstone FN 120mm Transparent White LED 58.47 CFM",
+    "manufacturer": "SilverStone",
+    "part_numbers": [],
+    "series": "FN",
+    "variant": "120mm Transparent"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [],
+  "quantity": 1,
+  "min_airflow": 58.47,
+  "max_airflow": null,
+  "min_noise_level": 25.15,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

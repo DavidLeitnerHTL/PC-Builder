@@ -1,0 +1,33 @@
+{
+  "opendb_id": "19fc5b7c-80b5-4af6-8e83-da2275de1459",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "PowerSpec GFM Black ATX 750W Fully Modular 80+ Gold Certified",
+    "manufacturer": "PowerSpec",
+    "part_numbers": [
+      "PS 750GFM"
+    ],
+    "series": "GFM",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07FB38B8R"
+  }
+}

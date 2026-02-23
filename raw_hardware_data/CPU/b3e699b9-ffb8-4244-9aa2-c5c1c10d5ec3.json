@@ -1,0 +1,46 @@
+{
+  "opendb_id": "b3e699b9-ffb8-4244-9aa2-c5c1c10d5ec3",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 16
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.7,
+      "boost": 5
+    }
+  },
+  "cache": {
+    "l2": 2,
+    "l3": 16
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel HD Graphics P630"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    },
+    "tdp": 95,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E 2288G 3.7 GHz 8-Core LGA1151 (OEM/Tray)",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8068404224102"
+    ],
+    "series": "Intel Xeon E"
+  },
+  "series": "Intel Xeon E",
+  "microarchitecture": "Coffee Lake Refresh",
+  "coreFamily": "Coffee Lake Refresh",
+  "socket": "LGA 1151",
+  "general_product_information": {}
+}

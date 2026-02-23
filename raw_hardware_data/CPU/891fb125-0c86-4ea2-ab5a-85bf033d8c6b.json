@@ -1,0 +1,49 @@
+{
+  "opendb_id": "891fb125-0c86-4ea2-ab5a-85bf033d8c6b",
+  "cores": {
+    "total": 20,
+    "performance": 20,
+    "threads": 40
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.2,
+      "boost": 3.6
+    }
+  },
+  "cache": {
+    "l2": 5,
+    "l3": 50
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 1536,
+      "types": []
+    },
+    "tdp": 135,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E5 2698 V4 2.2 GHz 20-Core LGA2011-3 OEM/Tray",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8066002024000"
+    ],
+    "series": "Intel Xeon E5"
+  },
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell-EP",
+  "socket": "LGA 2011-3",
+  "general_product_information": {
+    "amazon_sku": "B01DTYQHTG",
+    "walmart_sku": 153950138
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "opendb_id": "9444e7e7-4660-4ea0-ac4e-9e1c864a43de",
+  "metadata": {
+    "name": "be quiet! Light Loop Water 360mm White",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BW023"
+    ],
+    "series": "Light",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 1500,
+  "max_fan_rpm": 2900,
+  "min_noise_level": 17.2,
+  "max_noise_level": 36.8,
+  "color": [
+    "WHITE"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0DDR5NNFP",
+    "newegg_sku": "N82E16835269021",
+    "ibuypower_sku": "29338"
+  }
+}

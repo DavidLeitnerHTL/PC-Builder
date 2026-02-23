@@ -1,0 +1,36 @@
+{
+  "opendb_id": "f2213c75-a0c7-4704-98d9-62b900dfde5e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master V750 Gold V2 Black 750W Fully Modular 80+ Gold",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPY-750V-AFBAG                                                    MPY-750V-AFBAG-AU                                                    MPY-750V-AFBAG-UK                                                    MPY-750V-AFBAG-IN                                                    MPY-750V-AFBAG-US                                                    MPY-750V-AFBAG-KR                                                    MPY-750V-AFBAG-JP                                                    MPY-750V-AFBAG-WO                                                    MPY-750V-AFBAG-EU",
+      "MPY-750V-AFBAG-US"
+    ],
+    "series": "V750",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08FJHF9RG",
+    "newegg_sku": "9SIAGBAKAU8411",
+    "walmart_sku": 510321765
+  }
+}

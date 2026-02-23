@@ -1,0 +1,32 @@
+{
+  "opendb_id": "f420343b-1c12-43e1-aca2-ad8f2fc380ca",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic G12 GM Black / Blue 650W Semi-Modular 80+ Gold",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "G12-GM-650"
+    ],
+    "series": "G12",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

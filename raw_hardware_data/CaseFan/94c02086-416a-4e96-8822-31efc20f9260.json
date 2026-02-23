@@ -1,0 +1,27 @@
+{
+  "opendb_id": "94c02086-416a-4e96-8822-31efc20f9260",
+  "metadata": {
+    "name": "Enermax Marathon 80mm Clear 24 CFM",
+    "manufacturer": "Enermax",
+    "part_numbers": [],
+    "series": "Marathon",
+    "variant": "80mm Clear"
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 24,
+  "max_airflow": null,
+  "min_noise_level": 14,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

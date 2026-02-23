@@ -1,0 +1,52 @@
+{
+  "opendb_id": "0b720985-1e1d-41a9-8ea8-aefcd398e2c5",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.1,
+      "boost": 3.8
+    }
+  },
+  "cache": {
+    "l2": 2,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon R7 (on-die)"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": [
+        "DDR4"
+      ]
+    },
+    "tdp": 35,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "28 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A-Series A12 9800E 3.1 GHz 4-Core AM4",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD9800AHABBOX",
+      "B961023"
+    ],
+    "series": "AMD A12"
+  },
+  "series": "AMD A12",
+  "microarchitecture": "Excavator",
+  "coreFamily": "Bristol Ridge",
+  "socket": "AM4",
+  "general_product_information": {
+    "amazon_sku": "B074BKRVL7",
+    "walmart_sku": 112752914
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "907b6f2c-ce3b-40b0-b159-3d6199a31713",
+  "metadata": {
+    "name": "Deepcool FC120 120mm White PWM RGB 3-Pack",
+    "manufacturer": "Deepcool",
+    "part_numbers": [],
+    "series": "FC120",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 61.91,
+  "max_airflow": null,
+  "min_noise_level": 28,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.83,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

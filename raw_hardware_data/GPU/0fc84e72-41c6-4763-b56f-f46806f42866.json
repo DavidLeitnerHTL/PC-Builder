@@ -1,0 +1,51 @@
+{
+  "opendb_id": "0fc84e72-41c6-4763-b56f-f46806f42866",
+  "power_connectors": {
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "MSI ARMOR GeForce RTX 2070 8GB GDDR6 Black / Silver",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "GeForce RTX 2070 ARMOR 8G OC                                                    RTX 2070 ARMOR 8G OC                                                    V373-013R",
+      "RTX 2070 ARMOR 8G OC"
+    ],
+    "series": "GeForce RTX 2070",
+    "variant": "MSI"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 2070",
+  "memory": 8,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1410,
+  "core_boost_clock": 1740,
+  "effective_memory_clock": 14000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 309,
+  "tdp": 185,
+  "total_slot_width": 3,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 1,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c5c9865ad0c3553e9df6"
+  },
+  "general_product_information": {
+    "amazon_sku": "B07JC4MB7V",
+    "newegg_sku": "9SIABVRHBT0828",
+    "walmart_sku": 421224194
+  }
+}

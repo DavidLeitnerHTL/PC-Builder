@@ -1,0 +1,36 @@
+{
+  "opendb_id": "9544efc3-efd1-45f2-884f-0c5c6d37d340",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone TX300 Black TFX 300W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "TX300",
+      "SST-TX300"
+    ],
+    "series": "TX300",
+    "variant": "300W Bronze"
+  },
+  "wattage": 300,
+  "form_factor": "TFX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 175,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B06XS9YLTL",
+    "newegg_sku": "N82E16817256183",
+    "walmart_sku": 709018751
+  }
+}

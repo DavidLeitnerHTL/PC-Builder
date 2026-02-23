@@ -1,0 +1,22 @@
+{
+  "opendb_id": "0b4ff01f-2feb-4d34-b428-215866deb59e",
+  "metadata": {
+    "name": "Seagate Exos X24 24TB HDD 7200RPM 3.5\" SAS 12.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST24000NM007H"
+    ],
+    "series": "Exos",
+    "variant": "24000GB"
+  },
+  "capacity": 24000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SAS 12.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0CT1JRLVJ",
+    "newegg_sku": "1Z4-002P-02K47",
+    "walmart_sku": 5176340553
+  }
+}

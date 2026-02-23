@@ -1,0 +1,31 @@
+{
+  "opendb_id": "c458997d-0296-424b-97d8-a6df645fe7ec",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master MWE Black ATX 600W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPX-6001-ACAAB-US"
+    ],
+    "series": "MWE",
+    "variant": "600W Bronze"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

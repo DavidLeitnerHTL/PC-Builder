@@ -1,0 +1,54 @@
+{
+  "opendb_id": "8fcefb4e-6fa9-4b70-8fa7-5679a9e15e9c",
+  "cores": {
+    "total": 12,
+    "performance": 12,
+    "threads": 24
+  },
+  "clocks": {
+    "performance": {
+      "base": 4.4,
+      "boost": 5.5
+    }
+  },
+  "cache": {
+    "l2": 12,
+    "l3": 128
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon"
+    },
+    "memory": {
+      "maxSupport": 192,
+      "types": [
+        "DDR5"
+      ]
+    },
+    "tdp": 120,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "4 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "AMD Ryzen 9 9900X3D 4.4 GHz 12-Core AM5",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "100-1000001368WOF                                                    AMD-Ryzen-9-9900X3D                                                    100-100001368WOF",
+      "100-100001368WOF"
+    ],
+    "series": "AMD Ryzen 9"
+  },
+  "series": "AMD Ryzen 9",
+  "microarchitecture": "Zen 5",
+  "coreFamily": "Granite Ridge",
+  "socket": "AM5",
+  "general_product_information": {
+    "amazon_sku": "B0DWGWN8GY",
+    "newegg_sku": "N82E16819113886",
+    "bestbuy_sku": 6621940,
+    "walmart_sku": 15487369763
+  }
+}

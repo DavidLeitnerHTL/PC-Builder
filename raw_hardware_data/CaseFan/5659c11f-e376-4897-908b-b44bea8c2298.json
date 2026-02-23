@@ -1,0 +1,28 @@
+{
+  "opendb_id": "5659c11f-e376-4897-908b-b44bea8c2298",
+  "metadata": {
+    "name": "NZXT FS 193mm Black / White 89.5 CFM 1-Pack",
+    "manufacturer": "NZXT",
+    "part_numbers": [],
+    "series": "FS",
+    "variant": "193mm Black / White"
+  },
+  "isOEM": false,
+  "size": 193,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 89.5,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.98,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

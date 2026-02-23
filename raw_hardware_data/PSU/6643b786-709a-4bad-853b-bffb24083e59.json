@@ -1,0 +1,32 @@
+{
+  "opendb_id": "6643b786-709a-4bad-853b-bffb24083e59",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 5,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group Dagger Pro SFX 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "SDA2-850"
+    ],
+    "series": "Dagger",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GOLD"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "c2a63266-32d1-4cea-b844-59da3ffbd296",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec NeoECO Platinum 850W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "NE850 Platinum                                                    X8000A209JF-20"
+    ],
+    "series": "NeoECO",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

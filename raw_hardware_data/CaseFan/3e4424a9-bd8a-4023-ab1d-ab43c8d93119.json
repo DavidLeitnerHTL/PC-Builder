@@ -1,0 +1,33 @@
+{
+  "opendb_id": "3e4424a9-bd8a-4023-ab1d-ab43c8d93119",
+  "metadata": {
+    "name": "Noctua A4x10 40mm Brown 4.83 CFM",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-A4x10"
+    ],
+    "series": "A4x10",
+    "variant": "40mm Brown"
+  },
+  "size": 40,
+  "color": [
+    "BROWN"
+  ],
+  "quantity": 1,
+  "min_airflow": 3.88,
+  "max_airflow": 4.83,
+  "min_noise_level": 12.9,
+  "max_noise_level": 17.89,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B009NQLT0M",
+    "newegg_sku": "N82E16835608033",
+    "walmart_sku": 40332992
+  }
+}

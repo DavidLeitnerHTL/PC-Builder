@@ -1,0 +1,34 @@
+{
+  "opendb_id": "2b7cb68c-3db6-46ee-af45-8accd7f73d51",
+  "metadata": {
+    "name": "Silverstone Air Slimmer 92mm Black PWM",
+    "manufacturer": "SilverStone",
+    "part_numbers": [
+      "AS90B",
+      "SST-AS90B"
+    ],
+    "series": "Air",
+    "variant": "92mm Black"
+  },
+  "size": 92,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 5.38,
+  "max_airflow": 45.73,
+  "min_noise_level": 11.3,
+  "max_noise_level": 32,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.29,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0B6DBS9GJ",
+    "newegg_sku": "13C-0060-000A1",
+    "walmart_sku": 2238892725
+  }
+}

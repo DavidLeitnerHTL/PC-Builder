@@ -1,0 +1,33 @@
+{
+  "opendb_id": "9f9a5f6e-2c73-423d-95cc-e6ad0bb4bbe5",
+  "metadata": {
+    "name": "Geometric Future Squama 2505 120mm Yellow / Black PWM 91.3 CFM 3-Pack",
+    "manufacturer": "Geometric Future",
+    "part_numbers": [
+      "GEO-S2505Y-3"
+    ],
+    "series": "Squama",
+    "variant": "120mm Yellow / Black"
+  },
+  "size": 120,
+  "color": [
+    "YELLOW",
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 91.3,
+  "max_airflow": null,
+  "min_noise_level": 35.06,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "5V Addressable RGB",
+  "static_pressure": 4.28,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0B3XG1Q88",
+    "newegg_sku": "1YF-01P6-00003"
+  }
+}

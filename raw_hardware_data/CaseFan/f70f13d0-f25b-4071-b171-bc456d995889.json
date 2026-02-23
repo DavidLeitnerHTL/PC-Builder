@@ -1,0 +1,31 @@
+{
+  "opendb_id": "f70f13d0-f25b-4071-b171-bc456d995889",
+  "metadata": {
+    "name": "Thermalright TL-C12W-S V3 120mm White PWM ARGB",
+    "manufacturer": "Thermalright",
+    "series": "TL-C12W-S",
+    "variant": "120mm White",
+    "part_numbers": [
+      "TL-C12W-S V3-D1"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 66.17,
+  "max_airflow": null,
+  "min_noise_level": 25.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.53,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CCNR4H39"
+  }
+}

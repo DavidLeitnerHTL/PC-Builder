@@ -1,0 +1,31 @@
+{
+  "opendb_id": "b97ccef5-afe2-43cc-b568-0519196b8e3a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master Elite NEX N500 Black 230V ATX 500W Non-Modular",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPW-5001-ACBN-B"
+    ],
+    "series": "Elite",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

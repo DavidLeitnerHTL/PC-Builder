@@ -1,0 +1,54 @@
+{
+  "opendb_id": "bb037e39-befe-4219-a986-7afea1fc62a2",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 2,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Palit GamingPro GeForce RTX 5080 16GB GDDR7 Black",
+    "manufacturer": "Palit",
+    "part_numbers": [
+      "NE75080019T2-GB2031A"
+    ],
+    "series": "GeForce RTX 5080",
+    "variant": "GamingPro",
+    "releaseYear": 2025,
+    "last_manually_spec_verified_at": "2025-12-01T23:51:35.752Z"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5080",
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "core_base_clock": 2295,
+  "core_boost_clock": 2617,
+  "effective_memory_clock": 1875,
+  "memory_bus": 256,
+  "interface": "PCIe 5.0 x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 332,
+  "tdp": 360,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_2": 0,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c80e865ad0c3553ec28f"
+  },
+  "core_count": 10752,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "general_product_information": {
+    "manufacturer_url": "https://www.palit.com/palit/vgapro.php?id=5395&lang=en&pn=NE75080019T2-GB2031A&tab=ga"
+  }
+}

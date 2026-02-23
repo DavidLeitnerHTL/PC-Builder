@@ -1,0 +1,37 @@
+{
+  "opendb_id": "4d0292f9-9a8b-46d0-beb4-28874064c40d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone SFX Black 700W Fully Modular SFX 80+ Platinum Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SX700-LPT                                                    SST-SX700-LPT",
+      "PS-SX700-LPT",
+      "SX700-LPT"
+    ],
+    "series": "SFX",
+    "variant": "700W Platinum"
+  },
+  "wattage": 700,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 130,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B01G26SMTQ",
+    "newegg_sku": "N82E16817256166",
+    "walmart_sku": 578124361
+  }
+}

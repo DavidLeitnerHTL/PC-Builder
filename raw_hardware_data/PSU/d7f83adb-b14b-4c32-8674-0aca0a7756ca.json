@@ -1,0 +1,31 @@
+{
+  "opendb_id": "d7f83adb-b14b-4c32-8674-0aca0a7756ca",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 2,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Replace Power RP-TFX-420W TFX 420W Non-Modular",
+    "manufacturer": "Replace Power",
+    "part_numbers": [
+      "RP-TFX-420W"
+    ],
+    "series": "RP-TFX-420W",
+    "variant": "420W "
+  },
+  "wattage": 420,
+  "form_factor": "TFX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [
+    "GREY"
+  ],
+  "length": 171,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,53 @@
+{
+  "opendb_id": "d5cfa1f8-e34f-4ebf-ae22-ee0f5d169183",
+  "cores": {
+    "total": 2,
+    "performance": 2,
+    "threads": 2
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.5,
+      "boost": 3.8
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon R5 (on-die)"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": [
+        "DDR4"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "28 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A6 A6 9500 3.5 GHz 2-Core AM4",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD9500AGABBOX",
+      "114952",
+      "B961024"
+    ],
+    "series": "AMD A6"
+  },
+  "series": "AMD A6",
+  "microarchitecture": "Excavator",
+  "coreFamily": "Bristol Ridge",
+  "socket": "AM4",
+  "general_product_information": {
+    "amazon_sku": "B074BGXW9T",
+    "walmart_sku": 267523240
+  }
+}

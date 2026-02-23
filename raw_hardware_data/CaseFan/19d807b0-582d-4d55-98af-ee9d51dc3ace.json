@@ -1,0 +1,27 @@
+{
+  "opendb_id": "19d807b0-582d-4d55-98af-ee9d51dc3ace",
+  "metadata": {
+    "name": "ID-COOLING AF-127-ARGB-W 120mm White PWM Addressable RGB 78 CFM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "AF-127-ARGB-W",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 78,
+  "max_airflow": null,
+  "min_noise_level": 29.9,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.68,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

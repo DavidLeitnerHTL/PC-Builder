@@ -1,0 +1,31 @@
+{
+  "opendb_id": "d8c1f3cb-add2-4743-94f8-672e8529dbe4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master V850 SFX Gold 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPY-8501-SFHAGV-WU                                                    MPY-8501-SFHAGV-WK                                                    MPY-8501-SFHAGV-WE                                                    MPY-8501-SFHAGV-WS                                                    MPY-8501-SFHAGV-WA                                                    MPY-8501-SFHAGV-WB                                                    MPY-8501-SFHAGV-WY                                                    MPY-8501-SFHAGV-WT                                                    MPY-8501-SFHAGV-WJ                                                    MPY-8501-SFHAGV-WI                                                    MPY-8501-SFHAGV-WW"
+    ],
+    "series": "V850",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {}
+}

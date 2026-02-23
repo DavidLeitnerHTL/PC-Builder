@@ -1,0 +1,37 @@
+{
+  "opendb_id": "55bee7e5-25bb-482a-afdb-246805c5777f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 7,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MPG A1000G Black 1000W Fully Modular 80+ Gold Certified",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MPG A1000G                                                    306-7ZP5C11-CE0",
+      "306-7ZP7C11-CE0",
+      "MPG A1000G PCIE5",
+      "MPG A1000G PCIe5"
+    ],
+    "series": "MPG",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0B434DB7Y",
+    "ibuypower_sku": "31523"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "opendb_id": "b5020a0f-1b6d-41df-acb0-f3c95c959600",
+  "metadata": {
+    "name": "NZXT H5 Flow (2024) ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C USB 3.2 Gen 1 Type-A",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "CC-H52FW-01"
+    ],
+    "series": "H5",
+    "variant": "Flow 2024",
+    "last_manually_spec_verified_at": "2025-11-27T21:41:38.666Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "WHITE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "1x USB 3.2 Gen 2x2 Type-C                                                   1x USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 410,
+  "max_cpu_cooler_height": 170,
+  "internal_3_5_bays": 1,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 7,
+  "dimensions": "430 x 225 x 465",
+  "volume": 44.989,
+  "weight": 16,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "1x USB 3.2 Gen 2x2 Type-C",
+    "1x USB 3.2 Gen 1 Type-A"
+  ],
+  "dimensions_mm": {
+    "width": 225,
+    "height": 465,
+    "depth": 430,
+    "_id": "688e65b3c32f82b5e1edb5a0"
+  },
+  "power_supply_shroud": true,
+  "general_product_information": {
+    "amazon_sku": "B0D2MHBXRR",
+    "newegg_sku": "N82E16811146366",
+    "bestbuy_sku": 6590129,
+    "walmart_sku": 10145605293,
+    "manufacturer_url": "https://nzxt.com/en-intl/products/h5-flow"
+  }
+}

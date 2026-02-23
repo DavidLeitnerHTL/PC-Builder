@@ -1,0 +1,46 @@
+{
+  "opendb_id": "2e37961d-3a0f-4382-b252-301b97a7e04f",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 1,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "PNY GeForce RTX 4070 Ti LED Verto 12GB GDDR6X White",
+    "manufacturer": "PNY",
+    "part_numbers": [
+      "VCG4070T12TFWXPB1"
+    ],
+    "series": "GeForce RTX 4070 Ti",
+    "variant": "PNY"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 4070 Ti",
+  "memory": 12,
+  "memory_type": "GDDR6X",
+  "core_base_clock": 2310,
+  "core_boost_clock": 2610,
+  "effective_memory_clock": 21000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "WHITE"
+  ],
+  "length": 305,
+  "tdp": 285,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c74c865ad0c3553eb659"
+  },
+  "core_count": 7680,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "2125dab0-1daf-4ccc-8279-0d1bd5e4f9ad",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! System Power 9 Black ATX 600W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN247"
+    ],
+    "series": "System",
+    "variant": "600W Bronze"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

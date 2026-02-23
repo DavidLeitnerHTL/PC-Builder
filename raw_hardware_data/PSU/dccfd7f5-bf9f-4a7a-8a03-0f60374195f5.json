@@ -1,0 +1,33 @@
+{
+  "opendb_id": "dccfd7f5-bf9f-4a7a-8a03-0f60374195f5",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Deepcool DA600N Black ATX 600W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "DP-BZ-DA600N"
+    ],
+    "series": "DA600N",
+    "variant": "600W Bronze"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B01N6NXK9Q"
+  }
+}

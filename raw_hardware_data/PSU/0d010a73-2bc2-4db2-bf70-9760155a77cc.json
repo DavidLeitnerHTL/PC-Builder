@@ -1,0 +1,31 @@
+{
+  "opendb_id": "0d010a73-2bc2-4db2-bf70-9760155a77cc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MAG A500DN Black ATX 500W Non-Modular 80+",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MAG A500DN"
+    ],
+    "series": "MAG",
+    "variant": "500W 80+"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

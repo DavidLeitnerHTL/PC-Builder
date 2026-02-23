@@ -1,0 +1,27 @@
+{
+  "opendb_id": "9eab5223-ff5a-45d3-9aa0-42208234ae8c",
+  "metadata": {
+    "name": "Fractal Design Venturi HF-12 120mm Black 83.4 CFM",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [],
+    "series": "Venturi",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 83.4,
+  "max_airflow": null,
+  "min_noise_level": 25.3,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

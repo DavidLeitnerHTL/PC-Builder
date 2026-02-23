@@ -1,0 +1,31 @@
+{
+  "opendb_id": "fd7d1c3c-95b2-486d-98b6-181e31fce1dd",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 7,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Gigabyte B700H ATX 700W 80+ Bronze Certified Semi-Modular",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GP-B700H"
+    ],
+    "series": "B700H",
+    "variant": "700W Bronze"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

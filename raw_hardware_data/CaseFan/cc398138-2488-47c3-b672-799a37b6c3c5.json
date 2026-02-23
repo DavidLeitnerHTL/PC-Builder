@@ -1,0 +1,32 @@
+{
+  "opendb_id": "cc398138-2488-47c3-b672-799a37b6c3c5",
+  "metadata": {
+    "name": "Corsair RS140 140mm White ARGB PWM 95.5 CFM 2-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050187-WW"
+    ],
+    "series": "RS140",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 2,
+  "min_airflow": 14.6,
+  "max_airflow": 95.5,
+  "min_noise_level": 10,
+  "max_noise_level": 36,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 3.46,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D49Q719N",
+    "newegg_sku": "N82E16835181438"
+  }
+}

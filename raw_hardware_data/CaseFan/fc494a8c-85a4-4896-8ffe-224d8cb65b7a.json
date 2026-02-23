@@ -1,0 +1,28 @@
+{
+  "opendb_id": "fc494a8c-85a4-4896-8ffe-224d8cb65b7a",
+  "metadata": {
+    "name": "Phanteks F120SP 120mm Orange LED 54.4 CFM Black / White",
+    "manufacturer": "Phanteks",
+    "part_numbers": [],
+    "series": "F120SP",
+    "variant": "120mm Black / White"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 54.4,
+  "max_airflow": null,
+  "min_noise_level": 24.2,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Orange",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "18628698-ba8a-4090-9c1d-8cdd7408a36c",
+  "metadata": {
+    "name": "Aerocool Streamliner 140mm Silver Blue LED 54.7 CFM 1-Pack",
+    "manufacturer": "AeroCool",
+    "part_numbers": [],
+    "series": "Streamliner",
+    "variant": "140mm Silver"
+  },
+  "size": 140,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 54.7,
+  "max_airflow": null,
+  "min_noise_level": 17,
+  "max_noise_level": 19.6,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

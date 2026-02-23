@@ -1,0 +1,23 @@
+{
+  "opendb_id": "83d0ea54-da63-4699-854a-6743d2eaf7af",
+  "metadata": {
+    "name": "Seagate FireCuda 520 500GB SSD M.2 PCIe 4.0 NVMe",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ZP500GM3A002"
+    ],
+    "series": "FireCuda",
+    "variant": "500GB"
+  },
+  "capacity": 500,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B07ZPRQ4YM",
+    "newegg_sku": "9SIBTK0K928033",
+    "bestbuy_sku": 6440211,
+    "walmart_sku": 985330397
+  }
+}

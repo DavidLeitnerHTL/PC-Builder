@@ -1,0 +1,28 @@
+{
+  "opendb_id": "274f9f83-c724-425c-9894-aa7e2a3ddf9d",
+  "metadata": {
+    "name": "Apevia Arcane 120mm Black / White RGB 57.67 CFM 4-Pack",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "Arcane",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 4,
+  "min_airflow": 57.67,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Addressable RGB",
+  "connector": "Proprietary",
+  "controller": "Manual",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

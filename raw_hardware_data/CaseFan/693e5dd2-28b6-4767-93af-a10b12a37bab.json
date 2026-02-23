@@ -1,0 +1,27 @@
+{
+  "opendb_id": "693e5dd2-28b6-4767-93af-a10b12a37bab",
+  "metadata": {
+    "name": "Apevia CF12SL-SBL 120mm Blue Blue LED 50.28 CFM",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "CF12SL-SBL",
+    "variant": "120mm Blue"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 50.28,
+  "max_airflow": null,
+  "min_noise_level": 21.1,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

@@ -1,0 +1,38 @@
+{
+  "opendb_id": "0a6857a5-adb4-46d0-bf26-ccd49ca42e96",
+  "modules": {
+    "quantity": 2,
+    "capacity_gb": 32
+  },
+  "metadata": {
+    "name": "Klevv CRAS V RGB Black DDR5-6400 CL32 64GB (2x32GB)",
+    "manufacturer": "Klevv",
+    "part_numbers": [
+      "KD5BGUA80-64A320G"
+    ],
+    "series": "CRAS",
+    "variant": "6400 CL32",
+    "last_manually_spec_verified_at": "2025-12-06T04:15:05.306Z"
+  },
+  "speed": 6400,
+  "ram_type": "DDR5",
+  "form_factor": "288-pin DIMM",
+  "capacity": 64,
+  "color": [
+    "BLACK"
+  ],
+  "cas_latency": 32,
+  "timings": "32-38-38-78",
+  "voltage": 1.35,
+  "ecc": "Non-ECC",
+  "registered": "Unbuffered",
+  "heat_spreader": true,
+  "rgb": true,
+  "height": 44,
+  "profile_support": [],
+  "general_product_information": {
+    "amazon_sku": "B0CX8MXZP2",
+    "newegg_sku": "9SIBTSNKPA3199",
+    "manufacturer_url": "https://www.klevv.com/ken/products_details/memory/Klevv_CrasVRGB"
+  }
+}

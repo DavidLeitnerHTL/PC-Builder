@@ -1,0 +1,24 @@
+{
+  "opendb_id": "d36ab758-68ca-4d6f-afb2-6296e22bae9e",
+  "metadata": {
+    "name": "Seagate Exos 7E10 512e/4Kn 4TB HDD 7200RPM 3.5\" SATA 6.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST4000NM024B",
+      "8719706022071"
+    ],
+    "series": "Exos",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "cache": 256,
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B09FH8C4QS",
+    "newegg_sku": "1Z4-002P-024F8",
+    "walmart_sku": 360425735
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "opendb_id": "7dc659c3-f577-4f04-9857-f2f36eca75c0",
+  "metadata": {
+    "name": "ARCTIC F9 Pro 120mm White / Black PWM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [],
+    "series": "F9",
+    "variant": "120mm White / Black"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 57,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

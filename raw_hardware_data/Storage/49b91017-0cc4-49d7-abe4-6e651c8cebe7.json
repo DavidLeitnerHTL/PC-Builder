@@ -1,0 +1,21 @@
+{
+  "opendb_id": "49b91017-0cc4-49d7-abe4-6e651c8cebe7",
+  "metadata": {
+    "name": "Intel DC S3610 1.6 TB SSD 2.5\" SATA 6.0 Gb/s",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "SSDSC2BX016T401"
+    ],
+    "series": "DC",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B00TH4H1L6",
+    "walmart_sku": 43756546
+  }
+}

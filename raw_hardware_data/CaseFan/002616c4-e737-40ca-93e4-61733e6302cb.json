@@ -1,0 +1,33 @@
+{
+  "opendb_id": "002616c4-e737-40ca-93e4-61733e6302cb",
+  "metadata": {
+    "name": "Phanteks F140SP 140mm Black / White Orange LED",
+    "manufacturer": "Phanteks",
+    "part_numbers": [
+      "PH-F140SP_BK_OLED"
+    ],
+    "series": "F140SP",
+    "variant": "140mm Black / White"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 82.1,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Orange",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00L6CKOP2",
+    "walmart_sku": 542136007
+  }
+}

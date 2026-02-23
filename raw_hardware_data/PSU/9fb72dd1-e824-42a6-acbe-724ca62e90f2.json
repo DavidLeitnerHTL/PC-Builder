@@ -1,0 +1,29 @@
+{
+  "opendb_id": "9fb72dd1-e824-42a6-acbe-724ca62e90f2",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill Libertas 650W Fully Modular 80+",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "LIB650"
+    ],
+    "series": "Libertas",
+    "variant": "650W 80+"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Full",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

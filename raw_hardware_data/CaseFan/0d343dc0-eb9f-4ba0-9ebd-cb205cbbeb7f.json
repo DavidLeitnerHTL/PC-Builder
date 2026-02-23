@@ -1,0 +1,33 @@
+{
+  "opendb_id": "0d343dc0-eb9f-4ba0-9ebd-cb205cbbeb7f",
+  "metadata": {
+    "name": "ARCTIC BioniX F120 120mm 69 CFM Black / Green PWM 1-Pack",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00083A"
+    ],
+    "series": "BioniX",
+    "variant": "120mm Black / Green"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "GREEN"
+  ],
+  "quantity": 1,
+  "min_airflow": 69,
+  "max_airflow": null,
+  "min_noise_level": 24.4,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B075CDFB2X",
+    "walmart_sku": 720302876
+  }
+}

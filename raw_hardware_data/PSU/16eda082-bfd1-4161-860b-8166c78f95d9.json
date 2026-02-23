@@ -1,0 +1,31 @@
+{
+  "opendb_id": "16eda082-bfd1-4161-860b-8166c78f95d9",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Asus ROG THOR 1200P Black 1200W Fully Modular 80+ Platinum Certified ATX",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "ROG-THOR-1200P                                                    90YE0080-B001N0                                                    90YE0080-B001A0                                                    90YE0080-B001W0"
+    ],
+    "series": "ROG",
+    "variant": "1200W Platinum"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 190,
+  "fanless": false,
+  "general_product_information": {}
+}

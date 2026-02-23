@@ -1,0 +1,33 @@
+{
+  "opendb_id": "8be01d9e-5dc3-473a-97f2-c4f75ddc6c29",
+  "metadata": {
+    "name": "ARCTIC P8 80mm Black PWM PST 23.4 CFM 5-Pack",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00154A"
+    ],
+    "series": "P8",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 5,
+  "min_airflow": 23.4,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07XRYM2WC",
+    "newegg_sku": "9SIA2W0JT86456",
+    "walmart_sku": 522897768
+  }
+}

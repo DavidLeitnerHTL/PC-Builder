@@ -1,0 +1,55 @@
+{
+  "opendb_id": "2a6bfb8f-72ee-4a6b-9f03-a6b92c6893b5",
+  "cores": {
+    "total": 10,
+    "threads": 10
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.3,
+      "boost": 4.9
+    },
+    "efficiency": {
+      "base": 2.7,
+      "boost": 4.4
+    }
+  },
+  "cache": {
+    "l2": 22,
+    "l3": 20
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 256,
+      "types": [
+        "DDR5"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "3 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Core Ultra 5 225F 3.3 GHz 10-Core LGA1851",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80768225F"
+    ],
+    "series": "Intel Core Ultra 5"
+  },
+  "series": "Intel Core Ultra 5",
+  "microarchitecture": "Arrow Lake",
+  "coreFamily": "Arrow Lake",
+  "socket": "LGA 1851",
+  "general_product_information": {
+    "amazon_sku": "B0DTRMDXJ5",
+    "newegg_sku": "N82E16819118578",
+    "walmart_sku": 15171450058
+  }
+}

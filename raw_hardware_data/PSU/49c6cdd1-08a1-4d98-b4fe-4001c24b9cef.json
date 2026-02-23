@@ -1,0 +1,33 @@
+{
+  "opendb_id": "49c6cdd1-08a1-4d98-b4fe-4001c24b9cef",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Chieftec Polaris Black 1050W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Chieftec",
+    "part_numbers": [
+      "PPS-1050FC"
+    ],
+    "series": "Polaris",
+    "variant": "1050W Gold"
+  },
+  "wattage": 1050,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08VGZZCKR"
+  }
+}

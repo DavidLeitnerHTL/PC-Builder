@@ -1,0 +1,22 @@
+{
+  "opendb_id": "7b70dd5a-7c87-4fbc-9702-aef121b57f48",
+  "metadata": {
+    "name": "PNY CS2230 500GB M.2-2280 SSD PCIe 3.0 x4 NVMe",
+    "manufacturer": "PNY",
+    "part_numbers": [
+      "M280CS2230-500-RB"
+    ],
+    "series": "CS2230",
+    "variant": "500GB"
+  },
+  "capacity": 500,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0BS2MPYG1",
+    "newegg_sku": "N82E16820177154",
+    "walmart_sku": 1318726048
+  }
+}

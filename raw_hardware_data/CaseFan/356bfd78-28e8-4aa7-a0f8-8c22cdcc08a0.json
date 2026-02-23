@@ -1,0 +1,31 @@
+{
+  "opendb_id": "356bfd78-28e8-4aa7-a0f8-8c22cdcc08a0",
+  "metadata": {
+    "name": "Fractal Design Aspect 14 140mm White",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "7340172703341"
+    ],
+    "series": "Aspect",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 41,
+  "max_airflow": null,
+  "min_noise_level": 19.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.02,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08KW7VG84"
+  }
+}

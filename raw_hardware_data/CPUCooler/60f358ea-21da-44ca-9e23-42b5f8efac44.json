@@ -1,0 +1,43 @@
+{
+  "opendb_id": "60f358ea-21da-44ca-9e23-42b5f8efac44",
+  "metadata": {
+    "name": "Silverstone IceMyst 360 Water 360mm 75.74 CFM Silver / Black",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-IM360-ARGB"
+    ],
+    "series": "IceMyst",
+    "variant": "Silver / Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2200,
+  "min_noise_level": 12.1,
+  "max_noise_level": 33.1,
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
+  "height": 70,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0CMYYJVWJ",
+    "walmart_sku": 5275491015
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "89411112-8336-49c5-9c8c-3e3aeeca6094",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 0,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Athena Power AP-P4ATX55FEC 550W Non-Modular",
+    "manufacturer": "Athena Power",
+    "part_numbers": [
+      "AP-P4ATX55FEC"
+    ],
+    "series": "AP-P4ATX55FEC",
+    "variant": "550W "
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

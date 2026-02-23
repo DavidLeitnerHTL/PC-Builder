@@ -1,0 +1,49 @@
+{
+  "opendb_id": "aeecd375-1ad6-4931-aaf1-f1073687a711",
+  "cores": {
+    "total": 10,
+    "performance": 10,
+    "threads": 20
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.2,
+      "boost": 3.1
+    }
+  },
+  "cache": {
+    "l2": 5,
+    "l3": 25
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 1536,
+      "types": []
+    },
+    "tdp": 85,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E5 2630 V4 2.2 GHz 10-Core LGA2011-3",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80660E52630V4"
+    ],
+    "series": "Intel Xeon E5"
+  },
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell-EP",
+  "socket": "LGA 2011-3",
+  "general_product_information": {
+    "amazon_sku": "B01D5AGOE2",
+    "walmart_sku": 174645342
+  }
+}

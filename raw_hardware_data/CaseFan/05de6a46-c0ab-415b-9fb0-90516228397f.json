@@ -1,0 +1,32 @@
+{
+  "opendb_id": "05de6a46-c0ab-415b-9fb0-90516228397f",
+  "metadata": {
+    "name": "Scythe Kaze Flex II Slim 120mm Black PWM 48 CFM",
+    "manufacturer": "SCYTHE",
+    "series": "Kaze",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "KFS1215FD18-P"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 8.16,
+  "max_airflow": 48,
+  "min_noise_level": 2.58,
+  "max_noise_level": 27.8,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.36,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BRRQCF46",
+    "newegg_sku": "1YF-0015-00141"
+  }
+}

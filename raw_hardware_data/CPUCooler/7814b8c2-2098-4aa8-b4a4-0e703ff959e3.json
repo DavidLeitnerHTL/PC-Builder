@@ -1,0 +1,47 @@
+{
+  "opendb_id": "7814b8c2-2098-4aa8-b4a4-0e703ff959e3",
+  "metadata": {
+    "name": "Phanteks GLACIER ONE 420D30 Water 420mm 71.93 CFM White",
+    "manufacturer": "Phanteks",
+    "part_numbers": [
+      "PH-GO420D30_DWT01",
+      "Glacier One 420D30"
+    ],
+    "series": "GLACIER",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 250,
+  "max_fan_rpm": 1800,
+  "min_noise_level": 29.5,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": 51,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": true,
+  "radiator_size": 420,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0CL12225D",
+    "newegg_sku": "N82E16835709259",
+    "walmart_sku": 5154006644
+  }
+}

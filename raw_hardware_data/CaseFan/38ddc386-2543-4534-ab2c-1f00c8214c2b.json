@@ -1,0 +1,27 @@
+{
+  "opendb_id": "38ddc386-2543-4534-ab2c-1f00c8214c2b",
+  "metadata": {
+    "name": "Corsair iCUE ML RGB ELITE Premium 120mm Black PWM Addressable RGB",
+    "manufacturer": "Corsair",
+    "part_numbers": [],
+    "series": "iCUE",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 14.86,
+  "max_airflow": 58.1,
+  "min_noise_level": 10,
+  "max_noise_level": 30.4,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.9,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

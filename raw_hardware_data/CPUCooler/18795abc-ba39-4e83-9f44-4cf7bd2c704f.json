@@ -1,0 +1,41 @@
+{
+  "opendb_id": "18795abc-ba39-4e83-9f44-4cf7bd2c704f",
+  "metadata": {
+    "name": "Deepcool AK500 White Air 158mm White",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "R-AK500-WHNNMT-GAK500 WH"
+    ],
+    "series": "AK500",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 1850,
+  "min_noise_level": 25.9,
+  "max_noise_level": 31.5,
+  "color": [
+    "WHITE"
+  ],
+  "height": 158,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0BP9N2B23"
+  }
+}

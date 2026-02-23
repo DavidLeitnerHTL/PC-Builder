@@ -1,0 +1,31 @@
+{
+  "opendb_id": "bd2cd170-d97e-42a4-9d18-4e925403be48",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower GF1 TT Premium Snow 650W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-TPD-0650FNFAGx-W                                                    PS-TPD-0650FNFAGE-W                                                    PS-TPD-0650FNFAGU-W"
+    ],
+    "series": "Toughpower",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

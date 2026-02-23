@@ -1,0 +1,34 @@
+{
+  "opendb_id": "63735983-fe11-474c-932d-3d69f290b8e9",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake TR2 Black 700W Non-Modular 80+",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-TRS-0700NPCWEU-2",
+      "4717964401908"
+    ],
+    "series": "TR2",
+    "variant": "700W 80+"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B016WFYCFU"
+  }
+}

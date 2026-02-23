@@ -1,0 +1,28 @@
+{
+  "opendb_id": "e8b3a00b-be37-44cc-8c16-7e3feb00c5f6",
+  "metadata": {
+    "name": "EK Vardar F4 120mm Black / Gray PWM 77 CFM 1-Pack",
+    "manufacturer": "EK",
+    "part_numbers": [],
+    "series": "Vardar",
+    "variant": "120mm Black / Gray"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 77,
+  "max_airflow": null,
+  "min_noise_level": 33.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 3.16,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

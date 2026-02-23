@@ -1,0 +1,44 @@
+{
+  "opendb_id": "a2e986d3-fcba-45a0-b9d8-482e00fac05c",
+  "metadata": {
+    "name": "Thermalright Frozen Horizon ARGB 69 CFM Water 360mm White",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "Frozen Horizon 360 WHITE ARGB"
+    ],
+    "series": "Frozen",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 2150,
+  "max_fan_rpm": null,
+  "min_noise_level": 28.1,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

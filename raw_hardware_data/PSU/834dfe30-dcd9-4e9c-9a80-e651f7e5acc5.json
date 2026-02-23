@@ -1,0 +1,34 @@
+{
+  "opendb_id": "834dfe30-dcd9-4e9c-9a80-e651f7e5acc5",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cougar VTE Black 600W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Cougar",
+    "part_numbers": [
+      "VTE600"
+    ],
+    "series": "VTE",
+    "variant": "600W Bronze"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B071RV6FPX",
+    "newegg_sku": "9SIA25VKBT4845"
+  }
+}

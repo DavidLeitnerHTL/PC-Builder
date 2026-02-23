@@ -1,0 +1,34 @@
+{
+  "opendb_id": "ca4b3253-31d4-42fb-aaa4-598016db6236",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider Platinum 750W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "ST75F-PT                                                    SST-ST75F-PT                                                    PS-ST75F-PT",
+      "SST-ST75F-PT",
+      "PS-ST75F-PT"
+    ],
+    "series": "Strider",
+    "variant": "750W Platinum"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B016XMO12G",
+    "walmart_sku": 383521482
+  }
+}

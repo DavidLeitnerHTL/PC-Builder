@@ -1,0 +1,46 @@
+{
+  "opendb_id": "97ea461c-dbaf-46f0-a81c-b2793fd92f15",
+  "metadata": {
+    "name": "Cooler Master MasterLiquid Core Water 360mm ARGB Black",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MLW-D36M-A18PZ-R1"
+    ],
+    "series": "MasterLiquid",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 350,
+  "max_fan_rpm": 1750,
+  "min_noise_level": 27.2,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": 47,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0C4C421RZ",
+    "newegg_sku": "N82E16835103355",
+    "walmart_sku": 3000648262
+  }
+}

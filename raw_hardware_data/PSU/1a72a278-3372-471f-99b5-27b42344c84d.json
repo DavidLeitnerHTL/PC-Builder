@@ -1,0 +1,29 @@
+{
+  "opendb_id": "1a72a278-3372-471f-99b5-27b42344c84d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 2,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Logisys PS550E12 ATX 550W Non-Modular",
+    "manufacturer": "Logisys",
+    "part_numbers": [
+      "PS550E12"
+    ],
+    "series": "PS550E12",
+    "variant": "550W "
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

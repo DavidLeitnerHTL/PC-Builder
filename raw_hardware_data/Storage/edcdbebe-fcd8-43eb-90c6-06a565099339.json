@@ -1,0 +1,21 @@
+{
+  "opendb_id": "edcdbebe-fcd8-43eb-90c6-06a565099339",
+  "metadata": {
+    "name": "Hitachi Ultrastar 6TB 3.5\" HDD 7200RPM SATA",
+    "manufacturer": "Hitachi",
+    "part_numbers": [
+      "0F23001",
+      "3980198"
+    ],
+    "series": "Ultrastar",
+    "variant": "6000GB"
+  },
+  "capacity": 6000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B00QHF2NKC"
+  }
+}

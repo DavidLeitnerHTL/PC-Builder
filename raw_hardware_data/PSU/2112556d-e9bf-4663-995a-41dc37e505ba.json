@@ -1,0 +1,31 @@
+{
+  "opendb_id": "2112556d-e9bf-4663-995a-41dc37e505ba",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Mistel MX650 Black FANLESS ATX 650W Fully Modular 80+ Platinum",
+    "manufacturer": "Mistel",
+    "part_numbers": [
+      "MX650 FANLESS"
+    ],
+    "series": "MX650",
+    "variant": "650W Platinum"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": true,
+  "general_product_information": {}
+}

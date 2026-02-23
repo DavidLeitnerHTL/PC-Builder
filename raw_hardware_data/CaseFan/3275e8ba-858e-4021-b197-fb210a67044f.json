@@ -1,0 +1,31 @@
+{
+  "opendb_id": "3275e8ba-858e-4021-b197-fb210a67044f",
+  "metadata": {
+    "name": "be quiet! Silent Wings 3 120mm Black PWM",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "CA-PWM-02"
+    ],
+    "series": "Silent",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 73.33,
+  "max_airflow": null,
+  "min_noise_level": 28.6,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B005ZKZEQA"
+  }
+}

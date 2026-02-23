@@ -1,0 +1,28 @@
+{
+  "opendb_id": "5d00a211-8eda-486f-9dbd-de8992d0ab8b",
+  "metadata": {
+    "name": "Apevia Cosmos 120mm Orange / Black Orange LED 3-Pack",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "Cosmos",
+    "variant": "120mm Orange / Black"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "ORANGE",
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 57.67,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Orange",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

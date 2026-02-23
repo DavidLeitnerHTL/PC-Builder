@@ -1,0 +1,37 @@
+{
+  "opendb_id": "2538d2c8-2db7-4bab-b7b3-b84f257a76e0",
+  "metadata": {
+    "name": "Akasa Soho H4 Air 52.91 CFM Black",
+    "manufacturer": "Akasa",
+    "part_numbers": [
+      "AK-CC4018EP01"
+    ],
+    "series": "Soho",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2000,
+  "min_noise_level": 14.2,
+  "max_noise_level": 31.8,
+  "color": [
+    "BLACK"
+  ],
+  "height": 157,
+  "cpu_sockets": [
+    "AM4",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

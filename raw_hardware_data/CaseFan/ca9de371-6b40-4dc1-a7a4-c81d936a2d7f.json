@@ -1,0 +1,32 @@
+{
+  "opendb_id": "ca9de371-6b40-4dc1-a7a4-c81d936a2d7f",
+  "metadata": {
+    "name": "be quiet! Pure Wings 2 92mm Black",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL045"
+    ],
+    "series": "Pure",
+    "variant": "92mm Black"
+  },
+  "size": 92,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 33.15,
+  "max_airflow": null,
+  "min_noise_level": 18.6,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.65,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00IOIKG68",
+    "newegg_sku": "1YF-001D-00044"
+  }
+}

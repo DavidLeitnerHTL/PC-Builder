@@ -1,0 +1,29 @@
+{
+  "opendb_id": "61b81b1e-c3b2-454b-a29d-8e08848abd4b",
+  "metadata": {
+    "name": "ID-COOLING NO-12015-XT 120mm White ARGB PWM 54.6 CFM 1-Pack",
+    "manufacturer": "ID-COOLING",
+    "series": "NO-12015-XT",
+    "variant": "120mm White",
+    "part_numbers": []
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 54.6,
+  "max_airflow": null,
+  "min_noise_level": 13.8,
+  "max_noise_level": 31.2,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09Z65X5RW"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "opendb_id": "67202cfe-4b9f-4cb7-a49b-418ff0066a1e",
+  "metadata": {
+    "name": "Apevia CF308SL-BRD 80mm Black / Red Red LED 1-Pack",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "CF308SL-BRD",
+    "variant": "80mm Black / Red"
+  },
+  "size": 80,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 17.21,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

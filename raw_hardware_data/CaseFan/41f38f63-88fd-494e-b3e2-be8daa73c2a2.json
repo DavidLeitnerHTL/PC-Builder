@@ -1,0 +1,24 @@
+{
+  "opendb_id": "41f38f63-88fd-494e-b3e2-be8daa73c2a2",
+  "metadata": {
+    "name": "Lian Li  Lancool 217 OEM 140mm Black Fan",
+    "manufacturer": "Lian Li",
+    "series": "Lancool 217",
+    "part_numbers": []
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 81.3,
+  "min_noise_level": 34.2,
+  "pwm": true,
+  "led": "None",
+  "connector": "3-pin 5V PWM",
+  "controller": "None",
+  "static_pressure": 2.4,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

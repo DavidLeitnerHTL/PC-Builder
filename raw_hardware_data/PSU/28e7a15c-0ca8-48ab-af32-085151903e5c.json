@@ -1,0 +1,31 @@
+{
+  "opendb_id": "28e7a15c-0ca8-48ab-af32-085151903e5c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec NeoECO 650 Gold Black 650W Semi-Modular 80+ Gold Certified ATX",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "NE650G"
+    ],
+    "series": "NeoECO",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

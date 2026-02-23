@@ -1,0 +1,49 @@
+{
+  "opendb_id": "46e05be5-b575-4838-8299-e5993a5dabbf",
+  "cores": {
+    "total": 2,
+    "performance": 2,
+    "threads": 2
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.7,
+      "boost": 3.9
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon HD 8370D"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A-Series A4 6300B 3.7 GHz 2-Core FM2",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD630BOKA23HL",
+      "A4-6300B"
+    ],
+    "series": "AMD A4"
+  },
+  "series": "AMD A4",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
+  "general_product_information": {
+    "amazon_sku": "B078Y95RD4"
+  }
+}

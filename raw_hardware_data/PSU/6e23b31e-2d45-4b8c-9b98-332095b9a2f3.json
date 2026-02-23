@@ -1,0 +1,31 @@
+{
+  "opendb_id": "6e23b31e-2d45-4b8c-9b98-332095b9a2f3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower PF3 Black 750W Fully Modular 80+ Platinum Certified ATX",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-TPD-0750FNFAPU-3                                                    PS-TPD-0750FNFAPE-3"
+    ],
+    "series": "Toughpower",
+    "variant": "750W Platinum"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

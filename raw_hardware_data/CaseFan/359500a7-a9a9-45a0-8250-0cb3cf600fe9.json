@@ -1,0 +1,32 @@
+{
+  "opendb_id": "359500a7-a9a9-45a0-8250-0cb3cf600fe9",
+  "metadata": {
+    "name": "Scythe Wonder Tornado Slim 120mm Black PWM 34.31 CFM",
+    "manufacturer": "SCYTHE",
+    "part_numbers": [
+      "WT1215FD20-P"
+    ],
+    "series": "Wonder",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 6.8,
+  "max_airflow": 34.31,
+  "min_noise_level": 3.12,
+  "max_noise_level": 26.36,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.41,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D6YLQVKL",
+    "newegg_sku": "1YF-0015-00154"
+  }
+}

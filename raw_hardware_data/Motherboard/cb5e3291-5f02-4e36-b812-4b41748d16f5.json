@@ -1,0 +1,96 @@
+{
+  "opendb_id": "cb5e3291-5f02-4e36-b812-4b41748d16f5",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR4",
+    "slots": 8
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 8,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 0,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "power_connectors": {
+    "cpu_power": []
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "Asus X299 Pro WS SAGE II DDR4 SSI CEB",
+    "manufacturer": "ASUS",
+    "part_numbers": [
+      "Pro WS X299 SAGE II                                                    90SW00U0-M0EAY0"
+    ],
+    "series": "X299",
+    "variant": ""
+  },
+  "socket": "LGA 2066",
+  "form_factor": "SSI CEB",
+  "chipset": "Intel X299",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 7,
+      "lanes": 16,
+      "_id": "67f9bb7d865ad0c3553e1932"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb7d865ad0c3553e1933"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb7d865ad0c3553e1934"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb7d865ad0c3553e1935"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "67f9bb7d865ad0c3553e1936"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Intel I225-LM",
+      "_id": "67f9bb7d865ad0c3553e1937"
+    }
+  ],
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false,
+    "_id": "67f9bb7d865ad0c3553e1938"
+  },
+  "back_panel_ports": [
+    "2 x 2.5 Gb/s (Intel I225-LM)"
+  ],
+  "general_product_information": {}
+}

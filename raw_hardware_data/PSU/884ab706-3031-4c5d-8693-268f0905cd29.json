@@ -1,0 +1,31 @@
+{
+  "opendb_id": "884ab706-3031-4c5d-8693-268f0905cd29",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group VITA BD 650W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "VITA-650BD"
+    ],
+    "series": "VITA",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

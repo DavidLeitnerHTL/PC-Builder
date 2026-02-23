@@ -1,0 +1,28 @@
+{
+  "opendb_id": "058aee68-c612-4ebe-a4d8-119d552b88fe",
+  "metadata": {
+    "name": "ADATA XPG HURRICANE 120mm Black / White PWM ARGB",
+    "manufacturer": "ADATA",
+    "part_numbers": [],
+    "series": "XPG",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 61.5,
+  "max_airflow": null,
+  "min_noise_level": 18.17,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.42,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

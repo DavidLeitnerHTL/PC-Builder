@@ -1,0 +1,33 @@
+{
+  "opendb_id": "295cb74f-86a6-4309-8683-20f57d16eb3e",
+  "metadata": {
+    "name": "ARCTIC P12 Slim 120mm Black PWM PST 42.1 CFM 3-Pack",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00275A"
+    ],
+    "series": "P12",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 42.1,
+  "max_airflow": null,
+  "min_noise_level": 22.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.45,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09RWTCXRR",
+    "newegg_sku": "9SIA1K6JHK8227",
+    "walmart_sku": 2351123310
+  }
+}

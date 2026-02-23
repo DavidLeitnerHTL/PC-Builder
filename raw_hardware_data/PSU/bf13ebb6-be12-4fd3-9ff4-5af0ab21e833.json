@@ -1,0 +1,36 @@
+{
+  "opendb_id": "bf13ebb6-be12-4fd3-9ff4-5af0ab21e833",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower GF A3 TT Premium Edition 650W Fully Modular 80+ Gold",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-TPD-0650FNFAGU-L",
+      "PS-TPD-0650FNFAGU-1",
+      "PS-TPD-0650FNFAGE-1"
+    ],
+    "series": "Toughpower",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07N7V8JM5",
+    "walmart_sku": 237314317
+  }
+}

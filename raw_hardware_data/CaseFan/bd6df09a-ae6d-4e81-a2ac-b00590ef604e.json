@@ -1,0 +1,27 @@
+{
+  "opendb_id": "bd6df09a-ae6d-4e81-a2ac-b00590ef604e",
+  "metadata": {
+    "name": "BitFenix Spectre 200mm Black Green LED 1-Pack",
+    "manufacturer": "BitFenix",
+    "series": "Spectre",
+    "variant": "200mm Black",
+    "part_numbers": []
+  },
+  "size": 200,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 47.4,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Green",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.41,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,23 @@
+{
+  "opendb_id": "eb697316-78aa-43ae-af8b-6c57155e3215",
+  "metadata": {
+    "name": "Lian Li  Lancool 217 OEM 120mm White Fan",
+    "manufacturer": "Lian Li",
+    "part_numbers": []
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 66.9,
+  "min_noise_level": 33.2,
+  "pwm": true,
+  "led": "None",
+  "connector": "3-pin 5V PWM",
+  "controller": "None",
+  "static_pressure": 1.6,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

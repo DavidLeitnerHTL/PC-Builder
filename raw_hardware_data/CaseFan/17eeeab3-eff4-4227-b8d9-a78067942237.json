@@ -1,0 +1,32 @@
+{
+  "opendb_id": "17eeeab3-eff4-4227-b8d9-a78067942237",
+  "metadata": {
+    "name": "ID-COOLING XF-12025-ARGB-TRIO 120mm Black / White PWM ARGB 3-Pack",
+    "manufacturer": "ID-COOLING",
+    "series": "XF-12025-ARGB-TRIO",
+    "variant": "120mm Black / White",
+    "part_numbers": [
+      "XF-12025-ARGB-TRIO"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 62,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": 26.4,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.78,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08PYPQ8SB"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "f32cb717-4f3f-48e6-b5e5-9e9bbc8d9a13",
+  "metadata": {
+    "name": "Vetroo ARGB120 120mm White Addressable RGB PWM 48.1 CFM 3-Pack",
+    "manufacturer": "Vetroo",
+    "part_numbers": [
+      "IB120"
+    ],
+    "series": "ARGB120",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 48.1,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "Manual",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08K74TX3P"
+  }
+}

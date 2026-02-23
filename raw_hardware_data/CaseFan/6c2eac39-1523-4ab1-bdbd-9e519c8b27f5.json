@@ -1,0 +1,32 @@
+{
+  "opendb_id": "6c2eac39-1523-4ab1-bdbd-9e519c8b27f5",
+  "metadata": {
+    "name": "Geometric Future Squama 3805 120mm Black PWM ARGB 115 CFM 3-Pack",
+    "manufacturer": "Geometric Future",
+    "part_numbers": [
+      "GEO-S3805B-3"
+    ],
+    "series": "Squama",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 115,
+  "max_airflow": null,
+  "min_noise_level": 40,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 6.82,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D3GF4K4J",
+    "newegg_sku": "1YF-01P6-00011"
+  }
+}

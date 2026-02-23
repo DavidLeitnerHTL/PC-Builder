@@ -1,0 +1,23 @@
+{
+  "opendb_id": "84f941c4-8de1-4fc1-9b3d-cd0d25e6038c",
+  "metadata": {
+    "name": "Toshiba N300 NAS 16 TB HDD 7200RPM 3.5\" SATA 6.0 Gb/s",
+    "manufacturer": "Toshiba",
+    "part_numbers": [
+      "HDWG51GXZSTA"
+    ],
+    "series": "N300",
+    "variant": "16000GB"
+  },
+  "capacity": 16000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "cache": 512,
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0CYR2ZZCX",
+    "newegg_sku": "1Z4-000B-00N66",
+    "walmart_sku": 6312601590
+  }
+}

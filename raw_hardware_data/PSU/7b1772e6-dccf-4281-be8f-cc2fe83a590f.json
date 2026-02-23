@@ -1,0 +1,35 @@
+{
+  "opendb_id": "7b1772e6-dccf-4281-be8f-cc2fe83a590f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Apevia Galaxy Black ATX 850W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "Apevia",
+    "part_numbers": [
+      "ATX-GX850W"
+    ],
+    "series": "Galaxy",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B094282KV4",
+    "newegg_sku": "9SIA1K6K056617",
+    "walmart_sku": 3971049806
+  }
+}

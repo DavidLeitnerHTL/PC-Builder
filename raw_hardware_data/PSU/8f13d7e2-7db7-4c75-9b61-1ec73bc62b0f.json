@@ -1,0 +1,40 @@
+{
+  "opendb_id": "8f13d7e2-7db7-4c75-9b61-1ec73bc62b0f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic Focus GX V4 ATX 3 (2024) Black 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "FOCUS-GX-850-V4                                                    Focus V4 GX-850",
+      "FOCUS ATX3 (2024) GX-850",
+      "FOCUS GX-850 (ATX3)",
+      "Focus GX-850 ATX 3.1"
+    ],
+    "series": "Focus",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0DLFMTX12",
+    "newegg_sku": "N82E16817151271",
+    "bestbuy_sku": 10871713,
+    "walmart_sku": 14334558602,
+    "ibuypower_sku": "31482"
+  }
+}

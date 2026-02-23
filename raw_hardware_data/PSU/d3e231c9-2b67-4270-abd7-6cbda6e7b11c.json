@@ -1,0 +1,31 @@
+{
+  "opendb_id": "d3e231c9-2b67-4270-abd7-6cbda6e7b11c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 3,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Xilence XP650R12 Black 650W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Xilence",
+    "part_numbers": [
+      "XN320"
+    ],
+    "series": "XP650R12",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

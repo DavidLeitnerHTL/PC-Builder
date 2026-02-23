@@ -1,0 +1,31 @@
+{
+  "opendb_id": "07965fdc-b2f3-4631-bb72-62210dd29d8f",
+  "metadata": {
+    "name": "BitFenix Spectre 140mm White PWM",
+    "manufacturer": "BitFenix",
+    "part_numbers": [
+      "BFF-SCF-P14025WW-RP"
+    ],
+    "series": "Spectre",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 56.1,
+  "max_airflow": null,
+  "min_noise_level": 24.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00EJIJ55U"
+  }
+}

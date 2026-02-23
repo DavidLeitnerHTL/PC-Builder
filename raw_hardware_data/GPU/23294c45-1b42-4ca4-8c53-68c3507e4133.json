@@ -1,0 +1,49 @@
+{
+  "opendb_id": "23294c45-1b42-4ca4-8c53-68c3507e4133",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "AMD Radeon PRO W6400 Blue 4GB GDDR6 Blue",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "100-506189"
+    ],
+    "series": "Radeon PRO W6400",
+    "variant": "AMD"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon PRO W6400",
+  "memory": 4,
+  "memory_type": "GDDR6",
+  "core_base_clock": 2331,
+  "core_boost_clock": 2331,
+  "effective_memory_clock": 14000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLUE"
+  ],
+  "length": 168,
+  "tdp": 50,
+  "total_slot_width": 1,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 2,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c749865ad0c3553eb61f"
+  },
+  "core_count": 768,
+  "general_product_information": {
+    "amazon_sku": "B0BQ78GLQ4",
+    "newegg_sku": "N82E16814105113"
+  }
+}

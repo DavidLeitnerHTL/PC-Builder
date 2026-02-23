@@ -1,0 +1,27 @@
+{
+  "opendb_id": "64423539-e609-4526-a9e2-2244e0e3da13",
+  "metadata": {
+    "name": "Phanteks M25G2-140 140mm Black RGB PWM Reverse 3-Pack",
+    "manufacturer": "Phanteks",
+    "part_numbers": [],
+    "series": "M25G2-140",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 100.07,
+  "max_airflow": null,
+  "min_noise_level": 40.95,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.04,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {}
+}

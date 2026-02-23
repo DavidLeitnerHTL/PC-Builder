@@ -1,0 +1,32 @@
+{
+  "opendb_id": "87a70192-6876-435a-9912-d9b53d96989d",
+  "metadata": {
+    "name": "darkFlash INF34 ARGB PWM 120mm White 3-Pack",
+    "manufacturer": "darkFlash",
+    "part_numbers": [
+      "INF34 3 in 1",
+      "INF34"
+    ],
+    "series": "INF34",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": null,
+  "max_airflow": 50.43,
+  "min_noise_level": null,
+  "max_noise_level": 31.6,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.27,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DKST5LX5"
+  }
+}

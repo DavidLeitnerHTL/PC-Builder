@@ -1,0 +1,31 @@
+{
+  "opendb_id": "99bcd786-238e-425e-a189-2ca60edd05bf",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master MWE Bronze V3 Black 230V ATX 650W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPE-6501-ACABW-3BUK                                                    MPE-6501-ACABW-3BTH                                                    MPE-6501-ACABW-3BBR                                                    MPE-6501-ACABW-3BIN                                                    MPE-6503-ACABW-3BKR                                                    MPE-6501-ACABW-3BEU                                                    MPE-6501-ACABW-3BAU                                                    MPE-6501-ACABW-3BST"
+    ],
+    "series": "MWE",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

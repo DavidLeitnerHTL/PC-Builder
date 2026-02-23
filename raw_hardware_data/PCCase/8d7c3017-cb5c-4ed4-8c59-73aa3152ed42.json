@@ -1,0 +1,52 @@
+{
+  "opendb_id": "8d7c3017-cb5c-4ed4-8c59-73aa3152ed42",
+  "metadata": {
+    "name": "MSI MPG VELOX 100R ATX Mid Tower Black Tempered Glass",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MPG VELOX 100R                                                    306-7G18R21-809",
+      "MPG VELOX 100R"
+    ],
+    "series": "MPG",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-08-24T17:22:37.751Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "2 x USB 3.2 Gen 1 Type-A                                                                             1 x USB 3.2 Gen 2x2 Type C",
+  "max_video_card_length": 380,
+  "max_cpu_cooler_height": 175,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 7,
+  "dimensions": "474 x 231 x 490",
+  "volume": 53.652,
+  "weight": 19,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "2 x USB 3.2 Gen 1 Type-A",
+    "1 x USB 3.2 Gen 2x2 Type C"
+  ],
+  "dimensions_mm": {
+    "width": 231,
+    "height": 490,
+    "depth": 474,
+    "_id": "68a96bf8fcfee492a7c459d8"
+  },
+  "general_product_information": {
+    "amazon_sku": "B09HRQQ18B",
+    "newegg_sku": "N82E16811320043",
+    "bestbuy_sku": 6506729,
+    "walmart_sku": 949264663
+  }
+}

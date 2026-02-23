@@ -1,0 +1,49 @@
+{
+  "opendb_id": "3a1d8886-ea46-49fc-b815-6ad9b4452bf7",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Yeston Radeon RX 9070 XT Sakura White / Blue 16GB GDDR6",
+    "manufacturer": "Yeston",
+    "part_numbers": [
+      "RX9070XT-16GD6-OC-SA"
+    ],
+    "series": "Radeon RX 9070 XT",
+    "variant": "Yeston"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 9070 XT",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 2070,
+  "core_boost_clock": 2700,
+  "effective_memory_clock": 20000,
+  "memory_bus": 256,
+  "interface": "PCIe x16",
+  "color": [
+    "WHITE",
+    "BLUE"
+  ],
+  "length": 342,
+  "tdp": 304,
+  "total_slot_width": 4,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 3,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "688ec98f3ebf909c29b818f6"
+  },
+  "core_count": 4096,
+  "general_product_information": {
+    "newegg_sku": "27N-0042-000J3"
+  }
+}

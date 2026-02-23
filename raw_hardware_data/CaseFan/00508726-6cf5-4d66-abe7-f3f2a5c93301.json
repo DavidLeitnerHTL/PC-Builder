@@ -1,0 +1,27 @@
+{
+  "opendb_id": "00508726-6cf5-4d66-abe7-f3f2a5c93301",
+  "metadata": {
+    "name": "Silverstone FN 180mm Clear Blue LED 100 CFM 1-Pack",
+    "manufacturer": "SilverStone",
+    "part_numbers": [],
+    "series": "FN",
+    "variant": "180mm Clear"
+  },
+  "size": 180,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 100,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

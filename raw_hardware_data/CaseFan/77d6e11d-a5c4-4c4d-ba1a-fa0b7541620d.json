@@ -1,0 +1,31 @@
+{
+  "opendb_id": "77d6e11d-a5c4-4c4d-ba1a-fa0b7541620d",
+  "metadata": {
+    "name": "Evercool EC4020SH12BP 40mm Black",
+    "manufacturer": "Evercool",
+    "part_numbers": [
+      "EC4020SH12BP"
+    ],
+    "series": "EC4020SH12BP",
+    "variant": "40mm Black"
+  },
+  "size": 40,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": null,
+  "max_airflow": null,
+  "min_noise_level": 32,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B01BRTAETO"
+  }
+}

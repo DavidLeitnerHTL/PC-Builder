@@ -1,0 +1,50 @@
+{
+  "opendb_id": "9ef79404-da55-4c76-bb80-951eb7d73548",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Gainward NE6306T019P2-190AB GeForce RTX 3060 Ti LHR 8GB GDDR6 Black",
+    "manufacturer": "Gainward",
+    "part_numbers": [
+      "NE6306T019P2-190AB",
+      "2270",
+      "4710562242270"
+    ],
+    "series": "GeForce RTX 3060 Ti LHR",
+    "variant": "Gainward"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 3060 Ti",
+  "memory": 8,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1410,
+  "core_boost_clock": 1665,
+  "effective_memory_clock": 14000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 247,
+  "tdp": 200,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c4f9865ad0c3553e9107"
+  },
+  "core_count": 0,
+  "general_product_information": {
+    "amazon_sku": "B08PKZFRZB"
+  }
+}

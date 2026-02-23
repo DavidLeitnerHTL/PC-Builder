@@ -1,0 +1,34 @@
+{
+  "opendb_id": "4418810a-f7d2-4d2e-bdab-292ff30d9c16",
+  "metadata": {
+    "name": "Sunbeam CR-CCTF Air 155mm 90.65 CFM",
+    "manufacturer": "Sunbeam",
+    "part_numbers": [
+      "CR-CCTF"
+    ],
+    "series": "CR-CCTF",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 1000,
+  "max_fan_rpm": 2000,
+  "min_noise_level": 16,
+  "max_noise_level": 20,
+  "color": [],
+  "height": 155,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "FM1",
+    "FM2",
+    "LGA 775"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B001AYF582"
+  }
+}

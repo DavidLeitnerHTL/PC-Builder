@@ -1,0 +1,51 @@
+{
+  "opendb_id": "aa47a39b-e33b-49d5-922f-9597e6c58a06",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "PNY RTX 4000 Ada Generation RTX 4000 Ada Generation 20GB GDDR6 Black",
+    "manufacturer": "PNY",
+    "part_numbers": [
+      "VCNRTX4000ADA-PB",
+      "IN-KOS-132624"
+    ],
+    "series": "RTX 4000 Ada Generation",
+    "variant": "PNY"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "RTX 4000 Ada",
+  "memory": 20,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1500,
+  "core_boost_clock": 2175,
+  "effective_memory_clock": 18000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 241,
+  "tdp": 130,
+  "total_slot_width": 1,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c43a865ad0c3553e858a"
+  },
+  "core_count": 0,
+  "general_product_information": {
+    "amazon_sku": "B0CFK2GF7G",
+    "newegg_sku": "N82E16814133861",
+    "walmart_sku": 3758429585
+  }
+}

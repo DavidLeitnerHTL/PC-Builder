@@ -1,0 +1,52 @@
+{
+  "opendb_id": "066ebd32-2f65-4966-b67b-e72c31400a52",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Asus GeForce RTX 4060 Ti ROG Strix GAMING OC 16GB GDDR6 Black / Red",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "ROG-STRIX-RTX4060TI-O16G-GAMING90YV0JI0-M0NA00",
+      "ROG-STRIX-RTX4060TI-O16G-GAMING"
+    ],
+    "series": "GeForce RTX 4060 Ti",
+    "variant": "Asus"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 4060 Ti",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 2310,
+  "core_boost_clock": 2745,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 311,
+  "tdp": 165,
+  "total_slot_width": 4,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f91d26eb7c00c41ad7359a"
+  },
+  "core_count": 4352,
+  "general_product_information": {
+    "amazon_sku": "B0CC38KSGH",
+    "newegg_sku": "N82E16814126668",
+    "walmart_sku": 5002106716
+  }
+}

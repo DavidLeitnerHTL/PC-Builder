@@ -1,0 +1,54 @@
+{
+  "opendb_id": "3342308a-8f3f-4de6-b4f8-a651b448203a",
+  "metadata": {
+    "name": "Asus A21 Micro ATX Mini Tower Black Tempered Glass Side Panel",
+    "manufacturer": "ASUS",
+    "part_numbers": [
+      "90DC00H0-B09000                                                    90DC00H0-B09010                                                    A21",
+      "90DC00H0-B09000",
+      "A21/BLK//",
+      "90DC00H0-B09010"
+    ],
+    "series": "A21",
+    "variant": "Black",
+    "last_manually_spec_verified_at": "2026-01-14T21:22:58.088Z"
+  },
+  "supported_motherboard_form_factors": [
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "Micro ATX Mini Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "2x USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 380,
+  "max_cpu_cooler_height": 165,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 1,
+  "expansion_slots": 5,
+  "dimensions": "465 x 220 x 430",
+  "volume": 43.989,
+  "weight": 16.093745,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "2x USB 3.2 Gen 1 Type-A"
+  ],
+  "dimensions_mm": {
+    "width": 220,
+    "height": 465,
+    "depth": 430,
+    "_id": "68b3598dad4a820b92b86814"
+  },
+  "power_supply_shroud": true,
+  "supports_rear_connecting_motherboard": true,
+  "general_product_information": {
+    "amazon_sku": "B0BRY27KGQ",
+    "newegg_sku": "N82E16811173057",
+    "walmart_sku": 5325714345,
+    "manufacturer_url": "https://www.asus.com/us/motherboards-components/cases/asus/asus-a21-case/techspec/"
+  }
+}

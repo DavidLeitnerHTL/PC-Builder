@@ -1,0 +1,21 @@
+{
+  "opendb_id": "a62f2838-ba73-414e-bf32-732c6b5b4fa6",
+  "metadata": {
+    "name": "Toshiba MD04ACA600 6TB HDD 3.5\" 7200RPM SATA 6.0 Gb/s",
+    "manufacturer": "Toshiba",
+    "part_numbers": [
+      "MD04ACA600"
+    ],
+    "series": "MD04ACA600",
+    "variant": "6000GB"
+  },
+  "capacity": 6000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "cache": 128,
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B01ABSUT9M"
+  }
+}

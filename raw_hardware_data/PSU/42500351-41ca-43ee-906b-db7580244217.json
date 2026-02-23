@@ -1,0 +1,33 @@
+{
+  "opendb_id": "42500351-41ca-43ee-906b-db7580244217",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 9,
+    "sata": 16,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA SuperNOVA 1600 G2 ATX 1600W 80+ Gold Fully Modular",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "120-G2-1600-X1                                                    120-G2-1600-X3                                                    120-G2-1600-X4                                                    120-G2-1600-X2                                                    120-G2-1600-XR",
+      "120-G2-1600-X1"
+    ],
+    "series": "SuperNOVA",
+    "variant": "1600W Gold"
+  },
+  "wattage": 1600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 220,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B00MMLUIE8",
+    "walmart_sku": 40171152
+  }
+}

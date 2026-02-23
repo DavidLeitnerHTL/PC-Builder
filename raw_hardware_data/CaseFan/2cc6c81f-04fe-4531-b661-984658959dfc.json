@@ -1,0 +1,29 @@
+{
+  "opendb_id": "2cc6c81f-04fe-4531-b661-984658959dfc",
+  "metadata": {
+    "name": "Thermalright TL-8015 80mm White PWM 28.4 CFM",
+    "manufacturer": "Thermalright",
+    "part_numbers": [],
+    "series": "TL-8015",
+    "variant": "80mm White"
+  },
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 28.4,
+  "max_airflow": null,
+  "min_noise_level": 23.3,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.25,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "newegg_sku": "1YF-0038-000U6"
+  }
+}

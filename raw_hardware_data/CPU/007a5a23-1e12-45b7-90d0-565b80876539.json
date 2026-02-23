@@ -1,0 +1,56 @@
+{
+  "opendb_id": "007a5a23-1e12-45b7-90d0-565b80876539",
+  "cores": {
+    "total": 64,
+    "threads": 128
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.2,
+      "boost": 5.4
+    }
+  },
+  "cache": {
+    "l1": " 5120 KB",
+    "l2": 64,
+    "l3": 256
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": null
+    },
+    "memory": {
+      "types": [
+        "DDR5"
+      ],
+      "channels": 4
+    },
+    "tdp": 350,
+    "eccSupport": true,
+    "packaging": "Boxed",
+    "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "includesCooler": false
+  },
+  "metadata": {
+    "name": "AMD Ryzen Threadripper 9980X",
+    "part_numbers": [
+      "AMD Ryzen Threadripper 9980X",
+      "100-000001593WOF",
+      "100-100001593WOF"
+    ],
+    "series": " Ryzen Threadripper 9000 Series",
+    "variant": "9980X"
+  },
+  "series": "AMD Ryzen Threadripper 9000 Series",
+  "microarchitecture": "Zen 5",
+  "coreFamily": "Shimada Peak",
+  "socket": "sTR5",
+  "general_product_information": {
+    "amazon_sku": "‎B0FJ6JZN8K",
+    "newegg_sku": "N82E16819113914",
+    "bestbuy_sku": 6644817,
+    "walmart_sku": 17397421751,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/ryzen-threadripper/9000-series/amd-ryzen-threadripper-9980x.html"
+  }
+}

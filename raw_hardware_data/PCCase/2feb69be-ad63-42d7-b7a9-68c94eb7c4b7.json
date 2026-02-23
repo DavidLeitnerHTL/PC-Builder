@@ -1,0 +1,52 @@
+{
+  "opendb_id": "2feb69be-ad63-42d7-b7a9-68c94eb7c4b7",
+  "metadata": {
+    "name": "MSI MPG VELOX 100R ATX Mid Tower White with Tempered Glass Side Panel and Front Panel USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MPG VELOX 100R WHITE                                                    306-7G18W23-809                                                    306-7G18W21-809",
+      "MPG VELOX 100R WHITE",
+      "306-7G18W23-809",
+      "306-7G18W21-809"
+    ],
+    "series": "MPG",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-09-06T05:22:25.775Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "WHITE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "2 x USB 3.2 Gen 1 Type-A (5Gbps)                                                 1 x USB 3.2 Gen 2x2 Type C (20Gbps)",
+  "max_video_card_length": 380,
+  "max_cpu_cooler_height": 175,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 7,
+  "dimensions": "474 x 231 x 490",
+  "volume": 53.652,
+  "weight": 19.05,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "2 x USB 3.2 Gen 1 Type-A (5Gbps)",
+    "1 x USB 3.2 Gen 2x2 Type C (20Gbps)"
+  ],
+  "dimensions_mm": {
+    "width": 231,
+    "height": 490,
+    "depth": 474,
+    "_id": "68bbc5147cbd1c91e05489ad"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0C2KNMQ48",
+    "walmart_sku": 2988198920
+  }
+}

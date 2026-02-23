@@ -1,0 +1,29 @@
+{
+  "opendb_id": "6ae2a810-e07c-43b6-a35e-7827ba11b14e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower ATX 1000W Non-Modular 80+",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "W0155RU"
+    ],
+    "series": "Toughpower",
+    "variant": "1000W 80+"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 200,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,36 @@
+{
+  "opendb_id": "ab8a4fcb-bf37-4c54-916d-eb57176b4a00",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone TX700-G TFX 700W Non-Modular 80+ Gold",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-TX700-G                                                    TX700-G",
+      "SST-TX700-G"
+    ],
+    "series": "TX700-G",
+    "variant": "700W Gold"
+  },
+  "wattage": 700,
+  "form_factor": "TFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 175,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08WTHF622",
+    "newegg_sku": "1B4-00JV-00093",
+    "walmart_sku": 751292731
+  }
+}

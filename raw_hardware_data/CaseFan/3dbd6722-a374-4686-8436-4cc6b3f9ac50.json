@@ -1,0 +1,33 @@
+{
+  "opendb_id": "3dbd6722-a374-4686-8436-4cc6b3f9ac50",
+  "metadata": {
+    "name": "Apevia Electro 120mm White / Black RGB 57.67 CFM 6-Pack",
+    "manufacturer": "Apevia",
+    "part_numbers": [
+      "ER62-RGB",
+      "ET62-RGB"
+    ],
+    "series": "Electro",
+    "variant": "120mm White / Black"
+  },
+  "size": 120,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 6,
+  "min_airflow": 57.67,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "RGB",
+  "connector": "Proprietary",
+  "controller": "Manual",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08CWX15JK"
+  }
+}

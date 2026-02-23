@@ -1,0 +1,31 @@
+{
+  "opendb_id": "c0b6e4cb-3574-4e81-9ff5-e5ca36838303",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Smart Black RGB 230V ATX 700W Non-Modular 80+ Certified",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-SPR-0700NHSAWU-1"
+    ],
+    "series": "Smart",
+    "variant": "700W 80+"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

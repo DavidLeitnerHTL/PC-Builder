@@ -1,0 +1,22 @@
+{
+  "opendb_id": "3f07f23c-c1e4-4bd6-a935-5e6cc40b47c7",
+  "metadata": {
+    "name": "Crucial T500 4TB M.2 SSD PCIe 4.0 NVMe",
+    "manufacturer": "Crucial",
+    "part_numbers": [
+      "CT4000T500SSD3"
+    ],
+    "series": "T500",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0DBBG7CG7",
+    "newegg_sku": "N82E16820156410",
+    "walmart_sku": 11706505338
+  }
+}

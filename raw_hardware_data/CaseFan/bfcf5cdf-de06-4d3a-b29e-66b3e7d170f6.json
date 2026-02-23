@@ -1,0 +1,32 @@
+{
+  "opendb_id": "bfcf5cdf-de06-4d3a-b29e-66b3e7d170f6",
+  "metadata": {
+    "name": "RAIJINTEK IRIS 120mm White / Black PWM Addressable RGB 2-Pack",
+    "manufacturer": "Raijintek",
+    "part_numbers": [
+      "0R40B00129"
+    ],
+    "series": "IRIS",
+    "variant": "120mm White / Black"
+  },
+  "size": 120,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 2,
+  "min_airflow": 35.8,
+  "max_airflow": null,
+  "min_noise_level": 28,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "5V Addressable RGB",
+  "static_pressure": 1.16,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08L1RH7QK"
+  }
+}

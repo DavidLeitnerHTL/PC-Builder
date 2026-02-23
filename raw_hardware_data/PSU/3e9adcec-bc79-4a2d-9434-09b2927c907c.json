@@ -1,0 +1,31 @@
+{
+  "opendb_id": "3e9adcec-bc79-4a2d-9434-09b2927c907c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone ATTIS 650R White ATX Certified 650W Non-Modular 80+ Bronze",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-AT650R-BF-WBW"
+    ],
+    "series": "ATTIS",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

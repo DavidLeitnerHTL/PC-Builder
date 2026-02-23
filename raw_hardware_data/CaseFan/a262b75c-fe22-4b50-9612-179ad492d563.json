@@ -1,0 +1,33 @@
+{
+  "opendb_id": "a262b75c-fe22-4b50-9612-179ad492d563",
+  "metadata": {
+    "name": "StarTech FAN8X25TX3L 80mm Black 26.6 CFM 1-Pack",
+    "manufacturer": "StarTech",
+    "part_numbers": [
+      "FAN8X25TX3L"
+    ],
+    "series": "FAN8X25TX3L",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 26.6,
+  "max_airflow": null,
+  "min_noise_level": 27,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00006B8E0",
+    "newegg_sku": "N82E16835230020",
+    "walmart_sku": 39137782
+  }
+}

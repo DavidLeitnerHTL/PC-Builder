@@ -1,0 +1,24 @@
+{
+  "opendb_id": "961385f7-c744-4fc9-bb73-2b9fa5cf8c66",
+  "metadata": {
+    "name": "Kingston NV1 500GB M.2 SSD PCIe 3.0 NVMe",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SNVS",
+      "500G",
+      "SNVS/500G"
+    ],
+    "series": "NV1",
+    "variant": "500GB"
+  },
+  "capacity": 500,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B091BCQK7B",
+    "newegg_sku": "9SIBKYEK6R4938",
+    "walmart_sku": 617490135
+  }
+}

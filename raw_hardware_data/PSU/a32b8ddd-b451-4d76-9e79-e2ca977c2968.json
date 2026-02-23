@@ -1,0 +1,33 @@
+{
+  "opendb_id": "a32b8ddd-b451-4d76-9e79-e2ca977c2968",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! Pure Power 11 Black 400W Non-Modular 80+ Gold",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN292"
+    ],
+    "series": "Pure",
+    "variant": "400W Gold"
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07JJKPNRH"
+  }
+}

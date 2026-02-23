@@ -1,0 +1,34 @@
+{
+  "opendb_id": "e4367d18-0f32-4452-82f3-b87f0875da5c",
+  "metadata": {
+    "name": "Scythe Kaze Flex Slim 120mm Black / White PWM RGB",
+    "manufacturer": "SCYTHE",
+    "series": "Kaze",
+    "variant": "120mm Black / White",
+    "part_numbers": [
+      "KF1215FD18R-P"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 8.28,
+  "max_airflow": 50.79,
+  "min_noise_level": 2.7,
+  "max_noise_level": 30,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 1.35,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07YD39YWH",
+    "newegg_sku": "1YF-0015-00133",
+    "walmart_sku": 324330033
+  }
+}

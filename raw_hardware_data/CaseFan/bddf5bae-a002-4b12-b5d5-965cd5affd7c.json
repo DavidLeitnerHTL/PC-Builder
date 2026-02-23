@@ -1,0 +1,32 @@
+{
+  "opendb_id": "bddf5bae-a002-4b12-b5d5-965cd5affd7c",
+  "metadata": {
+    "name": "Silverstone FW 120mm Black / Transparent Addressable RGB PWM 32.6 CFM 1-Pack",
+    "manufacturer": "SilverStone",
+    "part_numbers": [
+      "SST-FW124-ARGB"
+    ],
+    "series": "FW",
+    "variant": "120mm Black / Transparent"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 13.1,
+  "max_airflow": 32.6,
+  "min_noise_level": 14.7,
+  "max_noise_level": 24.6,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.52,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "newegg_sku": "N82E16835220148"
+  }
+}

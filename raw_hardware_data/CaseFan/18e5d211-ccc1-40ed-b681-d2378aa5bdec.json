@@ -1,0 +1,32 @@
+{
+  "opendb_id": "18e5d211-ccc1-40ed-b681-d2378aa5bdec",
+  "metadata": {
+    "name": "In Win Neptune AN120 120mm Black / White PWM Addressable RGB 60.1 CFM 3-Pack",
+    "manufacturer": "In Win",
+    "part_numbers": [
+      "IW-FN-AN120-3PK"
+    ],
+    "series": "Neptune",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 23.87,
+  "max_airflow": 60.1,
+  "min_noise_level": 20.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.27,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CJKK497Y"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "43b588c2-d1d8-48ef-b9ac-dca7f88dd26f",
+  "metadata": {
+    "name": "be quiet! Silent Wings 4 140mm White PWM",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL116"
+    ],
+    "series": "Silent",
+    "variant": "140mm White",
+    "last_manually_spec_verified_at": "2026-02-15T01:22:26.738Z"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 51.3,
+  "max_airflow": null,
+  "min_noise_level": 13.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 0.92,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CYCQ7PJH",
+    "newegg_sku": "1YF-001D-000S8",
+    "manufacturer_url": "https://www.bequiet.com/en/casefans/5005"
+  }
+}

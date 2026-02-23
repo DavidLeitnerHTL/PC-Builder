@@ -1,0 +1,32 @@
+{
+  "opendb_id": "27577337-79a7-43cc-bd90-3085e72467e2",
+  "metadata": {
+    "name": "Apevia CF12S-BK 120mm Black 57.67 CFM 1-Pack",
+    "manufacturer": "Apevia",
+    "part_numbers": [
+      "CF12S-BK"
+    ],
+    "series": "CF12S-BK",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 57.67,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.66,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B003EI0ECO",
+    "walmart_sku": 701499393
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "4307e606-3e97-4e99-bb51-47839057b168",
+  "metadata": {
+    "name": "Thermalright TL-C12C X3 120mm Black PWM 66.17 CFM 3-Pack",
+    "manufacturer": "Thermalright",
+    "series": "TL-C12C",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "TL-C12C X3 D6"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 66.17,
+  "max_airflow": null,
+  "min_noise_level": 25.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.53,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BKL1QYP3",
+    "walmart_sku": 16520018095
+  }
+}

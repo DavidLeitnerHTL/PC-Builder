@@ -1,0 +1,31 @@
+{
+  "opendb_id": "c46ce72e-7bcc-408c-aaf9-e89a73ecef40",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 7,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Asus ROG Thor P3 Gaming Black 1000W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "rog-thor-1000p3-gaming"
+    ],
+    "series": "ROG",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 190,
+  "fanless": false,
+  "general_product_information": {}
+}

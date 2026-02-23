@@ -1,0 +1,33 @@
+{
+  "opendb_id": "6fee4219-058a-4207-9865-440602cf3ac1",
+  "metadata": {
+    "name": "Corsair RS120 120mm White PWM 72.8 CFM",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050192-WW"
+    ],
+    "series": "RS120",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 13.3,
+  "max_airflow": 72.8,
+  "min_noise_level": 10,
+  "max_noise_level": 36,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 4.15,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D49PM8ST",
+    "newegg_sku": "N82E16835181435",
+    "walmart_sku": 8242601612
+  }
+}

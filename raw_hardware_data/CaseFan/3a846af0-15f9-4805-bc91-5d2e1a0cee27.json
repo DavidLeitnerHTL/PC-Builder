@@ -1,0 +1,28 @@
+{
+  "opendb_id": "3a846af0-15f9-4805-bc91-5d2e1a0cee27",
+  "metadata": {
+    "name": "ARCTIC F14 Silent 140mm White / Black 46 CFM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [],
+    "series": "F14",
+    "variant": "140mm White / Black"
+  },
+  "isOEM": false,
+  "size": 140,
+  "color": [
+    "WHITE",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 46,
+  "max_airflow": null,
+  "min_noise_level": 27.2,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

@@ -1,0 +1,24 @@
+{
+  "opendb_id": "dbebd765-b8b9-4d52-995d-b96d6f9196f0",
+  "metadata": {
+    "name": "Kingston KC600 1.024 TB SSD mSATA mSATA",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SKC600MS",
+      "1024G",
+      "SKC600MS/1024G"
+    ],
+    "series": "KC600",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "mSATA",
+  "interface": "mSATA",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B08ZNRTDD8",
+    "newegg_sku": "0D9-001B-004P1",
+    "walmart_sku": 257141663
+  }
+}

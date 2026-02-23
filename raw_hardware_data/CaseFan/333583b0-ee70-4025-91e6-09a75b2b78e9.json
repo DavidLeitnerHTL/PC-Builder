@@ -1,0 +1,27 @@
+{
+  "opendb_id": "333583b0-ee70-4025-91e6-09a75b2b78e9",
+  "metadata": {
+    "name": "Xigmatek Crystal 120mm Clear Blue 68.33 CFM",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "Crystal",
+    "variant": "120mm Clear"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 68.33,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "270be86e-9163-46c9-8c6a-873ca9f7ce9f",
+  "metadata": {
+    "name": "Corsair iCUE LINK RX140 MAX RGB Starter Kit 140mm Black Addressable RGB PWM 102.9 CFM 2-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9051036-WW"
+    ],
+    "series": "iCUE",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 2,
+  "min_airflow": 27.2,
+  "max_airflow": 102.9,
+  "min_noise_level": 10,
+  "max_noise_level": 31,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "Proprietary PWM",
+  "controller": "USB",
+  "static_pressure": 2.38,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D97LJPJ2",
+    "newegg_sku": "N82E16835181453"
+  }
+}

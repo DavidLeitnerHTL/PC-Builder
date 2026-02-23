@@ -1,0 +1,31 @@
+{
+  "opendb_id": "3bd25bee-95be-4dc3-bf0a-c876abab9b6c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Inter-Tech HA-1200BA4 Black 1200W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "Inter-Tech",
+    "part_numbers": [
+      "88882236"
+    ],
+    "series": "HA-1200BA4",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

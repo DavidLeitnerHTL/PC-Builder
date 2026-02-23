@@ -1,0 +1,35 @@
+{
+  "opendb_id": "8dfc8f49-540c-4385-a3b9-996911807e00",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 8,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider Platinum S 1200W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-ST1200-PTS"
+    ],
+    "series": "Strider",
+    "variant": "1200W Platinum"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07N4QD7RM",
+    "newegg_sku": "N82E16817256213",
+    "walmart_sku": 1405100155
+  }
+}

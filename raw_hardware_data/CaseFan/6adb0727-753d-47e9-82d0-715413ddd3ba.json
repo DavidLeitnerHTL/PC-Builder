@@ -1,0 +1,27 @@
+{
+  "opendb_id": "6adb0727-753d-47e9-82d0-715413ddd3ba",
+  "metadata": {
+    "name": "Thermaltake TOUGHFAN EX 59.34 CFM 120mm White Addressable RGB PWM 59.34 CFM 3-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [],
+    "series": "TOUGHFAN",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 59.34,
+  "max_airflow": null,
+  "min_noise_level": 25.7,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.86,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

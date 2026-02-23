@@ -1,0 +1,36 @@
+{
+  "opendb_id": "ddd9a5fa-cc75-40af-80e7-a0b41d0da35b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ADATA XPG Core Reactor II Black ATX 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "ADATA",
+    "part_numbers": [
+      "COREREACTORII850G-BKCUS                                                    COREREACTORII850G-BKCAU                                                    COREREACTORII850G-BKCEU",
+      "COREREACTORII850G-BKCUS"
+    ],
+    "series": "XPG",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CBQVP6SS",
+    "newegg_sku": "N82E16817478006",
+    "walmart_sku": 3837005112
+  }
+}

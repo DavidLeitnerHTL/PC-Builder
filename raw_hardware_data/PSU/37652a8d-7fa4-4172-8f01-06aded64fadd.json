@@ -1,0 +1,33 @@
+{
+  "opendb_id": "37652a8d-7fa4-4172-8f01-06aded64fadd",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill PHOTON-550 550W 80+ Gold Certified Fully Modular",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "PHOTON-550",
+      "PMG550",
+      "9B17-182-433"
+    ],
+    "series": "PHOTON-550",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08RQPSNM4"
+  }
+}

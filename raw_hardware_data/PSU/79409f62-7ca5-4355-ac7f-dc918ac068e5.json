@@ -1,0 +1,37 @@
+{
+  "opendb_id": "79409f62-7ca5-4355-ac7f-dc918ac068e5",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair RM850x SHIFT Side Interface ATX 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020274-NA                                                    CP-9020274-AU                                                    CP-9020274-UK                                                    CP-9020274-EU",
+      "CP-9020274-NA"
+    ],
+    "series": "RM850x",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "WHITE"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CWLWGM67",
+    "newegg_sku": "N82E16817139327",
+    "bestbuy_sku": 6577058,
+    "walmart_sku": 5518702573
+  }
+}

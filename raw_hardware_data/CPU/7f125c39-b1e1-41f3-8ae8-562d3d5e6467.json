@@ -1,0 +1,53 @@
+{
+  "opendb_id": "7f125c39-b1e1-41f3-8ae8-562d3d5e6467",
+  "cores": {
+    "total": 6,
+    "performance": 6,
+    "threads": 6
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.6,
+      "boost": 4.1
+    }
+  },
+  "cache": {
+    "l2": 3,
+    "l3": 32
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": [
+        "DDR4"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "7 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD Ryzen 5 3500X 3.6 GHz 6-Core AM4",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "100-000000158",
+      "PIC18F4320-I PT",
+      "TH8056 TH8056KDC TH8056KDC-AAA-008-RE"
+    ],
+    "series": "AMD Ryzen 5"
+  },
+  "series": "AMD Ryzen 5",
+  "microarchitecture": "Zen 2",
+  "coreFamily": "Matisse",
+  "socket": "AM4",
+  "general_product_information": {
+    "amazon_sku": "B0D69R1T54",
+    "newegg_sku": "9SIBWH3KAS9441"
+  }
+}

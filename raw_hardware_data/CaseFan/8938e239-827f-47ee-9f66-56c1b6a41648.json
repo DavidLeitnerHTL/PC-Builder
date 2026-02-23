@@ -1,0 +1,31 @@
+{
+  "opendb_id": "8938e239-827f-47ee-9f66-56c1b6a41648",
+  "metadata": {
+    "name": "SeaSonic MAGFLOW 120mm Black PWM 1-Pack",
+    "manufacturer": "Seasonic",
+    "part_numbers": [
+      "MagFlow 1-Fan Kit"
+    ],
+    "series": "MAGFLOW",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 63.33,
+  "max_airflow": null,
+  "min_noise_level": 9.9,
+  "max_noise_level": 33.78,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.61,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BS1BJJ6B"
+  }
+}

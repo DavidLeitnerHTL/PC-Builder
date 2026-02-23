@@ -1,0 +1,31 @@
+{
+  "opendb_id": "da01a7b8-48a6-44b1-a964-cfc90cd9e269",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 18,
+    "sata": 9,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "GameMax GM Black Certified ATX 2000W Non-Modular 80+ Gold",
+    "manufacturer": "GameMax",
+    "part_numbers": [
+      "GM-2000"
+    ],
+    "series": "GM",
+    "variant": "2000W Gold"
+  },
+  "wattage": 2000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 230,
+  "fanless": false,
+  "general_product_information": {}
+}

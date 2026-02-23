@@ -1,0 +1,27 @@
+{
+  "opendb_id": "ae9bdc6a-368b-41af-bfdc-fe7bf5acf2c0",
+  "metadata": {
+    "name": "Aerocool Centaurus I 80mm Silver 26.8 CFM Blue LED 1-Pack",
+    "manufacturer": "AeroCool",
+    "part_numbers": [],
+    "series": "Centaurus",
+    "variant": "80mm Silver"
+  },
+  "size": 80,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 26.8,
+  "max_airflow": null,
+  "min_noise_level": 21.6,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

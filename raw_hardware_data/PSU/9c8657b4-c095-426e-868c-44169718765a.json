@@ -1,0 +1,29 @@
+{
+  "opendb_id": "9c8657b4-c095-426e-868c-44169718765a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 12,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Smart 1200W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "SP-1200M"
+    ],
+    "series": "Smart",
+    "variant": "1200W Bronze"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

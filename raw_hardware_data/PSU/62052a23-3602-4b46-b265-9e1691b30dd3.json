@@ -1,0 +1,31 @@
+{
+  "opendb_id": "62052a23-3602-4b46-b265-9e1691b30dd3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 3,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group FSP450-60GHS(85)-R SFX 450W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "FSP450-60GHS(85)-R"
+    ],
+    "series": "FSP450-60GHS(85)-R",
+    "variant": "450W Bronze"
+  },
+  "wattage": 450,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {}
+}

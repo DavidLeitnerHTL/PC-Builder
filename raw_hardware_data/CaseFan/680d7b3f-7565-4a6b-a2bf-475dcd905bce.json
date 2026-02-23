@@ -1,0 +1,34 @@
+{
+  "opendb_id": "680d7b3f-7565-4a6b-a2bf-475dcd905bce",
+  "metadata": {
+    "name": "Noctua A14 industrialPPC-3000 140mm Brown / Black PWM 158.5 CFM",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-A14 iPPC-3000 PWM"
+    ],
+    "series": "A14",
+    "variant": "140mm Brown / Black"
+  },
+  "size": 140,
+  "color": [
+    "BROWN",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 158.5,
+  "max_airflow": null,
+  "min_noise_level": 41.3,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 6.58,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00KFCRF1A",
+    "newegg_sku": "9SIAADY4B02860",
+    "walmart_sku": 43622238
+  }
+}

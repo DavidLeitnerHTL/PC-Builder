@@ -1,0 +1,51 @@
+{
+  "opendb_id": "69ea06c9-850f-48c9-ae60-9b1b5525c040",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 4,
+      "boost": 4.3
+    }
+  },
+  "cache": {
+    "l2": 8,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 125,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD FX FX FX-8370 4 GHz 8-Core AM3+",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "FD8370FRHKBOX",
+      "FBA_FD8370FRHKBOX"
+    ],
+    "series": "AMD FX"
+  },
+  "series": "AMD FX",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Vishera",
+  "socket": "AM3+",
+  "general_product_information": {
+    "amazon_sku": "B00MUTWELC",
+    "newegg_sku": "9SIA4REJU82207",
+    "walmart_sku": 39846183
+  }
+}

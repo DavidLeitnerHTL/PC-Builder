@@ -1,0 +1,50 @@
+{
+  "opendb_id": "9ea67443-887d-4d26-b430-22a5b36a1226",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Gigabyte GAMING OC Radeon RX 6800 16GB GDDR6 Silver / Black",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GV-R68GAMING OC-16GD",
+      "GV-R68XTGAMING OC-16GD"
+    ],
+    "series": "Radeon RX 6800",
+    "variant": "Gigabyte"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 6800",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 1815,
+  "core_boost_clock": 2155,
+  "effective_memory_clock": 16000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
+  "length": 286,
+  "tdp": 250,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 2,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 2,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c5d6865ad0c3553e9ed2"
+  },
+  "core_count": 3840,
+  "general_product_information": {
+    "amazon_sku": "B08P3M97FG"
+  }
+}

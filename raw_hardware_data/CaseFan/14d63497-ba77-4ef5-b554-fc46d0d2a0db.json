@@ -1,0 +1,27 @@
+{
+  "opendb_id": "14d63497-ba77-4ef5-b554-fc46d0d2a0db",
+  "metadata": {
+    "name": "KOLINK UMBRA VOID 120mm Black PWM RGB",
+    "manufacturer": "KOLINK",
+    "part_numbers": [],
+    "series": "UMBRA",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 41,
+  "max_airflow": null,
+  "min_noise_level": 19.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

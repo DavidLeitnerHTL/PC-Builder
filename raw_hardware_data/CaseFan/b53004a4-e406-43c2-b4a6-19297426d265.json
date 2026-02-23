@@ -1,0 +1,32 @@
+{
+  "opendb_id": "b53004a4-e406-43c2-b4a6-19297426d265",
+  "metadata": {
+    "name": "be quiet! Shadow Wings 2 49.8CFM 140mm Black PWM 1-Pack",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL087"
+    ],
+    "series": "Shadow",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 49.8,
+  "max_airflow": null,
+  "min_noise_level": 14.9,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 0.58,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07MJQ3WQR",
+    "newegg_sku": "1YF-001D-00074"
+  }
+}

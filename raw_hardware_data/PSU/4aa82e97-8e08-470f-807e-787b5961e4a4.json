@@ -1,0 +1,31 @@
+{
+  "opendb_id": "4aa82e97-8e08-470f-807e-787b5961e4a4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group Hydro K Pro ATX3.0 Black 850W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "PPA8503209                                                    HD2-850"
+    ],
+    "series": "Hydro",
+    "variant": "850W Bronze"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,23 @@
+{
+  "opendb_id": "3b069510-78c2-464c-9d0f-6e8dfdd4e1ea",
+  "metadata": {
+    "name": "Seagate Exos M 30TB 3.5\" HDD 7200RPM SATA 6.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST30000NM004K"
+    ],
+    "series": "Exos",
+    "variant": "30000GB"
+  },
+  "capacity": 30000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "cache": null,
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0FF69RHHL",
+    "newegg_sku": "N82E16822185114",
+    "walmart_sku": 16731412570
+  }
+}

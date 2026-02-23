@@ -1,0 +1,31 @@
+{
+  "opendb_id": "933e83c0-6764-47a6-add8-df06f4864aa2",
+  "metadata": {
+    "name": "Antec 75080 80mm Clear 34 CFM 1-Pack",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "TRICOOL 80MM"
+    ],
+    "series": "75080",
+    "variant": "80mm Clear"
+  },
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 34,
+  "max_airflow": null,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00066ISVG"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "e24f92cb-5c31-4c1c-bd80-2f451ab4b085",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "KOLINK Core Black ATX 400W Non-Modular 80+ Certified",
+    "manufacturer": "KOLINK",
+    "part_numbers": [
+      "KL-C400                                                    PGW-PS-KOL-005"
+    ],
+    "series": "Core",
+    "variant": "400W 80+"
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

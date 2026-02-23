@@ -1,0 +1,33 @@
+{
+  "opendb_id": "c0d8696c-da30-4a0f-8c4b-fd66b4cebdf9",
+  "metadata": {
+    "name": "MSI MPG EZ120 120mm Addressable RGB PWM 73.82 CFM White 3-Pack",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MPG EZ120 ARGB WHITE-3W",
+      "MAG CORELIQUID C360 V2"
+    ],
+    "series": "MPG",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 0,
+  "max_airflow": 73.82,
+  "min_noise_level": 0,
+  "max_noise_level": 28.82,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "USB",
+  "static_pressure": 2.56,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D5NSTXCP",
+    "newegg_sku": "N82E16835846075"
+  }
+}

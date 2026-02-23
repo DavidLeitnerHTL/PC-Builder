@@ -1,0 +1,28 @@
+{
+  "opendb_id": "19c9a143-d7bd-4f22-8b5e-7d64d789f8c8",
+  "metadata": {
+    "name": "Deepcool UF 140mm 71.8 CFM PWM White / Blue 1-Pack",
+    "manufacturer": "Deepcool",
+    "part_numbers": [],
+    "series": "UF",
+    "variant": "140mm White / Blue"
+  },
+  "size": 140,
+  "color": [
+    "WHITE",
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 71.8,
+  "max_airflow": null,
+  "min_noise_level": 17.6,
+  "max_noise_level": 26.7,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "849c4c9b-ece5-4966-9b5a-82b724ff7788",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Zalman ZM460B-APS ATX 460W Non-Modular",
+    "manufacturer": "Zalman",
+    "part_numbers": [
+      "ZM460B-APS"
+    ],
+    "series": "ZM460B-APS",
+    "variant": "460W "
+  },
+  "wattage": 460,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

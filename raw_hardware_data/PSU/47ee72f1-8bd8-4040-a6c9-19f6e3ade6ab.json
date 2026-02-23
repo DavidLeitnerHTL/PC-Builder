@@ -1,0 +1,29 @@
+{
+  "opendb_id": "47ee72f1-8bd8-4040-a6c9-19f6e3ade6ab",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 5,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! Pure Power L8 500W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN623"
+    ],
+    "series": "Pure",
+    "variant": "500W Bronze"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

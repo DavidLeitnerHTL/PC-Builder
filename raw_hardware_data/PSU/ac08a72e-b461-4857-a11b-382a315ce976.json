@@ -1,0 +1,29 @@
+{
+  "opendb_id": "ac08a72e-b461-4857-a11b-382a315ce976",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 5,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group AU-500FL Fanless ATX 500W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "AU-500FL"
+    ],
+    "series": "AU-500FL",
+    "variant": "500W Gold"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": true,
+  "general_product_information": {}
+}

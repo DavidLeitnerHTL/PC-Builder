@@ -1,0 +1,46 @@
+{
+  "opendb_id": "e272b2ff-aed0-41ec-8094-08c21df362c0",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 4,
+      "boost": 4.3
+    }
+  },
+  "cache": {
+    "l2": 4,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon HD 8670D"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 100,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A10 6790K 4 GHz 4-Core FM2 OEM/Tray",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD679KWOA44HL"
+    ],
+    "series": "AMD A10"
+  },
+  "series": "AMD A10",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
+  "general_product_information": {}
+}

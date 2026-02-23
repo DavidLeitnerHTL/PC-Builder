@@ -1,0 +1,34 @@
+{
+  "opendb_id": "4bb62959-c1eb-432b-8b2e-041b5fc31144",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 4,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Montech TITAN Gold 850W Fully Modular 80+ Gold",
+    "manufacturer": "Montech",
+    "part_numbers": [
+      "TITAN GOLD 850WTIS0124",
+      "TIS0124"
+    ],
+    "series": "TITAN",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BPXRBJR6"
+  }
+}

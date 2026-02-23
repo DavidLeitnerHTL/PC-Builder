@@ -1,0 +1,29 @@
+{
+  "opendb_id": "ef789d6f-4d62-49bb-8bd5-731a669f8e54",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "PC Power & Cooling Silencer Silver 760W Non-Modular 80+ Silver Certified",
+    "manufacturer": "PC Power & Cooling",
+    "part_numbers": [
+      "PPCS760"
+    ],
+    "series": "Silencer",
+    "variant": "760W Silver"
+  },
+  "wattage": 760,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Silver",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

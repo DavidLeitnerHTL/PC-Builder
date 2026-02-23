@@ -1,0 +1,31 @@
+{
+  "opendb_id": "8b729422-80c7-49bd-8baf-d6bf2c45ec25",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermalright TGFX550 Black SFX 550W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "TGFX550"
+    ],
+    "series": "TGFX550",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {}
+}

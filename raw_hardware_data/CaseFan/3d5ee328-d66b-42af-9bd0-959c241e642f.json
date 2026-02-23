@@ -1,0 +1,28 @@
+{
+  "opendb_id": "3d5ee328-d66b-42af-9bd0-959c241e642f",
+  "metadata": {
+    "name": "Aerocool DS 140mm Black / Gray",
+    "manufacturer": "AeroCool",
+    "part_numbers": [],
+    "series": "DS",
+    "variant": "140mm Black / Gray"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 71.2,
+  "max_airflow": 93.4,
+  "min_noise_level": 15.5,
+  "max_noise_level": 23.4,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

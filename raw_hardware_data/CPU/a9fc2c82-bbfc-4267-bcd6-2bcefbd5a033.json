@@ -1,0 +1,53 @@
+{
+  "opendb_id": "a9fc2c82-bbfc-4267-bcd6-2bcefbd5a033",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 8
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.5,
+      "boost": 3.7
+    }
+  },
+  "cache": {
+    "l2": 2,
+    "l3": 16
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": [
+        "DDR4"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "AMD Ryzen 5 1500X 3.5 GHz 4-Core AM4",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "YD150XBBAEBOX",
+      "116737"
+    ],
+    "series": "AMD Ryzen 5"
+  },
+  "series": "AMD Ryzen 5",
+  "microarchitecture": "Zen",
+  "coreFamily": "Summit Ridge",
+  "socket": "AM4",
+  "general_product_information": {
+    "amazon_sku": "B06XKVNRSM",
+    "newegg_sku": "9SIBTZ7K6W7945",
+    "walmart_sku": 965872061
+  }
+}

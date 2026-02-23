@@ -1,0 +1,27 @@
+{
+  "opendb_id": "1960a7bf-6cbc-4f07-a848-7a192f02d697",
+  "metadata": {
+    "name": "Xigmatek XLF 120mm Orange 61 CFM White 1-Pack",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "XLF",
+    "variant": "120mm Orange"
+  },
+  "size": 120,
+  "color": [
+    "ORANGE"
+  ],
+  "quantity": 1,
+  "min_airflow": 61,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

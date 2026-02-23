@@ -1,0 +1,32 @@
+{
+  "opendb_id": "2dd6e6cc-6258-4873-a54f-558bb438eecc",
+  "metadata": {
+    "name": "Silverstone Air Penetrator 180mm Black",
+    "manufacturer": "SilverStone",
+    "series": "Air",
+    "variant": "180mm Black",
+    "part_numbers": [
+      "90075"
+    ]
+  },
+  "size": 180,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 80,
+  "max_airflow": 130,
+  "min_noise_level": 18,
+  "max_noise_level": 34,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B003S96Y7I",
+    "walmart_sku": 150405721
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "opendb_id": "bca54c4b-84ad-4183-a710-48f2e916bc13",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Acer Nitro OC Radeon RX 9070 XT 16GB GDDR6 Black / Silver",
+    "manufacturer": "Acer",
+    "part_numbers": [
+      "DP.Z4DWW.P01                                                    AN-RX9070XT-OCC"
+    ],
+    "series": "Radeon RX 9070 XT",
+    "variant": "Acer"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 9070 XT",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 2400,
+  "core_boost_clock": 3100,
+  "effective_memory_clock": 0,
+  "memory_bus": 256,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 297,
+  "tdp": 340,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 3,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "684cd4321d3a20a8514d3a57"
+  },
+  "core_count": 4096,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "1f785683-a014-4c3d-9f7d-89590efbdf27",
+  "metadata": {
+    "name": "Thermalright TL-B9 92mm Gray PWM 54 CFM",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "TL-B9"
+    ],
+    "series": "TL-B9",
+    "variant": "92mm Gray"
+  },
+  "size": 92,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 54,
+  "max_airflow": null,
+  "min_noise_level": 23,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.24,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BNHWH87H"
+  }
+}

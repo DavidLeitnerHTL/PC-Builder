@@ -1,0 +1,36 @@
+{
+  "opendb_id": "c35c6058-976c-428e-ae7b-eaf3ba86af3f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ADATA XPG Core Reactor II White 850W Fully Modular 80+ Gold",
+    "manufacturer": "ADATA",
+    "part_numbers": [
+      "COREREACTORII850G-WHCUS                                                    COREREACTORII850G-WHCEU                                                    COREREACTORII850G-WHCAU",
+      "COREREACTORII850G-WHCUS"
+    ],
+    "series": "XPG",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CVBNWW96",
+    "newegg_sku": "1HU-022B-00059",
+    "walmart_sku": 5333376223
+  }
+}

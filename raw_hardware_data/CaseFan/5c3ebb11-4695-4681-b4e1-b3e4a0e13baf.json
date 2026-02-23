@@ -1,0 +1,34 @@
+{
+  "opendb_id": "5c3ebb11-4695-4681-b4e1-b3e4a0e13baf",
+  "metadata": {
+    "name": "Thermaltake CT120 120mm 57.05 CFM Black PWM 2-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CT120",
+      "CL-F147-PL12BL-A"
+    ],
+    "series": "CT120",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 2,
+  "min_airflow": 57.05,
+  "max_airflow": null,
+  "min_noise_level": 25.8,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.23,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BSP3T9WT",
+    "bestbuy_sku": 6543492,
+    "walmart_sku": 1055851206
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "opendb_id": "2bb7e27b-c7d3-4261-8bf2-8af5af39d124",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic Focus GX V4 ATX 3 (2024) Black 1000W Fully Modular 80+ Gold Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "FOCUS-GX-1000-V4                                                    Focus V4 GX-1000",
+      "FOCUS GX ATX 3 (2024) GX-1000",
+      "FOCUS GX-1000 (ATX3)",
+      "Focus GX-1000 ATX 3.1"
+    ],
+    "series": "Focus",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0DLFKRJDC",
+    "newegg_sku": "N82E16817151270",
+    "walmart_sku": 14348907402,
+    "ibuypower_sku": "31610"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "dab70b76-ab59-41c0-a408-6a31545b9d29",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "LC-Power LC6560GP3 V2.3 230V Black 560W Non-Modular 80+ Silver Certified",
+    "manufacturer": "LC-Power",
+    "part_numbers": [
+      "LC6560GP3 V2.3"
+    ],
+    "series": "LC6560GP3",
+    "variant": "560W Silver"
+  },
+  "wattage": 560,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Silver",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

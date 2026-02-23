@@ -1,0 +1,23 @@
+{
+  "opendb_id": "87a72701-8de1-4e7d-b23a-9afecea5ecad",
+  "metadata": {
+    "name": "MSI SPATIUM M450 500GB M.2 SSD PCIe 4.0 NVMe",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "SM450N500                                                    S78-440K090-P83                                                    S78-440K190-P83",
+      "S78-440K090-P83"
+    ],
+    "series": "SPATIUM",
+    "variant": "500GB"
+  },
+  "capacity": 500,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B09RBCZXL1",
+    "newegg_sku": "N82E16820140025",
+    "walmart_sku": 3633891887
+  }
+}

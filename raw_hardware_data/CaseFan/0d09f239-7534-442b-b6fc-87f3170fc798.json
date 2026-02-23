@@ -1,0 +1,27 @@
+{
+  "opendb_id": "0d09f239-7534-442b-b6fc-87f3170fc798",
+  "metadata": {
+    "name": "EVGA 400-HY-FX12-KR 120mm Black PWM 74.81 CFM 1-Pack",
+    "manufacturer": "EVGA",
+    "part_numbers": [],
+    "series": "400-HY-FX12-KR",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 74.81,
+  "max_airflow": null,
+  "min_noise_level": 16,
+  "max_noise_level": 39.9,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 4.04,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

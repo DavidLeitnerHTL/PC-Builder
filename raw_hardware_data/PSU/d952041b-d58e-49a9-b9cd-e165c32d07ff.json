@@ -1,0 +1,31 @@
+{
+  "opendb_id": "d952041b-d58e-49a9-b9cd-e165c32d07ff",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master MWE Black 550W Non-Modular 80+ Certified",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPE-5501-ACAAW-EU"
+    ],
+    "series": "MWE",
+    "variant": "550W 80+"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

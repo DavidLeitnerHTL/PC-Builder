@@ -1,0 +1,32 @@
+{
+  "opendb_id": "72876b30-f060-4701-a6e3-1804918189c5",
+  "metadata": {
+    "name": "Lian Li UNI P28 120mm White PWM 3-Pack",
+    "manufacturer": "Lian Li",
+    "series": "UNI",
+    "variant": "120mm White",
+    "part_numbers": [
+      "12P283W"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 44.94,
+  "max_airflow": 92,
+  "min_noise_level": 20.4,
+  "max_noise_level": 32.1,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "Manual",
+  "static_pressure": 4.79,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0C5S296HR",
+    "walmart_sku": 2541686813
+  }
+}

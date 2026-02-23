@@ -1,0 +1,31 @@
+{
+  "opendb_id": "2a7f865e-c339-4b7e-836a-f3b2a67ccd30",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 9,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Super Flower Leadex V Pro Black 850W Fully Modular 80+ Gold",
+    "manufacturer": "Super Flower",
+    "part_numbers": [
+      "SF-850F14TG"
+    ],
+    "series": "Leadex",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 130,
+  "fanless": false,
+  "general_product_information": {}
+}

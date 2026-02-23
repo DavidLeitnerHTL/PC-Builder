@@ -1,0 +1,27 @@
+{
+  "opendb_id": "c008ad53-e351-46a4-a13f-9ccbd2c3ac67",
+  "metadata": {
+    "name": "Gelid Solutions Silent 140mm Black PWM 74.5 CFM 1-Pack",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [],
+    "series": "Silent",
+    "variant": "140mm Black"
+  },
+  "isOEM": false,
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 74.5,
+  "max_airflow": null,
+  "min_noise_level": 12,
+  "max_noise_level": 25.1,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

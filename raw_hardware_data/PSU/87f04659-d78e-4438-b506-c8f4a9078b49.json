@@ -1,0 +1,34 @@
+{
+  "opendb_id": "87f04659-d78e-4438-b506-c8f4a9078b49",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA 650 N1 650W Non-Modular",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "100-N1-0650-L1                                                    100-N1-0650-L2",
+      "100-N1-0650-L1"
+    ],
+    "series": "650",
+    "variant": "650W "
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B01LYRXRDI",
+    "newegg_sku": "N82E16817438106",
+    "walmart_sku": 103124335
+  }
+}

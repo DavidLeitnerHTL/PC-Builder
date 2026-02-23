@@ -1,0 +1,31 @@
+{
+  "opendb_id": "1cbbb5bb-dd71-4fef-8cb2-2271aa21b85f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax PlatiGemini Black 1200W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "EGN1200P"
+    ],
+    "series": "PlatiGemini",
+    "variant": "1200W Platinum"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

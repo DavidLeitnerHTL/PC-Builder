@@ -1,0 +1,35 @@
+{
+  "opendb_id": "da1773b7-ca1f-43ac-9235-24e781c2ceba",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 2,
+    "pcie_6_plus_2_pin": 10,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ADATA XPG FUSION 1600 ATX 1600W Fully Modular 80+ Titanium Certified",
+    "manufacturer": "ADATA",
+    "part_numbers": [
+      "FUSION1600T-BKCUS75261083",
+      "75261083"
+    ],
+    "series": "XPG",
+    "variant": "1600W Titanium"
+  },
+  "wattage": 1600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Titanium",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 210,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0C8447F53"
+  }
+}

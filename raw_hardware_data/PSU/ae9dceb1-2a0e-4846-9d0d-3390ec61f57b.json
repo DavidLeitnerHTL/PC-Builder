@@ -1,0 +1,36 @@
+{
+  "opendb_id": "ae9dceb1-2a0e-4846-9d0d-3390ec61f57b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Asus ROG Strix Black / Red 550W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "ROG-STRIX-550G                                                    90YE00A2-B0AA00                                                    90YE00A2-B0NA00                                                    90YE00A2-B0EA00",
+      "ROG-STRIX-550G"
+    ],
+    "series": "ROG",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08461YPSD",
+    "walmart_sku": 214431745
+  }
+}

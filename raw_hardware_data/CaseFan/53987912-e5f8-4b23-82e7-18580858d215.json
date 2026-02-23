@@ -1,0 +1,27 @@
+{
+  "opendb_id": "53987912-e5f8-4b23-82e7-18580858d215",
+  "metadata": {
+    "name": "YEYIAN Typhoon 36 CFM 120mm Black Blue 3-Pack",
+    "manufacturer": "YEYIAN",
+    "part_numbers": [],
+    "series": "Typhoon",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 36,
+  "max_airflow": null,
+  "min_noise_level": 23.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

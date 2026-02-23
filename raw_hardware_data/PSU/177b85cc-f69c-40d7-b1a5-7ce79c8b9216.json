@@ -1,0 +1,34 @@
+{
+  "opendb_id": "177b85cc-f69c-40d7-b1a5-7ce79c8b9216",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 10,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Fractal Design Ion+ 2 Platinum 760W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-P-IA2P-760                                                    FD-P-IA2P-760-UK                                                    FD-P-IA2P-760-AU                                                    FD-P-IA2P-760-EU",
+      "7340172702870"
+    ],
+    "series": "Ion+",
+    "variant": "760W Platinum"
+  },
+  "wattage": 760,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B094D36XMH"
+  }
+}

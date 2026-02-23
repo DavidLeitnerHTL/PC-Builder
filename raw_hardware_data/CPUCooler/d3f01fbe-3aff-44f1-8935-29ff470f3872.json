@@ -1,0 +1,38 @@
+{
+  "opendb_id": "d3f01fbe-3aff-44f1-8935-29ff470f3872",
+  "metadata": {
+    "name": "Xilence I250PWM Air 44.25 CFM Red / Black",
+    "manufacturer": "Xilence",
+    "part_numbers": [
+      "XC032                                                    I250PWM",
+      "XC032"
+    ],
+    "series": "I250PWM",
+    "variant": "Red / Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 800,
+  "max_fan_rpm": 2500,
+  "min_noise_level": 17.6,
+  "max_noise_level": 26.4,
+  "color": [
+    "RED",
+    "BLACK"
+  ],
+  "height": 70,
+  "cpu_sockets": [
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B01L6QMLE4"
+  }
+}

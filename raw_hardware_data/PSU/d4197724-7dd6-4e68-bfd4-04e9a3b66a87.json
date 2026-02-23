@@ -1,0 +1,32 @@
+{
+  "opendb_id": "d4197724-7dd6-4e68-bfd4-04e9a3b66a87",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group DAGGER PRO Black ATX3.0 SFX 850W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "SDA2-850",
+      "Gen5"
+    ],
+    "series": "DAGGER",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "de87eaf1-8858-4b0c-80f4-9348ba3b667e",
+  "metadata": {
+    "name": "Gelid Solutions Silent 140mm Black",
+    "manufacturer": "Gelid Solutions",
+    "part_numbers": [],
+    "series": "Silent",
+    "variant": "140mm Black"
+  },
+  "isOEM": false,
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 67.4,
+  "max_airflow": null,
+  "min_noise_level": 21,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.35,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

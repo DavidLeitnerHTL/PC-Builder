@@ -1,0 +1,34 @@
+{
+  "opendb_id": "4ae2ca64-ddbc-452a-94dc-f3798245b7be",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 2,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 9,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "In Win P130II Black ATX 1300W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "In Win",
+    "part_numbers": [
+      "IW-PS-PII1300W",
+      "P130II"
+    ],
+    "series": "P130II",
+    "variant": "1300W Platinum"
+  },
+  "wattage": 1300,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CJN2WHCM"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "opendb_id": "c07a7e9f-58cd-4ffc-9fac-8e5042e0947c",
+  "metadata": {
+    "name": "Seagate Constellation ES 1TB 3.5\" HDD 7200RPM SAS 3.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST31000424SS"
+    ],
+    "series": "Constellation",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SAS 3.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B003IT70KS",
+    "walmart_sku": 43323835
+  }
+}

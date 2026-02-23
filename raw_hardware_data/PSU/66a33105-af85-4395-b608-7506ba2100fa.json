@@ -1,0 +1,33 @@
+{
+  "opendb_id": "66a33105-af85-4395-b608-7506ba2100fa",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 1,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group FSP300-57FCB Black Flex ATX 300W Fully Modular 80+ Gold Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "FSP300-57FCB                                                    PPA3004302"
+    ],
+    "series": "FSP300-57FCB",
+    "variant": "300W Gold"
+  },
+  "wattage": 300,
+  "form_factor": "Flex ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "newegg_sku": "1HU-0095-00118"
+  }
+}

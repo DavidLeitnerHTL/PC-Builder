@@ -1,0 +1,36 @@
+{
+  "opendb_id": "7dcf701f-905a-4a9c-826e-760ad6608686",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Apex AG-M Black 750W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Apex",
+    "part_numbers": [
+      "AG-750M",
+      "AG-750M V2"
+    ],
+    "series": "AG-M",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0B1QBT9YN",
+    "newegg_sku": "9SIA17PKDX0361",
+    "walmart_sku": 2726520294
+  }
+}

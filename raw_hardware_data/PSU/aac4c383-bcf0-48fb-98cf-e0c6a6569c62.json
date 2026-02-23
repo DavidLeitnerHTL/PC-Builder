@@ -1,0 +1,31 @@
+{
+  "opendb_id": "aac4c383-bcf0-48fb-98cf-e0c6a6569c62",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 5,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower GF A3 ATX 3.0 1200W Fully Modular 80+ Gold",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-TPD-1200FNFAGA-H"
+    ],
+    "series": "Toughpower",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

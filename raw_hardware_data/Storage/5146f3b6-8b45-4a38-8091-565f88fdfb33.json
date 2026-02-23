@@ -1,0 +1,22 @@
+{
+  "opendb_id": "5146f3b6-8b45-4a38-8091-565f88fdfb33",
+  "metadata": {
+    "name": "Intel DC P3600 1.2TB SSD PCIe NVMe",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "SSDPEDME012T401",
+      "735858278232"
+    ],
+    "series": "DC",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "PCIe",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B00L0LFGQQ",
+    "walmart_sku": 41244593
+  }
+}

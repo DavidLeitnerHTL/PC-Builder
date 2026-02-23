@@ -1,0 +1,31 @@
+{
+  "opendb_id": "945d9565-e4f1-48c8-8e98-fd03c0c629bc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 9,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "YEYIAN Pegasus Black 1000W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "YEYIAN",
+    "part_numbers": [
+      "YFP-1K031-01"
+    ],
+    "series": "Pegasus",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "493a67fa-64f4-4ad4-ac2c-49b710164897",
+  "metadata": {
+    "name": "Fractal Design Prisma SL 140mm Black / White Blue LED",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-FAN-PRI-SL14-BU"
+    ],
+    "series": "Prisma",
+    "variant": "140mm Black / White"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 63.33,
+  "max_airflow": null,
+  "min_noise_level": 19.4,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.07,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07PJ6SS2Z"
+  }
+}

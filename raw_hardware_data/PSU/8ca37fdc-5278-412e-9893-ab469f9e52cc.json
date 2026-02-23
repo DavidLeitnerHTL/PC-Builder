@@ -1,0 +1,32 @@
+{
+  "opendb_id": "8ca37fdc-5278-412e-9893-ab469f9e52cc",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Xilence Performance A+ III Black / Red 550W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Xilence",
+    "part_numbers": [
+      "XN083"
+    ],
+    "series": "Performance",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

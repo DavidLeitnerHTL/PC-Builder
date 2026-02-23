@@ -1,0 +1,35 @@
+{
+  "opendb_id": "4ded278a-2251-4061-83f1-78f6abc0d227",
+  "metadata": {
+    "name": "Corsair ML120 PRO 120mm RGB PWM 47.3 CFM Black / White 3-Pack",
+    "manufacturer": "Corsair",
+    "series": "ML120",
+    "variant": "120mm Black / White",
+    "part_numbers": [
+      "CO-9050076-WW"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 47.3,
+  "max_airflow": null,
+  "min_noise_level": 25,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + Proprietary RGB",
+  "controller": "Manual",
+  "static_pressure": 1.78,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B076VD725X",
+    "newegg_sku": "9SIB8AKK9U2750",
+    "bestbuy_sku": 6351837,
+    "walmart_sku": 596093005
+  }
+}

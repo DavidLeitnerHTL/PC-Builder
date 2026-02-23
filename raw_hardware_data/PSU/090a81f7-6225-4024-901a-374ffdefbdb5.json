@@ -1,0 +1,36 @@
+{
+  "opendb_id": "090a81f7-6225-4024-901a-374ffdefbdb5",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 10,
+    "sata": 12,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ADATA XPG CYBERCORE II Black 1300W Fully Modular 80+ Platinum",
+    "manufacturer": "ADATA",
+    "part_numbers": [
+      "CYBERCOREII1300P-BKCUS                                                    CYBERCOREII1300P-BKCEU                                                    CYBERCOREII1300P-BKCAU                                                    CYBERCOREII1300P-BKCGB",
+      "CYBERCOREII1300P-BKCUS"
+    ],
+    "series": "XPG",
+    "variant": "1300W Platinum"
+  },
+  "wattage": 1300,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CB97PPVJ",
+    "newegg_sku": "1HU-022B-00058",
+    "walmart_sku": 1002350135
+  }
+}

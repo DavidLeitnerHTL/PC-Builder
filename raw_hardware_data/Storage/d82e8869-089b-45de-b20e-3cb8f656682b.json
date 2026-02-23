@@ -1,0 +1,21 @@
+{
+  "opendb_id": "d82e8869-089b-45de-b20e-3cb8f656682b",
+  "metadata": {
+    "name": "Western Digital WD Red Pro 20 TB 3.5\" HDD 7200RPM SATA 6.0 Gb/s",
+    "manufacturer": "Western Digital",
+    "part_numbers": [
+      "WD202KFGX"
+    ],
+    "series": "WD",
+    "variant": "20000GB"
+  },
+  "capacity": 20000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "cache": 512,
+  "nvme": false,
+  "general_product_information": {
+    "newegg_sku": "N82E16822234583"
+  }
+}

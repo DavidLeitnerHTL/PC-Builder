@@ -1,0 +1,33 @@
+{
+  "opendb_id": "d6def717-a398-4503-aaf2-cb3877c90aae",
+  "metadata": {
+    "name": "Thermaltake SWAFAN GT14 140mm Black PWM",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CL-F157-PL14BL-A"
+    ],
+    "series": "SWAFAN",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 54.71,
+  "max_airflow": 58.17,
+  "min_noise_level": 26.5,
+  "max_noise_level": 29.8,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 3.17,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CCPZCG4Z",
+    "newegg_sku": "N82E16835106745",
+    "walmart_sku": 5028896318
+  }
+}

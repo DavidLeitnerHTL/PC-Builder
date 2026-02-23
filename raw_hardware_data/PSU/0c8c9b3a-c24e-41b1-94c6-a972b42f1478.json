@@ -1,0 +1,29 @@
+{
+  "opendb_id": "0c8c9b3a-c24e-41b1-94c6-a972b42f1478",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Smart ATX 650W 80+ Bronze Certified Semi-Modular",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "SP-650M"
+    ],
+    "series": "Smart",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

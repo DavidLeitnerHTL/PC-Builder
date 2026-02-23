@@ -1,0 +1,37 @@
+{
+  "opendb_id": "0b180b6f-b5c8-48df-ae78-cdd1cf8afe6d",
+  "metadata": {
+    "name": "ARCTIC Freezer 11 LP Air Fluid Dynamic Bearing 53mm",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFZ11-LP                                                    UCACO-P2000000-BL",
+      "UCACO-P2000000-BL"
+    ],
+    "series": "Freezer",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 900,
+  "max_fan_rpm": 2000,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [],
+  "height": 53,
+  "cpu_sockets": [
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 775"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0037AKXKM",
+    "newegg_sku": "9SIA8UCK3V9480"
+  }
+}

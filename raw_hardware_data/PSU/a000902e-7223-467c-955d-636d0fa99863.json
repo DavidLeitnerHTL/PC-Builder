@@ -1,0 +1,33 @@
+{
+  "opendb_id": "a000902e-7223-467c-955d-636d0fa99863",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic PRIME 600 Titanium Black Fanless ATX 600W 80+ Titanium Certified Fully Modular",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "SSR-600TL"
+    ],
+    "series": "PRIME",
+    "variant": "600W Titanium"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Titanium",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 170,
+  "fanless": true,
+  "general_product_information": {
+    "amazon_sku": "B01N9OLE9X"
+  }
+}

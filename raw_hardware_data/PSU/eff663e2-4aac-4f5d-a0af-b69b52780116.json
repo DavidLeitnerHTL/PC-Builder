@@ -1,0 +1,31 @@
+{
+  "opendb_id": "eff663e2-4aac-4f5d-a0af-b69b52780116",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 12,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone DA1000R White ATX 1000W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-DA1000R-GM-WWW"
+    ],
+    "series": "DA1000R",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

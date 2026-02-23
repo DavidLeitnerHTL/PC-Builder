@@ -1,0 +1,57 @@
+{
+  "opendb_id": "536e31d4-f1a4-4936-897a-8866bcfb01e6",
+  "cores": {
+    "total": 24,
+    "threads": 32
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.2,
+      "boost": 6
+    },
+    "efficiency": {
+      "base": 2.4,
+      "boost": 4.4
+    }
+  },
+  "cache": {
+    "l2": 32,
+    "l3": 36
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 192,
+      "types": [
+        "DDR5",
+        "DDR4"
+      ]
+    },
+    "tdp": 125,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "7 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i9 14900KF 3.2 GHz 24-Core LGA1700",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX8071514900KF",
+      "Core™ i9-14900KF"
+    ],
+    "series": "Intel Core i9"
+  },
+  "series": "Intel Core i9",
+  "microarchitecture": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Lake Refresh",
+  "socket": "LGA 1700",
+  "general_product_information": {
+    "amazon_sku": "B0CGJDBCTK",
+    "newegg_sku": "N82E16819118464",
+    "walmart_sku": 5092025604
+  }
+}

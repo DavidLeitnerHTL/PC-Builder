@@ -1,0 +1,32 @@
+{
+  "opendb_id": "1b2f1607-28a5-494f-88b5-45b11b4e0c29",
+  "metadata": {
+    "name": "Thermaltake Thunderblade 120mm Black/Orange",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "AF0027"
+    ],
+    "series": "Thunderblade",
+    "variant": "120mm Black / Orange"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "ORANGE"
+  ],
+  "quantity": 1,
+  "min_airflow": 66.55,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": 33.5,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B003819MW0"
+  }
+}

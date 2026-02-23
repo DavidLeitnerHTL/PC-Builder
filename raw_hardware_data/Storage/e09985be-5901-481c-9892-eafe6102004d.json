@@ -1,0 +1,21 @@
+{
+  "opendb_id": "e09985be-5901-481c-9892-eafe6102004d",
+  "metadata": {
+    "name": "Klevv CRAS C925 1TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
+    "manufacturer": "Klevv",
+    "part_numbers": [
+      "K01TBM2SP0-C9T",
+      "C925"
+    ],
+    "series": "CRAS",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0D8PN4SK9"
+  }
+}

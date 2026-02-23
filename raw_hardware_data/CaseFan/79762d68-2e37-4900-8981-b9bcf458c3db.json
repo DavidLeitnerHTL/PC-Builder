@@ -1,0 +1,31 @@
+{
+  "opendb_id": "79762d68-2e37-4900-8981-b9bcf458c3db",
+  "metadata": {
+    "name": "Alpenföhn Wing Boost 3 120mm ARGB PWM 77.9 CFM 3-Pack",
+    "manufacturer": "Alpenföhn",
+    "part_numbers": [
+      "84000000163"
+    ],
+    "series": "Wing",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 77.9,
+  "max_airflow": null,
+  "min_noise_level": 36.8,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 3.24,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07T98JBZP"
+  }
+}

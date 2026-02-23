@@ -1,0 +1,48 @@
+{
+  "opendb_id": "650d2843-f8ba-4b48-913d-84f8acd314ab",
+  "metadata": {
+    "name": "Thermalright TRUE Spirit 140 Direct Air 161mm",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "TRUE Spirit 140 Direct                                                    TS-140D",
+      "True Spirit 140 Direct"
+    ],
+    "series": "TRUE",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 300,
+  "max_fan_rpm": 1300,
+  "min_noise_level": 15,
+  "max_noise_level": 21,
+  "color": [],
+  "height": 161,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066",
+    "LGA 775"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B01MQCK1PJ",
+    "walmart_sku": 802646114
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "opendb_id": "adf642ef-23df-4e8d-8cb3-8ab9ff815785",
+  "metadata": {
+    "name": "Seagate Exos X22 22TB HDD 3.5\" SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST22000NM001E"
+    ],
+    "series": "Exos",
+    "variant": "22000GB"
+  },
+  "capacity": 22000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0C3B2MVLJ",
+    "walmart_sku": 3766989963
+  }
+}

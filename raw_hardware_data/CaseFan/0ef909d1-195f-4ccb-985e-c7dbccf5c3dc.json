@@ -1,0 +1,33 @@
+{
+  "opendb_id": "0ef909d1-195f-4ccb-985e-c7dbccf5c3dc",
+  "metadata": {
+    "name": "Arctic P14 Pro Reverse ARGB Black",
+    "manufacturer": "ARCTIC",
+    "series": "P14 Pro",
+    "variant": "140mm Reverse White ARGB",
+    "part_numbers": [
+      "ACFAN00323A",
+      "4895265000607",
+      "840033403276"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "flow_direction": "Reverse",
+  "min_airflow": 0,
+  "max_airflow": 98,
+  "min_noise_level": 0,
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 5.1,
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0FJRXYCG3",
+    "manufacturer_url": "https://www.arctic.de/us/P14-Pro-Reverse-A-RGB/ACFAN00323A"
+  }
+}

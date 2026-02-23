@@ -1,0 +1,27 @@
+{
+  "opendb_id": "f163452d-5d63-431e-8dbc-d7565755561e",
+  "metadata": {
+    "name": "Thermaltake Riing 120mm Black RGB PWM 40.6 CFM 1-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [],
+    "series": "Riing",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 40.6,
+  "max_airflow": null,
+  "min_noise_level": 26.4,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "Proprietary PWM",
+  "controller": "Manual",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

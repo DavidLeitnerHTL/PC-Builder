@@ -1,0 +1,28 @@
+{
+  "opendb_id": "0ea63e65-b86d-42e5-a3df-845851f5d208",
+  "metadata": {
+    "name": "Rosewill RWCB-1612 120mm Black / Blue PWM Blue 63.1 CFM",
+    "manufacturer": "Rosewill",
+    "part_numbers": [],
+    "series": "RWCB-1612",
+    "variant": "120mm Black / Blue"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 63.1,
+  "max_airflow": null,
+  "min_noise_level": 6.9,
+  "max_noise_level": 26.2,
+  "pwm": true,
+  "led": "Blue",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

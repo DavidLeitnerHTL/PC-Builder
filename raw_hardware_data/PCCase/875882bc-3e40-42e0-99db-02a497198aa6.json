@@ -1,0 +1,39 @@
+{
+  "opendb_id": "875882bc-3e40-42e0-99db-02a497198aa6",
+  "metadata": {
+    "name": "KOLINK Observatory HF Mesh ARGB ATX Mid Tower White Tempered Glass",
+    "manufacturer": "KOLINK",
+    "part_numbers": [
+      "OBSERVATORY HF MW                                                    PGW-CH-KOL-112",
+      "OBSERVATORYHFMW"
+    ],
+    "series": "Observatory",
+    "variant": ""
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "WHITE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 2.0 Type-A",
+  "max_video_card_length": 330,
+  "max_cpu_cooler_height": null,
+  "internal_3_5_bays": 4,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 7,
+  "dimensions": "390 x 200 x 449",
+  "volume": 35.022,
+  "weight": null,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [],
+  "general_product_information": {
+    "amazon_sku": "B0CGYM2WL3"
+  }
+}

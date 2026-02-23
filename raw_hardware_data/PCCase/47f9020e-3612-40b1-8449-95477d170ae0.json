@@ -1,0 +1,36 @@
+{
+  "opendb_id": "47f9020e-3612-40b1-8449-95477d170ae0",
+  "metadata": {
+    "name": "GAMDIAS ATLAS P1 ATX Mid Tower Black Tempered Glass Side Panel",
+    "manufacturer": "GAMDIAS",
+    "part_numbers": [
+      "ATLAS P1"
+    ],
+    "series": "ATLAS",
+    "variant": ""
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.2 Gen 2 Type-C                                                    USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 455,
+  "max_cpu_cooler_height": null,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 8,
+  "dimensions": "480 x 245 x 500",
+  "volume": 58.8,
+  "weight": null,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [],
+  "general_product_information": {}
+}

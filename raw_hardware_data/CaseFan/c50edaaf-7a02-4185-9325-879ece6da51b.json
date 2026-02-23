@@ -1,0 +1,27 @@
+{
+  "opendb_id": "c50edaaf-7a02-4185-9325-879ece6da51b",
+  "metadata": {
+    "name": "be quiet! Shadow Wings 80mm Black PWM",
+    "manufacturer": "be quiet!",
+    "part_numbers": [],
+    "series": "Shadow",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 26,
+  "max_airflow": 44.1,
+  "min_noise_level": 16.6,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.25,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

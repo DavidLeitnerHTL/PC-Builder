@@ -1,0 +1,32 @@
+{
+  "opendb_id": "fbc4cebb-8835-45fb-8dfd-aab68921fe07",
+  "metadata": {
+    "name": "ARCTIC P14 Pro 140mm Black PWM PST 110 CFM 5-Pack",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00319A"
+    ],
+    "series": "P14",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 5,
+  "min_airflow": 110,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 6,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DPX94PSL",
+    "walmart_sku": 17763672315
+  }
+}

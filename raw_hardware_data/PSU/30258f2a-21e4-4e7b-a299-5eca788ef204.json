@@ -1,0 +1,37 @@
+{
+  "opendb_id": "30258f2a-21e4-4e7b-a299-5eca788ef204",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair HX1000i (2023) Black ATX 1000W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020259-NA                                                    CP-9020259-WW                                                    CP-9020259-EU                                                    CP-9020259-AU                                                    CP-9020259-UK                                                    CP-9020259-JP",
+      "CP-9020259-NA"
+    ],
+    "series": "HX1000i",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BZ2CRW8H",
+    "newegg_sku": "N82E16817139313",
+    "bestbuy_sku": 6544995,
+    "walmart_sku": 2213316363
+  }
+}

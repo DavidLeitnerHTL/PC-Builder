@@ -1,0 +1,31 @@
+{
+  "opendb_id": "4e3426f2-4a58-4ec5-8796-b0d00b36e47e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master Elite NEX White 500W Non-Modular 80+ Certified",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPW-5001-ACAW-B"
+    ],
+    "series": "Elite",
+    "variant": "500W 80+"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "9ed7fbe7-3aa1-46f1-b7fa-2d80183ec2a8",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master V ATX 750W Semi-Modular 80+ Gold Certified",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "RS-750-AMAA-G1"
+    ],
+    "series": "V",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

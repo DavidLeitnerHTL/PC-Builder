@@ -1,0 +1,31 @@
+{
+  "opendb_id": "bed11e05-783d-4562-ab4c-aa91895c26d7",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 7,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair CX650F Black ATX 650W Fully Modular 80+ Bronze Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020217-NA"
+    ],
+    "series": "CX650F",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

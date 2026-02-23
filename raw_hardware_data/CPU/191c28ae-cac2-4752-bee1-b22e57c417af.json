@@ -1,0 +1,48 @@
+{
+  "opendb_id": "191c28ae-cac2-4752-bee1-b22e57c417af",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 16
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.2,
+      "boost": 3.7
+    }
+  },
+  "cache": {
+    "l2": 2,
+    "l3": 20
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    },
+    "tdp": 140,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i7 6900K 3.2 GHz 8-Core OEM/Tray LGA2011-3",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8067102056010"
+    ],
+    "series": "Intel Core i7"
+  },
+  "series": "Intel Core i7",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell-E",
+  "socket": "LGA 2011-3",
+  "general_product_information": {
+    "amazon_sku": "B01GIO0SG2"
+  }
+}

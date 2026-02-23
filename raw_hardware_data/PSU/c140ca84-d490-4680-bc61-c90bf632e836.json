@@ -1,0 +1,34 @@
+{
+  "opendb_id": "c140ca84-d490-4680-bc61-c90bf632e836",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone DA750R-GMA Black 750W Fully Modular 80+ Gold",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-DA750R-GMA",
+      "SST-AX0750MCGD-C"
+    ],
+    "series": "DA750R-GMA",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CL5JS8TQ"
+  }
+}

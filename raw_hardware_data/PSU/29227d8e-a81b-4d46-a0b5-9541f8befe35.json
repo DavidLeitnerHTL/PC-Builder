@@ -1,0 +1,37 @@
+{
+  "opendb_id": "29227d8e-a81b-4d46-a0b5-9541f8befe35",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 9,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ADATA XPG Core Reactor II 1000W 80+ Gold Certified Fully Modular ATX",
+    "manufacturer": "ADATA",
+    "part_numbers": [
+      "COREREACTORII1000G-BKCUS                                                    COREREACTORII1000G-BKCAU                                                    COREREACTORII1000G-BKCEU",
+      "COREREACTORII1000G-BKCUS"
+    ],
+    "series": "XPG",
+    "variant": "1000W Gold"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CBQXGJ9F",
+    "newegg_sku": "N82E16817478008",
+    "walmart_sku": 2493195069,
+    "ibuypower_sku": "31435"
+  }
+}

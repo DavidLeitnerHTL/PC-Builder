@@ -1,0 +1,27 @@
+{
+  "opendb_id": "2a08eea2-50bc-4619-93cc-3636bed341d9",
+  "metadata": {
+    "name": "Apevia 14SL-RD 140mm Red Red LED",
+    "manufacturer": "Apevia",
+    "part_numbers": [],
+    "series": "14SL-RD",
+    "variant": "140mm Red"
+  },
+  "isOEM": false,
+  "size": 140,
+  "color": [
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 59.6,
+  "max_airflow": null,
+  "min_noise_level": 29.4,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

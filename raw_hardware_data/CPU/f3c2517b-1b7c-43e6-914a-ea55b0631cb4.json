@@ -1,0 +1,46 @@
+{
+  "opendb_id": "f3c2517b-1b7c-43e6-914a-ea55b0631cb4",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.5,
+      "boost": 3.5
+    }
+  },
+  "cache": {
+    "l2": 4,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon HD 8650D"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 45,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A10 6700T 2.5 GHz 4-Core FM2 OEM/Tray",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD670TYHA44HL"
+    ],
+    "series": "AMD A10"
+  },
+  "series": "AMD A10",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
+  "general_product_information": {}
+}

@@ -1,0 +1,46 @@
+{
+  "opendb_id": "517d7f4e-c219-4ccc-b294-51d1f46057d9",
+  "metadata": {
+    "name": "Thermaltake TOUGHAIR 110 Air 114mm 58.35 CFM Black / Silver",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CL-P073-AL12BL-A"
+    ],
+    "series": "TOUGHAIR",
+    "variant": "Black / Silver",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2000,
+  "min_noise_level": 23.6,
+  "max_noise_level": null,
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "height": 114,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B08XN5FKLQ",
+    "newegg_sku": "N82E16835106668",
+    "walmart_sku": 496115924
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "c6c1b767-62ff-4dc6-bc3b-761129c8179a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cougar GX-S ATX 650W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Cougar",
+    "part_numbers": [
+      "GX-S650"
+    ],
+    "series": "GX-S",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

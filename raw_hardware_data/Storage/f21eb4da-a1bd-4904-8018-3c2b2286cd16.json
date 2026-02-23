@@ -1,0 +1,22 @@
+{
+  "opendb_id": "f21eb4da-a1bd-4904-8018-3c2b2286cd16",
+  "metadata": {
+    "name": "Seagate FireCuda 4TB HDD 7200RPM 3.5\" SATA Internal",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST4000DX005",
+      "ST4000DXZ05"
+    ],
+    "series": "FireCuda",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B09SBKXNKL",
+    "walmart_sku": 2052243957
+  }
+}

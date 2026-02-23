@@ -1,0 +1,35 @@
+{
+  "opendb_id": "3e76c155-979e-4a37-b190-bd1951684250",
+  "metadata": {
+    "name": "Noctua NH-U12DXi4 Air 158mm 55 CFM",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NH-U12DXi4"
+    ],
+    "series": "NH-U12DXi4",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 300,
+  "max_fan_rpm": 1500,
+  "min_noise_level": 18.6,
+  "max_noise_level": 22.4,
+  "color": [],
+  "height": 158,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1366",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B00DWFQ42I",
+    "newegg_sku": "9SIAADYA5G6361"
+  }
+}

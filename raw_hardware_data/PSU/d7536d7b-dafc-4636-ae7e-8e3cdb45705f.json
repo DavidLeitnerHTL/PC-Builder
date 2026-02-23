@@ -1,0 +1,31 @@
+{
+  "opendb_id": "d7536d7b-dafc-4636-ae7e-8e3cdb45705f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 7,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SilentiumPC Vero L2 Black ATX 600W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "SilentiumPC",
+    "part_numbers": [
+      "SPC165"
+    ],
+    "series": "Vero",
+    "variant": "600W Bronze"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "ed5c3d54-a248-49a2-ad3c-ba981147a849",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Azza PSAZ-550W Black ATX 550W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Azza",
+    "part_numbers": [
+      "PSAZ-550W"
+    ],
+    "series": "PSAZ-550W",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B084RW7L6G",
+    "newegg_sku": "N82E16817517015"
+  }
+}

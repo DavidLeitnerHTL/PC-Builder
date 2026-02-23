@@ -1,0 +1,29 @@
+{
+  "opendb_id": "af8da82c-457b-4ca7-a3c9-423b867e891c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill Stallion ATX 400W Non-Modular",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "RD400-2-DB"
+    ],
+    "series": "Stallion",
+    "variant": "400W "
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

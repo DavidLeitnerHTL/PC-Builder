@@ -1,0 +1,27 @@
+{
+  "opendb_id": "ef8f0428-4ce2-44a8-9b1e-9d9e74f889ba",
+  "metadata": {
+    "name": "Thermaltake ISGC 24.4 CFM 80mm White",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [],
+    "series": "ISGC",
+    "variant": "80mm White"
+  },
+  "size": 80,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 24.4,
+  "max_airflow": null,
+  "min_noise_level": 18.2,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

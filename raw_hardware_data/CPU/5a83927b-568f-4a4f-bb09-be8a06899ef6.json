@@ -1,0 +1,48 @@
+{
+  "opendb_id": "5a83927b-568f-4a4f-bb09-be8a06899ef6",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3,
+      "boost": 3.5
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 8
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    },
+    "tdp": 72,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Xeon E3 E3-1220 V6 OEM/Tray 3 GHz 4-Core LGA1151",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8067702870812"
+    ],
+    "series": "Intel Xeon E3"
+  },
+  "series": "Intel Xeon E3",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake-S",
+  "socket": "LGA 1151",
+  "general_product_information": {
+    "amazon_sku": "B06Y3X16XD"
+  }
+}

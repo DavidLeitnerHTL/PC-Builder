@@ -1,0 +1,34 @@
+{
+  "opendb_id": "368bee26-122d-4449-87a1-5526d20abe19",
+  "metadata": {
+    "name": "Iceberg Thermal IceGALE 120mm Teal / White ARGB PWM 94 CFM 3-Pack",
+    "manufacturer": "Iceberg Thermal",
+    "part_numbers": [
+      "ICEGALE12A-A3A",
+      "ICEGALE12A-X0A"
+    ],
+    "series": "IceGALE",
+    "variant": "120mm Teal / White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE",
+    "BLUE"
+  ],
+  "quantity": 3,
+  "min_airflow": 94,
+  "max_airflow": null,
+  "min_noise_level": 0,
+  "max_noise_level": 38,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "Proprietary PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 3.27,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08XK5QDGR",
+    "newegg_sku": "1YF-0184-00041"
+  }
+}

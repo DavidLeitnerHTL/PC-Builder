@@ -1,0 +1,29 @@
+{
+  "opendb_id": "f082eb8f-8e8d-4404-95f5-f5568a424f2e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Raidmax Vampire 700W Semi-Modular 80+ Gold Certified ATX",
+    "manufacturer": "Raidmax",
+    "part_numbers": [
+      "RX-700GH"
+    ],
+    "series": "Vampire",
+    "variant": "700W Gold"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

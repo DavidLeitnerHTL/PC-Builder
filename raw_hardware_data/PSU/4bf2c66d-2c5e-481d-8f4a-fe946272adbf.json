@@ -1,0 +1,33 @@
+{
+  "opendb_id": "4bf2c66d-2c5e-481d-8f4a-fe946272adbf",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MAG A850GN PCIE5 Black 850W Non-Modular 80+ Gold Certified",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MAG A850GN PCIE5"
+    ],
+    "series": "MAG",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "newegg_sku": "1HU-001W-000G8"
+  }
+}

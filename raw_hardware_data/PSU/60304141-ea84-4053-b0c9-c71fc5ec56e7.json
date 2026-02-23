@@ -1,0 +1,29 @@
+{
+  "opendb_id": "60304141-ea84-4053-b0c9-c71fc5ec56e7",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "LEPA MaxBron ATX 800W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "LEPA",
+    "part_numbers": [
+      "B800-MB"
+    ],
+    "series": "MaxBron",
+    "variant": "800W Bronze"
+  },
+  "wattage": 800,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,20 @@
+{
+  "opendb_id": "10ade466-77db-4b15-9fa8-4c29ffd1af67",
+  "metadata": {
+    "name": "ADATA XPG SX6000 Pro 1TB SSD M.2-2280 PCIe 3.0 X4 NVMe",
+    "manufacturer": "ADATA",
+    "part_numbers": [
+      "ASX6000PNP-1TT-C"
+    ],
+    "series": "XPG",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B07H52ML35"
+  }
+}

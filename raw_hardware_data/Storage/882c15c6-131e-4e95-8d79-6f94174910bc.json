@@ -1,0 +1,21 @@
+{
+  "opendb_id": "882c15c6-131e-4e95-8d79-6f94174910bc",
+  "metadata": {
+    "name": "Seagate Exos 7E8 512e 8TB Internal HDD 7200RPM 3.5\" SATA 6.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST8000NM004A"
+    ],
+    "series": "Exos",
+    "variant": "8000GB"
+  },
+  "capacity": 8000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07SRVV5JJ",
+    "walmart_sku": 982585243
+  }
+}

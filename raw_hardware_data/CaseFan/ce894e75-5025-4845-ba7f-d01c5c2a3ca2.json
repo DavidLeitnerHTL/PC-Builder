@@ -1,0 +1,31 @@
+{
+  "opendb_id": "ce894e75-5025-4845-ba7f-d01c5c2a3ca2",
+  "metadata": {
+    "name": "HAVN H14 White",
+    "manufacturer": "HAVN",
+    "part_numbers": [
+      "HVN-FS-H1430-01"
+    ],
+    "series": "H",
+    "variant": "14 WHITE",
+    "releaseYear": 2025,
+    "last_manually_spec_verified_at": "2025-10-07T16:12:27.986Z"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 0,
+  "max_airflow": 85.18,
+  "min_noise_level": 0,
+  "max_noise_level": 30.8,
+  "pwm": true,
+  "static_pressure": 2.19,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0FSLCKK13",
+    "manufacturer_url": "https://havn.global/products/havn-h14-pc-case-fan?variant=56269577486720"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "opendb_id": "6cc6ffb4-881f-4ef6-8975-30c842faa4bd",
+  "metadata": {
+    "name": "Seagate IronWolf 1TB HDD 5400RPM 3.5\" SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST1000VN008"
+    ],
+    "series": "IronWolf",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0BPMJBB84",
+    "walmart_sku": 1569677959
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "opendb_id": "686841ce-0c4d-4b7e-ae30-3be37164b3b6",
+  "cores": {
+    "total": 2,
+    "performance": 2,
+    "threads": 2
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.2,
+      "boost": 3.4
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 0
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon HD 7480D"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "AMD A4 A4-4020 3.2 GHz 2-Core FM2 OEM/Tray",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "AD4020OKA23HL"
+    ],
+    "series": "AMD A4"
+  },
+  "series": "AMD A4",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
+  "general_product_information": {}
+}

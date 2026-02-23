@@ -1,0 +1,20 @@
+{
+  "opendb_id": "19456d3f-9323-46a5-9cce-7db3454eff3e",
+  "metadata": {
+    "name": "Klevv CRAS C910 1TB SSD M.2 PCIe 4.0 NVMe",
+    "manufacturer": "Klevv",
+    "part_numbers": [
+      "K01TBM2SP0-C91"
+    ],
+    "series": "CRAS",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0CBSSC21F"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "e3d7d286-efd5-4aa1-b7c2-78177d46c5d3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Deepcool PN650D White 650W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "R-PN650D-FC0W-US                                                    R-PN650D-FC0W-UK                                                    R-PN650D-FC0W-EU                                                    R-PN650D-FC0W-WO                                                    PN650D WH"
+    ],
+    "series": "PN650D",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

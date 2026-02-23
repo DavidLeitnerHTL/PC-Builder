@@ -1,0 +1,29 @@
+{
+  "opendb_id": "a54f02fe-dc8c-4f54-a1b0-0871fe48c1c4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 4,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake TR2 ATX 450W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-TR2-0450NPCGUS-G"
+    ],
+    "series": "TR2",
+    "variant": "450W Gold"
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

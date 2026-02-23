@@ -1,0 +1,29 @@
+{
+  "opendb_id": "37323b4c-a9b9-4adc-b1c1-bea3d3a02bb5",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax TRIATHLOR ECO 800W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "ETL800EWT-M"
+    ],
+    "series": "TRIATHLOR",
+    "variant": "800W Bronze"
+  },
+  "wattage": 800,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

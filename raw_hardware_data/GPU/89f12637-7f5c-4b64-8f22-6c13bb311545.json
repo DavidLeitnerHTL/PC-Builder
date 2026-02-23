@@ -1,0 +1,52 @@
+{
+  "opendb_id": "89f12637-7f5c-4b64-8f22-6c13bb311545",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Gigabyte AERO OC GeForce RTX 4070 12GB GDDR6X White / Silver",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GV-N4070AERO OC-12GD"
+    ],
+    "series": "GeForce RTX 4070",
+    "variant": "Gigabyte"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 4070",
+  "memory": 12,
+  "memory_type": "GDDR6X",
+  "core_base_clock": 1920,
+  "core_boost_clock": 2565,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
+  "length": 300,
+  "tdp": 200,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c71c865ad0c3553eb338"
+  },
+  "core_count": 5888,
+  "general_product_information": {
+    "amazon_sku": "B0BZHFLRLM",
+    "newegg_sku": "N82E16814932608",
+    "bestbuy_sku": 6539988,
+    "walmart_sku": 1217128520
+  }
+}

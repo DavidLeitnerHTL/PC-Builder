@@ -1,0 +1,29 @@
+{
+  "opendb_id": "09c92231-5a4f-4a2c-897c-8d5e7ea1db80",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 9,
+    "molex_4_pin": 9,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "CoolMax CUQ-1350B ATX 1350W Non-Modular 80+ Certified",
+    "manufacturer": "CoolMax",
+    "part_numbers": [
+      "CUQ-1350B"
+    ],
+    "series": "CUQ-1350B",
+    "variant": "1350W 80+"
+  },
+  "wattage": 1350,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 218,
+  "fanless": false,
+  "general_product_information": {}
+}

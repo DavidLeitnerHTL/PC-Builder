@@ -1,0 +1,35 @@
+{
+  "opendb_id": "fdb2bb5e-c7e6-4865-a8f5-8e9126c05d64",
+  "metadata": {
+    "name": "Corsair iCUE LINK QX120 RGB Starter Kit 120mm RGB PWM 63.1 CFM Black 3-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9051002-WW"
+    ],
+    "series": "iCUE",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 16.44,
+  "max_airflow": 63.1,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "Proprietary PWM",
+  "controller": "USB",
+  "static_pressure": 3.8,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0C64WLQSK",
+    "newegg_sku": "N82E16835181359",
+    "bestbuy_sku": 6549154,
+    "walmart_sku": 1422781184,
+    "ibuypower_sku": "29333"
+  }
+}

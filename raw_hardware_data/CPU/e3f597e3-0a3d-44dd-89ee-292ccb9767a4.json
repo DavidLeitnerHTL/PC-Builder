@@ -1,0 +1,48 @@
+{
+  "opendb_id": "e3f597e3-0a3d-44dd-89ee-292ccb9767a4",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 16
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.4,
+      "boost": 3.1
+    }
+  },
+  "cache": {
+    "l2": 2,
+    "l3": 20
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 115,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E5 2665 2.4 GHz 8-Core LGA2011",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80621E52665"
+    ],
+    "series": "Intel Xeon E5"
+  },
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Sandy Bridge",
+  "coreFamily": "Sandy Bridge-EP",
+  "socket": "LGA 2011",
+  "general_product_information": {
+    "amazon_sku": "B007H29F28"
+  }
+}

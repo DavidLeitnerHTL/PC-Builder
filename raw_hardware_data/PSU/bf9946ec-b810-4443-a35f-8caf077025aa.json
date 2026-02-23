@@ -1,0 +1,32 @@
+{
+  "opendb_id": "bf9946ec-b810-4443-a35f-8caf077025aa",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec Earthwatts 500W Non-Modular 80+ Bronze Certified ATX",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "EA-500D Green",
+      "EA-550 GREEN"
+    ],
+    "series": "Earthwatts",
+    "variant": "500W Bronze"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B002VLYKDO"
+  }
+}

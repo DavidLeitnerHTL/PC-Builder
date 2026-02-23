@@ -1,0 +1,33 @@
+{
+  "opendb_id": "c9e626b8-cbfd-4f58-80b3-41c0c7b6b5d0",
+  "metadata": {
+    "name": "Fractal Design Silent R3 50mm Black / White 6.8 CFM",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-FAN-SSR3-50-WT"
+    ],
+    "series": "Silent",
+    "variant": "50mm Black / White"
+  },
+  "size": 50,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 6.8,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.41,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00TYN3O0C",
+    "walmart_sku": 45819573
+  }
+}

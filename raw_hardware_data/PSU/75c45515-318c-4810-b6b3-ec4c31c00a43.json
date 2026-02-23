@@ -1,0 +1,32 @@
+{
+  "opendb_id": "75c45515-318c-4810-b6b3-ec4c31c00a43",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 5,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "GAMDIAS ASTRAPE M1 B Black / Multicolor ATX 750W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "GAMDIAS",
+    "part_numbers": [
+      "ASTRAPE M1-750B                                                    M1-750B"
+    ],
+    "series": "ASTRAPE",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "RGB"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

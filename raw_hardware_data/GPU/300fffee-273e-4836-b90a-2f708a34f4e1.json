@@ -1,0 +1,53 @@
+{
+  "opendb_id": "300fffee-273e-4836-b90a-2f708a34f4e1",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 1,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "MSI GAMING X SLIM GeForce RTX 4070 Ti SUPER 16GB GDDR6X White / Silver",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "RTX 4070 Ti SUPER 16G GAMING X SLIM WHITEGeForce RTX 4070 Ti SUPER 16G GAMING X SLIM WHITEV513-626R912-V513-613",
+      "GeForce RTX 4070 Ti SUPER 16G GAMING X",
+      "G407TS16GXS"
+    ],
+    "series": "GeForce RTX 4070 Ti SUPER",
+    "variant": "MSI"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 4070 Ti SUPER",
+  "memory": 16,
+  "memory_type": "GDDR6X",
+  "core_base_clock": 2340,
+  "core_boost_clock": 2685,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
+  "length": 307,
+  "tdp": 285,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f99e7f865ad0c3553c414d"
+  },
+  "core_count": 8448,
+  "general_product_information": {
+    "amazon_sku": "B0CSGCTMT2",
+    "newegg_sku": "N82E16814137855",
+    "walmart_sku": 5283097814
+  }
+}

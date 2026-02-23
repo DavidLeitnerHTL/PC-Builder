@@ -1,0 +1,46 @@
+{
+  "opendb_id": "8bee943b-fbf9-4a79-8eca-57014707ba44",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 16
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.4,
+      "boost": 5
+    }
+  },
+  "cache": {
+    "l2": 2,
+    "l3": 16
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel HD Graphics P630"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    },
+    "tdp": 80,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E 2278G 3.4 GHz 8-Core LGA1151",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CM8068404225303"
+    ],
+    "series": "Intel Xeon E"
+  },
+  "series": "Intel Xeon E",
+  "microarchitecture": "Coffee Lake Refresh",
+  "coreFamily": "Coffee Lake Refresh",
+  "socket": "LGA 1151",
+  "general_product_information": {}
+}

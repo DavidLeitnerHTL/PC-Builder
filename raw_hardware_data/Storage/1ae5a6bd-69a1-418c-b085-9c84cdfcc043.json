@@ -1,0 +1,21 @@
+{
+  "opendb_id": "1ae5a6bd-69a1-418c-b085-9c84cdfcc043",
+  "metadata": {
+    "name": "Seagate Pulsar.2 800GB SSD 2.5\" SAS 6.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST800FM0002",
+      "ST800FM002"
+    ],
+    "series": "Pulsar.2",
+    "variant": "800GB"
+  },
+  "capacity": 800,
+  "type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "SAS 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0089V4Y3G"
+  }
+}

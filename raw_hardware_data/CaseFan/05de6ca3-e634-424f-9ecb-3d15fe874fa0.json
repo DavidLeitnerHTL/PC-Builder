@@ -1,0 +1,33 @@
+{
+  "opendb_id": "05de6ca3-e634-424f-9ecb-3d15fe874fa0",
+  "metadata": {
+    "name": "Corsair RS120 120mm White ARGB PWM 3-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050185-WW"
+    ],
+    "series": "RS120",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 13.3,
+  "max_airflow": 72.8,
+  "min_noise_level": 10,
+  "max_noise_level": 36,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 4.15,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D49PNMBD",
+    "newegg_sku": "N82E16835181442",
+    "bestbuy_sku": 6595160
+  }
+}

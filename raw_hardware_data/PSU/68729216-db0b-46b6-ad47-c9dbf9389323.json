@@ -1,0 +1,34 @@
+{
+  "opendb_id": "68729216-db0b-46b6-ad47-c9dbf9389323",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake TR2 500W Non-Modular",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "TR-500",
+      "TR2-500W",
+      "TR-500CUS"
+    ],
+    "series": "TR2",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0058FAYQC",
+    "walmart_sku": 170691356
+  }
+}

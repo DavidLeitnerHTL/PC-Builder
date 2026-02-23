@@ -1,0 +1,57 @@
+{
+  "opendb_id": "41a8238b-049f-46db-a304-0c8ece1a8d73",
+  "cores": {
+    "total": 12,
+    "threads": 20
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.6,
+      "boost": 5
+    },
+    "efficiency": {
+      "base": 2.7,
+      "boost": 3.8
+    }
+  },
+  "cache": {
+    "l2": 12,
+    "l3": 25
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "Intel UHD Graphics 770"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": [
+        "DDR5",
+        "DDR4"
+      ]
+    },
+    "tdp": 125,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "10 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i7 12700K 3.6 GHz 12-Core LGA1700",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX8071512700K"
+    ],
+    "series": "Intel Core i7"
+  },
+  "series": "Intel Core i7",
+  "microarchitecture": "Alder Lake",
+  "coreFamily": "Alder Lake",
+  "socket": "LGA 1700",
+  "general_product_information": {
+    "amazon_sku": "B09FXNVDBJ",
+    "newegg_sku": "N82E16819118343",
+    "bestbuy_sku": 6483672,
+    "walmart_sku": 896226361
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "opendb_id": "dad9c9fc-85cc-4cc0-8564-53d3d2996509",
+  "modules": {
+    "quantity": 2,
+    "capacity_gb": 16
+  },
+  "metadata": {
+    "name": "Klevv CRAS V RGB White DDR5-6400 CL32 32GB (2x16GB)",
+    "manufacturer": "Klevv",
+    "part_numbers": [
+      "KD5AGUA80-64A320J"
+    ],
+    "series": "CRAS",
+    "variant": "6400 CL32",
+    "last_manually_spec_verified_at": "2025-12-04T21:46:26.570Z"
+  },
+  "speed": 6400,
+  "ram_type": "DDR5",
+  "form_factor": "288-pin DIMM",
+  "capacity": 32,
+  "color": [
+    "WHITE"
+  ],
+  "cas_latency": 32,
+  "timings": "32-38-38-78",
+  "voltage": null,
+  "ecc": "Non-ECC",
+  "registered": "Unbuffered",
+  "heat_spreader": true,
+  "rgb": true,
+  "profile_support": [],
+  "general_product_information": {
+    "amazon_sku": "‎B0CS5BV3PN",
+    "manufacturer_url": "https://www.klevv.com/ken/products_details/memory/Klevv_CrasVRGB"
+  }
+}

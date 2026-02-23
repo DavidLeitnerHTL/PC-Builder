@@ -1,0 +1,31 @@
+{
+  "opendb_id": "0a9ccd25-6f86-4dc0-b78e-1e0e9e3d88ad",
+  "metadata": {
+    "name": "Thermalright TL-B14W EXTREM 140mm White PWM 110.4 CFM",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "TL-B14W EXTREM"
+    ],
+    "series": "TL-B14W",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 110.4,
+  "max_airflow": null,
+  "min_noise_level": 31.4,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 3.02,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BXRNFXVK"
+  }
+}

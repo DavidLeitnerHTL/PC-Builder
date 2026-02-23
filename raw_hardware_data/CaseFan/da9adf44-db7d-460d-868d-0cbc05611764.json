@@ -1,0 +1,28 @@
+{
+  "opendb_id": "da9adf44-db7d-460d-868d-0cbc05611764",
+  "metadata": {
+    "name": "MagniumGear Skiron 120mm Black / White PWM Addressable RGB 50 CFM",
+    "manufacturer": "MagniumGear",
+    "part_numbers": [],
+    "series": "Skiron",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 50,
+  "max_airflow": null,
+  "min_noise_level": 29,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

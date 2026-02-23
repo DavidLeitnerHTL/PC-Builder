@@ -1,0 +1,28 @@
+{
+  "opendb_id": "71665f12-1fbe-4e9b-9a7b-f97801c54cff",
+  "metadata": {
+    "name": "ID-COOLING XF-12025-RGB 120mm Black / White RGB PWM 74.5 CFM 1-Pack",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "XF-12025-RGB",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 74.5,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": 35.2,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 2.15,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

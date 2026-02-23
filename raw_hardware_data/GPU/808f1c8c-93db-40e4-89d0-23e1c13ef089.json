@@ -1,0 +1,45 @@
+{
+  "opendb_id": "808f1c8c-93db-40e4-89d0-23e1c13ef089",
+  "power_connectors": {
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "EVGA Black GeForce GTX 1660 6GB GDDR5 Black",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "06G-P4-1160-KR"
+    ],
+    "series": "GeForce GTX 1660",
+    "variant": "EVGA"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce GTX 1660",
+  "memory": 6,
+  "memory_type": "GDDR5",
+  "core_base_clock": 1530,
+  "core_boost_clock": 1785,
+  "effective_memory_clock": 8000,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 190,
+  "tdp": 120,
+  "total_slot_width": 3,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 1,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 1,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c7d2865ad0c3553ebeb2"
+  },
+  "general_product_information": {}
+}

@@ -1,0 +1,28 @@
+{
+  "opendb_id": "3f8a3eef-2097-4db4-b22e-a451f18fd1cb",
+  "metadata": {
+    "name": "Fractal Design Venturi HP 120mm Black/White PWM",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [],
+    "series": "Venturi",
+    "variant": "120mm Black / White"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 61.4,
+  "max_airflow": null,
+  "min_noise_level": 31.7,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.3,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

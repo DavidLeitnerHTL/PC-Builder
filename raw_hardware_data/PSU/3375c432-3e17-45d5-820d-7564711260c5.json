@@ -1,0 +1,31 @@
+{
+  "opendb_id": "3375c432-3e17-45d5-820d-7564711260c5",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "1STPLAYER NGDP White 850W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "1STPLAYER",
+    "part_numbers": [
+      "NGDP-GLD-850-WH-US"
+    ],
+    "series": "NGDP",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

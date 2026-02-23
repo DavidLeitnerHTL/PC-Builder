@@ -1,0 +1,27 @@
+{
+  "opendb_id": "c6619853-1e9d-494c-936a-3a327c3b3a2b",
+  "metadata": {
+    "name": "Enermax Twister Storm 120mm Black 154.53 CFM",
+    "manufacturer": "Enermax",
+    "part_numbers": [],
+    "series": "Twister",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 72.46,
+  "max_airflow": 154.53,
+  "min_noise_level": 23,
+  "max_noise_level": 38,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 66.98,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

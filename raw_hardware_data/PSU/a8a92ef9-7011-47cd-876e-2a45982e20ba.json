@@ -1,0 +1,31 @@
+{
+  "opendb_id": "a8a92ef9-7011-47cd-876e-2a45982e20ba",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill CFZ Black 750W Semi-Modular 80+ Bronze Certified ATX",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "CFZ750"
+    ],
+    "series": "CFZ",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,33 @@
+{
+  "opendb_id": "9120831f-215e-4e54-8028-2402d97015e6",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SAMA GT White ATX 650W Fully Modular 80+ Gold Certified",
+    "manufacturer": "SAMA",
+    "part_numbers": [
+      "GT650-WHGFFXX1-US"
+    ],
+    "series": "GT",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "newegg_sku": "1HU-02S6-00063"
+  }
+}

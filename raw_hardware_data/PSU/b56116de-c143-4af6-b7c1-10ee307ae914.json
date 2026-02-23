@@ -1,0 +1,31 @@
+{
+  "opendb_id": "b56116de-c143-4af6-b7c1-10ee307ae914",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "PREYON Eagle Power Gaming 750W Fully Modular 80+ Gold Certified",
+    "manufacturer": "PREYON",
+    "part_numbers": [
+      "PEPG750W"
+    ],
+    "series": "Eagle",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

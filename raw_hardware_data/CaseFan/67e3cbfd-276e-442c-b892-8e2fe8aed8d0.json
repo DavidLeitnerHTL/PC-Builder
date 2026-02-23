@@ -1,0 +1,31 @@
+{
+  "opendb_id": "67e3cbfd-276e-442c-b892-8e2fe8aed8d0",
+  "metadata": {
+    "name": "Corsair ML140 120mm LED White PWM ELITE Premium 82.9 CFM Black",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050124-WW"
+    ],
+    "series": "ML140",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 15,
+  "max_airflow": 82.9,
+  "min_noise_level": 10,
+  "max_noise_level": 31.8,
+  "pwm": true,
+  "led": "White",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.06,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09HF6JF3Y"
+  }
+}

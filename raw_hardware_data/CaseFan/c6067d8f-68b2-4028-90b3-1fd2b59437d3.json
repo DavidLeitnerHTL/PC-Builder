@@ -1,0 +1,32 @@
+{
+  "opendb_id": "c6067d8f-68b2-4028-90b3-1fd2b59437d3",
+  "metadata": {
+    "name": "Corsair iCUE AF120 120mm RGB PWM SLIM 56.3 CFM Black",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050162-WW"
+    ],
+    "series": "iCUE",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 13.4,
+  "max_airflow": 56.3,
+  "min_noise_level": 27.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + Proprietary RGB",
+  "controller": "None",
+  "static_pressure": 1.9,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0C18WSVTT",
+    "walmart_sku": 1203867695
+  }
+}

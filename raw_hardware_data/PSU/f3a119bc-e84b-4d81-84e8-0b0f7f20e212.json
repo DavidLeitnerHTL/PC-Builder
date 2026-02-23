@@ -1,0 +1,29 @@
+{
+  "opendb_id": "f3a119bc-e84b-4d81-84e8-0b0f7f20e212",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill VALENS-700 ATX 700W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "VALENS-700"
+    ],
+    "series": "VALENS-700",
+    "variant": "700W Gold"
+  },
+  "wattage": 700,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

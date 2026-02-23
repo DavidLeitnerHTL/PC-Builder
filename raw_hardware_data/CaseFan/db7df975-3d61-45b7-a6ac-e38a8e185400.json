@@ -1,0 +1,31 @@
+{
+  "opendb_id": "db7df975-3d61-45b7-a6ac-e38a8e185400",
+  "metadata": {
+    "name": "ID-COOLING AF-125 120mm White 78.25 CFM PWM 3-Pack",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [
+      "AF-125-W TRIO"
+    ],
+    "series": "AF-125",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 78.25,
+  "max_airflow": null,
+  "min_noise_level": 29.85,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.68,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CFPYDJ6F"
+  }
+}

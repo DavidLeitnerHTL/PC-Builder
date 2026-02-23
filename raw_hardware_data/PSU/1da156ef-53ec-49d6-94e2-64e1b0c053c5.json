@@ -1,0 +1,32 @@
+{
+  "opendb_id": "1da156ef-53ec-49d6-94e2-64e1b0c053c5",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "PC Power & Cooling PM0600 Black / Red ATX 600W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "PC Power & Cooling",
+    "part_numbers": [
+      "FPS0600-A2S00"
+    ],
+    "series": "PM0600",
+    "variant": "600W Bronze"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

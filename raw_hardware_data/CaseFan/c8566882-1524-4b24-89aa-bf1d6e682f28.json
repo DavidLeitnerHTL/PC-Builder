@@ -1,0 +1,32 @@
+{
+  "opendb_id": "c8566882-1524-4b24-89aa-bf1d6e682f28",
+  "metadata": {
+    "name": "Cooler Master SickleFlow 92mm Black PWM",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MFX-B9NN-23NPK-R1"
+    ],
+    "series": "SickleFlow",
+    "variant": "92mm Black"
+  },
+  "size": 92,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": null,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08FW76FVM",
+    "walmart_sku": 768282645
+  }
+}

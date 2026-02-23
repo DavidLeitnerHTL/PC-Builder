@@ -1,0 +1,31 @@
+{
+  "opendb_id": "b2538aea-4d3a-4fe3-b404-c8f979ff35f2",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 7,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SilentiumPC Supremo L2 V2 Black 550W Non-Modular 80+ Gold",
+    "manufacturer": "SilentiumPC",
+    "part_numbers": [
+      "SPC139"
+    ],
+    "series": "Supremo",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

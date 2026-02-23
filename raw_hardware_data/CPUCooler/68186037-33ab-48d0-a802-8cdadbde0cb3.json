@@ -1,0 +1,43 @@
+{
+  "opendb_id": "68186037-33ab-48d0-a802-8cdadbde0cb3",
+  "metadata": {
+    "name": "Cooler Master Hyper 212 Air 163mm LED Turbo 66.3 CFM Red",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "RR-212TR-16PR-R1"
+    ],
+    "series": "Hyper",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 300,
+  "max_fan_rpm": 1600,
+  "min_noise_level": 9,
+  "max_noise_level": 31,
+  "color": [],
+  "height": 163,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 2011",
+    "LGA 2066",
+    "LGA 775"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B06VWX2QLT",
+    "newegg_sku": "9SIAGBAHPD6978"
+  }
+}

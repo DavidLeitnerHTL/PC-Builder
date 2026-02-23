@@ -1,0 +1,27 @@
+{
+  "opendb_id": "cce3a271-b242-4d35-ad0c-045ede797ab2",
+  "metadata": {
+    "name": "Antec True Quiet 120mm White White LED",
+    "manufacturer": "Antec",
+    "part_numbers": [],
+    "series": "True",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.2,
+  "max_airflow": 35.3,
+  "min_noise_level": 8.9,
+  "max_noise_level": 19.89,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

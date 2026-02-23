@@ -1,0 +1,31 @@
+{
+  "opendb_id": "ff2e146e-1e0d-4454-b1c2-9c3f022fe422",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Super Flower Leadex III Gold 550W Fully Modular 80+ Gold",
+    "manufacturer": "Super Flower",
+    "part_numbers": [
+      "SF-550F14HG"
+    ],
+    "series": "Leadex",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

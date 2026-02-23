@@ -1,0 +1,32 @@
+{
+  "opendb_id": "ca3a1947-4d2e-4cad-919c-02ec0998519c",
+  "metadata": {
+    "name": "ARCTIC F12 120mm White PWM",
+    "manufacturer": "ARCTIC",
+    "series": "F12",
+    "variant": "120mm White",
+    "part_numbers": [
+      "ACFAN00198A"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 53,
+  "max_airflow": null,
+  "min_noise_level": 22.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08PZH6QT8",
+    "walmart_sku": 880936485
+  }
+}

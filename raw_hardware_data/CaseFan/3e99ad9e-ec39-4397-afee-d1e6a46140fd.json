@@ -1,0 +1,28 @@
+{
+  "opendb_id": "3e99ad9e-ec39-4397-afee-d1e6a46140fd",
+  "metadata": {
+    "name": "GameMax Eclipse 120mm Black / White RGB",
+    "manufacturer": "GameMax",
+    "series": "Eclipse",
+    "variant": "120mm Black / White",
+    "part_numbers": []
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 43.2,
+  "max_airflow": null,
+  "min_noise_level": 25.88,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Multicolor",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

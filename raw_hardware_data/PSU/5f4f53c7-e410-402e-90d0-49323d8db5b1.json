@@ -1,0 +1,32 @@
+{
+  "opendb_id": "5f4f53c7-e410-402e-90d0-49323d8db5b1",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Kuroutoshikou KRPW-BR650W/85+ Black ATX 650W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Kuroutoshikou",
+    "part_numbers": [
+      "KRPW-BR650W",
+      "85+"
+    ],
+    "series": "KRPW-BR650W/85+",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

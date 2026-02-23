@@ -1,0 +1,47 @@
+{
+  "opendb_id": "e4bcf00b-972d-4c9c-b6b3-a23114364185",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "EVGA Superclocked GeForce GTX 750 Ti 2GB GDDR5 Black / Silver",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "02G-P4-3753-KR"
+    ],
+    "series": "GeForce GTX 750 Ti",
+    "variant": "EVGA"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce GTX 750 Ti",
+  "memory": 2,
+  "memory_type": "GDDR5",
+  "core_base_clock": 1176,
+  "core_boost_clock": 1255,
+  "effective_memory_clock": 5400,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 170,
+  "tdp": 60,
+  "total_slot_width": 2,
+  "cooling": "1 Fan",
+  "video_outputs": {
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 1,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 1,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c5d0865ad0c3553e9e74"
+  },
+  "core_count": 0,
+  "general_product_information": {}
+}

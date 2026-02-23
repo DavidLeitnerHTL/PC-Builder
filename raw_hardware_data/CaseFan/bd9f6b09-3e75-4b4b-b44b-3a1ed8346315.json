@@ -1,0 +1,31 @@
+{
+  "opendb_id": "bd9f6b09-3e75-4b4b-b44b-3a1ed8346315",
+  "metadata": {
+    "name": "Thermalright TL-S12 X3 120mm Black 47.6 CFM Addressable RGB PWM 3-Pack",
+    "manufacturer": "Thermalright",
+    "series": "TL-S12",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "TL-S12 X3"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 47.6,
+  "max_airflow": null,
+  "min_noise_level": 23.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.31,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0C743H79N"
+  }
+}

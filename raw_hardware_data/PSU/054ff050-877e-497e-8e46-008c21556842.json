@@ -1,0 +1,32 @@
+{
+  "opendb_id": "054ff050-877e-497e-8e46-008c21556842",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "GAMDIAS ASTRAPE M1 Black Multicolor ATX 650W Non-Modular 80+ Certified",
+    "manufacturer": "GAMDIAS",
+    "part_numbers": [
+      "ASTRAPE M1-650W                                                    M1-650W                                                    GD-AstrapeM1-650W"
+    ],
+    "series": "ASTRAPE",
+    "variant": "650W 80+"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "RGB"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "270a98b9-4307-414b-9ac6-022ecb5b4c92",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Chieftec Polaris Pro Black 1300W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Chieftec",
+    "part_numbers": [
+      "PPX-1300FC-A3"
+    ],
+    "series": "Polaris",
+    "variant": "1300W Platinum"
+  },
+  "wattage": 1300,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

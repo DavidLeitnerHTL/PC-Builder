@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a5afb335-3995-4572-9a71-ac8f7ef1a7e6",
+  "metadata": {
+    "name": "Enermax T.B. Vegas Trio 120mm Translucent Black Multicolor PWM 67.48 CFM 1-Pack",
+    "manufacturer": "Enermax",
+    "series": "T.B.",
+    "variant": "120mm Translucent Black",
+    "part_numbers": []
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 20.42,
+  "max_airflow": 67.48,
+  "min_noise_level": 14,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Multicolor",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

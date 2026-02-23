@@ -1,0 +1,32 @@
+{
+  "opendb_id": "1dc1c3b2-bf9a-46e8-ba22-a0b432fc9cec",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 7,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Asus ROG Thor P3 Hatsune Miku Edition Blue / Pink 1200W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "rog-thor-1200p3-miku"
+    ],
+    "series": "ROG",
+    "variant": "1200W Platinum"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLUE",
+    "PINK"
+  ],
+  "length": 190,
+  "fanless": false,
+  "general_product_information": {}
+}

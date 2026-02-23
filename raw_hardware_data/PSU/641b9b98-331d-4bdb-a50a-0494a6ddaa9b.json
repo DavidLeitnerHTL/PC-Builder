@@ -1,0 +1,33 @@
+{
+  "opendb_id": "641b9b98-331d-4bdb-a50a-0494a6ddaa9b",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill HIVE ATX 650W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "Hive-650",
+      "Hive-650S"
+    ],
+    "series": "HIVE",
+    "variant": "650W Bronze"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B005ILWYJQ",
+    "walmart_sku": 692964223
+  }
+}

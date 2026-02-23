@@ -1,0 +1,34 @@
+{
+  "opendb_id": "4e78fb10-b910-40e2-99af-79cc42b629a1",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "1STPLAYER NGDP ATX 3.0 Black 1300W Fully Modular 80+ Platinum Certified ATX",
+    "manufacturer": "1STPLAYER",
+    "part_numbers": [
+      "NGDP-PLT-1300-BK-US",
+      "HA-1000BA3"
+    ],
+    "series": "NGDP",
+    "variant": "1300W Platinum"
+  },
+  "wattage": 1300,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CFZRHL7D"
+  }
+}

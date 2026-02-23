@@ -1,0 +1,36 @@
+{
+  "opendb_id": "da7848c3-a6b8-4282-aad5-dd77564287f1",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 10,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Lian Li EDGE GOLD 1200W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Lian Li",
+    "part_numbers": [
+      "EG1200G Black                                                    EDGE GOLD 1200 Black",
+      "EG1200G.WH"
+    ],
+    "series": "EDGE",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 182,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0DN1492LG",
+    "newegg_sku": "1HU-01PP-00018",
+    "walmart_sku": 15140150220
+  }
+}

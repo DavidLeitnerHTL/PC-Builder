@@ -1,0 +1,31 @@
+{
+  "opendb_id": "1463ddd1-6124-451c-a09c-2491101862ea",
+  "metadata": {
+    "name": "Thermalright TL-B12 120mm Black PWM",
+    "manufacturer": "Thermalright",
+    "series": "TL-B12",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "TL-B12"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 69,
+  "max_airflow": null,
+  "min_noise_level": 28.1,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.87,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BNGZJVF5"
+  }
+}

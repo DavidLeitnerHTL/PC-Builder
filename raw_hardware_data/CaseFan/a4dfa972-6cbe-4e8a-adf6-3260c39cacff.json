@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a4dfa972-6cbe-4e8a-adf6-3260c39cacff",
+  "metadata": {
+    "name": "Evercool FAN-LD9225B-EC2 92mm Clear 25.8 CFM 1-Pack",
+    "manufacturer": "Evercool",
+    "part_numbers": [],
+    "series": "FAN-LD9225B-EC2",
+    "variant": "92mm Clear"
+  },
+  "size": 92,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 25.8,
+  "max_airflow": null,
+  "min_noise_level": 22,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

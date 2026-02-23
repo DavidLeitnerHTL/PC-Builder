@@ -1,0 +1,34 @@
+{
+  "opendb_id": "fed29ff1-a26d-4172-869c-5e73eb6f39ad",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 5,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Corsair CX550 (2017) ATX 550W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CP-9020121-NA                                                    CP-9020121-AU                                                    CP-9020121-UK",
+      "CP-9020121-NA"
+    ],
+    "series": "CX550",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B01MRW2K79",
+    "newegg_sku": "9SIB8AKKBA8436",
+    "walmart_sku": 288241345
+  }
+}

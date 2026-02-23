@@ -1,0 +1,31 @@
+{
+  "opendb_id": "20fa234c-449b-4ca8-ab94-1d224d4ce5cd",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 9,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SHARKOON SilentStorm Icewind Black 550W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "SHARKOON",
+    "part_numbers": [
+      "SilentStorm Icewind black 550 Watt"
+    ],
+    "series": "SilentStorm",
+    "variant": "550W Bronze"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

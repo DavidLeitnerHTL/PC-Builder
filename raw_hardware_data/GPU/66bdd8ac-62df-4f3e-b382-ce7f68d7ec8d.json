@@ -1,0 +1,57 @@
+{
+  "opendb_id": "66bdd8ac-62df-4f3e-b382-ce7f68d7ec8d",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Zotac GAMING AMP GeForce RTX 5060 Ti 8GB GDDR7 Black",
+    "manufacturer": "Zotac",
+    "part_numbers": [
+      "ZT-B50610F-10M"
+    ],
+    "series": "GeForce RTX 5060 Ti",
+    "variant": "8GB AMP",
+    "releaseYear": 2025,
+    "last_manually_spec_verified_at": "2026-01-12T12:46:27.264Z"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5060 Ti",
+  "memory": 8,
+  "memory_type": "GDDR7",
+  "core_base_clock": 2407,
+  "core_boost_clock": 2632,
+  "effective_memory_clock": 1750,
+  "memory_bus": 128,
+  "interface": "PCIe 5.0 x8",
+  "color": [
+    "BLACK"
+  ],
+  "length": 220,
+  "tdp": 180,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": null,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "684cd41b1d3a20a8514d33a0"
+  },
+  "core_count": 4608,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "general_product_information": {
+    "amazon_sku": "B0F58FQFMW",
+    "newegg_sku": "N82E16814500614",
+    "bestbuy_sku": 11019321,
+    "walmart_sku": 16393759848,
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5060-ti-8gb-amp"
+  }
+}

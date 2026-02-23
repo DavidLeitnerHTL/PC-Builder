@@ -1,0 +1,29 @@
+{
+  "opendb_id": "f3c338db-6bf3-40dc-863a-89225b61cf4c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 5,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Raidmax Cobra ATX 400W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "Raidmax",
+    "part_numbers": [
+      "RX-400AF-B"
+    ],
+    "series": "Cobra",
+    "variant": "400W Bronze"
+  },
+  "wattage": 400,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

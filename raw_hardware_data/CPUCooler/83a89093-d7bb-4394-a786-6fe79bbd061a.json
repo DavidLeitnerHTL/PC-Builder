@@ -1,0 +1,44 @@
+{
+  "opendb_id": "83a89093-d7bb-4394-a786-6fe79bbd061a",
+  "metadata": {
+    "name": "Silverstone PF120-ARGB Water 120mm 94 CFM Black",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-PF120-ARGB"
+    ],
+    "series": "PF120-ARGB",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 600,
+  "max_fan_rpm": 2200,
+  "min_noise_level": 7.4,
+  "max_noise_level": 35.6,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 2011",
+    "LGA 2066",
+    "LGA 775"
+  ],
+  "water_cooled": true,
+  "radiator_size": 120,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "5ff0bb27-1436-48e1-8451-8c26037c2f13",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 7,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Sparkle R-SPI650ACAG ATX 650W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Sparkle",
+    "part_numbers": [
+      "R-SPI650ACAG"
+    ],
+    "series": "R-SPI650ACAG",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 139,
+  "fanless": false,
+  "general_product_information": {}
+}

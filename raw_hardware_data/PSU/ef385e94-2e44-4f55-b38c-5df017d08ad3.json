@@ -1,0 +1,29 @@
+{
+  "opendb_id": "ef385e94-2e44-4f55-b38c-5df017d08ad3",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 5,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Deepcool DQ550ST ATX 550W Non-Modular 80+ Gold",
+    "manufacturer": "Deepcool",
+    "part_numbers": [
+      "DQ550ST"
+    ],
+    "series": "DQ550ST",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

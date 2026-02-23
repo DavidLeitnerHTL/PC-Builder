@@ -1,0 +1,38 @@
+{
+  "opendb_id": "94190ab9-094e-47b3-906f-68f85b910063",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 16,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower GF3 TT Premium Black 1650W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-TPD-1650FNFAGU-4                                                    PS-TPD-1650FNFAGA-4                                                    PS-TPD-1650FNFAGE-4",
+      "TPD-1650AH3FSG",
+      "PS-TPD-1650FNFAGU-4"
+    ],
+    "series": "Toughpower",
+    "variant": "1650W Gold"
+  },
+  "wattage": 1650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0BF3S8WDT",
+    "newegg_sku": "N82E16817153434",
+    "bestbuy_sku": 6535780,
+    "walmart_sku": 1655506604
+  }
+}

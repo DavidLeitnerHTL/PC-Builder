@@ -1,0 +1,31 @@
+{
+  "opendb_id": "a2e39376-e80b-4820-8cba-62dab8d7c357",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 16,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill SMG1200 Black ATX 1200W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "SMG1200"
+    ],
+    "series": "SMG1200",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

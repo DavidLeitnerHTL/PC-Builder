@@ -1,0 +1,21 @@
+{
+  "opendb_id": "e3805de8-b6da-4b69-a76f-c2f631f2df1f",
+  "metadata": {
+    "name": "Seagate Constellation ES.2 3TB Internal HDD 7200RPM 3.5\" SAS 6.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST33000650SS"
+    ],
+    "series": "Constellation",
+    "variant": "3000GB"
+  },
+  "capacity": 3000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SAS 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B005WSXR3M",
+    "walmart_sku": 26819544
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "opendb_id": "e7bff5b8-0cfe-4ef7-9d22-91fedfa22d14",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ASRock Challenger CL-750B Black ATX 750W Non-Modular 80+ Bronze",
+    "manufacturer": "ASRock",
+    "part_numbers": [
+      "CL-750B"
+    ],
+    "series": "Challenger",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "newegg_sku": "N82E16817955017"
+  }
+}

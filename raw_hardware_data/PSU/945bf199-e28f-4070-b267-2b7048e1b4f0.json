@@ -1,0 +1,34 @@
+{
+  "opendb_id": "945bf199-e28f-4070-b267-2b7048e1b4f0",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA N1 550W Non-Modular",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "100-N1-0550-L1100-N1-0550-L2",
+      "100-N1-0550-L1"
+    ],
+    "series": "N1",
+    "variant": "550W "
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B01LYGJL0E",
+    "newegg_sku": "N82E16817438254",
+    "walmart_sku": 146682814
+  }
+}

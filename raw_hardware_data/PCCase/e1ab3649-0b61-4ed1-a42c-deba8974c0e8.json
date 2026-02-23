@@ -1,0 +1,51 @@
+{
+  "opendb_id": "e1ab3649-0b61-4ed1-a42c-deba8974c0e8",
+  "metadata": {
+    "name": "Corsair 2500X Micro ATX Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CC-9011266-WW"
+    ],
+    "series": "2500X",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-09-06T16:03:50.603Z"
+  },
+  "supported_motherboard_form_factors": [
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "Micro ATX Mini Tower",
+  "color": [
+    "WHITE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.2 Gen 2 Type-C                              USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 400,
+  "max_cpu_cooler_height": 180,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 4,
+  "dimensions": "479 x 304 x 376",
+  "volume": 54.752,
+  "weight": 26.102732,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "USB 3.2 Gen 2 Type-C",
+    "USB 3.2 Gen 1 Type-A"
+  ],
+  "dimensions_mm": {
+    "width": 304,
+    "height": 376,
+    "depth": 479,
+    "_id": "68bc5b69557b04cd581105d6"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0CQ5FDB2C",
+    "newegg_sku": "N82E16811139203",
+    "bestbuy_sku": 6578156,
+    "walmart_sku": 5447167294,
+    "manufacturer_url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011265-ww/2500x-mid-tower-dual-chamber-pc-case-black-cc-9011265-ww"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "ac548a49-7827-4f58-8aab-293b18e6bf5f",
+  "metadata": {
+    "name": "Cooler Master SickleFlow 120mm Clear Blue LED",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [],
+    "series": "SickleFlow",
+    "variant": "120mm Clear"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 69,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

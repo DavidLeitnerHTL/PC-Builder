@@ -1,0 +1,32 @@
+{
+  "opendb_id": "90b4ab3f-5558-4214-9e5d-ae10d4af26da",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group Hydro PTM X PRO Gen5 White 850W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "HPT3-850M",
+      "Gen5 (White Edition)"
+    ],
+    "series": "Hydro",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 130,
+  "fanless": false,
+  "general_product_information": {}
+}

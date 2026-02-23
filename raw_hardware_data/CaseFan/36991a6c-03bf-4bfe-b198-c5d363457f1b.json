@@ -1,0 +1,28 @@
+{
+  "opendb_id": "36991a6c-03bf-4bfe-b198-c5d363457f1b",
+  "metadata": {
+    "name": "ADATA Vento 120mm 45.3 CFM Addressable RGB Black / White 3-Pack",
+    "manufacturer": "ADATA",
+    "part_numbers": [],
+    "series": "Vento",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 45.3,
+  "max_airflow": null,
+  "min_noise_level": 23,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Addressable RGB",
+  "connector": "3-pin + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.28,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

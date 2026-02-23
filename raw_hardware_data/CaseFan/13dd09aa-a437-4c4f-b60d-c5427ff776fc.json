@@ -1,0 +1,33 @@
+{
+  "opendb_id": "13dd09aa-a437-4c4f-b60d-c5427ff776fc",
+  "metadata": {
+    "name": "Lian Li UNI FAN SL-INF 120mm Black Addressable RGB PWM Wireless 67 CFM 3-Pack",
+    "manufacturer": "Lian Li",
+    "part_numbers": [
+      "12SLIN1W3B"
+    ],
+    "series": "UNI",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 67,
+  "max_airflow": null,
+  "min_noise_level": 29.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM",
+  "controller": "USB",
+  "static_pressure": 3.4,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DY7S35ZJ",
+    "newegg_sku": "1YF-005G-000P2",
+    "walmart_sku": 17120913623
+  }
+}

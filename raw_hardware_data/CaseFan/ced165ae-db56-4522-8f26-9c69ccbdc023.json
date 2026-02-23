@@ -1,0 +1,33 @@
+{
+  "opendb_id": "ced165ae-db56-4522-8f26-9c69ccbdc023",
+  "metadata": {
+    "name": "Thermaltake Riing 120mm Red LED 40.6 CFM Black / Red 1-Pack",
+    "manufacturer": "Thermaltake",
+    "series": "Riing",
+    "variant": "120mm Black / Red",
+    "part_numbers": [
+      "CL-F038-PL12RE-A"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "quantity": 1,
+  "min_airflow": 40.6,
+  "max_airflow": null,
+  "min_noise_level": 18.7,
+  "max_noise_level": 24.6,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 2.01,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00VRKVGUA",
+    "walmart_sku": 46488906
+  }
+}

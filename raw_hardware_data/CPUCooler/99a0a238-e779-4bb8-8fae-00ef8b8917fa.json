@@ -1,0 +1,40 @@
+{
+  "opendb_id": "99a0a238-e779-4bb8-8fae-00ef8b8917fa",
+  "metadata": {
+    "name": "ID-COOLING FROZN A400 45.8 CFM Air 123mm Black",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [
+      "FROZN A400 BLACK",
+      "FROZN-A400-BLACK"
+    ],
+    "series": "FROZN",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2200,
+  "min_noise_level": 25.8,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": 123,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0CLY6LH3L"
+  }
+}

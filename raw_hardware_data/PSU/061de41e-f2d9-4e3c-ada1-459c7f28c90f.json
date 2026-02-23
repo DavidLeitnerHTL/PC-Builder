@@ -1,0 +1,33 @@
+{
+  "opendb_id": "061de41e-f2d9-4e3c-ada1-459c7f28c90f",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic B12 BC 850W Non-Modular 80+ Bronze Certified",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "B12-BC-850",
+      "B12BC-850",
+      "B12 BC 850"
+    ],
+    "series": "B12",
+    "variant": "850W Bronze"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B093H19YYB"
+  }
+}

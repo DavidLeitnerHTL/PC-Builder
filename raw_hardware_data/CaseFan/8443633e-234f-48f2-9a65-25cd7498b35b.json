@@ -1,0 +1,31 @@
+{
+  "opendb_id": "8443633e-234f-48f2-9a65-25cd7498b35b",
+  "metadata": {
+    "name": "Vetroo ARGB120 120mm Black PWM ARGB 48.1 CFM",
+    "manufacturer": "Vetroo",
+    "part_numbers": [
+      "SA-120"
+    ],
+    "series": "ARGB120",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 48.1,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "Manual",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08P446LZM"
+  }
+}

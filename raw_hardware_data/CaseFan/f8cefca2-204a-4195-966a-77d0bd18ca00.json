@@ -1,0 +1,31 @@
+{
+  "opendb_id": "f8cefca2-204a-4195-966a-77d0bd18ca00",
+  "metadata": {
+    "name": "Enermax T.B. Silence 120mm Clear Blue LED 1-Pack",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "UCTB12N-BL"
+    ],
+    "series": "T.B.",
+    "variant": "120mm Clear"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 53.02,
+  "max_airflow": null,
+  "min_noise_level": 14,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00574OH30"
+  }
+}

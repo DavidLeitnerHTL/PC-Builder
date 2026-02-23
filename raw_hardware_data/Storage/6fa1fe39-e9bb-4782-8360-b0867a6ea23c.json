@@ -1,0 +1,22 @@
+{
+  "opendb_id": "6fa1fe39-e9bb-4782-8360-b0867a6ea23c",
+  "metadata": {
+    "name": "Seagate BarraCuda 2TB HDD 2.5\" 5400RPM SATA Internal",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST2000LM015",
+      "ST2000LMZ15"
+    ],
+    "series": "BarraCuda",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "HDD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07D99S8Z7",
+    "walmart_sku": 137186171
+  }
+}

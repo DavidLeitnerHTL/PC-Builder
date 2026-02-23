@@ -1,0 +1,46 @@
+{
+  "opendb_id": "42a798ea-ab63-48a7-aef3-d2e556e7e77c",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 16
+  },
+  "clocks": {
+    "performance": {
+      "base": 2.2,
+      "boost": 3
+    }
+  },
+  "cache": {
+    "l2": 2,
+    "l3": 20
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    },
+    "tdp": 95,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "32 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Xeon E5 2660 2.2 GHz 8-Core LGA2011",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80621E52660"
+    ],
+    "series": "Intel Xeon E5"
+  },
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Sandy Bridge",
+  "coreFamily": "Sandy Bridge-EP",
+  "socket": "LGA 2011",
+  "general_product_information": {}
+}

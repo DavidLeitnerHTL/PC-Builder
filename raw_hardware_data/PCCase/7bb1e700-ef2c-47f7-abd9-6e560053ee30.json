@@ -1,0 +1,51 @@
+{
+  "opendb_id": "7bb1e700-ef2c-47f7-abd9-6e560053ee30",
+  "metadata": {
+    "name": "Fractal Design Meshify 3 XL Ambience Pro RGB ATX Full Tower Black Tinted Tempered Glass",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-C-MES3X-03"
+    ],
+    "series": "Meshify",
+    "variant": "3 XL Ambience Pro RGB (Black, Light Tint)",
+    "last_manually_spec_verified_at": "2025-09-23T21:02:34.950Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Full Tower",
+  "color": [
+    "BLACK"
+  ],
+  "power_supply": "None",
+  "supported_power_supply_form_factors": [],
+  "side_panel": "Tinted Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "1 x USB Type-C 20 Gbps                                                              2 x USB Type-A 5 Gbps",
+  "front_usb_ports": [
+    "1 x USB Type-C 20 Gbps",
+    "2 x USB Type-A 5 Gbps"
+  ],
+  "max_video_card_length": 512,
+  "max_cpu_cooler_height": 182,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 1,
+  "expansion_slots": 7,
+  "dimensions": "575 x 245 x 515",
+  "volume": 72.551,
+  "weight": 25.1327,
+  "dimensions_mm": {
+    "width": 245,
+    "height": 515,
+    "depth": 575,
+    "_id": "68a5db1522a070eee3562833"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0CS3VBQ66",
+    "newegg_sku": "N82E16811352233",
+    "walmart_sku": 16491251026,
+    "manufacturer_url": "https://www.fractal-design.com/products/cases/meshify/meshify-3-xl/ambience-pro-rgb-black-tg-light-tint/"
+  }
+}

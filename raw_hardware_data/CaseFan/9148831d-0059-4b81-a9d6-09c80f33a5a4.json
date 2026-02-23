@@ -1,0 +1,28 @@
+{
+  "opendb_id": "9148831d-0059-4b81-a9d6-09c80f33a5a4",
+  "metadata": {
+    "name": "ID-COOLING NO-9215 92mm Black / White PWM 1-Pack",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "NO-9215",
+    "variant": "92mm Black / White"
+  },
+  "size": 92,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 44.3,
+  "max_airflow": null,
+  "min_noise_level": 14,
+  "max_noise_level": 33,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "3c33567a-0f62-4c2a-9b52-6c9a2f1538a6",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Essential Black / Blue 650W Semi-Modular 80+ Gold ATX",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-ET650-HG"
+    ],
+    "series": "Essential",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

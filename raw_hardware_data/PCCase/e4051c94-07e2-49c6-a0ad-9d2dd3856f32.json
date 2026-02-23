@@ -1,0 +1,37 @@
+{
+  "opendb_id": "e4051c94-07e2-49c6-a0ad-9d2dd3856f32",
+  "metadata": {
+    "name": "In Win X-Frame 2.0 ATX Test Bench White / Blue USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
+    "manufacturer": "InWin",
+    "part_numbers": [
+      "IW-XFRAME2-BLU"
+    ],
+    "series": "X-Frame",
+    "variant": ""
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Test Bench",
+  "color": [
+    "WHITE",
+    "BLUE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Solid",
+  "has_transparent_side_panel": false,
+  "front_panel_usb": "USB 3.2 Gen 2 Type-C                                                    USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 385,
+  "max_cpu_cooler_height": null,
+  "internal_3_5_bays": 6,
+  "internal_2_5_bays": 7,
+  "expansion_slots": 8,
+  "dimensions": "640 x 483 x 330",
+  "volume": 102.01,
+  "weight": null,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [],
+  "general_product_information": {}
+}

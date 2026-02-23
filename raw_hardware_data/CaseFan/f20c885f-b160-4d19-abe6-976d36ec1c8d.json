@@ -1,0 +1,27 @@
+{
+  "opendb_id": "f20c885f-b160-4d19-abe6-976d36ec1c8d",
+  "metadata": {
+    "name": "Masscool FD08025B1H3/4 80mm Black",
+    "manufacturer": "Masscool",
+    "part_numbers": [],
+    "series": "FD08025B1H3/4",
+    "variant": "80mm Black"
+  },
+  "isOEM": false,
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 52,
+  "max_airflow": null,
+  "min_noise_level": 42,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 4.9,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

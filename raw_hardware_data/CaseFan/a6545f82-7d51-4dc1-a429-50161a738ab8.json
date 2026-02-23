@@ -1,0 +1,34 @@
+{
+  "opendb_id": "a6545f82-7d51-4dc1-a429-50161a738ab8",
+  "metadata": {
+    "name": "Cooler Master Mobius OC 120mm Blue / Black PWM 88.1 CFM",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MFZ-M2NN-32NPK-R1"
+    ],
+    "series": "Mobius",
+    "variant": "120mm Blue / Black"
+  },
+  "size": 120,
+  "color": [
+    "BLUE",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 40.2,
+  "max_airflow": 88.1,
+  "min_noise_level": 17.4,
+  "max_noise_level": 39.3,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 4.75,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BTMXLD6F",
+    "newegg_sku": "N82E16835103350",
+    "walmart_sku": 3203030554
+  }
+}

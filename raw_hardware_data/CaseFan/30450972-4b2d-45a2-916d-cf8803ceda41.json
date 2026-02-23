@@ -1,0 +1,27 @@
+{
+  "opendb_id": "30450972-4b2d-45a2-916d-cf8803ceda41",
+  "metadata": {
+    "name": "Asiahorse DAWN 120mm White Addressable RGB PWM 71 CFM 3-Pack",
+    "manufacturer": "ASIAHORSE",
+    "part_numbers": [],
+    "series": "DAWN",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 71,
+  "max_airflow": null,
+  "min_noise_level": 6,
+  "max_noise_level": 29,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.6,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {}
+}

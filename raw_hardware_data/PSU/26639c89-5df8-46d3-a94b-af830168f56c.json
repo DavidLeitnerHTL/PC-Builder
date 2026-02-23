@@ -1,0 +1,35 @@
+{
+  "opendb_id": "26639c89-5df8-46d3-a94b-af830168f56c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ADATA XPG CORE Reactor 650 Black 650W Fully Modular 80+ Gold",
+    "manufacturer": "ADATA",
+    "part_numbers": [
+      "COREREACTOR650G-BKCUS",
+      "75260060",
+      "COREREACTOR650G-BKCJP"
+    ],
+    "series": "XPG",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07Z8J1973"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "5eaec358-2b94-43cd-a785-57d2c56c8dda",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Chieftec Vega Black / Blue 850W Non-Modular 80+ Gold Certified",
+    "manufacturer": "Chieftec",
+    "part_numbers": [
+      "PPG-850-S"
+    ],
+    "series": "Vega",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {}
+}

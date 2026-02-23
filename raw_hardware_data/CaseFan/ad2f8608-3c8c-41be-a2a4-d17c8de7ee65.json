@@ -1,0 +1,32 @@
+{
+  "opendb_id": "ad2f8608-3c8c-41be-a2a4-d17c8de7ee65",
+  "metadata": {
+    "name": "Noctua A9 FLX 92mm Brown",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-A9FLX",
+      "NF-A9 FLX"
+    ],
+    "series": "A9",
+    "variant": "92mm Brown"
+  },
+  "size": 92,
+  "color": [
+    "BROWN"
+  ],
+  "quantity": 1,
+  "min_airflow": 25.25,
+  "max_airflow": 38.02,
+  "min_noise_level": 8.4,
+  "max_noise_level": 17.1,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 1.62,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00NEMG9B0"
+  }
+}

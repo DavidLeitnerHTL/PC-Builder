@@ -1,0 +1,32 @@
+{
+  "opendb_id": "3b6022c0-5483-455d-bbbe-cdc633a430d8",
+  "metadata": {
+    "name": "Phanteks F140SP 140mm Black / White Green LED 82.1 CFM 1-Pack",
+    "manufacturer": "Phanteks",
+    "part_numbers": [
+      "PH-F140SP_BK_GLED"
+    ],
+    "series": "F140SP",
+    "variant": "140mm Black / White"
+  },
+  "size": 140,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 82.1,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Green",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00RW7J4CE"
+  }
+}

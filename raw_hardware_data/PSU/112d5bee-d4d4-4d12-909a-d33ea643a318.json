@@ -1,0 +1,36 @@
+{
+  "opendb_id": "112d5bee-d4d4-4d12-909a-d33ea643a318",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Essential Black / Yellow 550W Non-Modular 80+ Gold",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-ET550-G"
+    ],
+    "series": "Essential",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "YELLOW"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0762R8WJ4",
+    "newegg_sku": "N82E16817256199",
+    "walmart_sku": 951035488
+  }
+}

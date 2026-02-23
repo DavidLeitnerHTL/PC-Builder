@@ -1,0 +1,35 @@
+{
+  "opendb_id": "1bf4a9b8-83dc-4edf-85df-cd0cfb1c711d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 7,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Aerocool Integrator MOD XT Black / Red ATX 750W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Aerocool",
+    "part_numbers": [
+      "ACPB-IT75AKC.12",
+      "Integrator MOD XT 750W"
+    ],
+    "series": "Integrator",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B010Q3BT2I"
+  }
+}

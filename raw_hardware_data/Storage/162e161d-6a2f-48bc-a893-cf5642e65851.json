@@ -1,0 +1,24 @@
+{
+  "opendb_id": "162e161d-6a2f-48bc-a893-cf5642e65851",
+  "metadata": {
+    "name": "Seagate Barracuda Compute 4TB 3.5\" HDD 5400RPM SATA 6.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST4000DMZ04",
+      "ST4000DM004"
+    ],
+    "series": "Barracuda",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07D9C7SQH",
+    "newegg_sku": "9SIA17PJCD6876",
+    "bestbuy_sku": 6616037,
+    "walmart_sku": 712943676
+  }
+}

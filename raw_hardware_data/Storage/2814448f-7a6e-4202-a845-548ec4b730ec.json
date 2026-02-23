@@ -1,0 +1,23 @@
+{
+  "opendb_id": "2814448f-7a6e-4202-a845-548ec4b730ec",
+  "metadata": {
+    "name": "Seagate ST1000NX0313 1TB 2.5\" HDD 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST1000NX0313",
+      "ST1000NX0313-30PK"
+    ],
+    "series": "ST1000NX0313",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "HDD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B00QFZ9LI6",
+    "newegg_sku": "N82E16822178674R",
+    "walmart_sku": 43146466
+  }
+}

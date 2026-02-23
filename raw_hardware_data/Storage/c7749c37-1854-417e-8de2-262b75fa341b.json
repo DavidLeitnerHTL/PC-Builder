@@ -1,0 +1,24 @@
+{
+  "opendb_id": "c7749c37-1854-417e-8de2-262b75fa341b",
+  "metadata": {
+    "name": "Seagate FireCuda 530R 1TB SSD M.2 w/Heatsink PCIe 4.0 NVMe",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ZP1000GM3A073",
+      "ZP1000GM3A023"
+    ],
+    "series": "FireCuda",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0CWHDZSVN",
+    "newegg_sku": "N82E16820248253",
+    "bestbuy_sku": 6581746,
+    "walmart_sku": 5960558735
+  }
+}

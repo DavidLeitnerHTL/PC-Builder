@@ -1,0 +1,56 @@
+{
+  "opendb_id": "d8e6a220-4bb6-4ad9-95ad-be49980d11d2",
+  "metadata": {
+    "name": " ASUS ROG Hyperion GR701 Tempered Glass eATX Full Tower Computer Case - White",
+    "manufacturer": "ASUS",
+    "part_numbers": [
+      "GR701/WT/PWM FAN/",
+      "GR701/WT/PWM FAN//"
+    ],
+    "series": "Hyperion ",
+    "variant": "GR701",
+    "last_manually_spec_verified_at": "2025-09-25T00:46:49.760Z"
+  },
+  "supported_motherboard_form_factors": [
+    "EATX",
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "EATX Full Tower",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "4 x USB 3.2Gen1                                     1 x USB 3.2 Gen2 Type C                                     1 x USB 3.2 Gen 2x2 Type C",
+  "front_usb_ports": [
+    "4 x USB 3.2Gen1  ",
+    "1 x USB 3.2 Gen2 Type C ",
+    "1 x USB 3.2 Gen 2x2 Type C"
+  ],
+  "max_cpu_cooler_height": 190,
+  "dimensions": " 268 x 639 x 659",
+  "dimensions_mm": {
+    "width": 268,
+    "height": 659,
+    "depth": 639,
+    "_id": "68d394fb11cffe07799266e2"
+  },
+  "weight": 45.856151,
+  "color": [
+    "WHITE"
+  ],
+  "supported_power_supply_form_factors": [],
+  "max_video_card_length": 460,
+  "volume": 112.85,
+  "expansion_slots": 9,
+  "riser_expansion_slots": 3,
+  "internal_2_5_bays": 5,
+  "internal_3_5_bays": 2,
+  "side_panel": "Tempered Glass",
+  "power_supply_shroud": true,
+  "power_supply": "None",
+  "general_product_information": {
+    "amazon_sku": "B0CHN643V2",
+    "newegg_sku": "N82E16811173056",
+    "walmart_sku": 5096548600,
+    "manufacturer_url": "https://rog.asus.com/us/cases/rog-hyperion-gr701-model/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "3b83bc66-8c2d-4b95-8516-90e87bd525a4",
+  "metadata": {
+    "name": "ARCTIC P8 Slim 80mm Black PWM PST 22.5 CFM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00295A"
+    ],
+    "series": "P8",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 22.5,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.35,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09VGX23DS",
+    "walmart_sku": 15137703964
+  }
+}

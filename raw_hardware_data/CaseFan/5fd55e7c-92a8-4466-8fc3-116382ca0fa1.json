@@ -1,0 +1,27 @@
+{
+  "opendb_id": "5fd55e7c-92a8-4466-8fc3-116382ca0fa1",
+  "metadata": {
+    "name": "be quiet! Silent Wings 2 92mm Black PWM 55.4 CFM 1-Pack",
+    "manufacturer": "be quiet!",
+    "part_numbers": [],
+    "series": "Silent",
+    "variant": "92mm Black"
+  },
+  "size": 92,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 32.6,
+  "max_airflow": 55.4,
+  "min_noise_level": 17.4,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.98,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

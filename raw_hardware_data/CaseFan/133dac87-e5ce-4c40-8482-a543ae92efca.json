@@ -1,0 +1,33 @@
+{
+  "opendb_id": "133dac87-e5ce-4c40-8482-a543ae92efca",
+  "metadata": {
+    "name": "Scythe Wonder Tornado 120mm Black PWM 75.17 CFM 3-Pack",
+    "manufacturer": "SCYTHE",
+    "part_numbers": [
+      "WT1225FD25X3-P",
+      "Wonder Tornado"
+    ],
+    "series": "Wonder",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 7.68,
+  "max_airflow": 75.17,
+  "min_noise_level": 3,
+  "max_noise_level": 35.57,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 3.39,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D6YGTJZF",
+    "newegg_sku": "1YF-0015-00149"
+  }
+}

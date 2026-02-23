@@ -1,0 +1,36 @@
+{
+  "opendb_id": "71f03654-3f81-49d7-b88d-05abd83fa8de",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master MWE Gold Black 550W Fully Modular 80+ Gold",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPY-5501-AFAAG-US                                                    MPY-5501-AFAAG-UK                                                    MPY-5501-AFAAG-AU",
+      "MPY-5501-AFAAG-US"
+    ],
+    "series": "MWE",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07DVLFK78",
+    "newegg_sku": "9SIBKYEK6T7461",
+    "walmart_sku": 670910081
+  }
+}

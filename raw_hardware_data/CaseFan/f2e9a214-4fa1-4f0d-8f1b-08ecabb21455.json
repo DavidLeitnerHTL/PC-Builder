@@ -1,0 +1,34 @@
+{
+  "opendb_id": "f2e9a214-4fa1-4f0d-8f1b-08ecabb21455",
+  "metadata": {
+    "name": "Scythe Kaze Flex140 Square 140mm Gray / Black PWM 100.8 CFM",
+    "manufacturer": "SCYTHE",
+    "series": "Kaze",
+    "variant": "140mm Gray / Black",
+    "part_numbers": [
+      "KF1425FD18S-P"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 16.8,
+  "max_airflow": 100.8,
+  "min_noise_level": 4.19,
+  "max_noise_level": 26.45,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.81,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B08D3KQX99",
+    "newegg_sku": "9SIA9ZHK398750",
+    "walmart_sku": 2848039415
+  }
+}

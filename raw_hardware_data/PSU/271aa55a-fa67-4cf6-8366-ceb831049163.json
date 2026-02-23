@@ -1,0 +1,36 @@
+{
+  "opendb_id": "271aa55a-fa67-4cf6-8366-ceb831049163",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 16,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec Signature ATX 1000W Fully Modular 80+ Titanium Certified",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "ST1000                                                    ST1000 Titanium                                                    X9000A505-18                                                    0-761345-11712-8                                                    0-761345-11713-5",
+      "ST1000"
+    ],
+    "series": "Signature",
+    "variant": "1000W Titanium"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Titanium",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 170,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0895CR5X8",
+    "newegg_sku": "N82E16817371133"
+  }
+}

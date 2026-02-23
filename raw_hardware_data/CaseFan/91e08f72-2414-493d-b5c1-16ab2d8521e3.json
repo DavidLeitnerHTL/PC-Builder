@@ -1,0 +1,34 @@
+{
+  "opendb_id": "91e08f72-2414-493d-b5c1-16ab2d8521e3",
+  "metadata": {
+    "name": "Cooler Master SickleFlow 120mm Black / White ARGB PWM 62 CFM 1-Pack",
+    "manufacturer": "Cooler Master",
+    "series": "SickleFlow",
+    "variant": "120mm Black / White",
+    "part_numbers": [
+      "MFXB2DR18NPAR1"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 62,
+  "max_airflow": null,
+  "min_noise_level": 8,
+  "max_noise_level": 27,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.5,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B093KMWPK3",
+    "newegg_sku": "9SIA4REJVR7456",
+    "walmart_sku": 1051269603
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a5d28165-7d1b-48cc-975a-bc70ce32af59",
+  "metadata": {
+    "name": "Xigmatek XAF 120mm Black 90.3 CFM White 1-Pack",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "XAF",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 90.3,
+  "max_airflow": null,
+  "min_noise_level": 26,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

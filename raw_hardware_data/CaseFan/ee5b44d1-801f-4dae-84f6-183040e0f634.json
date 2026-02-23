@@ -1,0 +1,27 @@
+{
+  "opendb_id": "ee5b44d1-801f-4dae-84f6-183040e0f634",
+  "metadata": {
+    "name": "ARCTIC F8 80mm Black PWM PST CO 31 CFM 1-Pack",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [],
+    "series": "F8",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 31,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

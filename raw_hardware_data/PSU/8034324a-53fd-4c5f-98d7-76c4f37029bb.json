@@ -1,0 +1,32 @@
+{
+  "opendb_id": "8034324a-53fd-4c5f-98d7-76c4f37029bb",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 16,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "RIOTORO BUILDER Black / Red 1200W Fully Modular 80+ Gold Certified",
+    "manufacturer": "RIOTORO",
+    "part_numbers": [
+      "PR-GP1200FM-UK"
+    ],
+    "series": "BUILDER",
+    "variant": "1200W Gold"
+  },
+  "wattage": 1200,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "RED"
+  ],
+  "length": 180,
+  "fanless": false,
+  "general_product_information": {}
+}

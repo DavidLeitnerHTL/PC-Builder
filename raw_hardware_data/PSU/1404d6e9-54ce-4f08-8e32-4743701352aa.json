@@ -1,0 +1,36 @@
+{
+  "opendb_id": "1404d6e9-54ce-4f08-8e32-4743701352aa",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "EVGA SuperNOVA 650 P5 Black / Teal 650W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "EVGA",
+    "part_numbers": [
+      "220-P5-0650-X1"
+    ],
+    "series": "SuperNOVA",
+    "variant": "650W Platinum"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREEN"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08TRR3LG2",
+    "newegg_sku": "N82E16817438225",
+    "walmart_sku": 930431733
+  }
+}

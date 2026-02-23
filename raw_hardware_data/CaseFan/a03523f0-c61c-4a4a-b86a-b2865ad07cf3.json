@@ -1,0 +1,33 @@
+{
+  "opendb_id": "a03523f0-c61c-4a4a-b86a-b2865ad07cf3",
+  "metadata": {
+    "name": "be quiet! Pure Wings 3 140mm White PWM",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "bl112",
+      "BL112"
+    ],
+    "series": "Pure",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 57.4,
+  "max_airflow": null,
+  "min_noise_level": 21.9,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 0.96,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CRZDFWJJ",
+    "newegg_sku": "1YF-001D-000S1"
+  }
+}

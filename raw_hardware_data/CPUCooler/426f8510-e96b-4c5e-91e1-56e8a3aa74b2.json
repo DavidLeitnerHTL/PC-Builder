@@ -1,0 +1,45 @@
+{
+  "opendb_id": "426f8510-e96b-4c5e-91e1-56e8a3aa74b2",
+  "metadata": {
+    "name": "MSI MPG CORELIQUID D240 Water 240mm 77.4 CFM Black",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MPG CORELIQUID D240                                                    936-6A1611-003",
+      "MPG CORELIQUID D240"
+    ],
+    "series": "MPG",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": null,
+  "max_fan_rpm": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": 84,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0CNDXDQMT",
+    "newegg_sku": "N82E16835846057",
+    "walmart_sku": 5227513473
+  }
+}

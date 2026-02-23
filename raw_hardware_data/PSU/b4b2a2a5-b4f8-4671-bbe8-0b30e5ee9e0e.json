@@ -1,0 +1,36 @@
+{
+  "opendb_id": "b4b2a2a5-b4f8-4671-bbe8-0b30e5ee9e0e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 8,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone DA850 Black / White 850W Fully Modular 80+ Gold",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-DA850-G                                                    DA850-G"
+    ],
+    "series": "DA850",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08SR3GHZ9",
+    "newegg_sku": "2AM-0024-001C8",
+    "walmart_sku": 524997105
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "opendb_id": "fbe435db-41d6-4de7-8a46-a88bb4c31156",
+  "metadata": {
+    "name": "ADATA Legend 800 1TB SSD M.2-2280 PCIe 4.0 X4 NVMe",
+    "manufacturer": "ADATA",
+    "part_numbers": [
+      "ALEG-800-1000GCS",
+      "800"
+    ],
+    "series": "Legend",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0BW1ZXTMD",
+    "newegg_sku": "9SIAD6HK8W8927",
+    "bestbuy_sku": 6528766
+  }
+}

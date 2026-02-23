@@ -1,0 +1,33 @@
+{
+  "opendb_id": "541ab2b2-bc87-46b6-adc2-c0f625c34cc0",
+  "metadata": {
+    "name": "Montech GF120 ARGB PWM 120mm Black 1-Pack",
+    "manufacturer": "Montech",
+    "part_numbers": [
+      "GF120B",
+      "GF 120 ARGB PWM Black",
+      "GF120 ARGB PWM (B)"
+    ],
+    "series": "GF120",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": null,
+  "max_airflow": 66.3,
+  "min_noise_level": null,
+  "max_noise_level": 25.5,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.55,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DJ4H6C6W"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "opendb_id": "61680cfc-88f0-4aa2-a1e9-66726be46e99",
+  "metadata": {
+    "name": "Scythe Grand Tornado 120mm Black PWM 63.25 CFM 1-Pack",
+    "manufacturer": "SCYTHE",
+    "part_numbers": [
+      "GT1225FD20-P",
+      "Grand Tornado"
+    ],
+    "series": "Grand",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 12.23,
+  "max_airflow": 63.25,
+  "min_noise_level": 9.3,
+  "max_noise_level": 23.37,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.63,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CM8TDL7C",
+    "newegg_sku": "1YF-0015-00137"
+  }
+}

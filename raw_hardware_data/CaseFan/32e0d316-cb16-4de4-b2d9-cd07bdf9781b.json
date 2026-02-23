@@ -1,0 +1,27 @@
+{
+  "opendb_id": "32e0d316-cb16-4de4-b2d9-cd07bdf9781b",
+  "metadata": {
+    "name": "Phanteks M25-120 120mm White PWM D-RGB 84.26 CFM 3-Pack",
+    "manufacturer": "Phanteks",
+    "part_numbers": [],
+    "series": "M25-120",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 84.26,
+  "max_airflow": null,
+  "min_noise_level": 35.7,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.67,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

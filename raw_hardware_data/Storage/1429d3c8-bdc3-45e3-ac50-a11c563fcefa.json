@@ -1,0 +1,22 @@
+{
+  "opendb_id": "1429d3c8-bdc3-45e3-ac50-a11c563fcefa",
+  "metadata": {
+    "name": "Seagate FireCuda 2TB Hybrid 3.5\" 7200 RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST2000DX002",
+      "ST2000DXB02"
+    ],
+    "series": "FireCuda",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSHD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B01IEKG2HM",
+    "walmart_sku": 747845567
+  }
+}

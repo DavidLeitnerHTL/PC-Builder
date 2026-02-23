@@ -1,0 +1,33 @@
+{
+  "opendb_id": "72b3388b-8495-4fbc-b04d-70b7585d800b",
+  "metadata": {
+    "name": "Cooler Master MasterFan MF120 Halo² 120mm Black PWM Addressable RGB 3-Pack",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MFL-B2DN-213P2-R2"
+    ],
+    "series": "MasterFan",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 51.88,
+  "max_airflow": null,
+  "min_noise_level": 27,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "USB",
+  "static_pressure": 2.89,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CTD38MCV",
+    "newegg_sku": "N82E16835103365",
+    "walmart_sku": 5406423970
+  }
+}

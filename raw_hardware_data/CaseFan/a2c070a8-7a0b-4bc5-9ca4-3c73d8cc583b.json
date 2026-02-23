@@ -1,0 +1,32 @@
+{
+  "opendb_id": "a2c070a8-7a0b-4bc5-9ca4-3c73d8cc583b",
+  "metadata": {
+    "name": "EK Quantum Impulse 120mm Black / White D-RGB PWM 57.5 CFM 1-Pack",
+    "manufacturer": "EK",
+    "part_numbers": [
+      "3831109854198"
+    ],
+    "series": "Quantum",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 57.5,
+  "max_airflow": null,
+  "min_noise_level": 24.3,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.94,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0C2HD4SGT"
+  }
+}

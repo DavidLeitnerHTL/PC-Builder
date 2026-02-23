@@ -1,0 +1,34 @@
+{
+  "opendb_id": "a9587e90-975f-476c-9d17-a6afc632f16c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 9,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Thermaltake TP-750M 750W Semi-Modular 80+ Gold",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "TP-750M                                                    PS-TPD-0750MPCGUS-1",
+      "TPG-0750F-R 750W"
+    ],
+    "series": "Thermaltake",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B01N4C39AR",
+    "newegg_sku": "N82E16817153309",
+    "walmart_sku": 992510070
+  }
+}

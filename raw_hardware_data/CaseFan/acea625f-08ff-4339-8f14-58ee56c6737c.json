@@ -1,0 +1,27 @@
+{
+  "opendb_id": "acea625f-08ff-4339-8f14-58ee56c6737c",
+  "metadata": {
+    "name": "Thermalright TL-M12QW X3 120mm Addressable RGB PWM 68.9 CFM White 3-Pack",
+    "manufacturer": "Thermalright",
+    "part_numbers": [],
+    "series": "TL-M12QW",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 68.9,
+  "max_airflow": null,
+  "min_noise_level": 28.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.21,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

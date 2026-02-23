@@ -1,0 +1,32 @@
+{
+  "opendb_id": "c0d3eeca-220c-4a63-bf8b-a690acf79355",
+  "metadata": {
+    "name": "darkFlash Aurora DR12 PRO 120mm Black 20.34 CFM Addressable RGB 5-Pack",
+    "manufacturer": "darkFlash",
+    "series": "Aurora",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "8541605736",
+      "AIGO-RGB"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 5,
+  "min_airflow": 20.34,
+  "max_airflow": null,
+  "min_noise_level": 16,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Addressable RGB",
+  "connector": "Proprietary",
+  "controller": "5V Addressable RGB",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07CGH9CZL"
+  }
+}

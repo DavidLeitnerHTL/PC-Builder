@@ -1,0 +1,29 @@
+{
+  "opendb_id": "8be4d13e-1318-4907-9791-ff9ee0c4e89c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Enermax EGX1250EWT ATX 1250W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Enermax",
+    "part_numbers": [
+      "EGX1250EWT"
+    ],
+    "series": "EGX1250EWT",
+    "variant": "1250W Bronze"
+  },
+  "wattage": 1250,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 189,
+  "fanless": false,
+  "general_product_information": {}
+}

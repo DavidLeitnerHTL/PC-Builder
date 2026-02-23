@@ -1,0 +1,41 @@
+{
+  "opendb_id": "5377ae13-68c1-4a42-a41f-c9ce97f4ba5d",
+  "metadata": {
+    "name": "Asus TUF Gaming LC II Water 360mm ARGB Black",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "TUF Gaming LC II 360 ARGB90RC00M1-M0UAY0",
+      "TUF GAMING LC II 360 ARGB"
+    ],
+    "series": "TUF",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 800,
+  "max_fan_rpm": 2000,
+  "min_noise_level": 29,
+  "max_noise_level": null,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0CN3XZTPK",
+    "walmart_sku": 5189870126
+  }
+}

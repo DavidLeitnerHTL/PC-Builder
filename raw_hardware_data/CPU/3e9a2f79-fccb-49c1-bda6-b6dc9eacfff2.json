@@ -1,0 +1,62 @@
+{
+  "opendb_id": "3e9a2f79-fccb-49c1-bda6-b6dc9eacfff2",
+  "cores": {
+    "total": 2,
+    "performance": 0,
+    "efficiency": 0,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.4,
+      "boost": 0
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
+    }
+  },
+  "cache": {
+    "l1": "L1I$ 128 KiB, L1D$ 64 KiB",
+    "l2": 1,
+    "l3": 4
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon Vega 3",
+      "baseClock": 0,
+      "boostClock": 1,
+      "shaderCount": 192
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": [
+        "DDR4"
+      ],
+      "channels": 2
+    },
+    "tdp": 35,
+    "eccSupport": true,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Athlon 220GE",
+    "vendor": "AMD",
+    "releaseYear": 2018,
+    "part_numbers": [
+      "YD220GC6FBBOX"
+    ]
+  },
+  "series": "200",
+  "microarchitecture": "Zen",
+  "coreFamily": "23",
+  "socket": "AM4",
+  "general_product_information": {
+    "amazon_sku": "B07L9Q7DLQ",
+    "newegg_sku": "9SIBKYEK6R7522",
+    "walmart_sku": 951205752
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "dceea959-50c1-4c61-a143-8524c2c53801",
+  "metadata": {
+    "name": "SHARKOON Shark Blade 120mm Black / Blue 33 CFM",
+    "manufacturer": "Sharkoon",
+    "part_numbers": [
+      "000SKBB"
+    ],
+    "series": "Shark",
+    "variant": "120mm Black / Blue"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "quantity": 1,
+  "min_airflow": 33,
+  "max_airflow": null,
+  "min_noise_level": 19,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 2.63,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00HPR7FTK"
+  }
+}

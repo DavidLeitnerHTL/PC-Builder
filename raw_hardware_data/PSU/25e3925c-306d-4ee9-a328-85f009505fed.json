@@ -1,0 +1,36 @@
+{
+  "opendb_id": "25e3925c-306d-4ee9-a328-85f009505fed",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 8,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider Platinum S ATX 1000W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-ST1000-PTS",
+      "ST1000-PTS"
+    ],
+    "series": "Strider",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07N4RZRPY",
+    "newegg_sku": "1B4-042J-00055",
+    "walmart_sku": 1959217388
+  }
+}

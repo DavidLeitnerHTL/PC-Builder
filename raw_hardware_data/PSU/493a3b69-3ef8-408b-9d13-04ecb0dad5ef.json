@@ -1,0 +1,35 @@
+{
+  "opendb_id": "493a3b69-3ef8-408b-9d13-04ecb0dad5ef",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 3,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone FX350-G Black Flex ATX 350W Non-Modular 80+ Gold",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-FX350-G"
+    ],
+    "series": "FX350-G",
+    "variant": "350W Gold"
+  },
+  "wattage": 350,
+  "form_factor": "Flex ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07CK72QK8",
+    "newegg_sku": "N82E16817256209",
+    "walmart_sku": 733995651
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "opendb_id": "20bea440-bf4b-4bac-80cb-0eb1b0e6cceb",
+  "metadata": {
+    "name": "GAMDIAS CHIONE M3 Water 240mm 70.2 CFM White",
+    "manufacturer": "GAMDIAS",
+    "part_numbers": [
+      "CHIONE M3-240W",
+      "GD-CHIONE M3-240W"
+    ],
+    "series": "CHIONE",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 800,
+  "max_fan_rpm": 2000,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 2011",
+    "LGA 2066",
+    "LGA 775",
+    "sTR4",
+    "sTRX4"
+  ],
+  "water_cooled": true,
+  "radiator_size": 240,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B09Z3R6VXT"
+  }
+}

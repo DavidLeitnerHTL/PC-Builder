@@ -1,0 +1,22 @@
+{
+  "opendb_id": "6f7eaa50-c91f-4a3e-a174-2117b3fa0869",
+  "metadata": {
+    "name": "Seagate IronWolf Pro NAS 6TB 3.5\" HDD 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST6000NT001"
+    ],
+    "series": "IronWolf",
+    "variant": "6000GB"
+  },
+  "capacity": 6000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0B94LJY51",
+    "newegg_sku": "N82E16822185078",
+    "walmart_sku": 2644655224
+  }
+}

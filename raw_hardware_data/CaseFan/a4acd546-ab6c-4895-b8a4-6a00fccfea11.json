@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a4acd546-ab6c-4895-b8a4-6a00fccfea11",
+  "metadata": {
+    "name": "upHere B12CM4 120mm Blue PWM 3-Pack",
+    "manufacturer": "upHere",
+    "part_numbers": [],
+    "series": "B12CM4",
+    "variant": "120mm Blue"
+  },
+  "size": 120,
+  "color": [
+    "BLUE"
+  ],
+  "quantity": 3,
+  "min_airflow": 18.1,
+  "max_airflow": 50.9,
+  "min_noise_level": 15.9,
+  "max_noise_level": 34.4,
+  "pwm": true,
+  "led": "Blue",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

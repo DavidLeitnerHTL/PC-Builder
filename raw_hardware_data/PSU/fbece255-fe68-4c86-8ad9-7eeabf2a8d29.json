@@ -1,0 +1,29 @@
+{
+  "opendb_id": "fbece255-fe68-4c86-8ad9-7eeabf2a8d29",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 7,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group AURUM 92+ 550W 80+ Platinum Certified Semi-Modular",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "PT-550M"
+    ],
+    "series": "AURUM",
+    "variant": "550W Platinum"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

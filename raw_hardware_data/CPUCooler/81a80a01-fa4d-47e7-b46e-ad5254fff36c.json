@@ -1,0 +1,32 @@
+{
+  "opendb_id": "81a80a01-fa4d-47e7-b46e-ad5254fff36c",
+  "metadata": {
+    "name": "ID-COOLING IS-20i Air 21.8 CFM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [
+      "IS-20i"
+    ],
+    "series": "IS-20i",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 800,
+  "max_fan_rpm": 2700,
+  "min_noise_level": 14,
+  "max_noise_level": 23,
+  "color": [],
+  "height": 23,
+  "cpu_sockets": [
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

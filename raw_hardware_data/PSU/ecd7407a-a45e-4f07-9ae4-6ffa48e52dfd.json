@@ -1,0 +1,31 @@
+{
+  "opendb_id": "ecd7407a-a45e-4f07-9ae4-6ffa48e52dfd",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 16,
+    "sata": 7,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "GameMax GM Black ATX 1650W Non-Modular 80+ Gold Certified",
+    "manufacturer": "GameMax",
+    "part_numbers": [
+      "GM-1650"
+    ],
+    "series": "GM",
+    "variant": "1650W Gold"
+  },
+  "wattage": 1650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 178,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "d606fd4a-175e-42cd-b0b4-66bfc2bca9c8",
+  "metadata": {
+    "name": "Antec P12R 120mm Black PWM ARGB",
+    "manufacturer": "Antec",
+    "part_numbers": [],
+    "series": "P12R ARGB",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 55.31,
+  "max_airflow": 61.46,
+  "min_noise_level": 14.2,
+  "max_noise_level": 29.5,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.07,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {}
+}

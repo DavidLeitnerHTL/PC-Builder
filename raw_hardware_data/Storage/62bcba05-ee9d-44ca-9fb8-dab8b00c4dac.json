@@ -1,0 +1,25 @@
+{
+  "opendb_id": "62bcba05-ee9d-44ca-9fb8-dab8b00c4dac",
+  "metadata": {
+    "name": "Kingston NV3 4TB SSD M.2 NVMe PCIe 4.0",
+    "manufacturer": "Kingston",
+    "part_numbers": [
+      "SNV3S",
+      "4000G",
+      "SNV3S/4000G"
+    ],
+    "series": "NV3",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0DJ1QC42R",
+    "newegg_sku": "0D9-001B-005B8",
+    "walmart_sku": 13067462784,
+    "ibuypower_sku": "31703"
+  }
+}

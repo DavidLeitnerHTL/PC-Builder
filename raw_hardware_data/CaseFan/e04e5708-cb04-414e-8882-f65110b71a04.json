@@ -1,0 +1,34 @@
+{
+  "opendb_id": "e04e5708-cb04-414e-8882-f65110b71a04",
+  "metadata": {
+    "name": "Silverstone FW 120mm Blue / White PWM 76.5 CFM",
+    "manufacturer": "SilverStone",
+    "series": "FW",
+    "variant": "120mm Blue / White",
+    "part_numbers": [
+      "FW122"
+    ]
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "BLUE",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 42.6,
+  "max_airflow": 76.5,
+  "min_noise_level": 18.39,
+  "max_noise_level": 28.1,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {
+    "amazon_sku": "B00NOTV48Q",
+    "newegg_sku": "N82E16835220070",
+    "walmart_sku": 639092633
+  }
+}

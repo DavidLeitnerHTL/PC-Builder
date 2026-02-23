@@ -1,0 +1,35 @@
+{
+  "opendb_id": "5f5e61b3-6f51-49b5-b1cb-ccb694de332e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 6,
+    "sata": 14,
+    "molex_4_pin": 7,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SeaSonic PRIME PX Black / Silver 1000W Fully Modular 80+ Platinum Certified ATX",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "PRIME-PX-1000",
+      "PRIME PX-1000"
+    ],
+    "series": "PRIME",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 170,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07XG1QNSR"
+  }
+}

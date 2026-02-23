@@ -1,0 +1,21 @@
+{
+  "opendb_id": "e1e86404-6692-4e06-980b-33b04e54702a",
+  "metadata": {
+    "name": "Seagate BarraCuda 500GB HDD 3.5\" 7200RPM SATA Internal",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST3500641AS-RK"
+    ],
+    "series": "BarraCuda",
+    "variant": "500GB"
+  },
+  "capacity": 500,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 3.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B000EY5F5C",
+    "walmart_sku": 6372763
+  }
+}

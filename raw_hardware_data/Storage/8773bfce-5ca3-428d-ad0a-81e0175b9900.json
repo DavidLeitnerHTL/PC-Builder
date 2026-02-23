@@ -1,0 +1,21 @@
+{
+  "opendb_id": "8773bfce-5ca3-428d-ad0a-81e0175b9900",
+  "metadata": {
+    "name": "IBM 43X0805 300GB HDD 15000RPM 3.5\" SAS 3.0 Gb/s Internal",
+    "manufacturer": "IBM",
+    "part_numbers": [
+      "43X0805"
+    ],
+    "series": "43X0805",
+    "variant": "300GB"
+  },
+  "capacity": 300,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SAS 3.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0034900DG",
+    "walmart_sku": 39128108
+  }
+}

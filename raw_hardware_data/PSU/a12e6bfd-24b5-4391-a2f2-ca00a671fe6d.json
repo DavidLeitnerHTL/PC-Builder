@@ -1,0 +1,31 @@
+{
+  "opendb_id": "a12e6bfd-24b5-4391-a2f2-ca00a671fe6d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 1,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "SHARKOON Rebel P20 SFX Black 1000W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "SHARKOON",
+    "part_numbers": [
+      "Rebel P20 SFX 1000"
+    ],
+    "series": "Rebel",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {}
+}

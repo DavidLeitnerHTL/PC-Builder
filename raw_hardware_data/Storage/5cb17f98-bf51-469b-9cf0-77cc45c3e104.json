@@ -1,0 +1,22 @@
+{
+  "opendb_id": "5cb17f98-bf51-469b-9cf0-77cc45c3e104",
+  "metadata": {
+    "name": "Seagate EXOS Enterprise 14TB HDD 3.5\" 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST14000NM001G"
+    ],
+    "series": "EXOS",
+    "variant": "14000GB"
+  },
+  "capacity": 14000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07T63FDJQ",
+    "newegg_sku": "9SIA4MRJP59864",
+    "walmart_sku": 763370038
+  }
+}

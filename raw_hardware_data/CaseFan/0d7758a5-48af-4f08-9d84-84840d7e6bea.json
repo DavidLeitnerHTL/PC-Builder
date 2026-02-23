@@ -1,0 +1,27 @@
+{
+  "opendb_id": "0d7758a5-48af-4f08-9d84-84840d7e6bea",
+  "metadata": {
+    "name": "Phanteks F140HP II 140mm White PWM 68.1 CFM 1-Pack",
+    "manufacturer": "Phanteks",
+    "part_numbers": [],
+    "series": "F140HP",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 68.1,
+  "max_airflow": null,
+  "min_noise_level": 25,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.62,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

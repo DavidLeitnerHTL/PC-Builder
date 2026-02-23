@@ -1,0 +1,31 @@
+{
+  "opendb_id": "18b66c15-0c2c-4d0c-a96c-7bfe587d7fb4",
+  "metadata": {
+    "name": "Logisys CF120BL 120mm Clear Blue LED 69.15 CFM 1-Pack",
+    "manufacturer": "Logisys",
+    "part_numbers": [
+      "CF120BL"
+    ],
+    "series": "CF120BL",
+    "variant": "120mm Clear"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 69.15,
+  "max_airflow": null,
+  "min_noise_level": 39.29,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B000VL6N0O"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "opendb_id": "c58dccd8-a359-4164-9a4e-0a75a106cad0",
+  "metadata": {
+    "name": "Toshiba N300 6TB 3.5\" HDD 7200RPM SATA 6.0 Gb/s Internal",
+    "manufacturer": "Toshiba",
+    "part_numbers": [
+      "HDWG160XZSTA"
+    ],
+    "series": "N300",
+    "variant": "6000GB"
+  },
+  "capacity": 6000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "cache": 256,
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B08BV1T759"
+  }
+}

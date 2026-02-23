@@ -1,0 +1,27 @@
+{
+  "opendb_id": "6e0f5f6c-e065-4833-bd4a-6871cd69bc39",
+  "metadata": {
+    "name": "Deepcool Wind Blade 80mm Translucent Black Blue 21.8 CFM",
+    "manufacturer": "Deepcool",
+    "part_numbers": [],
+    "series": "Wind",
+    "variant": "80mm Translucent Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 21.8,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Blue",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

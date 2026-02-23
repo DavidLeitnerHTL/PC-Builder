@@ -1,0 +1,53 @@
+{
+  "opendb_id": "38cf0049-8c6a-417d-afd5-292d384ca632",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 16
+  },
+  "clocks": {
+    "performance": {
+      "base": 4.1,
+      "boost": 5
+    }
+  },
+  "cache": {
+    "l2": 8,
+    "l3": 16
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 256,
+      "types": [
+        "DDR5"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "4 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "AMD Ryzen 7 8700F 4.1 GHz 8-Core AM5",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "100-100001590BOX",
+      "AMD Ryzen™ 7 8700F"
+    ],
+    "series": "AMD Ryzen 7"
+  },
+  "series": "AMD Ryzen 7",
+  "microarchitecture": "Zen 4",
+  "coreFamily": "Phoenix 1",
+  "socket": "AM5",
+  "general_product_information": {
+    "amazon_sku": "B0D2JCMP34",
+    "newegg_sku": "N82E16819113825",
+    "walmart_sku": 5636113510
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "a2959527-3249-4b81-ac09-5b33cda488c5",
+  "metadata": {
+    "name": "Corsair LL120 120mm RGB PWM 63 CFM White 1-Pack",
+    "manufacturer": "Corsair",
+    "part_numbers": [
+      "CO-9050091-WW"
+    ],
+    "series": "LL120",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 63,
+  "max_airflow": null,
+  "min_noise_level": 36,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + Proprietary RGB",
+  "controller": "None",
+  "static_pressure": 3,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07LF75PJ8",
+    "walmart_sku": 731799228
+  }
+}

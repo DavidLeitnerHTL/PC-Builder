@@ -1,0 +1,31 @@
+{
+  "opendb_id": "561ba22c-a20b-40e1-ad34-c75004423267",
+  "metadata": {
+    "name": "BitFenix Spectre 140mm White",
+    "manufacturer": "BitFenix",
+    "part_numbers": [
+      "BFF-SCF-14025WW-RP"
+    ],
+    "series": "Spectre",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 47.7,
+  "max_airflow": null,
+  "min_noise_level": 20,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B006VK85YQ"
+  }
+}

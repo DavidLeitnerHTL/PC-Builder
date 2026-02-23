@@ -1,0 +1,52 @@
+{
+  "opendb_id": "372d6954-a76a-43a6-abff-6cb205e0aa99",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Asus PRIME OC Radeon RX 9070 16GB GDDR6 Black",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "prime-rx9070-o16g                                                    90YV0LI1-M0NA00",
+      "PRIME-RX9070-O16G",
+      "90YV0LI1-M0NA00"
+    ],
+    "series": "Radeon RX 9070",
+    "variant": "Asus"
+  },
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 9070",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 2120,
+  "core_boost_clock": 2610,
+  "effective_memory_clock": 0,
+  "memory_bus": 256,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 312,
+  "tdp": 220,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 3,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c438865ad0c3553e857c"
+  },
+  "core_count": 3584,
+  "general_product_information": {
+    "amazon_sku": "B0DSG8LXX9",
+    "newegg_sku": "N82E16814126748",
+    "walmart_sku": 15828616320
+  }
+}

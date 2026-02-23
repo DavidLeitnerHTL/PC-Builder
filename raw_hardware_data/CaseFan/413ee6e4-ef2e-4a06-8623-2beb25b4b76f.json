@@ -1,0 +1,34 @@
+{
+  "opendb_id": "413ee6e4-ef2e-4a06-8623-2beb25b4b76f",
+  "metadata": {
+    "name": "NZXT F140 RGB DUO 140mm White Addressable RGB PWM",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RF-D14SF-W1"
+    ],
+    "series": "F140",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 84.75,
+  "max_airflow": null,
+  "min_noise_level": 36,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + Proprietary RGB",
+  "controller": "None",
+  "static_pressure": 2.72,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BS1XG1BF",
+    "newegg_sku": "1YF-000Z-00121",
+    "bestbuy_sku": 6563105,
+    "walmart_sku": 1224358633
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "opendb_id": "7b2c798b-cb25-43cb-b87e-3e5500e89933",
+  "metadata": {
+    "name": "Seagate Exos X14 14TB 3.5\" HDD 7200RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST14000NM0018"
+    ],
+    "series": "Exos",
+    "variant": "14000GB"
+  },
+  "capacity": 14000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07RQZJ347",
+    "walmart_sku": 528515118
+  }
+}

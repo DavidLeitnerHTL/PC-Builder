@@ -1,0 +1,29 @@
+{
+  "opendb_id": "1827d24d-457e-4140-9082-ac05129afd77",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 0,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Sunbeam IC-PSU-US-2545-DW ATX 450W Non-Modular",
+    "manufacturer": "Sunbeam",
+    "part_numbers": [
+      "IC-PSU-US-2545-DW"
+    ],
+    "series": "IC-PSU-US-2545-DW",
+    "variant": "450W "
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

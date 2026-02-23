@@ -1,0 +1,120 @@
+{
+  "opendb_id": "4dd7dabd-5970-44b1-802e-16ab91a41065",
+  "memory": {
+    "max": 192,
+    "slots": 4,
+    "ram_type": "DDR5"
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
+  "power_connectors": {
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
+  },
+  "audio": {
+    "chipset": "Realtek ALC1220",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "Colorful iGame X870 Senna V14",
+    "manufacturer": "Colorful",
+    "series": "X870",
+    "part_numbers": [],
+    "variant": "iGame Senna V14",
+    "last_manually_spec_verified_at": "2025-10-29T00:17:23.128Z"
+  },
+  "socket": "AM5",
+  "chipset": "AMD X870",
+  "color": [
+    "WHITE",
+    "RED"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16,
+      "_id": "69015d1640c4d18498607e69"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "69015d1640c4d18498607e6a"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "69015d1640c4d18498607e6b"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 5.0 x4",
+      "_id": "69015d1640c4d18498607e66"
+    },
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 5.0 x4",
+      "_id": "69015d1640c4d18498607e67"
+    },
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "69015d1640c4d18498607e68"
+    }
+  ],
+  "onboard_ethernet": [],
+  "back_panel_ports": [
+    "2×USB 2.0",
+    "4×USB 3.2 Gen 1 5Gbps",
+    "1×USB 3.2 Gen 2 10Gbps",
+    "1×USB 4 40Gbps Type-C ",
+    "1×DP 1.2 ",
+    "1×HDMI 2.0 ",
+    "1×S/PDIF audio ",
+    "1×BIOS update button"
+  ],
+  "form_factor": "ATX",
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "raid_support": true,
+  "bios_features": {
+    "flashback": true,
+    "_id": "69015d1640c4d18498607e65"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://en.colorful.cn/en/home/product?mid=84&id=0091c838-b25d-4982-bc2c-3f0e741f12f9#gallery-3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "opendb_id": "b6e23295-c06f-41f0-9007-9c356729be95",
+  "metadata": {
+    "name": "BitFenix Spectre Pro 120mm White PWM 70.52 CFM",
+    "manufacturer": "BitFenix",
+    "part_numbers": [],
+    "series": "Spectre",
+    "variant": "120mm White"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 70.52,
+  "max_airflow": null,
+  "min_noise_level": 26.1,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

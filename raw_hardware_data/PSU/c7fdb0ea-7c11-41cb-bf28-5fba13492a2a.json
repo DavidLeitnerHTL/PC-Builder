@@ -1,0 +1,29 @@
+{
+  "opendb_id": "c7fdb0ea-7c11-41cb-bf28-5fba13492a2a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Chieftec GPS-600A8 ATX 600W Non-Modular 80+ Certified",
+    "manufacturer": "Chieftec",
+    "part_numbers": [
+      "GPS-600A8"
+    ],
+    "series": "GPS-600A8",
+    "variant": "600W 80+"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

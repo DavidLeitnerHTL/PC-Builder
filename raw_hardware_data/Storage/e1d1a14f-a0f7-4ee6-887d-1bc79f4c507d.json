@@ -1,0 +1,22 @@
+{
+  "opendb_id": "e1d1a14f-a0f7-4ee6-887d-1bc79f4c507d",
+  "metadata": {
+    "name": "Seagate Barracuda Compute 6TB HDD 3.5\" 5400RPM SATA",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST6000DMZ03"
+    ],
+    "series": "Barracuda",
+    "variant": "6000GB"
+  },
+  "capacity": 6000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B07H28SY39",
+    "newegg_sku": "9SIB7VEJ3X6229",
+    "walmart_sku": 900560049
+  }
+}

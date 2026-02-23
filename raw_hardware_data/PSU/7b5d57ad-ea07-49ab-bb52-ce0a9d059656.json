@@ -1,0 +1,35 @@
+{
+  "opendb_id": "7b5d57ad-ea07-49ab-bb52-ce0a9d059656",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "NE600G ZEN",
+    "manufacturer": "Antec",
+    "part_number": "X7000A013A-19",
+    "series": "NE600G Zen",
+    "variant": null,
+    "releaseYear": 0,
+    "part_numbers": [
+      "NE700G Zen"
+    ]
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "length": 140,
+  "fanless": false,
+  "color": [],
+  "general_product_information": {
+    "amazon_sku": "B07XDHHTX8",
+    "newegg_sku": "N82E16817371128",
+    "walmart_sku": 771370123
+  }
+}

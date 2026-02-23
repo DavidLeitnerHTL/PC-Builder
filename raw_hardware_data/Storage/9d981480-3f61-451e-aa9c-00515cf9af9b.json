@@ -1,0 +1,23 @@
+{
+  "opendb_id": "9d981480-3f61-451e-aa9c-00515cf9af9b",
+  "metadata": {
+    "name": "MSI SPATIUM M480 2TB M.2-2280 SSD PCIe 4.0 X4 NVMe",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "SM480N2TB",
+      "S78-440Q300-P83"
+    ],
+    "series": "SPATIUM",
+    "variant": "2000GB"
+  },
+  "capacity": 2000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B09RBTVHXF",
+    "newegg_sku": "N82E16820140035",
+    "walmart_sku": 1956153516
+  }
+}

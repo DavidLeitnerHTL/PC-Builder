@@ -1,0 +1,28 @@
+{
+  "opendb_id": "a1aa23dc-2319-47f0-8106-cb340e5a753f",
+  "metadata": {
+    "name": "Phanteks F140MP 140mm Black / White PWM 68.09 CFM 1-Pack",
+    "manufacturer": "Phanteks",
+    "part_numbers": [],
+    "series": "F140MP",
+    "variant": "140mm Black / White"
+  },
+  "isOEM": false,
+  "size": 140,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 68.09,
+  "max_airflow": null,
+  "min_noise_level": 17,
+  "max_noise_level": 25.3,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.62,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

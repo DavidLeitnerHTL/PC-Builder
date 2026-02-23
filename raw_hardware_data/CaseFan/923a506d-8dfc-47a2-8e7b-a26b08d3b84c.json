@@ -1,0 +1,27 @@
+{
+  "opendb_id": "923a506d-8dfc-47a2-8e7b-a26b08d3b84c",
+  "metadata": {
+    "name": "APNX FP1 120mm White Addressable RGB PWM 74.6 CFM 1-Pack",
+    "manufacturer": "APNX",
+    "part_numbers": [],
+    "series": "FP1",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 74.6,
+  "max_airflow": null,
+  "min_noise_level": 15.3,
+  "max_noise_level": 33.2,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.26,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

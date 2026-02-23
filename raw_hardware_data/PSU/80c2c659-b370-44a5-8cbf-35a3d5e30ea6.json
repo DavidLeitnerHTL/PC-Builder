@@ -1,0 +1,29 @@
+{
+  "opendb_id": "80c2c659-b370-44a5-8cbf-35a3d5e30ea6",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 8,
+    "sata": 11,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "XFX ProSeries ATX 1000W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "XFX",
+    "part_numbers": [
+      "P1-1000-BELX"
+    ],
+    "series": "ProSeries",
+    "variant": "1000W Platinum"
+  },
+  "wattage": 1000,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [],
+  "length": 190,
+  "fanless": false,
+  "general_product_information": {}
+}

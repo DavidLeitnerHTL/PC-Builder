@@ -1,0 +1,28 @@
+{
+  "opendb_id": "5b2fa741-9a2c-4894-880d-477da430501c",
+  "metadata": {
+    "name": "Cougar CFD 120mm Black / White 64.37 CFM White",
+    "manufacturer": "COUGAR",
+    "part_numbers": [],
+    "series": "CFD",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 64.37,
+  "max_airflow": null,
+  "min_noise_level": 16.6,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

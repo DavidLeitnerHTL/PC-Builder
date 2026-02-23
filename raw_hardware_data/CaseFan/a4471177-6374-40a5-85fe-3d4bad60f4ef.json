@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a4471177-6374-40a5-85fe-3d4bad60f4ef",
+  "metadata": {
+    "name": "ID-COOLING TF-12025-PRO-ARGB 120mm White Addressable RGB PWM 82.5 CFM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [],
+    "series": "TF-12025-PRO-ARGB",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 82.5,
+  "max_airflow": null,
+  "min_noise_level": 35.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.55,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

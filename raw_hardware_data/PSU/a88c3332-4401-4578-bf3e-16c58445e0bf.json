@@ -1,0 +1,34 @@
+{
+  "opendb_id": "a88c3332-4401-4578-bf3e-16c58445e0bf",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Fractal Design Ion Gold 750W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-P-IA2G-750                                                    FD-P-IA2G-750-EU                                                    FD-P-IA2G-750-UK                                                    FD-P-IA2G-750-US",
+      "FD-P-IA2G-750"
+    ],
+    "series": "Ion",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B08X1V6G2M"
+  }
+}

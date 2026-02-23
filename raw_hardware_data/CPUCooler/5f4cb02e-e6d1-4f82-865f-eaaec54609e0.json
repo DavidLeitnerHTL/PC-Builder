@@ -1,0 +1,32 @@
+{
+  "opendb_id": "5f4cb02e-e6d1-4f82-865f-eaaec54609e0",
+  "metadata": {
+    "name": "ID-COOLING DK-03i Air 68mm Red",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [
+      "DK-03i PWM RED"
+    ],
+    "series": "DK-03i",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 1800,
+  "min_noise_level": 16,
+  "max_noise_level": 20.2,
+  "color": [],
+  "height": 68,
+  "cpu_sockets": [
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {}
+}

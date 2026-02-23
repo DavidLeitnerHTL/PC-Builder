@@ -1,0 +1,51 @@
+{
+  "opendb_id": "ea73b464-ac14-41d5-aca4-2b1e576e1bbc",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Gigabyte OC Low Profile GeForce RTX 5060 8GB GDDR7 Black",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GV-N5060OC-8GL"
+    ],
+    "series": "GeForce RTX 5060",
+    "variant": "Gigabyte"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5060",
+  "memory": 8,
+  "memory_type": "GDDR7",
+  "core_base_clock": 2280,
+  "core_boost_clock": 2280,
+  "effective_memory_clock": 28000,
+  "memory_bus": 128,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 182,
+  "tdp": 145,
+  "total_slot_width": 2,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 2,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "685215c00c9749f19a4efa77"
+  },
+  "core_count": 3840,
+  "general_product_information": {
+    "amazon_sku": "B0F8LNS15L",
+    "newegg_sku": "N82E16814932801",
+    "bestbuy_sku": 6632704,
+    "walmart_sku": 16871510834
+  }
+}

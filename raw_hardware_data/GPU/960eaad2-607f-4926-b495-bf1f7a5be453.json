@@ -1,0 +1,47 @@
+{
+  "opendb_id": "960eaad2-607f-4926-b495-bf1f7a5be453",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Gainward Phoenix GS GeForce RTX 5080 16GB GDDR7 Black / Silver",
+    "manufacturer": "Gainward",
+    "part_numbers": [
+      "NE75080S19T2-GB2031X"
+    ],
+    "series": "GeForce RTX 5080",
+    "variant": "Gainward"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5080",
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "core_base_clock": 2300,
+  "core_boost_clock": 2700,
+  "effective_memory_clock": 15000,
+  "memory_bus": 256,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 332,
+  "tdp": 360,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 3,
+    "displayport_1_4a": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "684cd40b1d3a20a8514d2c4f"
+  },
+  "core_count": 10752,
+  "general_product_information": {}
+}

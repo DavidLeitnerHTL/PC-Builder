@@ -1,0 +1,32 @@
+{
+  "opendb_id": "08843ce6-f7a1-4615-a48c-8070deaa9285",
+  "metadata": {
+    "name": "Geometric Future Squama 2503R 140mm White PWM ARGB",
+    "manufacturer": "Geometric Future",
+    "part_numbers": [
+      "GEO-S2503RW-14S"
+    ],
+    "series": "Squama",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 71.8,
+  "max_airflow": null,
+  "min_noise_level": 34,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DGP3TP6G",
+    "newegg_sku": "1YF-01P6-00016"
+  }
+}

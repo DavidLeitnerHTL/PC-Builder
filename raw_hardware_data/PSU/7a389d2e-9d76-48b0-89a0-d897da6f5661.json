@@ -1,0 +1,34 @@
+{
+  "opendb_id": "7a389d2e-9d76-48b0-89a0-d897da6f5661",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Chieftec Vega Black / Blue 750W Non-Modular 80+ Gold",
+    "manufacturer": "Chieftec",
+    "part_numbers": [
+      "PPG-750-S"
+    ],
+    "series": "Vega",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "BLUE"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0F2G2M4SL"
+  }
+}

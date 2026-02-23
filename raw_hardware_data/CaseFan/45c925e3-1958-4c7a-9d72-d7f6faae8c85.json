@@ -1,0 +1,33 @@
+{
+  "opendb_id": "45c925e3-1958-4c7a-9d72-d7f6faae8c85",
+  "metadata": {
+    "name": "Thermaltake SWAFAN GT12 120mm Black PWM 58.17 CFM",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "CL-F155-PL12BL-A"
+    ],
+    "series": "SWAFAN",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 54.71,
+  "max_airflow": 58.17,
+  "min_noise_level": 26.5,
+  "max_noise_level": 29.8,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 3.17,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CCQQGWBL",
+    "newegg_sku": "N82E16835106744",
+    "walmart_sku": 5049372838
+  }
+}

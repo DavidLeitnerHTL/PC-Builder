@@ -1,0 +1,29 @@
+{
+  "opendb_id": "8740ebf4-b54d-44d4-9bab-449fd1a67571",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "In Win Classic 750W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "In Win",
+    "part_numbers": [
+      "C750W"
+    ],
+    "series": "Classic",
+    "variant": "750W Platinum"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [],
+  "length": 165,
+  "fanless": false,
+  "general_product_information": {}
+}

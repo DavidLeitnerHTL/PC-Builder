@@ -1,0 +1,35 @@
+{
+  "opendb_id": "57023003-afe2-4171-ad7f-faaca5aeeb98",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone DA850R-GMA Black 850W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "SST-DA850R-GMA",
+      "SST-AX0850MCGD-D"
+    ],
+    "series": "DA850R-GMA",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CL5HDTMD",
+    "walmart_sku": 5363356177
+  }
+}

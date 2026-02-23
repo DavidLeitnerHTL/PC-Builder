@@ -1,0 +1,52 @@
+{
+  "opendb_id": "1d316a65-4f63-447e-b3ea-ca485c4334ac",
+  "cores": {
+    "total": 4,
+    "performance": 4,
+    "threads": 4
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.6,
+      "boost": 4.2
+    }
+  },
+  "cache": {
+    "l2": 1,
+    "l3": 6
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    },
+    "tdp": 65,
+    "eccSupport": true,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": false
+  },
+  "metadata": {
+    "name": "Intel Core i3 9100F 3.6 GHz 4-Core LGA1151",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX80684i39100F",
+      "i3-9100F",
+      "BX80684I39100F"
+    ],
+    "series": "Intel Core i3"
+  },
+  "series": "Intel Core i3",
+  "microarchitecture": "Coffee Lake Refresh",
+  "coreFamily": "Coffee Lake Refresh",
+  "socket": "LGA 1151",
+  "general_product_information": {
+    "amazon_sku": "B07R7Q3JZH",
+    "newegg_sku": "9SIBMM4KBT0340",
+    "walmart_sku": 995092780
+  }
+}

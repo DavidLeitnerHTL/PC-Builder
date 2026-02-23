@@ -1,0 +1,44 @@
+{
+  "opendb_id": "a9ba4132-1bc4-4a92-ae9e-8d925d71c3bb",
+  "metadata": {
+    "name": "Noctua NH-D14 Air 160mm",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NH-D14"
+    ],
+    "series": "NH-D14",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 900,
+  "max_fan_rpm": 1200,
+  "min_noise_level": 12.6,
+  "max_noise_level": 19.8,
+  "color": [],
+  "height": 160,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 775"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B002VKVZ1A"
+  }
+}

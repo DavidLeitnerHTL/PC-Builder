@@ -1,0 +1,36 @@
+{
+  "opendb_id": "c96b47de-aeb3-44c5-a7e0-1ce7fdb28b69",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 9,
+    "sata": 14,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Super Flower Leadex Platinum 1600W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Super Flower",
+    "part_numbers": [
+      "SF-1600F14HP                                                    SF-1600F14HP(BK)                                                    SF-1600F14HP-BK",
+      "SF-1600F14HP",
+      "SF-1600F14HP(BK)"
+    ],
+    "series": "Leadex",
+    "variant": "1600W Platinum"
+  },
+  "wattage": 1600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 220,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B00SKAW532",
+    "newegg_sku": "1HU-024C-00015"
+  }
+}

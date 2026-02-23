@@ -1,0 +1,27 @@
+{
+  "opendb_id": "60a1d5be-6f5a-4b72-80c4-fc834e0f5648",
+  "metadata": {
+    "name": "GAMDIAS AEOLUS M3-1204R 120mm Black PWM Addressable RGB 69.01 CFM 4-Pack",
+    "manufacturer": "GAMDIAS",
+    "part_numbers": [],
+    "series": "AEOLUS",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 4,
+  "min_airflow": 69.01,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "Proprietary PWM",
+  "controller": "Manual",
+  "static_pressure": 2.37,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

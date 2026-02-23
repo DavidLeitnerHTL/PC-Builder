@@ -1,0 +1,52 @@
+{
+  "opendb_id": "cc6dba0d-1833-481c-b980-d23f4edeee74",
+  "metadata": {
+    "name": "NZXT H7 Flow (2024) ATX Mid Tower White Tempered Glass Side Panel, USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "CM-H72FW-01"
+    ],
+    "series": "H7",
+    "variant": "",
+    "last_manually_spec_verified_at": "2025-10-08T12:19:58.229Z"
+  },
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "ATX Mid Tower",
+  "color": [
+    "WHITE"
+  ],
+  "power_supply": "None",
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "2x USB 3.2 Gen 2x2 Type-C                                                 1x  USB 3.2 Gen 1 Type-A",
+  "max_video_card_length": 410,
+  "max_cpu_cooler_height": 185,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 7,
+  "dimensions": "468 x 244 x 544",
+  "volume": 62.12,
+  "weight": 24.91,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "2x USB 3.2 Gen 2x2 Type-C     ",
+    " 1x  USB 3.2 Gen 1 Type-A"
+  ],
+  "dimensions_mm": {
+    "width": 244,
+    "height": 544,
+    "depth": 468,
+    "_id": "68a0bb95356dc19aa51e14d2"
+  },
+  "general_product_information": {
+    "amazon_sku": "B0CV4RYKLF",
+    "newegg_sku": "N82E16811146362",
+    "bestbuy_sku": 6585810,
+    "walmart_sku": 6189869562,
+    "manufacturer_url": "https://nzxt.com/en-intl/products/h7-flow?srsltid=AfmBOorjJZuunKRrYuUFGP93GYsuyiZFlRClE7S59BbEKUhatWf3yV0Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "5c80ed91-dd82-4a36-924f-01702b819294",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 8,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "OCZ EliteXStream 800W Non-Modular 80+",
+    "manufacturer": "OCZ",
+    "part_numbers": [
+      "OCZ800EXS"
+    ],
+    "series": "EliteXStream",
+    "variant": "800W 80+"
+  },
+  "wattage": 800,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {}
+}

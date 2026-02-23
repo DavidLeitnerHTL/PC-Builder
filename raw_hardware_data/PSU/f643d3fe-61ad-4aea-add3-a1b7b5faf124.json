@@ -1,0 +1,33 @@
+{
+  "opendb_id": "f643d3fe-61ad-4aea-add3-a1b7b5faf124",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 8,
+    "molex_4_pin": 5,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Seasonic Prime PX-450 Fanless 450W 80+ Platinum Fully Modular ATX",
+    "manufacturer": "SeaSonic",
+    "part_numbers": [
+      "PRIME FANLESS PX-450                                                    SSR-450PL                                                    PRIME-PX-450"
+    ],
+    "series": "Prime",
+    "variant": "450W Platinum"
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": true,
+  "general_product_information": {
+    "amazon_sku": "B095ZJ8QQQ"
+  }
+}

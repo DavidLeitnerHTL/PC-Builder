@@ -1,0 +1,37 @@
+{
+  "opendb_id": "edd47537-ea3a-4a48-9939-86aec1e6518d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower SFX 850W 80+ Platinum Certified Fully Modular",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-STP-0850FNFAPU-1",
+      "SFX-0850AH8FLP"
+    ],
+    "series": "Toughpower",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 104,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0D2851VQD",
+    "newegg_sku": "N82E16817153466",
+    "bestbuy_sku": 6626429,
+    "walmart_sku": 5686796903
+  }
+}

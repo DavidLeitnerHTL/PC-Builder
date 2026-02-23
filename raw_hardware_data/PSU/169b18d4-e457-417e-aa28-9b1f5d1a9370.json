@@ -1,0 +1,29 @@
+{
+  "opendb_id": "169b18d4-e457-417e-aa28-9b1f5d1a9370",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 1,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "HEC HEC200SA2FX Mini ITX 200W Non-Modular",
+    "manufacturer": "HEC",
+    "part_numbers": [
+      "HEC200SA2FX"
+    ],
+    "series": "HEC200SA2FX",
+    "variant": "200W "
+  },
+  "wattage": 200,
+  "form_factor": "Mini-ITX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": null,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "252d8d23-2c51-4940-8ec0-feec5343fb37",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermalright TR-SGFX SFX 650W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "TR-SGFX 650W                                                    SGFX 650W"
+    ],
+    "series": "TR-SGFX",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "SFX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "WHITE"
+  ],
+  "length": 100,
+  "fanless": false,
+  "general_product_information": {}
+}

@@ -1,0 +1,31 @@
+{
+  "opendb_id": "4665522c-836d-457b-aadd-9e9b535950e2",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 4,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group HV PRO Black ATX 650W Non-Modular 80+ Certified",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "FSP650-51AAC"
+    ],
+    "series": "HV",
+    "variant": "650W 80+"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

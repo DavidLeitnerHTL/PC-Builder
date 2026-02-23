@@ -1,0 +1,28 @@
+{
+  "opendb_id": "ab4e7eac-1ff2-4803-a786-56a3273141de",
+  "metadata": {
+    "name": "Xigmatek CFS 120mm Black / Green 53.34 CFM",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "CFS",
+    "variant": "120mm Black / Green"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "GREEN"
+  ],
+  "quantity": 1,
+  "min_airflow": 53.34,
+  "max_airflow": null,
+  "min_noise_level": 14,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

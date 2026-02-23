@@ -1,0 +1,31 @@
+{
+  "opendb_id": "59571630-a219-4b0e-aa05-ed7d4e55bd54",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 5,
+    "sata": 12,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower GF A3 TT Premium Edition Black 850W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-TPD-850FNFAGE-H"
+    ],
+    "series": "Toughpower",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

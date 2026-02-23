@@ -1,0 +1,36 @@
+{
+  "opendb_id": "ecafe7db-2c90-47b5-a09f-9b19b47ff1e1",
+  "metadata": {
+    "name": "Lian Li HydroShift Water 360mm LCD RGB 79.9 CFM White",
+    "manufacturer": "Lian Li",
+    "part_numbers": [
+      "HSLCD36RW"
+    ],
+    "series": "HydroShift",
+    "variant": "White",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 300,
+  "max_fan_rpm": 2400,
+  "min_noise_level": 30,
+  "max_noise_level": null,
+  "color": [
+    "WHITE"
+  ],
+  "height": 59,
+  "cpu_sockets": [
+    "AM4",
+    "AM5",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0D83N585D",
+    "newegg_sku": "2YM-002Y-00034"
+  }
+}

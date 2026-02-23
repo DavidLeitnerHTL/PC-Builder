@@ -1,0 +1,39 @@
+{
+  "opendb_id": "1cb940a1-2904-4718-b027-cf00bb097252",
+  "metadata": {
+    "name": "ID-COOLING IS-40-XT Air 47mm Black",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": [
+      "IS-40-XT BLACK"
+    ],
+    "series": "IS-40-XT",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 800,
+  "max_fan_rpm": 2800,
+  "min_noise_level": 14,
+  "max_noise_level": 35.2,
+  "color": [
+    "BLACK"
+  ],
+  "height": 47,
+  "cpu_sockets": [
+    "AM4",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1700",
+    "LGA 1851"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B0CY274JWV"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "opendb_id": "d607c9a1-cbc9-4c63-98c3-c69372c4e774",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 3,
+    "sata": 9,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master Silent Pro Gold 800W Semi-Modular 80+ Gold",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "RS800-80GAD3-US"
+    ],
+    "series": "Silent",
+    "variant": "800W Gold"
+  },
+  "wattage": 800,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Semi-Modular",
+  "color": [],
+  "length": 159,
+  "fanless": false,
+  "general_product_information": {}
+}

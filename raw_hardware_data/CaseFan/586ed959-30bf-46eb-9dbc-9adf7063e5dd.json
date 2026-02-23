@@ -1,0 +1,31 @@
+{
+  "opendb_id": "586ed959-30bf-46eb-9dbc-9adf7063e5dd",
+  "metadata": {
+    "name": "Scythe Slipstream 120mm Black PWM",
+    "manufacturer": "SCYTHE",
+    "series": "Slipstream",
+    "variant": "120mm Black",
+    "part_numbers": [
+      "SY1225DB12M-P"
+    ]
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 9.8,
+  "max_airflow": 74.25,
+  "min_noise_level": 3,
+  "max_noise_level": 26.5,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B00ZTRYJOM"
+  }
+}

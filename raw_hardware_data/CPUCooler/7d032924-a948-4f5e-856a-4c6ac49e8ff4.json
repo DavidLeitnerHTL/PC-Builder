@@ -1,0 +1,50 @@
+{
+  "opendb_id": "7d032924-a948-4f5e-856a-4c6ac49e8ff4",
+  "metadata": {
+    "name": "NZXT Kraken 120 Water 120mm 73.11 CFM Black",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RL-KR120-B1"
+    ],
+    "series": "Kraken",
+    "variant": "Black",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2000,
+  "min_noise_level": 21,
+  "max_noise_level": 36,
+  "color": [
+    "BLACK"
+  ],
+  "height": null,
+  "cpu_sockets": [
+    "AM2",
+    "AM3",
+    "AM4",
+    "AM5",
+    "FM1",
+    "FM2",
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200",
+    "LGA 1366",
+    "LGA 1700",
+    "LGA 1851",
+    "LGA 2011",
+    "LGA 2066"
+  ],
+  "water_cooled": true,
+  "radiator_size": 120,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B09GKQ4KYP",
+    "newegg_sku": "N82E16835146088",
+    "bestbuy_sku": 6486421,
+    "walmart_sku": 1419947048
+  }
+}

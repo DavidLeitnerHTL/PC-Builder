@@ -1,0 +1,32 @@
+{
+  "opendb_id": "76313c3a-c5d6-4ff0-801b-d2cf497e3d47",
+  "metadata": {
+    "name": "Thermalright TL-P9 92mm White PWM ARGB",
+    "manufacturer": "Thermalright",
+    "part_numbers": [
+      "TL-P9W-S",
+      "P9W-S-D1"
+    ],
+    "series": "TL-P9",
+    "variant": "92mm White"
+  },
+  "size": 92,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 32.77,
+  "max_airflow": null,
+  "min_noise_level": 23.85,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.98,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0CJFGV5FJ"
+  }
+}

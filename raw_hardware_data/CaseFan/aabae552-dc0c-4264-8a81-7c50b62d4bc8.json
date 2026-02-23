@@ -1,0 +1,33 @@
+{
+  "opendb_id": "aabae552-dc0c-4264-8a81-7c50b62d4bc8",
+  "metadata": {
+    "name": "Scythe Wonder Tornado 120mm White PWM 1-Pack",
+    "manufacturer": "SCYTHE",
+    "part_numbers": [
+      "WT1225FD25W-P",
+      "Wonder Tornado"
+    ],
+    "series": "Wonder",
+    "variant": "120mm White"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 7.68,
+  "max_airflow": 75.17,
+  "min_noise_level": 3,
+  "max_noise_level": 35.57,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 3.39,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D6YJWL34",
+    "newegg_sku": "1YF-0015-00147"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "opendb_id": "4583c2ec-d8ba-45ad-b96d-1adc5fc9a9ac",
+  "metadata": {
+    "name": "Scythe Kaze Flex Slim 120mm Gray / Black PWM 1-Pack",
+    "manufacturer": "SCYTHE",
+    "part_numbers": [],
+    "series": "Kaze",
+    "variant": "120mm Gray / Black"
+  },
+  "isOEM": false,
+  "size": 120,
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 33.86,
+  "max_airflow": null,
+  "min_noise_level": 23.9,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 0.9,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

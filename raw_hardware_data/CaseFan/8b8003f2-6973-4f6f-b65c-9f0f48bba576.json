@@ -1,0 +1,34 @@
+{
+  "opendb_id": "8b8003f2-6973-4f6f-b65c-9f0f48bba576",
+  "metadata": {
+    "name": "NZXT F Core 140mm White PWM RGB",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RF-C14SF-W1"
+    ],
+    "series": "F",
+    "variant": "140mm White"
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 24.85,
+  "max_airflow": 89.48,
+  "min_noise_level": 20,
+  "max_noise_level": 32.5,
+  "pwm": true,
+  "led": "RGB",
+  "connector": "4-pin PWM + 4-pin 12V RGB",
+  "controller": "None",
+  "static_pressure": 3.39,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BYMZ26QR",
+    "newegg_sku": "N82E16835146140",
+    "bestbuy_sku": 6563123,
+    "walmart_sku": 3453122464
+  }
+}

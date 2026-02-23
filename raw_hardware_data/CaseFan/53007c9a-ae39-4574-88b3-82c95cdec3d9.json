@@ -1,0 +1,32 @@
+{
+  "opendb_id": "53007c9a-ae39-4574-88b3-82c95cdec3d9",
+  "metadata": {
+    "name": "Noctua P12 redux-1300 120mm Gray PWM 1300RPM 54.32 CFM",
+    "manufacturer": "Noctua",
+    "part_numbers": [
+      "NF-P12 redux-1300 PWM"
+    ],
+    "series": "P12",
+    "variant": "120mm Gray"
+  },
+  "size": 120,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 54.32,
+  "max_airflow": null,
+  "min_noise_level": 19.8,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.68,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07CG2PGVG",
+    "newegg_sku": "1YF-000T-000K2"
+  }
+}

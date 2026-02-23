@@ -1,0 +1,37 @@
+{
+  "opendb_id": "2ca05a18-4ece-4618-8061-6ebaae1df824",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 10,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Asus ROG THOR P2 Gaming Black / Silver 850W Fully Modular 80+ Platinum Certified",
+    "manufacturer": "Asus",
+    "part_numbers": [
+      "ROG-THOR-850P2-GAMING                                                    90YE00L2-B0NA00",
+      "ROG-THOR-850P2-GAMING"
+    ],
+    "series": "ROG",
+    "variant": "850W Platinum"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Platinum",
+  "modular": "Full",
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
+  "length": 160,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0C3ZLPNPM",
+    "newegg_sku": "N82E16817320033",
+    "walmart_sku": 3965887611
+  }
+}

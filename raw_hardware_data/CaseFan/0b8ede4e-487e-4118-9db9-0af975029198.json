@@ -1,0 +1,35 @@
+{
+  "opendb_id": "0b8ede4e-487e-4118-9db9-0af975029198",
+  "metadata": {
+    "name": "Lian Li Uni Fan SL-Infinity 140mm White Addressable RGB PWM 72.7 CFM 1-Pack",
+    "manufacturer": "Lian Li",
+    "series": "Uni",
+    "variant": "140mm White",
+    "part_numbers": [
+      "UF-SLIN140-1W",
+      "14SLIN1W"
+    ]
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 72.7,
+  "max_airflow": null,
+  "min_noise_level": 28,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.88,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0BTMHMQ33",
+    "newegg_sku": "1YF-005G-000B4",
+    "walmart_sku": 2500067761,
+    "ibuypower_sku": "28465"
+  }
+}

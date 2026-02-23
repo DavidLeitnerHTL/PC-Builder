@@ -1,0 +1,36 @@
+{
+  "opendb_id": "95629d59-efb0-4d5a-9f3a-440067edeac2",
+  "metadata": {
+    "name": "Silverstone NT07-115X Air 48 CFM",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "NT07-115X"
+    ],
+    "series": "NT07-115X",
+    "variant": "",
+    "releaseYear": null
+  },
+  "min_fan_rpm": 1200,
+  "max_fan_rpm": 3400,
+  "min_noise_level": 18,
+  "max_noise_level": 26,
+  "color": [],
+  "height": 23,
+  "cpu_sockets": [
+    "LGA 1150",
+    "LGA 1151",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 1200"
+  ],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
+  "general_product_information": {
+    "amazon_sku": "B00K8PLRMM",
+    "newegg_sku": "N82E16835220067",
+    "walmart_sku": 51048817
+  }
+}

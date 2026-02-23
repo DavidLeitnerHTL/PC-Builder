@@ -1,0 +1,54 @@
+{
+  "opendb_id": "fe3d12e9-87eb-4701-8579-5c29d61437c6",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 16
+  },
+  "clocks": {
+    "performance": {
+      "base": 4.2,
+      "boost": 5.1
+    }
+  },
+  "cache": {
+    "l2": 8,
+    "l3": 16
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "AMD Radeon 780M"
+    },
+    "memory": {
+      "maxSupport": 0,
+      "types": [
+        "DDR5"
+      ]
+    },
+    "tdp": 65,
+    "eccSupport": false,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "4 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "AMD Ryzen 7 8700G 4.2 GHz 8-Core AM5",
+    "manufacturer": "AMD",
+    "part_numbers": [
+      "100-100001236BOX",
+      "AMD Ryzen™ 7 8700G",
+      "Ryzen 7 8700G"
+    ],
+    "series": "AMD Ryzen 7"
+  },
+  "series": "AMD Ryzen 7",
+  "microarchitecture": "Zen 4",
+  "coreFamily": "Phoenix 1",
+  "socket": "AM5",
+  "general_product_information": {
+    "amazon_sku": "B0CQ4JBKW3",
+    "newegg_sku": "N82E16819113811",
+    "walmart_sku": 5293078784
+  }
+}

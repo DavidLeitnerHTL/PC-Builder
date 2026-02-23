@@ -1,0 +1,27 @@
+{
+  "opendb_id": "04c6587b-76e5-49f8-9283-44717c7f20a9",
+  "metadata": {
+    "name": "NoiseBlocker Multiframe 120mm Translucent Gray PWM 58.85 CFM 1-Pack",
+    "manufacturer": "NoiseBlocker",
+    "part_numbers": [],
+    "series": "Multiframe",
+    "variant": "120mm Translucent Gray"
+  },
+  "size": 120,
+  "color": [
+    "GREY"
+  ],
+  "quantity": 1,
+  "min_airflow": 58.85,
+  "max_airflow": null,
+  "min_noise_level": 23,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

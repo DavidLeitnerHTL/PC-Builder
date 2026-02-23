@@ -1,0 +1,34 @@
+{
+  "opendb_id": "0331994d-f386-41ab-8a4f-42e9f706fbff",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 8,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Fractal Design Anode Black 750W Semi-Modular 80+ Bronze Certified",
+    "manufacturer": "Fractal Design",
+    "part_numbers": [
+      "FD-P-AA1B-750                                                    FD-P-AA1B-750-UK                                                    FD-P-AA1B-750-EU",
+      "FD-P-AA1B-750-UK"
+    ],
+    "series": "Anode",
+    "variant": "750W Bronze"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Bronze",
+  "modular": "Semi-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B09NMG5G9M"
+  }
+}

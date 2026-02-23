@@ -1,0 +1,27 @@
+{
+  "opendb_id": "9d63640f-b0b0-4892-aadf-216b0655bc2c",
+  "metadata": {
+    "name": "Silverstone FN 80mm Black 25.46 CFM 1-Pack",
+    "manufacturer": "SilverStone",
+    "part_numbers": [],
+    "series": "FN",
+    "variant": "80mm Black"
+  },
+  "size": 80,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 25.46,
+  "max_airflow": null,
+  "min_noise_level": 23.5,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

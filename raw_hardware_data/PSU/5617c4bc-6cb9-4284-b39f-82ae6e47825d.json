@@ -1,0 +1,36 @@
+{
+  "opendb_id": "5617c4bc-6cb9-4284-b39f-82ae6e47825d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 8,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "ADATA XPG Core Reactor II Black 750W Fully Modular 80+ Gold",
+    "manufacturer": "ADATA",
+    "part_numbers": [
+      "COREREACTORII750G-BKCUS                                                    COREREACTORII750G-BKCAU                                                    COREREACTORII750G-BKCEU",
+      "75261186"
+    ],
+    "series": "XPG",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CLNS4RQM",
+    "newegg_sku": "N82E16817478005",
+    "walmart_sku": 1536704812
+  }
+}

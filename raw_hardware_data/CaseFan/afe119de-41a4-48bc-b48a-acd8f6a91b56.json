@@ -1,0 +1,28 @@
+{
+  "opendb_id": "afe119de-41a4-48bc-b48a-acd8f6a91b56",
+  "metadata": {
+    "name": "Nanoxia Deep Silence 120mm Black / Green PWM",
+    "manufacturer": "Nanoxia",
+    "part_numbers": [],
+    "series": "Deep",
+    "variant": "120mm Black / Green"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "GREEN"
+  ],
+  "quantity": 1,
+  "min_airflow": 67.3,
+  "max_airflow": null,
+  "min_noise_level": 16.89,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

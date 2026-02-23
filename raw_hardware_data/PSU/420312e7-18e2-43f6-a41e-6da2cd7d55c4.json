@@ -1,0 +1,29 @@
+{
+  "opendb_id": "420312e7-18e2-43f6-a41e-6da2cd7d55c4",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 4,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Topower ZU-500W ATX 500W Non-Modular",
+    "manufacturer": "Topower",
+    "part_numbers": [
+      "ZU-500W"
+    ],
+    "series": "ZU-500W",
+    "variant": "500W "
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

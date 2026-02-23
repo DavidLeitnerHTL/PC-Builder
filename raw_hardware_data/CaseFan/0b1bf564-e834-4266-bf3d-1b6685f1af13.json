@@ -1,0 +1,34 @@
+{
+  "opendb_id": "0b1bf564-e834-4266-bf3d-1b6685f1af13",
+  "metadata": {
+    "name": "Asus TUF Gaming TF120 ARGB 120mm Black / White ARGB PWM 76 CFM 3-Pack",
+    "manufacturer": "ASUS",
+    "part_numbers": [
+      "TUF GAMING TF120 ARGB 3IN1"
+    ],
+    "series": "TUF",
+    "variant": "120mm Black / White"
+  },
+  "size": 120,
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
+  "quantity": 3,
+  "min_airflow": 76,
+  "max_airflow": null,
+  "min_noise_level": 29,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "5V Addressable RGB",
+  "static_pressure": 2.5,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0B6D2CLB5",
+    "newegg_sku": "N82E16835101083",
+    "walmart_sku": 1708426367
+  }
+}

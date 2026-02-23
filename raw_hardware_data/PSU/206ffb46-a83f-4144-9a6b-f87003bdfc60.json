@@ -1,0 +1,36 @@
+{
+  "opendb_id": "206ffb46-a83f-4144-9a6b-f87003bdfc60",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 9,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Rosewill CMG850G5 850W Fully Modular 80+ Gold Certified ATX",
+    "manufacturer": "Rosewill",
+    "part_numbers": [
+      "CMG850G5",
+      "CMG850"
+    ],
+    "series": "CMG850G5",
+    "variant": "850W Gold"
+  },
+  "wattage": 850,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0B6FLCK56",
+    "newegg_sku": "N82E16817182451",
+    "walmart_sku": 1174873191
+  }
+}

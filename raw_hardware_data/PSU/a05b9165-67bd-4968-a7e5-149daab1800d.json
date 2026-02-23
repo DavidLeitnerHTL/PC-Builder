@@ -1,0 +1,31 @@
+{
+  "opendb_id": "a05b9165-67bd-4968-a7e5-149daab1800d",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 8,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Cooler Master MWE GOLD V2 Black 550W Non-Modular 80+ Gold Certified ATX",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [
+      "MPE-5501-ACAAG"
+    ],
+    "series": "MWE",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

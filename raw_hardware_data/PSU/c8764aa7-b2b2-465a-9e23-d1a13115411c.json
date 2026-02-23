@@ -1,0 +1,29 @@
+{
+  "opendb_id": "c8764aa7-b2b2-465a-9e23-d1a13115411c",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 2,
+    "molex_4_pin": 6,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "FSP Group SAGA+ 450R 450W Non-Modular",
+    "manufacturer": "FSP Group",
+    "part_numbers": [
+      "SAGA+ 450R"
+    ],
+    "series": "SAGA+",
+    "variant": "450W "
+  },
+  "wattage": 450,
+  "form_factor": "ATX",
+  "efficiency_rating": null,
+  "modular": "Non-Modular",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

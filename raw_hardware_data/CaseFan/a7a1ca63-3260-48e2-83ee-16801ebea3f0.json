@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a7a1ca63-3260-48e2-83ee-16801ebea3f0",
+  "metadata": {
+    "name": "Xigmatek XLF 200mm Orange 76 CFM White LED",
+    "manufacturer": "Xigmatek",
+    "part_numbers": [],
+    "series": "XLF",
+    "variant": "200mm Orange"
+  },
+  "isOEM": false,
+  "size": 200,
+  "color": [
+    "ORANGE"
+  ],
+  "quantity": 1,
+  "min_airflow": 76,
+  "max_airflow": null,
+  "min_noise_level": 18,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "White",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

@@ -1,0 +1,32 @@
+{
+  "opendb_id": "353aaa53-f714-4ff4-a9a3-d6dc3dcf1a07",
+  "metadata": {
+    "name": "Phanteks M25G2-120 120mm Black D-RGB PWM 72.72 CFM 3-Pack",
+    "manufacturer": "Phanteks",
+    "part_numbers": [
+      "PH-F120M25_G2_DBK01_3P"
+    ],
+    "series": "M25G2-120",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 72.72,
+  "max_airflow": null,
+  "min_noise_level": 35.13,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.51,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0DPQLMQYW",
+    "newegg_sku": "N82E16835709285"
+  }
+}

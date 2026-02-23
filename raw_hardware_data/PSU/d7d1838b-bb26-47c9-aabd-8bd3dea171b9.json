@@ -1,0 +1,35 @@
+{
+  "opendb_id": "d7d1838b-bb26-47c9-aabd-8bd3dea171b9",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Gigabyte P650G Black 650W Non-Modular 80+ Gold",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [
+      "GP-P650G                                                    GP-P650G-UK",
+      "GP-P650G",
+      "28200-P650G-1EUR"
+    ],
+    "series": "P650G",
+    "variant": "650W Gold"
+  },
+  "wattage": 650,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CSKPMKGW"
+  }
+}

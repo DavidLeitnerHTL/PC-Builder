@@ -1,0 +1,31 @@
+{
+  "opendb_id": "c55676aa-577e-4dac-94b7-a05fc19a39fa",
+  "metadata": {
+    "name": "be quiet! Light Wings 140mm Black Addressable RGB PWM 56 CFM 3-Pack",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BL078"
+    ],
+    "series": "Light",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 56,
+  "max_airflow": null,
+  "min_noise_level": 23.3,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "5V Addressable RGB",
+  "static_pressure": 1.49,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B09KMFDDYR"
+  }
+}

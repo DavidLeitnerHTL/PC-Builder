@@ -1,0 +1,47 @@
+{
+  "opendb_id": "cd9024ed-c7d0-4d5b-912a-1c39d67acf4c",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Inno3D Twin X2 OC GeForce RTX 4060 Ti 16GB GDDR6 White / Silver",
+    "manufacturer": "Inno3D",
+    "part_numbers": [
+      "N406T2-16D6X-178055W"
+    ],
+    "series": "GeForce RTX 4060 Ti",
+    "variant": "Inno3D"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 4060 Ti",
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "core_base_clock": 2310,
+  "core_boost_clock": 2595,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
+  "length": 250,
+  "tdp": 165,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f9c5d1865ad0c3553e9e80"
+  },
+  "core_count": 4352,
+  "general_product_information": {}
+}

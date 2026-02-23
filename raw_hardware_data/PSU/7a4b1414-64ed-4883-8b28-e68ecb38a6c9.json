@@ -1,0 +1,37 @@
+{
+  "opendb_id": "7a4b1414-64ed-4883-8b28-e68ecb38a6c9",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 12,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "MSI MAG A1250GL PCIE5 Black 1250W Fully Modular 80+ Gold ATX",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MAG A1250GL PCIE5                                                    306-7ZP9A11-CE0",
+      "MAG A1250GL PCIE5",
+      "MAGA1250GLPCIE5"
+    ],
+    "series": "MAG",
+    "variant": "1250W Gold"
+  },
+  "wattage": 1250,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0CT41F6FV",
+    "newegg_sku": "N82E16817701025",
+    "walmart_sku": 5445870552
+  }
+}

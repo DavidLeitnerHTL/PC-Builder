@@ -1,0 +1,53 @@
+{
+  "opendb_id": "f5c8f23f-5ad3-4d8b-b00e-722facf6d1f7",
+  "metadata": {
+    "name": "ASUS ROG Strix Helios II Black Edition EATX mid-Tower Gaming PC case",
+    "manufacturer": "ASUS",
+    "series": "ROG Helios",
+    "variant": "II Black",
+    "part_numbers": [
+      "ROG STRIX HELIOS II GX601S BLACK"
+    ],
+    "releaseYear": 2025,
+    "last_manually_spec_verified_at": "2025-11-23T16:49:28.876Z"
+  },
+  "supported_motherboard_form_factors": [
+    "EATX",
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "EATX Mid Tower",
+  "color": [
+    "BLACK"
+  ],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "supported_power_supply_form_factors": [],
+  "front_usb_ports": [
+    "2 x USB 3.2 Gen 2x2 Type-C",
+    "4 x USB 3.2 Gen1 Type-A"
+  ],
+  "max_video_card_length": 450,
+  "max_cpu_cooler_height": 190,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 4,
+  "expansion_slots": 8,
+  "riser_expansion_slots": 2,
+  "power_supply_shroud": true,
+  "dimensions": " 250 x 565 x 591",
+  "dimensions_mm": {
+    "width": 250,
+    "height": 591,
+    "depth": 565,
+    "_id": "69233b21d4932c9fda0c7273"
+  },
+  "volume": 83.479,
+  "weight": 39.7,
+  "general_product_information": {
+    "amazon_sku": "B0FLF98DRB",
+    "newegg_sku": "N82E16811173071",
+    "walmart_sku": 18106902548,
+    "manufacturer_url": "https://rog.asus.com/cases/rog-strix-helios-ii/"
+  }
+}

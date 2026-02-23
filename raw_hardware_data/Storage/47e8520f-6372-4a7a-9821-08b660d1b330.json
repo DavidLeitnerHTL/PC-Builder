@@ -1,0 +1,22 @@
+{
+  "opendb_id": "47e8520f-6372-4a7a-9821-08b660d1b330",
+  "metadata": {
+    "name": "Seagate SkyHawk 4TB HDD 3.5\" 5900RPM SATA Internal",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST4000VX007",
+      "ST2000XV008"
+    ],
+    "series": "SkyHawk",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B01LOOJ8UI",
+    "walmart_sku": 104585560
+  }
+}

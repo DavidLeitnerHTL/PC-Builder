@@ -1,0 +1,20 @@
+{
+  "opendb_id": "a9254770-0a73-498f-8249-87e21746043c",
+  "metadata": {
+    "name": "Seagate BarraCuda 1TB HDD 7200RPM 3.5\" SATA 3.0 Gb/s",
+    "manufacturer": "Seagate",
+    "part_numbers": [
+      "ST31000528AS"
+    ],
+    "series": "BarraCuda",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 3.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B00272NHOK"
+  }
+}

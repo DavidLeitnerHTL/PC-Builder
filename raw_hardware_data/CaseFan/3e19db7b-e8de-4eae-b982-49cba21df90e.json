@@ -1,0 +1,34 @@
+{
+  "opendb_id": "3e19db7b-e8de-4eae-b982-49cba21df90e",
+  "metadata": {
+    "name": "NZXT F140Q (2024) 140mm White PWM",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RF-Q14SF-W2"
+    ],
+    "series": "F140Q",
+    "variant": "140mm White",
+    "releaseYear": 2024
+  },
+  "size": 140,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 102.9,
+  "max_airflow": null,
+  "min_noise_level": 29.8,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 1.77,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0D1RK1CKX",
+    "newegg_sku": "N82E16835146151",
+    "walmart_sku": 6777510945
+  }
+}

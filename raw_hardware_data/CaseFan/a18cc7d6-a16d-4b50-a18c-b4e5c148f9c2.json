@@ -1,0 +1,27 @@
+{
+  "opendb_id": "a18cc7d6-a16d-4b50-a18c-b4e5c148f9c2",
+  "metadata": {
+    "name": "GAMDIAS AEOLUS M2 120mm Black PWM Addressable RGB 4-Pack",
+    "manufacturer": "GAMDIAS",
+    "part_numbers": [],
+    "series": "AEOLUS",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 4,
+  "min_airflow": 56,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "Proprietary PWM",
+  "controller": "5V Addressable RGB",
+  "static_pressure": 1.95,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

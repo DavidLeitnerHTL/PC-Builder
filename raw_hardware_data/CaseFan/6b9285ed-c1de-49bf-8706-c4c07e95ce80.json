@@ -1,0 +1,27 @@
+{
+  "opendb_id": "6b9285ed-c1de-49bf-8706-c4c07e95ce80",
+  "metadata": {
+    "name": "Antec 75093 92mm Clear 38 CFM",
+    "manufacturer": "Antec",
+    "part_numbers": [],
+    "series": "75093",
+    "variant": "92mm Clear"
+  },
+  "isOEM": false,
+  "size": 92,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 38,
+  "max_airflow": null,
+  "min_noise_level": 27,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "general_product_information": {}
+}

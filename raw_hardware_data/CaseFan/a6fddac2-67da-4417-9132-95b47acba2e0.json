@@ -1,0 +1,32 @@
+{
+  "opendb_id": "a6fddac2-67da-4417-9132-95b47acba2e0",
+  "metadata": {
+    "name": "ARCTIC P14 140mm Black PWM PST",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00125A"
+    ],
+    "series": "P14",
+    "variant": "140mm Black"
+  },
+  "size": 140,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 72.8,
+  "max_airflow": null,
+  "min_noise_level": 22.5,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "None",
+  "static_pressure": 2.4,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07GZJY4TM",
+    "walmart_sku": 350874608
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "opendb_id": "0800f2cd-ce39-4a64-b400-5d1e5d26e7cd",
+  "cores": {
+    "total": 10,
+    "performance": 10,
+    "threads": 20
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.7,
+      "boost": 4.9
+    }
+  },
+  "cache": {
+    "l3": 20
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": [
+        "DDR5",
+        "DDR4"
+      ]
+    },
+    "tdp": 125,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "Boxed",
+    "lithography": "10 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i5 12600KF 3.7 GHz 10-Core LGA1700",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "BX8071512600KF"
+    ],
+    "series": "Intel Core i5"
+  },
+  "series": "Intel Core i5",
+  "microarchitecture": "Alder Lake",
+  "coreFamily": "Alder Lake",
+  "socket": "LGA 1700",
+  "general_product_information": {
+    "amazon_sku": "B09FXFJW2F",
+    "bestbuy_sku": 6483680,
+    "walmart_sku": 793064999
+  }
+}

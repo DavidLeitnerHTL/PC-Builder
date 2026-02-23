@@ -1,0 +1,29 @@
+{
+  "opendb_id": "18506250-2a2f-42c2-a20e-9fc3482f778c",
+  "metadata": {
+    "name": "Thermaltake CT120 EX Reverse 120mm Pink ARGB PWM Reverse Sync 65.82 CFM 3-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [],
+    "series": "CT120",
+    "variant": "120mm Pink"
+  },
+  "size": 120,
+  "color": [
+    "PINK"
+  ],
+  "quantity": 3,
+  "min_airflow": 65.82,
+  "max_airflow": null,
+  "min_noise_level": 31.2,
+  "max_noise_level": null,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.87,
+  "flow_direction": "Reverse",
+  "isOEM": false,
+  "general_product_information": {
+    "newegg_sku": "1YF-001G-004E8"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "b7231d2e-2add-4b77-b7b9-9b0823ec4d6a",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "be quiet! Pure Power 11 Black 600W Non-Modular 80+ Gold",
+    "manufacturer": "be quiet!",
+    "part_numbers": [
+      "BN294                                                    BN627",
+      "BN294"
+    ],
+    "series": "Pure",
+    "variant": "600W Gold"
+  },
+  "wattage": 600,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK"
+  ],
+  "length": 150,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B07JJL3QRG"
+  }
+}

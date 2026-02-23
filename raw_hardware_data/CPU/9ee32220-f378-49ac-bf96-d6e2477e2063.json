@@ -1,0 +1,49 @@
+{
+  "opendb_id": "9ee32220-f378-49ac-bf96-d6e2477e2063",
+  "cores": {
+    "total": 8,
+    "performance": 8,
+    "threads": 16
+  },
+  "clocks": {
+    "performance": {
+      "base": 3.6,
+      "boost": 4.5
+    }
+  },
+  "cache": {
+    "l2": 8,
+    "l3": 11
+  },
+  "specifications": {
+    "integratedGraphics": {
+      "model": "None"
+    },
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    },
+    "tdp": 140,
+    "eccSupport": false,
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "14 nm",
+    "simultaneousMultithreading": true
+  },
+  "metadata": {
+    "name": "Intel Core i7 7820X 3.6 GHz 8-Core LGA2066 OEM/Tray",
+    "manufacturer": "Intel",
+    "part_numbers": [
+      "CD8067303611000"
+    ],
+    "series": "Intel Core i7"
+  },
+  "series": "Intel Core i7",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
+  "socket": "LGA 2066",
+  "general_product_information": {
+    "amazon_sku": "B073CK2Q64",
+    "walmart_sku": 475324333
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "opendb_id": "83cfc810-5598-4795-a2a3-cee290ef9478",
+  "metadata": {
+    "name": "Phanteks F200SP 200mm Black 110.1 CFM",
+    "manufacturer": "Phanteks",
+    "series": "F200SP",
+    "variant": "200mm Black",
+    "part_numbers": [
+      "PH-F200SP_BBK"
+    ]
+  },
+  "size": 200,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 110.1,
+  "max_airflow": null,
+  "min_noise_level": 25,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B016NHSB4U",
+    "newegg_sku": "9SIB1CZK6Z0348",
+    "walmart_sku": 680073994
+  }
+}

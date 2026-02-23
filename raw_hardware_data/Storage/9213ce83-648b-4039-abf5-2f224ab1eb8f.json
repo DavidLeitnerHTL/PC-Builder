@@ -1,0 +1,23 @@
+{
+  "opendb_id": "9213ce83-648b-4039-abf5-2f224ab1eb8f",
+  "metadata": {
+    "name": "Samsung Spinpoint 1TB HDD 2.5\" SATA",
+    "manufacturer": "Samsung",
+    "part_numbers": [
+      "HN-M101MBB",
+      "ST1000LM024                                                    ST100LM024",
+      "BPSCS21637-HN-M101MBB"
+    ],
+    "series": "Spinpoint",
+    "variant": "1000GB"
+  },
+  "capacity": 1000,
+  "type": "HDD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 3.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0053YLTBC",
+    "walmart_sku": 26819940
+  }
+}

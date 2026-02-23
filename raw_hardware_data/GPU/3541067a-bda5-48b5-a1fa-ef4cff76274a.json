@@ -1,0 +1,49 @@
+{
+  "opendb_id": "3541067a-bda5-48b5-a1fa-ef4cff76274a",
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 1,
+    "pcie_12V_2x6": 0
+  },
+  "metadata": {
+    "name": "Zotac GeForce RTX 4070 Ti SUPER GAMING AMP Holo 16GB GDDR6X Black",
+    "manufacturer": "Zotac",
+    "part_numbers": [
+      "ZT-D40730F-10P"
+    ],
+    "series": "GeForce RTX 4070 Ti SUPER",
+    "variant": "Zotac"
+  },
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 4070 Ti SUPER",
+  "memory": 16,
+  "memory_type": "GDDR6X",
+  "core_base_clock": 2340,
+  "core_boost_clock": 2640,
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "interface": "PCIe x16",
+  "color": [
+    "BLACK"
+  ],
+  "length": 356,
+  "tdp": 285,
+  "total_slot_width": 4,
+  "cooling": "3 Fans",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "_id": "67f91d70eb7c00c41ad735eb"
+  },
+  "core_count": 8448,
+  "general_product_information": {
+    "amazon_sku": "B0CSBF4VZ5",
+    "walmart_sku": 5286140434
+  }
+}

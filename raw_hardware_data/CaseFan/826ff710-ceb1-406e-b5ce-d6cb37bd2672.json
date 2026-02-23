@@ -1,0 +1,31 @@
+{
+  "opendb_id": "826ff710-ceb1-406e-b5ce-d6cb37bd2672",
+  "metadata": {
+    "name": "Xilence XPF40.W 40mm Black 11.73 CFM 1-Pack",
+    "manufacturer": "Xilence",
+    "part_numbers": [
+      "XF031"
+    ],
+    "series": "XPF40.W",
+    "variant": "40mm Black"
+  },
+  "size": 40,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 6.9,
+  "max_airflow": 11.73,
+  "min_noise_level": 19,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": null,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B01L6Q0OFM"
+  }
+}

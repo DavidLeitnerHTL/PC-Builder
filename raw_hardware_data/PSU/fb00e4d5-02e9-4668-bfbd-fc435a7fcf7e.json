@@ -1,0 +1,29 @@
+{
+  "opendb_id": "fb00e4d5-02e9-4668-bfbd-fc435a7fcf7e",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 1,
+    "sata": 8,
+    "molex_4_pin": 3,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Silverstone Strider ATX 550W Fully Modular 80+ Gold Certified",
+    "manufacturer": "Silverstone",
+    "part_numbers": [
+      "ST55F-G                                                    SST-ST55F-G"
+    ],
+    "series": "Strider",
+    "variant": "550W Gold"
+  },
+  "wattage": 550,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {}
+}

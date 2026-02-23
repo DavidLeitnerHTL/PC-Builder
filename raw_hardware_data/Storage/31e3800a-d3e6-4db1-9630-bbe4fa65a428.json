@@ -1,0 +1,25 @@
+{
+  "opendb_id": "31e3800a-d3e6-4db1-9630-bbe4fa65a428",
+  "metadata": {
+    "name": "Nextorage NEM-PAC 4TB M.2-2280 SSD PCIe 4.0 x4 NVMe",
+    "manufacturer": "Nextorage",
+    "part_numbers": [
+      "NEM-PAC4TB",
+      "N SYM                                                    CP00000136",
+      "NEM-PAC4TB/N SYM",
+      "JTB_141305_KE61"
+    ],
+    "series": "NEM-PAC",
+    "variant": "4000GB"
+  },
+  "capacity": 4000,
+  "type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "cache": null,
+  "nvme": true,
+  "general_product_information": {
+    "amazon_sku": "B0DVL6NDHZ",
+    "newegg_sku": "0D9-0106-00025"
+  }
+}

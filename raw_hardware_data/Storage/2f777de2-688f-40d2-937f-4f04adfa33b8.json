@@ -1,0 +1,23 @@
+{
+  "opendb_id": "2f777de2-688f-40d2-937f-4f04adfa33b8",
+  "metadata": {
+    "name": "Western Digital Blue 3TB HDD 5400RPM 3.5\" SATA",
+    "manufacturer": "Western Digital",
+    "part_numbers": [
+      "WD30EZAX",
+      "WD30EZAX-SPC8UB0"
+    ],
+    "series": "Blue",
+    "variant": "3000GB"
+  },
+  "capacity": 3000,
+  "type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "general_product_information": {
+    "amazon_sku": "B0BNGNT5X3",
+    "newegg_sku": "N82E16822234537",
+    "walmart_sku": 1265112676
+  }
+}

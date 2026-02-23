@@ -1,0 +1,32 @@
+{
+  "opendb_id": "0226c1df-1069-4c93-bef3-ad5bdcfbe288",
+  "metadata": {
+    "name": "Alphacool 24844 120mm Black PWM 93.6 CFM 1-Pack",
+    "manufacturer": "Alphacool",
+    "part_numbers": [
+      "24844",
+      "1022218"
+    ],
+    "series": "24844",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 93.6,
+  "max_airflow": null,
+  "min_noise_level": 30,
+  "max_noise_level": 43,
+  "pwm": true,
+  "led": "None",
+  "connector": "4-pin PWM",
+  "controller": "Manual",
+  "static_pressure": 7.83,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B0C5WNN3XB"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "opendb_id": "36038b34-c97e-4805-8ab6-4a6698fec036",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 0,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 0,
+    "sata": 6,
+    "molex_4_pin": 0,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower GT Beige 750W Fully Modular 80+ Gold",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [
+      "PS-TPT-0750FNFAGE-3",
+      "PS-TPT-0750FNFAGU-1"
+    ],
+    "series": "Toughpower",
+    "variant": "750W Gold"
+  },
+  "wattage": 750,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Full",
+  "color": [
+    "BROWN"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0D85QDP2Y"
+  }
+}

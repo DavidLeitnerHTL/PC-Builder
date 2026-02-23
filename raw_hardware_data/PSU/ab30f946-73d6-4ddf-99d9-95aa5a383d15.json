@@ -1,0 +1,36 @@
+{
+  "opendb_id": "ab30f946-73d6-4ddf-99d9-95aa5a383d15",
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 1,
+    "pcie_12vhpwr": 0,
+    "pcie_6_plus_2_pin": 2,
+    "sata": 6,
+    "molex_4_pin": 2,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Antec NeoECO Gold ZEN Black / Gold 500W Non-Modular 80+ Gold",
+    "manufacturer": "Antec",
+    "part_numbers": [
+      "NE500G ZEN",
+      "NE500G Zen"
+    ],
+    "series": "NeoECO",
+    "variant": "500W Gold"
+  },
+  "wattage": 500,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Gold",
+  "modular": "Non-Modular",
+  "color": [
+    "BLACK",
+    "GOLD"
+  ],
+  "length": 140,
+  "fanless": false,
+  "general_product_information": {
+    "amazon_sku": "B0817DXRPX",
+    "walmart_sku": 691474032
+  }
+}

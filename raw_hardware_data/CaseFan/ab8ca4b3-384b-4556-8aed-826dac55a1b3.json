@@ -1,0 +1,31 @@
+{
+  "opendb_id": "ab8ca4b3-384b-4556-8aed-826dac55a1b3",
+  "metadata": {
+    "name": "NZXT Air Flow 120mm Clear Red LED 59.1 CFM 1-Pack",
+    "manufacturer": "NZXT",
+    "part_numbers": [
+      "RF-FZ120-R1"
+    ],
+    "series": "Air",
+    "variant": "120mm Clear"
+  },
+  "size": 120,
+  "color": [
+    "WHITE"
+  ],
+  "quantity": 1,
+  "min_airflow": 59.1,
+  "max_airflow": null,
+  "min_noise_level": 26.8,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "Red",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 0.71,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B007WR0EQ4"
+  }
+}

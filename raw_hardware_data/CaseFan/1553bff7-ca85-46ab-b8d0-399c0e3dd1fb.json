@@ -1,0 +1,27 @@
+{
+  "opendb_id": "1553bff7-ca85-46ab-b8d0-399c0e3dd1fb",
+  "metadata": {
+    "name": "Anidees AI AUREOLA 120mm Black RGB 35.2 CFM 3-Pack",
+    "manufacturer": "Anidees",
+    "part_numbers": [],
+    "series": "AI",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 3,
+  "min_airflow": 35.2,
+  "max_airflow": null,
+  "min_noise_level": 24.7,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "RGB",
+  "connector": "Proprietary",
+  "controller": "Manual",
+  "static_pressure": 1.04,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {}
+}

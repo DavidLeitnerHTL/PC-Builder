@@ -1,0 +1,32 @@
+{
+  "opendb_id": "3ab15669-0f00-493b-8a2e-1a3ca46e31e8",
+  "metadata": {
+    "name": "ARCTIC P12 120mm Black 56.3 CFM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": [
+      "ACFAN00118A"
+    ],
+    "series": "P12",
+    "variant": "120mm Black"
+  },
+  "size": 120,
+  "color": [
+    "BLACK"
+  ],
+  "quantity": 1,
+  "min_airflow": 56.3,
+  "max_airflow": null,
+  "min_noise_level": null,
+  "max_noise_level": null,
+  "pwm": false,
+  "led": "None",
+  "connector": "3-pin",
+  "controller": "None",
+  "static_pressure": 2.2,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "general_product_information": {
+    "amazon_sku": "B07GB16RK7",
+    "walmart_sku": 369106526
+  }
+}
