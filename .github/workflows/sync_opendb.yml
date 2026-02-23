@@ -50,15 +50,21 @@ jobs:
           # IMPORTANT: Delete the 42,000 raw files so they are NOT committed to GitHub
           rm -rf raw_hardware_data/
           
-      # 5. Commit and Push ALL generated category JSON files
+          # Create a subfolder for the processed data and move the files safely
+          mkdir -p processed_data
+          
+          # Move only recently created JSON files to avoid moving things like package.json
+          find . -maxdepth 1 -name "*.json" -type f -mmin -5 -exec mv {} processed_data/ \;
+          
+      # 5. Commit and Push ALL generated category JSON files from the subfolder
       - name: Commit and push changes
         run: |
           cd main-repo
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Add all generated JSON files (e.g. cpus.json, gpus.json, motherboards.json)
-          git add *.json
+          # Add all JSON files located in the new subfolder
+          git add processed_data/*.json
           
           # Only commit and push if there are actual changes
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update processed hardware categories [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update processed hardware categories into subfolder [skip ci]" && git push)
