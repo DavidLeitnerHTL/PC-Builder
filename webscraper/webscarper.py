@@ -16,7 +16,7 @@ import time
 
 URL = "https://www.amazon.de/s?k=grafikkarte"
 CSV_DATEI = "amazon_gpu_preise.csv"
-MAX_GPU_ANZAHL = 30
+MAX_GPU_ANZAHL = 50
 MAX_NAME_LEN = 60  # maximale Länge des Namens in CSV
 
 # =========================
