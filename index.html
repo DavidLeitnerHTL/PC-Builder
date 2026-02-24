@@ -264,12 +264,25 @@
 
                     <!-- Result Section -->
                     <div id="ai-result-wrapper" class="ai-result-wrapper" style="display: none;">
-                        <div class="ai-buttons-container text-end mb-2">
-                            <button id="btn-resize-ai" class="btn btn-sm btn-outline-secondary" title="Vergrößern">⤢</button>
-                            <button id="btn-close-expanded" class="btn btn-sm btn-outline-danger" title="Reset" style="display: none;">✕ Reset</button>
-                        </div>
-                        <div id="ai-output" class="ai-response-box shadow-sm"></div>
-                    </div>
+    <!-- Container using flexbox: align-items-center prevents vertical stretching -->
+    <!-- gap-2 adds space between buttons, me-3 adds space on the right side -->
+    <div class="ai-buttons-container d-flex justify-content-end align-items-center gap-2 mb-3 mt-3 me-3">
+        
+        <!-- px-3 adds space inside the button (left/right), py-2 controls height -->
+        <button id="btn-resize-ai" class="btn btn-outline-secondary px-3 py-2" title="Ansicht vergrößern">
+            <i class="fas fa-expand-arrows-alt"></i>
+        </button>
+        
+        <!-- px-3 adds space inside the button (left/right), py-2 controls height -->
+        <button id="btn-close-expanded" class="btn btn-outline-secondary px-3 py-2" style="display: none;" title="Ansicht zurücksetzen">
+            <i class="fas fa-compress-arrows-alt"></i>
+        </button>
+        
+    </div>
+    
+    <!-- AI Output Box -->
+    <div id="ai-output" class="ai-response-box shadow-sm"></div>
+</div>
 
                 </div>
             </div>
