@@ -1,70 +1,42 @@
-name: Sync BuildCore OpenDB
+name: Daily Hardware Data Update
 
 on:
   schedule:
-    # Runs every day at 02:00 UTC
+    # Runs at 02:00 UTC every day
     - cron: '0 2 * * *'
-  workflow_dispatch: # Allows you to manually trigger the workflow from the GitHub UI
+  workflow_dispatch: # Allows manual triggering from the GitHub Actions tab
 
 jobs:
-  update-database:
+  update-data:
     runs-on: ubuntu-latest
     
-    # Needs permission to push code to your repository
+    # REQUIRED: Grants the bot permission to push changes back to the repository
     permissions:
       contents: write
-
+      
     steps:
-      # 1. Checkout your own repository into a folder named 'main-repo'
-      - name: Checkout my repository
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          path: 'main-repo'
 
-      # 2. Checkout the BuildCore repository
-      - name: Checkout BuildCore repository
-        uses: actions/checkout@v4
-        with:
-          repository: 'buildcores/buildcores-open-db' 
-          path: 'buildcore-repo'
-
-      # 3. Setup Python to run the processor
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.9'
 
-      # 4. Copy data temporarily, process it, and clean up
-      - name: Process data and cleanup
+      - name: Install dependencies
         run: |
-          # Create temporary folder
-          mkdir -p main-repo/raw_hardware_data
-          
-          # Copy the contents from the 'open-db' folder
-          cp -a buildcore-repo/open-db/* main-repo/raw_hardware_data/
-          
-          # Navigate to repo and run the python processor script
-          cd main-repo
-          python data_processor.py
-          
-          # IMPORTANT: Delete the 42,000 raw files so they are NOT committed to GitHub
-          rm -rf raw_hardware_data/
-          
-          # Create a subfolder for the processed data and move the files safely
-          mkdir -p processed_data
-          
-          # Move only recently created JSON files to avoid moving things like package.json
-          find . -maxdepth 1 -name "*.json" -type f -mmin -5 -exec mv {} processed_data/ \;
-          
-      # 5. Commit and Push ALL generated category JSON files from the subfolder
-      - name: Commit and push changes
+          pip install requests
+
+      - name: Run Data Processor
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python data_processor.py
+
+      - name: Commit and Push changes
         run: |
-          cd main-repo
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add hardware_registry.json
           
-          # Add all JSON files located in the new subfolder
-          git add processed_data/*.json
-          
-          # Only commit and push if there are actual changes
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update processed hardware categories into subfolder [skip ci]" && git push)
+          # Only commit and push if there are actual changes detected
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update hardware_registry.json [skip ci]" && git push)
