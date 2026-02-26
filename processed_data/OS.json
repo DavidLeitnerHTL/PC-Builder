@@ -1,15 +1,15 @@
 [
     {
-        "id": "572f43d9-c427-464c-b8b4-c342498db749",
-        "name": "Windows Server 2019 Standard OEM English DVD 64 Bit",
+        "id": "e27bea98-0a54-4b0d-817c-9279a302e8b5",
+        "name": "Microsoft Windows 10 Pro | Download",
         "variant": null,
-        "amazon_sku": "B0821GZ7P6"
+        "amazon_sku": "B01019BOEA"
     },
     {
-        "id": "68ca2a80-7855-4f71-b441-b3fd0a3cd9f6",
-        "name": "Microsoft Server 2019 Essentials 2CPU",
+        "id": "06351667-b638-46e4-88d9-5829230a9fcc",
+        "name": "Microsoft Windows 10 Home | Download",
         "variant": null,
-        "amazon_sku": "B07JZ5L7NH"
+        "amazon_sku": "B01019BM7O"
     },
     {
         "id": "1ec8227b-e045-4b75-aedd-492f51f22e4e",
@@ -18,28 +18,10 @@
         "amazon_sku": "B09HMKZHLY"
     },
     {
-        "id": "e27bea98-0a54-4b0d-817c-9279a302e8b5",
-        "name": "Microsoft Windows 10 Pro | Download",
+        "id": "68ca2a80-7855-4f71-b441-b3fd0a3cd9f6",
+        "name": "Microsoft Server 2019 Essentials 2CPU",
         "variant": null,
-        "amazon_sku": "B01019BOEA"
-    },
-    {
-        "id": "ec3c4a4a-bc49-4e83-b56c-9a08b2e82d4f",
-        "name": "Microsoft Windows 11 | USB",
-        "variant": null,
-        "amazon_sku": "B09V6R9QZZ"
-    },
-    {
-        "id": "6eed4a07-b417-46f8-b9ff-f2299f31e965",
-        "name": "Microsoft Windows 10 Pro | USB Flash Drive",
-        "variant": null,
-        "amazon_sku": "B075PZ12B2"
-    },
-    {
-        "id": "830fd1e5-e407-48ff-b94f-b94825a0ece1",
-        "name": "Microsoft Windows 11 Home | System Builder DVD",
-        "variant": null,
-        "amazon_sku": "B09MYJ1R6L"
+        "amazon_sku": "B07JZ5L7NH"
     },
     {
         "id": "1fab27b8-12a8-4f16-aa04-8db160c0167e",
@@ -48,10 +30,22 @@
         "amazon_sku": "B075RM5BHV"
     },
     {
-        "id": "06351667-b638-46e4-88d9-5829230a9fcc",
-        "name": "Microsoft Windows 10 Home | Download",
+        "id": "ec3c4a4a-bc49-4e83-b56c-9a08b2e82d4f",
+        "name": "Microsoft Windows 11 | USB",
         "variant": null,
-        "amazon_sku": "B01019BM7O"
+        "amazon_sku": "B09V6R9QZZ"
+    },
+    {
+        "id": "830fd1e5-e407-48ff-b94f-b94825a0ece1",
+        "name": "Microsoft Windows 11 Home | System Builder DVD",
+        "variant": null,
+        "amazon_sku": "B09MYJ1R6L"
+    },
+    {
+        "id": "572f43d9-c427-464c-b8b4-c342498db749",
+        "name": "Windows Server 2019 Standard OEM English DVD 64 Bit",
+        "variant": null,
+        "amazon_sku": "B0821GZ7P6"
     },
     {
         "id": "158477d6-25c0-4ee2-920c-ac8816a37e71",
@@ -64,5 +58,11 @@
         "name": "Microsoft Windows 11 Pro | USB",
         "variant": null,
         "amazon_sku": "B09V71FYGS"
+    },
+    {
+        "id": "6eed4a07-b417-46f8-b9ff-f2299f31e965",
+        "name": "Microsoft Windows 10 Pro | USB Flash Drive",
+        "variant": null,
+        "amazon_sku": "B075PZ12B2"
     }
 ]

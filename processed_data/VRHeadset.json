@@ -1,15 +1,15 @@
 [
     {
-        "id": "9e16d2bd-6f32-47a2-98e3-01b0e697df01",
-        "name": "Meta Quest Pro 256GB",
-        "variant": null,
-        "amazon_sku": "B09Z7KGTVW"
-    },
-    {
         "id": "8282f393-e404-45bf-b6f7-05d85e3db6aa",
         "name": "Meta Quest 2 128GB",
         "variant": null,
         "amazon_sku": "B0973RP7H3"
+    },
+    {
+        "id": "637022f6-7c14-450e-8e10-d2a6cd355c24",
+        "name": "Meta Quest 2 256GB",
+        "variant": null,
+        "amazon_sku": "B08HJWPKGW"
     },
     {
         "id": "b348ef64-fc9e-4694-b8ab-08e45a62ca9a",
@@ -18,9 +18,9 @@
         "amazon_sku": "B0BQXDFLJ6"
     },
     {
-        "id": "637022f6-7c14-450e-8e10-d2a6cd355c24",
-        "name": "Meta Quest 2 256GB",
+        "id": "9e16d2bd-6f32-47a2-98e3-01b0e697df01",
+        "name": "Meta Quest Pro 256GB",
         "variant": null,
-        "amazon_sku": "B08HJWPKGW"
+        "amazon_sku": "B09Z7KGTVW"
     }
 ]
