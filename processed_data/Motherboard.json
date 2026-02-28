@@ -3110,8 +3110,8 @@
     {
         "id": "d43fa11a-3ef9-49c2-8912-2bc793a25db5",
         "name": "MSI B760 PRO B760M-P LGA1700 DDR5 Micro ATX",
-        "variant": "",
-        "amazon_sku": null
+        "variant": "PRO B760M-P",
+        "amazon_sku": "B0CRK43T2Y"
     },
     {
         "id": "1c08db60-7b34-4a2e-96f0-89e30bced5b9",
@@ -3710,8 +3710,8 @@
     {
         "id": "a44dece8-bd54-4f5d-a185-a6fa74c2a79d",
         "name": "MSI H810 PRO H810I WIFI LGA1851 DDR5 Mini ITX",
-        "variant": "",
-        "amazon_sku": null
+        "variant": "PRO H810I WIFI",
+        "amazon_sku": "B0FMZSRYSW"
     },
     {
         "id": "ec9fcdd8-1acf-48b7-9d3a-9b164be960cf",
@@ -5061,7 +5061,7 @@
         "id": "2743b014-32a6-4bf7-8fd4-6275b07e9c1b",
         "name": "MSI B860I MPG EDGE TI WIFI DDR5 Mini ITX",
         "variant": "EDGE TI WIFI",
-        "amazon_sku": null
+        "amazon_sku": "B0FKV1RZV9"
     },
     {
         "id": "31121fa8-4368-488b-8101-ebf9be4ba455",
@@ -7082,7 +7082,7 @@
     {
         "id": "91a79c2d-5981-45cb-a24f-9028b92c56f2",
         "name": "MSI MPG Z790 EDGE WIFI DDR5 ATX",
-        "variant": "",
+        "variant": "EDGE WIFI",
         "amazon_sku": "B09YLL91V6"
     },
     {
@@ -8132,8 +8132,8 @@
     {
         "id": "734d4deb-9e2d-49f9-bb03-fc20ebcff656",
         "name": "MSI H610 PRO H610M-G WIFI LGA1700 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": null
+        "variant": "M-G WIFI DDR4",
+        "amazon_sku": "B0BL95BVNY"
     },
     {
         "id": "159d040a-8bf2-42be-910a-8367545b434e",
@@ -10890,6 +10890,12 @@
         "amazon_sku": null
     },
     {
+        "id": "b0654459-30fd-42f3-9638-0c999b7d07dc",
+        "name": "MSI PRO Z790-A WIFI II",
+        "variant": "PRO Z790-A WIFI II",
+        "amazon_sku": "B0G3TWBHYC"
+    },
+    {
         "id": "8f6d5701-713e-45fa-aa12-751e133f2d91",
         "name": "Asus X299 WS SAGE/10G DDR4 SSI CEB",
         "variant": "",
@@ -10964,8 +10970,8 @@
     {
         "id": "536bd956-e344-44d0-ad01-be5fe363b42d",
         "name": "MSI B850 PRO M-A WIFI PZ AM5 DDR5 Micro ATX",
-        "variant": "",
-        "amazon_sku": null
+        "variant": "PRO A WIFI PZ",
+        "amazon_sku": "B0FDJ97NWN"
     },
     {
         "id": "6baa65c6-5a2f-44d4-8440-3c4f5372fd40",
@@ -11012,8 +11018,8 @@
     {
         "id": "93f12ea3-075f-4c62-a8a2-36e911c82daf",
         "name": "MSI B850 PRO B850-S WIFI6E AM5 DDR5 ATX",
-        "variant": "",
-        "amazon_sku": null
+        "variant": "PRO S WIFI6E",
+        "amazon_sku": "B0FR6948FR"
     },
     {
         "id": "d0a76f3d-b1c8-4b67-b5d7-e7b1ad88fe56",
@@ -12086,7 +12092,7 @@
     {
         "id": "302dc909-b5ec-47ac-a205-02b7ee102600",
         "name": "MSI B850 PRO B850M-P WIFI AM5 DDR5 Micro ATX",
-        "variant": "",
+        "variant": "M-P WIFI",
         "amazon_sku": "B0F97T7ZGR"
     },
     {
@@ -14390,8 +14396,8 @@
     {
         "id": "ac822e04-43c6-4eb1-b30f-4337cbe338af",
         "name": "MSI Z890 PRO S WIFI PZ DDR5 ATX LGA1851",
-        "variant": "",
-        "amazon_sku": null
+        "variant": "S WIFI PZ",
+        "amazon_sku": "B0DY9HDDRQ"
     },
     {
         "id": "9dc94489-508a-4652-87b9-3e9a8d208831",
@@ -14484,6 +14490,12 @@
         "amazon_sku": null
     },
     {
+        "id": "383fc090-d2ab-454c-afb3-47716518b40d",
+        "name": "MSI PRO A620AM-B EVO",
+        "variant": "PRO A620AM-B EVO",
+        "amazon_sku": "B0GD87JQHQ"
+    },
+    {
         "id": "f6ad8e34-e903-4b53-b1df-d04413185630",
         "name": "ASUS B860-F ROG STRIX GAMING WIFI DDR5 ATX",
         "variant": "",
@@ -14509,8 +14521,8 @@
     },
     {
         "id": "1250a799-f730-40b2-91cd-6faeb3a1011f",
-        "name": "MSI Z890 PRO S WIFI WHITE DDR5 ATX",
-        "variant": "",
+        "name": "MSI Z890 PRO S WIFI DDR5 ATX",
+        "variant": "PRO S-WiFi",
         "amazon_sku": "B0DJPWFRFF"
     },
     {
@@ -17526,6 +17538,12 @@
         "amazon_sku": null
     },
     {
+        "id": "011e1664-de3e-4923-9e24-1ba2dbb138e6",
+        "name": "MSI PRO B650M-P ",
+        "variant": "PRO B650M-P",
+        "amazon_sku": "B0C7SJFDXK"
+    },
+    {
         "id": "19d84efa-ff94-47c5-91d3-d7b4816f6ef0",
         "name": "ASRock X670E Taichi Carrara",
         "variant": "Carrara",
@@ -18948,12 +18966,6 @@
         "amazon_sku": null
     },
     {
-        "id": "31b9fdda-7c63-44c8-89f9-a22f948ec696",
-        "name": "MSI B850 PRO M-P AM5 DDR5 Micro ATX",
-        "variant": "",
-        "amazon_sku": null
-    },
-    {
         "id": "e93ffa38-7ebf-4dcc-a5c7-f41112c228a6",
         "name": "Gigabyte X99 GA-X99P-SLI LGA2011-3 DDR4 ATX",
         "variant": "",
@@ -19071,7 +19083,7 @@
         "id": "91a4a664-875d-4ea4-b69f-3d3a903a8a32",
         "name": "MSI MPG X870I EDGE TI EVO WIFI",
         "variant": "EDGE TI EVO WIFI",
-        "amazon_sku": null
+        "amazon_sku": "B0FZDBM1BL"
     },
     {
         "id": "218bd75e-27a2-4029-9771-b52ca683c594",
@@ -20806,12 +20818,6 @@
         "name": "NZXT Z790 N7 Z790 LGA1700 DDR5 ATX",
         "variant": "",
         "amazon_sku": "B0BG18N3FX"
-    },
-    {
-        "id": "9862b9fa-ebae-4a8c-be9d-67c7215fac09",
-        "name": "MSI Z890 PRO S WIFI DDR5 ATX",
-        "variant": "",
-        "amazon_sku": null
     },
     {
         "id": "f37e940f-d932-455e-8321-09db8c425b96",

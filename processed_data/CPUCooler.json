@@ -78,6 +78,12 @@
         "amazon_sku": "B08VDN7F3L"
     },
     {
+        "id": "b8e9a8c4-3688-470c-939f-6357938a773f",
+        "name": "MSI MAG Coreliquid A12 360 - AIO ARGB CPU Liquid Cooler - 360mm Radiator",
+        "variant": "360mm Black",
+        "amazon_sku": "B0FFJCHP6W"
+    },
+    {
         "id": "6f9ce0c4-3f64-4a02-b4a5-a1afdf5ccf3e",
         "name": "TRYX PANORAMA AIO 240mm ARGB White",
         "variant": "White 240",
@@ -706,6 +712,12 @@
         "name": "Geometric Future Eskimo Junior 36 Water 360mm 69.11 CFM White",
         "variant": "White",
         "amazon_sku": "B0CMT1DY1M"
+    },
+    {
+        "id": "03bea814-1e7f-493f-ad25-a76a3d9c535a",
+        "name": "MSI MPG CORELIQUID P13 360 White",
+        "variant": "360mm White",
+        "amazon_sku": "B0FKWTNKQS"
     },
     {
         "id": "079ab0ad-c6ea-43b5-8ff2-deffaa8d5774",
@@ -2334,6 +2346,12 @@
         "amazon_sku": null
     },
     {
+        "id": "278898f2-3b99-40ef-97be-bcc3b673594b",
+        "name": "MSI MAG Coreliquid C360 V2 White - AIO ARGB CPU Liquid Cooler - 360mm Radiator",
+        "variant": "360mm White",
+        "amazon_sku": null
+    },
+    {
         "id": "efd75a42-ed07-46e9-838b-6c4322d4b135",
         "name": "Cooler Master MasterLiquid Lite Water 120mm 66.7 CFM",
         "variant": "",
@@ -3547,7 +3565,7 @@
     },
     {
         "id": "a51b8d6e-e3af-4a2d-9b4c-45acbfe1bcd9",
-        "name": "MSI MAG CORELIQUID A15 64.89 CFM Water 360mm Black",
+        "name": "MSI MAG CORELIQUID A15 360mm Black",
         "variant": "360mm Black",
         "amazon_sku": "B0DPY1CVK4"
     },
@@ -5149,7 +5167,7 @@
     },
     {
         "id": "da07a4b6-727e-407b-a0e5-bfb78479a657",
-        "name": "DARK ROCK ELITE",
+        "name": "be quiet! DARK ROCK ELITE",
         "variant": "Elite",
         "amazon_sku": "B07BY6F8D9"
     },
@@ -5750,7 +5768,7 @@
     {
         "id": "2c80a8e1-31fd-4e79-9ad3-7681b2197415",
         "name": "DeepCool LS720 SE Liquid Cooler 360mm 4th Gen Dual-Chamber Pump 3100RPM 300w TDP AIO Cooler Anti-Leak Tech with ARGB Fans CPU Water Cooler Narrow Frame Infinity Mirror Block for AMD AM4/AM5 LGA 1700/1200, Black",
-        "variant": null,
+        "variant": "Black",
         "amazon_sku": "B0BLV7MNCC"
     },
     {
@@ -6595,8 +6613,8 @@
     },
     {
         "id": "6bc33ff9-6bef-45aa-a33f-6d635d408542",
-        "name": "MSI MAG CORELIQUID E240 75.04 CFM Water 240mm Black",
-        "variant": "Black",
+        "name": "MSI MAG CORELIQUID E240 AIO CPU Liquid Cooler 240mm",
+        "variant": "240mm Black",
         "amazon_sku": "B0CC5DT54L"
     },
     {
@@ -6734,8 +6752,8 @@
     {
         "id": "48677906-3fe7-4680-8cb6-ba641b7f758a",
         "name": "MSI MAG CORELIQUID E240 Water 240mm White",
-        "variant": "White",
-        "amazon_sku": "B0CC5DT54L"
+        "variant": "240mm White",
+        "amazon_sku": "B0CC5FT1LH"
     },
     {
         "id": "eff932d4-1468-416e-b5f8-09b436631250",
@@ -7006,6 +7024,12 @@
         "name": "Thermaltake ASTRIA 200 Air ARGB Black",
         "variant": "Black",
         "amazon_sku": "B0D4X3TCNC"
+    },
+    {
+        "id": "b7be6faf-68c3-40c9-af3d-ad849b1c77d8",
+        "name": "Cooler Master Hyper 212 Black Edition",
+        "variant": "Black Edition",
+        "amazon_sku": "B09KX9V4CT"
     },
     {
         "id": "d60b03ef-63cd-43a2-ae30-1193a37bb632",
@@ -7593,6 +7617,12 @@
         "id": "0e8e583b-d6b9-41a4-a6f3-535bf1a8262c",
         "name": "EVGA CLC 240 Water 240mm 74.82 CFM",
         "variant": "",
+        "amazon_sku": null
+    },
+    {
+        "id": "f37ae75f-9f07-44c5-98e2-1c185c506f5a",
+        "name": "MSI MAG Coreliquid C360 V2 - AIO ARGB CPU Liquid Cooler - 360mm Radiator",
+        "variant": "360mm Black",
         "amazon_sku": null
     },
     {
@@ -9798,6 +9828,12 @@
         "amazon_sku": null
     },
     {
+        "id": "37ae7120-8b1c-48a5-b583-fb6e69ff2071",
+        "name": "ID-Cooling FROSTFLOW X 240 White LED",
+        "variant": null,
+        "amazon_sku": "B07RK4RC4X"
+    },
+    {
         "id": "7151d79b-d8a5-4236-9843-d73768bf5f1c",
         "name": "Cooler Master MasterLiquid Water 360mm Atmos 70.7 CFM Black",
         "variant": "Black",
@@ -9961,8 +9997,8 @@
     },
     {
         "id": "53474a4b-e46d-4076-8ae4-7c4c53602c2b",
-        "name": "MSI MPG CORELIQUID P13 360",
-        "variant": null,
+        "name": "MSI MPG CORELIQUID P13 360 Black",
+        "variant": "360mm Black",
         "amazon_sku": "B0FBRQ2D76"
     },
     {
@@ -11074,6 +11110,12 @@
         "name": "Cougar FORZA 85 82.48 CFM Air 160mm Black",
         "variant": "Black",
         "amazon_sku": "B0B24MMKTF"
+    },
+    {
+        "id": "6f495387-e9f6-4d21-b12f-ebe3d6bf99b8",
+        "name": "ASUS ROG Strix LC 240 RGB Black",
+        "variant": "240 RGB Black",
+        "amazon_sku": "B07S39QVPT"
     },
     {
         "id": "1045c9d5-f21d-40f7-9be4-a814da4949a6",
@@ -13578,6 +13620,12 @@
         "amazon_sku": "B08N35C482"
     },
     {
+        "id": "6eb53c12-688f-4908-869a-56e24b73da31",
+        "name": "ID-COOLING ZOOMFLOW 360X SNOW 360mm White",
+        "variant": null,
+        "amazon_sku": "B084GLC73J"
+    },
+    {
         "id": "69f4134b-1ad5-4197-9f49-8c23cc1b334e",
         "name": "Deepcool AK400 ZERO DARK Air 155mm 66.47CFM Black",
         "variant": "Black",
@@ -13594,6 +13642,12 @@
         "name": "Thermalright Aqua Elite ARGB V2 Water 68.9 CFM 360mm",
         "variant": "",
         "amazon_sku": null
+    },
+    {
+        "id": "0ae29165-6d99-447d-99cd-ec209d17b137",
+        "name": "MSI MAG Coreliquid A12 240 - AIO ARGB CPU Liquid Cooler - 240mm Radiator",
+        "variant": "240mm Black",
+        "amazon_sku": "B0F8CRYJ3P"
     },
     {
         "id": "70be676c-0a2a-4a03-a64e-1eb673353a8d",

@@ -1484,7 +1484,7 @@
     {
         "id": "c9cf3967-c5fb-4339-9392-749a7224fc95",
         "name": "flow FA12 Triple Fan Pack",
-        "variant": "Triple Fan Pack",
+        "variant": "Regular",
         "amazon_sku": "B0B53SRBK5"
     },
     {
@@ -1744,6 +1744,12 @@
         "name": "Fractal Design Prisma AL 140mm White / Black Addressable RGB 63.33 CFM 3-Pack",
         "variant": "140mm White / Black",
         "amazon_sku": null
+    },
+    {
+        "id": "1ffe61ac-1673-40cb-8361-9fc0815fa58e",
+        "name": "HYTE FA12 Fans 4-Pack Snow White",
+        "variant": "Snow White",
+        "amazon_sku": "B0FMJ35F73"
     },
     {
         "id": "e1439706-9446-4bca-840a-299ec9f4ff72",
@@ -2092,6 +2098,12 @@
         "name": "Antec NOVA 120mm White PWM 95.32 CFM 1-Pack",
         "variant": "120mm White",
         "amazon_sku": "B0DPFSFBX7"
+    },
+    {
+        "id": "428f5dd5-096b-4d1c-8a96-3cb23abdfaf7",
+        "name": "HYTE FA12 Fans 4-Pack Strawberry Milk",
+        "variant": "Strawberry Milk",
+        "amazon_sku": "B0FMJDKSG4"
     },
     {
         "id": "4a8cb12c-2055-4612-a777-5b856aaba2dd",
@@ -2614,6 +2626,12 @@
         "name": "MSI MPG F120 ARGB 120mm Black ARGB PWM 50.79 CFM 2-Pack",
         "variant": "F120 ARGB Black",
         "amazon_sku": "B0CKWHP9M4"
+    },
+    {
+        "id": "763f12bb-db75-471d-8c14-a54a4e82a986",
+        "name": "HYTE FA12 Fans 4-Pack Matcha Green",
+        "variant": "Matcha Green",
+        "amazon_sku": "B0FMHLPKM4"
     },
     {
         "id": "cf429988-ebb8-4cb9-a9ca-da0d48969a4a",
@@ -7380,12 +7398,6 @@
         "amazon_sku": "B0BS1WZPGD"
     },
     {
-        "id": "2f282e82-f422-4d1c-821d-5311d0bb75a9",
-        "name": "HYTE flow FA12 120mm Black / White PWM 3-Pack",
-        "variant": "120mm Black / White",
-        "amazon_sku": null
-    },
-    {
         "id": "2b7cb68c-3db6-46ee-af45-8accd7f73d51",
         "name": "Silverstone Air Slimmer 92mm Black PWM",
         "variant": "92mm Black",
@@ -8590,6 +8602,12 @@
         "name": "Asiahorse NYOTA 120mm Case Fans (3-Pack) Black",
         "variant": "120mm Case Fans (3-Pack)",
         "amazon_sku": "B0DP2JMRMT"
+    },
+    {
+        "id": "3a7f2918-8201-447e-bf8f-f7c6536ad0da",
+        "name": "HYTE FA12 Fans 4-Pack Pitch Black",
+        "variant": "Pitch Black",
+        "amazon_sku": "B0FMHX32N4"
     },
     {
         "id": "ea2cda09-0046-4e31-b2e9-04d09ee8595c",
@@ -13506,6 +13524,12 @@
         "amazon_sku": null
     },
     {
+        "id": "ebd452db-9cf6-428e-a9c7-b0ffbced5d3e",
+        "name": "HYTE FA12 Fans 4-Pack Wild Cherry",
+        "variant": "Wild Cherry",
+        "amazon_sku": "B0FMJ2YLBL"
+    },
+    {
         "id": "4c465089-1113-49a0-845c-eb8fa6c5de4d",
         "name": "Geometric Future Squama 2503 140mm White Addressable RGB PWM 91.15 CFM 1-Pack",
         "variant": "140mm White",
@@ -15142,6 +15166,12 @@
         "name": "NZXT FX 140mm Black / White PWM 98.3 CFM",
         "variant": "140mm Black / White",
         "amazon_sku": null
+    },
+    {
+        "id": "7b034063-c563-4e44-85f2-9a5c8980e838",
+        "name": "HYTE FA12 Fans 4-Pack Taro Milk",
+        "variant": "Taro Milk",
+        "amazon_sku": "B0FMHXD99F"
     },
     {
         "id": "254b45d9-22a5-4437-8a34-cfe4573bad55",
