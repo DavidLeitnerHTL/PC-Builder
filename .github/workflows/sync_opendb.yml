@@ -4,39 +4,60 @@ on:
   schedule:
     # Runs at 02:00 UTC every day
     - cron: '0 2 * * *'
-  workflow_dispatch: # Allows manual triggering from the GitHub Actions tab
+  workflow_dispatch: 
 
 jobs:
-  update-data:
+  update-database:
     runs-on: ubuntu-latest
     
     # REQUIRED: Grants the bot permission to push changes back to the repository
     permissions:
       contents: write
-      
+
     steps:
-      - name: Checkout repository
+      - name: Checkout my repository
         uses: actions/checkout@v4
+        with:
+          path: 'main-repo'
+
+      - name: Checkout BuildCore repository
+        uses: actions/checkout@v4
+        with:
+          repository: 'buildcores/buildcores-open-db' 
+          path: 'buildcore-repo'
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
-      - name: Install dependencies
+      - name: Process data and cleanup
         run: |
-          pip install requests
-
-      - name: Run Data Processor
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python data_processor.py
-
-      - name: Commit and Push changes
-        run: |
-          git config --global user.name "GitHub Action Bot"
-          git config --global user.email "action@github.com"
-          git add hardware_registry.json
+          # Create temporary folder
+          mkdir -p main-repo/raw_hardware_data
           
-          # Only commit and push if there are actual changes detected
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update hardware_registry.json [skip ci]" && git push)
+          # Copy the contents from the 'open-db' folder
+          cp -a buildcore-repo/open-db/* main-repo/raw_hardware_data/
+          
+          # Navigate to repo and run the python processor script
+          cd main-repo
+          python data_processor.py
+          
+          # Delete the raw files so they are NOT committed to GitHub
+          rm -rf raw_hardware_data/
+          
+          # Create a subfolder for the processed data and move the files safely
+          mkdir -p processed_data
+          find . -maxdepth 1 -name "*.json" -type f -mmin -5 -exec mv {} processed_data/ \;
+          
+      - name: Commit and push changes
+        run: |
+          cd main-repo
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # FIX: Add the new folder containing all category json files
+          git add processed_data/
+          
+          # Only commit and push if there are actual changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update hardware categories [skip ci]" && git push)
