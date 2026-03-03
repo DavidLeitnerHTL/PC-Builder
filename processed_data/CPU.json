@@ -714,6 +714,12 @@
         "amazon_sku": "B08DRN56BK"
     },
     {
+        "id": "open-db-update-unset-91d85ce8-a771-4f99-b295-467ac8c5c4f0",
+        "name": "OpenDB Update CPU Renamed",
+        "variant": null,
+        "amazon_sku": null
+    },
+    {
         "id": "d5ff7ec3-4b2e-42a5-a0b2-155034f8b3c3",
         "name": "AMD Ryzen Threadripper 7970X",
         "variant": null,
@@ -736,6 +742,12 @@
         "name": "Intel Core i5 9400 2.9 GHz 6-Core LGA1151",
         "variant": null,
         "amazon_sku": "B07MGZ9FJZ"
+    },
+    {
+        "id": "open-db-create-delete-06dfd68a-30c3-4ef2-849b-3a5ade8fa7c8",
+        "name": "OpenDB Integration CPU",
+        "variant": null,
+        "amazon_sku": null
     },
     {
         "id": "59f2b040-a1c1-4f45-b22d-07b2e2d129f1",
@@ -3774,6 +3786,12 @@
         "amazon_sku": null
     },
     {
+        "id": "open-db-update-unset-141ceb62-6430-4b48-b6f4-d5520a346a3c",
+        "name": "OpenDB Update CPU Renamed",
+        "variant": null,
+        "amazon_sku": null
+    },
+    {
         "id": "296774f6-2c83-4ce0-b475-125e4c88c0d1",
         "name": "Intel Core i5 7640X 4 GHz 4-Core LGA2066",
         "variant": null,
@@ -4014,6 +4032,12 @@
         "amazon_sku": null
     },
     {
+        "id": "open-db-create-delete-8c111daa-bf51-4a87-9f7c-e8309036b5af",
+        "name": "OpenDB Integration CPU",
+        "variant": null,
+        "amazon_sku": null
+    },
+    {
         "id": "88218b9c-2925-42c9-b551-cf3bb6529e2f",
         "name": "AMD FX 9370 4.4 GHz 8-Core AM3+ OEM/Tray",
         "variant": null,
@@ -4168,6 +4192,12 @@
         "name": "AMD Threadripper 2970WX 3 GHz 24-Core sTR4",
         "variant": null,
         "amazon_sku": "B07JBQJ1D9"
+    },
+    {
+        "id": "open-db-update-unset-3228b43e-d612-4740-92c1-28a5c56adfa9",
+        "name": "OpenDB Update CPU Renamed",
+        "variant": null,
+        "amazon_sku": null
     },
     {
         "id": "d0aae8f6-4eb6-4d6e-8363-92ae20078686",
@@ -4648,5 +4678,11 @@
         "name": "Intel Core i5 4690K 3.5 GHz 4-Core LGA1150",
         "variant": null,
         "amazon_sku": "B00KPRWB9G"
+    },
+    {
+        "id": "open-db-create-delete-27891a52-6927-4b76-bf65-1f51f7b7a6b5",
+        "name": "OpenDB Integration CPU",
+        "variant": null,
+        "amazon_sku": null
     }
 ]
