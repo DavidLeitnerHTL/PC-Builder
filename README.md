@@ -1,100 +1,56 @@
-PC Builder
-====================================================
+PC Builder Web App
+======================
 
-Ein moderner, webbasierter PC-Konfigurator, der Nutzern hilft, kompatible Pc's zusammenzustellen. Das Projekt bietet Hardware-Vorauswahlen (Presets), Echtzeit-Preisberechnung und einen integrierten KI-Assistenten zur Beratung.
+A modern and simple web app that helps you build your own PC and calculate the price. Included: a smart AI assistant and an automated hardware database.
 
 Features
---------
+----------
 
-### 1\. Interaktiver Konfigurator
-
-*   **Aktuelle Hardware:** Unterstützung für NVIDIA RTX 50-Serie (Blackwell), AMD Ryzen 9000 & Intel Core Ultra.
+*   **Interactive PC Building**: Choose your PC parts (CPU, graphics card, RAM, etc.) and instantly see the total price.
     
-*   **Smarte Presets:** Ein-Klick-Lösungen für _Budget_, _Mid-Range_ und _High-End_ Setups.
+*   **Sleek Design**: Features a Dark Mode, a floating price bar, and modern buttons.
     
-*   **Echtzeit-Kalkulation:** Der Gesamtpreis aktualisiert sich sofort bei jeder Änderung.
+*   **AI Assistant**: A built-in chat using Google Gemini AI helps with questions about your PC (securely connected via a Cloudflare Worker).
     
-*   **Direktlinks:** Integrierte Bezugsquellen für alle Komponenten.
+*   **Automated Data**: A background program (GitHub Actions) fetches the latest hardware data every night, sorts it, and saves it as handy JSON files.
     
 
-### 2\. AI Assistant (Gemini Powered)
+Planned Feature: Hardware Info Button
+----------------------------------------
 
-*   Ein integrierter Chatbot, basierend auf Googles Gemini.
-    
-*   Beantwortet spezifische Hardware-Fragen.
-    
-*   Prüft die gewählte Konfiguration auf Kompatibilität und Bottlenecks.
-    
+We are currently working on connecting our website directly to the new data (processed\_data/).In the next update, there will be an **Info Button** next to every PC part. When you click it, the app will search our database and instantly show you all important technical details (like socket, power consumption, or core count) right on the website!
 
-### 3\. Expertenwissen & News
+Technologies Used
+---------------------
 
-*   **Wissensdatenbank:** Detaillierte Erklärungen zu aktuellen Technologien (DDR5, PCIe 5.0, OLED, ATX 3.1).
+*   **Frontend (Website)**: HTML5, CSS3, JavaScript, Bootstrap 5
     
-*   **News Feed:** Aktuelle Schlagzeilen aus der Hardware-Industrie.
+*   **Backend (Server)**: Cloudflare Workers
     
-*   **Troubleshooting(FAQ):** Hilfestellungen bei gängigen PC-Bau-Problemen.
+*   **AI Model**: Google Gemini API
     
-
-Technologien
-------------
-
-*   **Frontend:** HTML5, CSS3 (Custom Properties & Animations), JavaScript (ES6+)
-    
-*   **Framework:** Bootstrap 5.3 (Responsive Design)
-    
-*   **KI-Integration:** Google Gemini API
-    
-*   **Icons:** FontAwesome 6
-    
-*   **Hosting:** Cloudflare Pages
+*   **Data Processing**: Python 3, GitHub Actions
     
 
-Installation & Deployment
--------------------------
+Project Structure
+-----------------
 
-Das Projekt ist für das Hosting auf **Cloudflare Pages** optimiert, um GitHub-API-Key-Scans zu vermeiden und unbegrenzte Bandbreite zu nutzen.
+```text
+/
+├── index.html            # Main page of the web app
+├── style.css             # Design, colors, and animations
+├── script.js             # Site logic and AI connection
+├── config.js             # Settings
+├── data_processor.py     # Python script that sorts the data
+├── /processed_data/      # Automatically created JSON data (CPUs, graphics cards...)
+└── /.github/workflows/   # Background programs (e.g., for daily updates)
+```
 
-### Lokale Entwicklung
+Installation & Setup
+-----------------------
 
-1.  Repository klonen oder herunterladen.
+1.  Download the project: git clone https://github.com/DavidLeitnerHTL/PC-Builder.git
     
-2.  config.js erstellen (siehe unten).
+2.  Open the index.html file in your web browser.
     
-3.  index.html im Browser öffnen.
-    
-
-### API Key Konfiguration (config.js)
-
-Um den Google Gemini API Key vor automatischen Scannern (z.B. auf GitHub) zu schützen, wird der Key in der config.js geteilt hinterlegt.
-
-Erstelle eine Datei config.js im Hauptverzeichnis:
-
-<img width="568" height="79" alt="image" src="https://github.com/user-attachments/assets/5b66fc2a-994e-42f7-9c4f-74811629a244" />
-
-
-
-### Deployment auf Cloudflare Pages
-
-1.  Cloudflare Dashboard öffnen > **Compute (Workers & Pages)**.
-    
-2.  Auf **Create Application** > **Pages** > **Upload assets** klicken.
-    
-3.  Den Projektordner hochladen.
-    
-4.  **Wichtig:** In der Google Cloud Console die Domain der Cloudflare Page (https://dein-projekt.pages.dev) unter "Website-Einschränkungen" für den API-Key freischalten.
-    
-
-Sicherheitshinweis
-------------------
-
-Da es sich um eine clientseitige Anwendung handelt, ist der API-Key theoretisch im Browser-Quellcode sichtbar.
-
-*   **Schutzmaßnahme:** Der API-Key ist in der Google Cloud Console strikt auf die Domain der Webseite (Referrer) beschränkt.
-    
-
-Autoren
--------
-
-*   David Leitner
-    
-*   Maximilian Baumgartner
+3.  To test the data processing locally: Run python data\_processor.py.
