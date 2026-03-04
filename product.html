@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produktinfo | PC Builder</title>
+    <!-- Bindet dein bestehendes Stylesheet ein -->
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* Spezifisches Styling für die Produktseite */
+        body {
+            background-color: var(--bg-color, #121212);
+            color: var(--text-color, #e0e0e0);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .product-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: var(--card-bg, #1e1e2e);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #4da6ff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: #1a8cff;
+        }
+
+        .product-header {
+            border-bottom: 1px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none; /* Nur anzeigen, falls ein Bild vorhanden ist */
+        }
+
+        .spec-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+        }
+
+        .spec-table th, .spec-table td {
+            padding: 12px;
+            border-bottom: 1px solid #333;
+            text-align: left;
+        }
+
+        .spec-table th {
+            width: 40%;
+            color: #888;
+            font-weight: normal;
+            text-transform: capitalize;
+        }
+
+        .amazon-section {
+            background-color: rgba(255, 153, 0, 0.1);
+            border-left: 4px solid #ff9900;
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .amazon-section h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        .amazon-btn {
+            display: inline-block;
+            background-color: #ff9900;
+            color: #000;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: background-color 0.2s;
+        }
+
+        .amazon-btn:hover {
+            background-color: #e68a00;
+        }
+
+        #loading-text {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="product-container">
+        <a href="index.html" class="back-link">&larr; Zurück zur Übersicht</a>
+        
+        <div id="loading-text">Produktdaten werden geladen...</div>
+
+        <div id="product-content" style="display: none;">
+            <div class="product-header">
+                <img id="product-img" class="product-image" src="" alt="">
+                <h1 id="product-name">Produktname</h1>
+                <h2 id="product-price" style="color: #4da6ff;">Preis</h2>
+            </div>
+
+            <h3>Spezifikationen</h3>
+            <table class="spec-table" id="spec-table">
+                <!-- Spezifikationen werden hier per JS eingefügt -->
+            </table>
+
+            <!-- Nach deiner Vorgabe: Ganzer Name + Amazon Link am Ende -->
+            <div class="amazon-section">
+                <h3 id="amazon-product-name">Ganzer Produktname</h3>
+                <a id="amazon-link" href="#" target="_blank" rel="noopener noreferrer" class="amazon-btn">
+                    Auf Amazon ansehen
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Funktion zum sauberen Formatieren der JSON Keys (z.B. "core_clock" -> "Core Clock")
+        const formatKey = (key) => {
+            return key.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+        };
+
+        // URL Parameter auslesen (?category=...&name=...)
+        const urlParams = new URLSearchParams(window.location.search);
+        const category = urlParams.get('category');
+        const productName = urlParams.get('name');
+
+        const loadingText = document.getElementById('loading-text');
+        const productContent = document.getElementById('product-content');
+
+        if (category && productName) {
+            // Daten aus dem processed_data Ordner abrufen
+            fetch(`processed_data/${category}.json`)
+                .then(response => {
+                    if (!response.ok) throw new Error("Kategorie-Datei nicht gefunden");
+                    return response.json();
+                })
+                .then(data => {
+                    // Produkt in der JSON-Datei suchen
+                    const product = data.find(p => p.name === productName);
+
+                    if (product) {
+                        loadingText.style.display = 'none';
+                        productContent.style.display = 'block';
+
+                        // Basisinformationen befüllen
+                        document.getElementById('product-name').textContent = product.name;
+                        document.getElementById('product-price').textContent = product.price ? `${product.price} €` : 'Preis derzeit unbekannt';
+
+                        // Bild einfügen, falls vorhanden
+                        if (product.image) {
+                            const imgEl = document.getElementById('product-img');
+                            imgEl.src = product.image;
+                            imgEl.alt = product.name;
+                            imgEl.style.display = 'block';
+                        }
+
+                        // Spezifikationen in die Tabelle laden
+                        const table = document.getElementById('spec-table');
+                        for (const [key, value] of Object.entries(product)) {
+                            // Ignoriere Basis-Keys, die bereits im Header/Bild behandelt werden
+                            if (['name', 'price', 'id', 'image', 'link'].includes(key.toLowerCase())) continue;
+                            
+                            // Ignoriere leere Werte
+                            if (value === null || value === "" || value === "N/A") continue;
+
+                            const row = document.createElement('tr');
+                            
+                            const th = document.createElement('th');
+                            th.textContent = formatKey(key);
+                            
+                            const td = document.createElement('td');
+                            td.textContent = value;
+                            
+                            row.appendChild(th);
+                            row.appendChild(td);
+                            table.appendChild(row);
+                        }
+
+                        // Ganzen Namen + Amazon-Link am Ende setzen
+                        document.getElementById('amazon-product-name').textContent = product.name;
+                        const amazonSearchUrl = `https://www.amazon.de/s?k=${encodeURIComponent(product.name)}`;
+                        document.getElementById('amazon-link').href = amazonSearchUrl;
+
+                    } else {
+                        loadingText.textContent = "Das gewünschte Produkt wurde nicht gefunden.";
+                    }
+                })
+                .catch(error => {
+                    console.error("Fehler beim Laden:", error);
+                    loadingText.textContent = "Fehler beim Laden der Produktdaten. Bitte überprüfe den processed_data Ordner.";
+                });
+        } else {
+            loadingText.textContent = "Kein Produkt ausgewählt (URL Parameter fehlen).";
+        }
+    </script>
+</body>
+</html>

@@ -1,16 +1,20 @@
 /**
  * PC Builder 2026 - Main Script
  * Handles hardware configuration, price calculation, 
- * dark mode, and AI assistant via Cloudflare Worker Proxy.
+ * dark mode, AI assistant via Cloudflare Worker Proxy,
+ * and dynamic component browsing.
  */
 
 // ==========================================
-// CONFIGURATION
+// CONFIGURATION & STATE
 // ==========================================
 const WORKER_URL = "https://gemini-proxy.builder-htl.workers.dev";
 
 // Flag to check if a preset is currently loading (prevents button flickering)
 let isPresetLoading = false;
+
+// Global state for the dynamic component browser
+let currentCategory = 'GPU';
 
 /**
  * PRESETS (Hardware Selection for 2026)
@@ -47,6 +51,77 @@ const PRESETS = {
         case: "Hyte Y70"
     }
 };
+
+// ==========================================
+// COMPONENT BROWSER LOGIC (NEW)
+// ==========================================
+
+async function fetchCategoryData(category) {
+    try {
+        const response = await fetch(`processed_data/${category}.json`);
+        if (!response.ok) {
+            throw new Error(`Failed to load ${category}.json - Status: ${response.status}`);
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(`Error fetching data for ${category}:`, error);
+        return []; // Return empty array on error to prevent crashes
+    }
+}
+
+function renderProducts(products, category) {
+    const container = document.getElementById('parts-container'); 
+    
+    // Prevent errors if the user is on a page without the parts browser
+    if (!container) return;
+
+    // Clear previous items
+    container.innerHTML = '';
+
+    // Loop through each product and build the HTML elements
+    products.forEach(part => {
+        const partDiv = document.createElement('div');
+        partDiv.className = 'part-card';
+
+        // 1. Render Product Image
+        if (part.image) {
+            const img = document.createElement('img');
+            img.src = part.image;
+            img.alt = part.name;
+            img.className = 'part-image';
+            partDiv.appendChild(img);
+        }
+
+        // 2. Render Product Name
+        const nameElement = document.createElement('h3');
+        nameElement.textContent = part.name;
+        nameElement.className = 'part-name';
+        partDiv.appendChild(nameElement);
+
+        // 3. Render Product Price
+        const priceElement = document.createElement('p');
+        priceElement.textContent = part.price ? `${part.price} €` : 'Preis unbekannt';
+        priceElement.className = 'part-price';
+        partDiv.appendChild(priceElement);
+
+        // 4. Create the Info Button (Linking to product.html)
+        // This completely replaces the previous Amazon link button
+        const infoBtn = document.createElement('a');
+        infoBtn.href = `product.html?category=${encodeURIComponent(category)}&name=${encodeURIComponent(part.name)}`;
+        infoBtn.textContent = 'Info';
+        infoBtn.className = 'buy-btn'; 
+        
+        partDiv.appendChild(infoBtn);
+        container.appendChild(partDiv);
+    });
+}
+
+async function loadCategory(category) {
+    currentCategory = category;
+    const products = await fetchCategoryData(category);
+    renderProducts(products, category);
+}
 
 // ==========================================
 // UI HELPERS
@@ -171,9 +246,6 @@ function calcTotal() {
 // AI LOGIC (WORKER PROXY)
 // ==========================================
 
-/**
- * Gathers current selection to provide context to the AI
- */
 function getSelectedComponents() {
     let components = [];
     document.querySelectorAll('#hardware-table tbody tr').forEach(row => {
@@ -187,9 +259,6 @@ function getSelectedComponents() {
     return components.join('\n');
 }
 
-/**
- * Handles the loading UI state
- */
 function toggleLoading(show) {
     const loadingEl = document.getElementById('ai-loading');
     const resultWrapper = document.getElementById('ai-result-wrapper');
@@ -198,9 +267,6 @@ function toggleLoading(show) {
     if(resultWrapper) resultWrapper.style.display = show ? 'none' : 'flex'; 
 }
 
-/**
- * Main AI call function that communicates with the Cloudflare Worker
- */
 async function callWorkerAI(prompt) {
     try {
         const response = await fetch(WORKER_URL, {
@@ -211,16 +277,13 @@ async function callWorkerAI(prompt) {
 
         const data = await response.json();
 
-        // Handle successful response from Gemini
         if (data.candidates && data.candidates[0].content) {
             return data.candidates[0].content.parts[0].text;
         } 
         
-        // Handle error objects correctly to avoid "[object Object]"
         if (data.error) {
             let errorDetails = data.error;
             if (typeof data.error === 'object') {
-                // Try to extract message or stringify the object
                 errorDetails = data.error.message || JSON.stringify(data.error);
             }
             return `KI Fehler: ${errorDetails}`;
@@ -244,7 +307,12 @@ document.addEventListener('DOMContentLoaded', () => {
         calcTotal();
     }
 
-    // 2. AI Assistant Buttons
+    // 2. Component Browser Initialization (NEW)
+    if (document.getElementById('parts-container')) {
+        loadCategory('GPU'); 
+    }
+
+    // 3. AI Assistant Buttons
     const btnCheck = document.getElementById('btn-check-build');
     const btnAsk = document.getElementById('btn-ask-ai');
     const outputBox = document.getElementById('ai-output');
@@ -283,7 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 3. UI Resizing/Reset
+    // 4. UI Resizing/Reset
     const btnResize = document.getElementById('btn-resize-ai');
     const btnClose = document.getElementById('btn-close-expanded');
 
@@ -310,7 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if(btnResize) btnResize.addEventListener('click', toggleExpandedView);
     if(btnClose) btnClose.addEventListener('click', toggleExpandedView);
 
-    // 4. Dark Mode Logic
+    // 5. Dark Mode Logic
     const themeToggle = document.getElementById('theme-toggle');
     const htmlElement = document.documentElement;
     

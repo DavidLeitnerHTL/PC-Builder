@@ -93,133 +93,136 @@
               <table class="table mb-4" id="hardware-table">
                 <thead>
                   <tr>
-                    <th style="width: 25%;">Komponente</th>
-                    <th style="width: 45%;">Modell Auswahl</th>
-                    <th style="width: 15%;">Preis (€)</th>
-                    <th style="width: 15%;">Shop</th>
-                  </tr>
+                        <th>Komponente</th>
+                        <th>Auswahl</th>
+                        <th>Preis (€)</th>
+                        <th>Details</th>
+                    </tr>
                 </thead>
                 <tbody>
-                  <!-- CPU -->
-                  <tr data-category="CPU">
-                    <td><div class="fw-bold">Prozessor (CPU)</div></td>
-                    <td>
-                      <select id="cpu" class="form-select component-select" onchange="update(this)">
-                        <option value="195.00,https://www.amazon.de/s?k=AMD+Ryzen+5+9600X">AMD Ryzen 5 9600X (6 Kerne, Zen 5)</option>
-                        <option value="210.00,https://www.amazon.de/s?k=Intel+Core+i5-14400F">Intel Core i5-14400F</option>
-                        <option value="420.00,https://www.amazon.de/s?k=AMD+Ryzen+7+9800X3D">AMD Ryzen 7 9800X3D (Gaming King)</option>
-                        <option value="340.00,https://www.amazon.de/s?k=Intel+Core+Ultra+5+245K">Intel Core Ultra 5 245K (Arrow Lake)</option>
-                        <option value="650.00,https://www.amazon.de/s?k=AMD+Ryzen+9+9950X3D">AMD Ryzen 9 9950X3D (16 Kerne)</option>
-                        <option value="620.00,https://www.amazon.de/s?k=Intel+Core+Ultra+9+285K">Intel Core Ultra 9 285K</option>
-                      </select>
-                    </td>
-                    <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
-                    <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
-                  </tr>
+                    <!-- CPU -->
+                    <tr data-category="CPU">
+                        <td>Prozessor (CPU)</td>
+                        <td>
+                            <select id="cpu" class="form-select" onchange="update(this)">
+                                <option value="0,#" disabled selected>Bitte wählen...</option>
+                                <option value="184.99,product.html?category=CPU&name=AMD%20Ryzen%205%209600X">Ryzen 5 9600X</option>
+                                <option value="429.00,product.html?category=CPU&name=AMD%20Ryzen%207%209800X3D">Ryzen 7 9800X3D</option>
+                                <option value="649.00,product.html?category=CPU&name=AMD%20Ryzen%209%209950X3D">Ryzen 9 9950X3D</option>
+                                <option value="150.00,product.html?category=CPU&name=Intel%20Core%20i5-13600K">Intel Core i5-13600K</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                    </tr>
+                    
+                    <!-- Kühler -->
+                    <tr data-category="Cooler">
+                        <td>Kühler</td>
+                        <td>
+                            <select id="cooler" class="form-select" onchange="update(this)">
+                                <option value="0,#" disabled selected>Bitte wählen...</option>
+                                <option value="39.90,product.html?category=CPUCooler&name=Thermalright%20Peerless%20Assassin%20120">Thermalright Peerless Assassin</option>
+                                <option value="89.90,product.html?category=CPUCooler&name=be%20quiet!%20Dark%20Rock%20Elite">be quiet! Dark Rock Elite</option>
+                                <option value="109.90,product.html?category=CPUCooler&name=ARCTIC%20Liquid%20Freezer%20III%20360">Liquid Freezer III 360</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                    </tr>
 
-                  <!-- Cooler -->
-                  <tr data-category="Cooler">
-                    <td><div class="fw-bold">CPU Kühler</div></td>
-                    <td>
-                      <select id="cooler" class="form-select component-select" onchange="update(this)">
-                        <option value="42.90,https://www.amazon.de/s?k=Thermalright+Peerless+Assassin+120+SE">Thermalright Peerless Assassin 120 SE</option>
-                        <option value="99.00,https://www.amazon.de/s?k=be+quiet+Dark+Rock+Elite">be quiet! Dark Rock Elite</option>
-                        <option value="145.00,https://www.amazon.de/s?k=Arctic+Liquid+Freezer+III+360+ARGB">Arctic Liquid Freezer III 360 ARGB</option>
-                        <option value="260.00,https://www.amazon.de/s?k=Lian+Li+Galahad+II+LCD">Lian Li Galahad II LCD</option>
-                      </select>
-                    </td>
-                    <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
-                    <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
-                  </tr>
+                    <!-- Mainboard -->
+                    <tr data-category="Motherboard">
+                        <td>Mainboard</td>
+                        <td>
+                            <select id="mb" class="form-select" onchange="update(this)">
+                                <option value="0,#" disabled selected>Bitte wählen...</option>
+                                <option value="169.00,product.html?category=Motherboard&name=MSI%20PRO%20B650-P%20WIFI">MSI PRO B650-P WIFI</option>
+                                <option value="249.00,product.html?category=Motherboard&name=ASUS%20ROG%20Strix%20B850-F%20Gaming">ASUS ROG Strix B850</option>
+                                <option value="499.00,product.html?category=Motherboard&name=Gigabyte%20X870E%20AORUS%20MASTER">Gigabyte X870E AORUS</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                    </tr>
 
-                  <!-- Mainboard -->
-                  <tr data-category="Mainboard">
-                    <td><div class="fw-bold">Mainboard</div></td>
-                    <td>
-                      <select id="mb" class="form-select component-select" onchange="update(this)">
-                        <option value="160.00,https://www.amazon.de/s?k=MSI+B650+Gaming+Plus+WiFi">MSI B650 Gaming Plus WiFi (AM5)</option>
-                        <option value="240.00,https://www.amazon.de/s?k=GIGABYTE+B850+AORUS+ELITE">GIGABYTE B850 AORUS ELITE (Neu)</option>
-                        <option value="290.00,https://www.amazon.de/s?k=ASUS+ROG+Strix+Z890-F">ASUS ROG Strix Z890-F (Intel)</option>
-                        <option value="550.00,https://www.amazon.de/s?k=MSI+MEG+X870E+ACE">MSI MEG X870E ACE</option>
-                      </select>
-                    </td>
-                    <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
-                    <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
-                  </tr>
+                    <!-- GPU -->
+                    <tr data-category="GPU">
+                        <td>Grafikkarte (GPU)</td>
+                        <td>
+                            <select id="gpu" class="form-select" onchange="update(this)">
+                                <option value="0,#" disabled selected>Bitte wählen...</option>
+                                <option value="319.00,product.html?category=GPU&name=GeForce%20RTX%205060">RTX 5060</option>
+                                <option value="649.00,product.html?category=GPU&name=GeForce%20RTX%205070">RTX 5070</option>
+                                <option value="1899.00,product.html?category=GPU&name=GeForce%20RTX%205090">RTX 5090</option>
+                                <option value="599.00,product.html?category=GPU&name=Radeon%20RX%208800%20XT">RX 8800 XT</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                    </tr>
 
-                  <!-- GPU -->
-                  <tr data-category="Graphics Card">
-                    <td><div class="fw-bold">Grafikkarte (GPU)</div></td>
-                    <td>
-                      <select id="gpu" class="form-select component-select" onchange="update(this)">
-                        <option value="340.00,https://www.amazon.de/s?k=NVIDIA+GeForce+RTX+4060+Ti">NVIDIA RTX 4060 Ti (8GB)</option>
-                        <option value="499.00,https://www.amazon.de/s?k=NVIDIA+GeForce+RTX+5060">NVIDIA RTX 5060 (10GB) - Neu</option>
-                        <option value="780.00,https://www.amazon.de/s?k=NVIDIA+GeForce+RTX+5070">NVIDIA RTX 5070 (12GB) - Blackwell</option>
-                        <option value="620.00,https://www.amazon.de/s?k=AMD+Radeon+RX+7900+GRE">AMD Radeon RX 7900 GRE (16GB)</option>
-                        <option value="1150.00,https://www.amazon.de/s?k=NVIDIA+GeForce+RTX+5080">NVIDIA RTX 5080 (16GB GDDR7)</option>
-                        <option value="2100.00,https://www.amazon.de/s?k=NVIDIA+GeForce+RTX+5090">NVIDIA RTX 5090 (32GB GDDR7)</option>
-                      </select>
-                    </td>
-                    <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
-                    <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
-                  </tr>
+                    <!-- RAM -->
+                    <tr data-category="RAM">
+                        <td>Arbeitsspeicher (RAM)</td>
+                        <td>
+                            <select id="ram" class="form-select" onchange="update(this)">
+                                <option value="0,#" disabled selected>Bitte wählen...</option>
+                                <option value="109.00,product.html?category=RAM&name=Corsair%20Vengeance%20DDR5-6000%2032GB">Corsair Vengeance 32GB</option>
+                                <option value="139.00,product.html?category=RAM&name=G.Skill%20Trident%20Z5%20DDR5-6400%2032GB">Trident Z5 32GB</option>
+                                <option value="289.00,product.html?category=RAM&name=Corsair%20Dominator%20Titanium%20DDR5-7200%2064GB">Dominator Titanium 64GB</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                    </tr>
 
-                  <!-- RAM -->
-                  <tr data-category="RAM">
-                    <td><div class="fw-bold">Arbeitsspeicher</div></td>
-                    <td>
-                      <select id="ram" class="form-select component-select" onchange="update(this)">
-                        <option value="110.00,https://www.amazon.de/s?k=Corsair+Vengeance+DDR5+32GB+6000MHz">32GB Corsair Vengeance DDR5-6000 CL30</option>
-                        <option value="135.00,https://www.amazon.de/s?k=G.Skill+Trident+Z5+Neo+32GB+6400MHz">32GB G.Skill Trident Z5 Neo RGB DDR5-6400</option>
-                        <option value="260.00,https://www.amazon.de/s?k=Corsair+Dominator+Titanium+64GB+7200MHz">64GB Corsair Dominator Titanium DDR5-7200</option>
-                      </select>
-                    </td>
-                    <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
-                    <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
-                  </tr>
+                    <!-- SSD -->
+                    <tr data-category="SSD">
+                        <td>Speicher (SSD)</td>
+                        <td>
+                            <select id="ssd" class="form-select" onchange="update(this)">
+                                <option value="0,#" disabled selected>Bitte wählen...</option>
+                                <option value="69.90,product.html?category=Storage&name=WD_BLACK%20SN770%201TB">WD SN770 1TB</option>
+                                <option value="159.90,product.html?category=Storage&name=Samsung%20990%20PRO%202TB">Samsung 990 Pro 2TB</option>
+                                <option value="329.90,product.html?category=Storage&name=Crucial%20T705%20Gen5%202TB">Crucial T705 2TB</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                    </tr>
 
-                  <!-- SSD -->
-                  <tr data-category="SSD">
-                    <td><div class="fw-bold">SSD Speicher</div></td>
-                    <td>
-                      <select id="ssd" class="form-select component-select" onchange="update(this)">
-                        <option value="85.00,https://www.amazon.de/s?k=WD+Black+SN770+1TB">WD Black SN770 1TB (PCIe 4.0)</option>
-                        <option value="155.00,https://www.amazon.de/s?k=Samsung+990+Pro+2TB">Samsung 990 Pro 2TB (Heatsink)</option>
-                        <option value="340.00,https://www.amazon.de/s?k=Crucial+T705+2TB+PCIe+5.0">Crucial T705 2TB (PCIe 5.0 Speed)</option>
-                      </select>
-                    </td>
-                    <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
-                    <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
-                  </tr>
+                    <!-- PSU -->
+                    <tr data-category="PSU">
+                        <td>Netzteil (PSU)</td>
+                        <td>
+                            <select id="psu" class="form-select" onchange="update(this)">
+                                <option value="0,#" disabled selected>Bitte wählen...</option>
+                                <option value="99.90,product.html?category=PSU&name=be%20quiet!%20Pure%20Power%2012%20M%20750W">Pure Power 12 M 750W</option>
+                                <option value="189.90,product.html?category=PSU&name=Seasonic%20Vertex%20GX-1000">Seasonic Vertex GX-1000</option>
+                                <option value="279.90,product.html?category=PSU&name=be%20quiet!%20Dark%20Power%20Pro%2013%201300W">Dark Power Pro 1300W</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                    </tr>
 
-                  <!-- PSU -->
-                  <tr data-category="Power Supply">
-                    <td><div class="fw-bold">Netzteil</div></td>
-                    <td>
-                      <select id="psu" class="form-select component-select" onchange="update(this)">
-                        <option value="85.00,https://www.amazon.de/s?k=be+quiet+Pure+Power+12+M+750W">be quiet! Pure Power 12 M 750W (ATX 3.1)</option>
-                        <option value="160.00,https://www.amazon.de/s?k=Seasonic+Vertex+GX-1000">Seasonic Vertex GX-1000 (1000W Gold)</option>
-                        <option value="290.00,https://www.amazon.de/s?k=be+quiet+Dark+Power+Pro+13+1300W">be quiet! Dark Power Pro 13 1300W</option>
-                      </select>
-                    </td>
-                    <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
-                    <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
-                  </tr>
-
-                  <!-- Case -->
-                  <tr data-category="Case">
-                    <td><div class="fw-bold">Gehäuse</div></td>
-                    <td>
-                      <select id="case" class="form-select component-select" onchange="update(this)">
-                        <option value="90.00,https://www.amazon.de/s?k=Endorfy+Arx+700+ARGB">Endorfy Arx 700 ARGB</option>
-                        <option value="155.00,https://www.amazon.de/s?k=Fractal+Design+North+XL">Fractal Design North XL (Holz/Mesh)</option>
-                        <option value="210.00,https://www.amazon.de/s?k=Hyte+Y70+Touch">Hyte Y70 (Panoramaglas)</option>
-                      </select>
-                    </td>
-                    <td><input type="number" class="form-control text-end fw-bold price-input" value="0.00" readonly></td>
-                    <td><a href="#" target="_blank" class="btn btn-link-custom w-100"><i class="fab fa-amazon"></i></a></td>
-                  </tr>
+                    <!-- Gehäuse -->
+                    <tr data-category="Case">
+                        <td>Gehäuse</td>
+                        <td>
+                            <select id="case" class="form-select" onchange="update(this)">
+                                <option value="0,#" disabled selected>Bitte wählen...</option>
+                                <option value="109.90,product.html?category=PCCase&name=Endorfy%20Arx%20700%20Air">Endorfy Arx 700</option>
+                                <option value="159.90,product.html?category=PCCase&name=Fractal%20Design%20North%20XL">Fractal North XL</option>
+                                <option value="399.00,product.html?category=PCCase&name=Hyte%20Y70%20Touch">Hyte Y70 Touch</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                    </tr>
                 </tbody>
+                <tfoot>
               </table>
             </div>
         </div>
