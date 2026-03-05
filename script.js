@@ -1,8 +1,7 @@
 /**
  * PC Builder 2026 - Main Script
  * Handles hardware configuration, price calculation, 
- * dark mode, AI assistant via Cloudflare Worker Proxy,
- * and dynamic component browsing.
+ * dark mode, and AI assistant via Cloudflare Worker Proxy.
  */
 
 // ==========================================
@@ -10,185 +9,112 @@
 // ==========================================
 const WORKER_URL = "https://gemini-proxy.builder-htl.workers.dev";
 
-// Flag to check if a preset is currently loading (prevents button flickering)
+// Prevents button UI flickering during preset loading
 let isPresetLoading = false;
 
-// Global state for the dynamic component browser
-let currentCategory = 'GPU';
-
 /**
- * PRESETS (Hardware Selection for 2026)
+ * SYSTEM PRESETS 
+ * Aligned with actual JSON dataset
  */
-const PRESETS = {
+const SYSTEM_PRESETS = {
     budget: {
-        cpu: "Ryzen 5 9600X",
-        cooler: "Peerless Assassin",
-        mb: "MSI B650",
-        gpu: "RTX 5060",  
-        ram: "Vengeance",
-        ssd: "SN770",
-        psu: "Pure Power 12 M",
-        case: "Arx 700"
+        cpu: "Intel Core i7 6700K",
+        cooler: "Noctua NH-U12S",
+        mb: "Asus B365 PRIME",
+        gpu: "RTX 4060",  
+        ram: "TEAMGROUP T-Force",
+        ssd: "Patriot Ignite",
+        psu: "Enermax Revolution",
+        case: "Deepcool Tesseract"
     },
     midrange: {
-        cpu: "Ryzen 7 9800X3D",
-        cooler: "Dark Rock Elite",
-        mb: "B850",
-        gpu: "RTX 5070",
-        ram: "Trident Z5",
-        ssd: "Samsung 990 Pro",
-        psu: "Vertex GX-1000",
-        case: "North XL"
+        cpu: "Intel Core i9 9900KF",
+        cooler: "Fractal Design Celsius",
+        mb: "Gigabyte B860",
+        gpu: "RX 6750 XT",
+        ram: "G.Skill Trident",
+        ssd: "Corsair MP600",
+        psu: "be quiet! Dark Power",
+        case: "Zalman Z3"
     },
     highend: {
-        cpu: "Ryzen 9 9950X3D",
-        cooler: "Liquid Freezer III",
-        mb: "X870E",
-        gpu: "RTX 5090", 
-        ram: "Dominator Titanium",
-        ssd: "T705",
-        psu: "Dark Power Pro",
-        case: "Hyte Y70"
+        cpu: "Intel Core i9 12900",
+        cooler: "MSI MEG",
+        mb: "ASRock A620",
+        gpu: "RTX 4080", 
+        ram: "Corsair Dominator",
+        ssd: "Seagate Game 1TB",
+        psu: "Silverstone HELA",
+        case: "Thermaltake CTE"
     }
 };
-
-// ==========================================
-// COMPONENT BROWSER LOGIC (NEW)
-// ==========================================
-
-async function fetchCategoryData(category) {
-    try {
-        const response = await fetch(`processed_data/${category}.json`);
-        if (!response.ok) {
-            throw new Error(`Failed to load ${category}.json - Status: ${response.status}`);
-        }
-        const data = await response.json();
-        return data;
-    } catch (error) {
-        console.error(`Error fetching data for ${category}:`, error);
-        return []; // Return empty array on error to prevent crashes
-    }
-}
-
-function renderProducts(products, category) {
-    const container = document.getElementById('parts-container'); 
-    
-    // Prevent errors if the user is on a page without the parts browser
-    if (!container) return;
-
-    // Clear previous items
-    container.innerHTML = '';
-
-    // Loop through each product and build the HTML elements
-    products.forEach(part => {
-        const partDiv = document.createElement('div');
-        partDiv.className = 'part-card';
-
-        // 1. Render Product Image
-        if (part.image) {
-            const img = document.createElement('img');
-            img.src = part.image;
-            img.alt = part.name;
-            img.className = 'part-image';
-            partDiv.appendChild(img);
-        }
-
-        // 2. Render Product Name
-        const nameElement = document.createElement('h3');
-        nameElement.textContent = part.name;
-        nameElement.className = 'part-name';
-        partDiv.appendChild(nameElement);
-
-        // 3. Render Product Price
-        const priceElement = document.createElement('p');
-        priceElement.textContent = part.price ? `${part.price} €` : 'Preis unbekannt';
-        priceElement.className = 'part-price';
-        partDiv.appendChild(priceElement);
-
-        // 4. Create the Info Button (Linking to product.html)
-        // This completely replaces the previous Amazon link button
-        const infoBtn = document.createElement('a');
-        infoBtn.href = `product.html?category=${encodeURIComponent(category)}&name=${encodeURIComponent(part.name)}`;
-        infoBtn.textContent = 'Info';
-        infoBtn.className = 'buy-btn'; 
-        
-        partDiv.appendChild(infoBtn);
-        container.appendChild(partDiv);
-    });
-}
-
-async function loadCategory(category) {
-    currentCategory = category;
-    const products = await fetchCategoryData(category);
-    renderProducts(products, category);
-}
 
 // ==========================================
 // UI HELPERS
 // ==========================================
 
 function resetPresetButtons() {
-    const btnBudget = document.getElementById('preset-budget');
-    const btnMid = document.getElementById('preset-midrange');
-    const btnHigh = document.getElementById('preset-highend');
+    const buttonBudget = document.getElementById('preset-budget');
+    const buttonMid = document.getElementById('preset-midrange');
+    const buttonHigh = document.getElementById('preset-highend');
 
-    if (btnBudget) {
-        btnBudget.classList.remove('btn-success');
-        btnBudget.classList.add('btn-outline-success');
+    if (buttonBudget) {
+        buttonBudget.classList.remove('btn-success');
+        buttonBudget.classList.add('btn-outline-success');
     }
-    if (btnMid) {
-        btnMid.classList.remove('btn-primary');
-        btnMid.classList.add('btn-outline-primary');
+    if (buttonMid) {
+        buttonMid.classList.remove('btn-primary');
+        buttonMid.classList.add('btn-outline-primary');
     }
-    if (btnHigh) {
-        btnHigh.classList.remove('btn-danger');
-        btnHigh.classList.add('btn-outline-danger');
+    if (buttonHigh) {
+        buttonHigh.classList.remove('btn-danger');
+        buttonHigh.classList.add('btn-outline-danger');
     }
 }
 
-function activatePresetButton(type) {
+function activatePresetButton(presetType) {
     resetPresetButtons(); 
     
-    let btn;
-    let colorClass;
+    let targetButtonElement;
+    let buttonColorClass;
     
-    if (type === 'budget') {
-        btn = document.getElementById('preset-budget');
-        colorClass = 'success';
-    } else if (type === 'midrange') {
-        btn = document.getElementById('preset-midrange');
-        colorClass = 'primary';
-    } else if (type === 'highend') {
-        btn = document.getElementById('preset-highend');
-        colorClass = 'danger';
+    if (presetType === 'budget') {
+        targetButtonElement = document.getElementById('preset-budget');
+        buttonColorClass = 'success';
+    } else if (presetType === 'midrange') {
+        targetButtonElement = document.getElementById('preset-midrange');
+        buttonColorClass = 'primary';
+    } else if (presetType === 'highend') {
+        targetButtonElement = document.getElementById('preset-highend');
+        buttonColorClass = 'danger';
     }
 
-    if (btn) {
-        btn.classList.remove(`btn-outline-${colorClass}`);
-        btn.classList.add(`btn-${colorClass}`);
+    if (targetButtonElement) {
+        targetButtonElement.classList.remove(`btn-outline-${buttonColorClass}`);
+        targetButtonElement.classList.add(`btn-${buttonColorClass}`);
     }
 }
 
 // ==========================================
-// CALCULATION & UPDATES
+// CALCULATION & DROPDOWN UPDATES
 // ==========================================
 
-function loadPreset(type) {
-    const preset = PRESETS[type];
-    if (!preset) return;
+function loadPreset(presetType) {
+    const requestedPreset = SYSTEM_PRESETS[presetType];
+    if (!requestedPreset) return;
 
     isPresetLoading = true; 
-    activatePresetButton(type);
+    activatePresetButton(presetType);
 
-    const mapping = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case'];
+    const componentMappingKeys = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case'];
 
-    mapping.forEach(id => {
-        const select = document.getElementById(id);
-        if (select) {
-            for (let i = 0; i < select.options.length; i++) {
-                if (select.options[i].text.includes(preset[id])) {
-                    select.selectedIndex = i;
-                    update(select); 
+    componentMappingKeys.forEach(domId => {
+        const selectElementNode = document.getElementById(domId);
+        if (selectElementNode) {
+            for (let i = 0; i < selectElementNode.options.length; i++) {
+                if (selectElementNode.options[i].text.includes(requestedPreset[domId])) {
+                    selectElementNode.selectedIndex = i;
+                    updateRow(selectElementNode); 
                     break;
                 }
             }
@@ -198,47 +124,52 @@ function loadPreset(type) {
     isPresetLoading = false; 
 }
 
-function update(select) {
+function updateRow(selectElementNode) {
     if (!isPresetLoading) {
         resetPresetButtons();
     }
 
-    const value = select.value;
-    if (!value.includes(',')) return;
+    const selectedOptionNode = selectElementNode.options[selectElementNode.selectedIndex];
+    if (!selectedOptionNode || selectedOptionNode.disabled) return;
+
+    const rawPriceNumber = parseFloat(selectedOptionNode.value);
+    const formattedPriceString = isNaN(rawPriceNumber) ? "0.00" : rawPriceNumber.toFixed(2);
+
+    const productGuid = selectedOptionNode.getAttribute('data-id');
     
-    const parts = value.split(',');
-    const rawPrice = parseFloat(parts[0]);
-    const formattedPrice = isNaN(rawPrice) ? "0.00" : rawPrice.toFixed(2);
-    const link = parts.slice(1).join(','); 
+    const parentTableRow = selectElementNode.closest('tr');
+    const tableCategoryName = parentTableRow.getAttribute('data-category');
 
-    const row = select.closest('tr');
-    const priceInput = row.querySelector('.price-input');
-    if (priceInput) priceInput.value = formattedPrice;
+    const generatedProductLink = productGuid ? `product.html?category=${encodeURIComponent(tableCategoryName)}&id=${encodeURIComponent(productGuid)}` : '#';
 
-    const linkButton = row.querySelector('a');
-    if (linkButton) linkButton.href = link;
+    const priceInputElement = parentTableRow.querySelector('.price-input');
+    if (priceInputElement) priceInputElement.value = formattedPriceString;
 
-    calcTotal();
+    const detailsButtonElement = parentTableRow.querySelector('a');
+    if (detailsButtonElement) detailsButtonElement.href = generatedProductLink;
+
+    calculateTotalPrice();
 }
 
-function calcTotal() {
-    let sum = 0;
-    document.querySelectorAll("#hardware-table tbody tr").forEach(row => {
-        const priceEl = row.querySelector('.price-input');
-        if(priceEl) {
-            const price = parseFloat(priceEl.value) || 0;
-            sum += price;
+function calculateTotalPrice() {
+    let priceSumTotal = 0;
+    document.querySelectorAll("#hardware-table tbody tr").forEach(tableRow => {
+        const priceField = tableRow.querySelector('.price-input');
+        if(priceField) {
+            const rowPriceAmount = parseFloat(priceField.value) || 0;
+            priceSumTotal += rowPriceAmount;
         }
     });
     
-    const totalEl = document.getElementById("total");
-    if(totalEl) {
-        if(totalEl.parentElement) {
-            totalEl.parentElement.classList.remove('price-update-anim');
-            void totalEl.offsetWidth; 
-            totalEl.parentElement.classList.add('price-update-anim');
+    const totalPriceDisplay = document.getElementById("total");
+    if(totalPriceDisplay) {
+        if(totalPriceDisplay.parentElement) {
+            totalPriceDisplay.parentElement.classList.remove('price-update-anim');
+            // Trigger reflow to restart CSS animation
+            void totalPriceDisplay.offsetWidth; 
+            totalPriceDisplay.parentElement.classList.add('price-update-anim');
         }
-        totalEl.textContent = sum.toFixed(2);
+        totalPriceDisplay.textContent = priceSumTotal.toFixed(2);
     }
 }
 
@@ -246,53 +177,53 @@ function calcTotal() {
 // AI LOGIC (WORKER PROXY)
 // ==========================================
 
-function getSelectedComponents() {
-    let components = [];
-    document.querySelectorAll('#hardware-table tbody tr').forEach(row => {
-        const category = row.getAttribute('data-category');
-        const select = row.querySelector('select');
-        if(select && select.selectedIndex > -1) { 
-            const selectedText = select.options[select.selectedIndex].text;
-            components.push(`- ${category}: ${selectedText}`);
+function getSelectedComponentsList() {
+    let hardwareComponentsList = [];
+    document.querySelectorAll('#hardware-table tbody tr').forEach(tableRow => {
+        const itemCategoryName = tableRow.getAttribute('data-category');
+        const dropdownElement = tableRow.querySelector('select');
+        if(dropdownElement && dropdownElement.selectedIndex > -1) { 
+            const selectedItemText = dropdownElement.options[dropdownElement.selectedIndex].text;
+            hardwareComponentsList.push(`- ${itemCategoryName}: ${selectedItemText}`);
         }
     });
-    return components.join('\n');
+    return hardwareComponentsList.join('\n');
 }
 
-function toggleLoading(show) {
-    const loadingEl = document.getElementById('ai-loading');
-    const resultWrapper = document.getElementById('ai-result-wrapper');
+function toggleAiLoadingState(isVisible) {
+    const loaderElement = document.getElementById('ai-loading');
+    const resultWrapperElement = document.getElementById('ai-result-wrapper');
     
-    if(loadingEl) loadingEl.style.display = show ? 'flex' : 'none';
-    if(resultWrapper) resultWrapper.style.display = show ? 'none' : 'flex'; 
+    if(loaderElement) loaderElement.style.display = isVisible ? 'flex' : 'none';
+    if(resultWrapperElement) resultWrapperElement.style.display = isVisible ? 'none' : 'flex'; 
 }
 
-async function callWorkerAI(prompt) {
+async function callWorkerAIApi(promptString) {
     try {
-        const response = await fetch(WORKER_URL, {
+        const workerNetworkResponse = await fetch(WORKER_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ prompt: prompt })
+            body: JSON.stringify({ prompt: promptString })
         });
 
-        const data = await response.json();
+        const parsedJsonResponse = await workerNetworkResponse.json();
 
-        if (data.candidates && data.candidates[0].content) {
-            return data.candidates[0].content.parts[0].text;
+        if (parsedJsonResponse.candidates && parsedJsonResponse.candidates[0].content) {
+            return parsedJsonResponse.candidates[0].content.parts[0].text;
         } 
         
-        if (data.error) {
-            let errorDetails = data.error;
-            if (typeof data.error === 'object') {
-                errorDetails = data.error.message || JSON.stringify(data.error);
+        if (parsedJsonResponse.error) {
+            let errorDetailsString = parsedJsonResponse.error;
+            if (typeof parsedJsonResponse.error === 'object') {
+                errorDetailsString = parsedJsonResponse.error.message || JSON.stringify(parsedJsonResponse.error);
             }
-            return `KI Fehler: ${errorDetails}`;
+            return `KI Fehler: ${errorDetailsString}`;
         }
         
         return "Die KI konnte keine Antwort generieren.";
-    } catch (error) {
-        console.error("Worker Error:", error);
-        return `Fehler: Die Verbindung zum KI-Server ist fehlgeschlagen. (${error.message})`;
+    } catch (networkError) {
+        console.error("Worker Execution Error:", networkError);
+        return `Fehler: Die Verbindung zum KI-Server ist fehlgeschlagen. (${networkError.message})`;
     }
 }
 
@@ -301,100 +232,95 @@ async function callWorkerAI(prompt) {
 // ==========================================
 
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Hardware Table Initialization
+    // 1. Hardware Table Setup
     if (document.getElementById('hardware-table')) {
         loadPreset('midrange');
-        calcTotal();
+        calculateTotalPrice();
     }
 
-    // 2. Component Browser Initialization (NEW)
-    if (document.getElementById('parts-container')) {
-        loadCategory('GPU'); 
-    }
+    // 2. AI Assistant Triggers
+    const triggerBuildCheck = document.getElementById('btn-check-build');
+    const triggerAskAi = document.getElementById('btn-ask-ai');
+    const aiOutputContainer = document.getElementById('ai-output');
+    const aiQuestionInput = document.getElementById('ai-question-input');
 
-    // 3. AI Assistant Buttons
-    const btnCheck = document.getElementById('btn-check-build');
-    const btnAsk = document.getElementById('btn-ask-ai');
-    const outputBox = document.getElementById('ai-output');
-    const inputField = document.getElementById('ai-question-input');
+    if(triggerBuildCheck) {
+        triggerBuildCheck.addEventListener('click', async () => {
+            const systemComponents = getSelectedComponentsList();
+            const aiPromptText = `Analysiere diese PC-Konfiguration (2026):\n${systemComponents}\nPrüfe kurz Kompatibilität, Flaschenhälse und ob das Netzteil reicht. Antworte in Markdown.`;
 
-    if(btnCheck) {
-        btnCheck.addEventListener('click', async () => {
-            const components = getSelectedComponents();
-            const prompt = `Analysiere diese PC-Konfiguration (2026):\n${components}\nPrüfe kurz Kompatibilität, Flaschenhälse und ob das Netzteil reicht. Antworte in Markdown.`;
-
-            toggleLoading(true);
-            const result = await callWorkerAI(prompt);
-            toggleLoading(false);
+            toggleAiLoadingState(true);
+            const generatedResult = await callWorkerAIApi(aiPromptText);
+            toggleAiLoadingState(false);
             
-            if(outputBox) {
-                outputBox.innerHTML = typeof marked !== 'undefined' ? marked.parse(result) : result;
+            if(aiOutputContainer) {
+                aiOutputContainer.innerHTML = typeof marked !== 'undefined' ? marked.parse(generatedResult) : generatedResult;
             }
         });
     }
 
-    if(btnAsk) {
-        btnAsk.addEventListener('click', async () => {
-            const question = inputField ? inputField.value : "";
-            if(!question) return;
+    if(triggerAskAi) {
+        triggerAskAi.addEventListener('click', async () => {
+            const userCustomQuestion = aiQuestionInput ? aiQuestionInput.value : "";
+            if(!userCustomQuestion) return;
 
-            const components = getSelectedComponents();
-            const prompt = `Aktuelle PC-Konfig:\n${components}\n\nFrage des Nutzers: ${question}\nAntworte kurz und präzise.`;
+            const systemComponents = getSelectedComponentsList();
+            const aiPromptText = `Aktuelle PC-Konfig:\n${systemComponents}\n\nFrage des Nutzers: ${userCustomQuestion}\nAntworte kurz und präzise.`;
 
-            toggleLoading(true);
-            const result = await callWorkerAI(prompt);
-            toggleLoading(false);
+            toggleAiLoadingState(true);
+            const generatedResult = await callWorkerAIApi(aiPromptText);
+            toggleAiLoadingState(false);
             
-            if(outputBox) {
-                outputBox.innerHTML = typeof marked !== 'undefined' ? marked.parse(result) : result;
+            if(aiOutputContainer) {
+                aiOutputContainer.innerHTML = typeof marked !== 'undefined' ? marked.parse(generatedResult) : generatedResult;
             }
         });
     }
 
-    // 4. UI Resizing/Reset
-    const btnResize = document.getElementById('btn-resize-ai');
-    const btnClose = document.getElementById('btn-close-expanded');
+    // 3. Handle Column Resizing
+    const buttonExpandView = document.getElementById('btn-resize-ai');
+    const buttonCollapseView = document.getElementById('btn-close-expanded');
 
-    const toggleExpandedView = () => {
-        const hwCol = document.getElementById('hardware-column');
-        const aiCol = document.getElementById('ai-column');
-        if(!hwCol || !aiCol) return;
+    const toggleColumnLayout = () => {
+        const hardwareSection = document.getElementById('hardware-column');
+        const aiSection = document.getElementById('ai-column');
+        if(!hardwareSection || !aiSection) return;
 
-        const isExpanded = aiCol.classList.contains('col-lg-8');
+        const isViewExpanded = aiSection.classList.contains('col-lg-8');
 
-        if (isExpanded) {
-            hwCol.classList.replace('col-lg-4', 'col-lg-8');
-            aiCol.classList.replace('col-lg-8', 'col-lg-4');
-            if(btnResize) btnResize.style.display = 'inline-block';
-            if(btnClose) btnClose.style.display = 'none';
+        if (isViewExpanded) {
+            hardwareSection.classList.replace('col-lg-4', 'col-lg-8');
+            aiSection.classList.replace('col-lg-8', 'col-lg-4');
+            if(buttonExpandView) buttonExpandView.style.display = 'inline-block';
+            if(buttonCollapseView) buttonCollapseView.style.display = 'none';
         } else {
-            hwCol.classList.replace('col-lg-8', 'col-lg-4');
-            aiCol.classList.replace('col-lg-4', 'col-lg-8');
-            if(btnResize) btnResize.style.display = 'none';
-            if(btnClose) btnClose.style.display = 'inline-block';
+            hardwareSection.classList.replace('col-lg-8', 'col-lg-4');
+            aiSection.classList.replace('col-lg-4', 'col-lg-8');
+            if(buttonExpandView) buttonExpandView.style.display = 'none';
+            if(buttonCollapseView) buttonCollapseView.style.display = 'inline-block';
         }
     };
 
-    if(btnResize) btnResize.addEventListener('click', toggleExpandedView);
-    if(btnClose) btnClose.addEventListener('click', toggleExpandedView);
+    if(buttonExpandView) buttonExpandView.addEventListener('click', toggleColumnLayout);
+    if(buttonCollapseView) buttonCollapseView.addEventListener('click', toggleColumnLayout);
 
-    // 5. Dark Mode Logic
-    const themeToggle = document.getElementById('theme-toggle');
-    const htmlElement = document.documentElement;
+    // 4. Dark Theme Toggle Management
+    const themeToggleButton = document.getElementById('theme-toggle');
+    const rootDocumentElement = document.documentElement;
     
-    const savedTheme = localStorage.getItem('theme');
-    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const previouslyStoredTheme = localStorage.getItem('theme');
+    const systemPrefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
     
-    if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
-        htmlElement.setAttribute('data-theme', 'dark');
+    if (previouslyStoredTheme === 'dark' || (!previouslyStoredTheme && systemPrefersDarkScheme)) {
+        rootDocumentElement.setAttribute('data-theme', 'dark');
     }
 
-    if (themeToggle) {
-        themeToggle.addEventListener('click', () => {
-            const currentTheme = htmlElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            htmlElement.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
+    if (themeToggleButton) {
+        themeToggleButton.addEventListener('click', () => {
+            const currentActiveTheme = rootDocumentElement.getAttribute('data-theme');
+            const targetTheme = currentActiveTheme === 'dark' ? 'light' : 'dark';
+            rootDocumentElement.setAttribute('data-theme', targetTheme);
+            localStorage.setItem('theme', targetTheme);
         });
     }
 });

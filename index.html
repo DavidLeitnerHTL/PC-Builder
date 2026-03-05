@@ -5,19 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PC Builder</title>
   
-  <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <!-- FontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="d-flex flex-column min-vh-100">
 
-  <!-- === HEADER === -->
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent p-0">
@@ -27,11 +21,9 @@
             <span class="fw-bold" style="font-size: 1.8rem; letter-spacing: -0.5px; margin-left: 10px;">PC Builder</span>
           </div>
         </a>
-        
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
-        
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav nav-pills ms-auto gap-2 align-items-center">
             <li class="nav-item">
@@ -54,8 +46,6 @@
                 <i class="fas fa-newspaper me-1"></i>News
               </a>
             </li>
-            
-            <!-- Dark Mode Toggle Button -->
             <li class="nav-item d-flex align-items-center ms-lg-3 mt-2 mt-lg-0">
                 <button id="theme-toggle" class="toggle-btn" aria-label="Toggle Dark Mode">
                     <div class="sun-rays"></div>
@@ -72,10 +62,8 @@
     
     <div class="row align-items-start" id="main-builder-row">
         
-        <!-- Left Column: Hardware Selection -->
         <div class="col-lg-8 transition-col" id="hardware-column">
             
-            <!-- Preset Buttons -->
             <div class="mb-4 d-flex gap-2 justify-content-center justify-content-md-start flex-wrap">
                 <button id="preset-budget" class="btn btn-outline-success fw-bold px-4" onclick="loadPreset('budget')">
                     Budget
@@ -88,7 +76,6 @@
                 </button>
             </div>
 
-            <!-- Hardware Table (Floating Design) -->
             <div class="table-responsive">
               <table class="table mb-4" id="hardware-table">
                 <thead>
@@ -104,135 +91,132 @@
                     <tr data-category="CPU">
                         <td>Prozessor (CPU)</td>
                         <td>
-                            <select id="cpu" class="form-select" onchange="update(this)">
-                                <option value="0,#" disabled selected>Bitte wählen...</option>
-                                <option value="184.99,product.html?category=CPU&name=AMD%20Ryzen%205%209600X">Ryzen 5 9600X</option>
-                                <option value="429.00,product.html?category=CPU&name=AMD%20Ryzen%207%209800X3D">Ryzen 7 9800X3D</option>
-                                <option value="649.00,product.html?category=CPU&name=AMD%20Ryzen%209%209950X3D">Ryzen 9 9950X3D</option>
-                                <option value="150.00,product.html?category=CPU&name=Intel%20Core%20i5-13600K">Intel Core i5-13600K</option>
+                            <select id="cpu" class="form-select" onchange="updateRow(this)">
+                                <option value="0" disabled selected>Bitte wählen...</option>
+                                <option value="129.00" data-id="d879b11a-cc6c-488e-bfa8-9bab0eb1959d">Intel Core i7 6700K</option>
+                                <option value="349.00" data-id="a3f20a4b-2357-4700-afad-9f284e8240d7">Intel Core i9 9900KF</option>
+                                <option value="429.00" data-id="a6fe3c8d-4bf6-49ef-887b-9d53b8c635e8">Intel Core i9 12900</option>
                             </select>
                         </td>
                         <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details</a></td>
                     </tr>
                     
-                    <!-- Kühler -->
-                    <tr data-category="Cooler">
+                    <!-- Cooler -->
+                    <tr data-category="CPUCooler">
                         <td>Kühler</td>
                         <td>
-                            <select id="cooler" class="form-select" onchange="update(this)">
-                                <option value="0,#" disabled selected>Bitte wählen...</option>
-                                <option value="39.90,product.html?category=CPUCooler&name=Thermalright%20Peerless%20Assassin%20120">Thermalright Peerless Assassin</option>
-                                <option value="89.90,product.html?category=CPUCooler&name=be%20quiet!%20Dark%20Rock%20Elite">be quiet! Dark Rock Elite</option>
-                                <option value="109.90,product.html?category=CPUCooler&name=ARCTIC%20Liquid%20Freezer%20III%20360">Liquid Freezer III 360</option>
+                            <select id="cooler" class="form-select" onchange="updateRow(this)">
+                                <option value="0" disabled selected>Bitte wählen...</option>
+                                <option value="79.90" data-id="11c93448-7f1c-4aa4-92fb-bd459b44db71">Noctua NH-U12S</option>
+                                <option value="119.90" data-id="894cad32-2fe6-4334-a31c-22c2b8c68b2c">Fractal Design Celsius+ S28</option>
+                                <option value="149.90" data-id="a31c95d4-3dcc-4148-8ad1-3571d8ff9f2c">MSI MEG CORELIQUID S360</option>
                             </select>
                         </td>
                         <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details</a></td>
                     </tr>
 
-                    <!-- Mainboard -->
+                    <!-- Motherboard -->
                     <tr data-category="Motherboard">
                         <td>Mainboard</td>
                         <td>
-                            <select id="mb" class="form-select" onchange="update(this)">
-                                <option value="0,#" disabled selected>Bitte wählen...</option>
-                                <option value="169.00,product.html?category=Motherboard&name=MSI%20PRO%20B650-P%20WIFI">MSI PRO B650-P WIFI</option>
-                                <option value="249.00,product.html?category=Motherboard&name=ASUS%20ROG%20Strix%20B850-F%20Gaming">ASUS ROG Strix B850</option>
-                                <option value="499.00,product.html?category=Motherboard&name=Gigabyte%20X870E%20AORUS%20MASTER">Gigabyte X870E AORUS</option>
+                            <select id="mb" class="form-select" onchange="updateRow(this)">
+                                <option value="0" disabled selected>Bitte wählen...</option>
+                                <option value="89.00" data-id="a0e60697-919a-4e93-a40f-09071b905424">Asus B365 PRIME</option>
+                                <option value="139.00" data-id="41e9d5e3-7ca1-4a71-9c67-cabea80b4e9b">Gigabyte B860 B860M</option>
+                                <option value="189.00" data-id="42464c95-0c03-403d-b724-2c13e99b466d">ASRock A620 M-HDV/M.2+</option>
                             </select>
                         </td>
                         <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details</a></td>
                     </tr>
 
                     <!-- GPU -->
                     <tr data-category="GPU">
                         <td>Grafikkarte (GPU)</td>
                         <td>
-                            <select id="gpu" class="form-select" onchange="update(this)">
-                                <option value="0,#" disabled selected>Bitte wählen...</option>
-                                <option value="319.00,product.html?category=GPU&name=GeForce%20RTX%205060">RTX 5060</option>
-                                <option value="649.00,product.html?category=GPU&name=GeForce%20RTX%205070">RTX 5070</option>
-                                <option value="1899.00,product.html?category=GPU&name=GeForce%20RTX%205090">RTX 5090</option>
-                                <option value="599.00,product.html?category=GPU&name=Radeon%20RX%208800%20XT">RX 8800 XT</option>
+                            <select id="gpu" class="form-select" onchange="updateRow(this)">
+                                <option value="0" disabled selected>Bitte wählen...</option>
+                                <option value="299.00" data-id="9ccfc45f-801e-4e4e-ba5f-0f3bd5882ce2">GALAX EX GeForce RTX 4060</option>
+                                <option value="449.00" data-id="0aac9572-3861-49a2-a5b9-6bba002f461e">Asus Radeon RX 6750 XT</option>
+                                <option value="1199.00" data-id="145604ae-37e1-4fe8-8683-c62a8811d959">MSI GeForce RTX 4080</option>
                             </select>
                         </td>
                         <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details</a></td>
                     </tr>
 
                     <!-- RAM -->
                     <tr data-category="RAM">
                         <td>Arbeitsspeicher (RAM)</td>
                         <td>
-                            <select id="ram" class="form-select" onchange="update(this)">
-                                <option value="0,#" disabled selected>Bitte wählen...</option>
-                                <option value="109.00,product.html?category=RAM&name=Corsair%20Vengeance%20DDR5-6000%2032GB">Corsair Vengeance 32GB</option>
-                                <option value="139.00,product.html?category=RAM&name=G.Skill%20Trident%20Z5%20DDR5-6400%2032GB">Trident Z5 32GB</option>
-                                <option value="289.00,product.html?category=RAM&name=Corsair%20Dominator%20Titanium%20DDR5-7200%2064GB">Dominator Titanium 64GB</option>
+                            <select id="ram" class="form-select" onchange="updateRow(this)">
+                                <option value="0" disabled selected>Bitte wählen...</option>
+                                <option value="89.00" data-id="d8d3f571-db1c-4721-a430-1ce967be4ffe">TEAMGROUP T-Force 32GB</option>
+                                <option value="129.00" data-id="ef43f620-c0cd-449d-9eca-a24983355c8c">G.Skill Trident Z5 32GB</option>
+                                <option value="149.00" data-id="feaad000-22f5-4f4a-bee4-cc22a80fed04">Corsair Dominator Platinum 32GB</option>
                             </select>
                         </td>
                         <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details</a></td>
                     </tr>
 
                     <!-- SSD -->
-                    <tr data-category="SSD">
+                    <tr data-category="Storage">
                         <td>Speicher (SSD)</td>
                         <td>
-                            <select id="ssd" class="form-select" onchange="update(this)">
-                                <option value="0,#" disabled selected>Bitte wählen...</option>
-                                <option value="69.90,product.html?category=Storage&name=WD_BLACK%20SN770%201TB">WD SN770 1TB</option>
-                                <option value="159.90,product.html?category=Storage&name=Samsung%20990%20PRO%202TB">Samsung 990 Pro 2TB</option>
-                                <option value="329.90,product.html?category=Storage&name=Crucial%20T705%20Gen5%202TB">Crucial T705 2TB</option>
+                            <select id="ssd" class="form-select" onchange="updateRow(this)">
+                                <option value="0" disabled selected>Bitte wählen...</option>
+                                <option value="49.90" data-id="b3ce2082-28fa-49ff-a519-04e6081639aa">Patriot Ignite 480GB</option>
+                                <option value="89.90" data-id="3b87d478-4ea8-4dcd-9f5f-8ff2b43e7a5f">Corsair MP600 GS 1TB</option>
+                                <option value="99.90" data-id="377566ee-ee2d-4869-a071-9df0ca4e0f64">Seagate Game 1TB M.2</option>
                             </select>
                         </td>
                         <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details</a></td>
                     </tr>
 
                     <!-- PSU -->
                     <tr data-category="PSU">
                         <td>Netzteil (PSU)</td>
                         <td>
-                            <select id="psu" class="form-select" onchange="update(this)">
-                                <option value="0,#" disabled selected>Bitte wählen...</option>
-                                <option value="99.90,product.html?category=PSU&name=be%20quiet!%20Pure%20Power%2012%20M%20750W">Pure Power 12 M 750W</option>
-                                <option value="189.90,product.html?category=PSU&name=Seasonic%20Vertex%20GX-1000">Seasonic Vertex GX-1000</option>
-                                <option value="279.90,product.html?category=PSU&name=be%20quiet!%20Dark%20Power%20Pro%2013%201300W">Dark Power Pro 1300W</option>
+                            <select id="psu" class="form-select" onchange="updateRow(this)">
+                                <option value="0" disabled selected>Bitte wählen...</option>
+                                <option value="89.90" data-id="4b1f289b-fe1e-4202-acda-91847dce0a35">Enermax Revolution D.F. 650W</option>
+                                <option value="119.90" data-id="bb3e45f6-1217-401b-bac1-db796a1e7e37">be quiet! Dark Power Pro 10 650W</option>
+                                <option value="159.90" data-id="bd5bf9df-408e-4bf4-b8bf-7f51bdd0d6b2">Silverstone HELA 850R</option>
                             </select>
                         </td>
                         <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details</a></td>
                     </tr>
 
-                    <!-- Gehäuse -->
-                    <tr data-category="Case">
+                    <!-- Case -->
+                    <tr data-category="PCCase">
                         <td>Gehäuse</td>
                         <td>
-                            <select id="case" class="form-select" onchange="update(this)">
-                                <option value="0,#" disabled selected>Bitte wählen...</option>
-                                <option value="109.90,product.html?category=PCCase&name=Endorfy%20Arx%20700%20Air">Endorfy Arx 700</option>
-                                <option value="159.90,product.html?category=PCCase&name=Fractal%20Design%20North%20XL">Fractal North XL</option>
-                                <option value="399.00,product.html?category=PCCase&name=Hyte%20Y70%20Touch">Hyte Y70 Touch</option>
+                            <select id="case" class="form-select" onchange="updateRow(this)">
+                                <option value="0" disabled selected>Bitte wählen...</option>
+                                <option value="59.90" data-id="b9d0e3a0-f53e-4149-83b7-6e81e3f85dc8">Deepcool Tesseract Mid-Tower</option>
+                                <option value="79.90" data-id="c7d9f88a-8b3c-488f-88f0-d8f8059973dc">Zalman Z3 Iceberg</option>
+                                <option value="139.90" data-id="e9df0f73-b2b6-4128-b0be-2577bf9c049c">Thermaltake CTE C700</option>
                             </select>
                         </td>
                         <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
+                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details</a></td>
                     </tr>
                 </tbody>
-                <tfoot>
               </table>
             </div>
+
         </div>
 
-        <!-- Right Column: AI Assistant -->
-        <div class="col-lg-4 transition-col" id="ai-column">
-            <div class="card ai-card mb-4 shadow-sm">
+        <!-- AI Assistant -->
+        <div class="col-lg-4 transition-col mt-4 mt-lg-0" id="ai-column">
+            <div class="card ai-card mb-4 shadow-sm position-sticky" style="top: 20px;">
                 <div class="card-body">
                     <div class="d-flex align-items-center justify-content-between mb-3">
-                        <!-- Cleaner Look: No robot icon -->
                         <h3 class="h5 fw-bold m-0 text-primary">AI Assistant</h3>
                         <span class="ai-badge">Gemini Powered</span>
                     </div>
@@ -254,7 +238,6 @@
                         <button class="btn btn-outline-primary" type="button" id="btn-ask-ai">➤</button>
                     </div>
                     
-                    <!-- Loading Animation Section -->
                     <div id="ai-loading" class="ai-loading">
                         <div class="newtons-cradle">
                             <div class="newtons-cradle__dot"></div>
@@ -265,35 +248,23 @@
                         <span class="fw-bold small text-primary">Gemini analysiert...</span>
                     </div>
 
-                    <!-- Result Section -->
                     <div id="ai-result-wrapper" class="ai-result-wrapper" style="display: none;">
-    <!-- Container using flexbox: align-items-center prevents vertical stretching -->
-    <!-- gap-2 adds space between buttons, me-3 adds space on the right side -->
-    <div class="ai-buttons-container d-flex justify-content-end align-items-center gap-2 mb-3 mt-3 me-3">
-        
-        <!-- px-3 adds space inside the button (left/right), py-2 controls height -->
-        <button id="btn-resize-ai" class="btn btn-outline-secondary px-3 py-2" title="Ansicht vergrößern">
-            <i class="fas fa-expand-arrows-alt"></i>
-        </button>
-        
-        <!-- px-3 adds space inside the button (left/right), py-2 controls height -->
-        <button id="btn-close-expanded" class="btn btn-outline-secondary px-3 py-2" style="display: none;" title="Ansicht zurücksetzen">
-            <i class="fas fa-compress-arrows-alt"></i>
-        </button>
-        
-    </div>
-    
-    <!-- AI Output Box -->
-    <div id="ai-output" class="ai-response-box shadow-sm"></div>
-</div>
-
+                        <div class="ai-buttons-container d-flex justify-content-end align-items-center gap-2 mb-3 mt-3 me-3">
+                            <button id="btn-resize-ai" class="btn btn-outline-secondary px-3 py-2" title="Ansicht vergrößern">
+                                <i class="fas fa-expand-arrows-alt"></i>
+                            </button>
+                            <button id="btn-close-expanded" class="btn btn-outline-secondary px-3 py-2" style="display: none;" title="Ansicht zurücksetzen">
+                                <i class="fas fa-compress-arrows-alt"></i>
+                            </button>
+                        </div>
+                        <div id="ai-output" class="ai-response-box shadow-sm"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
   </main>
 
-  <!-- === FOOTER === -->
   <footer class="bg-dark text-light mt-auto pt-5 pb-3">
     <div class="container">
       <div class="row">
@@ -312,11 +283,9 @@
         </div>
       </div>
     </div>
-    <!-- Adjusted spacer to prevent sticky bar overlap -->
     <div style="height: 80px;"></div>
   </footer>
 
-  <!-- Sticky Footer Price Bar -->
   <div class="sticky-price-bar">
     <div class="container d-flex justify-content-between align-items-center">
       <div>
@@ -329,10 +298,8 @@
     </div>
   </div>
 
-  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  
   <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
