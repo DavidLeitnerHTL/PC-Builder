@@ -46,9 +46,8 @@ jobs:
           # Delete the raw files so they are NOT committed to GitHub
           rm -rf raw_hardware_data/
           
-          # Create a subfolder for the processed data and move the files safely
-          mkdir -p processed_data
-          find . -maxdepth 1 -name "*.json" -type f -mmin -5 -exec mv {} processed_data/ \;
+          # HINWEIS: Der alte "find" und "mv" Befehl wurde hier entfernt, 
+          # da das Python-Skript die Daten bereits direkt in den richtigen Ordner speichert!
           
       - name: Commit and push changes
         run: |
@@ -56,8 +55,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # FIX: Add the new folder containing all category json files
-          git add processed_data/
+          # WICHTIG: Das '-A' (All) sorgt dafür, dass Git auch LÖSCHUNGEN erkennt!
+          git add -A processed_data/
           
           # Only commit and push if there are actual changes
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update hardware categories [skip ci]" && git push)

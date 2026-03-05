@@ -1,5 +1,6 @@
 import json
 import os
+import shutil
 
 # ==========================================
 # GLOBAL CONFIGURATION
@@ -156,6 +157,10 @@ def process_hardware_data():
     if not os.path.exists(INPUT_FOLDER):
         print(f"Error: Folder '{INPUT_FOLDER}' not found.")
         return
+        
+    # Wipe the old processed_data folder completely if it exists to clean out removed categories
+    if os.path.exists(OUTPUT_FOLDER):
+        shutil.rmtree(OUTPUT_FOLDER)
         
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
     print(f"Scanning categories in '{INPUT_FOLDER}'...")
