@@ -5,23 +5,19 @@ import os
 # GLOBAL CONFIGURATION
 # ==========================================
 
-# Define the source directory containing the raw JSON files 
-# and the target directory where our clean files will be saved.
 INPUT_FOLDER = "raw_hardware_data"
 OUTPUT_FOLDER = "processed_data"
 
-# This dictionary maps the original folder names from the raw data 
-# to the exact, clean JSON filenames our website's frontend expects.
-# Example: Data found in "cpus" will be saved as "CPU.json".
+# Updated Mapping: Matches the exact folder names from your GitHub Actions log
 CATEGORY_MAPPING = {
-    "cpus": "CPU",
-    "gpus": "GPU",
-    "motherboards": "Motherboard",
-    "memory": "RAM",
-    "storage": "Storage",
-    "power_supplies": "PSU",
-    "cases": "PCCase",
-    "cpu_coolers": "CPUCooler"
+    "CPU": "CPU",
+    "GPU": "GPU",
+    "Motherboard": "Motherboard",
+    "RAM": "RAM",
+    "Storage": "Storage",
+    "PSU": "PSU",
+    "PCCase": "PCCase",
+    "CPUCooler": "CPUCooler"
 }
 
 # ==========================================
@@ -31,19 +27,13 @@ CATEGORY_MAPPING = {
 def is_modern_desktop_cpu(name, socket):
     """
     Checks if a given CPU is relevant for modern PC building.
-    It filters out server processors (like Xeon or EPYC) and very old 
-    architectures (like Core 2 Duo or Pentium) to keep the database clean.
-    
-    Returns: 
-        True if the CPU is a modern desktop processor, False otherwise.
+    Filters out server processors (Xeon, EPYC) and very old architectures.
     """
-    # If the CPU has no name, we cannot process it safely.
     if not name:
         return False
         
     name_lower = name.lower()
     
-    # 1. Exclude known server and obsolete model lines
     excluded_terms = [
         "xeon", "epyc", "threadripper", "pentium", "celeron", 
         "athlon", "fx-", "core 2", "opteron"
@@ -53,17 +43,13 @@ def is_modern_desktop_cpu(name, socket):
         if term in name_lower:
             return False
             
-    # 2. Check if the socket is a modern, mainstream desktop socket
     if socket:
         socket_lower = socket.lower()
         modern_sockets = ["am4", "am5", "lga1700", "lga1851", "lga1200", "lga1151"]
-        
         for modern_socket in modern_sockets:
             if modern_socket in socket_lower:
                 return True
                 
-    # 3. Fallback check: If the socket is missing but the name contains 
-    # modern branding (Ryzen, Core i, Core Ultra), we keep it.
     if "ryzen" in name_lower or "core i" in name_lower or "core ultra" in name_lower:
         return True
         
@@ -71,8 +57,7 @@ def is_modern_desktop_cpu(name, socket):
 
 def extract_basic_info(raw_data):
     """
-    Extracts the general information that every hardware component shares,
-    regardless of whether it's a CPU, GPU, or RAM.
+    Extracts the general information that every hardware component shares.
     """
     return {
         "id": raw_data.get("opendb_id", ""),
@@ -83,23 +68,15 @@ def extract_basic_info(raw_data):
 
 def add_category_specific_specs(raw_category, raw_data, item_data):
     """
-    Extracts deep, technical specifications based on what kind of hardware it is.
-    It updates the 'item_data' dictionary with these specific details.
-    
-    Returns:
-        True if the item should be kept, False if it should be skipped 
-        (e.g., if it's an old CPU that didn't pass our filter).
+    Extracts deep, technical specifications based on the hardware type.
+    Updated to match the new uppercase category names.
     """
-    # Technical specs are sometimes nested inside a "specifications" key.
-    # We provide an empty dictionary {} as a fallback to prevent errors.
     specs = raw_data.get("specifications", {})
     
     # --- CPU SPECIFICATIONS ---
-    if raw_category == "cpus":
-        # Socket information can be in the main body or inside specifications
+    if raw_category == "CPU":
         socket = raw_data.get("socket") or specs.get("socket")
         
-        # Apply our custom filter. If it's not a modern desktop CPU, skip it entirely.
         if not is_modern_desktop_cpu(item_data["name"], socket):
             return False 
             
@@ -111,13 +88,12 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         item_data["boost_clock"] = specs.get("boost_clock")
         item_data["integrated_graphics"] = specs.get("integrated_graphics")
         
-        # Extract RAM support (e.g., DDR4 or DDR5)
         memory_specs = specs.get("memory", {})
         if "types" in memory_specs and memory_specs["types"]:
             item_data["ram_type"] = memory_specs["types"][0]
             
     # --- GPU SPECIFICATIONS ---
-    elif raw_category == "gpus":
+    elif raw_category == "GPU":
         item_data["chipset"] = raw_data.get("chipset") or specs.get("chipset")
         item_data["vram"] = specs.get("memory")
         item_data["core_clock"] = specs.get("core_clock")
@@ -126,7 +102,7 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         item_data["tdp"] = specs.get("tdp")
         
     # --- MOTHERBOARD SPECIFICATIONS ---
-    elif raw_category == "motherboards":
+    elif raw_category == "Motherboard":
         item_data["socket"] = raw_data.get("socket") or specs.get("socket")
         item_data["form_factor"] = raw_data.get("form_factor") or specs.get("form_factor")
         item_data["memory_slots"] = specs.get("memory_slots")
@@ -135,14 +111,14 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         item_data["chipset"] = specs.get("chipset")
         
     # --- RAM (MEMORY) SPECIFICATIONS ---
-    elif raw_category == "memory":
+    elif raw_category == "RAM":
         item_data["speed"] = specs.get("speed")
         item_data["modules"] = specs.get("modules")
         item_data["cas_latency"] = specs.get("cas_latency")
         item_data["color"] = specs.get("color")
         
     # --- STORAGE (SSD/HDD) SPECIFICATIONS ---
-    elif raw_category == "storage":
+    elif raw_category == "Storage":
         item_data["capacity"] = specs.get("capacity")
         item_data["type"] = specs.get("type")
         item_data["form_factor"] = specs.get("form_factor")
@@ -150,28 +126,26 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         item_data["nvme"] = specs.get("nvme")
         
     # --- POWER SUPPLY (PSU) SPECIFICATIONS ---
-    elif raw_category == "power_supplies":
+    elif raw_category == "PSU":
         item_data["wattage"] = specs.get("wattage")
         item_data["efficiency"] = specs.get("efficiency_rating")
         item_data["modular"] = specs.get("modular")
         item_data["form_factor"] = specs.get("type")
         
     # --- PC CASE SPECIFICATIONS ---
-    elif raw_category == "cases":
+    elif raw_category == "PCCase":
         item_data["type"] = specs.get("type")
         item_data["color"] = specs.get("color")
         item_data["motherboard_support"] = specs.get("motherboard_form_factor")
         item_data["max_gpu_length"] = specs.get("maximum_video_card_length")
         
     # --- CPU COOLER SPECIFICATIONS ---
-    elif raw_category == "cpu_coolers":
-        # 'water_cooled' usually holds radiator size (e.g., "360mm"). If missing, it's an air cooler.
+    elif raw_category == "CPUCooler":
         item_data["cooler_type"] = specs.get("water_cooled") 
         item_data["fan_rpm"] = specs.get("fan_rpm")
         item_data["noise_level"] = specs.get("noise_level")
         item_data["color"] = specs.get("color")
 
-    # If the item passed all filters, return True so it gets added to the final list
     return True
 
 # ==========================================
@@ -179,26 +153,17 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
 # ==========================================
 
 def process_hardware_data():
-    """
-    The main function that orchestrates the data processing.
-    It reads the raw files, cleans the data using the helper functions, 
-    and writes the results into neatly formatted JSON files.
-    """
-    # 1. Check if the raw data folder exists before trying to read from it
     if not os.path.exists(INPUT_FOLDER):
         print(f"Error: Folder '{INPUT_FOLDER}' not found.")
         return
         
-    # 2. Create the output folder if it doesn't already exist
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
-        
     print(f"Scanning categories in '{INPUT_FOLDER}'...")
     
-    # 3. Loop through every subfolder inside the raw data directory
     for raw_category in os.listdir(INPUT_FOLDER):
         category_path = os.path.join(INPUT_FOLDER, raw_category)
         
-        # Skip files (we only want directories) and skip categories we don't need (like webcams)
+        # Check if the folder name is exactly in our CATEGORY_MAPPING
         if not os.path.isdir(category_path) or raw_category not in CATEGORY_MAPPING:
             if os.path.isdir(category_path):
                 print(f"Skipping irrelevant category folder: {raw_category}")
@@ -208,43 +173,29 @@ def process_hardware_data():
         target_filename = CATEGORY_MAPPING[raw_category]
         print(f"Processing category: {raw_category} -> Building {target_filename}.json ...")
         
-        # 4. Loop through every JSON file within the valid category folder
         for filename in os.listdir(category_path):
             if filename.endswith(".json"):
                 file_path = os.path.join(category_path, filename)
                 
                 try:
-                    # Open and load the raw JSON file
                     with open(file_path, 'r', encoding='utf-8') as file:
                         raw_data = json.load(file)
                         
-                    # Extract basic information (id, name, etc.)
                     item_data = extract_basic_info(raw_data)
-                    
-                    # Extract detailed specs. 
-                    # If this returns False, it means the item was filtered out (e.g., old CPU).
                     should_keep_item = add_category_specific_specs(raw_category, raw_data, item_data)
                     
-                    # 5. Clean up the data and save it
                     if should_keep_item and item_data.get("name"):
-                        # Remove any keys where the value is None to save file size and keep it clean
                         clean_item = {key: value for key, value in item_data.items() if value is not None}
                         processed_items.append(clean_item)
 
                 except Exception as error:
-                    # If a single file fails, print an error but continue with the next file
                     print(f"Failed to process {filename}: {error}")
 
-        # 6. Once all files in the folder are processed, write the final JSON list to the disk
         if processed_items:
             output_file = os.path.join(OUTPUT_FOLDER, f"{target_filename}.json")
-            
             with open(output_file, 'w', encoding='utf-8') as output:
-                # indent=4 makes the JSON easily readable for humans
                 json.dump(processed_items, output, indent=4, ensure_ascii=False)
-                
             print(f"Success! Created {output_file} with {len(processed_items)} items.\n")
 
-# Start the script if it is run directly
 if __name__ == "__main__":
     process_hardware_data()
