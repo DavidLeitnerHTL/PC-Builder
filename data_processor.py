@@ -79,7 +79,7 @@ def extract_specs_and_clean_name(name, category):
     clean_name = name
     extracted_specs = {}
 
-    def extract(pattern, spec_key):
+    def extract(pattern, spec_key=None):
         nonlocal clean_name, extracted_specs
         # Find all matching patterns (case-insensitive)
         matches = re.findall(pattern, clean_name, flags=re.IGNORECASE)
@@ -92,35 +92,62 @@ def extract_specs_and_clean_name(name, category):
                 # Remove the extracted part from the clean_name
                 clean_name = re.sub(re.escape(match), '', clean_name, flags=re.IGNORECASE)
             
-            # Combine multiple matches if they exist, or just set the string
-            if spec_key in extracted_specs:
-                extracted_specs[spec_key] += ", " + ", ".join(clean_matches)
-            else:
-                extracted_specs[spec_key] = ", ".join(clean_matches)
+            # If a spec_key is provided, store it (otherwise we just delete the text)
+            if spec_key:
+                if spec_key in extracted_specs:
+                    extracted_specs[spec_key] += ", " + ", ".join(clean_matches)
+                else:
+                    extracted_specs[spec_key] = ", ".join(clean_matches)
 
-    # Apply extraction rules and map them to logical table keys
+    # Apply extraction rules based on category
     if category == "CPU":
         extract(r'\d+(?:\.\d+)?\s*GHz', 'clock_speed')
         extract(r'\d+-Core', 'cores')
         extract(r'LGA\s*\d+|AM[45]', 'socket')
+        extract(r'Desktop Processor|Processor', None) # Just remove
+        
     elif category == "CPUCooler":
         extract(r'\d{2,3}\s*mm', 'radiator_size')
+        extract(r'Liquid CPU Cooler|CPU Cooler|Air Cooler', None) # Just remove
+        
     elif category == "Motherboard":
         extract(r'DDR[45]', 'memory_type')
         extract(r'EATX|Micro[\s-]*ATX|Mini[\s-]*ITX|ATX', 'form_factor')
         extract(r'LGA\s*\d+|AM[45]', 'socket')
+        extract(r'Motherboard|Mainboard', None) # Just remove
+        
     elif category == "GPU":
         extract(r'\d+\s*GB', 'vram')
+        extract(r'Video Card|Graphics Card', None) # Just remove
+        
     elif category == "RAM":
         extract(r'DDR[45](?:-\d+)?', 'ram_type')
+        extract(r'\(\s*\d+\s*x\s*\d+\s*GB\s*\)', 'modules_config')
+        extract(r'\d+\s*GB', 'capacity')
+        extract(r'CL\s*\d+', 'cas_latency')
+        extract(r'Desktop Memory|Memory', None) # Just remove
+        
     elif category == "Storage":
         extract(r'SSD|HDD|NVMe|M\.2', 'storage_type')
+        extract(r'\d+(?:\.\d+)?\s*(?:TB|GB)', 'capacity')
+        extract(r'PCIe\s*\d(?:\.\d)?\s*(?:X\d)?|Gen\s*\d', 'interface')
+        extract(r'Internal Solid State Drive|Solid State Drive', None) # Just remove
+        
+    elif category == "PSU":
+        extract(r'\d+\s*W', 'wattage')
+        extract(r'80\s*(?:\+|-|Plus)?\s*(?:Titanium|Platinum|Gold|Silver|Bronze|White)?', 'efficiency')
+        extract(r'(?:Fully|Semi|Non)?[\s-]*Modular', 'modularity')
+        extract(r'ATX|SFX-L|SFX', 'form_factor')
+        extract(r'Power Supply|Certified', None) # Just remove
+        
     elif category == "PCCase":
         extract(r'EATX|Micro[\s-]*ATX|Mini[\s-]*ITX|ATX', 'motherboard_support')
         extract(r'Mid[\s-]*Tower|Full[\s-]*Tower', 'case_type')
+        extract(r'Case|Chassis', None) # Just remove
 
-    # Cleanup: remove empty brackets, multiple spaces, and trailing hyphens/commas
+    # Aggressive Cleanup: remove empty brackets, multiple spaces, and trailing hyphens/commas
     clean_name = re.sub(r'\(\s*\)', '', clean_name)
+    clean_name = re.sub(r'\[\s*\]', '', clean_name)
     clean_name = re.sub(r'\s{2,}', ' ', clean_name)
     clean_name = re.sub(r'[-\s,]+$', '', clean_name)
     clean_name = clean_name.strip()
@@ -137,7 +164,6 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
     if raw_category == "CPU":
         socket = raw_data.get("socket") or specs.get("socket")
         
-        # We need to pass the original full name for the desktop CPU check
         if not is_modern_desktop_cpu(item_data["name"], socket):
             return False 
             
@@ -218,7 +244,6 @@ def process_hardware_data():
         print(f"Error: Folder '{INPUT_FOLDER}' not found.")
         return
         
-    # Wipe the old processed_data folder completely if it exists to clean out removed categories
     if os.path.exists(OUTPUT_FOLDER):
         shutil.rmtree(OUTPUT_FOLDER)
         
@@ -228,10 +253,7 @@ def process_hardware_data():
     for raw_category in os.listdir(INPUT_FOLDER):
         category_path = os.path.join(INPUT_FOLDER, raw_category)
         
-        # Check if the folder name is exactly in our CATEGORY_MAPPING
         if not os.path.isdir(category_path) or raw_category not in CATEGORY_MAPPING:
-            if os.path.isdir(category_path):
-                print(f"Skipping irrelevant category folder: {raw_category}")
             continue
             
         processed_items = []
@@ -246,19 +268,14 @@ def process_hardware_data():
                     with open(file_path, 'r', encoding='utf-8') as file:
                         raw_data = json.load(file)
                         
-                    # Extract basic information
                     item_data = extract_basic_info(raw_data)
                     
-                    # Extract clean name and map regex finds to specific dictionary keys
                     original_name = item_data.get("name", "")
                     clean_name, extracted_specs = extract_specs_and_clean_name(original_name, raw_category)
                     item_data["clean_name"] = clean_name
                         
-                    # Extract deep JSON specifications
                     should_keep_item = add_category_specific_specs(raw_category, raw_data, item_data)
                     
-                    # Merge our manually extracted specs into the item_data
-                    # We only add them if the JSON file didn't already provide this exact key
                     for key, val in extracted_specs.items():
                         if not item_data.get(key):
                             item_data[key] = val
