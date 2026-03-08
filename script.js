@@ -195,8 +195,8 @@ async function initializeDropdowns() {
                 data.forEach(product => {
                     const option = document.createElement('option');
                     const price = product.price || 0;
-                    // Format: price,link
-                    option.value = `${price},product.html?category=${encodeURIComponent(category)}&name=${encodeURIComponent(product.name)}`;
+                    // Format changed to use '|' separator instead of ',' to prevent Tom Select from splitting URLs
+                    option.value = `${price}|product.html?category=${encodeURIComponent(category)}&name=${encodeURIComponent(product.name)}`;
                     option.textContent = `${product.name} (${price} €)`;
                     selectEl.appendChild(option);
                 });
@@ -264,21 +264,28 @@ function update(select) {
     const priceInput = row.querySelector('.price-input');
     const linkButton = row.querySelector('a');
 
-    // Prevent errors if user clears the search field completely
-    if (!value || !value.includes(',')) {
+    // Prevent errors if user clears the search field completely or value doesn't contain the '|' separator
+    if (!value || !value.includes('|')) {
          if (priceInput) priceInput.value = "0.00";
-         if (linkButton) linkButton.href = "#";
+         if (linkButton) {
+             linkButton.removeAttribute('href'); // Remove the link so it doesn't try to open a broken page
+             linkButton.onclick = (e) => e.preventDefault(); // Prevent accidental clicks
+         }
          calcTotal();
          return;
     }
     
-    const parts = value.split(',');
+    // Split by our new safe '|' separator
+    const parts = value.split('|');
     const rawPrice = parseFloat(parts[0]);
     const formattedPrice = isNaN(rawPrice) ? "0.00" : rawPrice.toFixed(2);
-    const link = parts.slice(1).join(','); 
+    const link = parts.slice(1).join('|'); 
 
     if (priceInput) priceInput.value = formattedPrice;
-    if (linkButton) linkButton.href = link;
+    if (linkButton) {
+        linkButton.href = link;
+        linkButton.onclick = null; // Re-enable clicks
+    }
 
     calcTotal();
 }
@@ -314,7 +321,7 @@ function getSelectedComponents() {
         const category = row.getAttribute('data-category');
         const select = row.querySelector('select');
         
-        // Ensure TomSelect instance value is read
+        // Ensure TomSelect instance value is read safely
         const tsInstance = tomSelectInstances[select.id];
         if(tsInstance && tsInstance.getValue()) {
             const optionText = tsInstance.options[tsInstance.getValue()].text;
@@ -368,7 +375,6 @@ async function callWorkerAI(prompt) {
 document.addEventListener('DOMContentLoaded', async () => {
     // 1. Hardware Table Initialization
     if (document.getElementById('hardware-table')) {
-        // Zuerst alle Dropdowns laden, dann das Preset anwenden!
         await initializeDropdowns();
         loadPreset('midrange');
         calcTotal();
