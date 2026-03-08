@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html lang="de" data-theme="dark">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produktinfo | PC Builder</title>
+    
+    <!-- Sync theme immediately to prevent flashing -->
+    <script>
+        const savedTheme = localStorage.getItem('theme');
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+    </script>
+
     <!-- Include the main stylesheet -->
     <link rel="stylesheet" href="style.css"> 
     <style>
         /* Specific styling for the product page */
         body {
-            background-color: var(--bg-color, #121212);
-            color: var(--text-color, #e0e0e0);
-            font-family: Arial, sans-serif;
+            background-color: var(--bg-body, #121212);
+            color: var(--text-primary, #e0e0e0);
+            font-family: 'Inter', Arial, sans-serif;
             margin: 0;
             padding: 20px;
         }
@@ -19,27 +31,35 @@
         .product-container {
             max-width: 800px;
             margin: 40px auto;
-            background-color: var(--card-bg, #1e1e2e);
+            background-color: var(--bg-card, #1e1e2e);
             border-radius: 12px;
             padding: 30px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            border: 1px solid var(--border-color, #333);
+        }
+
+        /* Top Bar for Navigation and Theme Toggle */
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
         }
 
         .back-link {
             display: inline-block;
-            margin-bottom: 20px;
-            color: #4da6ff;
+            color: var(--accent-color, #4da6ff);
             text-decoration: none;
             font-weight: bold;
-            transition: color 0.2s;
+            transition: opacity 0.2s;
         }
 
         .back-link:hover {
-            color: #1a8cff;
+            opacity: 0.8;
         }
 
         .product-header {
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid var(--border-color, #333);
             padding-bottom: 20px;
             margin-bottom: 20px;
         }
@@ -51,6 +71,29 @@
             margin-bottom: 20px;
             display: none; /* Only show if image is available */
         }
+        
+        #product-name {
+            margin-bottom: 5px;
+        }
+
+        /* Styling for the tags loaded from JSON */
+        .product-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .tech-tag {
+            background-color: var(--hover-bg, #2a2a3f);
+            color: var(--accent-color, #4da6ff);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid var(--border-color, #444);
+        }
 
         .spec-table {
             width: 100%;
@@ -60,13 +103,13 @@
 
         .spec-table th, .spec-table td {
             padding: 12px;
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid var(--border-color, #333);
             text-align: left;
         }
 
         .spec-table th {
             width: 40%;
-            color: #888;
+            color: var(--text-secondary, #888);
             font-weight: normal;
             text-transform: capitalize;
         }
@@ -83,7 +126,7 @@
         .amazon-section h3 {
             margin-top: 0;
             margin-bottom: 15px;
-            color: #fff;
+            color: var(--text-primary, #fff);
         }
 
         .amazon-btn {
@@ -104,14 +147,22 @@
         #loading-text {
             text-align: center;
             font-size: 1.2rem;
-            color: #aaa;
+            color: var(--text-secondary, #aaa);
         }
     </style>
 </head>
 <body>
 
     <div class="product-container">
-        <a href="index.html" class="back-link">&larr; Zurück zur Übersicht</a>
+        <!-- Top Navigation and Theme Toggle -->
+        <div class="top-bar">
+            <a href="index.html" class="back-link">&larr; Zurück zur Übersicht</a>
+            
+            <button id="theme-toggle" class="toggle-btn" aria-label="Toggle Dark Mode">
+                <div class="sun-rays"></div>
+                <div class="main-circle"></div>
+            </button>
+        </div>
         
         <div id="loading-text">Produktdaten werden geladen...</div>
 
@@ -119,7 +170,11 @@
             <div class="product-header">
                 <img id="product-img" class="product-image" src="" alt="">
                 <h1 id="product-name">Produktname</h1>
-                <h2 id="product-price" style="color: #4da6ff;">Preis</h2>
+                
+                <!-- Container for tags loaded from Data Processor -->
+                <div id="product-tags" class="product-tags"></div>
+                
+                <h2 id="product-price" style="color: var(--accent-color, #4da6ff);">Preis</h2>
             </div>
 
             <h3>Spezifikationen</h3>
@@ -127,7 +182,7 @@
                 <!-- Specs injected via JS here -->
             </table>
 
-            <!-- Amazon link section -->
+            <!-- Amazon link section showing the full original name -->
             <div class="amazon-section">
                 <h3 id="amazon-product-name">Ganzer Produktname</h3>
                 <a id="amazon-link" href="#" target="_blank" rel="noopener noreferrer" class="amazon-btn">
@@ -138,7 +193,19 @@
     </div>
 
     <script>
-        // Function to cleanly format JSON keys (e.g., "core_clock" -> "Core Clock")
+        // Theme Toggle Logic for Product Page
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const htmlElement = document.documentElement;
+                const currentTheme = htmlElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                htmlElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+            });
+        }
+
+        // Cleanly format JSON keys (e.g., "core_clock" -> "Core Clock")
         const formatKey = (key) => {
             return key.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
         };
@@ -159,30 +226,42 @@
                     return response.json();
                 })
                 .then(data => {
-                    // Find product in the JSON array based on exact name match
+                    // Find product in the JSON array based on exact original name match
                     const product = data.find(p => p.name === productName);
 
                     if (product) {
                         loadingText.style.display = 'none';
                         productContent.style.display = 'block';
 
-                        // Populate basic info
-                        document.getElementById('product-name').textContent = product.name;
+                        // Display clean_name if Data Processor provided it, fallback to regular name
+                        const displayName = product.clean_name || product.name;
+                        document.getElementById('product-name').textContent = displayName;
                         document.getElementById('product-price').textContent = product.price ? `${product.price} €` : 'Preis derzeit unbekannt';
+
+                        // Insert tags provided by Data Processor
+                        const tagsContainer = document.getElementById('product-tags');
+                        if (product.tags && Array.isArray(product.tags)) {
+                            product.tags.forEach(tagText => {
+                                const span = document.createElement('span');
+                                span.className = 'tech-tag';
+                                span.textContent = tagText;
+                                tagsContainer.appendChild(span);
+                            });
+                        }
 
                         // Show image if available
                         if (product.image) {
                             const imgEl = document.getElementById('product-img');
                             imgEl.src = product.image;
-                            imgEl.alt = product.name;
+                            imgEl.alt = displayName;
                             imgEl.style.display = 'block';
                         }
 
                         // Populate specs table
                         const table = document.getElementById('spec-table');
                         for (const [key, value] of Object.entries(product)) {
-                            // Ignore base keys and amazon_sku to avoid them in the table
-                            if (['name', 'price', 'id', 'image', 'link', 'amazon_sku'].includes(key.toLowerCase())) continue;
+                            // Ignore base keys, clean_name, tags, and amazon_sku
+                            if (['name', 'clean_name', 'tags', 'price', 'id', 'image', 'link', 'amazon_sku'].includes(key.toLowerCase())) continue;
                             
                             // Ignore empty values
                             if (value === null || value === "" || value === "N/A") continue;
@@ -200,13 +279,13 @@
                             table.appendChild(row);
                         }
 
-                        // Set full name and dynamic Amazon Link at the end
+                        // Set FULL original name for Amazon display and search link
                         document.getElementById('amazon-product-name').textContent = product.name;
                         
                         // Default fallback: Search Amazon for the full product name
                         let amazonUrl = `https://www.amazon.de/s?k=${encodeURIComponent(product.name)}`;
                         
-                        // If the JSON contains an amazon_sku (like "B07MGBZWDZ"), build a direct link
+                        // If the JSON contains an amazon_sku, build a direct link
                         if (product.amazon_sku) {
                             amazonUrl = `https://www.amazon.de/dp/${product.amazon_sku}`;
                         }
