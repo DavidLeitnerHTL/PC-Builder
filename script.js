@@ -1,7 +1,8 @@
 /**
  * PC Builder 2026 - Main Script
  * Handles hardware configuration, price calculation, 
- * dark mode, and AI assistant via Cloudflare Worker Proxy.
+ * dark mode, AI assistant via Cloudflare Worker Proxy,
+ * and dynamic component browsing.
  */
 
 // ==========================================
@@ -9,114 +10,241 @@
 // ==========================================
 const WORKER_URL = "https://gemini-proxy.builder-htl.workers.dev";
 
-// Prevents button UI flickering during preset loading
+// Flag to check if a preset is currently loading (prevents button flickering)
 let isPresetLoading = false;
 
+// Global state for the dynamic component browser
+let currentCategory = 'GPU';
+
+// Store Tom Select instances
+const tomSelectInstances = {};
+
 /**
- * SYSTEM PRESETS 
- * Aligned with actual JSON dataset
+ * PRESETS (Hardware Selection for 2026)
  */
-const SYSTEM_PRESETS = {
+const PRESETS = {
     budget: {
-        cpu: "Intel Core i7 6700K",
-        cooler: "Noctua NH-U12S",
-        mb: "Asus B365 PRIME",
-        gpu: "RTX 4060",  
-        ram: "TEAMGROUP T-Force",
-        ssd: "Patriot Ignite",
-        psu: "Enermax Revolution",
-        case: "Deepcool Tesseract"
+        cpu: "Ryzen 5 9600X",
+        cooler: "Peerless Assassin",
+        mb: "MSI PRO B650",
+        gpu: "RTX 5060",  
+        ram: "Vengeance",
+        ssd: "SN770",
+        psu: "Pure Power 12 M",
+        case: "Arx 700"
     },
     midrange: {
-        cpu: "Intel Core i9 9900KF",
-        cooler: "Fractal Design Celsius",
-        mb: "Gigabyte B860",
-        gpu: "RX 6750 XT",
-        ram: "G.Skill Trident",
-        ssd: "Corsair MP600",
-        psu: "be quiet! Dark Power",
-        case: "Zalman Z3"
+        cpu: "Ryzen 7 9800X3D",
+        cooler: "Dark Rock Elite",
+        mb: "B850",
+        gpu: "RTX 5070",
+        ram: "Trident Z5",
+        ssd: "990 Pro",
+        psu: "Vertex GX-1000",
+        case: "North XL"
     },
     highend: {
-        cpu: "Intel Core i9 12900",
-        cooler: "MSI MEG",
-        mb: "ASRock A620",
-        gpu: "RTX 4080", 
-        ram: "Corsair Dominator",
-        ssd: "Seagate Game 1TB",
-        psu: "Silverstone HELA",
-        case: "Thermaltake CTE"
+        cpu: "Ryzen 9 9950X3D",
+        cooler: "Liquid Freezer III",
+        mb: "X870E",
+        gpu: "RTX 5090", 
+        ram: "Dominator Titanium",
+        ssd: "T705",
+        psu: "Dark Power Pro",
+        case: "Hyte Y70"
     }
 };
+
+// ==========================================
+// COMPONENT BROWSER LOGIC
+// ==========================================
+
+async function fetchCategoryData(category) {
+    try {
+        const response = await fetch(`processed_data/${category}.json`);
+        if (!response.ok) {
+            throw new Error(`Failed to load ${category}.json - Status: ${response.status}`);
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(`Error fetching data for ${category}:`, error);
+        return [];
+    }
+}
+
+function renderProducts(products, category) {
+    const container = document.getElementById('parts-container'); 
+    
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    products.forEach(part => {
+        const partDiv = document.createElement('div');
+        partDiv.className = 'part-card';
+
+        if (part.image) {
+            const img = document.createElement('img');
+            img.src = part.image;
+            img.alt = part.name;
+            img.className = 'part-image';
+            partDiv.appendChild(img);
+        }
+
+        const nameElement = document.createElement('h3');
+        nameElement.textContent = part.name;
+        nameElement.className = 'part-name';
+        partDiv.appendChild(nameElement);
+
+        const priceElement = document.createElement('p');
+        priceElement.textContent = part.price ? `${part.price} €` : 'Preis unbekannt';
+        priceElement.className = 'part-price';
+        partDiv.appendChild(priceElement);
+
+        const infoBtn = document.createElement('a');
+        infoBtn.href = `product.html?category=${encodeURIComponent(category)}&name=${encodeURIComponent(part.name)}`;
+        infoBtn.textContent = 'Info';
+        infoBtn.className = 'buy-btn'; 
+        
+        partDiv.appendChild(infoBtn);
+        container.appendChild(partDiv);
+    });
+}
+
+async function loadCategory(category) {
+    currentCategory = category;
+    const products = await fetchCategoryData(category);
+    renderProducts(products, category);
+}
 
 // ==========================================
 // UI HELPERS
 // ==========================================
 
 function resetPresetButtons() {
-    const buttonBudget = document.getElementById('preset-budget');
-    const buttonMid = document.getElementById('preset-midrange');
-    const buttonHigh = document.getElementById('preset-highend');
+    const btnBudget = document.getElementById('preset-budget');
+    const btnMid = document.getElementById('preset-midrange');
+    const btnHigh = document.getElementById('preset-highend');
 
-    if (buttonBudget) {
-        buttonBudget.classList.remove('btn-success');
-        buttonBudget.classList.add('btn-outline-success');
+    if (btnBudget) {
+        btnBudget.classList.remove('btn-success');
+        btnBudget.classList.add('btn-outline-success');
     }
-    if (buttonMid) {
-        buttonMid.classList.remove('btn-primary');
-        buttonMid.classList.add('btn-outline-primary');
+    if (btnMid) {
+        btnMid.classList.remove('btn-primary');
+        btnMid.classList.add('btn-outline-primary');
     }
-    if (buttonHigh) {
-        buttonHigh.classList.remove('btn-danger');
-        buttonHigh.classList.add('btn-outline-danger');
+    if (btnHigh) {
+        btnHigh.classList.remove('btn-danger');
+        btnHigh.classList.add('btn-outline-danger');
     }
 }
 
-function activatePresetButton(presetType) {
+function activatePresetButton(type) {
     resetPresetButtons(); 
     
-    let targetButtonElement;
-    let buttonColorClass;
+    let btn;
+    let colorClass;
     
-    if (presetType === 'budget') {
-        targetButtonElement = document.getElementById('preset-budget');
-        buttonColorClass = 'success';
-    } else if (presetType === 'midrange') {
-        targetButtonElement = document.getElementById('preset-midrange');
-        buttonColorClass = 'primary';
-    } else if (presetType === 'highend') {
-        targetButtonElement = document.getElementById('preset-highend');
-        buttonColorClass = 'danger';
+    if (type === 'budget') {
+        btn = document.getElementById('preset-budget');
+        colorClass = 'success';
+    } else if (type === 'midrange') {
+        btn = document.getElementById('preset-midrange');
+        colorClass = 'primary';
+    } else if (type === 'highend') {
+        btn = document.getElementById('preset-highend');
+        colorClass = 'danger';
     }
 
-    if (targetButtonElement) {
-        targetButtonElement.classList.remove(`btn-outline-${buttonColorClass}`);
-        targetButtonElement.classList.add(`btn-${buttonColorClass}`);
+    if (btn) {
+        btn.classList.remove(`btn-outline-${colorClass}`);
+        btn.classList.add(`btn-${colorClass}`);
     }
 }
 
 // ==========================================
-// CALCULATION & DROPDOWN UPDATES
+// CALCULATION & UPDATES
 // ==========================================
 
-function loadPreset(presetType) {
-    const requestedPreset = SYSTEM_PRESETS[presetType];
-    if (!requestedPreset) return;
+async function initializeDropdowns() {
+    const selectMap = {
+        'cpu': 'CPU',
+        'cooler': 'CPUCooler',
+        'mb': 'Motherboard',
+        'gpu': 'GPU',
+        'ram': 'RAM',
+        'ssd': 'Storage',
+        'psu': 'PSU',
+        'case': 'PCCase'
+    };
+
+    const fetchPromises = Object.entries(selectMap).map(async ([selectId, category]) => {
+        const selectEl = document.getElementById(selectId);
+        if (!selectEl) return;
+
+        try {
+            // Fetch all products from JSON files
+            const response = await fetch(`processed_data/${category}.json`);
+            if (response.ok) {
+                const data = await response.json();
+                
+                selectEl.innerHTML = '<option value="">Bitte wählen...</option>';
+                
+                data.forEach(product => {
+                    const option = document.createElement('option');
+                    const price = product.price || 0;
+                    // Format: price,link
+                    option.value = `${price},product.html?category=${encodeURIComponent(category)}&name=${encodeURIComponent(product.name)}`;
+                    option.textContent = `${product.name} (${price} €)`;
+                    selectEl.appendChild(option);
+                });
+            }
+        } catch(e) {
+            console.error(`Error loading ${category}:`, e);
+        }
+
+        // Initialize Tom Select Library for searchable dropdowns
+        tomSelectInstances[selectId] = new TomSelect(selectEl, {
+            create: false,
+            sortField: null, 
+            placeholder: "Hardware suchen...",
+            maxOptions: 50, 
+            onChange: function(value) {
+                update(selectEl);
+            }
+        });
+    });
+
+    await Promise.all(fetchPromises);
+}
+
+function loadPreset(type) {
+    const preset = PRESETS[type];
+    if (!preset) return;
 
     isPresetLoading = true; 
-    activatePresetButton(presetType);
+    activatePresetButton(type);
 
-    const componentMappingKeys = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case'];
+    const mapping = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case'];
 
-    componentMappingKeys.forEach(domId => {
-        const selectElementNode = document.getElementById(domId);
-        if (selectElementNode) {
-            for (let i = 0; i < selectElementNode.options.length; i++) {
-                if (selectElementNode.options[i].text.includes(requestedPreset[domId])) {
-                    selectElementNode.selectedIndex = i;
-                    updateRow(selectElementNode); 
+    mapping.forEach(id => {
+        const select = document.getElementById(id);
+        const tsInstance = tomSelectInstances[id];
+        
+        if (select && tsInstance) {
+            // Find matching option in Tom Select dropdown based on the preset name
+            let foundMatch = false;
+            for (let key in tsInstance.options) {
+                if (tsInstance.options[key].text.includes(preset[id])) {
+                    tsInstance.setValue(key); 
+                    foundMatch = true;
                     break;
                 }
+            }
+            if(!foundMatch) {
+                console.warn(`Could not find preset item for ${id}: ${preset[id]}`);
             }
         }
     });
@@ -124,52 +252,55 @@ function loadPreset(presetType) {
     isPresetLoading = false; 
 }
 
-function updateRow(selectElementNode) {
+function update(select) {
     if (!isPresetLoading) {
         resetPresetButtons();
     }
 
-    const selectedOptionNode = selectElementNode.options[selectElementNode.selectedIndex];
-    if (!selectedOptionNode || selectedOptionNode.disabled) return;
+    const value = select.value;
+    const row = select.closest('tr');
+    if (!row) return;
 
-    const rawPriceNumber = parseFloat(selectedOptionNode.value);
-    const formattedPriceString = isNaN(rawPriceNumber) ? "0.00" : rawPriceNumber.toFixed(2);
+    const priceInput = row.querySelector('.price-input');
+    const linkButton = row.querySelector('a');
 
-    const productGuid = selectedOptionNode.getAttribute('data-id');
+    // Prevent errors if user clears the search field completely
+    if (!value || !value.includes(',')) {
+         if (priceInput) priceInput.value = "0.00";
+         if (linkButton) linkButton.href = "#";
+         calcTotal();
+         return;
+    }
     
-    const parentTableRow = selectElementNode.closest('tr');
-    const tableCategoryName = parentTableRow.getAttribute('data-category');
+    const parts = value.split(',');
+    const rawPrice = parseFloat(parts[0]);
+    const formattedPrice = isNaN(rawPrice) ? "0.00" : rawPrice.toFixed(2);
+    const link = parts.slice(1).join(','); 
 
-    const generatedProductLink = productGuid ? `product.html?category=${encodeURIComponent(tableCategoryName)}&id=${encodeURIComponent(productGuid)}` : '#';
+    if (priceInput) priceInput.value = formattedPrice;
+    if (linkButton) linkButton.href = link;
 
-    const priceInputElement = parentTableRow.querySelector('.price-input');
-    if (priceInputElement) priceInputElement.value = formattedPriceString;
-
-    const detailsButtonElement = parentTableRow.querySelector('a');
-    if (detailsButtonElement) detailsButtonElement.href = generatedProductLink;
-
-    calculateTotalPrice();
+    calcTotal();
 }
 
-function calculateTotalPrice() {
-    let priceSumTotal = 0;
-    document.querySelectorAll("#hardware-table tbody tr").forEach(tableRow => {
-        const priceField = tableRow.querySelector('.price-input');
-        if(priceField) {
-            const rowPriceAmount = parseFloat(priceField.value) || 0;
-            priceSumTotal += rowPriceAmount;
+function calcTotal() {
+    let sum = 0;
+    document.querySelectorAll("#hardware-table tbody tr").forEach(row => {
+        const priceEl = row.querySelector('.price-input');
+        if(priceEl) {
+            const price = parseFloat(priceEl.value) || 0;
+            sum += price;
         }
     });
     
-    const totalPriceDisplay = document.getElementById("total");
-    if(totalPriceDisplay) {
-        if(totalPriceDisplay.parentElement) {
-            totalPriceDisplay.parentElement.classList.remove('price-update-anim');
-            // Trigger reflow to restart CSS animation
-            void totalPriceDisplay.offsetWidth; 
-            totalPriceDisplay.parentElement.classList.add('price-update-anim');
+    const totalEl = document.getElementById("total");
+    if(totalEl) {
+        if(totalEl.parentElement) {
+            totalEl.parentElement.classList.remove('price-update-anim');
+            void totalEl.offsetWidth; 
+            totalEl.parentElement.classList.add('price-update-anim');
         }
-        totalPriceDisplay.textContent = priceSumTotal.toFixed(2);
+        totalEl.textContent = sum.toFixed(2);
     }
 }
 
@@ -177,53 +308,56 @@ function calculateTotalPrice() {
 // AI LOGIC (WORKER PROXY)
 // ==========================================
 
-function getSelectedComponentsList() {
-    let hardwareComponentsList = [];
-    document.querySelectorAll('#hardware-table tbody tr').forEach(tableRow => {
-        const itemCategoryName = tableRow.getAttribute('data-category');
-        const dropdownElement = tableRow.querySelector('select');
-        if(dropdownElement && dropdownElement.selectedIndex > -1) { 
-            const selectedItemText = dropdownElement.options[dropdownElement.selectedIndex].text;
-            hardwareComponentsList.push(`- ${itemCategoryName}: ${selectedItemText}`);
+function getSelectedComponents() {
+    let components = [];
+    document.querySelectorAll('#hardware-table tbody tr').forEach(row => {
+        const category = row.getAttribute('data-category');
+        const select = row.querySelector('select');
+        
+        // Ensure TomSelect instance value is read
+        const tsInstance = tomSelectInstances[select.id];
+        if(tsInstance && tsInstance.getValue()) {
+            const optionText = tsInstance.options[tsInstance.getValue()].text;
+            components.push(`- ${category}: ${optionText}`);
         }
     });
-    return hardwareComponentsList.join('\n');
+    return components.join('\n');
 }
 
-function toggleAiLoadingState(isVisible) {
-    const loaderElement = document.getElementById('ai-loading');
-    const resultWrapperElement = document.getElementById('ai-result-wrapper');
+function toggleLoading(show) {
+    const loadingEl = document.getElementById('ai-loading');
+    const resultWrapper = document.getElementById('ai-result-wrapper');
     
-    if(loaderElement) loaderElement.style.display = isVisible ? 'flex' : 'none';
-    if(resultWrapperElement) resultWrapperElement.style.display = isVisible ? 'none' : 'flex'; 
+    if(loadingEl) loadingEl.style.display = show ? 'flex' : 'none';
+    if(resultWrapper) resultWrapper.style.display = show ? 'none' : 'flex'; 
 }
 
-async function callWorkerAIApi(promptString) {
+async function callWorkerAI(prompt) {
     try {
-        const workerNetworkResponse = await fetch(WORKER_URL, {
+        const response = await fetch(WORKER_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ prompt: promptString })
+            body: JSON.stringify({ prompt: prompt })
         });
 
-        const parsedJsonResponse = await workerNetworkResponse.json();
+        const data = await response.json();
 
-        if (parsedJsonResponse.candidates && parsedJsonResponse.candidates[0].content) {
-            return parsedJsonResponse.candidates[0].content.parts[0].text;
+        if (data.candidates && data.candidates[0].content) {
+            return data.candidates[0].content.parts[0].text;
         } 
         
-        if (parsedJsonResponse.error) {
-            let errorDetailsString = parsedJsonResponse.error;
-            if (typeof parsedJsonResponse.error === 'object') {
-                errorDetailsString = parsedJsonResponse.error.message || JSON.stringify(parsedJsonResponse.error);
+        if (data.error) {
+            let errorDetails = data.error;
+            if (typeof data.error === 'object') {
+                errorDetails = data.error.message || JSON.stringify(data.error);
             }
-            return `KI Fehler: ${errorDetailsString}`;
+            return `KI Fehler: ${errorDetails}`;
         }
         
         return "Die KI konnte keine Antwort generieren.";
-    } catch (networkError) {
-        console.error("Worker Execution Error:", networkError);
-        return `Fehler: Die Verbindung zum KI-Server ist fehlgeschlagen. (${networkError.message})`;
+    } catch (error) {
+        console.error("Worker Error:", error);
+        return `Fehler: Die Verbindung zum KI-Server ist fehlgeschlagen. (${error.message})`;
     }
 }
 
@@ -231,96 +365,103 @@ async function callWorkerAIApi(promptString) {
 // UI EVENT LISTENERS
 // ==========================================
 
-document.addEventListener('DOMContentLoaded', () => {
-    // 1. Hardware Table Setup
+document.addEventListener('DOMContentLoaded', async () => {
+    // 1. Hardware Table Initialization
     if (document.getElementById('hardware-table')) {
+        // Zuerst alle Dropdowns laden, dann das Preset anwenden!
+        await initializeDropdowns();
         loadPreset('midrange');
-        calculateTotalPrice();
+        calcTotal();
     }
 
-    // 2. AI Assistant Triggers
-    const triggerBuildCheck = document.getElementById('btn-check-build');
-    const triggerAskAi = document.getElementById('btn-ask-ai');
-    const aiOutputContainer = document.getElementById('ai-output');
-    const aiQuestionInput = document.getElementById('ai-question-input');
+    // 2. Component Browser Initialization 
+    if (document.getElementById('parts-container')) {
+        loadCategory('GPU'); 
+    }
 
-    if(triggerBuildCheck) {
-        triggerBuildCheck.addEventListener('click', async () => {
-            const systemComponents = getSelectedComponentsList();
-            const aiPromptText = `Analysiere diese PC-Konfiguration (2026):\n${systemComponents}\nPrüfe kurz Kompatibilität, Flaschenhälse und ob das Netzteil reicht. Antworte in Markdown.`;
+    // 3. AI Assistant Buttons
+    const btnCheck = document.getElementById('btn-check-build');
+    const btnAsk = document.getElementById('btn-ask-ai');
+    const outputBox = document.getElementById('ai-output');
+    const inputField = document.getElementById('ai-question-input');
 
-            toggleAiLoadingState(true);
-            const generatedResult = await callWorkerAIApi(aiPromptText);
-            toggleAiLoadingState(false);
+    if(btnCheck) {
+        btnCheck.addEventListener('click', async () => {
+            const components = getSelectedComponents();
+            const prompt = `Analysiere diese PC-Konfiguration (2026):\n${components}\nPrüfe kurz Kompatibilität, Flaschenhälse und ob das Netzteil reicht. Antworte in Markdown.`;
+
+            toggleLoading(true);
+            const result = await callWorkerAI(prompt);
+            toggleLoading(false);
             
-            if(aiOutputContainer) {
-                aiOutputContainer.innerHTML = typeof marked !== 'undefined' ? marked.parse(generatedResult) : generatedResult;
+            if(outputBox) {
+                outputBox.innerHTML = typeof marked !== 'undefined' ? marked.parse(result) : result;
             }
         });
     }
 
-    if(triggerAskAi) {
-        triggerAskAi.addEventListener('click', async () => {
-            const userCustomQuestion = aiQuestionInput ? aiQuestionInput.value : "";
-            if(!userCustomQuestion) return;
+    if(btnAsk) {
+        btnAsk.addEventListener('click', async () => {
+            const question = inputField ? inputField.value : "";
+            if(!question) return;
 
-            const systemComponents = getSelectedComponentsList();
-            const aiPromptText = `Aktuelle PC-Konfig:\n${systemComponents}\n\nFrage des Nutzers: ${userCustomQuestion}\nAntworte kurz und präzise.`;
+            const components = getSelectedComponents();
+            const prompt = `Aktuelle PC-Konfig:\n${components}\n\nFrage des Nutzers: ${question}\nAntworte kurz und präzise.`;
 
-            toggleAiLoadingState(true);
-            const generatedResult = await callWorkerAIApi(aiPromptText);
-            toggleAiLoadingState(false);
+            toggleLoading(true);
+            const result = await callWorkerAI(prompt);
+            toggleLoading(false);
             
-            if(aiOutputContainer) {
-                aiOutputContainer.innerHTML = typeof marked !== 'undefined' ? marked.parse(generatedResult) : generatedResult;
+            if(outputBox) {
+                outputBox.innerHTML = typeof marked !== 'undefined' ? marked.parse(result) : result;
             }
         });
     }
 
-    // 3. Handle Column Resizing
-    const buttonExpandView = document.getElementById('btn-resize-ai');
-    const buttonCollapseView = document.getElementById('btn-close-expanded');
+    // 4. UI Resizing/Reset
+    const btnResize = document.getElementById('btn-resize-ai');
+    const btnClose = document.getElementById('btn-close-expanded');
 
-    const toggleColumnLayout = () => {
-        const hardwareSection = document.getElementById('hardware-column');
-        const aiSection = document.getElementById('ai-column');
-        if(!hardwareSection || !aiSection) return;
+    const toggleExpandedView = () => {
+        const hwCol = document.getElementById('hardware-column');
+        const aiCol = document.getElementById('ai-column');
+        if(!hwCol || !aiCol) return;
 
-        const isViewExpanded = aiSection.classList.contains('col-lg-8');
+        const isExpanded = aiCol.classList.contains('col-lg-8');
 
-        if (isViewExpanded) {
-            hardwareSection.classList.replace('col-lg-4', 'col-lg-8');
-            aiSection.classList.replace('col-lg-8', 'col-lg-4');
-            if(buttonExpandView) buttonExpandView.style.display = 'inline-block';
-            if(buttonCollapseView) buttonCollapseView.style.display = 'none';
+        if (isExpanded) {
+            hwCol.classList.replace('col-lg-4', 'col-lg-8');
+            aiCol.classList.replace('col-lg-8', 'col-lg-4');
+            if(btnResize) btnResize.style.display = 'inline-block';
+            if(btnClose) btnClose.style.display = 'none';
         } else {
-            hardwareSection.classList.replace('col-lg-8', 'col-lg-4');
-            aiSection.classList.replace('col-lg-4', 'col-lg-8');
-            if(buttonExpandView) buttonExpandView.style.display = 'none';
-            if(buttonCollapseView) buttonCollapseView.style.display = 'inline-block';
+            hwCol.classList.replace('col-lg-8', 'col-lg-4');
+            aiCol.classList.replace('col-lg-4', 'col-lg-8');
+            if(btnResize) btnResize.style.display = 'none';
+            if(btnClose) btnClose.style.display = 'inline-block';
         }
     };
 
-    if(buttonExpandView) buttonExpandView.addEventListener('click', toggleColumnLayout);
-    if(buttonCollapseView) buttonCollapseView.addEventListener('click', toggleColumnLayout);
+    if(btnResize) btnResize.addEventListener('click', toggleExpandedView);
+    if(btnClose) btnClose.addEventListener('click', toggleExpandedView);
 
-    // 4. Dark Theme Toggle Management
-    const themeToggleButton = document.getElementById('theme-toggle');
-    const rootDocumentElement = document.documentElement;
+    // 5. Dark Mode Logic
+    const themeToggle = document.getElementById('theme-toggle');
+    const htmlElement = document.documentElement;
     
-    const previouslyStoredTheme = localStorage.getItem('theme');
-    const systemPrefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedTheme = localStorage.getItem('theme');
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     
-    if (previouslyStoredTheme === 'dark' || (!previouslyStoredTheme && systemPrefersDarkScheme)) {
-        rootDocumentElement.setAttribute('data-theme', 'dark');
+    if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+        htmlElement.setAttribute('data-theme', 'dark');
     }
 
-    if (themeToggleButton) {
-        themeToggleButton.addEventListener('click', () => {
-            const currentActiveTheme = rootDocumentElement.getAttribute('data-theme');
-            const targetTheme = currentActiveTheme === 'dark' ? 'light' : 'dark';
-            rootDocumentElement.setAttribute('data-theme', targetTheme);
-            localStorage.setItem('theme', targetTheme);
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            htmlElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
         });
     }
 });
