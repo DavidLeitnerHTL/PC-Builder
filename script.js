@@ -19,6 +19,9 @@ let currentCategory = 'GPU';
 // Store Tom Select instances
 const tomSelectInstances = {};
 
+// NEW: Global, safe data store to prevent Cloudflare/HTML string-parsing errors
+window.hardwareData = {};
+
 /**
  * PRESETS (Hardware Selection for 2026)
  */
@@ -103,6 +106,7 @@ function renderProducts(products, category) {
         partDiv.appendChild(priceElement);
 
         const infoBtn = document.createElement('a');
+        // Dies funktioniert, da es sich um ein direktes DOM-Element und nicht um eine Dropdown-Value handelt
         infoBtn.href = `product.html?category=${encodeURIComponent(category)}&name=${encodeURIComponent(part.name)}`;
         infoBtn.textContent = 'Info';
         infoBtn.className = 'buy-btn'; 
@@ -195,8 +199,19 @@ async function initializeDropdowns() {
                 data.forEach(product => {
                     const option = document.createElement('option');
                     const price = product.price || 0;
-                    // Format changed to use '|' separator instead of ',' to prevent Tom Select from splitting URLs
-                    option.value = `${price}|product.html?category=${encodeURIComponent(category)}&name=${encodeURIComponent(product.name)}`;
+                    
+                    // Create a safe, unique ID for the dictionary
+                    const uniqueKey = `${category}_${product.name}`;
+                    
+                    // Store the raw product data safely in memory
+                    window.hardwareData[uniqueKey] = {
+                        name: product.name,
+                        price: price,
+                        category: category
+                    };
+
+                    // Only put the clean, unique ID in the HTML value attribute
+                    option.value = uniqueKey;
                     option.textContent = `${product.name} (${price} €)`;
                     selectEl.appendChild(option);
                 });
@@ -211,8 +226,9 @@ async function initializeDropdowns() {
             sortField: null, 
             placeholder: "Hardware suchen...",
             maxOptions: 50, 
-            onChange: function(value) {
-                update(selectEl);
+            onChange: function(selectedValue) {
+                // Pass the safe key directly to our update function
+                updateRow(selectId, selectedValue);
             }
         });
     });
@@ -234,7 +250,6 @@ function loadPreset(type) {
         const tsInstance = tomSelectInstances[id];
         
         if (select && tsInstance) {
-            // Find matching option in Tom Select dropdown based on the preset name
             let foundMatch = false;
             for (let key in tsInstance.options) {
                 if (tsInstance.options[key].text.includes(preset[id])) {
@@ -252,39 +267,46 @@ function loadPreset(type) {
     isPresetLoading = false; 
 }
 
-function update(select) {
+// NEW: Robust row update function replacing the old 'update(select)'
+function updateRow(selectId, selectedValue) {
     if (!isPresetLoading) {
         resetPresetButtons();
     }
 
-    const value = select.value;
-    const row = select.closest('tr');
+    const selectEl = document.getElementById(selectId);
+    if (!selectEl) return;
+    
+    const row = selectEl.closest('tr');
     if (!row) return;
 
     const priceInput = row.querySelector('.price-input');
     const linkButton = row.querySelector('a');
 
-    // Prevent errors if user clears the search field completely or value doesn't contain the '|' separator
-    if (!value || !value.includes('|')) {
+    // Fetch the clean data from memory using the unique key
+    const productData = window.hardwareData[selectedValue];
+
+    // If no valid selection or search field cleared
+    if (!productData) {
          if (priceInput) priceInput.value = "0.00";
          if (linkButton) {
-             linkButton.removeAttribute('href'); // Remove the link so it doesn't try to open a broken page
-             linkButton.onclick = (e) => e.preventDefault(); // Prevent accidental clicks
+             linkButton.removeAttribute('href'); 
+             linkButton.onclick = (e) => e.preventDefault(); 
          }
          calcTotal();
          return;
     }
     
-    // Split by our new safe '|' separator
-    const parts = value.split('|');
-    const rawPrice = parseFloat(parts[0]);
+    // Valid selection found
+    const rawPrice = parseFloat(productData.price);
     const formattedPrice = isNaN(rawPrice) ? "0.00" : rawPrice.toFixed(2);
-    const link = parts.slice(1).join('|'); 
+    
+    // Construct the URL safely right when it's needed
+    const safeLink = `product.html?category=${encodeURIComponent(productData.category)}&name=${encodeURIComponent(productData.name)}`;
 
     if (priceInput) priceInput.value = formattedPrice;
     if (linkButton) {
-        linkButton.href = link;
-        linkButton.onclick = null; // Re-enable clicks
+        linkButton.href = safeLink;
+        linkButton.onclick = null; // Remove the blockage so user can click
     }
 
     calcTotal();
