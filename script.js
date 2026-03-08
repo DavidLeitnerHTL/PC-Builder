@@ -29,11 +29,11 @@ const PRESETS = {
     budget: {
         cpu: "Ryzen 5 9600X",
         cooler: "Peerless Assassin",
-        mb: "MSI PRO B650",
+        mb: "PRO B650",
         gpu: "RTX 5060",  
         ram: "Vengeance",
         ssd: "SN770",
-        psu: "Pure Power 12 M",
+        psu: "Pure Power 12 M 750",
         case: "Arx 700"
     },
     midrange: {
@@ -43,7 +43,7 @@ const PRESETS = {
         gpu: "RTX 5070",
         ram: "Trident Z5",
         ssd: "990 Pro",
-        psu: "Vertex GX-1000",
+        psu: "VERTEX GX-1000",
         case: "North XL"
     },
     highend: {
@@ -53,8 +53,8 @@ const PRESETS = {
         gpu: "RTX 5090", 
         ram: "Dominator Titanium",
         ssd: "T705",
-        psu: "Dark Power Pro",
-        case: "Hyte Y70"
+        psu: "Dark Power Pro 13 1300",
+        case: "Y70"
     }
 };
 
@@ -87,16 +87,19 @@ function renderProducts(products, category) {
         const partDiv = document.createElement('div');
         partDiv.className = 'part-card';
 
+        // Use clean_name if available, otherwise fallback to original name
+        const displayName = part.clean_name || part.name;
+
         if (part.image) {
             const img = document.createElement('img');
             img.src = part.image;
-            img.alt = part.name;
+            img.alt = displayName;
             img.className = 'part-image';
             partDiv.appendChild(img);
         }
 
         const nameElement = document.createElement('h3');
-        nameElement.textContent = part.name;
+        nameElement.textContent = displayName;
         nameElement.className = 'part-name';
         partDiv.appendChild(nameElement);
 
@@ -212,13 +215,17 @@ async function initializeDropdowns() {
                     // Store the raw product data safely in memory
                     window.hardwareData[uniqueKey] = {
                         name: product.name,
+                        clean_name: product.clean_name,
                         price: price,
                         category: category
                     };
 
+                    // Use clean_name for dropdown display and Tom Select search
+                    const displayName = product.clean_name || product.name;
+
                     // Only put the clean, unique ID in the HTML value attribute
                     option.value = uniqueKey;
-                    option.textContent = `${product.name} (${price} €)`;
+                    option.textContent = `${displayName} (${price} €)`;
                     selectEl.appendChild(option);
                 });
             }
