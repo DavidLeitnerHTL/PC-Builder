@@ -106,10 +106,16 @@ function renderProducts(products, category) {
         partDiv.appendChild(priceElement);
 
         const infoBtn = document.createElement('a');
-        // Dies funktioniert, da es sich um ein direktes DOM-Element und nicht um eine Dropdown-Value handelt
-        infoBtn.href = `product.html?category=${encodeURIComponent(category)}&name=${encodeURIComponent(part.name)}`;
+        const safeLink = `product.html?category=${encodeURIComponent(category)}&name=${encodeURIComponent(part.name)}`;
+        infoBtn.href = safeLink;
         infoBtn.textContent = 'Info';
         infoBtn.className = 'buy-btn'; 
+        
+        // Save to Session Storage as Cloudflare fallback
+        infoBtn.onclick = () => {
+            sessionStorage.setItem('currentCategory', category);
+            sessionStorage.setItem('currentProduct', part.name);
+        };
         
         partDiv.appendChild(infoBtn);
         container.appendChild(partDiv);
@@ -306,7 +312,11 @@ function updateRow(selectId, selectedValue) {
     if (priceInput) priceInput.value = formattedPrice;
     if (linkButton) {
         linkButton.href = safeLink;
-        linkButton.onclick = null; // Remove the blockage so user can click
+        // Save to Session Storage as Cloudflare fallback
+        linkButton.onclick = () => {
+            sessionStorage.setItem('currentCategory', productData.category);
+            sessionStorage.setItem('currentProduct', productData.name);
+        };
     }
 
     calcTotal();

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produktinfo | PC Builder</title>
+    <!-- Include the main stylesheet -->
     <link rel="stylesheet" href="style.css"> 
     <style>
+        /* Specific styling for the product page */
         body {
             background-color: var(--bg-color, #121212);
             color: var(--text-color, #e0e0e0);
@@ -47,7 +49,7 @@
             height: auto;
             border-radius: 8px;
             margin-bottom: 20px;
-            display: none; 
+            display: none; /* Only show if image is available */
         }
 
         .spec-table {
@@ -122,11 +124,12 @@
 
             <h3>Spezifikationen</h3>
             <table class="spec-table" id="spec-table">
-                <!-- Data will be populated here -->
+                <!-- Specs injected via JS here -->
             </table>
 
+            <!-- Amazon link section -->
             <div class="amazon-section">
-                <h3 id="amazon-product-name">Vollständiger Produktname</h3>
+                <h3 id="amazon-product-name">Ganzer Produktname</h3>
                 <a id="amazon-link" href="#" target="_blank" rel="noopener noreferrer" class="amazon-btn">
                     Auf Amazon ansehen
                 </a>
@@ -135,86 +138,95 @@
     </div>
 
     <script>
-        // Function to cleanly format JSON keys
-        const formatJsonKey = (keyString) => {
-            return keyString.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+        // Function to cleanly format JSON keys (e.g., "core_clock" -> "Core Clock")
+        const formatKey = (key) => {
+            return key.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
         };
 
-        const currentUrlParams = new URLSearchParams(window.location.search);
-        const categoryParameter = currentUrlParams.get('category');
-        const productIdParameter = currentUrlParams.get('id');
+        // Extract URL parameters (?category=...&name=...) OR use Session Storage fallback for Cloudflare
+        const urlParams = new URLSearchParams(window.location.search);
+        const category = urlParams.get('category') || sessionStorage.getItem('currentCategory');
+        const productName = urlParams.get('name') || sessionStorage.getItem('currentProduct');
 
-        const loadingTextElement = document.getElementById('loading-text');
-        const productContentWrapper = document.getElementById('product-content');
+        const loadingText = document.getElementById('loading-text');
+        const productContent = document.getElementById('product-content');
 
-        if (categoryParameter && productIdParameter) {
-            // Fetch data from the corresponding category JSON
-            fetch(`processed_data/${categoryParameter}.json`)
-                .then(networkResponse => {
-                    if (!networkResponse.ok) throw new Error("Kategorie-Datei nicht gefunden");
-                    return networkResponse.json();
+        if (category && productName) {
+            // Fetch data from processed_data folder
+            fetch(`processed_data/${category}.json`)
+                .then(response => {
+                    if (!response.ok) throw new Error("Category file not found");
+                    return response.json();
                 })
-                .then(parsedProductData => {
-                    // Find the specific product via ID
-                    const selectedProduct = parsedProductData.find(item => item.id === productIdParameter);
+                .then(data => {
+                    // Find product in the JSON array based on exact name match
+                    const product = data.find(p => p.name === productName);
 
-                    if (selectedProduct) {
-                        loadingTextElement.style.display = 'none';
-                        productContentWrapper.style.display = 'block';
+                    if (product) {
+                        loadingText.style.display = 'none';
+                        productContent.style.display = 'block';
 
-                        document.getElementById('product-name').textContent = selectedProduct.name;
-                        document.getElementById('product-price').textContent = selectedProduct.price ? `${selectedProduct.price} €` : 'Preis derzeit unbekannt';
+                        // Populate basic info
+                        document.getElementById('product-name').textContent = product.name;
+                        document.getElementById('product-price').textContent = product.price ? `${product.price} €` : 'Preis derzeit unbekannt';
 
-                        if (selectedProduct.image) {
-                            const imageTag = document.getElementById('product-img');
-                            imageTag.src = selectedProduct.image;
-                            imageTag.alt = selectedProduct.name;
-                            imageTag.style.display = 'block';
+                        // Show image if available
+                        if (product.image) {
+                            const imgEl = document.getElementById('product-img');
+                            imgEl.src = product.image;
+                            imgEl.alt = product.name;
+                            imgEl.style.display = 'block';
                         }
 
-                        // Populate the specifications table
-                        const specificationsTable = document.getElementById('spec-table');
-                        for (const [propertyKey, propertyValue] of Object.entries(selectedProduct)) {
-                            // Ignored keys that shouldn't appear in the standard specs list
-                            const blacklistedKeys = ['name', 'price', 'id', 'image', 'link', 'amazon_sku'];
-                            if (blacklistedKeys.includes(propertyKey.toLowerCase())) continue;
-                            if (propertyValue === null || propertyValue === "" || propertyValue === "N/A") continue;
+                        // Populate specs table
+                        const table = document.getElementById('spec-table');
+                        for (const [key, value] of Object.entries(product)) {
+                            // Ignore base keys and amazon_sku to avoid them in the table
+                            if (['name', 'price', 'id', 'image', 'link', 'amazon_sku'].includes(key.toLowerCase())) continue;
+                            
+                            // Ignore empty values
+                            if (value === null || value === "" || value === "N/A") continue;
 
-                            const tableRow = document.createElement('tr');
+                            const row = document.createElement('tr');
                             
-                            const headerCell = document.createElement('th');
-                            headerCell.textContent = formatJsonKey(propertyKey);
+                            const th = document.createElement('th');
+                            th.textContent = formatKey(key);
                             
-                            const dataCell = document.createElement('td');
-                            dataCell.textContent = propertyValue;
+                            const td = document.createElement('td');
+                            td.textContent = value;
                             
-                            tableRow.appendChild(headerCell);
-                            tableRow.appendChild(dataCell);
-                            specificationsTable.appendChild(tableRow);
+                            row.appendChild(th);
+                            row.appendChild(td);
+                            table.appendChild(row);
                         }
 
-                        // Set full name and dynamic Amazon link logic
-                        document.getElementById('amazon-product-name').textContent = selectedProduct.name;
+                        // Set full name and dynamic Amazon Link at the end
+                        document.getElementById('amazon-product-name').textContent = product.name;
                         
-                        let finalAmazonUrl = `https://www.amazon.de/s?k=${encodeURIComponent(selectedProduct.name)}`;
+                        // Default fallback: Search Amazon for the full product name
+                        let amazonUrl = `https://www.amazon.de/s?k=${encodeURIComponent(product.name)}`;
                         
-                        // Use exact Amazon SKU if available in the JSON
-                        if (selectedProduct.amazon_sku && selectedProduct.amazon_sku.trim() !== "") {
-                            finalAmazonUrl = `https://www.amazon.de/dp/${selectedProduct.amazon_sku}`;
+                        // If the JSON contains an amazon_sku (like "B07MGBZWDZ"), build a direct link
+                        if (product.amazon_sku) {
+                            amazonUrl = `https://www.amazon.de/dp/${product.amazon_sku}`;
                         }
                         
-                        document.getElementById('amazon-link').href = finalAmazonUrl;
+                        document.getElementById('amazon-link').href = amazonUrl;
+
+                        // Clear Session Storage after successful load
+                        sessionStorage.removeItem('currentCategory');
+                        sessionStorage.removeItem('currentProduct');
 
                     } else {
-                        loadingTextElement.textContent = "Das gewünschte Produkt wurde nicht gefunden.";
+                        loadingText.textContent = "Das gewünschte Produkt wurde nicht gefunden.";
                     }
                 })
-                .catch(fetchError => {
-                    console.error("Fetch error:", fetchError);
-                    loadingTextElement.textContent = "Fehler beim Laden der Produktdaten. Bitte überprüfe den processed_data Ordner.";
+                .catch(error => {
+                    console.error("Loading error:", error);
+                    loadingText.textContent = "Fehler beim Laden der Produktdaten. Bitte überprüfe den processed_data Ordner.";
                 });
         } else {
-            loadingTextElement.textContent = "Kein Produkt ausgewählt (URL Parameter fehlen).";
+            loadingText.textContent = "Kein Produkt ausgewählt (URL Parameter fehlen).";
         }
     </script>
 </body>
