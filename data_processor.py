@@ -68,47 +68,56 @@ def extract_basic_info(raw_data):
         "amazon_sku": raw_data.get("general_product_information", {}).get("amazon_sku", "")
     }
 
-def extract_tags_and_clean_name(name, category):
+def extract_specs_and_clean_name(name, category):
     """
-    Extracts technical specifications directly from the product name to create tags,
+    Extracts technical specifications directly from the product name to create dictionary entries,
     and returns a cleaned-up version of the name.
     """
     if not name:
-        return "", []
+        return "", {}
 
     clean_name = name
-    tags = []
+    extracted_specs = {}
 
-    def extract(pattern):
-        nonlocal clean_name, tags
+    def extract(pattern, spec_key):
+        nonlocal clean_name, extracted_specs
         # Find all matching patterns (case-insensitive)
         matches = re.findall(pattern, clean_name, flags=re.IGNORECASE)
-        for match in matches:
-            clean_match = match.strip()
-            if clean_match not in tags:
-                tags.append(clean_match)
-            # Remove the extracted part from the clean_name
-            clean_name = re.sub(re.escape(match), '', clean_name, flags=re.IGNORECASE)
+        if matches:
+            clean_matches = []
+            for match in matches:
+                clean_match = match.strip()
+                if clean_match not in clean_matches:
+                    clean_matches.append(clean_match)
+                # Remove the extracted part from the clean_name
+                clean_name = re.sub(re.escape(match), '', clean_name, flags=re.IGNORECASE)
+            
+            # Combine multiple matches if they exist, or just set the string
+            if spec_key in extracted_specs:
+                extracted_specs[spec_key] += ", " + ", ".join(clean_matches)
+            else:
+                extracted_specs[spec_key] = ", ".join(clean_matches)
 
-    # Apply extraction rules based on the category
+    # Apply extraction rules and map them to logical table keys
     if category == "CPU":
-        extract(r'\d+(?:\.\d+)?\s*GHz')
-        extract(r'\d+-Core')
-        extract(r'LGA\s*\d+|AM[45]')
+        extract(r'\d+(?:\.\d+)?\s*GHz', 'clock_speed')
+        extract(r'\d+-Core', 'cores')
+        extract(r'LGA\s*\d+|AM[45]', 'socket')
     elif category == "CPUCooler":
-        extract(r'\d{2,3}\s*mm')
+        extract(r'\d{2,3}\s*mm', 'radiator_size')
     elif category == "Motherboard":
-        extract(r'DDR[45]')
-        extract(r'EATX|Micro[\s-]*ATX|Mini[\s-]*ITX|ATX')
-        extract(r'LGA\s*\d+|AM[45]')
+        extract(r'DDR[45]', 'memory_type')
+        extract(r'EATX|Micro[\s-]*ATX|Mini[\s-]*ITX|ATX', 'form_factor')
+        extract(r'LGA\s*\d+|AM[45]', 'socket')
     elif category == "GPU":
-        extract(r'\d+\s*GB')
+        extract(r'\d+\s*GB', 'vram')
     elif category == "RAM":
-        extract(r'DDR[45](?:-\d+)?')
+        extract(r'DDR[45](?:-\d+)?', 'ram_type')
     elif category == "Storage":
-        extract(r'SSD|HDD|NVMe|M\.2')
+        extract(r'SSD|HDD|NVMe|M\.2', 'storage_type')
     elif category == "PCCase":
-        extract(r'EATX|Micro[\s-]*ATX|Mini[\s-]*ITX|ATX|Mid[\s-]*Tower|Full[\s-]*Tower')
+        extract(r'EATX|Micro[\s-]*ATX|Mini[\s-]*ITX|ATX', 'motherboard_support')
+        extract(r'Mid[\s-]*Tower|Full[\s-]*Tower', 'case_type')
 
     # Cleanup: remove empty brackets, multiple spaces, and trailing hyphens/commas
     clean_name = re.sub(r'\(\s*\)', '', clean_name)
@@ -116,11 +125,11 @@ def extract_tags_and_clean_name(name, category):
     clean_name = re.sub(r'[-\s,]+$', '', clean_name)
     clean_name = clean_name.strip()
 
-    return clean_name, tags
+    return clean_name, extracted_specs
 
 def add_category_specific_specs(raw_category, raw_data, item_data):
     """
-    Extracts deep, technical specifications based on the hardware type.
+    Extracts deep, technical specifications based on the hardware type from the JSON metadata.
     """
     specs = raw_data.get("specifications", {})
     
@@ -240,14 +249,19 @@ def process_hardware_data():
                     # Extract basic information
                     item_data = extract_basic_info(raw_data)
                     
-                    # Extract clean name and tags for the UI
+                    # Extract clean name and map regex finds to specific dictionary keys
                     original_name = item_data.get("name", "")
-                    clean_name, tags = extract_tags_and_clean_name(original_name, raw_category)
+                    clean_name, extracted_specs = extract_specs_and_clean_name(original_name, raw_category)
                     item_data["clean_name"] = clean_name
-                    if tags:
-                        item_data["tags"] = tags
                         
+                    # Extract deep JSON specifications
                     should_keep_item = add_category_specific_specs(raw_category, raw_data, item_data)
+                    
+                    # Merge our manually extracted specs into the item_data
+                    # We only add them if the JSON file didn't already provide this exact key
+                    for key, val in extracted_specs.items():
+                        if not item_data.get(key):
+                            item_data[key] = val
                     
                     if should_keep_item and item_data.get("name"):
                         clean_item = {key: value for key, value in item_data.items() if value is not None}
