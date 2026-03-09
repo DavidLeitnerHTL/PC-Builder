@@ -16,6 +16,13 @@
         }
     </script>
 
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <!-- Include the main stylesheet -->
     <link rel="stylesheet" href="style.css"> 
     <style>
@@ -25,7 +32,6 @@
             color: var(--text-primary, #e0e0e0);
             font-family: 'Inter', Arial, sans-serif;
             margin: 0;
-            padding: 20px;
         }
 
         .product-container {
@@ -151,46 +157,48 @@
         }
     </style>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
-    <div class="product-container">
-        <!-- Top Navigation and Theme Toggle -->
-        <div class="top-bar">
-            <a href="index.html" class="back-link">&larr; Zurück zur Übersicht</a>
+    <main class="flex-grow-1 p-3">
+        <div class="product-container">
+            <!-- Top Navigation and Theme Toggle -->
+            <div class="top-bar">
+                <a href="index.html" class="back-link">&larr; Zurück zur Übersicht</a>
+                
+                <button id="theme-toggle" class="toggle-btn" aria-label="Toggle Dark Mode">
+                    <div class="sun-rays"></div>
+                    <div class="main-circle"></div>
+                </button>
+            </div>
             
-            <button id="theme-toggle" class="toggle-btn" aria-label="Toggle Dark Mode">
-                <div class="sun-rays"></div>
-                <div class="main-circle"></div>
-            </button>
-        </div>
-        
-        <div id="loading-text">Produktdaten werden geladen...</div>
+            <div id="loading-text">Produktdaten werden geladen...</div>
 
-        <div id="product-content" style="display: none;">
-            <div class="product-header">
-                <img id="product-img" class="product-image" src="" alt="">
-                <h1 id="product-name">Produktname</h1>
-                
-                <!-- Container for tags loaded from Data Processor -->
-                <div id="product-tags" class="product-tags"></div>
-                
-                <h2 id="product-price" style="color: var(--accent-color, #4da6ff);">Preis</h2>
-            </div>
+            <div id="product-content" style="display: none;">
+                <div class="product-header">
+                    <img id="product-img" class="product-image" src="" alt="">
+                    <h1 id="product-name">Produktname</h1>
+                    
+                    <!-- Container for tags loaded from Data Processor -->
+                    <div id="product-tags" class="product-tags"></div>
+                    
+                    <h2 id="product-price" style="color: var(--accent-color, #4da6ff);">Preis</h2>
+                </div>
 
-            <h3>Spezifikationen</h3>
-            <table class="spec-table" id="spec-table">
-                <!-- Specs injected via JS here -->
-            </table>
+                <h3>Spezifikationen</h3>
+                <table class="spec-table" id="spec-table">
+                    <!-- Specs injected via JS here -->
+                </table>
 
-            <!-- Amazon link section showing the full original name -->
-            <div class="amazon-section">
-                <h3 id="amazon-product-name">Ganzer Produktname</h3>
-                <a id="amazon-link" href="#" target="_blank" rel="noopener noreferrer" class="amazon-btn">
-                    Auf Amazon ansehen
-                </a>
+                <!-- Amazon link section showing the full original name -->
+                <div class="amazon-section">
+                    <h3 id="amazon-product-name">Ganzer Produktname</h3>
+                    <a id="amazon-link" href="#" target="_blank" rel="noopener noreferrer" class="amazon-btn">
+                        Auf Amazon ansehen
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
 
     <script>
         // Theme Toggle Logic for Product Page
@@ -309,7 +317,7 @@
         }
     </script>
 
-      <!-- === FOOTER === -->
+  <!-- === FOOTER === -->
   <footer class="bg-dark text-light mt-auto pt-5 pb-3">
     <div class="container">
       <div class="row">
