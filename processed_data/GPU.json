@@ -1335,7 +1335,7 @@
         "id": "652b9b82-f720-4010-aeb6-34b47da50a62",
         "name": "Sapphire NITRO+ Radeon RX 480 4GB GDDR5 Black / Silver",
         "variant": "Sapphire",
-        "amazon_sku": "B01IQS6QE6",
+        "amazon_sku": "B082HS6BHR",
         "clean_name": "Sapphire NITRO+ Radeon RX 480 GDDR5 Black / Silver",
         "chipset": "Radeon RX 480",
         "vram": "4GB"
@@ -12019,7 +12019,7 @@
         "id": "910c883e-6242-4ccc-895f-a8d6c32051a1",
         "name": "PowerColor Red Devil RX 6800 XT Limited Edition",
         "variant": "Limited Edition",
-        "amazon_sku": "B08P2BQRLW",
+        "amazon_sku": "B08P3ZN62G",
         "clean_name": "PowerColor Red Devil RX 6800 XT Limited Edition",
         "chipset": "Radeon RX 6800 XT"
     },
@@ -14934,7 +14934,7 @@
         "id": "f83764ef-08dd-49f2-a2a9-a2bb4156b196",
         "name": "ASUS Dual GeForce RTX 5060 White 8GB GDDR7",
         "variant": "Dual 8GB",
-        "amazon_sku": "",
+        "amazon_sku": "B0BTCQHM47",
         "clean_name": "ASUS Dual GeForce RTX 5060 White GDDR7",
         "chipset": "GeForce RTX 5060",
         "vram": "8GB"
@@ -15120,7 +15120,7 @@
         "id": "05e29f21-d8f6-4982-b4ae-16f00640e2d5",
         "name": "Zotac GAMING Twin Edge GeForce RTX 3060 12GB GDDR6 Black",
         "variant": "Zotac",
-        "amazon_sku": "B08ZZW34T3",
+        "amazon_sku": "B08WRF18SC",
         "clean_name": "Zotac GAMING Twin Edge GeForce RTX 3060 GDDR6 Black",
         "chipset": "GeForce RTX 3060 12 GB",
         "vram": "12GB"
@@ -18061,6 +18061,13 @@
         "clean_name": "Gigabyte TURBO GeForce GTX 1080 Ti GDDR5X White / Orange",
         "chipset": "GeForce GTX 1080 Ti",
         "vram": "11GB"
+    },
+    {
+        "id": "55be5edb-dad5-4724-8519-7fc0dec87435",
+        "name": "ASUS Dual RTX 5070 EVO OC",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "ASUS Dual RTX 5070 EVO OC"
     },
     {
         "id": "0b106685-9416-4d6f-9400-2045db3ed536",
@@ -28123,6 +28130,13 @@
         "vram": "8GB"
     },
     {
+        "id": "4632739e-129b-42d9-ade0-5909a6a7c80e",
+        "name": "Gigabyte Radeon RX 9060 XT GAMING OC ICE 16G",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte Radeon RX 9060 XT GAMING OC ICE 16G"
+    },
+    {
         "id": "44d2f1c3-cba4-4b2e-8a02-5bb97926688f",
         "name": "Inno3D Twin X2 GeForce RTX 2060 6GB GDDR6 Black",
         "variant": "Inno3D",
@@ -28318,6 +28332,13 @@
         "clean_name": "Sapphire NITRO+ Radeon RX 6800",
         "chipset": "Radeon RX 6800",
         "vram": "16 GB"
+    },
+    {
+        "id": "23c7cf5a-33c6-4cef-a39e-d9ff46b4399b",
+        "name": "Gigabyte Radeon RX 9070 XT GAMING OC ICE 16G",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte Radeon RX 9070 XT GAMING OC ICE 16G"
     },
     {
         "id": "905f3f75-7c20-4822-99dc-5d3f1029f203",
@@ -32320,6 +32341,13 @@
         "clean_name": "Palit GamingPro OC GeForce RTX 4070 Ti SUPER GDDR6X White / Silver",
         "chipset": "GeForce RTX 4070 Ti SUPER",
         "vram": "16GB"
+    },
+    {
+        "id": "124d272b-02bc-4e79-89da-72c35e456992",
+        "name": "ASUS Dual RTX 5070 EVO",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "ASUS Dual RTX 5070 EVO"
     },
     {
         "id": "4b09e78e-5a07-413b-af6b-fcb399bc13f6",

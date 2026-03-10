@@ -2859,6 +2859,13 @@
         "case_type": "Full Tower"
     },
     {
+        "id": "44d8da4f-db23-4e05-82ed-bea087b1a580",
+        "name": "MOROVOL PC Case Center Ring LED Fans 621-N4 ",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MOROVOL PC Center Ring LED Fans 621-N4"
+    },
+    {
         "id": "ca96d961-6d33-4350-aade-64f26cf1b0b1",
         "name": "MSI MAG PANO M100R PZ Micro ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C / USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -4513,6 +4520,13 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "b94e9642-9979-490a-8072-ccaee5ff3d62",
+        "name": "MOROVOL PC Case Outer Ring LED Fans 621-N4 ",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MOROVOL PC Outer Ring LED Fans 621-N4"
+    },
+    {
         "id": "606dad72-1ab4-4f68-aac7-1035a53ed4d1",
         "name": "MagniumGear NEO Silent (2023) ATX Mid Tower Black Tempered Glass",
         "variant": "",
@@ -4797,6 +4811,13 @@
         "clean_name": "DIYPC Dragon-R-4LED Black / Red Tempered Glass Side Panel, USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"
+    },
+    {
+        "id": "dfc3e753-e914-49cf-93dc-b74ced1f5b4a",
+        "name": "Fractal Design Epoch XL White Clear Side Panel",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Fractal Design Epoch XL White Clear Side Panel"
     },
     {
         "id": "f1273780-c123-4df8-888f-ba33ef1b3498",
@@ -5666,6 +5687,15 @@
         "variant": "",
         "amazon_sku": "",
         "clean_name": "Zalman Z10 Black Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
+        "motherboard_support": "ATX",
+        "case_type": "Mid Tower"
+    },
+    {
+        "id": "6da71c4f-46c8-48bc-8f21-7dbe60a667bf",
+        "name": "darkFlash DS900W Wood White ATX Mid Tower",
+        "variant": "Wood White",
+        "amazon_sku": "",
+        "clean_name": "darkFlash DS900W Wood White",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"
     },
@@ -9655,6 +9685,14 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "2fdafb20-cc9e-4796-a43b-f323d081cd6a",
+        "name": "darkFlash Floatron F1 mATX White",
+        "variant": "White",
+        "amazon_sku": "",
+        "clean_name": "darkFlash Floatron F1 m White",
+        "motherboard_support": "ATX"
+    },
+    {
         "id": "ae97c0fe-b140-4496-9009-ad01528a5a58",
         "name": "Thermaltake Core P3 ATX Mid Tower Black Tempered Glass Side Panel",
         "variant": "",
@@ -12566,6 +12604,13 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "08239b12-3054-4826-a45d-24b353ef57ff",
+        "name": "be quiet! Light Base 500 LX Black",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "be quiet! Light Base 500 LX Black"
+    },
+    {
         "id": "7c942cc1-e1db-4143-935b-fb7534aca62b",
         "name": "ASUS ROG Hyperion GR701 Tempered Glass eATX Full Tower Computer Case - Black",
         "variant": "Black",
@@ -13001,6 +13046,13 @@
         "clean_name": "Thermaltake View 300 MX Black Tempered Glass Side Panel",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"
+    },
+    {
+        "id": "1658c495-3a76-4664-aa01-25190ef1d9f6",
+        "name": "Fractal Design Epoch XL White RGB Light Tint",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Fractal Design Epoch XL White RGB Light Tint"
     },
     {
         "id": "0fa3fd41-8826-4b46-8114-235669113b78",
@@ -16269,6 +16321,13 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "4f16647f-3adc-42ab-9ca0-d54f22e2074a",
+        "name": "Fractal Design Epoch XL Black Solid Side Panel",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Fractal Design Epoch XL Black Solid Side Panel"
+    },
+    {
         "id": "d55cf83e-db14-4235-91c2-f97ef168d621",
         "name": "Aerocool Rift ATX Mid Tower Black Acrylic Side Panel USB 3.2 Gen 1 + USB 2.0 Front Panel",
         "variant": "",
@@ -17147,6 +17206,13 @@
         "motherboard_support": "Mini-ITX"
     },
     {
+        "id": "fadc6c3c-ed8c-404b-899a-71dea8468778",
+        "name": "Fractal Design Epoch XL Black RGB Light Tint",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Fractal Design Epoch XL Black RGB Light Tint"
+    },
+    {
         "id": "18a08afb-dc9b-459a-8bf1-de148727e4d3",
         "name": "Corsair FRAME 4000D RS ARGB ATX Mid Tower White Tempered Glass Side Panel",
         "variant": "",
@@ -17943,7 +18009,7 @@
         "id": "92cf5de8-ac3a-44c5-9619-c29153dcca40",
         "name": "Fractal Design Meshify C ATX Mid Tower Black Tinted Tempered Glass",
         "variant": "",
-        "amazon_sku": "B074PGBGHW",
+        "amazon_sku": "B074DQVB97",
         "clean_name": "Fractal Design Meshify C Black Tinted Tempered Glass",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"
@@ -19621,6 +19687,13 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "7653027b-e15a-49b5-8fc8-89980ec74673",
+        "name": "be quiet! Light Base 500 LX White",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "be quiet! Light Base 500 LX White"
+    },
+    {
         "id": "469f9d59-a72a-46a2-acec-faac110960f1",
         "name": "DIYPC ARGB-Q1.V2 Micro ATX Mini Tower Black Tempered Glass Side Panel, Front USB Type-C and USB 2.0",
         "variant": "",
@@ -20286,6 +20359,15 @@
         "clean_name": "Lian Li O11D XL-W White / Black Tempered Glass",
         "motherboard_support": "ATX",
         "case_type": "Full Tower"
+    },
+    {
+        "id": "d90f9f86-09d2-4da8-bbca-d08c90129732",
+        "name": "darkFlash DS900W Wood Black ATX Mid Tower",
+        "variant": "Wood Black",
+        "amazon_sku": "",
+        "clean_name": "darkFlash DS900W Wood Black",
+        "motherboard_support": "ATX",
+        "case_type": "Mid Tower"
     },
     {
         "id": "083d0488-b968-4eb9-bad2-855844b89094",
@@ -22404,6 +22486,14 @@
         "motherboard_support": "Mini-ITX"
     },
     {
+        "id": "3bf998dc-79c5-4b40-b49e-ac0a3e0738bd",
+        "name": "darkFlash Floatron F1 mATX Black",
+        "variant": "Black",
+        "amazon_sku": "",
+        "clean_name": "darkFlash Floatron F1 m Black",
+        "motherboard_support": "ATX"
+    },
+    {
         "id": "04c32127-b73b-4aa7-b2c6-c7a9cae97de9",
         "name": "MUSETEX Y4 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -24282,6 +24372,13 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "4a8e705b-c792-4ebb-9bf6-0ac1312889dc",
+        "name": "be quiet! Light Base 500",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "be quiet! Light Base 500"
+    },
+    {
         "id": "cfdf9644-bf4a-4de2-af08-2da705a8f0f9",
         "name": "Montech AIR 903 MAX, E-ATX Mid Tower Case, High Airflow, 3x 140mm ARGB PWM & 1x 140mm PWM Fans Pre-installed, Tempered Glass Side Panel, Mesh Front, TYPE-C, Support 4090 GPUs, Black",
         "variant": "Black",
@@ -25102,6 +25199,13 @@
         "clean_name": "Deepcool MATREXX 50 MESH 4FS Black Tempered Glass",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"
+    },
+    {
+        "id": "37794324-8571-4e15-9baa-717ea169e4f1",
+        "name": "Fractal Design Epoch XL Black Light Tint",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Fractal Design Epoch XL Black Light Tint"
     },
     {
         "id": "29133c68-e164-4773-a2bf-30ae2f6bed63",
@@ -30973,6 +31077,15 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "d0fba4f1-b215-4b00-afd2-8983fb374840",
+        "name": "HYTE Y70 ATX Mid Tower Matcha Milk Tempered Glass Side Panel",
+        "variant": "Matcha",
+        "amazon_sku": "B0FYM99XK3",
+        "clean_name": "HYTE Y70 Matcha Milk Tempered Glass Side Panel",
+        "motherboard_support": "ATX",
+        "case_type": "Mid Tower"
+    },
+    {
         "id": "644c88d4-4f3e-4eb2-af1c-d6aa7a016878",
         "name": "KOLINK KLM-002 Micro ATX Mini Tower Black",
         "variant": "",
@@ -31605,7 +31718,7 @@
         "id": "7aeb1901-d0d4-4727-aac0-fb351efb3abc",
         "name": "MSI MPG GUNGNIR 100 ATX Mid Tower Black Tempered Glass Side Panel",
         "variant": "",
-        "amazon_sku": "B07P1FDKPY",
+        "amazon_sku": "B07MZFGFDH",
         "clean_name": "MSI MPG GUNGNIR 100 Black Tempered Glass Side Panel",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"

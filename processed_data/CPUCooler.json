@@ -214,7 +214,7 @@
     {
         "id": "1418de1e-5d91-4338-9188-16b777ebddab",
         "name": "Thermalright Peerless Assassin 120 SE V3 Air 155mm 70.84 CFM Black / Silver",
-        "variant": "Black / Silver",
+        "variant": "Assassin 120 SE V3",
         "amazon_sku": "B0DMVZ3YQ7",
         "clean_name": "Thermalright Peerless Assassin 120 SE V3 Air 70.84 CFM Black / Silver",
         "radiator_size": "155mm"
@@ -895,7 +895,7 @@
     {
         "id": "e2a60963-3258-49b7-843b-4b43883ba76b",
         "name": "Razer Hanbo Chroma Water 240mm Black",
-        "variant": "Black",
+        "variant": "",
         "amazon_sku": "B09P1ZGP47",
         "clean_name": "Razer Hanbo Chroma Water Black",
         "radiator_size": "240mm"
@@ -1612,6 +1612,13 @@
         "radiator_size": "120mm"
     },
     {
+        "id": "e8b9e91d-1fbd-45cc-9c5d-eeb13b44cd37",
+        "name": "darkFlash E400 Black",
+        "variant": "Black",
+        "amazon_sku": "",
+        "clean_name": "darkFlash E400 Black"
+    },
+    {
         "id": "682255d5-e1fe-4a20-b9e7-34cc81affe7f",
         "name": "HYTE THICC Q80 Trio Water 360mm Black",
         "variant": "Black",
@@ -1930,7 +1937,7 @@
     {
         "id": "bfd77a26-e4fc-41cf-bb9e-9cce7cd3cc47",
         "name": "MSI MPG CORELIQUID D360 Water 360mm 77.4 CFM Black",
-        "variant": "Black",
+        "variant": "",
         "amazon_sku": "B0CMCTG7MT",
         "clean_name": "MSI MPG CORELIQUID D360 Water 77.4 CFM Black",
         "radiator_size": "360mm"
@@ -2404,6 +2411,13 @@
         "amazon_sku": "",
         "clean_name": "Deepcool ICE BLADE PRO V2.0 Air 60.29 CFM",
         "radiator_size": "161mm"
+    },
+    {
+        "id": "30f5e71c-4087-43c8-9c6f-f1b9537cb996",
+        "name": "darkFlash DV360S MAX White",
+        "variant": "360S MAX White",
+        "amazon_sku": "",
+        "clean_name": "darkFlash DV360S MAX White"
     },
     {
         "id": "de125549-e5f4-4fd1-9798-ee02b74ce2f8",
@@ -5394,6 +5408,13 @@
         "clean_name": "Deepcool AK400 Performance"
     },
     {
+        "id": "c0d91a86-d4af-45c5-91e6-0bd93ea9168a",
+        "name": "darkFlash DE360 White",
+        "variant": "360 White",
+        "amazon_sku": "",
+        "clean_name": "darkFlash DE360 White"
+    },
+    {
         "id": "ee009e1e-fef5-4798-9629-896fc7697b77",
         "name": "Lian Li Hydroshift II LCD-C CL 72 CFM Water 360mm White",
         "variant": "White",
@@ -7056,7 +7077,7 @@
     {
         "id": "2fa45cbb-7dce-433f-981f-2f46b1f5d61d",
         "name": "Cooler Master Hyper 212 Black Edition Air 159mm 42 CFM Black",
-        "variant": "Black",
+        "variant": "212 Black Edition",
         "amazon_sku": "B07H25DYM3",
         "clean_name": "Cooler Master Hyper 212 Black Edition Air 42 CFM Black",
         "radiator_size": "159mm"
@@ -7080,7 +7101,7 @@
     {
         "id": "f330b1f9-b8ee-4b51-960f-f5690afe3076",
         "name": "Razer Hanbo Chroma Water 360mm Black",
-        "variant": "Black",
+        "variant": "360mm Black",
         "amazon_sku": "B09P27JN4C",
         "clean_name": "Razer Hanbo Chroma Water Black",
         "radiator_size": "360mm"
@@ -7171,6 +7192,13 @@
         "amazon_sku": "",
         "clean_name": "Scythe Mugen 5 Black Edition Air Black",
         "radiator_size": "154mm"
+    },
+    {
+        "id": "952c3970-f0d0-4cf7-8c36-74f98bbed603",
+        "name": " ID-COOLING SE-904-XT Black",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "ID-COOLING SE-904-XT Black"
     },
     {
         "id": "d3128143-e04b-4136-8956-dbc8c1a70b3e",
@@ -8096,6 +8124,13 @@
         "amazon_sku": "B099RTZX79",
         "clean_name": "ARCTIC Liquid Freezer II 280 Water RGB 68.9 CFM Black",
         "radiator_size": "280mm"
+    },
+    {
+        "id": "414ccdd2-cf62-4e3d-abaf-28719003cde9",
+        "name": "Thermalright Peerless Assassin 120 V3 Black",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Thermalright Peerless Assassin 120 V3 Black"
     },
     {
         "id": "5aaf3d55-01e4-4ccb-a153-78c55026e2a2",
@@ -9260,13 +9295,6 @@
         "clean_name": "Thermaltake ASTRIA 200 Air ARGB Black"
     },
     {
-        "id": "b7be6faf-68c3-40c9-af3d-ad849b1c77d8",
-        "name": "Cooler Master Hyper 212 Black Edition",
-        "variant": "Black Edition",
-        "amazon_sku": "B09KX9V4CT",
-        "clean_name": "Cooler Master Hyper 212 Black Edition"
-    },
-    {
         "id": "d60b03ef-63cd-43a2-ae30-1193a37bb632",
         "name": "Xigmatek Windpower Pro Air 58.5 CFM 157mm Black",
         "variant": "Black",
@@ -10428,14 +10456,6 @@
         "radiator_size": "240mm"
     },
     {
-        "id": "af8d7173-1fa6-46a2-9878-91b0d9007dbf",
-        "name": "Cooler Master Hyper 212 Black Edition 42 CFM Air 159mm Black",
-        "variant": "",
-        "amazon_sku": "B09KX9V4CT",
-        "clean_name": "Cooler Master Hyper 212 Black Edition 42 CFM Air Black",
-        "radiator_size": "159mm"
-    },
-    {
         "id": "fd5ffbbf-d736-45da-b269-3fc263ac4eeb",
         "name": "Alpenföhn Glacier White Water 360mm High Speed 77.9 CFM White",
         "variant": "White",
@@ -11122,7 +11142,7 @@
         "id": "5372cdd1-cd6e-4a27-bb08-100cfd44651d",
         "name": "Thermalright AXP120-X67 Air 67mm 59 CFM White",
         "variant": "White",
-        "amazon_sku": "B0C4D3TF5T",
+        "amazon_sku": "B0G4GWDDZL",
         "clean_name": "Thermalright AXP120-X67 Air 59 CFM White",
         "radiator_size": "67mm"
     },
@@ -12102,6 +12122,13 @@
         "radiator_size": "360mm"
     },
     {
+        "id": "81df22ba-beea-43c5-b518-1f605bb67d6d",
+        "name": "darkFlash DE360 Black",
+        "variant": "360 Black",
+        "amazon_sku": "",
+        "clean_name": "darkFlash DE360 Black"
+    },
+    {
         "id": "b1458a13-3ca9-42a4-b39c-29fac889a38c",
         "name": "Deepcool LT520 Water 240mm Black / Gray",
         "variant": "Black / Gray",
@@ -12353,6 +12380,13 @@
         "amazon_sku": "B0CLQW3LT1",
         "clean_name": "Deepcool AK500 DIGITAL Air White",
         "radiator_size": "160mm"
+    },
+    {
+        "id": "31b62800-12ab-4afc-8824-8fa3bbacf153",
+        "name": "darkFlash E400 White",
+        "variant": "White",
+        "amazon_sku": "",
+        "clean_name": "darkFlash E400 White"
     },
     {
         "id": "c747f4eb-435a-408b-b824-17a45430c3a1",
@@ -13015,7 +13049,7 @@
     {
         "id": "426f8510-e96b-4c5e-91e1-56e8a3aa74b2",
         "name": "MSI MPG CORELIQUID D240 Water 240mm 77.4 CFM Black",
-        "variant": "Black",
+        "variant": "240mm Black",
         "amazon_sku": "B0CNDXDQMT",
         "clean_name": "MSI MPG CORELIQUID D240 Water 77.4 CFM Black",
         "radiator_size": "240mm"
@@ -13560,6 +13594,13 @@
         "amazon_sku": "",
         "clean_name": "Zalman CNPS20X Air 61 CFM Black / Silver",
         "radiator_size": "165mm"
+    },
+    {
+        "id": "f7f0e95c-6411-4e89-a13b-1c24ab8e9dae",
+        "name": "darkFlash DV360S MAX",
+        "variant": "360S MAX Black",
+        "amazon_sku": "",
+        "clean_name": "darkFlash DV360S MAX"
     },
     {
         "id": "88455f8a-3adf-44bd-9b49-cdfe1b38c225",
@@ -16033,6 +16074,13 @@
         "radiator_size": "36mm"
     },
     {
+        "id": "73155025-b8e1-440e-9efb-38bc1eb2748e",
+        "name": "darkFlash DE240 White",
+        "variant": "240 White",
+        "amazon_sku": "",
+        "clean_name": "darkFlash DE240 White"
+    },
+    {
         "id": "caf0fb1f-31ce-4724-8c2c-e7156ccee731",
         "name": "Noctua NH-D12L Chromax Black Air 145mm Black",
         "variant": "Black",
@@ -16597,6 +16645,13 @@
         "amazon_sku": "B0CLLG75HP",
         "clean_name": "PC Cooler RZ620 Air 86.73 CFM Black / Silver",
         "radiator_size": "158mm"
+    },
+    {
+        "id": "559fa01d-a3e1-4da4-90ad-7029061e3777",
+        "name": "Thermalright Peerless Assassin 120 WHITE V3",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Thermalright Peerless Assassin 120 WHITE V3"
     },
     {
         "id": "b0b2c667-86e1-4b7d-9701-822ef26845a0",
@@ -17917,12 +17972,26 @@
         "radiator_size": "145mm"
     },
     {
+        "id": "03aa26f2-4307-46c6-85b1-36ad768a12c6",
+        "name": "Thermalright Peerless Assassin 140 SE Black/Silver",
+        "variant": "Assassin 140 SE",
+        "amazon_sku": "‎B0FV8K4SWY",
+        "clean_name": "Thermalright Peerless Assassin 140 SE Black/Silver"
+    },
+    {
         "id": "c28ba6de-5ff5-4c7c-a2cc-48f13f2f3bac",
         "name": "NZXT Kraken Elite 360 (2024) Water 360mm 73.47 CFM Black",
         "variant": "Black",
         "amazon_sku": "",
         "clean_name": "NZXT Kraken Elite 360 (2024) Water 73.47 CFM Black",
         "radiator_size": "360mm"
+    },
+    {
+        "id": "b6eabcce-fc42-4601-a52b-962075b5c888",
+        "name": "darkFlash DE240 Black",
+        "variant": "240 Black",
+        "amazon_sku": "",
+        "clean_name": "darkFlash DE240 Black"
     },
     {
         "id": "62921f13-8bd6-4e2d-a788-ab8cfa5da33c",
