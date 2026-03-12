@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: 'main-repo'
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout BuildCore repository
         uses: actions/checkout@v4
