@@ -6777,6 +6777,14 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
+        "id": "e8e8fbda-3c09-47b0-8c69-6c9c6a1b9c9c",
+        "name": "ADATA SU800 2TB 3D-NAND 2.5 Inch",
+        "variant": "",
+        "amazon_sku": "B07GBRG2G8",
+        "clean_name": "ADATA SU800 3D-NAND 2.5 Inch",
+        "capacity": "2TB"
+    },
+    {
         "id": "5887e4a3-ea25-42c4-8355-f90559be6105",
         "name": "Silicon Power S60 3K P/E 120GB SSD 2.5\" SATA",
         "variant": "120GB",
@@ -23469,6 +23477,14 @@
         "capacity": "1TB",
         "interface": "PCIe 5.0 x4",
         "storage_type": "SSD, M.2, NVMe"
+    },
+    {
+        "id": "6b6b9644-931c-46cd-af54-77f855c6097a",
+        "name": "Seagate BarraCuda Pro 12TB 256MB Cache",
+        "variant": "",
+        "amazon_sku": "B07H2FGPND",
+        "clean_name": "Seagate BarraCuda Pro 256MB Cache",
+        "capacity": "12TB"
     },
     {
         "id": "35c11854-3cec-435b-a62a-bbdb1bfe1d22",

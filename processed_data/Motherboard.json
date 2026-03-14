@@ -1422,6 +1422,15 @@
         "memory_type": "DDR4"
     },
     {
+        "id": "7bd359b2-5558-49cd-b2b3-414941925720",
+        "name": "ASRock X370 Killer SLI AM4",
+        "variant": "",
+        "amazon_sku": "B06X9CN71V",
+        "clean_name": "ASRock X370 Killer SLI",
+        "socket": "AM4",
+        "form_factor": "ATX"
+    },
+    {
         "id": "02ca4059-80eb-4611-9730-a835fe80f39e",
         "name": "Biostar Z590 MHP DDR4 Micro ATX",
         "variant": "",
@@ -16320,7 +16329,7 @@
     {
         "id": "1e046f02-c2cc-4cac-9c7f-b68448caf9cc",
         "name": "Asus Z490 PRIME-P LGA1200 DDR4 ATX",
-        "variant": "Pime-P",
+        "variant": "Prime-P",
         "amazon_sku": "B07ZT3F95V",
         "clean_name": "Asus Z490 PRIME-P",
         "socket": "LGA 1200",
@@ -21451,6 +21460,13 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5"
+    },
+    {
+        "id": "bb7ea50a-59e9-49cc-af02-a83e4c511c39",
+        "name": "MB ASRock AMD TRX50 Threadripper",
+        "variant": "",
+        "amazon_sku": "B0CP18RY4B",
+        "clean_name": "MB ASRock AMD TRX50 Threadripper"
     },
     {
         "id": "d078fe2d-1b09-4621-92d0-3ea05db26507",
@@ -32268,6 +32284,16 @@
         "memory_type": "DDR5"
     },
     {
+        "id": "3b8ea8c0-ebcf-4f12-aebb-4c0e465a643c",
+        "name": "GIGABYTE H310M A LGA1151 DDR4",
+        "variant": "",
+        "amazon_sku": "B07CMFZ51Z",
+        "clean_name": "GIGABYTE H310M A",
+        "socket": "LGA1151",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
         "id": "2240d457-8566-4793-adf7-10effd3dd63e",
         "name": "Asus Z590-I ROG STRIX GAMING WIFI DDR4 Mini ITX",
         "variant": "",
@@ -33858,6 +33884,13 @@
         "socket": "LGA 2011-3",
         "form_factor": "ATX",
         "memory_type": "DDR4"
+    },
+    {
+        "id": "d7a72f37-8f95-42f0-bf16-614805f2623a",
+        "name": "GIGABYTE TRYX50 AERO D",
+        "variant": "",
+        "amazon_sku": "B0CPW1F841",
+        "clean_name": "GIGABYTE TRYX50 AERO D"
     },
     {
         "id": "80ade33c-d3c5-4c7a-9ab8-6b11fa31dbf0",
