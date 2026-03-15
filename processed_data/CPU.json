@@ -1071,6 +1071,18 @@
         "clock_speed": "4 GHz"
     },
     {
+        "id": "42bf3737-1201-40d1-bfd8-7bf606507deb",
+        "name": "Intel Core Ultra 5 250K Plus",
+        "variant": "250K Plus",
+        "amazon_sku": "",
+        "clean_name": "Intel Core Ultra 5 250K Plus",
+        "socket": "LGA 1851",
+        "cores": 18,
+        "threads": 18,
+        "tdp": 125,
+        "ram_type": "DDR5"
+    },
+    {
         "id": "f5b522d1-aeea-4809-ab0b-b57aec6ba58e",
         "name": "Intel Core Ultra 7 265KF 3.9 GHz 20-Core LGA1851",
         "variant": "",
@@ -4082,6 +4094,18 @@
         "tdp": 65,
         "ram_type": "DDR4",
         "clock_speed": "3.9 GHz"
+    },
+    {
+        "id": "9b2f142a-6a8f-46bd-a0aa-4b842a20fa18",
+        "name": "Intel Core Ultra 7 270K Plus",
+        "variant": "270K Plus",
+        "amazon_sku": "",
+        "clean_name": "Intel Core Ultra 7 270K Plus",
+        "socket": "LGA 1851",
+        "cores": 24,
+        "threads": 24,
+        "tdp": 125,
+        "ram_type": "DDR5"
     },
     {
         "id": "7902c011-a69a-4cf3-bcad-0baa94831e43",
