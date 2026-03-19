@@ -18065,9 +18065,10 @@
     {
         "id": "55be5edb-dad5-4724-8519-7fc0dec87435",
         "name": "ASUS Dual RTX 5070 EVO OC",
-        "variant": "",
+        "variant": "Dual OC 16GB",
         "amazon_sku": "",
-        "clean_name": "ASUS Dual RTX 5070 EVO OC"
+        "clean_name": "ASUS Dual RTX 5070 EVO OC",
+        "chipset": "GeForce RTX 5070"
     },
     {
         "id": "0b106685-9416-4d6f-9400-2045db3ed536",
@@ -27463,7 +27464,7 @@
     {
         "id": "348a21fe-e370-4235-b232-0ce4ec566dab",
         "name": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition Graphics Card",
-        "variant": "",
+        "variant": "Workstation Edition",
         "amazon_sku": "B0F7Y644FQ",
         "clean_name": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
         "chipset": "RTX PRO 6000 Blackwell"
@@ -32347,9 +32348,10 @@
     {
         "id": "124d272b-02bc-4e79-89da-72c35e456992",
         "name": "ASUS Dual RTX 5070 EVO",
-        "variant": "",
+        "variant": "Dual EVO 12 GB",
         "amazon_sku": "",
-        "clean_name": "ASUS Dual RTX 5070 EVO"
+        "clean_name": "ASUS Dual RTX 5070 EVO",
+        "chipset": "GeForce RTX 5070"
     },
     {
         "id": "4b09e78e-5a07-413b-af6b-fcb399bc13f6",
