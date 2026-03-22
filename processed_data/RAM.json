@@ -16678,7 +16678,7 @@
         "id": "21361be7-ffe0-45d5-87a9-23d1846adf99",
         "name": "Kingston ValueRAM Green DDR2-800 CL6 2GB (1x2GB)",
         "variant": "800 CL6",
-        "amazon_sku": "B0012Y0QT8",
+        "amazon_sku": "B003N64O6E",
         "clean_name": "Kingston ValueRAM Green DDR2-800",
         "cas_latency": "CL6",
         "modules_config": "(1x2GB)",
@@ -20909,6 +20909,17 @@
         "cas_latency": "CL32",
         "ram_type": "DDR5-6400",
         "modules_config": "(2x16GB)",
+        "capacity": "32GB"
+    },
+    {
+        "id": "e511f902-1974-46f1-a8f4-b3af3538cf18",
+        "name": "Acer HT200 32GB (2 x 16 GB) DDR5 6000 CL30 Black",
+        "variant": "6000 CL30",
+        "amazon_sku": "",
+        "clean_name": "Acer HT200 6000 Black",
+        "cas_latency": "CL30",
+        "ram_type": "DDR5",
+        "modules_config": "(2 x 16 GB)",
         "capacity": "32GB"
     },
     {
@@ -41567,7 +41578,7 @@
         "id": "fdd76266-1902-4907-a6be-bb3a8c312788",
         "name": "Crucial CT2KIT12864AA800 Green DDR2-800 CL6 2GB (2x1GB)",
         "variant": "800 CL6",
-        "amazon_sku": "B004Y3BIO6",
+        "amazon_sku": "B0011XDF84",
         "clean_name": "Crucial CT2KIT12864AA800 Green DDR2-800",
         "cas_latency": "CL6",
         "modules_config": "(2x1GB)",
@@ -45154,6 +45165,17 @@
         "cas_latency": "CL34",
         "ram_type": "DDR5-7200",
         "modules_config": "(2x16GB)",
+        "capacity": "32GB"
+    },
+    {
+        "id": "941d48a2-3ce7-4464-9371-a82cc1e86f8d",
+        "name": "Acer HT200 32GB (2 x 16 GB) DDR5 6000 CL30 Silver/Grey",
+        "variant": "6000 CL30",
+        "amazon_sku": "",
+        "clean_name": "Acer HT200 6000 Silver/Grey",
+        "cas_latency": "CL30",
+        "ram_type": "DDR5",
+        "modules_config": "(2 x 16 GB)",
         "capacity": "32GB"
     },
     {
