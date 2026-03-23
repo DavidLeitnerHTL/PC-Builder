@@ -3925,7 +3925,7 @@
         "id": "0bd31f89-46f3-487c-83d4-878518c4455a",
         "name": "Crucial P3 Plus 1TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
         "variant": "1000GB",
-        "amazon_sku": "B0BG83287J",
+        "amazon_sku": "B0B25NXWC7",
         "clean_name": "Crucial P3 Plus -2280",
         "capacity": "1TB",
         "interface": "PCIe 4.0 x4",
@@ -6854,7 +6854,7 @@
     {
         "id": "4b745082-6444-4db6-90ca-5552841ef191",
         "name": "Sabrent Rocket 4 Plus G 4TB M.2 SSD PCIe 4.0 NVMe",
-        "variant": "4000GB",
+        "variant": "4TB",
         "amazon_sku": "B0BJ1283X8",
         "clean_name": "Sabrent Rocket 4 Plus G",
         "capacity": "4TB",
@@ -14179,7 +14179,7 @@
         "id": "7ca6a6c7-f87c-4fed-b43f-6b2806fffb1f",
         "name": "SanDisk Ultra 3D 500GB SSD 2.5\" SATA",
         "variant": "500GB",
-        "amazon_sku": "B0B7VWFN4B",
+        "amazon_sku": "B072R78B6Q",
         "clean_name": "SanDisk Ultra 3D 2.5\" SATA",
         "capacity": "500GB",
         "storage_type": "SSD"
@@ -14289,7 +14289,7 @@
     {
         "id": "525b1232-fdf9-4cb8-aed9-5dfe1321c20f",
         "name": "SABRENT 1TB Rocket NVMe 4.0 Gen4 PCIe M.2 Internal SSD Extreme Performance Solid State Drive (SB-ROCKET-NVMe4-1TB)",
-        "amazon_sku": "B07XC95WLQ",
+        "amazon_sku": "B07TKYWB3K",
         "clean_name": "SABRENT Rocket 4.0 PCIe Internal Extreme Performance (SB-ROCKET-4-)",
         "capacity": "1TB",
         "interface": "Gen4",
@@ -14844,11 +14844,11 @@
     },
     {
         "id": "984b3ae7-c973-4c4d-9922-f21b74dba0c3",
-        "name": "Kingston FURY Renegade G5 2.048 TB M.2-2280 SSD PCIe 5.0 x4 NVMe",
+        "name": "Kingston FURY Renegade G5 2TB M.2-2280 SSD PCIe 5.0 x4 NVMe",
         "variant": "2000GB",
         "amazon_sku": "B0F4455L4R",
         "clean_name": "Kingston FURY Renegade G5 -2280",
-        "capacity": "2.048 TB",
+        "capacity": "2TB",
         "interface": "PCIe 5.0 x4",
         "storage_type": "M.2, SSD, NVMe"
     },
@@ -17850,15 +17850,6 @@
         "capacity": "4TB",
         "interface": "PCIe 5.0",
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "e1d616f5-10bc-4a2b-9a18-5c90d14c0c0e",
-        "name": "Crucial MX300 1TB SSD M.2-2280 SATA",
-        "variant": "1000GB",
-        "amazon_sku": "",
-        "clean_name": "Crucial MX300 -2280 SATA",
-        "capacity": "1TB",
-        "storage_type": "SSD, M.2"
     },
     {
         "id": "9e104a0b-eadc-4103-8dd5-0a85127c82d1",
@@ -21060,7 +21051,7 @@
         "id": "2c77130b-cfbf-47ae-b868-e6eb205d774f",
         "name": "Crucial MX500 1TB SSD M.2 SATA",
         "variant": "1000GB",
-        "amazon_sku": "B01N6PMZLW",
+        "amazon_sku": "",
         "clean_name": "Crucial MX500 SATA",
         "capacity": "1TB",
         "storage_type": "SSD, M.2"
@@ -21929,7 +21920,7 @@
         "id": "610eef8c-3ce0-4949-ae01-7f19bd0204ab",
         "name": "Hitachi A7K2000 1TB 3.5\" HDD 7200RPM SATA",
         "variant": "1000GB",
-        "amazon_sku": "B003CF4NBM",
+        "amazon_sku": "B003BJSQ4Y",
         "clean_name": "Hitachi A7K2000 3.5\" 7200RPM SATA",
         "capacity": "1TB",
         "storage_type": "HDD"
@@ -23490,7 +23481,7 @@
         "id": "35c11854-3cec-435b-a62a-bbdb1bfe1d22",
         "name": "Crucial BX500 2TB 2.5\" SSD SATA 6.0 Gb/s",
         "variant": "2000GB",
-        "amazon_sku": "B085R92V2J",
+        "amazon_sku": "B07YD5F561",
         "clean_name": "Crucial BX500 2.5\" SATA /s",
         "capacity": "2TB, 6.0 Gb",
         "storage_type": "SSD"
@@ -24416,7 +24407,7 @@
         "id": "16dc2eab-0229-4680-975a-74c8df80ba8f",
         "name": "Western Digital AV-GP 2TB 3.5\" Internal HDD 5400RPM SATA 6.0 Gb/s",
         "variant": "2000GB",
-        "amazon_sku": "B0042AG9V8",
+        "amazon_sku": "B00DXOJJQQ",
         "clean_name": "Western Digital AV-GP 3.5\" Internal 5400RPM SATA /s",
         "capacity": "2TB, 6.0 Gb",
         "storage_type": "HDD"
@@ -26548,7 +26539,7 @@
         "id": "3656fcb5-05ef-4167-8d7d-b348ea9e451a",
         "name": "Western Digital WD_BLACK SN7100 2TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
         "variant": "2000GB",
-        "amazon_sku": "B0DTQ315W6",
+        "amazon_sku": "B0DN6ZQ3PD",
         "clean_name": "Western Digital WD_BLACK SN7100 -2280",
         "capacity": "2TB",
         "interface": "PCIe 4.0 x4",
@@ -28336,7 +28327,7 @@
     {
         "id": "060a50e7-3cfd-4582-9b81-ead8ed1c1dee",
         "name": "Samsung 990 Pro w/Heatsink 2TB SSD M.2-2280 PCIe 4.0 NVMe",
-        "variant": "2000GB",
+        "variant": "w/Heatsink 2TB",
         "amazon_sku": "B0BHJDY57J",
         "clean_name": "Samsung 990 Pro w/Heatsink -2280",
         "capacity": "2TB",
@@ -28530,10 +28521,10 @@
     },
     {
         "id": "036ace82-80b8-4408-bde3-359bc999ee80",
-        "name": "Kingston NV3 PCIe 4.0 NVMe SSD",
+        "name": "Kingston NV3 PCIe 4.0 NVMe SSD 2280",
         "variant": "1TB",
         "amazon_sku": "B0DBR3DZWG",
-        "clean_name": "Kingston NV3",
+        "clean_name": "Kingston NV3 2280",
         "interface": "PCIe 4.0",
         "storage_type": "NVMe, SSD"
     },
@@ -28953,7 +28944,7 @@
         "id": "b802bd14-1f41-4b88-9a75-af112f0536e1",
         "name": "Seagate Barracuda LP 1TB HDD 5900RPM 3.5\" SATA 3.0 Gb/s",
         "variant": "1000GB",
-        "amazon_sku": "B002CPQXB6",
+        "amazon_sku": "B002GPDO28",
         "clean_name": "Seagate Barracuda LP 5900RPM 3.5\" SATA /s",
         "capacity": "1TB, 3.0 Gb",
         "storage_type": "HDD"
