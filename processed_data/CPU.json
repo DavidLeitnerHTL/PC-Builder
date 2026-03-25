@@ -51,13 +51,12 @@
     {
         "id": "b7d6999e-97a3-4ca1-b9d4-f266e4d60135",
         "name": "AMD Ryzen 5 8400F 4.2 GHz 6-Core AM5",
-        "variant": "",
+        "variant": "8400F",
         "amazon_sku": "B0D2JD6P86",
         "clean_name": "AMD Ryzen 5 8400F",
         "socket": "AM5",
         "cores": 6,
         "threads": 12,
-        "tdp": 65,
         "ram_type": "DDR5",
         "clock_speed": "4.2 GHz"
     },
@@ -202,7 +201,7 @@
     {
         "id": "28155df9-8c91-4150-8786-96b8c54c309c",
         "name": "Intel Core i7 13700K 3.4 GHz 16-Core LGA1700",
-        "variant": "",
+        "variant": "13700K",
         "amazon_sku": "B0BCF57FL5",
         "clean_name": "Intel Core i7 13700K",
         "socket": "LGA 1700",
@@ -356,7 +355,7 @@
     {
         "id": "622e7110-ebf4-4040-93f6-5b37e82ff02e",
         "name": "Intel Core i7 14700K 3.4 GHz 20-Core LGA1700",
-        "variant": "",
+        "variant": "14700K",
         "amazon_sku": "B0CGJ41C9W",
         "clean_name": "Intel Core i7 14700K",
         "socket": "LGA 1700",
@@ -639,7 +638,7 @@
     {
         "id": "6b03b443-7b22-491c-b301-7e2a285359df",
         "name": "AMD Ryzen 5 7600 3.8 GHz 6-Core AM5",
-        "variant": "",
+        "variant": "7600",
         "amazon_sku": "B0BMQJWBDM",
         "clean_name": "AMD Ryzen 5 7600",
         "socket": "AM5",
@@ -960,7 +959,7 @@
     {
         "id": "402c2508-a75c-4f4d-9d09-778349ae72bb",
         "name": "Intel Core i7 14700KF 3.4 GHz 20-Core LGA1700",
-        "variant": "",
+        "variant": "14700KF",
         "amazon_sku": "B0CGJC178L",
         "clean_name": "Intel Core i7 14700KF",
         "socket": "LGA 1700",
@@ -2064,7 +2063,7 @@
     {
         "id": "41a8238b-049f-46db-a304-0c8ece1a8d73",
         "name": "Intel Core i7 12700K 3.6 GHz 12-Core LGA1700",
-        "variant": "",
+        "variant": "12700K",
         "amazon_sku": "B09FXNVDBJ",
         "clean_name": "Intel Core i7 12700K",
         "socket": "LGA 1700",
@@ -2077,7 +2076,7 @@
     {
         "id": "4fb54223-132b-42ac-b668-4be50bb6df71",
         "name": "AMD Ryzen 9 7950X3D 4.2 GHz 16-Core AM5",
-        "variant": "",
+        "variant": "7950X3D",
         "amazon_sku": "B0BTRH9MNS",
         "clean_name": "AMD Ryzen 9 7950X3D",
         "socket": "AM5",
@@ -2757,7 +2756,7 @@
     {
         "id": "19fbd8f2-a226-4b83-9e5d-683db638d337",
         "name": "Intel Core i5 12400F 2.5 GHz 6-Core LGA1700",
-        "variant": "",
+        "variant": "12400F",
         "amazon_sku": "B09NPJRDGD",
         "clean_name": "Intel Core i5 12400F",
         "socket": "LGA 1700",
@@ -3402,7 +3401,7 @@
     {
         "id": "e2cf2532-8c57-4ec2-96fb-4aaa846c8ca6",
         "name": "Intel Core Ultra 9 285K 3.7 GHz 24-Core LGA1851",
-        "variant": "",
+        "variant": "285K",
         "amazon_sku": "B0DFKC99VL",
         "clean_name": "Intel Core Ultra 9 285K",
         "socket": "LGA 1851",
@@ -3500,7 +3499,7 @@
     {
         "id": "ee2ac384-a2d9-4324-88af-d4765e604bcf",
         "name": "AMD Ryzen 9 9950X 4.3 GHz 16-Core AM5",
-        "variant": "",
+        "variant": "9950X",
         "amazon_sku": "B0D6NNRBGP",
         "clean_name": "AMD Ryzen 9 9950X",
         "socket": "AM5",
@@ -3875,7 +3874,7 @@
     {
         "id": "0240f7db-68e5-4aac-9438-41d2f12ec15a",
         "name": "Intel Core i5 14400F 2.5 GHz 10-Core LGA1700",
-        "variant": "",
+        "variant": "14400F",
         "amazon_sku": "B0CQ1Y7KHV",
         "clean_name": "Intel Core i5 14400F",
         "socket": "LGA 1700",
@@ -4273,7 +4272,7 @@
     {
         "id": "e80823a0-6dd5-47d0-b69b-852e92acf964",
         "name": "Intel Core i9 14900K 3.2 GHz 24-Core LGA1700",
-        "variant": "",
+        "variant": "14900K",
         "amazon_sku": "B0CGJDKLB8",
         "clean_name": "Intel Core i9 14900K",
         "socket": "LGA 1700",
@@ -4382,7 +4381,7 @@
     {
         "id": "80eb4799-e845-4499-b4d2-6fdc253d9a48",
         "name": "Intel Core i9 14900KS 3.2 GHz 24-Core LGA1700",
-        "variant": "",
+        "variant": "14900KS",
         "amazon_sku": "B0CXHMTHWP",
         "clean_name": "Intel Core i9 14900KS",
         "socket": "LGA 1700",
@@ -5114,7 +5113,7 @@
     {
         "id": "4d8d9d6b-723c-40ee-b1e9-e6665c58ae75",
         "name": "Intel Core Ultra 7 265K 3.9 GHz 20-Core LGA1851",
-        "variant": "",
+        "variant": "265K",
         "amazon_sku": "B0DFK2MH2D",
         "clean_name": "Intel Core Ultra 7 265K",
         "socket": "LGA 1851",
@@ -5248,13 +5247,12 @@
     {
         "id": "5b3f1331-be66-43b0-b094-ac032d946b0c",
         "name": "AMD Ryzen 5 8500G 4.1 GHz 6-Core AM5",
-        "variant": "",
+        "variant": "8500G",
         "amazon_sku": "B0CQ4JV8D5",
         "clean_name": "AMD Ryzen 5 8500G",
         "socket": "AM5",
         "cores": 6,
         "threads": 12,
-        "tdp": 65,
         "ram_type": "DDR5",
         "clock_speed": "4.1 GHz"
     },
@@ -5286,7 +5284,7 @@
     {
         "id": "b6f5b046-0856-4ef3-9689-5d75ddc92608",
         "name": "AMD Ryzen 9 9900X 4.4 GHz 12-Core AM5",
-        "variant": "",
+        "variant": "9900X",
         "amazon_sku": "B0D6NN87T8",
         "clean_name": "AMD Ryzen 9 9900X",
         "socket": "AM5",
