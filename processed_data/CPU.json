@@ -3138,6 +3138,18 @@
         "clock_speed": "1.8 GHz"
     },
     {
+        "id": "ab9e5786-c671-4a4f-a240-e911e0bfbed6",
+        "name": "AMD Ryzen 7 PRO 4750G",
+        "variant": "PRO 4750G",
+        "amazon_sku": "a",
+        "clean_name": "AMD Ryzen 7 PRO 4750G",
+        "socket": "AM4",
+        "cores": 8,
+        "threads": 16,
+        "tdp": 65,
+        "ram_type": "DDR4"
+    },
+    {
         "id": "09086e21-4979-41ba-a451-3f8bb1c9cc55",
         "name": "AMD Ryzen 7 9700X 3.8 GHz 8-Core AM5",
         "variant": "9700X",
@@ -5287,7 +5299,7 @@
         "id": "9b2f142a-6a8f-46bd-a0aa-4b842a20fa18",
         "name": "Intel Core Ultra 7 270K Plus",
         "variant": "270K Plus",
-        "amazon_sku": "",
+        "amazon_sku": "B0GMLJCBBM",
         "clean_name": "Intel Core Ultra 7 270K Plus",
         "socket": "LGA 1851",
         "cores": 24,
