@@ -2111,12 +2111,12 @@
     },
     {
         "id": "a5e2ece9-9d1d-4ca6-b7fa-61213df1ac99",
-        "name": "NZXT C850 (2022) Black 850W Fully Modular 80+ Gold",
+        "name": "NZXT C850 Fully Modular ATX Power Supply - 850 Watts ATX 3.1 - Black",
         "variant": "850W Gold",
-        "amazon_sku": "B09YYZPVXB",
-        "clean_name": "NZXT C850 (2022) Black",
-        "wattage": "850W",
-        "efficiency": "80+ Gold",
+        "amazon_sku": "",
+        "clean_name": "NZXT C850 - atts 3.1 - Black",
+        "wattage": "850 W",
+        "form_factor": "ATX",
         "modularity": "Fully Modular"
     },
     {
@@ -2745,6 +2745,16 @@
         "efficiency": "80+ Bronze",
         "form_factor": "ATX",
         "modularity": "Non-Modular"
+    },
+    {
+        "id": "991d00c2-04ac-449f-a8a2-72a9ee8c66a6",
+        "name": "Seasonic Focus V4 GX-1000 Fully Modular ATX Power Supply - 1000 Watts ATX 3.1 - White",
+        "variant": "1000W 80+ Gold",
+        "amazon_sku": "B0DP4JRTST",
+        "clean_name": "Seasonic Focus V4 GX-1000 - atts 3.1 - White",
+        "wattage": "1000 W",
+        "form_factor": "ATX",
+        "modularity": "Fully Modular"
     },
     {
         "id": "4ccad2de-98fe-41fb-8692-6c93351d7af3",
@@ -5349,12 +5359,12 @@
     },
     {
         "id": "9a7c181c-4e10-4d78-9524-c8ded8b6ec28",
-        "name": "be quiet! Pure Power 13 M Black 850W Fully Modular 80+ Gold Certified",
+        "name": "be quiet! Pure Power 13 M Fully Modular ATX Power Supply - 850 Watts ATX 3.1 - Black",
         "variant": "850W Gold",
         "amazon_sku": "B0FBY3F1NT",
-        "clean_name": "be quiet! Pure Power 13 M Black",
-        "wattage": "850W",
-        "efficiency": "80+ Gold",
+        "clean_name": "be quiet! Pure Power 13 M - atts 3.1 - Black",
+        "wattage": "850 W",
+        "form_factor": "ATX",
         "modularity": "Fully Modular"
     },
     {
@@ -7938,12 +7948,12 @@
     },
     {
         "id": "1cbbb5bb-dd71-4fef-8cb2-2271aa21b85f",
-        "name": "Enermax PlatiGemini Black 1200W Fully Modular 80+ Platinum Certified",
+        "name": "Enermax PlatiGemini Fully Modular ATX Power Supply - 1200 Watts ATX 3.1 - Black",
         "variant": "1200W Platinum",
-        "amazon_sku": "",
-        "clean_name": "Enermax PlatiGemini Black",
-        "wattage": "1200W",
-        "efficiency": "80+ Platinum",
+        "amazon_sku": "B0CZS4LRJ1",
+        "clean_name": "Enermax PlatiGemini - atts 3.1 - Black",
+        "wattage": "1200 W",
+        "form_factor": "ATX",
         "modularity": "Fully Modular"
     },
     {
@@ -8677,6 +8687,16 @@
         "wattage": "650W",
         "efficiency": "80+ Gold",
         "modularity": "Semi-Modular"
+    },
+    {
+        "id": "528c5c8e-36df-4bbc-96d3-3e88fcacc2fa",
+        "name": "NZXT C1000 Fully Modular ATX Power Supply - 1000 Watts ATX 3.1 - White",
+        "variant": "1000W Gold",
+        "amazon_sku": "B0D1VFVG11",
+        "clean_name": "NZXT C1000 - atts 3.1 - White",
+        "wattage": "1000 W",
+        "form_factor": "ATX",
+        "modularity": "Fully Modular"
     },
     {
         "id": "8b0b35bd-2e03-4471-a476-a9e221d7d8da",
@@ -19458,6 +19478,16 @@
         "modularity": "Fully Modular"
     },
     {
+        "id": "366d0bad-b460-4b94-b7dd-45c851347a0b",
+        "name": "NZXT C1200 Fully Modular ATX Power Supply - 1200 Watts ATX 3.1 - White",
+        "variant": "1200W Gold",
+        "amazon_sku": "B0D1VDQ8KP",
+        "clean_name": "NZXT C1200 - atts 3.1 - White",
+        "wattage": "1200 W",
+        "form_factor": "ATX",
+        "modularity": "Fully Modular"
+    },
+    {
         "id": "4cd254af-eca5-42bb-96aa-f718328be734",
         "name": "Raidmax XT ATX 500W Non-Modular",
         "variant": "500W ",
@@ -20428,12 +20458,11 @@
     },
     {
         "id": "fa04b07e-26d0-4d0b-8dce-483c68018950",
-        "name": "NZXT C1000 (2022) Black ATX 1000W Fully Modular 80+ Gold",
+        "name": "NZXT C1000 Fully Modular ATX Power Supply - 1000 Watts ATX 3.1 - Black",
         "variant": "1000W Gold",
         "amazon_sku": "B09YZ33Z46",
-        "clean_name": "NZXT C1000 (2022) Black",
-        "wattage": "1000W",
-        "efficiency": "80+ Gold",
+        "clean_name": "NZXT C1000 - atts 3.1 - Black",
+        "wattage": "1000 W",
         "form_factor": "ATX",
         "modularity": "Fully Modular"
     },
@@ -23024,7 +23053,7 @@
     {
         "id": "025daa33-68bc-455c-892c-1c7bdc043f54",
         "name": "Lian Li EDGE White 850W Fully Modular 80+ Gold",
-        "variant": "850W Gold",
+        "variant": "850W",
         "amazon_sku": "B0DKWWP452",
         "clean_name": "Lian Li EDGE White",
         "wattage": "850W",
@@ -26035,12 +26064,12 @@
     },
     {
         "id": "ec1a0a97-b826-4b18-a72f-aa514d428b69",
-        "name": "be quiet! Pure Power 13 M Black 1000W Fully Modular 80+ Gold Certified",
+        "name": "be quiet! Pure Power 13 M Fully Modular ATX Power Supply - 1000 Watts ATX 3.1 - Black",
         "variant": "1000W Gold",
         "amazon_sku": "B0F9YY3R57",
-        "clean_name": "be quiet! Pure Power 13 M Black",
-        "wattage": "1000W",
-        "efficiency": "80+ Gold",
+        "clean_name": "be quiet! Pure Power 13 M - atts 3.1 - Black",
+        "wattage": "1000 W",
+        "form_factor": "ATX",
         "modularity": "Fully Modular"
     },
     {
@@ -26795,12 +26824,11 @@
     },
     {
         "id": "4cedf881-4e30-452f-a4a4-01428e374798",
-        "name": "MSI A1000G PCIE5 ATX 1000W Fully Modular 80+ Gold Certified",
+        "name": "MSI MPG A1000G Fully Modular ATX Power Supply - 1000 Watts ATX 3.1 - Black",
         "variant": "1000W Gold",
         "amazon_sku": "B0B434DB7Y",
-        "clean_name": "MSI A1000G PCIE5",
-        "wattage": "1000W",
-        "efficiency": "80+ Gold",
+        "clean_name": "MSI MPG A1000G - atts 3.1 - Black",
+        "wattage": "1000 W",
         "form_factor": "ATX",
         "modularity": "Fully Modular"
     },
@@ -29387,12 +29415,12 @@
     },
     {
         "id": "fe5364c8-7be2-4e3c-b388-ffd00c2143f3",
-        "name": "be quiet! Dark Power 13 1000W 80+ Titanium Certified Fully Modular",
+        "name": "be quiet! Dark Power 13 Fully Modular ATX Power Supply - 1000 Watts ATX 3.1 - Black",
         "variant": "1000W Titanium",
         "amazon_sku": "B0BV6CWS2Z",
-        "clean_name": "be quiet! Dark Power 13",
-        "wattage": "1000W",
-        "efficiency": "80+ Titanium",
+        "clean_name": "be quiet! Dark Power 13 - atts 3.1 - Black",
+        "wattage": "1000 W",
+        "form_factor": "ATX",
         "modularity": "Fully Modular"
     },
     {
@@ -31858,12 +31886,11 @@
     },
     {
         "id": "65a7c3ea-6651-48a0-9c18-abfdfcbf78e0",
-        "name": "NZXT C850 (2024) White ATX 850W Fully Modular 80+ Gold",
+        "name": "NZXT C850 Fully Modular ATX Power Supply - 850 Watts ATX 3.1 - White",
         "variant": "850W Gold",
         "amazon_sku": "B0D1VCY51R",
-        "clean_name": "NZXT C850 (2024) White",
-        "wattage": "850W",
-        "efficiency": "80+ Gold",
+        "clean_name": "NZXT C850 - atts 3.1 - White",
+        "wattage": "850 W",
         "form_factor": "ATX",
         "modularity": "Fully Modular"
     },
@@ -33382,7 +33409,7 @@
     {
         "id": "28a21b96-7c11-4f45-a8c0-87c83d37116f",
         "name": "Corsair RM750x SHIFT Black Side Interface 750W Fully Modular 80+ Gold Certified",
-        "variant": "750W Gold",
+        "variant": "750W",
         "amazon_sku": "B0C61XRJBG",
         "clean_name": "Corsair RM750x SHIFT Black Side Interface",
         "wattage": "750W",
