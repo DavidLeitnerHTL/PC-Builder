@@ -599,6 +599,13 @@
         "chipset": "Radeon RX 5700 XT"
     },
     {
+        "id": "51ed9122-30c4-44c7-94c5-7e412444f05c",
+        "name": "MSI GeForce RTX 5070 Ti 16G FRIEREN EDITION OC",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI GeForce RTX 5070 Ti 16G FRIEREN EDITION OC"
+    },
+    {
         "id": "a4f02b39-fc12-4800-bf6f-7db6e4e22eb8",
         "name": "Inno3D Twin X2 OC GeForce GTX 1650 G6 4GB GDDR6 Black",
         "variant": "Inno3D",
@@ -977,7 +984,7 @@
     {
         "id": "3f0666e4-b6b0-4b51-88fd-9a7089c05b84",
         "name": "MSI GeForce RTX 5070 12G GAMING TRIO OC Black",
-        "variant": "MSI",
+        "variant": "OC",
         "amazon_sku": "B0DYFXGDJF",
         "clean_name": "MSI GeForce RTX 5070 12G GAMING TRIO OC Black",
         "chipset": "GeForce RTX 5070"
@@ -2324,7 +2331,7 @@
     {
         "id": "689f5aea-b1fc-4d0c-9162-568f6e9aeb73",
         "name": "Sapphire PULSE Radeon RX 9070 XT 16GB GDDR6 Black",
-        "variant": "Sapphire",
+        "variant": "",
         "amazon_sku": "B0DTHMPWFR",
         "clean_name": "Sapphire PULSE Radeon RX 9070 XT GDDR6 Black",
         "chipset": "Radeon RX 9070 XT",
@@ -3809,7 +3816,7 @@
     {
         "id": "1b42aac3-ee28-46d3-bd7c-2ceb1ff8e5da",
         "name": "Gigabyte AORUS MASTER GeForce RTX 5090 32GB GDDR7 Black",
-        "variant": "Gigabyte",
+        "variant": "",
         "amazon_sku": "B0DT9YQR11",
         "clean_name": "Gigabyte AORUS MASTER GeForce RTX 5090 GDDR7 Black",
         "chipset": "GeForce RTX 5090",
@@ -4683,7 +4690,7 @@
     {
         "id": "6b6892c3-21aa-45b9-8ca5-cb2ac0ed62bc",
         "name": "Gigabyte WINDFORCE OC GeForce RTX 5060 Ti 16GB GDDR7 Black",
-        "variant": "Gigabyte",
+        "variant": "WINDFORCE OC 16GB",
         "amazon_sku": "B0F5BBGCSZ",
         "clean_name": "Gigabyte WINDFORCE OC GeForce RTX 5060 Ti GDDR7 Black",
         "chipset": "GeForce RTX 5060 Ti 16 GB",
@@ -5682,8 +5689,8 @@
     {
         "id": "86e48f08-83fe-4315-9fa3-e4aaf87a29cf",
         "name": "Gigabyte AORUS MASTER ICE GeForce RTX 5080 16 GB",
-        "variant": "Gigabyte",
-        "amazon_sku": "B0DT9YQ2Q1",
+        "variant": "ICE ",
+        "amazon_sku": "B0DT7H5JYL",
         "clean_name": "Gigabyte AORUS MASTER ICE GeForce RTX 5080",
         "chipset": "GeForce RTX 5080",
         "vram": "16 GB"
@@ -6383,7 +6390,7 @@
     {
         "id": "c9368088-ee09-48c8-aea3-21d1b2cede1f",
         "name": "Asus PRIME OC Radeon RX 9070 XT 16GB GDDR6 Black",
-        "variant": "Asus",
+        "variant": "OC",
         "amazon_sku": "B0DRRMZDH6",
         "clean_name": "Asus PRIME OC Radeon RX 9070 XT GDDR6 Black",
         "chipset": "Radeon RX 9070 XT",
@@ -7995,7 +8002,7 @@
     {
         "id": "ff91c971-2b30-491e-9bb0-47fb4fae66da",
         "name": "MSI GeForce 210 N210-MD1G/D3",
-        "variant": "N210-MD1G/D3",
+        "variant": "MD1G/D3",
         "amazon_sku": "B003XM568I",
         "clean_name": "MSI GeForce 210 N210-MD1G/D3",
         "chipset": "GeForce 210"
@@ -9874,6 +9881,14 @@
         "vram": "12GB"
     },
     {
+        "id": "4a180a98-d9cb-41d7-b0e8-08bd18d1af05",
+        "name": "Gigabyte GeForce RTX 5060 WINDFORCE MAX OC 8G",
+        "variant": "WINDFORCE MAX OC 8GB",
+        "amazon_sku": "B0FFQCW6RB",
+        "clean_name": "Gigabyte GeForce RTX 5060 WINDFORCE MAX OC 8G",
+        "chipset": "GeForce RTX 5060"
+    },
+    {
         "id": "ff58e73c-3482-4af7-9f22-90053ef245d5",
         "name": "GALAX EX GeForce RTX 2070 SUPER 8GB GDDR6 Black",
         "variant": "GALAX",
@@ -11092,7 +11107,7 @@
     {
         "id": "57ff58de-df38-49df-8c1f-57f100cb8dba",
         "name": "MSI SHADOW 2X OC GeForce RTX 5060 8GB GDDR7 Black / Silver",
-        "variant": "SHADOW 2X OC 8GB",
+        "variant": "OC ",
         "amazon_sku": "B0F4LP8VH5",
         "clean_name": "MSI SHADOW 2X OC GeForce RTX 5060 GDDR7 Black / Silver",
         "chipset": "GeForce RTX 5060",
@@ -12945,7 +12960,7 @@
     {
         "id": "70ebf8d6-0ce0-4b5c-97b6-ec21bd6b43aa",
         "name": "Asus TUF GAMING OC GeForce RTX 5070 12 GB",
-        "variant": "Asus",
+        "variant": "OC ",
         "amazon_sku": "B0DS6S98ZF",
         "clean_name": "Asus TUF GAMING OC GeForce RTX 5070",
         "chipset": "GeForce RTX 5070",
@@ -13141,10 +13156,10 @@
     {
         "id": "d26db0cf-ec58-453a-ae6d-b997cfa8df5a",
         "name": "MSI INSPIRE 2X OC GeForce RTX 5060 Ti 16GB GDDR7 Gold / Black",
-        "variant": "INSPIRE 2X OC",
+        "variant": "OC",
         "amazon_sku": "B0F4M4LTWK",
         "clean_name": "MSI INSPIRE 2X OC GeForce RTX 5060 Ti GDDR7 Gold / Black",
-        "chipset": "GeForce RTX 5060 Ti 16 GB",
+        "chipset": "GeForce RTX 5060 Ti ",
         "vram": "16GB"
     },
     {
@@ -14773,7 +14788,7 @@
     {
         "id": "3ed49cbc-023e-41f4-bdde-854df4d674c2",
         "name": "Gigabyte WINDFORCE OC GeForce RTX 5060 8GB GDDR7 Black",
-        "variant": "Gigabyte",
+        "variant": "WINDFORCE OC 8GB",
         "amazon_sku": "B0F8LDHQ7Y",
         "clean_name": "Gigabyte WINDFORCE OC GeForce RTX 5060 GDDR7 Black",
         "chipset": "GeForce RTX 5060",
@@ -15499,7 +15514,7 @@
     {
         "id": "33c14e4c-900c-4533-84d4-acb7b502e770",
         "name": "XFX Quicksilver AMD Radeon RX 9070XT Gaming Edition BLACK",
-        "variant": "QUICKSILVER BLACK",
+        "variant": "Gaming Edition ",
         "amazon_sku": "B0DXVMSQ5T",
         "clean_name": "XFX Quicksilver AMD Radeon RX 9070XT Gaming Edition BLACK",
         "chipset": "Radeon RX 9070 XT"
@@ -17890,7 +17905,7 @@
     {
         "id": "2e251feb-b38f-46f3-9cff-1c7adb286e7c",
         "name": "Sapphire PULSE Radeon RX 6600 8GB GDDR6 Black / Red",
-        "variant": "PULSE ",
+        "variant": "",
         "amazon_sku": "B09JHRQY4Y",
         "clean_name": "Sapphire PULSE Radeon RX 6600 GDDR6 Black / Red",
         "chipset": "Radeon RX 6600",
@@ -19196,10 +19211,10 @@
     {
         "id": "69373384-dd1c-446e-9a46-c27abf6d2178",
         "name": "XFX Swift OC Radeon RX 9060 XT 16GB GDDR6 Black Dual Fan",
-        "variant": " OC Gaming Edition 16GB Dual Fan",
+        "variant": "OC",
         "amazon_sku": "B0FC2XXSG5",
         "clean_name": "XFX Swift OC Radeon RX 9060 XT GDDR6 Black Dual Fan",
-        "chipset": "Radeon RX 9060 XT 16 GB",
+        "chipset": "Radeon RX 9060 XT",
         "vram": "16GB"
     },
     {
@@ -21058,7 +21073,7 @@
     {
         "id": "643ca9a8-43c2-48df-952c-3d49081bd79d",
         "name": "ASRock Steel Legend Radeon RX 9070 XT 16GB GDDR6 White / Gray",
-        "variant": "ASRock",
+        "variant": "",
         "amazon_sku": "B0DTT7CPWV",
         "clean_name": "ASRock Steel Legend Radeon RX 9070 XT GDDR6 White / Gray",
         "chipset": "Radeon RX 9070 XT",
@@ -21481,6 +21496,20 @@
         "amazon_sku": "B0FCFHG2Q2",
         "clean_name": "XFX Swift AMD Radeon RX 9070 OC Triple 90mm Fan Gaming Edition RX-97SWFT3B7",
         "chipset": "Radeon RX 9070"
+    },
+    {
+        "id": "10a0a665-b862-4ea9-8719-0d20efd29288",
+        "name": "MSI GeForce RTX 5070 12G World of Warcraft MIDNIGHT VOID EDITION OC",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI GeForce RTX 5070 12G World of Warcraft MIDNIGHT VOID EDITION OC"
+    },
+    {
+        "id": "be5f1f51-b099-4ab5-97a2-226d6ebb8e05",
+        "name": "MSI GeForce RTX 5070 12G World of Warcraft MIDNIGHT LIGHT EDITION OC",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI GeForce RTX 5070 12G World of Warcraft MIDNIGHT LIGHT EDITION OC"
     },
     {
         "id": "889677e5-48a8-4f69-93b3-b9fe3a11bfdd",
@@ -23241,7 +23270,7 @@
     {
         "id": "8ded7514-a4ec-467a-bd94-f52274c1bb8b",
         "name": "MSI GAMING TRIO OC PLUS GeForce RTX 5070 Ti 16GB GDDR7 Black",
-        "variant": "MSI",
+        "variant": "OC PLUS",
         "amazon_sku": "B0DWH7F8KX",
         "clean_name": "MSI GAMING TRIO OC PLUS GeForce RTX 5070 Ti GDDR7 Black",
         "chipset": "GeForce RTX 5070 Ti",
@@ -24127,13 +24156,6 @@
         "clean_name": "Asus STRIX GAMING OC GeForce RTX 2080 SUPER GDDR6 Black",
         "chipset": "GeForce RTX 2080 SUPER",
         "vram": "8GB"
-    },
-    {
-        "id": "c1a68442-c81a-43da-a21d-f2febb739584",
-        "name": "Gigabyte GeForce RTX 5060 WINDFORCE MAX OC 8G",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Gigabyte GeForce RTX 5060 WINDFORCE MAX OC 8G"
     },
     {
         "id": "d9d25ed0-e9d6-4c83-9547-ee824d44afe2",
@@ -26082,10 +26104,10 @@
     {
         "id": "6c007471-7678-4eae-accd-965260949b21",
         "name": "Asus PRIME OC Radeon RX 9060 XT 8GB GDDR6 Black",
-        "variant": "Asus",
+        "variant": "OC ",
         "amazon_sku": "B0F7LXFBXP",
         "clean_name": "Asus PRIME OC Radeon RX 9060 XT GDDR6 Black",
-        "chipset": "Radeon RX 9060 XT 8 GB",
+        "chipset": "Radeon RX 9060 XT ",
         "vram": "8GB"
     },
     {
@@ -26506,7 +26528,7 @@
     {
         "id": "5fc9f366-b8e5-4646-98c5-fa17f2e891b7",
         "name": "Gigabyte WINDFORCE GeForce RTX 5060 8GB GDDR7 Black",
-        "variant": "Gigabyte",
+        "variant": "WINDFORCE 8GB",
         "amazon_sku": "B0F8LPDVPQ",
         "clean_name": "Gigabyte WINDFORCE GeForce RTX 5060 GDDR7 Black",
         "chipset": "GeForce RTX 5060",
@@ -27663,9 +27685,10 @@
     {
         "id": "d8048693-437a-421c-a1cb-3e0576e1f750",
         "name": "Gigabyte GeForce RTX 5060 WINDFORCE MAX 8G",
-        "variant": "",
+        "variant": "WINDFORCE MAX 8GB",
         "amazon_sku": "",
-        "clean_name": "Gigabyte GeForce RTX 5060 WINDFORCE MAX 8G"
+        "clean_name": "Gigabyte GeForce RTX 5060 WINDFORCE MAX 8G",
+        "chipset": "GeForce RTX 5060"
     },
     {
         "id": "e296090e-6d2f-4676-a476-d44cf091ec63",
@@ -28078,6 +28101,14 @@
         "amazon_sku": "B0C7WCKXB6",
         "clean_name": "MSI GAMING X GeForce RTX 4060 GDDR6 Black",
         "chipset": "GeForce RTX 4060",
+        "vram": "8GB"
+    },
+    {
+        "id": "9e19dae9-f7b9-4cf3-8ff3-63b5d8d4a205",
+        "name": "XFX AMD Radeon RX 580 GTS XXX Edition 8GB",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "XFX AMD Radeon RX 580 GTS XXX Edition",
         "vram": "8GB"
     },
     {
@@ -30947,7 +30978,7 @@
     {
         "id": "a837f3b1-54b1-41ee-af0d-61318f7a5a47",
         "name": "Gigabyte WINDFORCE GeForce RTX 5060 Ti 16GB GDDR7 Black",
-        "variant": "Gigabyte",
+        "variant": "WINDFORCE 16GB",
         "amazon_sku": "B0F5BB8P3Q",
         "clean_name": "Gigabyte WINDFORCE GeForce RTX 5060 Ti GDDR7 Black",
         "chipset": "GeForce RTX 5060 Ti 16 GB",
@@ -31497,7 +31528,7 @@
     {
         "id": "3113d465-ab67-4c76-8c1e-b6a062918289",
         "name": "Gigabyte WINDFORCE OC SFF GeForce RTX 5070 12GB GDDR7 Black",
-        "variant": "WINDFORCE OC SFF",
+        "variant": "OC SFF",
         "amazon_sku": "B0DTGP2WMT",
         "clean_name": "Gigabyte WINDFORCE OC SFF GeForce RTX 5070 GDDR7 Black",
         "chipset": "GeForce RTX 5070",
