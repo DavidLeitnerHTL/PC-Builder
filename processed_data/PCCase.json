@@ -611,7 +611,7 @@
     {
         "id": "9b3e0ea6-9e4a-4797-a407-26658ff0c01e",
         "name": "Fractal Design North XL RC ATX Full Tower Charcoal Black with Tinted Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
-        "variant": "XL RC Charcoal Black",
+        "variant": "RC",
         "amazon_sku": "B0DG33HWNM",
         "clean_name": "Fractal Design North XL RC Charcoal Black with Tinted Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
         "motherboard_support": "ATX",
@@ -3352,6 +3352,13 @@
         "case_type": "Full Tower"
     },
     {
+        "id": "7453d50f-f6f1-4400-9a50-174d8346eef7",
+        "name": "Lian Li Vector V100R Mini",
+        "variant": "Black with fans",
+        "amazon_sku": "",
+        "clean_name": "Lian Li Vector V100R Mini"
+    },
+    {
         "id": "e3a8852c-716f-4cee-9d39-b5951ef18e0a",
         "name": "GAMDIAS TALOS E3 ATX Mid Tower White / Black Tempered Glass Side Panel, USB 3.2 Gen 1 Type-A USB 2.0 Type-A",
         "variant": "",
@@ -3499,10 +3506,10 @@
     },
     {
         "id": "38e47072-dd15-40c5-b299-d1b90c7f597c",
-        "name": "Fractal Design North ATX mATX Mid Tower PC Case - Chalk White with Walnut Front and Mesh Side Panel",
-        "variant": "Chalk White / Mesh",
+        "name": "Fractal Design North ATX Mid Tower PC Case - Chalk White with Walnut Front and Mesh Side Panel",
+        "variant": "",
         "amazon_sku": "B09Y9FSZFX",
-        "clean_name": "Fractal Design North m PC - Chalk White with Walnut Front and Mesh Side Panel",
+        "clean_name": "Fractal Design North PC - Chalk White with Walnut Front and Mesh Side Panel",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"
     },
@@ -3766,15 +3773,6 @@
         "variant": "",
         "amazon_sku": "",
         "clean_name": "Antec P280 Black / Gray with USB 3.2 Gen 1 Type-A USB 2.0 Type-A",
-        "motherboard_support": "ATX",
-        "case_type": "Mid Tower"
-    },
-    {
-        "id": "b098301a-e646-4e2b-9ce0-c914954b7f89",
-        "name": "Fractal Design North ATX Mid Tower",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Fractal Design North",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"
     },
@@ -5491,6 +5489,13 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "0c3c19d6-ba05-41aa-8936-0eafc4a14fb9",
+        "name": "Lian Li Vector V100 Mini",
+        "variant": "Black fanless",
+        "amazon_sku": "",
+        "clean_name": "Lian Li Vector V100 Mini"
+    },
+    {
         "id": "63afc880-c793-4636-8f6d-dacb2063cf10",
         "name": "Thermaltake Versa H25 ATX Mid Tower Black with Acrylic Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A",
         "variant": "",
@@ -6680,12 +6685,12 @@
     },
     {
         "id": "d23ab807-5629-412e-b2c3-4b47d404a8a9",
-        "name": "North XL Momentum Edition Black E-ATX Chassis with Blackened Oak Front and TG Side Panel Mid Tower PC Case",
+        "name": "Fractal Design North XL Momentum Edition Black ATX Full TowerChassis with Blackened Oak Front and TG Side Panel Mid Tower PC Case",
         "variant": "Momentum Edition",
         "amazon_sku": "B0FGQDM8ZF",
-        "clean_name": "North XL Momentum Edition Black E- with Blackened Oak Front and TG Side Panel PC",
+        "clean_name": "Fractal Design North XL Momentum Edition Black with Blackened Oak Front and TG Side Panel PC",
         "motherboard_support": "ATX",
-        "case_type": "Mid Tower"
+        "case_type": "Full Tower, Mid Tower"
     },
     {
         "id": "91ad7cf2-0a1c-470c-b8d3-3c0d55a77c08",
@@ -13097,7 +13102,7 @@
     {
         "id": "4b307959-2767-4a04-baf3-d9213293d320",
         "name": "Fractal Design North XL RC ATX Full Tower Chalk White with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C / USB 3.2 Gen 1 Type-A",
-        "variant": "XL RC Chalk White",
+        "variant": "RC",
         "amazon_sku": "B0DG3531NK",
         "clean_name": "Fractal Design North XL RC Chalk White with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C / USB 3.2 Gen 1 Type-A",
         "motherboard_support": "ATX",
@@ -17078,7 +17083,7 @@
     {
         "id": "73ae628d-0d71-4332-af5d-638b659cee50",
         "name": "Fractal Design North ATX Mid Tower Black Tempered Glass Side Panel",
-        "variant": "Tempered Glass",
+        "variant": "",
         "amazon_sku": "B09V8HNWW9",
         "clean_name": "Fractal Design North Black Tempered Glass Side Panel",
         "motherboard_support": "ATX",
@@ -20023,6 +20028,13 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "13890e42-7d80-43db-9ef8-4b65b9c13276",
+        "name": "Montech Sky 3 Black",
+        "variant": "White",
+        "amazon_sku": "",
+        "clean_name": "Montech Sky 3 Black"
+    },
+    {
         "id": "b1b84db4-bbe7-4bd5-90fd-e534d43d167e",
         "name": "Montech SKY ONE MINI Micro ATX Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A",
         "variant": "",
@@ -20181,10 +20193,10 @@
     },
     {
         "id": "346e977f-72ea-48ac-821e-a6d0779f54f0",
-        "name": "Fractal Design North ATX Mid Tower Black with Mesh Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+        "name": "Fractal Design North ATX Mid Tower Charcoal Black with Mesh Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "variant": "",
         "amazon_sku": "B09V878FXQ",
-        "clean_name": "Fractal Design North Black with Mesh Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+        "clean_name": "Fractal Design North Charcoal Black with Mesh Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"
     },
@@ -24994,6 +25006,13 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "f6687540-ccc4-46cf-bc9e-1b02abf9a3c1",
+        "name": "SAMA S40 Black",
+        "variant": "Black",
+        "amazon_sku": "",
+        "clean_name": "SAMA S40 Black"
+    },
+    {
         "id": "4cbdae61-3c54-41e2-8dfd-bef53541a015",
         "name": "Azza Solano 1000 ATX Full Tower Black Acrylic Side Panel",
         "variant": "",
@@ -27587,6 +27606,13 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "42d93091-c824-480a-b77b-ce7be1628e4a",
+        "name": "Montech Sky 3 Black",
+        "variant": "Black",
+        "amazon_sku": "",
+        "clean_name": "Montech Sky 3 Black"
+    },
+    {
         "id": "1380ed90-a027-4be4-af4c-efd1e1127a14",
         "name": "Antec CX800 ATX Mid Tower Black RGB ELITE Tempered Glass Side Panel",
         "variant": "",
@@ -28197,7 +28223,7 @@
     {
         "id": "e19f2f10-a072-4360-b592-14c1edf6c49f",
         "name": "Fractal Design North Mid-Tower Case (Chalk White, Clear Window)",
-        "variant": "Chalk White TG Clear",
+        "variant": "",
         "amazon_sku": "B09Y9FJDG9",
         "clean_name": "Fractal Design North (Chalk White, Clear Window)",
         "case_type": "Mid-Tower"
@@ -30312,6 +30338,13 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "d0106884-7bd0-4c86-a123-fe1befd7e825",
+        "name": "SAMA S40 White",
+        "variant": "White",
+        "amazon_sku": "",
+        "clean_name": "SAMA S40 White"
+    },
+    {
         "id": "861daa66-593f-46f7-9f08-0b26d42bfdb1",
         "name": "Deepcool CG540 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -31385,7 +31418,7 @@
     {
         "id": "9e805e3e-f5d6-40f3-9e67-4b931b9bff03",
         "name": "Fractal Design North XL ATX Full Tower Black with Tinted Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "XL Black with Tinted Tempered Glass",
+        "variant": "",
         "amazon_sku": "B0CJCJ3ZZB",
         "clean_name": "Fractal Design North XL Black with Tinted Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "motherboard_support": "ATX",

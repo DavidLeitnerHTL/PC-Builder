@@ -4549,6 +4549,14 @@
         "form_factor": "ATX"
     },
     {
+        "id": "953e2f01-7966-42e0-90d2-ddcc1aa5b4da",
+        "name": "ASUS ROG CROSSHAIR X870E DARK HERO",
+        "variant": "X870E DARK HERO",
+        "amazon_sku": "",
+        "clean_name": "ASUS ROG CROSSHAIR X870E DARK HERO",
+        "form_factor": "ATX"
+    },
+    {
         "id": "5c8e99d1-9608-48fc-9f09-a2e006bea8d3",
         "name": "MSI B850 GAMING PLUS WIFI AM5 DDR5 ATX",
         "variant": "",
@@ -6364,7 +6372,7 @@
     {
         "id": "f66f2c8f-b999-444d-8793-62322ececcc8",
         "name": "ASUS X870E ROG CROSSHAIR APEX AM5 DDR5 ATX",
-        "variant": "APEX",
+        "variant": "X870E APEX",
         "amazon_sku": "B0F25LTGBN",
         "clean_name": "ASUS X870E ROG CROSSHAIR APEX",
         "socket": "AM5",
@@ -6863,7 +6871,7 @@
     {
         "id": "9cbb43eb-c770-4fba-970d-06eb2919bb7e",
         "name": "Asus X870E-PLUS TUF GAMING WIFI7 AM5 DDR5 ATX",
-        "variant": "",
+        "variant": "X870E-PLUS",
         "amazon_sku": "B0FDSD77GP",
         "clean_name": "Asus X870E-PLUS TUF GAMING WIFI7",
         "socket": "AM5",
@@ -9819,6 +9827,14 @@
         "form_factor": "ATX"
     },
     {
+        "id": "1f27a31a-be45-440a-91cd-992a7203c518",
+        "name": "ASUS ROG STRIX X870E-E GAMING WIFI",
+        "variant": "X870-E GAMING",
+        "amazon_sku": "",
+        "clean_name": "ASUS ROG STRIX X870E-E GAMING WIFI",
+        "form_factor": "ATX"
+    },
+    {
         "id": "8b0506f3-d0f7-4760-ad39-e1f8868fe31e",
         "name": "Asus X470 ROG STRIX X470-F Gaming DDR4 ATX",
         "variant": "",
@@ -10277,7 +10293,7 @@
     {
         "id": "559dd16f-e58d-4214-bc52-df59fd890ded",
         "name": "Asus X870E ProArt CREATOR WIFI AM5 DDR5 ATX",
-        "variant": "",
+        "variant": "X870E-Creator",
         "amazon_sku": "B0DF123GCV",
         "clean_name": "Asus X870E ProArt CREATOR WIFI",
         "socket": "AM5",
@@ -12631,7 +12647,7 @@
     {
         "id": "d48b09e0-9afe-4110-b9e1-cf2cc9d365fb",
         "name": "Asus X870E-H ROG STRIX GAMING WIFI7 DDR5 ATX",
-        "variant": "GAMING WIFI",
+        "variant": "X870E-H Gaming",
         "amazon_sku": "B0FNQHJXDR",
         "clean_name": "Asus X870E-H ROG STRIX GAMING WIFI7",
         "socket": "AM5",
@@ -13282,7 +13298,7 @@
     {
         "id": "40ca0343-5ecd-4f31-a019-1c94e315f7a9",
         "name": "ASUS X870E ROG STRIX X870E-H GAMING WIFI7 HATSUNE MIKU EDITION DDR5 ATX",
-        "variant": "GAMING WIFI7 HATSUNE MIKU EDITION",
+        "variant": "X870E-H HATSUNE MIKU EDITION GAMING",
         "amazon_sku": "B0FW5TT48Z",
         "clean_name": "ASUS X870E ROG STRIX X870E-H GAMING WIFI7 HATSUNE MIKU EDITION",
         "socket": "AM5",
@@ -14808,10 +14824,10 @@
     },
     {
         "id": "7b688013-3fa7-4fcd-9809-04fe664fde3b",
-        "name": "Asus X870E ROG CROSSHAIR HERO WIFI DDR5 ATX",
+        "name": "Asus ROG CROSSHAIR X870E HERO WIFI DDR5 ATX",
         "variant": "HERO",
         "amazon_sku": "B0DDZSP2BG",
-        "clean_name": "Asus X870E ROG CROSSHAIR HERO WIFI",
+        "clean_name": "Asus ROG CROSSHAIR X870E HERO WIFI",
         "socket": "AM5",
         "form_factor": "ATX",
         "memory_type": "DDR5"
@@ -20780,7 +20796,7 @@
         "id": "eef88b84-471b-4fc6-90c7-96a7e03f6890",
         "name": "MSI B760 MAG B760M MORTAR WIFI II LGA1700 DDR5 Micro ATX",
         "variant": "",
-        "amazon_sku": "B0CGZXXPGD",
+        "amazon_sku": "B0CMJP2NNR",
         "clean_name": "MSI B760 MAG B760M MORTAR WIFI II",
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
@@ -22396,7 +22412,7 @@
     {
         "id": "b0faf23f-5c51-40c4-bef4-f04ab3f97d87",
         "name": "Asus X870E ROG CROSSHAIR HERO BTF WIFI DDR5 ATX",
-        "variant": "Hero BTF",
+        "variant": "X870E HERO BTF",
         "amazon_sku": "B0FP3XLWXL",
         "clean_name": "Asus X870E ROG CROSSHAIR HERO BTF WIFI",
         "socket": "AM5",
@@ -22619,7 +22635,7 @@
     {
         "id": "2bba370f-72e3-41b6-af97-7b4679e9ad8d",
         "name": "Asus X870E ROG CROSSHAIR EXTREME AM5 DDR5 EATX",
-        "variant": "EXTREME",
+        "variant": "X870E EXETREME",
         "amazon_sku": "B0F8PSWNMV",
         "clean_name": "Asus X870E ROG CROSSHAIR EXTREME",
         "socket": "AM5",
@@ -26194,6 +26210,14 @@
         "memory_type": "DDR5"
     },
     {
+        "id": "a3057e43-fed4-4171-a86b-013839da1a25",
+        "name": "Asus ROG STRIX X870E-A GAMING WIFI7 NEO",
+        "variant": "X870E-A NEO GAMING",
+        "amazon_sku": "",
+        "clean_name": "Asus ROG STRIX X870E-A GAMING WIFI7 NEO",
+        "form_factor": "ATX"
+    },
+    {
         "id": "cd4680b3-79c1-48a7-9f1b-f9dff92f648c",
         "name": "ASRock B660 M-ITX/ac DDR4 Mini ITX",
         "variant": "",
@@ -26919,7 +26943,7 @@
     {
         "id": "5cd1f8dc-b0e4-4f49-b97e-ff2d3a826957",
         "name": "Asus X870E-E ROG STRIX GAMING WIFI AM5 DDR5 ATX",
-        "variant": "X870E-E ROG STRIX GAMING WIFI",
+        "variant": "X870E-E NEO GAMING",
         "amazon_sku": "B0DDZNZF76 ",
         "clean_name": "Asus X870E-E ROG STRIX GAMING WIFI",
         "socket": "AM5",
@@ -31072,6 +31096,14 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5"
+    },
+    {
+        "id": "2884d28a-1f15-43c0-822c-d9644be1a26e",
+        "name": "ASUS ROG CROSSHAIR X870E GLACIAL",
+        "variant": "X870E GLACIAL",
+        "amazon_sku": "",
+        "clean_name": "ASUS ROG CROSSHAIR X870E GLACIAL",
+        "form_factor": "ATX"
     },
     {
         "id": "bdee3cfd-6768-4e2f-b203-05da41b4b6f0",
