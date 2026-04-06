@@ -1113,7 +1113,7 @@
     {
         "id": "27e9107f-8ab1-4e5b-8c2f-43cb540c1b2a",
         "name": "Corsair 4000D Airflow ATX Mid Tower Teak Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
+        "variant": "Airflow Teak",
         "amazon_sku": "B0CM6XNPDH",
         "clean_name": "Corsair 4000D Airflow Teak Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "motherboard_support": "ATX",
@@ -4025,7 +4025,7 @@
     {
         "id": "a8d17240-a7a8-49f8-97fc-e09b1c20ecef",
         "name": "NZXT H3 Flow Micro ATX Mid Tower Black with Tinted Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A Front Panel",
-        "variant": "Flow-2025",
+        "variant": "",
         "amazon_sku": "B0DQPMJ6MJ",
         "clean_name": "NZXT H3 Flow Black with Tinted Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A Front Panel",
         "motherboard_support": "Micro ATX",
@@ -4228,15 +4228,6 @@
         "variant": "",
         "amazon_sku": "",
         "clean_name": "Antec Nine Hundred Two Black with Acrylic Side Panel and USB 2.0 Type-A",
-        "motherboard_support": "ATX",
-        "case_type": "Mid Tower"
-    },
-    {
-        "id": "3020a68e-e8f7-4d0e-9260-9a4aee3e9f9b",
-        "name": "Corsair 4000D ATX Mid Tower White Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Corsair 4000D White Tempered Glass Side Panel",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"
     },
@@ -5908,7 +5899,7 @@
     {
         "id": "253a5512-cfbb-4418-9d7c-fc8ace398562",
         "name": "NZXT H3 Flow Micro ATX Mid Tower White Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C USB 3.2 Gen 1 Type-A",
-        "variant": "Flow White",
+        "variant": "",
         "amazon_sku": "B0DQPNLC65",
         "clean_name": "NZXT H3 Flow White Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C USB 3.2 Gen 1 Type-A",
         "motherboard_support": "Micro ATX",
@@ -10942,10 +10933,10 @@
     },
     {
         "id": "b1950adb-ebfb-4eeb-ac20-d7575e7afc0a",
-        "name": "Corsair 4000D Tempered Glass Mid-Tower ATX Case — Black",
+        "name": "Corsair 4000D Tempered Glass Mid-Tower ATX Case - Black",
         "variant": "Tempered Glass Black",
-        "amazon_sku": "",
-        "clean_name": "Corsair 4000D Tempered Glass — Black",
+        "amazon_sku": "B08C7L77XT",
+        "clean_name": "Corsair 4000D Tempered Glass - Black",
         "motherboard_support": "ATX",
         "case_type": "Mid-Tower"
     },
@@ -11547,15 +11538,6 @@
         "clean_name": "Chieftec APEX Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "motherboard_support": "ATX",
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "7c922fa3-8bb2-401e-bb05-6433e9d2e153",
-        "name": "Corsair 4000D Tempered Glass Mid-Tower ATX Case — Black",
-        "variant": "Black",
-        "amazon_sku": "B08C7L77XT",
-        "clean_name": "Corsair 4000D Tempered Glass — Black",
-        "motherboard_support": "ATX",
-        "case_type": "Mid-Tower"
     },
     {
         "id": "2fa48d19-998d-47fc-a564-8c3443dbb494",
@@ -12406,7 +12388,7 @@
     {
         "id": "090334a6-3c7c-42e6-9b7c-901b9781f7cd",
         "name": "Corsair 4000D Airflow ATX Mid Tower Black Tempered Glass Side Panel, w/750 W Power Supply",
-        "variant": "",
+        "variant": "Airflow Black With PSU(750W)",
         "amazon_sku": "",
         "clean_name": "Corsair 4000D Airflow Black Tempered Glass Side Panel, w/750 W Power Supply",
         "motherboard_support": "ATX",
@@ -13084,10 +13066,10 @@
     },
     {
         "id": "745045ce-cbd6-4fea-8cdc-b7f8c02de8e5",
-        "name": "Corsair 4000D AIRFLOW Tempered Glass Mid-Tower ATX Case — White",
+        "name": "Corsair 4000D AIRFLOW Tempered Glass Mid-Tower ATX Case - White",
         "variant": "AIRFLOW WHITE",
-        "amazon_sku": "B0FP9V6WYL",
-        "clean_name": "Corsair 4000D AIRFLOW Tempered Glass — White",
+        "amazon_sku": "",
+        "clean_name": "Corsair 4000D AIRFLOW Tempered Glass - White",
         "motherboard_support": "ATX",
         "case_type": "Mid-Tower"
     },
@@ -22754,10 +22736,10 @@
     },
     {
         "id": "ec96cfae-5081-4cdf-a0ec-48731e0fefa8",
-        "name": "Corsair 4000D AIRFLOW Tempered Glass Mid-Tower ATX Case — Black",
+        "name": "Corsair 4000D AIRFLOW Tempered Glass Mid-Tower ATX Case - Black",
         "variant": "AIRFLOW Black",
-        "amazon_sku": "B0B6DBVCV4",
-        "clean_name": "Corsair 4000D AIRFLOW Tempered Glass — Black",
+        "amazon_sku": "",
+        "clean_name": "Corsair 4000D AIRFLOW Tempered Glass - Black",
         "motherboard_support": "ATX",
         "case_type": "Mid-Tower"
     },
@@ -27623,10 +27605,10 @@
     },
     {
         "id": "ee103b4b-fd54-49e3-b989-df5d12e5dae9",
-        "name": "Corsair 4000D Tempered Glass Mid-Tower ATX Case — White",
+        "name": "Corsair 4000D Tempered Glass Mid-Tower ATX Case - White",
         "variant": "Tempered Glass White",
         "amazon_sku": "B08C7CJ8XZ",
-        "clean_name": "Corsair 4000D Tempered Glass — White",
+        "clean_name": "Corsair 4000D Tempered Glass - White",
         "motherboard_support": "ATX",
         "case_type": "Mid-Tower"
     },
@@ -29197,7 +29179,7 @@
     {
         "id": "9633a11e-b237-4a7b-b500-937b20008dbe",
         "name": "Corsair FRAME 4000D RS Modular Mid-Tower ATX PC Case - White",
-        "variant": "RS Black",
+        "variant": "RS White",
         "amazon_sku": "B0DPJ9FD5N",
         "clean_name": "Corsair FRAME 4000D RS Modular PC - White",
         "motherboard_support": "ATX",
