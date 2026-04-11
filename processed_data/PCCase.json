@@ -19735,10 +19735,12 @@
     },
     {
         "id": "f6687540-ccc4-46cf-bc9e-1b02abf9a3c1",
-        "name": "SAMA S40 Black",
+        "name": "SAMA S40 Mid Tower ATX PC Case",
         "variant": "Black",
-        "amazon_sku": "",
-        "clean_name": "SAMA S40 Black"
+        "amazon_sku": "B0DPLF4DB",
+        "clean_name": "SAMA S40 PC",
+        "motherboard_support": "ATX",
+        "case_type": "Mid Tower"
     },
     {
         "id": "43de1cf4-b750-478d-805c-7f46838c8532",
@@ -20933,10 +20935,12 @@
     },
     {
         "id": "d0106884-7bd0-4c86-a123-fe1befd7e825",
-        "name": "SAMA S40 White",
+        "name": "SAMA S40 Mid Tower ATX PC Case White",
         "variant": "White",
-        "amazon_sku": "",
-        "clean_name": "SAMA S40 White"
+        "amazon_sku": "B0DPLGX67Z",
+        "clean_name": "SAMA S40 PC White",
+        "motherboard_support": "ATX",
+        "case_type": "Mid Tower"
     },
     {
         "id": "6a6c9c8a-027c-4447-a3dd-485b1347f53b",
@@ -21216,8 +21220,8 @@
     {
         "id": "7453d50f-f6f1-4400-9a50-174d8346eef7",
         "name": "Lian Li Vector V100R Mini",
-        "variant": "Black with fans",
-        "amazon_sku": "",
+        "variant": "Black with 4 ARGB fans",
+        "amazon_sku": "B0FQVF9GS1",
         "clean_name": "Lian Li Vector V100R Mini"
     },
     {
@@ -28988,7 +28992,7 @@
         "id": "0c3c19d6-ba05-41aa-8936-0eafc4a14fb9",
         "name": "Lian Li Vector V100 Mini",
         "variant": "Black fanless",
-        "amazon_sku": "",
+        "amazon_sku": "B0FQVCJC4M",
         "clean_name": "Lian Li Vector V100 Mini"
     },
     {

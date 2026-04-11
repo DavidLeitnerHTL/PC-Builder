@@ -1123,7 +1123,7 @@
         "id": "d970185b-a158-44a6-b10b-1cedb36286a1",
         "name": "Asus B760 ProArt CREATOR WIFI DDR5 ATX",
         "variant": "",
-        "amazon_sku": "B0CBNN9QM7",
+        "amazon_sku": "B0CBQWVDP3",
         "clean_name": "Asus B760 ProArt CREATOR WIFI",
         "socket": "LGA 1700",
         "form_factor": "ATX",
@@ -3530,7 +3530,7 @@
     {
         "id": "c94f015a-4593-48ad-9175-515a6cd95a40",
         "name": "MSI MAG Z790 TOMAHAWK WIFI DDR4 ATX",
-        "variant": "",
+        "variant": "MAG TOMAHAWK WIFI DDR4",
         "amazon_sku": "B0BHCGHBDY",
         "clean_name": "MSI MAG Z790 TOMAHAWK WIFI",
         "socket": "LGA 1700",
@@ -4638,7 +4638,7 @@
     {
         "id": "c54cfa78-00e9-412e-a62e-3f7d711bbff5",
         "name": "MSI MAG Z790 TOMAHAWK WIFI DDR5 ATX",
-        "variant": "",
+        "variant": "MAG TOMAHAWK WIFI",
         "amazon_sku": "B0BL8K1YH1",
         "clean_name": "MSI MAG Z790 TOMAHAWK WIFI",
         "socket": "LGA 1700",
@@ -13229,7 +13229,7 @@
     {
         "id": "76bc3424-326d-4063-be0f-e1dc17ca0c28",
         "name": "ASRock B760 Pro RS LGA1700 DDR5 ATX",
-        "variant": "",
+        "variant": "Pro RS ",
         "amazon_sku": "B0BQWRCNT8",
         "clean_name": "ASRock B760 Pro RS",
         "socket": "LGA 1700",
@@ -13726,8 +13726,8 @@
     {
         "id": "f5b7becd-f2da-4c14-a74a-d34e3bf51d26",
         "name": "ASRock B760M Pro RS LGA1700 DDR5 Micro ATX",
-        "variant": "",
-        "amazon_sku": "",
+        "variant": "PRO RS",
+        "amazon_sku": "B0C2C96LDL",
         "clean_name": "ASRock B760M Pro RS",
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
@@ -13755,7 +13755,7 @@
     {
         "id": "ba7f9641-6032-466a-83cd-f36c183ed13f",
         "name": "ASRock B760M Pro RS/D4 WiFi DDR4 Micro ATX",
-        "variant": "",
+        "variant": "Pro RS DDR4",
         "amazon_sku": "B0BRNLMMZM",
         "clean_name": "ASRock B760M Pro RS/D4 WiFi",
         "socket": "LGA 1700",
@@ -26282,9 +26282,11 @@
     {
         "id": "e12a79e9-131e-4dd5-af1c-dca05f628e31",
         "name": "ASRock X870E Taichi OCF",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "ASRock X870E Taichi OCF"
+        "variant": "Taichi OCF",
+        "amazon_sku": "B0GJV6GYS5",
+        "clean_name": "ASRock X870E Taichi OCF",
+        "socket": "AM5",
+        "form_factor": "ATX"
     },
     {
         "id": "49bf1bb8-52e5-4511-8fd4-db816e7208d7",
@@ -29756,7 +29758,7 @@
     {
         "id": "ff34d65e-d982-4bec-bc21-4d9b4b351636",
         "name": "ASRock B760 Pro RS/D4 LGA1700 DDR4 ATX",
-        "variant": "",
+        "variant": "Pro RS DDR4",
         "amazon_sku": "B0BQWRCYNX",
         "clean_name": "ASRock B760 Pro RS/D4",
         "socket": "LGA 1700",
@@ -32185,7 +32187,7 @@
         "id": "eef88b84-471b-4fc6-90c7-96a7e03f6890",
         "name": "MSI B760 MAG B760M MORTAR WIFI II LGA1700 DDR5 Micro ATX",
         "variant": "",
-        "amazon_sku": "B0CMJP2NNR",
+        "amazon_sku": "B0CGZXXPGD",
         "clean_name": "MSI B760 MAG B760M MORTAR WIFI II",
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
