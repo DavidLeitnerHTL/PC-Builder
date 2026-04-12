@@ -12068,8 +12068,8 @@
     {
         "id": "cacbcfa6-3a3d-45a1-b9cf-1c05613c5454",
         "name": "Asus B650E MAX GAMING WIFI DDR5 ATX AM5",
-        "variant": "",
-        "amazon_sku": "",
+        "variant": "MAX GAMING WiFi",
+        "amazon_sku": "B0F25MB8H2",
         "clean_name": "Asus B650E MAX GAMING WIFI",
         "socket": "AM5",
         "form_factor": "ATX",
@@ -13904,9 +13904,11 @@
     {
         "id": "992289fb-9bb9-4c7d-b379-861ae563613f",
         "name": "Sapphire Nitro+ B850M Wi-Fi",
-        "variant": "",
+        "variant": "Sapphire Nitro+ Wi-Fi",
         "amazon_sku": "",
-        "clean_name": "Sapphire Nitro+ B850M Wi-Fi"
+        "clean_name": "Sapphire Nitro+ B850M Wi-Fi",
+        "socket": "AM5",
+        "form_factor": "Micro ATX"
     },
     {
         "id": "382fd35a-20e1-4ebf-b0cf-58b43cc7d204",
@@ -21478,7 +21480,7 @@
         "id": "e2c207a7-8b7b-47b4-926e-9571592fe3ca",
         "name": "Gigabyte X870E AORUS XTREME X3D AI TOP",
         "variant": "AORUS XTREME X3D AI TOP",
-        "amazon_sku": "‎B083WFQC1C",
+        "amazon_sku": "B0GDMLX6YN",
         "clean_name": "Gigabyte X870E AORUS XTREME X3D AI TOP",
         "socket": "AM5",
         "form_factor": "EATX"
@@ -26670,8 +26672,8 @@
     {
         "id": "d950b08a-9a7d-4db9-8b6d-db87c5f97437",
         "name": "Asus B650E MAX GAMING WIFI W AM5 DDR5 ATX",
-        "variant": "",
-        "amazon_sku": "",
+        "variant": "MAX GAMING WIFI W",
+        "amazon_sku": "B0F25ML4CK",
         "clean_name": "Asus B650E MAX GAMING WIFI W",
         "socket": "AM5",
         "form_factor": "ATX",
@@ -32187,7 +32189,7 @@
         "id": "eef88b84-471b-4fc6-90c7-96a7e03f6890",
         "name": "MSI B760 MAG B760M MORTAR WIFI II LGA1700 DDR5 Micro ATX",
         "variant": "",
-        "amazon_sku": "B0CGZXXPGD",
+        "amazon_sku": "B0CMJP2NNR",
         "clean_name": "MSI B760 MAG B760M MORTAR WIFI II",
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
