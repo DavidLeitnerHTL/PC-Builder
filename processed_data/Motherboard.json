@@ -99,7 +99,7 @@
     {
         "id": "b0654459-30fd-42f3-9638-0c999b7d07dc",
         "name": "MSI PRO Z790-A WIFI II",
-        "variant": "PRO Z790-A WIFI II",
+        "variant": "Z790-A WIFI II",
         "amazon_sku": "B0G3TWBHYC",
         "clean_name": "MSI PRO Z790-A WIFI II",
         "socket": "LGA 1700",
@@ -235,7 +235,7 @@
     {
         "id": "a05b2cf0-2447-442d-a7cd-a8cc2eaa291b",
         "name": "MSI Z790 MEG GODLIKE MAX LGA1700 DDR5 EATX",
-        "variant": "",
+        "variant": "Z790",
         "amazon_sku": "B0CM9V3F2V",
         "clean_name": "MSI Z790 MEG GODLIKE MAX",
         "socket": "LGA 1700",
@@ -245,7 +245,7 @@
     {
         "id": "7543729a-f7be-462a-ad1a-94615005be09",
         "name": "MSI Z790 PRO-P DDR5 ATX",
-        "variant": "",
+        "variant": "Z790",
         "amazon_sku": "",
         "clean_name": "MSI Z790 PRO-P",
         "socket": "LGA 1700",
@@ -1895,7 +1895,7 @@
     {
         "id": "9e50890f-991e-4e72-ae19-db5088319a10",
         "name": "ASRock B760M HDV/M.2 D4 LGA1700 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "B760M-HDV/M.2 D4",
         "amazon_sku": "B0CG6B3YC6",
         "clean_name": "ASRock B760M HDV/M.2 D4",
         "socket": "LGA 1700",
@@ -3531,7 +3531,7 @@
     {
         "id": "c94f015a-4593-48ad-9175-515a6cd95a40",
         "name": "MSI MAG Z790 TOMAHAWK WIFI DDR4 ATX",
-        "variant": "MAG TOMAHAWK WIFI DDR4",
+        "variant": "Z790 WIFI",
         "amazon_sku": "B0BHCGHBDY",
         "clean_name": "MSI MAG Z790 TOMAHAWK WIFI",
         "socket": "LGA 1700",
@@ -4639,7 +4639,7 @@
     {
         "id": "c54cfa78-00e9-412e-a62e-3f7d711bbff5",
         "name": "MSI MAG Z790 TOMAHAWK WIFI DDR5 ATX",
-        "variant": "MAG TOMAHAWK WIFI",
+        "variant": "Z790 TOMAHAWK WIFI",
         "amazon_sku": "B0BL8K1YH1",
         "clean_name": "MSI MAG Z790 TOMAHAWK WIFI",
         "socket": "LGA 1700",
@@ -5724,7 +5724,7 @@
     {
         "id": "45143eb0-44eb-4f88-a6c8-38fc8e000270",
         "name": "MSI Z790 GAMING PLUS WIFI7 DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI7",
         "amazon_sku": "",
         "clean_name": "MSI Z790 GAMING PLUS WIFI7",
         "socket": "LGA 1700",
@@ -5850,7 +5850,7 @@
     {
         "id": "79930bfb-d0ed-4633-934a-75876d3bd388",
         "name": "MSI PRO Z790-A WIFI DDR5 ATX",
-        "variant": "",
+        "variant": "Z790-A WiFi",
         "amazon_sku": "B0BHC3VHHG",
         "clean_name": "MSI PRO Z790-A WIFI",
         "socket": "LGA 1700",
@@ -6737,6 +6737,13 @@
         "memory_type": "DDR5"
     },
     {
+        "id": "1869f9a5-e431-434d-bb7d-40450e3befdf",
+        "name": "Gigabyte A520M K V2",
+        "variant": "A520M K V2",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte A520M K V2"
+    },
+    {
         "id": "9330edb5-58e7-421c-8ffb-4fea9e314c02",
         "name": "Gigabyte B650M GAMING PLUS WIFI DDR5 Micro ATX",
         "variant": "GAMING PLUS WIFI DDR5 Micro ATX",
@@ -6903,7 +6910,7 @@
     {
         "id": "7e9ba390-1085-4f21-8d7d-acc454875af2",
         "name": "Gigabyte A520M DS3H V2 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "A520M DS3H V2",
         "amazon_sku": "B0CK76BL9C",
         "clean_name": "Gigabyte A520M DS3H V2",
         "socket": "AM4",
@@ -8061,7 +8068,7 @@
     {
         "id": "91a79c2d-5981-45cb-a24f-9028b92c56f2",
         "name": "MSI MPG Z790 EDGE WIFI DDR5 ATX",
-        "variant": "EDGE WIFI",
+        "variant": "Z790 EDGE WIFI",
         "amazon_sku": "B09YLL91V6",
         "clean_name": "MSI MPG Z790 EDGE WIFI",
         "socket": "LGA 1700",
@@ -9121,7 +9128,7 @@
     {
         "id": "aa8eae87-5df7-4bc0-92ab-63f090dfcea1",
         "name": "Gigabyte A520 M K V2 AM4 DDR4 Micro ATX",
-        "variant": "K V2 (Rev. 1.0)",
+        "variant": "A520M K V2",
         "amazon_sku": "B0BXFBN121",
         "clean_name": "Gigabyte A520 M K V2",
         "socket": "AM4",
@@ -9847,7 +9854,7 @@
     {
         "id": "906ddb38-ce62-403b-ac2f-17b68f851be0",
         "name": "ASRock B760M Pro-A D4 WiFi DDR4 Micro ATX",
-        "variant": "",
+        "variant": "B760M D4 WiFi",
         "amazon_sku": "",
         "clean_name": "ASRock B760M Pro-A D4 WiFi",
         "socket": "LGA 1700",
@@ -10026,7 +10033,7 @@
     {
         "id": "32d3d89d-fe09-491a-9243-018967008ff7",
         "name": "ASRock B760M PG Lightning/D4 LGA1700 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "B760M D4",
         "amazon_sku": "",
         "clean_name": "ASRock B760M PG Lightning/D4",
         "socket": "LGA 1700",
@@ -10220,7 +10227,7 @@
     {
         "id": "45c7b84e-3c38-4b1f-a423-7e70246d035e",
         "name": "MSI PRO Z790-P DDR4 ATX",
-        "variant": "",
+        "variant": "Z790-P",
         "amazon_sku": "",
         "clean_name": "MSI PRO Z790-P",
         "socket": "LGA 1700",
@@ -10377,7 +10384,7 @@
     {
         "id": "9f5e3b56-01e9-4b30-8ca8-2421dd4497ce",
         "name": "Gigabyte A520 A520M S2H AM4 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "A520M S2H",
         "amazon_sku": "B08F7HPJ4F",
         "clean_name": "Gigabyte A520 A520M S2H",
         "socket": "AM4",
@@ -10670,7 +10677,7 @@
     {
         "id": "88752ad2-a193-46ce-8f66-8aac5176324f",
         "name": "MSI MPG Z790 CARBON WIFI II DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI II",
         "amazon_sku": "B0CTKSFD2X",
         "clean_name": "MSI MPG Z790 CARBON WIFI II",
         "socket": "LGA 1700",
@@ -12423,7 +12430,7 @@
     {
         "id": "75d0b602-7a31-43f1-a343-081a4a1952da",
         "name": "MSI Z790 PRO VC WIFI DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI",
         "amazon_sku": "B0D1J3C4JC",
         "clean_name": "MSI Z790 PRO VC WIFI",
         "socket": "LGA 1700",
@@ -13756,7 +13763,7 @@
     {
         "id": "ba7f9641-6032-466a-83cd-f36c183ed13f",
         "name": "ASRock B760M Pro RS/D4 WiFi DDR4 Micro ATX",
-        "variant": "Pro RS DDR4",
+        "variant": "B760M RS/D4 WiFi",
         "amazon_sku": "B0BRNLMMZM",
         "clean_name": "ASRock B760M Pro RS/D4 WiFi",
         "socket": "LGA 1700",
@@ -14678,7 +14685,7 @@
     {
         "id": "490d7277-ab24-4a95-a845-d7fb711e9692",
         "name": "MSI Z790 MPOWER LGA1700 DDR5 Micro ATX",
-        "variant": "",
+        "variant": "Z790",
         "amazon_sku": "",
         "clean_name": "MSI Z790 MPOWER",
         "socket": "LGA 1700",
@@ -15021,7 +15028,7 @@
     {
         "id": "2aff1f5f-f8b3-41fd-bd78-9c21c331ddb8",
         "name": "Gigabyte AMD A520 AORUS ELITE DDR4 ATX",
-        "variant": "",
+        "variant": "A520",
         "amazon_sku": "B08J9PKJ4D",
         "clean_name": "Gigabyte AMD A520 AORUS ELITE",
         "socket": "AM4",
@@ -15756,7 +15763,7 @@
     {
         "id": "9b4275f5-fa56-4def-b30a-948123b3634f",
         "name": "ASRock B760M ITX/D4 WiFi DDR4 Mini ITX",
-        "variant": "",
+        "variant": "B760M-ITX/D4 WiFi",
         "amazon_sku": "B0BQWQ9QPK",
         "clean_name": "ASRock B760M ITX/D4 WiFi",
         "socket": "LGA 1700",
@@ -15992,7 +15999,7 @@
     {
         "id": "8383e4d2-6486-4271-91a9-2dd66b6b038a",
         "name": "ASRock B760M Pro-A D4 LGA1700 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "B760M D4",
         "amazon_sku": "",
         "clean_name": "ASRock B760M Pro-A D4",
         "socket": "LGA 1700",
@@ -16184,7 +16191,7 @@
     {
         "id": "60689143-11f2-4ae7-b080-aa88c83a6ac3",
         "name": "Gigabyte A520 M DS3H AM4 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "A520M DS3H",
         "amazon_sku": "B08F7J8XTV",
         "clean_name": "Gigabyte A520 M DS3H",
         "socket": "AM4",
@@ -16388,7 +16395,7 @@
     {
         "id": "6c8ce523-efd2-4ff8-a303-9aeee6143792",
         "name": "MSI Z790 MPG CARBON WIFI DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 CARBON WIFI",
         "amazon_sku": "B0BHCJ1QK8",
         "clean_name": "MSI Z790 MPG CARBON WIFI",
         "socket": "LGA 1700",
@@ -16564,7 +16571,7 @@
     {
         "id": "f999de7c-44a1-47e0-a95d-b883737d430c",
         "name": "Gigabyte A520 A520I AC AM4 DDR4 Mini ITX",
-        "variant": "",
+        "variant": "A520I AC",
         "amazon_sku": "B08F7BHDLY",
         "clean_name": "Gigabyte A520 A520I AC",
         "socket": "AM4",
@@ -16984,7 +16991,7 @@
     {
         "id": "5b1e7597-30c8-492a-937e-04fc2dfaad08",
         "name": "MSI Z790 PRO S WIFI DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI",
         "amazon_sku": "B0CJGQMZCY",
         "clean_name": "MSI Z790 PRO S WIFI",
         "socket": "LGA 1700",
@@ -17097,7 +17104,7 @@
     {
         "id": "0246b615-b948-437c-985e-e38430fb859d",
         "name": "Gigabyte A520 M H AM4 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "A520M H",
         "amazon_sku": "",
         "clean_name": "Gigabyte A520 M H",
         "socket": "AM4",
@@ -17471,7 +17478,7 @@
     {
         "id": "a28d1ebe-0750-4ef7-99dc-5bb3d08cdbfc",
         "name": "MSI Z790I MPG EDGE WIFI DDR5 Mini ITX",
-        "variant": "",
+        "variant": "Z790I EDGE WIFI",
         "amazon_sku": "B0BHCJ6KQ2",
         "clean_name": "MSI Z790I MPG EDGE WIFI",
         "socket": "LGA 1700",
@@ -19121,7 +19128,7 @@
     {
         "id": "d84865bd-79b7-49f3-a0b8-bd420ebcb189",
         "name": "Gigabyte A520M DS3H AC DDR4 Micro ATX",
-        "variant": "",
+        "variant": "A520M DS3H AC ",
         "amazon_sku": "B08P2PFK59",
         "clean_name": "Gigabyte A520M DS3H AC",
         "socket": "AM4",
@@ -20610,6 +20617,13 @@
         "memory_type": "DDR4"
     },
     {
+        "id": "e1b56571-d8ca-4ea5-ae4e-f7b59d8a7d5a",
+        "name": "Gigabyte A520M S2H V2",
+        "variant": "A520M S2H V2",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte A520M S2H V2"
+    },
+    {
         "id": "74c64ee5-02b2-42f6-8bab-fdbe4edd4552",
         "name": "MSI MPG Z690 EDGE WIFI DDR5 ATX",
         "variant": "",
@@ -20731,7 +20745,7 @@
     {
         "id": "e5c5d1b7-5c59-41f7-867a-cd328a6cc652",
         "name": "MSI Z790 MEG GODLIKE DDR5 EATX",
-        "variant": "",
+        "variant": "Z790 GODLIKE",
         "amazon_sku": "B0BL9TSHBJ",
         "clean_name": "MSI Z790 MEG GODLIKE",
         "socket": "LGA 1700",
@@ -20867,7 +20881,7 @@
     {
         "id": "b3fbc04f-8e08-4f2f-98d7-fc153090273f",
         "name": "MSI Z790-A PRO MAX WIFI DDR5 ATX",
-        "variant": "",
+        "variant": "Z790-A WiFi",
         "amazon_sku": "B0CJSJ9TB3",
         "clean_name": "MSI Z790-A PRO MAX WIFI",
         "socket": "LGA 1700",
@@ -21391,7 +21405,7 @@
     {
         "id": "9099b81d-f502-4567-ab32-1c033c598194",
         "name": "MSI Z790 MEG ACE WIFI DDR5 EATX",
-        "variant": "",
+        "variant": "Z790 ACE WIFI",
         "amazon_sku": "B0BL8JC76Q",
         "clean_name": "MSI Z790 MEG ACE WIFI",
         "socket": "LGA 1700",
@@ -21470,7 +21484,7 @@
     {
         "id": "10cef2d3-f9fd-49ad-8400-704b011fd1a6",
         "name": "MSI Z790 GAMING WIFI DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI",
         "amazon_sku": "",
         "clean_name": "MSI Z790 GAMING WIFI",
         "socket": "LGA 1700",
@@ -21903,7 +21917,7 @@
     {
         "id": "bcf3be63-c996-49fe-a0fe-923f64358503",
         "name": "Gigabyte A520M AORUS ELITE DDR4 Micro ATX",
-        "variant": "",
+        "variant": "A520M",
         "amazon_sku": "B08F76J3ZF",
         "clean_name": "Gigabyte A520M AORUS ELITE",
         "socket": "AM4",
@@ -22636,7 +22650,7 @@
     {
         "id": "311844f5-3743-47e9-936c-2e1b6e1692fb",
         "name": "MSI Z790 MEG ACE MAX LGA1700 DDR5 EATX",
-        "variant": "",
+        "variant": "Z790 ACE MAX",
         "amazon_sku": "B0CM9TSR2C",
         "clean_name": "MSI Z790 MEG ACE MAX",
         "socket": "LGA 1700",
@@ -22850,7 +22864,7 @@
     {
         "id": "ca457ca9-ecc5-48f3-849a-74eed142ed6d",
         "name": "ASRock B760 Pro RS/D4 WiFi White DDR4 ATX",
-        "variant": "",
+        "variant": "B760 RS/D4 WiFi White",
         "amazon_sku": "",
         "clean_name": "ASRock B760 Pro RS/D4 WiFi White",
         "socket": "LGA 1700",
@@ -25205,7 +25219,7 @@
     {
         "id": "242ca6dd-6bf7-4b44-888c-9c1b42ced8fb",
         "name": "MSI Z790 MPG EDGE WIFI DDR4 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI",
         "amazon_sku": "B0BDS95B8T",
         "clean_name": "MSI Z790 MPG EDGE WIFI",
         "socket": "LGA 1700",
@@ -25285,7 +25299,7 @@
     {
         "id": "c13142f3-95c0-4de9-b12f-15f8bd62ce45",
         "name": "MSI Z790 MPG CARBON MAX WIFI II DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI II",
         "amazon_sku": "B0D2FJKZPQ",
         "clean_name": "MSI Z790 MPG CARBON MAX WIFI II",
         "socket": "LGA 1700",
@@ -25962,7 +25976,7 @@
     {
         "id": "b1cde920-35c1-4b78-8daf-7933f2198dc7",
         "name": "MSI Z790 PRO A WIFI DDR4 ATX",
-        "variant": "",
+        "variant": "Z790-A WIFI",
         "amazon_sku": "B0BHBQFHTN",
         "clean_name": "MSI Z790 PRO A WIFI",
         "socket": "LGA 1700",
@@ -26106,7 +26120,7 @@
     {
         "id": "6d8ad2fd-4602-410f-9c3c-d0f9a2035ba7",
         "name": "MSI Z790 GAMING PLUS WIFI LGA1700 DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI",
         "amazon_sku": "B0D2JFH7NQ",
         "clean_name": "MSI Z790 GAMING PLUS WIFI",
         "socket": "LGA 1700",
@@ -27665,7 +27679,7 @@
     {
         "id": "ef9377fc-b325-487f-9ff4-ae9861183669",
         "name": "MSI PRO Z790-P WIFI DDR4 ATX",
-        "variant": "",
+        "variant": "Z790-P WIFI",
         "amazon_sku": "B0BHC2LNBF",
         "clean_name": "MSI PRO Z790-P WIFI",
         "socket": "LGA 1700",
@@ -28679,7 +28693,7 @@
     {
         "id": "7d1bc71f-55de-4975-a2aa-8a0bcabd9fc7",
         "name": "Gigabyte A520 M K AM4 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "A520M K",
         "amazon_sku": "",
         "clean_name": "Gigabyte A520 M K",
         "socket": "AM4",
@@ -28778,7 +28792,7 @@
     {
         "id": "6b1d5bf3-13e4-4436-bf44-e60ede97f62a",
         "name": "MSI Z790 MPG EDGE TI MAX WIFI DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI",
         "amazon_sku": "B0CJS34SLJ",
         "clean_name": "MSI Z790 MPG EDGE TI MAX WIFI",
         "socket": "LGA 1700",
@@ -29573,7 +29587,7 @@
     {
         "id": "4eb068f1-a1dc-4e8b-8fc1-f616ea274087",
         "name": "MSI MAG Z790 TOMAHAWK MAX WIFI DDR5 ATX",
-        "variant": "MAG Z790 TOMAHAWK MAX WIFI",
+        "variant": "Z790 WIFI",
         "amazon_sku": "B0CJSL89T2",
         "clean_name": "MSI MAG Z790 TOMAHAWK MAX WIFI",
         "socket": "LGA 1700",
@@ -29761,7 +29775,7 @@
     {
         "id": "ff34d65e-d982-4bec-bc21-4d9b4b351636",
         "name": "ASRock B760 Pro RS/D4 LGA1700 DDR4 ATX",
-        "variant": "Pro RS DDR4",
+        "variant": "B760  RS/D4",
         "amazon_sku": "B0BQWRCYNX",
         "clean_name": "ASRock B760 Pro RS/D4",
         "socket": "LGA 1700",
@@ -30419,7 +30433,7 @@
     {
         "id": "9e10d9df-1a34-4dcd-8dfe-3cf3a75e11a5",
         "name": "MSI Z790 PROJECT ZERO WIFI DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI",
         "amazon_sku": "B0CRF7JJWZ",
         "clean_name": "MSI Z790 PROJECT ZERO WIFI",
         "socket": "LGA 1700",
@@ -31759,7 +31773,7 @@
     {
         "id": "898c6ae0-4726-406d-bdc2-8d08b3b6ce8d",
         "name": "MSI Z790 GAMING PRO WIFI LGA1700 DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI",
         "amazon_sku": "",
         "clean_name": "MSI Z790 GAMING PRO WIFI",
         "socket": "LGA 1700",
@@ -31866,7 +31880,7 @@
     {
         "id": "03090354-e1c4-4671-be8d-2a2e5384e308",
         "name": "MSI Z790 MPG EDGE MONSTER HUNTER EDITION DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 MONSTER HUNTER EDITION",
         "amazon_sku": "",
         "clean_name": "MSI Z790 MPG EDGE MONSTER HUNTER EDITION",
         "socket": "LGA 1700",
@@ -32444,7 +32458,7 @@
     {
         "id": "1dc7fe07-51f8-48a4-9452-0e8ea1a6216e",
         "name": "MSI Z790 MPG CARBON MAX WIFI LGA1700 DDR5 ATX",
-        "variant": "",
+        "variant": "Z790 WIFI",
         "amazon_sku": "",
         "clean_name": "MSI Z790 MPG CARBON MAX WIFI",
         "socket": "LGA 1700",
@@ -33763,7 +33777,7 @@
     {
         "id": "33a8da01-cff3-46ec-8ca7-9435c85cc200",
         "name": "ASRock B760M Pro RS/D4 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "B760M RS/D4 DDR4 ",
         "amazon_sku": "B0BQWR37J4",
         "clean_name": "ASRock B760M Pro RS/D4",
         "socket": "LGA 1700",
