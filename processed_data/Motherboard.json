@@ -70,7 +70,7 @@
     {
         "id": "fd086d6a-07fc-4e3c-8440-5bccc29912bc",
         "name": "Asus AMD X570 ROG Crosshair VIII Extreme AM4 DDR4 EATX",
-        "variant": "",
+        "variant": "X570 Crosshair VIII Extreme ",
         "amazon_sku": "",
         "clean_name": "Asus AMD X570 ROG Crosshair VIII Extreme",
         "socket": "AM4",
@@ -235,7 +235,7 @@
     {
         "id": "a05b2cf0-2447-442d-a7cd-a8cc2eaa291b",
         "name": "MSI Z790 MEG GODLIKE MAX LGA1700 DDR5 EATX",
-        "variant": "Z790",
+        "variant": "Z790 GODLIKE MAX",
         "amazon_sku": "B0CM9V3F2V",
         "clean_name": "MSI Z790 MEG GODLIKE MAX",
         "socket": "LGA 1700",
@@ -245,7 +245,7 @@
     {
         "id": "7543729a-f7be-462a-ad1a-94615005be09",
         "name": "MSI Z790 PRO-P DDR5 ATX",
-        "variant": "Z790",
+        "variant": "Z790-P",
         "amazon_sku": "",
         "clean_name": "MSI Z790 PRO-P",
         "socket": "LGA 1700",
@@ -755,10 +755,10 @@
     },
     {
         "id": "4761ba01-0c8c-4426-9e83-8ecc6266b014",
-        "name": "Asus AMD X570 ROG Crosshair VIII Formula AM4 DDR4 ATX",
-        "variant": "",
+        "name": "Asus ROG X570 Crosshair VIII Formula AM4 DDR4 ATX",
+        "variant": "X570 Crosshair VIII Formula",
         "amazon_sku": "B07SYGHTCL",
-        "clean_name": "Asus AMD X570 ROG Crosshair VIII Formula",
+        "clean_name": "Asus ROG X570 Crosshair VIII Formula",
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4"
@@ -1896,7 +1896,7 @@
         "id": "9e50890f-991e-4e72-ae19-db5088319a10",
         "name": "ASRock B760M HDV/M.2 D4 LGA1700 DDR4 Micro ATX",
         "variant": "B760M-HDV/M.2 D4",
-        "amazon_sku": "B0CG6B3YC6",
+        "amazon_sku": "B0BQWPKCTP",
         "clean_name": "ASRock B760M HDV/M.2 D4",
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
@@ -3531,7 +3531,7 @@
     {
         "id": "c94f015a-4593-48ad-9175-515a6cd95a40",
         "name": "MSI MAG Z790 TOMAHAWK WIFI DDR4 ATX",
-        "variant": "Z790 WIFI",
+        "variant": "Z790 TOMAHAWK WIFI",
         "amazon_sku": "B0BHCGHBDY",
         "clean_name": "MSI MAG Z790 TOMAHAWK WIFI",
         "socket": "LGA 1700",
@@ -4926,7 +4926,7 @@
     {
         "id": "8bb61129-94d8-4fd0-81da-847582a7e956",
         "name": "Asus ROG STRIX X570-E GAMING WIFI II DDR4 ATX",
-        "variant": "",
+        "variant": "X570-E GAMING WIFI II",
         "amazon_sku": "B09GP7V2W5",
         "clean_name": "Asus ROG STRIX X570-E GAMING WIFI II",
         "socket": "AM4",
@@ -5724,7 +5724,7 @@
     {
         "id": "45143eb0-44eb-4f88-a6c8-38fc8e000270",
         "name": "MSI Z790 GAMING PLUS WIFI7 DDR5 ATX",
-        "variant": "Z790 WIFI7",
+        "variant": "Z790 PLUS WIFI7",
         "amazon_sku": "",
         "clean_name": "MSI Z790 GAMING PLUS WIFI7",
         "socket": "LGA 1700",
@@ -7259,7 +7259,7 @@
     {
         "id": "cdf6115f-02eb-4a6f-94c0-7e50662b25b0",
         "name": "Asus X570 PRIME X570-P/CSM AM4 DDR4 ATX",
-        "variant": "",
+        "variant": "X570-P/CSM",
         "amazon_sku": "",
         "clean_name": "Asus X570 PRIME X570-P/CSM",
         "socket": "AM4",
@@ -8592,7 +8592,7 @@
     {
         "id": "11191359-113d-4fbd-a945-23099406eeec",
         "name": "Asus X570 TUF GAMING X570-PLUS DDR4 ATX",
-        "variant": "",
+        "variant": "X570-PLUS",
         "amazon_sku": "B07SXFK1TP",
         "clean_name": "Asus X570 TUF GAMING X570-PLUS",
         "socket": "AM4",
@@ -10677,7 +10677,7 @@
     {
         "id": "88752ad2-a193-46ce-8f66-8aac5176324f",
         "name": "MSI MPG Z790 CARBON WIFI II DDR5 ATX",
-        "variant": "Z790 WIFI II",
+        "variant": "Z790 CARBON WIFI II",
         "amazon_sku": "B0CTKSFD2X",
         "clean_name": "MSI MPG Z790 CARBON WIFI II",
         "socket": "LGA 1700",
@@ -10979,7 +10979,7 @@
     {
         "id": "aa3d27b6-15a2-482d-bd27-41227fd9ed76",
         "name": "Asus X570 TUF GAMING X570-PRO WIFI II ATX AM4 DDR4 ATX",
-        "variant": "",
+        "variant": "X570-PRO WIFI II ",
         "amazon_sku": "",
         "clean_name": "Asus X570 TUF GAMING X570-PRO WIFI II",
         "socket": "AM4",
@@ -12430,7 +12430,7 @@
     {
         "id": "75d0b602-7a31-43f1-a343-081a4a1952da",
         "name": "MSI Z790 PRO VC WIFI DDR5 ATX",
-        "variant": "Z790 WIFI",
+        "variant": "Z790 VC WIFI",
         "amazon_sku": "B0D1J3C4JC",
         "clean_name": "MSI Z790 PRO VC WIFI",
         "socket": "LGA 1700",
@@ -13872,7 +13872,7 @@
     {
         "id": "35e51695-e952-4ffb-866b-776a4c851b10",
         "name": "ASUS X570 ROG Crosshair VIII Impact AM4 WIFI DDR4 Mini DTX",
-        "variant": "",
+        "variant": "X570 Crosshair VIII Impact",
         "amazon_sku": "B07Y2NMRBP",
         "clean_name": "ASUS X570 ROG Crosshair VIII Impact WIFI Mini DTX",
         "socket": "AM4",
@@ -14205,7 +14205,7 @@
     {
         "id": "6993f214-44d2-4700-abeb-a9001cf15252",
         "name": "ASUS X570 ROG STRIX X570-I GAMING DDR4 MINI ITX",
-        "variant": "",
+        "variant": "Strix X570-I Gaming",
         "amazon_sku": "B07Y2PZTQ5",
         "clean_name": "ASUS X570 ROG STRIX X570-I GAMING",
         "socket": "AM4",
@@ -15136,7 +15136,7 @@
     {
         "id": "4d2498b9-4419-4a6b-8585-dbabb99b3951",
         "name": "Asus X570 TUF GAMING PRO (WI-FI) AM4 DDR4 ATX",
-        "variant": "",
+        "variant": "X570-PRO (WI-FI)",
         "amazon_sku": "B08JWMPVD9",
         "clean_name": "Asus X570 TUF GAMING PRO (WI-FI)",
         "socket": "AM4",
@@ -16601,7 +16601,7 @@
     {
         "id": "9f34644b-9b5f-44e5-a070-94bf44172111",
         "name": "Asus X570 ROG Crosshair VIII Dark Hero AM4 DDR4 ATX",
-        "variant": "",
+        "variant": "X570 Crosshair VIII Dark Hero",
         "amazon_sku": "B08MTKJ6HM",
         "clean_name": "Asus X570 ROG Crosshair VIII Dark Hero",
         "socket": "AM4",
@@ -16991,7 +16991,7 @@
     {
         "id": "5b1e7597-30c8-492a-937e-04fc2dfaad08",
         "name": "MSI Z790 PRO S WIFI DDR5 ATX",
-        "variant": "Z790 WIFI",
+        "variant": "Z790 S WIFI",
         "amazon_sku": "B0CJGQMZCY",
         "clean_name": "MSI Z790 PRO S WIFI",
         "socket": "LGA 1700",
@@ -20621,7 +20621,9 @@
         "name": "Gigabyte A520M S2H V2",
         "variant": "A520M S2H V2",
         "amazon_sku": "",
-        "clean_name": "Gigabyte A520M S2H V2"
+        "clean_name": "Gigabyte A520M S2H V2",
+        "socket": "AM4",
+        "form_factor": "Micro ATX"
     },
     {
         "id": "74c64ee5-02b2-42f6-8bab-fdbe4edd4552",
@@ -20881,7 +20883,7 @@
     {
         "id": "b3fbc04f-8e08-4f2f-98d7-fc153090273f",
         "name": "MSI Z790-A PRO MAX WIFI DDR5 ATX",
-        "variant": "Z790-A WiFi",
+        "variant": "Z790-A MAX WiFi",
         "amazon_sku": "B0CJSJ9TB3",
         "clean_name": "MSI Z790-A PRO MAX WIFI",
         "socket": "LGA 1700",
@@ -22580,6 +22582,15 @@
         "form_factor": "ATX"
     },
     {
+        "id": "db3fab0b-c358-497e-bda9-4883008c1985",
+        "name": "MSI PRO Z790-P II",
+        "variant": "Z790-P II",
+        "amazon_sku": "",
+        "clean_name": "MSI PRO Z790-P II",
+        "socket": "LGA 1700",
+        "form_factor": "ATX"
+    },
+    {
         "id": "be4ac780-1cbb-4a83-ad97-5958238bc06b",
         "name": "B365M PRO-VDH",
         "variant": "B365M PRO-VDH",
@@ -23002,7 +23013,7 @@
     {
         "id": "2e24dc62-c58a-4bcf-b4d6-03383c731a33",
         "name": "Asus AMD X570 ROG Crosshair VIII Hero WI-FI DDR4 ATX",
-        "variant": "",
+        "variant": "X570 ROG Crosshair VIII Hero WI-FI ",
         "amazon_sku": "B07SZXBTNW",
         "clean_name": "Asus AMD X570 ROG Crosshair VIII Hero WI-FI",
         "socket": "AM4",
@@ -23947,10 +23958,10 @@
     },
     {
         "id": "2f0bf272-9942-4848-8456-5207f3405695",
-        "name": "Asus X570 PRIME PRO AM4 DDR4 ATX",
-        "variant": "",
+        "name": "ASUS PRIME X570-PRO AM4 DDR4 ATX",
+        "variant": "X570-PRO ",
         "amazon_sku": "B07SW925DQ",
-        "clean_name": "Asus X570 PRIME PRO",
+        "clean_name": "ASUS PRIME X570-PRO",
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4"
@@ -25219,7 +25230,7 @@
     {
         "id": "242ca6dd-6bf7-4b44-888c-9c1b42ced8fb",
         "name": "MSI Z790 MPG EDGE WIFI DDR4 ATX",
-        "variant": "Z790 WIFI",
+        "variant": "Z790 EDGE WIFI",
         "amazon_sku": "B0BDS95B8T",
         "clean_name": "MSI Z790 MPG EDGE WIFI",
         "socket": "LGA 1700",
@@ -25299,7 +25310,7 @@
     {
         "id": "c13142f3-95c0-4de9-b12f-15f8bd62ce45",
         "name": "MSI Z790 MPG CARBON MAX WIFI II DDR5 ATX",
-        "variant": "Z790 WIFI II",
+        "variant": "Z790 CARBON MAX WIFI II",
         "amazon_sku": "B0D2FJKZPQ",
         "clean_name": "MSI Z790 MPG CARBON MAX WIFI II",
         "socket": "LGA 1700",
@@ -25975,10 +25986,10 @@
     },
     {
         "id": "b1cde920-35c1-4b78-8daf-7933f2198dc7",
-        "name": "MSI Z790 PRO A WIFI DDR4 ATX",
+        "name": "MSI Z790 PRO-A WIFI DDR4 ATX",
         "variant": "Z790-A WIFI",
         "amazon_sku": "B0BHBQFHTN",
-        "clean_name": "MSI Z790 PRO A WIFI",
+        "clean_name": "MSI Z790 PRO-A WIFI",
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR4"
@@ -26120,7 +26131,7 @@
     {
         "id": "6d8ad2fd-4602-410f-9c3c-d0f9a2035ba7",
         "name": "MSI Z790 GAMING PLUS WIFI LGA1700 DDR5 ATX",
-        "variant": "Z790 WIFI",
+        "variant": "Z790 PLUS WIFI",
         "amazon_sku": "B0D2JFH7NQ",
         "clean_name": "MSI Z790 GAMING PLUS WIFI",
         "socket": "LGA 1700",
@@ -26437,7 +26448,7 @@
     {
         "id": "f1b62bdd-a008-42a5-abe2-e2fc14c0cdce",
         "name": "Asus TUF GAMING X570-PLUS (WI-FI) AM4 DDR4 ATX",
-        "variant": "",
+        "variant": "X570-PLUS WIFI",
         "amazon_sku": "B07SXF8GY3",
         "clean_name": "Asus TUF GAMING X570-PLUS (WI-FI)",
         "socket": "AM4",
@@ -26518,6 +26529,15 @@
         "clean_name": "MSI H410M-A PRO",
         "socket": "LGA 1200",
         "form_factor": "Micro ATX"
+    },
+    {
+        "id": "218dde02-c12f-4abb-a47f-14ef005cf7fa",
+        "name": "MSI Z790-S01",
+        "variant": "Z790-S01",
+        "amazon_sku": "",
+        "clean_name": "MSI Z790-S01",
+        "socket": "LGA 1700",
+        "form_factor": "ATX"
     },
     {
         "id": "f89b6668-f314-4561-b0ce-c8c8cdaec4c7",
@@ -27399,7 +27419,7 @@
     {
         "id": "8b4b04c2-91dc-4737-af33-d0b2244a80bc",
         "name": "Asus X570 PRIME-P AM4 DDR4 ATX",
-        "variant": "",
+        "variant": "X570-P",
         "amazon_sku": "B07SW925DR",
         "clean_name": "Asus X570 PRIME-P",
         "socket": "AM4",
@@ -28128,10 +28148,10 @@
     },
     {
         "id": "5bea65eb-9a5b-4408-afe8-aa751de4924b",
-        "name": "ASUS X570 ROG STRIX X570-E GAMING AM4 DDR4 ATX",
-        "variant": "",
+        "name": "ASUS ROG Strix X570-E Gaming AM4 DDR4 ATX",
+        "variant": "X570-E Gaming ",
         "amazon_sku": "B07SW8DQVL",
-        "clean_name": "ASUS X570 ROG STRIX X570-E GAMING",
+        "clean_name": "ASUS ROG Strix X570-E Gaming",
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4"
@@ -28792,7 +28812,7 @@
     {
         "id": "6b1d5bf3-13e4-4436-bf44-e60ede97f62a",
         "name": "MSI Z790 MPG EDGE TI MAX WIFI DDR5 ATX",
-        "variant": "Z790 WIFI",
+        "variant": "Z790 EDGE MAX WIFI",
         "amazon_sku": "B0CJS34SLJ",
         "clean_name": "MSI Z790 MPG EDGE TI MAX WIFI",
         "socket": "LGA 1700",
@@ -29587,7 +29607,7 @@
     {
         "id": "4eb068f1-a1dc-4e8b-8fc1-f616ea274087",
         "name": "MSI MAG Z790 TOMAHAWK MAX WIFI DDR5 ATX",
-        "variant": "Z790 WIFI",
+        "variant": "Z790 TOMAHAWK MAX WIFI",
         "amazon_sku": "B0CJSL89T2",
         "clean_name": "MSI MAG Z790 TOMAHAWK MAX WIFI",
         "socket": "LGA 1700",
@@ -30491,7 +30511,7 @@
     {
         "id": "a1551722-fd03-4441-aa63-54b0ad90c4d1",
         "name": "Asus X570 ROG Crosshair VIII Hero DDR4 ATX",
-        "variant": "",
+        "variant": "X570 Crosshair VIII Hero",
         "amazon_sku": "B07SYW3RT2",
         "clean_name": "Asus X570 ROG Crosshair VIII Hero",
         "socket": "AM4",
@@ -31597,7 +31617,7 @@
     {
         "id": "75f679a2-77f3-4aa1-9014-82f1dea16a53",
         "name": "Asus X570 ROG Strix X570-F Gaming AM4 DDR4 ATX",
-        "variant": "",
+        "variant": "X570-F Gaming ",
         "amazon_sku": "B07SXDR2LJ",
         "clean_name": "Asus X570 ROG Strix X570-F Gaming",
         "socket": "AM4",
@@ -31773,7 +31793,7 @@
     {
         "id": "898c6ae0-4726-406d-bdc2-8d08b3b6ce8d",
         "name": "MSI Z790 GAMING PRO WIFI LGA1700 DDR5 ATX",
-        "variant": "Z790 WIFI",
+        "variant": "Z790 PRO WIFI",
         "amazon_sku": "",
         "clean_name": "MSI Z790 GAMING PRO WIFI",
         "socket": "LGA 1700",
@@ -31880,7 +31900,7 @@
     {
         "id": "03090354-e1c4-4671-be8d-2a2e5384e308",
         "name": "MSI Z790 MPG EDGE MONSTER HUNTER EDITION DDR5 ATX",
-        "variant": "Z790 MONSTER HUNTER EDITION",
+        "variant": "Z790 EDGE MONSTER HUNTER EDITION",
         "amazon_sku": "",
         "clean_name": "MSI Z790 MPG EDGE MONSTER HUNTER EDITION",
         "socket": "LGA 1700",
@@ -32458,7 +32478,7 @@
     {
         "id": "1dc7fe07-51f8-48a4-9452-0e8ea1a6216e",
         "name": "MSI Z790 MPG CARBON MAX WIFI LGA1700 DDR5 ATX",
-        "variant": "Z790 WIFI",
+        "variant": "Z790 CARBON MAX WIFI",
         "amazon_sku": "",
         "clean_name": "MSI Z790 MPG CARBON MAX WIFI",
         "socket": "LGA 1700",
@@ -32920,10 +32940,10 @@
     },
     {
         "id": "d72858c7-42da-42c9-9e73-9cb001af8575",
-        "name": "Asus AMD X570 Pro WS X570-ACE AM4 DDR4 ATX",
-        "variant": "",
+        "name": "Asus Pro WS X570-ACE AM4 DDR4 ATX",
+        "variant": "X570-ACE WS",
         "amazon_sku": "B07SYWKXJV",
-        "clean_name": "Asus AMD X570 Pro WS X570-ACE",
+        "clean_name": "Asus Pro WS X570-ACE",
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4"
@@ -34512,7 +34532,7 @@
     {
         "id": "e6292ab5-77a4-477b-a966-3992b097baa9",
         "name": "Asus X570 ProArt CREATOR WIFI AM4 DDR4 ATX",
-        "variant": "",
+        "variant": "X570-CREATOR WIFI",
         "amazon_sku": "",
         "clean_name": "Asus X570 ProArt CREATOR WIFI",
         "socket": "AM4",
@@ -34770,7 +34790,7 @@
     {
         "id": "c8181094-61b7-4c0a-8ec3-c54e4d47ed35",
         "name": "ASUS ROG Crosshair VIII Extreme",
-        "variant": "Extreme",
+        "variant": "X570 CROSSHAIR VIII EXTREME",
         "amazon_sku": "B09D7M81TD",
         "clean_name": "ASUS ROG Crosshair VIII Extreme",
         "socket": "AM4",
