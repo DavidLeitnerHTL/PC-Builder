@@ -1201,7 +1201,7 @@
     {
         "id": "f7a5a4a1-b0cd-4715-a43a-775899d17039",
         "name": "PowerColor Hellhound OC Radeon RX 9070 XT 16GB GDDR6 Black",
-        "variant": "PowerColor",
+        "variant": "OC",
         "amazon_sku": "B0CVVLV5TV",
         "clean_name": "PowerColor Hellhound OC Radeon RX 9070 XT GDDR6 Black",
         "chipset": "Radeon RX 9070 XT",
@@ -1502,10 +1502,10 @@
     },
     {
         "id": "5f516b78-27c2-454b-9b8e-b3539121c642",
-        "name": "Asus TUF GAMING OC V2 GeForce RTX 3060 Ti LHR 8GB GDDR6 Black",
-        "variant": "Asus",
+        "name": "ASUS TUF Gaming GeForce RTX 3060 Ti V2 OC Edition 8GB GDDR6 LHR",
+        "variant": "V2 OC Edition LHR",
         "amazon_sku": "B0985YLRB3",
-        "clean_name": "Asus TUF GAMING OC V2 GeForce RTX 3060 Ti LHR GDDR6 Black",
+        "clean_name": "ASUS TUF Gaming GeForce RTX 3060 Ti V2 OC Edition GDDR6 LHR",
         "chipset": "GeForce RTX 3060 Ti",
         "vram": "8GB"
     },
@@ -2681,12 +2681,11 @@
     },
     {
         "id": "c95ebe07-f1ed-47d4-a434-a52ef64f8f60",
-        "name": "MSI Gaming X12G GeForce RTX 3060 12GB GDDR6 Black / Silver",
-        "variant": "MSI",
+        "name": "MSI GeForce RTX 3060 GAMING X 12G GDDR6",
+        "variant": "X ",
         "amazon_sku": "B08WPJ5P4R",
-        "clean_name": "MSI Gaming X12G GeForce RTX 3060 GDDR6 Black / Silver",
-        "chipset": "GeForce RTX 3060 12 GB",
-        "vram": "12GB"
+        "clean_name": "MSI GeForce RTX 3060 GAMING X 12G GDDR6",
+        "chipset": "GeForce RTX 3060 12 GB"
     },
     {
         "id": "6b38d694-db38-42e7-959c-62439dd3aebe",
@@ -3874,10 +3873,10 @@
     },
     {
         "id": "336978ac-c5d7-45de-83a6-e68b5dd2000a",
-        "name": "MSI GAMING OC GeForce RTX 5060 Ti 16GB GDDR7 Black",
-        "variant": "MSI",
+        "name": "MSI GAMING OC GeForce RTX 5060 Ti 16GB GDDR7 ",
+        "variant": "OC ",
         "amazon_sku": "B0F32LPGBW",
-        "clean_name": "MSI GAMING OC GeForce RTX 5060 Ti GDDR7 Black",
+        "clean_name": "MSI GAMING OC GeForce RTX 5060 Ti GDDR7",
         "chipset": "GeForce RTX 5060 Ti 16 GB",
         "vram": "16GB"
     },
@@ -4357,12 +4356,11 @@
     },
     {
         "id": "230f51af-92ad-4636-ba75-25460a10c170",
-        "name": "MSI VENTUS 3X OC GeForce RTX 5070 12 GB Grey/Black",
-        "variant": "VENTUS 3X OC",
+        "name": "MSI GeForce RTX 5070 12G VENTUS 3X OC GDDR7",
+        "variant": "OC ",
         "amazon_sku": "B0DX7GG91F",
-        "clean_name": "MSI VENTUS 3X OC GeForce RTX 5070 Grey/Black",
-        "chipset": "GeForce RTX 5070",
-        "vram": "12 GB"
+        "clean_name": "MSI GeForce RTX 5070 12G VENTUS 3X OC GDDR7",
+        "chipset": "GeForce RTX 5070"
     },
     {
         "id": "515f1c04-9077-4705-890e-2b8c4cdb6d36",
@@ -6743,10 +6741,10 @@
     },
     {
         "id": "cc790723-6008-4214-893f-c1158d723517",
-        "name": "Asus Noctua OC GeForce RTX 5080 16GB GDDR7 Brown / Silver",
-        "variant": "Noctua OC Edition",
+        "name": "ASUS Noctua OC Edition GeForce RTX 5080 16GB GDDR7",
+        "variant": "OC Edition",
         "amazon_sku": "B0FMS3DJTR",
-        "clean_name": "Asus Noctua OC GeForce RTX 5080 GDDR7 Brown / Silver",
+        "clean_name": "ASUS Noctua OC Edition GeForce RTX 5080 GDDR7",
         "chipset": "GeForce RTX 5080",
         "vram": "16GB"
     },
@@ -10347,10 +10345,10 @@
     },
     {
         "id": "9815cb78-c1e7-49a8-b006-0635269d73cd",
-        "name": "XFX Swift OC Radeon RX 9070 16GB GDDR6 Black",
-        "variant": "XFX",
+        "name": "XFX Swift AMD Radeon RX 9070 OC Triple Fan Gaming Edition 16GB GDDR6",
+        "variant": "OC Triple Fan Gaming Edition",
         "amazon_sku": "B0DXLBTL4B",
-        "clean_name": "XFX Swift OC Radeon RX 9070 GDDR6 Black",
+        "clean_name": "XFX Swift AMD Radeon RX 9070 OC Triple Fan Gaming Edition GDDR6",
         "chipset": "Radeon RX 9070",
         "vram": "16GB"
     },
@@ -12309,11 +12307,12 @@
     },
     {
         "id": "5a7bb041-eb0e-49f8-beea-7a3df4dffee2",
-        "name": "XFX Quicksilver AMD Radeon RX 9070XT White Gaming Edition",
-        "variant": "QUICKSILVER WHITE",
+        "name": "XFX Quicksilver AMD Radeon RX 9070XT White Gaming Edition 16GB GDDR6",
+        "variant": "White Gaming Edition",
         "amazon_sku": "B0DX16XMDN",
-        "clean_name": "XFX Quicksilver AMD Radeon RX 9070XT White Gaming Edition",
-        "chipset": "Radeon RX 9070 XT"
+        "clean_name": "XFX Quicksilver AMD Radeon RX 9070XT White Gaming Edition GDDR6",
+        "chipset": "Radeon RX 9070 XT",
+        "vram": "16GB"
     },
     {
         "id": "e8976852-12e0-4b60-a7d7-1bf34e06b601",
@@ -12915,10 +12914,10 @@
     },
     {
         "id": "3093e821-dab8-41e3-94a4-2504e4399268",
-        "name": "PNY OC GeForce RTX 5070 Ti 16GB GDDR7 Black",
-        "variant": "PNY",
+        "name": "PNY OC GeForce RTX 5070 Ti 16GB GDDR7 ",
+        "variant": "OC ",
         "amazon_sku": "B0DXL7GSYC",
-        "clean_name": "PNY OC GeForce RTX 5070 Ti GDDR7 Black",
+        "clean_name": "PNY OC GeForce RTX 5070 Ti GDDR7",
         "chipset": "GeForce RTX 5070 Ti",
         "vram": "16GB"
     },
@@ -15829,12 +15828,11 @@
     },
     {
         "id": "5dc81d44-0222-436b-86f4-d5ff9e5a2ada",
-        "name": "MSI VENTUS 2X OC GeForce RTX 4060 Ti 16GB GDDR6 Black",
-        "variant": "MSI",
+        "name": "MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 16G OC GDDR6",
+        "variant": "OC ",
         "amazon_sku": "B0CCG5S6LD",
-        "clean_name": "MSI VENTUS 2X OC GeForce RTX 4060 Ti GDDR6 Black",
-        "chipset": "GeForce RTX 4060 Ti",
-        "vram": "16GB"
+        "clean_name": "MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 16G OC GDDR6",
+        "chipset": "GeForce RTX 4060 Ti"
     },
     {
         "id": "661af4d5-8242-49a2-a1aa-e20d09e7bc8d",
@@ -17261,10 +17259,10 @@
     },
     {
         "id": "50c590b3-dd1c-4037-963e-46fa7ced776c",
-        "name": "Zotac GAMING SOLID OC GeForce RTX 5090 32GB GDDR7 Black / Copper",
-        "variant": "SOLID OC",
+        "name": "Zotac GAMING GeForce RTX 5090 SOLID OC 32GB GDDR7",
+        "variant": "OC ",
         "amazon_sku": "B0DV6MK91R",
-        "clean_name": "Zotac GAMING SOLID OC GeForce RTX 5090 GDDR7 Black / Copper",
+        "clean_name": "Zotac GAMING GeForce RTX 5090 SOLID OC GDDR7",
         "chipset": "GeForce RTX 5090",
         "vram": "32GB"
     },
@@ -17608,10 +17606,10 @@
     },
     {
         "id": "e201f0f5-cf41-4427-a011-cb95be752354",
-        "name": "EVGA SC ULTRA GAMING GeForce GTX 1660 SUPER 6GB GDDR6 Black",
-        "variant": "EVGA",
+        "name": "EVGA SC ULTRA GAMING GeForce GTX 1660 SUPER 6GB GDDR6 ",
+        "variant": "Black",
         "amazon_sku": "B07ZHZL2JB",
-        "clean_name": "EVGA SC ULTRA GAMING GeForce GTX 1660 SUPER GDDR6 Black",
+        "clean_name": "EVGA SC ULTRA GAMING GeForce GTX 1660 SUPER GDDR6",
         "chipset": "GeForce GTX 1660 SUPER",
         "vram": "6GB"
     },
@@ -17742,10 +17740,10 @@
     },
     {
         "id": "7efebc98-f6f0-4ed5-9f4d-597c2402a8e3",
-        "name": "Sparkle TITAN OC Arc B580 12GB GDDR6 Blue / White",
-        "variant": "Sparkle",
+        "name": "Sparkle Intel Arc B580 TITAN OC 12GB GDDR6",
+        "variant": "OC ",
         "amazon_sku": "B0DNMH4KQM",
-        "clean_name": "Sparkle TITAN OC Arc B580 GDDR6 Blue / White",
+        "clean_name": "Sparkle Intel Arc B580 TITAN OC GDDR6",
         "chipset": "Arc B580",
         "vram": "12GB"
     },
@@ -19417,10 +19415,10 @@
     },
     {
         "id": "4fed6bb4-75a6-40cb-b1ba-4bf0798ca251",
-        "name": "NVIDIA Black / Silver GeForce GTX 1070 8GB GDDR5 Black / Silver",
-        "variant": "NVIDIA",
+        "name": "NVIDIA GeForce GTX 1070 8GB GDDR5",
+        "variant": "",
         "amazon_sku": "B01H1BLHYS",
-        "clean_name": "NVIDIA Black / Silver GeForce GTX 1070 GDDR5 Black / Silver",
+        "clean_name": "NVIDIA GeForce GTX 1070 GDDR5",
         "chipset": "GeForce GTX 1070",
         "vram": "8GB"
     },
@@ -22699,10 +22697,10 @@
     },
     {
         "id": "5fc9f366-b8e5-4646-98c5-fa17f2e891b7",
-        "name": "Gigabyte WINDFORCE GeForce RTX 5060 8GB GDDR7 Black",
-        "variant": "WINDFORCE 8GB",
+        "name": "Gigabyte WINDFORCE GeForce RTX 5060 8GB GDDR7 ",
+        "variant": "",
         "amazon_sku": "B0F8LPDVPQ",
-        "clean_name": "Gigabyte WINDFORCE GeForce RTX 5060 GDDR7 Black",
+        "clean_name": "Gigabyte WINDFORCE GeForce RTX 5060 GDDR7",
         "chipset": "GeForce RTX 5060",
         "vram": "8GB"
     },
@@ -22860,12 +22858,11 @@
     },
     {
         "id": "be5a2119-3146-46d2-899e-f9a7876c083e",
-        "name": "Gigabyte GeForce RTX 3070 GAMING OC 8GB GDDR6 Black Silver",
-        "variant": "Gigabyte",
+        "name": "Gigabyte GeForce RTX 3070 GAMING OC 8G GDDR6",
+        "variant": "OC ",
         "amazon_sku": "B08KY266MG",
-        "clean_name": "Gigabyte GeForce RTX 3070 GAMING OC GDDR6 Black Silver",
-        "chipset": "GeForce RTX 3070",
-        "vram": "8GB"
+        "clean_name": "Gigabyte GeForce RTX 3070 GAMING OC 8G GDDR6",
+        "chipset": "GeForce RTX 3070"
     },
     {
         "id": "b7e3ee43-a0a3-45a3-b6b1-62128657bd47",
@@ -22878,10 +22875,10 @@
     },
     {
         "id": "847f4b86-395e-41c2-8db1-604b4342bbc3",
-        "name": "MSI MECH 2X Radeon RX 6600 8GB GDDR6 Black / Silver",
+        "name": "MSI MECH 2X Radeon RX 6600 8GB GDDR6",
         "variant": "MSI",
         "amazon_sku": "B09HXLMG2L",
-        "clean_name": "MSI MECH 2X Radeon RX 6600 GDDR6 Black / Silver",
+        "clean_name": "MSI MECH 2X Radeon RX 6600 GDDR6",
         "chipset": "Radeon RX 6600",
         "vram": "8GB"
     },
@@ -23337,11 +23334,12 @@
     },
     {
         "id": "61066c8f-5375-4c80-a747-d6a06e1da091",
-        "name": "MSI GeForce RTX 5080 16G GAMING TRIO WHITE",
-        "variant": "16G GAMING TRIO WHITE",
+        "name": "MSI GeForce RTX 5080 16G GAMING TRIO WHITE 16GB GDDR7",
+        "variant": "WHITE",
         "amazon_sku": "",
-        "clean_name": "MSI GeForce RTX 5080 16G GAMING TRIO WHITE",
-        "chipset": "GeForce RTX 5080"
+        "clean_name": "MSI GeForce RTX 5080 16G GAMING TRIO WHITE GDDR7",
+        "chipset": "GeForce RTX 5080",
+        "vram": "16GB"
     },
     {
         "id": "c5d174de-4fb0-4015-ac0b-129bc09df243",
@@ -23444,10 +23442,10 @@
     },
     {
         "id": "017e0e6d-797c-45cb-950d-61e5e07a5d92",
-        "name": "MSI GAMING OC GeForce RTX 5060 Ti 8GB GDDR7 Black",
-        "variant": "MSI",
+        "name": "MSI GAMING OC GeForce RTX 5060 Ti 8GB GDDR7 ",
+        "variant": "OC ",
         "amazon_sku": "B0F4M8PX1V",
-        "clean_name": "MSI GAMING OC GeForce RTX 5060 Ti GDDR7 Black",
+        "clean_name": "MSI GAMING OC GeForce RTX 5060 Ti GDDR7",
         "chipset": "GeForce RTX 5060 Ti",
         "vram": "8GB"
     },
@@ -24936,6 +24934,13 @@
         "vram": "12GB"
     },
     {
+        "id": "3a501f66-bf8f-4aff-bf12-87928d4ee9da",
+        "name": "AMD Radeon™ RX 6800",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "AMD Radeon™ RX 6800"
+    },
+    {
         "id": "01015520-bae5-4ab7-8aef-adbcdfbfd199",
         "name": "XFX Speedster QICK 319 Core Radeon RX 6750 XT 12GB GDDR6 Black",
         "variant": "XFX",
@@ -25803,10 +25808,10 @@
     },
     {
         "id": "8f7e9ca5-d594-4004-b9bf-5f3d41ece4ec",
-        "name": "Asus DUAL OC GeForce RTX 5060 Ti 16GB GDDR7 Black / Silver",
-        "variant": "Dual OC 16GB",
+        "name": "ASUS Dual OC Edition GeForce RTX 5060 Ti 16GB GDDR7",
+        "variant": "OC Edition",
         "amazon_sku": "B0F7WB6LSH",
-        "clean_name": "Asus DUAL OC GeForce RTX 5060 Ti GDDR7 Black / Silver",
+        "clean_name": "ASUS Dual OC Edition GeForce RTX 5060 Ti GDDR7",
         "chipset": "GeForce RTX 5060 Ti 16 GB",
         "vram": "16GB"
     },
@@ -30158,10 +30163,10 @@
     },
     {
         "id": "6035c4a6-39a0-4da1-a447-3acd2c6fac9b",
-        "name": "Asus GeForce RTX 4080 ROG STRIX GAMING OC 16GB GDDR6X Black / Red",
-        "variant": "Asus",
+        "name": "Asus ROG Strix GeForce RTX 4080 16GB GDDR6X OC Edition",
+        "variant": "OC Edition",
         "amazon_sku": "B0BLFTWYLZ",
-        "clean_name": "Asus GeForce RTX 4080 ROG STRIX GAMING OC GDDR6X Black / Red",
+        "clean_name": "Asus ROG Strix GeForce RTX 4080 GDDR6X OC Edition",
         "chipset": "GeForce RTX 4080",
         "vram": "16GB"
     },
@@ -32218,10 +32223,10 @@
     },
     {
         "id": "899afb31-5a58-4afd-89f6-acbe29204347",
-        "name": "NVIDIA Founders Edition GeForce RTX 3070 8GB GDDR6 Black",
-        "variant": "NVIDIA",
+        "name": "NVIDIA Founders Edition GeForce RTX 3070 8GB GDDR6",
+        "variant": "",
         "amazon_sku": "B08MYCN952",
-        "clean_name": "NVIDIA Founders Edition GeForce RTX 3070 GDDR6 Black",
+        "clean_name": "NVIDIA Founders Edition GeForce RTX 3070 GDDR6",
         "chipset": "GeForce RTX 3070",
         "vram": "8GB"
     },
@@ -32272,10 +32277,10 @@
     },
     {
         "id": "91375020-a039-4049-af87-d42de88432af",
-        "name": "AMD Radeon RX 7800 XT 16GB GDDR6 Black",
-        "variant": "AMD",
+        "name": "AMD Radeon RX 7800 XT 16GB GDDR6",
+        "variant": "",
         "amazon_sku": "B0CGM19NMS",
-        "clean_name": "AMD Radeon RX 7800 XT GDDR6 Black",
+        "clean_name": "AMD Radeon RX 7800 XT GDDR6",
         "chipset": "Radeon RX 7800 XT",
         "vram": "16GB"
     },
