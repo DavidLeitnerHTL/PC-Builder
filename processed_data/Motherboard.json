@@ -5338,8 +5338,8 @@
     {
         "id": "b89b000a-856c-4f25-ab9a-3bf7d831da08",
         "name": "ASUS ROG STRIX X870E-E GAMING WIFI7 NEO",
-        "variant": "STRIX X870E-E GAMING WIFI7",
-        "amazon_sku": "",
+        "variant": "ROG STRIX X870E-E GAMING WIFI7",
+        "amazon_sku": "B0GWNS77NT",
         "clean_name": "ASUS ROG STRIX X870E-E GAMING WIFI7 NEO",
         "socket": "AM5",
         "form_factor": "ATX"
@@ -6749,8 +6749,10 @@
         "id": "1869f9a5-e431-434d-bb7d-40450e3befdf",
         "name": "Gigabyte A520M K V2",
         "variant": "A520M K V2",
-        "amazon_sku": "",
-        "clean_name": "Gigabyte A520M K V2"
+        "amazon_sku": "B0BXFBN121",
+        "clean_name": "Gigabyte A520M K V2",
+        "socket": "AM4",
+        "form_factor": "Micro ATX"
     },
     {
         "id": "9330edb5-58e7-421c-8ffb-4fea9e314c02",
@@ -7299,7 +7301,7 @@
         "id": "33274b3d-7022-40f7-8665-01220496f1b2",
         "name": "ASUS ROG STRIX B850-F GAMING WIFI7 NEO",
         "variant": "STRIX B850-F GAMING WIFI7",
-        "amazon_sku": "",
+        "amazon_sku": "B0DPLQWLBD",
         "clean_name": "ASUS ROG STRIX B850-F GAMING WIFI7 NEO",
         "socket": "AM5",
         "form_factor": "ATX"
@@ -20647,7 +20649,7 @@
         "id": "e1b56571-d8ca-4ea5-ae4e-f7b59d8a7d5a",
         "name": "Gigabyte A520M S2H V2",
         "variant": "A520M S2H V2",
-        "amazon_sku": "",
+        "amazon_sku": "B08F7HPJ4F",
         "clean_name": "Gigabyte A520M S2H V2",
         "socket": "AM4",
         "form_factor": "Micro ATX"
@@ -22611,7 +22613,7 @@
     {
         "id": "db3fab0b-c358-497e-bda9-4883008c1985",
         "name": "MSI PRO Z790-P II",
-        "variant": "Z790-P II",
+        "variant": "PRO Z790-P II",
         "amazon_sku": "",
         "clean_name": "MSI PRO Z790-P II",
         "socket": "LGA 1700",

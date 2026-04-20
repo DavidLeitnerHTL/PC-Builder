@@ -1039,16 +1039,9 @@
         "clean_name": "ID-COOLING ICEKIMO 120W Water 62 CFM"
     },
     {
-        "id": "ab125c17-f9db-4e1b-bff4-3efde1695e7b",
-        "name": "NZXT Kraken Elite 420 RGB Black (2024)",
-        "variant": "Elite 420 RGB (2024)",
-        "amazon_sku": "",
-        "clean_name": "NZXT Kraken Elite 420 RGB Black (2024)"
-    },
-    {
         "id": "4ebfaa36-435f-495b-97da-4baab3dc8b73",
         "name": "NZXT Kraken Plus 240mm AIO Liquid Cooler with 1.54\" LCD",
-        "variant": "240mm Black",
+        "variant": "Non-RGB",
         "amazon_sku": "B0F5SGK5Q7",
         "clean_name": "NZXT Kraken Plus AIO Liquid Cooler with 1.54\" LCD",
         "radiator_size": "240mm"
@@ -1190,7 +1183,7 @@
     {
         "id": "799093c0-3c6f-42ba-905f-c955a4d66347",
         "name": "NZXT Kraken Elite Water 360mm RGB (2024) Black",
-        "variant": "Black",
+        "variant": "360mm RGB Black (2024)",
         "amazon_sku": "B0D9GV78D8",
         "clean_name": "NZXT Kraken Elite Water RGB (2024) Black",
         "radiator_size": "360mm"
@@ -1251,11 +1244,10 @@
     },
     {
         "id": "9828a076-03d8-4750-ad07-dceba4cef233",
-        "name": "NZXT Kraken Elite RGB (2025) Water 420mm 98.61 CFM RGB Black",
-        "variant": "Black",
+        "name": "NZXT Kraken Elite RGB Black (2024)",
+        "variant": "420mm RGB Black (2024)",
         "amazon_sku": "B0DN4QKMSV",
-        "clean_name": "NZXT Kraken Elite RGB (2025) Water 98.61 CFM RGB Black",
-        "radiator_size": "420mm"
+        "clean_name": "NZXT Kraken Elite RGB Black (2024)"
     },
     {
         "id": "4fe91c72-53d1-4638-9ec2-04a113b38c08",
@@ -2559,7 +2551,7 @@
     {
         "id": "62be088e-810f-4b41-9660-ae129439fdd6",
         "name": "NZXT Kraken Elite 240 (2024) 73.47 CFM Water 240mm Black",
-        "variant": "Black",
+        "variant": "240mm Black (2024)",
         "amazon_sku": "B0DCFMG8PB",
         "clean_name": "NZXT Kraken Elite 240 (2024) 73.47 CFM Water Black",
         "radiator_size": "240mm"
@@ -5095,13 +5087,6 @@
         "radiator_size": "360mm"
     },
     {
-        "id": "4784c694-da45-4f47-8dd0-9cea995b2218",
-        "name": "NZXT Kraken Elite 420 RGB White (2024)",
-        "variant": "Elite 420 RGB White",
-        "amazon_sku": "",
-        "clean_name": "NZXT Kraken Elite 420 RGB White (2024)"
-    },
-    {
         "id": "20578bec-d1ed-4742-aa70-c945279fcca4",
         "name": "Cooler Master MasterLiquid ML240 Mirror Water 240mm Black",
         "variant": "Black",
@@ -5515,7 +5500,7 @@
     {
         "id": "e6b80b91-6fd1-47a7-afdb-2259c6386f2c",
         "name": "NZXT Kraken Plus 360mm AIO Liquid Cooler with 1.54\" LCD",
-        "variant": "360mm Black",
+        "variant": "Non-RGB",
         "amazon_sku": "B0F5SZK3WX",
         "clean_name": "NZXT Kraken Plus AIO Liquid Cooler with 1.54\" LCD",
         "radiator_size": "360mm"
@@ -5720,7 +5705,7 @@
     {
         "id": "3916d3dc-9163-49e1-8fc4-d5a4d9410050",
         "name": "NZXT KRAKEN PLUS RGB 240 MM BLACK AIO LIQUID COOLER WITH 1.54\" LCD",
-        "variant": "240mm RGB Black",
+        "variant": "RGB",
         "amazon_sku": "B0F5S84X8P",
         "clean_name": "NZXT KRAKEN PLUS RGB BLACK AIO LIQUID COOLER WITH 1.54\" LCD",
         "radiator_size": "240 MM"
@@ -6004,7 +5989,7 @@
     {
         "id": "c28ba6de-5ff5-4c7c-a2cc-48f13f2f3bac",
         "name": "NZXT Kraken Elite 360 (2024) Water 360mm 73.47 CFM Black",
-        "variant": "Black",
+        "variant": "360mm Black (2024)",
         "amazon_sku": "B0D9GWDTHZ",
         "clean_name": "NZXT Kraken Elite 360 (2024) Water 73.47 CFM Black",
         "radiator_size": "360mm"
@@ -8288,7 +8273,7 @@
     {
         "id": "baecce90-71d4-4081-9fd2-3af37224f792",
         "name": "NZXT Kraken Elite Water 240mm RGB Black (2024)",
-        "variant": "Black",
+        "variant": "240mm RGB Black (2024)",
         "amazon_sku": "B0DCFN8Q6G",
         "clean_name": "NZXT Kraken Elite Water RGB Black (2024)",
         "radiator_size": "240mm"
@@ -8482,7 +8467,7 @@
     {
         "id": "80ee7d0a-1dca-4b7b-8065-c340608220a2",
         "name": "NZXT Kraken Elite 280 RGB (2024) Water 280mm Black",
-        "variant": "Black",
+        "variant": "280mm RGB Black (2024)",
         "amazon_sku": "B0DCFPJMPN",
         "clean_name": "NZXT Kraken Elite 280 RGB (2024) Water Black",
         "radiator_size": "280mm"
@@ -9681,10 +9666,10 @@
     },
     {
         "id": "84f409b9-e579-4160-878e-ad8a9cbb6814",
-        "name": "NZXT Kraken Elite RGB (2025) Water 420mm RGB (2025) 98.61 CFM White",
-        "variant": "White",
+        "name": "NZXT Kraken Elite 420mm RGB White (2024)",
+        "variant": "420mm RGB White (2024)",
         "amazon_sku": "B0DN4GS9FM",
-        "clean_name": "NZXT Kraken Elite RGB (2025) Water RGB (2025) 98.61 CFM White",
+        "clean_name": "NZXT Kraken Elite RGB White (2024)",
         "radiator_size": "420mm"
     },
     {
@@ -11142,7 +11127,7 @@
     {
         "id": "e10a2e74-8683-4045-8af3-5c40f8df8c04",
         "name": "NZXT KRAKEN PLUS RGB 360 MM BLACK AIO LIQUID COOLER WITH 1.54\" LCD",
-        "variant": "360mm RGB Black",
+        "variant": "RGB",
         "amazon_sku": "B0F5SCHSZQ",
         "clean_name": "NZXT KRAKEN PLUS RGB BLACK AIO LIQUID COOLER WITH 1.54\" LCD",
         "radiator_size": "360 MM"
@@ -11846,7 +11831,7 @@
     {
         "id": "0915b5cd-dbed-4b9d-a0c0-eaed5a0d7bc6",
         "name": "NZXT KRAKEN PLUS RGB 240 MM WHITE AIO LIQUID COOLER WITH 1.54\" LCD",
-        "variant": "240mm RGB White",
+        "variant": "RGB",
         "amazon_sku": "B0F5SNTBNC",
         "clean_name": "NZXT KRAKEN PLUS RGB WHITE AIO LIQUID COOLER WITH 1.54\" LCD",
         "radiator_size": "240 MM"
@@ -11908,7 +11893,7 @@
     {
         "id": "1c807e2c-e439-43d5-87c8-fb7c48476bb5",
         "name": "NZXT Kraken Elite 360 RGB (2024) Water 360mm RGB (2024) 75.12 CFM White",
-        "variant": "White",
+        "variant": "360mm RGB White (2024)",
         "amazon_sku": "B0D9GWQPDM",
         "clean_name": "NZXT Kraken Elite 360 RGB (2024) Water RGB (2024) 75.12 CFM White",
         "radiator_size": "360mm"
@@ -11924,7 +11909,7 @@
     {
         "id": "de5b2f29-9899-4d66-86cb-96350a18bdf2",
         "name": "NZXT Kraken Plus Water 280mm 93.2 CFM Black",
-        "variant": "280mm Black",
+        "variant": "Non-RGB",
         "amazon_sku": "B0F5SJS2JB",
         "clean_name": "NZXT Kraken Plus Water 93.2 CFM Black",
         "radiator_size": "280mm"
@@ -14639,7 +14624,7 @@
     {
         "id": "85f15529-f3be-4fbf-942a-7bb9a2fee165",
         "name": "NZXT Kraken Elite RGB Water 240mm 78.02 CFM Black",
-        "variant": "RGB 240mm 2023",
+        "variant": "240mm RGB (2023)",
         "amazon_sku": "B0BNYRB4ZX",
         "clean_name": "NZXT Kraken Elite RGB Water 78.02 CFM Black",
         "radiator_size": "240mm"
@@ -16682,7 +16667,7 @@
     {
         "id": "c365e39f-41e3-4949-b911-2b1a0300295e",
         "name": "NZXT Kraken Elite Water 240mm RGB (2024) 75.12 CFM White",
-        "variant": "White",
+        "variant": "240mm RGB White (2024)",
         "amazon_sku": "B0DCFNKXKY",
         "clean_name": "NZXT Kraken Elite Water RGB (2024) 75.12 CFM White",
         "radiator_size": "240mm"
@@ -17327,7 +17312,7 @@
     {
         "id": "1e539d30-384a-49da-a1d7-14458f7f74d1",
         "name": "NZXT KRAKEN PLUS RGB 360 MM WHITE AIO LIQUID COOLER WITH 1.54\" LCD",
-        "variant": "360mm RGB White",
+        "variant": "RGB",
         "amazon_sku": "B0F5SCG6QC",
         "clean_name": "NZXT KRAKEN PLUS RGB WHITE AIO LIQUID COOLER WITH 1.54\" LCD",
         "radiator_size": "360 MM"
@@ -17397,7 +17382,7 @@
     {
         "id": "e473a5ba-34e7-455d-85d7-5ed2c5c1c153",
         "name": "NZXT Kraken Elite Water 360mm Black",
-        "variant": "Black",
+        "variant": "360mm Black (2023)",
         "amazon_sku": "B0BY3JPVZY",
         "clean_name": "NZXT Kraken Elite Water Black",
         "radiator_size": "360mm"
@@ -18029,7 +18014,7 @@
     {
         "id": "08d9f60b-3ac0-45eb-8f87-3e9ac7d8162d",
         "name": "NZXT Kraken Elite Water 280mm RGB White (2024)",
-        "variant": "White",
+        "variant": "280mm RGB White (2024)",
         "amazon_sku": "B0DCFLYM9P",
         "clean_name": "NZXT Kraken Elite Water RGB White (2024)",
         "radiator_size": "280mm"
@@ -18565,7 +18550,7 @@
     {
         "id": "4e42b2e4-2a2d-423f-8180-1b6edc4b9a96",
         "name": "NZXT Kraken Elite 360 Water 360mm RGB 78.02 CFM Black 2023",
-        "variant": "360 RGB 2023",
+        "variant": "360mm RGB (2023)",
         "amazon_sku": "B0BY3HMXD4",
         "clean_name": "NZXT Kraken Elite 360 Water RGB 78.02 CFM Black 2023",
         "radiator_size": "360mm"
