@@ -2196,6 +2196,18 @@
         "clock_speed": "3.5 GHz"
     },
     {
+        "id": "a0415d5e-2c30-4133-873e-92a5f37ae9da",
+        "name": "Intel Core Ultra 5 250KF Plus",
+        "variant": "250KF Plus",
+        "amazon_sku": "",
+        "clean_name": "Intel Core Ultra 5 250KF Plus",
+        "socket": "LGA 1851",
+        "cores": 18,
+        "threads": 18,
+        "tdp": 125,
+        "ram_type": "DDR5"
+    },
+    {
         "id": "b41a8d44-f02d-41b5-aedb-f267b0450a23",
         "name": "Intel Core i9 9940X 3.3 GHz 14-Core LGA2066 OEM/Tray",
         "variant": "",
