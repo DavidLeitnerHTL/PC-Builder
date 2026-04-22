@@ -99,7 +99,7 @@
     {
         "id": "b0654459-30fd-42f3-9638-0c999b7d07dc",
         "name": "MSI PRO Z790-A WIFI II",
-        "variant": "Z790-A WIFI II",
+        "variant": "PRO-A WIFI II",
         "amazon_sku": "B0G3TWBHYC",
         "clean_name": "MSI PRO Z790-A WIFI II",
         "socket": "LGA 1700",
@@ -10281,6 +10281,15 @@
         "amazon_sku": "",
         "clean_name": "Asus Z97 E/USB3.1 DDR3",
         "socket": "LGA 1150",
+        "form_factor": "ATX"
+    },
+    {
+        "id": "c07e4c21-7de5-4d69-bf87-c5367d3440ca",
+        "name": "MSI PRO Z790-A MAX WIFI",
+        "variant": "PRO Z790-A MAX WiFi",
+        "amazon_sku": "B0CJSJ9TB3",
+        "clean_name": "MSI PRO Z790-A MAX WIFI",
+        "socket": "LGA 1700",
         "form_factor": "ATX"
     },
     {
