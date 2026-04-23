@@ -15,6 +15,20 @@ Features
 *   **Automated Data**: A background program (GitHub Actions) fetches the latest hardware data every night, sorts it, and saves it as handy JSON files.
     
 
+Features
+--------
+
+*   **Save/Load Builds**: Save your PC configurations locally and load them later. Export builds as JSON to share with friends!
+    
+*   **Interactive PC Building**: Choose your PC parts (CPU, graphics card, RAM, etc.) and instantly see the total price.
+    
+*   **Sleek Design**: Features a Dark Mode, a floating price bar, and modern buttons.
+    
+*   **AI Assistant**: A built-in chat using Google Gemini AI helps with questions about your PC (securely connected via a Cloudflare Worker).
+    
+*   **Automated Data**: A background program (GitHub Actions) fetches the latest hardware data every night, sorts it, and saves it as handy JSON files.
+    
+
 Planned Feature: Hardware Info Button
 ----------------------------------------
 
@@ -38,8 +52,10 @@ Project Structure
 ```text
 /
 ├── index.html            # Main page of the web app
+├── builder.html          # PC configurator page
 ├── style.css             # Design, colors, and animations
 ├── script.js             # Site logic and AI connection
+├── buildStorage.js       # Save/Load build feature module
 ├── config.js             # Settings
 ├── data_processor.py     # Python script that sorts the data
 ├── /processed_data/      # Automatically created JSON data (CPUs, graphics cards...)

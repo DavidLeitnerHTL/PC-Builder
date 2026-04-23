@@ -3,302 +3,828 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PC Builder</title>
+  <title>PC Builder 2026 — Dein Traum-PC startet hier</title>
+  <meta name="description" content="Der modernste PC Konfigurator mit KI-Support. Baue deinen perfekten PC mit Echtzeit-Kompatibilitätscheck und AI-Beratung.">
   
-  <!-- Bootstrap 5 CSS -->
+  <script>
+    const savedTheme = localStorage.getItem('theme');
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (savedTheme === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+    } else if (savedTheme === 'dark' || systemPrefersDark) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  </script>
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <!-- FontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <!-- Tom Select CSS for searchable dropdowns -->
-  <link href="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/css/tom-select.bootstrap5.min.css" rel="stylesheet">
-  
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
+  
+  <style>
+    /* === LANDING PAGE SPECIFIC STYLES === */
+    
+    /* Hero Section */
+    .landing-hero {
+      min-height: calc(100vh - 72px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      padding: 4rem 0;
+    }
+
+    .landing-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(var(--grid-line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+      background-size: 80px 80px;
+      opacity: 0.6;
+      animation: grid-drift 20s linear infinite;
+    }
+
+    @keyframes grid-drift {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(80px, 80px); }
+    }
+
+    .landing-hero::after {
+      content: '';
+      position: absolute;
+      top: -30%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 800px;
+      height: 800px;
+      background: radial-gradient(circle, rgba(255, 107, 0, 0.12) 0%, transparent 70%);
+      pointer-events: none;
+      animation: glow-pulse 4s ease-in-out infinite;
+    }
+
+    @keyframes glow-pulse {
+      0%, 100% { opacity: 0.6; transform: translateX(-50%) scale(1); }
+      50% { opacity: 1; transform: translateX(-50%) scale(1.1); }
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      max-width: 900px;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent-glow);
+      border: 1px solid rgba(255, 107, 0, 0.2);
+      padding: 0.4rem 1.2rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent-color);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 2rem;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .hero-title {
+      font-size: clamp(3rem, 7vw, 5.5rem);
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      line-height: 1.05;
+      margin-bottom: 1.5rem;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1rem, 2vw, 1.3rem);
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.7;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-hero {
+      padding: 0.9rem 2.2rem;
+      font-size: 1rem;
+      font-weight: 700;
+      border-radius: var(--radius-pill);
+      font-family: 'Space Grotesk', sans-serif;
+      letter-spacing: 0.01em;
+      transition: all 0.3s var(--ease-out-expo);
+    }
+
+    .btn-hero-primary {
+      background: var(--accent-color);
+      color: #fff;
+      border: 2px solid var(--accent-color);
+      box-shadow: 0 6px 30px rgba(255, 107, 0, 0.35);
+    }
+
+    .btn-hero-primary:hover {
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 40px rgba(255, 107, 0, 0.45);
+      color: #fff;
+    }
+
+    .btn-hero-outline {
+      background: transparent;
+      color: var(--text-primary);
+      border: 2px solid var(--border-color-strong);
+    }
+
+    .btn-hero-outline:hover {
+      border-color: var(--accent-color);
+      color: var(--accent-color);
+      transform: translateY(-3px);
+    }
+
+    .hero-scroll-hint {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-secondary);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      animation: scroll-bounce 2s ease-in-out infinite;
+    }
+
+    @keyframes scroll-bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(8px); }
+    }
+
+    .hero-scroll-hint .line {
+      width: 1px;
+      height: 40px;
+      background: linear-gradient(to bottom, var(--accent-color), transparent);
+    }
+
+    /* Stats Bar */
+    .stats-bar {
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      padding: 3rem 0;
+    }
+
+    .stat-divider {
+      width: 1px;
+      height: 50px;
+      background: var(--border-color);
+      margin: 0 auto;
+    }
+
+    /* Features Section */
+    .features-section {
+      padding: var(--section-padding) 0;
+    }
+
+    .feature-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      height: 100%;
+      transition: all 0.4s var(--ease-out-expo);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .feature-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--accent-color);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.5s var(--ease-out-expo);
+    }
+
+    .feature-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .feature-card:hover {
+      border-color: var(--accent-color);
+      transform: translateY(-6px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    }
+
+    .feature-icon {
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--radius-md);
+      background: var(--accent-glow);
+      color: var(--accent-color);
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid rgba(255, 107, 0, 0.15);
+    }
+
+    .feature-card h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.15rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .feature-card p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+
+    /* CTA Section */
+    .cta-section {
+      padding: var(--section-padding) 0;
+      text-align: center;
+      position: relative;
+    }
+
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(255, 107, 0, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .cta-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-xl);
+      padding: clamp(2.5rem, 5vw, 4rem);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--success-gradient);
+    }
+
+    /* Marquee */
+    .marquee-section {
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      padding: 1.5rem 0;
+      overflow: hidden;
+    }
+
+    .marquee-track {
+      display: flex;
+      animation: marquee 30s linear infinite;
+      gap: 3rem;
+      width: max-content;
+    }
+
+    .marquee-track:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .marquee-item {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.2rem, 2vw, 1.8rem);
+      font-weight: 700;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      opacity: 0.4;
+      transition: opacity 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .marquee-item:hover {
+      opacity: 1;
+      color: var(--accent-color);
+    }
+
+    .marquee-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--accent-color);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* How it works */
+    .steps-section {
+      padding: var(--section-padding) 0;
+    }
+
+    .step-card {
+      position: relative;
+      padding-left: 2rem;
+    }
+
+    .step-number {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 4rem;
+      font-weight: 900;
+      background: var(--success-gradient);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+      margin-bottom: 1rem;
+      opacity: 0.5;
+    }
+
+    .step-card h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.3rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .step-card p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    /* Page Sections */
+    .pages-section {
+      padding: var(--section-padding) 0;
+    }
+
+    .page-link-card {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      padding: 1.5rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      text-decoration: none;
+      color: var(--text-primary);
+      transition: all 0.4s var(--ease-out-expo);
+    }
+
+    .page-link-card:hover {
+      border-color: var(--accent-color);
+      transform: translateX(8px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      color: var(--text-primary);
+    }
+
+    .page-link-card .page-icon {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--radius-md);
+      background: var(--accent-glow);
+      color: var(--accent-color);
+      font-size: 1.2rem;
+      flex-shrink: 0;
+      border: 1px solid rgba(255, 107, 0, 0.15);
+    }
+
+    .page-link-card .page-info h4 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .page-link-card .page-info p {
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      margin: 0;
+    }
+
+    .page-link-card .page-arrow {
+      margin-left: auto;
+      color: var(--text-secondary);
+      transition: all 0.3s;
+    }
+
+    .page-link-card:hover .page-arrow {
+      color: var(--accent-color);
+      transform: translateX(4px);
+    }
+
+    /* Tech Highlights */
+    .tech-section {
+      padding: var(--section-padding) 0;
+    }
+
+    .tech-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem 1rem;
+      text-align: center;
+      transition: all 0.4s var(--ease-out-expo);
+    }
+
+    .tech-item:hover {
+      border-color: var(--accent-color);
+      transform: translateY(-4px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+
+    .tech-item i {
+      font-size: 1.5rem;
+      color: var(--accent-color);
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .tech-item span {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--text-primary);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: clamp(2.2rem, 8vw, 3.5rem);
+      }
+      .stat-divider {
+        display: none;
+      }
+      .btn-hero {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
 </head>
 <body class="d-flex flex-column min-vh-100">
 
-  <!-- === HEADER === -->
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent p-0">
-        <a class="navbar-brand d-flex flex-column" href="index.html">
-          <div class="d-flex align-items-center">
-            <i class="fas fa-microchip fa-2x me-2 text-white"></i>
-            <span class="fw-bold" style="font-size: 1.8rem; letter-spacing: -0.5px; margin-left: 10px;">PC Builder</span>
+  <!-- Header will be injected by config.js -->
+  <div id="site-header"></div>
+
+  <main class="flex-grow-1">
+
+    <!-- ====================== HERO ====================== -->
+    <section class="landing-hero">
+      <!-- Ambient animated orbs -->
+      <div class="hero-orb hero-orb--1"></div>
+      <div class="hero-orb hero-orb--2"></div>
+      <div class="hero-orb hero-orb--3"></div>
+      <div class="hero-content px-3">
+        <div class="hero-eyebrow fade-in-up">
+          <span class="dot-accent" style="margin-right: 0;"></span>
+          Schulprojekt 2026 — HTL Leonding
+        </div>
+        
+        <h1 class="hero-title fade-in-up delay-1">
+          Baue deinen<br>
+          <span class="text-gradient">perfekten PC</span>
+        </h1>
+        
+        <p class="hero-subtitle fade-in-up delay-2">
+          Der intelligenteste PC-Konfigurator mit Echtzeit-Kompatibilitätscheck, 
+          KI-Beratung und einer Datenbank mit über 1.000 Komponenten.
+        </p>
+        
+        <div class="hero-cta-group fade-in-up delay-3">
+          <a href="builder.html" class="btn btn-hero btn-hero-primary">
+            <i class="fas fa-rocket me-2"></i>Jetzt konfigurieren
+          </a>
+          <a href="knowledge.html" class="btn btn-hero btn-hero-outline">
+            <i class="fas fa-book-open me-2"></i>Hardware lernen
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint">
+        <span>Scroll</span>
+        <div class="line"></div>
+      </div>
+    </section>
+
+    <!-- ====================== MARQUEE ====================== -->
+    <section class="marquee-section">
+      <div class="marquee-track">
+        <span class="marquee-item"><span class="marquee-dot"></span> RTX 5090</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> Ryzen 9 9950X3D</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> DDR5 8000</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> PCIe 5.0</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> ATX 3.1</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> NVMe Gen5</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> GDDR7</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> Wi-Fi 7</span>
+        <!-- Duplicate for seamless loop -->
+        <span class="marquee-item"><span class="marquee-dot"></span> RTX 5090</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> Ryzen 9 9950X3D</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> DDR5 8000</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> PCIe 5.0</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> ATX 3.1</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> NVMe Gen5</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> GDDR7</span>
+        <span class="marquee-item"><span class="marquee-dot"></span> Wi-Fi 7</span>
+      </div>
+    </section>
+
+    <!-- ====================== STATS ====================== -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="row align-items-center text-center">
+          <div class="col-6 col-md-3 fade-in-up">
+            <div class="stat-item">
+              <div class="stat-number">1000+</div>
+              <div class="stat-label">Komponenten</div>
+            </div>
           </div>
-        </a>
-        
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav nav-pills ms-auto gap-2 align-items-center">
-            <li class="nav-item">
-              <a class="nav-link active px-3 py-2 fw-semibold" href="index.html">
-                <i class="fas fa-tools me-2"></i>Konfigurator
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-3 py-2 fw-semibold" href="knowledge.html">
-                <i class="fas fa-book-open me-2"></i>Wissen
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-3 py-2" href="faq.html">
-                <i class="fas fa-question-circle me-1"></i>FAQ
-              </a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link px-3 py-2" href="news.html">
-                <i class="fas fa-newspaper me-1"></i>News
-              </a>
-            </li>
-            
-            <!-- Dark Mode Toggle Button -->
-            <li class="nav-item d-flex align-items-center ms-lg-3 mt-2 mt-lg-0">
-                <button id="theme-toggle" class="toggle-btn" aria-label="Toggle Dark Mode">
-                    <div class="sun-rays"></div>
-                    <div class="main-circle"></div>
-                </button>
-            </li>
-          </ul>
+          <div class="d-none d-md-block col-md-auto"><div class="stat-divider"></div></div>
+          <div class="col-6 col-md-3 fade-in-up delay-1">
+            <div class="stat-item">
+              <div class="stat-number">8</div>
+              <div class="stat-label">Kategorien</div>
+            </div>
+          </div>
+          <div class="d-none d-md-auto col-md-auto"><div class="stat-divider"></div></div>
+          <div class="col-6 col-md-3 fade-in-up delay-2">
+            <div class="stat-item">
+              <div class="stat-number">AI</div>
+              <div class="stat-label">Powered</div>
+            </div>
+          </div>
+          <div class="d-none d-md-block col-md-auto"><div class="stat-divider"></div></div>
+          <div class="col-6 col-md-2 fade-in-up delay-3">
+            <div class="stat-item">
+              <div class="stat-number">∞</div>
+              <div class="stat-label">Möglichkeiten</div>
+            </div>
+          </div>
         </div>
-      </nav>
-    </div>
-  </header>
+      </div>
+    </section>
 
-  <main class="container my-5 pb-5 flex-grow-1">
-    
-    <div class="row align-items-start" id="main-builder-row">
+    <!-- Background grid wrapper for lower sections -->
+    <div class="grid-bg" style="position: relative;">
+
+    <!-- ====================== FEATURES ====================== -->
+    <section class="features-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-index mb-3 justify-content-center fade-in-up">
+            <span>Was wir bieten</span>
+          </div>
+          <h2 class="fade-in-up delay-1" style="font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.8rem, 3vw, 2.8rem);">
+            Alles was du brauchst,<br><span class="text-gradient">an einem Ort</span>
+          </h2>
+        </div>
         
-        <!-- Left Column: Hardware Selection -->
-        <div class="col-lg-8 transition-col" id="hardware-column">
-            
-            <!-- Preset Buttons -->
-            <div class="mb-4 d-flex gap-2 justify-content-center justify-content-md-start flex-wrap">
-                <button id="preset-budget" class="btn btn-outline-success fw-bold px-4" onclick="loadPreset('budget')">
-                    Budget
-                </button>
-                <button id="preset-midrange" class="btn btn-outline-primary fw-bold px-4" onclick="loadPreset('midrange')">
-                    Mid-Range
-                </button>
-                <button id="preset-highend" class="btn btn-outline-danger fw-bold px-4" onclick="loadPreset('highend')">
-                    High-End
-                </button>
+        <div class="row g-4">
+          <div class="col-md-4 fade-in-up">
+            <div class="feature-card">
+              <div class="feature-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+              <h3>KI-Kompatibilitätscheck</h3>
+              <p>Gemini AI analysiert deine Konfiguration in Echtzeit. Erkennt Flaschenhälse, prüft die Kompatibilität und optimiert dein Build.</p>
             </div>
-
-            <!-- Hardware Table (Floating Design) -->
-            <div class="table-responsive">
-              <table class="table mb-4" id="hardware-table">
-                <thead>
-                  <tr>
-                        <th>Komponente</th>
-                        <th>Auswahl</th>
-                        <th>Preis (€)</th>
-                        <th>Details</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- CPU -->
-                    <tr data-category="CPU">
-                        <td>Prozessor (CPU)</td>
-                        <td>
-                            <select id="cpu" class="form-select"></select>
-                        </td>
-                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
-                    </tr>
-                    
-                    <!-- Cooler -->
-                    <tr data-category="Cooler">
-                        <td>Kühler</td>
-                        <td>
-                            <select id="cooler" class="form-select"></select>
-                        </td>
-                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
-                    </tr>
-
-                    <!-- Motherboard -->
-                    <tr data-category="Motherboard">
-                        <td>Mainboard</td>
-                        <td>
-                            <select id="mb" class="form-select"></select>
-                        </td>
-                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
-                    </tr>
-
-                    <!-- GPU -->
-                    <tr data-category="GPU">
-                        <td>Grafikkarte (GPU)</td>
-                        <td>
-                            <select id="gpu" class="form-select"></select>
-                        </td>
-                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
-                    </tr>
-
-                    <!-- RAM -->
-                    <tr data-category="RAM">
-                        <td>Arbeitsspeicher (RAM)</td>
-                        <td>
-                            <select id="ram" class="form-select"></select>
-                        </td>
-                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
-                    </tr>
-
-                    <!-- SSD -->
-                    <tr data-category="SSD">
-                        <td>Speicher (SSD)</td>
-                        <td>
-                            <select id="ssd" class="form-select"></select>
-                        </td>
-                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
-                    </tr>
-
-                    <!-- PSU -->
-                    <tr data-category="PSU">
-                        <td>Netzteil (PSU)</td>
-                        <td>
-                            <select id="psu" class="form-select"></select>
-                        </td>
-                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
-                    </tr>
-
-                    <!-- Case -->
-                    <tr data-category="Case">
-                        <td>Gehäuse</td>
-                        <td>
-                            <select id="case" class="form-select"></select>
-                        </td>
-                        <td><input type="text" class="form-control price-input" value="0.00" readonly></td>
-                        <td><a href="#" target="_blank" class="btn btn-sm btn-outline-info">Details ansehen</a></td>
-                    </tr>
-                </tbody>
-              </table>
+          </div>
+          <div class="col-md-4 fade-in-up delay-1">
+            <div class="feature-card">
+              <div class="feature-icon"><i class="fas fa-sliders"></i></div>
+              <h3>Smart Konfigurator</h3>
+              <p>Durchsuche 1.000+ Komponenten mit intelligenter Suche. Preset-Builds für Budget, Mid-Range und High-End sofort verfügbar.</p>
             </div>
+          </div>
+          <div class="col-md-4 fade-in-up delay-2">
+            <div class="feature-card">
+              <div class="feature-icon"><i class="fas fa-graduation-cap"></i></div>
+              <h3>Hardware Wissensbasis</h3>
+              <p>Verstehe die Technik hinter den Komponenten. Von CPU-Architektur bis Panel-Technologie — alles einfach erklärt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== HOW IT WORKS ====================== -->
+    <section class="steps-section">
+      <div class="container">
+        <div class="line-accent"></div>
+        <div class="text-center mb-5">
+          <div class="section-index mb-3 justify-content-center fade-in-up">
+            <span>So funktioniert's</span>
+          </div>
+          <h2 class="fade-in-up delay-1" style="font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.8rem, 3vw, 2.8rem);">
+            In <span class="text-gradient">3 Schritten</span> zum Traum-PC
+          </h2>
         </div>
 
-        <!-- Right Column: AI Assistant -->
-        <div class="col-lg-4 transition-col" id="ai-column">
-            <div class="card ai-card mb-4 shadow-sm">
-                <div class="card-body">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                        <h3 class="h5 fw-bold m-0 text-primary">AI Assistant</h3>
-                        <span class="ai-badge">Gemini Powered</span>
-                    </div>
-                    <p class="small text-muted mb-3">
-                        Lass die KI deine Konfiguration prüfen oder stelle Fragen.
-                    </p>
-
-                    <div class="d-grid gap-2 mb-4">
-                        <button id="btn-check-build" class="btn btn-primary fw-bold shadow-sm py-2">
-                            System Check Starten
-                        </button>
-                    </div>
-
-                    <hr class="opacity-25 my-3">
-
-                    <label class="form-label fw-bold small">Experten-Frage:</label>
-                    <div class="input-group mb-2">
-                        <input type="text" id="ai-question-input" class="form-control" placeholder="z.B. Reicht das für GTA 6?">
-                        <button class="btn btn-outline-primary" type="button" id="btn-ask-ai">➤</button>
-                    </div>
-                    
-                    <!-- Loading Animation Section -->
-                    <div id="ai-loading" class="ai-loading">
-                        <div class="newtons-cradle">
-                            <div class="newtons-cradle__dot"></div>
-                            <div class="newtons-cradle__dot"></div>
-                            <div class="newtons-cradle__dot"></div>
-                            <div class="newtons-cradle__dot"></div>
-                        </div>
-                        <span class="fw-bold small text-primary">Gemini analysiert...</span>
-                    </div>
-
-                    <!-- Result Section -->
-                    <div id="ai-result-wrapper" class="ai-result-wrapper" style="display: none;">
-                        <div class="ai-buttons-container d-flex justify-content-end align-items-center gap-2 mb-3 mt-3 me-3">
-                            <button id="btn-resize-ai" class="btn btn-outline-secondary px-3 py-2" title="Ansicht vergrößern">
-                                <i class="fas fa-expand-arrows-alt"></i>
-                            </button>
-                            <button id="btn-close-expanded" class="btn btn-outline-secondary px-3 py-2" style="display: none;" title="Ansicht zurücksetzen">
-                                <i class="fas fa-compress-arrows-alt"></i>
-                            </button>
-                        </div>
-                        <div id="ai-output" class="ai-response-box shadow-sm"></div>
-                    </div>
-
-                </div>
+        <div class="row g-5">
+          <!-- Timeline connectors (visible on desktop) -->
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step-connector step-connector--2" aria-hidden="true"></div>
+          <div class="col-md-4 fade-in-up">
+            <div class="step-card">
+              <div class="step-number">01</div>
+              <h3>Wähle dein Preset</h3>
+              <p>Starte mit einem Budget, Mid-Range oder High-End Preset — oder wähle jede Komponente individuell aus.</p>
             </div>
+          </div>
+          <div class="col-md-4 fade-in-up delay-1">
+            <div class="step-card">
+              <div class="step-number">02</div>
+              <h3>KI prüft dein Build</h3>
+              <p>Unser Gemini-KI-Assistent analysiert automatisch Kompatibilität, Performance-Potenzial und Engpässe.</p>
+            </div>
+          </div>
+          <div class="col-md-4 fade-in-up delay-2">
+            <div class="step-card">
+              <div class="step-number">03</div>
+              <h3>Bestelle direkt</h3>
+              <p>Über die Detail-Ansicht kommst du direkt zum Amazon-Listing jeder gewählten Komponente.</p>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
+
+    <!-- ====================== PAGES NAV ====================== -->
+    <section class="pages-section">
+      <div class="container">
+        <div class="line-accent"></div>
+        <div class="text-center mb-5">
+          <div class="section-index mb-3 justify-content-center fade-in-up">
+            <span>Entdecke mehr</span>
+          </div>
+          <h2 class="fade-in-up delay-1" style="font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.8rem, 3vw, 2.8rem);">
+            Alle <span class="text-gradient">Bereiche</span>
+          </h2>
+        </div>
+
+        <div class="row g-3 justify-content-center">
+          <div class="col-md-8 fade-in-up">
+            <a href="builder.html" class="page-link-card">
+              <div class="page-icon"><i class="fas fa-sliders"></i></div>
+              <div class="page-info">
+                <h4>Konfigurator</h4>
+                <p>Stelle deinen PC mit 1.000+ Komponenten zusammen</p>
+              </div>
+              <div class="page-arrow"><i class="fas fa-arrow-right"></i></div>
+            </a>
+          </div>
+          <div class="col-md-8 fade-in-up delay-1">
+            <a href="knowledge.html" class="page-link-card">
+              <div class="page-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div class="page-info">
+                <h4>Hardware Wissen</h4>
+                <p>Technik verstehen — von CPU bis Peripherie</p>
+              </div>
+              <div class="page-arrow"><i class="fas fa-arrow-right"></i></div>
+            </a>
+          </div>
+          <div class="col-md-8 fade-in-up delay-2">
+            <a href="faq.html" class="page-link-card">
+              <div class="page-icon"><i class="fas fa-circle-question"></i></div>
+              <div class="page-info">
+                <h4>FAQ & Troubleshooting</h4>
+                <p>Lösungen für häufige Hardware-Probleme</p>
+              </div>
+              <div class="page-arrow"><i class="fas fa-arrow-right"></i></div>
+            </a>
+          </div>
+          <div class="col-md-8 fade-in-up delay-3">
+            <a href="news.html" class="page-link-card">
+              <div class="page-icon"><i class="fas fa-bolt"></i></div>
+              <div class="page-info">
+                <h4>Tech News</h4>
+                <p>Aktuelle Entwicklungen aus der Hardware-Industrie</p>
+              </div>
+              <div class="page-arrow"><i class="fas fa-arrow-right"></i></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== TECH HIGHLIGHTS ====================== -->
+    <section class="tech-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-index mb-3 justify-content-center fade-in-up">
+            <span>Neueste Generation</span>
+          </div>
+          <h2 class="fade-in-up delay-1" style="font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.8rem, 3vw, 2.8rem);">
+            Zukunftsweisende <span class="text-gradient">Technologie</span>
+          </h2>
+        </div>
+        <div class="row g-3 justify-content-center">
+          <div class="col-6 col-md-4 col-lg-2 fade-in-up">
+            <div class="tech-item">
+              <i class="fas fa-bolt"></i>
+              <span>PCIe 5.0</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 fade-in-up delay-1">
+            <div class="tech-item">
+              <i class="fas fa-memory"></i>
+              <span>DDR5 8000</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 fade-in-up delay-2">
+            <div class="tech-item">
+              <i class="fas fa-hard-drive"></i>
+              <span>NVMe Gen5</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 fade-in-up">
+            <div class="tech-item">
+              <i class="fas fa-wifi"></i>
+              <span>Wi-Fi 7</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 fade-in-up delay-1">
+            <div class="tech-item">
+              <i class="fas fa-display"></i>
+              <span>GDDR7</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 fade-in-up delay-2">
+            <div class="tech-item">
+              <i class="fas fa-plug"></i>
+              <span>ATX 3.1</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== CTA ====================== -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 fade-in-up">
+            <div class="cta-card text-center">
+              <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.5rem, 3vw, 2.2rem); margin-bottom: 1rem;">
+                Bereit deinen <span class="text-gradient">Traum-PC</span> zu bauen?
+              </h2>
+              <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto 2rem; font-size: 1rem;">
+                Starte jetzt mit dem Konfigurator und lass dir von unserer KI helfen, die perfekte Konfiguration zu finden.
+              </p>
+              <a href="builder.html" class="btn btn-hero btn-hero-primary">
+                <i class="fas fa-rocket me-2"></i>Konfigurator starten
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </div><!-- /grid-bg wrapper -->
+
   </main>
 
-  <!-- === FOOTER === -->
-  <footer class="bg-dark text-light mt-auto pt-5 pb-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <h5 class="text-uppercase fw-bold text-white mb-3">Über das Projekt</h5>
-          <p class="small text-white-50">
-            Ein moderner PC Konfigurator mit AI-Support. Erstellt als Schulprojekt an der HTL Leonding.
-          </p>
-          <p class="small text-white-50 mb-1">© 2026 David Leitner & Maximilian Baumgartner</p>
-          <p class="small text-white-50">
-            <i class="fas fa-database me-1"></i> Enthält Informationen aus der <a href="https://github.com/buildcores/buildcores-open-db" target="_blank" class="text-white-50 text-decoration-underline hover-white">Buildcores Open Database</a>, 
-            <br>welche unter der <a href="https://opendatacommons.org/licenses/by/1-0/" target="_blank" class="text-white-50 text-decoration-underline hover-white">ODC Attribution License</a> bereitgestellt wird.
-          </p>
-        </div>
-        <div class="col-md-6 mb-4 text-md-end">
-          <h5 class="text-uppercase fw-bold text-white mb-3">Links</h5>
-          <ul class="list-unstyled small">
-            <li class="mb-2">
-              <a href="https://github.com/DavidLeitnerHTL/PC-Builder" target="_blank" class="text-white-50 text-decoration-none hover-white">
-                <i class="fab fa-github me-1"></i> GitHub Repository
-              </a>
-            </li>
-            <li class="mb-2">
-              <a href="https://www.amazon.de" target="_blank" class="text-white-50 text-decoration-none hover-white">
-                <i class="fab fa-amazon me-1"></i> Amazon Hardware
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div style="height: 80px;"></div>
-  </footer>
+  <!-- Footer injected by config.js -->
+  <div id="site-footer"></div>
 
-  <!-- Sticky Footer Price Bar -->
-  <div class="sticky-price-bar">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div>
-        <div class="total-label">Gesamtpreis</div>
-        <small class="text-secondary d-none d-md-block">inkl. MwSt. (Schätzung)</small>
-      </div>
-      <div class="d-flex align-items-center">
-        <span class="total-price"><span id="total">0.00</span> €</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  
-  <!-- Tom Select JS for searchable dropdowns -->
-  <script src="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/js/tom-select.complete.min.js"></script>
-  
-  <script src="config.js"></script>
-  <script src="script.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="config.js"></script>
+  <script defer src="script.js"></script>
 </body>
 </html>

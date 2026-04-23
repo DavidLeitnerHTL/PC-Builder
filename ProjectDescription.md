@@ -32,6 +32,21 @@ The project consists of three main parts:
     *   A Python script (data\_processor.py) takes over 40,000 messy files, sorts them into categories (like CPUs or graphics cards), and saves them as small, fast JSON files in the processed\_data/ folder.
         
 
+New Feature: Save/Load Builds
+-----------------------------
+
+**Status:** ✅ Implemented
+
+Users can now save their PC configurations and load them later:
+
+*   **Save Builds**: Give your configuration a name and save it locally in the browser.
+    
+*   **Load Builds**: Quickly restore any previously saved build from the dropdown menu.
+    
+*   **Manage Builds**: View all saved builds, export them as JSON files, or import builds shared by others.
+    
+*   **Maximum 10 Builds**: To keep storage manageable, up to 10 builds can be saved per user.
+
 Next Big Goal: Hardware Info Button
 -----------------------------------
 
