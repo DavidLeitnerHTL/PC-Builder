@@ -9,106 +9,123 @@ from bs4 import BeautifulSoup
 import csv
 import re
 import time
+import os
+import urllib.parse
 
 # =========================
 # KONFIGURATION
 # =========================
 
-URL = "https://www.amazon.de/s?k=grafikkarte"
-CSV_DATEI = "amazon_gpu_preise.csv"
-MAX_GPU_ANZAHL = 50
-MAX_NAME_LEN = 60  # maximale Länge des Namens in CSV
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CSV_DATEI = os.path.join(BASE_DIR, "gpu_preise.csv")
+
+# 👉 NUR DIESE GPUS WERDEN GESUCHT
+ZIEL_GPUS = [
+    "PowerColor Hellhound Radeon RX 6600 8GB GDDR6 Black / White",
+    "MSI GeForce GTX 1630 AERO ITX 4G OC GeForce GTX 1630 4 GB",
+    "Gigabyte GV-R79XTX-24GC-B Radeon RX 7900 XTX 24GB GDDR6 Black",
+    "EVGA GeForce GTX 1660 XC Ultra Gaming 6GB",
+    "Asus Phoenix OC GeForce GTX 1660 Ti 6GB"
+]
 
 # =========================
-# FUNKTIONEN
+# BROWSER
 # =========================
 
 def starte_browser():
     options = Options()
-    options.add_argument("--headless")
-    options.add_argument("--disable-gpu")
+    # options.add_argument("--headless")  # optional
+
     options.add_argument("--window-size=1920,1080")
-    options.add_argument("--lang=de-DE")
-    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                         "AppleWebKit/537.36 (KHTML, like Gecko) "
-                         "Chrome/120.0.0.0 Safari/537.36")
-    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-blink-features=AutomationControlled")
 
-def lade_seite(driver, url):
-    driver.get(url)
-    WebDriverWait(driver, 15).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, "div.s-main-slot"))
+    return webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()),
+        options=options
     )
+
+# =========================
+# SEARCH
+# =========================
+
+def suche_gpu(driver, query):
+    search_url = "https://www.amazon.de/s?k=" + urllib.parse.quote(query)
+    driver.get(search_url)
+
+    WebDriverWait(driver, 15).until(
+        EC.presence_of_all_elements_located(
+            (By.CSS_SELECTOR, "div.s-main-slot div[data-component-type='s-search-result']")
+        )
+    )
+
     time.sleep(2)
-    return driver.page_source
 
-def parse_gpus(html):
+    html = driver.page_source
     soup = BeautifulSoup(html, "html.parser")
-    gpus = []
 
-    items = soup.select("div.s-main-slot > div[data-component-type='s-search-result']")
+    item = soup.select_one("div.s-main-slot div[data-component-type='s-search-result']")
 
-    for item in items[:MAX_GPU_ANZAHL]:
+    if not item:
+        return (query, None, "Nicht gefunden")
+
+    # Name
+    name_tag = item.h2
+    name = name_tag.text.strip() if name_tag else query
+    name = " ".join(name.split())
+
+    # Preis
+    preis_text = "Kein Preis"
+    preis_float = None
+
+    preis_tag = item.select_one("span.a-price > span.a-offscreen")
+
+    if preis_tag:
+        preis_text = preis_tag.text.strip()
+        preis_num = re.sub(r"[^\d,]", "", preis_text).replace(",", ".")
+
         try:
-            # Name
-            name_tag = item.h2
-            name = name_tag.text.strip() if name_tag else "Unbekannt"
-            if len(name) > MAX_NAME_LEN:
-                name = name[:MAX_NAME_LEN] + "..."
+            preis_float = float(preis_num)
+        except:
+            pass
 
-            # Preis
-            preis_float = None
-            preis_text = "Kein Preis"
+    return (name, preis_float, preis_text)
 
-            preis_container = item.select_one("span.a-price")
-            if preis_container:
-                offscreen = preis_container.select_one("span.a-offscreen")
-                if offscreen:
-                    preis_text = offscreen.text.strip()
-                    preis_num = re.sub(r"[^\d,]", "", preis_text).replace(",", ".")
-                    try:
-                        preis_float = float(preis_num)
-                    except:
-                        preis_float = None
+# =========================
+# CSV
+# =========================
 
-            gpus.append((name, preis_float, preis_text))
-
-        except Exception:
-            continue
-
-    return gpus
-
-def schreibe_csv(gpus):
+def schreibe_csv(data):
     with open(CSV_DATEI, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["Name", "Preis", "Text", "Quelle"])
-        for name, preis_float, preis_text in gpus:
-            writer.writerow([name, preis_float, preis_text, "amazon.de"])
+        writer.writerow(["Gesuchte GPU", "Gefundener Name", "Preis", "Text", "Quelle"])
+
+        for gesucht, name, preis, text in data:
+            writer.writerow([gesucht, name, preis, text, "amazon.de"])
+
+    print("📂 Gespeichert:", CSV_DATEI)
 
 # =========================
 # MAIN
 # =========================
 
 def main():
-    print("Starte Browser...")
     driver = starte_browser()
 
-    print("Lade Amazon-Seite...")
-    html = lade_seite(driver, URL)
+    results = []
 
-    print("Schließe Browser...")
+    for gpu in ZIEL_GPUS:
+        print("🔎 Suche:", gpu)
+        name, preis, text = suche_gpu(driver, gpu)
+        results.append((gpu, name, preis, text))
+
+        time.sleep(2)
+
     driver.quit()
 
-    print("Analysiere HTML...")
-    gpus = parse_gpus(html)
+    schreibe_csv(results)
 
-    if not gpus:
-        print("Keine GPU-Daten gefunden.")
-        return
-
-    schreibe_csv(gpus)
-    print(f"CSV erstellt: {CSV_DATEI}")
-    print(f"{len(gpus)} GPUs gespeichert.")
+    print(f"✅ {len(results)} GPUs gespeichert!")
 
 # =========================
 # START
