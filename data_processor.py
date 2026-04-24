@@ -19,7 +19,9 @@ CATEGORY_MAPPING = {
     "Storage": "Storage",
     "PSU": "PSU",
     "PCCase": "PCCase",
-    "CPUCooler": "CPUCooler"
+    "CPUCooler": "CPUCooler",
+    "OS": "OS",
+    "CaseFan": "CaseFan"
 }
 
 # ==========================================
@@ -145,6 +147,35 @@ def extract_specs_and_clean_name(name, category):
         extract(r'Mid[\s-]*Tower|Full[\s-]*Tower', 'case_type')
         extract(r'Case|Chassis', None) # Just remove
 
+    elif category == "OS":
+        # Extract specs but keep them in the name for display (OS names are short)
+        os_match = re.search(r'(Windows\s*\d+|Windows\s*\w+|Linux|macOS|Ubuntu|Debian|Fedora)', clean_name, re.IGNORECASE)
+        if os_match:
+            extracted_specs['os_type'] = os_match.group(1).strip()
+        
+        mode_match = re.search(r'(\d+-bit)', clean_name, re.IGNORECASE)
+        if mode_match:
+            extracted_specs['mode'] = mode_match.group(1).strip()
+        
+        edition_match = re.search(r'(Home|Pro|Enterprise|Education|Ultimate|Family)', clean_name, re.IGNORECASE)
+        if edition_match:
+            extracted_specs['edition'] = edition_match.group(1).strip()
+        
+        license_match = re.search(r'(OEM|Retail|Download|DVD|USB)', clean_name, re.IGNORECASE)
+        if license_match:
+            extracted_specs['license_type'] = license_match.group(1).strip()
+        
+        # Only remove generic words and stray pipes from the clean name
+        clean_name = re.sub(r'Microsoft|Operating System|\|', '', clean_name, flags=re.IGNORECASE)
+
+    elif category == "CaseFan":
+        extract(r'\d{2,3}\s*mm', 'fan_size')
+        extract(r'\d+\.?\d*\s*CFM', 'airflow')
+        extract(r'\d+\s*RPM', 'fan_rpm')
+        extract(r'\d+\.?\d*\s*dB', 'noise_level')
+        extract(r'PWM|LED|RGB|ARGB', 'features')
+        extract(r'Case Fan|Fan|Lüfter', None) # Just remove
+
     # Aggressive Cleanup: remove empty brackets, multiple spaces, and trailing hyphens/commas
     clean_name = re.sub(r'\(\s*\)', '', clean_name)
     clean_name = re.sub(r'\[\s*\]', '', clean_name)
@@ -232,6 +263,28 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         item_data["fan_rpm"] = specs.get("fan_rpm")
         item_data["noise_level"] = specs.get("noise_level")
         item_data["color"] = specs.get("color")
+
+    # --- OS SPECIFICATIONS ---
+    elif raw_category == "OS":
+        item_data["manufacturer"] = raw_data.get("metadata", {}).get("manufacturer", "")
+        # Mode/edition are extracted from the name by regex above
+
+    # --- CASE FAN SPECIFICATIONS ---
+    elif raw_category == "CaseFan":
+        item_data["size"] = raw_data.get("size")
+        item_data["quantity"] = raw_data.get("quantity")
+        item_data["pwm"] = raw_data.get("pwm")
+        item_data["led"] = raw_data.get("led")
+        item_data["connector"] = raw_data.get("connector")
+        item_data["controller"] = raw_data.get("controller")
+        item_data["flow_direction"] = raw_data.get("flow_direction")
+        item_data["is_oem"] = raw_data.get("isOEM")
+        item_data["min_airflow"] = raw_data.get("min_airflow")
+        item_data["max_airflow"] = raw_data.get("max_airflow")
+        item_data["min_noise_level"] = raw_data.get("min_noise_level")
+        item_data["max_noise_level"] = raw_data.get("max_noise_level")
+        item_data["static_pressure"] = raw_data.get("static_pressure")
+        item_data["color"] = raw_data.get("color")
 
     return True
 

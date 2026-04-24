@@ -213,7 +213,9 @@ const PRESETS = {
         ram: "Vengeance",
         ssd: "SN770",
         psu: "Pure Power 12 M 750",
-        case: "Arx 700"
+        case: "Arx 700",
+        os: "Windows 11 Home",
+        casefan: "Pure Wings 2"
     },
     midrange: {
         cpu: "Ryzen 7 9800X3D",
@@ -223,7 +225,9 @@ const PRESETS = {
         ram: "Trident Z5",
         ssd: "990 Pro",
         psu: "VERTEX GX-1000",
-        case: "North XL"
+        case: "North XL",
+        os: "Windows 11 Home",
+        casefan: "NF-A12x25"
     },
     highend: {
         cpu: "Ryzen 9 9950X3D",
@@ -233,7 +237,9 @@ const PRESETS = {
         ram: "Dominator Titanium",
         ssd: "T705",
         psu: "Dark Power Pro 13 1300",
-        case: "Y70"
+        case: "Y70",
+        os: "Windows 11 Pro",
+        casefan: "T30"
     }
 };
 
@@ -369,7 +375,9 @@ async function initializeDropdowns() {
         'ram': 'RAM',
         'ssd': 'Storage',
         'psu': 'PSU',
-        'case': 'PCCase'
+        'case': 'PCCase',
+        'os': 'OS',
+        'casefan': 'CaseFan'
     };
 
     const fetchPromises = Object.entries(selectMap).map(async ([selectId, category]) => {
@@ -435,7 +443,7 @@ function loadPreset(type) {
     isPresetLoading = true;
     activatePresetButton(type);
 
-    const mapping = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case'];
+    const mapping = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case', 'os', 'casefan'];
 
     mapping.forEach(id => {
         const select = document.getElementById(id);
@@ -808,7 +816,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ==========================================
 
 // Component mapping for internal IDs
-const COMPONENT_IDS = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case'];
+const COMPONENT_IDS = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case', 'os', 'casefan'];
 const COMPONENT_NAMES = {
     cpu: 'Prozessor',
     cooler: 'Kühler',
@@ -817,7 +825,9 @@ const COMPONENT_NAMES = {
     ram: 'RAM',
     ssd: 'SSD',
     psu: 'Netzteil',
-    case: 'Gehäuse'
+    case: 'Gehäuse',
+    os: 'Betriebssystem',
+    casefan: 'Gehäuselüfter'
 };
 
 let saveBuildModal = null;
@@ -1166,7 +1176,7 @@ function updateManageBuildsList() {
                         <p class="mb-1 small text-muted">
                             <i class="fas fa-calendar me-1"></i>${date}
                             <span class="mx-2">•</span>
-                            <i class="fas fa-microchip me-1"></i>${componentCount}/8 Komponenten
+                            <i class="fas fa-microchip me-1"></i>${componentCount}/10 Komponenten
                         </p>
                     </div>
                     <span class="badge bg-primary fs-6">${build.totalPrice.toFixed(2)} €</span>

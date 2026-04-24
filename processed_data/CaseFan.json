@@ -1,0 +1,25 @@
+[
+    {
+        "id": "0000053d-49d5-44f8-8439-54b537b55e25",
+        "name": "Thermaltake Pure A14 140mm Black PWM Red 93.15 CFM",
+        "variant": "140mm Black",
+        "amazon_sku": "",
+        "clean_name": "Thermaltake Pure A14 Black Red",
+        "size": 140,
+        "quantity": 1,
+        "pwm": true,
+        "led": "Red",
+        "connector": "4-pin PWM",
+        "controller": "None",
+        "flow_direction": "Standard",
+        "is_oem": false,
+        "max_airflow": 93.15,
+        "min_noise_level": 32,
+        "color": [
+            "BLACK"
+        ],
+        "fan_size": "140mm",
+        "airflow": "93.15 CFM",
+        "features": "PWM"
+    }
+]
