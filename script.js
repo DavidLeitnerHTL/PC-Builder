@@ -429,6 +429,26 @@ async function initializeDropdowns() {
             onChange: function (selectedValue) {
                 // Pass the safe key directly to our update function
                 updateRow(selectId, selectedValue);
+            },
+            onInitialize: function () {
+                this.on('dropdown_open', function () {
+                    // Wait for dropdown to render before measuring
+                    requestAnimationFrame(() => {
+                        const dropdown = this.dropdown;
+                        if (!dropdown) return;
+
+                        const rect = dropdown.getBoundingClientRect();
+                        const viewportHeight = window.innerHeight;
+                        const stickyBar = document.querySelector('.sticky-price-bar');
+                        const stickyBarHeight = stickyBar ? stickyBar.offsetHeight : 0;
+
+                        // If dropdown extends below the visible area (above sticky bar), scroll down
+                        if (rect.bottom > viewportHeight - stickyBarHeight) {
+                            const scrollOffset = rect.bottom - (viewportHeight - stickyBarHeight) + 16;
+                            window.scrollBy({ top: scrollOffset, behavior: 'smooth' });
+                        }
+                    });
+                });
             }
         });
     });
