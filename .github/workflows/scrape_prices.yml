@@ -1,0 +1,98 @@
+name: Daily Price Scraper
+
+on:
+  schedule:
+    # Runs at 03:00 UTC daily — 1h after sync_opendb (02:00 UTC) so data is fresh.
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    inputs:
+      category:
+        description: 'Single category to scrape (leave empty for all)'
+        required: false
+        default: ''
+
+jobs:
+  # ============================================================
+  # Determine which categories to run.
+  # If a specific category was provided via workflow_dispatch,
+  # only that one is included in the matrix.
+  # ============================================================
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Build category matrix
+        id: set-matrix
+        run: |
+          ALL='["CPU","GPU","RAM","Motherboard","Storage","PSU","PCCase","CPUCooler","CaseFan","OS"]'
+          INPUT="${{ github.event.inputs.category }}"
+          if [ -z "$INPUT" ]; then
+            echo "matrix=${ALL}" >> $GITHUB_OUTPUT
+          else
+            echo "matrix=[\"${INPUT}\"]" >> $GITHUB_OUTPUT
+          fi
+
+  # ============================================================
+  # One parallel job per category.
+  # ============================================================
+  scrape:
+    needs: setup
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    strategy:
+      matrix:
+        category: ${{ fromJson(needs.setup.outputs.matrix) }}
+      fail-fast: false   # Don't cancel siblings if one category fails.
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies (includes Chromium via puppeteer)
+        run: npm ci
+
+      # Puppeteer's bundled Chromium needs these system libs on Ubuntu.
+      - name: Install Chromium system dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            libgbm1 libasound2t64 libatk1.0-0 libatk-bridge2.0-0 \
+            libcups2 libdrm2 libgtk-3-0 libnspr4 libnss3 \
+            libxcomposite1 libxdamage1 libxfixes3 libxkbcommon0 \
+            libxrandr2 libxss1 libxtst6
+
+      - name: Run price scraper — ${{ matrix.category }}
+        run: node scraper.js ${{ matrix.category }}
+        env:
+          # Signal to the scraper that we are running in CI (no interactive output needed).
+          CI: true
+
+      # Push only this category's JSON file back to the repo.
+      # The retry loop handles concurrent push conflicts from parallel matrix jobs.
+      - name: Commit and push ${{ matrix.category }}.json
+        run: |
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add processed_data/${{ matrix.category }}.json
+          if git diff --staged --quiet; then
+            echo "No price changes for ${{ matrix.category }} — nothing to commit."
+            exit 0
+          fi
+          git commit -m "Auto-update prices: ${{ matrix.category }} [skip ci]"
+          # Retry up to 5 times in case another category job pushed first.
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Push conflict — retrying in $((attempt * 15))s..."
+            sleep $((attempt * 15))
+          done

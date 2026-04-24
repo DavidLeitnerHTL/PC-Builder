@@ -181,6 +181,11 @@ def extract_specs_and_clean_name(name, category):
     clean_name = re.sub(r'\[\s*\]', '', clean_name)
     clean_name = re.sub(r'\s{2,}', ' ', clean_name)
     clean_name = re.sub(r'[-\s,]+$', '', clean_name)
+    # Strip OEM/Tray labels — Amazon searches work better without them.
+    clean_name = re.sub(r'\s*\(OEM/Tray\)', '', clean_name, flags=re.IGNORECASE)
+    clean_name = re.sub(r'\s*OEM/Tray', '', clean_name, flags=re.IGNORECASE)
+    clean_name = re.sub(r'\s*\bOEM\b', '', clean_name, flags=re.IGNORECASE)
+    clean_name = re.sub(r'\s*\bTray\b', '', clean_name, flags=re.IGNORECASE)
     clean_name = clean_name.strip()
 
     return clean_name, extracted_specs

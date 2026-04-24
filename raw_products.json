@@ -1,0 +1,40 @@
+[
+    {
+        "id": "2b6e8f53-c9c6-4a64-a9fd-75d40fa7150a",
+        "name": "AMD Ryzen 5 2600X 3.6 GHz 6-Core AM4",
+        "variant": "",
+        "amazon_sku": "B07B428V2L",
+        "clean_name": "AMD Ryzen 5 2600X",
+        "socket": "AM4",
+        "cores": 6,
+        "threads": 12,
+        "tdp": 95,
+        "ram_type": "DDR4",
+        "clock_speed": "3.6 GHz"
+    },
+    {
+        "id": "5b3f1331-be66-43b0-b094-ac032d946b0c",
+        "name": "AMD Ryzen 5 8500G 4.1 GHz 6-Core AM5",
+        "variant": "8500G",
+        "amazon_sku": "B0CQ4JV8D5",
+        "clean_name": "AMD Ryzen 5 8500G",
+        "socket": "AM5",
+        "cores": 6,
+        "threads": 12,
+        "ram_type": "DDR5",
+        "clock_speed": "4.1 GHz"
+    },
+    {
+        "id": "6ce56c54-ee7e-462a-a5c2-13c213baa034",
+        "name": "AMD Ryzen 5 3500 3.6 GHz 6-Core AM4",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "AMD Ryzen 5 3500",
+        "socket": "AM4",
+        "cores": 6,
+        "threads": 6,
+        "tdp": 65,
+        "ram_type": "DDR4",
+        "clock_speed": "3.6 GHz"
+    }
+]
