@@ -6513,10 +6513,10 @@
     },
     {
         "id": "bbbdc00b-d036-4369-a295-3f274dbca4d9",
-        "name": "Zotac Twin Edge OC GeForce RTX 4060 8GB GDDR6 Black / Silver",
-        "variant": "Zotac",
+        "name": "ZOTAC GAMING GeForce RTX 4060 8GB GDDR6 Twin Edge OC",
+        "variant": "OC",
         "amazon_sku": "B0CCST62N5",
-        "clean_name": "Zotac Twin Edge OC GeForce RTX 4060 GDDR6 Black / Silver",
+        "clean_name": "ZOTAC GAMING GeForce RTX 4060 GDDR6 Twin Edge OC",
         "chipset": "GeForce RTX 4060",
         "vram": "8GB"
     },
@@ -6790,12 +6790,12 @@
     },
     {
         "id": "f6d9cb54-111a-4768-8e90-47a3ed03f7c1",
-        "name": "Asus PRIME GeForce RTX 5070 12 GB",
+        "name": "ASUS PRIME GeForce RTX 5070 12GB GDDR7",
         "variant": "",
         "amazon_sku": "B0DS6WPTLL",
-        "clean_name": "Asus PRIME GeForce RTX 5070",
+        "clean_name": "ASUS PRIME GeForce RTX 5070 GDDR7",
         "chipset": "GeForce RTX 5070",
-        "vram": "12 GB"
+        "vram": "12GB"
     },
     {
         "id": "e8e45d35-ae73-4534-bbae-396b8bf01fc4",
@@ -7107,10 +7107,10 @@
     },
     {
         "id": "a73e07de-7cd9-466b-af54-66fcbd441d60",
-        "name": "Asus ROG Astral OC GeForce RTX 5090 32GB GDDR7 Black / Silver",
-        "variant": "OC",
+        "name": "ROG Astral GeForce RTX™ 5090 32GB GDDR7 OC Edition",
+        "variant": "OC Edition",
         "amazon_sku": "B0DS2WQZ2M",
-        "clean_name": "Asus ROG Astral OC GeForce RTX 5090 GDDR7 Black / Silver",
+        "clean_name": "ROG Astral GeForce RTX™ 5090 GDDR7 OC Edition",
         "chipset": "GeForce RTX 5090",
         "vram": "32GB"
     },
@@ -8058,10 +8058,10 @@
     },
     {
         "id": "59fec0a3-662a-4fa5-88ad-b544b81fbbe0",
-        "name": "MSI RTX 4060 Ti VENTUS 2X BLACK OC",
-        "variant": "2X BLACK OC",
+        "name": "MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 8G OC GDDR6",
+        "variant": "OC BLACK ",
         "amazon_sku": "B0C4F7KX1B",
-        "clean_name": "MSI RTX 4060 Ti VENTUS 2X BLACK OC",
+        "clean_name": "MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 8G OC GDDR6",
         "chipset": "GeForce RTX 4060 Ti"
     },
     {
@@ -10798,12 +10798,11 @@
     },
     {
         "id": "7d80cd7e-4559-4c80-8526-145fde1194b9",
-        "name": "Gigabyte WINDFORCE GeForce RTX 5060 Ti 8GB GDDR7 Black",
-        "variant": "WINDFORCE 8GB",
+        "name": "Gigabyte GeForce RTX 5060 Ti WINDFORCE 8G GDDR7",
+        "variant": "",
         "amazon_sku": "B0F5B891DJ",
-        "clean_name": "Gigabyte WINDFORCE GeForce RTX 5060 Ti GDDR7 Black",
-        "chipset": "GeForce RTX 5060 Ti",
-        "vram": "8GB"
+        "clean_name": "Gigabyte GeForce RTX 5060 Ti WINDFORCE 8G GDDR7",
+        "chipset": "GeForce RTX 5060 Ti"
     },
     {
         "id": "953adf66-b829-48f2-9935-607a168e9328",
@@ -21010,11 +21009,12 @@
     },
     {
         "id": "2e075024-89aa-41c5-997f-0e3f50be893c",
-        "name": "Palit GeForce RTX 5070 Ti GamingPro-S",
-        "variant": "GamingPro-S",
+        "name": "Palit GeForce RTX 5070 Ti GamingPro-S 16GB GDDR7",
+        "variant": "",
         "amazon_sku": "B0FCKZJCQK",
-        "clean_name": "Palit GeForce RTX 5070 Ti GamingPro-S",
-        "chipset": "GeForce RTX 5070 Ti"
+        "clean_name": "Palit GeForce RTX 5070 Ti GamingPro-S GDDR7",
+        "chipset": "GeForce RTX 5070 Ti",
+        "vram": "16GB"
     },
     {
         "id": "79e6bc0e-8669-44f8-af50-19a7c773b0d9",
@@ -24069,10 +24069,10 @@
     },
     {
         "id": "2742003b-291e-46e1-8984-7220ce384fa2",
-        "name": "MSI VENTUS GP OC GeForce RTX 2060 SUPER 8GB GDDR6 Silver / Black",
-        "variant": "MSI",
+        "name": "MSI GeForce RTX 2060 SUPER™ VENTUS GP OC 8GB GDDR6",
+        "variant": "OC",
         "amazon_sku": "B07YXQ19NC",
-        "clean_name": "MSI VENTUS GP OC GeForce RTX 2060 SUPER GDDR6 Silver / Black",
+        "clean_name": "MSI GeForce RTX 2060 SUPER™ VENTUS GP OC GDDR6",
         "chipset": "GeForce RTX 2060 SUPER",
         "vram": "8GB"
     },
@@ -24326,12 +24326,12 @@
     },
     {
         "id": "d546ca5c-ffc9-4c30-aca2-ad82211c8047",
-        "name": "Asus TUF GAMING OC GeForce RTX 3080 10GB 10 GB",
-        "variant": "Asus",
+        "name": "ASUS TUF Gaming GeForce RTX 3080 OC Edition 10GB GDDR6X",
+        "variant": "OC Edition",
         "amazon_sku": "B08HH5WF97",
-        "clean_name": "Asus TUF GAMING OC GeForce RTX 3080",
+        "clean_name": "ASUS TUF Gaming GeForce RTX 3080 OC Edition GDDR6X",
         "chipset": "GeForce RTX 3080 10 GB",
-        "vram": "10GB, 10 GB"
+        "vram": "10GB"
     },
     {
         "id": "4c6d9119-7bf5-4ba3-943e-c055fc367878",
@@ -26525,11 +26525,12 @@
     },
     {
         "id": "91ed58a8-893f-4b18-bec4-79bc7e3ac834",
-        "name": "MSI GeForce RTX 5090 32G GAMING TRIO",
-        "variant": "32G GAMING TRIO",
+        "name": "MSI GeForce RTX 5090 32G GAMING TRIO 32GB GDDR7",
+        "variant": "",
         "amazon_sku": "",
-        "clean_name": "MSI GeForce RTX 5090 32G GAMING TRIO",
-        "chipset": "GeForce RTX 5090"
+        "clean_name": "MSI GeForce RTX 5090 32G GAMING TRIO GDDR7",
+        "chipset": "GeForce RTX 5090",
+        "vram": "32GB"
     },
     {
         "id": "2e370c17-177a-42ff-a0b3-674b70581b10",
@@ -26739,7 +26740,7 @@
         "id": "cb92795c-600b-4eb0-8f2e-cfa040efbf9d",
         "name": "Asus DUAL OC Radeon RX 6600 XT 8GB GDDR6 Black / White",
         "variant": "Asus",
-        "amazon_sku": "B09CFWSJLB",
+        "amazon_sku": "B09C8XD671",
         "clean_name": "Asus DUAL OC Radeon RX 6600 XT GDDR6 Black / White",
         "chipset": "Radeon RX 6600 XT",
         "vram": "8GB"
@@ -27744,10 +27745,10 @@
     },
     {
         "id": "ffb64343-f209-4b76-9831-9004f65b48ca",
-        "name": "XFX Speedster MERC 310 Black Edition Radeon RX 7900 XT 20GB GDDR6 Black Silver",
-        "variant": "XFX",
+        "name": "XFX SPEEDSTER MERC 310 AMD Radeon™ RX 7900 XT Black Edition 20GB GDDR6",
+        "variant": "Black Edition",
         "amazon_sku": "B0BNLSZDCX",
-        "clean_name": "XFX Speedster MERC 310 Black Edition Radeon RX 7900 XT GDDR6 Black Silver",
+        "clean_name": "XFX SPEEDSTER MERC 310 AMD Radeon™ RX 7900 XT Black Edition GDDR6",
         "chipset": "Radeon RX 7900 XT",
         "vram": "20GB"
     },
