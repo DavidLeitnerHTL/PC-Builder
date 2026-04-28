@@ -648,6 +648,12 @@ function simplifySearchQuery(name) {
         if (!t) return false;
         if (stopWords.has(t)) return false;
         if (/^[a-z]$/.test(t) && !["x", "s", "i"].includes(t)) return false;
+        // Filter version numbers (e.g. "3.2", "2.0") that come from USB specs
+        if (/^\d+\.\d+$/.test(t)) return false;
+        // Filter standalone short numbers ("1", "2", "16") – not model identifiers
+        if (/^\d{1,2}$/.test(t)) return false;
+        // Filter multiplier patterns ("2x2", "1x4") from USB/PCIe spec strings
+        if (/^\d+x\d+$/.test(t)) return false;
         return true;
     });
 
@@ -780,12 +786,25 @@ export async function extractFirstSearchResult(page, expectedName) {
 
                     if (!rule1 && !rule2) return null;
 
-                    const priceEl = result.querySelector(
-                        ".a-price .a-offscreen"
-                    );
-                    const rawPrice = priceEl
-                        ? priceEl.textContent.trim()
-                        : null;
+                    // Try .a-offscreen first; fall back to whole+fraction
+                    // (some Amazon layouts omit .a-offscreen in search results)
+                    let rawPrice = null;
+                    const offscreenEl = result.querySelector(".a-price:not(.a-text-strike) .a-offscreen");
+                    if (offscreenEl) {
+                        rawPrice = offscreenEl.textContent.trim() || null;
+                    }
+                    if (!rawPrice) {
+                        const priceBox = result.querySelector(".a-price:not(.a-text-strike)");
+                        if (priceBox) {
+                            const whole = priceBox.querySelector(".a-price-whole");
+                            const frac  = priceBox.querySelector(".a-price-fraction");
+                            if (whole) {
+                                const w = whole.textContent.replace(/[^0-9]/g, "");
+                                const f = frac ? frac.textContent.replace(/[^0-9]/g, "") : "00";
+                                if (w) rawPrice = `${w},${f}`;
+                            }
+                        }
+                    }
                     if (!rawPrice) return null;
 
                     const linkEl = result.querySelector("h2 a");
@@ -822,12 +841,22 @@ export async function extractFirstSearchResult(page, expectedName) {
                             ".a-size-medium.a-color-base.a-text-normal"
                         );
                     const title = titleEl ? titleEl.innerText.trim() : "";
-                    const priceEl = result.querySelector(
-                        ".a-price .a-offscreen"
-                    );
-                    const rawPrice = priceEl
-                        ? priceEl.textContent.trim()
-                        : null;
+                    // Same two-step extraction as scoreResult
+                    let rawPrice = null;
+                    const offscreenEl2 = result.querySelector(".a-price:not(.a-text-strike) .a-offscreen");
+                    if (offscreenEl2) rawPrice = offscreenEl2.textContent.trim() || null;
+                    if (!rawPrice) {
+                        const priceBox2 = result.querySelector(".a-price:not(.a-text-strike)");
+                        if (priceBox2) {
+                            const whole2 = priceBox2.querySelector(".a-price-whole");
+                            const frac2  = priceBox2.querySelector(".a-price-fraction");
+                            if (whole2) {
+                                const w2 = whole2.textContent.replace(/[^0-9]/g, "");
+                                const f2 = frac2 ? frac2.textContent.replace(/[^0-9]/g, "") : "00";
+                                if (w2) rawPrice = `${w2},${f2}`;
+                            }
+                        }
+                    }
                     if (!rawPrice || !title) continue;
 
                     if (brand && !title.toLowerCase().includes(brand))
