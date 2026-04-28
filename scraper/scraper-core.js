@@ -484,34 +484,64 @@ export async function scrapeProduct(page, product) {
     const hasSku =
         product.amazon_sku && String(product.amazon_sku).trim().length > 0;
 
-    let targetUrl;
-    let isDirectHit = false;
+    let price = null;
+    let scrapedUrl = undefined;
+    let scrapedTitle = undefined;
 
+    // ---- Phase 1: Direct SKU hit ----
     if (hasSku) {
-        targetUrl = `https://www.amazon.de/dp/${String(
+        const skuUrl = `https://www.amazon.de/dp/${String(
             product.amazon_sku
         ).trim()}`;
-        isDirectHit = true;
-        console.log(`[SCRAPER] Direct hit for "${identifier}" -> ${targetUrl}`);
-    } else {
-        const rawName = String(
-            product.clean_name || product.name || ""
-        ).trim();
-        const cleanedName = rawName
-            .replace(/\s*\(OEM\/Tray\)/gi, "")
-            .replace(/\s*OEM\/Tray/gi, "")
-            .replace(/\s*\bOEM\b/gi, "")
-            .replace(/\s*\bTray\b/gi, "")
-            .trim();
-        const query = encodeURIComponent(cleanedName);
-        targetUrl = `https://www.amazon.de/s?k=${query}`;
-        console.log(
-            `[SCRAPER] Fallback search for "${identifier}" -> ${targetUrl}`
+        console.log(`[SCRAPER] Direct hit for "${identifier}" -> ${skuUrl}`);
+
+        try {
+            await page.goto(skuUrl, {
+                waitUntil: "networkidle2",
+                timeout: 30000,
+            });
+        } catch (navErr) {
+            console.warn(`[SCRAPER] Navigation timeout/error: ${navErr.message}`);
+            return {
+                price: null,
+                scraped_url: undefined,
+                scraped_title: undefined,
+            };
+        }
+
+        await acceptCookies(page);
+        await sleep(getRandomDelay(2000, 4000));
+
+        price = await extractPriceFromPage(page);
+
+        if (price !== null) {
+            console.log(`[SCRAPER]  -> Extracted price: ${price.toFixed(2)}`);
+            return { price, scraped_url: scrapedUrl, scraped_title: scrapedTitle };
+        }
+
+        console.warn(
+            `[SCRAPER]  -> Direct hit failed for "${identifier}", falling back to search...`
         );
     }
 
+    // ---- Phase 2: Fallback search (no SKU or direct hit failed) ----
+    const rawName = String(
+        product.clean_name || product.name || ""
+    ).trim();
+    const cleanedName = rawName
+        .replace(/\s*\(OEM\/Tray\)/gi, "")
+        .replace(/\s*OEM\/Tray/gi, "")
+        .replace(/\s*\bOEM\b/gi, "")
+        .replace(/\s*\bTray\b/gi, "")
+        .trim();
+    const query = encodeURIComponent(cleanedName);
+    const searchUrl = `https://www.amazon.de/s?k=${query}`;
+    console.log(
+        `[SCRAPER] Fallback search for "${identifier}" -> ${searchUrl}`
+    );
+
     try {
-        await page.goto(targetUrl, {
+        await page.goto(searchUrl, {
             waitUntil: "networkidle2",
             timeout: 30000,
         });
@@ -527,27 +557,19 @@ export async function scrapeProduct(page, product) {
     await acceptCookies(page);
     await sleep(getRandomDelay(2000, 4000));
 
-    let price = null;
-    let scrapedUrl = undefined;
-    let scrapedTitle = undefined;
+    const searchName = product.clean_name || product.name || "";
+    const result = await extractFirstSearchResult(page, searchName);
+    price = result.price;
+    scrapedUrl = result.scraped_url || undefined;
+    scrapedTitle = result.scraped_title || undefined;
 
-    if (isDirectHit) {
-        price = await extractPriceFromPage(page);
-    } else {
-        const searchName = product.clean_name || product.name || "";
-        const result = await extractFirstSearchResult(page, searchName);
-        price = result.price;
-        scrapedUrl = result.scraped_url || undefined;
-        scrapedTitle = result.scraped_title || undefined;
-
-        if (scrapedTitle) {
-            console.log(
-                `[SCRAPER]  -> Found matching result title: "${scrapedTitle.substring(
-                    0,
-                    60
-                )}..."`
-            );
-        }
+    if (scrapedTitle) {
+        console.log(
+            `[SCRAPER]  -> Found matching result title: "${scrapedTitle.substring(
+                0,
+                60
+            )}..."`
+        );
     }
 
     if (price !== null) {
