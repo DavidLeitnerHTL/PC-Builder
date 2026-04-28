@@ -12,11 +12,6 @@ on:
         default: ''
 
 jobs:
-  # ============================================================
-  # Determine which categories to run.
-  # If a specific category was provided via workflow_dispatch,
-  # only that one is included in the matrix.
-  # ============================================================
   setup:
     runs-on: ubuntu-latest
     outputs:
@@ -33,9 +28,6 @@ jobs:
             echo "matrix=[\"${INPUT}\"]" >> $GITHUB_OUTPUT
           fi
 
-  # ============================================================
-  # One parallel job per category.
-  # ============================================================
   scrape:
     needs: setup
     runs-on: ubuntu-latest
@@ -45,7 +37,7 @@ jobs:
     strategy:
       matrix:
         category: ${{ fromJson(needs.setup.outputs.matrix) }}
-      fail-fast: false   # Don't cancel siblings if one category fails.
+      fail-fast: false
 
     steps:
       - name: Checkout repository
@@ -58,11 +50,12 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+          cache-dependency-path: scraper/package-lock.json
 
-      - name: Install dependencies (includes Chromium via puppeteer)
+      - name: Install dependencies
+        working-directory: scraper
         run: npm ci
 
-      # Puppeteer's bundled Chromium needs these system libs on Ubuntu.
       - name: Install Chromium system dependencies
         run: |
           sudo apt-get update -qq
@@ -73,14 +66,13 @@ jobs:
             libxrandr2 libxss1 libxtst6
 
       - name: Run price scraper — ${{ matrix.category }}
+        working-directory: scraper
         run: node scraper.js ${{ matrix.category }}
         env:
-          # Signal to the scraper that we are running in CI (no interactive output needed).
           CI: true
 
-      # Push only this category's JSON file back to the repo.
-      # The retry loop handles concurrent push conflicts from parallel matrix jobs.
       - name: Commit and push ${{ matrix.category }}.json
+        working-directory: ${{ github.workspace }}
         run: |
           git config --global user.name  "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -90,9 +82,10 @@ jobs:
             exit 0
           fi
           git commit -m "Auto-update prices: ${{ matrix.category }} [skip ci]"
-          # Retry up to 5 times in case another category job pushed first.
+          # Use dynamic branch name instead of hardcoded 'main'
+          BRANCH="${{ github.ref_name }}"
           for attempt in 1 2 3 4 5; do
-            git pull --rebase origin main && git push && break
+            git pull --rebase origin "$BRANCH" && git push && break
             echo "Push conflict — retrying in $((attempt * 15))s..."
             sleep $((attempt * 15))
           done

@@ -1,0 +1,16 @@
+{
+  "name": "pc-builder-scraper",
+  "version": "1.0.0",
+  "description": "Scraper suite for PC Builder hardware prices",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "scrape:category": "node scraper.js",
+    "update-prices": "node priceUpdater.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.42.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

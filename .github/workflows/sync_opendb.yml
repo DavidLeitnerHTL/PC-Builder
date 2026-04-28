@@ -4,13 +4,11 @@ on:
   schedule:
     # Runs at 02:00 UTC every day
     - cron: '0 2 * * *'
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
   update-database:
     runs-on: ubuntu-latest
-    
-    # REQUIRED: Grants the bot permission to push changes back to the repository
     permissions:
       contents: write
 
@@ -24,7 +22,7 @@ jobs:
       - name: Checkout BuildCore repository
         uses: actions/checkout@v4
         with:
-          repository: 'buildcores/buildcores-open-db' 
+          repository: 'buildcores/buildcores-open-db'
           path: 'buildcore-repo'
 
       - name: Set up Python
@@ -34,30 +32,18 @@ jobs:
 
       - name: Process data and cleanup
         run: |
-          # Create temporary folder
           mkdir -p main-repo/raw_hardware_data
-          
-          # Copy the contents from the 'open-db' folder
           cp -a buildcore-repo/open-db/* main-repo/raw_hardware_data/
-          
-          # Navigate to repo and run the python processor script
-          cd main-repo
+          cd main-repo/scraper
+          pip install -r requirements.txt
           python data_processor.py
-          
-          # Delete the raw files so they are NOT committed to GitHub
+          cd ..
           rm -rf raw_hardware_data/
-          
-          # HINWEIS: Der alte "find" und "mv" Befehl wurde hier entfernt, 
-          # da das Python-Skript die Daten bereits direkt in den richtigen Ordner speichert!
-          
+
       - name: Commit and push changes
         run: |
           cd main-repo
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # WICHTIG: Das '-A' (All) sorgt dafür, dass Git auch LÖSCHUNGEN erkennt!
           git add -A processed_data/
-          
-          # Only commit and push if there are actual changes
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update hardware categories [skip ci]" && git push)

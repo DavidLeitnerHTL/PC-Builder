@@ -13,7 +13,7 @@
 import { readFile, writeFile, readdir } from 'fs/promises';
 import { join } from 'path';
 
-const DIR = './processed_data';
+const DIR = '../processed_data';
 
 const STRIP_PATTERN = /\s*\(OEM\/Tray\)|\s*OEM\/Tray|\s*\bOEM\b|\s*\bTray\b/gi;
 
@@ -38,9 +38,6 @@ for (const file of files) {
             console.log(`[FIX] ${file}: "${original}" → "${cleaned}"`);
             p.clean_name = cleaned;
 
-            // If this product has no SKU and was previously found via a
-            // polluted search query, reset its price so it gets re-scraped
-            // with the correct name.
             const hasSku = p.amazon_sku && String(p.amazon_sku).trim().length > 0;
             if (!hasSku && p.scraped_title) {
                 p.price = null;

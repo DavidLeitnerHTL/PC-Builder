@@ -57,7 +57,7 @@ Project Structure
 ├── script.js             # Site logic and AI connection
 ├── buildStorage.js       # Save/Load build feature module
 ├── config.js             # Settings
-├── data_processor.py     # Python script that sorts the data
+├── /scraper/             # Scraper suite (Node.js + Python) for prices & data
 ├── /processed_data/      # Automatically created JSON data (CPUs, graphics cards...)
 └── /.github/workflows/   # Background programs (e.g., for daily updates)
 ```
