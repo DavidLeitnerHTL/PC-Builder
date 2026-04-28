@@ -155,6 +155,13 @@ export async function extractPriceFromPage(page) {
             ".priceToPay .aok-offscreen",
             '[id*="priceToPay"] .aok-offscreen',
             ".apexPriceToPay .aok-offscreen",
+            // Software/OS products (Microsoft Windows etc.) use different containers
+            "#buyNewSection .a-price .a-offscreen",
+            "#buyNewSection .a-price-whole",
+            "#digital-list-price",
+            "#instantbuybox .a-price .a-offscreen",
+            "#instantbuybox_feature_div .a-price .a-offscreen",
+            "#buybox .a-price .a-offscreen",
         ];
         for (const sel of accessibilitySelectors) {
             const el = document.querySelector(sel);
@@ -592,23 +599,20 @@ function simplifySearchQuery(name) {
         "cfm",
         "tdp",
         "pwm",
-        "oc",
+        // NOTE: "oc", "gaming", "ultra", "super", "plus" are intentionally NOT
+        // stop-words here – they can be part of official product model names
+        // (e.g. "ROG Gaming", "RTX Super", "Vengeance Pro"). Removing them causes
+        // too many false negatives in the scoring step.
         "overclock",
         "overclocked",
         "overclocking",
-        "gaming",
         "game",
         "performance",
-        "extreme",
-        "ultra",
-        "super",
-        "plus",
         "premium",
         "advanced",
         "basic",
         "value",
         "select",
-        "kit",
         "pack",
         "set",
         "bundle",
@@ -664,6 +668,13 @@ export async function extractFirstSearchResult(page, expectedName) {
             .filter((t) => t.length > 0);
 
         // Extract brand (first 1-2 words)
+        // brandAliases: maps the first token of our clean_name to what Amazon
+        // actually uses in product titles (e.g. clean_name starts with "windows"
+        // but Amazon titles say "Microsoft Windows").
+        const brandAliases = {
+            windows: "microsoft",
+            linux: "linux",
+        };
         let brand = null;
         if (allTokens.length > 0) {
             const first = allTokens[0];
@@ -683,7 +694,8 @@ export async function extractFirstSearchResult(page, expectedName) {
             if (twoWordBrands.includes(combined)) {
                 brand = combined;
             } else {
-                brand = first;
+                // Apply alias if one exists (e.g. "windows" -> "microsoft")
+                brand = brandAliases[first] || first;
             }
         }
 
