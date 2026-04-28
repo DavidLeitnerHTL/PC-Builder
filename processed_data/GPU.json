@@ -6,7 +6,9 @@
     "amazon_sku": "B06ZXY43VC",
     "clean_name": "XFX RS XXX Radeon RX 570 GDDR5 Black / Red",
     "chipset": "Radeon RX 570",
-    "vram": "4GB"
+    "vram": "4GB",
+    "price": 98.64,
+    "last_updated": "2026-04-28T10:40:10.476Z"
   },
   {
     "id": "52a0fd1b-baa1-486f-b57b-06f9d65c483b",
@@ -15,7 +17,9 @@
     "amazon_sku": "B07JFYT2KD",
     "clean_name": "Asus GeForce RTX 2070 STRIX GAMING OC GDDR6 Black",
     "chipset": "GeForce RTX 2070",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 31.25,
+    "last_updated": "2026-04-28T10:40:09.648Z"
   },
   {
     "id": "c132f199-047b-4e2f-9066-65bc61253f76",
@@ -24,8 +28,8 @@
     "amazon_sku": "B01N2RK9ZQ",
     "clean_name": "EVGA 768-P3-1360-RX GeForce GTX 460 768 MB",
     "chipset": "GeForce GTX 460",
-    "price": null,
-    "last_updated": "2026-04-28T09:48:42.453Z"
+    "price": 342.85,
+    "last_updated": "2026-04-28T10:37:15.637Z"
   },
   {
     "id": "f5b5dfc4-c08c-406b-b8a2-e8c139dc9637",
@@ -48,7 +52,7 @@
     "chipset": "GeForce GTX 1080 Ti",
     "vram": "11GB",
     "price": null,
-    "last_updated": "2026-04-28T09:49:32.283Z"
+    "last_updated": "2026-04-28T10:37:53.520Z"
   },
   {
     "id": "665338a0-9fe0-4829-bec8-fe15e1a69ac9",
@@ -70,7 +74,7 @@
     "chipset": "GeForce GTX 1070",
     "vram": "8 GB",
     "price": null,
-    "last_updated": "2026-04-28T09:50:16.427Z"
+    "last_updated": "2026-04-28T10:38:23.805Z"
   },
   {
     "id": "c6b33fda-22a5-4168-abed-a03503fb2e67",
@@ -90,7 +94,9 @@
     "amazon_sku": "B0F4RTF9QN",
     "clean_name": "Asus PRIME GeForce RTX 5060 Ti GDDR7 Black",
     "chipset": "GeForce RTX 5060 Ti",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:39:01.129Z"
   },
   {
     "id": "391b2517-0c67-4b18-9a0c-53b7f4a6b5dd",
@@ -99,7 +105,10 @@
     "amazon_sku": "",
     "clean_name": "EVGA 03G-P3-1584-AR GeForce GTX 580",
     "chipset": "GeForce GTX 580",
-    "vram": "3 GB"
+    "vram": "3 GB",
+    "price": 342.85,
+    "last_updated": "2026-04-28T10:39:26.693Z",
+    "scraped_title": "EVGA"
   },
   {
     "id": "9c673ef5-180b-4865-b448-d1513cf4ab44",
@@ -108,7 +117,10 @@
     "amazon_sku": "",
     "clean_name": "Sapphire NITRO+ Radeon RX 6800 XT",
     "chipset": "Radeon RX 6800 XT",
-    "vram": "16 GB"
+    "vram": "16 GB",
+    "price": 113.46,
+    "last_updated": "2026-04-28T10:39:46.481Z",
+    "scraped_title": "95 mm FDC10U12D9-C RX6800 Lüfter für Sapphire für Nitro+ für AMD für Radeon RX 6700 6800 6900 XT Grafikkarte(Silver)"
   },
   {
     "id": "e201f0f5-cf41-4427-a011-cb95be752354",
@@ -117,7 +129,9 @@
     "amazon_sku": "B07ZHZL2JB",
     "clean_name": "EVGA SC ULTRA GAMING GeForce GTX 1660 SUPER GDDR6",
     "chipset": "GeForce GTX 1660 SUPER",
-    "vram": "6GB"
+    "vram": "6GB",
+    "price": 38.62,
+    "last_updated": "2026-04-28T10:40:23.997Z"
   },
   {
     "id": "fe404fb5-b87a-41a0-ba8e-eeae076e3dbd",
@@ -125,7 +139,9 @@
     "variant": "OC ",
     "amazon_sku": "B0F3HS4692",
     "clean_name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G GDDR6",
-    "chipset": "Radeon RX 9070 XT"
+    "chipset": "Radeon RX 9070 XT",
+    "price": null,
+    "last_updated": "2026-04-28T10:40:41.597Z"
   },
   {
     "id": "210bf4ea-2872-4a7a-bbd5-c2dcb15ce3fd",
@@ -134,7 +150,9 @@
     "amazon_sku": "",
     "clean_name": "MSI VENTUS 3X GeForce RTX 5090",
     "chipset": "GeForce RTX 5090",
-    "vram": "32 GB"
+    "vram": "32 GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:40:35.091Z"
   },
   {
     "id": "8530cef7-eb44-4e0c-b746-7267a4111275",
@@ -143,7 +161,9 @@
     "amazon_sku": "B0CWS78Y5J",
     "clean_name": "MSI GeForce RTX 4070 Ti SUPER AERO GDDR6X Black",
     "chipset": "GeForce RTX 4070 Ti SUPER",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:40:58.216Z"
   },
   {
     "id": "e2074cbd-b0c3-4590-86d7-c6fcf0c026fd",
@@ -152,7 +172,10 @@
     "amazon_sku": "",
     "clean_name": "MSI GeForce RTX 3060 Ti VENTUS 2X OC GDDR6 Black / Silver",
     "chipset": "GeForce RTX 3060 Ti",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 15.12,
+    "last_updated": "2026-04-28T10:41:05.229Z",
+    "scraped_title": "PLD10010S12HH Graphics Card Cooler Fan Compatible with MSI VENTUS 2X RTX 3050 3060 3060 Ti 3070 Pack of 2"
   },
   {
     "id": "b976532e-157b-4cff-b9af-860e6d0edf07",
@@ -161,7 +184,9 @@
     "amazon_sku": "B0CHK39HDX",
     "clean_name": "ASRock Phantom Gaming OC Radeon RX 7700 XT GDDR6 Black",
     "chipset": "Radeon RX 7700 XT",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:41:17.833Z"
   },
   {
     "id": "2ca4dff7-a598-4c74-80c1-6eb7de848859",
@@ -170,7 +195,9 @@
     "amazon_sku": "",
     "clean_name": "Gainward Ghost GeForce RTX 5060 GDDR7 Black",
     "chipset": "GeForce RTX 5060",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:41:25.691Z"
   },
   {
     "id": "bc9ccea1-ccc8-4b1c-9459-ebcbf0eff758",
@@ -179,7 +206,9 @@
     "amazon_sku": "B07J9L4HC2",
     "clean_name": "EVGA Black GeForce RTX 2070",
     "chipset": "GeForce RTX 2070",
-    "vram": "8 GB"
+    "vram": "8 GB",
+    "price": 301.54,
+    "last_updated": "2026-04-28T10:41:43.987Z"
   },
   {
     "id": "ea83bfee-6341-406d-9409-671b7920afed",
@@ -188,7 +217,9 @@
     "amazon_sku": "B074Q4QF4J",
     "clean_name": "Asus GT710-SL-2GD5 GeForce GT 710",
     "chipset": "GeForce GT 710",
-    "vram": "2 GB"
+    "vram": "2 GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:41:52.884Z"
   },
   {
     "id": "7a502434-b1b1-495b-8c58-00d10e05be2b",
@@ -197,7 +228,10 @@
     "amazon_sku": "",
     "clean_name": "Asus DUAL GeForce RTX 2070 GDDR6 Black / White",
     "chipset": "GeForce RTX 2070",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 28.99,
+    "last_updated": "2026-04-28T10:41:46.526Z",
+    "scraped_title": "87mm 87mm Graphics Card Fan for ASUS Dual RTX 2070 EVO V2, RTX 1660 EVO, ASUS Dual GeForce RTX 2060 SUPER EVO V2"
   },
   {
     "id": "04bc3271-deae-4524-bb9c-bc2a5352d295",
@@ -206,7 +240,10 @@
     "amazon_sku": "",
     "clean_name": "Zotac GeForce GTX 1080 AMP GDDR5X Black / Yellow",
     "chipset": "GeForce GTX 1080",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 21.95,
+    "last_updated": "2026-04-28T10:42:04.995Z",
+    "scraped_title": "Graphics Card Fan for Zotac GeForce GTX 1070, GTX1070 AMP, GTX 1080 AMP, GTX 1080 IceStorm 2X, 8GB | GFM10012H12SPA, GAA8S2U"
   },
   {
     "id": "44d2f1c3-cba4-4b2e-8a02-5bb97926688f",
@@ -215,7 +252,10 @@
     "amazon_sku": "",
     "clean_name": "Inno3D Twin X2 GeForce RTX 2060 GDDR6 Black",
     "chipset": "GeForce RTX 2060",
-    "vram": "6GB"
+    "vram": "6GB",
+    "price": 373.31,
+    "last_updated": "2026-04-28T10:42:16.138Z",
+    "scraped_title": "RTX 5060 8GB Inno3D Twin X2 OC V2 GDDR7"
   },
   {
     "id": "c039a067-eb99-4243-8f6e-2873963b354e",
@@ -224,7 +264,9 @@
     "amazon_sku": "B01KQUDB1S",
     "clean_name": "Gigabyte GAMING GeForce GTX 1060 GDDR5 Black / Orange",
     "chipset": "GeForce GTX 1060",
-    "vram": "3GB"
+    "vram": "3GB",
+    "price": 19.15,
+    "last_updated": "2026-04-28T10:42:42.120Z"
   },
   {
     "id": "930845f7-b0e8-44ee-99da-7815fd5bbbe3",
@@ -233,7 +275,10 @@
     "amazon_sku": "",
     "clean_name": "Asus HD7870-DC2-2GD5-V2 Radeon HD 7870 GHz Edition",
     "chipset": "Radeon HD 7870 GHz Edition",
-    "vram": "2 GB"
+    "vram": "2 GB",
+    "price": 18.18,
+    "last_updated": "2026-04-28T10:42:24.231Z",
+    "scraped_title": "tianwandong T128010SH 75 mm Radiator Fan Compatible with ASUS MSI GTX 1050 TI Compatible with Radeon Sapphire 6930 7850 GTX 550 750 770 Ti. HD 7870. Graphics Card Cooling (1PCS)"
   },
   {
     "id": "9c6f381b-0a38-43c2-8694-3a9f9cfa2084",
@@ -242,7 +287,9 @@
     "amazon_sku": "B0CQRVST38",
     "clean_name": "Asus Radeon RX 7800 XT DUAL OC GDDR6 Black",
     "chipset": "Radeon RX 7800 XT",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:42:53.174Z"
   },
   {
     "id": "041c8205-6fd6-4799-b342-e35f58f4f0de",
@@ -251,7 +298,9 @@
     "amazon_sku": "B07HSQD597",
     "clean_name": "MSI SEA HAWK X GeForce RTX 2080 GDDR6 Black / Silver",
     "chipset": "GeForce RTX 2080",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 37.99,
+    "last_updated": "2026-04-28T10:43:00.877Z"
   },
   {
     "id": "d443738f-b201-41ff-be3a-5defa56a1494",
@@ -259,7 +308,9 @@
     "variant": "OC",
     "amazon_sku": "B08P2DQ28S",
     "clean_name": "MSI GeForce RTX™ 3060 Ti VENTUS 2X OC GDDR6",
-    "chipset": "GeForce RTX 3060 Ti"
+    "chipset": "GeForce RTX 3060 Ti",
+    "price": 15.12,
+    "last_updated": "2026-04-28T10:43:22.662Z"
   },
   {
     "id": "364f1d59-d790-4efd-b592-736c5f8641ff",
@@ -268,7 +319,10 @@
     "amazon_sku": "",
     "clean_name": "Palit GeForce RTX 2070 Dual GDDR6 Black",
     "chipset": "GeForce RTX 2070",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 15.31,
+    "last_updated": "2026-04-28T10:43:18.716Z",
+    "scraped_title": "85MM GA91S2U GTX 1660 für Lüfter für PALIT für GeForce Ti RTX 2060 2070 für SUPER DUAL Grafikkartenkühler(Black A-Fan)"
   },
   {
     "id": "8f637bed-75a0-4527-b38f-a4315d10c2cc",
@@ -277,7 +331,9 @@
     "amazon_sku": "",
     "clean_name": "Asus PRIME GeForce RTX 5050 GDDR6 Black",
     "chipset": "GeForce RTX 5050",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:43:22.573Z"
   },
   {
     "id": "0c0abe88-1e6f-4673-8165-ab55fc51b0be",
@@ -286,7 +342,10 @@
     "amazon_sku": "",
     "clean_name": "Palit GamingPro GeForce RTX 4080 GDDR6X Silver / Black",
     "chipset": "GeForce RTX 4080",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": 690.07,
+    "last_updated": "2026-04-28T10:43:39.348Z",
+    "scraped_title": "PALIT RTX3080 12GB GamingPro, gddr6x"
   },
   {
     "id": "ef482703-51e7-4c59-a904-ba2af95c91d3",
@@ -295,7 +354,9 @@
     "amazon_sku": "B0C8JBKMM7",
     "clean_name": "GALAX EX (1-Click OC) GeForce RTX 4060 Ti GDDR6 Black",
     "chipset": "GeForce RTX 4060 Ti",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:43:48.471Z"
   },
   {
     "id": "a4f02b39-fc12-4800-bf6f-7db6e4e22eb8",
@@ -304,7 +365,9 @@
     "amazon_sku": "",
     "clean_name": "Inno3D Twin X2 OC GeForce GTX 1650 G6 GDDR6 Black",
     "chipset": "GeForce GTX 1650",
-    "vram": "4GB"
+    "vram": "4GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:43:42.193Z"
   },
   {
     "id": "d1d0b529-4626-4596-b5ec-582aa6b82d5c",
@@ -313,7 +376,9 @@
     "amazon_sku": "B0BLT4ZMGL",
     "clean_name": "Gigabyte EAGLE GeForce RTX 4080 GDDR6X Black",
     "chipset": "GeForce RTX 4080",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": 1589.99,
+    "last_updated": "2026-04-28T10:44:08.785Z"
   },
   {
     "id": "34304fd1-1968-4e68-9f69-4d252626f53c",
@@ -322,7 +387,9 @@
     "amazon_sku": "B0C8Y619R1",
     "clean_name": "PNY GeForce RTX 4060 VERTO Dual Fan DLSS 3 GDDR6",
     "chipset": "GeForce RTX 4060",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:44:17.657Z"
   },
   {
     "id": "dcaf32fb-b3f7-49e0-8449-4c6f8813b65f",
@@ -331,7 +398,10 @@
     "amazon_sku": "",
     "clean_name": "MSI VENTUS 3X GeForce RTX 3070 Ti GDDR6X Black / Silver",
     "chipset": "GeForce RTX 3070 Ti",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 33.26,
+    "last_updated": "2026-04-28T10:44:10.620Z",
+    "scraped_title": "85 mm PLD09210B12HH 12V 0.40A Graphics Card Cooling Fan for MSI GeForce RTX 3070 3080 3090 VENTUS 3X Gaming Fan Replace the Cooler (Graphics Card Fan AB)"
   },
   {
     "id": "85e2fa0e-195b-43fa-931d-9f2e3d951f22",
@@ -340,7 +410,9 @@
     "amazon_sku": "B0979GYMHP",
     "clean_name": "EVGA XC3 ULTRA GAMING iCX3 GeForce RTX 3080 Ti GDDR6X Black",
     "chipset": "GeForce RTX 3080 Ti",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": 56.3,
+    "last_updated": "2026-04-28T10:44:39.999Z"
   },
   {
     "id": "dbeb3269-d25f-4bb8-b849-02181a6e9f0c",
@@ -349,7 +421,9 @@
     "amazon_sku": "",
     "clean_name": "Sapphire NITRO+ SE Radeon RX 5700 XT GDDR6 Black / Silver",
     "chipset": "Radeon RX 5700 XT",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:44:39.419Z"
   },
   {
     "id": "01015520-bae5-4ab7-8aef-adbcdfbfd199",
@@ -358,7 +432,9 @@
     "amazon_sku": "B0B34M1YLW",
     "clean_name": "XFX Speedster QICK 319 Core Radeon RX 6750 XT GDDR6 Black",
     "chipset": "Radeon RX 6750 XT",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:44:57.404Z"
   },
   {
     "id": "af36fe07-1fcf-4c36-9c38-e49d5b4595a5",
@@ -367,7 +443,9 @@
     "amazon_sku": "B0F433V3FJ",
     "clean_name": "Inno3D X3 OC GeForce RTX 5090 GDDR7 Black / Silver",
     "chipset": "GeForce RTX 5090",
-    "vram": "32GB"
+    "vram": "32GB",
+    "price": 3339.99,
+    "last_updated": "2026-04-28T10:45:00.448Z"
   },
   {
     "id": "4709fc76-7dd9-4a07-b1b2-ed216cfcc25a",
@@ -376,7 +454,9 @@
     "amazon_sku": "",
     "clean_name": "MSI GeForce GTX 1650 G6 D6 GAMING X Black GDDR6 Black",
     "chipset": "GeForce GTX 1650",
-    "vram": "4GB"
+    "vram": "4GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:45:05.042Z"
   },
   {
     "id": "f88abf00-e2ae-41bf-bb6b-e9db4396c702",
@@ -385,7 +465,9 @@
     "amazon_sku": "B0CSZCV12L",
     "clean_name": "ProArt GeForce RTX™ 4080 SUPER GDDR6X OC Edition",
     "chipset": "GeForce RTX 4080 SUPER",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": 4136.04,
+    "last_updated": "2026-04-28T10:45:16.371Z"
   },
   {
     "id": "c74f32ad-e871-4e36-aea9-252b33f29f5a",
@@ -394,7 +476,9 @@
     "amazon_sku": "B0C8ZLMKP9",
     "clean_name": "Gigabyte WINDFORCE OC GeForce RTX 4070 Ti GDDR6X Black / Silver",
     "chipset": "GeForce RTX 4070 Ti",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:45:37.170Z"
   },
   {
     "id": "1d01000e-7a4d-4403-a3ae-7fc7178db162",
@@ -403,7 +487,10 @@
     "amazon_sku": "",
     "clean_name": "Inno3D iChill X4 GeForce RTX 3070 GDDR6 Black",
     "chipset": "GeForce RTX 3070",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 100.52,
+    "last_updated": "2026-04-28T10:45:30.799Z",
+    "scraped_title": "GPU-Grafikkartenlüfter 4PIN 85MM CF-12915S für Inno3d für Geforce RTX3070TI 3080 3080TI 3090 für Ichill X3/X4(Black)"
   },
   {
     "id": "5a363d10-6829-47e0-8402-78198d7e9f50",
@@ -412,7 +499,9 @@
     "amazon_sku": "B0D27DX3W7",
     "clean_name": "Acer Nitro OC Radeon RX 7800 XT GDDR6 Black",
     "chipset": "Radeon RX 7800 XT",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:46:04.722Z"
   },
   {
     "id": "bd860dce-eab2-431e-b9a9-5bd033fa647f",
@@ -421,7 +510,10 @@
     "amazon_sku": "",
     "clean_name": "XFX DD Radeon R9 280X",
     "chipset": "Radeon R9 280X",
-    "vram": "3 GB"
+    "vram": "3 GB",
+    "price": 18.14,
+    "last_updated": "2026-04-28T10:45:55.848Z",
+    "scraped_title": "PLD09210S12HH 85 mm Graphics Card Fan Compatible with XFX R9 270X 280X 290X HD7850 Quiet Cooling Fan Replacement Fan"
   },
   {
     "id": "6daac131-9c91-4b6a-a46e-28347650395a",
@@ -430,7 +522,10 @@
     "amazon_sku": "",
     "clean_name": "Asus TUF GAMING GeForce RTX 3060 Ti GDDR6X Black",
     "chipset": "GeForce RTX 3060 Ti GDDR6X",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 56.46,
+    "last_updated": "2026-04-28T10:46:08.182Z",
+    "scraped_title": "CF9010U12D 88 mm Graphics Card Fan 12V/0.45A - Dual Ball Bearing Replacement Fan for ASUS GeForce RTX 3060 Ti/3070/3080/3090 (TUF OC Gaming) - High Performance Cooling & Noise Reduction"
   },
   {
     "id": "08afbec6-c90c-421f-a876-534d362f5347",
@@ -439,7 +534,10 @@
     "amazon_sku": "",
     "clean_name": "MSI Radeon RX 5700 MECH GDDR6 Black",
     "chipset": "Radeon RX 5700",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 37.3,
+    "last_updated": "2026-04-28T10:46:18.963Z",
+    "scraped_title": "87MM PLD09210S12HH 4-Pin RX5600 RX5700 Fan for Graphics Card Cooler for MSI Radeon RX 5600 5700 XT MECH OC Fan Replace the Cooler (Graphics Card Fan AB)"
   },
   {
     "id": "b4d64d01-367f-4468-a66c-88c89ebd5371",
@@ -447,7 +545,9 @@
     "variant": "SOC",
     "amazon_sku": "B0DYG483V1",
     "clean_name": "MSI GeForce RTX 5070 12G VANGUARD SOC GDDR7",
-    "chipset": "GeForce RTX 5070"
+    "chipset": "GeForce RTX 5070",
+    "price": 1085,
+    "last_updated": "2026-04-28T10:46:42.571Z"
   },
   {
     "id": "6ac7ef39-a752-49d4-af49-da9ae0921169",
@@ -456,7 +556,9 @@
     "amazon_sku": "",
     "clean_name": "ASRock Radeon RX 6700 XT Silver / Black GDDR6",
     "chipset": "Radeon RX 6700 XT",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:46:37.269Z"
   },
   {
     "id": "28a4927b-6ddd-446f-851a-fed2cde0a215",
@@ -464,7 +566,9 @@
     "variant": "Gaming Overclocked Dual Fan",
     "amazon_sku": "B0B95LX4JG",
     "clean_name": "AMD Radeon RX 6700",
-    "chipset": "Radeon RX 6700 XT"
+    "chipset": "Radeon RX 6700 XT",
+    "price": 240,
+    "last_updated": "2026-04-28T10:46:55.090Z"
   },
   {
     "id": "529bae8e-6f94-4afd-ad40-80087465d78e",
@@ -473,7 +577,10 @@
     "amazon_sku": "",
     "clean_name": "GALAX (1-click OC) GeForce RTX 5070",
     "chipset": "GeForce RTX 5070",
-    "vram": "12 GB"
+    "vram": "12 GB",
+    "price": 26.29,
+    "last_updated": "2026-04-28T10:47:02.151Z",
+    "scraped_title": "2 Stück, FY09015M12LPA, TH9215S2H-PAA01, Grafikkarten-Kühlerlüfter, für KFA2 für Galax für GeForce RTX3060 RTX 3060Ti (1-Click OC)(2 Plugs TH9215S2H)"
   },
   {
     "id": "970fbda3-b081-450c-be03-bd1052ec1752",
@@ -482,7 +589,9 @@
     "amazon_sku": "B0F147F18Y",
     "clean_name": "MSI VANGUARD SOC GeForce RTX 5070 Ti GDDR7",
     "chipset": "GeForce RTX 5070 Ti",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:47:22.155Z"
   },
   {
     "id": "8861306d-e14e-43fa-8faf-231a75f3c403",
@@ -491,7 +600,9 @@
     "amazon_sku": "B094YPQ5FH",
     "clean_name": "Sapphire Toxic Extreme Edition Radeon RX 6900 XT GDDR6",
     "chipset": "Radeon RX 6900 XT",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:47:21.629Z"
   },
   {
     "id": "60256841-670a-47b6-a970-2694efb29bee",
@@ -500,7 +611,9 @@
     "amazon_sku": "",
     "clean_name": "Yeston Game Ace Radeon RX 9060 XT GDDR6 White/Purple",
     "chipset": "Radeon RX 9060 XT 8 GB",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:47:23.769Z"
   },
   {
     "id": "55c249e2-693d-4c51-b264-8c5079274bb9",
@@ -509,7 +622,9 @@
     "amazon_sku": "B07HY86LMV",
     "clean_name": "PNY Quadro RTX 6000 VCQRTX6000-PB GDDR6 Black / Silver",
     "chipset": "Quadro RTX 6000",
-    "vram": "24GB"
+    "vram": "24GB",
+    "price": 5198,
+    "last_updated": "2026-04-28T10:47:43.569Z"
   },
   {
     "id": "966872b2-40b6-4f29-bda8-13c5017ae83b",
@@ -518,7 +633,9 @@
     "amazon_sku": "",
     "clean_name": "ASRock Steel Legend OC Radeon RX 6650 XT GDDR6 White",
     "chipset": "Radeon RX 6650 XT",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:47:45.891Z"
   },
   {
     "id": "abe4dfc4-a981-4fd4-87ac-fd61cc524c19",
@@ -527,7 +644,9 @@
     "amazon_sku": "",
     "clean_name": "Yeston Sakura Atlantis Radeon RX 9070 GDDR6 Blue / Pink",
     "chipset": "Radeon RX 9070",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:47:53.728Z"
   },
   {
     "id": "6a69d72d-5247-49d0-9c7b-79db8ac32fc3",
@@ -536,7 +655,9 @@
     "amazon_sku": "B0BHKNK84Y",
     "clean_name": "Acer Arc A770 Predator BiFrost OC GDDR6 Black / Silver",
     "chipset": "Arc A770",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:48:11.642Z"
   },
   {
     "id": "eb404220-e645-4524-b3c0-5968e627d684",
@@ -545,7 +666,9 @@
     "amazon_sku": "B09ZZP1J5W",
     "clean_name": "Sapphire PULSE Radeon RX 6750 XT GDDR6 Red / Black",
     "chipset": "Radeon RX 6750 XT",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": 61.33,
+    "last_updated": "2026-04-28T10:48:27.851Z"
   },
   {
     "id": "9b923aa5-f6a7-4eb0-990e-1c9d4cd27e1e",
@@ -554,7 +677,9 @@
     "amazon_sku": "B07WRMT3BH",
     "clean_name": "ASUS DUAL EVO OC Radeon RX 5700",
     "chipset": "Radeon RX 5700",
-    "vram": "8 GB"
+    "vram": "8 GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:48:30.746Z"
   },
   {
     "id": "732a595c-1b2a-403d-ab3a-bc2e14527842",
@@ -563,7 +688,9 @@
     "amazon_sku": "B0C74TTHBD",
     "clean_name": "Sparkle Arc A750 ORC OC GDDR6 Blue / Black",
     "chipset": "Arc A750",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 162.79,
+    "last_updated": "2026-04-28T10:48:32.865Z"
   },
   {
     "id": "4eb6f5fb-5c05-4bb9-95fe-82271af1ab1d",
@@ -572,7 +699,10 @@
     "amazon_sku": "",
     "clean_name": "MSI SUPRIM X GeForce RTX 3080 LHR GDDR6X Black / Silver",
     "chipset": "GeForce RTX 3080 10 GB",
-    "vram": "10GB"
+    "vram": "10GB",
+    "price": 26.21,
+    "last_updated": "2026-04-28T10:48:52.913Z",
+    "scraped_title": "Graphics Card Cooler Replacement Graphics Card Cooler Fan Compatible with MSI GeForce 3080 SUPRIM (X) 10G 12G LHR, 3080 Ti SUPRIM (X) 12G, 3090 SUPRIM X 24G"
   },
   {
     "id": "4ee68211-c249-478b-8258-893874b4ebaa",
@@ -581,7 +711,9 @@
     "amazon_sku": "B0D8RG693Z",
     "clean_name": "Asus DUAL EVO OC GeForce RTX 4070 GDDR6X White",
     "chipset": "GeForce RTX 4070",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": 39.99,
+    "last_updated": "2026-04-28T10:49:04.934Z"
   },
   {
     "id": "1207652e-ba8d-446b-9425-c263559dda0b",
@@ -590,7 +722,9 @@
     "amazon_sku": "",
     "clean_name": "EVGA GeForce GTX Titan X GDDR5 Black / Silver",
     "chipset": "GeForce GTX Titan X",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:48:54.816Z"
   },
   {
     "id": "6454de04-f280-4c86-a92f-0c46e5275ab4",
@@ -599,7 +733,10 @@
     "amazon_sku": "",
     "clean_name": "XFX Speedster QICK 308 ULTRA Radeon RX 6650 XT GDDR6 Black / Silver",
     "chipset": "Radeon RX 6650 XT",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 743.5,
+    "last_updated": "2026-04-28T10:49:12.124Z",
+    "scraped_title": "Karta Graf. XFX QicksilverRX 7800XT Magnetic Air WH"
   },
   {
     "id": "9017aca1-dc66-4a92-85c4-3d43c0cadebe",
@@ -608,7 +745,9 @@
     "amazon_sku": "B0DS6WPTLL",
     "clean_name": "Asus PRIME OC GeForce RTX 5070",
     "chipset": "GeForce RTX 5070",
-    "vram": "12 GB"
+    "vram": "12 GB",
+    "price": 1232.94,
+    "last_updated": "2026-04-28T10:49:26.287Z"
   },
   {
     "id": "a2979735-f292-49a2-8607-2e011d34fd10",
@@ -617,7 +756,9 @@
     "amazon_sku": "B074DKD3M3",
     "clean_name": "XFX Radeon RX VEGA 64 Silver / Red HBM2",
     "chipset": "Radeon RX Vega 64",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:49:45.287Z"
   },
   {
     "id": "f6558e6d-5730-4465-b0bd-559525008546",
@@ -626,7 +767,9 @@
     "amazon_sku": "",
     "clean_name": "Asus DUAL OC V2 GeForce RTX 4060 Ti GDDR6 Black",
     "chipset": "GeForce RTX 4060 Ti",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:49:35.701Z"
   },
   {
     "id": "07f88b1a-6b68-4c0a-ae91-d89140fc8206",
@@ -635,7 +778,9 @@
     "amazon_sku": "",
     "clean_name": "MSI GAMING GeForce GTX 950 GDDR5 Black / Red",
     "chipset": "GeForce GTX 950",
-    "vram": "2GB"
+    "vram": "2GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:49:50.985Z"
   },
   {
     "id": "4253a76c-8a00-4078-8b1f-c66e35dabe86",
@@ -644,7 +789,10 @@
     "amazon_sku": "",
     "clean_name": "PowerColor Radeon RX 5600 XT AXRX 5600XT D6-3DH/OC GDDR6 Black",
     "chipset": "Radeon RX 5600 XT",
-    "vram": "6GB"
+    "vram": "6GB",
+    "price": 13.1,
+    "last_updated": "2026-04-28T10:50:01.824Z",
+    "scraped_title": "95 mm Graphics Card Fan Compatible with PowerColor RX 5700 5700XT RX 5600 XT Quiet Cooling Fan Replacement Fan"
   },
   {
     "id": "d7328b28-5af4-4821-9f8a-58c6c166d234",
@@ -653,7 +801,9 @@
     "amazon_sku": "B01N3MBSCJ",
     "clean_name": "AMD Radeon Pro WX 5100 Radeon Pro WX 5100 Blue GDDR5 Blue",
     "chipset": "Radeon PRO WX 5100",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 330.58,
+    "last_updated": "2026-04-28T10:50:15.389Z"
   },
   {
     "id": "89b7c24b-13eb-45fa-abac-24077b0b9267",
@@ -662,7 +812,9 @@
     "amazon_sku": "",
     "clean_name": "Gigabyte GAMING Radeon RX 480 GDDR5 Black / Orange",
     "chipset": "Radeon RX 480",
-    "vram": "4GB"
+    "vram": "4GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:50:15.446Z"
   },
   {
     "id": "2742003b-291e-46e1-8984-7220ce384fa2",
@@ -671,7 +823,9 @@
     "amazon_sku": "B07YXQ19NC",
     "clean_name": "MSI GeForce RTX 2060 SUPER™ VENTUS GP OC GDDR6",
     "chipset": "GeForce RTX 2060 SUPER",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 28.13,
+    "last_updated": "2026-04-28T10:50:31.317Z"
   },
   {
     "id": "1f083725-3d25-4f7a-a079-085ea5a0216c",
@@ -679,7 +833,9 @@
     "variant": "AMP",
     "amazon_sku": "B07GFTJCW5",
     "clean_name": "ZOTAC GAMING GeForce RTX 2080 Ti AMP",
-    "chipset": "GeForce RTX 2080 Ti"
+    "chipset": "GeForce RTX 2080 Ti",
+    "price": 175.51,
+    "last_updated": "2026-04-28T10:50:52.189Z"
   },
   {
     "id": "7efebc98-f6f0-4ed5-9f4d-597c2402a8e3",
@@ -688,7 +844,9 @@
     "amazon_sku": "B0DNMH4KQM",
     "clean_name": "Sparkle Intel Arc B580 TITAN OC GDDR6",
     "chipset": "Arc B580",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": 346.58,
+    "last_updated": "2026-04-28T10:50:39.528Z"
   },
   {
     "id": "a9cf8158-5557-48e1-9614-19bcfb240f55",
@@ -697,7 +855,9 @@
     "amazon_sku": "B0BZ23QB2M",
     "clean_name": "Asus Noctua OC GeForce RTX 4080 GDDR6X Brown / Beige",
     "chipset": "GeForce RTX 4080",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:50:57.667Z"
   },
   {
     "id": "36850d93-7ecb-4ded-987e-609df379a22f",
@@ -706,7 +866,9 @@
     "amazon_sku": "B0C1ZZMJ5H",
     "clean_name": "Gigabyte WINDFORCE GeForce RTX 4080 GDDR6X Black / Silver",
     "chipset": "GeForce RTX 4080",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": 1589.99,
+    "last_updated": "2026-04-28T10:51:10.040Z"
   },
   {
     "id": "3e87690c-07e0-4162-a38b-97d27197ed00",
@@ -715,7 +877,9 @@
     "amazon_sku": "",
     "clean_name": "MSI GAMING GeForce RTX 3060 GDDR6 Black",
     "chipset": "GeForce RTX 3060 12 GB",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:51:10.638Z"
   },
   {
     "id": "f401541a-5bed-4a3d-917f-167010fa9337",
@@ -724,7 +888,9 @@
     "amazon_sku": "",
     "clean_name": "Inno3D X3 OC GeForce RTX 5080 GDDR7 White / Silver",
     "chipset": "GeForce RTX 5080",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:51:17.638Z"
   },
   {
     "id": "51a2dc2a-3371-4e59-83e6-8378990c35fd",
@@ -733,7 +899,10 @@
     "amazon_sku": "",
     "clean_name": "Gigabyte AORUS GeForce RTX 2060 SUPER GDDR6 Black",
     "chipset": "GeForce RTX 2060 SUPER",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 26.96,
+    "last_updated": "2026-04-28T10:51:34.851Z",
+    "scraped_title": "Graphics Card Fan for Gigabyte GeForce RTX 2060/2070 WINDFORCE, 2060 Super-Windforce, Gigabyte GeForce | PLD10010S12H"
   },
   {
     "id": "3efea331-0069-4a12-8c2b-f8daa8ea1387",
@@ -742,7 +911,9 @@
     "amazon_sku": "",
     "clean_name": "MSI Gaming X NV Edition GeForce RTX 4060 GDDR6",
     "chipset": "GeForce RTX 4060",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:51:40.618Z"
   },
   {
     "id": "3abe46e1-090c-4998-947f-6bd607f1cfe8",
@@ -750,7 +921,9 @@
     "variant": "",
     "amazon_sku": "B0DYDY8KSC",
     "clean_name": "NVIDIA GeForce RTX 5090 Founders Edition",
-    "chipset": "GeForce RTX 5090"
+    "chipset": "GeForce RTX 5090",
+    "price": 4289.99,
+    "last_updated": "2026-04-28T10:51:41.992Z"
   },
   {
     "id": "9580dad8-6974-438c-b895-6f828107dbab",
@@ -759,7 +932,9 @@
     "amazon_sku": "B0CFPSX77R",
     "clean_name": "PowerColor Red Devil OC Radeon RX 7800 XT GDDR6 Black",
     "chipset": "Radeon RX 7800 XT",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": 796.99,
+    "last_updated": "2026-04-28T10:52:12.161Z"
   },
   {
     "id": "8088feff-90bc-4d60-bf0d-abc6d0f7e11c",
@@ -768,7 +943,9 @@
     "amazon_sku": "",
     "clean_name": "MSI VENTUS 3X GeForce RTX 4070 Ti GDDR6X Silver / Black",
     "chipset": "GeForce RTX 4070 Ti",
-    "vram": "12GB"
+    "vram": "12GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:52:07.885Z"
   },
   {
     "id": "bfe5b8c3-56c9-484c-b89b-d4cf71da0cba",
@@ -777,7 +954,9 @@
     "amazon_sku": "",
     "clean_name": "EVGA FTW+ ACX 2.0+ GeForce GTX 970 GDDR5 Black / Blue",
     "chipset": "GeForce GTX 970",
-    "vram": "4GB"
+    "vram": "4GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:52:08.049Z"
   },
   {
     "id": "9fc3289b-614e-4d67-ab63-615e90a0e4a3",
@@ -786,7 +965,9 @@
     "amazon_sku": "B08L8KC1J7",
     "clean_name": "ASUS TUF Gaming GeForce RTX 3070 OC Edition GDDR6",
     "chipset": "GeForce RTX 3070",
-    "vram": "8GB"
+    "vram": "8GB",
+    "price": 56.46,
+    "last_updated": "2026-04-28T10:52:47.813Z"
   },
   {
     "id": "65437100-24a2-4296-805f-4ee3b5343865",
@@ -795,7 +976,10 @@
     "amazon_sku": "",
     "clean_name": "Sapphire Tri-X Radeon R9 290",
     "chipset": "Radeon R9 290",
-    "vram": "4 GB"
+    "vram": "4 GB",
+    "price": 36.18,
+    "last_updated": "2026-04-28T10:52:28.590Z",
+    "scraped_title": "Für 3PCS Lüfter 85MM FDC10H12S9-C Für Sapphire R9-290X R9 390 8G für Nitro 390X D5 Tri-X Grafikkarte"
   },
   {
     "id": "d0cd50f5-ab7c-479b-a0b1-208cf551ba23",
@@ -804,7 +988,9 @@
     "amazon_sku": "B09M38TVL2",
     "clean_name": "XFX Speedster SWFT 319 Radeon RX 6900 XT GDDR6 Black",
     "chipset": "Radeon RX 6900 XT",
-    "vram": "16GB"
+    "vram": "16GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:52:45.344Z"
   },
   {
     "id": "20543e00-7719-4ac7-9f43-db5e012be9b6",
@@ -813,7 +999,9 @@
     "amazon_sku": "B0BGP8FGNZ",
     "clean_name": "Gigabyte GAMING OC GeForce RTX 4090",
     "chipset": "GeForce RTX 4090",
-    "vram": "24 GB"
+    "vram": "24 GB",
+    "price": null,
+    "last_updated": "2026-04-28T10:53:00.094Z"
   },
   {
     "id": "6e4a3874-32f1-441c-8120-c7e9bda32839",
@@ -822,7 +1010,10 @@
     "amazon_sku": "",
     "clean_name": "Zotac GAMING GeForce GTX 1660 GDDR5 Black",
     "chipset": "GeForce GTX 1660",
-    "vram": "6GB"
+    "vram": "6GB",
+    "price": 33.26,
+    "last_updated": "2026-04-28T10:53:03.756Z",
+    "scraped_title": "87 mm GA92A2H 0.35A Fan for Graphics Card Cooler for Zotac GeForce GTX 1660 1660 Ti/RTX 2060 2070 Super Mini Fan Replace the Cooler (Graphics Card Fan AB)"
   },
   {
     "id": "8c51ca6d-95d8-46c4-be4c-acd6caf11a16",
@@ -831,7 +1022,10 @@
     "amazon_sku": "",
     "clean_name": "Asus STRIX DC3 GAMING GeForce GTX 980 Ti GDDR5 Black / Red",
     "chipset": "GeForce GTX 980 Ti",
-    "vram": "6GB"
+    "vram": "6GB",
+    "price": 31.99,
+    "last_updated": "2026-04-28T10:53:06.565Z",
+    "scraped_title": "ASUS Strix GTX 1060 OC 1070 1080 GTX 1080Ti RX 480 ASUS-STRIX-R9390-DC3-8GD5-GAMING graphics card Fan"
   },
   {
     "id": "247ece28-594b-44e7-9116-cf9c17ab50cd",

@@ -411,6 +411,245 @@ async function clickAodAndExtract(page) {
 // ==========================================
 // SEARCH RESULT EXTRACTION
 // ==========================================
+function cleanNameArtifacts(name) {
+    if (!name) return "";
+    return name
+        .replace(/\s+-\d+\s*$/g, "") // trailing " -3", " -2" etc.
+        .replace(/\s+\d{4,}\s*$/g, "") // trailing long numbers
+        .replace(/\(\s*\)/g, "") // empty parens
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function simplifySearchQuery(name) {
+    if (!name) return "";
+
+    // Remove manufacturer part numbers with 2+ hyphens
+    let cleaned = name.replace(/\b[A-Z0-9]+(?:-[A-Z0-9]+){2,}\b/gi, " ");
+
+    // Normalize
+    cleaned = cleaned
+        .toLowerCase()
+        .replace(/[\/()|,[\]{}:;]/g, " ")
+        .replace(/\+/g, " plus ")
+        .replace(/\s+/g, " ")
+        .trim();
+
+    const stopWords = new Set([
+        // Colors
+        "black",
+        "white",
+        "red",
+        "blue",
+        "silver",
+        "gold",
+        "grey",
+        "gray",
+        "green",
+        "yellow",
+        "orange",
+        "pink",
+        "purple",
+        "brown",
+        "beige",
+        "cyan",
+        "teal",
+        "violet",
+        "magenta",
+        // Memory/storage types
+        "gddr5",
+        "gddr6",
+        "gddr6x",
+        "ddr2",
+        "ddr3",
+        "ddr4",
+        "ddr5",
+        "nvme",
+        "sata",
+        "ssd",
+        "hdd",
+        "m2",
+        // Form factors
+        "atx",
+        "eatx",
+        "matx",
+        "micro",
+        "mini",
+        "full",
+        "mid",
+        "tower",
+        "slim",
+        "desktop",
+        "htpc",
+        "server",
+        // Case features
+        "tempered",
+        "glass",
+        "acrylic",
+        "mesh",
+        "metal",
+        "aluminum",
+        "aluminium",
+        "steel",
+        "side",
+        "panel",
+        "front",
+        "top",
+        "bottom",
+        "back",
+        "frontpanel",
+        "usb",
+        "gen",
+        "typec",
+        "typea",
+        "type-c",
+        "type-a",
+        "rgb",
+        "argb",
+        "led",
+        "fan",
+        "fans",
+        "cooler",
+        "cooling",
+        "liquid",
+        "aio",
+        "air",
+        "water",
+        "heatsink",
+        "heat",
+        "sink",
+        "included",
+        "preinstalled",
+        "pre",
+        "installed",
+        "dimensions",
+        "dimension",
+        "vertical",
+        "chassis",
+        "case",
+        "computer",
+        "pc",
+        // PSU
+        "watt",
+        "watts",
+        "fully",
+        "semi",
+        "non",
+        "modular",
+        "bronze",
+        "silver",
+        "platinum",
+        "titanium",
+        "certified",
+        "supply",
+        "power",
+        "psu",
+        // OS / Software
+        "bit",
+        "dvd",
+        "oem",
+        "retail",
+        "flash",
+        "drive",
+        "download",
+        "system",
+        "builder",
+        "digital",
+        "english",
+        "edition",
+        "version",
+        "home",
+        "professional",
+        "ultimate",
+        "enterprise",
+        "standard",
+        // Generic descriptors
+        "box",
+        "bulk",
+        "tray",
+        "series",
+        "model",
+        "new",
+        "original",
+        "compatible",
+        "support",
+        "supported",
+        "for",
+        "and",
+        "or",
+        "the",
+        "of",
+        "in",
+        "up",
+        "to",
+        "mhz",
+        "ghz",
+        "cl",
+        "rpm",
+        "mm",
+        "cm",
+        "dba",
+        "cfm",
+        "tdp",
+        "pwm",
+        "oc",
+        "overclock",
+        "overclocked",
+        "overclocking",
+        "gaming",
+        "game",
+        "performance",
+        "extreme",
+        "ultra",
+        "super",
+        "plus",
+        "premium",
+        "advanced",
+        "basic",
+        "value",
+        "select",
+        "kit",
+        "pack",
+        "set",
+        "bundle",
+        "piece",
+        "pieces",
+        "internal",
+        "external",
+        "portable",
+        "laptop",
+        "notebook",
+        "mobile",
+        // Units without numbers
+        "gb",
+        "tb",
+        "mb",
+        "kb",
+        "w",
+        // Size descriptors
+        "xl",
+        "xxl",
+        "small",
+        "medium",
+        "large",
+        // Misc
+        "with",
+        "without",
+        "only",
+        "each",
+        "per",
+    ]);
+
+    const tokens = cleaned.split(/\s+/).filter((t) => {
+        if (!t) return false;
+        if (stopWords.has(t)) return false;
+        if (/^[a-z]$/.test(t) && !["x", "s", "i"].includes(t)) return false;
+        return true;
+    });
+
+    return tokens.join(" ");
+}
+
 export async function extractFirstSearchResult(page, expectedName) {
     try {
         await page
@@ -419,49 +658,189 @@ export async function extractFirstSearchResult(page, expectedName) {
             })
             .catch(() => {});
 
-        const modelTokens = (expectedName || "")
+        const simplifiedName = simplifySearchQuery(expectedName);
+        const allTokens = simplifiedName
             .split(/\s+/)
-            .filter((t) => /\d/.test(t) && t.length >= 3)
-            .map((t) => t.toLowerCase());
+            .filter((t) => t.length > 0);
 
-        const resultData = await page.evaluate((tokens) => {
-            const results = Array.from(
-                document.querySelectorAll(
-                    'div[data-component-type="s-search-result"]:not(.AdHolder):not(.s-widget)'
-                )
-            );
-
-            for (const result of results) {
-                let titleEl = result.querySelector("h2 a span");
-                if (!titleEl)
-                    titleEl = result.querySelector(
-                        ".a-size-medium.a-color-base.a-text-normal"
-                    );
-                const title = titleEl ? titleEl.innerText.trim() : "";
-
-                const titleLower = title.toLowerCase();
-                const isMatch =
-                    tokens.length === 0 ||
-                    tokens.every((t) => titleLower.includes(t));
-                if (!isMatch) continue;
-
-                const priceEl = result.querySelector(".a-price .a-offscreen");
-                const rawPrice = priceEl
-                    ? priceEl.textContent.trim()
-                    : null;
-                if (!rawPrice) continue;
-
-                const linkEl = result.querySelector("h2 a");
-                const href = linkEl ? linkEl.getAttribute("href") : null;
-                const scraped_url = href
-                    ? `https://www.amazon.de${href}`
-                    : null;
-
-                return { rawPrice, scraped_title: title, scraped_url };
+        // Extract brand (first 1-2 words)
+        let brand = null;
+        if (allTokens.length > 0) {
+            const first = allTokens[0];
+            const second = allTokens[1] || "";
+            const twoWordBrands = [
+                "fractal design",
+                "be quiet",
+                "lian li",
+                "cooler master",
+                "team group",
+                "silicon power",
+                "power color",
+                "v color",
+                "western digital",
+            ];
+            const combined = `${first} ${second}`.trim();
+            if (twoWordBrands.includes(combined)) {
+                brand = combined;
+            } else {
+                brand = first;
             }
+        }
 
-            return null;
-        }, modelTokens);
+        // Strong tokens: contain digits OR length >= 4
+        const strongTokens = allTokens.filter(
+            (t) => /\d/.test(t) || t.length >= 4
+        );
+        const weakTokens = allTokens.filter(
+            (t) => !strongTokens.includes(t)
+        );
+
+        const resultData = await page.evaluate(
+            (args) => {
+                const { allTokens, strongTokens, weakTokens, brand } = args;
+                const results = Array.from(
+                    document.querySelectorAll(
+                        'div[data-component-type="s-search-result"]:not(.AdHolder):not(.s-widget)'
+                    )
+                );
+
+                function scoreResult(result) {
+                    let titleEl = result.querySelector("h2 a span");
+                    if (!titleEl)
+                        titleEl = result.querySelector(
+                            ".a-size-medium.a-color-base.a-text-normal"
+                        );
+                    const title = titleEl ? titleEl.innerText.trim() : "";
+                    if (!title) return null;
+
+                    const titleLower = title.toLowerCase();
+
+                    // Brand must be present in title
+                    if (brand && !titleLower.includes(brand)) return null;
+
+                    const matchedStrong = strongTokens.filter((t) =>
+                        titleLower.includes(t)
+                    );
+                    const matchedWeak = weakTokens.filter((t) =>
+                        titleLower.includes(t)
+                    );
+                    const matchedTotal =
+                        matchedStrong.length + matchedWeak.length;
+
+                    const totalTokens = allTokens.length;
+                    if (totalTokens === 0) {
+                        const priceEl = result.querySelector(
+                            ".a-price .a-offscreen"
+                        );
+                        const rawPrice = priceEl
+                            ? priceEl.textContent.trim()
+                            : null;
+                        if (!rawPrice) return null;
+                        const linkEl = result.querySelector("h2 a");
+                        const href = linkEl
+                            ? linkEl.getAttribute("href")
+                            : null;
+                        const scraped_url = href
+                            ? `https://www.amazon.de${href}`
+                            : null;
+                        return brand
+                            ? {
+                                  rawPrice,
+                                  scraped_title: title,
+                                  scraped_url,
+                                  score: 1,
+                              }
+                            : null;
+                    }
+
+                    // Rule 1: all strong tokens match AND at least half of weak tokens
+                    const allStrongMatch =
+                        strongTokens.length === 0 ||
+                        matchedStrong.length === strongTokens.length;
+                    const halfWeakMatch =
+                        weakTokens.length === 0 ||
+                        matchedWeak.length >=
+                            Math.ceil(weakTokens.length / 2);
+                    const rule1 = allStrongMatch && halfWeakMatch;
+
+                    // Rule 2: at least 60% of all tokens match
+                    const rule2 = matchedTotal / totalTokens >= 0.6;
+
+                    if (!rule1 && !rule2) return null;
+
+                    const priceEl = result.querySelector(
+                        ".a-price .a-offscreen"
+                    );
+                    const rawPrice = priceEl
+                        ? priceEl.textContent.trim()
+                        : null;
+                    if (!rawPrice) return null;
+
+                    const linkEl = result.querySelector("h2 a");
+                    const href = linkEl
+                        ? linkEl.getAttribute("href")
+                        : null;
+                    const scraped_url = href
+                        ? `https://www.amazon.de${href}`
+                        : null;
+
+                    return {
+                        rawPrice,
+                        scraped_title: title,
+                        scraped_url,
+                        score: matchedTotal / totalTokens,
+                    };
+                }
+
+                // 1st pass: best scoring result
+                let best = null;
+                for (const result of results) {
+                    const data = scoreResult(result);
+                    if (data && (!best || data.score > best.score)) {
+                        best = data;
+                    }
+                }
+                if (best) return best;
+
+                // 2nd pass: first result with brand match and any price
+                for (const result of results) {
+                    let titleEl = result.querySelector("h2 a span");
+                    if (!titleEl)
+                        titleEl = result.querySelector(
+                            ".a-size-medium.a-color-base.a-text-normal"
+                        );
+                    const title = titleEl ? titleEl.innerText.trim() : "";
+                    const priceEl = result.querySelector(
+                        ".a-price .a-offscreen"
+                    );
+                    const rawPrice = priceEl
+                        ? priceEl.textContent.trim()
+                        : null;
+                    if (!rawPrice || !title) continue;
+
+                    if (brand && !title.toLowerCase().includes(brand))
+                        continue;
+
+                    const linkEl = result.querySelector("h2 a");
+                    const href = linkEl
+                        ? linkEl.getAttribute("href")
+                        : null;
+                    const scraped_url = href
+                        ? `https://www.amazon.de${href}`
+                        : null;
+
+                    return {
+                        rawPrice,
+                        scraped_title: title,
+                        scraped_url,
+                        score: 0,
+                    };
+                }
+
+                return null;
+            },
+            { allTokens, strongTokens, weakTokens, brand }
+        );
 
         if (resultData && resultData.rawPrice) {
             return {
@@ -534,7 +913,9 @@ export async function scrapeProduct(page, product) {
         .replace(/\s*\bOEM\b/gi, "")
         .replace(/\s*\bTray\b/gi, "")
         .trim();
-    const query = encodeURIComponent(cleanedName);
+    const artifactCleanName = cleanNameArtifacts(cleanedName);
+    const simplifiedName = simplifySearchQuery(artifactCleanName);
+    const query = encodeURIComponent(simplifiedName || artifactCleanName);
     const searchUrl = `https://www.amazon.de/s?k=${query}`;
     console.log(
         `[SCRAPER] Fallback search for "${identifier}" -> ${searchUrl}`
@@ -557,7 +938,7 @@ export async function scrapeProduct(page, product) {
     await acceptCookies(page);
     await sleep(getRandomDelay(2000, 4000));
 
-    const searchName = product.clean_name || product.name || "";
+    const searchName = artifactCleanName;
     const result = await extractFirstSearchResult(page, searchName);
     price = result.price;
     scrapedUrl = result.scraped_url || undefined;
