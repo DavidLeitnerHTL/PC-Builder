@@ -32,8 +32,8 @@ jobs:
 
       - name: Process data and cleanup
         run: |
-          mkdir -p main-repo/raw_hardware_data
-          cp -a buildcore-repo/open-db/* main-repo/raw_hardware_data/
+          mkdir -p main-repo/raw_hardware_data/open-db
+          cp -a buildcore-repo/open-db/. main-repo/raw_hardware_data/open-db/
           cd main-repo/scraper
           pip install -r requirements.txt
           python data_processor.py
