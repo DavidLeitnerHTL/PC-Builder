@@ -7821,10 +7821,10 @@
     },
     {
         "id": "2eaa7b0b-5737-4073-a245-8224c479d348",
-        "name": "Asus ROG STRIX WHITE OC GeForce RTX 3090 24GB GDDR6X White / Black",
-        "variant": "Asus",
+        "name": "ASUS ROG Strix GeForce RTX 3090 24GB GDDR6X OC White ",
+        "variant": "OC ",
         "amazon_sku": "B08R133PYZ",
-        "clean_name": "Asus ROG STRIX WHITE OC GeForce RTX 3090 GDDR6X White / Black",
+        "clean_name": "ASUS ROG Strix GeForce RTX 3090 GDDR6X OC White",
         "chipset": "GeForce RTX 3090",
         "vram": "24GB"
     },
@@ -9154,12 +9154,11 @@
     },
     {
         "id": "c9f65e9c-ed58-4362-9cfc-d45bb78e8d15",
-        "name": "Gigabyte OC Low Profile GeForce RTX 5050 8GB GDDR6 Black",
-        "variant": "Low Profile OC",
+        "name": "Gigabyte GeForce RTX 5050 OC Low Profile 8G GDDR6",
+        "variant": "OC ",
         "amazon_sku": "B0FG8J867N",
-        "clean_name": "Gigabyte OC Low Profile GeForce RTX 5050 GDDR6 Black",
-        "chipset": "GeForce RTX 5050",
-        "vram": "8GB"
+        "clean_name": "Gigabyte GeForce RTX 5050 OC Low Profile 8G GDDR6",
+        "chipset": "GeForce RTX 5050"
     },
     {
         "id": "0dd8bae5-5674-4a59-9604-acf38fd32ba3",
@@ -14043,12 +14042,11 @@
     },
     {
         "id": "322c0212-2f35-4e01-b336-afe00cdcb312",
-        "name": "Gigabyte GeForce RTX 4070 Ti AERO OC 12GB GDDR6X White / Silver",
-        "variant": "Gigabyte",
+        "name": "GIGABYTE GeForce RTX™ 4070 Ti AERO OC 12G GDDR6X",
+        "variant": "OC ",
         "amazon_sku": "B0BRR1MPTX",
-        "clean_name": "Gigabyte GeForce RTX 4070 Ti AERO OC GDDR6X White / Silver",
-        "chipset": "GeForce RTX 4070 Ti",
-        "vram": "12GB"
+        "clean_name": "GIGABYTE GeForce RTX™ 4070 Ti AERO OC 12G GDDR6X",
+        "chipset": "GeForce RTX 4070 Ti"
     },
     {
         "id": "e09b1bbc-c283-47e5-8f50-554c4cb7c644",
@@ -24251,12 +24249,11 @@
     },
     {
         "id": "c50f99c3-0fe3-4733-8ffc-a5ae5376a0dd",
-        "name": "MSI VENTUS 3X OC GeForce RTX 3070 Ti 8GB GDDR6X Black / Silver",
-        "variant": "MSI",
+        "name": "MSI GeForce RTX 3070 Ti VENTUS 3X 8G OC GDDR6X",
+        "variant": "OC ",
         "amazon_sku": "B096HQC9Y5",
-        "clean_name": "MSI VENTUS 3X OC GeForce RTX 3070 Ti GDDR6X Black / Silver",
-        "chipset": "GeForce RTX 3070 Ti",
-        "vram": "8GB"
+        "clean_name": "MSI GeForce RTX 3070 Ti VENTUS 3X 8G OC GDDR6X",
+        "chipset": "GeForce RTX 3070 Ti"
     },
     {
         "id": "b711d416-88cb-456c-a247-d2a48da9b262",
@@ -25310,10 +25307,12 @@
     },
     {
         "id": "aa73d1c9-72f4-4396-901f-9077de890546",
-        "name": "PULSE AMD Radeon RX 6600 XT",
+        "name": "SAPPHIRE PULSE AMD Radeon RX 6600 XT 8GB GDDR6",
+        "variant": "",
         "amazon_sku": "B09C7RMJ5Z",
-        "clean_name": "PULSE AMD Radeon RX 6600 XT",
-        "chipset": "Radeon RX 6600 XT"
+        "clean_name": "SAPPHIRE PULSE AMD Radeon RX 6600 XT GDDR6",
+        "chipset": "Radeon RX 6600 XT",
+        "vram": "8GB"
     },
     {
         "id": "70da8636-d8ce-48ad-9501-f521595e3db7",

@@ -13636,7 +13636,8 @@
         "min_noise_level": 27,
         "static_pressure": 2.9,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ],
         "fan_size": "120mm"
     },
@@ -15352,9 +15353,12 @@
         "is_oem": false,
         "min_airflow": 16.44,
         "max_airflow": 63.1,
+        "min_noise_level": 10,
+        "max_noise_level": 37,
         "static_pressure": 3.8,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ],
         "fan_size": "120mm",
         "features": "RGB, PWM"
@@ -25648,7 +25652,7 @@
     {
         "id": "7a2b8395-7298-4940-ab92-c3b45e3c5ccf",
         "name": "Asiahorse NYOTA 120mm Case Fans (3-Pack) Black Reverse Blade",
-        "variant": "120mm Case Fans (3-Pack) Reverse Blade",
+        "variant": "120mm Case Fans Pack of 3 Reverse Blade",
         "amazon_sku": "B0DP2LDRHT",
         "clean_name": "Asiahorse NYOTA s (3-Pack) Black Reverse Blade",
         "size": 120,
@@ -25663,7 +25667,8 @@
         "min_noise_level": 29,
         "static_pressure": 2.16,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ],
         "fan_size": "120mm"
     },
@@ -40795,7 +40800,7 @@
     {
         "id": "87a70192-6876-435a-9912-d9b53d96989d",
         "name": "darkFlash INF34 ARGB PWM 120mm White 3-Pack",
-        "variant": "120mm White",
+        "variant": "120mm White Pack of 3",
         "amazon_sku": "B0DKST5LX5",
         "clean_name": "darkFlash INF34 White 3-Pack",
         "size": 120,
@@ -40806,11 +40811,12 @@
         "controller": "None",
         "flow_direction": "Standard",
         "is_oem": false,
-        "max_airflow": 50.43,
-        "max_noise_level": 31.6,
+        "min_airflow": 50.43,
+        "min_noise_level": 31.6,
         "static_pressure": 2.27,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ],
         "fan_size": "120mm",
         "features": "ARGB, PWM"
@@ -47306,10 +47312,10 @@
     },
     {
         "id": "def442bc-69cd-40cb-a59a-b4494f81236b",
-        "name": "Lian Li Uni Fan SL-Infinity 140mm Addressable RGB PWM Reverse",
+        "name": "Lian Li Uni Fan SL-Infinity 140mm ARGB PWM Reverse",
         "variant": "140mm",
         "amazon_sku": "B0CVN1TVP9",
-        "clean_name": "Lian Li Uni SL-Infinity Addressable Reverse",
+        "clean_name": "Lian Li Uni SL-Infinity Reverse",
         "size": 140,
         "quantity": 1,
         "pwm": true,
@@ -47326,7 +47332,7 @@
             "WHITE"
         ],
         "fan_size": "140mm",
-        "features": "RGB, PWM"
+        "features": "ARGB, PWM"
     },
     {
         "id": "edba6003-596c-4efc-ac4a-c9d3941c444e",
@@ -56183,10 +56189,10 @@
     },
     {
         "id": "cdddc308-af51-43ee-9e3f-8147b41122a7",
-        "name": "Lian Li Uni Fan SL-Infinity 120mm Black Addressable RGB PWM 61.3 CFM 3-Pack",
-        "variant": "120mm Black",
+        "name": "Lian Li Uni Fan SL-Infinity ARGB 120mm Black 3-Pack",
+        "variant": "120mm Black Pack of 3",
         "amazon_sku": "B0B4P5S94P",
-        "clean_name": "Lian Li Uni SL-Infinity Black Addressable 3-Pack",
+        "clean_name": "Lian Li Uni SL-Infinity Black 3-Pack",
         "size": 120,
         "quantity": 3,
         "pwm": true,
@@ -56195,17 +56201,15 @@
         "controller": "5V Addressable RGB",
         "flow_direction": "Standard",
         "is_oem": false,
-        "min_airflow": 0,
-        "max_airflow": 61.3,
-        "min_noise_level": 0,
-        "max_noise_level": 29,
+        "min_airflow": 61.3,
+        "min_noise_level": 29,
         "static_pressure": 2.66,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ],
         "fan_size": "120mm",
-        "airflow": "61.3 CFM",
-        "features": "RGB, PWM"
+        "features": "ARGB"
     },
     {
         "id": "3910f531-900a-46b1-b8e2-b27f4680911e",
