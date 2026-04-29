@@ -523,6 +523,9 @@ def process_hardware_data():
                             item_data[key] = val
                     if should_keep_item and item_data.get("name"):
                         clean_item = {key: value for key, value in item_data.items() if value is not None}
+                        # Skip products with no Amazon SKU — the scraper cannot price them
+                        if not clean_item.get("amazon_sku", "").strip():
+                            continue
                         # Restore previously scraped price for this product
                         saved = existing_prices.get(clean_item.get("id"))
                         if saved:
@@ -536,12 +539,28 @@ def process_hardware_data():
                         processed_items.append(clean_item)
                 except Exception as error:
                     print(f"Failed to process {filename}: {error}")
-        if processed_items:
+
+        # ── Deduplication by clean_name ────────────────────────────────────
+        # Multiple OEM/retail/colour variants often share the same clean_name.
+        # Keep the entry with the most populated spec fields (most keys wins).
+        seen_names: dict = {}
+        for item in processed_items:
+            key = (item.get("clean_name") or item.get("name") or "").strip().lower()
+            if not key:
+                continue
+            existing = seen_names.get(key)
+            if existing is None or len(item) > len(existing):
+                seen_names[key] = item
+        deduplicated = list(seen_names.values())
+        removed_dupes = len(processed_items) - len(deduplicated)
+
+        if deduplicated:
             output_file = os.path.join(OUTPUT_FOLDER, f"{target_filename}.json")
             with open(output_file, 'w', encoding='utf-8') as output:
-                json.dump(processed_items, output, indent=4, ensure_ascii=False)
-            priced = sum(1 for p in processed_items if p.get("price") is not None)
-            print(f"Success! Created {output_file} with {len(processed_items)} items ({priced} already priced).\n")
+                json.dump(deduplicated, output, indent=4, ensure_ascii=False)
+            priced = sum(1 for p in deduplicated if p.get("price") is not None)
+            print(f"Success! Created {output_file} with {len(deduplicated)} items "
+                  f"({removed_dupes} dupes removed, {priced} already priced).\n")
 
 if __name__ == "__main__":
     process_hardware_data()
