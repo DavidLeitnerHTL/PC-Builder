@@ -8755,7 +8755,1174 @@
         "name": "Asus B760-G ROG STRIX GAMING WIFI DDR5 Micro ATX",
         "variant": "",
         "amazon_sku": "",
+<<<<<<< HEAD
         "clean_name": "Asus B760-G ROG STRIX GAMING WIFI",
+=======
+        "clean_name": "Gigabyte H410M H",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "8b472a30-e25e-4ebe-bd88-b9452b617c29",
+        "name": "MSI X670E MEG GODLIKE AM5 DDR5 EATX",
+        "variant": "",
+        "amazon_sku": "B0B94XN488",
+        "clean_name": "MSI X670E MEG GODLIKE",
+        "socket": "AM5",
+        "form_factor": "EATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "7bd359b2-5558-49cd-b2b3-414941925720",
+        "name": "ASRock X370 Killer SLI AM4",
+        "variant": "",
+        "amazon_sku": "B06X9CN71V",
+        "clean_name": "ASRock X370 Killer SLI",
+        "socket": "AM4",
+        "form_factor": "ATX"
+    },
+    {
+        "id": "e12a79e9-131e-4dd5-af1c-dca05f628e31",
+        "name": "ASRock X870E Taichi OCF",
+        "variant": "Taichi OCF",
+        "amazon_sku": "B0GJV6GYS5",
+        "clean_name": "ASRock X870E Taichi OCF",
+        "socket": "AM5",
+        "form_factor": "ATX"
+    },
+    {
+        "id": "49bf1bb8-52e5-4511-8fd4-db816e7208d7",
+        "name": "Asus B850-F ROG STRIX GAMING WIFI DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0DP5FTZFD",
+        "clean_name": "Asus B850-F ROG STRIX GAMING WIFI",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "1647a160-1795-4a71-b189-6acc2f3b125c",
+        "name": "Asus B860 PRIME B860M-A LGA1851 DDR5 Micro ATX",
+        "variant": "PRIME",
+        "amazon_sku": "‎B0DPMQJ2W7",
+        "clean_name": "Asus B860 PRIME B860M-A",
+        "socket": "LGA 1851",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "6e4970b9-ec89-4783-a8ff-c63be40a0363",
+        "name": "Gigabyte Z690 AORUS ELITE AX DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B09J6BWK2Z",
+        "clean_name": "Gigabyte Z690 AORUS ELITE AX",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "171db910-9c1c-4029-b2f6-e56b335ca65a",
+        "name": "ASRock B760 M-H2/M.2 DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B0CT8XQHKP",
+        "clean_name": "ASRock B760 M-H2/M.2",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "578fa78a-0ece-4592-ac81-d9bfbf4ace8e",
+        "name": "ASRock B650 Pro RS WiFi DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0D2CRJ9GY",
+        "clean_name": "ASRock B650 Pro RS WiFi",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "c0c7f304-808c-43fd-bdc7-3b400d6e72f1",
+        "name": "MSI AMD A320 A320M GAMING PRO AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI AMD A320 A320M GAMING PRO",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "38d00f41-76c6-4604-837a-5f93ed69c41c",
+        "name": "Asus H610 PRIME H610M-E D4 LGA1700 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B09NWCZC1N",
+        "clean_name": "Asus H610 PRIME H610M-E D4",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "305332c9-34cf-45ef-ac10-72163b34710b",
+        "name": "ASRock B660 Steel Legend DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "ASRock B660 Steel Legend",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "78c7ed68-d291-49b5-8fdc-cb4940a1faea",
+        "name": "ASRock Z790 Taichi LGA1700 DDR5 EATX",
+        "variant": "",
+        "amazon_sku": "B0BKGRF6B6",
+        "clean_name": "ASRock Z790 Taichi",
+        "socket": "LGA 1700",
+        "form_factor": "EATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "f1b62bdd-a008-42a5-abe2-e2fc14c0cdce",
+        "name": "Asus TUF GAMING X570-PLUS (WI-FI) AM4 DDR4 ATX",
+        "variant": "X570-PLUS WIFI",
+        "amazon_sku": "B07SXF8GY3",
+        "clean_name": "Asus TUF GAMING X570-PLUS (WI-FI)",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "05f1e2f1-5a83-40a2-82ab-6f35a8fd5ded",
+        "name": "B460M D3H",
+        "variant": "rev. 1.0",
+        "amazon_sku": "B08933PCGT",
+        "clean_name": "B460M D3H",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX"
+    },
+    {
+        "id": "234b4fee-1760-4349-a469-4426a8b0d9e0",
+        "name": "MSI B560 MAG B560M MORTAR DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI B560 MAG B560M MORTAR",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "5bda3810-675a-4556-9581-17d5e0ce5b61",
+        "name": "ASRock X470 Master SLI/AC AM4 AMD Ryzen 3000 Series CPU Ready ATX AMD Motherboard",
+        "amazon_sku": "B07DQWWN5B",
+        "clean_name": "ASRock X470 Master SLI/AC AMD Ryzen 3000 Series CPU Ready AMD",
+        "socket": "AM4",
+        "form_factor": "ATX"
+    },
+    {
+        "id": "84367bb4-4cc2-45db-96ad-0e50b956e908",
+        "name": "Asus B660 PRIME PLUS D4 DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B09P3TTXPT",
+        "clean_name": "Asus B660 PRIME PLUS D4",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "656b34cf-9a4a-45e8-b59a-7dab34c3b550",
+        "name": "MSI H410M-A PRO",
+        "variant": "H410M-A PRO",
+        "amazon_sku": "B0892V6VBR",
+        "clean_name": "MSI H410M-A PRO",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX"
+    },
+    {
+        "id": "218dde02-c12f-4abb-a47f-14ef005cf7fa",
+        "name": "MSI Z790-S01",
+        "variant": "Z790-S01",
+        "amazon_sku": "",
+        "clean_name": "MSI Z790-S01",
+        "socket": "LGA 1700",
+        "form_factor": "ATX"
+    },
+    {
+        "id": "8376e373-fd93-468e-92dd-d7a41ebe9218",
+        "name": "Gigabyte Z790M AORUS ELITE AX ICE DDR5 Micro ATX",
+        "variant": "AORUS ELITE AX ICE",
+        "amazon_sku": "B0D2PK3CC1",
+        "clean_name": "Gigabyte Z790M AORUS ELITE AX ICE",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "a2fb2d0e-7996-46b8-bd60-5bd57ddd8834",
+        "name": "Asus B860 EX-B860M-V5-CSM LGA1851 DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus B860 EX-B860M-V5-CSM",
+        "socket": "LGA 1851",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "4034ed27-dc29-40ef-a1ed-11a9fdde7110",
+        "name": "ASRock B650E PG-ITX WIFI AM5 DDR5 Mini ITX",
+        "variant": "",
+        "amazon_sku": "B0BK5515B9",
+        "clean_name": "ASRock B650E PG-ITX WIFI",
+        "socket": "AM5",
+        "form_factor": "Mini-ITX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "fdd2c8e8-7e21-439f-b192-26c561707cee",
+        "name": "Biostar B760 A-SILVER LGA1700 DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Biostar B760 A-SILVER",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "da6b0200-6128-4a31-9b2b-8c2767ac20b2",
+        "name": "Gigabyte B650 AORUS ELITE AM5 DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte B650 AORUS ELITE",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "df6a5c1c-0db2-45f1-8049-561c49ce6d61",
+        "name": "NZXT Z890 N9 LGA1851 DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "NZXT Z890 N9",
+        "socket": "LGA 1851",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "ec9fcdd8-1acf-48b7-9d3a-9b164be960cf",
+        "name": "Biostar B350 ET2 AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Biostar B350 ET2",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "914796fd-1954-46e5-ac86-ba505e4d471a",
+        "name": "GIGABYTE B460M AORUS PRO",
+        "variant": "B460M AORUS PRO",
+        "amazon_sku": "B08934QJNQ",
+        "clean_name": "GIGABYTE B460M AORUS PRO",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX"
+    },
+    {
+        "id": "0456fa65-e049-4ae0-ba3f-bab1e470d82e",
+        "name": "Asus H610 PRIME H610M-K LGA1700 DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus H610 PRIME H610M-K",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "80fde067-2aca-4965-9746-5a7f3ecb6de0",
+        "name": "Gigabyte H810 H810M S2H LGA1851 DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte H810 H810M S2H",
+        "socket": "LGA 1851",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "d950b08a-9a7d-4db9-8b6d-db87c5f97437",
+        "name": "Asus B650E MAX GAMING WIFI W AM5 DDR5 ATX",
+        "variant": "MAX GAMING WIFI W",
+        "amazon_sku": "B0F25ML4CK",
+        "clean_name": "Asus B650E MAX GAMING WIFI W",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "528a9aa8-54de-4774-8c6a-ea8449f2e21b",
+        "name": "Gigabyte B650E AORUS MASTER AM5 DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0BJF8567F",
+        "clean_name": "Gigabyte B650E AORUS MASTER",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "0cb87ff7-d128-4ca0-8de9-4e287d0ee12f",
+        "name": "Gigabyte B840M D2H AM5 DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte B840M D2H",
+        "socket": "AM5",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "922d92a4-7dc0-40a1-96fe-30468919d757",
+        "name": "Asus B650 PRIME B650M-A WIFI-CSM AM5 DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus B650 PRIME B650M-A WIFI-CSM",
+        "socket": "AM5",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "583da9ce-0f63-43b2-80c0-bb9d446753a3",
+        "name": "ASRock H470 M-HDV/M.2 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B08XZQ4G3B",
+        "clean_name": "ASRock H470 M-HDV/M.2",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "92e142a7-52ee-4281-ad98-2e8fd0cf917f",
+        "name": "ASUS ROG STRIX B350-F GAMING",
+        "amazon_sku": "B071SGQP1Q",
+        "clean_name": "ASUS ROG STRIX B350-F GAMING",
+        "socket": "AM4",
+        "form_factor": "ATX"
+    },
+    {
+        "id": "a02eec1a-1d7a-461c-9a7d-e199175360ca",
+        "name": "MSI A520 MAG BAZOOKA WIFI DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI A520 MAG BAZOOKA WIFI",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "ce6277bd-46be-4eff-a4cd-5cdf5d64a279",
+        "name": "Gigabyte B760M AORUS ELITE AX DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B0BSB4TYHV",
+        "clean_name": "Gigabyte B760M AORUS ELITE AX",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "ba9aac25-6c63-44e5-a950-2c73a353fb81",
+        "name": "ASRock Fatal1ty B450 Gaming-ITX/ac",
+        "variant": "Gaming-ITX/ac",
+        "amazon_sku": "B07FVVNDFX",
+        "clean_name": "ASRock Fatal1ty B450 Gaming-ITX/ac",
+        "socket": "AM4",
+        "form_factor": "Mini-ITX"
+    },
+    {
+        "id": "e35b81cc-1a1c-4151-ab98-1b42df511a63",
+        "name": "MSI H410I PRO WIFI DDR4 Mini ITX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI H410I PRO WIFI",
+        "socket": "LGA 1200",
+        "form_factor": "Mini-ITX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "b1e8a030-2ec2-46bc-b4b4-5d24a43e8399",
+        "name": "Biostar B850 M-SILVER DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Biostar B850 M-SILVER",
+        "socket": "AM5",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "200cdc9c-e355-457b-a730-4250cf808553",
+        "name": "Asus B760-PLUS D4 PRIME DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B0BNQDVLGN",
+        "clean_name": "Asus B760-PLUS D4 PRIME",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "87ed4ca2-c4ad-45c7-b91e-713ac8bbf125",
+        "name": "MSI B450M GAMING PLUS AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B07F7WQDZJ",
+        "clean_name": "MSI B450M GAMING PLUS",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "53948cf8-065d-4d92-80bd-6e5b78ec161b",
+        "name": "ASRock B650 Steel Legend WiFi DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0CXPXBF2M",
+        "clean_name": "ASRock B650 Steel Legend WiFi",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "ecc15309-92eb-4529-93eb-196bd79fae7e",
+        "name": "Biostar B450 GT3 AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Biostar B450 GT3",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "55dab6df-9ad7-475e-bd11-15c5f4953f88",
+        "name": "ECS B450 AM4-M DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "ECS B450 -M",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "dfa57bb2-fe3b-4f21-a516-c66e00a325cb",
+        "name": "Asus B850 PRIME M-A DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus B850 PRIME M-A",
+        "socket": "AM5",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "15c4236e-2d0c-40a7-b128-6df4a8d888b7",
+        "name": "Gigabyte Z890 AERO G DDR5 ATX",
+        "variant": "AERO G",
+        "amazon_sku": "B0DJP9KLLD",
+        "clean_name": "Gigabyte Z890 AERO G",
+        "socket": "LGA 1851",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "7b6e1a53-b66d-4e19-b414-239ecc42ec1a",
+        "name": "Asus ROG STRIX B550-F GAMING WIFI II DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B09GP7P1XS",
+        "clean_name": "Asus ROG STRIX B550-F GAMING WIFI II",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "4dce369b-5544-4ed1-aaea-d4ba6a971449",
+        "name": "MSI B760 MAG B760M MORTAR II DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI B760 MAG B760M MORTAR II",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "cdfd8624-6987-4bfd-b567-06fff3f84038",
+        "name": "Gigabyte B450 AORUS PRO DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte B450 AORUS PRO",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "9497848e-e023-4090-9fdb-67678651a537",
+        "name": "Gigabyte B460 AORUS PRO AC DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte B460 AORUS PRO AC",
+        "socket": "LGA 1200",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "6b999ae9-39a0-4175-8434-141e3a069537",
+        "name": "MSI Z690 MAG TOMAHAWK WIFI DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B09GLD72QH",
+        "clean_name": "MSI Z690 MAG TOMAHAWK WIFI",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "3a4791ed-2415-439c-a97e-43dd1e761880",
+        "name": "MSI PRO B760M-A WIFI DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B0BPB484K5",
+        "clean_name": "MSI PRO B760M-A WIFI",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "e42bbee7-9467-45c0-8f1c-ff1cb854d519",
+        "name": "Gigabyte Z890 UD WIFI6E DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0DJP8W3BY",
+        "clean_name": "Gigabyte Z890 UD WIFI6E",
+        "socket": "LGA 1851",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "40fccbaa-0819-4640-b46d-693aa26f4d86",
+        "name": "MSI B840 PRO VC WIFI AM5 DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI B840 PRO VC WIFI",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "2d63b66b-8449-418f-b36e-23fe5c4c5566",
+        "name": "Gigabyte B760M D3H DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte B760M D3H",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "c770fdcd-ad12-49ae-b732-03226d30487f",
+        "name": "MSI A320 A320M PRO-M2 AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI A320 A320M PRO-M2",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "4cf6a96f-d693-46b9-b32f-0bb536e462d7",
+        "name": "Asus Z590-A PRIME DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus Z590-A PRIME",
+        "socket": "LGA 1200",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "1c369c6f-37e2-406b-8b97-a72cd6f831b8",
+        "name": "Gigabyte Z690M DS3H DDR4 (rev. 1.0)",
+        "variant": "Z690M DS3H DDR4",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte Z690M DS3H (rev. 1.0)",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "332fc4c1-0458-4ce6-99ea-32ccc417b0ef",
+        "name": "ASUS PRIME B460M-A LGA 1200 Intel B460 SATA 6Gb/s Micro ATX Intel Motherboard",
+        "variant": "B460M-A",
+        "amazon_sku": "B087M19S5P",
+        "clean_name": "ASUS PRIME B460M-A Intel B460 SATA 6Gb/s Intel",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX"
+    },
+    {
+        "id": "970b9393-29d0-4c55-bb9c-19d8b44b6122",
+        "name": "Asus A620 PRIME A620M-K DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus A620 PRIME A620M-K",
+        "socket": "AM5",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "77ec8d68-a6f5-422c-afa6-350cdd59c351",
+        "name": "ASUS ROG Crosshair VII Hero (Wi-Fi) AMD Ryzen 2 AM4 DDR4 M.2 USB 3.1 Gen2 ATX X470 Motherboard",
+        "variant": "VII Hero (Wi-Fi)",
+        "amazon_sku": "B07C5JKH91",
+        "clean_name": "ASUS ROG Crosshair VII Hero (Wi-Fi) AMD Ryzen 2 M.2 USB 3.1 Gen2 X470",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "9b9823b2-12c2-4280-b31e-470f2e00385b",
+        "name": "Asus Z790 ROG MAXIMUS HERO BTF LGA1700 DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0D3D28BXG",
+        "clean_name": "Asus Z790 ROG MAXIMUS HERO BTF",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "d6f50583-04e3-409a-a14c-d5232a1b2f2b",
+        "name": "Asus ProArt B550-CREATOR DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B08ZS73B4Y",
+        "clean_name": "Asus ProArt B550-CREATOR",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "73410d29-9b89-4bf6-9cbe-6a068780635c",
+        "name": "Asus B660M Pro D4-CSM DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B09Q3JCMGT",
+        "clean_name": "Asus B660M Pro D4-CSM",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "fdb9c244-0b4a-46c4-9ac5-ac7e43af88fc",
+        "name": "Asus X870 PRIME X870-P WIFI-CSM AM5 DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus X870 PRIME X870-P WIFI-CSM",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "e362d641-0dc7-438f-91ad-682f8b1de03e",
+        "name": "Gigabyte X870 AORUS ELITE WIFI7 ICE AM5 DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0DGVGRVLQ",
+        "clean_name": "Gigabyte X870 AORUS ELITE WIFI7 ICE",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "a6838952-33d9-4fc8-814c-1e4099224a35",
+        "name": "MSI B450M BAZOOKA PLUS DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI B450M BAZOOKA PLUS",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "0d3fe988-d94b-4b8e-b6e9-0b050c88ec91",
+        "name": "Gigabyte B650 AORUS ELITE AX DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0BH7GTY9C",
+        "clean_name": "Gigabyte B650 AORUS ELITE AX",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "f5988515-190c-475a-91e0-6eba234f47e0",
+        "name": "Asus H610 PRIME H610M-A WIFI-CSM DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus H610 PRIME H610M-A WIFI-CSM",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "ab493085-898c-4e7c-9665-ebc7dfc27f4f",
+        "name": "Colorful Z790 BATTLE-AX M-PLUS D5 V20 DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Colorful Z790 BATTLE-AX M-PLUS D5 V20",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "798041a3-8b7f-4d3f-b262-975e4ef1f298",
+        "name": "Gigabyte Z690 UD DDR4 (rev. 1.x)",
+        "variant": "",
+        "amazon_sku": "B09KC5W9FY",
+        "clean_name": "Gigabyte Z690 UD (rev. 1.x)",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "8b4b04c2-91dc-4737-af33-d0b2244a80bc",
+        "name": "Asus X570 PRIME-P AM4 DDR4 ATX",
+        "variant": "X570-P",
+        "amazon_sku": "B07SW925DR",
+        "clean_name": "Asus X570 PRIME-P",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "375338bd-cb39-4b39-a577-4397ae72432c",
+        "name": "MSI B550 MAG B550M MORTAR DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI B550 MAG B550M MORTAR",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "72543cb6-4440-4da3-a9bc-222a17e0de3f",
+        "name": "Biostar H610 MHP DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Biostar H610 MHP",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "1e1be271-8dc3-4be2-86f3-46be13dddc5c",
+        "name": "MSI A320M PRO-VH PLUS Micro ATX AM4",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI A320M PRO-VH PLUS",
+        "socket": "AM4",
+        "form_factor": "Micro ATX"
+    },
+    {
+        "id": "ed19f43f-a8c2-4249-84e5-8d33eaa499de",
+        "name": "Colorful Z790 CVN D5 GAMING FROZEN V20 DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Colorful Z790 CVN D5 GAMING FROZEN V20",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "95f1d25a-60e1-4945-ac7a-0da34ee0e0ae",
+        "name": "MSI B650 PRO B650M-B DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI B650 PRO B650M-B",
+        "socket": "AM5",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "c84abe70-f175-4239-a011-96c11a825dea",
+        "name": "MSI MAG X570 Tomahawk WiFi",
+        "variant": "WiFi",
+        "amazon_sku": "B0892R8PDJ",
+        "clean_name": "MSI MAG X570 Tomahawk WiFi",
+        "socket": "AM4",
+        "form_factor": "ATX"
+    },
+    {
+        "id": "3f95812e-c303-442e-8d11-fbae2412b47b",
+        "name": "Gigabyte B350 GA-AB350M-Gaming 3 AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte B350 GA-AB350M-Gaming 3",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "121dfe99-10a0-4925-8cdf-0d4f8771c300",
+        "name": "Gigabyte B650M GAMING WIFI6E AM5 DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte B650M GAMING WIFI6E",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "55863f44-0d2b-4833-a9ff-a8ddf7cc39ab",
+        "name": "ASRock H410 H410M-HDV/M.2 LGA1200 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "ASRock H410 H410M-HDV/M.2",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "61242dcf-5f8f-4f29-9a95-c87cbc4676fe",
+        "name": "Gigabyte B760M C V2 (rev. 1.0) DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte B760M C V2 (rev. 1.0)",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "6baf0c2e-34a6-46b2-bf49-d2d9e1a08688",
+        "name": "Asus B450 ROG Strix I Gaming DDR4 Mini ITX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus B450 ROG Strix I Gaming",
+        "socket": "AM4",
+        "form_factor": "Mini-ITX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "1f27a31a-be45-440a-91cd-992a7203c518",
+        "name": "ASUS ROG STRIX X870E-E GAMING WIFI",
+        "variant": "X870E-E GAMING WIFI",
+        "amazon_sku": "B0DDZNZF76",
+        "clean_name": "ASUS ROG STRIX X870E-E GAMING WIFI",
+        "socket": "AM5",
+        "form_factor": "ATX"
+    },
+    {
+        "id": "361eb66a-98de-4c21-9444-5d1ed47a2b58",
+        "name": "Asus B660M-E TUF GAMING D4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus B660M-E TUF GAMING D4",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "c8be48af-9933-4ee2-bb1c-b0c829636ade",
+        "name": "Asus B760-PLUS TUF GAMING WIFI D4 DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B0BR8TN1H4",
+        "clean_name": "Asus B760-PLUS TUF GAMING WIFI D4",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "ef9377fc-b325-487f-9ff4-ae9861183669",
+        "name": "MSI PRO Z790-P WIFI DDR4 ATX",
+        "variant": "Z790-P WIFI",
+        "amazon_sku": "B0BHC2LNBF",
+        "clean_name": "MSI PRO Z790-P WIFI",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "3fce258e-02f4-4583-83d4-563f4085bc45",
+        "name": "ASRock Z490 Taichi WIFI DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B087TBBTGN",
+        "clean_name": "ASRock Z490 Taichi WIFI",
+        "socket": "LGA 1200",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "688389a1-c883-42d6-8d01-c9c6b52074f3",
+        "name": "Gigabyte Z590 AORUS PRO AX DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B08W9RG6K5",
+        "clean_name": "Gigabyte Z590 AORUS PRO AX",
+        "socket": "LGA 1200",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "f0b929ca-5f23-4341-95ce-ac839083aaf1",
+        "name": "ASRock B560M Steel Legend DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B08XXSJ6YN",
+        "clean_name": "ASRock B560M Steel Legend",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "42937c21-e4ba-4bab-a3f2-21222f5ac4c5",
+        "name": "Gigabyte B760M GAMING X AX DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte B760M GAMING X AX",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "fc90fa79-e93a-46bd-90c0-916af3526a35",
+        "name": "Asus B450M-A PRIME AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B07F6YQV4J",
+        "clean_name": "Asus B450M-A PRIME",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "b1ff9fae-7b16-43b7-8d57-35d72343c80d",
+        "name": "Asus B760 ROG STRIX B760-F GAMING WIFI DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0BR8W84MB",
+        "clean_name": "Asus B760 ROG STRIX B760-F GAMING WIFI",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "47738b94-4ed4-4844-8836-db4e4e7b3c65",
+        "name": "Asus X670E ROG CROSSHAIR EXTREME AM5 DDR5 EATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus X670E ROG CROSSHAIR EXTREME",
+        "socket": "AM5",
+        "form_factor": "EATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "927e478a-2031-4551-9a04-1b09b69ee5e5",
+        "name": "ASRock A620 Pro RS DDR5 Micro ATX",
+        "variant": "Pro RS Micro ATX",
+        "amazon_sku": "B0C39YS8DD",
+        "clean_name": "ASRock A620 Pro RS",
+        "socket": "AM5",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "245839e3-bac9-4373-bb53-b0b5ed37662b",
+        "name": "MSI B450 GAMING PRO CARBON AC AM4 DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI B450 GAMING PRO CARBON AC",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "ffc7a120-be51-4c9c-8f37-bbb47b4e3fe4",
+        "name": "MSI B660 MAG B660M MORTAR DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B09NTPHRG7",
+        "clean_name": "MSI B660 MAG B660M MORTAR",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "037079fc-2442-4a6d-83aa-903eed25d536",
+        "name": "MSI Z890 MAG TOMAHAWK WIFI DDR5 ATX LGA1851",
+        "variant": "",
+        "amazon_sku": "B0DH6SF5LB",
+        "clean_name": "MSI Z890 MAG TOMAHAWK WIFI",
+        "socket": "LGA 1851",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "5ce3e4c9-31f1-458e-adb2-13a475745f75",
+        "name": "Asus PRIME B550-PLUS AC-HES DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B0CZQCTCPX",
+        "clean_name": "Asus PRIME B550-PLUS AC-HES",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "f00b986d-a8ea-41e7-8dfb-a82e924e2653",
+        "name": "MSI B550 PRO B550M-VC WIFI AM4 DDR4 Micro ATX",
+        "variant": "PRO B550M-VC WIFI",
+        "amazon_sku": "B0BDCZRBD6",
+        "clean_name": "MSI B550 PRO B550M-VC WIFI",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "1ebc7a1b-4636-4085-9893-d34a37f7de8a",
+        "name": "Gigabyte H610M S2H V2 LGA1700 DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Gigabyte H610M S2H V2",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "7487503d-3292-4989-9a48-010e74dd20f6",
+        "name": "MSI MAG X870E GAMING PLUS MAX WIFI",
+        "variant": "MAG X870E GAMING PLUS MAX WIFI",
+        "amazon_sku": "B0GKQMNGWP",
+        "clean_name": "MSI MAG X870E GAMING PLUS MAX WIFI",
+        "socket": "AM5",
+        "form_factor": "ATX"
+    },
+    {
+        "id": "cd1d5e7a-12ad-4553-9f03-60cba3ba0bf6",
+        "name": "Asus B860 PRIME B860M-A-CSM LGA1851 DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B0DPMQJ2W7",
+        "clean_name": "Asus B860 PRIME B860M-A-CSM",
+        "socket": "LGA 1851",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "dede0059-c2c4-4202-bc2f-2c13df6de16b",
+        "name": "MSI B450M BAZOOKA V2 AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "MSI B450M BAZOOKA V2",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "aeb86bd5-4ac4-4014-bb22-c35b8c7f53e8",
+        "name": "ASRock Z590 Steel Legend LGA1200 DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B08VH76S16",
+        "clean_name": "ASRock Z590 Steel Legend",
+        "socket": "LGA 1200",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "0cce9e90-8c90-4e74-8b5d-8e0fa42fee0e",
+        "name": "ASUS ROG STRIX Z490-G GAMING (WiFi 6)",
+        "variant": "Z490-G GAMING (WI-FI)",
+        "amazon_sku": "B087YTNRKN",
+        "clean_name": "ASUS ROG STRIX Z490-G GAMING (WiFi 6)",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX"
+    },
+    {
+        "id": "130549cf-8a38-4667-ae78-70076a9b5a45",
+        "name": "Asus B860 M-BRO-CSM LGA1851 DDR5 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Asus B860 M-BRO-CSM",
+        "socket": "LGA 1851",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "c3111659-9164-427f-8056-47748e9fd2e8",
+        "name": "ASRock X570 Phantom Gaming-ITX/TB3 AM4 DDR4 Mini ITX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "ASRock X570 Phantom Gaming-ITX/TB3",
+        "socket": "AM4",
+        "form_factor": "Mini-ITX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "47b44fb2-8303-4072-9856-9132fc5171e5",
+        "name": "Gigabyte Z690 AORUS ELITE DDR4 (rev. 1.x)",
+        "variant": "",
+        "amazon_sku": "B09KC794XY",
+        "clean_name": "Gigabyte Z690 AORUS ELITE (rev. 1.x)",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "5ca4bc33-2537-47f9-911f-21187781d5e2",
+        "name": "MSI B860 PRO P DDR5 ATX",
+        "variant": "P",
+        "amazon_sku": "B0DQQCFFHT",
+        "clean_name": "MSI B860 PRO P",
+        "socket": "LGA 1851",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "1a6af46f-df7f-48f8-8b72-8e8902429017",
+        "name": "MSI X470 GAMING PRO CARBON AM4 DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B07BYY16V7",
+        "clean_name": "MSI X470 GAMING PRO CARBON",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "f5e33aa3-322b-4198-b032-fe3278d1bdca",
+        "name": "Gigabyte Z790 GAMING X AX DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0BSVYXM5C",
+        "clean_name": "Gigabyte Z790 GAMING X AX",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "d177c95d-4650-4d37-b67c-de01a454510b",
+        "name": "Biostar H510 MHP 2.0 LGA1200 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Biostar H510 MHP 2.0",
+        "socket": "LGA 1200",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "c8f49a14-82ee-463d-8549-e720e0eda5ff",
+        "name": "Biostar B550 B550MT AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "",
+        "clean_name": "Biostar B550 B550MT",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "496abe4b-7593-4b72-8bf6-2b6af0faf643",
+        "name": "ASRock B760M Pro RS WiFi White DDR5 Micro ATX",
+        "variant": "Pro RS WiFi White ",
+        "amazon_sku": "B0DFDMS4LG",
+        "clean_name": "ASRock B760M Pro RS WiFi White",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR5"
+    },
+    {
+        "id": "76c98d0c-6e56-4122-b7c4-258c585b288d",
+        "name": "ASRock X570 Steel Legend WiFi ax DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B07WHHWBX5",
+        "clean_name": "ASRock X570 Steel Legend WiFi ax",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4"
+    },
+    {
+        "id": "d2f367c4-6b3a-440e-8d32-2133c8f579b3",
+        "name": "Gigabyte Z790 AORUS MASTER X LGA1700 DDR5 EATX",
+        "variant": "",
+        "amazon_sku": "B0CK4B7ZYN",
+        "clean_name": "Gigabyte Z790 AORUS MASTER X",
+>>>>>>> 89e43422d0be348bee2f0d922c8d13d8f87833d7
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5"
