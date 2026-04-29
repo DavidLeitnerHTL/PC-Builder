@@ -25,32 +25,6 @@
         "clock_speed": "4.1 GHz"
     },
     {
-        "id": "6ce56c54-ee7e-462a-a5c2-13c213baa034",
-        "name": "AMD Ryzen 5 3500 3.6 GHz 6-Core AM4",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 3500",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "48d0ae54-1282-4393-951a-d36928cd2938",
-        "name": "AMD A6 AMD A6 A6-9550 3.8 GHz 2-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD A6 AMD A6 A6-9550",
-        "socket": "AM4",
-        "cores": 2,
-        "threads": 2,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.8 GHz"
-    },
-    {
         "id": "5cb67090-1414-4608-b202-f2ceccb99d3a",
         "name": "Intel Core i7-11700",
         "variant": "",
@@ -74,31 +48,6 @@
         "tdp": 60,
         "ram_type": "DDR5",
         "clock_speed": "3.5 GHz"
-    },
-    {
-        "id": "45118c9a-09c6-47e8-b3b0-9abca47b472f",
-        "name": "AMD Ryzen 5 2600X 3.6 GHz 6-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B0C7KB1S4J",
-        "clean_name": "AMD Ryzen 5 2600X",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 95,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "9f02cb3b-f070-42cb-9fb0-79a5995c5fae",
-        "name": "Intel Core i5 9500F 3.0 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9500F",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "3.0 GHz"
     },
     {
         "id": "ad46c8d7-41a5-44a7-a89a-3bab491e25c3",
@@ -147,18 +96,6 @@
         "threads": 8,
         "tdp": 45,
         "clock_speed": "2.7 GHz"
-    },
-    {
-        "id": "93f48bd1-4813-4331-a8f0-276bdf6c5a51",
-        "name": "Intel Core i7 9700F 3 GHz 8-Core LGA1151 (OEM/Tray)",
-        "variant": "",
-        "amazon_sku": "B07YCY3P46",
-        "clean_name": "Intel Core i7 9700F",
-        "socket": "LGA 1151",
-        "cores": 8,
-        "threads": 8,
-        "tdp": 65,
-        "clock_speed": "3 GHz"
     },
     {
         "id": "abb105be-38f4-44d8-a670-c6e93935b938",
@@ -237,18 +174,6 @@
         "clock_speed": "2.1 GHz"
     },
     {
-        "id": "8b3369aa-e320-4777-ba00-61cc17ec5bac",
-        "name": "Intel Core i5 6400 2.7 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 6400",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "2.7 GHz"
-    },
-    {
         "id": "77063356-dfab-449c-b57b-cb57cb00d455",
         "name": "Intel Core i9 11900F 2.5 GHz 8-Core LGA1200",
         "variant": "",
@@ -313,19 +238,6 @@
         "clock_speed": "2.5 GHz"
     },
     {
-        "id": "576892a0-c32b-4fc1-b85a-d09ae7c77824",
-        "name": "AMD Ryzen 5 5600T 3.5 GHz 6-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 5600T",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.5 GHz"
-    },
-    {
         "id": "f5b522d1-aeea-4809-ab0b-b57aec6ba58e",
         "name": "Intel Core Ultra 7 265KF 3.9 GHz 20-Core LGA1851",
         "variant": "",
@@ -360,32 +272,6 @@
         "cores": 16,
         "threads": 32,
         "tdp": 105,
-        "ram_type": "DDR4",
-        "clock_speed": "3.4 GHz"
-    },
-    {
-        "id": "8bff3723-fbb9-4ad3-b97c-4750c1c37dc9",
-        "name": "AMD Ryzen 5 3600 3.6 GHz 6-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 3600",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "2fab13a0-42a4-4698-919c-99f167e1d0b0",
-        "name": "AMD Ryzen 7 1700X 3.4 GHz 8-Core AM4",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 7 1700X",
-        "socket": "AM4",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 95,
         "ram_type": "DDR4",
         "clock_speed": "3.4 GHz"
     },
@@ -440,18 +326,6 @@
         "clock_speed": "2.8 GHz"
     },
     {
-        "id": "94ed8079-1344-48d2-8ead-ec54d42b9c21",
-        "name": "Intel Core i5 4690K 3.5 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 4690K",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 88,
-        "clock_speed": "3.5 GHz"
-    },
-    {
         "id": "d5cfa1f8-e34f-4ebf-ae22-ee0f5d169183",
         "name": "AMD A6 A6 9500 3.5 GHz 2-Core AM4",
         "variant": "",
@@ -489,18 +363,6 @@
         "clock_speed": "3.2 GHz"
     },
     {
-        "id": "cef1cc38-a03c-4e5c-8222-6d103934e291",
-        "name": "Intel Core i5 9600K 3.7 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9600K",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 95,
-        "clock_speed": "3.7 GHz"
-    },
-    {
         "id": "a9090593-4871-4fc2-ba94-33ede34e8d85",
         "name": "Intel Core i9 9960X 3.1 GHz 16-Core LGA2066 OEM/Tray",
         "variant": "",
@@ -513,16 +375,17 @@
         "clock_speed": "3.1 GHz"
     },
     {
-        "id": "d3e5a050-6322-4d23-ab24-4d429dae60a0",
-        "name": "AMD Ryzen 3 1300X",
+        "id": "182326d2-d7a5-495e-811c-2b6bcb28e029",
+        "name": "AMD Ryzen 3 1300X 3.5 GHz 4-Core AM4",
         "variant": "",
-        "amazon_sku": "B0741DLVL7",
+        "amazon_sku": "B08NPTPR48",
         "clean_name": "AMD Ryzen 3 1300X",
         "socket": "AM4",
         "cores": 4,
         "threads": 4,
         "tdp": 65,
-        "ram_type": "DDR4"
+        "ram_type": "DDR4",
+        "clock_speed": "3.5 GHz"
     },
     {
         "id": "8974c323-a771-45c8-ab96-48a386e83de1",
@@ -636,19 +499,6 @@
         "clock_speed": "2.1 GHz"
     },
     {
-        "id": "a317493e-ab39-47e0-80c1-dc7f8643d77c",
-        "name": "AMD A-Series A6 9500E 3.0 GHz 2-Core AM4",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD A-Series A6 9500E",
-        "socket": "AM4",
-        "cores": 2,
-        "threads": 2,
-        "tdp": 35,
-        "ram_type": "DDR4",
-        "clock_speed": "3.0 GHz"
-    },
-    {
         "id": "d8408406-f4b2-4f18-9dd2-c75b71dceea3",
         "name": "Intel Core i9 9900X 3.5 GHz 10-Core LGA2066",
         "variant": "",
@@ -673,18 +523,6 @@
         "clock_speed": "3.6 GHz"
     },
     {
-        "id": "d6381db4-468a-419a-acfc-0fbc5e60a956",
-        "name": "Intel Core i7 9700T 2 GHz 8-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 9700T",
-        "socket": "LGA 1151",
-        "cores": 8,
-        "threads": 8,
-        "tdp": 35,
-        "clock_speed": "2 GHz"
-    },
-    {
         "id": "c77c8f8d-5e71-4b20-a8a4-3226f294a4e7",
         "name": "Intel Core i5 7600K 3.8 GHz 4-Core LGA1151",
         "variant": "",
@@ -695,18 +533,6 @@
         "threads": 4,
         "tdp": 91,
         "clock_speed": "3.8 GHz"
-    },
-    {
-        "id": "e55945ee-a67a-4207-846c-64a148641e2e",
-        "name": "Intel Core i9 9820X 3.3 GHz 10-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 9820X",
-        "socket": "LGA 2066",
-        "cores": 10,
-        "threads": 20,
-        "tdp": 165,
-        "clock_speed": "3.3 GHz"
     },
     {
         "id": "0271c2f7-4b7c-4870-972a-3f941cb15eb4",
@@ -759,18 +585,6 @@
         "clock_speed": "3.1 GHz"
     },
     {
-        "id": "216c864a-93a8-4834-8c02-00768e900109",
-        "name": "Intel Core i7 4790K 4 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 4790K",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 88,
-        "clock_speed": "4 GHz"
-    },
-    {
         "id": "561fd78d-c0ca-4619-a942-92eacf4bfccf",
         "name": "AMD Ryzen 3 4100 3.8 GHz 4-Core AM4",
         "variant": "",
@@ -807,18 +621,6 @@
         "tdp": 65,
         "ram_type": "DDR4",
         "clock_speed": "3.5 GHz"
-    },
-    {
-        "id": "38a5507d-8a19-4894-a2bd-33afc1148a0d",
-        "name": "Intel Core i9 7960X 2.8 GHz 16-Core LGA2066 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 7960X",
-        "socket": "LGA 2066",
-        "cores": 16,
-        "threads": 32,
-        "tdp": 165,
-        "clock_speed": "2.8 GHz"
     },
     {
         "id": "8a75e218-1c37-4639-9945-59d320271ffc",
@@ -897,30 +699,6 @@
         "clock_speed": "2.6 GHz"
     },
     {
-        "id": "1e8d10d0-184a-4a18-b9cd-48b5f36b7464",
-        "name": "Intel Core i5 9400T 1.8 GHz 6-Core LGA1151 (OEM/Tray)",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9400T",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 35,
-        "clock_speed": "1.8 GHz"
-    },
-    {
-        "id": "053bbed3-b857-4a15-b69f-39cf081cadeb",
-        "name": "Intel Core i7 Extreme 6950X 3 GHz 10-Core LGA2011-3",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 Extreme 6950X -3",
-        "socket": "LGA 2011-3",
-        "cores": 10,
-        "threads": 20,
-        "tdp": 140,
-        "clock_speed": "3 GHz"
-    },
-    {
         "id": "d4f192f2-115a-4821-9510-369615c4b0a4",
         "name": "AMD Ryzen 5 2600 3.4 GHz 6-Core AM4",
         "variant": "",
@@ -932,18 +710,6 @@
         "tdp": 65,
         "ram_type": "DDR4",
         "clock_speed": "3.4 GHz"
-    },
-    {
-        "id": "5fbb1479-6d3e-41bb-8007-da5f747249f5",
-        "name": "Intel Core i9 10900K 3.7 GHz 10-Core LGA1200",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 10900K",
-        "socket": "LGA 1200",
-        "cores": 10,
-        "threads": 20,
-        "tdp": 125,
-        "clock_speed": "3.7 GHz"
     },
     {
         "id": "4dcfffec-423b-4052-8aca-db6c0f84bb43",
@@ -993,32 +759,6 @@
         "threads": 16,
         "tdp": 125,
         "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "115d2821-5d45-41b8-b4c9-aa3f95215fab",
-        "name": "AMD Ryzen 5 7500F 3.7 GHz 6-Core AM5 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 7500F",
-        "socket": "AM5",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "3.7 GHz"
-    },
-    {
-        "id": "e94bcdb0-a842-447e-9c20-6d7db68e8e85",
-        "name": "AMD Ryzen 7 PRO 7745 3.8 GHz 8-Core AM5",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 7 PRO 7745",
-        "socket": "AM5",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "3.8 GHz"
     },
     {
         "id": "80eb4799-e845-4499-b4d2-6fdc253d9a48",
@@ -1096,18 +836,6 @@
         "clock_speed": "4 GHz"
     },
     {
-        "id": "65d71712-5992-4183-8801-83ea0853e677",
-        "name": "Intel Core i5 7600K 3.8 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 7600K",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 91,
-        "clock_speed": "3.8 GHz"
-    },
-    {
         "id": "ded20bd3-aaf0-42d7-83ce-501679fb8363",
         "name": "Intel Core i3 13100 3.4 GHz 4-Core LGA1700",
         "variant": "",
@@ -1147,31 +875,6 @@
         "clock_speed": "3.1 GHz"
     },
     {
-        "id": "7e3e1ea3-19af-4d0b-b50a-61e344d92236",
-        "name": "Intel Core i5 3550S 3 GHz 4-Core LGA1155 (OEM/Tray)",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 3550S",
-        "socket": "LGA 1155",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3 GHz"
-    },
-    {
-        "id": "ba099e65-8148-4937-aa16-80927792778e",
-        "name": "AMD Ryzen 5 7600X3D 4.1 GHz 6-Core AM5",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 7600X3D",
-        "socket": "AM5",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "4.1 GHz"
-    },
-    {
         "id": "3796bb7f-b124-4628-9592-cb2b3bf47e08",
         "name": "AMD Ryzen 5 5600X 3.7 GHz 6-Core AM4",
         "variant": "",
@@ -1197,18 +900,6 @@
         "clock_speed": "3 GHz"
     },
     {
-        "id": "67819769-5977-47cf-b545-9439fb0c4fa5",
-        "name": "Intel Core i3 9320 3.7 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i3 9320",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 62,
-        "clock_speed": "3.7 GHz"
-    },
-    {
         "id": "414404ea-be98-44a0-80bc-13298538b955",
         "name": "Intel Core i3-6100 Processor 3M Cache 3.70 GHz",
         "variant": "6100",
@@ -1220,18 +911,6 @@
         "tdp": 51,
         "ram_type": "DDR4",
         "clock_speed": "3.70 GHz"
-    },
-    {
-        "id": "28d1cde9-50aa-4565-952b-ef06e454fe46",
-        "name": "Intel Core i5 4690S 3.2 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 4690S",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3.2 GHz"
     },
     {
         "id": "e80823a0-6dd5-47d0-b69b-852e92acf964",
@@ -1260,19 +939,6 @@
         "clock_speed": "3.8 GHz"
     },
     {
-        "id": "f2f956e6-c0df-4c3e-b2ad-5c3c57e2e13b",
-        "name": "AMD Ryzen 9 3900X 3.8 GHz 12-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 9 3900X",
-        "socket": "AM4",
-        "cores": 12,
-        "threads": 24,
-        "tdp": 105,
-        "ram_type": "DDR4",
-        "clock_speed": "3.8 GHz"
-    },
-    {
         "id": "045802be-240a-4bce-9e67-2722f885e671",
         "name": "Intel Core i9 13900K 3.0 GHz 24-Core LGA1700",
         "variant": "",
@@ -1284,18 +950,6 @@
         "tdp": 125,
         "ram_type": "DDR5",
         "clock_speed": "3.0 GHz"
-    },
-    {
-        "id": "a1f1291c-5477-4a75-969c-cdda9ff681a1",
-        "name": "Intel Core i9 7900X 3.3 GHz 10-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 7900X",
-        "socket": "LGA 2066",
-        "cores": 10,
-        "threads": 20,
-        "tdp": 140,
-        "clock_speed": "3.3 GHz"
     },
     {
         "id": "1917223b-ee1e-4643-b0ef-e250bca0abf8",
@@ -1336,43 +990,6 @@
         "clock_speed": "2.1 GHz"
     },
     {
-        "id": "b6daa5b6-8e64-438a-8893-274c85715758",
-        "name": "Intel Core i5 13600 2.7 GHz 14-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 13600",
-        "socket": "LGA 1700",
-        "cores": 14,
-        "threads": 20,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "2.7 GHz"
-    },
-    {
-        "id": "1cefeb0a-2b93-441f-a11d-3806b8ca937f",
-        "name": "Intel Core i7 7700T 2.9 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 7700T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 35,
-        "clock_speed": "2.9 GHz"
-    },
-    {
-        "id": "9e6a18b0-8ea6-4cfc-a135-84a6c6819faa",
-        "name": "Intel Core i7 6700T 2.8 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 6700T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 35,
-        "clock_speed": "2.8 GHz"
-    },
-    {
         "id": "e2cf2532-8c57-4ec2-96fb-4aaa846c8ca6",
         "name": "Intel Core Ultra 9 285K 3.7 GHz 24-Core LGA1851",
         "variant": "285K",
@@ -1384,19 +1001,6 @@
         "tdp": 125,
         "ram_type": "DDR5",
         "clock_speed": "3.7 GHz"
-    },
-    {
-        "id": "b3b4fd2c-5a52-4eb6-9167-8b54e778934e",
-        "name": "AMD Ryzen 3 3200G 3.6 GHz 4-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 3 3200G",
-        "socket": "AM4",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz"
     },
     {
         "id": "8fa3e52f-5fef-48ff-bba6-0f81708ccacf",
@@ -1451,18 +1055,6 @@
         "clock_speed": "2.4 GHz"
     },
     {
-        "id": "de6cb598-bcbb-42cc-9a25-546bcf8dc2d4",
-        "name": "Intel Core i7 5775C 3.3 GHz 4-Core LGA1150 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 5775C",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 65,
-        "clock_speed": "3.3 GHz"
-    },
-    {
         "id": "77b34328-7f21-480e-8293-c9f24b25564c",
         "name": "Intel Core i9 9900K (Standard Folding Box) 3.6 GHz 8-Core LGA1151",
         "variant": "",
@@ -1500,19 +1092,6 @@
         "clock_speed": "3.7 GHz"
     },
     {
-        "id": "fdcaea76-3ec0-4e78-af49-74cefd6ab24a",
-        "name": "AMD Ryzen 5 3400G 3.7 GHz 4-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 3400G",
-        "socket": "AM4",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.7 GHz"
-    },
-    {
         "id": "a7181913-9094-4594-a2bf-dba15ff73710",
         "name": "Intel Core i5 11600K 3.9 GHz 6-Core LGA1200",
         "variant": "",
@@ -1523,19 +1102,6 @@
         "threads": 12,
         "tdp": 125,
         "clock_speed": "3.9 GHz"
-    },
-    {
-        "id": "9ea982fe-1d3e-4600-b608-279496b2fedb",
-        "name": "Intel Core i3 13100T 2.5 GHz 4-Core LGA1700 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i3 13100T",
-        "socket": "LGA 1700",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 35,
-        "ram_type": "DDR5",
-        "clock_speed": "2.5 GHz"
     },
     {
         "id": "be5042d0-19ca-483b-8502-7d1dfb2d549e",
@@ -1573,30 +1139,6 @@
         "threads": 20,
         "tdp": 125,
         "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "79613547-55d7-4ec2-ab6d-317322383af9",
-        "name": "Intel Core i3 9350K 4 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i3 9350K",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 91,
-        "clock_speed": "4 GHz"
-    },
-    {
-        "id": "74246a26-6482-4c8c-8ebf-67122c81cdde",
-        "name": "Intel Core i5 9500F 3.0 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9500F",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "3.0 GHz"
     },
     {
         "id": "8f4be642-fc35-4ec2-aa3d-e06c5eb21b10",
@@ -1674,31 +1216,6 @@
         "clock_speed": "3.8 GHz"
     },
     {
-        "id": "7902c011-a69a-4cf3-bcad-0baa94831e43",
-        "name": "Intel Core i7 9800X 3.8 GHz 8-Core LGA2066 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 9800X",
-        "socket": "LGA 2066",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 165,
-        "clock_speed": "3.8 GHz"
-    },
-    {
-        "id": "ea28e46f-dc70-4547-9701-eca335890462",
-        "name": "AMD Ryzen 5 7500F 3.7 GHz 6-Core AM5",
-        "variant": "7500F",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 7500F",
-        "socket": "AM5",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "3.7 GHz"
-    },
-    {
         "id": "34711b7b-a952-4b0d-a251-3774b3406e3d",
         "name": "Intel Core i5 12500 3.0 GHz 6-Core LGA1700",
         "variant": "",
@@ -1710,18 +1227,6 @@
         "tdp": 65,
         "ram_type": "DDR5",
         "clock_speed": "3.0 GHz"
-    },
-    {
-        "id": "ebff2be8-3870-47b5-ac0e-a09f3bece51a",
-        "name": "Intel Core i7 7800X 3.5 GHz 6-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 7800X",
-        "socket": "LGA 2066",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 140,
-        "clock_speed": "3.5 GHz"
     },
     {
         "id": "f165b2c9-fa32-4bfd-8ebe-2a0606dec25e",
@@ -1748,19 +1253,6 @@
         "ram_type": "DDR4"
     },
     {
-        "id": "0ce6ea21-ea60-41c8-807f-d284a2e98b08",
-        "name": "Intel Core i5 14500T 1.7 GHz 14-Core LGA1700 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 14500T",
-        "socket": "LGA 1700",
-        "cores": 14,
-        "threads": 20,
-        "tdp": 35,
-        "ram_type": "DDR5",
-        "clock_speed": "1.7 GHz"
-    },
-    {
         "id": "2ab00ac9-d91e-4250-9297-2bdd6f617d41",
         "name": "AMD Ryzen 9 7900 3.6 GHz 12-Core AM5",
         "variant": "",
@@ -1774,30 +1266,6 @@
         "clock_speed": "3.6 GHz"
     },
     {
-        "id": "a7bb0908-5696-4d44-8a95-16a2575ec4c9",
-        "name": "Intel Core i5 6400T 2.2 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 6400T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
-        "clock_speed": "2.2 GHz"
-    },
-    {
-        "id": "97a1b424-136f-4c5b-9b7f-fd7a63bccc81",
-        "name": "Intel Core i9 9920X 3.5 GHz 12-Core LGA2066 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 9920X",
-        "socket": "LGA 2066",
-        "cores": 12,
-        "threads": 24,
-        "tdp": 165,
-        "clock_speed": "3.5 GHz"
-    },
-    {
         "id": "ea92e2c9-afa9-4c7a-8f25-df4083b0680f",
         "name": "AMD Ryzen 5 1600 (14nm) 3.2 GHz 6-Core AM4",
         "variant": "",
@@ -1809,31 +1277,6 @@
         "tdp": 65,
         "ram_type": "DDR4",
         "clock_speed": "3.2 GHz"
-    },
-    {
-        "id": "09c6c21d-b450-4656-b8f7-11f31d20d131",
-        "name": "Intel Core i7 7820X 3.6 GHz 8-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 7820X",
-        "socket": "LGA 2066",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 140,
-        "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "850de815-7c76-48e5-8097-a009109be14b",
-        "name": "AMD Ryzen 5 7600X3D 4.1 GHz 6-Core AM5 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 7600X3D",
-        "socket": "AM5",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "4.1 GHz"
     },
     {
         "id": "ab2ec942-57d3-436a-b041-30103c882842",
@@ -1859,18 +1302,6 @@
         "threads": 4,
         "tdp": 65,
         "clock_speed": "3.2 GHz"
-    },
-    {
-        "id": "c29c9a98-338e-48dc-9160-da4c0cabab8e",
-        "name": "Intel Core i5 4440S 2.8 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 4440S",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "2.8 GHz"
     },
     {
         "id": "7201515e-9de2-4f91-a732-aa01bafa6785",
@@ -1911,42 +1342,6 @@
         "clock_speed": "3.6 GHz"
     },
     {
-        "id": "bfd0c295-9f75-4edd-9381-90f88dceb2f7",
-        "name": "Intel Core i5 3340 3.1 GHz 4-Core LGA1155",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 3340",
-        "socket": "LGA 1155",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 77,
-        "clock_speed": "3.1 GHz"
-    },
-    {
-        "id": "b93f8e5b-7352-44bc-9a3c-966a3e7cc603",
-        "name": "Intel Core i5 3340S 2.8 GHz 4-Core LGA1155",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 3340S",
-        "socket": "LGA 1155",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "2.8 GHz"
-    },
-    {
-        "id": "3e340505-fece-4bef-9762-866805e51037",
-        "name": "Intel Core i7 9700K 3.6 GHz 8-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 9700K",
-        "socket": "LGA 1151",
-        "cores": 8,
-        "threads": 8,
-        "tdp": 95,
-        "clock_speed": "3.6 GHz"
-    },
-    {
         "id": "ee10268f-5b1a-4d1b-b4de-0ff59423fea9",
         "name": "Intel Core i9-7940X X-series Processor",
         "variant": "",
@@ -1957,19 +1352,6 @@
         "threads": 28,
         "tdp": 165,
         "ram_type": "DDR4"
-    },
-    {
-        "id": "bf21533b-baba-409f-aa43-c5f3eab64c5f",
-        "name": "AMD Ryzen 7 3800XT 3.9 GHz 8-Core",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 7 3800XT",
-        "socket": "AM4",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 105,
-        "ram_type": "DDR4",
-        "clock_speed": "3.9 GHz"
     },
     {
         "id": "4e6f82c0-c099-4640-95b3-9d3266e9886a",
@@ -1995,30 +1377,6 @@
         "tdp": 58,
         "ram_type": "DDR5",
         "clock_speed": "3.5 GHz"
-    },
-    {
-        "id": "7f048ac5-0eae-400d-9574-ca3bf0c612f1",
-        "name": "Intel Core i5 9500 3 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9500",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "3 GHz"
-    },
-    {
-        "id": "8029ae47-ace5-4bb5-a495-83664d250f49",
-        "name": "Intel Core i5 6500 3.2 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "B010T6CWI2",
-        "clean_name": "Intel Core i5 6500",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3.2 GHz"
     },
     {
         "id": "163d1e0a-ea5a-45d7-8c43-eaff7e78107b",
@@ -2098,18 +1456,6 @@
         "clock_speed": "2.1 GHz"
     },
     {
-        "id": "f7cfeb10-844d-4294-83b2-337ec8eef5f9",
-        "name": "Intel Core i5 7600T 2.8 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 7600T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
-        "clock_speed": "2.8 GHz"
-    },
-    {
         "id": "4a6afe32-37f9-45c5-88ac-bf43d847e3e4",
         "name": "Intel Core i7 7800X 3.5 GHz 6-Core LGA2066 OEM/Tray",
         "variant": "",
@@ -2172,30 +1518,6 @@
         "clock_speed": "3.5 GHz"
     },
     {
-        "id": "27c44194-75c5-468f-a8f3-3847cc0c7bce",
-        "name": "Intel Core i9 9820X 3.3 GHz 10-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 9820X",
-        "socket": "LGA 2066",
-        "cores": 10,
-        "threads": 20,
-        "tdp": 165,
-        "clock_speed": "3.3 GHz"
-    },
-    {
-        "id": "3b805488-29ca-4c3a-b4a7-a7a928396ee6",
-        "name": "Intel Core i9 9900X 3.5 GHz 10-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 9900X",
-        "socket": "LGA 2066",
-        "cores": 10,
-        "threads": 20,
-        "tdp": 165,
-        "clock_speed": "3.5 GHz"
-    },
-    {
         "id": "a0415d5e-2c30-4133-873e-92a5f37ae9da",
         "name": "Intel Core Ultra 5 250KF Plus",
         "variant": "250KF Plus",
@@ -2206,42 +1528,6 @@
         "threads": 18,
         "tdp": 125,
         "ram_type": "DDR5"
-    },
-    {
-        "id": "b41a8d44-f02d-41b5-aedb-f267b0450a23",
-        "name": "Intel Core i9 9940X 3.3 GHz 14-Core LGA2066 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B07LB3MLBL",
-        "clean_name": "Intel Core i9 9940X",
-        "socket": "LGA 2066",
-        "cores": 14,
-        "threads": 28,
-        "tdp": 165,
-        "clock_speed": "3.3 GHz"
-    },
-    {
-        "id": "301703ae-e5a6-4804-906e-89d4d430d5aa",
-        "name": "Intel Core i5 6500T 2.5 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 6500T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
-        "clock_speed": "2.5 GHz"
-    },
-    {
-        "id": "7bf2f913-1f98-47fb-89b6-979704c62472",
-        "name": "Intel Core i5 6600T 2.7 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 6600T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
-        "clock_speed": "2.7 GHz"
     },
     {
         "id": "61524df0-3c26-49c3-b7db-b056ad3d3028",
@@ -2279,18 +1565,6 @@
         "threads": 16,
         "tdp": 127,
         "clock_speed": "4 GHz"
-    },
-    {
-        "id": "f1c3343b-8ea7-4a0c-9166-eaee8fc8d313",
-        "name": "Intel Core i5 6600 3.3 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 6600",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3.3 GHz"
     },
     {
         "id": "e050c200-1450-48e6-9f04-a4c50fe52621",
@@ -2404,18 +1678,6 @@
         "clock_speed": "3.0 GHz"
     },
     {
-        "id": "287b108d-79e7-4ccc-8a28-55c0e294469e",
-        "name": "Intel Core i5 4690K 3.5 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 4690K",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 88,
-        "clock_speed": "3.5 GHz"
-    },
-    {
         "id": "88335ff6-ffb7-4410-87d0-2b28cf7b1008",
         "name": "AMD Ryzen 9 5900X 3.7 GHz 12-Core AM4",
         "variant": "",
@@ -2441,31 +1703,6 @@
         "clock_speed": "2.7 GHz"
     },
     {
-        "id": "6a068da8-54a5-4ff3-a8cf-a066cdaf0ae5",
-        "name": "AMD Ryzen 7 2700 3.2 GHz 8-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 7 2700",
-        "socket": "AM4",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.2 GHz"
-    },
-    {
-        "id": "eb0118de-42da-4093-8249-2c8fc889ba85",
-        "name": "Intel Core i7 5820K 3.3 GHz 6-Core LGA2011-3 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B00PDD3IX0",
-        "clean_name": "Intel Core i7 5820K -3",
-        "socket": "LGA 2011-3",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 140,
-        "clock_speed": "3.3 GHz"
-    },
-    {
         "id": "9f192a62-7a9d-4fb1-8e2c-9e3b6c8610f2",
         "name": "AMD Ryzen 5 3600XT 3.8 GHz 6-Core AM4",
         "variant": "",
@@ -2477,19 +1714,6 @@
         "tdp": 95,
         "ram_type": "DDR4",
         "clock_speed": "3.8 GHz"
-    },
-    {
-        "id": "2cab4b82-d7ff-46f1-9148-421caabdd24d",
-        "name": "Intel Core i7 13700T OEM/Tray 1.4 GHz 16-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 13700T",
-        "socket": "LGA 1700",
-        "cores": 16,
-        "threads": 24,
-        "tdp": 35,
-        "ram_type": "DDR5",
-        "clock_speed": "1.4 GHz"
     },
     {
         "id": "ff4b4766-4f58-4c17-915e-9881c50ed032",
@@ -2516,19 +1740,6 @@
         "tdp": 125,
         "ram_type": "DDR5",
         "clock_speed": "3.7 GHz"
-    },
-    {
-        "id": "fc64ff23-4f2b-440a-b309-26199f5ca9fa",
-        "name": "AMD Ryzen 5 3600 3.6 GHz 6-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 3600",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz"
     },
     {
         "id": "364316a2-e476-40f7-b8c7-f7ce230a8ab9",
@@ -2580,54 +1791,6 @@
         "clock_speed": "2.4 GHz"
     },
     {
-        "id": "01b18e41-6a82-45f2-ab4c-5f08e7983406",
-        "name": "Intel Core i5 6400T 2.2 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 6400T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
-        "clock_speed": "2.2 GHz"
-    },
-    {
-        "id": "d2b28545-9993-4854-beee-5270d907d800",
-        "name": "Intel Core i5 9600 3.1 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9600",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "3.1 GHz"
-    },
-    {
-        "id": "e1fa5b6c-184b-4350-8063-790f31e19789",
-        "name": "Intel Core i5 7400T 2.4 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B06XPXZ1VN",
-        "clean_name": "Intel Core i5 7400T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
-        "clock_speed": "2.4 GHz"
-    },
-    {
-        "id": "b118e697-2205-4c0c-b124-5aa24e9adc33",
-        "name": "Intel Core i5 7600 3.5 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 7600",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3.5 GHz"
-    },
-    {
         "id": "0cf9aff1-4f08-4f12-8557-ebbc10083495",
         "name": "Intel Core i9-9920X",
         "variant": "",
@@ -2638,18 +1801,6 @@
         "threads": 24,
         "tdp": 165,
         "ram_type": "DDR4"
-    },
-    {
-        "id": "047130de-74dd-4b9c-835f-ca2dc1a866fc",
-        "name": "Intel Core i5 3570S 3.1 GHz 4-Core LGA1155 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 3570S",
-        "socket": "LGA 1155",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3.1 GHz"
     },
     {
         "id": "ee44b97d-f489-4f09-8d7b-2a3f8668a4c8",
@@ -2676,18 +1827,6 @@
         "clock_speed": "3.6 GHz"
     },
     {
-        "id": "cd3ac87c-a75d-48dc-a278-802ab659d14b",
-        "name": "Intel Core i3 10325 3.9 GHz 4-Core LGA1200",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i3 10325",
-        "socket": "LGA 1200",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 65,
-        "clock_speed": "3.9 GHz"
-    },
-    {
         "id": "6988a466-9cf6-491a-98af-d926e9ce608b",
         "name": "Intel Core i9 9900K 3.6 GHz 8-Core LGA1151 OEM/Tray",
         "variant": "",
@@ -2698,18 +1837,6 @@
         "threads": 16,
         "tdp": 95,
         "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "acea06d7-82cb-496f-9ee6-172c9105d86a",
-        "name": "Intel Core i5 8500 3 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 8500",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "3 GHz"
     },
     {
         "id": "6b03b443-7b22-491c-b301-7e2a285359df",
@@ -2737,18 +1864,6 @@
         "ram_type": "DDR4"
     },
     {
-        "id": "04ee90ac-3af8-453e-afcb-1e0172871e42",
-        "name": "Intel Core i5 8400 2.8 GHz 6-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "B0759FGJ3Q",
-        "clean_name": "Intel Core i5 8400",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "2.8 GHz"
-    },
-    {
         "id": "622e7110-ebf4-4040-93f6-5b37e82ff02e",
         "name": "Intel Core i7 14700K 3.4 GHz 20-Core LGA1700",
         "variant": "14700K",
@@ -2760,43 +1875,6 @@
         "tdp": 125,
         "ram_type": "DDR5",
         "clock_speed": "3.4 GHz"
-    },
-    {
-        "id": "f2133cc2-e9de-4068-b71a-ce19410393af",
-        "name": "Intel Core i5 9600KF 3.7 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B07TF7KZVT",
-        "clean_name": "Intel Core i5 9600KF",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 95,
-        "clock_speed": "3.7 GHz"
-    },
-    {
-        "id": "12fd3597-2019-418e-9764-bdf55a541368",
-        "name": "Intel Core i5 7640X 4 GHz 4-Core LGA2066 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B073VMQH6K",
-        "clean_name": "Intel Core i5 7640X",
-        "socket": "LGA 2066",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 112,
-        "clock_speed": "4 GHz"
-    },
-    {
-        "id": "62ae475a-b7db-4604-85cb-b0103c24345c",
-        "name": "AMD Ryzen 7 PRO 7745 3.8 GHz 8-Core AM5",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 7 PRO 7745",
-        "socket": "AM5",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "3.8 GHz"
     },
     {
         "id": "0eef5725-3634-4a65-b249-49888874dc68",
@@ -2822,44 +1900,6 @@
         "tdp": 58,
         "ram_type": "DDR5",
         "clock_speed": "3.4 GHz"
-    },
-    {
-        "id": "d879b83e-b826-46ad-b008-a51b9674da07",
-        "name": "Intel Core i7 3770T 2.5 GHz 4-Core LGA1155",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 3770T",
-        "socket": "LGA 1155",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 45,
-        "clock_speed": "2.5 GHz"
-    },
-    {
-        "id": "50d672fd-cb38-42d1-9b4f-4e5de11d2065",
-        "name": "AMD Ryzen 7 1800X 3.6 GHz 8-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 7 1800X",
-        "socket": "AM4",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 95,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "bdacccac-3d03-4436-8ebe-3de176024c18",
-        "name": "AMD Ryzen 7 1800X 3.6 GHz 8-Core AM4",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 7 1800X",
-        "socket": "AM4",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 95,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz"
     },
     {
         "id": "c2933afd-f5c7-4c46-aab4-37da272972e0",
@@ -2910,18 +1950,6 @@
         "clock_speed": "2.7 GHz"
     },
     {
-        "id": "02d39666-7470-44e0-ab3a-0e7a1d24ebd6",
-        "name": "Intel Core i7 Extreme 6950X 3 GHz 10-Core LGA2011-3",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 Extreme 6950X -3",
-        "socket": "LGA 2011-3",
-        "cores": 10,
-        "threads": 20,
-        "tdp": 140,
-        "clock_speed": "3 GHz"
-    },
-    {
         "id": "2e3b7f24-a606-4652-9ffa-74a7f1c41bfe",
         "name": "Intel Core i7 10700F 2.9 GHz 8-Core LGA1200",
         "variant": "",
@@ -2945,19 +1973,6 @@
         "tdp": 120,
         "ram_type": "DDR5",
         "clock_speed": "4.4 GHz"
-    },
-    {
-        "id": "3e839c22-2045-41b5-a687-e6d8036db649",
-        "name": "AMD Ryzen 7 3800X 3.9 GHz 8-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 7 3800X",
-        "socket": "AM4",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 105,
-        "ram_type": "DDR4",
-        "clock_speed": "3.9 GHz"
     },
     {
         "id": "10209f87-57b3-4216-8b3e-c9c213e46b07",
@@ -3020,31 +2035,6 @@
         "clock_speed": "4.1 GHz"
     },
     {
-        "id": "1c19203f-0572-4ed0-80b4-37d940f1d8c9",
-        "name": "AMD A6 A6-9550 3.8 GHz 2-Core AM4",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD A6 A6-9550",
-        "socket": "AM4",
-        "cores": 2,
-        "threads": 2,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.8 GHz"
-    },
-    {
-        "id": "9ba01056-5190-4d7b-ade4-e930eeddd24c",
-        "name": "Intel Core i7 7800X 3.5 GHz 6-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "B071H1B3Z1",
-        "clean_name": "Intel Core i7 7800X",
-        "socket": "LGA 2066",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 140,
-        "clock_speed": "3.5 GHz"
-    },
-    {
         "id": "d16d9c6a-2f9d-4310-a243-b3852976fc11",
         "name": "Intel Core i3 10100F 3.6 GHz 4-Core LGA1200",
         "variant": "",
@@ -3082,30 +2072,6 @@
         "clock_speed": "2.8 GHz"
     },
     {
-        "id": "c7d21bb9-7688-49bd-ac6c-f5730c2a5b7f",
-        "name": "Intel Core i7 9700 3 GHz 8-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B07T7GHT9Q",
-        "clean_name": "Intel Core i7 9700",
-        "socket": "LGA 1151",
-        "cores": 8,
-        "threads": 8,
-        "tdp": 65,
-        "clock_speed": "3 GHz"
-    },
-    {
-        "id": "37071895-fe38-4a6f-9239-3c024e145968",
-        "name": "Intel Core i5 9400 2.9 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9400",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "2.9 GHz"
-    },
-    {
         "id": "7a9c7440-6aca-4f8e-a6a1-9ae438789cd9",
         "name": "AMD Ryzen 3 3100 3.6 GHz 4-Core AM4",
         "variant": "",
@@ -3129,31 +2095,6 @@
         "threads": 6,
         "tdp": 65,
         "clock_speed": "2.9 GHz"
-    },
-    {
-        "id": "270489aa-e7db-49f2-bfbe-0e122b4fb093",
-        "name": "Intel Core i5 9600K 3.7 GHz 6-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9600K",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 95,
-        "clock_speed": "3.7 GHz"
-    },
-    {
-        "id": "db93651a-7128-433b-8ba0-7a127134fe64",
-        "name": "AMD Ryzen 7 3700X 3.6 GHz 8-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 7 3700X",
-        "socket": "AM4",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz"
     },
     {
         "id": "d0a9a88a-e191-44de-8678-ad32c2d2e4bb",
@@ -3205,30 +2146,6 @@
         "ram_type": "DDR5"
     },
     {
-        "id": "b89d067d-d88e-4525-9460-6054d5033b4c",
-        "name": "Intel Core i9 10850K 3.6 GHz 10-Core LGA1200",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 10850K",
-        "socket": "LGA 1200",
-        "cores": 10,
-        "threads": 20,
-        "tdp": 125,
-        "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "60790f0f-eeb6-4705-91b3-2cb9edaa0340",
-        "name": "Intel Core i7 6900K 3.2 GHz 8-Core LGA2011-3",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 6900K -3",
-        "socket": "LGA 2011-3",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 140,
-        "clock_speed": "3.2 GHz"
-    },
-    {
         "id": "18a5a222-98ff-417a-9e2e-1dbecb75ae2a",
         "name": "AMD Ryzen 5 2400G 3.6 GHz 4-Core AM4 OEM/Tray",
         "variant": "",
@@ -3277,19 +2194,6 @@
         "threads": 4,
         "tdp": 65,
         "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "c0406a8f-3026-4468-a2d9-322c8206ed69",
-        "name": "Intel Core i9 13900F 2.0 GHz 24-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 13900F",
-        "socket": "LGA 1700",
-        "cores": 24,
-        "threads": 32,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "2.0 GHz"
     },
     {
         "id": "b8349625-b815-468f-a4dc-32aba8a8f84d",
@@ -3355,18 +2259,6 @@
         "clock_speed": "3.2 GHz"
     },
     {
-        "id": "d879b11a-cc6c-488e-bfa8-9bab0eb1959d",
-        "name": "Intel Core i7 6700K 4 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 6700K",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 91,
-        "clock_speed": "4 GHz"
-    },
-    {
         "id": "1380a6eb-8357-4ce2-be1c-190fa045a108",
         "name": "AMD Ryzen 5 4600G 3.7 GHz 6-Core AM4",
         "variant": "",
@@ -3405,43 +2297,6 @@
         "clock_speed": "2.5 GHz"
     },
     {
-        "id": "bf3ebca8-dd6a-470b-b47b-cea77447bc68",
-        "name": "Intel Core i5 9400 2.9 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9400",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "2.9 GHz"
-    },
-    {
-        "id": "bb27044e-0b30-4e45-b56e-27932e97cab9",
-        "name": "Intel Core i5 7640X 4 GHz 4-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 7640X",
-        "socket": "LGA 2066",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 112,
-        "clock_speed": "4 GHz"
-    },
-    {
-        "id": "fd74557a-9f22-4a60-b4b6-2dee85f759d4",
-        "name": "AMD Ryzen 5 2600 3.4 GHz 6-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 2600",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.4 GHz"
-    },
-    {
         "id": "e4a66aac-5c74-4833-958d-32719b9ad077",
         "name": "AMD Ryzen 7 9850X3D 4.7 GHz 8-Core AM5",
         "variant": "9850X3D",
@@ -3453,18 +2308,6 @@
         "tdp": 120,
         "ram_type": "DDR5",
         "clock_speed": "4.7 GHz"
-    },
-    {
-        "id": "31a90a7c-fc8f-4317-a617-806bd1f55b7c",
-        "name": "Intel Core i7 7700 3.6 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B06XPBFXLG",
-        "clean_name": "Intel Core i7 7700",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 65,
-        "clock_speed": "3.6 GHz"
     },
     {
         "id": "bf57d7f5-cb98-4b27-8299-941a55164857",
@@ -3556,18 +2399,6 @@
         "clock_speed": "3.4 GHz"
     },
     {
-        "id": "25aa1b27-21d2-4700-9149-491ed266e9e8",
-        "name": "Intel Core i7 6850K 3.6 GHz 6-Core LGA2011-3",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 6850K -3",
-        "socket": "LGA 2011-3",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 140,
-        "clock_speed": "3.6 GHz"
-    },
-    {
         "id": "d795c07c-c7fe-487f-ac3f-e57ff35d572d",
         "name": "AMD Ryzen 7 1700",
         "variant": "",
@@ -3606,18 +2437,6 @@
         "clock_speed": "3.6 GHz"
     },
     {
-        "id": "298af2a1-9111-4100-bc6e-4f6c03beaf72",
-        "name": "Intel Core i5 9400 2.9 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9400",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "2.9 GHz"
-    },
-    {
         "id": "c3be1736-fa24-4af3-9c56-3c6fb9761fef",
         "name": "Intel Core i5 8400T 1.7 GHz 6-Core LGA1151 OEM/Tray",
         "variant": "",
@@ -3641,18 +2460,6 @@
         "tdp": 125,
         "ram_type": "DDR5",
         "clock_speed": "3.0 GHz"
-    },
-    {
-        "id": "e5fdda36-15df-414f-8c27-3e350a7da299",
-        "name": "Intel Core i5 9600T 2.3 GHz 6-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9600T",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 35,
-        "clock_speed": "2.3 GHz"
     },
     {
         "id": "54157058-0ff5-4208-9466-5ce1e985ca7a",
@@ -3707,18 +2514,6 @@
         "clock_speed": "3.9 GHz"
     },
     {
-        "id": "5ffd311e-c8f8-4bc5-83bc-bfffe5959645",
-        "name": "Intel Core i5 8600T 2.3 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 8600T",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 35,
-        "clock_speed": "2.3 GHz"
-    },
-    {
         "id": "22f7d1e2-6bd6-4fe3-adaa-55f683d3cf5f",
         "name": "AMD Ryzen 7 1700X 3.4 GHz 8-Core AM4",
         "variant": "",
@@ -3742,43 +2537,6 @@
         "threads": 6,
         "tdp": 65,
         "clock_speed": "3.1 GHz"
-    },
-    {
-        "id": "2027bf67-9231-46ab-921d-b81868f28f9f",
-        "name": "AMD Ryzen 9 PRO 7945 3.7 GHz 12-Core AM5 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 9 PRO 7945",
-        "socket": "AM5",
-        "cores": 12,
-        "threads": 24,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "3.7 GHz"
-    },
-    {
-        "id": "558f9e14-2ddd-4b02-8653-01011ef4cfe8",
-        "name": "Intel Core i9 7960X 2.8 GHz 16-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 7960X",
-        "socket": "LGA 2066",
-        "cores": 16,
-        "threads": 32,
-        "tdp": 165,
-        "clock_speed": "2.8 GHz"
-    },
-    {
-        "id": "e8545714-9fb7-4869-bd97-93cfeff34a0b",
-        "name": "Intel Core i7-11700 2.5 GHz 8-Core",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7-11700",
-        "socket": "LGA 1200",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 65,
-        "clock_speed": "2.5 GHz"
     },
     {
         "id": "e11970e8-4f2c-426d-872c-92c0f4160ec4",
@@ -3819,18 +2577,6 @@
         "clock_speed": "3.5 GHz"
     },
     {
-        "id": "5e4498ad-3d4d-4ce7-b5f2-65c25d2a7cde",
-        "name": "Intel Core i5 7500T 2.7 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 7500T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
-        "clock_speed": "2.7 GHz"
-    },
-    {
         "id": "7505f3bc-2762-4f9d-ac53-7877a4a4f9b5",
         "name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core AM4",
         "variant": "",
@@ -3868,19 +2614,6 @@
         "clock_speed": "3.6 GHz"
     },
     {
-        "id": "ebda4b33-5256-4f3a-9c7f-b2701c84da71",
-        "name": "AMD Ryzen 5 3600X 3.8 GHz 6-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B0893LPYCQ",
-        "clean_name": "AMD Ryzen 5 3600X",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 95,
-        "ram_type": "DDR4",
-        "clock_speed": "3.8 GHz"
-    },
-    {
         "id": "7ab840c3-8c52-4ced-a65c-7b0922ca479e",
         "name": "AMD Ryzen 7 9800X3D 4.7 GHz 8-Core AM5",
         "variant": "",
@@ -3907,30 +2640,6 @@
         "clock_speed": "3.5 GHz"
     },
     {
-        "id": "191c28ae-cac2-4752-bee1-b22e57c417af",
-        "name": "Intel Core i7 6900K 3.2 GHz 8-Core OEM/Tray LGA2011-3",
-        "variant": "",
-        "amazon_sku": "B01GIO0SG2",
-        "clean_name": "Intel Core i7 6900K -3",
-        "socket": "LGA 2011-3",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 140,
-        "clock_speed": "3.2 GHz"
-    },
-    {
-        "id": "9ee0dbe7-c96f-45ef-a814-8c7d6c8b49a1",
-        "name": "Intel Core i9 7980XE 2.6 GHz 18-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "B075XRYMDR",
-        "clean_name": "Intel Core i9 7980XE",
-        "socket": "LGA 2066",
-        "cores": 18,
-        "threads": 36,
-        "tdp": 165,
-        "clock_speed": "2.6 GHz"
-    },
-    {
         "id": "e2bee5b7-77a4-40d8-8477-44d0cd0aceec",
         "name": "AMD Ryzen 5 2400G 3.6 GHz Quad-Core",
         "variant": "",
@@ -3942,56 +2651,6 @@
         "tdp": 65,
         "ram_type": "DDR4",
         "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "d19e2b2c-c5ec-4329-8c7d-b695a93ee164",
-        "name": "Intel Core i7-7820X 3.6 GHz 8-Core",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7-7820X",
-        "socket": "LGA 2066",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 140,
-        "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "7f125c39-b1e1-41f3-8ae8-562d3d5e6467",
-        "name": "AMD Ryzen 5 3500X 3.6 GHz 6-Core AM4",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 3500X",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "a8cd0239-10f5-4e57-be79-c3540e17cafc",
-        "name": "AMD Ryzen 5 5600X3D 3.3 GHz 6-Core AM4",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 5600X3D",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 105,
-        "ram_type": "DDR4",
-        "clock_speed": "3.3 GHz"
-    },
-    {
-        "id": "e4385f8f-8c55-4b4d-a10d-d457897d2062",
-        "name": "Intel Core i7 8700K 3.7 GHz 6-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "B07598VZR8",
-        "clean_name": "Intel Core i7 8700K",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 95,
-        "clock_speed": "3.7 GHz"
     },
     {
         "id": "0800f2cd-ce39-4a64-b400-5d1e5d26e7cd",
@@ -4032,18 +2691,6 @@
         "clock_speed": "3.4 GHz"
     },
     {
-        "id": "53bba6ac-3ef1-4f1d-8079-9ccbedd463ef",
-        "name": "Intel Core i5 4670S 3.1 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 4670S",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3.1 GHz"
-    },
-    {
         "id": "103ad632-4a9b-4126-9ed9-9d7ef4793060",
         "name": "AMD Ryzen 5 9600 3.8 GHz 6-Core AM5",
         "variant": "",
@@ -4055,31 +2702,6 @@
         "tdp": 65,
         "ram_type": "DDR5",
         "clock_speed": "3.8 GHz"
-    },
-    {
-        "id": "c009a13a-76ea-47e3-b908-89c690705b20",
-        "name": "AMD Ryzen 3 2200G 3.5 GHz 4-Core AM4",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 3 2200G",
-        "socket": "AM4",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.5 GHz"
-    },
-    {
-        "id": "222d95ca-323a-424a-8851-458549bf8771",
-        "name": "Intel Core i5 7400 3 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "B01NAQHL1Q",
-        "clean_name": "Intel Core i5 7400",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3 GHz"
     },
     {
         "id": "bf36a706-491a-45e8-ba4a-8529d3ef91e9",
@@ -4195,43 +2817,6 @@
         "clock_speed": "3.8 GHz"
     },
     {
-        "id": "044581b4-70e0-4266-aa09-8bd3d16cadd1",
-        "name": "Intel Core i5 4460S 2.9 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 4460S",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "2.9 GHz"
-    },
-    {
-        "id": "1bdbeb35-0449-4d21-a297-213be55b1517",
-        "name": "Intel Core i9 9900T 2.1 GHz 8-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 9900T",
-        "socket": "LGA 1151",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 35,
-        "clock_speed": "2.1 GHz"
-    },
-    {
-        "id": "182326d2-d7a5-495e-811c-2b6bcb28e029",
-        "name": "AMD Ryzen 3 1300X 3.5 GHz 4-Core AM4",
-        "variant": "",
-        "amazon_sku": "B08NPTPR48",
-        "clean_name": "AMD Ryzen 3 1300X",
-        "socket": "AM4",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.5 GHz"
-    },
-    {
         "id": "ef919fd3-b02f-414b-987f-7fea17ff8d82",
         "name": "Intel Core i7 7740X 4.3 GHz 4-Core LGA2066",
         "variant": "",
@@ -4242,19 +2827,6 @@
         "threads": 8,
         "tdp": 112,
         "clock_speed": "4.3 GHz"
-    },
-    {
-        "id": "6a1ab0c4-2b0f-442c-b058-64ee490c8fc6",
-        "name": "AMD Ryzen 5 PRO 7645 3.8 GHz 6-Core AM5 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 PRO 7645",
-        "socket": "AM5",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "3.8 GHz"
     },
     {
         "id": "d2e54c6a-4407-48cd-8266-761219fc89c3",
@@ -4279,18 +2851,6 @@
         "threads": 20,
         "tdp": 165,
         "ram_type": "DDR4"
-    },
-    {
-        "id": "571a3898-fab2-4596-83fc-c37d0c7257de",
-        "name": "Intel Core i7 4770K 3.5 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "B00E7LPH24",
-        "clean_name": "Intel Core i7 4770K",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 84,
-        "clock_speed": "3.5 GHz"
     },
     {
         "id": "89eeefbe-a6d6-4f77-9c4d-025df2f10a3e",
@@ -4319,19 +2879,6 @@
         "clock_speed": "4.2 GHz"
     },
     {
-        "id": "ab4fadad-e3a1-41ff-82fd-e16e5af8a324",
-        "name": "AMD Ryzen 7 7700 3.6 GHz 8-Core AM5",
-        "variant": "",
-        "amazon_sku": "B0BMQHSCVF",
-        "clean_name": "AMD Ryzen 7 7700",
-        "socket": "AM5",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "3.6 GHz"
-    },
-    {
         "id": "cbbbe76c-fdcf-49bf-8aa9-f04962e659f3",
         "name": "Intel Core Ultra 5 225 3.3 GHz 10-Core LGA1851",
         "variant": "",
@@ -4343,30 +2890,6 @@
         "tdp": 65,
         "ram_type": "DDR5",
         "clock_speed": "3.3 GHz"
-    },
-    {
-        "id": "3bb42e7e-5343-49cb-ac55-7712fc5eb285",
-        "name": "Intel Core i5 8600 3.1 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B079FT5YLF",
-        "clean_name": "Intel Core i5 8600",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "3.1 GHz"
-    },
-    {
-        "id": "38950b3d-4b1e-4d07-a3dc-105c256d5327",
-        "name": "Intel Core i7 4790 3.6 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 4790",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 84,
-        "clock_speed": "3.6 GHz"
     },
     {
         "id": "6f26463d-b846-43af-9b16-523ac398be66",
@@ -4381,18 +2904,6 @@
         "clock_speed": "3.3 GHz"
     },
     {
-        "id": "2bbcd24b-206e-4bb0-bff9-28e7bd5b0312",
-        "name": "Intel Core i5 9500T 2.2 GHz 6-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9500T",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 35,
-        "clock_speed": "2.2 GHz"
-    },
-    {
         "id": "c10315ba-abf2-4d45-98b7-43b321f9861c",
         "name": "Intel Core i5 4690 3.5 GHz 4-Core LGA1150",
         "variant": "",
@@ -4403,18 +2914,6 @@
         "threads": 4,
         "tdp": 84,
         "clock_speed": "3.5 GHz"
-    },
-    {
-        "id": "4e7cc444-43db-41c6-8f70-fdee1932ee05",
-        "name": "Intel Core i9 9900 3.1 GHz 8-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "B07RXX3Y2T",
-        "clean_name": "Intel Core i9 9900",
-        "socket": "LGA 1151",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 65,
-        "clock_speed": "3.1 GHz"
     },
     {
         "id": "b0ff6516-30cb-42fa-a1df-cb23c9029448",
@@ -4441,18 +2940,6 @@
         "clock_speed": "2.1 GHz"
     },
     {
-        "id": "8c59fccb-f3ae-4cd5-b96b-fd7d3b47a9c6",
-        "name": "Intel Core i3 9350K 4 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i3 9350K",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 91,
-        "clock_speed": "4 GHz"
-    },
-    {
         "id": "2299271b-5fcf-4a33-912d-afc59b3f3dc3",
         "name": "Intel Core i7 6850K 3.6 GHz 6-Core LGA2011-3",
         "variant": "",
@@ -4465,19 +2952,6 @@
         "clock_speed": "3.6 GHz"
     },
     {
-        "id": "01c38047-7ff9-4c99-9e81-402b8aa3bb58",
-        "name": "Intel Core i9 13900T 1.1 GHz 24-Core LGA1700 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 13900T",
-        "socket": "LGA 1700",
-        "cores": 24,
-        "threads": 32,
-        "tdp": 35,
-        "ram_type": "DDR5",
-        "clock_speed": "1.1 GHz"
-    },
-    {
         "id": "a6fe3c8d-4bf6-49ef-887b-9d53b8c635e8",
         "name": "Intel Core i9 12900 2.4 GHz 16-Core LGA1700",
         "variant": "",
@@ -4488,55 +2962,6 @@
         "threads": 24,
         "tdp": 65,
         "ram_type": "DDR5",
-        "clock_speed": "2.4 GHz"
-    },
-    {
-        "id": "7934f7d1-9dcf-4d51-853c-a0953abde6fe",
-        "name": "Intel Core i7 7740X 4.3 GHz 4-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 7740X",
-        "socket": "LGA 2066",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 112,
-        "clock_speed": "4.3 GHz"
-    },
-    {
-        "id": "ae53c927-1b48-4f59-86d7-47443af1fbc1",
-        "name": "Intel Core i5 8600K 3.6 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 8600K",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 95,
-        "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "3af33662-8d17-4e72-bdd9-200604b9db7b",
-        "name": "AMD Ryzen 5 7500X3D 4 GHz 6-Core AM5",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 7500X3D",
-        "socket": "AM5",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "4 GHz"
-    },
-    {
-        "id": "ae3450ca-6510-47c6-bb10-3d40dd861263",
-        "name": "Intel Core i5 7400T 2.4 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 7400T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
         "clock_speed": "2.4 GHz"
     },
     {
@@ -4613,18 +3038,6 @@
         "clock_speed": "3.1 GHz"
     },
     {
-        "id": "0e76b77a-5b18-453b-888e-80246be54522",
-        "name": "Intel Core i7 9800X 3.8 GHz 8-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 9800X",
-        "socket": "LGA 2066",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 165,
-        "clock_speed": "3.8 GHz"
-    },
-    {
         "id": "9b2f142a-6a8f-46bd-a0aa-4b842a20fa18",
         "name": "Intel Core Ultra 7 270K Plus",
         "variant": "270K Plus",
@@ -4635,43 +3048,6 @@
         "threads": 24,
         "tdp": 125,
         "ram_type": "DDR5"
-    },
-    {
-        "id": "f6275b5f-2489-472b-8246-58b1689cfeb8",
-        "name": "Intel Core i7 6800K 3.4 GHz 6-Core LGA2011-3",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 6800K -3",
-        "socket": "LGA 2011-3",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 140,
-        "clock_speed": "3.4 GHz"
-    },
-    {
-        "id": "082b37a2-faad-49d7-87e0-9d62750e26b5",
-        "name": "Intel Core i7 5930K 3.5 GHz 6-Core LGA2011-3 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B00PDD3H72",
-        "clean_name": "Intel Core i7 5930K -3",
-        "socket": "LGA 2011-3",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 140,
-        "clock_speed": "3.5 GHz"
-    },
-    {
-        "id": "46b131f6-a122-4028-bf08-56543b14ab7d",
-        "name": "Intel Core i3 12100T 2.2 GHz 4-Core LGA1700 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i3 12100T",
-        "socket": "LGA 1700",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 35,
-        "ram_type": "DDR5",
-        "clock_speed": "2.2 GHz"
     },
     {
         "id": "e5cfe8e9-61ec-49b0-9292-7a56aed758aa",
@@ -4698,30 +3074,6 @@
         "clock_speed": "3.3 GHz"
     },
     {
-        "id": "31fc5960-2957-41b4-b592-3565bc9b5aea",
-        "name": "Intel Core i7 8700 3.2 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B076BMW9L5",
-        "clean_name": "Intel Core i7 8700",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "clock_speed": "3.2 GHz"
-    },
-    {
-        "id": "6c855be2-28df-4960-9085-a26ca3d4cb76",
-        "name": "Intel Core i9 10980XE 3 GHz 18-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 10980XE",
-        "socket": "LGA 2066",
-        "cores": 18,
-        "threads": 36,
-        "tdp": 165,
-        "clock_speed": "3 GHz"
-    },
-    {
         "id": "51d94d56-b80d-4ea9-9653-f3588535f558",
         "name": "Intel Core i3-7100T Processor",
         "variant": "",
@@ -4732,19 +3084,6 @@
         "threads": 4,
         "tdp": 35,
         "ram_type": "DDR3"
-    },
-    {
-        "id": "40bb090d-7f4e-451e-99e5-fd9299a4aad7",
-        "name": "AMD Ryzen 5 3600 3.6 GHz 6-Core AM4",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 3600",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz"
     },
     {
         "id": "bc44a11f-518d-412f-9221-ff43d804dd39",
@@ -4781,18 +3120,6 @@
         "threads": 4,
         "tdp": 65,
         "ram_type": "DDR4"
-    },
-    {
-        "id": "08fa6fb3-63f5-4515-afca-3840908aea49",
-        "name": "Intel Core i3 9320 3.7 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i3 9320",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 62,
-        "clock_speed": "3.7 GHz"
     },
     {
         "id": "43cdf007-0563-402f-9481-47e8cec31fc6",
@@ -4858,18 +3185,6 @@
         "clock_speed": "2.1 GHz"
     },
     {
-        "id": "1c972ff9-5284-4a30-b90c-cc51c9e1bce6",
-        "name": "Intel Core i5 7500 OEM/Tray 3.4 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 7500",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3.4 GHz"
-    },
-    {
         "id": "aa55c16e-e71e-45f9-a1ba-b11d9056b691",
         "name": "Intel Core i7 4790K 4 GHz 4-Core LGA1150",
         "variant": "",
@@ -4880,55 +3195,6 @@
         "threads": 8,
         "tdp": 88,
         "clock_speed": "4 GHz"
-    },
-    {
-        "id": "208a3655-6a27-46c3-a276-acfe05108b36",
-        "name": "Intel Core i9 9980XE 3 GHz 18-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "B07JGCMQY8",
-        "clean_name": "Intel Core i9 9980XE",
-        "socket": "LGA 2066",
-        "cores": 18,
-        "threads": 36,
-        "tdp": 165,
-        "clock_speed": "3 GHz"
-    },
-    {
-        "id": "d71d4d9b-6a93-4315-b7ec-bad412fdbf57",
-        "name": "AMD Ryzen 9 3950X 3.5 GHz 16-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 9 3950X",
-        "socket": "AM4",
-        "cores": 16,
-        "threads": 32,
-        "tdp": 105,
-        "ram_type": "DDR4",
-        "clock_speed": "3.5 GHz"
-    },
-    {
-        "id": "2c54d002-b785-4e74-943d-e7288d840108",
-        "name": "Intel Core i7 6700 3.4 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "B015XEW9BA",
-        "clean_name": "Intel Core i7 6700",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 65,
-        "clock_speed": "3.4 GHz"
-    },
-    {
-        "id": "a48616b6-d2db-4efe-bfd6-1d82e093d64a",
-        "name": "Intel Core i7 Extreme 5960X 3 GHz 8-Core LGA2011-3 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 Extreme 5960X -3",
-        "socket": "LGA 2011-3",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 140,
-        "clock_speed": "3 GHz"
     },
     {
         "id": "3d98e4de-a80c-468c-afd0-6a97073dc8be",
@@ -4969,31 +3235,6 @@
         "clock_speed": "2.5 GHz"
     },
     {
-        "id": "b9eb8074-bccb-4de8-b65f-8a1d7231d014",
-        "name": "Intel Core i7 7740X 4.3 GHz 4-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "B073VMLJVV",
-        "clean_name": "Intel Core i7 7740X",
-        "socket": "LGA 2066",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 112,
-        "clock_speed": "4.3 GHz"
-    },
-    {
-        "id": "d86a9762-f320-42c7-bfa0-dd92f41d286c",
-        "name": "AMD Ryzen 3 1200 (12nm) 3.1 GHz 4-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 3 1200 (12nm)",
-        "socket": "AM4",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.1 GHz"
-    },
-    {
         "id": "d95fc453-27c6-4e83-80d6-4a4e40ca46ed",
         "name": "AMD Ryzen 7 1800X 3.6 GHz 8-Core AM4",
         "variant": "",
@@ -5031,18 +3272,6 @@
         "ram_type": "DDR4"
     },
     {
-        "id": "1b79e37a-7f91-49b9-9f77-9964b9049cfb",
-        "name": "Intel Core i9 7900X 3.3 GHz 10-Core LGA2066 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B073CJN5JJ",
-        "clean_name": "Intel Core i9 7900X",
-        "socket": "LGA 2066",
-        "cores": 10,
-        "threads": 20,
-        "tdp": 140,
-        "clock_speed": "3.3 GHz"
-    },
-    {
         "id": "137364af-2806-4177-9206-d209575ffea4",
         "name": "Intel Core i9 11900 2.5 GHz 8-Core LGA1200",
         "variant": "",
@@ -5053,18 +3282,6 @@
         "threads": 16,
         "tdp": 65,
         "clock_speed": "2.5 GHz"
-    },
-    {
-        "id": "fa0b4f9e-1718-4ce4-a77c-a227144f7b6f",
-        "name": "Intel Core i5 5675C 3.1 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 5675C",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3.1 GHz"
     },
     {
         "id": "f6b68476-baa6-4789-ba01-e34cb34567b3",
@@ -5117,53 +3334,6 @@
         "clock_speed": "3.8 GHz"
     },
     {
-        "id": "c33e2129-22d5-4028-96b1-cecd899555d7",
-        "name": "Intel Core i9 7940X 3.1 GHz 14-Core LGA2066 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 7940X",
-        "socket": "LGA 2066",
-        "cores": 14,
-        "threads": 28,
-        "tdp": 165,
-        "clock_speed": "3.1 GHz"
-    },
-    {
-        "id": "6f04117e-95fd-483a-9b27-31b2ba116adc",
-        "name": "Intel Core i9 9920X 3.5 GHz 12-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 9920X",
-        "socket": "LGA 2066",
-        "cores": 12,
-        "threads": 24,
-        "tdp": 165,
-        "clock_speed": "3.5 GHz"
-    },
-    {
-        "id": "09e91f36-20fd-4461-a117-37ef0872fc63",
-        "name": "Intel Core i7 4790K 4 GHz 4-Core LGA1150 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B00N0QZJ4S",
-        "clean_name": "Intel Core i7 4790K",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 88,
-        "clock_speed": "4 GHz"
-    },
-    {
-        "id": "f8dce6ce-17aa-426d-a513-3d4c0136f180",
-        "name": "Intel Core i9-9900K",
-        "variant": "",
-        "amazon_sku": "B005404P9I",
-        "clean_name": "Intel Core i9-9900K",
-        "socket": "LGA 1151",
-        "cores": 8,
-        "threads": 16,
-        "ram_type": "DDR4"
-    },
-    {
         "id": "15af1312-b8a1-4790-bda1-06a408ffa51a",
         "name": "Intel Core i7 6700K 4 GHz 4-Core LGA1151",
         "variant": "",
@@ -5174,30 +3344,6 @@
         "threads": 8,
         "tdp": 91,
         "clock_speed": "4 GHz"
-    },
-    {
-        "id": "5eb15d84-bd3a-48cb-a576-aebc04fdce7b",
-        "name": "Intel Core i3 9300 3.7 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i3 9300",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 62,
-        "clock_speed": "3.7 GHz"
-    },
-    {
-        "id": "2025520b-82c1-4243-8bda-cb0991f2a492",
-        "name": "Intel Core i7 7700T 2.9 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B06XP8NH89",
-        "clean_name": "Intel Core i7 7700T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 35,
-        "clock_speed": "2.9 GHz"
     },
     {
         "id": "48ac4925-1fce-4bf9-8002-a3bb6c0afe4f",
@@ -5224,18 +3370,6 @@
         "clock_speed": "3.6 GHz"
     },
     {
-        "id": "8f586be2-4905-46b3-9334-8b28cfa5d9a4",
-        "name": "Intel Core i5 5675C 3.1 GHz 4-Core LGA1150 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 5675C",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "clock_speed": "3.1 GHz"
-    },
-    {
         "id": "43597450-8c66-4f59-9ef5-c347c0a45fd4",
         "name": "AMD Ryzen 7 3800X 3.9 GHz 8-Core AM4",
         "variant": "",
@@ -5260,19 +3394,6 @@
         "tdp": 95,
         "ram_type": "DDR4",
         "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "d17da031-a70f-4dce-91bf-1b29d8aca3a8",
-        "name": "AMD Ryzen 7 7800X3D 4.2 GHz 8-Core AM5 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 7 7800X3D",
-        "socket": "AM5",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 120,
-        "ram_type": "DDR5",
-        "clock_speed": "4.2 GHz"
     },
     {
         "id": "c2900762-11b6-49bc-a728-566b56db3638",
@@ -5313,18 +3434,6 @@
         "ram_type": "DDR4"
     },
     {
-        "id": "7272e5f1-7e89-41a9-a45d-d4ff55e48d1e",
-        "name": "Intel Core i7 4770K 3.5 GHz 4-Core LGA1150",
-        "variant": "",
-        "amazon_sku": "B00CO8TBQ0",
-        "clean_name": "Intel Core i7 4770K",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 84,
-        "clock_speed": "3.5 GHz"
-    },
-    {
         "id": "9ee32220-f378-49ac-bf96-d6e2477e2063",
         "name": "Intel Core i7 7820X 3.6 GHz 8-Core LGA2066 OEM/Tray",
         "variant": "",
@@ -5335,18 +3444,6 @@
         "threads": 16,
         "tdp": 140,
         "clock_speed": "3.6 GHz"
-    },
-    {
-        "id": "e9852639-3a1e-4d6b-af8e-f9f4ed6f7a09",
-        "name": "Intel Core i5 7500T 2.7 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "B01MS73QK5",
-        "clean_name": "Intel Core i5 7500T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
-        "clock_speed": "2.7 GHz"
     },
     {
         "id": "bc962501-eb68-418a-bd69-d51512b1e3ca",
@@ -5373,67 +3470,6 @@
         "clock_speed": "3.7 GHz"
     },
     {
-        "id": "cc3a29bc-0e7a-4351-9a87-f56eba3a0d75",
-        "name": "AMD Ryzen 7 1700",
-        "variant": "",
-        "amazon_sku": "B06WP5YCX6",
-        "clean_name": "AMD Ryzen 7 1700",
-        "socket": "AM4",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 65,
-        "ram_type": "DDR4"
-    },
-    {
-        "id": "ef5ac632-1bbc-4b85-8291-ab61b16e0cae",
-        "name": "AMD Ryzen 5 5600XT 3.7 GHz 6-Core AM4 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "AMD Ryzen 5 5600XT",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.7 GHz"
-    },
-    {
-        "id": "324e7435-69f1-4a38-81b0-e671b83b3707",
-        "name": "Intel Core i7 7700K 4.2 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 7700K",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 91,
-        "clock_speed": "4.2 GHz"
-    },
-    {
-        "id": "3584f04a-5db8-4df4-970b-cd871fa67f2c",
-        "name": "Intel Core i5 7600T 2.8 GHz 4-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B01MS4OCSB",
-        "clean_name": "Intel Core i5 7600T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
-        "clock_speed": "2.8 GHz"
-    },
-    {
-        "id": "0abfd960-5cb9-4d0b-9b32-9a5f5a48b083",
-        "name": "Intel Core i7 6850K 3.6 GHz 6-Core LGA2011-3 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i7 6850K -3",
-        "socket": "LGA 2011-3",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 140,
-        "clock_speed": "3.6 GHz"
-    },
-    {
         "id": "d59fa7b6-066f-42cb-b1dd-d7a6b8b758fc",
         "name": "Intel Core i9-9940X X-series Processor",
         "variant": "",
@@ -5456,55 +3492,6 @@
         "threads": 16,
         "tdp": 65,
         "clock_speed": "2.5 GHz"
-    },
-    {
-        "id": "f830b297-cdce-4cfd-b0c8-c6e49bcb86b0",
-        "name": "Intel Core i5 10600K 4.1 GHz 6-Core LGA1200",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 10600K",
-        "socket": "LGA 1200",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 125,
-        "clock_speed": "4.1 GHz"
-    },
-    {
-        "id": "f9a8771a-0467-4f53-ac5c-0f5a95b9fa0b",
-        "name": "Intel Core i5 13500T 1.6 GHz 14-Core LGA1700 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 13500T",
-        "socket": "LGA 1700",
-        "cores": 14,
-        "threads": 20,
-        "tdp": 35,
-        "ram_type": "DDR5",
-        "clock_speed": "1.6 GHz"
-    },
-    {
-        "id": "abbabb54-67d1-46f3-b43e-6ca80c844001",
-        "name": "Intel Core i5 9400F 2.9 GHz 6-Core LGA1151 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i5 9400F",
-        "socket": "LGA 1151",
-        "cores": 6,
-        "threads": 6,
-        "tdp": 65,
-        "clock_speed": "2.9 GHz"
-    },
-    {
-        "id": "b7e510f1-0c89-4747-b8c1-459041432009",
-        "name": "Intel Core i3 9100T OEM/Tray 3.1 GHz 4-Core LGA1151",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i3 9100T",
-        "socket": "LGA 1151",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 35,
-        "clock_speed": "3.1 GHz"
     },
     {
         "id": "8fcefb4e-6fa9-4b70-8fa7-5679a9e15e9c",
@@ -5555,18 +3542,6 @@
         "tdp": 65,
         "ram_type": "DDR5",
         "clock_speed": "3.3 GHz"
-    },
-    {
-        "id": "5a121bc6-68bf-4644-9f94-93acb8c4df51",
-        "name": "Intel Core i9 9960X 3.1 GHz 16-Core LGA2066",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Intel Core i9 9960X",
-        "socket": "LGA 2066",
-        "cores": 16,
-        "threads": 32,
-        "tdp": 165,
-        "clock_speed": "3.1 GHz"
     },
     {
         "id": "766557bd-4a3c-4fb1-93e4-2e12c0264a74",
@@ -5690,18 +3665,6 @@
         "cores": 4,
         "threads": 4,
         "tdp": 91,
-        "clock_speed": "3.5 GHz"
-    },
-    {
-        "id": "fbdbb84d-28f7-4e7e-afca-a24a848ee5c7",
-        "name": "Intel Core i5 4690 3.5 GHz 4-Core LGA1150 OEM/Tray",
-        "variant": "",
-        "amazon_sku": "B00TO9ZD8M",
-        "clean_name": "Intel Core i5 4690",
-        "socket": "LGA 1150",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 84,
         "clock_speed": "3.5 GHz"
     }
 ]
