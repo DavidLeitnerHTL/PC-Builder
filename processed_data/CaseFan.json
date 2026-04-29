@@ -1185,25 +1185,6 @@
         "fan_size": "120mm"
     },
     {
-        "id": "37da102f-e3eb-487b-86a3-5a110a1479c3",
-        "name": "darkFlash DV360S MAX OEM Fan Black",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "darkFlash DV360S MAX Black",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "min_airflow": 58,
-        "max_airflow": 36.9,
-        "static_pressure": 58,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "8aaf6a10-ca3e-4e9f-a2f1-6f92342870d8",
         "name": "Enermax D.F. Vegas Duo 140mm Clear RGB",
         "variant": "140mm Clear",
@@ -4822,30 +4803,6 @@
         "features": "RGB, PWM"
     },
     {
-        "id": "22a47b71-1a35-482b-b725-5a07a38bcd60",
-        "name": "Cooler Master SickleFlow 120mm White PWM 62 CFM",
-        "variant": "120mm White",
-        "amazon_sku": "",
-        "clean_name": "Cooler Master SickleFlow White",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "None",
-        "connector": "4-pin PWM",
-        "controller": "None",
-        "is_oem": true,
-        "min_airflow": 62,
-        "max_airflow": 27,
-        "min_noise_level": 8,
-        "static_pressure": 2.5,
-        "color": [
-            "WHITE"
-        ],
-        "fan_size": "120mm",
-        "airflow": "62 CFM",
-        "features": "PWM"
-    },
-    {
         "id": "c8daec2e-19a9-4f63-8e13-a312b6eab957",
         "name": "Enermax UCHF12PARGB-W-BP3 120mm White Addressable RGB PWM 72.1 CFM 3-Pack",
         "variant": "120mm White",
@@ -6832,7 +6789,7 @@
         "id": "a05eb146-b922-413d-818b-564052cda198",
         "name": "Cooler Master SickleFlow 120mm White Addressable RGB PWM 62 CFM 1-Pack",
         "variant": "120mm White",
-        "amazon_sku": "B086KXKTR2",
+        "amazon_sku": "",
         "clean_name": "Cooler Master SickleFlow White Addressable 1-Pack",
         "size": 120,
         "quantity": 1,
@@ -6993,7 +6950,7 @@
         "id": "d2afd23c-0b5a-4619-96bf-e728c07a62e6",
         "name": "EZDIY-FAB 120mm RGB LED Case Fan for PC Cases, CPU Cooling Fan, Water Cooling Fan, Addressable RGB Case Fan with Controller- 5 Pack",
         "variant": "5 Pack",
-        "amazon_sku": "B00006HOMA",
+        "amazon_sku": "",
         "clean_name": "EZDIY-FAB for PC Cases, CPU Cooling , Water Cooling , Addressable with Controller- 5 Pack",
         "size": 120,
         "quantity": 5,
@@ -7453,7 +7410,7 @@
         "id": "1b2f1607-28a5-494f-88b5-45b11b4e0c29",
         "name": "Thermaltake Thunderblade 120mm Black/Orange",
         "variant": "120mm Black / Orange",
-        "amazon_sku": "B003819MW0",
+        "amazon_sku": "",
         "clean_name": "Thermaltake Thunderblade Black/Orange",
         "size": 120,
         "quantity": 1,
@@ -8304,7 +8261,7 @@
         "id": "45d84169-f8a1-4707-a877-4c1c4ffe5936",
         "name": "MUSETEX 120mm White ARGB Reverse PC Fans",
         "variant": "120mm White Reverse Blade",
-        "amazon_sku": "B0CGV8RRLT",
+        "amazon_sku": "",
         "clean_name": "MUSETEX White Reverse PC s",
         "size": 120,
         "quantity": 1,
@@ -8357,7 +8314,7 @@
         "led": "Addressable RGB",
         "connector": "4-pin PWM",
         "controller": "USB",
-        "flow_direction": "Reverse",
+        "flow_direction": "Standard",
         "is_oem": false,
         "min_airflow": 72.3,
         "min_noise_level": 30.8,
@@ -10406,44 +10363,6 @@
         "fan_size": "120mm"
     },
     {
-        "id": "f4cd7a8b-3038-4657-afd2-9d1ff5fef9a7",
-        "name": "MOROVOL Center Ring LED Black 120mm",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "MOROVOL Center Ring Black",
-        "size": 120,
-        "quantity": 1,
-        "led": "RGB",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "fan_size": "120mm",
-        "features": "LED"
-    },
-    {
-        "id": "3afe3a92-c8d9-4ad3-ae60-3477c98cfdc5",
-        "name": "Thermaltake SF360 Reverse Fan White",
-        "variant": "120mm White",
-        "amazon_sku": "",
-        "clean_name": "Thermaltake SF360 Reverse White",
-        "size": 360,
-        "quantity": 3,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-        "flow_direction": "Reverse",
-        "is_oem": true,
-        "min_airflow": 173.96,
-        "min_noise_level": 36.4,
-        "static_pressure": 1.8,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
         "id": "36e565b4-ecf6-4ef1-89e9-ffa1a2285ae4",
         "name": "ARCTIC P14 Pro 140mm PWM PST CO 110 CFM Black 1-Pack",
         "variant": "140mm Black",
@@ -12115,23 +12034,6 @@
             "GREEN"
         ],
         "fan_size": "80mm"
-    },
-    {
-        "id": "8df3b76c-d04f-4716-bb05-a01504fc3397",
-        "name": "SAMA S40 120mm ARGB White OEM",
-        "variant": "120mm White",
-        "amazon_sku": "",
-        "clean_name": "SAMA S40 White",
-        "size": 120,
-        "quantity": 1,
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "color": [
-            "WHITE",
-            "RGB"
-        ],
-        "fan_size": "120mm",
-        "features": "ARGB"
     },
     {
         "id": "f021288e-af29-4c39-bb01-ebc9e3d932fa",
@@ -13857,7 +13759,7 @@
         "id": "023c735f-b34f-4101-863e-a003859eb9c2",
         "name": "StarTech FANBOX 92mm Black 39.35CFM",
         "variant": "92mm Black",
-        "amazon_sku": "B0006L2HTK",
+        "amazon_sku": "",
         "clean_name": "StarTech BOX Black",
         "size": 92,
         "quantity": 1,
@@ -14115,7 +14017,7 @@
         "id": "22c0c44b-3e31-4e84-9300-0dcbc4f833fa",
         "name": "ARCTIC BioniX P120 120mm Black Addressable RGB PWM 48 CFM 3-Pack",
         "variant": "120mm Black",
-        "amazon_sku": "B08FBH1VZP",
+        "amazon_sku": "",
         "clean_name": "ARCTIC BioniX P120 Black Addressable 3-Pack",
         "size": 120,
         "quantity": 3,
@@ -20428,23 +20330,6 @@
         "features": "RGB"
     },
     {
-        "id": "1558fe9d-0fb2-4ab3-9039-47aa6b32d3e5",
-        "name": "SAMA S40 Reverse 120mm ARGB White OEM",
-        "variant": "120mm White Reverse Blade",
-        "amazon_sku": "",
-        "clean_name": "SAMA S40 Reverse White",
-        "size": 120,
-        "quantity": 1,
-        "flow_direction": "Reverse",
-        "is_oem": true,
-        "color": [
-            "WHITE",
-            "RGB"
-        ],
-        "fan_size": "120mm",
-        "features": "ARGB"
-    },
-    {
         "id": "e2ac5fab-676f-4b59-9a42-430f97c593c8",
         "name": "Asiahorse NYOTA Ultra 120mm Daisy Chain PWN Fans White Reverse Blade",
         "variant": "120mm White Reverse Blade",
@@ -21054,7 +20939,7 @@
         "led": "Addressable RGB",
         "connector": "4-pin PWM",
         "controller": "USB",
-        "flow_direction": "Reverse",
+        "flow_direction": "Standard",
         "is_oem": false,
         "min_airflow": 103.9,
         "min_noise_level": 29,
@@ -21964,7 +21849,7 @@
         "id": "8c8f4911-4787-423a-be4b-906cb2b546b1",
         "name": "Thermalright TL-B6B 60mm Black PWM",
         "variant": "60mm Black",
-        "amazon_sku": "B0D9XY87ST",
+        "amazon_sku": "",
         "clean_name": "Thermalright TL-B6B Black",
         "size": 60,
         "quantity": 1,
@@ -23513,22 +23398,6 @@
         "fan_size": "120 mm"
     },
     {
-        "id": "80f31c63-7bb2-442c-a828-9488457ba629",
-        "name": "Lian Li Vector OEM 120mm ARGB Reverse Black",
-        "variant": "120mm Black Reverse Blade",
-        "amazon_sku": "",
-        "clean_name": "Lian Li Vector Reverse Black",
-        "size": 120,
-        "quantity": 1,
-        "flow_direction": "Reverse",
-        "is_oem": true,
-        "color": [
-            "BLACK"
-        ],
-        "fan_size": "120mm",
-        "features": "ARGB"
-    },
-    {
         "id": "68b26ec1-6dcc-4c74-915e-84e4840988ce",
         "name": "NZXT F140 140mm White PWM RGB 2-Pack",
         "variant": "140mm White",
@@ -24559,7 +24428,7 @@
         "id": "d142e916-bf97-4c7c-a261-003ef8692634",
         "name": "Deepcool RF M 56.5 CFM 120mm Black / White RGB PWM 5-Pack",
         "variant": "120mm Black / White",
-        "amazon_sku": "B07GDRDGN2",
+        "amazon_sku": "",
         "clean_name": "Deepcool RF M Black / White 5-Pack",
         "size": 120,
         "quantity": 5,
@@ -24603,27 +24472,6 @@
         "fan_size": "140mm",
         "airflow": "104 CFM",
         "features": "PWM"
-    },
-    {
-        "id": "ab88df0a-b597-47f8-bc10-e7f573def74e",
-        "name": "Thermaltake SF120 ARGB White",
-        "variant": "120mm",
-        "amazon_sku": "",
-        "clean_name": "Thermaltake SF120 White",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "min_airflow": 58.7,
-        "min_noise_level": 31.2,
-        "static_pressure": 2,
-        "color": [
-            "WHITE"
-        ],
-        "features": "ARGB"
     },
     {
         "id": "f53c733e-96de-4c00-93ea-05b379cb67ef",
@@ -25605,7 +25453,7 @@
         "id": "b23af687-b9e5-45b7-b70e-89638f6d4f53",
         "name": "Noctua NF-F12 iPPC-2000 PWM, Heavy Duty Cooling Fan, 4-Pin, 2000 RPM ",
         "variant": "F12 industrialPPC-2000",
-        "amazon_sku": "B00KFCRATC",
+        "amazon_sku": "",
         "clean_name": "Noctua NF-F12 iPPC-2000 , Heavy Duty Cooling , 4-Pin",
         "size": 120,
         "quantity": 1,
@@ -26176,7 +26024,7 @@
         "id": "bde2cb9d-9ba5-4dc1-b2fa-f781f94070cd",
         "name": "Fractal Design Silent R2 120mm White",
         "variant": "120mm White",
-        "amazon_sku": "B008YH1AV4",
+        "amazon_sku": "",
         "clean_name": "Fractal Design Silent R2 White",
         "size": 120,
         "quantity": 1,
@@ -27480,7 +27328,7 @@
         "id": "c0982b18-78e8-4c85-8e68-218624b0199c",
         "name": "Thermaltake CT140 140mm Blue PWM ARGB 3-Pack",
         "variant": "140mm Blue",
-        "amazon_sku": "B0D7NK8G86",
+        "amazon_sku": "",
         "clean_name": "Thermaltake CT140 Blue 3-Pack",
         "size": 140,
         "quantity": 3,
@@ -28475,7 +28323,7 @@
         "id": "8334464b-1e6c-4fb2-ac30-b493ca211dc3",
         "name": "StarTech FAN12025PWM 120mm Black 78.41 CFM",
         "variant": "120mm Black",
-        "amazon_sku": "B006G66RAE",
+        "amazon_sku": "",
         "clean_name": "StarTech 12025 Black",
         "size": 120,
         "quantity": 1,
@@ -29398,28 +29246,6 @@
         "features": "PWM"
     },
     {
-        "id": "7a4fb3d3-52e2-458c-bf64-e94acddfdb07",
-        "name": "Thermaltake SF120 ARGB Black",
-        "variant": "120mm",
-        "amazon_sku": "",
-        "clean_name": "Thermaltake SF120 Black",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "min_airflow": 58.7,
-        "min_noise_level": 31.2,
-        "static_pressure": 2,
-        "color": [
-            "BLACK"
-        ],
-        "features": "ARGB"
-    },
-    {
         "id": "31e9d19c-6b42-49a5-88c6-9b538571fae6",
         "name": "BitFenix Spectre Pro 230mm Black Blue 156.27 CFM",
         "variant": "230mm Black",
@@ -29664,7 +29490,7 @@
         "id": "a6e81cbd-dfa1-4b07-9bb4-41da2d610b57",
         "name": "Efferey 100mm CPU Heatsink Cooler Black/Red",
         "variant": "",
-        "amazon_sku": "B019SY3V2C",
+        "amazon_sku": "",
         "clean_name": "Efferey CPU Heatsink Cooler Black/Red",
         "is_oem": false,
         "color": [],
@@ -29888,7 +29714,7 @@
         "id": "48bc70bd-cc38-45ee-b612-309b801231fd",
         "name": "Thermalright TL-C12CW-S X3 120mm White PWM Addressable RGB 66.17 CFM 3-Pack",
         "variant": "120mm White",
-        "amazon_sku": "B0BKK2MBWG",
+        "amazon_sku": "",
         "clean_name": "Thermalright TL-C12CW-S X3 White Addressable 3-Pack",
         "size": 120,
         "quantity": 3,
@@ -30605,7 +30431,7 @@
         "led": "Addressable RGB",
         "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
         "controller": "None",
-        "flow_direction": "Reverse",
+        "flow_direction": "Standard",
         "is_oem": false,
         "min_airflow": 48.8,
         "min_noise_level": 28.5,
@@ -30835,23 +30661,6 @@
         "fan_size": "140mm",
         "airflow": "41 CFM",
         "features": "RGB"
-    },
-    {
-        "id": "8d6d6494-43ee-4b0a-8725-d48ca87e556c",
-        "name": "MOROVOL Outer Ring LED Black 120mm",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "MOROVOL Outer Ring Black",
-        "size": 120,
-        "quantity": 1,
-        "led": "RGB",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "color": [
-            "BLACK"
-        ],
-        "fan_size": "120mm",
-        "features": "LED"
     },
     {
         "id": "ac7adbdd-e237-4232-81c0-ec536dfe1d7f",
@@ -33571,22 +33380,6 @@
         "features": "PWM, RGB"
     },
     {
-        "id": "7307cfd8-8b54-4eca-8e88-1199f3b1cdbc",
-        "name": "Lian Li Vector OEM 120mm ARGB Reverse White",
-        "variant": "120mm White Reverse Blade",
-        "amazon_sku": "",
-        "clean_name": "Lian Li Vector Reverse White",
-        "size": 120,
-        "quantity": 1,
-        "flow_direction": "Reverse",
-        "is_oem": true,
-        "color": [
-            "WHITE"
-        ],
-        "fan_size": "120mm",
-        "features": "ARGB"
-    },
-    {
         "id": "a66cf5a3-fe4b-45a4-b616-e0e43f06c5d7",
         "name": "Montech METAL PRO 12 OEM Black",
         "variant": "",
@@ -35453,29 +35246,6 @@
         "fan_size": "120mm",
         "airflow": "48.58 CFM",
         "features": "RGB, PWM"
-    },
-    {
-        "id": "c246eddb-10f3-4e94-ad10-b58aa287c206",
-        "name": "Cooler Master Spectrum 120mm (OEM)",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "Cooler Master Spectrum ()",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "min_airflow": 71.93,
-        "min_noise_level": 27.2,
-        "static_pressure": 1.86,
-        "color": [
-            "RGB",
-            "BLACK"
-        ],
-        "fan_size": "120mm"
     },
     {
         "id": "a4c16fc5-736f-422b-ac0a-96d484eb5b38",
@@ -38417,7 +38187,7 @@
         "id": "ffc02326-5c1e-419e-844c-572c9ce7839a",
         "name": "ID-COOLING TF-12025-ARGB-TRIO 120mm Black / White PWM ARGB 3-Pack",
         "variant": "120mm Black / White",
-        "amazon_sku": "B09CTMYFL3",
+        "amazon_sku": "",
         "clean_name": "ID-COOLING TF-12025--TRIO Black / White 3-Pack",
         "size": 120,
         "quantity": 3,
@@ -38480,23 +38250,6 @@
             "BROWN"
         ],
         "fan_size": "120mm"
-    },
-    {
-        "id": "51e01555-0c1a-447f-91e0-1e181e0d6aa4",
-        "name": "Lian Li Vector OEM 120mm ARGB Fan White",
-        "variant": "120mm White",
-        "amazon_sku": "",
-        "clean_name": "Lian Li Vector White",
-        "size": 120,
-        "quantity": 1,
-        "led": "Addressable RGB",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "color": [
-            "WHITE"
-        ],
-        "fan_size": "120mm",
-        "features": "ARGB"
     },
     {
         "id": "5b52ee5e-cf60-4205-9bd7-8e9b729a4f4a",
@@ -38711,7 +38464,7 @@
         "led": "Addressable RGB",
         "connector": "4-pin PWM",
         "controller": "USB",
-        "flow_direction": "Reverse",
+        "flow_direction": "Standard",
         "is_oem": false,
         "min_airflow": 51.45,
         "min_noise_level": 31,
@@ -42391,7 +42144,7 @@
         "id": "f90eb8c1-a4a2-4924-b4fb-1d037e05ff46",
         "name": "ARCTIC F 140mm Black PWM PST 5-Pack",
         "variant": "140mm Black",
-        "amazon_sku": "B08QNCMQDL",
+        "amazon_sku": "",
         "clean_name": "ARCTIC F Black PST 5-Pack",
         "size": 140,
         "quantity": 5,
@@ -45023,7 +44776,7 @@
         "id": "4dcc6583-e96d-41f1-9ccb-f95e7f5ae5b9",
         "name": "MUSETEX 120mm Black ARGB Reverse PC Fans",
         "variant": "120mm Black Reverse Blade",
-        "amazon_sku": "B0FHQBNFSS",
+        "amazon_sku": "",
         "clean_name": "MUSETEX Black Reverse PC s",
         "size": 120,
         "quantity": 1,
@@ -45536,7 +45289,7 @@
         "id": "df94e661-b355-43b4-951e-9821417fb76b",
         "name": "Rosewill ROCF-13001 120mm Black 38.2 CFM 1-Pack",
         "variant": "120mm Black",
-        "amazon_sku": "B00KB8CB9O",
+        "amazon_sku": "",
         "clean_name": "Rosewill ROCF-13001 Black 1-Pack",
         "size": 120,
         "quantity": 1,
@@ -47229,22 +46982,6 @@
         "features": "ARGB, PWM, RGB"
     },
     {
-        "id": "92b7f8ab-a557-4bff-aea8-3dc8b974e372",
-        "name": "Lian Li Vector OEM 120mm ARGB Fan Black",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "Lian Li Vector Black",
-        "size": 120,
-        "led": "Addressable RGB",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "color": [
-            "BLACK"
-        ],
-        "fan_size": "120mm",
-        "features": "ARGB"
-    },
-    {
         "id": "3f24b518-504f-4578-8227-745a44ead0d7",
         "name": "Arctic P12 Pro Reverse Black 120mm",
         "variant": "",
@@ -48571,7 +48308,7 @@
         "id": "3c4ad2b3-ba63-431b-b557-21824e053ae5",
         "name": "Corsair SP120 120mm Black High Performance 2-Pack",
         "variant": "120mm Black",
-        "amazon_sku": "B007RESFVI",
+        "amazon_sku": "",
         "clean_name": "Corsair SP120 Black High Performance 2-Pack",
         "size": 120,
         "quantity": 2,
@@ -49099,7 +48836,7 @@
         "id": "b639fbb9-5d75-4b98-b35c-d18bfb8bc5f7",
         "name": "StarTech FANBOX 120mm Black",
         "variant": "120mm Black",
-        "amazon_sku": "B00066HL4Q",
+        "amazon_sku": "",
         "clean_name": "StarTech BOX Black",
         "size": 120,
         "quantity": 1,
@@ -49608,7 +49345,7 @@
         "id": "84125414-0954-41c8-9f1e-24d9a5b4717e",
         "name": "Corsair ML Elite 120mm White PWM",
         "variant": "120mm White",
-        "amazon_sku": "B09HDQV1TG",
+        "amazon_sku": "",
         "clean_name": "Corsair ML Elite White",
         "size": 120,
         "quantity": 1,
@@ -50292,22 +50029,6 @@
         ],
         "fan_size": "120mm",
         "features": "PWM, ARGB"
-    },
-    {
-        "id": "b924dd9a-18ed-4507-b09a-d08fbd289df1",
-        "name": "SAMA S40 120mm ARGB Black OEM",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "SAMA S40 Black",
-        "size": 120,
-        "quantity": 1,
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "color": [
-            "BLACK"
-        ],
-        "fan_size": "120mm",
-        "features": "ARGB"
     },
     {
         "id": "dad85298-945c-432b-9d5c-24d5d589bf76",
@@ -51102,7 +50823,7 @@
         "id": "cd8d8ba0-c590-4292-aac0-0e99d21cd6d6",
         "name": "Apevia Lunar Pro 120mm RGB 57.67 CFM White / Black 4-Pack",
         "variant": "120mm White / Black",
-        "amazon_sku": "B08PMVRWV2",
+        "amazon_sku": "",
         "clean_name": "Apevia Lunar Pro White / Black 4-Pack",
         "size": 120,
         "quantity": 4,
@@ -51642,7 +51363,7 @@
         "id": "3dcc94ad-6b91-4611-8f14-f7e596d2bcc4",
         "name": "NZXT AER RGB 2 120mm White Addressable RGB PWM 52.44 CFM 3-Pack",
         "variant": "120mm White",
-        "amazon_sku": "B09GKMKY8Y",
+        "amazon_sku": "",
         "clean_name": "NZXT AER 2 White Addressable 3-Pack",
         "size": 120,
         "quantity": 3,
@@ -52136,7 +51857,7 @@
         "id": "c65a84d3-1056-47c3-a30b-26dda89b3e13",
         "name": "StarTech FAN9X25TX3L 92mm Black 31.84 CFM 1-Pack",
         "variant": "92mm Black",
-        "amazon_sku": "B00006B8EN",
+        "amazon_sku": "",
         "clean_name": "StarTech 9X25TX3L Black 1-Pack",
         "size": 92,
         "quantity": 1,
@@ -53003,27 +52724,6 @@
         ]
     },
     {
-        "id": "1e143916-7678-41da-98b8-23030934334c",
-        "name": "Montech Metal PRO 12 Silent Black",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "Montech Metal PRO 12 Silent Black",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "None",
-        "connector": "4-pin PWM",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "min_airflow": 72.3,
-        "min_noise_level": 24.8,
-        "static_pressure": 3.12,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "8e75582d-3dca-40f9-9793-2008e52d67ef",
         "name": "Rosewill RNBL-131209B 120mm Black Blue LED 59.8 CFM",
         "variant": "120mm Black",
@@ -53447,7 +53147,7 @@
         "id": "6da084a9-3958-4e8b-ae6e-958587b77e55",
         "name": "Corsair iCUE ML RGB ELITE Premium 140mm White Addressable RGB PWM 82.9 CFM",
         "variant": "140mm White",
-        "amazon_sku": "B09HDSFS3P",
+        "amazon_sku": "",
         "clean_name": "Corsair iCUE ML ELITE Premium White Addressable",
         "size": 140,
         "quantity": 1,
@@ -54078,30 +53778,6 @@
             "BLACK"
         ],
         "features": "PWM, ARGB"
-    },
-    {
-        "id": "0769fe3c-bf50-4190-93d8-d46dcac832ca",
-        "name": "Cooler Master MasterFan MF200R ARGB White 90.3 CFM 200 mm Fan",
-        "variant": "ARGB",
-        "amazon_sku": "",
-        "clean_name": "Cooler Master Master MF200R White",
-        "size": 200,
-        "quantity": 1,
-        "pwm": false,
-        "led": "Addressable RGB",
-        "connector": "3-pin + 3-pin 5V Addressable RGB",
-        "controller": "None",
-        "is_oem": true,
-        "min_airflow": 90.3,
-        "min_noise_level": 28,
-        "static_pressure": 0.88,
-        "color": [
-            "WHITE",
-            "RGB"
-        ],
-        "fan_size": "200 mm",
-        "airflow": "90.3 CFM",
-        "features": "ARGB"
     },
     {
         "id": "77bc652c-2003-48f6-b02b-2b1fccba8351",
@@ -55376,7 +55052,7 @@
         "id": "50d2104c-00ba-4386-8a93-737ce3ab6246",
         "name": "Fractal Design Prisma AL 120mm White/Black PWM ARGB 3-Pack",
         "variant": "120mm White / Black",
-        "amazon_sku": "B07P8TS7DP",
+        "amazon_sku": "",
         "clean_name": "Fractal Design Prisma AL White/Black 3-Pack",
         "size": 120,
         "quantity": 3,
@@ -55423,7 +55099,7 @@
         "id": "53bd7895-3b8a-4e7c-a107-24bf8d0d4ca3",
         "name": "Rosewill RGBF-S12001 120mm Addressable RGB PWM 41.2 CFM Black 3-Pack",
         "variant": "120mm Black",
-        "amazon_sku": "B07MR44JLQ",
+        "amazon_sku": "",
         "clean_name": "Rosewill F-S12001 Addressable Black 3-Pack",
         "size": 120,
         "quantity": 3,
@@ -56229,7 +55905,7 @@
         "id": "02c87c7a-99a9-402b-a1dc-13ade93ebb94",
         "name": "upHere RGB Series Case Fan, Wireless RGB LED 120mm Fan,Quiet Edition High Airflow Adjustable Color LED Case Fan for PC Cases-5 Pack,RGB123-5",
         "variant": "Wireless RGB LED 120mm Fan,Quiet Edition",
-        "amazon_sku": "B07KGYG8N7",
+        "amazon_sku": "",
         "clean_name": "upHere Series , Wireless ,Quiet Edition High Airflow Adjustable Color for PC Cases-5 Pack,123-5",
         "size": 120,
         "quantity": 5,
@@ -56470,27 +56146,6 @@
         ],
         "fan_size": "120mm",
         "features": "PWM"
-    },
-    {
-        "id": "950df133-f5ed-4e51-87bd-dbf3b9592059",
-        "name": "Minorsonic OEM Fan Black",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "Minorsonic Black",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "None",
-        "connector": "4-pin PWM",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "min_airflow": 66.17,
-        "min_noise_level": 30,
-        "static_pressure": 1.53,
-        "color": [
-            "BLACK"
-        ]
     },
     {
         "id": "11210a22-3229-45ec-9997-6def330b43da",
@@ -56915,7 +56570,7 @@
         "id": "ae7fc37a-9123-41b9-87dc-5cd86efe7b93",
         "name": "Asiahorse NYOTA Ultra 120mm Daisy Chain PWN Fans(3-Pack) Black",
         "variant": "120mm Black Pack of 3",
-        "amazon_sku": "B0FBW34V43",
+        "amazon_sku": "",
         "clean_name": "Asiahorse NYOTA Ultra Daisy Chain PWN s(3-Pack) Black",
         "size": 120,
         "quantity": 3,
@@ -57608,7 +57263,7 @@
         "id": "c0d3eeca-220c-4a63-bf8b-a690acf79355",
         "name": "darkFlash Aurora DR12 PRO 120mm Black 20.34 CFM Addressable RGB 5-Pack",
         "variant": "120mm Black",
-        "amazon_sku": "B07CGH9CZL",
+        "amazon_sku": "",
         "clean_name": "darkFlash Aurora DR12 PRO Black Addressable 5-Pack",
         "size": 120,
         "quantity": 5,
@@ -57626,23 +57281,6 @@
         "fan_size": "120mm",
         "airflow": "20.34 CFM",
         "features": "RGB"
-    },
-    {
-        "id": "7bcb359d-78b5-4eaf-a38b-93cd7d79b5cc",
-        "name": "SAMA S40 Reverse 120mm ARGB Black OEM",
-        "variant": "120mm Black Reverse Blade ",
-        "amazon_sku": "",
-        "clean_name": "SAMA S40 Reverse Black",
-        "size": 120,
-        "quantity": 1,
-        "flow_direction": "Reverse",
-        "is_oem": true,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "fan_size": "120mm",
-        "features": "ARGB"
     },
     {
         "id": "240577bf-fdf0-4ab7-95db-f3249c3fc5a2",
@@ -59045,7 +58683,7 @@
     {
         "id": "db38f1cb-9e33-4970-884c-275d7686bef6",
         "name": "140mm black fan",
-        "amazon_sku": "B09JNDQKXD",
+        "amazon_sku": "",
         "clean_name": "black",
         "size": 140,
         "quantity": 1,
@@ -61146,29 +60784,6 @@
         "airflow": "38 CFM"
     },
     {
-        "id": "804b463a-2e89-4127-a777-d806066ba6ba",
-        "name": "Minorsonic ARGB OEM Fan Black",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "Minorsonic Black",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "min_airflow": 66.17,
-        "min_noise_level": 30,
-        "static_pressure": 1.53,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "features": "ARGB"
-    },
-    {
         "id": "3a7f2918-8201-447e-bf8f-f7c6536ad0da",
         "name": "HYTE FA12 Fans 4-Pack Pitch Black",
         "variant": "120mm Black - 4 Pack",
@@ -62268,7 +61883,7 @@
         "id": "ef11aa1c-f6cb-4841-99a9-ed31473a40d6",
         "name": "Asiahorse Nyota A14 140mm PC Case Fan – High-Efficiency Cooling Reverse Blade Black",
         "variant": "140mm Black Reverse Blade",
-        "amazon_sku": "B0DP2JVNCP",
+        "amazon_sku": "",
         "clean_name": "Asiahorse Nyota A14 PC – High-Efficiency Cooling Reverse Blade Black",
         "size": 140,
         "quantity": 1,
@@ -62459,24 +62074,6 @@
         "color": [],
         "fan_size": "120mm",
         "features": "ARGB"
-    },
-    {
-        "id": "3d23f650-bc4f-4c5b-bf02-32b8a23d9c01",
-        "name": "Thermalright TL-D14CB",
-        "variant": "D14",
-        "amazon_sku": "",
-        "clean_name": "Thermalright TL-D14CB",
-        "pwm": true,
-        "led": "None",
-        "connector": "4-pin PWM",
-        "controller": "None",
-        "is_oem": true,
-        "min_airflow": 77.8,
-        "min_noise_level": 25.6,
-        "static_pressure": 2.1,
-        "color": [
-            "BLACK"
-        ]
     },
     {
         "id": "59ba65fc-4d33-4899-b98d-17226f436135",
@@ -62865,23 +62462,6 @@
         "features": "ARGB, PWM, RGB"
     },
     {
-        "id": "57145360-1bc4-4362-a1c4-dcc642e656c2",
-        "name": "SilverStone FARA514X OEM 120mm White ARGB",
-        "variant": "120mm White",
-        "amazon_sku": "",
-        "clean_name": "SilverStone FARA514X White",
-        "size": 120,
-        "quantity": 1,
-        "led": "Addressable RGB",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "color": [
-            "WHITE"
-        ],
-        "fan_size": "120mm",
-        "features": "ARGB"
-    },
-    {
         "id": "aa45f865-ec27-49e2-8a43-c5226b205f9f",
         "name": "Thermaltake Pure 140mm Black",
         "variant": "140mm Black",
@@ -63023,7 +62603,7 @@
         "id": "e947aef4-9727-41f1-b917-e73190284512",
         "name": "Apevia CF4S-BK 80mm Black 25.64 CFM",
         "variant": "80mm Black",
-        "amazon_sku": "B003F2E04C",
+        "amazon_sku": "",
         "clean_name": "Apevia CF4S-BK Black",
         "size": 80,
         "quantity": 1,
@@ -64495,7 +64075,7 @@
         "id": "cb2f1ca2-5728-4f95-8e71-1b1c8c36db83",
         "name": "Scythe Kaze Flex Square 140mm Black PWM 67.2 CFM",
         "variant": "140mm Black",
-        "amazon_sku": "B08FR3NMR3",
+        "amazon_sku": "",
         "clean_name": "Scythe Kaze Flex Square Black",
         "size": 140,
         "quantity": 1,
@@ -64696,7 +64276,7 @@
         "id": "91b1ab22-a218-4837-ba8f-b0d8132a4ac8",
         "name": "Corsair SP120 120mm Black PWM 62.74 CFM",
         "variant": "120mm Black",
-        "amazon_sku": "B00C249PUI",
+        "amazon_sku": "",
         "clean_name": "Corsair SP120 Black",
         "size": 120,
         "quantity": 1,
@@ -65051,21 +64631,6 @@
             "BLUE"
         ],
         "fan_size": "80mm"
-    },
-    {
-        "id": "67bc09ba-c3a0-4aae-a8e3-eb184a2894a5",
-        "name": "Razer OEM Fans 120mm",
-        "variant": "",
-        "amazon_sku": "",
-        "clean_name": "Razer s",
-        "led": "Addressable RGB",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "static_pressure": 2.47,
-        "color": [
-            "BLACK"
-        ],
-        "fan_size": "120mm"
     },
     {
         "id": "e9c9c8d5-7d74-49e0-b55c-79a8146b331f",
@@ -65654,7 +65219,7 @@
         "id": "ff73e0a8-c726-432c-ae89-2693156cc4d9",
         "name": "Deepcool RF 120mm Black / White PWM RGB 1-Pack",
         "variant": "120mm Black / White",
-        "amazon_sku": "B074P19HSL",
+        "amazon_sku": "",
         "clean_name": "Deepcool RF Black / White 1-Pack",
         "size": 120,
         "quantity": 1,
@@ -66150,7 +65715,7 @@
         "id": "c6e7c9bc-77ae-48f7-bac3-f0a30fcc3f69",
         "name": "Fractal Design Dynamic X2 GP-14 140mm White",
         "variant": "140mm White",
-        "amazon_sku": "B01KIUF82Q",
+        "amazon_sku": "",
         "clean_name": "Fractal Design Dynamic X2 GP-14 White",
         "size": 140,
         "quantity": 1,
@@ -66383,26 +65948,6 @@
         "features": "ARGB"
     },
     {
-        "id": "2aeeae47-e56a-48ce-aa3b-23577532c1e5",
-        "name": "Thermaltake SF360 Reverse Fan Black",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "Thermaltake SF360 Reverse Black",
-        "size": 360,
-        "quantity": 3,
-        "pwm": true,
-        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-        "controller": "None",
-        "flow_direction": "Reverse",
-        "is_oem": true,
-        "min_airflow": 173.96,
-        "min_noise_level": 36.4,
-        "static_pressure": 1.8,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "a5afb335-3995-4572-9a71-ac8f7ef1a7e6",
         "name": "Enermax T.B. Vegas Trio 120mm Translucent Black Multicolor PWM 67.48 CFM 1-Pack",
         "variant": "120mm Translucent Black",
@@ -66430,7 +65975,7 @@
         "id": "4c465089-1113-49a0-845c-eb8fa6c5de4d",
         "name": "Geometric Future Squama 2503 140mm White Addressable RGB PWM 91.15 CFM 1-Pack",
         "variant": "140mm White",
-        "amazon_sku": "B0CHR7XPVX",
+        "amazon_sku": "",
         "clean_name": "Geometric Future Squama 2503 White Addressable 1-Pack",
         "size": 140,
         "quantity": 1,
@@ -67401,25 +66946,6 @@
         ],
         "fan_size": "80mm",
         "airflow": "36 CFM"
-    },
-    {
-        "id": "83a86d24-52da-427f-a8f6-dd7cd908c9c0",
-        "name": "SilverStone FARA514X OEM 120mm Black ARGB",
-        "variant": "120mm Black",
-        "amazon_sku": "",
-        "clean_name": "SilverStone FARA514X Black",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "color": [
-            "BLACK"
-        ],
-        "fan_size": "120mm",
-        "features": "ARGB"
     },
     {
         "id": "4e7b55e6-e0ad-4525-b0e3-bc8658688961",
@@ -69280,27 +68806,6 @@
             "WHITE"
         ],
         "fan_size": "120mm"
-    },
-    {
-        "id": "1ffe61ac-1673-40cb-8361-9fc0815fa58e",
-        "name": "HYTE FA12 Fans 4-Pack Snow White",
-        "variant": "120mm White - 4 Pack",
-        "amazon_sku": "B0FMJ35F73",
-        "clean_name": "HYTE FA12 s 4-Pack Snow White",
-        "size": 120,
-        "quantity": 4,
-        "pwm": true,
-        "led": "None",
-        "connector": "4-pin PWM",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "min_airflow": 72,
-        "min_noise_level": 28,
-        "static_pressure": 1.6,
-        "color": [
-            "WHITE"
-        ]
     },
     {
         "id": "aabae552-dc0c-4264-8a81-7c50b62d4bc8",
@@ -71688,7 +71193,7 @@
         "id": "64d1d383-af67-4096-924b-58e28296d842",
         "name": "Corsair ML120 120mm White / Black PWM 2-Pack",
         "variant": "120mm White / Black",
-        "amazon_sku": "B08DL4RF71",
+        "amazon_sku": "",
         "clean_name": "Corsair ML120 White / Black 2-Pack",
         "size": 120,
         "quantity": 2,
@@ -72351,7 +71856,7 @@
     {
         "id": "bc2308fd-d5e4-4ab5-9046-5717946921fc",
         "name": "BitFenix Spectre Pro Solid White 230mm Case Fan",
-        "amazon_sku": "B008UZ0QVA",
+        "amazon_sku": "",
         "clean_name": "BitFenix Spectre Pro Solid White",
         "size": 120,
         "quantity": 1,
@@ -72440,22 +71945,6 @@
             "BLACK"
         ],
         "fan_size": "120mm"
-    },
-    {
-        "id": "baa1e438-ad2d-4ac5-9802-fdb910014953",
-        "name": "darkFlash DV360S MAX OEM Fan White",
-        "variant": "120mm White",
-        "amazon_sku": "",
-        "clean_name": "darkFlash DV360S MAX White",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "flow_direction": "Standard",
-        "is_oem": true,
-        "color": [
-            "WHITE"
-        ]
     },
     {
         "id": "cbff7f50-6f27-4b44-aee6-f78ec0ed0d25",
