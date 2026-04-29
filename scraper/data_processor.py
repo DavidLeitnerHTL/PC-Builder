@@ -77,6 +77,17 @@ _EXCLUDED_STORAGE_NAMES_RE = re.compile(
     re.IGNORECASE
 )
 
+# PSU: consumer form factors and sane wattage range
+_CONSUMER_PSU_TYPES = {"atx", "sfx", "sfxl"}  # normalised (no spaces/hyphens)
+_PSU_MIN_W = 350
+_PSU_MAX_W = 1600
+
+# PCCase: must support at least one standard consumer MB form factor
+_CONSUMER_CASE_MB_FORMS = {
+    "atx", "microatx", "matx", "miniitx",
+    "eatx", "extendedatx",
+}
+
 # ==========================================
 # FILTER FUNCTIONS
 # ==========================================
@@ -134,24 +145,77 @@ def is_modern_ram(name, speed=""):
     return True
 
 
-def is_consumer_storage(interface, capacity_str="", name=""):
-    """Exclude SAS / enterprise-only storage."""
+def _parse_capacity_gb(s):
+    if not s:
+        return None
+    m = re.search(r"([\d.]+)\s*(tb|gb|mb)", str(s).lower())
+    if not m:
+        return None
+    v = float(m.group(1))
+    u = m.group(2)
+    return v * 1024 if u == "tb" else (v / 1024 if u == "mb" else v)
+
+
+def is_consumer_storage(interface, capacity_str="", storage_type="", name=""):
+    """Exclude SAS, mSATA, Optane, and very small drives."""
     if interface:
         iface = interface.lower().replace(" ", "").replace(".", "")
         for excl in _EXCLUDED_STORAGE_INTERFACES:
             if excl.replace(".", "") in iface:
                 return False
+        if "msata" in iface:
+            return False
     name_lower = (name or "").lower()
     if "tape" in name_lower or "lto" in name_lower:
         return False
     if _EXCLUDED_STORAGE_NAMES_RE.search(name or ""):
         return False
+    # Capacity filter: skip tiny old drives
+    cap = _parse_capacity_gb(capacity_str)
+    if cap is not None:
+        stype = (storage_type or "").lower()
+        if "hdd" in stype or "hard" in stype:
+            if cap < 500:
+                return False
+        else:  # SSD / NVMe / unknown
+            if cap < 120:
+                return False
     return True
 
 
 def is_consumer_case(name):
     """Exclude server rack enclosures."""
     return not _SERVER_CASE_RE.search(name or "")
+
+
+def is_consumer_case_mb(mb_form_factor):
+    """Keep only cases that support a standard consumer MB form factor.
+    If no form factor data exists, keep the case (unknown ≠ incompatible)."""
+    if not mb_form_factor:
+        return True
+    forms = mb_form_factor if isinstance(mb_form_factor, list) else [mb_form_factor]
+    for f in forms:
+        normalised = str(f).lower().replace(" ", "").replace("-", "").replace("_", "")
+        if normalised in _CONSUMER_CASE_MB_FORMS:
+            return True
+    return False
+
+
+def is_consumer_psu(psu_type, wattage):
+    """Keep only ATX/SFX/SFX-L PSUs in the 350–1600 W range."""
+    if psu_type:
+        t = str(psu_type).lower().replace(" ", "").replace("-", "")
+        # If the type is explicitly non-consumer, reject
+        if t and t not in _CONSUMER_PSU_TYPES:
+            return False
+    if wattage is not None:
+        try:
+            w = int(wattage)
+            if w < _PSU_MIN_W or w > _PSU_MAX_W:
+                return False
+        except (ValueError, TypeError):
+            pass
+    return True
 
 
 def is_consumer_fan_size(size):
@@ -329,26 +393,34 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
     elif raw_category == "Storage":
         interface = specs.get("interface") or ""
         capacity = specs.get("capacity") or ""
-        if not is_consumer_storage(interface, capacity, name):
+        storage_type = specs.get("type") or ""
+        if not is_consumer_storage(interface, capacity, storage_type, name):
             return False
         item_data["capacity"] = capacity or None
-        item_data["type"] = specs.get("type")
+        item_data["type"] = storage_type or None
         item_data["form_factor"] = specs.get("form_factor")
         item_data["interface"] = interface or None
         item_data["nvme"] = specs.get("nvme")
 
     elif raw_category == "PSU":
-        item_data["wattage"] = specs.get("wattage")
+        psu_type = specs.get("type") or ""
+        wattage = specs.get("wattage")
+        if not is_consumer_psu(psu_type, wattage):
+            return False
+        item_data["wattage"] = wattage
         item_data["efficiency"] = specs.get("efficiency_rating")
         item_data["modular"] = specs.get("modular")
-        item_data["form_factor"] = specs.get("type")
+        item_data["form_factor"] = psu_type or None
 
     elif raw_category == "PCCase":
         if not is_consumer_case(name):
             return False
+        mb_form = specs.get("motherboard_form_factor")
+        if not is_consumer_case_mb(mb_form):
+            return False
         item_data["type"] = specs.get("type")
         item_data["color"] = specs.get("color")
-        item_data["motherboard_support"] = specs.get("motherboard_form_factor")
+        item_data["motherboard_support"] = mb_form
         item_data["max_gpu_length"] = specs.get("maximum_video_card_length")
 
     elif raw_category == "CPUCooler":
