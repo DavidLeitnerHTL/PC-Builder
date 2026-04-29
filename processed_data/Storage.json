@@ -7809,16 +7809,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "af750e08-0203-4fa6-8802-57d633e345aa",
-        "name": "Intel Optane P1600X 118GB SSD M.2-2280 PCIe 3.0 x4 NVMe",
-        "variant": "118GB",
-        "amazon_sku": "B09MSB59SK",
-        "clean_name": "Intel Optane P1600X -2280",
-        "capacity": "118GB",
-        "interface": "PCIe 3.0 x4",
-        "storage_type": "SSD, M.2, NVMe"
-    },
-    {
         "id": "2b624666-7b01-47d4-8786-10fbb95bc41b",
         "name": "Seagate FireCuda 540 w/Heatsink 2TB SSD M.2-2280 PCIe 5.0 x4 NVMe",
         "variant": "2000GB",
@@ -15285,15 +15275,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "fac63a69-97cd-47fe-a89b-4fa2d369a3d9",
-        "name": "Intel Optane 905P 960GB SSD 2.5\" U.2",
-        "variant": "960GB",
-        "amazon_sku": "B07KCPT9WJ",
-        "clean_name": "Intel Optane 905P 2.5\" U.2",
-        "capacity": "960GB",
-        "storage_type": "SSD"
-    },
-    {
         "id": "87b8d60e-74aa-4c9a-9b48-a20a77d35b76",
         "name": "Western Digital Blue SA510 500GB SSD M.2-2280 SATA",
         "variant": "500GB",
@@ -15840,15 +15821,6 @@
         "clean_name": "TEAMGROUP T-Force Vulcan Z 2.5\" SATA",
         "capacity": "240GB",
         "storage_type": "SSD"
-    },
-    {
-        "id": "494a0d67-9e8b-4d58-8479-12b18c889e1d",
-        "name": "Intel Optane DC P4801X 100GB SSD M.2-22110 NVMe",
-        "variant": "100GB",
-        "amazon_sku": "",
-        "clean_name": "Intel Optane DC P4801X -22110",
-        "capacity": "100GB",
-        "storage_type": "SSD, M.2, NVMe"
     },
     {
         "id": "8013e319-0916-4f6b-b9f2-00cef8361b7a",
@@ -16822,15 +16794,6 @@
         "capacity": "4TB",
         "interface": "PCIe 3.0",
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "2c5340dc-81d8-432b-8378-dd57b94d5cda",
-        "name": "Intel Optane 905P 1.5 TB SSD PCIe NVMe",
-        "variant": "1000GB",
-        "amazon_sku": "",
-        "clean_name": "Intel Optane 905P PCIe",
-        "capacity": "1.5 TB",
-        "storage_type": "SSD, NVMe"
     },
     {
         "id": "8ac4a6d9-ab81-4fe4-9a5f-2223a108fae4",
@@ -17830,15 +17793,6 @@
         "clean_name": "Western Digital Green 3.5\" 5400RPM SATA /s",
         "capacity": "1TB, 3.0 Gb",
         "storage_type": "HDD"
-    },
-    {
-        "id": "c4eb608c-a8cf-4a05-a284-57fe8cda4cd9",
-        "name": "Intel Optane 905P 1.5TB SSD 2.5\" NVMe",
-        "variant": "1000GB",
-        "amazon_sku": "B07HYXRM55",
-        "clean_name": "Intel Optane 905P 2.5\"",
-        "capacity": "1.5TB",
-        "storage_type": "SSD, NVMe"
     },
     {
         "id": "c90a445f-aaee-4841-a0a9-e8b510d05be6",
@@ -20994,15 +20948,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "ae4b2515-1a94-4d45-978b-10ec3250017b",
-        "name": "Intel Optane 900P 480GB SSD PCIe PCIe NVMe",
-        "variant": "480GB",
-        "amazon_sku": "",
-        "clean_name": "Intel Optane 900P PCIe PCIe",
-        "capacity": "480GB",
-        "storage_type": "SSD, NVMe"
-    },
-    {
         "id": "5f0f7f5a-26fc-4cdb-936d-4fe8d67d26fe",
         "name": "Corsair MP400 1TB SSD M.2-2280 PCIe 3.0 X4 NVMe",
         "variant": "1000GB",
@@ -21488,16 +21433,6 @@
         "clean_name": "Western Digital Ultrastar DC HC550 3.5\" 7200RPM SATA Internal",
         "capacity": "18TB",
         "storage_type": "HDD"
-    },
-    {
-        "id": "ddca6880-d65a-4546-92bc-64f0ea788bda",
-        "name": "Intel Optane 905P 380GB M.2-22110 SSD PCIe 3.0 x4 NVMe",
-        "variant": "380GB",
-        "amazon_sku": "",
-        "clean_name": "Intel Optane 905P -22110",
-        "capacity": "380GB",
-        "interface": "PCIe 3.0 x4",
-        "storage_type": "M.2, SSD, NVMe"
     },
     {
         "id": "0d974a8e-b471-47e6-81fa-fab8c122d7f1",
@@ -25031,15 +24966,6 @@
         "capacity": "2TB",
         "interface": "Gen5, PCIe 5.0",
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "c6aed429-6f55-4086-8380-38e924b47c16",
-        "name": "Intel Optane 905P 960GB PCIe SSD PCIe x4 NVMe",
-        "variant": "960GB",
-        "amazon_sku": "",
-        "clean_name": "Intel Optane 905P PCIe PCIe x4",
-        "capacity": "960GB",
-        "storage_type": "SSD, NVMe"
     },
     {
         "id": "d13e09aa-4319-4c11-a1ca-5b9446b7d179",
@@ -30446,16 +30372,6 @@
         "amazon_sku": "",
         "clean_name": "Orico J-10 -2280",
         "capacity": "512 GB",
-        "interface": "PCIe 3.0 x4",
-        "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "ed8e117e-a80d-42ca-9071-d4de8cc515bf",
-        "name": "Intel Optane P1600X 58GB M.2-2280 SSD PCIe 3.0 x4 NVMe",
-        "variant": "58GB",
-        "amazon_sku": "",
-        "clean_name": "Intel Optane P1600X -2280",
-        "capacity": "58GB",
         "interface": "PCIe 3.0 x4",
         "storage_type": "M.2, SSD, NVMe"
     },
