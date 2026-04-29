@@ -7,7 +7,7 @@ import shutil
 # GLOBAL CONFIGURATION
 # ==========================================
 
-INPUT_FOLDER = "../raw_hardware_data"
+INPUT_FOLDER = "../raw_hardware_data/open-db"
 OUTPUT_FOLDER = "../processed_data"
 
 CATEGORY_MAPPING = {
