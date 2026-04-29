@@ -1,3 +1,13 @@
 node_modules/
 processed_data.json
 .opencode/
+.claudeignore
+CLAUDE.md
+
+# Scraper debug / test artifacts
+scraper-test.log
+scraper-test.err
+scraper/search.html
+scraper/search2.html
+scraper/test_parse.cjs
+scraper/test_parse2.cjs

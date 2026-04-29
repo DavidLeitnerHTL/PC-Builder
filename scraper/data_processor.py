@@ -1,7 +1,7 @@
 import json
 import os
-import shutil
 import re
+import shutil
 
 # ==========================================
 # GLOBAL CONFIGURATION
@@ -24,7 +24,49 @@ CATEGORY_MAPPING = {
 }
 
 # ==========================================
-# HELPER FUNCTIONS
+# FILTER CONSTANTS
+# ==========================================
+
+# Modern consumer GPU detection (GTX 1000+ / RX 400+ / Intel Arc, ~2016+)
+_MODERN_GPU_RE = re.compile(
+    r"gtx\s*1[0-9]\d\d"        # GTX 1000-1999 (Pascal, Turing low-end)
+    r"|rtx\s*[2-9]\d{3}"       # RTX 2000-9000 series
+    r"|\brx\s*[45]\d{2}\b"     # RX 400 and RX 500 series (Polaris)
+    r"|\brx\s*[5-9]\d{3}\b"    # RX 5000-9000 series (RDNA1-4)
+    r"|\bvega\s*\d+"            # RX Vega 56 / 64
+    r"|\bradeon\s+vii\b"        # Radeon VII (2019)
+    r"|\barc\s+[ab]\d+",        # Intel Arc A-series / B-series
+    re.IGNORECASE
+)
+
+# Professional / server GPU patterns to always exclude
+_EXCLUDED_GPU_RE = re.compile(
+    r"quadro|tesla|firepro|radeon\s+pro|radeon\s+instinct"
+    r"|nvs\s+\d|grid\s+\w|\binstinct\b|\bcompute\b"
+    r"|\ba100\b|\bh100\b|\bv100\b|\bp100\b|\bl40\b|\ba10\b",
+    re.IGNORECASE
+)
+
+# Consumer motherboard sockets (AM4/AM5 + Intel LGA 1200/1700/1851)
+_MODERN_MB_SOCKETS = {
+    "am4", "am5",
+    "lga1200", "lga 1200",
+    "lga1700", "lga 1700",
+    "lga1851", "lga 1851",
+}
+
+# Storage interfaces to exclude (enterprise/server only)
+_EXCLUDED_STORAGE_INTERFACES = {"sas", "sas2", "sas3", "u.2"}
+
+# PCCase name patterns that indicate server/rack enclosures
+_SERVER_CASE_RE = re.compile(
+    r"\brackmount\b|\bserver\s+case\b|\bserver\s+chassis\b"
+    r"|\b[124]u\s+\b|\b[124]u-\b|rack\s+enclosure",
+    re.IGNORECASE
+)
+
+# ==========================================
+# FILTER FUNCTIONS
 # ==========================================
 
 def is_modern_desktop_cpu(name, socket):
@@ -47,6 +89,60 @@ def is_modern_desktop_cpu(name, socket):
     if "ryzen" in name_lower or "core i" in name_lower or "core ultra" in name_lower:
         return True
     return False
+
+
+def is_modern_gpu(name, chipset=""):
+    """Keep only consumer GPUs from ~2016 onwards (GTX 1000+ / RX 400+ / Arc)."""
+    text = (name or "") + " " + (chipset or "")
+    if _EXCLUDED_GPU_RE.search(text):
+        return False
+    return bool(_MODERN_GPU_RE.search(text))
+
+
+def is_modern_motherboard(socket, name=""):
+    """Keep only boards with a modern consumer socket."""
+    if socket:
+        normalized = socket.lower().replace(" ", "").replace("-", "")
+        for s in _MODERN_MB_SOCKETS:
+            if s.replace(" ", "") == normalized:
+                return True
+    # Fallback: check name for socket pattern
+    text = (name or "").lower()
+    return bool(re.search(r"am[45]|lga\s*1[27][05][01]|lga\s*1851", text))
+
+
+def is_modern_ram(name, speed=""):
+    """Keep only DDR4 and DDR5 memory."""
+    text = (name or "").lower() + " " + str(speed or "").lower()
+    if "ddr4" in text or "ddr5" in text:
+        return True
+    if "ddr3" in text or "ddr2" in text or "ddr1" in text:
+        return False
+    # Type not determinable from name — keep to avoid false exclusions
+    return True
+
+
+def is_consumer_storage(interface, capacity_str="", name=""):
+    """Exclude SAS / enterprise-only storage."""
+    if interface:
+        iface = interface.lower().replace(" ", "").replace(".", "")
+        for excl in _EXCLUDED_STORAGE_INTERFACES:
+            if excl.replace(".", "") in iface:
+                return False
+    name_lower = (name or "").lower()
+    if "tape" in name_lower or "lto" in name_lower:
+        return False
+    return True
+
+
+def is_consumer_case(name):
+    """Exclude server rack enclosures."""
+    return not _SERVER_CASE_RE.search(name or "")
+
+
+# ==========================================
+# HELPER FUNCTIONS
+# ==========================================
 
 def extract_basic_info(raw_data):
     return {
@@ -151,9 +247,11 @@ def extract_specs_and_clean_name(name, category):
 
 def add_category_specific_specs(raw_category, raw_data, item_data):
     specs = raw_data.get("specifications", {})
+    name = item_data.get("name", "")
+
     if raw_category == "CPU":
         socket = raw_data.get("socket") or specs.get("socket")
-        if not is_modern_desktop_cpu(item_data["name"], socket):
+        if not is_modern_desktop_cpu(name, socket):
             return False
         item_data["socket"] = socket
         item_data["cores"] = raw_data.get("cores", {}).get("total") or specs.get("core_count")
@@ -165,49 +263,76 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         memory_specs = specs.get("memory", {})
         if "types" in memory_specs and memory_specs["types"]:
             item_data["ram_type"] = memory_specs["types"][0]
+
     elif raw_category == "GPU":
-        item_data["chipset"] = raw_data.get("chipset") or specs.get("chipset")
+        chipset = raw_data.get("chipset") or specs.get("chipset") or ""
+        if not is_modern_gpu(name, chipset):
+            return False
+        item_data["chipset"] = chipset or None
         item_data["vram"] = specs.get("memory")
         item_data["core_clock"] = specs.get("core_clock")
         item_data["boost_clock"] = specs.get("boost_clock")
         item_data["length"] = specs.get("length")
         item_data["tdp"] = specs.get("tdp")
+
     elif raw_category == "Motherboard":
-        item_data["socket"] = raw_data.get("socket") or specs.get("socket")
+        socket = raw_data.get("socket") or specs.get("socket") or ""
+        if not is_modern_motherboard(socket, name):
+            return False
+        item_data["socket"] = socket or None
         item_data["form_factor"] = raw_data.get("form_factor") or specs.get("form_factor")
         item_data["memory_slots"] = specs.get("memory_slots")
         item_data["max_memory"] = specs.get("max_memory")
         item_data["pcie_slots"] = specs.get("pcie_slots")
         item_data["chipset"] = specs.get("chipset")
+
     elif raw_category == "RAM":
-        item_data["speed"] = specs.get("speed")
+        speed = specs.get("speed") or ""
+        if not is_modern_ram(name, speed):
+            return False
+        item_data["speed"] = speed or None
         item_data["modules"] = specs.get("modules")
         item_data["cas_latency"] = specs.get("cas_latency")
         item_data["color"] = specs.get("color")
+
     elif raw_category == "Storage":
-        item_data["capacity"] = specs.get("capacity")
+        interface = specs.get("interface") or ""
+        capacity = specs.get("capacity") or ""
+        if not is_consumer_storage(interface, capacity, name):
+            return False
+        item_data["capacity"] = capacity or None
         item_data["type"] = specs.get("type")
         item_data["form_factor"] = specs.get("form_factor")
-        item_data["interface"] = specs.get("interface")
+        item_data["interface"] = interface or None
         item_data["nvme"] = specs.get("nvme")
+
     elif raw_category == "PSU":
         item_data["wattage"] = specs.get("wattage")
         item_data["efficiency"] = specs.get("efficiency_rating")
         item_data["modular"] = specs.get("modular")
         item_data["form_factor"] = specs.get("type")
+
     elif raw_category == "PCCase":
+        if not is_consumer_case(name):
+            return False
         item_data["type"] = specs.get("type")
         item_data["color"] = specs.get("color")
         item_data["motherboard_support"] = specs.get("motherboard_form_factor")
         item_data["max_gpu_length"] = specs.get("maximum_video_card_length")
+
     elif raw_category == "CPUCooler":
         item_data["cooler_type"] = specs.get("water_cooled")
         item_data["fan_rpm"] = specs.get("fan_rpm")
         item_data["noise_level"] = specs.get("noise_level")
         item_data["color"] = specs.get("color")
+
     elif raw_category == "OS":
         item_data["manufacturer"] = raw_data.get("metadata", {}).get("manufacturer", "")
+
     elif raw_category == "CaseFan":
+        # Skip OEM fans — they're bundled with cases/coolers, not sold standalone
+        if raw_data.get("isOEM"):
+            return False
         item_data["size"] = raw_data.get("size")
         item_data["quantity"] = raw_data.get("quantity")
         item_data["pwm"] = raw_data.get("pwm")
@@ -222,16 +347,47 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         item_data["max_noise_level"] = raw_data.get("max_noise_level")
         item_data["static_pressure"] = raw_data.get("static_pressure")
         item_data["color"] = raw_data.get("color")
+
     return True
 
 # ==========================================
 # MAIN PROCESSING LOOP
 # ==========================================
 
+def load_existing_prices():
+    """Load scraped prices from current processed_data so they survive regeneration."""
+    prices = {}
+    if not os.path.exists(OUTPUT_FOLDER):
+        return prices
+    for cat_file in os.listdir(OUTPUT_FOLDER):
+        if not cat_file.endswith(".json"):
+            continue
+        try:
+            with open(os.path.join(OUTPUT_FOLDER, cat_file), encoding="utf-8") as f:
+                items = json.load(f)
+            for item in items:
+                item_id = item.get("id")
+                if item_id and item.get("price") is not None:
+                    prices[item_id] = {
+                        "price": item["price"],
+                        "last_updated": item.get("last_updated"),
+                        "scraped_url": item.get("scraped_url"),
+                        "scraped_title": item.get("scraped_title"),
+                    }
+        except Exception:
+            pass
+    print(f"Preserved {len(prices)} existing prices across all categories.")
+    return prices
+
+
 def process_hardware_data():
     if not os.path.exists(INPUT_FOLDER):
         print(f"Error: Folder '{INPUT_FOLDER}' not found.")
         return
+
+    # Snapshot existing prices before wiping the folder
+    existing_prices = load_existing_prices()
+
     if os.path.exists(OUTPUT_FOLDER):
         shutil.rmtree(OUTPUT_FOLDER)
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
@@ -260,6 +416,16 @@ def process_hardware_data():
                             item_data[key] = val
                     if should_keep_item and item_data.get("name"):
                         clean_item = {key: value for key, value in item_data.items() if value is not None}
+                        # Restore previously scraped price for this product
+                        saved = existing_prices.get(clean_item.get("id"))
+                        if saved:
+                            clean_item["price"] = saved["price"]
+                            if saved.get("last_updated"):
+                                clean_item["last_updated"] = saved["last_updated"]
+                            if saved.get("scraped_url"):
+                                clean_item["scraped_url"] = saved["scraped_url"]
+                            if saved.get("scraped_title"):
+                                clean_item["scraped_title"] = saved["scraped_title"]
                         processed_items.append(clean_item)
                 except Exception as error:
                     print(f"Failed to process {filename}: {error}")
@@ -267,7 +433,8 @@ def process_hardware_data():
             output_file = os.path.join(OUTPUT_FOLDER, f"{target_filename}.json")
             with open(output_file, 'w', encoding='utf-8') as output:
                 json.dump(processed_items, output, indent=4, ensure_ascii=False)
-            print(f"Success! Created {output_file} with {len(processed_items)} items.\n")
+            priced = sum(1 for p in processed_items if p.get("price") is not None)
+            print(f"Success! Created {output_file} with {len(processed_items)} items ({priced} already priced).\n")
 
 if __name__ == "__main__":
     process_hardware_data()

@@ -120,7 +120,7 @@ function isStale(product) {
                 while (attempt < MAX_RETRIES) {
                     attempt++;
                     try {
-                        result = await scrapeProduct(page, product);
+                        result = await scrapeProduct(page, product, category);
                         break;
                     } catch (err) {
                         console.warn(`[RETRY ${attempt}/${MAX_RETRIES}] ${identifier}: ${err.message}`);

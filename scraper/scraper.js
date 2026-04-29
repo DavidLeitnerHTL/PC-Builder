@@ -8,6 +8,7 @@
 import { readFile } from "fs/promises";
 import {
     launchStealthBrowser,
+    enableResourceBlocking,
     scrapeProduct,
     sleep,
     getRandomDelay,
@@ -32,9 +33,9 @@ const ALL_CATEGORIES = [
     "OS",
 ];
 
-const CONCURRENCY = 3;
-const MIN_DELAY_MS = 10000;
-const MAX_DELAY_MS = 25000;
+const CONCURRENCY = 4;
+const MIN_DELAY_MS = 2000;
+const MAX_DELAY_MS = 6000;
 const MAX_RETRIES = 3;
 
 // ==========================================
@@ -71,6 +72,7 @@ const MAX_RETRIES = 3;
                 const w = 1280 + Math.floor(Math.random() * 200);
                 const h = 800 + Math.floor(Math.random() * 200);
                 await p.setViewport({ width: w, height: h });
+                await enableResourceBlocking(p);
                 console.log(
                     `[BROWSER] Page ${i + 1}/${CONCURRENCY} ready.`
                 );
@@ -138,7 +140,7 @@ const MAX_RETRIES = 3;
                     while (attempt < MAX_RETRIES) {
                         attempt++;
                         try {
-                            scrapeResult = await scrapeProduct(page, product);
+                            scrapeResult = await scrapeProduct(page, product, category);
                             break;
                         } catch (err) {
                             console.warn(

@@ -4,7 +4,7 @@
  * Shared scraping utilities used by scraper.js and priceUpdater.js.
  */
 
-import { readFile, writeFile } from "fs/promises";
+import { readFile, writeFile, rename } from "fs/promises";
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
 
@@ -61,12 +61,34 @@ export async function launchStealthBrowser() {
             "--disable-dev-shm-usage",
             "--disable-accelerated-2d-canvas",
             "--disable-gpu",
+            "--disable-extensions",
+            "--disable-background-networking",
+            "--disable-default-apps",
+            "--disable-sync",
+            "--no-first-run",
             "--window-size=1920,1080",
             "--lang=de-DE,de",
         ],
     });
     console.log("[BROWSER] Browser launched.\n");
     return browser;
+}
+
+/**
+ * Enable request interception to block heavy resources we don't need
+ * (images, stylesheets, fonts, media, tracking).  This dramatically
+ * reduces page-load time since we only need the DOM text for prices.
+ */
+export async function enableResourceBlocking(page) {
+    await page.setRequestInterception(true);
+    const BLOCKED = new Set(["image", "stylesheet", "font", "media"]);
+    page.on("request", (req) => {
+        if (BLOCKED.has(req.resourceType())) {
+            req.abort();
+        } else {
+            req.continue();
+        }
+    });
 }
 
 export async function acceptCookies(page) {
@@ -87,6 +109,46 @@ export async function acceptCookies(page) {
     } catch {}
 }
 
+// Returns "captcha" if Amazon is rate-limiting / showing a bot-check page, null otherwise.
+async function detectPageBlock(page) {
+    try {
+        const url = page.url();
+        if (/\/errors\/validateCaptcha|\/captcha\//i.test(url)) {
+            return "captcha";
+        }
+        return await page.evaluate(() => {
+            const title = (document.title || "").toLowerCase();
+            if (
+                title.includes("robot check") ||
+                title.includes("captcha") ||
+                title.includes("access denied") ||
+                title.includes("zugang verweigert") ||
+                title.includes("authentifizierung")
+            )
+                return "captcha";
+            if (
+                document.querySelector("#captchacharacters") ||
+                document.querySelector('form[action*="validateCaptcha"]') ||
+                document.querySelector('form[action*="/errors/"]')
+            )
+                return "captcha";
+            const body = (document.body?.innerText || "")
+                .substring(0, 1500)
+                .toLowerCase();
+            if (
+                body.includes("geben sie die zeichen") ||
+                body.includes("enter the characters") ||
+                body.includes("unusual traffic from your computer") ||
+                body.includes("wir müssen sicherstellen, dass sie kein robot")
+            )
+                return "captcha";
+            return null;
+        });
+    } catch {
+        return null;
+    }
+}
+
 // ==========================================
 // PRICE EXTRACTION
 // ==========================================
@@ -98,12 +160,16 @@ export async function extractPriceFromPage(page) {
             "#corePriceDisplay_desktop_feature_div .a-price-whole, " +
             "#corePrice_feature_div .a-price-whole, " +
             ".aok-offscreen, #aod-ingress-link, .a-price-whole",
-            { timeout: 10000 }
+            { timeout: 8000 }
         )
         .catch(() => {});
-    await sleep(1500);
+    await sleep(800);
 
-    const rawPrice = await page.evaluate(() => {
+    const result = await page.evaluate(() => {
+        function ret(price, via) {
+            return { rawPrice: price, via };
+        }
+
         function readPriceText(el) {
             if (!el) return null;
             const offscreenEl = el.classList.contains("a-offscreen")
@@ -150,11 +216,13 @@ export async function extractPriceFromPage(page) {
 
         const accessibilitySelectors = [
             "#apex-pricetopay-accessibility-label",
-            "#corePriceDisplay_desktop_feature_div .aok-offscreen",
-            "#corePrice_feature_div .aok-offscreen",
-            ".priceToPay .aok-offscreen",
-            '[id*="priceToPay"] .aok-offscreen',
-            ".apexPriceToPay .aok-offscreen",
+            "#corePriceDisplay_desktop_feature_div .a-offscreen",
+            "#corePrice_feature_div .a-offscreen",
+            ".priceToPay .a-offscreen",
+            '[id*="priceToPay"] .a-offscreen',
+            ".apexPriceToPay .a-offscreen",
+            "#apex_offerDisplay_desktop .a-price .a-offscreen",
+            "#desktop_buybox .a-price .a-offscreen",
             // Software/OS products (Microsoft Windows etc.) use different containers
             "#buyNewSection .a-price .a-offscreen",
             "#buyNewSection .a-price-whole",
@@ -167,7 +235,7 @@ export async function extractPriceFromPage(page) {
             const el = document.querySelector(sel);
             if (!el) continue;
             const text = el.textContent.trim();
-            if (text && /[0-9]/.test(text)) return text;
+            if (text && /[0-9]/.test(text)) return ret(text, `accessibility:${sel}`);
         }
 
         const buyBoxScopes = [
@@ -196,7 +264,7 @@ export async function extractPriceFromPage(page) {
                     continue;
                 if (!isOwnProduct(el, pageAsin)) continue;
                 const text = readPriceText(el);
-                if (text) return text;
+                if (text) return ret(text, `buyBox:${scopeSel}>${priceSel}`);
             }
         }
 
@@ -223,7 +291,7 @@ export async function extractPriceFromPage(page) {
                     continue;
                 if (!isOwnProduct(el, pageAsin)) continue;
                 const text = readPriceText(el);
-                if (text) return text;
+                if (text) return ret(text, `usedBox:${scopeSel}`);
             }
         }
 
@@ -259,7 +327,7 @@ export async function extractPriceFromPage(page) {
                 const fracText = fractionEl
                     ? fractionEl.textContent.replace(/\D/g, "")
                     : "00";
-                return `${wholeText},${fracText}`;
+                return ret(`${wholeText},${fracText}`, "rightCol:.a-price-whole");
             }
         }
 
@@ -279,7 +347,7 @@ export async function extractPriceFromPage(page) {
                 /[0-9]/.test(label) &&
                 /[€$£]|EUR/.test(label)
             )
-                return label;
+                return ret(label, `aria-label:${scopeSel}[self]`);
             const candidates = Array.from(
                 scope.querySelectorAll("[aria-label]")
             );
@@ -298,23 +366,41 @@ export async function extractPriceFromPage(page) {
                     /[0-9]/.test(lbl) &&
                     /[€$£]|EUR/.test(lbl)
                 )
-                    return lbl;
+                    return ret(lbl, `aria-label:${scopeSel}>[aria-label]`);
             }
         }
 
         const priceRegex = /(\d{1,4}[.,]\d{2})\s*€/;
-        for (const scopeSel of buyBoxScopes) {
+        const regexScopes = [
+            ...buyBoxScopes,
+            "#rightCol",
+            "#desktop_buybox",
+        ];
+        for (const scopeSel of regexScopes) {
             const scope = document.querySelector(scopeSel);
             if (!scope) continue;
             const text = scope.textContent || "";
             const match = text.match(priceRegex);
-            if (match) return match[1];
+            if (match) return ret(match[1], `regex:${scopeSel}`);
         }
 
         return null;
     });
 
-    if (rawPrice) return parsePrice(rawPrice);
+    if (result?.rawPrice) {
+        const parsed = parsePrice(result.rawPrice);
+        if (parsed !== null) {
+            console.log(
+                `[PRICE] Hit via "${result.via}" → raw="${result.rawPrice}" parsed=${parsed.toFixed(2)}`
+            );
+            return parsed;
+        }
+        console.warn(
+            `[PRICE] Selector "${result.via}" matched but parsePrice failed on "${result.rawPrice}"`
+        );
+    } else {
+        console.warn("[PRICE] No price selector matched on page. Trying AOD link...");
+    }
     return await clickAodAndExtract(page);
 }
 
@@ -338,13 +424,17 @@ async function clickAodAndExtract(page) {
         return null;
     });
 
-    if (!clicked) return null;
+    if (!clicked) {
+        console.warn("[PRICE] No AOD ingress link found on page.");
+        return null;
+    }
     try {
         await page.waitForSelector(
             "#aod-container, #aod-offer-list, #aod-pinned-offer",
             { timeout: 8000 }
         );
     } catch {
+        console.warn("[PRICE] AOD container did not appear within timeout.");
         return null;
     }
     await sleep(1200);
@@ -412,7 +502,17 @@ async function clickAodAndExtract(page) {
         return anyOffscreen ? anyOffscreen.textContent.trim() : null;
     });
 
-    return rawPrice ? parsePrice(rawPrice) : null;
+    if (rawPrice) {
+        const parsed = parsePrice(rawPrice);
+        if (parsed !== null) {
+            console.log(`[PRICE] AOD hit → raw="${rawPrice}" parsed=${parsed.toFixed(2)}`);
+        } else {
+            console.warn(`[PRICE] AOD: parsePrice failed on "${rawPrice}"`);
+        }
+        return parsed;
+    }
+    console.warn("[PRICE] AOD opened but no price element found.");
+    return null;
 }
 
 // ==========================================
@@ -465,8 +565,10 @@ function simplifySearchQuery(name) {
         "magenta",
         // Memory/storage types
         "gddr5",
+        "gddr5x",
         "gddr6",
         "gddr6x",
+        "gddr7",
         "ddr2",
         "ddr3",
         "ddr4",
@@ -565,10 +667,8 @@ function simplifySearchQuery(name) {
         "english",
         "edition",
         "version",
-        "home",
-        "professional",
-        "ultimate",
-        "enterprise",
+        // NOTE: "home", "professional", "enterprise", "ultimate" intentionally
+        // NOT stop-words — they distinguish Windows/OS editions (Home vs Pro vs Enterprise).
         "standard",
         // Generic descriptors
         "box",
@@ -660,7 +760,49 @@ function simplifySearchQuery(name) {
     return tokens.join(" ");
 }
 
-export async function extractFirstSearchResult(page, expectedName) {
+// ---- Accessory blacklist ----
+// Titles containing these phrases are almost certainly accessories (fans,
+// cables, brackets, …) rather than the actual component.  Applied to
+// fallback-search results only – direct-hit ASINs are trusted.
+//
+// IMPORTANT: Use COMPOUND phrases, not single words!  Single words like
+// "fan" or "cable" appear in legitimate product names (e.g. "RTX 4070 Ti
+// Dual Fan", "USB-C Cable Management") and cause false rejections.
+const ACCESSORY_BLACKLIST_RE = new RegExp(
+    [
+        // German accessory product types
+        "lüfter",             // fan (as a product, not feature)
+        "kühlerlüfter",       // cooler fan
+        "grafikkartenlüfter", // GPU fan
+        "gpu.lüfter",         // GPU fan
+        "ersatzlüfter",       // replacement fan
+        "lüfterersatz",       // fan replacement
+        "wärmeleitpaste",     // thermal paste
+        "thermal.?pad",       // thermal pad
+        // English accessory product types (compound phrases only)
+        "replacement.?fan",
+        "cooler.?fan",
+        "cooling.?fan",
+        "fan.?replacement",
+        "fan.?for",
+        "fan.?compatible",
+        // English GPU/cooler accessories
+        "card.?cooler",
+        "gpu.?cooler",
+        "graphics.?cooler",
+        // Product types that are clearly accessories
+        "backplate",
+        "aufkleber",           // sticker
+        "wärmeleitpad",
+    ].join("|"),
+    "i"
+);
+
+// Categories where the blacklist should NOT be applied because the
+// products themselves are fans/coolers.
+const BLACKLIST_EXEMPT_CATEGORIES = new Set(["CaseFan", "CPUCooler"]);
+
+export async function extractFirstSearchResult(page, expectedName, category = null) {
     try {
         await page
             .waitForSelector('div[data-component-type="s-search-result"]', {
@@ -674,9 +816,6 @@ export async function extractFirstSearchResult(page, expectedName) {
             .filter((t) => t.length > 0);
 
         // Extract brand (first 1-2 words)
-        // brandAliases: maps the first token of our clean_name to what Amazon
-        // actually uses in product titles (e.g. clean_name starts with "windows"
-        // but Amazon titles say "Microsoft Windows").
         const brandAliases = {
             windows: "microsoft",
             linux: "linux",
@@ -700,7 +839,6 @@ export async function extractFirstSearchResult(page, expectedName) {
             if (twoWordBrands.includes(combined)) {
                 brand = combined;
             } else {
-                // Apply alias if one exists (e.g. "windows" -> "microsoft")
                 brand = brandAliases[first] || first;
             }
         }
@@ -713,28 +851,89 @@ export async function extractFirstSearchResult(page, expectedName) {
             (t) => !strongTokens.includes(t)
         );
 
-        const resultData = await page.evaluate(
+        // MUST_HAVE: pure model numbers (3+ digit tokens) + known variant qualifiers.
+        // Brand is intentionally NOT must-have — Amazon titles vary in how they write brand
+        // names (e.g. "WD" vs "Western Digital", Windows listings without "Microsoft").
+        // The 70%/allStrongMatch scoring threshold handles brand discrimination instead.
+        // The must-have tokens only guard against cross-model false positives
+        // (e.g. RTX 5090 searched → RTX 5070 Ti matched at 83% because everything except
+        // the model number "5090" matched — model-number must-have hard-rejects this).
+        const QUALIFIER_MUST_HAVE = new Set(["ti", "super", "xt", "xtx", "gre", "kf", "ks", "x3d"]);
+        const mustHaveTokens = [];
+        for (const t of allTokens) {
+            if (/^\d{3,}$/.test(t) || QUALIFIER_MUST_HAVE.has(t)) {
+                mustHaveTokens.push(t);
+            }
+        }
+
+        console.log(
+            `[SEARCH] Tokens: all=${allTokens.length} strong=${strongTokens.length} weak=${weakTokens.length} ` +
+            `brand="${brand}" mustHave=${JSON.stringify(mustHaveTokens)} | query="${simplifiedName}"`
+        );
+
+        const evalResult = await page.evaluate(
             (args) => {
-                const { allTokens, strongTokens, weakTokens, brand } = args;
+                const {
+                    allTokens, strongTokens, weakTokens, brand,
+                    mustHaveTokens,
+                    blacklistPattern, applyBlacklist,
+                } = args;
+                const blacklistRe = applyBlacklist
+                    ? new RegExp(blacklistPattern, "i")
+                    : null;
+
                 const results = Array.from(
                     document.querySelectorAll(
                         'div[data-component-type="s-search-result"]:not(.AdHolder):not(.s-widget)'
                     )
                 );
 
+                // Helper: extract price from a search-result card
+                function extractResultPrice(result) {
+                    let rawPrice = null;
+                    const offscreen = result.querySelector(
+                        ".a-price:not(.a-text-strike) .a-offscreen"
+                    );
+                    if (offscreen) rawPrice = offscreen.textContent.trim() || null;
+                    if (!rawPrice) {
+                        const box = result.querySelector(
+                            ".a-price:not(.a-text-strike)"
+                        );
+                        if (box) {
+                            const w = box.querySelector(".a-price-whole");
+                            const f = box.querySelector(".a-price-fraction");
+                            if (w) {
+                                const wt = w.textContent.replace(/[^0-9]/g, "");
+                                const ft = f ? f.textContent.replace(/[^0-9]/g, "") : "00";
+                                if (wt) rawPrice = `${wt},${ft}`;
+                            }
+                        }
+                    }
+                    return rawPrice;
+                }
+
                 function scoreResult(result) {
                     let titleEl = result.querySelector("h2 a span");
                     if (!titleEl)
                         titleEl = result.querySelector(
-                            ".a-size-medium.a-color-base.a-text-normal"
+                            ".a-size-medium.a-color-base.a-text-normal, .a-size-base-plus.a-color-base.a-text-normal"
                         );
                     const title = titleEl ? titleEl.innerText.trim() : "";
                     if (!title) return null;
 
                     const titleLower = title.toLowerCase();
 
-                    // Brand must be present in title
-                    if (brand && !titleLower.includes(brand)) return null;
+                    // Blacklist: reject accessory results (unless exempt)
+                    if (blacklistRe && blacklistRe.test(titleLower)) return null;
+
+                    // Hard reject if any must-have token (brand, model number, qualifier) is absent.
+                    // Word-boundary regex prevents "xt" from matching inside "xtx", "5070" inside "50701", etc.
+                    for (const mh of mustHaveTokens) {
+                        const re = new RegExp(
+                            "\\b" + mh.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b"
+                        );
+                        if (!re.test(titleLower)) return null;
+                    }
 
                     const matchedStrong = strongTokens.filter((t) =>
                         titleLower.includes(t)
@@ -747,73 +946,41 @@ export async function extractFirstSearchResult(page, expectedName) {
 
                     const totalTokens = allTokens.length;
                     if (totalTokens === 0) {
-                        const priceEl = result.querySelector(
-                            ".a-price .a-offscreen"
-                        );
-                        const rawPrice = priceEl
-                            ? priceEl.textContent.trim()
-                            : null;
+                        const rawPrice = extractResultPrice(result);
                         if (!rawPrice) return null;
-                        const linkEl = result.querySelector("h2 a");
-                        const href = linkEl
-                            ? linkEl.getAttribute("href")
-                            : null;
+                        const linkEl = result.querySelector("h2 a") || result.querySelector("a[href*='/dp/']");
+                        const href = linkEl ? linkEl.getAttribute("href") : null;
+                        const asin = result.getAttribute("data-asin");
                         const scraped_url = href
-                            ? `https://www.amazon.de${href}`
-                            : null;
+                            ? (href.startsWith("http") ? href : `https://www.amazon.de${href}`)
+                            : (asin ? `https://www.amazon.de/dp/${asin}` : null);
                         return brand
-                            ? {
-                                  rawPrice,
-                                  scraped_title: title,
-                                  scraped_url,
-                                  score: 1,
-                              }
+                            ? { rawPrice, scraped_title: title, scraped_url, score: 1 }
                             : null;
                     }
 
-                    // Rule 1: all strong tokens match AND at least half of weak tokens
+                    // Rule 1: all strong tokens match AND at least half of weak
                     const allStrongMatch =
                         strongTokens.length === 0 ||
                         matchedStrong.length === strongTokens.length;
                     const halfWeakMatch =
                         weakTokens.length === 0 ||
-                        matchedWeak.length >=
-                            Math.ceil(weakTokens.length / 2);
+                        matchedWeak.length >= Math.ceil(weakTokens.length / 2);
                     const rule1 = allStrongMatch && halfWeakMatch;
 
-                    // Rule 2: at least 60% of all tokens match
-                    const rule2 = matchedTotal / totalTokens >= 0.6;
+                    // Rule 2: at least 70% of all tokens match (raised from 60%)
+                    const rule2 = matchedTotal / totalTokens >= 0.7;
 
                     if (!rule1 && !rule2) return null;
 
-                    // Try .a-offscreen first; fall back to whole+fraction
-                    // (some Amazon layouts omit .a-offscreen in search results)
-                    let rawPrice = null;
-                    const offscreenEl = result.querySelector(".a-price:not(.a-text-strike) .a-offscreen");
-                    if (offscreenEl) {
-                        rawPrice = offscreenEl.textContent.trim() || null;
-                    }
-                    if (!rawPrice) {
-                        const priceBox = result.querySelector(".a-price:not(.a-text-strike)");
-                        if (priceBox) {
-                            const whole = priceBox.querySelector(".a-price-whole");
-                            const frac  = priceBox.querySelector(".a-price-fraction");
-                            if (whole) {
-                                const w = whole.textContent.replace(/[^0-9]/g, "");
-                                const f = frac ? frac.textContent.replace(/[^0-9]/g, "") : "00";
-                                if (w) rawPrice = `${w},${f}`;
-                            }
-                        }
-                    }
-                    if (!rawPrice) return null;
+                    const rawPrice = extractResultPrice(result);
 
-                    const linkEl = result.querySelector("h2 a");
-                    const href = linkEl
-                        ? linkEl.getAttribute("href")
-                        : null;
+                    const linkEl = result.querySelector("h2 a") || result.querySelector("a[href*='/dp/']");
+                    const href = linkEl ? linkEl.getAttribute("href") : null;
+                    const asin = result.getAttribute("data-asin");
                     const scraped_url = href
-                        ? `https://www.amazon.de${href}`
-                        : null;
+                        ? (href.startsWith("http") ? href : `https://www.amazon.de${href}`)
+                        : (asin ? `https://www.amazon.de/dp/${asin}` : null);
 
                     return {
                         rawPrice,
@@ -823,74 +990,60 @@ export async function extractFirstSearchResult(page, expectedName) {
                     };
                 }
 
-                // 1st pass: best scoring result
+                // Single pass: best scoring result
                 let best = null;
+                const allScored = [];
                 for (const result of results) {
                     const data = scoreResult(result);
-                    if (data && (!best || data.score > best.score)) {
-                        best = data;
+                    if (data) {
+                        allScored.push({
+                            score: data.score,
+                            title: (data.scraped_title || "").substring(0, 70),
+                        });
+                        if (!best || data.score > best.score) best = data;
                     }
                 }
-                if (best) return best;
 
-                // 2nd pass: first result with brand match and any price
-                for (const result of results) {
-                    let titleEl = result.querySelector("h2 a span");
-                    if (!titleEl)
-                        titleEl = result.querySelector(
-                            ".a-size-medium.a-color-base.a-text-normal"
-                        );
-                    const title = titleEl ? titleEl.innerText.trim() : "";
-                    // Same two-step extraction as scoreResult
-                    let rawPrice = null;
-                    const offscreenEl2 = result.querySelector(".a-price:not(.a-text-strike) .a-offscreen");
-                    if (offscreenEl2) rawPrice = offscreenEl2.textContent.trim() || null;
-                    if (!rawPrice) {
-                        const priceBox2 = result.querySelector(".a-price:not(.a-text-strike)");
-                        if (priceBox2) {
-                            const whole2 = priceBox2.querySelector(".a-price-whole");
-                            const frac2  = priceBox2.querySelector(".a-price-fraction");
-                            if (whole2) {
-                                const w2 = whole2.textContent.replace(/[^0-9]/g, "");
-                                const f2 = frac2 ? frac2.textContent.replace(/[^0-9]/g, "") : "00";
-                                if (w2) rawPrice = `${w2},${f2}`;
-                            }
-                        }
-                    }
-                    if (!rawPrice || !title) continue;
-
-                    if (brand && !title.toLowerCase().includes(brand))
-                        continue;
-
-                    const linkEl = result.querySelector("h2 a");
-                    const href = linkEl
-                        ? linkEl.getAttribute("href")
-                        : null;
-                    const scraped_url = href
-                        ? `https://www.amazon.de${href}`
-                        : null;
-
-                    return {
-                        rawPrice,
-                        scraped_title: title,
-                        scraped_url,
-                        score: 0,
-                    };
-                }
-
-                return null;
+                return {
+                    best: best || null,
+                    debugCount: results.length,
+                    allScored: allScored.slice(0, 5),
+                };
             },
-            { allTokens, strongTokens, weakTokens, brand }
+            {
+                allTokens, strongTokens, weakTokens, brand,
+                mustHaveTokens,
+                blacklistPattern: ACCESSORY_BLACKLIST_RE.source,
+                applyBlacklist: !BLACKLIST_EXEMPT_CATEGORIES.has(category),
+            }
         );
 
-        if (resultData && resultData.rawPrice) {
-            return {
-                price: parsePrice(resultData.rawPrice),
-                scraped_title: resultData.scraped_title,
-                scraped_url: resultData.scraped_url,
-            };
+        if (evalResult) {
+            const { best, debugCount, allScored } = evalResult;
+            console.log(
+                `[SEARCH] ${debugCount} result cards found. ${allScored.length} passed scoring.`
+            );
+            for (const s of allScored) {
+                console.log(`[SEARCH]   score=${s.score.toFixed(2)} | "${s.title}"`);
+            }
+            if (best) {
+                return {
+                    price: best.rawPrice ? parsePrice(best.rawPrice) : null,
+                    scraped_title: best.scraped_title,
+                    scraped_url: best.scraped_url,
+                };
+            }
+            console.warn(
+                "[SEARCH] No result passed scoring threshold (need allStrong+halfWeak OR ≥70%)."
+            );
+        } else {
+            console.warn(
+                "[SEARCH] evaluate returned null — zero results or page not loaded."
+            );
         }
-    } catch {}
+    } catch (e) {
+        console.warn(`[SEARCH] Error during extraction: ${e.message}`);
+    }
 
     return { price: null, scraped_title: null, scraped_url: null };
 }
@@ -898,7 +1051,23 @@ export async function extractFirstSearchResult(page, expectedName) {
 // ==========================================
 // PRODUCT SCRAPING
 // ==========================================
-export async function scrapeProduct(page, product) {
+
+// Minimum plausible prices per category (EUR).  Anything below this is
+// almost certainly an accessory / wrong product.
+const CATEGORY_MIN_PRICE = {
+    GPU: 25,
+    RAM: 8,
+    Motherboard: 30,
+    CPU: 20,
+    Storage: 8,
+    PSU: 15,
+    PCCase: 15,
+    CPUCooler: 5,
+    CaseFan: 3,
+    OS: 15,
+};
+
+export async function scrapeProduct(page, product, category = null) {
     const identifier =
         product.name || product.id || product.clean_name || "unknown";
     const hasSku =
@@ -913,40 +1082,60 @@ export async function scrapeProduct(page, product) {
         const skuUrl = `https://www.amazon.de/dp/${String(
             product.amazon_sku
         ).trim()}`;
-        console.log(`[SCRAPER] Direct hit for "${identifier}" -> ${skuUrl}`);
+        console.log(`[SCRAPER] Phase 1 (SKU) for "${identifier}" → ${skuUrl}`);
 
         try {
             await page.goto(skuUrl, {
-                waitUntil: "networkidle2",
-                timeout: 30000,
+                waitUntil: "domcontentloaded",
+                timeout: 25000,
             });
         } catch (navErr) {
-            console.warn(`[SCRAPER] Navigation timeout/error: ${navErr.message}`);
-            return {
-                price: null,
-                scraped_url: undefined,
-                scraped_title: undefined,
-            };
+            if (!/timeout/i.test(navErr.message)) {
+                console.warn(`[SCRAPER] Phase 1 nav error: ${navErr.message}`);
+                await page.goto("about:blank").catch(() => {});
+                throw new Error(`Phase-1 navigation failed: ${navErr.message}`);
+            }
+            console.warn(`[SCRAPER] Phase 1 nav timeout — proceeding with loaded content`);
+        }
+
+        const block = await detectPageBlock(page);
+        if (block) {
+            console.warn(
+                `[SCRAPER] Bot detection (${block}) on phase-1 URL. Sleeping 30-50s...`
+            );
+            await sleep(getRandomDelay(30000, 50000));
+            await page.goto("about:blank").catch(() => {});
+            throw new Error(`Bot detection (${block}) during phase-1 lookup`);
         }
 
         await acceptCookies(page);
-        await sleep(getRandomDelay(2000, 4000));
+        await sleep(getRandomDelay(800, 1500));
 
         price = await extractPriceFromPage(page);
 
         if (price !== null) {
-            console.log(`[SCRAPER]  -> Extracted price: ${price.toFixed(2)}`);
-            return { price, scraped_url: scrapedUrl, scraped_title: scrapedTitle };
+            // Plausibility check (direct hits are more trusted – use half the min)
+            const minPrice = (CATEGORY_MIN_PRICE[category] || 0) / 2;
+            if (price < minPrice) {
+                console.warn(
+                    `[SCRAPER]  → Price ${price.toFixed(2)}€ below minimum ${minPrice}€ for ${category}, rejecting`
+                );
+                price = null;
+            } else {
+                return { price, scraped_url: scrapedUrl, scraped_title: scrapedTitle };
+            }
         }
 
         console.warn(
-            `[SCRAPER]  -> Direct hit failed for "${identifier}", falling back to search...`
+            `[SCRAPER]  → Phase 1 failed for "${identifier}", falling back to search...`
         );
     }
 
     // ---- Phase 2: Fallback search (no SKU or direct hit failed) ----
+    // Use full name — clean_name strips specs (DDR4-3200, 2TB, 850W, Home edition)
+    // that are critical for uniquely identifying the product on Amazon.
     const rawName = String(
-        product.clean_name || product.name || ""
+        product.name || product.clean_name || ""
     ).trim();
     const cleanedName = rawName
         .replace(/\s*\(OEM\/Tray\)/gi, "")
@@ -958,47 +1147,89 @@ export async function scrapeProduct(page, product) {
     const simplifiedName = simplifySearchQuery(artifactCleanName);
     const query = encodeURIComponent(simplifiedName || artifactCleanName);
     const searchUrl = `https://www.amazon.de/s?k=${query}`;
-    console.log(
-        `[SCRAPER] Fallback search for "${identifier}" -> ${searchUrl}`
-    );
+
+    console.log(`[SCRAPER] Phase 2 (search) for "${identifier}"`);
+    console.log(`[SCRAPER]   raw="${rawName}" → simplified="${simplifiedName}"`);
+    console.log(`[SCRAPER]   URL: ${searchUrl}`);
 
     try {
         await page.goto(searchUrl, {
-            waitUntil: "networkidle2",
-            timeout: 30000,
+            waitUntil: "domcontentloaded",
+            timeout: 25000,
         });
     } catch (navErr) {
-        console.warn(`[SCRAPER] Navigation timeout/error: ${navErr.message}`);
-        return {
-            price: null,
-            scraped_url: undefined,
-            scraped_title: undefined,
-        };
+        if (!/timeout/i.test(navErr.message)) {
+            console.warn(`[SCRAPER] Phase 2 nav error: ${navErr.message}`);
+            await page.goto("about:blank").catch(() => {});
+            throw new Error(`Phase-2 navigation failed: ${navErr.message}`);
+        }
+        console.warn(`[SCRAPER] Phase 2 nav timeout — proceeding with loaded content`);
+    }
+
+    const block2 = await detectPageBlock(page);
+    if (block2) {
+        console.warn(
+            `[SCRAPER] Bot detection (${block2}) on search page. Sleeping 30-50s...`
+        );
+        await sleep(getRandomDelay(30000, 50000));
+        await page.goto("about:blank").catch(() => {});
+        throw new Error(`Bot detection (${block2}) during phase-2 search`);
     }
 
     await acceptCookies(page);
-    await sleep(getRandomDelay(2000, 4000));
+    await sleep(getRandomDelay(800, 1500));
 
     const searchName = artifactCleanName;
-    const result = await extractFirstSearchResult(page, searchName);
+    const result = await extractFirstSearchResult(page, searchName, category);
     price = result.price;
     scrapedUrl = result.scraped_url || undefined;
     scrapedTitle = result.scraped_title || undefined;
 
     if (scrapedTitle) {
         console.log(
-            `[SCRAPER]  -> Found matching result title: "${scrapedTitle.substring(
-                0,
-                60
-            )}..."`
+            `[SCRAPER]  → Matched: "${scrapedTitle.substring(0, 60)}"`
         );
     }
 
+    // ---- Phase 3: Deep-link extraction (if search card hid the price) ----
+    if (price === null && scrapedTitle && !scrapedUrl) {
+        console.warn(`[SCRAPER]  → Match found but scraped_url is null — Phase 3 skipped`);
+    }
+    if (price === null && scrapedUrl) {
+        console.log(`[SCRAPER] Phase 3 (deep-link): ${scrapedUrl}`);
+        try {
+            await page.goto(scrapedUrl, {
+                waitUntil: "domcontentloaded",
+                timeout: 25000,
+            });
+
+            const block3 = await detectPageBlock(page);
+            if (block3) {
+                console.warn(`[SCRAPER] Bot detection (${block3}) on phase-3 deep-link.`);
+            } else {
+                await acceptCookies(page);
+                await sleep(getRandomDelay(800, 1500));
+                price = await extractPriceFromPage(page);
+            }
+        } catch (navErr) {
+            console.warn(`[SCRAPER] Phase 3 nav error: ${navErr.message}`);
+        }
+    }
+
+    // Plausibility check for fallback-search results (full minimum)
     if (price !== null) {
-        console.log(`[SCRAPER]  -> Extracted price: ${price.toFixed(2)}`);
+        const minPrice = CATEGORY_MIN_PRICE[category] || 0;
+        if (price < minPrice) {
+            console.warn(
+                `[SCRAPER]  → Price ${price.toFixed(2)}€ below minimum ${minPrice}€ for ${category}, rejecting`
+            );
+            price = null;
+        } else {
+            console.log(`[SCRAPER]  → Final price: ${price.toFixed(2)}€`);
+        }
     } else {
         console.warn(
-            `[SCRAPER]  -> Could not extract price for "${identifier}"`
+            `[SCRAPER]  → All phases failed for "${identifier}"`
         );
     }
 
@@ -1014,11 +1245,13 @@ export function createSafeWriter() {
         writeChain = writeChain
             .then(async () => {
                 try {
+                    const tmpPath = filePath + ".tmp";
                     await writeFile(
-                        filePath,
+                        tmpPath,
                         JSON.stringify(data, null, 2),
                         "utf-8"
                     );
+                    await rename(tmpPath, filePath);
                 } catch (err) {
                     console.error(
                         `[WRITE ERROR] Failed to write ${filePath}: ${err.message}`
@@ -1027,8 +1260,6 @@ export function createSafeWriter() {
                 }
             })
             .catch((err) => {
-                // Prevent one failed write from blocking subsequent ones,
-                // but log the error.
                 console.error(
                     `[WRITE ERROR] Chain broken for ${filePath}: ${err.message}`
                 );
