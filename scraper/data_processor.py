@@ -65,6 +65,18 @@ _SERVER_CASE_RE = re.compile(
     re.IGNORECASE
 )
 
+# CaseFan: only common consumer sizes
+_CONSUMER_FAN_SIZES = {120, 140}
+
+# CPUCooler: must support at least one of these modern sockets (if socket data is present)
+_MODERN_COOLER_SOCKETS = {"am4", "am5", "lga1200", "lga1700", "lga1851"}
+
+# Storage: only common consumer form factors / types
+_EXCLUDED_STORAGE_NAMES_RE = re.compile(
+    r"\boptane\b|\bdram\s*cache\b|\bwrite\s*cache\b",
+    re.IGNORECASE
+)
+
 # ==========================================
 # FILTER FUNCTIONS
 # ==========================================
@@ -132,12 +144,31 @@ def is_consumer_storage(interface, capacity_str="", name=""):
     name_lower = (name or "").lower()
     if "tape" in name_lower or "lto" in name_lower:
         return False
+    if _EXCLUDED_STORAGE_NAMES_RE.search(name or ""):
+        return False
     return True
 
 
 def is_consumer_case(name):
     """Exclude server rack enclosures."""
     return not _SERVER_CASE_RE.search(name or "")
+
+
+def is_consumer_fan_size(size):
+    """Only 120 mm and 140 mm fans — the only sizes sold standalone at scale."""
+    try:
+        return int(size) in _CONSUMER_FAN_SIZES
+    except (TypeError, ValueError):
+        return False
+
+
+def is_modern_cooler(sockets):
+    """Keep cooler if it supports at least one modern socket.
+    If no socket list is provided, keep it (unknown ≠ incompatible)."""
+    if not sockets:
+        return True
+    names = {str(s).lower().replace(" ", "").replace("-", "") for s in sockets}
+    return bool(_MODERN_COOLER_SOCKETS & names)
 
 
 # ==========================================
@@ -321,6 +352,9 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         item_data["max_gpu_length"] = specs.get("maximum_video_card_length")
 
     elif raw_category == "CPUCooler":
+        sockets = raw_data.get("sockets") or specs.get("sockets") or []
+        if not is_modern_cooler(sockets):
+            return False
         item_data["cooler_type"] = specs.get("water_cooled")
         item_data["fan_rpm"] = specs.get("fan_rpm")
         item_data["noise_level"] = specs.get("noise_level")
@@ -330,8 +364,9 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         item_data["manufacturer"] = raw_data.get("metadata", {}).get("manufacturer", "")
 
     elif raw_category == "CaseFan":
-        # Skip OEM fans — they're bundled with cases/coolers, not sold standalone
         if raw_data.get("isOEM"):
+            return False
+        if not is_consumer_fan_size(raw_data.get("size")):
             return False
         item_data["size"] = raw_data.get("size")
         item_data["quantity"] = raw_data.get("quantity")
