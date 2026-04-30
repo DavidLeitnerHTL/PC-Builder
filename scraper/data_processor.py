@@ -62,6 +62,13 @@ _SERVER_CASE_RE = re.compile(
     re.IGNORECASE
 )
 
+# PCCase: only consumer tower form factors
+_CONSUMER_CASE_FF_RE = re.compile(
+    r"mid[\s-]*tower|full[\s-]*tower|mini[\s-]*itx[\s-]*tower"
+    r"|micro[\s-]*atx[\s-]*(?:mid|mini)[\s-]*tower",
+    re.IGNORECASE
+)
+
 # CaseFan: only common consumer sizes
 _CONSUMER_FAN_SIZES = {120, 140}
 
@@ -360,12 +367,20 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         chipset = raw_data.get("chipset") or specs.get("chipset") or ""
         if not is_modern_gpu(name, chipset):
             return False
+        vram = raw_data.get("memory") or specs.get("memory")
+        if vram is not None:
+            try:
+                if int(vram) < 4:
+                    return False
+            except (ValueError, TypeError):
+                pass
         item_data["chipset"] = chipset or None
-        item_data["vram"] = specs.get("memory")
-        item_data["core_clock"] = specs.get("core_clock")
-        item_data["boost_clock"] = specs.get("boost_clock")
-        item_data["length"] = specs.get("length")
-        item_data["tdp"] = specs.get("tdp")
+        item_data["vram"] = vram
+        item_data["core_clock"] = raw_data.get("core_base_clock") or specs.get("core_clock")
+        item_data["boost_clock"] = raw_data.get("core_boost_clock") or specs.get("boost_clock")
+        item_data["length"] = raw_data.get("length") or specs.get("length")
+        item_data["tdp"] = raw_data.get("tdp") or specs.get("tdp")
+        item_data["memory_type"] = raw_data.get("memory_type")
 
     elif raw_category == "Motherboard":
         socket = raw_data.get("socket") or specs.get("socket") or ""
@@ -392,6 +407,10 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         capacity_raw = raw_data.get("capacity")
         capacity_str = f"{capacity_raw} GB" if capacity_raw is not None else (specs.get("capacity") or "")
         storage_type = raw_data.get("type") or raw_data.get("storage_type") or specs.get("type") or ""
+        is_hdd = "hdd" in storage_type.lower() or "hard" in storage_type.lower()
+        is_nvme = raw_data.get("nvme") is True
+        if not is_hdd and not is_nvme:
+            return False
         if not is_consumer_storage(interface, capacity_str, storage_type, name):
             return False
         item_data["capacity"] = capacity_str or None
@@ -413,13 +432,16 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
     elif raw_category == "PCCase":
         if not is_consumer_case(name):
             return False
+        case_ff = raw_data.get("form_factor") or ""
+        if not _CONSUMER_CASE_FF_RE.search(case_ff):
+            return False
         mb_form = raw_data.get("supported_motherboard_form_factors") or specs.get("motherboard_form_factor")
         if not is_consumer_case_mb(mb_form):
             return False
         max_gpu = raw_data.get("max_video_card_length") or specs.get("maximum_video_card_length")
         if not max_gpu:
             return False
-        item_data["type"] = raw_data.get("form_factor") or specs.get("type")
+        item_data["type"] = case_ff or specs.get("type")
         item_data["color"] = raw_data.get("color") or specs.get("color")
         item_data["motherboard_support"] = mb_form
         item_data["max_gpu_length"] = max_gpu
