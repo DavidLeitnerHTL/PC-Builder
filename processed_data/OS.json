@@ -8,7 +8,9 @@
         "manufacturer": "Microsoft",
         "os_type": "Windows 11",
         "edition": "Home",
-        "license_type": "DVD"
+        "license_type": "DVD",
+        "price": 137.53,
+        "last_updated": "2026-04-30T06:10:43.873Z"
     },
     {
         "id": "ec3c4a4a-bc49-4e83-b56c-9a08b2e82d4f",
@@ -18,7 +20,9 @@
         "clean_name": "Windows 11 USB",
         "manufacturer": "Microsoft",
         "os_type": "Windows 11",
-        "license_type": "USB"
+        "license_type": "USB",
+        "price": 173.69,
+        "last_updated": "2026-04-30T06:10:37.076Z"
     },
     {
         "id": "572f43d9-c427-464c-b8b4-c342498db749",
@@ -47,7 +51,9 @@
         "manufacturer": "Microsoft",
         "os_type": "Windows 10",
         "edition": "Home",
-        "license_type": "USB"
+        "license_type": "USB",
+        "price": 137.53,
+        "last_updated": "2026-04-30T06:10:51.330Z"
     },
     {
         "id": "6eed4a07-b417-46f8-b9ff-f2299f31e965",
@@ -58,7 +64,9 @@
         "manufacturer": "Microsoft",
         "os_type": "Windows 10",
         "edition": "Pro",
-        "license_type": "USB"
+        "license_type": "USB",
+        "price": 173.69,
+        "last_updated": "2026-04-30T06:11:00.625Z"
     },
     {
         "id": "06351667-b638-46e4-88d9-5829230a9fcc",
@@ -69,7 +77,9 @@
         "manufacturer": "Microsoft",
         "os_type": "Windows 10",
         "edition": "Home",
-        "license_type": "Download"
+        "license_type": "Download",
+        "price": 137.53,
+        "last_updated": "2026-04-30T06:11:02.304Z"
     },
     {
         "id": "e27bea98-0a54-4b0d-817c-9279a302e8b5",
@@ -80,7 +90,9 @@
         "manufacturer": "Microsoft",
         "os_type": "Windows 10",
         "edition": "Pro",
-        "license_type": "Download"
+        "license_type": "Download",
+        "price": 173.69,
+        "last_updated": "2026-04-30T06:11:05.069Z"
     },
     {
         "id": "7a2b159b-8234-48c7-adb8-fc54db814c57",
@@ -91,7 +103,9 @@
         "manufacturer": "Microsoft",
         "os_type": "Windows 11",
         "edition": "Pro",
-        "license_type": "USB"
+        "license_type": "USB",
+        "price": 173.69,
+        "last_updated": "2026-04-30T06:11:09.442Z"
     },
     {
         "id": "158477d6-25c0-4ee2-920c-ac8816a37e71",
@@ -102,7 +116,9 @@
         "manufacturer": "Microsoft",
         "os_type": "Windows 11",
         "edition": "Home",
-        "license_type": "Download"
+        "license_type": "Download",
+        "price": 137.53,
+        "last_updated": "2026-04-30T06:11:17.396Z"
     },
     {
         "id": "1ec8227b-e045-4b75-aedd-492f51f22e4e",
@@ -113,6 +129,8 @@
         "manufacturer": "Microsoft",
         "os_type": "Windows 11",
         "edition": "Pro",
-        "license_type": "DVD"
+        "license_type": "DVD",
+        "price": 173.69,
+        "last_updated": "2026-04-30T06:11:19.133Z"
     }
 ]
