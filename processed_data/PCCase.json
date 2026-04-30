@@ -170,41 +170,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "bcce6f8e-2f2a-4d30-b14e-69af1d560b2f",
-        "name": "Silverstone FARA 312Z Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0BJ6K5TGP",
-        "clean_name": "Silverstone FARA 312Z Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 365,
-        "max_cooler_height": 173
-    },
-    {
-        "id": "13e28e1c-1500-405d-9d11-ce9776ef45d3",
-        "name": "Silverstone FARA H1M PRO Micro ATX Mini Tower White/Black Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B09P8G7J7G",
-        "clean_name": "Silverstone FARA H1M PRO Mini Tower White/Black Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE",
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 320,
-        "max_cooler_height": 160
-    },
-    {
         "id": "fa67445c-2af2-4725-b85a-eedd962899e1",
         "name": "Asus A31 ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
         "variant": "",
@@ -353,24 +318,6 @@
         "max_cooler_height": 175
     },
     {
-        "id": "faf09fc3-e837-4c72-8494-c2812015d927",
-        "name": "Cooler Master TD300 Mesh Micro ATX Mini Tower White / Black Tempered Glass, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B09JQVHG85",
-        "clean_name": "Cooler Master TD300 Mesh Mini Tower White / Black Tempered Glass, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE",
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 344,
-        "max_cooler_height": 166
-    },
-    {
         "id": "f225fd3c-c0dc-4911-b401-b3184d5671ea",
         "name": "Cooler Master Elite 500 ODD ATX Mid Tower Black",
         "variant": "",
@@ -390,23 +337,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "3342308a-8f3f-4de6-b4f8-a651b448203a",
-        "name": "Asus A21 Micro ATX Mini Tower Black Tempered Glass Side Panel",
-        "variant": "Black",
-        "amazon_sku": "B0BRY27KGQ",
-        "clean_name": "Asus A21 Mini Tower Black Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 380,
-        "max_cooler_height": 165
-    },
-    {
         "id": "8ed8cb88-1fd2-40b2-9975-aafc22a58a45",
         "name": "Silverstone SETA A2 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -424,23 +354,6 @@
         "max_gpu_length": 438,
         "max_cooler_height": 190,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "6c2170cc-f8b6-4877-9ff5-4efc9cfe7d3b",
-        "name": "Asus A21 Micro-ATX Mini Tower White Tempered Glass",
-        "variant": "White",
-        "amazon_sku": "‎B0CPP58899",
-        "clean_name": "Asus A21 Mini Tower White Tempered Glass",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 380,
-        "max_cooler_height": 165
     },
     {
         "id": "6e0e0aa6-68ee-4d05-8d8c-959e803d1c43",
@@ -535,23 +448,6 @@
         "case_type": "Full Tower"
     },
     {
-        "id": "f16ee7b1-e2d9-4242-995b-e361ab77c0bf",
-        "name": "Corsair 2500X Micro ATX Mini Tower Black Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CQ5DH88N",
-        "clean_name": "Corsair 2500X Mini Tower Black Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 180
-    },
-    {
         "id": "e59c459d-496b-46e9-b13e-4f8b73882bde",
         "name": "SHARKOON MS-Z1000 Micro ATX Mid Tower White Tempered Glass Side Panel with USB 3.2 Gen 1 Type-A Front Panel",
         "variant": "",
@@ -568,23 +464,6 @@
         "max_gpu_length": 360,
         "max_cooler_height": 135,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "e2a8a106-39c9-418a-bc56-87c1f465c511",
-        "name": "Cooler Master Elite 302 Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-C / USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0F8SJDJSW",
-        "clean_name": "Cooler Master Elite 302 Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-C / USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 365,
-        "max_cooler_height": 163.5
     },
     {
         "id": "41c5e262-2f93-4433-a1bb-802e3f2678fe",
@@ -895,59 +774,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "c0624328-9194-4ee1-9638-b09ceb591068",
-        "name": "Silverstone TJ08B-E MicroATX Mini Tower Black",
-        "variant": "",
-        "amazon_sku": "B005DDCDH2",
-        "clean_name": "Silverstone TJ08B-E Mini Tower Black",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 336,
-        "max_cooler_height": 165
-    },
-    {
-        "id": "088d7b0e-bd60-4191-b5a4-4796a52b7b5a",
-        "name": "Cooler Master Elite 301 Lite Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-C and USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0D7N5WPF3",
-        "clean_name": "Cooler Master Elite 301 Lite Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-C and USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 365,
-        "max_cooler_height": 163.5,
-        "price": 387.75,
-        "last_updated": "2026-04-30T06:17:55.253Z"
-    },
-    {
-        "id": "f579622c-a4c5-4365-847e-ba5e9431a712",
-        "name": "Montech King 15 Black",
-        "variant": "15",
-        "amazon_sku": "B0FWWN8LYD",
-        "clean_name": "Montech King 15 Black",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 435,
-        "max_cooler_height": 187
-    },
-    {
         "id": "6a0ed0a1-679d-43e5-8fbe-fcef98dbbde5",
         "name": "Montech X5 ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
         "variant": "",
@@ -1002,23 +828,6 @@
         "max_gpu_length": 354,
         "max_cooler_height": 156,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "811ea55d-5429-4cb5-b0e7-c70760f3f408",
-        "name": "Aerocool Bolt Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B081DJ4536",
-        "clean_name": "Aerocool Bolt Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 318,
-        "max_cooler_height": 155
     },
     {
         "id": "a4bbc38b-5290-407f-9b56-7d6411937a34",
@@ -1082,23 +891,6 @@
         "case_type": "Mid Tower",
         "price": 1212.61,
         "last_updated": "2026-04-30T06:18:47.831Z"
-    },
-    {
-        "id": "52baab97-2b61-44e7-8bc2-13c8da7ca806",
-        "name": "Silverstone FARA H1M MicroATX Mini Tower White Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B097HJW96F",
-        "clean_name": "Silverstone FARA H1M Mini Tower White Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 320,
-        "max_cooler_height": 160
     },
     {
         "id": "abb177a5-203d-42a3-bd67-3c7a01201c55",
@@ -1399,25 +1191,6 @@
         "last_updated": "2026-04-30T06:20:31.785Z"
     },
     {
-        "id": "fbd8cdf6-8725-41bb-9285-5e581eb6489b",
-        "name": "Okinos Aqua 3 Micro ATX Mini Tower Black Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B0CQ8FT1JL",
-        "clean_name": "Okinos Aqua 3 Mini Tower Black Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 320,
-        "max_cooler_height": 164,
-        "price": 193.41,
-        "last_updated": "2026-04-30T06:20:34.498Z"
-    },
-    {
         "id": "17fd55bc-540f-47c2-a748-11aa651bac6c",
         "name": "Azza Legionaire 470 ATX Mid Tower Black Mesh Side Panel",
         "variant": "",
@@ -1597,23 +1370,6 @@
         "max_cooler_height": 166,
         "price": 177.77,
         "last_updated": "2026-04-30T06:21:15.170Z"
-    },
-    {
-        "id": "9d7d6cde-4ac5-4694-b002-17b1fe00a1f5",
-        "name": "Cooler Master Q300L V2 MicroATX Mini Tower Black Tempered Glass Side Panel",
-        "variant": "Q300L V2 (Black)",
-        "amazon_sku": "B0CB8WGGNW",
-        "clean_name": "Cooler Master Q300L V2 Mini Tower Black Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 360,
-        "max_cooler_height": 159
     },
     {
         "id": "b7088bfb-479e-461c-a078-844329526224",
@@ -2018,23 +1774,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "416c1098-e58d-40bf-b8f5-257fc45c5730",
-        "name": "Lian Li LANCOOL 205M MESH Micro ATX Mini Tower Black Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B0B5TG9BP1",
-        "clean_name": "Lian Li LANCOOL 205M MESH Mini Tower Black Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 350,
-        "max_cooler_height": 160
-    },
-    {
         "id": "3a8ff174-de02-4c85-bf68-3536826fec76",
         "name": "Hyte Y70 Touch Infinite Dual Chamber ATX Mid Tower Modern Aesthetic Case with Integrated 2.5K LCD Touchscreen - Panda/White",
         "variant": "Panda",
@@ -2074,23 +1813,6 @@
         "max_gpu_length": 392,
         "max_cooler_height": 180.5,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "c3bda015-75d9-4db6-97d3-76c31533ea84",
-        "name": "Thermaltake View 170 ARGB MicroATX Mini Tower Black Tempered Glass Side Panel",
-        "variant": "170",
-        "amazon_sku": "B0D6K4H63X",
-        "clean_name": "Thermaltake View 170 ARGB Mini Tower Black Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 340,
-        "max_cooler_height": 160
     },
     {
         "id": "0c25e46d-d7e6-4c7e-bfba-949c544c8492",
@@ -2317,23 +2039,6 @@
         ],
         "max_gpu_length": 325,
         "max_cooler_height": 114
-    },
-    {
-        "id": "07345295-aab7-4201-9ae9-9235dba6c7ee",
-        "name": "Asus Prime AP201 Micro ATX Mini Tower White Mesh Side Panel",
-        "variant": "",
-        "amazon_sku": "B0B99J7T35",
-        "clean_name": "Asus Prime AP201 Mini Tower White Mesh Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 338,
-        "max_cooler_height": 170
     },
     {
         "id": "30899ad9-b18b-404c-84a6-8e2cc7b5f7bf",
@@ -2691,23 +2396,6 @@
         "max_cooler_height": 160
     },
     {
-        "id": "d0bfd715-d436-4e52-ae4e-883ff71969fa",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Matcha Green",
-        "variant": "300 Matcha Green",
-        "amazon_sku": "B0CS8KYS12",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Matcha Green",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "GREEN"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210
-    },
-    {
         "id": "69346df6-5065-47e0-a288-1dd50dda7191",
         "name": "Fractal Design Meshify 2 Compact RGB ATX Mid Tower White Tempered Glass",
         "variant": "",
@@ -2725,40 +2413,6 @@
         "max_gpu_length": 360,
         "max_cooler_height": 169,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "120f9a96-7714-4a2f-abb1-cf19c3964a49",
-        "name": "Thermaltake S100 Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A and USB 2.0 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B0886LF1Q4",
-        "clean_name": "Thermaltake S100 Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A and USB 2.0 Type-A Front Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 330,
-        "max_cooler_height": 165
-    },
-    {
-        "id": "b8783b4f-d98a-4e92-9099-41aa0270814d",
-        "name": "Okinos Cypress 3 Micro ATX Mini Tower Black Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0DQPR55H6",
-        "clean_name": "Okinos Cypress 3 Mini Tower Black Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 320,
-        "max_cooler_height": 164
     },
     {
         "id": "dea5730a-5872-479a-9b62-529135905669",
@@ -2845,23 +2499,6 @@
         "max_gpu_length": 503,
         "max_cooler_height": 195,
         "case_type": "Full Tower"
-    },
-    {
-        "id": "8d478069-5380-40fc-99f1-118af18a38da",
-        "name": "Montech X5M Micro ATX Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "White",
-        "amazon_sku": "B0FF7TS2QR",
-        "clean_name": "Montech X5M Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 405,
-        "max_cooler_height": 165
     },
     {
         "id": "b941e54b-9af8-4a57-9abe-dcda02c5f2f8",
@@ -3133,24 +2770,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "faf380e2-a1ce-4442-ad9e-161f70c64d35",
-        "name": "Montech King 15 White",
-        "variant": "15",
-        "amazon_sku": "B0FWX8WCS4",
-        "clean_name": "Montech King 15 White",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 435,
-        "max_cooler_height": 187
-    },
-    {
         "id": "d91435a1-9069-44fc-a31d-e8070ccdf6e9",
         "name": "DIYPC Rainbow-Flash-F4 ATX Mid Tower Pink Tempered Glass Side Panel",
         "variant": "",
@@ -3219,23 +2838,6 @@
         "max_gpu_length": 350,
         "max_cooler_height": 160,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "d583fd15-dfcf-41fb-8abd-258d4091366d",
-        "name": "Apevia Prodigy Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B08DP7RGJQ",
-        "clean_name": "Apevia Prodigy Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 350,
-        "max_cooler_height": 156
     },
     {
         "id": "723392ad-dd65-4543-9ed4-304e99e8fb80",
@@ -3464,23 +3066,6 @@
         "case_type": "Full Tower"
     },
     {
-        "id": "c162a19a-f9f8-4726-8323-6e41c02221a6",
-        "name": "Cooler Master Q300L V2 MicroATX Mini Tower White Tempered Glass Side Panel",
-        "variant": "Q300L V2 (White)",
-        "amazon_sku": "B0CXH9PY82",
-        "clean_name": "Cooler Master Q300L V2 Mini Tower White Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 360,
-        "max_cooler_height": 159
-    },
-    {
         "id": "eecc3adc-0024-435f-aa71-092bf139d39a",
         "name": "Thermaltake View 380 XL ATX Mid Tower Bumblebee",
         "variant": "380 XL",
@@ -3649,19 +3234,6 @@
         "last_updated": "2026-04-30T06:35:12.802Z"
     },
     {
-        "id": "05fe40f6-b86b-4a0a-b80b-acb0fc2fb537",
-        "name": "JONSBO D30 BLACK Mini Micro ATX Computer Case, Aluminum/Steel/Tempered Glass-1 Side, Simple High Compatibility MATX Case, Support 240 Water & 168mm Air Cooling, 355mm GPU Support,Interchangeable Side",
-        "amazon_sku": "B0B4FQ4Y5V",
-        "clean_name": "JONSBO D30 BLACK Mini Computer , Aluminum/Steel/Tempered Glass-1 Side, Simple High Compatibility M , Support 240 Water & 168mm Air Cooling, 355mm GPU Support,Interchangeable Side",
-        "type": "Micro ATX Mini Tower",
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 355,
-        "max_cooler_height": 168
-    },
-    {
         "id": "d3e7f370-f4d3-48f9-9060-1dc4c8644040",
         "name": "HYTE Y40 ATX Mid Tower White Tempered Glass Side Panel",
         "variant": "Snow White",
@@ -3735,24 +3307,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "b736f556-8988-4c4f-8e59-3c60bec89253",
-        "name": "Cooler Master Elite 302 Micro ATX Mini Tower White / Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0F8RYGCJG",
-        "clean_name": "Cooler Master Elite 302 Mini Tower White / Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE",
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 365,
-        "max_cooler_height": 163.5
-    },
-    {
         "id": "0579bb64-a706-4b2d-b880-eaf6b8c6c602",
         "name": "Fractal Design Era ITX Mini Tower Case (Carbon with Tempered Glass)",
         "variant": "Carbon",
@@ -3764,23 +3318,6 @@
         ],
         "max_gpu_length": 295,
         "max_cooler_height": 120
-    },
-    {
-        "id": "00487393-e98c-4e50-9519-d83f58497429",
-        "name": "Silverstone Sugo SG11 Micro ATX Mini Tower Black",
-        "variant": "",
-        "amazon_sku": "B00U8IS830",
-        "clean_name": "Silverstone Sugo SG11 Mini Tower Black",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 369,
-        "max_cooler_height": 82
     },
     {
         "id": "7e748555-7746-407d-ad79-dc169f8b067f",
@@ -3912,23 +3449,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "e60c3e56-f5d7-4cb1-bb2a-162cc9887d3d",
-        "name": "Silverstone FARA H1M MicroATX Mini Tower Black",
-        "variant": "",
-        "amazon_sku": "B0973TJQ42",
-        "clean_name": "Silverstone FARA H1M Mini Tower Black",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 320,
-        "max_cooler_height": 160
-    },
-    {
         "id": "6364fa3c-1126-498b-8fbb-6e5c63585b8e",
         "name": "Fractal Design Define 7 XL ATX Full Tower Dark Tinted Tempered Glass",
         "variant": "",
@@ -4020,23 +3540,6 @@
         "max_gpu_length": 410,
         "max_cooler_height": 175,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "934a7eb3-999c-4448-a6b2-7e26973fc7af",
-        "name": "Thermaltake Versa H18 Micro ATX Mini Tower Black Tempered Glass Side Panel, USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B079G3TNDM",
-        "clean_name": "Thermaltake Versa H18 Mini Tower Black Tempered Glass Side Panel, USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 350,
-        "max_cooler_height": 155
     },
     {
         "id": "7a0e2f74-592b-4981-b825-2e33934d0232",
@@ -4168,23 +3671,6 @@
         "max_cooler_height": 163
     },
     {
-        "id": "45275c6f-339d-431e-91c1-a96308f64d1d",
-        "name": "Fractal Design Core 1100 Micro ATX Mini Tower Black with Front Panel USB 3.2 Gen 1 Type-A and USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B00NPIL6GQ",
-        "clean_name": "Fractal Design Core 1100 Mini Tower Black with Front Panel USB 3.2 Gen 1 Type-A and USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 350,
-        "max_cooler_height": 148
-    },
-    {
         "id": "344c12d5-e34e-43f4-9436-f1c14d2e4bc7",
         "name": "Phanteks EVOLV X2 ATX Mid Tower White Tempered Glass Side Panel with USB 3.2 Gen 2x2 Type-C and USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -4300,20 +3786,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "46d230db-ebfe-4beb-bdac-a536aadfedfd",
-        "name": "Chieftec UE-02B Micro ATX Mini Tower",
-        "variant": "",
-        "amazon_sku": "B0160WZQ8M",
-        "clean_name": "Chieftec UE-02B Mini Tower",
-        "type": "Micro ATX Mini Tower",
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 200,
-        "max_cooler_height": 65
-    },
-    {
         "id": "ef4313cd-503b-4297-b87e-36c6a34f0c4c",
         "name": "GAMDIAS TALOS E3 MESH ATX Mid Tower Black with Tempered Glass Side Panel",
         "variant": "",
@@ -4391,23 +3863,6 @@
         "case_type": "Mid Tower",
         "price": 1152.63,
         "last_updated": "2026-04-30T06:39:31.630Z"
-    },
-    {
-        "id": "cbc4d705-e466-41a7-afd6-6c22e5ef5345",
-        "name": "GameMax Defender MB Micro ATX Mini Tower Black Tempered Glass Side Panel with USB 3.2 Gen 1 Type-A and USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CMPDJ5PS",
-        "clean_name": "GameMax Defender MB Mini Tower Black Tempered Glass Side Panel with USB 3.2 Gen 1 Type-A and USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 410,
-        "max_cooler_height": 165
     },
     {
         "id": "560ed742-4f3a-4f05-b5d3-f1ae565cfbff",
@@ -4653,23 +4108,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "4c311e93-7cf1-426d-bd1a-671ab6e01981",
-        "name": "Silverstone FARA H1M PRO MicroATX Mini Tower Black Tempered Glass",
-        "variant": "",
-        "amazon_sku": "B08ZMRGL5J",
-        "clean_name": "Silverstone FARA H1M PRO Mini Tower Black Tempered Glass",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 320,
-        "max_cooler_height": 160
-    },
-    {
         "id": "09d08540-fda6-45fe-b923-e99f676f4260",
         "name": "TRYX Luca L70 ATX PC Case Panoramic Glass with Front Panel ATX Case Bottom Mount PSU Black",
         "variant": "Bottom Mount PSU Black",
@@ -4747,23 +4185,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "e1ab3649-0b61-4ed1-a42c-deba8974c0e8",
-        "name": "Corsair 2500X Micro ATX Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CQ5FDB2C",
-        "clean_name": "Corsair 2500X Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 180
-    },
-    {
         "id": "e2f140d0-60ff-4dc4-973a-072c0f82849b",
         "name": "Phanteks NV5 MKII ATX Mid Tower Black Tempered Glass Side Panel",
         "variant": "",
@@ -4795,23 +4216,6 @@
         ],
         "max_gpu_length": 360,
         "max_cooler_height": 160
-    },
-    {
-        "id": "7b048337-62bc-434e-8ef0-2fad7211628d",
-        "name": "Okinos Aqua 3 Micro ATX Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CQ899B57",
-        "clean_name": "Okinos Aqua 3 Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 330,
-        "max_cooler_height": 164
     },
     {
         "id": "1bd48682-e6ca-41a0-b07d-4c785f380acb",
@@ -5224,25 +4628,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "f302b257-e678-4bb4-b304-cb09ed521e7c",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Snow",
-        "variant": "300 Snow",
-        "amazon_sku": "B0CS8GCNCK",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Snow",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210,
-        "price": 1059.45,
-        "last_updated": "2026-04-30T06:44:15.515Z"
-    },
-    {
         "id": "75a890b1-76df-45c4-acd6-0fba132ba763",
         "name": "Corsair iCUE LINK 6500X RGB ATX Mid Tower White Tempered Glass",
         "variant": "",
@@ -5314,23 +4699,6 @@
         "max_gpu_length": 330,
         "max_cooler_height": 156,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "f2f91fa3-4c3e-483e-a739-60e784e4b6d4",
-        "name": "Thermaltake Versa H18 Micro ATX Mini Tower Black Acrylic Side Panel",
-        "variant": "",
-        "amazon_sku": "B077GFVY21",
-        "clean_name": "Thermaltake Versa H18 Mini Tower Black Acrylic Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 350,
-        "max_cooler_height": 155
     },
     {
         "id": "9797ac74-b2bf-441e-bd72-57198c2d1b6d",
@@ -5468,23 +4836,6 @@
         "max_gpu_length": 422,
         "max_cooler_height": 180,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "df8690bd-a483-483e-a4f1-f4116e2cb6c5",
-        "name": "Jonsbo TK-1 Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CKVZRKRH",
-        "clean_name": "Jonsbo TK-1 Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 280,
-        "max_cooler_height": 165
     },
     {
         "id": "40ab8158-8f05-491b-ba71-4da5c1969c07",
@@ -5811,25 +5162,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "7a2d74b0-4454-4e38-a7cc-5a0c5414eda2",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Turquoise",
-        "variant": "300 Turquoise",
-        "amazon_sku": "B0CS81XKMV",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Turquoise",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLUE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210,
-        "price": 1078.86,
-        "last_updated": "2026-04-30T06:47:31.936Z"
-    },
-    {
         "id": "01e80402-f15e-4d65-ba08-db2e69fdc267",
         "name": "Azza Spectra ATX Mid Tower White with Tempered Glass Side Panel and Front Panel USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
         "variant": "",
@@ -5847,23 +5179,6 @@
         "max_gpu_length": 290,
         "max_cooler_height": 155,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "d86b31ae-7f2e-4900-a972-cdcd9f1ade8e",
-        "name": "COUGAR MG120 Black Micro ATX Mini Tower Case",
-        "variant": "MG120",
-        "amazon_sku": "B07Y5G9V6D",
-        "clean_name": "COUGAR MG120 Black Mini Tower",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 310,
-        "max_cooler_height": 175
     },
     {
         "id": "9c30d2da-044b-4c32-8fd9-08c5cf4f5e89",
@@ -6141,23 +5456,6 @@
         "case_type": "Full Tower"
     },
     {
-        "id": "9c96972c-c9c7-40fa-8630-ffa42a1cbc12",
-        "name": "Cooler Master Silencio S400 Micro ATX Mini Tower Black Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B07T472NTG",
-        "clean_name": "Cooler Master Silencio S400 Mini Tower Black Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 319,
-        "max_cooler_height": 167
-    },
-    {
         "id": "eea4aa90-5848-40f3-97c0-d4176a586064",
         "name": "HYTE Y70 ATX Mid Tower Blue Tempered Glass Side Panel",
         "variant": "",
@@ -6324,23 +5622,6 @@
         "max_gpu_length": 390,
         "max_cooler_height": 165,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "4e412697-ee36-43c5-85df-41144c3c926d",
-        "name": "Cooler Master N200 Micro ATX Mini Tower Black with Front Panel: USB 3.2 Gen 1 Type-A and USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B00CUZP0SU",
-        "clean_name": "Cooler Master N200 Mini Tower Black with Front Panel: USB 3.2 Gen 1 Type-A and USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 355,
-        "max_cooler_height": 160
     },
     {
         "id": "d56652ea-7ea9-4792-996b-ee11805a4f71",
@@ -6543,40 +5824,6 @@
         "case_type": "Full Tower"
     },
     {
-        "id": "453255ec-72fe-47f6-9343-3fd0393b6331",
-        "name": "Zalman P30 Micro ATX Mini Tower White Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B0CK3W7R2W",
-        "clean_name": "Zalman P30 Mini Tower White Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 420,
-        "max_cooler_height": 173
-    },
-    {
-        "id": "f6a18224-0c9a-44ca-9ea5-da8d52b0172b",
-        "name": "Corsair 2500D Airflow Micro ATX Mini Tower Black with Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B0CQ5G3NW9",
-        "clean_name": "Corsair 2500D Airflow Mini Tower Black with Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 180
-    },
-    {
         "id": "4f4847a2-ed5b-42a1-9027-8e4704d463ae",
         "name": "Thermaltake CTE C750 ARGB ATX Full Tower White Tempered Glass Side Panel",
         "variant": "",
@@ -6633,23 +5880,6 @@
         "max_gpu_length": 400,
         "max_cooler_height": 180,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "644c88d4-4f3e-4eb2-af1c-d6aa7a016878",
-        "name": "KOLINK KLM-002 Micro ATX Mini Tower Black",
-        "variant": "",
-        "amazon_sku": "B084BY393C",
-        "clean_name": "KOLINK KLM-002 Mini Tower Black",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 150,
-        "max_cooler_height": 75
     },
     {
         "id": "cbb938d9-f48b-4b05-920e-150c39607845",
@@ -7443,23 +6673,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "75b8fa59-986c-4cbc-9dcc-c6574428233c",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Bubble Pink",
-        "variant": "300 Bubble Pink",
-        "amazon_sku": "B0CZSJV54G",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Bubble Pink",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "PINK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210
-    },
-    {
         "id": "6ba4b85c-9a3d-4685-885f-f4aad333adda",
         "name": "Aerocool Prism V2 RGB ATX Mid Tower Black with Tempered Glass",
         "variant": "",
@@ -7610,23 +6823,6 @@
         ],
         "max_gpu_length": 360,
         "max_cooler_height": 210
-    },
-    {
-        "id": "6085f441-2482-4d31-bce6-031c683805cb",
-        "name": "Asus Prime AP201 Micro ATX Mini Tower White Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0C5LDGN1R",
-        "clean_name": "Asus Prime AP201 Mini Tower White Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 338,
-        "max_cooler_height": 170
     },
     {
         "id": "1e617b6d-b23d-44dc-80b5-a04bbfb1c616",
@@ -7929,23 +7125,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "ce631588-7acb-47fe-9833-8f62fe879b73",
-        "name": "Thermaltake Divider 200 TG Air MicroATX Mini Tower Snow Tempered Glass",
-        "variant": "",
-        "amazon_sku": "B09FNZPYSJ",
-        "clean_name": "Thermaltake Divider 200 TG Air Mini Tower Snow Tempered Glass",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 340,
-        "max_cooler_height": 185
-    },
-    {
         "id": "cf853a8d-f5a2-4771-b841-2ea63b7754c9",
         "name": "Thermaltake S300 Snow Edition ATX Mid Tower White Tempered Glass",
         "variant": "",
@@ -8001,40 +7180,6 @@
         "max_gpu_length": 365,
         "max_cooler_height": 163,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "f9f1cc90-f28a-4d3c-b98b-45b03037008e",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Hydrangea Blue",
-        "variant": "300 Hydrangea Blue",
-        "amazon_sku": "B0F7MY3834",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Hydrangea Blue",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLUE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210
-    },
-    {
-        "id": "54d48e39-7a87-495a-9d11-b07c27477342",
-        "name": "Asus Prime AP201 Micro ATX Mini Tower Black with Mesh Side Panel and USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0B99HTD3B",
-        "clean_name": "Asus Prime AP201 Mini Tower Black with Mesh Side Panel and USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 338,
-        "max_cooler_height": 170
     },
     {
         "id": "170ea77f-4033-4739-ab7a-78aec2c373cc",
@@ -8200,23 +7345,6 @@
         "max_gpu_length": 290,
         "max_cooler_height": 185,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "834fac39-9be3-4278-876e-5eb69eb743de",
-        "name": "DIYPC DIY-CUBE01 Micro ATX Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CRF98CHX",
-        "clean_name": "DIYPC DIY-CUBE01 Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 340,
-        "max_cooler_height": 155
     },
     {
         "id": "8e8691c0-3b7c-4a09-acd7-39f180f6bc23",
@@ -8655,25 +7783,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "3f928d15-88f0-4273-803e-81b9f394a3a0",
-        "name": "Silverstone FARA H1M Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B08ZMR3V5Z",
-        "clean_name": "Silverstone FARA H1M Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 320,
-        "max_cooler_height": 160,
-        "price": 337.64,
-        "last_updated": "2026-04-30T07:05:54.481Z"
-    },
-    {
         "id": "e6e3d555-041f-4426-b669-cdece8799809",
         "name": "Corsair 3200D RS Black",
         "variant": "RS Black",
@@ -8801,25 +7910,6 @@
         "max_gpu_length": 385,
         "max_cooler_height": 160,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "250fb2dc-0659-4155-b11c-dbc338d8c5ed",
-        "name": "Lian Li A3-mATX Micro ATX Mini Tower White Mesh",
-        "variant": "",
-        "amazon_sku": "B0D5HCYZXR",
-        "clean_name": "Lian Li A3-m Micro Mini Tower White Mesh",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 415,
-        "max_cooler_height": 165,
-        "price": 540.33,
-        "last_updated": "2026-04-30T07:06:45.799Z"
     },
     {
         "id": "e6b015f7-449a-4fb4-b91b-2927293831b2",
@@ -9408,20 +8498,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "e9a0a258-de9d-4231-bf5e-ed00217eff45",
-        "name": "InWin 301 Black Tempered Glass Premium Micro-ATX Mini-ITX Tower Gaming Computer Case",
-        "variant": "Black",
-        "amazon_sku": "B07229QBYM",
-        "clean_name": "InWin 301 Black Tempered Glass Premium Tower Gaming Computer",
-        "type": "Micro ATX Mini Tower",
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 310,
-        "max_cooler_height": 160
-    },
-    {
         "id": "6f487472-6724-4c77-97d7-bd05fd735055",
         "name": "Silverstone SETA H2 ATX Full Tower Black with Mesh Side Panel and USB 3.2 Gen 2 Type-C, USB 2.0 Type-A",
         "variant": "",
@@ -9439,23 +8515,6 @@
         "max_gpu_length": 330,
         "max_cooler_height": 188,
         "case_type": "Full Tower"
-    },
-    {
-        "id": "f93719ad-1a8b-4533-bcae-14a88a9cdf8a",
-        "name": "Silverstone PS16B Micro ATX Mini Tower Black USB 3.2 Gen 1",
-        "variant": "",
-        "amazon_sku": "B07VVMP874",
-        "clean_name": "Silverstone PS16B Mini Tower Black USB 3.2 Gen 1",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 320,
-        "max_cooler_height": 165
     },
     {
         "id": "e72d9dd1-eff2-4f94-a05f-39c1ab4d4c92",
@@ -9692,24 +8751,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "0b4a97e5-e29b-49c0-8604-cbea5ae2cfd7",
-        "name": "Thermaltake View 170 ARGB Micro ATX Mini Tower Pink / Blue Tempered Glass Side Panel, USB 3.2 Gen 1 Type-A",
-        "variant": "170",
-        "amazon_sku": "B0F1ZDWG7B",
-        "clean_name": "Thermaltake View 170 ARGB Mini Tower Pink / Blue Tempered Glass Side Panel, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "PINK",
-            "BLUE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 340,
-        "max_cooler_height": 160
-    },
-    {
         "id": "3b892520-34fa-4eec-a592-7575bb5b8d01",
         "name": "Thermaltake S300 ATX Mid Tower Black Tempered Glass Edition, Front USB 3.2 Gen 1 & USB 2.0",
         "variant": "",
@@ -9881,23 +8922,6 @@
         "max_gpu_length": 380,
         "max_cooler_height": 175,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "a4be73eb-e073-4197-a572-0cf14c4914b8",
-        "name": "Montech X5M Micro ATX Mini Tower Black with Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B0FF8NWT6F",
-        "clean_name": "Montech X5M Mini Tower Black with Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 405,
-        "max_cooler_height": 165
     },
     {
         "id": "4f215345-aea8-4c44-9da2-16dd61e45a6c",
@@ -10145,23 +9169,6 @@
         "max_cooler_height": 150
     },
     {
-        "id": "4001f1ce-d740-4961-9284-fe3a76890ccc",
-        "name": "Asus A21 PLUS Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "variant": "Plus Black",
-        "amazon_sku": "B0DHXCPYJS",
-        "clean_name": "Asus A21 PLUS Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 380,
-        "max_cooler_height": 165
-    },
-    {
         "id": "ef959529-a9c5-41b9-84b7-9a2de942b470",
         "name": "Jonsbo N3 Mini-ITX Desktop Black",
         "variant": "",
@@ -10269,23 +9276,6 @@
         "max_gpu_length": 440,
         "max_cooler_height": 175,
         "case_type": "Full Tower"
-    },
-    {
-        "id": "31418cc7-3ff8-481f-ad02-66798f0ae6d3",
-        "name": "Thermaltake Versa H16 ARGB MicroATX Mini Tower",
-        "variant": "",
-        "amazon_sku": "B0DNRVFQ3D",
-        "clean_name": "Thermaltake Versa H16 ARGB Mini Tower",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 330,
-        "max_cooler_height": 175
     },
     {
         "id": "f169d61f-c90e-4540-b3aa-1884e46d5233",
@@ -10538,25 +9528,6 @@
         "max_cooler_height": 165
     },
     {
-        "id": "be3f6f03-8a91-4c42-90c0-cf677112d786",
-        "name": "Lian Li A3-mATX Micro ATX Mini Tower Black Mesh",
-        "variant": "",
-        "amazon_sku": "B0D5GYY364",
-        "clean_name": "Lian Li A3-m Micro Mini Tower Black Mesh",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 415,
-        "max_cooler_height": 165,
-        "price": 540.33,
-        "last_updated": "2026-04-30T07:19:42.639Z"
-    },
-    {
         "id": "118b7e25-3730-496e-b2e5-fbf8adf529ec",
         "name": "be quiet! Silent Base 802 ATX Mid Tower White Tempered Glass Side Panel",
         "variant": "",
@@ -10688,23 +9659,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "f887f389-2be1-4e99-8f1e-fdb2b8cb98cf",
-        "name": "Cooler Master MasterBox MB320L ARGB MicroATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B0842T2KWZ",
-        "clean_name": "Cooler Master MasterBox MB320L ARGB Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 344,
-        "max_cooler_height": 166
-    },
-    {
         "id": "e03be251-5a74-457d-b5bb-c66a3889ee03",
         "name": "Montech XR ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "variant": "XR WHITE",
@@ -10799,23 +9753,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "83aa9fdb-c670-49b1-bbb6-8ce0c0b198bd",
-        "name": "Cooler Master MasterBox MB400L Micro ATX Mini Tower Black with ODD",
-        "variant": "MB400L with ODD (Black)",
-        "amazon_sku": "B084LKY5JG",
-        "clean_name": "Cooler Master MasterBox MB400L Mini Tower Black with ODD",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 344,
-        "max_cooler_height": 167
-    },
-    {
         "id": "51f73554-bf24-4a1f-bd6d-85936a4770dc",
         "name": "Lian Li O11D EVO RGB Automobili Lamborghini ATX Mid Tower Black / Gold Tempered Glass",
         "variant": "",
@@ -10876,23 +9813,6 @@
         "max_gpu_length": 410,
         "max_cooler_height": 181,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "28268a82-fbba-4405-b1b3-651b0e867d13",
-        "name": "DIYPC ARGB-M1-BK Black Case mATX",
-        "variant": "BK",
-        "amazon_sku": "B0FFHS1BHS",
-        "clean_name": "DIYPC ARGB-M1-BK Black m",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 300,
-        "max_cooler_height": 175
     },
     {
         "id": "ba4957a9-c0c7-4194-98a8-b604c1cc1e50",
@@ -11069,25 +9989,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "5509f5a5-44e2-4693-8824-9a016a48e197",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Peach Fuzz",
-        "variant": "300 Peach Fuzz",
-        "amazon_sku": "B0D9VNPNMZ",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Peach Fuzz",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "PINK",
-            "BLUE",
-            "ORANGE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210
-    },
-    {
         "id": "a6358f37-2900-4df8-820c-eba995a1efca",
         "name": "Asus ProArt PA401 Wood Edition ATX Mid Tower Black",
         "variant": "PA401 Wood Edition Solid",
@@ -11105,24 +10006,6 @@
         "max_gpu_length": 315,
         "max_cooler_height": 160,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "2e071fa3-02bf-430c-ba13-4f0d351ddd16",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Matcha Plum",
-        "variant": "300 Matcha Plum",
-        "amazon_sku": "B0D9VRY9YY",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Matcha Plum",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "GREEN",
-            "PINK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210
     },
     {
         "id": "b4afdfc8-8830-42f6-bc25-90b28787c1d4",
@@ -11600,23 +10483,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "9dba9df9-0c3d-477e-a62e-76830c1faa66",
-        "name": "Fractal Design Define 7 Mini Micro ATX Mini Tower Black",
-        "variant": "",
-        "amazon_sku": "B08C2XKPNK",
-        "clean_name": "Fractal Design Define 7 Mini Mini Tower Black",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 331,
-        "max_cooler_height": 167
-    },
-    {
         "id": "b1b5c124-1763-460d-b6af-9529cfda75fb",
         "name": "Silverstone RM42-502 ATX Mid Tower Black",
         "variant": "RM42-502 Black",
@@ -11634,23 +10500,6 @@
         "max_gpu_length": 426,
         "max_cooler_height": 148,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "6224e208-9084-4369-9f23-dc1d2b5c6a52",
-        "name": "Asus Prime AP201 Micro ATX Mini Tower Black Tempered Glass",
-        "variant": "",
-        "amazon_sku": "B0C5LK9L62",
-        "clean_name": "Asus Prime AP201 Mini Tower Black Tempered Glass",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 338,
-        "max_cooler_height": 170
     },
     {
         "id": "136cafe7-58f8-4002-9ccd-5caf34742a2a",
@@ -11910,24 +10759,6 @@
         "max_gpu_length": 330,
         "max_cooler_height": 166,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "beb391fc-87f7-4ac9-9aaf-07820a4211b2",
-        "name": "Lian Li A3-mATX Micro ATX Mini Tower Black / Brown Wood Mesh Side Panel",
-        "variant": "Black",
-        "amazon_sku": "B0DFS88R2L",
-        "clean_name": "Lian Li A3-m Micro Mini Tower Black / Brown Wood Mesh Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK",
-            "BROWN"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 415,
-        "max_cooler_height": 165
     },
     {
         "id": "b08b886e-e34f-429d-b054-e6b6dc5314fb",
@@ -12190,25 +11021,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "d21655d9-9b38-472c-9208-4c1e93381183",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Limestone",
-        "variant": "300 Limestone",
-        "amazon_sku": "B0CS8GCNCK",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Limestone",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "GREY"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210,
-        "price": 1059.45,
-        "last_updated": "2026-04-30T07:31:20.331Z"
-    },
-    {
         "id": "2763189b-75d8-4235-9fdf-4f35cd9846f9",
         "name": "Phanteks Enthoo Pro M",
         "variant": "M",
@@ -12241,26 +11053,6 @@
         "max_gpu_length": 400,
         "max_cooler_height": 180,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "c5a7d767-5aca-4e9c-8d0e-6cefb7248462",
-        "name": "Lian Li A3-mATX Micro ATX Mini Tower Black / Brown Wood with Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B0DRCQFR91",
-        "clean_name": "Lian Li A3-m Micro Mini Tower Black / Brown Wood with Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK",
-            "BROWN"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 415,
-        "max_cooler_height": 165,
-        "price": 540.33,
-        "last_updated": "2026-04-30T07:31:47.506Z"
     },
     {
         "id": "a5343ff8-1984-4861-8e2e-22f599628010",
@@ -12314,23 +11106,6 @@
         ],
         "max_gpu_length": 335,
         "max_cooler_height": 140
-    },
-    {
-        "id": "9d0fa81e-794e-43a0-b137-094d45037d33",
-        "name": "Thermaltake Versa H16 ARGB Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B0DJWV2GGP",
-        "clean_name": "Thermaltake Versa H16 ARGB Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 330,
-        "max_cooler_height": 175
     },
     {
         "id": "15052a79-5209-4827-86e3-4a7027f23303",
@@ -12692,23 +11467,6 @@
         ],
         "max_gpu_length": 330,
         "max_cooler_height": 170
-    },
-    {
-        "id": "a28309ea-8cd7-4894-8220-0b52c2b65421",
-        "name": "Asus A21 PLUS Micro ATX Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "variant": "Plus White",
-        "amazon_sku": "B0CPP58899",
-        "clean_name": "Asus A21 PLUS Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 380,
-        "max_cooler_height": 165
     },
     {
         "id": "8f8bdada-1775-48f3-bb96-7e80c78e1771",
@@ -13100,23 +11858,6 @@
         "case_type": "Full Tower"
     },
     {
-        "id": "11ec6b37-24c2-4e1f-821f-bdfe476ebcd3",
-        "name": "KOLINK KLM-003 Micro ATX Mini Tower Black with USB 3.2 Gen 1 Type-A and USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B08D6R7ZK3",
-        "clean_name": "KOLINK KLM-003 Mini Tower Black with USB 3.2 Gen 1 Type-A and USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 300,
-        "max_cooler_height": 150
-    },
-    {
         "id": "0e1f6dbd-d1e8-4563-b5e6-e2bb71f5ea36",
         "name": "Fractal Design Meshify 2 Lite ATX Mid Tower White / Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
         "variant": "",
@@ -13392,23 +12133,6 @@
         "max_cooler_height": 165
     },
     {
-        "id": "6ec84206-2456-402d-998a-c0cfef7dbf84",
-        "name": "DIYPC DIY-CUBE01 Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CRF89JW8",
-        "clean_name": "DIYPC DIY-CUBE01 Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 340,
-        "max_cooler_height": 160
-    },
-    {
         "id": "bf4f5d77-2fe1-4062-9508-6004db1a702a",
         "name": "Montech King 45 Black",
         "variant": "45",
@@ -13425,23 +12149,6 @@
         ],
         "max_gpu_length": 435,
         "max_cooler_height": 187
-    },
-    {
-        "id": "3349c146-ef27-43f6-9b60-54a275b7b13e",
-        "name": "Thermaltake View 170 ARGB Micro ATX Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "variant": "170",
-        "amazon_sku": "B0D6K7BDV2",
-        "clean_name": "Thermaltake View 170 ARGB Mini Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 340,
-        "max_cooler_height": 160
     },
     {
         "id": "2e46ed1f-cbb0-447e-8ac4-c2e31a348f14",
@@ -13476,23 +12183,6 @@
         "max_gpu_length": 340,
         "max_cooler_height": 160,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "db06f330-f5e1-4e8b-b6e5-8430c47ab17f",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Racing Green",
-        "variant": "300 Racing Green",
-        "amazon_sku": "B0CS8DN4X2",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Racing Green",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "GREEN"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210
     },
     {
         "id": "ece5bf7a-6067-4294-9366-016c3d2f7c45",
@@ -14633,23 +13323,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "05666e34-c785-476e-93e3-403b70448d3c",
-        "name": "Thermaltake Versa H17 Micro ATX Mini Tower Black",
-        "variant": "",
-        "amazon_sku": "B0797GHT9F",
-        "clean_name": "Thermaltake Versa H17 Mini Tower Black",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 350,
-        "max_cooler_height": 155
-    },
-    {
         "id": "5b054cde-2730-41af-8316-b2d0564bd440",
         "name": "Corsair iCUE 7000X RGB ATX Full Tower White Tempered Glass",
         "variant": "",
@@ -15326,26 +13999,6 @@
         "last_updated": "2026-04-30T07:51:14.306Z"
     },
     {
-        "id": "fa1f19b3-6e22-4f4d-87f1-46e6983d680d",
-        "name": " Lian Li A3-mATX Mini Tower White Wood with Tempered Glass Side Panel",
-        "variant": " White Wood Tempered Glass",
-        "amazon_sku": "B0DRCRVKWD",
-        "clean_name": "Lian Li A3-m Mini Tower White Wood with Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE",
-            "BROWN"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 415,
-        "max_cooler_height": 165,
-        "price": 562.87,
-        "last_updated": "2026-04-30T07:51:19.715Z"
-    },
-    {
         "id": "b22dee46-dfb5-462e-ae57-72a940afae36",
         "name": "Thermaltake Ceres 350 MX ATX Mid Tower Blue Tempered Glass Side Panel, Front Panel USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -15555,26 +14208,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "a00aa6fd-61a1-41a7-a259-debd7cdb7cf4",
-        "name": "Lian Li A3-mATX Micro ATX Mini Tower White / Brown Wood Mesh Side Panel",
-        "variant": "White Wood Mesh Side Panel",
-        "amazon_sku": "B0DKSWRH91",
-        "clean_name": "Lian Li A3-m Micro Mini Tower White / Brown Wood Mesh Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE",
-            "BROWN"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 415,
-        "max_cooler_height": 165,
-        "price": 540.33,
-        "last_updated": "2026-04-30T07:53:00.319Z"
-    },
-    {
         "id": "2879f211-a45f-486c-ae4a-9518fabfb310",
         "name": "Antec AX61 ELITE ATX Mid Tower Black Tempered Glass Side Panel",
         "variant": "",
@@ -15707,23 +14340,6 @@
         "max_gpu_length": 410,
         "max_cooler_height": 170,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "aa21eb4c-eaa8-4527-8aad-10fce7aec53f",
-        "name": "BGears b-Pellucid Micro ATX Mini Tower Black Tinted Tempered Glass Side Panel",
-        "variant": "Micro ATX Black",
-        "amazon_sku": "B0CHXGGB3T",
-        "clean_name": "BGears b-Pellucid Mini Tower Black Tinted Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 330,
-        "max_cooler_height": 157
     },
     {
         "id": "3cf043a7-3fa1-41c9-a24c-0bbf3f4db1a7",
@@ -15899,23 +14515,6 @@
         "max_cooler_height": 185
     },
     {
-        "id": "21230593-6839-43ee-97d7-0b7ba03aa823",
-        "name": "Jonsbo C6 Micro ATX Mini Tower Black with Mesh Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B0CF9YQG6V",
-        "clean_name": "Jonsbo C6 Mini Tower Black with Mesh Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 200,
-        "max_cooler_height": 75
-    },
-    {
         "id": "8966fe6f-b895-4310-90f7-1cf00d52d83c",
         "name": "Thermaltake Ceres 330 ARGB ATX Mid Tower White Tempered Glass",
         "variant": "",
@@ -15972,23 +14571,6 @@
         "max_gpu_length": 355,
         "max_cooler_height": 162,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "14790124-e637-43a5-b47d-4551dd07d040",
-        "name": "Cooler Master MasterBox Q300L Black Micro ATX Tower Acrylic Side Panel",
-        "variant": "Q300L",
-        "amazon_sku": "B0785GRMPG",
-        "clean_name": "Cooler Master MasterBox Q300L Black Tower Acrylic Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 360,
-        "max_cooler_height": 159
     },
     {
         "id": "db39b83e-baed-4d65-9fed-723809f6edbf",
@@ -16165,20 +14747,6 @@
         "max_gpu_length": 322,
         "max_cooler_height": 165,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "1daba9e3-bbc8-46c5-a023-aa154118e662",
-        "name": "Gamemax Destroyer MB Black USB3.0 Tempered Glass Micro ATX Tower Gaming Computer Case w/Tempered Glass Panel and 4 x 120mm Autoflow Rainbow LED Fans (Pre-Installed)",
-        "variant": "MB",
-        "amazon_sku": "B0CD64XLLC",
-        "clean_name": "Gamemax Destroyer MB Black USB3.0 Tempered Glass Tower Gaming Computer w/Tempered Glass Panel and 4 x 120mm Autoflow Rainbow LED Fans (Pre-Installed)",
-        "type": "Micro ATX Mini Tower",
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 410,
-        "max_cooler_height": 165
     },
     {
         "id": "567bd931-f8c0-4420-befe-c6d26862d612",
@@ -16965,20 +15533,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "a563e936-1294-48ac-94f4-66751c1ad926",
-        "name": "Deepcool CC360 ARGB MicroATX Mini Tower Case",
-        "variant": "ARGB",
-        "amazon_sku": "B0C4V9Q81V",
-        "clean_name": "Deepcool CC360 ARGB Mini Tower",
-        "type": "Micro ATX Mini Tower",
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 320,
-        "max_cooler_height": 165
-    },
-    {
         "id": "0c3c19d6-ba05-41aa-8936-0eafc4a14fb9",
         "name": "Lian Li Vector V100 Mini",
         "variant": "Black fanless",
@@ -17110,25 +15664,6 @@
         "max_gpu_length": 420,
         "max_cooler_height": 170,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "7790e670-a778-4f9e-bd12-adeeb022da56",
-        "name": "GameMax Vista M Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B0CM2NW69H",
-        "clean_name": "GameMax Vista M Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A Front Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 410,
-        "max_cooler_height": 165,
-        "price": 596.93,
-        "last_updated": "2026-04-30T08:03:56.728Z"
     },
     {
         "id": "f9288b0b-564e-4f4c-b51c-cad9d2a78b10",
@@ -17281,23 +15816,6 @@
         "max_gpu_length": 420,
         "max_cooler_height": 165,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "26423f0f-5bd6-4475-8e2f-40f334904dde",
-        "name": "Rosewill FBM-X2-400-HELIX Micro ATX Mini Tower Black w/400 W Power Supply",
-        "variant": "",
-        "amazon_sku": "B0B6382TTS",
-        "clean_name": "Rosewill FBM-X2-400-HELIX Mini Tower Black w/400 W Power Supply",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 300,
-        "max_cooler_height": 150
     },
     {
         "id": "4afdd57b-9512-4301-8ec6-b28f18b2037a",
@@ -17554,19 +16072,6 @@
         "max_gpu_length": 410,
         "max_cooler_height": 170,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "8cfaa079-9c84-4e82-a31c-bd329a569790",
-        "name": "Thermaltake S100 Tempered Glass Micro Chassis",
-        "amazon_sku": "B087CDVBZD",
-        "clean_name": "Thermaltake S100 Tempered Glass Micro",
-        "type": "Micro ATX Mini Tower",
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 330,
-        "max_cooler_height": 165
     },
     {
         "id": "877efb91-e13b-4cc8-b8ac-8786f395f043",
@@ -17868,22 +16373,6 @@
         "max_gpu_length": 380,
         "max_cooler_height": 165,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "5832656a-c875-41fe-9b3d-eec706a2b6b7",
-        "name": "Rosewill FBM-X1 Black Steel / Plastic Mini Tower Case with Side Panel Window",
-        "amazon_sku": "B072F29JP4",
-        "clean_name": "Rosewill FBM-X1 Black Steel / Plastic Mini Tower with Side Panel Window",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 300,
-        "max_cooler_height": 140
     },
     {
         "id": "03aec929-39f5-43c7-8396-3de12002b795",
@@ -18220,22 +16709,6 @@
         "case_type": "Mid-Tower"
     },
     {
-        "id": "19cb9d3e-0c55-4ac2-9822-5eacbd0462e0",
-        "name": "Thermaltake Tower 300 Black Micro-ATX Case; 2x140mm CT Fan Included; Support Up to 420mm Radiator; Horizontal display capable with optional Chassis Stand Kit/Optional LCD Kit; CA-1Y4-00S1WN-00",
-        "variant": "Black",
-        "amazon_sku": "B0CS878V58",
-        "clean_name": "Thermaltake Tower 300 Black ; 2x140mm CT Fan Included; Support Up to 420mm Radiator; Horizontal display capable with optional Stand Kit/Optional LCD Kit; CA-1Y4-00S1WN-00",
-        "type": "Micro ATX Mini Tower",
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 280,
-        "max_cooler_height": 210,
-        "price": 945.63,
-        "last_updated": "2026-04-30T08:10:27.241Z"
-    },
-    {
         "id": "7dcb3c16-8300-4529-947c-ef834930cd5e",
         "name": "Corsair iCUE 5000D RGB AIRFLOW ATX Mid Tower",
         "variant": "",
@@ -18303,23 +16776,6 @@
         "case_type": "Mid-Tower"
     },
     {
-        "id": "5a2351ec-692e-47dc-b813-14be5d4c3933",
-        "name": "Cooler Master TD300 Micro ATX Mini Tower Black Tempered Glass Side Panel Mesh",
-        "variant": "",
-        "amazon_sku": "B09JQVHG85",
-        "clean_name": "Cooler Master TD300 Mini Tower Black Tempered Glass Side Panel Mesh",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 344,
-        "max_cooler_height": 166
-    },
-    {
         "id": "33ab0c26-b650-4f39-8b6e-8733aa84a2cf",
         "name": "Thermaltake The Tower 600 ATX Mid Tower Green / White with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C / USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -18378,40 +16834,6 @@
         "max_gpu_length": 415,
         "max_cooler_height": 167,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "5ad972c0-3f07-434f-8b44-07d8a6117ac0",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Bumblebee",
-        "variant": "300 Bumblebee",
-        "amazon_sku": "B0CS8K31GH",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Bumblebee",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "YELLOW"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210
-    },
-    {
-        "id": "7a39c2c3-d65c-431f-bb74-ca13246e2026",
-        "name": "Aerocool Trinity Mini V2 MicroATX Mini Tower Black Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B08QFZ8MS9",
-        "clean_name": "Aerocool Trinity Mini V2 Mini Tower Black Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 297,
-        "max_cooler_height": 158
     },
     {
         "id": "0aaeae5d-c1e4-4805-8a3d-22981b4fc4f4",
@@ -18925,60 +17347,6 @@
         "max_gpu_length": 360,
         "max_cooler_height": 135,
         "case_type": "Mid-Tower"
-    },
-    {
-        "id": "70230b03-07a7-45bd-a9a5-c40f5a7ce85b",
-        "name": "G.Skill LT1 Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B09WPSP84P",
-        "clean_name": "G.Skill LT1 Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 360,
-        "max_cooler_height": 165
-    },
-    {
-        "id": "8f371b1b-e880-461b-977b-f5baf9e77028",
-        "name": "Cooler Master Elite 301 Lite MicroATX Mini Tower White Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B0DBMZ4RCC",
-        "clean_name": "Cooler Master Elite 301 Lite Mini Tower White Tempered Glass Side Panel",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 365,
-        "max_cooler_height": 163.5,
-        "price": 387.75,
-        "last_updated": "2026-04-30T08:15:45.934Z"
-    },
-    {
-        "id": "a14ff72c-24d6-46cb-874f-b0eb9a6e1b65",
-        "name": "Thermaltake The Tower 300 MicroATX Mini Tower Tempered Glass Side Panel - Gravel Sand",
-        "variant": "300 Gravel Sand",
-        "amazon_sku": "B0DQ2WYH7C",
-        "clean_name": "Thermaltake The Tower 300 Mini Tower Tempered Glass Side Panel - Gravel Sand",
-        "type": "Micro ATX Mini Tower",
-        "color": [
-            "BROWN",
-            "RED"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 210
     },
     {
         "id": "c8de101e-8c42-4116-b205-bc29f7e0246b",

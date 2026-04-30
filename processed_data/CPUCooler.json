@@ -1,16 +1,5 @@
 [
     {
-        "id": "9c2e2c15-5db4-485d-bc25-39d4738974f8",
-        "name": "Deepcool AK620 ZERO DARK",
-        "amazon_sku": "B0B6FGMSNM",
-        "clean_name": "Deepcool AK620 ZERO DARK",
-        "cooler_type": false,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1850,
-        "max_noise_level": 28,
-        "color": []
-    },
-    {
         "id": "128451ac-053a-496c-ad7d-dc09c0f4e08b",
         "name": "Thermalright Assassin Spirit 120 Vision ARGB Air 154mm White",
         "variant": "White",
@@ -121,20 +110,6 @@
         "max_noise_level": 37,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "df4c9b8f-e47f-419e-899c-b13881bc9f4e",
-        "name": "Asus TUF Gaming LC 120 Water 120mm ARGB Black",
-        "variant": "Black",
-        "amazon_sku": "B09KSDNTBV",
-        "clean_name": "Asus TUF Gaming LC 120 Water ARGB Black",
-        "cooler_type": true,
-        "radiator_size": 120,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -283,34 +258,6 @@
         "last_updated": "2026-04-30T06:11:57.239Z"
     },
     {
-        "id": "78f7773f-4625-4f85-98be-9810f2d4829d",
-        "name": "Corsair iCUE LINK H100i Water 240mm RGB White",
-        "variant": "White",
-        "amazon_sku": "B0C6Q14T58",
-        "clean_name": "Corsair iCUE LINK H100i Water RGB White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 480,
-        "max_fan_rpm": 2400,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
-        "id": "37ca7332-ec69-4a4b-9734-6c97adfcd840",
-        "name": "be quiet! Pure Rock LP Air 45mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BNYVJNL9",
-        "clean_name": "be quiet! Pure Rock LP Air Black",
-        "cooler_type": false,
-        "radiator_size": "45mm",
-        "height": 45,
-        "min_fan_rpm": 2500,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "a748067a-b095-42f6-acee-4aaf92f0bc8c",
         "name": "Thermalright Assassin Spirit 120 EVO DARK Air 156mm Black",
         "variant": "Black",
@@ -403,22 +350,6 @@
         "min_noise_level": 30.8,
         "color": [
             "BLACK"
-        ]
-    },
-    {
-        "id": "ac81d940-4af4-4daf-a76b-3573296d169c",
-        "name": "TCOMAS LE200 360 WHITE",
-        "variant": "White",
-        "amazon_sku": "B0DRV311LY",
-        "clean_name": "TCOMAS LE200 360 WHITE",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 66.1,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 2500,
-        "max_noise_level": 35,
-        "color": [
-            "WHITE"
         ]
     },
     {
@@ -565,20 +496,6 @@
         ]
     },
     {
-        "id": "68cb8fde-aa1b-4258-ba2f-af0b51097643",
-        "name": "MSI MAG CORELIQUID E360 75.04 CFM Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CJ636ZTH",
-        "clean_name": "MSI MAG CORELIQUID E360 75.04 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "color": [
-            "BLACK"
-        ],
-        "price": 413.83,
-        "last_updated": "2026-04-30T06:13:37.536Z"
-    },
-    {
         "id": "3c90bc07-8139-40a6-9f7e-39164e6efc8a",
         "name": "ID-COOLING AURAFLOW X Water 240mm Black",
         "variant": "Black",
@@ -607,22 +524,6 @@
         "min_noise_level": 29.8,
         "color": [
             "BLACK"
-        ]
-    },
-    {
-        "id": "a7a1c8bf-3930-462b-81fe-f64356673a0a",
-        "name": "ARCTIC Freezer i35 CO Air 158mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B09MWFVT81",
-        "clean_name": "ARCTIC Freezer i35 CO Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK",
-            "GREY"
         ]
     },
     {
@@ -689,21 +590,6 @@
         ]
     },
     {
-        "id": "42540a66-ccdd-4cbe-9b6d-57afc5095840",
-        "name": "TCOMAS SJ-R400 WHITE",
-        "variant": "White",
-        "amazon_sku": "B0F7H8JZLM",
-        "clean_name": "TCOMAS SJ-R400 WHITE",
-        "radiator_size": 0,
-        "height": 155,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2500,
-        "max_noise_level": 35.7,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
         "id": "4f4b6299-0930-4f5a-bddb-2c4a28da14d4",
         "name": "Thermaltake TH360 Water 360mm ARGB Sync 59.28 CFM White",
         "variant": "White",
@@ -762,21 +648,6 @@
         "min_noise_level": 28.9,
         "color": [
             "BLACK"
-        ]
-    },
-    {
-        "id": "e2a60963-3258-49b7-843b-4b43883ba76b",
-        "name": "Razer Hanbo Chroma Water 240mm Black",
-        "variant": "240mm Black",
-        "amazon_sku": "B09P1ZGP47",
-        "clean_name": "Razer Hanbo Chroma Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 30,
-        "min_noise_level": 35,
-        "color": [
-            "BLACK",
-            "RGB"
         ]
     },
     {
@@ -1030,20 +901,6 @@
         ]
     },
     {
-        "id": "d340e362-9452-4e0c-af95-9da25646e209",
-        "name": "ENDORFY Navis F240 Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BHDSPMNT",
-        "clean_name": "ENDORFY Navis F240 Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "4ebfaa36-435f-495b-97da-4baab3dc8b73",
         "name": "NZXT Kraken Plus 240mm Black (2025)",
         "variant": "240mm Black",
@@ -1191,22 +1048,6 @@
         "min_noise_level": 32,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "e65595ac-f8e6-4c89-bbf9-ca3b462fda58",
-        "name": "ENDORFY Fortis 5 Air ARGB 159mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0BM4PQQRM",
-        "clean_name": "ENDORFY Fortis 5 Air ARGB Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1400,
-        "color": [
-            "BLACK",
-            "GREY"
         ]
     },
     {
@@ -1447,21 +1288,6 @@
         "last_updated": "2026-04-30T06:18:13.230Z"
     },
     {
-        "id": "d6cb29b7-0484-432a-924a-717ed01ea465",
-        "name": "ARCTIC Freezer A35 Air A-RGB 158mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09JM7W76Z",
-        "clean_name": "ARCTIC Freezer A35 Air A-RGB Black",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1700,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "cd0d5cf7-a31f-4371-a57c-98fd2965cde1",
         "name": "Lian Li Galahad II Trinity Water 240mm White",
         "variant": "White",
@@ -1479,22 +1305,6 @@
         "last_updated": "2026-04-30T06:18:22.157Z"
     },
     {
-        "id": "7724be64-e651-4b2f-8e0c-d64ab2b5a60c",
-        "name": "Corsair iCUE LINK TITAN360 RX RGB Water 360mm RGB Black",
-        "variant": "Black",
-        "amazon_sku": "B0D6BFBLTK",
-        "clean_name": "Corsair iCUE LINK TITAN360 RX RGB Water RGB Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2100,
-        "color": [
-            "BLACK"
-        ],
-        "price": 142.04,
-        "last_updated": "2026-04-30T06:18:22.802Z"
-    },
-    {
         "id": "139ef203-6529-435d-9c2b-f82b6c3b52c4",
         "name": "Thermalright AXP90-X36 Air Cooler Black",
         "variant": "Black",
@@ -1504,19 +1314,6 @@
         "height": 36,
         "min_fan_rpm": 2700,
         "min_noise_level": 22.4,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "f2ad3994-b823-4831-9c87-fd97baac795c",
-        "name": "Alphacool Eisbaer Pro Aurora Water 280mm 90.7 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B09JWTCNN8",
-        "clean_name": "Alphacool Eisbaer Pro Aurora Water 90.7 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "min_noise_level": 31.5,
         "color": [
             "BLACK"
         ]
@@ -1535,21 +1332,6 @@
         "max_noise_level": 24.4,
         "color": [
             "GREY",
-            "BLACK"
-        ]
-    },
-    {
-        "id": "49976229-f86d-4a07-b8d9-d591272fe26e",
-        "name": "ARCTIC Liquid Freezer III Pro 110 CFM Water 420mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0DPHQ1353",
-        "clean_name": "ARCTIC Liquid Freezer III Pro 110 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "height": 68,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 2500,
-        "color": [
             "BLACK"
         ]
     },
@@ -1601,20 +1383,6 @@
         ]
     },
     {
-        "id": "4be382a5-e8e8-4647-8938-8a77cac43b98",
-        "name": "be quiet! Pure Loop 2 FX Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0B7NSKYTZ",
-        "clean_name": "be quiet! Pure Loop 2 FX Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_noise_level": 8,
-        "max_noise_level": 32.3,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "9b9241e6-c11d-4519-8c5e-1bea101439c6",
         "name": "DarkFlash Talon CPU Cooling Cooler LED RGB PWM Fan with Four Heat pipes for Intel : LGA 775/ 115x/ 1366 and AMD : AM4/ AM3 (Corei3/ i5) | DF-TALON",
         "amazon_sku": "B07QKTSG8X",
@@ -1660,21 +1428,6 @@
         "color": [
             "BLACK"
         ]
-    },
-    {
-        "id": "e8a4cacc-a2fd-44f9-aa5a-ea1f4d18ca9f",
-        "name": "Hydro Series™ H80i v2 High Performance Liquid CPU Cooler",
-        "variant": "H80i v2",
-        "amazon_sku": "B019954Y2Q",
-        "clean_name": "Hydro Series™ H80i v2 High Performance",
-        "cooler_type": true,
-        "radiator_size": 120,
-        "height": 0,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2435,
-        "min_noise_level": 0,
-        "max_noise_level": 0,
-        "color": []
     },
     {
         "id": "66e461a2-a315-4751-bf0e-cacab406aef6",
@@ -2030,22 +1783,6 @@
         "last_updated": "2026-04-30T06:20:55.386Z"
     },
     {
-        "id": "d58ecfbe-6b76-4a2a-96b7-7f7a0c52b134",
-        "name": "ARCTIC Freezer 8A CO Air 136mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0DKJ9Q5WG",
-        "clean_name": "ARCTIC Freezer 8A CO Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "136mm",
-        "height": 136,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 2300,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
         "id": "8ede9b49-9468-48c8-8971-785177b8533e",
         "name": "Cooler Master Hyper 212 Halo Air 51.88 CFM 154mm Black",
         "variant": "Black",
@@ -2173,20 +1910,6 @@
         ]
     },
     {
-        "id": "36192832-7ce3-4735-b368-e46142fb568f",
-        "name": "DarkFlash Shadow Pro PWM Aluminum CPU LED Addressable RGB Motherboard Control Cooler Cooling Fan Motherboard Sync for Intel Core i7/i5/i3 AM3/AM4",
-        "amazon_sku": "B07PMHXLPP",
-        "clean_name": "DarkFlash Shadow Pro PWM Aluminum CPU LED Addressable RGB Motherboard Control Cooler Cooling Fan Motherboard Sync for Intel Core i7/i5/i3 AM3/AM4",
-        "cooler_type": false,
-        "radiator_size": 0,
-        "height": 94,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 0,
-        "max_noise_level": 29.6,
-        "color": []
-    },
-    {
         "id": "14025243-37fa-43b9-b766-787a698e9b34",
         "name": "Asus ROG RYUJIN III Water 360mm ARGB EVA-02 EDITION 70.07 CFM Red / Black",
         "variant": "Red / Black",
@@ -2267,22 +1990,6 @@
         ]
     },
     {
-        "id": "a44ec9a9-056f-4e29-b19f-8c713ae43348",
-        "name": "ARCTIC Freezer i35 Air 158mm Black / White",
-        "variant": "Black / White",
-        "amazon_sku": "B09N3LC5CM",
-        "clean_name": "ARCTIC Freezer i35 Air Black / White",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK",
-            "WHITE"
-        ]
-    },
-    {
         "id": "ae9af83a-ba69-46ad-b248-c46afddd8a44",
         "name": "AORUS LIQUID COOLER 280",
         "variant": "LIQUID COOLER 280",
@@ -2330,21 +2037,6 @@
         ]
     },
     {
-        "id": "29dcc127-9c68-43ea-a498-d52743dc59c5",
-        "name": "ARCTIC Freezer 36 Air 159mm A-RGB Black",
-        "variant": "Black",
-        "amazon_sku": "B09VH22MT1",
-        "clean_name": "ARCTIC Freezer 36 Air A-RGB Black",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "413b2d4b-afaa-4565-a42e-4ca51f3b85b6",
         "name": "Cooler Master MasterLiquid ML240 Illusion Water 240mm 47.2 CFM White",
         "variant": "White",
@@ -2356,20 +2048,6 @@
         "max_fan_rpm": 1800,
         "min_noise_level": 6,
         "max_noise_level": 30,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
-        "id": "663629fa-9771-4e3f-ac4a-2da1712f34ed",
-        "name": "Corsair iCUE H150i ELITE CAPELLIX XT Water 360mm 65.57 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0BQJ44PGK",
-        "clean_name": "Corsair iCUE H150i ELITE CAPELLIX XT Water 65.57 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 550,
-        "max_fan_rpm": 2100,
         "color": [
             "WHITE"
         ]
@@ -2477,22 +2155,6 @@
         ]
     },
     {
-        "id": "8e71b74d-cfbb-4937-b3f8-2a77373c1271",
-        "name": "TCOMAS SJ-R400 BLACK",
-        "variant": "Black",
-        "amazon_sku": "B0F7H9F386",
-        "clean_name": "TCOMAS SJ-R400 BLACK",
-        "cooler_type": false,
-        "radiator_size": 0,
-        "height": 155,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2500,
-        "max_noise_level": 35.7,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "7a18f250-17ef-4f82-9faf-a434034e7970",
         "name": "Montech HyperFlow Water 240mm ARGB Black",
         "variant": "Black",
@@ -2505,21 +2167,6 @@
         "color": [
             "BLACK"
         ]
-    },
-    {
-        "id": "9b9fdaa1-245e-43ae-9d59-08e7ca734cba",
-        "name": "Lian Li Galahad II LCD SL-INF Water 360mm White",
-        "variant": "White",
-        "amazon_sku": "B0CLB79N6Y",
-        "clean_name": "Lian Li Galahad II LCD SL-INF Water White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_noise_level": 29,
-        "color": [
-            "WHITE"
-        ],
-        "price": 154.97,
-        "last_updated": "2026-04-30T06:24:04.004Z"
     },
     {
         "id": "026876f6-63fe-4b41-b576-cf6ae35a5d7e",
@@ -2536,21 +2183,6 @@
         "max_noise_level": 30.6,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "f67876eb-df80-40a8-b5cc-c5490d6169cb",
-        "name": "ARCTIC Alpine 23 CO Air 65mm Black",
-        "variant": "Black",
-        "amazon_sku": "B08QNBBVH5",
-        "clean_name": "ARCTIC Alpine 23 CO Air Black",
-        "cooler_type": false,
-        "radiator_size": "65mm",
-        "height": 65,
-        "min_fan_rpm": 100,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -2629,20 +2261,6 @@
         ]
     },
     {
-        "id": "593a54a5-02eb-4baf-90ec-f37602d6f81b",
-        "name": "Corsair iCUE LINK H100i LCD Water 240mm 63.1 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0CLB8TWB2",
-        "clean_name": "Corsair iCUE LINK H100i LCD Water 63.1 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 480,
-        "max_fan_rpm": 2400,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "c202fd44-72e0-446e-a289-247962f900b3",
         "name": "Gigabyte GAMING 360 Water 360mm 61.61 CFM White",
         "variant": "White",
@@ -2694,15 +2312,6 @@
         ]
     },
     {
-        "id": "8664305b-b761-46fd-8e12-c5920a09530a",
-        "name": "AMD Wraith MAX CPU Cooler with RGB LED",
-        "variant": "RGB LED",
-        "amazon_sku": "B074RNSCJM",
-        "clean_name": "AMD Wraith MAX with RGB LED",
-        "cooler_type": false,
-        "color": []
-    },
-    {
         "id": "3143a53a-73ac-4338-8ace-c517e0c23eb9",
         "name": "Azza CUBE Water 240mm 57.5 CFM Black",
         "variant": "Black",
@@ -2714,21 +2323,6 @@
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 34,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "89ada4b4-3a3f-49e5-b2e7-bc9550ccb4e3",
-        "name": "ARCTIC Liquid Freezer III Pro A-RGB 110 CFM Water 420mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0DPHSLXSS",
-        "clean_name": "ARCTIC Liquid Freezer III Pro A-RGB 110 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "height": 68,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 2500,
         "color": [
             "BLACK"
         ]
@@ -2941,22 +2535,6 @@
         ]
     },
     {
-        "id": "5d8dba13-314a-424b-846c-7d0d436870eb",
-        "name": "Corsair iCUE LINK H150i RGB Water 360mm 63.1 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0C6PWQ6L3",
-        "clean_name": "Corsair iCUE LINK H150i RGB Water 63.1 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 480,
-        "max_fan_rpm": 2400,
-        "color": [
-            "BLACK"
-        ],
-        "price": 142.04,
-        "last_updated": "2026-04-30T06:26:15.394Z"
-    },
-    {
         "id": "247d65ad-655c-4a4c-b7f0-94e91389eec7",
         "name": "Deepcool LE720 Water 360mm White",
         "variant": "White",
@@ -2987,22 +2565,6 @@
         "color": [
             "BLACK",
             "GREEN"
-        ]
-    },
-    {
-        "id": "07e78f17-1c87-4a43-a582-17aa19347c67",
-        "name": "Silverstone NT06-PRO-V2 Air 82mm Silver / Black",
-        "variant": "Silver / Black",
-        "amazon_sku": "B0722KC7BD",
-        "clean_name": "Silverstone NT06-PRO-V2 Air Silver / Black",
-        "cooler_type": false,
-        "radiator_size": "82mm",
-        "height": 82,
-        "min_fan_rpm": 1000,
-        "max_fan_rpm": 2200,
-        "color": [
-            "GREY",
-            "BLACK"
         ]
     },
     {
@@ -3167,21 +2729,6 @@
         ]
     },
     {
-        "id": "95e660f8-1eb4-4fea-9918-5ddb21367e12",
-        "name": "ARCTIC Alpine 17 CO Air 77mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09SHW7N48",
-        "clean_name": "ARCTIC Alpine 17 CO Air Black",
-        "cooler_type": false,
-        "radiator_size": "77mm",
-        "height": 77,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 2700,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "07e37e87-32bd-45d3-8f2d-5244d0906ff9",
         "name": "Silverstone NovaPeak Water 240mm 69.8 CFM Black",
         "variant": "Black",
@@ -3230,19 +2777,6 @@
         ]
     },
     {
-        "id": "42f21fb9-71c5-4c1d-a7e3-c9c22cf2761c",
-        "name": "MSI MAG CORELIQUID I240 Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BSLKXRPC",
-        "clean_name": "MSI MAG CORELIQUID I240 Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 62,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "2f948abd-129a-4fea-a363-cd2ce9a6be41",
         "name": "Scythe Fuma 2 Rev.B Air 154mm Black / Silver",
         "variant": "Black / Silver",
@@ -3255,22 +2789,6 @@
         "max_fan_rpm": 1500,
         "min_noise_level": 2.58,
         "max_noise_level": 23.8,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
-        "id": "f7c02e86-fb11-4579-97b8-5f43726472c4",
-        "name": "ARCTIC Freezer 36 CO Air 159mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B09VG62KBZ",
-        "clean_name": "ARCTIC Freezer 36 CO Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
         "color": [
             "BLACK",
             "GREY"
@@ -3421,19 +2939,6 @@
         ]
     },
     {
-        "id": "158ca57c-6e6c-4ca2-9173-ad456e9711df",
-        "name": "Dynatron Q12 Air 73mm 53.57 CFM",
-        "variant": "",
-        "amazon_sku": "B0C1F1DCT1",
-        "clean_name": "Dynatron Q12 Air 53.57 CFM",
-        "cooler_type": false,
-        "radiator_size": "73mm",
-        "height": 73,
-        "min_noise_level": 16,
-        "max_noise_level": 35.98,
-        "color": []
-    },
-    {
         "id": "bda54ebb-d599-40b7-ab7a-00aa95d50eca",
         "name": "Thermaltake TH120 ARGB Sync 59.28 CFM Water 120mm White",
         "variant": "White",
@@ -3445,20 +2950,6 @@
         "min_noise_level": 28.2,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "08217c32-dff3-4151-9f3f-eeaff20162b6",
-        "name": "ARCTIC Liquid Freezer II Water 420mm Black",
-        "variant": "Black",
-        "amazon_sku": "B08HLPFXWM",
-        "clean_name": "ARCTIC Liquid Freezer II Water Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1700,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -3620,21 +3111,6 @@
         ]
     },
     {
-        "id": "3d54fb3f-237d-4310-81d7-e44b27b157fa",
-        "name": "ASUS ROG Strix LC 360 RGB White Edition",
-        "variant": "360 RGB White Edition",
-        "amazon_sku": "B082F17ZVY",
-        "clean_name": "ASUS ROG Strix LC 360 RGB White Edition",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 0,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 0,
-        "max_noise_level": 0,
-        "color": []
-    },
-    {
         "id": "de8646b9-6fd6-4032-8af7-222a7bc47a28",
         "name": "Cooler Master Hyper 622 Halo Air 157mm White",
         "variant": "White",
@@ -3793,20 +3269,6 @@
         "last_updated": "2026-04-30T06:30:57.827Z"
     },
     {
-        "id": "bd9d1f89-4b55-4298-9a99-689b37a2fa13",
-        "name": "Dracaena AIO CPU Cooler, Color Change Remote, 120mm Radiator, ARGB PWM Fans Quiet Less Than 27DBA, Compatible with AMD AM5/AM4-Intel LGA 1700/1200/115X, Leakproof Technology, High Flow Pump, White",
-        "amazon_sku": "B09JG59MGK",
-        "clean_name": "Dracaena AIO , Color Change Remote, Radiator, ARGB PWM Fans Quiet Less Than 27DBA, Compatible with AMD AM5/AM4-Intel LGA 1700/1200/115X, Leakproof Technology, High Flow Pump, White",
-        "cooler_type": true,
-        "radiator_size": 120,
-        "height": 0,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 1600,
-        "min_noise_level": 0,
-        "max_noise_level": 26.3,
-        "color": []
-    },
-    {
         "id": "2649f687-268e-4491-a31d-dd5fd03ac22a",
         "name": "Thermaltake ASTRIA 200 Air ARGB Black",
         "variant": "Black",
@@ -3948,20 +3410,6 @@
         ]
     },
     {
-        "id": "a7a5fbb7-b9b2-4726-a413-b6a04956ea62",
-        "name": "ARCTIC Liquid Freezer III Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09VGX1WQH",
-        "clean_name": "ARCTIC Liquid Freezer III Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "339a4927-d132-46a0-8465-92d2873bcf77",
         "name": "Ocypus Iota Water 240mm Black",
         "variant": "Black",
@@ -4025,20 +3473,6 @@
         ]
     },
     {
-        "id": "6dce7dab-ef5d-441c-9dbd-d21f7759bda8",
-        "name": "Cooler Master Hyper 612 APEX Air 75.2 CFM 159mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0DWF7SX2J",
-        "clean_name": "Cooler Master Hyper 612 APEX Air 75.2 CFM Black",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_noise_level": 30,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "4c9415c5-4bff-4c88-8555-15b9335038f6",
         "name": "be quiet! Silent Loop 2 Water 280mm Black",
         "variant": "Black",
@@ -4051,24 +3485,6 @@
         "max_noise_level": 36.1,
         "color": [
             "BLACK"
-        ]
-    },
-    {
-        "id": "03bc7544-6074-436d-a48b-0122e95dbd58",
-        "name": "Iceberg Thermal IceSLEET X6 76 CFM Air 159mm Teal / Silver",
-        "variant": "Teal / Silver",
-        "amazon_sku": "B08P3Y2HB8",
-        "clean_name": "Iceberg Thermal IceSLEET X6 76 CFM Air Teal / Silver",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1850,
-        "min_noise_level": 0,
-        "max_noise_level": 36,
-        "color": [
-            "BLUE",
-            "GREY"
         ]
     },
     {
@@ -4146,19 +3562,6 @@
         "min_noise_level": 25.6,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "395d1f23-004d-4a30-808f-824717be3df0",
-        "name": "Alphacool Eisbaer Pro Aurora Water 420mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09CD3JQ5Q",
-        "clean_name": "Alphacool Eisbaer Pro Aurora Water Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "min_noise_level": 31.5,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -4338,20 +3741,6 @@
         ]
     },
     {
-        "id": "e3544129-25dc-4c49-b36c-705b79ed28d0",
-        "name": "ARCTIC Liquid Freezer III Water 420mm A-RGB Black",
-        "variant": "Black",
-        "amazon_sku": "B09VGXVFJX",
-        "clean_name": "ARCTIC Liquid Freezer III Water A-RGB Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1900,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "bdf90540-0b54-4328-9668-fe37cd2d5e2c",
         "name": "upHere E240KC Water 240mm Black",
         "variant": "Black",
@@ -4366,35 +3755,6 @@
         "color": [
             "BLACK"
         ]
-    },
-    {
-        "id": "d7bf94a3-c2d2-4f8c-a8b4-b2a64de351fc",
-        "name": "Asus ProArt LC Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0DJS2CLLL",
-        "clean_name": "Asus ProArt LC Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 49,
-        "min_noise_level": 0,
-        "max_noise_level": 39.5,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "3f92cebd-9dfb-45bd-b71f-791ede2bb690",
-        "name": "MSI CORE FROZR L 71.27 CFM",
-        "amazon_sku": "B01MFB358A",
-        "clean_name": "MSI CORE FROZR L 71.27 CFM",
-        "cooler_type": false,
-        "radiator_size": 0,
-        "height": 0,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 0,
-        "max_noise_level": 0,
-        "color": []
     },
     {
         "id": "d3e212c5-6c54-4d46-98c8-f91a3c5bf89b",
@@ -4634,22 +3994,6 @@
         ]
     },
     {
-        "id": "d30144b2-63c5-4351-bcc4-dad2584e01ef",
-        "name": "ID-COOLING SE-914-XT Air 126mm Black / Gray",
-        "variant": "Black / Gray",
-        "amazon_sku": "B094N6CBTF",
-        "clean_name": "ID-COOLING SE-914-XT Air Black / Gray",
-        "cooler_type": false,
-        "radiator_size": "126mm",
-        "height": 126,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2200,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
         "id": "c86aaafb-ef86-4a84-aa55-62500b330bc1",
         "name": "Noctua NH-D15 SE-AM4 Air 165mm 82.52 CFM",
         "variant": "",
@@ -4710,20 +4054,6 @@
         ]
     },
     {
-        "id": "f9863491-de9c-4153-81ba-ea8d9d95db45",
-        "name": "ID-COOLING DX240 MAX 85 CFM Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0D97PJ2RF",
-        "clean_name": "ID-COOLING DX240 MAX 85 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 58,
-        "min_noise_level": 32.5,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "072f22a9-a383-4197-8871-820b1d0fc2db",
         "name": "ARCTIC Liquid Freezer II 280 Water 280mm RGB 68.9 CFM Black",
         "variant": "Black",
@@ -4751,21 +4081,6 @@
         "min_noise_level": 28.1,
         "color": [
             "BLACK"
-        ]
-    },
-    {
-        "id": "c003e178-8f3f-44d8-9eb0-259dc42ef380",
-        "name": "ARCTIC Liquid Freezer III Pro A-RGB 110 CFM Liquid Water 420mm White",
-        "variant": "White",
-        "amazon_sku": "B0DPHS13XW",
-        "clean_name": "ARCTIC Liquid Freezer III Pro A-RGB 110 CFM Liquid Water White",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "height": 68,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 2500,
-        "color": [
-            "WHITE"
         ]
     },
     {
@@ -4849,36 +4164,6 @@
         "min_noise_level": 28,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "92bac5d5-71d1-42ad-b046-ec5306fdebc3",
-        "name": "ARCTIC Liquid Freezer III 280 Pro A-RGB White",
-        "variant": "White",
-        "amazon_sku": "B0DPHPY8SG",
-        "clean_name": "ARCTIC Liquid Freezer III 280 Pro A-RGB White",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "height": 68,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 2500,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
-        "id": "74be76f6-9308-4a8f-a1a5-30a695d955cc",
-        "name": "ARCTIC Alpine AM4 CO Air 69mm Black",
-        "variant": "Black",
-        "amazon_sku": "B07L5G3M2Z",
-        "clean_name": "ARCTIC Alpine AM4 CO Air Black",
-        "cooler_type": false,
-        "radiator_size": "69mm",
-        "height": 69,
-        "min_fan_rpm": 100,
-        "max_fan_rpm": 2700,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -4977,22 +4262,6 @@
         ]
     },
     {
-        "id": "68008df1-58ad-4546-b0f6-2b72a50bb9d0",
-        "name": "ENDORFY Fera 5 Dual Fan Air 155mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0BHDT75TG",
-        "clean_name": "ENDORFY Fera 5 Dual Fan Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "155mm",
-        "height": 155,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
         "id": "e3004629-3c2e-4917-a729-d1a0192c8d31",
         "name": "Cooler Master MasterLiquid ML360 Mirror Water 360mm Black",
         "variant": "Black",
@@ -5006,44 +4275,6 @@
         "max_noise_level": 27,
         "color": [
             "BLACK"
-        ]
-    },
-    {
-        "id": "55eaa740-f2c2-443e-ab8e-057e53218334",
-        "name": "Corsair H150i PRO 47.3 CFM Liquid CPU Cooler",
-        "amazon_sku": "B077FZPCRH",
-        "clean_name": "Corsair H150i PRO 47.3 CFM",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "max_fan_rpm": 1600,
-        "max_noise_level": 25,
-        "color": []
-    },
-    {
-        "id": "83b46d10-f36f-4b10-a928-0e90bba6a372",
-        "name": "Lian Li Galahad II LCD SL-INF Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CLB6FPX1",
-        "clean_name": "Lian Li Galahad II LCD SL-INF Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_noise_level": 29,
-        "color": [
-            "BLACK"
-        ],
-        "price": 154.97,
-        "last_updated": "2026-04-30T06:38:33.416Z"
-    },
-    {
-        "id": "6d23dcc0-d757-43cf-b381-fd189d38d28b",
-        "name": "MSI MAG CORELIQUID E360 WHITE Water 360mm 75.04 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0CJX8729S",
-        "clean_name": "MSI MAG CORELIQUID E360 WHITE Water 75.04 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "color": [
-            "WHITE"
         ]
     },
     {
@@ -5155,22 +4386,6 @@
         ]
     },
     {
-        "id": "a52ce5db-42a3-4f67-bfc7-55a3f9bb6f1a",
-        "name": "ARCTIC Alpine Air 69mm Black / White",
-        "variant": "Black / White",
-        "amazon_sku": "B07KWLQWC8",
-        "clean_name": "ARCTIC Alpine Air Black / White",
-        "cooler_type": false,
-        "radiator_size": "69mm",
-        "height": 69,
-        "min_fan_rpm": 100,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK",
-            "WHITE"
-        ]
-    },
-    {
         "id": "441be00d-e43e-401e-a8ab-110bbe714c51",
         "name": "Thermaltake UX200 SE ARGB Air 156mm 62.72 CFM White",
         "variant": "White",
@@ -5261,22 +4476,6 @@
         "min_fan_rpm": 2435,
         "min_noise_level": 37.7,
         "color": []
-    },
-    {
-        "id": "7604e32a-686f-4604-aea0-e93e8c9c1e22",
-        "name": "ARCTIC Freezer A35 Air 158mm Black / White",
-        "variant": "Black / White",
-        "amazon_sku": "B09PNHXXCS",
-        "clean_name": "ARCTIC Freezer A35 Air Black / White",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK",
-            "WHITE"
-        ]
     },
     {
         "id": "426f8510-e96b-4c5e-91e1-56e8a3aa74b2",
@@ -5617,21 +4816,6 @@
         ]
     },
     {
-        "id": "b82ea33c-8cdf-483b-a297-397e687afad6",
-        "name": "ARCTIC Freezer i35 RGB Air 158mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09MWFBNFC",
-        "clean_name": "ARCTIC Freezer i35 RGB Air Black",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1700,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "94ea78b0-8bf3-46f2-ad37-df1dda028eb7",
         "name": "EK AIO Water 240mm D-RGB Black",
         "variant": "Black",
@@ -5805,35 +4989,6 @@
         ]
     },
     {
-        "id": "9d1e354c-f909-4ae1-a699-c5e21743e1cf",
-        "name": "MSI MAG CORELIQUID I240 Water 240mm 70.7 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0BSN9JW7Z",
-        "clean_name": "MSI MAG CORELIQUID I240 Water 70.7 CFM White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 62,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
-        "id": "5ecc50ba-1442-4c27-a1cb-253fce2744fa",
-        "name": "TCOMAS LG700 PRO 360 WHITE",
-        "variant": "White",
-        "amazon_sku": "B0DRWWC51J",
-        "clean_name": "TCOMAS LG700 PRO 360 WHITE",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 86.4,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 3200,
-        "max_noise_level": 41,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
         "id": "faf70b02-c080-4305-92f4-715defbbe3fc",
         "name": "Cooler Master MasterAIR G200P Air 39mm Black / Silver",
         "variant": "Black / Silver",
@@ -5967,35 +5122,6 @@
         ]
     },
     {
-        "id": "f7279b2c-59d3-48a6-847a-10c94643dfef",
-        "name": "MSI MEG CORELIQUID S280 Water 280mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09CQCX4VM",
-        "clean_name": "MSI MEG CORELIQUID S280 Water Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "min_noise_level": 24.9,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "b924c5e4-ac63-4285-b9ce-8b5600b5b5a8",
-        "name": "TCOMAS LE200 360 BLACK",
-        "variant": "Black",
-        "amazon_sku": "B0DRTZLKQR",
-        "clean_name": "TCOMAS LE200 360 BLACK",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 66.1,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 2500,
-        "max_noise_level": 35,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "1341d329-9e85-45d9-8082-c015fc932935",
         "name": "TRYX PANORAMA SE AIO 360mm ARGB Black",
         "variant": "Black 360",
@@ -6023,22 +5149,6 @@
         "min_fan_rpm": 300,
         "max_fan_rpm": 1850,
         "min_noise_level": 29.4,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
-        "id": "9b4ff4b9-bd59-4e21-98ee-e88b9b6f238e",
-        "name": "ARCTIC Freezer 8i CO Air 136mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0DS2D44S1",
-        "clean_name": "ARCTIC Freezer 8i CO Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "136mm",
-        "height": 136,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 2300,
         "color": [
             "BLACK",
             "GREY"
@@ -6081,20 +5191,6 @@
         ]
     },
     {
-        "id": "eea23b45-803f-4bf5-8a7b-58740a7feac6",
-        "name": "be quiet! Dark Rock TF 2 Air 134mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09BCWPG1S",
-        "clean_name": "be quiet! Dark Rock TF 2 Air Black",
-        "cooler_type": false,
-        "radiator_size": "134mm",
-        "height": 134,
-        "min_fan_rpm": 1400,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "517d7f4e-c219-4ccc-b294-51d1f46057d9",
         "name": "Thermaltake TOUGHAIR 110 Air 114mm 58.35 CFM Black / Silver",
         "variant": "Black / Silver",
@@ -6110,20 +5206,6 @@
             "BLACK",
             "GREY"
         ]
-    },
-    {
-        "id": "78d83026-0b36-4c6a-a41b-3c61ec201c62",
-        "name": "DeepCool AK400 Performance CPU Cooler",
-        "amazon_sku": "B0BZRHGQ49",
-        "clean_name": "DeepCool AK400 Performance",
-        "cooler_type": false,
-        "radiator_size": 0,
-        "height": 155,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1850,
-        "min_noise_level": 0,
-        "max_noise_level": 29,
-        "color": []
     },
     {
         "id": "5ebdf9f0-a378-4633-89a1-1cc85e59d2a4",
@@ -6215,22 +5297,6 @@
         "min_noise_level": 31.24,
         "color": [
             "BLACK"
-        ]
-    },
-    {
-        "id": "1188d2f0-dde8-4452-b5a0-fa68cc594d57",
-        "name": "ARCTIC Freezer A13 X Air 137mm Black / White",
-        "variant": "Black / White",
-        "amazon_sku": "B089NY81HT",
-        "clean_name": "ARCTIC Freezer A13 X Air Black / White",
-        "cooler_type": false,
-        "radiator_size": "137mm",
-        "height": 137,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK",
-            "WHITE"
         ]
     },
     {
@@ -6328,22 +5394,6 @@
         ]
     },
     {
-        "id": "55148921-3509-42d4-ae96-59ec28337867",
-        "name": "TCOMAS LX800 PRO 360 BLACK",
-        "variant": "Black",
-        "amazon_sku": "B0DS9B5B7L",
-        "clean_name": "TCOMAS LX800 PRO 360 BLACK",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 89.8,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 3200,
-        "max_noise_level": 41,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "ec0470c2-594e-46c3-8e55-2e5cfda05e21",
         "name": "be quiet! Pure Rock Pro 3 Air 155mm 59.6 CFM Black",
         "variant": "Black",
@@ -6402,20 +5452,6 @@
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 29.9,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "6a571de6-8bac-4a8f-8a75-c72a8da9b850",
-        "name": "Alphacool Core Ocean T38 Water 92.3 CFM 280mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BHZP8PL2",
-        "clean_name": "Alphacool Core Ocean T38 Water 92.3 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "min_noise_level": 0,
-        "max_noise_level": 36,
         "color": [
             "BLACK"
         ]
@@ -6584,22 +5620,6 @@
         ]
     },
     {
-        "id": "4f1137d2-469f-468d-a6e7-05b0d03ee4b8",
-        "name": "Silverstone Hydrogon D120 ARGB 56.23 CFM Air 153mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B08WWRS9GD",
-        "clean_name": "Silverstone Hydrogon D120 ARGB 56.23 CFM Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "153mm",
-        "height": 153,
-        "min_noise_level": 0,
-        "max_noise_level": 30.5,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
         "id": "56fa2997-ed7e-45fe-b141-f693a7f5ffd8",
         "name": "ID-COOLING SL360 78 CFM Water 360mm Black",
         "variant": "Black",
@@ -6659,20 +5679,6 @@
         "min_noise_level": 27,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "e659af0a-6894-4348-ac74-500368adfa38",
-        "name": "ARCTIC Liquid Freezer III Water 360 56.3 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B09VH1T1C2",
-        "clean_name": "ARCTIC Liquid Freezer III Water 360 56.3 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -6842,52 +5848,6 @@
         ]
     },
     {
-        "id": "75bc2007-3b79-41f0-bde9-3d573ba13923",
-        "name": "Silverstone Hydrogon D120 ARGB V2 Air 153mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0BCV5Z32K",
-        "clean_name": "Silverstone Hydrogon D120 ARGB V2 Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "153mm",
-        "height": 153,
-        "min_noise_level": 0,
-        "max_noise_level": 30.5,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
-        "id": "18d47458-d2de-49a2-ac2f-eb582e85b9aa",
-        "name": "ARCTIC Freezer A35 RGB Air 158mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09MWFHCBY",
-        "clean_name": "ARCTIC Freezer A35 RGB Air Black",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1700,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "b25ae792-88af-4f84-beff-86a14932c968",
-        "name": "ID-COOLING ZOOMFLOW 280 XT LITE White CPU Water Cooler 280mm Radiator, Dual 140mm PWM Fan, ARGB Adjustable AIO Cooler, Compatible with Intel 115X/1200/1700, AMD AM4/AM5",
-        "variant": "XT LITE",
-        "amazon_sku": "B0BZ4JFJXW",
-        "clean_name": "ID-COOLING ZOOMFLOW 280 XT LITE White CPU Water Cooler Radiator, Dual PWM Fan, ARGB Adjustable AIO Cooler, Compatible with Intel 115X/1200/1700, AMD AM4/AM5",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "height": 0,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 0,
-        "min_noise_level": 0,
-        "max_noise_level": 0,
-        "color": []
-    },
-    {
         "id": "b92ca3fb-4cab-4fff-81d9-1a916f9bc11d",
         "name": "Cooler Master MasterAir MA410P Air 158mm",
         "variant": "",
@@ -7013,20 +5973,6 @@
         "color": []
     },
     {
-        "id": "51d7e30b-0e36-4b73-87d3-0799f4dcdbfa",
-        "name": "ENDORFY Navis F280 ARGB Water 280mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CHJYN92S",
-        "clean_name": "ENDORFY Navis F280 ARGB Water Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "45ecb66f-adcb-4ea4-86f4-c2f05eef9322",
         "name": "Noctua NH-L9i-17xx Air 37mm 33.84 CFM Brown / Beige",
         "variant": "Brown / Beige",
@@ -7143,19 +6089,6 @@
         "radiator_size": 360,
         "min_fan_rpm": 1850,
         "min_noise_level": 27,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "06bdf2e9-4623-4bff-aba0-3f2a5357bbf6",
-        "name": "EVGA CLCx 360 Water 360mm 73.15 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0BJ5XXWH3",
-        "clean_name": "EVGA CLCx 360 Water 73.15 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_noise_level": 35,
         "color": [
             "BLACK"
         ]
@@ -7304,19 +6237,6 @@
         ]
     },
     {
-        "id": "03eccbf0-8080-4b10-985d-a30e301ffdd8",
-        "name": "EVGA CLCx Water 280mm 85.13 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0BJ4Q5HVN",
-        "clean_name": "EVGA CLCx Water 85.13 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "min_noise_level": 35,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "f9d6bcb6-8ed4-4892-8bbf-988772f61d6e",
         "name": "MSI MAG CORELIQUID 240R V2 Water 240mm White",
         "variant": "White",
@@ -7330,37 +6250,6 @@
         "max_noise_level": 34.3,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "ceb58250-83fb-4b88-8704-8167c00ebb26",
-        "name": "ARCTIC Liquid Freezer III Pro A-RGB 77 CFM Water 240mm White",
-        "variant": "White",
-        "amazon_sku": "B0CKXCFLPN",
-        "clean_name": "ARCTIC Liquid Freezer III Pro A-RGB 77 CFM Water White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 68,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 3000,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
-        "id": "3e67930e-6595-450d-9c20-c241d4e4e5be",
-        "name": "ENDORFY Spartan 5 ARGB Air 146mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0BXH15TQ7",
-        "clean_name": "ENDORFY Spartan 5 ARGB Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "146mm",
-        "height": 146,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1500,
-        "color": [
-            "BLACK",
-            "GREY"
         ]
     },
     {
@@ -7636,37 +6525,6 @@
         ]
     },
     {
-        "id": "08abffbe-d1b2-44b6-a406-4e6d420df632",
-        "name": "ARCTIC Alpine 23 Air 65mm White / Black",
-        "variant": "White / Black",
-        "amazon_sku": "B08PZGM4TW",
-        "clean_name": "ARCTIC Alpine 23 Air White / Black",
-        "cooler_type": false,
-        "radiator_size": "65mm",
-        "height": 65,
-        "min_fan_rpm": 100,
-        "max_fan_rpm": 2000,
-        "color": [
-            "WHITE",
-            "BLACK"
-        ]
-    },
-    {
-        "id": "f7166cda-b39b-4706-822e-caf567802e75",
-        "name": "ARCTIC Liquid Freezer III Pro A-RGB 77 CFM Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0DLWGL38S",
-        "clean_name": "ARCTIC Liquid Freezer III Pro A-RGB 77 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 68,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 3000,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "17d1ff20-90b4-406b-b4a3-26d134b7a600",
         "name": "Thermaltake Water 3.0 Water 360mm ARGB Sync Edition Black",
         "variant": "Black",
@@ -7874,20 +6732,6 @@
         "color": []
     },
     {
-        "id": "be19cd74-1e28-4d53-9a5f-65441aff005e",
-        "name": "Alphacool Eisbaer Aurora Water 280mm 41.8 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0851PL35Y",
-        "clean_name": "Alphacool Eisbaer Aurora Water 41.8 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 1500,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "80ee7d0a-1dca-4b7b-8065-c340608220a2",
         "name": "NZXT Kraken Elite 280 RGB Black (2024)",
         "variant": "280mm Black",
@@ -8012,22 +6856,6 @@
         "color": [
             "GREY",
             "BLACK"
-        ]
-    },
-    {
-        "id": "0b849da6-5d34-4623-b50d-8565cbbfdefe",
-        "name": "ARCTIC Freezer 34 CO Air 157mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B07LGSDQC2",
-        "clean_name": "ARCTIC Freezer 34 CO Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "157mm",
-        "height": 157,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK",
-            "GREY"
         ]
     },
     {
@@ -8297,22 +7125,6 @@
         ]
     },
     {
-        "id": "b3266d2d-ffc2-4623-ac96-6d392fa77cd4",
-        "name": "MSI MPG CORELIQUID K360 Water 360mm 77.4 CFM Black",
-        "variant": "360mm Black",
-        "amazon_sku": "B08XKDWHSB",
-        "clean_name": "MSI MPG CORELIQUID K360 Water 77.4 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 0,
-        "max_noise_level": 39,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "59fee436-23d1-4b3f-8f7d-35ea2c311874",
         "name": "ID-COOLING ZOOMFLOW 240X ARGB CPU Water Cooler",
         "variant": "240X ARGB",
@@ -8375,21 +7187,6 @@
         "color": [
             "BLACK",
             "GREY"
-        ]
-    },
-    {
-        "id": "6c70d676-8450-4999-b859-d4595e1ec68d",
-        "name": "ARCTIC Freezer 36 A-RGB Air 159mm White",
-        "variant": "White",
-        "amazon_sku": "B09VH4YDS9",
-        "clean_name": "ARCTIC Freezer 36 A-RGB Air White",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 2000,
-        "color": [
-            "WHITE"
         ]
     },
     {
@@ -8475,21 +7272,6 @@
         ]
     },
     {
-        "id": "12b5c5c8-cf54-4703-8968-345018153102",
-        "name": "be quiet! Pure Loop 2 Water 280mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CLBPTB3M",
-        "clean_name": "be quiet! Pure Loop 2 Water Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "height": 42,
-        "min_noise_level": 15.4,
-        "max_noise_level": 33.8,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "89129263-4a6b-4c06-aa5e-3ee4f752d4d2",
         "name": "NZXT Kraken X73 Water RGB 360mm White / Black",
         "variant": "White / Black",
@@ -8570,22 +7352,6 @@
         ]
     },
     {
-        "id": "21a36d8b-835e-4b7f-b645-55dfbe833db8",
-        "name": "TCOMAS LE100 360 WHITE",
-        "variant": "White",
-        "amazon_sku": "B0DRTZHP9H",
-        "clean_name": "TCOMAS LE100 360 WHITE",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 64.4,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 2500,
-        "max_noise_level": 35,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
         "id": "6e9bd86d-c498-44ed-92c6-7a9498c3a7b9",
         "name": "Thermalright Assassin X Refined SE Air 148mm White / Silver",
         "variant": "White / Silver",
@@ -8613,19 +7379,6 @@
         "max_fan_rpm": 2900,
         "min_noise_level": 15.4,
         "max_noise_level": 34.9,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
-        "id": "3d4def60-9cb2-4a32-a467-c493b5d7117a",
-        "name": "Cooler Master MASTERLIQUID PL240 FLUX Water 240mm White",
-        "variant": "White",
-        "amazon_sku": "B0BD8PT98J",
-        "clean_name": "Cooler Master MASTERLIQUID PL240 FLUX Water White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_noise_level": 32,
         "color": [
             "WHITE"
         ]
@@ -8692,19 +7445,6 @@
         "color": [
             "WHITE",
             "GREY"
-        ]
-    },
-    {
-        "id": "a31c95d4-3dcc-4148-8ad1-3571d8ff9f2c",
-        "name": "MSI MEG CORELIQUID S360 Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09CQCK1N2",
-        "clean_name": "MSI MEG CORELIQUID S360 Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_noise_level": 22.7,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -8963,21 +7703,6 @@
         "color": []
     },
     {
-        "id": "e7c2a880-c86a-4eca-9c79-ee3033ad0684",
-        "name": "ARCTIC Liquid Freezer III Pro 280 A-RGB 280mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0DPHRRN65",
-        "clean_name": "ARCTIC Liquid Freezer III Pro 280 A-RGB Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "height": 68,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 2500,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "278898f2-3b99-40ef-97be-bcc3b673594b",
         "name": "MSI MAG Coreliquid C360 V2 White - AIO ARGB CPU Liquid Cooler - 360mm Radiator",
         "variant": "360mm White",
@@ -9100,20 +7825,6 @@
         "min_fan_rpm": 2000,
         "min_noise_level": 14,
         "max_noise_level": 34.8,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "0288ab20-e7f6-4e3a-8259-3521ce03a4dd",
-        "name": "GAMDIAS CHIONE M2 Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B08C7FMCPY",
-        "clean_name": "GAMDIAS CHIONE M2 Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 1800,
         "color": [
             "BLACK"
         ]
@@ -9357,22 +8068,6 @@
         ]
     },
     {
-        "id": "d30dde41-c599-4c7e-93a0-d8674f8193da",
-        "name": "ARCTIC Alpine 17 Air 77mm Black / White",
-        "variant": "Black / White",
-        "amazon_sku": "B09SHV7LZ3",
-        "clean_name": "ARCTIC Alpine 17 Air Black / White",
-        "cooler_type": false,
-        "radiator_size": "77mm",
-        "height": 77,
-        "min_fan_rpm": 100,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK",
-            "WHITE"
-        ]
-    },
-    {
         "id": "39f3097c-c570-4e40-890a-33cc3c98d4e2",
         "name": "Cooler Master MasterLiquid 240L Core Water 240mm ARGB White",
         "variant": "White",
@@ -9470,20 +8165,6 @@
         ]
     },
     {
-        "id": "4473a879-43f3-4684-9872-8064934e6023",
-        "name": "Alphacool Eisbaer Aurora 360 61.5 CFM Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B084TP36T8",
-        "clean_name": "Alphacool Eisbaer Aurora 360 61.5 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "6c81e585-9124-4a98-8b1e-41b137b94541",
         "name": "Lian Li Galahad II Trinity SL-INF 61.3 CFM Water 240mm White",
         "variant": "White",
@@ -9549,35 +8230,6 @@
             "BLACK",
             "GREY"
         ]
-    },
-    {
-        "id": "a3c0b7a6-e277-4eca-98f4-744e5aa6a750",
-        "name": "Deepcool AK500 Air 158mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0BF5SSKQ3",
-        "clean_name": "Deepcool AK500 Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1850,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
-        "id": "f92a943d-c6d6-45f6-8caa-53e954d31735",
-        "name": "Corsair Hydro Series H100i RGB PLATINUM Extreme Performance Liquid CPU Cooler, Mounting kit for most modern CPU sockets, Two ML PRO RGB Series PWM 140mm fans, Fan and radiator mounting screws, USB 2.0 motherboard header cable, Thermal compound (pre-applied), Quick Start Guide",
-        "variant": "75 CFM Liquid",
-        "amazon_sku": "B07JWB5BSN",
-        "clean_name": "Corsair Hydro Series H100i RGB PLATINUM Extreme Performance , Mounting kit for most modern CPU sockets, Two ML PRO RGB Series PWM fans, Fan and radiator mounting screws, USB 2.0 motherboard header cable, Thermal compound (pre-applied), Quick Start Guide",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 150,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 2400,
-        "color": []
     },
     {
         "id": "22df086b-0c69-45e0-a6db-655b180dce31",
@@ -9756,37 +8408,6 @@
         "last_updated": "2026-04-30T07:04:21.918Z"
     },
     {
-        "id": "3d1a1f3e-0d12-4694-8fb0-5bd60549ca4a",
-        "name": "ENDORFY Fera 5 Air 155mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0BLSTTZKT",
-        "clean_name": "ENDORFY Fera 5 Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "155mm",
-        "height": 155,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
-        "id": "e6c4b06d-294e-4178-b5a4-2ba9057dd0b0",
-        "name": "ARCTIC Freezer i35 A-RGB Air 158mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09JM64XTQ",
-        "clean_name": "ARCTIC Freezer i35 A-RGB Air Black",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1700,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "a994efda-23af-4f16-bda7-453eee69171a",
         "name": "SAMA SM360 Water 360mm LCD White",
         "variant": "White",
@@ -9850,36 +8471,6 @@
         ]
     },
     {
-        "id": "a6b8904f-00e4-47e6-b1a0-1f311ea0fa5f",
-        "name": "ARCTIC Liquid Freezer III Pro A-RGB 360 Water 360mm 77 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0DLWDJS8S",
-        "clean_name": "ARCTIC Liquid Freezer III Pro A-RGB 360 Water 77 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 68,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 3000,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
-        "id": "9fa62f83-e932-4bd0-942d-7b0906416801",
-        "name": "DeepCool MYSTIQUE 360 LCD Liquid Cooler 360mm, 5th Gen Pump 3400RPM AIO 2.8\" 640x480 TFT LCD Screen Anti-Leak Tech FT12 SE PWM Fans, Grey and Black",
-        "variant": "360",
-        "amazon_sku": "B0CRBBG7QN",
-        "clean_name": "DeepCool MYSTIQUE 360 LCD Liquid Cooler , 5th Gen Pump 3400RPM AIO 2.8\" 640x480 TFT LCD Screen Anti-Leak Tech FT12 SE PWM Fans, Grey and Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 27,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2150,
-        "min_noise_level": 0,
-        "max_noise_level": 36.49,
-        "color": []
-    },
-    {
         "id": "d8f9947d-3b5f-4b77-85a8-d35bba431749",
         "name": "Enermax Liqmax III Water 360mm ARGB 72.1 CFM Black",
         "variant": "Black",
@@ -9907,22 +8498,6 @@
         "max_fan_rpm": 2000,
         "min_noise_level": 11,
         "max_noise_level": 29,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "a957eef3-a587-4853-8e75-e0f50c32d750",
-        "name": "TCOMAS LE100 360 BLACK",
-        "variant": "Black",
-        "amazon_sku": "B0DRTZ3V9R",
-        "clean_name": "TCOMAS LE100 360 BLACK",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 64.4,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 2500,
-        "max_noise_level": 35,
         "color": [
             "BLACK"
         ]
@@ -10170,20 +8745,6 @@
         "color": []
     },
     {
-        "id": "0036141f-678c-4301-ba67-71087932632a",
-        "name": "Alphacool Eisbaer Aurora Water 240mm 61.5 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B084VHMDHZ",
-        "clean_name": "Alphacool Eisbaer Aurora Water 61.5 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "b44cabee-4c53-4c62-8b7c-c605a5b4ec70",
         "name": "Cooler Master Hyper 212 Halo SF6 Ryu Air 51.88 CFM 154mm White / Orange",
         "variant": "White / Orange",
@@ -10290,22 +8851,6 @@
         "height": 54,
         "min_fan_rpm": 2000,
         "min_noise_level": 27.7,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "8e47e9c9-a22b-46d0-8e60-1007dc2dc904",
-        "name": "Cooler Master MasterLiquid 240 ATMOS Stealth Water 240mm 75.2 CFM Black",
-        "variant": "ATMOS Stealth 240mm",
-        "amazon_sku": "B0DYRKGKC7",
-        "clean_name": "Cooler Master MasterLiquid 240 ATMOS Stealth Water 75.2 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 53,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2400,
-        "max_noise_level": 25,
         "color": [
             "BLACK"
         ]
@@ -10499,20 +9044,6 @@
         ]
     },
     {
-        "id": "20c1083f-46a8-4aa5-823d-a6788bc88fd9",
-        "name": "Asus ROG RYUJIN II Water 240mm ARGB Black",
-        "variant": "Black",
-        "amazon_sku": "B0B7CCZ5R3",
-        "clean_name": "Asus ROG RYUJIN II Water ARGB Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "color": [
-            "BLACK"
-        ],
-        "price": 459.22,
-        "last_updated": "2026-04-30T07:08:18.698Z"
-    },
-    {
         "id": "179e9264-d41b-4835-8ca8-c1287806cb04",
         "name": "Corsair iCUE H100i RGB PRO XT 75 CFM Water 240mm RGB 75 CFM Black",
         "variant": "Black",
@@ -10618,22 +9149,6 @@
         "color": []
     },
     {
-        "id": "1773d10d-43e2-4379-b0ec-ba9850f19f11",
-        "name": "TCOMAS LX800 PRO 360 WHITE",
-        "variant": "White",
-        "amazon_sku": "B0DS9CYZ36",
-        "clean_name": "TCOMAS LX800 PRO 360 WHITE",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 89.9,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 3200,
-        "max_noise_level": 41,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
         "id": "5b3a768c-b796-455e-a734-bb25ef2e3817",
         "name": "Thermalright Frozen Notte 240 ARGB V2 White",
         "variant": "240mm White",
@@ -10646,23 +9161,6 @@
         "min_noise_level": 27.7,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "ab605ecd-5b7b-43d9-973e-42e2354fe9c9",
-        "name": "MSI MPG CORELIQUID K240 V2 Water 240mm 77.4 CFM Black",
-        "variant": "240mm Black",
-        "amazon_sku": "B09CQCD5DS",
-        "clean_name": "MSI MPG CORELIQUID K240 V2 Water 77.4 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 94,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 0,
-        "max_noise_level": 39.9,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -10694,20 +9192,6 @@
         "min_fan_rpm": 2000,
         "min_noise_level": 30.85,
         "color": []
-    },
-    {
-        "id": "4179f8b5-2c13-4119-abe4-5a1ab21b9dbc",
-        "name": "Noctua NH-P1 Air Fanless 158mm Silver",
-        "variant": "Silver",
-        "amazon_sku": "B08WC64NN8",
-        "clean_name": "Noctua NH-P1 Air Fanless Silver",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_noise_level": 0,
-        "color": [
-            "GREY"
-        ]
     },
     {
         "id": "8e5f1f84-7f8e-4e1c-a503-689ac8d74cc1",
@@ -10893,35 +9377,6 @@
         ]
     },
     {
-        "id": "20c64d8a-b738-4a1b-8eec-7acfa3626222",
-        "name": "Alpenföhn Panorama 2 Air 58 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0CNJB7Y5Q",
-        "clean_name": "Alpenföhn Panorama 2 Air 58 CFM Black",
-        "cooler_type": false,
-        "height": 47,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 3000,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "58383296-5e20-463e-9f7c-81389370917c",
-        "name": "TCOMAS LA200 360 BLACK",
-        "variant": "Black",
-        "amazon_sku": "B0DRWQ793M",
-        "clean_name": "TCOMAS LA200 360 BLACK",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 900,
-        "max_fan_rpm": 2600,
-        "max_noise_level": 36.45,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "e8066700-cb4e-48e4-840f-8e15049c61f5",
         "name": "Thermalright Peerless Assassin Air 157mm Gray",
         "variant": "Gray",
@@ -10951,20 +9406,6 @@
         "color": [
             "WHITE",
             "RGB"
-        ]
-    },
-    {
-        "id": "f23dfb9d-b6bb-4a9b-b32a-c5704c425c6b",
-        "name": "be quiet! Pure Loop Water 120mm Black",
-        "variant": "Black",
-        "amazon_sku": "B08K3PLQJC",
-        "clean_name": "be quiet! Pure Loop Water Black",
-        "cooler_type": true,
-        "radiator_size": 120,
-        "min_noise_level": 18.9,
-        "max_noise_level": 36.1,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -11064,33 +9505,6 @@
         ]
     },
     {
-        "id": "5c63730e-7588-49a2-b291-421a7a27383d",
-        "name": "Alphacool Eisbaer Pro Aurora Water 360mm 69.98 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B097MXQV5M",
-        "clean_name": "Alphacool Eisbaer Pro Aurora Water 69.98 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_noise_level": 31.5,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "20bea440-bf4b-4bac-80cb-0eb1b0e6cceb",
-        "name": "GAMDIAS CHIONE M3 Water 240mm 70.2 CFM White",
-        "variant": "White",
-        "amazon_sku": "B09Z3R6VXT",
-        "clean_name": "GAMDIAS CHIONE M3 Water 70.2 CFM White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2000,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
         "id": "ef8837f7-d7ae-47b5-becd-cf78594f8f1a",
         "name": "ID-COOLING FX240 PRO Water 240mm 82.5 CFM Black",
         "variant": "Black",
@@ -11185,22 +9599,6 @@
         ]
     },
     {
-        "id": "d6740b8e-c978-40c3-8395-f5066d184693",
-        "name": "ARCTIC Freezer 8A Air 136mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0DKJ365SJ",
-        "clean_name": "ARCTIC Freezer 8A Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "136mm",
-        "height": 136,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 2300,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
         "id": "bd7a2636-c474-4065-a638-20fedb3cf23e",
         "name": "Thermaltake TH120 V2 ARGB Sync Water 120mm 57.05 CFM Black",
         "variant": "Black",
@@ -11281,20 +9679,6 @@
         ]
     },
     {
-        "id": "9834e59d-4f80-495f-bb60-288e6c60aac1",
-        "name": "ARCTIC Liquid Freezer III 360 A-RGB 48.82 CFM Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CKXCP1LW",
-        "clean_name": "ARCTIC Liquid Freezer III 360 A-RGB 48.82 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "e8848a91-6eb7-46da-8b18-9bffba77c11b",
         "name": "Asus ROG STRIX LC Water 360mm RGB GUNDAM White",
         "variant": "White",
@@ -11307,20 +9691,6 @@
         "min_noise_level": 37.6,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "41bb2849-e29a-4cb7-b3a7-5e6e3c1a64fa",
-        "name": "Corsair iCUE LINK H170i LCD Water 420mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CLB9M4RD",
-        "clean_name": "Corsair iCUE LINK H170i LCD Water Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -11552,36 +9922,6 @@
         ]
     },
     {
-        "id": "03709e79-7579-4765-85cf-ff52ccd0d48b",
-        "name": "Corsair iCUE LINK H100i Water 240mm RGB Black",
-        "variant": "Black",
-        "amazon_sku": "B0C6PX2BW1",
-        "clean_name": "Corsair iCUE LINK H100i Water RGB Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 480,
-        "max_fan_rpm": 2400,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "ded9ff07-eba5-4935-9696-849498575ce5",
-        "name": "ARCTIC Freezer A35 CO Air 158mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B09MWFPWGS",
-        "clean_name": "ARCTIC Freezer A35 CO Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
         "id": "6e8df6cd-f372-46fb-a759-09ee05a1381d",
         "name": "Thermaltake TOUGHLIQUID 360 EX Pro ARGB Sync 70.8 CFM Water 360mm Black",
         "variant": "360mm Black",
@@ -11657,23 +9997,6 @@
             "RED",
             "BLACK"
         ]
-    },
-    {
-        "id": "d21efd52-fbfb-4d39-8283-971401aba78e",
-        "name": "Thermalright Frozen Notte 360 Black ARGB Water Cooling CPU Cooler",
-        "variant": "360 Black ARGB",
-        "amazon_sku": "B0BDDZGLXL",
-        "clean_name": "Thermalright Frozen Notte 360 Black ARGB Water Cooling",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 0,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 0,
-        "max_noise_level": 27.7,
-        "color": [],
-        "price": 125.97,
-        "last_updated": "2026-04-30T07:14:29.669Z"
     },
     {
         "id": "9c6026ca-41fd-4158-8cd0-72748b818273",
@@ -11812,36 +10135,6 @@
         ]
     },
     {
-        "id": "3bef0508-0c15-43a0-b399-c9f9c712a837",
-        "name": "Asus Prime LC Water 240mm ARGB 757 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0DNPNQKK5",
-        "clean_name": "Asus Prime LC Water ARGB 757 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 68,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2200,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "0c87072d-9f85-453c-be9a-5cd15acd030a",
-        "name": "ARCTIC Liquid Freezer III Pro A-RGB Water 360mm 77 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0DLWFCVSD",
-        "clean_name": "ARCTIC Liquid Freezer III Pro A-RGB Water 77 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 68,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 3000,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "d0ecb3f0-e3f0-4674-808b-7e4b33236f1d",
         "name": "Thermalright Frozen Warframe Water 360mm 70.84 CFM Black",
         "variant": "360mm Black",
@@ -11900,22 +10193,6 @@
         "min_noise_level": 27.2,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "f9d7b7fd-fc92-4820-b7cd-a75e226e80b1",
-        "name": "ENDORFY Fortis 5 Air 159mm Dual Fan Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0BHDTGRD8",
-        "clean_name": "ENDORFY Fortis 5 Air Dual Fan Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1400,
-        "color": [
-            "BLACK",
-            "GREY"
         ]
     },
     {
@@ -11983,21 +10260,6 @@
         ]
     },
     {
-        "id": "381fd893-7c07-419b-9108-a6e11287048e",
-        "name": "ARCTIC Liquid Freezer III Pro 240mm Black",
-        "variant": "240mm Black",
-        "amazon_sku": "B0DLWFBHSL",
-        "clean_name": "ARCTIC Liquid Freezer III Pro Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 68.5,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 3000,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "7490f427-0a9c-4241-bb91-173d61a6bf74",
         "name": "ID-COOLING SE-224-XTS Air 151mm White",
         "variant": "White",
@@ -12011,22 +10273,6 @@
         "min_noise_level": 28.9,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "4c9297c0-a4b2-45de-9048-0007e8fd1836",
-        "name": "Lian Li GALAHAD Water 360mm RGB 69.17 CFM Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B08CZ6NM4W",
-        "clean_name": "Lian Li GALAHAD Water RGB 69.17 CFM Black / Silver",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 62,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 1900,
-        "color": [
-            "BLACK",
-            "GREY"
         ]
     },
     {
@@ -12094,35 +10340,6 @@
         "color": [
             "BLACK"
         ]
-    },
-    {
-        "id": "f57c13a4-cc5a-42bb-9c50-a6d17893aa65",
-        "name": "Corsair iCUE LINK H150i RGB Water 360mm RGB 63.1 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0C6PXT7YF",
-        "clean_name": "Corsair iCUE LINK H150i RGB Water RGB 63.1 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 480,
-        "max_fan_rpm": 2400,
-        "color": [
-            "WHITE"
-        ],
-        "price": 142.04,
-        "last_updated": "2026-04-30T07:17:14.523Z"
-    },
-    {
-        "id": "5703c131-5188-4d3b-ad7b-0045469a362e",
-        "name": "be quiet! Pure Rock",
-        "variant": "51.7 CFM Sleeve Bearing",
-        "amazon_sku": "B00OB40ULU",
-        "clean_name": "be quiet! Pure Rock",
-        "cooler_type": false,
-        "radiator_size": 0,
-        "height": 155,
-        "min_noise_level": 19.1,
-        "max_noise_level": 26.8,
-        "color": []
     },
     {
         "id": "f2b74a6f-2321-42b7-ae85-0d4f06cca00c",
@@ -12312,21 +10529,6 @@
             "WHITE",
             "GREY"
         ]
-    },
-    {
-        "id": "fb25faa2-bf85-4019-826f-64f45e148f6e",
-        "name": "DeepCool GAMMAXX AG500 BK ARGB",
-        "variant": "AG500 BK ARGB",
-        "amazon_sku": "B0BP9NBZBG",
-        "clean_name": "DeepCool GAMMAXX AG500 BK ARGB",
-        "cooler_type": false,
-        "radiator_size": 0,
-        "height": 155,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 0,
-        "min_noise_level": 0,
-        "max_noise_level": 0,
-        "color": []
     },
     {
         "id": "6038081b-a0dc-4a0a-9721-7e89d482cf07",
@@ -12524,22 +10726,6 @@
         "last_updated": "2026-04-30T07:19:19.228Z"
     },
     {
-        "id": "8efa46d5-17d5-4041-b215-feb518c2596b",
-        "name": "be quiet! Shadow Rock 3 Air 163mm White / Black",
-        "variant": "White / Black",
-        "amazon_sku": "B084XYKDF4",
-        "clean_name": "be quiet! Shadow Rock 3 Air White / Black",
-        "cooler_type": false,
-        "radiator_size": "163mm",
-        "height": 163,
-        "min_noise_level": 11.5,
-        "max_noise_level": 24.4,
-        "color": [
-            "WHITE",
-            "BLACK"
-        ]
-    },
-    {
         "id": "b259c0fd-2a33-4151-8249-304d58804907",
         "name": "MSI MAG CORELIQUID 360R V2 Water 360mm Black",
         "variant": "Black",
@@ -12638,23 +10824,6 @@
         ]
     },
     {
-        "id": "1802eb06-3574-4591-bf65-71edf7e8254d",
-        "name": "AMD Wraith Stealth Socket AM4",
-        "variant": "Stealth",
-        "amazon_sku": "B07MFMFL7R",
-        "clean_name": "AMD Wraith Stealth Socket AM4",
-        "cooler_type": false,
-        "radiator_size": 0,
-        "height": 0,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 0,
-        "max_noise_level": 0,
-        "color": [],
-        "price": 78.09,
-        "last_updated": "2026-04-30T07:20:18.874Z"
-    },
-    {
         "id": "3bee8732-a728-40a9-b543-74510959ee24",
         "name": "Rosewill ROCC-16002 27.95 CFM Air 141mm Blue / Black",
         "variant": "Blue / Black",
@@ -12684,20 +10853,6 @@
         "min_noise_level": 30,
         "color": [
             "WHITE",
-            "BLACK"
-        ]
-    },
-    {
-        "id": "d95e2566-160f-4bfe-8fa4-5576503e5713",
-        "name": "Corsair iCUE LINK H170i Water 420mm RGB 82.5 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0C6PS9HDJ",
-        "clean_name": "Corsair iCUE LINK H170i Water RGB 82.5 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 2000,
-        "color": [
             "BLACK"
         ]
     },
@@ -12794,36 +10949,6 @@
         "color": [
             "BLACK",
             "GREY"
-        ]
-    },
-    {
-        "id": "2eaea3f2-b69c-4766-93d3-63572608eab9",
-        "name": "ARCTIC Freezer 8i Air 136mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0DS2CGTJ7",
-        "clean_name": "ARCTIC Freezer 8i Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "136mm",
-        "height": 136,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 2300,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
-        "id": "6cfaee49-a56f-495d-b7e0-a25600cfd7dc",
-        "name": "Alphacool Eisbaer Aurora Water 420mm Black",
-        "variant": "Black",
-        "amazon_sku": "B084TPCQ81",
-        "clean_name": "Alphacool Eisbaer Aurora Water Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 1500,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -12982,21 +11107,6 @@
         ]
     },
     {
-        "id": "2c80a8e1-31fd-4e79-9ad3-7681b2197415",
-        "name": "DeepCool LS720 SE Liquid Cooler 360mm 4th Gen Dual-Chamber Pump 3100RPM 300w TDP AIO Cooler Anti-Leak Tech with ARGB Fans CPU Water Cooler Narrow Frame Infinity Mirror Block for AMD AM4/AM5 LGA 1700/1200, Black",
-        "variant": "Black",
-        "amazon_sku": "B0BLV7MNCC",
-        "clean_name": "DeepCool LS720 SE Liquid Cooler 4th Gen Dual-Chamber Pump 3100RPM 300w TDP AIO Cooler Anti-Leak Tech with ARGB Fans CPU Water Cooler Narrow Frame Infinity Mirror Block for AMD AM4/AM5 LGA 1700/1200, Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 0,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2250,
-        "min_noise_level": 0,
-        "max_noise_level": 32.9,
-        "color": []
-    },
-    {
         "id": "c9c06a6a-94f7-43e8-9e15-ec3b571ac063",
         "name": "Thermalright Frost Spirit 140 Air 158mm 77.8 CFM Gray",
         "variant": "Gray",
@@ -13090,21 +11200,6 @@
         ]
     },
     {
-        "id": "952c3970-f0d0-4cf7-8c36-74f98bbed603",
-        "name": " ID-COOLING SE-904-XT Black",
-        "variant": "904-XT Black",
-        "amazon_sku": "B0FX3CJH2P",
-        "clean_name": "ID-COOLING SE-904-XT Black",
-        "cooler_type": false,
-        "height": 123,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2200,
-        "max_noise_level": 29.1,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "4a14621d-58cc-45ad-a530-56a17d8e952c",
         "name": "be quiet! Pure Rock Slim Air 125mm",
         "variant": "",
@@ -13175,35 +11270,6 @@
         "max_fan_rpm": 2800,
         "min_noise_level": 14,
         "max_noise_level": 35.2,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "920d9170-c955-48dd-b59b-1877a808690b",
-        "name": "ENDORFY Fera 5 Air 155mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CZDJNX29",
-        "clean_name": "ENDORFY Fera 5 Air Black",
-        "cooler_type": false,
-        "radiator_size": "155mm",
-        "height": 155,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "a93a09a1-b617-4d06-8b21-dd4224bc1d81",
-        "name": "ARCTIC Liquid Freezer II Water 240 56.3 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B07WSDLRVP",
-        "clean_name": "ARCTIC Liquid Freezer II Water 240 56.3 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
         "color": [
             "BLACK"
         ]
@@ -13318,22 +11384,6 @@
         ]
     },
     {
-        "id": "13af59ea-f00a-4d68-a7ba-a3e34167ff64",
-        "name": "ENDORFY Spartan 5 MAX Air 146mm ARGB Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0BXH1TJ3X",
-        "clean_name": "ENDORFY Spartan 5 MAX Air ARGB Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "146mm",
-        "height": 146,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1500,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
         "id": "7814b8c2-2098-4aa8-b4a4-0e703ff959e3",
         "name": "Phanteks GLACIER ONE 420D30 Water 420mm 71.93 CFM White",
         "variant": "White",
@@ -13367,20 +11417,6 @@
         ]
     },
     {
-        "id": "6462c9d8-9e4d-4581-86ab-a0297624fd99",
-        "name": "ARCTIC Liquid Freezer III 420 A-RGB 69.9 CFM Water 420mm White",
-        "variant": "White",
-        "amazon_sku": "B09VGPZ262",
-        "clean_name": "ARCTIC Liquid Freezer III 420 A-RGB 69.9 CFM Water White",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1900,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
         "id": "345453fc-13b0-42e7-83a3-9e0b2416b5bd",
         "name": "GAMDIAS CHIONE E4 Water 240mm 73.36 CFM Black",
         "variant": "Black",
@@ -13392,36 +11428,6 @@
         "max_fan_rpm": 1800,
         "min_noise_level": 11,
         "max_noise_level": 33.8,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "843434ba-7322-4e96-819a-42f13affe068",
-        "name": "Cooler Master MasterLiquid LC240E RGB",
-        "variant": "RGB",
-        "amazon_sku": "B07CRGC899",
-        "clean_name": "Cooler Master MasterLiquid LC240E RGB",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 0,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 0,
-        "max_noise_level": 0,
-        "color": []
-    },
-    {
-        "id": "9e50c9bc-5b5f-4252-9089-133bd28bffcc",
-        "name": "IceGiant ProSiphon Elite Air 164mm Black",
-        "variant": "Black",
-        "amazon_sku": "B08VHB8YPZ",
-        "clean_name": "IceGiant ProSiphon Elite Air Black",
-        "cooler_type": false,
-        "radiator_size": "164mm",
-        "height": 164,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2300,
         "color": [
             "BLACK"
         ]
@@ -13443,21 +11449,6 @@
         ]
     },
     {
-        "id": "bcba9801-486c-4b83-8211-5912148e9884",
-        "name": "be quiet! Pure Rock 2 FX Air 155mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0B7NVZFDM",
-        "clean_name": "be quiet! Pure Rock 2 FX Air Black",
-        "cooler_type": false,
-        "radiator_size": "155mm",
-        "height": 155,
-        "min_noise_level": 7.9,
-        "max_noise_level": 24.4,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "fc93e3dc-2fc0-4637-9f3d-22dd921d9e8f",
         "name": "Thermalright Frozen Warframe PRO Water 360mm ARGB 70.84 CFM White / Blue",
         "variant": "White / Blue",
@@ -13474,20 +11465,6 @@
         ]
     },
     {
-        "id": "b0b2c667-86e1-4b7d-9701-822ef26845a0",
-        "name": "ID-COOLING DX360 MAX Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0D97NQJQS",
-        "clean_name": "ID-COOLING DX360 MAX Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 58,
-        "min_noise_level": 32.5,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "7cd49ce4-55bc-4b04-8416-57154bb9f9be",
         "name": "Cougar Poseidon Elite Water 240mm ARGB Black",
         "variant": "Black",
@@ -13499,20 +11476,6 @@
         "min_fan_rpm": 500,
         "max_fan_rpm": 2200,
         "min_noise_level": 33.5,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "f179bdea-a992-4662-8511-f2451f63717f",
-        "name": "ENDORFY Navis F360 ARGB Water 360mm ARGB Black",
-        "variant": "Black",
-        "amazon_sku": "B0BXGZMB7G",
-        "clean_name": "ENDORFY Navis F360 ARGB Water ARGB Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1800,
         "color": [
             "BLACK"
         ]
@@ -13654,20 +11617,6 @@
         ]
     },
     {
-        "id": "f0b09c19-60de-4a3a-af74-427cc668fc46",
-        "name": "darkFlash E400 Plus White",
-        "variant": "Plus White",
-        "amazon_sku": "B0FS7D25H9",
-        "clean_name": "darkFlash E400 Plus White",
-        "cooler_type": false,
-        "height": 155,
-        "min_fan_rpm": 800,
-        "max_noise_level": 37.1,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
         "id": "434a3749-407a-48a6-8aa9-da62956cba8c",
         "name": "ID-COOLING DK-07i Air RAINBOW 60mm Black",
         "variant": "Black",
@@ -13718,19 +11667,6 @@
         ]
     },
     {
-        "id": "e5b80259-48ab-404f-969c-17b00ac580b4",
-        "name": "Cooler Master MasterLiquid PL360 FLUX 72.37 CFM Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09PWVN9TP",
-        "clean_name": "Cooler Master MasterLiquid PL360 FLUX 72.37 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_noise_level": 32,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "67a40c13-08ea-4cf2-af25-25ad9e3fbe1b",
         "name": "Jonsbo CR-1000 Air 158mm (66.81 CFM) Black",
         "variant": "Black",
@@ -13746,21 +11682,6 @@
         "color": [
             "BLACK"
         ]
-    },
-    {
-        "id": "0b2e1e7a-5e15-46ae-bcc5-c22a8f73d719",
-        "name": "Asus ROG STRIX LC II ARGB 80.95 CFM Liquid CPU Cooler",
-        "variant": "360 ARGB WHITE EDITION",
-        "amazon_sku": "B0B179R3LS",
-        "clean_name": "Asus ROG STRIX LC II ARGB 80.95 CFM",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 0,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 0,
-        "max_noise_level": 0,
-        "color": []
     },
     {
         "id": "7b6a9b60-e239-4df5-b1c0-c8638996e65e",
@@ -13809,20 +11730,6 @@
         ],
         "price": 112.63,
         "last_updated": "2026-04-30T07:26:57.011Z"
-    },
-    {
-        "id": "546b0747-13c7-4197-9f98-cfa90fe4a544",
-        "name": "Corsair iCUE LINK H115i RGB Water 280mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0C6Q25HTR",
-        "clean_name": "Corsair iCUE LINK H115i RGB Water Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK"
-        ]
     },
     {
         "id": "e9c3aa5a-6ed3-45d1-aacc-afd7e0cf02b8",
@@ -13944,20 +11851,6 @@
         "color": []
     },
     {
-        "id": "868c45b6-604a-459f-bb1f-fcb9ebb68546",
-        "name": "ENDORFY Navis F240 Water 240mm ARGB Black",
-        "variant": "Black",
-        "amazon_sku": "B0BXGXDHWS",
-        "clean_name": "ENDORFY Navis F240 Water ARGB Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "0972f63d-b82f-4989-8079-ae1e3387698e",
         "name": "Deepcool CASTLE 360EX Water 360mm 64.4 CFM White / Black",
         "variant": "White / Black",
@@ -14003,22 +11896,6 @@
         "color": [
             "WHITE",
             "BLACK"
-        ]
-    },
-    {
-        "id": "49bab770-33b4-4513-a080-3ebd9a54b64a",
-        "name": "ARCTIC Freezer i13 X Air 137mm Black / White",
-        "variant": "Black / White",
-        "amazon_sku": "B089NY29SY",
-        "clean_name": "ARCTIC Freezer i13 X Air Black / White",
-        "cooler_type": false,
-        "radiator_size": "137mm",
-        "height": 137,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK",
-            "WHITE"
         ]
     },
     {
@@ -14068,18 +11945,6 @@
         "color": [
             "BLACK"
         ]
-    },
-    {
-        "id": "a74e645a-a42a-4bdf-b857-ac8b3dde0db0",
-        "name": "ARCTIC Freezer 12 Air 130mm",
-        "variant": "",
-        "amazon_sku": "B06WRPFFJN",
-        "clean_name": "ARCTIC Freezer 12 Air",
-        "cooler_type": false,
-        "radiator_size": "130mm",
-        "height": 130,
-        "min_noise_level": 22.5,
-        "color": []
     },
     {
         "id": "def5aca0-6a54-42d3-83d2-ae5d24e3d814",
@@ -14142,23 +12007,6 @@
         ]
     },
     {
-        "id": "53f8dc50-f87d-4282-9479-a337df9d535c",
-        "name": "MSI MPG CORELIQUID K240 Water 77.4 CFM 240mm Black",
-        "variant": "240mm Black",
-        "amazon_sku": "B091ND9HDQ",
-        "clean_name": "MSI MPG CORELIQUID K240 Water 77.4 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 92,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 0,
-        "max_noise_level": 39.9,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "41c64ecb-6ba0-4870-a280-9d03ecb1a049",
         "name": "Thermaltake Floe DX RGB 280 TT Premium Edition Water 280mm 60.87 CFM Black / Gray",
         "variant": "Black / Gray",
@@ -14191,37 +12039,6 @@
         "color": [
             "GREY"
         ]
-    },
-    {
-        "id": "efbb89f3-6aae-4e2d-b7e0-e938826d7883",
-        "name": "TCOMAS LA200 360 WHITE",
-        "variant": "White",
-        "amazon_sku": "B0DRWND711",
-        "clean_name": "TCOMAS LA200 360 WHITE",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 68.4,
-        "min_fan_rpm": 900,
-        "max_fan_rpm": 2600,
-        "max_noise_level": 36.45,
-        "color": [
-            "WHITE"
-        ]
-    },
-    {
-        "id": "87064037-7f0d-4ec9-a802-46a12ed59c9e",
-        "name": "Thermalright AssassinX120 SE WHITE ARGB CPU Air Cooler, 4 Heat Pipes, TL-C12CW-S PWM Quiet Fan CPU Cooler With S-FDB Bearing, For AMD AM4 AM5/Intel 1700/1150/1151/1200, PC Cooler",
-        "variant": "White ARGB",
-        "amazon_sku": "B09SDDNHTD",
-        "clean_name": "Thermalright AssassinX120 SE WHITE ARGB CPU , 4 Heat Pipes, TL-C12CW-S PWM Quiet Fan With S-FDB Bearing, For AMD AM4 AM5/Intel 1700/1150/1151/1200, PC Cooler",
-        "cooler_type": false,
-        "radiator_size": 0,
-        "height": 148,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 0,
-        "min_noise_level": 0,
-        "max_noise_level": 0,
-        "color": []
     },
     {
         "id": "b758453c-8028-4ffc-bee4-068d1c799ce5",
@@ -14358,19 +12175,6 @@
         "min_fan_rpm": 800,
         "max_fan_rpm": 1700,
         "min_noise_level": 30.8,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "4e4b740e-a10a-47c4-8bf3-27310bee6f2a",
-        "name": "EVGA CLCx Water 240mm 73.15 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B074WH52BW",
-        "clean_name": "EVGA CLCx Water 73.15 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_noise_level": 35,
         "color": [
             "BLACK"
         ]
@@ -14515,36 +12319,6 @@
         "min_fan_rpm": 2100,
         "min_noise_level": 43,
         "color": []
-    },
-    {
-        "id": "98454413-24bb-4dcb-9eb8-34624642965f",
-        "name": "ENDORFY Navis F360 Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BHDSF7RM",
-        "clean_name": "ENDORFY Navis F360 Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "1840294c-c184-4cd0-a90a-9937b524acf7",
-        "name": "ENDORFY Fera 5 ARGB Air 155mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0BHDWH9W9",
-        "clean_name": "ENDORFY Fera 5 ARGB Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "155mm",
-        "height": 155,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
     },
     {
         "id": "3d59270b-9a4a-40c6-962b-52a71d542695",
@@ -14721,6 +12495,18 @@
         ]
     },
     {
+        "id": "55036bf4-06d3-4b03-b08f-6e2abbd0d9b4",
+        "name": "Deepcool AK400 Performance CPU Cooler",
+        "amazon_sku": "B09PCWK7SP",
+        "clean_name": "Deepcool AK400 Performance",
+        "cooler_type": false,
+        "height": 155,
+        "min_fan_rpm": 500,
+        "max_fan_rpm": 1850,
+        "min_noise_level": 29,
+        "color": []
+    },
+    {
         "id": "7759b9ae-cc08-4948-9a98-4e589404d291",
         "name": "ASUS ROG Ryujin III 360 All-in-one Liquid CPU Cooler with 360mm Radiator. Asetek 8th gen Pump, 3X Noctua industrial PPC 120mm Fans, 3.5” Color LCD",
         "variant": "360mm Black",
@@ -14804,24 +12590,6 @@
         ]
     },
     {
-        "id": "3bca2c70-ba58-45a2-82b8-4ff5cf8dfe29",
-        "name": "Iceberg Thermal IceSLEET X7 Air Dual 96 CFM 166mm Teal / Silver",
-        "variant": "Teal / Silver",
-        "amazon_sku": "B08P3X1Q35",
-        "clean_name": "Iceberg Thermal IceSLEET X7 Air Dual 96 CFM Teal / Silver",
-        "cooler_type": false,
-        "radiator_size": "166mm",
-        "height": 166,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1850,
-        "min_noise_level": 0,
-        "max_noise_level": 38,
-        "color": [
-            "BLUE",
-            "GREY"
-        ]
-    },
-    {
         "id": "ed24b15b-3a3f-4b54-b26a-d24d20fee39c",
         "name": "MSI Core Frozr XL Air 170mm Black / Red",
         "variant": "Black / Red",
@@ -14837,20 +12605,6 @@
         "color": [
             "BLACK",
             "RED"
-        ]
-    },
-    {
-        "id": "b4981ce1-7198-4101-b784-5a99f5ad4b7b",
-        "name": "darkFlash E400 Plus Black",
-        "variant": "Plus Black",
-        "amazon_sku": "B0FS7FCWKJ",
-        "clean_name": "darkFlash E400 Plus Black",
-        "cooler_type": false,
-        "height": 155,
-        "min_fan_rpm": 800,
-        "max_noise_level": 37.1,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -14884,21 +12638,6 @@
         "color": [
             "WHITE"
         ]
-    },
-    {
-        "id": "047f25a3-be33-4b8c-81f5-e3327fd62810",
-        "name": "MSI MAG CORELIQUID I360 70.7 CFM Water 360mm White",
-        "variant": "White",
-        "amazon_sku": "B0DC7Q3W9R",
-        "clean_name": "MSI MAG CORELIQUID I360 70.7 CFM Water White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 62,
-        "color": [
-            "WHITE"
-        ],
-        "price": 632.43,
-        "last_updated": "2026-04-30T07:32:41.807Z"
     },
     {
         "id": "d05c2cc2-a60b-4094-a7dc-e11f9bd18b21",
@@ -15323,24 +13062,6 @@
         ]
     },
     {
-        "id": "881b46c7-760a-4ed7-aaa0-f118116a2ce9",
-        "name": "Iceberg Thermal IceSLEET X5 Air 159mm Teal / Silver",
-        "variant": "Teal / Silver",
-        "amazon_sku": "B08P3XLT9N",
-        "clean_name": "Iceberg Thermal IceSLEET X5 Air Teal / Silver",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1850,
-        "min_noise_level": 0,
-        "max_noise_level": 36,
-        "color": [
-            "BLUE",
-            "GREY"
-        ]
-    },
-    {
         "id": "a3b9d553-e50e-4977-acca-ae54a05b1c53",
         "name": "MSI MAG COREFROZR AA13 Black CPU Cooler",
         "variant": "AA13",
@@ -15498,17 +13219,6 @@
         ]
     },
     {
-        "id": "f465c722-f863-4c2f-86fb-f764e11294eb",
-        "name": "Thermaltake UX200 ARGB Lighting CPU Cooler",
-        "variant": "RGB",
-        "amazon_sku": "B07WTXSVGR",
-        "clean_name": "Thermaltake UX200 ARGB Lighting",
-        "cooler_type": false,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 1500,
-        "color": []
-    },
-    {
         "id": "5ef88d22-bd0e-4d69-b8eb-b39a9b09c8c3",
         "name": "Thermalright Grand Vision Water ARGB Black",
         "amazon_sku": "B0DJZ8Z1BW",
@@ -15518,20 +13228,6 @@
         "height": 72,
         "min_fan_rpm": 2150,
         "min_noise_level": 29.4,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "2ea1ef58-90a4-455c-aa0d-2220422d72df",
-        "name": "Alphacool Core Ocean T38 62.8 CFM Water 120mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BHZPWNR5",
-        "clean_name": "Alphacool Core Ocean T38 62.8 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 120,
-        "min_noise_level": 0,
-        "max_noise_level": 34.3,
         "color": [
             "BLACK"
         ]
@@ -15586,35 +13282,6 @@
         ]
     },
     {
-        "id": "6b85b076-210b-4448-9fd7-025c6c98aa0e",
-        "name": "ARCTIC Freezer 36 (Black) CPU Cooler",
-        "variant": "",
-        "amazon_sku": "B09VH14935",
-        "clean_name": "ARCTIC Freezer 36 (Black)",
-        "cooler_type": false,
-        "height": 159,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "bfcfef31-aceb-4441-9368-6b0adb4413db",
-        "name": "Cooler Master MasterAir MA824 Stealth Air 166mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0C7LG725W",
-        "clean_name": "Cooler Master MasterAir MA824 Stealth Air Black",
-        "cooler_type": false,
-        "radiator_size": "166mm",
-        "height": 166,
-        "min_noise_level": 0,
-        "max_noise_level": 24.6,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "81105f35-5bf8-4827-bf4a-cc01187bc345",
         "name": "FSP Group Windale 4 Air 60 CFM 158mm Black / Silver",
         "variant": "Black / Silver",
@@ -15630,18 +13297,6 @@
             "BLACK",
             "GREY"
         ]
-    },
-    {
-        "id": "1b7760be-99e3-441d-8b59-c5199e966dc2",
-        "name": "ARCTIC Freezer 33 CO Air 150mm",
-        "variant": "",
-        "amazon_sku": "B06W539WJM",
-        "clean_name": "ARCTIC Freezer 33 CO Air",
-        "cooler_type": false,
-        "radiator_size": "150mm",
-        "height": 150,
-        "min_noise_level": 22.5,
-        "color": []
     },
     {
         "id": "80df0ae0-5171-4cfa-a21b-44b18bc637cf",
@@ -15707,20 +13362,6 @@
         ]
     },
     {
-        "id": "ddac3d26-4015-4bc8-b6cb-366894ea30b3",
-        "name": "ARCTIC Liquid Freezer III Water 420mm 72.8 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B09VH34TB8",
-        "clean_name": "ARCTIC Liquid Freezer III Water 72.8 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1700,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "e473a5ba-34e7-455d-85d7-5ed2c5c1c153",
         "name": "NZXT Kraken Elite Water 360mm Black",
         "variant": "360mm Black (2023)",
@@ -15751,19 +13392,6 @@
         "min_noise_level": 29.8,
         "color": [
             "WHITE"
-        ]
-    },
-    {
-        "id": "be14176a-8f55-4f08-8ad5-0439b3738d12",
-        "name": "Cooler Master MasterLiquid PL240 FLUX Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09PWHJ19J",
-        "clean_name": "Cooler Master MasterLiquid PL240 FLUX Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_noise_level": 32,
-        "color": [
-            "BLACK"
         ]
     },
     {
@@ -16075,21 +13703,6 @@
         ]
     },
     {
-        "id": "6caeb833-915b-44f1-b533-8c5f62d59fb0",
-        "name": "ARCTIC Freezer 50 (w/Controller) Air 166mm Black",
-        "variant": "Black",
-        "amazon_sku": "B08J87T6W4",
-        "clean_name": "ARCTIC Freezer 50 (w/Controller) Air Black",
-        "cooler_type": false,
-        "radiator_size": "166mm",
-        "height": 166,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "b9fcf2dd-939f-4e88-862d-e676eacca499",
         "name": "Corsair NAUTILUS Water 240mm RS ARGB White",
         "variant": "White",
@@ -16313,22 +13926,6 @@
         ]
     },
     {
-        "id": "222612a6-367a-4a66-8442-2209d63e55ce",
-        "name": "ARCTIC Freezer 7 X CO Air 132mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B085RWK2Z6",
-        "clean_name": "ARCTIC Freezer 7 X CO Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "132mm",
-        "height": 132,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2000,
-        "color": [
-            "BLACK",
-            "GREY"
-        ]
-    },
-    {
         "id": "03b1e3a5-30b9-4142-8687-a92e72bd4fcd",
         "name": "Iceberg Thermal IceSLEET G6 Stealth 85 CFM Air 160mm Black / Blue",
         "variant": "Black / Blue",
@@ -16359,21 +13956,6 @@
         "color": [
             "BLACK"
         ]
-    },
-    {
-        "id": "6df5563c-dd7e-4410-8458-ed50ebe23a31",
-        "name": "MSI MAG CORELIQUID I360 Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0D54QS3KS",
-        "clean_name": "MSI MAG CORELIQUID I360 Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 62,
-        "color": [
-            "BLACK"
-        ],
-        "price": 632.43,
-        "last_updated": "2026-04-30T07:40:14.454Z"
     },
     {
         "id": "e1d8ae75-e862-4d61-960f-9ab2b4f52c82",
@@ -16457,22 +14039,6 @@
         ]
     },
     {
-        "id": "506cfd84-01fb-4d4d-aeda-fc5b0eacdde4",
-        "name": "MSI MPG CORELIQUID K360 V2 Water 360mm 77.4 CFM Black",
-        "variant": "360mm Black",
-        "amazon_sku": "B0BFSV727M",
-        "clean_name": "MSI MPG CORELIQUID K360 V2 Water 77.4 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 0,
-        "max_noise_level": 39.9,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "a9c82f02-8193-45f6-8ddd-ff6916dddf67",
         "name": "Thermaltake TH420 V2 Ultra ARGB Sync 84.32 CFM Water 420mm Black",
         "variant": "Black",
@@ -16499,20 +14065,6 @@
         "max_fan_rpm": 1500,
         "min_noise_level": 22,
         "max_noise_level": 33,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "d1d62c74-f66f-417a-aabf-36a873fc4122",
-        "name": "Alphacool Core Ocean T38 Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BHZP8QKC",
-        "clean_name": "Alphacool Core Ocean T38 Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_noise_level": 0,
-        "max_noise_level": 34.3,
         "color": [
             "BLACK"
         ]
@@ -16596,22 +14148,6 @@
         "min_noise_level": 11.1,
         "max_noise_level": 39.7,
         "color": [
-            "GREY"
-        ]
-    },
-    {
-        "id": "40300019-f997-4130-9d5d-b5f1a161afe6",
-        "name": "ARCTIC Freezer 36 Air 159mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B09VG6NBSJ",
-        "clean_name": "ARCTIC Freezer 36 Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "color": [
-            "BLACK",
             "GREY"
         ]
     },
