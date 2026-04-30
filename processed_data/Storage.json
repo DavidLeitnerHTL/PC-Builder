@@ -103,30 +103,6 @@
         "storage_type": "SSD, NVME"
     },
     {
-        "id": "ba31bc39-d6a1-4cd4-a9b0-052493bee638",
-        "name": "Intel 320 600GB SSD 2.5\" SATA",
-        "variant": "600GB",
-        "amazon_sku": "B004U9YB02",
-        "clean_name": "Intel 320 2.5\" SATA",
-        "capacity": "600 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 3.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "71fdd168-8737-4005-8097-77543daae033",
-        "name": "Verbatim Vi550 256GB SSD 2.5\" SATA",
-        "variant": "256GB",
-        "amazon_sku": "B07LGBLBKB",
-        "clean_name": "Verbatim Vi550 2.5\" SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "3d7ac292-617d-4d29-8aae-027c03c2ab32",
         "name": "Toshiba L200 1TB HDD 5400RPM 2.5\" SATA",
         "variant": "1000GB",
@@ -289,30 +265,6 @@
         "last_updated": "2026-04-30T06:11:57.581Z"
     },
     {
-        "id": "00af4c59-a3ea-42a5-b5c7-cd0ded740338",
-        "name": "TEAMGROUP GX1 480GB SSD 2.5\" SATA",
-        "variant": "480GB",
-        "amazon_sku": "B07SD5M87M",
-        "clean_name": "TEAMGROUP GX1 2.5\" SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "5e5b3e73-e668-46dd-af74-4261a09c7feb",
-        "name": "Samsung 860 QVO 2TB 2.5\" SSD SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B07L31K2MK",
-        "clean_name": "Samsung 860 QVO 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "e1dd4ee2-be93-4a2c-9483-3a1427e4a9f3",
         "name": "TEAMGROUP MP44Q 1TB SSD M.2 PCIe 4.0 NVMe",
         "variant": "1000GB",
@@ -337,20 +289,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "c904b903-ef99-4f57-9f00-17d12e9cc944",
-        "name": "TEAMGROUP MS30 256GB SSD M.2-2280 SATA",
-        "variant": "256GB",
-        "amazon_sku": "B07H23ZD94",
-        "clean_name": "TEAMGROUP MS30 -2280 SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2",
-        "price": 135.98,
-        "last_updated": "2026-04-30T06:12:16.499Z"
     },
     {
         "id": "e309ec78-eb61-4458-9fb8-7b6b3cc93997",
@@ -474,20 +412,6 @@
         "last_updated": "2026-04-30T06:13:06.934Z"
     },
     {
-        "id": "66982a26-21b2-44e0-8dd5-0d30853217da",
-        "name": "TEAMGROUP EX2 8TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "8000GB",
-        "amazon_sku": "B0C3M2MZKR",
-        "clean_name": "TEAMGROUP EX2 2.5\" SATA /s",
-        "capacity": "8000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 188.84,
-        "last_updated": "2026-04-30T06:13:02.447Z"
-    },
-    {
         "id": "e8639767-5466-453b-a1cd-fa5a0bcecdb0",
         "name": "Western Digital RE 1TB 3.5\" HDD 7200RPM SATA 6.0 Gb/s",
         "variant": "1000GB",
@@ -542,20 +466,6 @@
         "last_updated": "2026-04-30T06:13:13.705Z"
     },
     {
-        "id": "3edfb421-a505-4463-ae12-d4dfd5285fc8",
-        "name": "PNY CS900 1TB SSD M.2-2280 SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B08K3RPZYT",
-        "clean_name": "PNY CS900 -2280 SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2",
-        "price": 256.18,
-        "last_updated": "2026-04-30T06:13:13.988Z"
-    },
-    {
         "id": "b2cad08b-2da4-4e3e-8b0b-1a2e07edc6a7",
         "name": "Seagate FireCuda 530 w/Heatsink 500GB SSD M.2-2280 PCIe 4.0 X4 NVMe",
         "variant": "500GB",
@@ -569,18 +479,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "72af0b42-fc95-4f47-b786-5ea8ce3d5e3b",
-        "name": "Transcend MTS600 256GB M.2-2260 SSD SATA",
-        "variant": "256GB",
-        "amazon_sku": "B00KLTPT6A",
-        "clean_name": "Transcend MTS600 -2260 SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2260",
-        "interface": "M.2 SATA",
-        "storage_type": "M.2, SSD"
-    },
-    {
         "id": "1534a44d-3f92-4cf7-b10d-18ae6f139e4d",
         "name": "Western Digital Red 8TB 3.5\" HDD 5400RPM SATA 6.0 Gb/s",
         "variant": "8000GB",
@@ -591,30 +489,6 @@
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "0746dc8e-02c1-42c6-8a4b-93afdacb1e76",
-        "name": "TEAMGROUP GX2 256GB SSD 2.5\" SATA",
-        "variant": "256GB",
-        "amazon_sku": "B07SC4FJNZ",
-        "clean_name": "TEAMGROUP GX2 2.5\" SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "dfbdf565-aec3-4b10-83e3-edd6c7ba258e",
-        "name": "Western Digital Blue 2TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "2000GB",
-        "amazon_sku": "B073SBRHH6",
-        "clean_name": "Western Digital Blue 2.5\" SATA /s",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "d8b81fbb-4ee2-4bb8-92eb-a82a1fa061b8",
@@ -630,18 +504,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "756097af-9b6c-4d61-8703-ae8713643da1",
-        "name": "SanDisk Ultra 3D 2TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B071KGS72Q",
-        "clean_name": "SanDisk Ultra 3D 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "675dc595-0bdb-4c3e-80d3-ca06285766c3",
         "name": "Samsung 980 500GB SSD M.2-2280 PCIe 3.0 NVMe",
         "variant": "500GB",
@@ -653,20 +515,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "e081eca9-9eed-4066-a657-a3fbf6b6edc9",
-        "name": "Western Digital Green 1TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B07NNRTTCM",
-        "clean_name": "Western Digital Green 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 166.54,
-        "last_updated": "2026-04-30T06:14:01.314Z"
     },
     {
         "id": "5fd2b694-83f4-4ef3-acf4-bc2282344470",
@@ -681,18 +529,6 @@
         "storage_type": "HDD",
         "price": 349.9,
         "last_updated": "2026-04-30T06:14:01.702Z"
-    },
-    {
-        "id": "e3f49a4a-5066-43f4-b0a2-c9a5043f1b44",
-        "name": "Intenso 3812440 256GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "256GB",
-        "amazon_sku": "B0093RN1OS",
-        "clean_name": "Intenso 3812440 2.5\" SATA /s",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "5af63e38-7509-4f2f-a4fb-5cb4d7ee984e",
@@ -746,20 +582,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "1f4fa3df-27c7-4726-ad19-e8f10f887ac7",
-        "name": "Seagate ST2000DX001 2TB Hybrid HDD 3.5\" 7200RPM SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B00EIQTKAS",
-        "clean_name": "Seagate ST2000DX001 Hybrid 3.5\" 7200RPM SATA",
-        "capacity": "2000 GB",
-        "type": "SSHD",
-        "form_factor": "3.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "HDD",
-        "price": 148.15,
-        "last_updated": "2026-04-30T06:14:48.186Z"
-    },
-    {
         "id": "008efe68-90d2-42d6-bc23-f29390cb5dfc",
         "name": "Western Digital Purple Pro 12TB HDD 3.5\" SATA",
         "variant": "12000GB",
@@ -783,18 +605,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "308c11cd-634b-4cf4-ac45-2daa12ae4b9c",
-        "name": "Samsung 870 QVO 1TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B089C73T72",
-        "clean_name": "Samsung 870 QVO 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "c8a984c7-d89e-4dd1-87be-c2d937e20ccd",
@@ -861,18 +671,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "b9c5c53f-dcd9-4a8e-ae3f-c2c23e9a82aa",
-        "name": "Lexar NQ100 960GB SSD 2.5\" SATA",
-        "variant": "960GB",
-        "amazon_sku": "B09329T7FL",
-        "clean_name": "Lexar NQ100 2.5\" SATA",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "fcf75b52-6a36-457f-82c4-2032f9e8943b",
         "name": "Sabrent Rocket 4 Plus G 2TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
         "variant": "2000GB",
@@ -884,18 +682,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "5be878ec-4e81-4f3f-a539-254cec5f0864",
-        "name": "V7 V7SSD1TBS25U 1 TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B0B5HCWSL8",
-        "clean_name": "V7 VS25U 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "93d3771b-ae27-4c05-b30a-26aa703df1d7",
@@ -1282,18 +1068,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "f26caa2b-f756-4bce-8242-bd5c4cbee774",
-        "name": "Orico Y-20 2TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B0CG1QQP3Y",
-        "clean_name": "Orico Y-20 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "af5df2e8-2369-4b84-9564-969081396c2a",
         "name": "Corsair MP600 PRO NH 8TB M.2 SSD PCIe 4.0 NVMe",
         "variant": "8000GB",
@@ -1320,17 +1094,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "1259f142-0aa8-4ae8-ba58-6a3e24b1d437",
-        "name": "Western Digital Black2 1TB Hybrid 2.5\" 5400RPM SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B00GSJ9X4Q",
-        "clean_name": "Western Digital Black2 Hybrid 2.5\" 5400RPM SATA",
-        "capacity": "1000 GB",
-        "type": "SSHD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s"
-    },
-    {
         "id": "d7f9b55a-59a1-4295-b9b0-9e6449c6ec6f",
         "name": "Lexar Professional NM800PRO 512GB SSD M.2-2280 PCIe 4.0 NVMe",
         "variant": "512GB",
@@ -1354,18 +1117,6 @@
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "7073dd9e-a88a-496b-a881-a455a550692e",
-        "name": "Samsung 870 Evo 4TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "4000GB",
-        "amazon_sku": "B08QBL36GF",
-        "clean_name": "Samsung 870 Evo 2.5\" SATA /s",
-        "capacity": "4000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "3e9e432c-5d23-406c-83ac-774937f6ad96",
@@ -1446,20 +1197,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "17a03a28-0d38-4b14-8506-64348a8d200f",
-        "name": "Western Digital Red SA500 2TB SSD M.2-2280 SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B07YFG451Q",
-        "clean_name": "Western Digital Red SA500 -2280 SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2",
-        "price": 396.61,
-        "last_updated": "2026-04-30T06:18:56.613Z"
-    },
-    {
         "id": "113634b2-5e21-4fa1-a2b7-de18ac8f19bc",
         "name": "Seagate BarraCuda Pro 14TB HDD 3.5\" SATA",
         "variant": "14000GB",
@@ -1472,18 +1209,6 @@
         "storage_type": "HDD",
         "price": 851.5,
         "last_updated": "2026-04-30T06:19:02.893Z"
-    },
-    {
-        "id": "f2cad900-c664-431e-ae5f-6d1894cc14a4",
-        "name": "FanXiang S101 512GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B09XDJPPMB",
-        "clean_name": "FanXiang S101 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "dc663737-db8d-48e2-98a7-c4127116aef0",
@@ -1511,18 +1236,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "ce1961f1-ccb4-419a-ae20-5bdfb701bf5d",
-        "name": "Inland Platinum 512GB SSD 2.5\" SATA",
-        "variant": "512GB",
-        "amazon_sku": "B09PG3DHLK",
-        "clean_name": "Inland Platinum 2.5\" SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "47680bad-817e-460a-a131-11c3a275f8cd",
         "name": "TEAMGROUP NV5000 1TB SSD M.2-2280 PCIe 4.0 X4 NVMe",
         "variant": "1000GB",
@@ -1534,18 +1247,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "90961a92-0b69-49aa-bb7c-922673a304b4",
-        "name": "Intenso 3812450 512GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B00D1E6RMW",
-        "clean_name": "Intenso 3812450 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "469dfedb-059d-4e78-8c49-06bd106b96b3",
@@ -1602,20 +1303,6 @@
         "last_updated": "2026-04-30T06:19:49.892Z"
     },
     {
-        "id": "1eb2fd85-440b-4f7a-a13d-8d79ac4e61b2",
-        "name": "Crucial MX300 2.05 TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B01KKZLX46",
-        "clean_name": "Crucial MX300 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 163.41,
-        "last_updated": "2026-04-30T06:19:51.064Z"
-    },
-    {
         "id": "353b3ac5-28ce-4eaa-b7e7-75f8a6f47e3c",
         "name": "Intel 760p 512GB M.2 SSD PCIe 3.0 NVMe",
         "variant": "512GB",
@@ -1667,18 +1354,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "55687862-b369-4c8e-afe8-aa101682df98",
-        "name": "ADATA SU800 1TB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B01K8A29E6",
-        "clean_name": "ADATA SU800 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "142ed5aa-d76f-415b-80d5-2478e6e6e71b",
         "name": "ADATA XPG SX8100 2TB SSD M.2-2280 PCIe 3.0 x4 NVMe",
         "variant": "2000GB",
@@ -1692,18 +1367,6 @@
         "storage_type": "SSD, M.2, NVMe",
         "price": 68.61,
         "last_updated": "2026-04-30T06:20:18.764Z"
-    },
-    {
-        "id": "7d51e6fc-086e-4a6b-91ce-50eca69927eb",
-        "name": "KIOXIA EXCERIA 960GB SSD 2.5\" SATA",
-        "variant": "960GB",
-        "amazon_sku": "B087CPLJHX",
-        "clean_name": "KIOXIA EXCERIA 2.5\" SATA",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "91085a24-3ad2-49c1-a136-03aa6fa2f996",
@@ -1810,18 +1473,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "54d58384-fcb8-486f-9b79-220cfe400f25",
-        "name": "TEAMGROUP T-Force Vulcan Z 256GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "256GB",
-        "amazon_sku": "B0B6ZCMSQ3",
-        "clean_name": "TEAMGROUP T-Force Vulcan Z 2.5\" SATA /s",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "dd1d5777-5e9a-4d8e-b9f4-f28285bd5c8a",
         "name": "Western Digital Red Plus 8TB 3.5\" HDD 5640RPM SATA 6.0 Gb/s",
         "variant": "8000GB",
@@ -1897,42 +1548,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "dc78d5f8-d540-45bf-bc93-c8eed25d8ed9",
-        "name": "Kingston KC600 512GB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B07ZDBT15M",
-        "clean_name": "Kingston KC600 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "45df204a-a8d1-4d38-a425-27a80166b03f",
-        "name": "HP S700 1TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B07QJ2BXN8",
-        "clean_name": "HP S700 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "ac826bd9-5ef7-426e-93e0-99008c68c7ae",
-        "name": "FanXiang S101 2TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B0BWXK95PY",
-        "clean_name": "FanXiang S101 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "c1e209a2-7fda-4923-a4f3-45a70ee3e046",
@@ -2024,18 +1639,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "fe611ef4-db5f-4a65-882b-8e04f68798e5",
-        "name": "Integral 2020 256GB SSD M.2-2280 SATA",
-        "variant": "256GB",
-        "amazon_sku": "B0843B58S7",
-        "clean_name": "Integral 2020 -2280 SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
     },
     {
         "id": "ced0c1e1-68e0-4c20-b4fa-a041db0be4d2",
@@ -2207,20 +1810,6 @@
         "storage_type": "NVMe, SSD"
     },
     {
-        "id": "c4d50685-c8c3-4fd0-a294-0bf808a0fedd",
-        "name": "Intel D3-S4510 480GB SSD 2.5\" SATA",
-        "variant": "480GB",
-        "amazon_sku": "B07GJRJ86P",
-        "clean_name": "Intel D3-S4510 2.5\" SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 384.89,
-        "last_updated": "2026-04-30T06:22:54.409Z"
-    },
-    {
         "id": "0e070db2-9b0f-4f21-b2cf-0ce341602ed2",
         "name": "Seagate BarraCuda 1TB 2.5\" HDD 5400RPM SATA 6.0 Gb/s",
         "variant": "1000GB",
@@ -2231,18 +1820,6 @@
         "form_factor": "2.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "7217f524-2680-44dd-9491-a11028d5330e",
-        "name": "SK Hynix Gold S31 1TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B07SNHB4RC",
-        "clean_name": "SK Hynix Gold S31 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "64f5b7cf-1735-46e6-9811-a77674d26ed6",
@@ -2323,18 +1900,6 @@
         "storage_type": "HDD",
         "price": 147.38,
         "last_updated": "2026-04-30T06:23:23.730Z"
-    },
-    {
-        "id": "85765993-e009-4c0f-8a54-bcad5a6ca8d3",
-        "name": "TEAMGROUP T-Force Vulcan Z 480GB SSD 2.5\" SATA",
-        "variant": "480GB",
-        "amazon_sku": "B09WMQQ68S",
-        "clean_name": "TEAMGROUP T-Force Vulcan Z 2.5\" SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "0191dd1a-249c-4e1d-ad79-cc2cc368cb6f",
@@ -2545,18 +2110,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "f6f14f3e-dbe4-4f28-8447-22e2b33738d7",
-        "name": "Western Digital Blue SA510 4TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "4000GB",
-        "amazon_sku": "B0C14QXKJW",
-        "clean_name": "Western Digital Blue SA510 2.5\" SATA /s",
-        "capacity": "4000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "a2bc4ccc-14a0-42f0-9f62-c535c62beb89",
         "name": "TEAMGROUP MP44L 1TB SSD M.2 PCIe 4.0 NVMe",
         "variant": "1000GB",
@@ -2607,18 +2160,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "818cbf79-8f55-4e0f-b35a-2caca309cf3a",
-        "name": "Samsung 850 Evo 1TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B00P738MUU",
-        "clean_name": "Samsung 850 Evo 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "19174a92-15a0-4561-9d13-375e36c1edca",
@@ -2790,32 +2331,6 @@
         "last_updated": "2026-04-30T06:26:05.150Z"
     },
     {
-        "id": "c213fa29-da4a-41bc-b471-fc931df73cba",
-        "name": "Samsung 850 Evo 2TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B010QD6W9I",
-        "clean_name": "Samsung 850 Evo 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "170ae739-ce45-4327-8105-72a743b848a6",
-        "name": "Samsung 850 Pro 512 GB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B00LF10KTO",
-        "clean_name": "Samsung 850 Pro 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 209.92,
-        "last_updated": "2026-04-30T06:26:14.513Z"
-    },
-    {
         "id": "239f7ec9-ec09-411b-8d7d-5b15c782be4f",
         "name": "Toshiba X300 8TB HDD 7200RPM 3.5\" SATA 6.0 Gb/s Internal",
         "variant": "8000GB",
@@ -2854,18 +2369,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "93c90c44-bf32-4a5e-9820-482305170f5b",
-        "name": "Transcend SSD230S 2TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "2000GB",
-        "amazon_sku": "B07PV396J5",
-        "clean_name": "Transcend 230S 2.5\" SATA /s",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "e1a6c29f-0400-4302-89ee-dc1913e624e8",
@@ -2959,18 +2462,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "fdb77499-9d03-472b-8535-c758da975a28",
-        "name": "Leven JM600 1TB SSD M.2-2280 SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B08M62FTBN",
-        "clean_name": "Leven JM600 -2280 SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
-    },
-    {
         "id": "d82e8869-089b-45de-b20e-3cb8f656682b",
         "name": "Western Digital WD Red Pro 20 TB 3.5\" HDD 7200RPM SATA 6.0 Gb/s",
         "variant": "20000GB",
@@ -2981,18 +2472,6 @@
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "071560ff-f174-44ea-bfcf-2d4f2e4ddf83",
-        "name": "ADATA Ultimate SU650 960GB 2.5\" SSD SATA",
-        "variant": "960GB",
-        "amazon_sku": "B07D9WW9WS",
-        "clean_name": "ADATA Ultimate SU650 2.5\" SATA",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "d5dcca73-966c-4fb0-aaf3-884b235629d1",
@@ -3019,41 +2498,6 @@
         "interface": "M.2 PCIe 5.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "684583f8-097c-4a84-8646-acb0903e44cc",
-        "name": "Seagate FireCuda 1TB Hybrid Internal 2.5\" 5400RPM SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B01LXNUKKW",
-        "clean_name": "Seagate FireCuda Hybrid Internal 2.5\" 5400RPM SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSHD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s"
-    },
-    {
-        "id": "7ea2e5f0-10ad-45b0-a1f4-ef3357800e9a",
-        "name": "ADATA Ultimate SU750 256GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "256GB",
-        "amazon_sku": "B07QCQ75GC",
-        "clean_name": "ADATA Ultimate SU750 2.5\" SATA /s",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "b570427b-6e06-4876-959a-a1f549a2186d",
-        "name": "Verbatim Vi560 256GB SSD M.2-2280 SATA",
-        "variant": "256GB",
-        "amazon_sku": "B085RLZND1",
-        "clean_name": "Verbatim Vi560 -2280 SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
     },
     {
         "id": "234d368b-398a-4427-bde2-ccdb5d53508f",
@@ -3119,30 +2563,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "948faf31-1e6b-4902-99ab-6a1044a57b3f",
-        "name": "Inland Platinum 1.024 TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B09NPXMJH3",
-        "clean_name": "Inland Platinum 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "598a4105-33c7-42fa-8bf7-baf0a07d5ead",
-        "name": "Crucial MX500 2TB 2.5\" SSD SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B003J5JB12",
-        "clean_name": "Crucial MX500 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "99eedf19-addd-4136-8dc7-1ed3bbc7330a",
         "name": "Toshiba N300 NAS 20TB HDD 3.5\" 7200RPM SATA 6.0 Gb/s Internal",
         "variant": "20000GB",
@@ -3155,18 +2575,6 @@
         "storage_type": "HDD",
         "price": 437.85,
         "last_updated": "2026-04-30T06:28:26.460Z"
-    },
-    {
-        "id": "aa392648-ecd1-4baf-8447-f3bf95df0c5c",
-        "name": "Crucial MX300 275GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "275GB",
-        "amazon_sku": "B01IAGSD5O",
-        "clean_name": "Crucial MX300 2.5\" SATA /s",
-        "capacity": "275 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "839b9226-5d30-41af-8f43-d3add01661cb",
@@ -3272,18 +2680,6 @@
         "storage_type": "M.2, SSD, NVME"
     },
     {
-        "id": "67551615-30fe-4d36-8f55-f2f97cae59b9",
-        "name": "Kingston DC500R 7.68TB SSD 2.5\" SATA",
-        "variant": "7000GB",
-        "amazon_sku": "B089B4DJQ7",
-        "clean_name": "Kingston DC500R 2.5\" SATA",
-        "capacity": "7000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "d205e623-b922-4144-8c6a-24af6db883ec",
         "name": "ADATA Legend 960 4TB M.2-2280 SSD PCIe 4.0 NVMe",
         "variant": "4000GB",
@@ -3365,18 +2761,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "b50918d6-8511-4092-b5bf-513a2927e0cf",
-        "name": "Patriot P210 256 GB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "256GB",
-        "amazon_sku": "B087K9L3R5",
-        "clean_name": "Patriot P210 2.5\" SATA /s",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "38170590-410c-4dd5-bbae-f32834df1a47",
         "name": "Seagate IronWolf Pro 4TB 3.5\" HDD 7200RPM SATA",
         "variant": "4000GB",
@@ -3400,18 +2784,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "8d312b9f-f21d-4c74-bcc5-96e6b4e149d7",
-        "name": "Kingston DC500M 3TB SSD SATA 2.5\"",
-        "variant": "3000GB",
-        "amazon_sku": "B07RGW1PDK",
-        "clean_name": "Kingston DC500M SATA 2.5\"",
-        "capacity": "3000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "85ede92a-096e-40e0-bcfd-c912063c2a87",
@@ -3478,18 +2850,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "51c770b0-a7b0-4b8c-a2f7-71f0c483c285",
-        "name": "SanDisk Z410 480 GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B01EAXSB3K",
-        "clean_name": "SanDisk Z410 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "b92a66f5-2b07-44c1-94a6-0223e12c26a3",
         "name": "Sabrent Rocket 4 Plus 8TB SSD M.2-2280 PCIe 4.0 NVMe",
         "variant": "8000GB",
@@ -3501,18 +2861,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "c1914a49-f0b1-48c2-8e02-fafd6a2ac603",
-        "name": "Samsung 860 QVO 4TB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "4000GB",
-        "amazon_sku": "B07L3CLM2B",
-        "clean_name": "Samsung 860 QVO 2.5\" SATA /s",
-        "capacity": "4000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "f5c9f66c-949f-4eeb-af13-0fb0e27024ab",
@@ -3930,20 +3278,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "ddc15d40-438b-40c8-a062-49d25205fff4",
-        "name": "Samsung 860 Pro 256GB SSD 2.5\" SATA",
-        "variant": "256GB",
-        "amazon_sku": "B07864XMTK",
-        "clean_name": "Samsung 860 Pro 2.5\" SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 466.55,
-        "last_updated": "2026-04-30T06:32:13.945Z"
-    },
-    {
         "id": "60d34b12-1876-42e2-a89a-aeede78e5a86",
         "name": "Silicon Power P34A60 256GB SSD M.2-2280 PCIe 3.0 X4 NVMe",
         "variant": "256GB",
@@ -3955,18 +3289,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "3c7d2fce-9e35-4f55-94d0-79fa7885f7f6",
-        "name": "MSI SPATIUM S270 480 GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B0C1NFSWXK",
-        "clean_name": "MSI SPATIUM S270 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "d50afde1-7eaa-42e8-b7b9-7d920bd5980d",
@@ -4035,18 +3357,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "056a7a5e-98b7-498e-a786-453aceda1144",
-        "name": "KIOXIA EXCERIA 480GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B087CPLWKP",
-        "clean_name": "KIOXIA EXCERIA 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "eba05028-b977-4cb1-beae-2a9e8387e92b",
@@ -4139,18 +3449,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "e0b1c8ff-9257-4b9b-85a1-516423b281d1",
-        "name": "Intel 545s 512GB SSD M.2-2280 SATA",
-        "variant": "512GB",
-        "amazon_sku": "B076ZG5GQP",
-        "clean_name": "Intel 545s -2280 SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
-    },
-    {
         "id": "089ffbb9-3a57-4a1e-b28a-a2c83c2fdfd2",
         "name": "Verbatim Vi3000 512GB SSD M.2-2280 PCIe 3.0 x4 NVMe",
         "variant": "512GB",
@@ -4201,20 +3499,6 @@
         "form_factor": "2.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "648e42eb-be2b-40a1-a93a-e341323a8aeb",
-        "name": "TEAMGROUP AX2 256GB 2.5\" SSD SATA",
-        "variant": "256GB",
-        "amazon_sku": "B08CJX8M4D",
-        "clean_name": "TEAMGROUP AX2 2.5\" SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 188.84,
-        "last_updated": "2026-04-30T06:33:54.025Z"
     },
     {
         "id": "4265a04d-fb2d-4150-aa84-4053b3f08c89",
@@ -4509,18 +3793,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "9b7ac8ee-12d7-4558-b786-6733d9d42d7a",
-        "name": "SanDisk EXTREME PRO 480GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B00KHRYRLY",
-        "clean_name": "SanDisk EXTREME PRO 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "2bceea13-4548-4a84-aa1f-793ebb379592",
         "name": "Transcend 110S 512GB SSD M.2-2280 PCIe 3.0 X4 NVMe",
         "variant": "512GB",
@@ -4598,20 +3870,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "f2853fa2-c945-445c-9ece-298ca099d770",
-        "name": "Toshiba Q Series Pro 256GB SSD 2.5\" SATA",
-        "variant": "256GB",
-        "amazon_sku": "B00FR6VLN2",
-        "clean_name": "Toshiba Q Series Pro 2.5\" SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 80.56,
-        "last_updated": "2026-04-30T06:36:30.574Z"
     },
     {
         "id": "cc04d954-10b4-4d87-b151-63c161b33fbb",
@@ -4708,18 +3966,6 @@
         "storage_type": "HDD",
         "price": 166.54,
         "last_updated": "2026-04-30T06:37:15.506Z"
-    },
-    {
-        "id": "0836497e-fdff-4ab0-9a06-6d260ec4c5fb",
-        "name": "Seagate FireCuda 120 500GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "500GB",
-        "amazon_sku": "B088D6VBG6",
-        "clean_name": "Seagate FireCuda 120 2.5\" SATA /s",
-        "capacity": "500 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "4af15866-0d95-46bd-8fcf-ae1fda04c676",
@@ -4857,20 +4103,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "e94a60d2-b685-4d83-bac1-f752e6d82ffd",
-        "name": "Intel DC S3700 800GB SSD 2.5\" SATA",
-        "variant": "800GB",
-        "amazon_sku": "B00APLB6G6",
-        "clean_name": "Intel DC S3700 2.5\" SATA",
-        "capacity": "800 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 406.75,
-        "last_updated": "2026-04-30T06:37:57.011Z"
-    },
-    {
         "id": "62558c95-afbb-4fc0-9970-00932cb4bcc3",
         "name": "MSI SPATIUM M580 FROZR 2TB M.2 SSD PCIe 5.0 NVMe",
         "variant": "2000GB",
@@ -4895,20 +4127,6 @@
         "interface": "M.2 PCIe 5.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "eec1c96f-e0ab-4f7d-ab3d-a9a7f8fb9609",
-        "name": "Western Digital Blue SA510 1TB M.2-2280 SSD SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B09ZYNHPW2",
-        "clean_name": "Western Digital Blue SA510 -2280 SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "M.2, SSD",
-        "price": 169.48,
-        "last_updated": "2026-04-30T06:38:19.306Z"
     },
     {
         "id": "170e02d8-9f6c-44e5-b79e-e5e84afa75c3",
@@ -4978,17 +4196,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "59e40c0c-45ed-4976-a19f-20d12e438f7b",
-        "name": "Seagate FireCuda 500GB Hybrid 2.5\" 5400RPM SATA",
-        "variant": "500GB",
-        "amazon_sku": "B01LX4E7FM",
-        "clean_name": "Seagate FireCuda Hybrid 2.5\" 5400RPM SATA",
-        "capacity": "500 GB",
-        "type": "SSHD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s"
-    },
-    {
         "id": "56a12946-5258-4046-bcf5-8cc352b77eec",
         "name": "Seagate ST6000NM0024 6TB HDD 3.5\" SATA",
         "variant": "6000GB",
@@ -5040,32 +4247,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "be8d58ba-7a4b-4e22-855f-a6df77b5f3ed",
-        "name": "Western Digital Red SA500 1TB SSD M.2 SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B07YFGXPQ2",
-        "clean_name": "Western Digital Red SA500 SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2",
-        "price": 169.48,
-        "last_updated": "2026-04-30T06:38:51.033Z"
-    },
-    {
-        "id": "5f20fef5-4dee-423f-83f1-b5faa7a785e1",
-        "name": "Kingston A400 480GB SSD 2.5\" SATA",
-        "variant": "480GB",
-        "amazon_sku": "B01N0TQPQB",
-        "clean_name": "Kingston A400 2.5\" SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "1e3a9c6e-f363-4256-b601-3a7fd2f9bf75",
@@ -5181,18 +4362,6 @@
         "storage_type": "SSD, M.2, NVMe",
         "price": 245.06,
         "last_updated": "2026-04-30T06:39:24.656Z"
-    },
-    {
-        "id": "0321e73a-c9b8-4261-93ea-a4dd47972d97",
-        "name": "SanDisk Ultra 3D 1 TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B0B7VM4SRX",
-        "clean_name": "SanDisk Ultra 3D 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "cf43b1bf-9905-4d47-bb75-b1c35b44b1f0",
@@ -5326,18 +4495,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "ec2e1c2b-a124-4c9f-935e-d826a26937c9",
-        "name": "Patriot P220 2TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "2000GB",
-        "amazon_sku": "B0BWRHR75Z",
-        "clean_name": "Patriot P220 2.5\" SATA /s",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "e5a22762-0986-4b6f-adf0-ea93ab0f2322",
         "name": "TEAMGROUP MP33 256GB SSD M.2 PCIe 3.0 NVMe",
         "variant": "256GB",
@@ -5446,18 +4603,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "6f131e78-25bf-4c30-92e7-0e9d6f8ad6c7",
-        "name": "Silicon Power A55 512GB SSD 2.5\" SATA",
-        "variant": "512GB",
-        "amazon_sku": "B07997QV4Z",
-        "clean_name": "Silicon Power A55 2.5\" SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "303b4349-4ffb-4030-9dfb-03f9a69b00ea",
         "name": "Lexar NM610 500GB M.2-2280 SSD PCIe 3.0 x4 NVMe",
         "variant": "500GB",
@@ -5484,18 +4629,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "34ed1182-0fe6-4bde-b463-c28a914dadf8",
-        "name": "Kingston SSDNOW DC500R 3.84 TB SSD 2.5\" SATA",
-        "variant": "3000GB",
-        "amazon_sku": "B07PTRK3SX",
-        "clean_name": "Kingston NOW DC500R 2.5\" SATA",
-        "capacity": "3000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "d723d6f7-1163-4174-8ee8-467d39971857",
         "name": "Western Digital Blue SN580 1TB M.2 SSD PCIe 4.0 NVMe",
         "variant": "1000GB",
@@ -5507,18 +4640,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "0d5b9474-fa45-44f6-9baf-c68bd3727432",
-        "name": "Crucial BX300 480GB SSD 2.5\" SATA",
-        "variant": "480GB",
-        "amazon_sku": "B073W4N5KB",
-        "clean_name": "Crucial BX300 2.5\" SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "c3b6d860-e309-411b-bacb-e473186bd5ff",
@@ -5562,18 +4683,6 @@
         "last_updated": "2026-04-30T06:41:43.387Z"
     },
     {
-        "id": "ffd60511-c01d-4378-8c25-b3c3294efef2",
-        "name": "Transcend SSD230S 1TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B074W7TDPR",
-        "clean_name": "Transcend 230S 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "f0cce715-6f56-4707-90fa-a1b0ba01b79f",
         "name": "Seagate SkyHawk AI 8TB 3.5\" HDD 7200RPM SATA",
         "variant": "8000GB",
@@ -5586,18 +4695,6 @@
         "storage_type": "HDD",
         "price": 408.22,
         "last_updated": "2026-04-30T06:41:51.740Z"
-    },
-    {
-        "id": "80f90288-f825-4722-a992-669ea1780816",
-        "name": "Silicon Power A55 2TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "2000GB",
-        "amazon_sku": "B07Q37V1C9",
-        "clean_name": "Silicon Power A55 2.5\" SATA /s",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "68700561-e326-4008-891d-7f3512857e44",
@@ -5665,18 +4762,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "b569c9d3-8c4b-4949-b87a-f25e91d27ff3",
-        "name": "Leven JS600 512GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B07YBYZQ1V",
-        "clean_name": "Leven JS600 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "c7749c37-1854-417e-8de2-262b75fa341b",
         "name": "Seagate FireCuda 530R 1TB SSD M.2 w/Heatsink PCIe 4.0 NVMe",
         "variant": "1000GB",
@@ -5688,18 +4773,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "e821ba94-dc9b-4daf-8cbf-947504a77fa6",
-        "name": "Seagate FireCuda 120 2TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B088CTFBW8",
-        "clean_name": "Seagate FireCuda 120 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "0ea7b977-e8e9-4968-a95e-ff60ecb487ed",
@@ -5742,16 +4815,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "6b6b9644-931c-46cd-af54-77f855c6097a",
-        "name": "Seagate BarraCuda Pro 12TB 256MB Cache",
-        "variant": "",
-        "amazon_sku": "B07H2FGPND",
-        "clean_name": "Seagate BarraCuda Pro 256MB Cache",
-        "capacity": "12TB",
-        "price": 507.82,
-        "last_updated": "2026-04-30T06:42:38.535Z"
-    },
-    {
         "id": "20074156-be65-4213-a0d6-8f215db1f2e9",
         "name": "Silicon Power UD85 1TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
         "variant": "1000GB",
@@ -5790,18 +4853,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "689b1bad-4655-40bb-a6fa-a9c8bc578ffb",
-        "name": "SanDisk SSD PLUS 480GB SSD 2.5\" SATA",
-        "variant": "480GB",
-        "amazon_sku": "B01F9G46Q8",
-        "clean_name": "SanDisk PLUS 2.5\" SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "57db9052-1d1f-4b1b-be58-fc5d5b836f52",
         "name": "ADATA ATOM 50 1TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
         "variant": "1000GB",
@@ -5824,18 +4875,6 @@
         "type": "HDD",
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s"
-    },
-    {
-        "id": "8c7eb56d-0ad2-4641-8497-dcc84e0945b2",
-        "name": "Kingston SSDNOW DC500R 1.92 TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B07PTT6F4W",
-        "clean_name": "Kingston NOW DC500R 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "afed2766-354c-4144-a915-025848f59766",
@@ -5875,20 +4914,6 @@
         "interface": "M.2 PCIe 5.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "f211bbd7-cf92-469e-a466-7decb44f8ed8",
-        "name": "Lenovo S4520 1.92 TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B09YS17285",
-        "clean_name": "Lenovo S4520 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 2583.84,
-        "last_updated": "2026-04-30T06:43:14.835Z"
     },
     {
         "id": "f733a573-7640-4c18-95ca-6ee4eff5d3de",
@@ -5957,18 +4982,6 @@
         "last_updated": "2026-04-30T06:43:45.319Z"
     },
     {
-        "id": "51e82242-22d8-4d65-adb5-b9add4f595a3",
-        "name": "Gigabyte GP-GSTFS31480GNTD 480 GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B07QJ756H8",
-        "clean_name": "Gigabyte GP-GSTFS31480GNTD 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "278c5e4d-be80-485a-9fe8-0f916da6b2b9",
         "name": "Corsair MP700 PRO 4TB SSD M.2-2280 PCIe 5.0 x4 NVMe",
         "variant": "4000GB",
@@ -6034,18 +5047,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "5bed7f34-c7f3-406e-a58e-e767626a5d60",
-        "name": "Samsung 870 Evo 1TB 2.5\" SSD SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B08W5TLTL2",
-        "clean_name": "Samsung 870 Evo 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "b802bd14-1f41-4b88-9a75-af112f0536e1",
@@ -6127,42 +5128,6 @@
         "last_updated": "2026-04-30T06:44:33.990Z"
     },
     {
-        "id": "5a41cd60-3278-4f5f-93a9-d5ab52f0fcd0",
-        "name": "HP Y6P08AA 2TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B06XQWS1XD",
-        "clean_name": "HP Y6P08AA 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "445d49d1-8d3a-4029-9114-48fadf69df66",
-        "name": "Micron 1100 2TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B01LB05TOO",
-        "clean_name": "Micron 1100 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "5f21620a-ddd2-4259-8f6d-eea901fed17a",
-        "name": "Kingston Q500 1.92 TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B08HRB31QC",
-        "clean_name": "Kingston Q500 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "5146f3b6-8b45-4a38-8091-565f88fdfb33",
         "name": "Intel DC P3600 1.2TB SSD PCIe NVMe",
         "variant": "1000GB",
@@ -6186,18 +5151,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "NVMe, SSD"
-    },
-    {
-        "id": "ff46047e-1c72-4184-99a7-baf0d0fd6615",
-        "name": "PNY CS900 2TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "2000GB",
-        "amazon_sku": "B08GB8S6R3",
-        "clean_name": "PNY CS900 2.5\" SATA /s",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "2c5b143b-41fe-4824-b68c-7937c692a181",
@@ -6262,18 +5215,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "8ed0fd2d-e4d0-489e-b21f-2ee877505d91",
-        "name": "SanDisk SSD PLUS 1TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B07D998212",
-        "clean_name": "SanDisk PLUS 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "8e8f8e58-07ee-4b60-b6e2-27101a882197",
@@ -6658,20 +5599,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "f61c2801-1229-4281-a1d9-f0e24b1bdd19",
-        "name": "Intel DC S4600 1.9 TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B075LDDF3Y",
-        "clean_name": "Intel DC S4600 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 921.38,
-        "last_updated": "2026-04-30T06:47:15.740Z"
-    },
-    {
         "id": "7b8e4f5f-7e35-4f1b-992b-3752c11476b8",
         "name": "HP FX900 512GB SSD M.2 PCIe 4.0 NVMe",
         "variant": "512GB",
@@ -6710,18 +5637,6 @@
         "storage_type": "HDD",
         "price": 256.58,
         "last_updated": "2026-04-30T06:47:35.108Z"
-    },
-    {
-        "id": "6c30ca9a-44fd-46c7-818a-885c3300826a",
-        "name": "Western Digital Blue 1TB SSD M.2-2280 SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B073SB2MXT",
-        "clean_name": "Western Digital Blue -2280 SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
     },
     {
         "id": "7e926549-6d59-4106-ae14-de829c90085a",
@@ -6790,18 +5705,6 @@
         "last_updated": "2026-04-30T06:47:52.488Z"
     },
     {
-        "id": "c89be090-0a00-4771-ab47-0ecc3738863d",
-        "name": "Gigabyte GP-GSTFS31100TNTD 1TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B07RQF6P9C",
-        "clean_name": "Gigabyte GP-GSTFS31100TNTD 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "2dcc21ac-36ae-492f-a9fe-8c363fde1df8",
         "name": "Hitachi Ultrastar He10 10TB HDD 3.5\" 7200RPM SATA",
         "variant": "10000GB",
@@ -6857,20 +5760,6 @@
         "last_updated": "2026-04-30T06:48:10.132Z"
     },
     {
-        "id": "f36cf7c8-a198-4b80-b4ff-021fb87267f3",
-        "name": "Kingston Q500 480GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B07KCP5NT9",
-        "clean_name": "Kingston Q500 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 213.51,
-        "last_updated": "2026-04-30T06:48:16.586Z"
-    },
-    {
         "id": "3b87d478-4ea8-4dcd-9f5f-8ff2b43e7a5f",
         "name": "Corsair MP600 GS 1TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
         "variant": "1000GB",
@@ -6882,18 +5771,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "f1e0aec4-d2a8-47cf-8849-8d76debb323d",
-        "name": "TEAMGROUP CX1 480GB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B08J7NSMN4",
-        "clean_name": "TEAMGROUP CX1 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "1f429c7d-e445-4808-a594-062c416a57d2",
@@ -6960,16 +5837,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "4a452e84-c30b-4b05-94c4-d2d65bd2bc9c",
-        "name": "SK hynix Gold S31 500GB,Internal,2.5 inch (SHGS31500GS) Solid State Drive",
-        "amazon_sku": "B07SK5BNM1",
-        "clean_name": "SK hynix Gold S31 ,Internal,2.5 inch (SHGS31500GS)",
-        "capacity": "500 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s"
-    },
-    {
         "id": "90590e2d-c92b-42ed-b334-bcad804706ed",
         "name": "FanXiang S880 2TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
         "variant": "2000GB",
@@ -7018,18 +5885,6 @@
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "25578fa9-d68e-421c-80cf-f2aba8deb8aa",
-        "name": "Mushkin ELEMENT 512GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B0B7Y5RLWT",
-        "clean_name": "Mushkin ELEMENT 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "5b034752-4036-4b04-af25-0471b70b57fe",
@@ -7126,18 +5981,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "dc1a2fce-910d-47eb-9c81-0ae598884031",
-        "name": "Lexar NS100 512GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B07TQSYBPH",
-        "clean_name": "Lexar NS100 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "dfeff557-8860-414e-a795-a863b111bdac",
         "name": "GOODRAM PX700 4TB SSD M.2 PCIe 4.0 NVMe",
         "variant": "4000GB",
@@ -7229,18 +6072,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "2264fbac-c791-405f-b719-dadb58ffca9c",
-        "name": "ADATA SU630 960GB SSD 2.5\" SATA",
-        "variant": "960GB",
-        "amazon_sku": "B07KQXC7KR",
-        "clean_name": "ADATA SU630 2.5\" SATA",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "9cac3b9e-64f6-4d14-918b-e0a28eec9e08",
         "name": "Sabrent Rocket 4.0 500GB M.2 SSD PCIe 4.0 X4 NVMe",
         "variant": "500GB",
@@ -7327,18 +6158,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "56749981-deec-45a1-bbaa-bd2de04d6f9c",
-        "name": "Samsung PM883 480GB SSD 2.5\" SATA",
-        "variant": "480GB",
-        "amazon_sku": "B07Y53HVYV",
-        "clean_name": "Samsung PM883 2.5\" SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "85f1e60b-534d-4ea3-ba67-843cd0e75ed2",
         "name": "Crucial P5 500GB NVMe M.2 SSD",
         "variant": "500GB",
@@ -7375,18 +6194,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "37208e5d-98c8-4851-b02b-ddb600781360",
-        "name": "Western Digital Green 480GB SSD M.2-2280 SATA",
-        "variant": "480GB",
-        "amazon_sku": "B07KYDYKQP",
-        "clean_name": "Western Digital Green -2280 SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
     },
     {
         "id": "54a22761-5897-49bc-8955-77735f741c51",
@@ -7478,30 +6285,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "2e70e455-9353-4a51-b6cc-2a49ae6e1b5a",
-        "name": "ADATA SU800 512GB SSD 2.5\" SATA",
-        "variant": "512GB",
-        "amazon_sku": "B01K8A29CS",
-        "clean_name": "ADATA SU800 2.5\" SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "96166dc5-4609-492a-b9ab-101b7fa5d1b2",
-        "name": "Samsung 860 Evo 1TB SSD M.2-2280 SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B07822Z77M",
-        "clean_name": "Samsung 860 Evo -2280 SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
-    },
-    {
         "id": "d5055a39-e7f0-4dc7-b767-72664537adba",
         "name": "Patriot Viper VP4300 1TB M.2-2280 SSD PCIe 4.0 X4 NVMe",
         "variant": "1000GB",
@@ -7553,18 +6336,6 @@
         "storage_type": "HDD",
         "price": 116.59,
         "last_updated": "2026-04-30T06:51:52.969Z"
-    },
-    {
-        "id": "129ba479-83e0-4353-bbe9-d7d5ec17bfe9",
-        "name": "Mushkin Reactor 1TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B00PAFJJRA",
-        "clean_name": "Mushkin Reactor 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "ef798e33-6994-45fc-b32a-73033ee5c414",
@@ -7630,18 +6401,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "b4ad3f74-a039-4e68-83ad-f25a333f17ff",
-        "name": "Intenso Top 256GB SSD M.2-2280 SATA",
-        "variant": "256GB",
-        "amazon_sku": "B077D1WXPD",
-        "clean_name": "Intenso Top -2280 SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
-    },
-    {
         "id": "c387ea60-3aff-4227-844b-2007078e6ec9",
         "name": "Intel 760p 1TB SSD M.2-2280 PCIe 3.0 x4 NVMe",
         "variant": "1000GB",
@@ -7697,18 +6456,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "176c728e-eba0-4bda-974d-7ca5582e0f20",
-        "name": "Western Digital WD Blue 500GB SSD 2.5\" SATA",
-        "variant": "500GB",
-        "amazon_sku": "B07B419GV3",
-        "clean_name": "Western Digital WD Blue 2.5\" SATA",
-        "capacity": "500 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "66e0f773-9380-45aa-af87-dd46892726a9",
         "name": "Western Digital Red Plus 8TB HDD 3.5\" 5640RPM SATA",
         "variant": "8000GB",
@@ -7732,18 +6479,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "911fe389-6077-40f2-8c42-ffc259988bd0",
-        "name": "TEAMGROUP QX 512GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B0G1PKPX2G",
-        "clean_name": "TEAMGROUP QX 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "e2020406-ef5f-469c-89c4-2bb80e6d3ace",
@@ -7809,18 +6544,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVME"
-    },
-    {
-        "id": "27dd5aa3-e8d7-489c-9b1b-bf60c1a79872",
-        "name": "Inland Professional 1TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B07FM9SSP6",
-        "clean_name": "Inland Professional 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "5094e66f-742b-4c35-a3ef-d61deed81d01",
@@ -7952,17 +6675,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "2f75c060-2a8d-48d8-a5b9-5a6a9ff0f46a",
-        "name": "SAMSUNG 860 EVO Series 2.5\" 500GB SATA III V-NAND 3-bit MLC Internal Solid State Drive (SSD) MZ-76E500B/AM",
-        "amazon_sku": "B078218TWQ",
-        "clean_name": "SAMSUNG 860 EVO Series 2.5\" SATA III V-NAND 3-bit MLC MZ-76E500B/AM",
-        "capacity": "500 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "491135df-a6eb-4f05-9067-c12c94024945",
         "name": "Seagate Exos X14 12TB HDD 7200RPM 3.5\" SATA 6.0 Gb/s",
         "variant": "12000GB",
@@ -8015,17 +6727,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "37dec7ca-995d-41d7-84ae-10fe4a55284f",
-        "name": "Seagate ST500LM000 500GB Hybrid 2.5\" 5400 RPM SATA 6.0 Gb/s Internal",
-        "variant": "500GB",
-        "amazon_sku": "B00B99JU5M",
-        "clean_name": "Seagate ST500LM000 Hybrid 2.5\" 5400 RPM SATA /s Internal",
-        "capacity": "500 GB",
-        "type": "SSHD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s"
-    },
-    {
         "id": "8fc458d7-1e90-45ac-b537-064bac7b6e52",
         "name": "Corsair MP600 GS 500GB M.2 SSD PCIe 4.0 NVMe",
         "variant": "500GB",
@@ -8039,18 +6740,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "ef10b074-5311-4f40-a7e3-aedcda3b575c",
-        "name": "Patriot P220 512GB SSD 2.5\" SATA",
-        "variant": "512GB",
-        "amazon_sku": "B0BS9W92M1",
-        "clean_name": "Patriot P220 2.5\" SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "e9f62b28-581d-4fb0-93fd-078aa2ed9167",
         "name": "ADATA Legend 850 512GB M.2 SSD PCIe 4.0 NVMe",
         "variant": "512GB",
@@ -8062,18 +6751,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "aafc5b1d-767b-4d40-8ebe-3d3424c0b27b",
-        "name": "Transcend MTS400 256GB SSD M.2-2242 SATA",
-        "variant": "256GB",
-        "amazon_sku": "B00KLTPUG4",
-        "clean_name": "Transcend MTS400 -2242 SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2242",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
     },
     {
         "id": "9ac56dbf-ca83-4af1-81e2-4ac2dbd5e00f",
@@ -8125,17 +6802,6 @@
         "interface": "M.2 PCIe 3.0 x2",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "42c2c704-0a00-46ab-8d55-922c502d980a",
-        "name": "Kingston A400 960GB SATA 3 2.5\" Internal SSD SA400S37/960G - HDD Replacement for Increase Performance",
-        "amazon_sku": "B01N5IB20Q",
-        "clean_name": "Kingston A400 SATA 3 2.5\" Internal SA400S37/960G - Replacement for Increase Performance",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD, HDD"
     },
     {
         "id": "9c971639-461d-4022-bc18-e67532ab35e3",
@@ -8214,18 +6880,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "125d02c9-0391-4299-a6ba-00a19f3f2870",
-        "name": "TEAMGROUP CX2 1TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B08PSK58HQ",
-        "clean_name": "TEAMGROUP CX2 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "03f5802b-08a2-4bbb-a3b7-f3e15c2b49a7",
@@ -8447,20 +7101,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "49b91017-0cc4-49d7-abe4-6e651c8cebe7",
-        "name": "Intel DC S3610 1.6 TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B00TH4H1L6",
-        "clean_name": "Intel DC S3610 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 332.21,
-        "last_updated": "2026-04-30T06:57:45.664Z"
-    },
-    {
         "id": "fd28b5e9-fdf7-43cc-b38d-14797051f367",
         "name": "Apacer AS2280P4 512 GB SSD M.2-2280 PCIe 3.0 X4 NVMe",
         "variant": "512GB",
@@ -8590,18 +7230,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "a9b19703-c7b0-4660-9604-e42b33e34452",
-        "name": "Intenso Top Performance 512GB SSD M.2-2280 SATA",
-        "variant": "512GB",
-        "amazon_sku": "B0776YFLWL",
-        "clean_name": "Intenso Top Performance -2280 SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
-    },
-    {
         "id": "147ae617-3070-48a7-9cfc-101e3145fc88",
         "name": "Western Digital Gold 6 TB 3.5\" Internal HDD 7200RPM SATA 6.0 Gb/s",
         "variant": "6000GB",
@@ -8678,18 +7306,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "02825a0c-14a3-4750-bf88-7774fccbd2db",
-        "name": "Kingston SSDNow KC400 256GB SSD 2.5\" SATA",
-        "variant": "256GB",
-        "amazon_sku": "B019SDOASM",
-        "clean_name": "Kingston Now KC400 2.5\" SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "384a8f6d-77c8-4930-92f7-2ecd1efdef83",
         "name": "Orico O7000 512GB SSD M.2 PCIe 4.0 NVMe",
         "variant": "512GB",
@@ -8739,18 +7355,6 @@
         "interface": "M.2 PCIe 5.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "5ada0463-f150-4e57-9e56-c61a41fcfd85",
-        "name": "Kingston KC600B 512GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B07ZG4KGHQ",
-        "clean_name": "Kingston KC600B 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "1e78ff13-4b0b-4a7a-b82e-4bc0eff5a934",
@@ -8828,18 +7432,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "d99d66c2-4605-4117-aa6f-af516cd8c0be",
-        "name": "Samsung PM893 3.84 TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "3000GB",
-        "amazon_sku": "B0B846MMNF",
-        "clean_name": "Samsung PM893 2.5\" SATA /s",
-        "capacity": "3000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "31e3800a-d3e6-4db1-9630-bbe4fa65a428",
         "name": "Nextorage NEM-PAC 4TB M.2-2280 SSD PCIe 4.0 x4 NVMe",
         "variant": "4000GB",
@@ -8851,18 +7443,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "35c11854-3cec-435b-a62a-bbdb1bfe1d22",
-        "name": "Crucial BX500 2TB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "2000GB",
-        "amazon_sku": "B07YD5F561",
-        "clean_name": "Crucial BX500 2.5\" SATA /s",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "4884f6fc-12be-4267-ba38-6f2d3382a646",
@@ -8892,18 +7472,6 @@
         "last_updated": "2026-04-30T07:00:19.545Z"
     },
     {
-        "id": "c90a445f-aaee-4841-a0a9-e8b510d05be6",
-        "name": "Seagate BarraCuda Q1 480GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B087NYT1M1",
-        "clean_name": "Seagate BarraCuda Q1 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "0494bd56-61ad-4224-919d-3a1b4ea08316",
         "name": "Western Digital Red 10TB HDD 3.5\" SATA",
         "variant": "10000GB",
@@ -8916,54 +7484,6 @@
         "storage_type": "HDD",
         "price": 758.18,
         "last_updated": "2026-04-30T07:00:23.200Z"
-    },
-    {
-        "id": "4a218490-4537-4328-9c00-5c164ebb56ec",
-        "name": "Transcend TS480GSSD220S 480 GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B01DRWWLUO",
-        "clean_name": "Transcend TS480G220S 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "383ced0e-ffe9-408d-a1e2-32dd585e749b",
-        "name": "Intenso High Performance 960GB SSD 2.5\" SATA",
-        "variant": "960GB",
-        "amazon_sku": "B01D3ACJ0M",
-        "clean_name": "Intenso High Performance 2.5\" SATA",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "de1e9021-dbd9-470f-a9b6-660a401f6199",
-        "name": "Integral V Series Plus 512GB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B0C69K6W7W",
-        "clean_name": "Integral V Series Plus 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "f3589731-0fa2-4587-91d9-0c9c1958f16e",
-        "name": "TEAMGROUP T-Force Delta Max White RGB Lite 1TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B09Q89KB1K",
-        "clean_name": "TEAMGROUP T-Force Delta Max White RGB Lite 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "fef572bc-8150-4d52-ac25-0f906d51dea0",
@@ -8989,18 +7509,6 @@
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "2111163d-e51e-4332-9db5-f204feaf4912",
-        "name": "Intel D3-S4610 7.68 TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "7000GB",
-        "amazon_sku": "B082J3N7B4",
-        "clean_name": "Intel D3-S4610 2.5\" SATA /s",
-        "capacity": "7000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "ec9bcdb7-3df1-4917-83df-0528f2e4c533",
@@ -9066,18 +7574,6 @@
         "storage_type": "HDD",
         "price": 448.96,
         "last_updated": "2026-04-30T07:01:14.525Z"
-    },
-    {
-        "id": "ef453a0e-0e50-4b11-a38c-f0e5ec82f280",
-        "name": "Crucial BX500 1TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B07YD579WM",
-        "clean_name": "Crucial BX500 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "d5cf95e7-dd93-4473-b7d6-5b41cdd7e25f",
@@ -9157,18 +7653,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "36a291f4-2966-47bb-a0b1-3fbd133636fc",
-        "name": "Silicon Power A55 512GB SSD M.2-2280 SATA",
-        "variant": "512GB",
-        "amazon_sku": "B07FPKTBTH",
-        "clean_name": "Silicon Power A55 -2280 SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
-    },
-    {
         "id": "da976ecc-a0d5-4aa1-b2b8-4894ee6c0248",
         "name": "PNY XLR8 1TB M.2 SSD PCIe 4.0 NVMe (w/Heatsink)",
         "variant": "1000GB",
@@ -9182,18 +7666,6 @@
         "storage_type": "M.2, SSD, NVMe",
         "price": 240.08,
         "last_updated": "2026-04-30T07:01:36.293Z"
-    },
-    {
-        "id": "980b8029-9a2d-432f-bb55-9d25b08bf168",
-        "name": "TEAMGROUP CX2 512GB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B08K3NP2LK",
-        "clean_name": "TEAMGROUP CX2 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "e420eadb-13e8-48ce-ab31-0962633c6b03",
@@ -9232,18 +7704,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "9b31db17-2cc5-4b8f-b644-2960015bea95",
-        "name": "Inland Professional 512 GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "512GB",
-        "amazon_sku": "B088KLZKPQ",
-        "clean_name": "Inland Professional 2.5\" SATA /s",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "a6a0a762-d07f-4d9c-aced-fa4dd976e3a4",
@@ -9308,30 +7768,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "0fc4fefc-da35-400e-8fa4-96239f24f797",
-        "name": "Patriot Burst Elite 480 GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B08LKGMLMF",
-        "clean_name": "Patriot Burst Elite 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "e6b09af2-b7f6-419e-86b0-770af4ed2c47",
-        "name": "Leven JM600 2TB SSD M.2 SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B07YBYTV15",
-        "clean_name": "Leven JM600 SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
     },
     {
         "id": "7f63ede0-b6f9-465d-b4b5-f56b827e3678",
@@ -9415,30 +7851,6 @@
         "storage_type": "HDD",
         "price": 326.57,
         "last_updated": "2026-04-30T07:02:59.432Z"
-    },
-    {
-        "id": "120d4c9b-4fc7-42e9-a10c-7eeb70a27df7",
-        "name": "Samsung 860 Evo 4TB SSD 2.5\" SATA",
-        "variant": "4000GB",
-        "amazon_sku": "B07864XY8B",
-        "clean_name": "Samsung 860 Evo 2.5\" SATA",
-        "capacity": "4000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "fecedcc2-79ad-43ff-9b33-9c08d26bd2f9",
-        "name": "Transcend 830S 256GB SSD M.2-2280 SATA",
-        "variant": "256GB",
-        "amazon_sku": "B07KG1283L",
-        "clean_name": "Transcend 830S -2280 SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
     },
     {
         "id": "cb8f6a17-4d49-4eee-8c37-02d39f4e55a1",
@@ -9547,18 +7959,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "371c584c-fa41-461f-a298-e1614dff24c1",
-        "name": "Samsung 870 QVO 8TB SSD 2.5\" SATA",
-        "variant": "8000GB",
-        "amazon_sku": "B089C3TZL9",
-        "clean_name": "Samsung 870 QVO 2.5\" SATA",
-        "capacity": "8000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "f3f2bda2-823d-437b-ba24-682cb90b30eb",
         "name": "Western Digital RE 3TB 3.5\" HDD 7200RPM SATA Internal",
         "variant": "3000GB",
@@ -9571,19 +7971,6 @@
         "storage_type": "HDD",
         "price": 314.9,
         "last_updated": "2026-04-30T07:03:49.815Z"
-    },
-    {
-        "id": "6368bd8e-cc71-4dac-8f2b-d62cff646fc6",
-        "name": "Seagate ST1000DX001 1TB Hybrid 3.5\" 7200RPM SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B00EIQTOFY",
-        "clean_name": "Seagate ST1000DX001 Hybrid 3.5\" 7200RPM SATA",
-        "capacity": "1000 GB",
-        "type": "SSHD",
-        "form_factor": "3.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "price": 93.31,
-        "last_updated": "2026-04-30T07:03:47.245Z"
     },
     {
         "id": "8d8f4ac1-33f8-402d-9416-df116b2eca42",
@@ -9651,18 +8038,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "fd615781-2895-47a9-808a-f5cd86c030bf",
-        "name": "VisionTek 900981 1TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B071DV926P",
-        "clean_name": "VisionTek 900981 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "ab7d17a9-6b4c-44e4-b5a6-99bd04c169c1",
         "name": "Western Digital Blue 1TB HDD 5400RPM 2.5\" SATA",
         "variant": "1000GB",
@@ -9713,17 +8088,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "f42d9d10-786b-4a0f-964c-4e5a3b14bef4",
-        "name": "Kingston A400 480GB Internal SSD M.2 2280 SA400M8/480G - Increase Performance",
-        "amazon_sku": "B083WNX8H6",
-        "clean_name": "Kingston A400 Internal 2280 SA400M8/480G - Increase Performance",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD, M.2"
     },
     {
         "id": "58d2b8ce-a095-460b-8581-94f41d7dff84",
@@ -10064,20 +8428,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "43685237-79af-4714-81d0-6b6b119ceaf9",
-        "name": "Intel D3-S4610 960GB SSD 2.5\" SATA",
-        "variant": "960GB",
-        "amazon_sku": "B07H1XBB23",
-        "clean_name": "Intel D3-S4610 2.5\" SATA",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 816.51,
-        "last_updated": "2026-04-30T07:06:24.953Z"
-    },
-    {
         "id": "1a249564-ec82-40a5-a465-a74e99273230",
         "name": "TEAMGROUP A440 Lite 2TB M.2-2280 SSD PCIe 4.0 x4 NVMe",
         "variant": "2000GB",
@@ -10089,30 +8439,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "9c5bd48f-819e-4b0c-b848-336eb17fa877",
-        "name": "Mushkin Source HC 16 TB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "16000GB",
-        "amazon_sku": "B09FJFMQBB",
-        "clean_name": "Mushkin Source HC 2.5\" SATA /s",
-        "capacity": "16000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "bb6e9c95-3c6f-47c1-8263-61ca6e70cc57",
-        "name": "Western Digital Red SA500 4TB SSD 2.5\" SATA",
-        "variant": "4000GB",
-        "amazon_sku": "B07YFGTXHT",
-        "clean_name": "Western Digital Red SA500 2.5\" SATA",
-        "capacity": "4000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "87a72701-8de1-4e7d-b23a-9afecea5ecad",
@@ -10364,20 +8690,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "402aad68-cd1d-4428-9170-46d39873943e",
-        "name": "Samsung 850 Pro 2TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B010QD6RX4",
-        "clean_name": "Samsung 850 Pro 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 1049.81,
-        "last_updated": "2026-04-30T07:07:51.388Z"
-    },
-    {
         "id": "16dc2eab-0229-4680-975a-74c8df80ba8f",
         "name": "Western Digital AV-GP 2TB 3.5\" Internal HDD 5400RPM SATA 6.0 Gb/s",
         "variant": "2000GB",
@@ -10438,20 +8750,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "M.2, NVMe, SSD"
-    },
-    {
-        "id": "27382568-78af-446c-8c21-50fdd4a09899",
-        "name": "Intel 545s 256 GB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "256GB",
-        "amazon_sku": "B074S8V6Y1",
-        "clean_name": "Intel 545s 2.5\" SATA /s",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 392.49,
-        "last_updated": "2026-04-30T07:08:38.248Z"
     },
     {
         "id": "15badd31-ea8e-4aed-bb7c-5d0445004958",
@@ -10517,32 +8815,6 @@
         "storage_type": "SSD, NVMe"
     },
     {
-        "id": "7882f4de-f538-4840-b048-cc9b79633c20",
-        "name": "TEAMGROUP QX 4TB SSD 2.5\" SATA",
-        "variant": "4000GB",
-        "amazon_sku": "B0C3M4TR4B",
-        "clean_name": "TEAMGROUP QX 2.5\" SATA",
-        "capacity": "4000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 1064.74,
-        "last_updated": "2026-04-30T07:09:06.274Z"
-    },
-    {
-        "id": "099130f7-74da-4e59-99fb-e159bcfa52b9",
-        "name": "Crucial MX200 500GB SSD M.2-2260 SATA",
-        "variant": "500GB",
-        "amazon_sku": "B00RZ6GZYM",
-        "clean_name": "Crucial MX200 -2260 SATA",
-        "capacity": "500 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2260",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
-    },
-    {
         "id": "51e8520f-6afe-4c4b-8546-d672970189c2",
         "name": "Toshiba X300 Pro 16TB Internal HDD 7200RPM 3.5\" SATA 6.0 Gb/s",
         "variant": "16000GB",
@@ -10595,18 +8867,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "3d64e6ba-f016-4974-9a08-52d7817e9fe5",
-        "name": "Intel D3-S4520 7.68 TB SSD 2.5\" SATA",
-        "variant": "7000GB",
-        "amazon_sku": "B09DVNZY6Q",
-        "clean_name": "Intel D3-S4520 2.5\" SATA",
-        "capacity": "7000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "036ace82-80b8-4408-bde3-359bc999ee80",
         "name": "Kingston NV3 PCIe 4.0 NVMe SSD 2280 1TB",
         "variant": "1TB",
@@ -10618,18 +8878,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "NVMe, SSD"
-    },
-    {
-        "id": "2dc23585-9340-4529-97fd-09e7df479d26",
-        "name": "Micron 5200 Ion 7.68 TB SSD 2.5\" SATA",
-        "variant": "7000GB",
-        "amazon_sku": "B07JQ2F2WG",
-        "clean_name": "Micron 5200 Ion 2.5\" SATA",
-        "capacity": "7000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "46b5a2f9-0d4b-486e-9431-4ed01d7564e2",
@@ -10669,30 +8917,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "2122966e-f77e-4455-8077-e132307831bd",
-        "name": "Crucial MX500 500GB 3D NAND SATA 2.5-inch Internal SSD",
-        "variant": "500GB",
-        "amazon_sku": "B0784SLQM6",
-        "clean_name": "Crucial MX500 3D NAND SATA 2.5-inch Internal",
-        "capacity": "500 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "93694e49-0141-468c-8dde-f2a281adf50f",
-        "name": "Transcend TS1TSSD370S 1TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B00VX82KBK",
-        "clean_name": "Transcend TS1T370S 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "db6e1ad2-50f3-4ada-864e-a5d848e5b8d7",
         "name": "Western Digital WDBSLA0020HNC-NRSN 2TB Internal HDD 3.5\" 7200RPM SATA 6.0 Gb/s",
         "variant": "2000GB",
@@ -10703,18 +8927,6 @@
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "5debfb10-0699-420b-b32b-93e554191b84",
-        "name": "Transcend 830S 512GB M.2 SSD SATA",
-        "variant": "512GB",
-        "amazon_sku": "B07KG2985M",
-        "clean_name": "Transcend 830S SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "M.2, SSD"
     },
     {
         "id": "cd1a95e7-7528-4347-a31f-33d2d75fd886",
@@ -10792,29 +9004,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "c37efd1f-3757-4748-8d51-99547aa16c0b",
-        "name": "Seagate FireCuda 2TB Hybrid 2.5\" SATA 5400RPM",
-        "variant": "2000GB",
-        "amazon_sku": "B01M1UQQT5",
-        "clean_name": "Seagate FireCuda Hybrid 2.5\" SATA 5400RPM",
-        "capacity": "2000 GB",
-        "type": "SSHD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s"
-    },
-    {
-        "id": "6be4e74b-400d-4b49-b26d-7c8229277f9f",
-        "name": "Addlink S20 512GB SSD 2.5\" SATA",
-        "variant": "512GB",
-        "amazon_sku": "B0791DNZPT",
-        "clean_name": "Addlink S20 2.5\" SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "adf642ef-23df-4e8d-8cb3-8ab9ff815785",
         "name": "Seagate Exos X22 22TB HDD 3.5\" SATA",
         "variant": "22000GB",
@@ -10825,30 +9014,6 @@
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "c76d8a82-835c-4fd6-8130-c83328178d75",
-        "name": "SanDisk Ultra 960GB SSD 2.5\" SATA",
-        "variant": "960GB",
-        "amazon_sku": "B00M8ABHVQ",
-        "clean_name": "SanDisk Ultra 2.5\" SATA",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "e14a4289-a391-41c1-b04a-d6bcc4f5a8e4",
-        "name": "Integral INSSD256GM242 256GB SSD M.2-2242 SATA",
-        "variant": "256GB",
-        "amazon_sku": "B0B2KNW8PC",
-        "clean_name": "Integral IN256GM242 -2242 SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2242",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
     },
     {
         "id": "9bf264af-aae5-4dc1-bdc1-0b5853feb19b",
@@ -10888,18 +9053,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "6f204645-788a-4e14-b1a5-7313a6c2d7ed",
-        "name": "Intel DC S4500 1.9TB 2.5\" SSD SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B074QSB52M",
-        "clean_name": "Intel DC S4500 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "d764ef1d-c2ec-4982-8d0c-53f462ff30ee",
@@ -11005,18 +9158,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "c982dd18-a20c-446c-94ff-031c0c5f5a60",
-        "name": "ADATA Ultimate SU650 960GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "960GB",
-        "amazon_sku": "B07HCQ618F",
-        "clean_name": "ADATA Ultimate SU650 2.5\" SATA /s",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "a149772d-4a9d-48b4-98ea-0bf0b65d532e",
         "name": "Acer Predator GM7 4TB SSD M.2 PCIe 4.0 NVMe",
         "variant": "4000GB",
@@ -11092,30 +9233,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "13008e7a-918f-4f9e-b8a7-0b0de486e2d3",
-        "name": "Samsung PM893 7.68 TB SSD 2.5\" SATA",
-        "variant": "7000GB",
-        "amazon_sku": "B0B83T9KNB",
-        "clean_name": "Samsung PM893 2.5\" SATA",
-        "capacity": "7000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "fb841232-3d9e-489a-935f-56179e4799d8",
-        "name": "Crucial M500 480GB M.2-2280 SSD SATA",
-        "variant": "480GB",
-        "amazon_sku": "B00HBKM6UO",
-        "clean_name": "Crucial M500 -2280 SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "M.2, SSD"
     },
     {
         "id": "4ef6ea01-7524-4ee7-8400-c704c8ec39c7",
@@ -11251,18 +9368,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "691fe5d4-1b46-435e-8d4c-f80439533269",
-        "name": "Silicon Power Silm S55 480GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B019WARKRE",
-        "clean_name": "Silicon Power Silm S55 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "467fc606-9d9c-4c1b-bc72-d84466259a40",
         "name": "Seagate Barracuda Compute 8TB HDD 3.5\" 5400RPM SATA",
         "variant": "8000GB",
@@ -11368,18 +9473,6 @@
         "last_updated": "2026-04-30T07:14:44.898Z"
     },
     {
-        "id": "29d796aa-9870-4104-a3aa-f95db1360bc6",
-        "name": "Transcend TS256GSSD370S 256GB SSD 2.5\" SATA",
-        "variant": "256GB",
-        "amazon_sku": "B00VX82P38",
-        "clean_name": "Transcend TS256G370S 2.5\" SATA",
-        "capacity": "256 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "6a1bd601-3e8b-4e00-b0c5-fc6cd26e1b62",
         "name": "Gigabyte AORUS Gen4 1TB SSD M.2-2280 PCIe 4.0 NVMe",
         "variant": "1000GB",
@@ -11417,18 +9510,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "b700e86f-f867-416c-ace3-f1f9e5ade9a3",
-        "name": "Kingston SSDNow V300 480GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B00FXJWO5C",
-        "clean_name": "Kingston Now V300 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "42059961-4ea1-4ed9-a881-cae063e11955",
@@ -11472,19 +9553,6 @@
         "last_updated": "2026-04-30T07:15:15.571Z"
     },
     {
-        "id": "b0f305cd-9c32-482c-8d66-6b405d5dec12",
-        "name": "Seagate ST1000LM014 1 TB Hybrid Internal 5400 RPM 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B00C57SO1I",
-        "clean_name": "Seagate ST1000LM014 Hybrid Internal 5400 RPM 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSHD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "price": 93.32,
-        "last_updated": "2026-04-30T07:15:16.880Z"
-    },
-    {
         "id": "e4383881-4bc7-40ac-87af-574a925e51f5",
         "name": "Netac NV7000-t 1TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
         "variant": "1000GB",
@@ -11523,18 +9591,6 @@
         "storage_type": "HDD",
         "price": 349.9,
         "last_updated": "2026-04-30T07:15:33.594Z"
-    },
-    {
-        "id": "766697d3-013d-4684-8fbb-2d0e444de0f4",
-        "name": "Samsung MZ-75E4T0B 4TB SSD 2.5\" SATA",
-        "variant": "4000GB",
-        "amazon_sku": "B01G844OOO",
-        "clean_name": "Samsung MZ-75E4T0B 2.5\" SATA",
-        "capacity": "4000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "d92bfbbb-ab6b-45ee-8a48-534e262aa845",
@@ -11577,17 +9633,6 @@
         "last_updated": "2026-04-30T07:15:42.171Z"
     },
     {
-        "id": "a0c75aef-3b94-44fb-81c4-3e9127f4e84e",
-        "name": "Western Digital Blue 1TB Hybrid Internal 2.5\" 5400 RPM SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B00YY3UBY4",
-        "clean_name": "Western Digital Blue Hybrid Internal 2.5\" 5400 RPM SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSHD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s"
-    },
-    {
         "id": "d778eaa5-0b23-4b40-9748-8e9b14ffd0e0",
         "name": "TEAMGROUP T-Force Cardea A440 Pro 2TB SSD M.2 PCIe 4.0 NVMe",
         "variant": "2000GB",
@@ -11611,20 +9656,6 @@
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "18edeb4d-5eb5-41c1-8cfe-6b47893b07b4",
-        "name": "Intel DC S3520 480GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B01KEEM144",
-        "clean_name": "Intel DC S3520 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 500.38,
-        "last_updated": "2026-04-30T07:15:58.467Z"
     },
     {
         "id": "913a1b01-7f61-4d7f-98d0-d051d4c734f1",
@@ -11707,18 +9738,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "70771290-0411-4d60-8cb8-8a753a0cbf09",
-        "name": "Kingston DC450R 3.84 TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "3000GB",
-        "amazon_sku": "B07ZG4TDQT",
-        "clean_name": "Kingston DC450R 2.5\" SATA /s",
-        "capacity": "3000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "2eb17d1d-b609-4ba6-b76a-132df5b29bc4",
         "name": "MP400 1 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive",
         "amazon_sku": "B08JV25ZL3",
@@ -11783,30 +9802,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "91ac3d27-f395-4895-be99-9b36c3f79c61",
-        "name": "KingSpec P3 1TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B0B2K51BHH",
-        "clean_name": "KingSpec P3 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "ce3661d3-45f7-490d-85e2-eadec0b025ab",
-        "name": "Synology SAT5200 3.84TB SSD 2.5\" SATA",
-        "variant": "3000GB",
-        "amazon_sku": "B09NCD2YQH",
-        "clean_name": "Synology SAT5200 2.5\" SATA",
-        "capacity": "3000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "293c77aa-4578-41c3-a5e0-8b5db5c89859",
         "name": "Western Digital Blue 3 TB HDD 3.5\" 5400 RPM SATA",
         "variant": "3000GB",
@@ -11869,18 +9864,6 @@
         "storage_type": "SSD, M.2, NVMe",
         "price": 176.44,
         "last_updated": "2026-04-30T07:17:42.085Z"
-    },
-    {
-        "id": "139ec025-d785-44ab-8c35-d01bffdb0bee",
-        "name": "Mushkin Source 2TB 2.5\" SSD SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B07NJ6CC98",
-        "clean_name": "Mushkin Source 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "8c158a8f-7bb6-4f1c-806d-c0aebcccf4fd",
@@ -11961,18 +9944,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "be861bd3-76b9-4ee9-b51b-005a80df4508",
-        "name": "Kingston KC600 2.048 TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B0844VCW7Q",
-        "clean_name": "Kingston KC600 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "d07d89f0-1e60-495f-b741-92acd4febc7a",
@@ -12098,18 +10069,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "9c083428-b6dd-44d4-bc4e-77948cc8ba2c",
-        "name": "Lenovo S4520 960GB SSD 3.5\" SATA",
-        "variant": "960GB",
-        "amazon_sku": "B0BN4937CB",
-        "clean_name": "Lenovo S4520 3.5\" SATA",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "3.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "96be80eb-c07b-4582-947b-630565c699d5",
         "name": "Western Digital Gold 4TB HDD 7200RPM 3.5\" SATA",
         "variant": "4000GB",
@@ -12209,18 +10168,6 @@
         "interface": "SATA 6.0 Gb/s"
     },
     {
-        "id": "5575ebb6-7164-48cb-ad24-46bfa53ff57d",
-        "name": "Intel Pro 5400s 360GB SSD 2.5\" SATA",
-        "variant": "360GB",
-        "amazon_sku": "B01C785S0E",
-        "clean_name": "Intel Pro 5400s 2.5\" SATA",
-        "capacity": "360 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "b0faac5d-e2cd-4f95-8cd1-2949a584543e",
         "name": "Western Digital WD Blue 6TB HDD 3.5\" 5400RPM SATA 3.0 Gb/s Internal",
         "variant": "6000GB",
@@ -12244,18 +10191,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "c30f173e-191e-4e8a-8a7c-6f370c899d7a",
-        "name": "Seagate Nytro Enterprise 1.92 TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B07GLL7XL7",
-        "clean_name": "Seagate Nytro Enterprise 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "7998d0a2-095b-4fbf-bbd7-c0694c71153a",
@@ -12357,30 +10292,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "bbdf8442-02a1-449e-bc13-b27a4953d6b4",
-        "name": "SanDisk X400 512GB SSD M.2-2280 SATA",
-        "variant": "512GB",
-        "amazon_sku": "B0194MV3XM",
-        "clean_name": "SanDisk X400 -2280 SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
-    },
-    {
-        "id": "5628ec23-18b8-4a7b-a47f-fc94ae62b859",
-        "name": "Western Digital Red SA500 2TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "2000GB",
-        "amazon_sku": "B07YFGG261",
-        "clean_name": "Western Digital Red SA500 2.5\" SATA /s",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "4dccb282-2d07-4f7a-9a4a-3d28d9af468c",
         "name": "Toshiba L200 2TB 2.5\" HDD 5400RPM SATA Internal",
         "variant": "2000GB",
@@ -12421,18 +10332,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "5a2f591e-2c04-4095-a873-200b789c7c9d",
-        "name": "Corsair Force LE 480GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B017UDPW1Q",
-        "clean_name": "Corsair Force LE 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "006a3315-d7ff-4a83-9409-fc74d0fbc040",
         "name": "Seagate IronWolf Pro 8TB HDD 7200RPM 3.5\" SATA Internal",
         "variant": "8000GB",
@@ -12443,29 +10342,6 @@
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "1429d3c8-bdc3-45e3-ac50-a11c563fcefa",
-        "name": "Seagate FireCuda 2TB Hybrid 3.5\" 7200 RPM SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B01IEKG2HM",
-        "clean_name": "Seagate FireCuda Hybrid 3.5\" 7200 RPM SATA",
-        "capacity": "2000 GB",
-        "type": "SSHD",
-        "form_factor": "3.5\"",
-        "interface": "SATA 6.0 Gb/s"
-    },
-    {
-        "id": "9dece7c7-bf26-4444-a279-c10d2d1c48cb",
-        "name": "Samsung 860 Evo 1TB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "1000GB",
-        "amazon_sku": "B078DPCY3T",
-        "clean_name": "Samsung 860 Evo 2.5\" SATA /s",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "afca4522-5005-40d0-b1d7-4d27c0e84b8b",
@@ -12520,18 +10396,6 @@
         "storage_type": "SSD, M.2, NVMe"
     },
     {
-        "id": "40b27c95-dafa-4f4e-a0cf-f3fe93a2780d",
-        "name": "Western Digital WD Green 480GB SSD M.2-2280 SATA",
-        "variant": "480GB",
-        "amazon_sku": "B09TMWHKGF",
-        "clean_name": "Western Digital WD Green -2280 SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "M.2-2280",
-        "interface": "M.2 SATA",
-        "storage_type": "SSD, M.2"
-    },
-    {
         "id": "bdb99c1f-ef9a-48bb-9739-8e714ec9e71f",
         "name": "Addlink G55 2TB M.2-2280 SSD PCIe 5.0 x4 NVMe",
         "variant": "2000GB",
@@ -12543,18 +10407,6 @@
         "interface": "M.2 PCIe 5.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "dc5fa05f-3630-47d0-9cb1-5bad487f874c",
-        "name": "SanDisk Ultra II 480GB SSD 2.5\" SATA",
-        "variant": "480GB",
-        "amazon_sku": "B00M8ABFX6",
-        "clean_name": "SanDisk Ultra II 2.5\" SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "9dae17ac-e616-4e1c-823d-ecad3611a115",
@@ -12672,42 +10524,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "f6e73d94-a832-4475-afa1-208bfde6a36e",
-        "name": "Kingston DC500R 480GB 2.5\" SSD SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B07PSNLVCM",
-        "clean_name": "Kingston DC500R 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "4bb3de75-b2e5-4ef2-be83-a9862082addc",
-        "name": "Intenso High Performance 480GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B01D3ACIXA",
-        "clean_name": "Intenso High Performance 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
-        "id": "710a08ae-c6b7-421e-a343-300f8730de64",
-        "name": "Crucial MX200 500GB 2.5\" SSD SATA",
-        "variant": "500GB",
-        "amazon_sku": "B00RQA6E20",
-        "clean_name": "Crucial MX200 2.5\" SATA",
-        "capacity": "500 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "f53992df-b1b0-47ec-ae15-90097b684628",
         "name": "Patriot P400 1TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
         "variant": "1000GB",
@@ -12735,20 +10551,6 @@
         "last_updated": "2026-04-30T07:22:54.727Z"
     },
     {
-        "id": "bc7fe016-996e-4429-b5f0-c305d3aa478b",
-        "name": "Intel 730 480GB SSD 2.5\" SATA",
-        "variant": "480GB",
-        "amazon_sku": "B00IF4NGXQ",
-        "clean_name": "Intel 730 2.5\" SATA",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 902.9,
-        "last_updated": "2026-04-30T07:22:44.539Z"
-    },
-    {
         "id": "6430ba94-2329-4dcd-8536-91ee0413a451",
         "name": "Seagate Surveillance 8TB HDD 7200RPM 3.5\" SATA Internal",
         "variant": "8000GB",
@@ -12759,18 +10561,6 @@
         "form_factor": "3.5\"",
         "interface": "SATA 6.0 Gb/s",
         "storage_type": "HDD"
-    },
-    {
-        "id": "9454b409-4f66-43bc-8b05-926b71f05b22",
-        "name": "Titanium Micro PD560 500GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "500GB",
-        "amazon_sku": "B094RJZ1DD",
-        "clean_name": "Titanium Micro PD560 2.5\" SATA /s",
-        "capacity": "500 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "85c35d8b-c4d9-4db9-8d58-3b27cff72d3f",
@@ -12864,14 +10654,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "e8e8fbda-3c09-47b0-8c69-6c9c6a1b9c9c",
-        "name": "ADATA SU800 2TB 3D-NAND 2.5 Inch",
-        "variant": "",
-        "amazon_sku": "B07GBRG2G8",
-        "clean_name": "ADATA SU800 3D-NAND 2.5 Inch",
-        "capacity": "2TB"
-    },
-    {
         "id": "6ac4508f-f9f5-442f-a1c6-c6411fd95e09",
         "name": "Seagate Exos 18TB HDD 3.5\" 7200RPM SATA",
         "variant": "18000GB",
@@ -12897,18 +10679,6 @@
         "storage_type": "M.2, SSD, NVMe"
     },
     {
-        "id": "eb416f2a-7548-4da6-b717-903af07a4233",
-        "name": "ADATA SU630 480 GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "480GB",
-        "amazon_sku": "B07KQXZKBN",
-        "clean_name": "ADATA SU630 2.5\" SATA /s",
-        "capacity": "480 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "2dd9fde0-c33b-4877-bfad-17960bc6e1f1",
         "name": "Toshiba MG10 512e 20TB HDD 7200RPM 3.5\" SATA",
         "variant": "20000GB",
@@ -12932,18 +10702,6 @@
         "interface": "M.2 PCIe 3.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "a78d92bf-8339-4a1c-b897-d1ed7642954f",
-        "name": "TEAMGROUP EX2 2TB SSD 2.5\" SATA",
-        "variant": "2000GB",
-        "amazon_sku": "B08HCHMY78",
-        "clean_name": "TEAMGROUP EX2 2.5\" SATA",
-        "capacity": "2000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "929eb228-1477-4c79-a722-ea571e60fd52",
@@ -13080,18 +10838,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "M.2, SSD, NVMe"
-    },
-    {
-        "id": "a44e42c0-edfa-4d00-a68a-27f820990385",
-        "name": "V7 V7SSD512GBS25U 512GB SSD 2.5\" SATA",
-        "variant": "512GB",
-        "amazon_sku": "B0B5HFXJBG",
-        "clean_name": "V7 VS25U 2.5\" SATA",
-        "capacity": "512 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "65246e10-9a61-49e3-ba86-da6a65148cb0",
@@ -13264,18 +11010,6 @@
         "last_updated": "2026-04-30T07:26:07.351Z"
     },
     {
-        "id": "76cd1f95-b092-424e-9de0-dc1136235462",
-        "name": "Kingston SSDNow V310 960GB SSD 2.5\" SATA 6.0 Gb/s",
-        "variant": "960GB",
-        "amazon_sku": "B00M0ESWUY",
-        "clean_name": "Kingston Now V310 2.5\" SATA /s",
-        "capacity": "960 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
-    },
-    {
         "id": "20e86732-0e22-48d6-a6a9-46d3ed2dc146",
         "name": "Western Digital Purple 18TB 3.5\" HDD 7200RPM SATA 6.0 Gb/s Internal",
         "variant": "18000GB",
@@ -13379,20 +11113,6 @@
         "storage_type": "HDD"
     },
     {
-        "id": "083ee6ef-84bc-4262-ab70-f14df735b423",
-        "name": "Intel DC S3500 800GB SSD 2.5\" SATA",
-        "variant": "800GB",
-        "amazon_sku": "B00DT89YHA",
-        "clean_name": "Intel DC S3500 2.5\" SATA",
-        "capacity": "800 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 921.49,
-        "last_updated": "2026-04-30T07:26:47.450Z"
-    },
-    {
         "id": "fd703bf6-4bc7-4b44-a13b-d1bc62a202c3",
         "name": "Western Digital WD_Black SN850X w/Heatsink 2TB SSD M.2 PCIe 4.0 NVMe",
         "variant": "2000GB",
@@ -13404,17 +11124,6 @@
         "interface": "M.2 PCIe 4.0 x4",
         "nvme": true,
         "storage_type": "SSD, M.2, NVMe"
-    },
-    {
-        "id": "b3923799-762e-4f66-a8ba-600587b13e7b",
-        "name": "Crucial MX500 1TB 3D NAND SATA 2.5 Inch Internal SSD, up to 560 MB/s",
-        "amazon_sku": "B0784SY515",
-        "clean_name": "Crucial MX500 3D NAND SATA 2.5 Inch Internal , up to 560 MB/s",
-        "capacity": "1024 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD"
     },
     {
         "id": "abf43526-e267-46d0-bd97-737e146b21c8",
@@ -13468,20 +11177,6 @@
         "storage_type": "M.2, SSD, NVMe",
         "price": 781.71,
         "last_updated": "2026-04-30T07:27:12.883Z"
-    },
-    {
-        "id": "1e47991e-4d3d-4918-b20f-0a123ea4233d",
-        "name": "OWC Mercury Electra 6G 1TB SSD 2.5\" SATA",
-        "variant": "1000GB",
-        "amazon_sku": "B09TXTWDSC",
-        "clean_name": "OWC Mercury Electra 6G 2.5\" SATA",
-        "capacity": "1000 GB",
-        "type": "SSD",
-        "form_factor": "2.5\"",
-        "interface": "SATA 6.0 Gb/s",
-        "storage_type": "SSD",
-        "price": 375.05,
-        "last_updated": "2026-04-30T07:27:15.096Z"
     },
     {
         "id": "f5a19995-c7dd-4286-bf3b-161483b295be",

@@ -187,22 +187,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "20b3e10c-9e3a-4fc8-91af-c0161ddda0ac",
-        "name": "Silverstone SUGO 17 Micro ATX Desktop White Mesh Side Panel with USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CV9FWNR1",
-        "clean_name": "Silverstone SUGO 17 Desktop White Mesh Side Panel with USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400
-    },
-    {
         "id": "c1a4235b-f507-4b21-9db9-445ff70934d2",
         "name": "X2 MESH",
         "variant": "Black",
@@ -2440,25 +2424,6 @@
         "last_updated": "2026-04-30T06:21:15.170Z"
     },
     {
-        "id": "9b9aab28-18d5-463f-a991-93e6d7dba5f2",
-        "name": "SSUPD Meshroom S ATX Mini Tower Green Mesh Side Panel",
-        "variant": "",
-        "amazon_sku": "B0C7GD7JK5",
-        "clean_name": "SSUPD Meshroom S Mini Tower Green Mesh Side Panel",
-        "type": "ATX Mini Tower",
-        "color": [
-            "GREEN"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 336,
-        "price": 71.25,
-        "last_updated": "2026-04-30T06:21:15.018Z"
-    },
-    {
         "id": "9d7d6cde-4ac5-4694-b002-17b1fe00a1f5",
         "name": "Cooler Master Q300L V2 MicroATX Mini Tower Black Tempered Glass Side Panel",
         "variant": "Q300L V2 (Black)",
@@ -2962,23 +2927,6 @@
         "max_cooler_height": 165
     },
     {
-        "id": "0e88d32a-2d6e-4d77-b3bc-dddb452ee37c",
-        "name": "MUSETEX K2 White CASE ATX 3 Non-LED Fans Pre-Installed",
-        "variant": "White",
-        "amazon_sku": "‎B0CP7W2496",
-        "clean_name": "MUSETEX K2 White 3 Non-LED Fans Pre-Installed",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 420,
-        "max_cooler_height": 178
-    },
-    {
         "id": "07b25123-acb4-43f6-bfc8-2bff8bae0772",
         "name": "Lian Li LANCOOL III ATX Mid Tower Black RGB Tempered Glass Side Panel",
         "variant": "",
@@ -3185,23 +3133,6 @@
         "max_gpu_length": 336,
         "max_cooler_height": 210,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "2585df6e-d765-4900-99e2-66635665936a",
-        "name": "In Win CJ712 Micro ATX Desktop Black with 265 W Power Supply",
-        "variant": "",
-        "amazon_sku": "B081VV3SFH",
-        "clean_name": "In Win CJ712 Desktop Black with 265 W Power Supply",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 251,
-        "max_cooler_height": 47
     },
     {
         "id": "e3db10ee-9cb2-4702-896e-8b815395c896",
@@ -5782,23 +5713,6 @@
         "case_type": "Mid-Tower"
     },
     {
-        "id": "5317a5ff-8826-4a96-980d-97fa148bf19f",
-        "name": "Jonsbo Jonsplus Z20 Micro ATX Desktop Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CWQK3LMB",
-        "clean_name": "Jonsbo Jonsplus Z20 Desktop Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 363,
-        "max_cooler_height": 164
-    },
-    {
         "id": "b9d0e3a0-f53e-4149-83b7-6e81e3f85dc8",
         "name": "Deepcool Tesseract Mid-Tower Case (Black / Blue, Window)",
         "variant": "Black / Blue, Window",
@@ -5996,23 +5910,6 @@
         ],
         "max_gpu_length": 420,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "0d6fa5aa-ca60-4a6f-88e3-6de83706751f",
-        "name": "Jonsbo Jonsplus Z20 Micro ATX Desktop White Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CWQHNK48",
-        "clean_name": "Jonsbo Jonsplus Z20 Desktop White Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 363,
-        "max_cooler_height": 164
     },
     {
         "id": "934a7eb3-999c-4448-a6b2-7e26973fc7af",
@@ -7144,24 +7041,6 @@
         "case_type": "Full Tower"
     },
     {
-        "id": "79f10ddb-49c4-495f-957a-926350d72ae4",
-        "name": "Silverstone MILO 11 Micro ATX Desktop Black / Silver with USB 3.2 Gen 1 Type-A and USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B0BDFQC962",
-        "clean_name": "Silverstone MILO 11 Desktop Black / Silver with USB 3.2 Gen 1 Type-A and USB 2.0 Type-A",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "BLACK",
-            "GREY"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 272,
-        "max_cooler_height": 90
-    },
-    {
         "id": "0281ec1d-0980-4d76-941b-5e651a779172",
         "name": "Fractal Design Epoch RGB ATX Mid Tower White Tempered Glass Side Panel",
         "variant": "",
@@ -7274,24 +7153,6 @@
         "max_cooler_height": 70
     },
     {
-        "id": "6b6b1121-49c8-4478-a9d7-01b8324b7ed0",
-        "name": "Jonsbo N4 MicroATX Desktop White / Brown Mesh Side Panel, USB 3.2 Gen 2 Type-C & USB 3.2 Gen 1 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B0DSLRPD24",
-        "clean_name": "Jonsbo N4 Desktop White / Brown Mesh Side Panel, USB 3.2 Gen 2 Type-C & USB 3.2 Gen 1 Type-A Front Panel",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "WHITE",
-            "BROWN"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 230,
-        "max_cooler_height": 70
-    },
-    {
         "id": "b38bcd44-737b-4a38-a30e-e53762bcd376",
         "name": "Deepcool MATREXX 40 Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A Front Panel",
         "variant": "",
@@ -7321,25 +7182,6 @@
             "Mini-ITX"
         ],
         "max_gpu_length": 330
-    },
-    {
-        "id": "d2998b94-1514-4d3c-9828-3653067af284",
-        "name": "Silverstone CS351 Micro ATX Desktop Black with USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B09VKJNYLW",
-        "clean_name": "Silverstone CS351 Desktop Black with USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 368,
-        "max_cooler_height": 82,
-        "price": 193.01,
-        "last_updated": "2026-04-30T06:43:15.515Z"
     },
     {
         "id": "92bb80d9-de16-48b0-b767-7040e7909285",
@@ -7482,23 +7324,6 @@
         "max_gpu_length": 490,
         "max_cooler_height": 205,
         "case_type": "Full Tower"
-    },
-    {
-        "id": "d59ab5a3-e232-41de-bc31-cf1f74c6d548",
-        "name": "Silverstone SUGO 17 Micro ATX Desktop Black Mesh Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "17 Black",
-        "amazon_sku": "B0CV9FCR7B",
-        "clean_name": "Silverstone SUGO 17 Desktop Black Mesh Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 158
     },
     {
         "id": "e0f622e1-a2ab-4f3e-84d1-00467b51c5b5",
@@ -9050,26 +8875,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "61c52c6c-d9d6-4b60-99a6-60e6c581cd2a",
-        "name": "Lian Li O11 Dynamic Mini V2 Flow ATX Mini Tower White Tempered Glass Side Panel with USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
-        "variant": "Mini V2 Flow (White)",
-        "amazon_sku": "B0F8HKCZ99",
-        "clean_name": "Lian Li O11 Dynamic Mini V2 Flow Mini Tower White Tempered Glass Side Panel with USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
-        "type": "ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 160,
-        "price": 738.02,
-        "last_updated": "2026-04-30T06:50:03.522Z"
-    },
-    {
         "id": "debe1389-4f73-44b6-b031-f361fca272ca",
         "name": "Thermaltake View 300 MX Snow ATX Mid Tower White Tempered Glass ARGB",
         "variant": "",
@@ -9556,21 +9361,6 @@
         "case_type": "Full Tower"
     },
     {
-        "id": "9d469c64-3c21-4f7d-974d-0f76d26d0d95",
-        "name": "Silverstone ML07B HTPC Black with USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B00K8CIZYS",
-        "clean_name": "Silverstone ML07B HTPC Black with USB 3.2 Gen 1 Type-A",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 330
-    },
-    {
         "id": "77958f51-af29-4c30-9fac-e4ae96f9e899",
         "name": "SSUPD Meshlicious Mini-ITX Tower Black Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -9690,23 +9480,6 @@
         ],
         "max_gpu_length": 384,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "8d9b32c3-3d21-46c0-ab11-5df862b07866",
-        "name": "Silverstone CS381B Micro ATX Desktop Black",
-        "variant": "",
-        "amazon_sku": "B09ZNKVF2N",
-        "clean_name": "Silverstone CS381B Desktop Black",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 267,
-        "max_cooler_height": 57
     },
     {
         "id": "79d32ac6-3ab4-4939-b0e3-1be224501488",
@@ -11525,24 +11298,6 @@
         "case_type": "Full Tower"
     },
     {
-        "id": "b9c3d1b3-7494-4c24-9276-3a6c3e250c14",
-        "name": "Silverstone GD07B HTPC Black",
-        "variant": "",
-        "amazon_sku": "B007X8TQW0",
-        "clean_name": "Silverstone GD07B HTPC Black",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 345,
-        "max_cooler_height": 138,
-        "price": 1223.85,
-        "last_updated": "2026-04-30T07:00:48.848Z"
-    },
-    {
         "id": "39f1aaba-e193-4da4-9a4c-ffac3a30434a",
         "name": "ADATA XPG STARKER AIR ATX Mid Tower White / Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -12846,21 +12601,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "4749a566-af49-44a9-94fd-deb41a871206",
-        "name": "Streacom DA6 Mini-ITX Test Bench Silver",
-        "variant": "",
-        "amazon_sku": "B0B3RP356K",
-        "clean_name": "Streacom DA6 Test Bench Silver",
-        "type": "Mini ITX Test Bench",
-        "color": [
-            "GREY"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 323
-    },
-    {
         "id": "0fcc0e41-df38-47da-86b0-6c99ddee774c",
         "name": "PC Cooler C3 T500 ARGB ATX Mid Tower",
         "variant": "",
@@ -13075,22 +12815,6 @@
         "max_gpu_length": 410,
         "max_cooler_height": 185,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "bb32b5f1-8400-41fd-a526-008e0fdf5474",
-        "name": "Silverstone ML08 HTPC Black Acrylic Side Panel, USB 3.2 Gen 1 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B0161UXWRA",
-        "clean_name": "Silverstone ML08 HTPC Black Acrylic Side Panel, USB 3.2 Gen 1 Type-A Front Panel",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 330,
-        "max_cooler_height": 58
     },
     {
         "id": "691cade7-28ae-4b98-93ed-f95766f3f0a6",
@@ -13809,23 +13533,6 @@
         ],
         "max_gpu_length": 435,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "53e720ac-aa62-4d02-9223-bdeb900472e4",
-        "name": "Jonsbo C6 MAX Micro ATX Desktop White Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B0DR1JGDPT",
-        "clean_name": "Jonsbo C6 MAX Desktop White Tempered Glass Side Panel",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 335,
-        "max_cooler_height": 170
     },
     {
         "id": "10705da9-b010-4bd5-8af8-9eaadb7020da",
@@ -15225,26 +14932,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "f2886d2d-b629-4f1f-b14e-19698f75a95b",
-        "name": "Lian Li O11 Dynamic Mini V2 ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0F8HLTV22",
-        "clean_name": "Lian Li O11 Dynamic Mini V2 Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 160,
-        "price": 677.09,
-        "last_updated": "2026-04-30T07:17:04.762Z"
-    },
-    {
         "id": "41039419-6f91-4d1a-a1ef-b8a4095095af",
         "name": "Cougar Duoface Pro RGB ATX Mid Tower White Tempered Glass",
         "variant": "",
@@ -15540,20 +15227,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "8408651e-0e29-4d34-a1f9-4f091c659b96",
-        "name": "Thermaltake Level 20 VT MicroATX Desktop Case",
-        "variant": "VT",
-        "amazon_sku": "B07FDFZDDW",
-        "clean_name": "Thermaltake Level 20 VT Desktop",
-        "type": "Micro ATX Desktop",
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 350,
-        "max_cooler_height": 185
-    },
-    {
         "id": "e618cab0-77ca-4afd-b13f-96f605b85596",
         "name": "Fractal Design Pop Air ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
         "variant": "",
@@ -15646,24 +15319,6 @@
         ],
         "max_gpu_length": 375,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "991b4095-9f25-4211-b446-482134a54b22",
-        "name": "Jonsbo Jonsplus Z20 Micro ATX Desktop Pink / White with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0D1YLFW14",
-        "clean_name": "Jonsbo Jonsplus Z20 Desktop Pink / White with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "PINK",
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 363,
-        "max_cooler_height": 164
     },
     {
         "id": "9d997cd0-52de-4e8c-8b5d-f28b316a5d67",
@@ -18120,22 +17775,6 @@
         "last_updated": "2026-04-30T07:30:39.434Z"
     },
     {
-        "id": "5cbbac79-9f5a-493a-a051-888ec45756ab",
-        "name": "Silverstone GD11 HTPC Black",
-        "variant": "GD11 Black",
-        "amazon_sku": "B0B5GV42GH",
-        "clean_name": "Silverstone GD11 HTPC Black",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 340,
-        "max_cooler_height": 146
-    },
-    {
         "id": "347b98e8-6ad9-448e-a6db-6180559cf8bd",
         "name": "Thermaltake CTE E660 MX ATX Mid Tower Blue / White with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -18711,22 +18350,6 @@
         ],
         "max_gpu_length": 320,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "2c73b466-da93-4222-ab05-bcf3cb8bbdc2",
-        "name": "Silverstone Milo 12 HTPC Black Mesh Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0BQ4XDB1F",
-        "clean_name": "Silverstone Milo 12 HTPC Black Mesh Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 345,
-        "max_cooler_height": 77
     },
     {
         "id": "9d2d83a2-8128-46b4-8933-9a252550c8f7",
@@ -19760,26 +19383,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "1d610f6a-522d-4afe-83bb-37068f821ab2",
-        "name": "Thermaltake Level 20 XT ATX Desktop Black / Silver Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B07FL22PKN",
-        "clean_name": "Thermaltake Level 20 XT Desktop Black / Silver Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "type": "ATX Desktop",
-        "color": [
-            "BLACK",
-            "GREY"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 590,
-        "price": 146.88,
-        "last_updated": "2026-04-30T07:38:06.657Z"
-    },
-    {
         "id": "8091045b-594d-477d-818f-e977992c46e9",
         "name": "In Win EFS712 Micro ATX Mini Tower Black with USB 3.2 Gen 1 Type-A and USB 2.0 Type-A Front Panel",
         "variant": "",
@@ -20352,26 +19955,6 @@
         "max_gpu_length": 400,
         "max_cooler_height": 185,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "06b17a9b-7a6d-44fc-9e0b-08ffe4c2972d",
-        "name": "Lian Li O11 Dynamic Mini V2 ATX Mini Tower White Tempered Glass, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "Mini V2 (White)",
-        "amazon_sku": "B0F8H71D5R",
-        "clean_name": "Lian Li O11 Dynamic Mini V2 Mini Tower White Tempered Glass, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "ATX Mini Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 160,
-        "price": 738.02,
-        "last_updated": "2026-04-30T07:40:22.996Z"
     },
     {
         "id": "2d55dad1-0b32-4d15-a17c-02aa823518d1",
@@ -21089,24 +20672,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "ea1c8607-243c-46e8-bcb5-85f6832a81bb",
-        "name": "Silverstone GD08B HTPC Black USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B007X8TQYI",
-        "clean_name": "Silverstone GD08B HTPC Black USB 3.2 Gen 1 Type-A",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 345,
-        "max_cooler_height": 138,
-        "price": 1277.16,
-        "last_updated": "2026-04-30T07:42:59.864Z"
-    },
-    {
         "id": "9e1e12dd-e7bd-43ed-b895-a64294788d0b",
         "name": "SHARKOON TG7M RGB ATX Mid Tower Black Tempered Glass",
         "variant": "",
@@ -21338,21 +20903,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "1c4a1d6c-8598-426e-bf13-d596f931d807",
-        "name": "Fractal Design Node 202 HTPC Black",
-        "variant": "",
-        "amazon_sku": "B015MKDOPU",
-        "clean_name": "Fractal Design Node 202 HTPC Black",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 310
-    },
-    {
         "id": "3296ef53-cbbc-4a94-9854-1b71c92af5f7",
         "name": "Antec Dark Avenger DA601 E-ATX Mid Tower Case/ARGB Motherboard Sync/Tempered Glass/Prizm 120 ARGB Fan Included",
         "amazon_sku": "B07MWC323S",
@@ -21461,24 +21011,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "5c562211-25cd-4f7b-b287-b44df656c3e8",
-        "name": "Jonsbo Jonsplus Z20 Micro ATX Desktop Orange / Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0D1YKXXJD",
-        "clean_name": "Jonsbo Jonsplus Z20 Desktop Orange / Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "ORANGE",
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 363,
-        "max_cooler_height": 164
-    },
-    {
         "id": "206fa5e5-d5e1-441a-bd6d-6644e498c002",
         "name": "HYTE Y70 Metaphor: ReFantazio Edition ATX Mid Tower Brown / Gold Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -21554,22 +21086,6 @@
         "max_gpu_length": 410,
         "max_cooler_height": 181,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "601cb5b2-52b1-4f4d-b309-55a5c48fbd1a",
-        "name": "Chieftec CI-01B-OP Micro ATX Desktop Black with USB 3.2 Gen 1 Type-A USB 2.0 Type-A",
-        "variant": "",
-        "amazon_sku": "B01MYDU9SL",
-        "clean_name": "Chieftec CI-01B-OP Desktop Black with USB 3.2 Gen 1 Type-A USB 2.0 Type-A",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 320
     },
     {
         "id": "1bca2574-b9d8-491a-8f3c-02310ec2a557",
@@ -22053,26 +21569,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "c9b4b3e5-c3b5-4ea6-8101-e6ffcf60c56d",
-        "name": "Lian Li O11 Dynamic Mini V2 Flow ATX Mini Tower Black with Tempered Glass Side Panel and Front Panel: USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "Mini V2 Flow (Black)",
-        "amazon_sku": "B0F8HK5C8J",
-        "clean_name": "Lian Li O11 Dynamic Mini V2 Flow Mini Tower Black with Tempered Glass Side Panel and Front Panel: USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "ATX Mini Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 160,
-        "price": 738.02,
-        "last_updated": "2026-04-30T07:46:59.180Z"
-    },
-    {
         "id": "8f318898-b451-4e72-8df5-8facfbda2a09",
         "name": "Geometric Future Model 5 Vent ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A",
         "variant": " Vent (White)",
@@ -22253,22 +21749,6 @@
         "max_gpu_length": 330,
         "max_cooler_height": 160,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "c924d8bf-d587-42dd-a57a-3d5fff52de93",
-        "name": "Silverstone ML09 HTPC Black with USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B01ECDWGEI",
-        "clean_name": "Silverstone ML09 HTPC Black with USB 3.2 Gen 1 Type-A",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 175,
-        "max_cooler_height": 70
     },
     {
         "id": "a716ae3d-6f02-478d-91d5-618a56e8cb7b",
@@ -22710,23 +22190,6 @@
         "max_gpu_length": 349,
         "max_cooler_height": 173,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "0c79c070-6fa1-45ee-bd58-6a5b943cc0cd",
-        "name": "Cooler Master HAF XB EVO ATX Desktop Black with Mesh Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B00FFJ0H3Q",
-        "clean_name": "Cooler Master HAF XB EVO Desktop Black with Mesh Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
-        "type": "ATX Desktop",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 334
     },
     {
         "id": "795e7356-e045-435a-bc13-d9b9278d6931",
@@ -23284,41 +22747,6 @@
         ],
         "max_gpu_length": 400,
         "max_cooler_height": 165
-    },
-    {
-        "id": "e7a67b6a-6fb7-40f9-8daa-760ab78da287",
-        "name": "Jonsbo N4 Micro ATX Desktop Black / Brown Mesh Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0DL4BKCV8",
-        "clean_name": "Jonsbo N4 Desktop Black / Brown Mesh Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Desktop",
-        "color": [
-            "BLACK",
-            "BROWN"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 230
-    },
-    {
-        "id": "1d9a3053-dcdd-45fe-862e-b3e2546617b4",
-        "name": "Silverstone GD10B HTPC Black with USB 3.2 Gen 1 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B00M2UIY68",
-        "clean_name": "Silverstone GD10B HTPC Black with USB 3.2 Gen 1 Type-A Front Panel",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 309,
-        "max_cooler_height": 138,
-        "price": 1223.85,
-        "last_updated": "2026-04-30T07:52:23.087Z"
     },
     {
         "id": "b1ba3915-5483-4b30-9701-f399ee10acad",
@@ -24137,24 +23565,6 @@
         "max_gpu_length": 420,
         "max_cooler_height": 175,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "e7b57f0d-fdae-4af0-b998-918e853652d9",
-        "name": "Silverstone GD09B HTPC Black",
-        "variant": "",
-        "amazon_sku": "B00KHO0MRK",
-        "clean_name": "Silverstone GD09B HTPC Black",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 309,
-        "max_cooler_height": 138,
-        "price": 1223.85,
-        "last_updated": "2026-04-30T07:55:56.903Z"
     },
     {
         "id": "1f7156f7-8014-4dd9-a1d4-8a827b8be4a1",
@@ -25363,22 +24773,6 @@
         "case_type": "Mid Tower"
     },
     {
-        "id": "ef198635-70c5-4ece-834f-771af9e28cf3",
-        "name": "Silverstone GD09 HTPC Black Mesh Side Panel with USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B08DTHNPPD",
-        "clean_name": "Silverstone GD09 HTPC Black Mesh Side Panel with USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 309,
-        "max_cooler_height": 138
-    },
-    {
         "id": "9241aabf-0eb0-49c6-b3d1-cd7e450fb03d",
         "name": "Rosewill Helium NAS ATX Mid Tower Black Mesh Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -25648,23 +25042,6 @@
         ],
         "max_gpu_length": 315,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "952d5c6a-d65b-4e26-9df5-f95ef09f1916",
-        "name": "Silverstone RVZ02B HTPC Black / Clear Acrylic Side Panel, USB 3.2 Gen 1 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B0161UXXN8",
-        "clean_name": "Silverstone RVZ02B HTPC Black / Clear Acrylic Side Panel, USB 3.2 Gen 1 Type-A Front Panel",
-        "type": "HTPC",
-        "color": [
-            "BLACK",
-            "GREY"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 330,
-        "max_cooler_height": 58
     },
     {
         "id": "70062a25-ec6b-413e-961a-5cdc04714250",
@@ -27638,22 +27015,6 @@
         ],
         "max_gpu_length": 330,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "ed1079fa-3ab3-4af8-9eea-59cfd74b23a2",
-        "name": "Silverstone Crown 04 HTPC Black with Mesh Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0FDJRWYP5",
-        "clean_name": "Silverstone Crown 04 HTPC Black with Mesh Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
-        "type": "HTPC",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 180
     },
     {
         "id": "0e3b20b8-7f0d-44ab-a031-7673ea288ee0",
