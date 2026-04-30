@@ -140,20 +140,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "a9966b35-50ce-4228-90d7-8fe34187c135",
-        "name": "Gigabyte GAMING OC Radeon RX 5500 XT 4GB GDDR6 Black / Gray",
-        "variant": "Gigabyte",
-        "amazon_sku": "B082BY3MRL",
-        "clean_name": "Gigabyte GAMING OC Radeon RX 5500 XT GDDR6 Black / Gray",
-        "chipset": "Radeon RX 5500 XT",
-        "vram": 4,
-        "core_clock": 1685,
-        "boost_clock": 1845,
-        "length": 281,
-        "tdp": 130,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "d603ae9e-4955-42d9-b425-48bb21e48711",
         "name": "Gigabyte GeForce RTX 5070 EAGLE OC SFF 12G GDDR7",
         "variant": "OC SFF",
@@ -311,20 +297,6 @@
         "memory_type": "GDDR6X"
     },
     {
-        "id": "ae3ab973-fe4a-4dbe-a73d-45a66b810cb6",
-        "name": "XFX Speedster SWFT 105 Radeon RX 6400 4 GB",
-        "variant": "XFX",
-        "amazon_sku": "B09Y7358KJ",
-        "clean_name": "XFX Speedster SWFT 105 Radeon RX 6400",
-        "chipset": "Radeon RX 6400",
-        "vram": 4,
-        "core_clock": 1923,
-        "boost_clock": 1923,
-        "length": 155,
-        "tdp": 53,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "4cbe3256-f6e2-414a-bd75-3999766797a0",
         "name": "EVGA GeForce RTX 2080 Ti K|NGP|N GAMING",
         "variant": "K|NGP|N GAMING",
@@ -392,20 +364,6 @@
         "memory_type": "GDDR7",
         "price": 4372.01,
         "last_updated": "2026-04-30T06:12:30.716Z"
-    },
-    {
-        "id": "5e5964de-4658-4975-8a15-e1efa04990c7",
-        "name": "Asus DUAL OC Radeon RX 6500 XT 4GB GDDR6 Black",
-        "variant": "Asus",
-        "amazon_sku": "B09QF8K9YD",
-        "clean_name": "Asus DUAL OC Radeon RX 6500 XT GDDR6 Black",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2310,
-        "boost_clock": 2820,
-        "length": 201,
-        "tdp": 107,
-        "memory_type": "GDDR6"
     },
     {
         "id": "0c63b79d-5612-4a13-b6c3-dec6307e20aa",
@@ -1051,20 +1009,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "4b09e78e-5a07-413b-af6b-fcb399bc13f6",
-        "name": "ASUS ROG Strix GeForce RTX 2060 EVO V2 OC Edition 6GB GDDR6",
-        "variant": "OC Edition EVO V2",
-        "amazon_sku": "B07MLTTDXS",
-        "clean_name": "ASUS ROG Strix GeForce RTX 2060 EVO V2 OC Edition GDDR6",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1830,
-        "length": 300,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "8c1a8aad-542e-4ed6-a5c9-3a2a836e78e8",
         "name": "XFX Mercury Magnetic Air Radeon RX 7900 XTX 24GB GDDR6 Black",
         "variant": "XFX",
@@ -1507,20 +1451,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "3bb8d248-934e-4663-a035-f3dfcde6c4b2",
-        "name": "Yeston GeForce RTX 3050 6GB LP 6GB GDDR6 Pink",
-        "variant": "Yeston",
-        "amazon_sku": "B0DGT7KKNK",
-        "clean_name": "Yeston GeForce RTX 3050 LP GDDR6 Pink",
-        "chipset": "GeForce RTX 3050 6 GB",
-        "vram": 6,
-        "core_clock": 1040,
-        "boost_clock": 1470,
-        "length": 160,
-        "tdp": 70,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "7fe5b867-eeb2-4e9d-b427-a4d71b5433a3",
         "name": "MSI Suprim X GeForce RTX 3070 LHR 8GB GDDR6 Black / Silver",
         "variant": "MSI",
@@ -1736,20 +1666,6 @@
         "length": 355.5,
         "tdp": 320,
         "memory_type": "GDDR6X"
-    },
-    {
-        "id": "ea06111c-4b5c-4494-8475-52f6e2e5ba08",
-        "name": "ASRock AMD Radeon RX 5600 XT Challenger D 6G OC GDDR6",
-        "variant": "OC",
-        "amazon_sku": "B0845BH2DF",
-        "clean_name": "ASRock AMD Radeon RX 5600 XT Challenger D 6G OC GDDR6",
-        "chipset": "Radeon RX 5600 XT",
-        "vram": 6,
-        "core_clock": 1235,
-        "boost_clock": 1620,
-        "length": 240.5,
-        "tdp": 150,
-        "memory_type": "GDDR6"
     },
     {
         "id": "71f160ce-4a1b-4ae8-b881-833311a7d7bc",
@@ -2005,20 +1921,6 @@
         "memory_type": "GDDR7"
     },
     {
-        "id": "2e88b3a8-fb69-4def-9b96-0bf441b399ed",
-        "name": "Asus DUAL GeForce RTX 2060 6GB GDDR6 Black / Silver",
-        "variant": "Asus",
-        "amazon_sku": "B07MFN4D3P",
-        "clean_name": "Asus DUAL GeForce RTX 2060 GDDR6 Black / Silver",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1680,
-        "length": 270,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "23595af7-ef38-4b05-939e-e3ee4eba96e4",
         "name": "EVGA GeForce RTX 2070 SUPER FTW3 ULTRA GAMING 8GB GDDR6 Transparent",
         "variant": "EVGA",
@@ -2098,20 +2000,6 @@
         "boost_clock": 2490,
         "length": 221,
         "tdp": 115,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "608791a3-02d1-4bf2-b8b0-58710470a193",
-        "name": "Gigabyte WINDFORCE OC GeForce RTX 3050 6GB GDDR6 Black / Gray",
-        "variant": "Gigabyte",
-        "amazon_sku": "B0D4XZXLL7",
-        "clean_name": "Gigabyte WINDFORCE OC GeForce RTX 3050 GDDR6 Black / Gray",
-        "chipset": "GeForce RTX 3050 6 GB",
-        "vram": 6,
-        "core_clock": 1040,
-        "boost_clock": 1477,
-        "length": 191,
-        "tdp": 70,
         "memory_type": "GDDR6"
     },
     {
@@ -2467,20 +2355,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "cc9155c3-3906-487d-b358-cdb6d9d9475f",
-        "name": "MSI VENTUS 2X OC GeForce RTX 3050 6GB GDDR6 Black",
-        "variant": "OC ",
-        "amazon_sku": "B0CSPNYB42",
-        "clean_name": "MSI VENTUS 2X OC GeForce RTX 3050 GDDR6 Black",
-        "chipset": "GeForce RTX 3050 6 GB",
-        "vram": 6,
-        "core_clock": 1042,
-        "boost_clock": 1492,
-        "length": 189,
-        "tdp": 70,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "d32837ab-a6de-4d8b-9aa4-f3c80d1982f0",
         "name": "MSI GAMING X SLIM GeForce RTX 4070 Ti 12GB GDDR6X White",
         "variant": "MSI",
@@ -2688,20 +2562,6 @@
         "boost_clock": 1695,
         "length": 222.1,
         "tdp": 200,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "98d007ea-7228-4151-9c21-14f3067a4743",
-        "name": "ASRock Phantom Gaming D OC Radeon RX 6500 XT 4GB GDDR6 Black",
-        "variant": "OC ",
-        "amazon_sku": "B09RHQNT5K",
-        "clean_name": "ASRock Phantom Gaming D OC Radeon RX 6500 XT GDDR6 Black",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2365,
-        "boost_clock": 2820,
-        "length": 240,
-        "tdp": 107,
         "memory_type": "GDDR6"
     },
     {
@@ -2930,20 +2790,6 @@
         "memory_type": "GDDR7"
     },
     {
-        "id": "fff28616-1f7f-4d33-af6f-daeadea6b03b",
-        "name": "MSI AERO ITX Radeon RX 6400 4 GB",
-        "variant": "MSI",
-        "amazon_sku": "B09XSG9H94",
-        "clean_name": "MSI AERO ITX Radeon RX 6400",
-        "chipset": "Radeon RX 6400",
-        "vram": 4,
-        "core_clock": 1923,
-        "boost_clock": 1923,
-        "length": 172,
-        "tdp": 53,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "e84f7746-ffcc-4147-b3b3-86e61887152e",
         "name": "Zotac GAMING AMP Extreme INFINITY GeForce RTX 5090 32GB GDDR7 Black",
         "variant": "",
@@ -3139,20 +2985,6 @@
         "boost_clock": 1740,
         "length": 280,
         "tdp": 185,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "e8cf76ec-16df-4a89-9722-4888e7baa432",
-        "name": "SPARKLE Intel Arc A380 ELF, 6GB GDDR6",
-        "variant": "",
-        "amazon_sku": "B0C74RQV9K",
-        "clean_name": "SPARKLE Intel Arc A380 ELF, GDDR6",
-        "chipset": "Arc A380",
-        "vram": 6,
-        "core_clock": 2000,
-        "boost_clock": 2050,
-        "length": 152.6,
-        "tdp": 75,
         "memory_type": "GDDR6"
     },
     {
@@ -4218,20 +4050,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "7943ee55-09d3-4894-b4d5-b2c94a27989f",
-        "name": "PowerColor ITX Radeon RX 6500 XT 4 GB",
-        "variant": "PowerColor",
-        "amazon_sku": "B09PSHYHLM",
-        "clean_name": "PowerColor ITX Radeon RX 6500 XT",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2310,
-        "boost_clock": 2310,
-        "length": 165,
-        "tdp": 107,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "18c09f4f-3a06-4723-bc69-dfad03f0b567",
         "name": "Zotac GAMING SOLID OC GeForce RTX 5090 32GB GDDR7 ",
         "variant": "OC White Edition",
@@ -4534,20 +4352,6 @@
         "last_updated": "2026-04-30T06:34:40.553Z"
     },
     {
-        "id": "ed61c2f7-8a39-4b31-abff-0db8032b0b49",
-        "name": "PowerColor Low Profile Radeon RX 6400 4 GB",
-        "variant": "PowerColor",
-        "amazon_sku": "B09YTB3KH6",
-        "clean_name": "PowerColor Low Profile Radeon RX 6400",
-        "chipset": "Radeon RX 6400",
-        "vram": 4,
-        "core_clock": 1923,
-        "boost_clock": 1923,
-        "length": 155,
-        "tdp": 53,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "0d797f0a-ea81-452a-a0f4-82e2a2d34bff",
         "name": "ASUS KO GeForce RTX 3060 Ti OC Edition 8GB GDDR6",
         "variant": "OC Edition",
@@ -4787,20 +4591,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "e7b4c3bc-b1ff-47c6-87eb-98171d47ce88",
-        "name": "XFX Radeon RX 5600 XT THICC III PRO - 14GBPS 6GB GDDR6 Boost Up to 1750MHz 3xDP HDMI Graphics Card RX-56XT6TF48",
-        "variant": "THICC III PRO",
-        "amazon_sku": "B083FXQMS8",
-        "clean_name": "XFX Radeon RX 5600 XT THICC III PRO - PS GDDR6 Boost Up to 1750MHz 3xDP HDMI RX-56XT6TF48",
-        "chipset": "Radeon RX 5600 XT",
-        "vram": 6,
-        "core_clock": 1615,
-        "boost_clock": 1750,
-        "length": 326,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "bb89c4db-76f9-48e7-bff7-025d85609e51",
         "name": "KFA2 1-Click OC 2X GeForce RTX 4060 8GB GDDR6 Black",
         "variant": "KFA2",
@@ -5026,19 +4816,6 @@
         "memory_type": "GDDR7",
         "price": 2286.52,
         "last_updated": "2026-04-30T06:37:28.965Z"
-    },
-    {
-        "id": "e2278d52-4aad-49c1-bf61-eb3e952be330",
-        "name": "EVGA GeForce RTX 2060 SC Ultra GAMING",
-        "variant": "SC Ultra GAMING",
-        "amazon_sku": "B07Q1ZJ3ZB",
-        "clean_name": "EVGA GeForce RTX 2060 SC Ultra GAMING",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1755,
-        "boost_clock": 1755,
-        "length": 267.97,
-        "memory_type": "GDDR6"
     },
     {
         "id": "5f99e5d7-97fe-41c7-b10a-66e50254453b",
@@ -5753,20 +5530,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "089f0fbb-85b2-437b-a0ed-dcd9d9209432",
-        "name": "Gigabyte GeForce RTX 3050 OC Low Profile 6G GDDR6",
-        "variant": "OC ",
-        "amazon_sku": "B0CTJZCJH1",
-        "clean_name": "Gigabyte GeForce RTX 3050 OC Low Profile 6G GDDR6",
-        "chipset": "GeForce RTX 3050 6 GB",
-        "vram": 6,
-        "core_clock": 1042,
-        "boost_clock": 1492,
-        "length": 174,
-        "tdp": 70,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "c8aab633-0dd4-4847-a60a-1bd14d6c5d9e",
         "name": "Gigabyte AORUS XTREME WATERFORCE GeForce RTX 4090 24 GB",
         "variant": "Gigabyte",
@@ -5850,20 +5613,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "8b485bbd-001b-45f7-959e-ff6a7da77afe",
-        "name": "MSI VENTUS XS OC GeForce RTX 2060 6GB GDDR6 Silver / Black",
-        "variant": "MSI",
-        "amazon_sku": "B07PBLD2MX",
-        "clean_name": "MSI VENTUS XS OC GeForce RTX 2060 GDDR6 Silver / Black",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1710,
-        "length": 205,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "16e4fc2f-5399-45f0-a895-e8a95358bcfa",
         "name": "MSI GeForce RTX 4070 Ti SUPER VENTUS 2X 16GB GDDR6X Silver / Black",
         "variant": "MSI",
@@ -5876,20 +5625,6 @@
         "length": 242,
         "tdp": 285,
         "memory_type": "GDDR6X"
-    },
-    {
-        "id": "3a855ed1-bdc7-4b94-9991-35db729eb285",
-        "name": "Gigabyte D6 Rev 2.0 GeForce RTX 2060 6GB GDDR6 Black / Gray",
-        "variant": "Gigabyte",
-        "amazon_sku": "B08CRZTTBZ",
-        "clean_name": "Gigabyte D6 Rev 2.0 GeForce RTX 2060 GDDR6 Black / Gray",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1680,
-        "length": 226,
-        "tdp": 160,
-        "memory_type": "GDDR6"
     },
     {
         "id": "cd973deb-0d12-4cf1-9cc6-23c4c012d6c6",
@@ -6034,20 +5769,6 @@
         "memory_type": "GDDR6X",
         "price": 3266.2,
         "last_updated": "2026-04-30T06:43:18.578Z"
-    },
-    {
-        "id": "2c5f42bd-df61-4dea-9c4f-c20194b15b84",
-        "name": "MSI GeForce RTX 2060 GAMING Z 6G",
-        "variant": "6G",
-        "amazon_sku": "B07MQ36Z6L",
-        "clean_name": "MSI GeForce RTX 2060 GAMING Z 6G",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1530,
-        "boost_clock": 1830,
-        "length": 247,
-        "tdp": 190,
-        "memory_type": "GDDR6"
     },
     {
         "id": "aefc3691-ef50-4289-bd7a-13413d633d19",
@@ -6442,20 +6163,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "1b74b133-8ac6-4aa7-9507-d7d9d3c5083f",
-        "name": "ASUS Dual GeForce RTX 2060 EVO 6GB GDDR6",
-        "variant": "",
-        "amazon_sku": "B07R18TH1X",
-        "clean_name": "ASUS Dual GeForce RTX 2060 EVO GDDR6",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1680,
-        "length": 242,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "16cbeca8-be16-4112-ae10-b8eed8cde827",
         "name": "Asus ROG Astral OC HATSUNE MIKU EDITION GeForce RTX 5080 16GB GDDR7 ",
         "variant": "OC HATSUNE MIKU EDITION",
@@ -6581,20 +6288,6 @@
         "boost_clock": 1350,
         "length": 286,
         "tdp": 250,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "6f89912e-ea78-4912-9252-80978ed1c4dd",
-        "name": "Asus DUAL Radeon RX 6400 4 GB",
-        "variant": "Asus",
-        "amazon_sku": "B09Z792H4C",
-        "clean_name": "Asus DUAL Radeon RX 6400",
-        "chipset": "Radeon RX 6400",
-        "vram": 4,
-        "core_clock": 1923,
-        "boost_clock": 1923,
-        "length": 201,
-        "tdp": 53,
         "memory_type": "GDDR6"
     },
     {
@@ -6821,34 +6514,6 @@
         "memory_type": "GDDR6",
         "price": 288.19,
         "last_updated": "2026-04-30T06:47:52.201Z"
-    },
-    {
-        "id": "7805cbc5-8762-4a4f-b053-d3581914d852",
-        "name": "Sapphire PULSE Radeon RX 5600 XT 6GB GDDR6 Black / Red",
-        "variant": "Sapphire",
-        "amazon_sku": "B083R25Z94",
-        "clean_name": "Sapphire PULSE Radeon RX 5600 XT GDDR6 Black / Red",
-        "chipset": "Radeon RX 5600 XT",
-        "vram": 6,
-        "core_clock": 1247,
-        "boost_clock": 1750,
-        "length": 254,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "a0ac179c-1afe-4d0d-b1f0-af7163fd4051",
-        "name": "Asus Turbo GeForce RTX 2060 6GB GDDR6 Black / Silver",
-        "variant": "Asus",
-        "amazon_sku": "B07MSK1H93",
-        "clean_name": "Asus Turbo GeForce RTX 2060 GDDR6 Black / Silver",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1710,
-        "length": 268,
-        "tdp": 160,
-        "memory_type": "GDDR6"
     },
     {
         "id": "a9163122-4e17-4531-9a47-543501e3dd36",
@@ -8004,20 +7669,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "62efe703-6275-4654-9fb7-00e52baa602d",
-        "name": "EVGA KO ULTRA GAMING GeForce RTX 2060 6GB GDDR6 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B083GGYNQ6",
-        "clean_name": "EVGA KO ULTRA GAMING GeForce RTX 2060 GDDR6 Black",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1755,
-        "length": 202,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "d8268ef9-2383-43da-ab12-dc0fef4f360b",
         "name": "MSI ARMOR Radeon RX 6600 8GB GDDR6 Black / White",
         "variant": "MSI",
@@ -8196,20 +7847,6 @@
         "boost_clock": 2565,
         "length": 279,
         "tdp": 263,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "b3ad8ca4-91fa-4363-b0af-744687511368",
-        "name": "Gigabyte GAMING OC Radeon RX 6500 XT 4GB GDDR6 Black / Gray",
-        "variant": "Gigabyte",
-        "amazon_sku": "B09QNQZMZR",
-        "clean_name": "Gigabyte GAMING OC Radeon RX 6500 XT GDDR6 Black / Gray",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2310,
-        "boost_clock": 2825,
-        "length": 282,
-        "tdp": 107,
         "memory_type": "GDDR6"
     },
     {
@@ -8395,19 +8032,6 @@
         "length": 269,
         "tdp": 200,
         "memory_type": "GDDR6X"
-    },
-    {
-        "id": "7fdacb9d-0292-4ac3-a588-3638f8eb97fe",
-        "name": "XFX RX 5600 XT THICC II PRO",
-        "variant": "THICC II Pro",
-        "amazon_sku": "B083FWMZ8Z",
-        "clean_name": "XFX RX 5600 XT THICC II PRO",
-        "chipset": "Radeon RX 5600 XT",
-        "vram": 6,
-        "boost_clock": 1620,
-        "length": 280,
-        "tdp": 160,
-        "memory_type": "GDDR6"
     },
     {
         "id": "3b884570-e5b1-46ac-a0e6-02b59079e26d",
@@ -9329,20 +8953,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "8bb47ccb-9c2e-46a3-bec7-7ee87762ca31",
-        "name": "MSI MECH 2X OC Radeon RX 6500 XT 4GB GDDR6 Black / Silver",
-        "variant": "MSI",
-        "amazon_sku": "B09Q9CQ9PG",
-        "clean_name": "MSI MECH 2X OC Radeon RX 6500 XT GDDR6 Black / Silver",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2310,
-        "boost_clock": 2825,
-        "length": 172,
-        "tdp": 107,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "98178c2d-bad0-4c2c-af91-adca1d13da24",
         "name": "Asus GeForce RTX 4070 Ti TUF GAMING OC 12GB GDDR6X Black",
         "variant": "Asus",
@@ -9538,21 +9148,6 @@
         "length": 287,
         "tdp": 355,
         "memory_type": "GDDR6"
-    },
-    {
-        "id": "6530f66c-2112-42fb-8f81-047f159ffc28",
-        "name": "GeForce RTX 2060",
-        "amazon_sku": "B07MC63K76",
-        "clean_name": "GeForce RTX 2060",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1680,
-        "length": 229,
-        "tdp": 160,
-        "memory_type": "GDDR6",
-        "price": 587.18,
-        "last_updated": "2026-04-30T07:02:50.389Z"
     },
     {
         "id": "d16335dc-3a6e-4de7-8671-3e8f84b893e6",
@@ -9931,20 +9526,6 @@
         "length": 270,
         "tdp": 210,
         "memory_type": "HBM2"
-    },
-    {
-        "id": "9ea1fdd4-3e5b-42cf-a93a-10e0269e7c92",
-        "name": "Sapphire Radeon RX 6500 XT PULSE ITX PURE 4GB GDDR6 White",
-        "variant": "Sapphire",
-        "amazon_sku": "B0CDTV5PWS",
-        "clean_name": "Sapphire Radeon RX 6500 XT PULSE ITX PURE GDDR6 White",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2310,
-        "boost_clock": 2825,
-        "length": 152,
-        "tdp": 130,
-        "memory_type": "GDDR6"
     },
     {
         "id": "7fd64158-5da8-41b1-9195-9a984cc005fd",
@@ -10814,20 +10395,6 @@
         "memory_type": "GDDR7"
     },
     {
-        "id": "cfada353-8025-484d-8a04-414fd05d8801",
-        "name": "MSI GeForce RTX 2060 GAMING 6G GDDR6",
-        "variant": "",
-        "amazon_sku": "B07QT7TQVF",
-        "clean_name": "MSI GeForce RTX 2060 GAMING 6G GDDR6",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1680,
-        "length": 247,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "5ac2266d-a161-402c-bce7-dc7a6c97e63f",
         "name": "Gigabyte AORUS ELITE GeForce RTX 3060 Ti 8GB GDDR6 Black",
         "variant": "Gigabyte",
@@ -10993,18 +10560,6 @@
         "length": 355.5,
         "tdp": 450,
         "memory_type": "GDDR6X"
-    },
-    {
-        "id": "3605aa0e-f61b-46cd-8f7c-f58e4baa6dea",
-        "name": "SAPPHIRE PULSE AMD Radeon RX 6400",
-        "amazon_sku": "B09Y2JWMXS",
-        "clean_name": "SAPPHIRE PULSE AMD Radeon RX 6400",
-        "chipset": "Radeon RX 6400",
-        "vram": 4,
-        "boost_clock": 2321,
-        "length": 170,
-        "tdp": 55,
-        "memory_type": "GDDR6"
     },
     {
         "id": "e213c029-4f0a-41a9-81da-796fa8f0137e",
@@ -12172,20 +11727,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "4cee7649-b6e0-4b7c-8511-196db30f0517",
-        "name": "PowerColor Radeon RX 6400 4GB GDDR6 PCI Express 4.0 ITX Video Card AXRX 6400 4GBD6-DH",
-        "variant": "ITX Single Fan",
-        "amazon_sku": "B09WXVVP89",
-        "clean_name": "PowerColor Radeon RX 6400 GDDR6 PCI Express 4.0 ITX AXRX 6400 D6-DH",
-        "chipset": "Radeon RX 6400",
-        "vram": 4,
-        "core_clock": 2039,
-        "boost_clock": 2321,
-        "length": 165,
-        "tdp": 350,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "db766abc-c6de-4e86-8994-bb8c7db63ce8",
         "name": "PNY VCG509032TFXPB1 GeForce RTX 5090 32GB GDDR7 Black",
         "variant": "",
@@ -12225,20 +11766,6 @@
         "boost_clock": 1912,
         "length": 270,
         "tdp": 170,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "231ee847-8165-462e-8f05-3a40fac4bf39",
-        "name": "Gigabyte EAGLE Radeon RX 6400 4 GB",
-        "variant": "Gigabyte",
-        "amazon_sku": "B09YVR56HB",
-        "clean_name": "Gigabyte EAGLE Radeon RX 6400",
-        "chipset": "Radeon RX 6400",
-        "vram": 4,
-        "core_clock": 1923,
-        "boost_clock": 1923,
-        "length": 192,
-        "tdp": 53,
         "memory_type": "GDDR6"
     },
     {
@@ -12441,20 +11968,6 @@
         "memory_type": "GDDR6X"
     },
     {
-        "id": "0acdcd5f-d3d2-45e8-9d5d-981c37dd8cef",
-        "name": "Asus GeForce RTX 3050 6GB DUAL OC 6GB GDDR6 Black",
-        "variant": "OC",
-        "amazon_sku": "B0CVCG2VPK",
-        "clean_name": "Asus GeForce RTX 3050 DUAL OC GDDR6 Black",
-        "chipset": "GeForce RTX 3050 6 GB",
-        "vram": 6,
-        "core_clock": 1507,
-        "boost_clock": 1537,
-        "length": 201,
-        "tdp": 130,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "d9d25ed0-e9d6-4c83-9547-ee824d44afe2",
         "name": "GALAX EX Gamer GeForce RTX 4070 12GB GDDR6X White",
         "variant": "GALAX",
@@ -12571,20 +12084,6 @@
         "memory_type": "GDDR7"
     },
     {
-        "id": "85c04c17-b56b-4939-af9e-6b2a02776541",
-        "name": "Zotac GAMING Low Profile GeForce RTX 3050 6GB GDDR6 Black",
-        "variant": "Zotac",
-        "amazon_sku": "B0D4TRRSDV",
-        "clean_name": "Zotac GAMING Low Profile GeForce RTX 3050 GDDR6 Black",
-        "chipset": "GeForce RTX 3050 6 GB",
-        "vram": 6,
-        "core_clock": 1040,
-        "boost_clock": 1470,
-        "length": 151,
-        "tdp": 70,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "85e2fa0e-195b-43fa-931d-9f2e3d951f22",
         "name": "EVGA XC3 ULTRA GAMING iCX3 GeForce RTX 3080 Ti 12GB GDDR6X Black",
         "variant": "EVGA",
@@ -12681,20 +12180,6 @@
         "boost_clock": 1830,
         "length": 270,
         "tdp": 250,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "e2284a6f-8bfa-4cb1-a67d-c13bc1325c70",
-        "name": "MSI Radeon RX 5600 XT MECH OC Graphics Card",
-        "variant": "MECH OC",
-        "amazon_sku": "B083VPXN78",
-        "clean_name": "MSI Radeon RX 5600 XT MECH OC",
-        "chipset": "Radeon RX 5600 XT",
-        "vram": 6,
-        "core_clock": 1235,
-        "boost_clock": 1620,
-        "length": 231,
-        "tdp": 150,
         "memory_type": "GDDR6"
     },
     {
@@ -12996,19 +12481,6 @@
         "memory_type": "GDDR6X"
     },
     {
-        "id": "8d254602-bd87-4ade-9513-8cfe40592eb0",
-        "name": "EVGA GeForce RTX 2060 XC GAMING, 06G-P4-2063-KR, 6GB GDDR6, HDB Fan",
-        "variant": "SC Ultra Gaming",
-        "amazon_sku": "B07MJDBTD5",
-        "clean_name": "EVGA GeForce RTX 2060 XC GAMING, 06G-P4-2063-KR, GDDR6, HDB Fan",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "boost_clock": 1755,
-        "length": 189.89,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "d3563f13-5cee-4c02-bf35-dac6d9755f40",
         "name": "MSI GAMING X TRIO GeForce RTX 3060 Ti 8GB GDDR6X Black",
         "variant": "MSI",
@@ -13168,20 +12640,6 @@
         "memory_type": "GDDR7"
     },
     {
-        "id": "1670c930-e541-4069-9a4d-0da71e6123b8",
-        "name": "MSI GeForce RTX 2060 VENTUS GP OC 6GB GDDR6 Gray / Black",
-        "variant": "MSI",
-        "amazon_sku": "B091PVFYXM",
-        "clean_name": "MSI GeForce RTX 2060 VENTUS GP OC GDDR6 Gray / Black",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1710,
-        "length": 231,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "b6bda775-cbab-43f0-8d5e-8e73434d37e8",
         "name": "ASRock Radeon RX 6750 XT Challenger Pro OC 12GB GDDR6 Black",
         "variant": "ASRock",
@@ -13235,20 +12693,6 @@
         "boost_clock": 2560,
         "length": 320,
         "tdp": 368,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "808cf3a0-bf4d-4a22-a01a-0c10e83e664e",
-        "name": "Inno3D Twin X2 GeForce RTX 3050 6GB GDDR6 Gray Black",
-        "variant": "Inno3D",
-        "amazon_sku": "B0CZ496M31",
-        "clean_name": "Inno3D Twin X2 GeForce RTX 3050 GDDR6 Gray Black",
-        "chipset": "GeForce RTX 3050 6 GB",
-        "vram": 6,
-        "core_clock": 1040,
-        "boost_clock": 1470,
-        "length": 222,
-        "tdp": 70,
         "memory_type": "GDDR6"
     },
     {
@@ -13549,20 +12993,6 @@
         "memory_type": "GDDR6X"
     },
     {
-        "id": "c1ba453c-aeaf-4075-aba1-23dc4af3f4f8",
-        "name": "Palit StormX GeForce RTX 2060 6GB GDDR6 Black",
-        "variant": "Palit",
-        "amazon_sku": "B07MM5Z4G2",
-        "clean_name": "Palit StormX GeForce RTX 2060 GDDR6 Black",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1680,
-        "length": 168,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "469a3818-94d8-440b-8328-464ddc7a5f88",
         "name": "MSI VENTUS 3X E1 OC GeForce RTX 4070 12GB GDDR6 Silver / Black",
         "variant": "MSI",
@@ -13588,20 +13018,6 @@
         "boost_clock": 2810,
         "length": 302,
         "tdp": 190,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "bdd2dec8-588f-4fd0-840d-aabde86cea6c",
-        "name": "PowerColor Red Devil RX 5600 XT OC 14Gbps",
-        "variant": "OC 14Gbps",
-        "amazon_sku": "B083TSWXLG",
-        "clean_name": "PowerColor Red Devil RX 5600 XT OC ps",
-        "chipset": "Radeon RX 5600 XT",
-        "vram": 6,
-        "core_clock": 1400,
-        "boost_clock": 1750,
-        "length": 240,
-        "tdp": 150,
         "memory_type": "GDDR6"
     },
     {
@@ -14253,20 +13669,6 @@
         "memory_type": "GDDR6X"
     },
     {
-        "id": "9d3d746b-03b2-48f9-86b4-565307f145fe",
-        "name": "NVIDIA GeForce RTX 2060 Founders Edition 6GB GDDR6 Silver / Black",
-        "variant": "NVIDIA",
-        "amazon_sku": "B07MW44MYL",
-        "clean_name": "NVIDIA GeForce RTX 2060 Founders Edition GDDR6 Silver / Black",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1680,
-        "length": 229,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "dfa683ba-c635-4709-bb33-b12cd6f2e0bc",
         "name": "MSI GeForce RTX 4070 SUPER VENTUS 2X OC 12GB GDDR6X Black",
         "variant": "MSI",
@@ -14407,20 +13809,6 @@
         "length": 307,
         "tdp": 285,
         "memory_type": "GDDR6X"
-    },
-    {
-        "id": "bbf8b2f9-47a3-49a6-90ce-14c52efdf356",
-        "name": "MSI GAMING MX Radeon RX 5600 XT 6GB GDDR6 Black / Silver",
-        "variant": "MSI",
-        "amazon_sku": "B08CKDLN91",
-        "clean_name": "MSI GAMING MX Radeon RX 5600 XT GDDR6 Black / Silver",
-        "chipset": "Radeon RX 5600 XT",
-        "vram": 6,
-        "core_clock": 1280,
-        "boost_clock": 1620,
-        "length": 297,
-        "tdp": 150,
-        "memory_type": "GDDR6"
     },
     {
         "id": "11eeeb4e-6174-41eb-ad93-cd66078d4530",
@@ -14605,19 +13993,6 @@
         "last_updated": "2026-04-30T07:31:09.191Z"
     },
     {
-        "id": "05f34cfb-91e2-4036-a79e-52bdbfdff8e1",
-        "name": "SAPPHIRE PULSE Radeon RX 6500 XT",
-        "amazon_sku": "B09PZJ2JNZ",
-        "clean_name": "SAPPHIRE PULSE Radeon RX 6500 XT",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2685,
-        "boost_clock": 2825,
-        "length": 194,
-        "tdp": 130,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "a134463c-5701-4fc4-a31a-c93a05e5fe3f",
         "name": "EVGA GeForce RTX 2070 SUPER KO GAMING",
         "variant": "KO Gaming",
@@ -14686,20 +14061,6 @@
         "length": 331,
         "tdp": 285,
         "memory_type": "GDDR6X"
-    },
-    {
-        "id": "5e874e53-89d5-4aa2-b7af-d858841df990",
-        "name": "Radeon RX 6500 XT MECH 2X 4G OC",
-        "variant": "4G OC",
-        "amazon_sku": "B09R1RVN3R",
-        "clean_name": "Radeon RX 6500 XT MECH 2X 4G OC",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2685,
-        "boost_clock": 2825,
-        "length": 172,
-        "tdp": 107,
-        "memory_type": "GDDR6"
     },
     {
         "id": "49cbe4c6-19cd-4819-b0ff-7cd285b6b699",
@@ -14870,20 +14231,6 @@
         "memory_type": "GDDR6X"
     },
     {
-        "id": "2f2c0630-4f9d-4476-a1f2-fe03f4c0c83a",
-        "name": "EVGA KO GAMING GeForce RTX 2060 6GB GDDR6 Gray / Black",
-        "variant": "EVGA",
-        "amazon_sku": "B083GH7LXW",
-        "clean_name": "EVGA KO GAMING GeForce RTX 2060 GDDR6 Gray / Black",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1680,
-        "length": 202,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "6247bae5-7a7f-4ffe-963f-f6901ff4a07a",
         "name": "MSI GeForce RTX 5070 12G SHADOW 3X OC 12GB GDDR7",
         "variant": "OC ",
@@ -14996,20 +14343,6 @@
         "memory_type": "GDDR6X"
     },
     {
-        "id": "716cd04d-c1b1-45f7-850f-2886cf6f3eb2",
-        "name": "EVGA GeForce RTX 2060 SC GAMING 6GB GDDR6",
-        "variant": "",
-        "amazon_sku": "B07NXYT866",
-        "clean_name": "EVGA GeForce RTX 2060 SC GAMING GDDR6",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1710,
-        "length": 189.89,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "c06a821f-e12f-4445-8f82-99cd05944806",
         "name": "MSI GAMING X GeForce RTX 3050 8GB 8 GB",
         "variant": "MSI",
@@ -15036,38 +14369,6 @@
         "length": 243,
         "tdp": 132,
         "memory_type": "GDDR6"
-    },
-    {
-        "id": "a5a2cd28-5b47-448f-85ad-97a4ba4bd55c",
-        "name": "Sparkle ECO Arc A310 4GB GDDR6 ",
-        "variant": "",
-        "amazon_sku": "B0CSFJN835",
-        "clean_name": "Sparkle ECO Arc A310 GDDR6",
-        "chipset": "Arc A310",
-        "vram": 4,
-        "core_clock": 2000,
-        "boost_clock": 2000,
-        "length": 156,
-        "tdp": 50,
-        "memory_type": "GDDR6",
-        "price": 184.31,
-        "last_updated": "2026-04-30T07:33:41.889Z"
-    },
-    {
-        "id": "f98ac33b-401d-43fe-b4f8-5397f16ed4eb",
-        "name": "ASRock Low Profile Arc A310 4 GB",
-        "variant": "ASRock",
-        "amazon_sku": "B0CJGP8WJJ",
-        "clean_name": "ASRock Low Profile Arc A310",
-        "chipset": "Arc A310",
-        "vram": 4,
-        "core_clock": 2000,
-        "boost_clock": 2000,
-        "length": 169,
-        "tdp": 30,
-        "memory_type": "GDDR6",
-        "price": 184.3,
-        "last_updated": "2026-04-30T07:33:45.978Z"
     },
     {
         "id": "2ccdabbf-0808-49c4-9e12-2618def88f11",
@@ -15319,20 +14620,6 @@
         "boost_clock": 1725,
         "length": 294,
         "tdp": 220,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "232d877a-ff0a-4156-9604-4e95ead63295",
-        "name": "Gigabyte EAGLE Radeon RX 6500 XT 4GB GDDR6 Black",
-        "variant": "Gigabyte",
-        "amazon_sku": "B09QV67R17",
-        "clean_name": "Gigabyte EAGLE Radeon RX 6500 XT GDDR6 Black",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2310,
-        "boost_clock": 2815,
-        "length": 192,
-        "tdp": 107,
         "memory_type": "GDDR6"
     },
     {
@@ -15833,20 +15120,6 @@
         "length": 227,
         "tdp": 220,
         "memory_type": "GDDR6X"
-    },
-    {
-        "id": "9b049175-fe79-455a-9944-07b253f97efa",
-        "name": "PowerColor RX 5600 XT ITX",
-        "variant": "ITX",
-        "amazon_sku": "B087Y4CQ57",
-        "clean_name": "PowerColor RX 5600 XT ITX",
-        "chipset": "Radeon RX 5600 XT",
-        "vram": 6,
-        "core_clock": 1130,
-        "boost_clock": 1560,
-        "length": 175,
-        "tdp": 150,
-        "memory_type": "GDDR6"
     },
     {
         "id": "3031e1a8-3f9b-4337-89af-4e81f07de97e",
@@ -16711,20 +15984,6 @@
         "memory_type": "GDDR6"
     },
     {
-        "id": "7ff24e3c-ca88-4b52-a9c2-4e3db5607bd6",
-        "name": "Asus TUF GAMING OC Radeon RX 6500 XT 4GB GDDR6 Black",
-        "variant": "Asus",
-        "amazon_sku": "B09QF3PCT7",
-        "clean_name": "Asus TUF GAMING OC Radeon RX 6500 XT GDDR6 Black",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2310,
-        "boost_clock": 2825,
-        "length": 250,
-        "tdp": 107,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "6a69d72d-5247-49d0-9c7b-79db8ac32fc3",
         "name": "Acer Arc A770 Predator BiFrost OC 16GB GDDR6 Black / Silver",
         "variant": "Acer",
@@ -16736,20 +15995,6 @@
         "boost_clock": 2400,
         "length": 267,
         "tdp": 225,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "1c7e59d8-eccb-476c-ae25-1337c6d36630",
-        "name": "Zotac GAMING GeForce RTX 2060 6GB GDDR6 Black",
-        "variant": "Zotac",
-        "amazon_sku": "B07TDN1SC5",
-        "clean_name": "Zotac GAMING GeForce RTX 2060 GDDR6 Black",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1680,
-        "length": 210,
-        "tdp": 160,
         "memory_type": "GDDR6"
     },
     {
@@ -16849,22 +16094,6 @@
         "length": 342,
         "tdp": 320,
         "memory_type": "GDDR6X"
-    },
-    {
-        "id": "7f768077-47f5-4e88-b045-c49b87a8d2b8",
-        "name": "XFX Speedster QICK 210 Radeon RX 6500 XT 4GB GDDR6 Black / Silver",
-        "variant": "XFX",
-        "amazon_sku": "B09Q98KRTG",
-        "clean_name": "XFX Speedster QICK 210 Radeon RX 6500 XT GDDR6 Black / Silver",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2310,
-        "boost_clock": 2825,
-        "length": 232,
-        "tdp": 107,
-        "memory_type": "GDDR6",
-        "price": 351.09,
-        "last_updated": "2026-04-30T07:44:02.473Z"
     },
     {
         "id": "a9001be1-0c68-4686-85cc-63c379d370c6",
@@ -17058,20 +16287,6 @@
         "length": 305,
         "tdp": 220,
         "memory_type": "GDDR6X"
-    },
-    {
-        "id": "0fe5b7d9-8a5b-4834-994f-a9cb440a80c5",
-        "name": "ASRock Intel Arc A380 Challenger ITX 6GB GDDR6 OC",
-        "variant": "OC",
-        "amazon_sku": "B0BFD8DSM3",
-        "clean_name": "ASRock Intel Arc A380 Challenger ITX GDDR6 OC",
-        "chipset": "Arc A380",
-        "vram": 6,
-        "core_clock": 2250,
-        "boost_clock": 2250,
-        "length": 190,
-        "tdp": 75,
-        "memory_type": "GDDR6"
     },
     {
         "id": "8bdbea77-e5c9-46af-80a3-95082d280f3c",
@@ -17368,20 +16583,6 @@
         "length": 338,
         "tdp": 360,
         "memory_type": "GDDR7"
-    },
-    {
-        "id": "758694a4-ea92-4e27-a7d9-ca471939f116",
-        "name": "MSI GeForce RTX 3050 GAMING X 6G GDDR6",
-        "variant": "X ",
-        "amazon_sku": "B0CV1F6439",
-        "clean_name": "MSI GeForce RTX 3050 GAMING X 6G GDDR6",
-        "chipset": "GeForce RTX 3050 6 GB",
-        "vram": 6,
-        "core_clock": 1042,
-        "boost_clock": 1507,
-        "length": 205,
-        "tdp": 70,
-        "memory_type": "GDDR6"
     },
     {
         "id": "ddb1722e-fa4a-4eee-9544-484f140cb616",
@@ -18025,19 +17226,6 @@
         "memory_type": "GDDR6X"
     },
     {
-        "id": "978ce9be-5b6b-41b1-9b0d-f82360e2ab21",
-        "name": "PowerColor RED DRAGON Radeon RX 5600 XT 6GB GDDR6 PCI Express 4.0 CrossFireX Support ATX Video Card AXRX 5600XT 6GBD6-3DHR/OC",
-        "amazon_sku": "B083TRG3F6",
-        "clean_name": "PowerColor RED DRAGON Radeon RX 5600 XT GDDR6 PCI Express 4.0 CrossFireX Support ATX AXRX 5600XT D6-3DHR/OC",
-        "chipset": "Radeon RX 5600 XT",
-        "vram": 6,
-        "core_clock": 1560,
-        "boost_clock": 1620,
-        "length": 240,
-        "tdp": 160,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "203943ff-c8f3-4d3b-825f-208258fc8b46",
         "name": "AORUS Radeon RX 6750 XT ELITE 12G",
         "variant": "ELITE",
@@ -18475,20 +17663,6 @@
         "last_updated": "2026-04-30T07:52:31.430Z"
     },
     {
-        "id": "763e1e78-2fd3-47ab-a32d-4d30fb1bd715",
-        "name": "ASRock Challenger ITX Radeon RX 6400 4 GB",
-        "variant": "ASRock",
-        "amazon_sku": "B09YRXYDTT",
-        "clean_name": "ASRock Challenger ITX Radeon RX 6400",
-        "chipset": "Radeon RX 6400",
-        "vram": 4,
-        "core_clock": 1923,
-        "boost_clock": 1923,
-        "length": 162,
-        "tdp": 53,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "91375020-a039-4049-af87-d42de88432af",
         "name": "Sapphire Pulse AMD Radeon RX 7800 XT Gaming 16GB GDDR6",
         "variant": "",
@@ -18689,20 +17863,6 @@
         "memory_type": "GDDR6X"
     },
     {
-        "id": "4051ee98-6673-4f27-b7d7-5923e7c1906f",
-        "name": "PowerColor Fighter OC Radeon RX 6500 XT 4GB GDDR6",
-        "variant": "OC ",
-        "amazon_sku": "B09PSN3Y63",
-        "clean_name": "PowerColor Fighter OC Radeon RX 6500 XT GDDR6",
-        "chipset": "Radeon RX 6500 XT",
-        "vram": 4,
-        "core_clock": 2365,
-        "boost_clock": 2820,
-        "length": 191,
-        "tdp": 107,
-        "memory_type": "GDDR6"
-    },
-    {
         "id": "372d6954-a76a-43a6-abff-6cb205e0aa99",
         "name": "Asus PRIME OC Edition Radeon RX 9070 16GB GDDR6 Black",
         "variant": "OC Edition",
@@ -18728,20 +17888,6 @@
         "boost_clock": 2400,
         "length": 305,
         "tdp": 225,
-        "memory_type": "GDDR6"
-    },
-    {
-        "id": "706b9fd1-582b-43a7-bf85-1ea237b2978a",
-        "name": "XFX RX 5500 XT THICC II Pro 4GB GDDR6, DX12 VR Ready, 3xDP HDMI, PCI-E AMD Graphics Card (RX-55XT4DFD6)",
-        "variant": "THICC II Pro",
-        "amazon_sku": "B082KYTYSP",
-        "clean_name": "XFX RX 5500 XT THICC II Pro GDDR6, DX12 VR Ready, 3xDP HDMI, PCI-E AMD (RX-55XT4DFD6)",
-        "chipset": "Radeon RX 5500 XT",
-        "vram": 4,
-        "core_clock": 1717,
-        "boost_clock": 1845,
-        "length": 281,
-        "tdp": 130,
         "memory_type": "GDDR6"
     },
     {
@@ -18987,20 +18133,6 @@
         "memory_type": "GDDR7",
         "price": 587.19,
         "last_updated": "2026-04-30T07:55:08.516Z"
-    },
-    {
-        "id": "a3458791-5a2e-480c-81bd-434ad31f964a",
-        "name": "Gigabyte OC Rev 2.0 GeForce RTX 2060 6GB GDDR6 Black / Gray",
-        "variant": "Gigabyte",
-        "amazon_sku": "B07NYKD5FT",
-        "clean_name": "Gigabyte OC Rev 2.0 GeForce RTX 2060 GDDR6 Black / Gray",
-        "chipset": "GeForce RTX 2060",
-        "vram": 6,
-        "core_clock": 1365,
-        "boost_clock": 1755,
-        "length": 226,
-        "tdp": 160,
-        "memory_type": "GDDR6"
     },
     {
         "id": "94c35469-9736-47f4-bbdc-d5bfc5aa6441",
