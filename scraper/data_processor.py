@@ -27,11 +27,9 @@ CATEGORY_MAPPING = {
 # FILTER CONSTANTS
 # ==========================================
 
-# Modern consumer GPU detection (GTX 1000+ / RX 400+ / Intel Arc, ~2016+)
+# Modern consumer GPU detection (RTX 2000+ / RX 5000+ / Intel Arc, ~2019+)
 _MODERN_GPU_RE = re.compile(
-    r"gtx\s*1[0-9]\d\d"        # GTX 1000-1999 (Pascal, Turing low-end)
-    r"|rtx\s*[2-9]\d{3}"       # RTX 2000-9000 series
-    r"|\brx\s*[45]\d{2}\b"     # RX 400 and RX 500 series (Polaris)
+    r"rtx\s*[2-9]\d{3}"        # RTX 2000-9000 series
     r"|\brx\s*[5-9]\d{3}\b"    # RX 5000-9000 series (RDNA1-4)
     r"|\bvega\s*\d+"            # RX Vega 56 / 64
     r"|\bradeon\s+vii\b"        # Radeon VII (2019)
@@ -47,10 +45,9 @@ _EXCLUDED_GPU_RE = re.compile(
     re.IGNORECASE
 )
 
-# Consumer motherboard sockets (AM4/AM5 + Intel LGA 1200/1700/1851)
+# Consumer motherboard sockets (AM4/AM5 + Intel LGA 1700/1851)
 _MODERN_MB_SOCKETS = {
     "am4", "am5",
-    "lga1200", "lga 1200",
     "lga1700", "lga 1700",
     "lga1851", "lga 1851",
 }
@@ -69,7 +66,7 @@ _SERVER_CASE_RE = re.compile(
 _CONSUMER_FAN_SIZES = {120, 140}
 
 # CPUCooler: must support at least one of these modern sockets (if socket data is present)
-_MODERN_COOLER_SOCKETS = {"am4", "am5", "lga1200", "lga1700", "lga1851"}
+_MODERN_COOLER_SOCKETS = {"am4", "am5", "lga1700", "lga1851"}
 
 # Storage: only common consumer form factors / types
 _EXCLUDED_STORAGE_NAMES_RE = re.compile(
@@ -79,7 +76,7 @@ _EXCLUDED_STORAGE_NAMES_RE = re.compile(
 
 # PSU: consumer form factors and sane wattage range
 _CONSUMER_PSU_TYPES = {"atx", "sfx", "sfxl"}  # normalised (no spaces/hyphens)
-_PSU_MIN_W = 350
+_PSU_MIN_W = 450
 _PSU_MAX_W = 1600
 
 # PCCase: must support at least one standard consumer MB form factor
@@ -103,14 +100,12 @@ def is_modern_desktop_cpu(name, socket):
     for term in excluded_terms:
         if term in name_lower:
             return False
-    if socket:
-        socket_lower = socket.lower()
-        modern_sockets = ["am4", "am5", "lga1700", "lga1851", "lga1200", "lga1151"]
-        for modern_socket in modern_sockets:
-            if modern_socket in socket_lower:
-                return True
-    if "ryzen" in name_lower or "core i" in name_lower or "core ultra" in name_lower:
-        return True
+    if not socket:
+        return False
+    socket_lower = socket.lower()
+    for modern_socket in ["am4", "am5", "lga1700", "lga1851"]:
+        if modern_socket in socket_lower:
+            return True
     return False
 
 
@@ -131,17 +126,19 @@ def is_modern_motherboard(socket, name=""):
                 return True
     # Fallback: check name for socket pattern
     text = (name or "").lower()
-    return bool(re.search(r"am[45]|lga\s*1[27][05][01]|lga\s*1851", text))
+    return bool(re.search(r"am[45]|lga\s*1[78][05][01]|lga\s*1851", text))
 
 
 def is_modern_ram(name, speed=""):
-    """Keep only DDR4 and DDR5 memory."""
+    """Keep only DDR4/DDR5 with at least 8 GB capacity."""
     text = (name or "").lower() + " " + str(speed or "").lower()
-    if "ddr4" in text or "ddr5" in text:
-        return True
     if "ddr3" in text or "ddr2" in text or "ddr1" in text:
         return False
-    # Type not determinable from name — keep to avoid false exclusions
+    if "ddr4" not in text and "ddr5" not in text:
+        return False
+    cap = _parse_capacity_gb(name)
+    if cap is not None and cap < 8:
+        return False
     return True
 
 
@@ -175,10 +172,10 @@ def is_consumer_storage(interface, capacity_str="", storage_type="", name=""):
     if cap is not None:
         stype = (storage_type or "").lower()
         if "hdd" in stype or "hard" in stype:
-            if cap < 500:
+            if cap < 1000:
                 return False
         else:  # SSD / NVMe / unknown
-            if cap < 120:
+            if cap < 256:
                 return False
     return True
 
