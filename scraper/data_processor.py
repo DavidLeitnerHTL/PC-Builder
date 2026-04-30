@@ -388,16 +388,17 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         item_data["color"] = specs.get("color")
 
     elif raw_category == "Storage":
-        interface = specs.get("interface") or ""
-        capacity = specs.get("capacity") or ""
-        storage_type = specs.get("type") or ""
-        if not is_consumer_storage(interface, capacity, storage_type, name):
+        interface = raw_data.get("interface") or specs.get("interface") or ""
+        capacity_raw = raw_data.get("capacity")
+        capacity_str = f"{capacity_raw} GB" if capacity_raw is not None else (specs.get("capacity") or "")
+        storage_type = raw_data.get("type") or raw_data.get("storage_type") or specs.get("type") or ""
+        if not is_consumer_storage(interface, capacity_str, storage_type, name):
             return False
-        item_data["capacity"] = capacity or None
+        item_data["capacity"] = capacity_str or None
         item_data["type"] = storage_type or None
-        item_data["form_factor"] = specs.get("form_factor")
+        item_data["form_factor"] = raw_data.get("form_factor") or specs.get("form_factor")
         item_data["interface"] = interface or None
-        item_data["nvme"] = specs.get("nvme")
+        item_data["nvme"] = raw_data.get("nvme") or specs.get("nvme")
 
     elif raw_category == "PSU":
         psu_type = specs.get("type") or ""
@@ -412,28 +413,38 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
     elif raw_category == "PCCase":
         if not is_consumer_case(name):
             return False
-        mb_form = specs.get("motherboard_form_factor")
+        mb_form = raw_data.get("supported_motherboard_form_factors") or specs.get("motherboard_form_factor")
         if not is_consumer_case_mb(mb_form):
             return False
-        item_data["type"] = specs.get("type")
-        item_data["color"] = specs.get("color")
+        max_gpu = raw_data.get("max_video_card_length") or specs.get("maximum_video_card_length")
+        if not max_gpu:
+            return False
+        item_data["type"] = raw_data.get("form_factor") or specs.get("type")
+        item_data["color"] = raw_data.get("color") or specs.get("color")
         item_data["motherboard_support"] = mb_form
-        item_data["max_gpu_length"] = specs.get("maximum_video_card_length")
+        item_data["max_gpu_length"] = max_gpu
+        item_data["max_cooler_height"] = raw_data.get("max_cpu_cooler_height")
 
     elif raw_category == "CPUCooler":
-        sockets = raw_data.get("sockets") or specs.get("sockets") or []
-        if not is_modern_cooler(sockets):
+        sockets = raw_data.get("cpu_sockets") or raw_data.get("sockets") or specs.get("sockets") or []
+        if not sockets or not is_modern_cooler(sockets):
             return False
-        item_data["cooler_type"] = specs.get("water_cooled")
-        item_data["fan_rpm"] = specs.get("fan_rpm")
-        item_data["noise_level"] = specs.get("noise_level")
-        item_data["color"] = specs.get("color")
+        item_data["cooler_type"] = raw_data.get("water_cooled")
+        item_data["radiator_size"] = raw_data.get("radiator_size")
+        item_data["height"] = raw_data.get("height")
+        item_data["min_fan_rpm"] = raw_data.get("min_fan_rpm")
+        item_data["max_fan_rpm"] = raw_data.get("max_fan_rpm")
+        item_data["min_noise_level"] = raw_data.get("min_noise_level")
+        item_data["max_noise_level"] = raw_data.get("max_noise_level")
+        item_data["color"] = raw_data.get("color")
 
     elif raw_category == "OS":
         item_data["manufacturer"] = raw_data.get("metadata", {}).get("manufacturer", "")
 
     elif raw_category == "CaseFan":
         if raw_data.get("isOEM"):
+            return False
+        if not raw_data.get("pwm"):
             return False
         if not is_consumer_fan_size(raw_data.get("size")):
             return False
