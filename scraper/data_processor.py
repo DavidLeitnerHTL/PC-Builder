@@ -370,7 +370,7 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         vram = raw_data.get("memory") or specs.get("memory")
         if vram is not None:
             try:
-                if int(vram) < 4:
+                if int(vram) < 8:
                     return False
             except (ValueError, TypeError):
                 pass
@@ -441,11 +441,14 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         max_gpu = raw_data.get("max_video_card_length") or specs.get("maximum_video_card_length")
         if not max_gpu:
             return False
+        max_cooler = raw_data.get("max_cpu_cooler_height")
+        if not max_cooler:
+            return False
         item_data["type"] = case_ff or specs.get("type")
         item_data["color"] = raw_data.get("color") or specs.get("color")
         item_data["motherboard_support"] = mb_form
         item_data["max_gpu_length"] = max_gpu
-        item_data["max_cooler_height"] = raw_data.get("max_cpu_cooler_height")
+        item_data["max_cooler_height"] = max_cooler
 
     elif raw_category == "CPUCooler":
         sockets = raw_data.get("cpu_sockets") or raw_data.get("sockets") or specs.get("sockets") or []
