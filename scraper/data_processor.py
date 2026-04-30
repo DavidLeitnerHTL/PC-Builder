@@ -62,10 +62,10 @@ _SERVER_CASE_RE = re.compile(
     re.IGNORECASE
 )
 
-# PCCase: only consumer tower form factors
+# PCCase: only ATX/EATX and Mini-ITX towers (no Micro ATX towers — too many variants)
 _CONSUMER_CASE_FF_RE = re.compile(
-    r"mid[\s-]*tower|full[\s-]*tower|mini[\s-]*itx[\s-]*tower"
-    r"|micro[\s-]*atx[\s-]*(?:mid|mini)[\s-]*tower",
+    r"(?:eatx\s+|atx\s+)(?:mid|full)[\s-]*tower"
+    r"|mini[\s-]*itx[\s-]*tower",
     re.IGNORECASE
 )
 
@@ -454,6 +454,8 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         sockets = raw_data.get("cpu_sockets") or raw_data.get("sockets") or specs.get("sockets") or []
         if not sockets or not is_modern_cooler(sockets):
             return False
+        if not raw_data.get("min_noise_level") or not (raw_data.get("min_fan_rpm") or raw_data.get("max_fan_rpm")):
+            return False
         item_data["cooler_type"] = raw_data.get("water_cooled")
         item_data["radiator_size"] = raw_data.get("radiator_size")
         item_data["height"] = raw_data.get("height")
@@ -470,6 +472,8 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         if raw_data.get("isOEM"):
             return False
         if not raw_data.get("pwm"):
+            return False
+        if not raw_data.get("max_noise_level"):
             return False
         if not is_consumer_fan_size(raw_data.get("size")):
             return False
@@ -573,12 +577,16 @@ def process_hardware_data():
                 except Exception as error:
                     print(f"Failed to process {filename}: {error}")
 
-        # ── Deduplication by clean_name ────────────────────────────────────
-        # Multiple OEM/retail/colour variants often share the same clean_name.
-        # Keep the entry with the most populated spec fields (most keys wins).
+        # ── Deduplication ──────────────────────────────────────────────────
+        # GPU: one entry per chipset (brand variants are redundant in a builder).
+        # Others: deduplicate by clean_name.
+        # In both cases keep the entry with the most populated spec fields.
         seen_names: dict = {}
         for item in processed_items:
-            key = (item.get("clean_name") or item.get("name") or "").strip().lower()
+            if raw_category == "GPU":
+                key = (item.get("chipset") or "").strip().lower()
+            else:
+                key = (item.get("clean_name") or item.get("name") or "").strip().lower()
             if not key:
                 continue
             existing = seen_names.get(key)
