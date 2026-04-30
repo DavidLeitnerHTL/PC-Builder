@@ -681,17 +681,6 @@
         "capacity": "256GB"
     },
     {
-        "id": "415d9c69-8636-436a-a58f-0cd64ccd820a",
-        "name": "PNY Anarchy Black / Blue DDR4-2400 CL15 4GB (1x4GB)",
-        "variant": "2400 CL15",
-        "amazon_sku": "B012ASF4DC",
-        "clean_name": "PNY Anarchy Black / Blue",
-        "cas_latency": "CL15",
-        "ram_type": "DDR4-2400",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
-    },
-    {
         "id": "2e873a09-19d5-454a-8acb-fc6ce99ec317",
         "name": "G.Skill Trident Z5 Royal Neo RGB Silver DDR5-8000 CL38 32GB (2x16GB)",
         "variant": "8000 CL38",
@@ -782,13 +771,6 @@
         "ram_type": "DDR4-3200",
         "modules_config": "(2x8GB)",
         "capacity": "16GB"
-    },
-    {
-        "id": "7939d9c1-65d4-43d0-8df9-0ac39050c7fc",
-        "name": "Crucial Ballistix MAX RGB Memory Module BLM2K8G40C18U4BL",
-        "variant": "4000 MHz",
-        "amazon_sku": "B083TS2KJH",
-        "clean_name": "Crucial Ballistix MAX RGB Module BLM2K8G40C18U4BL"
     },
     {
         "id": "9c0beab7-7363-4f9f-8bcc-24b3d21606df",
@@ -2081,15 +2063,6 @@
         "capacity": "16GB"
     },
     {
-        "id": "ebed1772-9035-4451-9bdd-6f7e8d4b10d5",
-        "name": "GIGABYTE Memory 16GB (2x8GB) 2666MHz",
-        "variant": "2666MHz",
-        "amazon_sku": "B07JZW8BK5",
-        "clean_name": "GIGABYTE 2666MHz",
-        "modules_config": "(2x8GB)",
-        "capacity": "16GB"
-    },
-    {
         "id": "50a80755-ab45-4c2b-9f9b-e8000b9302df",
         "name": "GIGASTONE Game PRO 64GB Kit (4x16GB) DDR4 3200MHz CL16 BLACK",
         "variant": "3200 CL16",
@@ -2220,13 +2193,6 @@
         "ram_type": "DDR4-3200",
         "modules_config": "(2x16GB)",
         "capacity": "32GB"
-    },
-    {
-        "id": "6b996b31-dd08-4aca-968b-f68ff1b3e1fc",
-        "name": "RAM Mushkin D4 3600 16GB C14 RedlineST K2",
-        "amazon_sku": "B0BK5FP1YG",
-        "clean_name": "RAM Mushkin D4 3600 C14 RedlineST K2",
-        "capacity": "16GB"
     },
     {
         "id": "475e0b93-50d2-42fa-8aaa-fb3fcb29bffc",
@@ -3090,14 +3056,6 @@
         "capacity": "8GB"
     },
     {
-        "id": "c2820cd5-d8d9-4d4e-9f00-6d417c4684d3",
-        "name": "8GB Crucial Ballistix Tactical Tracer 2666MHz PC4-21300 1.2V CL16 Memory Module",
-        "amazon_sku": "B07B51W1GV",
-        "clean_name": "Crucial Ballistix Tactical Tracer 2666MHz PC4-21300 1.2V Module",
-        "cas_latency": "CL16",
-        "capacity": "8GB"
-    },
-    {
         "id": "0c66c678-98d8-45a8-8858-70d81b4301ce",
         "name": "ADATA XPG RGB Black DDR5-6400 CL32 64GB (2x32GB)",
         "variant": "6400 CL32",
@@ -3186,17 +3144,6 @@
         "capacity": "32GB",
         "price": 684.61,
         "last_updated": "2026-04-30T06:29:08.440Z"
-    },
-    {
-        "id": "c367ec42-e603-47d3-ae4b-83c61a13518b",
-        "name": "Crucial CT4G4DFS8213 Black / Green DDR4-2133 CL15 4GB (1x4GB)",
-        "variant": "2133 CL15",
-        "amazon_sku": "B00MMLUYPQ",
-        "clean_name": "Crucial CT4G4DFS8213 Black / Green",
-        "cas_latency": "CL15",
-        "ram_type": "DDR4-2133",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
     },
     {
         "id": "02a5be57-3fa1-4c35-81e9-4093cc0303dd",
@@ -4061,17 +4008,6 @@
         "capacity": "16GB"
     },
     {
-        "id": "d7fa5f0c-f46f-43c6-9918-ffc65bab1687",
-        "name": "Kingston ValueRAM Green / Black DDR4-2666 CL19 4GB (1x4GB)",
-        "variant": "2666 CL19",
-        "amazon_sku": "B07DQKJJJY",
-        "clean_name": "Kingston ValueRAM Green / Black",
-        "cas_latency": "CL19",
-        "ram_type": "DDR4-2666",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
-    },
-    {
         "id": "55f8f41c-f94e-4725-b576-eeeee8dd74b6",
         "name": "TEAMGROUP T-Create Classic Black DDR5 SODIMM-5600 CL46 16GB (1x16GB)",
         "variant": "5600 CL46",
@@ -4124,17 +4060,6 @@
         "ram_type": "DDR4-2666",
         "modules_config": "(2 x 8GB)",
         "capacity": "16GB"
-    },
-    {
-        "id": "7ff0ff8d-0976-42b0-beed-5923560ba1e1",
-        "name": "AORUS RGB Memory 16GB (2x8GB) 3200MHz (With Demo Kit)",
-        "variant": "3200MHz",
-        "amazon_sku": "B07NPZJW96",
-        "clean_name": "AORUS RGB 3200MHz (With Demo Kit)",
-        "modules_config": "(2x8GB)",
-        "capacity": "16GB",
-        "price": 157.6,
-        "last_updated": "2026-04-30T06:34:07.842Z"
     },
     {
         "id": "681d65d0-4dd9-4079-8f14-b46a7d344391",
@@ -4623,17 +4548,6 @@
         "capacity": "32GB"
     },
     {
-        "id": "471b6a93-e34e-485b-a625-4e98a712a37e",
-        "name": "Patriot Signature Line Green DDR4-2666 CL19 4GB (1x4GB)",
-        "variant": "2666 CL19",
-        "amazon_sku": "B07H9253N9",
-        "clean_name": "Patriot Signature Line Green",
-        "cas_latency": "CL19",
-        "ram_type": "DDR4-2666",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
-    },
-    {
         "id": "ebfb7d07-b935-468f-8ce6-38a2b6e6ede0",
         "name": "GOODRAM IRDM Black DDR5-6000 CL30 32GB (2x16GB)",
         "variant": "6000 CL30",
@@ -4798,17 +4712,6 @@
         "clean_name": "Ballistix Sport AT 3000 MHz",
         "ram_type": "DDR4",
         "capacity": "32GB"
-    },
-    {
-        "id": "bd2ae628-1b83-4cea-a95b-8c056656b303",
-        "name": "Corsair CMV4GX4M1A2133C15 Black DDR4-2133 CL15 4GB (1x4GB)",
-        "variant": "2133 CL15",
-        "amazon_sku": "B00SV7IIOE",
-        "clean_name": "Corsair CMV4GX4M1A2133C15 Black",
-        "cas_latency": "CL15",
-        "ram_type": "DDR4-2133",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
     },
     {
         "id": "d5f59a13-c0a0-4d22-8014-6f606d279c8a",
@@ -5445,17 +5348,6 @@
         "capacity": "32GB"
     },
     {
-        "id": "7788a2fd-4850-42c3-8c6c-bb6d139a4171",
-        "name": "PNY Anarchy Black / Red DDR4-2133 CL15 4GB (1x4GB)",
-        "variant": "2133 CL15",
-        "amazon_sku": "B012ASDE6G",
-        "clean_name": "PNY Anarchy Black / Red",
-        "cas_latency": "CL15",
-        "ram_type": "DDR4-2133",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
-    },
-    {
         "id": "8e860795-53f7-49ed-8ce7-0a3739533404",
         "name": "Klevv FIT V White DDR5-5600 CL30 32GB (2x16GB)",
         "variant": "5600 CL30",
@@ -6066,17 +5958,6 @@
         "capacity": "64GB"
     },
     {
-        "id": "7e2be7f5-5a39-4eb1-a572-5373d0832ab1",
-        "name": "Patriot Signature Line SODIMM DDR4-2400 CL19 4GB (1x4GB)",
-        "variant": "2400 CL19",
-        "amazon_sku": "B074Q1LM44",
-        "clean_name": "Patriot Signature Line SODIMM",
-        "cas_latency": "CL19",
-        "ram_type": "DDR4-2400",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
-    },
-    {
         "id": "b84aa92e-0bcd-40d2-a955-5bfabb70ba69",
         "name": "OLOy Black DDR4-3600 CL18 32GB (2x16GB) MD4U1636181CHKDA",
         "variant": "3600 CL18",
@@ -6341,17 +6222,6 @@
         "capacity": "8GB"
     },
     {
-        "id": "aff3f6fe-c349-413f-be23-c8cd2ce76823",
-        "name": "Kingston KCP424NS6/4 Green / Black DDR4-2400 CL17 4GB (1x4GB)",
-        "variant": "2400 CL17",
-        "amazon_sku": "B076Q3T1LJ",
-        "clean_name": "Kingston KCP424NS6/4 Green / Black",
-        "cas_latency": "CL17",
-        "ram_type": "DDR4-2400",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
-    },
-    {
         "id": "bb1d9f1e-20a1-4ecb-bf42-86361d93828a",
         "name": "Crucial CT2K32G48C40U5 Black DDR5-4800 CL40 64GB (2x32GB)",
         "variant": "4800 CL40",
@@ -6440,17 +6310,6 @@
         "capacity": "32GB"
     },
     {
-        "id": "2de8f904-5876-43cc-af98-bb9cb8268714",
-        "name": "Crucial CT4G4DFS824A Black / Green DDR4-2400 CL17 4GB (1x4GB)",
-        "variant": "2400 CL17",
-        "amazon_sku": "B019FRDFU0",
-        "clean_name": "Crucial CT4G4DFS824A Black / Green",
-        "cas_latency": "CL17",
-        "ram_type": "DDR4-2400",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
-    },
-    {
         "id": "0a971fe2-3a75-4156-9b13-9225e837de09",
         "name": "TEAMGROUP Elite Plus DDR5-4800 CL40 64GB (2x32GB)",
         "variant": "4800 CL40",
@@ -6482,6 +6341,17 @@
         "ram_type": "DDR5-7000",
         "modules_config": "(4x48GB)",
         "capacity": "192GB"
+    },
+    {
+        "id": "3450c943-2555-42ae-b7af-d54f73330635",
+        "name": "Kingston ValueRAM Green / Black DDR5-5600 CL46 32GB (1x32GB)",
+        "variant": "5600 CL46",
+        "amazon_sku": "B0BTDRRS87",
+        "clean_name": "Kingston ValueRAM Green / Black",
+        "cas_latency": "CL46",
+        "ram_type": "DDR5-5600",
+        "modules_config": "(1x32GB)",
+        "capacity": "32GB"
     },
     {
         "id": "5a4e4bd7-9e4a-4600-a8e2-4bbbcaba834f",
@@ -6943,17 +6813,6 @@
         "capacity": "16GB"
     },
     {
-        "id": "bf3580a2-44e9-4932-a6df-58950cada69a",
-        "name": "Crucial CT4G4DFS8266 Green / Black DDR4-2666 CL19 4GB (1x4GB)",
-        "variant": "2666 CL19",
-        "amazon_sku": "B07GMRJTS9",
-        "clean_name": "Crucial CT4G4DFS8266 Green / Black",
-        "cas_latency": "CL19",
-        "ram_type": "DDR4-2666",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
-    },
-    {
         "id": "efaa26bf-a05a-48c1-bea0-44d53b75316f",
         "name": "Klevv CRAS V RGB ROG CERTIFIED White DDR5-7200 CL34 48GB (2x24GB)",
         "variant": "7200 CL34",
@@ -7038,17 +6897,6 @@
         "ram_type": "DDR4-2400",
         "modules_config": "(1x64GB)",
         "capacity": "64GB"
-    },
-    {
-        "id": "29f4389d-cbed-47e8-87ae-83f7dfae2bc5",
-        "name": "Patriot Signature Black / Green DDR4-2400 CL16 4GB (1x4GB)",
-        "variant": "2400 CL16",
-        "amazon_sku": "B07Q8JRF2F",
-        "clean_name": "Patriot Signature Black / Green",
-        "cas_latency": "CL16",
-        "ram_type": "DDR4-2400",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
     },
     {
         "id": "8a6f3bce-f02b-4824-a983-9471e2403569",
@@ -7160,17 +7008,6 @@
         "capacity": "32GB"
     },
     {
-        "id": "1fcaedf0-82bd-4048-8fe9-63f3c39a6a0f",
-        "name": "Samsung M471A4G43MB1 Green / Black SODIMM DDR4-2666 CL19 32GB (1x32GB)",
-        "variant": "2666 CL19",
-        "amazon_sku": "B07N124XDS",
-        "clean_name": "Samsung M471A4G43MB1 Green / Black SODIMM",
-        "cas_latency": "CL19",
-        "ram_type": "DDR4-2666",
-        "modules_config": "(1x32GB)",
-        "capacity": "32GB"
-    },
-    {
         "id": "e7da08d1-e74c-4228-b7a3-8d37ddd9e297",
         "name": "G.Skill FORTIS Black / Red DDR4-2400 CL15 64GB (4x16GB)",
         "variant": "2400 CL15",
@@ -7201,17 +7038,6 @@
         "ram_type": "DDR4-3600",
         "modules_config": "(2x8GB)",
         "capacity": "16GB"
-    },
-    {
-        "id": "57c377f5-c2cf-44ce-8a1f-8cb5802e5b1e",
-        "name": "Samsung M393A8G40MB2-CVF Registered Green / Black DDR4-2933 CL21 64GB (1x64GB)",
-        "variant": "2933 CL21",
-        "amazon_sku": "B07RNS99CL",
-        "clean_name": "Samsung M393A8G40MB2-CVF Registered Green / Black",
-        "cas_latency": "CL21",
-        "ram_type": "DDR4-2933",
-        "modules_config": "(1x64GB)",
-        "capacity": "64GB"
     },
     {
         "id": "d139cf2c-513a-47a5-af77-fa68f6999903",
@@ -7389,17 +7215,6 @@
         "ram_type": "DDR5-5200",
         "modules_config": "(1x16GB)",
         "capacity": "16GB"
-    },
-    {
-        "id": "cf3fed67-7c17-4868-a86e-6040c6ea17b8",
-        "name": "Kingston KCP424SS6/4 Green / Black SODIMM DDR4-2400 CL17 4GB (1x4GB)",
-        "variant": "2400 CL17",
-        "amazon_sku": "B076Q4BWG5",
-        "clean_name": "Kingston KCP424SS6/4 Green / Black SODIMM",
-        "cas_latency": "CL17",
-        "ram_type": "DDR4-2400",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
     },
     {
         "id": "44843811-39fa-4229-8559-e3f4ec335bf8",
@@ -7621,16 +7436,6 @@
         "last_updated": "2026-04-30T06:52:59.222Z"
     },
     {
-        "id": "903399bb-9109-48da-a479-b89befca8e78",
-        "name": "Kingston HyperX Fury 2666MHz DDR4 Non-ECC CL15 4GB DIMM Memory Black",
-        "variant": "Black",
-        "amazon_sku": "B013F970K0",
-        "clean_name": "Kingston HyperX Fury 2666MHz Non-ECC DIMM Black",
-        "cas_latency": "CL15",
-        "ram_type": "DDR4",
-        "capacity": "4GB"
-    },
-    {
         "id": "3e1efee3-936d-41d5-afe7-eb8417b0c71f",
         "name": "Patriot Viper RGB White DDR4-4133 C19",
         "variant": "DDR4-4133 C19",
@@ -7725,17 +7530,6 @@
         "ram_type": "DDR4",
         "modules_config": "(2x8GB)",
         "capacity": "16GB"
-    },
-    {
-        "id": "6782c2a3-f63c-4504-a1b9-0ea36111ff2d",
-        "name": "Crucial CT4G4DFS6266 Green DDR4-2666 CL19 4GB (1x4GB)",
-        "variant": "2666 CL19",
-        "amazon_sku": "B07K8ZHX6D",
-        "clean_name": "Crucial CT4G4DFS6266 Green",
-        "cas_latency": "CL19",
-        "ram_type": "DDR4-2666",
-        "modules_config": "(1x4GB)",
-        "capacity": "4GB"
     },
     {
         "id": "a0687833-0708-4b34-a689-7e832e25f0ea",

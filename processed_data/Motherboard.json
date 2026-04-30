@@ -103,15 +103,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "309c2cf3-4b4b-4ea7-a276-54997301771c",
-        "name": "MEG Z590 ACE",
-        "variant": "ACE",
-        "amazon_sku": "B08WCJRJYD",
-        "clean_name": "MEG Z590 ACE",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
         "id": "2566221d-463f-4be7-9b15-893d364e4cbf",
         "name": "Gigabyte B550 VISION D-P AM4 DDR4 ATX",
         "variant": "",
@@ -184,18 +175,6 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "687e2522-8d22-45ed-9dbc-261cefeedc68",
-        "name": "MSI B560M PRO-VDH WIFI DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B092HLGFXK",
-        "clean_name": "MSI B560M PRO-VDH WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:12:10.142Z"
     },
     {
         "id": "5e60ab94-d44f-4354-aa6f-6947863cd8bd",
@@ -294,16 +273,6 @@
         "last_updated": "2026-04-30T06:12:44.287Z"
     },
     {
-        "id": "b8c632b2-4d20-4e75-ba7f-0cee608b8320",
-        "name": "Asus Z490 ROG MAXIMUS XII FORMULA DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B087LHPYT6",
-        "clean_name": "Asus Z490 ROG MAXIMUS XII FORMULA",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "76406895-f2c4-4b88-b6ae-a3b18592b2dc",
         "name": "Gigabyte B450 AORUS PRO WIFI (rev. 1.0) DDR4 ATX",
         "variant": "",
@@ -316,18 +285,6 @@
         "last_updated": "2026-04-30T06:13:00.618Z"
     },
     {
-        "id": "65bc4759-1bdb-44c4-959f-e777a3fc0deb",
-        "name": "Gigabyte B460M DS3H V2 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B083GTCRHX",
-        "clean_name": "Gigabyte B460M DS3H V2",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:13:08.048Z"
-    },
-    {
         "id": "d970185b-a158-44a6-b10b-1cedb36286a1",
         "name": "Asus B760 ProArt CREATOR WIFI DDR5 ATX",
         "variant": "",
@@ -338,15 +295,6 @@
         "memory_type": "DDR5",
         "price": 245.94,
         "last_updated": "2026-04-30T06:13:16.973Z"
-    },
-    {
-        "id": "fa633891-0523-42c6-ba13-c30ea3ae0274",
-        "name": "ASUS Prime Z490M-PLUS LGA 1200 Micro-ATX Motherboard",
-        "variant": "Z490M-PLUS",
-        "amazon_sku": "B086QT66PW",
-        "clean_name": "ASUS Prime Z490M-PLUS",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
     },
     {
         "id": "40ca0343-5ecd-4f31-a019-1c94e315f7a9",
@@ -493,31 +441,12 @@
         "last_updated": "2026-04-30T06:14:19.717Z"
     },
     {
-        "id": "a4ab1e53-0822-4da1-bfa7-451f6cf5a0d7",
-        "name": "Asus Z490 ROG STRIX Z490-A GAMING LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B087Z42S3P",
-        "clean_name": "Asus Z490 ROG STRIX Z490-A GAMING",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "3fad93d5-8a93-4fe2-8c1b-d2c7d354b563",
         "name": "ASRock B450 Pro4 ATX AM4 Motherboard",
         "variant": "ATX",
         "amazon_sku": "B07FVYKJHR",
         "clean_name": "ASRock B450 Pro4",
         "socket": "AM4",
-        "form_factor": "ATX"
-    },
-    {
-        "id": "9a849904-0b46-4458-a874-9a86d6c27dd3",
-        "name": "ASUS ROG STRIX B560-A GAMING WIFI",
-        "variant": "B560-A GAMING WIFI",
-        "amazon_sku": "B08WRB9QRR",
-        "clean_name": "ASUS ROG STRIX B560-A GAMING WIFI",
-        "socket": "LGA 1200",
         "form_factor": "ATX"
     },
     {
@@ -619,16 +548,6 @@
         "form_factor": "Mini-ITX",
         "price": 53.71,
         "last_updated": "2026-04-30T06:15:12.934Z"
-    },
-    {
-        "id": "b825541d-665e-48b1-bb19-69bffcb105db",
-        "name": "MSI Z590 MEG UNIFY LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B092HDNYVL",
-        "clean_name": "MSI Z590 MEG UNIFY",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "9a66eeb7-24ee-47c9-9c3d-cf167933cec4",
@@ -769,16 +688,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "edef360e-2dd9-4c6c-8c78-32c21f29fe4b",
-        "name": "Gigabyte Z590 AORUS TACHYON LGA1200 WIFI DDR4 EATX",
-        "variant": "",
-        "amazon_sku": "B083GT6ZBX",
-        "clean_name": "Gigabyte Z590 AORUS TACHYON WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "EATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "08fe9205-6f86-4cf9-8963-0d8b4c22bc28",
         "name": "MSI MEG X870E GODLIKE X EDITION",
         "variant": "GODLIKE X EDITION",
@@ -788,14 +697,6 @@
         "form_factor": "EATX",
         "price": 940.97,
         "last_updated": "2026-04-30T06:16:06.273Z"
-    },
-    {
-        "id": "c4fe7d57-5856-484d-9baa-7f815835445d",
-        "name": "Gigabyte B460 HD3 LGA 1200 ATX Motherboard",
-        "amazon_sku": "B08935739Z",
-        "clean_name": "Gigabyte B460 HD3",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
     },
     {
         "id": "95b1e5e5-1aeb-48dd-8eb7-9efc4ad00512",
@@ -863,16 +764,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "eca49b1c-0ff5-49db-b6de-1d216be6d0ef",
-        "name": "PRIME Z590-P",
-        "amazon_sku": "B08VGXKB9T",
-        "clean_name": "PRIME Z590-P",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:16:39.097Z"
-    },
-    {
         "id": "a5f9be97-ef4c-45f3-9398-09c741126d40",
         "name": "Asus H610 PRO H610M-CT D4-CSM DDR4 Micro ATX",
         "variant": "",
@@ -934,16 +825,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "0bebab23-6353-4409-a723-de2f5ec8def3",
-        "name": "NZXT Z590 N7 LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B094TJSCLX",
-        "clean_name": "NZXT Z590 N7",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "687fd0f7-9f38-4f69-b87e-80f39385ae7d",
         "name": "ASRock H610M-ITX/ac Mini ITX LGA1700 Motherboard",
         "amazon_sku": "B09QFWKWK6",
@@ -994,15 +875,6 @@
         "form_factor": "ATX",
         "price": 230.07,
         "last_updated": "2026-04-30T06:17:19.227Z"
-    },
-    {
-        "id": "59a08c04-ad70-495c-8848-1d627c7150c3",
-        "name": "ASUSROGSTRIXB460-IGAMING",
-        "variant": "B460-IGAMING",
-        "amazon_sku": "B087M43LRN",
-        "clean_name": "ASUSROGSTRIXB460-IGAMING",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX"
     },
     {
         "id": "cabb5bbf-2d7b-4cfa-b3ea-b88219538f4c",
@@ -1130,16 +1002,6 @@
         "form_factor": "Micro ATX"
     },
     {
-        "id": "9862218e-96bb-40ef-a43a-79177aeb583f",
-        "name": "Asus ROG Maximus XIII Apex Z590 WIFI DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B0916Q713V",
-        "clean_name": "Asus ROG Maximus XIII Apex Z590 WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "c30e9b28-f5bd-48dd-b674-fcad608f36df",
         "name": "Gigabyte B550 EAGLE WIFI6 AM4 DDR4 ATX",
         "variant": "EAGLE WiFi 6",
@@ -1148,16 +1010,6 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "c8968f6b-61f4-4a5a-a9f0-f2c9d19f8602",
-        "name": "H410M PRO",
-        "amazon_sku": "B0892VZNPC",
-        "clean_name": "H410M PRO",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:18:41.407Z"
     },
     {
         "id": "6244c472-22bf-4122-8df7-af6942e61405",
@@ -1299,16 +1151,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "2985c903-9d87-425f-b06d-d1076ecab481",
-        "name": "MSI Z590 MPG GAMING PLUS DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08WCCGBH9",
-        "clean_name": "MSI Z590 MPG GAMING PLUS",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "6015da08-b94f-442a-aa6d-56d188bd5f76",
         "name": "Asus Z790 ROG STRIX Z790-A GAMING WIFI II LGA1700 DDR5 ATX",
         "variant": "",
@@ -1351,16 +1193,6 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "1b0ac24c-8259-4805-947b-37b5cc650450",
-        "name": "Asus Z590 TUF GAMING PLUS DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08VLNY3FG",
-        "clean_name": "Asus Z590 TUF GAMING PLUS",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "f297a4e5-37a3-4600-b0c1-71824809fa61",
@@ -1425,17 +1257,6 @@
         "socket": "AM5",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "7a19b36e-fda5-4af1-8093-d95fd655c386",
-        "name": "Z490 VISION G",
-        "variant": "G",
-        "amazon_sku": "B087GS5Y5C",
-        "clean_name": "Z490 VISION G",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 53.71,
-        "last_updated": "2026-04-30T06:20:35.906Z"
     },
     {
         "id": "b4a7cd9a-692d-4289-a9ca-f5f9a659db5d",
@@ -1549,18 +1370,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "86706ca4-aec7-482f-bfdc-ca5917668859",
-        "name": "EVGA Z590 DARK DDR4 EATX",
-        "variant": "",
-        "amazon_sku": "B09GZ7YNH2",
-        "clean_name": "EVGA Z590 DARK",
-        "socket": "LGA 1200",
-        "form_factor": "EATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:21:17.970Z"
-    },
-    {
         "id": "89f4ae90-ed8b-4322-b8f8-34e66ba1a3ac",
         "name": "ASUS TUF Gaming H670-PRO WiFi D4",
         "variant": "H670-PRO WiFi D4",
@@ -1580,18 +1389,6 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "64d1a79b-775c-4ec9-9ada-de36ed0a3248",
-        "name": "MSI MAG Z490 TOMAHAWK DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B0876GJWFP",
-        "clean_name": "MSI MAG Z490 TOMAHAWK",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:21:27.568Z"
     },
     {
         "id": "79e31e8a-27c5-4be8-a845-494b51319ec7",
@@ -1677,16 +1474,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "9f11a9c8-db20-4b55-aa7b-161c95a8d464",
-        "name": "ASRock Z590 Taichi LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08XNHDFJ8",
-        "clean_name": "ASRock Z590 Taichi",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "965cda16-ddd5-432e-8a0d-1d077d454b1c",
         "name": "MSI X670E GAMING PLUS WIFI DDR5 ATX",
         "variant": "",
@@ -1758,14 +1545,6 @@
         "form_factor": "Micro ATX"
     },
     {
-        "id": "db8528d3-27d7-4d86-95ac-d9315d72627f",
-        "name": "MSI MPG Z590 GAMING CARBON WIFI Gaming Motherboard",
-        "amazon_sku": "B08WBW8DB7",
-        "clean_name": "MSI MPG Z590 GAMING CARBON WIFI Gaming",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
         "id": "279633c5-1d6d-4d58-ad65-7570bbcc90e2",
         "name": "MSI MAG B850 GAMING PLUS MAX WIFI",
         "variant": "GAMING PLUS MAX WIFI",
@@ -1773,27 +1552,6 @@
         "clean_name": "MSI MAG B850 GAMING PLUS MAX WIFI",
         "socket": "AM5",
         "form_factor": "ATX"
-    },
-    {
-        "id": "8b313fe3-b40d-4b17-8b2b-930847d91ef2",
-        "name": "ASUS TUF GAMING B460-PRO Wi-Fi LGA 1200 ATX Motherboard",
-        "variant": "B460-PRO (WI-FI)",
-        "amazon_sku": "B087LXDK7B",
-        "clean_name": "ASUS TUF GAMING B460-PRO Wi-Fi",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
-        "id": "320103f3-0104-49cf-b796-0f852b3a6d84",
-        "name": "ASRock Z590 Phantom Gaming 4 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08X16V58L",
-        "clean_name": "ASRock Z590 Phantom Gaming 4",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T06:22:53.105Z"
     },
     {
         "id": "5c270b39-ffae-49b7-8e93-b1e359b731a7",
@@ -2031,16 +1789,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "17f9e2cc-d0d7-47f4-befb-dd9d107bc1d1",
-        "name": "B460 AORUS PRO AC",
-        "amazon_sku": "B08CBLBW5V",
-        "clean_name": "B460 AORUS PRO AC",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 53.71,
-        "last_updated": "2026-04-30T06:24:35.671Z"
-    },
-    {
         "id": "cfe01b2c-e9fd-429a-974a-29b672a06a08",
         "name": "ASRock X870 Pro RS WiFi AM5 DDR5 ATX",
         "variant": "",
@@ -2079,17 +1827,6 @@
         "socket": "AM5",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "d5bce655-d8fb-459c-bcf3-f41a20e2a42b",
-        "name": "ASUS ROG Maximus XII Extreme",
-        "variant": "Extreme",
-        "amazon_sku": "B087LKNCW3",
-        "clean_name": "ASUS ROG Maximus XII Extreme",
-        "socket": "LGA 1200",
-        "form_factor": "EATX",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:25:00.899Z"
     },
     {
         "id": "3ac979c3-900d-4cbe-80b6-d7f8e924119b",
@@ -2188,16 +1925,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "169c9ea3-16fe-4128-87dc-65185cdb608d",
-        "name": "MSI H510 I PRO WIFI DDR4 Mini ITX",
-        "variant": "",
-        "amazon_sku": "B08WC7Q1H5",
-        "clean_name": "MSI H510 I PRO WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "b55bae5e-5c45-4378-a380-9f9f2b2357db",
         "name": "Gigabyte B650M D3HP AM5 DDR5 Micro ATX",
         "variant": "D3HP",
@@ -2226,18 +1953,6 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "a0c58f19-8fe8-418a-a1c0-b94b692167d8",
-        "name": "Gigabyte Z590 VISION G DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08W8PH5B9",
-        "clean_name": "Gigabyte Z590 VISION G",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:25:51.097Z"
     },
     {
         "id": "c6092b7b-17c2-4501-b1fb-aa24d680968d",
@@ -2269,16 +1984,6 @@
         "form_factor": "ATX",
         "price": 506.76,
         "last_updated": "2026-04-30T06:25:59.988Z"
-    },
-    {
-        "id": "545f52f0-24ca-441e-9486-ffeb5c10006b",
-        "name": "Gigabyte B560M DS3H AC DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B083HZPBHF",
-        "clean_name": "Gigabyte B560M DS3H AC",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "c5644c26-96b1-47a7-b293-3975d0cc0aa0",
@@ -2332,16 +2037,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "63b67590-e810-4475-9876-f834f436b300",
-        "name": "Gigabyte Z490 AORUS ELITE LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B087GY1TZ3",
-        "clean_name": "Gigabyte Z490 AORUS ELITE",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "e042023b-ae59-4a9f-80a7-dba800db2b4c",
         "name": "Asus PRIME Z790M-PLUS LGA1700 DDR5 Micro ATX",
         "variant": "PRIME M PLUS",
@@ -2362,16 +2057,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "9e052e72-5f67-4804-8f6b-1f6f6107867b",
-        "name": "Biostar H410 MHG LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08BNDWPXW",
-        "clean_name": "Biostar H410 MHG",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "61bd00b2-7efb-4bc4-b588-08f9458c0eb1",
         "name": "ASRock B550 PRO4 Supports 3rd Gen AMD AM4 Ryzen™ / Future AMD Ryzen™ Processors Motherboard",
         "amazon_sku": "B088VSTS9H",
@@ -2388,16 +2073,6 @@
         "socket": "LGA 1700",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "b84db965-6b59-4b7d-8759-405039565ff7",
-        "name": "Gigabyte Z590 AORUS MASTER LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08SYWZW4S",
-        "clean_name": "Gigabyte Z590 AORUS MASTER",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "4c1bae26-2730-45ea-a314-b12e2d12f479",
@@ -2502,18 +2177,6 @@
         "form_factor": "Micro ATX"
     },
     {
-        "id": "68513be5-999e-43ce-84ca-c7c3f571b81a",
-        "name": "Gigabyte H410M H V2 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B0921LMZL2",
-        "clean_name": "Gigabyte H410M H V2",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:27:50.208Z"
-    },
-    {
         "id": "49126116-5abf-488e-a793-c3c78ea75632",
         "name": "Asus B550 PRIME M-A AC AM4 DDR4 Micro ATX",
         "variant": "",
@@ -2564,17 +2227,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "43651f53-349e-4e92-abff-287ce5dfc61d",
-        "name": "MEG Z490I UNIFY",
-        "variant": "Z490I",
-        "amazon_sku": "B0876H2R85",
-        "clean_name": "MEG Z490I UNIFY",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX",
-        "price": 53.59,
-        "last_updated": "2026-04-30T06:28:07.491Z"
-    },
-    {
         "id": "4a13a1c0-15ed-46a9-9a60-6b88699bfde5",
         "name": "Asus B550 PRIME B550M-K AM4 DDR4 Micro ATX",
         "variant": "",
@@ -2603,18 +2255,6 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "aaf354d7-6095-4a62-8935-ef74f963bbe4",
-        "name": "MSI MAG B560 TOMAHAWK WIFI DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08WCS1HXT",
-        "clean_name": "MSI MAG B560 TOMAHAWK WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 133.54,
-        "last_updated": "2026-04-30T06:28:26.188Z"
     },
     {
         "id": "ca0b0597-3d12-4767-abcf-f2d95c97cb0f",
@@ -2688,15 +2328,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "a39ecae4-1a45-496f-8840-c5611b1ef9df",
-        "name": "ASUS TUF GAMING B560M-PLUS WIFI",
-        "variant": "B560M-PLUS WIFI",
-        "amazon_sku": "B08W6PSC52",
-        "clean_name": "ASUS TUF GAMING B560M-PLUS WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
-    },
-    {
         "id": "db24c3a9-9151-4d17-b8d0-a60aaee214dd",
         "name": "Gigabyte A620 S2H DDR5 Micro ATX",
         "variant": "",
@@ -2707,18 +2338,6 @@
         "memory_type": "DDR5",
         "price": 194.3,
         "last_updated": "2026-04-30T06:28:50.369Z"
-    },
-    {
-        "id": "3b70b6ea-012f-407b-898d-2412b40a08e7",
-        "name": "Gigabyte Z490 AORUS PRO AX DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B087H2KNLR",
-        "clean_name": "Gigabyte Z490 AORUS PRO AX",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 53.71,
-        "last_updated": "2026-04-30T06:29:01.082Z"
     },
     {
         "id": "c959633b-e4a9-443d-ba13-9bd7a85f33f1",
@@ -2765,16 +2384,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "1e749444-5cbd-40e0-8005-6d02bef3e64d",
-        "name": "MSI MAG B460 TOMAHAWK",
-        "amazon_sku": "B0892SWQ7R",
-        "clean_name": "MSI MAG B460 TOMAHAWK",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:29:23.753Z"
-    },
-    {
         "id": "11191359-113d-4fbd-a945-23099406eeec",
         "name": "Asus X570 TUF GAMING X570-PLUS DDR4 ATX",
         "variant": "X570-PLUS",
@@ -2805,16 +2414,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "5bea5fca-27fb-4e15-81ef-f19595523674",
-        "name": "EVGA Z490 DARK K|NGP|N LGA1200 DDR4 EATX",
-        "variant": "",
-        "amazon_sku": "B08QQZNVP7",
-        "clean_name": "EVGA Z490 DARK K|NGP|N",
-        "socket": "LGA 1200",
-        "form_factor": "EATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "a3906fda-1337-4b91-b7e3-a646098ab3bf",
         "name": "Asus ProArt B650-CREATOR",
         "variant": "B650-CREATOR",
@@ -2841,25 +2440,6 @@
         "socket": "LGA 1700",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "88285a82-61d3-4f1f-8916-027777624d88",
-        "name": "ASROCK H470 STEEL LEGEND",
-        "amazon_sku": "B088ZRQ55G",
-        "clean_name": "ASROCK H470 STEEL LEGEND",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 133.54,
-        "last_updated": "2026-04-30T06:29:57.212Z"
-    },
-    {
-        "id": "3537f62e-e312-482c-abca-da4b227e91a6",
-        "name": "ASUS PRIME H570-PLUS LGA1200 (Intel® 11th/10th Gen) ATX motherboard (PCIe 4.0, 8 power stages, HDMI, DVI, DisplayPort, dual M.2, Intel 1Gb LAN, USB 3.2 Gen 2 Type-C®, Thunderbolt™ 4)",
-        "variant": "H570-PLUS",
-        "amazon_sku": "B08WRR3MLF",
-        "clean_name": "ASUS PRIME H570-PLUS (Intel® 11th/10th Gen) (PCIe 4.0, 8 power stages, HDMI, DVI, DisplayPort, dual M.2, Intel 1Gb LAN, USB 3.2 Gen 2 Type-C®, Thunderbolt™ 4)",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
     },
     {
         "id": "9e9ebf47-7d75-4877-ac9e-7cd10d32daf0",
@@ -2906,28 +2486,6 @@
         "memory_type": "DDR4",
         "price": 230.07,
         "last_updated": "2026-04-30T06:30:11.320Z"
-    },
-    {
-        "id": "fa71b8b9-14ee-4902-b0a5-b6f6bbaa3d53",
-        "name": "Gigabyte Z490 Gaming X",
-        "amazon_sku": "B087GXPBMV",
-        "clean_name": "Gigabyte Z490 Gaming X",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 53.71,
-        "last_updated": "2026-04-30T06:30:18.816Z"
-    },
-    {
-        "id": "068d1a73-9211-4b0e-86e0-97a84766db3c",
-        "name": "ASUS TUF Gaming Z590-PLUS WIFI DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08T6H14RR",
-        "clean_name": "ASUS TUF Gaming Z590-PLUS WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 230.07,
-        "last_updated": "2026-04-30T06:30:23.090Z"
     },
     {
         "id": "015dcb05-332e-4cad-8696-9b169b99652c",
@@ -3141,37 +2699,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "358acbb0-099a-4b7f-af16-b3448602eb18",
-        "name": "Asus H510 PRIME H510M-A/CSM DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08W6SZQ8N",
-        "clean_name": "Asus H510 PRIME H510M-A/CSM",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "65a50199-1057-4bda-8f4b-96f308009408",
-        "name": "Gigabyte B560M DS3H V3 LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08YKCBV9M",
-        "clean_name": "Gigabyte B560M DS3H V3",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "482d9db0-b1fa-4c44-a8ef-108813128150",
-        "name": "Z490I AORUS ULTRA",
-        "variant": "ULTRA",
-        "amazon_sku": "B087GYFZ3Q",
-        "clean_name": "Z490I AORUS ULTRA",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX",
-        "price": 53.71,
-        "last_updated": "2026-04-30T06:32:07.784Z"
-    },
-    {
         "id": "80944ec8-897c-4a4f-9e72-6657127fb3c4",
         "name": "Gigabyte Z890I AORUS ULTRA LGA1851 DDR5 Mini ITX",
         "variant": "",
@@ -3325,16 +2852,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "935b837c-39e8-4b55-b56f-fded06e8c59e",
-        "name": "Gigabyte Z590 AORUS ELITE LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08WPV5HS7",
-        "clean_name": "Gigabyte Z590 AORUS ELITE",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "bef4372e-fe51-43c0-800a-d85a825388e2",
         "name": "ASUS PRIME B650-PLUS DDR5",
         "variant": "B650-PLUS",
@@ -3436,16 +2953,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "22c9bc6d-376c-41c2-9833-4897db07e625",
-        "name": "Gigabyte Z590 AORUS ELITE AX DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08WP8Q8B7",
-        "clean_name": "Gigabyte Z590 AORUS ELITE AX",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "a78c4360-6f73-4f83-a49d-fe37d4686459",
         "name": "Asus ROG STRIX Z790-F GAMING WIFI II DDR5 ATX",
         "variant": "",
@@ -3478,15 +2985,6 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "f77717be-9a3d-4f9c-b6b6-4e4d4025eb12",
-        "name": "ROG MAXIMUS XIII HERO",
-        "variant": "XIII HERO",
-        "amazon_sku": "B08T6BHQC8",
-        "clean_name": "ROG MAXIMUS XIII HERO",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
     },
     {
         "id": "a808579f-f47b-49b1-8435-14671a315753",
@@ -3530,17 +3028,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "1c3cbdd4-b701-436b-9fb6-2ff3313ddc51",
-        "name": "ASUS PRO B460M-C/CSM",
-        "variant": "B460M-C/CSM",
-        "amazon_sku": "B087M212FF",
-        "clean_name": "ASUS PRO B460M-C/CSM",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "price": 53.59,
-        "last_updated": "2026-04-30T06:34:32.600Z"
-    },
-    {
         "id": "15e65f6c-4488-4ca3-8d77-1dff6019e8ab",
         "name": "ASRock Z890 Pro-A WiFi DDR5 ATX",
         "variant": "",
@@ -3559,16 +3046,6 @@
         "socket": "AM5",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "95ed52c4-316c-4e1f-9491-7c9f9b3a6810",
-        "name": "MSI H510 H510M PRO LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08WCF4SF3",
-        "clean_name": "MSI H510 H510M PRO",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "25e5bd08-af8b-4704-b5dd-0a816d2b218b",
@@ -3690,14 +3167,6 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "fa979a6e-5e40-47fa-b0f9-e4490a871250",
-        "name": "ASUS PRIME Z490-A",
-        "amazon_sku": "B087LNZXDV",
-        "clean_name": "ASUS PRIME Z490-A",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
     },
     {
         "id": "48418be1-48d7-4e32-af6f-48126056bfce",
@@ -3842,16 +3311,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "ec8bc866-4555-42a7-b7b6-4e5d4b8884dc",
-        "name": "Z490 Phantom Gaming 4/2.5G",
-        "amazon_sku": "B087TD2PP5",
-        "clean_name": "Z490 Phantom Gaming 4/2.5G",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 53.71,
-        "last_updated": "2026-04-30T06:36:55.523Z"
-    },
-    {
         "id": "e13268ff-3bc6-4e4e-8ef9-1ddd137995f8",
         "name": "ASRock B450 M/ac R2.0 WIFI DDR4 Micro ATX",
         "variant": "",
@@ -3934,16 +3393,6 @@
         "socket": "AM5",
         "form_factor": "EATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "c3df16ed-1474-462c-be33-6ff52b813b5c",
-        "name": "Gigabyte H510 M H DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B0C4ZJMGKS",
-        "clean_name": "Gigabyte H510 M H",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "96eee9c4-483f-4390-b26b-b2ccb8289a0d",
@@ -4075,16 +3524,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "2240d457-8566-4793-adf7-10effd3dd63e",
-        "name": "Asus Z590-I ROG STRIX GAMING WIFI DDR4 Mini ITX",
-        "variant": "",
-        "amazon_sku": "B08VL2GRS9",
-        "clean_name": "Asus Z590-I ROG STRIX GAMING WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "48164c80-67a5-415b-9bee-6a26411630d0",
         "name": "NZXT Z690 N7-Z69XT-B1 LGA1700 DDR4 ATX",
         "variant": "",
@@ -4105,26 +3544,6 @@
         "memory_type": "DDR4",
         "price": 88.33,
         "last_updated": "2026-04-30T06:38:25.062Z"
-    },
-    {
-        "id": "7b24a794-5855-4814-89d9-adb17708c029",
-        "name": "ASRock Z490 Extreme4 Supports 10 th Gen and future generation Intel Core TM Processors (Socket 1200) motherboard",
-        "amazon_sku": "B087TKQ4RS",
-        "clean_name": "ASRock Z490 Extreme4 Supports 10 th Gen and future generation Intel Core TM Processors (Socket 1200)",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
-        "id": "8b51a1d1-d699-4713-90f1-214362624a04",
-        "name": "Gigabyte Z590 UD DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B083HZ17LX",
-        "clean_name": "Gigabyte Z590 UD",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:38:43.460Z"
     },
     {
         "id": "a1057d09-0471-442b-8856-db29e962f542",
@@ -4528,16 +3947,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "c58fe449-f8be-4c18-875f-41e5ee174fa0",
-        "name": "MSI Z490 MPG GAMING EDGE WIFI DDR4 ATX LGA1200",
-        "variant": "",
-        "amazon_sku": "B0876J8436",
-        "clean_name": "MSI Z490 MPG GAMING EDGE WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "65c19c77-488e-4298-9890-594ccd1e58fa",
         "name": "MSI Z890 PRO-A WIFI DDR5 ATX",
         "variant": "",
@@ -4557,16 +3966,6 @@
         "clean_name": "ASUS X570 ROG STRIX X570-I GAMING",
         "socket": "AM4",
         "form_factor": "Mini-ITX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "4a33f17f-807e-408a-8387-3e1020416622",
-        "name": "MSI Z490 MPG GAMING CARBON WIFI DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B0876HV8T3",
-        "clean_name": "MSI Z490 MPG GAMING CARBON WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
         "memory_type": "DDR4"
     },
     {
@@ -4610,26 +4009,6 @@
         "amazon_sku": "B073WD2QGY",
         "clean_name": "MSI ProSeries AMD Ryzen A320 VR Ready HDMI USB 3 (A320M PRO-VH PLUS)",
         "socket": "AM4",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "3534f0d5-4ea5-4111-8052-7f992f9eb0f7",
-        "name": "Asus H510 Pro H510M-CT/CSM LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B09321CHLZ",
-        "clean_name": "Asus H510 Pro H510M-CT/CSM",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "632b00d1-4a15-4f7b-878d-5f2979e1f897",
-        "name": "Asus H570 PRIME H570M-PLUS/CSM DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08WR3DBWL",
-        "clean_name": "Asus H570 PRIME H570M-PLUS/CSM",
-        "socket": "LGA 1200",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4"
     },
@@ -4721,17 +4100,6 @@
         "last_updated": "2026-04-30T06:42:22.013Z"
     },
     {
-        "id": "a436b7cf-5dac-469e-80b5-ddf2f8e06f35",
-        "name": "MSI MEG Z490 GODLIKE",
-        "variant": "GODLIKE",
-        "amazon_sku": "B0876H6RDM",
-        "clean_name": "MSI MEG Z490 GODLIKE",
-        "socket": "LGA 1200",
-        "form_factor": "EATX",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:42:23.578Z"
-    },
-    {
         "id": "4202106c-c42b-4483-864f-3aceb6f530f0",
         "name": "ASRock B860I Lightning WiFi LGA1851 DDR5 Mini ITX",
         "variant": "",
@@ -4792,18 +4160,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "6baa65c6-5a2f-44d4-8440-3c4f5372fd40",
-        "name": "MSI Z590 MEG GODLIKE DDR4 EATX",
-        "variant": "",
-        "amazon_sku": "B08WCM3CHM",
-        "clean_name": "MSI Z590 MEG GODLIKE",
-        "socket": "LGA 1200",
-        "form_factor": "EATX",
-        "memory_type": "DDR4",
-        "price": 133.54,
-        "last_updated": "2026-04-30T06:42:48.508Z"
-    },
-    {
         "id": "297df2d7-6846-46a4-b1cb-f637dccbec2a",
         "name": "ASRock Z690 Pro RS LGA1700 DDR4 ATX",
         "variant": "",
@@ -4812,15 +4168,6 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "81fcc99d-5f16-4cc8-8bb7-91af5ea95d07",
-        "name": "ASUSPrimeH410M-A/CSM",
-        "variant": "H410M-A/CSM",
-        "amazon_sku": "B087M3KRMY",
-        "clean_name": "ASUSPrimeH410M-A/CSM",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
     },
     {
         "id": "73334c61-19fe-4b85-b7fd-8b1d657cb73c",
@@ -4873,14 +4220,6 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "2c77c491-3922-4666-a411-d2bc45f26716",
-        "name": "MPG Z590 GAMING EDGE WIFI",
-        "amazon_sku": "B08WCNL4WF",
-        "clean_name": "MPG Z590 GAMING EDGE WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
     },
     {
         "id": "2269262d-2c98-4166-946f-5878fa93bb78",
@@ -4956,16 +4295,6 @@
         "last_updated": "2026-04-30T06:43:52.626Z"
     },
     {
-        "id": "ac075410-628c-4c5b-beb2-88bf0e8c8f90",
-        "name": "MSI Z490 MEG ACE DDR4 ATX",
-        "variant": "MEG ACE",
-        "amazon_sku": "B0876H5X58",
-        "clean_name": "MSI Z490 MEG ACE",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "15b6ab10-a4a9-4931-8175-6859f74b239b",
         "name": "X570 Phantom Gaming-ITX/TB3 Mini ITX Thunderbolt 3 AMD Motherboard Model X570 Phantom GAM ITX",
         "amazon_sku": "B07VXYYG7F",
@@ -5029,18 +4358,6 @@
         "memory_type": "DDR4",
         "price": 88.33,
         "last_updated": "2026-04-30T06:44:14.687Z"
-    },
-    {
-        "id": "e388793a-d1f8-4a41-99df-504589150793",
-        "name": "Gigabyte H510M S2H DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B083HYPV6L",
-        "clean_name": "Gigabyte H510M S2H",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 53.59,
-        "last_updated": "2026-04-30T06:44:26.511Z"
     },
     {
         "id": "4373e234-8323-4ddf-99d9-d0873fcaad7b",
@@ -5121,15 +4438,6 @@
         "form_factor": "ATX"
     },
     {
-        "id": "83680a14-11ea-4ed2-a1bc-109a073dcec7",
-        "name": "Gigabyte Z490M Gaming X LGA 1200 Micro-ATX Motherboard",
-        "variant": "LGA 1200 Micro-ATX",
-        "amazon_sku": "B087GYYNWX",
-        "clean_name": "Gigabyte Z490M Gaming X",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
-    },
-    {
         "id": "813fdeff-3690-410e-b863-a56c9bed0bd5",
         "name": "Asus H770 PRIME H770-PLUS D4 DDR4 ATX",
         "variant": "",
@@ -5150,17 +4458,6 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "f2e0634e-d934-4c5f-82c7-52b6af907dcb",
-        "name": "MPG Z590 GAMING PLUS",
-        "variant": "GAMING PLUS",
-        "amazon_sku": "B08WC8QDTC",
-        "clean_name": "MPG Z590 GAMING PLUS",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 133.54,
-        "last_updated": "2026-04-30T06:45:19.120Z"
     },
     {
         "id": "5e997e0d-8343-47c3-9561-83c4c1564928",
@@ -5203,18 +4500,6 @@
         "memory_type": "DDR5",
         "price": 245.94,
         "last_updated": "2026-04-30T06:45:30.085Z"
-    },
-    {
-        "id": "eb3b4625-a90e-49c7-a7d5-47bbdf31dc90",
-        "name": "MSI B560 MAG B560 TORPEDO DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08WCMNJ6J",
-        "clean_name": "MSI B560 MAG B560 TORPEDO",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:45:32.480Z"
     },
     {
         "id": "d9a87c46-000b-44a7-aa1d-8294b080d64f",
@@ -5277,16 +4562,6 @@
         "memory_type": "DDR4",
         "price": 88.33,
         "last_updated": "2026-04-30T06:45:59.746Z"
-    },
-    {
-        "id": "1e046f02-c2cc-4cac-9c7f-b68448caf9cc",
-        "name": "Asus Z490 PRIME-P LGA1200 DDR4 ATX",
-        "variant": "Prime-P",
-        "amazon_sku": "B07ZT3F95V",
-        "clean_name": "Asus Z490 PRIME-P",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "93f12ea3-075f-4c62-a8a2-36e911c82daf",
@@ -5378,15 +4653,6 @@
         "memory_type": "DDR4",
         "price": 158.64,
         "last_updated": "2026-04-30T06:46:43.153Z"
-    },
-    {
-        "id": "1716fca4-951f-4db8-8bf0-6c4566be61e6",
-        "name": "ASUS PRIME B560-PLUS LGA 1200 ATX Motherboard",
-        "variant": "B560-PLUS",
-        "amazon_sku": "B08WRMG17M",
-        "clean_name": "ASUS PRIME B560-PLUS",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
     },
     {
         "id": "5a9620e0-809e-4f66-8dc0-e7b4804db15b",
@@ -5515,18 +4781,6 @@
         "last_updated": "2026-04-30T06:47:38.030Z"
     },
     {
-        "id": "fd194900-e748-4658-87a9-86f866c9bd2b",
-        "name": "Asus Z590 WIFI GUNDAM EDITION DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B097S432TX",
-        "clean_name": "Asus Z590 WIFI GUNDAM EDITION",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:47:50.408Z"
-    },
-    {
         "id": "8031b07e-5015-4bcd-afbe-772d06806f20",
         "name": "MSI B760 PRO VC WIFI DDR5 ATX LGA1700",
         "variant": "",
@@ -5617,15 +4871,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "b8e806e1-15cf-4462-a027-09d9b2401f9d",
-        "name": "ASRock Z490M-ITX/ac LGA 1200 Intel Z490 SATA 6Gb/s Mini ITX Intel Motherboard",
-        "variant": "Z490M-ITX/ac",
-        "amazon_sku": "B087TDGDP7",
-        "clean_name": "ASRock Z490M-ITX/ac Intel Z490 SATA 6Gb/s Intel",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX"
-    },
-    {
         "id": "896375f0-3530-4490-abb8-11900d51e02e",
         "name": "Asus ROG CROSSHAIR X670E EXTREME EATX AM5",
         "variant": "EXTREME",
@@ -5643,18 +4888,6 @@
         "socket": "LGA 1700",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "0b02e3d0-cd28-462b-860a-35d34f23ce3f",
-        "name": "ASRock H510M HDV/M.2 SE DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B0CBNPY8BM",
-        "clean_name": "ASRock H510M HDV/M.2 SE",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:48:27.217Z"
     },
     {
         "id": "3eca5a17-4c96-42b4-8c00-ae4813796c18",
@@ -5736,15 +4969,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "6097d64b-1dd6-46b6-becd-95b4b0fdcff4",
-        "name": "GIGABYTE Z490 AORUS ELITE LGA 1200 Intel Z490 ATX Motherboard with Dual M.2, SATA 6Gb/s, USB 3.2 Gen 2, 2.5 GbE LAN",
-        "variant": "AC",
-        "amazon_sku": "B087GFYBCW",
-        "clean_name": "GIGABYTE Z490 AORUS ELITE Intel Z490 with Dual M.2, SATA 6Gb/s, USB 3.2 Gen 2, 2.5 GbE LAN",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
         "id": "211f259d-b61c-4add-949c-2345f17717a0",
         "name": "Asus B850 TUF GAMING B850M-PLUS WIFI AM5 DDR5 Micro ATX",
         "variant": "TUF GAMING M PLUS WiFi",
@@ -5765,16 +4989,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "21683929-a33c-42ef-9690-da1de8fb5b6d",
-        "name": "Asus H510 PRIME H510M-R DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B0974YRBCK",
-        "clean_name": "Asus H510 PRIME H510M-R",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "b12f6ce8-b086-4a74-a186-f78c640bc595",
         "name": "Gigabyte B860M GAMING X WIFI6E DDR5 Micro ATX",
         "variant": "",
@@ -5785,18 +4999,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "38a9e513-6186-4f92-b108-fce12cd7f026",
-        "name": "Gigabyte B560 AORUS PRO AX DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08YKFJXZH",
-        "clean_name": "Gigabyte B560 AORUS PRO AX",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T06:49:29.213Z"
-    },
-    {
         "id": "7cf35973-ec79-4a5f-a249-af8fc638246e",
         "name": "Asus ROG STRIX B660-I GAMING WIFI DDR5 Mini ITX",
         "variant": "",
@@ -5805,16 +5007,6 @@
         "socket": "LGA 1700",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "c569db54-a20e-41ad-b419-8a42435b9308",
-        "name": "ASUS ROG Strix B460-H Gaming",
-        "amazon_sku": "B087M4TRGK",
-        "clean_name": "ASUS ROG Strix B460-H Gaming",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 133.54,
-        "last_updated": "2026-04-30T06:49:43.832Z"
     },
     {
         "id": "74f738a2-8a3a-4f16-83b3-3176fab2dc37",
@@ -5889,15 +5081,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "b4c0d5e6-0035-47b9-85db-6a73ecc042cd",
-        "name": "Asus PRIME B560M-A",
-        "variant": "B560M-A",
-        "amazon_sku": "B08W726FGL",
-        "clean_name": "Asus PRIME B560M-A",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
-    },
-    {
         "id": "a1ae90d0-dfb8-4d55-a613-053a7a070bec",
         "name": "Gigabyte B450M K AM4 DDR4 Micro ATX",
         "variant": "",
@@ -5937,16 +5120,6 @@
         "clean_name": "Asus B450 PRIME B450M-K II",
         "socket": "AM4",
         "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "ee9afa99-f676-4367-b848-ddae3f305303",
-        "name": "Gigabyte Z490 VISION D DDR4 ATX LGA1200",
-        "variant": "",
-        "amazon_sku": "B087GY811K",
-        "clean_name": "Gigabyte Z490 VISION D",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
         "memory_type": "DDR4"
     },
     {
@@ -5994,16 +5167,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "02ca4059-80eb-4611-9730-a835fe80f39e",
-        "name": "Biostar Z590 MHP DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B0CT92NFJB",
-        "clean_name": "Biostar Z590 MHP",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "4e201f81-35fb-46eb-a668-cc4051e5cced",
         "name": "Gigabyte B650 AORUS PRO AX AM5 DDR5 ATX",
         "variant": "",
@@ -6045,24 +5208,6 @@
         "form_factor": "Micro ATX"
     },
     {
-        "id": "2d8250f4-0f59-42dc-9241-ab78f3cbb786",
-        "name": "ASRock Z490 Steel Legend LGA 1200 ATX Intel Motherboard",
-        "amazon_sku": "B087TFWLWS",
-        "clean_name": "ASRock Z490 Steel Legend Intel",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
-        "id": "481263f2-e2f4-4b4a-bd59-13bb06805890",
-        "name": "MSI Z590 A PRO DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08WC9JSV8",
-        "clean_name": "MSI Z590 A PRO",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "3f542394-55eb-4bcb-9b7f-ea1d362c67fc",
         "name": "Gigabyte Z790 AORUS ELITE AX DDR5 ATX LGA1700",
         "variant": "AORUS ELITE AX",
@@ -6081,17 +5226,6 @@
         "socket": "AM5",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "f1a29c04-40ca-4332-b4cb-8e298baa0b19",
-        "name": "ASUS PRIME H410M-E",
-        "variant": "H410M-E",
-        "amazon_sku": "B087M5DFJJ",
-        "clean_name": "ASUS PRIME H410M-E",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:51:14.676Z"
     },
     {
         "id": "f976c79b-32a0-4787-83be-3224cef7ac1f",
@@ -6140,14 +5274,6 @@
         "last_updated": "2026-04-30T06:51:27.518Z"
     },
     {
-        "id": "a22a9b1f-194b-410a-8b0d-8073f84101d4",
-        "name": "ASUS ProArt Z490-CREATOR 10G Intel Z490 LGA 1200 ATX Content Creation Motherboard",
-        "amazon_sku": "B087YVMZ5K",
-        "clean_name": "ASUS ProArt Z490-CREATOR 10G Intel Z490 Content Creation",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
         "id": "86916a41-fa67-4643-861d-aaec05a445e7",
         "name": "MSI B660M MAG MORTAR MAX WIFI DDR4 Micro ATX",
         "variant": "",
@@ -6182,15 +5308,6 @@
         "last_updated": "2026-04-30T06:51:44.881Z"
     },
     {
-        "id": "7f0b8038-1888-46b7-bd64-c10e54acaa55",
-        "name": "ASUS ROG Strix Z490-I Gaming",
-        "variant": "Z490-I Gaming",
-        "amazon_sku": "B086QSDZ4C",
-        "clean_name": "ASUS ROG Strix Z490-I Gaming",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX"
-    },
-    {
         "id": "765c7b1a-13ea-4f5a-a0c1-efa4e25799d2",
         "name": "Gigabyte H610M S2H DDR4 Micro ATX",
         "variant": "",
@@ -6203,33 +5320,6 @@
         "last_updated": "2026-04-30T06:51:52.885Z"
     },
     {
-        "id": "ecc3f082-dc18-49c0-9d2c-5101c134d419",
-        "name": "MSI Z590 MAG TORPEDO LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08WCY8WFD",
-        "clean_name": "MSI Z590 MAG TORPEDO",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "52005ac2-6fcc-4ed3-9a8b-12d326a938b3",
-        "name": "Gigabyte B460M DS3H AC (LGA1200/Intel/B460/MicroATX/M.2/SATA 6GB/s/USB 3.2 Gen 1/HDMI/Intel 802.11ac/Motherboard)",
-        "amazon_sku": "B0893427LD",
-        "clean_name": "Gigabyte B460M DS3H AC (/Intel/B460//M.2/SATA 6GB/s/USB 3.2 Gen 1/HDMI/Intel 802.11ac/)",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
-    },
-    {
-        "id": "30db3e9b-bdd5-4890-a4f7-ab25ca6cd532",
-        "name": "MSI Z590 PRO WIFI LGA 1200 ATX Motherboard",
-        "variant": "WIFI",
-        "amazon_sku": "B08WBYQQ8C",
-        "clean_name": "MSI Z590 PRO WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
         "id": "8ad48ca8-2b02-46a0-a232-7cc42fa9326c",
         "name": "Asus Q670 Pro Q670M-C-CSM DDR5 Micro ATX",
         "variant": "",
@@ -6238,18 +5328,6 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "e03f1765-eba5-4928-b326-4addd5de8912",
-        "name": "Gigabyte H510M K V2 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B0C4ZQXM6X",
-        "clean_name": "Gigabyte H510M K V2",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:52:21.276Z"
     },
     {
         "id": "4ab7931f-4092-4e0c-8744-5c0c93c6e2a0",
@@ -6363,16 +5441,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "f3e46f70-65aa-403f-9e4d-6546eae4d290",
-        "name": "Gigabyte B560M DS3H V2 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B09M98PY9R",
-        "clean_name": "Gigabyte B560M DS3H V2",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "b1c055d9-0d90-4c1a-81d5-28faaf0d6e8e",
         "name": "ASRock B650M PG Lightning Wifi DDR5 Micro ATX",
         "variant": "",
@@ -6445,16 +5513,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "1e93a189-d6f0-4260-99b4-b0705273a709",
-        "name": "PRIME Z590-A",
-        "amazon_sku": "B08SYWZW4S",
-        "clean_name": "PRIME Z590-A",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 98.58,
-        "last_updated": "2026-04-30T06:53:49.482Z"
-    },
-    {
         "id": "452b34eb-deb3-4d6d-be6d-63280ae36a2a",
         "name": "MSI Performance Gaming AMD Ryzen 2ND and 3rd Gen AM4 M.2 USB 3 DDR4 DVI HDMI Crossfire ATX Motherboard (B450 GAMING PLUS Max)",
         "amazon_sku": "B07XHH4YG4",
@@ -6523,16 +5581,6 @@
         "clean_name": "MSI MEG X870E ACE MAX",
         "socket": "AM5",
         "form_factor": "ATX"
-    },
-    {
-        "id": "0adb1c8a-274b-4c0c-a6b0-611d4dee255c",
-        "name": "MSI B560 M PRO-E DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B099TKZX5Q",
-        "clean_name": "MSI B560 M PRO-E",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "477466a4-588d-4a7c-a881-fe4d71b2e549",
@@ -6639,18 +5687,6 @@
         "last_updated": "2026-04-30T06:54:54.452Z"
     },
     {
-        "id": "04f7b12a-a339-477e-a7db-2596a5c96aad",
-        "name": "MSI B560M PRO DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B092H21SGG",
-        "clean_name": "MSI B560M PRO",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:55:08.551Z"
-    },
-    {
         "id": "395770a4-6600-4987-ae26-8fad86f5b553",
         "name": "MSI B760 PRO M-P DDR4 Micro ATX",
         "variant": "",
@@ -6703,16 +5739,6 @@
         "memory_type": "DDR5",
         "price": 245.94,
         "last_updated": "2026-04-30T06:55:27.144Z"
-    },
-    {
-        "id": "376bafa3-7fad-4a87-b4ec-9e70de6ffbd1",
-        "name": "Gigabyte Z590I VISION D DDR4 Mini ITX",
-        "variant": "",
-        "amazon_sku": "B097CS4FT9",
-        "clean_name": "Gigabyte Z590I VISION D",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX",
-        "memory_type": "DDR4"
     },
     {
         "id": "bfbd6ed8-a085-4a0b-bc3b-dfacfc2cc920",
@@ -6990,14 +6016,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "5d36ce2b-027f-4718-a2ba-cf7f049af21a",
-        "name": "ASRock Z490 Phantom Gaming 4 Supports 10 th Gen Intel ® Core™ processors (Socket 1200) motherboard",
-        "amazon_sku": "B087TBWZ6T",
-        "clean_name": "ASRock Z490 Phantom Gaming 4 Supports 10 th Gen Intel ® Core™ processors (Socket 1200)",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
         "id": "2743b014-32a6-4bf7-8fd4-6275b07e9c1b",
         "name": "MSI B860I MPG EDGE TI WIFI DDR5 Mini ITX",
         "variant": "EDGE TI WIFI",
@@ -7110,26 +6128,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "6a67689b-b035-41b5-bdb7-52dcb3781d12",
-        "name": "MSI Z490 MEG UNIFY LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B0876GSMZB",
-        "clean_name": "MSI Z490 MEG UNIFY",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "39426ea6-4ae2-444f-adf3-7b51c12fdf70",
-        "name": "Gigabyte Z490 UD LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B087H23JF2",
-        "clean_name": "Gigabyte Z490 UD",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "9d2c5719-a669-4f28-b044-8b2bdfb84276",
         "name": "Gigabyte B850I AORUS PRO AM5 DDR5 Mini ITX",
         "variant": "AORUS PRO",
@@ -7138,16 +6136,6 @@
         "socket": "AM5",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "e8977f67-473c-41dc-a712-dedd1fb63bd8",
-        "name": "Asus ROG STRIX Z590-E GAMING WIFI DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08T6HTXF9",
-        "clean_name": "Asus ROG STRIX Z590-E GAMING WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "45dab551-6deb-4458-90c6-360dcc347c57",
@@ -7282,15 +6270,6 @@
         "last_updated": "2026-04-30T06:59:03.402Z"
     },
     {
-        "id": "9e614e16-ea83-4c52-939f-01a23bb7ba7e",
-        "name": "ASUSPRIMEH510M-E",
-        "variant": "H510M-E",
-        "amazon_sku": "B08WRX47LN",
-        "clean_name": "ASUSPRIMEH510M-E",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
-    },
-    {
         "id": "2d1a3788-c13f-4ac4-b2e9-94ca1023b1dc",
         "name": "MSI MAG Z690 TOMAHAWK WIFI DDR5 ATX",
         "variant": "",
@@ -7301,16 +6280,6 @@
         "memory_type": "DDR5",
         "price": 88.33,
         "last_updated": "2026-04-30T06:59:10.539Z"
-    },
-    {
-        "id": "93869493-70db-4c20-b884-e13c8894e4a0",
-        "name": "ASRock H510 M-HVS DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B09BDDLNHQ",
-        "clean_name": "ASRock H510 M-HVS",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "a7d2346a-ede3-415c-979d-a870f39e44d5",
@@ -7379,18 +6348,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "0fd7ff43-c7dd-4656-a85b-19d107e61b2a",
-        "name": "Asus Z590 PRIME V DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B0916P7CP5",
-        "clean_name": "Asus Z590 PRIME V",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:59:43.275Z"
-    },
-    {
         "id": "fcdc650f-11b2-40bc-b827-57efea598f31",
         "name": "Gigabyte X570S AORUS ELITE AM4 DDR4 ATX",
         "variant": "",
@@ -7443,16 +6400,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "fb5b297b-bf54-43f5-972e-e1a92bb95110",
-        "name": "Asus Z490 ROG MAXIMUS XII HERO (WI-FI) DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B086QT2Y86",
-        "clean_name": "Asus Z490 ROG MAXIMUS XII HERO (WI-FI)",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "ca457ca9-ecc5-48f3-849a-74eed142ed6d",
         "name": "ASRock B760 Pro RS/D4 WiFi White DDR4 ATX",
         "variant": "PRO RS/D4 WiFi White",
@@ -7485,18 +6432,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "20c70d9c-2bba-46de-b0eb-a895b236c0f2",
-        "name": "Gigabyte H510M H V2 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B092DTVSQT",
-        "clean_name": "Gigabyte H510M H V2",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T07:00:18.792Z"
-    },
-    {
         "id": "302dc909-b5ec-47ac-a205-02b7ee102600",
         "name": "MSI B850 PRO B850M-P WIFI AM5 DDR5 Micro ATX",
         "variant": "M-P WIFI",
@@ -7527,18 +6462,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "595f4507-62bc-4cfe-a688-c3ef6c5c95cb",
-        "name": "Asus Z490-PLUS TUF GAMING (WI-FI) DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B086QSD3M4",
-        "clean_name": "Asus Z490-PLUS TUF GAMING (WI-FI)",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 95.32,
-        "last_updated": "2026-04-30T07:00:34.357Z"
-    },
-    {
         "id": "e273cba5-9209-4c1f-ba2e-7602e50c3bbf",
         "name": "MSI B650 PRO DDR5 Micro ATX",
         "variant": "",
@@ -7557,14 +6480,6 @@
         "socket": "AM5",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "2bcb44d8-f6ec-44ec-ae2b-1314c3d59d61",
-        "name": "ASRock Z490 Pro4 LGA 1200 Intel Z490 SATA 6Gb/s ATX Intel Motherboard",
-        "amazon_sku": "B087TD675B",
-        "clean_name": "ASRock Z490 Pro4 Intel Z490 SATA 6Gb/s Intel",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
     },
     {
         "id": "6dcbfd40-2a59-4e42-a6e5-962859ba3f3e",
@@ -7594,16 +6509,6 @@
         "clean_name": "Gigabyte B550M DS3H",
         "socket": "AM4",
         "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "6de8698a-1f77-497f-b854-784165699d3c",
-        "name": "Gigabyte Z590I AORUS ULTRA LGA1200 DDR4 Mini ITX",
-        "variant": "",
-        "amazon_sku": "B08W8G5CCC",
-        "clean_name": "Gigabyte Z590I AORUS ULTRA",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX",
         "memory_type": "DDR4"
     },
     {
@@ -7668,17 +6573,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "13b772e1-3130-4bbb-9333-d1c099bfc6a5",
-        "name": "H470 AORUS PRO AX",
-        "variant": "PRO AX",
-        "amazon_sku": "B088ZPXFH2",
-        "clean_name": "H470 AORUS PRO AX",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 88.33,
-        "last_updated": "2026-04-30T07:01:30.817Z"
-    },
-    {
         "id": "1cfc8570-689b-4f79-9416-b4b69e0439a3",
         "name": "ASRock X870E Taichi Lite AM5 DDR5 EATX",
         "variant": "",
@@ -7687,14 +6581,6 @@
         "socket": "AM5",
         "form_factor": "EATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "0540cfb3-d4cd-4470-a51d-2949990058c9",
-        "name": "ASRock Z590M-ITX/ax LGA 1200 Mini ITX Intel Motherboard",
-        "amazon_sku": "B08X1MQL1L",
-        "clean_name": "ASRock Z590M-ITX/ax Intel",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX"
     },
     {
         "id": "1d95be1f-b3a7-47ba-891d-64d843b8e4ab",
@@ -7756,26 +6642,6 @@
         "form_factor": "Mini-ITX"
     },
     {
-        "id": "176c7d90-7e1a-4dde-b837-a2dd8a0a0dff",
-        "name": "MSI Z490 MPG GAMING PLUS LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B0876HBFVC",
-        "clean_name": "MSI Z490 MPG GAMING PLUS",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "ccaa7c48-0b6f-4951-a805-6e7bf06cb48d",
-        "name": "MSI H510 M-A PRO LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08WBYHQLM",
-        "clean_name": "MSI H510 M-A PRO",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "6329c77a-c65e-4ad1-8d22-b3b707958beb",
         "name": "Gigabyte Z690I AORUS ULTRA LITE LGA1700 DDR5 Mini ITX",
         "variant": "",
@@ -7793,16 +6659,6 @@
         "clean_name": "ASUS PRIME X570-PRO",
         "socket": "AM4",
         "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "2ec79c1e-7caa-4e9c-bc9d-ecf8efac64b5",
-        "name": "Gigabyte B460M DS3H AC LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B088PCN95D",
-        "clean_name": "Gigabyte B460M DS3H AC",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
         "memory_type": "DDR4"
     },
     {
@@ -7844,18 +6700,6 @@
         "memory_type": "DDR5",
         "price": 530.3,
         "last_updated": "2026-04-30T07:02:33.434Z"
-    },
-    {
-        "id": "5f461d4a-db91-4b0f-bda2-00f7a36817db",
-        "name": "ASRock Z590 M Pro4 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08X15BQC5",
-        "clean_name": "ASRock Z590 M Pro4",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T07:02:25.999Z"
     },
     {
         "id": "580963bb-c801-496b-84aa-adc0753bb904",
@@ -7950,15 +6794,6 @@
         "last_updated": "2026-04-30T07:03:12.898Z"
     },
     {
-        "id": "52ead0b5-f18a-44f3-a164-4e914ffd198a",
-        "name": "H410M S2H V3 (rev.1.0/1.2)",
-        "variant": "V3",
-        "amazon_sku": "B08932B8FL",
-        "clean_name": "H410M S2H V3 (rev.1.0/1.2)",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
-    },
-    {
         "id": "861ce60b-341b-46cd-af4f-6fe6481fb646",
         "name": "Asus X670E ROG STRIX X670E-F GAMING WIFI DDR5 ATX",
         "variant": "",
@@ -8018,16 +6853,6 @@
         "clean_name": "MSI B550 A PRO",
         "socket": "AM4",
         "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "d23ee46a-098b-4315-9edc-76f405aa76b1",
-        "name": "Asus B560 Pro M-CT/CSM LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B0979RYQ87",
-        "clean_name": "Asus B560 Pro M-CT/CSM",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
         "memory_type": "DDR4"
     },
     {
@@ -8125,16 +6950,6 @@
         "last_updated": "2026-04-30T07:04:27.767Z"
     },
     {
-        "id": "96b15e51-08b0-4e8f-9ba9-df8bb24a7d49",
-        "name": "MSI B460 M PRO-VDH WIFI DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B0892VP2QT",
-        "clean_name": "MSI B460 M PRO-VDH WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "3fa55b60-6836-46c6-ac2b-340a0ccfb199",
         "name": "Gigabyte Z790 AORUS PRO X WIFI7 LGA1700 DDR5 ATX",
         "variant": "",
@@ -8205,22 +7020,6 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "acd55185-de1c-46e0-9d84-038b9e0bc741",
-        "name": "Z590 Pro4",
-        "amazon_sku": "B08X1X4QFX",
-        "clean_name": "Z590 Pro4",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
-        "id": "28982326-9fe0-4986-9bab-ee1c04feeb05",
-        "name": "ASROCK B460 STEEL LEGEND Supports 10th Gen Intel® Core™ Processors(Socket 1200) motherboard",
-        "amazon_sku": "B088ZS6S7T",
-        "clean_name": "ASROCK B460 STEEL LEGEND Supports 10th Gen Intel® Core™ Processors(Socket 1200)",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
     },
     {
         "id": "77a80cb5-c27c-45ff-a083-0b87884e75be",
@@ -8345,18 +7144,6 @@
         "last_updated": "2026-04-30T07:05:58.979Z"
     },
     {
-        "id": "7a36f83c-dcb8-4188-a3ae-3f0094c5c24d",
-        "name": "ASRock B560 Pro4 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08VH3DX2N",
-        "clean_name": "ASRock B560 Pro4",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T07:05:53.158Z"
-    },
-    {
         "id": "b1cde920-35c1-4b78-8daf-7933f2198dc7",
         "name": "MSI Z790 PRO-A WIFI DDR4 ATX",
         "variant": "PRO-A WIFI",
@@ -8365,27 +7152,6 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "46d9d04a-3238-4809-9e4c-15387680061a",
-        "name": "Gigabyte H410M S2H V2 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B094VZFJJC",
-        "clean_name": "Gigabyte H410M S2H V2",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 53.59,
-        "last_updated": "2026-04-30T07:05:58.752Z"
-    },
-    {
-        "id": "5c6de155-13e5-4592-9047-9e79141bb5e9",
-        "name": "MSI Z490-A PRO ATX Motherboard",
-        "variant": "ATX",
-        "amazon_sku": "B0876HPVHX",
-        "clean_name": "MSI Z490-A PRO",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
     },
     {
         "id": "60d295ea-2fa1-4333-a630-a58e7997f3fd",
@@ -8582,17 +7348,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "05f1e2f1-5a83-40a2-82ab-6f35a8fd5ded",
-        "name": "B460M D3H",
-        "variant": "rev. 1.0",
-        "amazon_sku": "B08933PCGT",
-        "clean_name": "B460M D3H",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "price": 53.71,
-        "last_updated": "2026-04-30T07:07:33.521Z"
-    },
-    {
         "id": "5bda3810-675a-4556-9581-17d5e0ce5b61",
         "name": "ASRock X470 Master SLI/AC AM4 AMD Ryzen 3000 Series CPU Ready ATX AMD Motherboard",
         "amazon_sku": "B07DQWWN5B",
@@ -8609,17 +7364,6 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "656b34cf-9a4a-45e8-b59a-7dab34c3b550",
-        "name": "MSI H410M-A PRO",
-        "variant": "H410M-A PRO",
-        "amazon_sku": "B0892V6VBR",
-        "clean_name": "MSI H410M-A PRO",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "price": 53.71,
-        "last_updated": "2026-04-30T07:07:39.542Z"
     },
     {
         "id": "8376e373-fd93-468e-92dd-d7a41ebe9218",
@@ -8644,17 +7388,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "914796fd-1954-46e5-ac86-ba505e4d471a",
-        "name": "GIGABYTE B460M AORUS PRO",
-        "variant": "B460M AORUS PRO",
-        "amazon_sku": "B08934QJNQ",
-        "clean_name": "GIGABYTE B460M AORUS PRO",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "price": 53.71,
-        "last_updated": "2026-04-30T07:07:52.709Z"
-    },
-    {
         "id": "d950b08a-9a7d-4db9-8b6d-db87c5f97437",
         "name": "ASUS B650E MAX GAMING WIFI W",
         "variant": "B650E WIFI W",
@@ -8662,16 +7395,6 @@
         "clean_name": "ASUS B650E MAX GAMING WIFI W",
         "socket": "AM5",
         "form_factor": "ATX"
-    },
-    {
-        "id": "583da9ce-0f63-43b2-80c0-bb9d446753a3",
-        "name": "ASRock H470 M-HDV/M.2 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08XZQ4G3B",
-        "clean_name": "ASRock H470 M-HDV/M.2",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "92e142a7-52ee-4281-ad98-2e8fd0cf917f",
@@ -8780,15 +7503,6 @@
         "memory_type": "DDR5",
         "price": 530.3,
         "last_updated": "2026-04-30T07:08:34.560Z"
-    },
-    {
-        "id": "332fc4c1-0458-4ce6-99ea-32ccc417b0ef",
-        "name": "ASUS PRIME B460M-A LGA 1200 Intel B460 SATA 6Gb/s Micro ATX Intel Motherboard",
-        "variant": "B460M-A",
-        "amazon_sku": "B087M19S5P",
-        "clean_name": "ASUS PRIME B460M-A Intel B460 SATA 6Gb/s Intel",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
     },
     {
         "id": "77ec8d68-a6f5-422c-afa6-350cdd59c351",
@@ -8906,40 +7620,6 @@
         "form_factor": "ATX"
     },
     {
-        "id": "3fce258e-02f4-4583-83d4-563f4085bc45",
-        "name": "ASRock Z490 Taichi WIFI DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B087TBBTGN",
-        "clean_name": "ASRock Z490 Taichi WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "688389a1-c883-42d6-8d01-c9c6b52074f3",
-        "name": "Gigabyte Z590 AORUS PRO AX DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08W9RG6K5",
-        "clean_name": "Gigabyte Z590 AORUS PRO AX",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T07:09:40.876Z"
-    },
-    {
-        "id": "f0b929ca-5f23-4341-95ce-ac839083aaf1",
-        "name": "ASRock B560M Steel Legend DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08XXSJ6YN",
-        "clean_name": "ASRock B560M Steel Legend",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T07:09:42.289Z"
-    },
-    {
         "id": "fc90fa79-e93a-46bd-90c0-916af3526a35",
         "name": "Asus B450M-A PRIME AM4 DDR4 Micro ATX",
         "variant": "",
@@ -9027,25 +7707,6 @@
         "socket": "LGA 1851",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "aeb86bd5-4ac4-4014-bb22-c35b8c7f53e8",
-        "name": "ASRock Z590 Steel Legend LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08VH76S16",
-        "clean_name": "ASRock Z590 Steel Legend",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "0cce9e90-8c90-4e74-8b5d-8e0fa42fee0e",
-        "name": "ASUS ROG STRIX Z490-G GAMING (WiFi 6)",
-        "variant": "Z490-G GAMING (WI-FI)",
-        "amazon_sku": "B087YTNRKN",
-        "clean_name": "ASUS ROG STRIX Z490-G GAMING (WiFi 6)",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
     },
     {
         "id": "47b44fb2-8303-4072-9856-9132fc5171e5",
@@ -9206,16 +7867,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "83b0c873-81c9-4931-be5f-486f5e00f6af",
-        "name": "ASRock B560 M-HDV DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08XNGQ1RT",
-        "clean_name": "ASRock B560 M-HDV",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "3939695d-df8c-485e-9d38-c12b2dfe8ec0",
         "name": "ASRock X570 Taichi",
         "amazon_sku": "B07TD911Y2",
@@ -9224,18 +7875,6 @@
         "form_factor": "ATX",
         "price": 158.64,
         "last_updated": "2026-04-30T07:11:49.241Z"
-    },
-    {
-        "id": "5b7129ca-8356-401e-8210-0de7c64e9c23",
-        "name": "Asus Z490-E ROG STRIX GAMING DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B086QSH67R",
-        "clean_name": "Asus Z490-E ROG STRIX GAMING",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 136.09,
-        "last_updated": "2026-04-30T07:12:00.370Z"
     },
     {
         "id": "b8856913-0a7f-48d5-8a78-238320818c58",
@@ -9281,14 +7920,6 @@
         "last_updated": "2026-04-30T07:12:15.980Z"
     },
     {
-        "id": "9a94bc6d-24a2-4f21-8533-1c14f0a9a4e9",
-        "name": "ASUS PRO H410M-C/CSM LGA1200 (Intel® 10th Gen) Micro ATX Commercial Motherboard (M.2, Intel LAN, DVI, LPT, LPC debug Header, Chassis Intrusion Header and ASUS Control Center Express)",
-        "amazon_sku": "B087LTJ8D7",
-        "clean_name": "ASUS PRO H410M-C/CSM (Intel® 10th Gen) Commercial (M.2, Intel LAN, DVI, LPT, LPC debug Header, Chassis Intrusion Header and ASUS Control Center Express)",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
-    },
-    {
         "id": "7d51c1fe-d7c3-4967-8c23-56f43a68085b",
         "name": "Gigabyte B650M DS3H AM5 DDR5 Micro ATX",
         "variant": "",
@@ -9297,16 +7928,6 @@
         "socket": "AM5",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "83240889-f430-4da6-a648-47eba5da9644",
-        "name": "ASRock B560 M-C LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08VH7Y1F8",
-        "clean_name": "ASRock B560 M-C",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "2c1c0ed6-4d3c-46f0-99fe-11d5ecdc5abd",
@@ -9326,16 +7947,6 @@
         "clean_name": "GIGABYTE X570 AORUS ULTRA AMD Ryzen 3000 PCIe 4.0 SATA 6Gb/s USB 3.2 AMD X570",
         "socket": "AM4",
         "form_factor": "ATX"
-    },
-    {
-        "id": "9a5414fa-eb6d-40f6-adf2-328a2632d875",
-        "name": "ASRock H510 M-HDV/M.2 LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08XNJNX5D",
-        "clean_name": "ASRock H510 M-HDV/M.2",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "a54971be-ad26-4ec9-9e2b-1dfeffd2b810",
@@ -9504,16 +8115,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "8eeda236-e044-465b-a9aa-ab8dff6f3d4a",
-        "name": "MSI B560I MPG GAMING EDGE WIFI LGA1200 DDR4 Mini ITX",
-        "variant": "",
-        "amazon_sku": "B092HSSGDY",
-        "clean_name": "MSI B560I MPG GAMING EDGE WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "807d472f-72f6-4ed6-a866-8196a725dadf",
         "name": "MSI MAG B860 TOMAHAWK WIFI DDR5 ATX",
         "variant": "",
@@ -9646,27 +8247,6 @@
         "last_updated": "2026-04-30T07:14:17.557Z"
     },
     {
-        "id": "2554874d-1422-4ab2-a483-30300365d185",
-        "name": "GIGABYTE Z490 AORUS ULTRA LGA 1200 Intel Z490 ATX Motherboard with Triple M.2, SATA 6Gb/s, USB 3.2 Gen 2, WIFI 6, 2.5 GbE LAN",
-        "variant": "ULTRA",
-        "amazon_sku": "B087GY4263",
-        "clean_name": "GIGABYTE Z490 AORUS ULTRA Intel Z490 with Triple M.2, SATA 6Gb/s, USB 3.2 Gen 2, WIFI 6, 2.5 GbE LAN",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
-        "id": "0b1d1de4-b59e-4186-b11d-e1604d3bfe73",
-        "name": "MSI Z590 MEG UNIFY-X DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B099P3LF9M",
-        "clean_name": "MSI Z590 MEG UNIFY-X",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T07:14:36.545Z"
-    },
-    {
         "id": "47ab045f-4ec7-4258-b4dd-be5e7f30c748",
         "name": "Asus Z790 PRIME-P DDR5 ATX",
         "variant": "",
@@ -9686,16 +8266,6 @@
         "clean_name": "Gigabyte X570 AORUS MASTER",
         "socket": "AM4",
         "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "66977e0e-5171-4c4b-8971-9911469f478e",
-        "name": "Asus Z590 ROG Maximus XIII Extreme LGA1200 DDR4 EATX",
-        "variant": "",
-        "amazon_sku": "B0916QXMYX",
-        "clean_name": "Asus Z590 ROG Maximus XIII Extreme",
-        "socket": "LGA 1200",
-        "form_factor": "EATX",
         "memory_type": "DDR4"
     },
     {
@@ -9770,18 +8340,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "051bc79b-2983-4321-8ec0-f6134959e488",
-        "name": "ASRock Z590 Phantom Gaming-ITX/TB4 DDR4 Mini ITX",
-        "variant": "",
-        "amazon_sku": "B09368Y98Q",
-        "clean_name": "ASRock Z590 Phantom Gaming-ITX/TB4",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX",
-        "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T07:15:11.210Z"
-    },
-    {
         "id": "575a8ec3-f798-42ab-bb6e-b452e866f6e8",
         "name": "Gigabyte B860 AORUS ELITE WIFI7 ICE DDR5 ATX",
         "variant": "",
@@ -9810,25 +8368,6 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "cc56547c-7d82-43ea-ab53-7226658af9e3",
-        "name": "ASRock B460 Pro4 ATX LGA1200 Motherboard",
-        "variant": "B460 Pro4",
-        "amazon_sku": "B0895LFKHL",
-        "clean_name": "ASRock B460 Pro4",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
-        "id": "33c9fced-4743-41f0-beae-046f44a7671d",
-        "name": "Asus ROG STRIX Z590-A GAMING WIFI DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08T6C7892",
-        "clean_name": "Asus ROG STRIX Z590-A GAMING WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "9e10d9df-1a34-4dcd-8dfe-3cf3a75e11a5",
@@ -9882,16 +8421,6 @@
         "form_factor": "ATX",
         "price": 133.54,
         "last_updated": "2026-04-30T07:15:48.589Z"
-    },
-    {
-        "id": "5560ed75-be68-4830-baec-72f67a6365d1",
-        "name": "Z590 PG Velocita",
-        "amazon_sku": "B08XMS493G",
-        "clean_name": "Z590 PG Velocita",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 88.33,
-        "last_updated": "2026-04-30T07:15:50.064Z"
     },
     {
         "id": "1ba2d3e1-7e6e-44b5-99b6-5784f00c7200",
@@ -10024,25 +8553,6 @@
         "socket": "AM5",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "0ab2d56d-1b61-4699-bf7e-72466571edb1",
-        "name": "ASUS PRIME B460-PLUS LGA 1200 Intel B460 SATA 6Gb/s ATX Intel Motherboard",
-        "variant": "B460-PLUS",
-        "amazon_sku": "B087LXDVQ7",
-        "clean_name": "ASUS PRIME B460-PLUS Intel B460 SATA 6Gb/s Intel",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
-        "id": "ffee511f-03e7-4a9d-8901-80d8f2e1d434",
-        "name": "ASRock H470 M-HVS LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08XNGK4BY",
-        "clean_name": "ASRock H470 M-HVS",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "8deb8697-e49b-4154-86e6-6464323aff1f",
@@ -10222,15 +8732,6 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4"
-    },
-    {
-        "id": "dcf59644-0383-4099-9d77-d627b46c3f75",
-        "name": "ASUS TUF GAMING B460M-PLUS Wi-Fi LGA 1200 Micro-ATX Motherboard",
-        "variant": "B460M-PLUS (WI-FI)",
-        "amazon_sku": "B087M3H5P8",
-        "clean_name": "ASUS TUF GAMING B460M-PLUS Wi-Fi",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX"
     },
     {
         "id": "fadac163-dd2d-4079-897a-00483951ae3c",
@@ -10596,26 +9097,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "fb24ce6b-a0c3-4b66-ae94-1783cf4375b6",
-        "name": "Z590 AORUS XTREME",
-        "amazon_sku": "B083HZ86V5",
-        "clean_name": "Z590 AORUS XTREME",
-        "socket": "LGA 1200",
-        "form_factor": "EATX",
-        "price": 176.77,
-        "last_updated": "2026-04-30T07:20:19.838Z"
-    },
-    {
-        "id": "29a89ff1-a36c-4732-b533-c036c33211a2",
-        "name": "Gigabyte Z590 UD AC LGA1200 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B083HZ6D35",
-        "clean_name": "Gigabyte Z590 UD AC",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "f2e0dd0d-fc2d-4562-9328-1fa85fd7455b",
         "name": "Gigabyte B660 GAMING X LGA1700 DDR4 ATX",
         "variant": "",
@@ -10721,18 +9202,6 @@
         "memory_type": "DDR4"
     },
     {
-        "id": "ff1e4e34-9249-4176-8b09-831c1fd61f43",
-        "name": "ASUS Z590 Prime Z590-P WiFi DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B093275C7X",
-        "clean_name": "ASUS Z590 Prime Z590-P WiFi",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T07:21:14.644Z"
-    },
-    {
         "id": "50f8e5ce-3768-4e02-9ce7-aaab7af09571",
         "name": "NZXT N5 Z690 Motherboard - N5-Z69XT-B1 - Intel Z690 chipset (Supports 12th Gen CPUs) - ATX Gaming Motherboard - Integrated I/O Shield - WiFi 6E connectivity - Bluetooth V5.2 - Black",
         "variant": "Z690",
@@ -10773,16 +9242,6 @@
         "last_updated": "2026-04-30T07:21:36.914Z"
     },
     {
-        "id": "cc550218-e846-41b3-92a8-366c3e923c72",
-        "name": "Supermicro Z490 C9Z490-PGW DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B08C9GKNPV",
-        "clean_name": "Supermicro Z490 C9Z490-PGW",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "d86e45c3-7e70-4f99-bcbf-5e5769b92fbd",
         "name": "Gigabyte B650 GAMING X AX DDR5 ATX",
         "variant": "",
@@ -10801,40 +9260,6 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "84a35f78-fd92-4cd3-b4f9-5fc30629f8e9",
-        "name": "ASRock Z490 Phantom Gaming-ITX/TB3 DDR4 Mini ITX",
-        "variant": "",
-        "amazon_sku": "B0888RJ3S5",
-        "clean_name": "ASRock Z490 Phantom Gaming-ITX/TB3",
-        "socket": "LGA 1200",
-        "form_factor": "Mini-ITX",
-        "memory_type": "DDR4",
-        "price": 53.71,
-        "last_updated": "2026-04-30T07:21:49.066Z"
-    },
-    {
-        "id": "2a680d04-40c0-4547-b738-7b669da3ec97",
-        "name": "Gigabyte Z490 AORUS MASTER DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B087GH5SK2",
-        "clean_name": "Gigabyte Z490 AORUS MASTER",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 53.71,
-        "last_updated": "2026-04-30T07:21:58.629Z"
-    },
-    {
-        "id": "5411bded-339c-4a60-a030-263f94fa87c1",
-        "name": "Gigabyte Z490 AORUS XTREME LGA1200 DDR4 EATX",
-        "variant": "",
-        "amazon_sku": "B087H47Y71",
-        "clean_name": "Gigabyte Z490 AORUS XTREME",
-        "socket": "LGA 1200",
-        "form_factor": "EATX",
-        "memory_type": "DDR4"
     },
     {
         "id": "1a565af9-2490-48fc-98b0-ddc4cd76fc2b",
@@ -10899,17 +9324,6 @@
         "socket": "AM5",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "b25caf84-a44d-48c4-a756-4180dc37c614",
-        "name": "Z490 PG Velocita",
-        "variant": "Velocita",
-        "amazon_sku": "B087TMJ5YS",
-        "clean_name": "Z490 PG Velocita",
-        "socket": "LGA 1200",
-        "form_factor": "ATX",
-        "price": 53.71,
-        "last_updated": "2026-04-30T07:22:28.500Z"
     },
     {
         "id": "2ea2dd9a-3c6d-4d84-86be-f53691b7f743",
@@ -11014,26 +9428,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "0b60549d-9c53-43e9-bc93-3b42d0439817",
-        "name": "Asus H510 PRIME H510M-K DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B091D6L2M7",
-        "clean_name": "Asus H510 PRIME H510M-K",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
-        "id": "feecb1e4-b91a-4c84-855d-feb8e6dba0f3",
-        "name": "Asus Q570 PRO Q570M-C/CSM LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B09322DLZS",
-        "clean_name": "Asus Q570 PRO Q570M-C/CSM",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "257f4d1d-f571-4c99-ad8d-cd86e75d5d35",
         "name": "ASUS ROG STRIX B760-A GAMING WIFI D4",
         "variant": "STRIX B760-A GAMING WIFI D4",
@@ -11041,18 +9435,6 @@
         "clean_name": "ASUS ROG STRIX B760-A GAMING WIFI D4",
         "socket": "LGA 1700",
         "form_factor": "ATX"
-    },
-    {
-        "id": "8721af4e-1cdb-4b39-b1c0-121ba13cbedb",
-        "name": "ASRock Z490M Pro4 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B087TDJ2QN",
-        "clean_name": "ASRock Z490M Pro4",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 53.71,
-        "last_updated": "2026-04-30T07:23:11.769Z"
     },
     {
         "id": "7ac8c6cd-870e-49fa-bcac-264518219020",
@@ -11121,15 +9503,6 @@
         "last_updated": "2026-04-30T07:23:43.249Z"
     },
     {
-        "id": "7d73aa47-5c39-4510-9839-7e88d09237e0",
-        "name": "MSI MAG Z590 TOMAHAWK WIFI LGA 1200 ATX Motherboard",
-        "variant": "Z590 TOMAHAWK WIFI",
-        "amazon_sku": "B08WCN4NK5",
-        "clean_name": "MSI MAG Z590 TOMAHAWK WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "ATX"
-    },
-    {
         "id": "3624008a-8c9e-43e1-b282-2bf5c9ebe4eb",
         "name": "ASRock B850 Pro-A WiFi AM5 DDR5 ATX",
         "variant": "",
@@ -11140,16 +9513,6 @@
         "memory_type": "DDR5"
     },
     {
-        "id": "02239c9d-55aa-4909-9c6a-f751c6721be6",
-        "name": "Asus B560 PRIME B560M-A AC LGA1200 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B09CC1RBH9",
-        "clean_name": "Asus B560 PRIME B560M-A AC",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4"
-    },
-    {
         "id": "c0b7568c-2705-4694-87c6-825a70d1f370",
         "name": "Asus Intel Z790 ROG STRIX Z790-E GAMING WIFI LGA1700 DDR5 ATX",
         "variant": "",
@@ -11158,18 +9521,6 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR5"
-    },
-    {
-        "id": "1392bc32-9e16-4dce-acc7-9d71ad2d350b",
-        "name": "MSI MAG B560M MORTAR WIFI DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08WCTZ2VX",
-        "clean_name": "MSI MAG B560M MORTAR WIFI",
-        "socket": "LGA 1200",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T07:24:11.906Z"
     },
     {
         "id": "e63f22ef-d137-46f0-9ffa-d4cae8ed57bc",

@@ -9,24 +9,6 @@
         "vram": "8GB"
     },
     {
-        "id": "d9962933-d1bd-45fb-b818-253ea3a7f483",
-        "name": "MSI GeForce GTX 1630 AERO ITX 4G OC GeForce GTX 1630 4 GB",
-        "variant": "MSI",
-        "amazon_sku": "B0B5V8MR5Z",
-        "clean_name": "MSI GeForce GTX 1630 AERO ITX 4G OC GeForce GTX 1630",
-        "chipset": "GeForce GTX 1630",
-        "vram": "4 GB"
-    },
-    {
-        "id": "0136c240-22e6-4b41-9fa6-1fd5aa9216b8",
-        "name": "EVGA GeForce GTX 1660 XC Ultra Gaming, 6GB GDDR5, HDB Fan, 06G-P4-1167-KR",
-        "variant": "XC Ultra Gaming",
-        "amazon_sku": "B07PGLJFYR",
-        "clean_name": "EVGA GeForce GTX 1660 XC Ultra Gaming, GDDR5, HDB Fan, 06G-P4-1167-KR",
-        "chipset": "GeForce GTX 1660",
-        "vram": "6GB"
-    },
-    {
         "id": "3541067a-bda5-48b5-a1fa-ef4cff76274a",
         "name": "Zotac GeForce RTX 4070 Ti SUPER GAMING AMP Holo 16GB GDDR6X Black",
         "variant": "Zotac",
@@ -79,17 +61,6 @@
         "clean_name": "ASRock Phantom Gaming D OC Radeon RX 5500 XT GDDR6 Silver / Red",
         "chipset": "Radeon RX 5500 XT",
         "vram": "8GB"
-    },
-    {
-        "id": "a90a69c8-9433-4929-af15-f2a34ef38e39",
-        "name": "EVGA GeForce GTX 1080 Ti FTW3 GAMING 11GB GDDR5X",
-        "variant": "GAMING ",
-        "amazon_sku": "B07QGGCR85",
-        "clean_name": "EVGA GeForce GTX 1080 Ti FTW3 GAMING GDDR5X",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T06:11:10.544Z"
     },
     {
         "id": "f6da24c4-dd43-4fb7-95f7-ad7d4342e810",
@@ -253,24 +224,6 @@
         "vram": "8GB"
     },
     {
-        "id": "e3cdfb84-cb8a-44a0-bd19-42cb42ab537a",
-        "name": "EVGA GeForce GTX 1080 SC GAMING ACX 3.0 8GB GDDR5X Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B01GBX8X5S",
-        "clean_name": "EVGA GeForce GTX 1080 SC GAMING ACX 3.0 GDDR5X Black / Silver",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB"
-    },
-    {
-        "id": "9d8059a4-9758-428f-b573-ffdb4b526f94",
-        "name": "MSI GeForce GTX 1660 SUPER VENTUS XS OC 6GB GDDR6",
-        "variant": "OC ",
-        "amazon_sku": "B07ZHDZ1K6",
-        "clean_name": "MSI GeForce GTX 1660 SUPER VENTUS XS OC GDDR6",
-        "chipset": "GeForce GTX 1660 SUPER",
-        "vram": "6GB"
-    },
-    {
         "id": "0d367139-8bdb-481b-a7b3-1c7cdfbba5d0",
         "name": "AORUS GeForce RTX 2070 SUPER 8G",
         "amazon_sku": "B07TV9BVVV",
@@ -295,15 +248,6 @@
         "vram": "32GB",
         "price": 4372.01,
         "last_updated": "2026-04-30T06:12:30.716Z"
-    },
-    {
-        "id": "5c57598d-d545-4db2-9b8b-bc3d931cc47f",
-        "name": "Gigabyte Black / Orange GeForce GTX 1050 Ti 4GB GDDR5 Black / Orange",
-        "variant": "Gigabyte",
-        "amazon_sku": "B01M25X363",
-        "clean_name": "Gigabyte Black / Orange GeForce GTX 1050 Ti GDDR5 Black / Orange",
-        "chipset": "GeForce GTX 1050 Ti",
-        "vram": "4GB"
     },
     {
         "id": "5e5964de-4658-4975-8a15-e1efa04990c7",
@@ -437,15 +381,6 @@
         "vram": "12GB"
     },
     {
-        "id": "673a5944-a358-42ca-8c96-76daae07bb24",
-        "name": "MSI Radeon RX 480 Radeon RX 480 4GB GDDR5 Black",
-        "variant": "MSI",
-        "amazon_sku": "B01N7OV2WT",
-        "clean_name": "MSI Radeon RX 480 Radeon RX 480 GDDR5 Black",
-        "chipset": "Radeon RX 480",
-        "vram": "4GB"
-    },
-    {
         "id": "be292bdc-c3da-47e0-978b-60252ad24ce6",
         "name": "MSI Radeon™ RX 7600 MECH 2X CLASSIC 8G OC",
         "variant": "CLASSIC",
@@ -461,14 +396,6 @@
         "clean_name": "MSI SHADOW 3X OC GeForce RTX 5070 Ti GDDR7 Black",
         "chipset": "GeForce RTX 5070 Ti",
         "vram": "16GB"
-    },
-    {
-        "id": "67788a66-0b24-43c7-8e39-d721d0df52d6",
-        "name": "Gigabyte GeForce GTX 1060 WINDFORCE OC 6G GDDR5",
-        "variant": "OC ",
-        "amazon_sku": "B01JNUO6BG",
-        "clean_name": "Gigabyte GeForce GTX 1060 WINDFORCE OC 6G GDDR5",
-        "chipset": "GeForce GTX 1060"
     },
     {
         "id": "63f1c493-dfe2-4378-9564-5274e6594477",
@@ -597,15 +524,6 @@
         "chipset": "GeForce RTX 3070"
     },
     {
-        "id": "f70373ca-7d95-45c4-911a-e5e1400dd0fa",
-        "name": "EVGA SSC GAMING GeForce GTX 1060 3GB GDDR5 Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B01MFDG1KL",
-        "clean_name": "EVGA SSC GAMING GeForce GTX 1060 GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1060",
-        "vram": "3GB"
-    },
-    {
         "id": "f0593e87-9591-485f-99a0-f78990b45478",
         "name": "MSI VENTUS 3X 8GD6X OC GeForce RTX 3060 Ti 8GB GDDR6X Black",
         "variant": "MSI",
@@ -649,15 +567,6 @@
         "chipset": "GeForce RTX 2080 SUPER"
     },
     {
-        "id": "0aec8a46-9172-4ea1-8696-612fed537b8f",
-        "name": "MSI ARMOR OC GeForce GTX 1060 6GB GDDR5 Black / White",
-        "variant": "MSI",
-        "amazon_sku": "B01IEKYD3C",
-        "clean_name": "MSI ARMOR OC GeForce GTX 1060 GDDR5 Black / White",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
-    },
-    {
         "id": "d8f681d4-1ff8-41e9-a572-9a1a931b22cf",
         "name": "NVIDIA Founders Edition GeForce RTX 2080 Ti 11GB GDDR6",
         "variant": "NVIDIA",
@@ -693,15 +602,6 @@
         "clean_name": "ZOTAC GAMING GeForce RTX 5060 Ti GDDR7 Twin Edge OC",
         "chipset": "GeForce RTX 5060 Ti 16 GB",
         "vram": "16GB"
-    },
-    {
-        "id": "8b2f554d-b224-46a1-9a4e-52a23a681936",
-        "name": "PNY GeForce GTX 1050 GeForce GTX 1050 2GB GDDR5 Black",
-        "variant": "PNY",
-        "amazon_sku": "B01M27X9WI",
-        "clean_name": "PNY GeForce GTX 1050 GeForce GTX 1050 GDDR5 Black",
-        "chipset": "GeForce GTX 1050",
-        "vram": "2GB"
     },
     {
         "id": "0ad09cb9-9801-4e8a-aee3-860dc52b232a",
@@ -785,15 +685,6 @@
         "vram": "24GB"
     },
     {
-        "id": "4118f054-4910-49b8-ae25-738749642db7",
-        "name": "PowerColor Red Devil Radeon RX 580 8GB GDDR5 Black / Red",
-        "variant": "PowerColor",
-        "amazon_sku": "B071DF8V4V",
-        "clean_name": "PowerColor Red Devil Radeon RX 580 GDDR5 Black / Red",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
-    },
-    {
         "id": "9d105509-2f9f-4b6b-b973-224f00c0f752",
         "name": "NVIDIA RTX 5000 Ada Generation 32GB GDDR6",
         "variant": "",
@@ -830,24 +721,6 @@
         "clean_name": "GIGABYTE Eagle OC GeForce RTX 3060 Ti GDDR6 PCI Express 4.0 ATX GV-N306TEAGLE OC-8GD (rev. 2.0) (LHR)",
         "chipset": "GeForce RTX 3060 Ti",
         "vram": "8GB"
-    },
-    {
-        "id": "99bfccb7-2604-400d-9007-e58670b8f39d",
-        "name": "Palit StormX GeForce GTX 1050 Ti 4GB GDDR5 Black",
-        "variant": "Palit",
-        "amazon_sku": "B01M2ZC61B",
-        "clean_name": "Palit StormX GeForce GTX 1050 Ti GDDR5 Black",
-        "chipset": "GeForce GTX 1050 Ti",
-        "vram": "4GB"
-    },
-    {
-        "id": "e72e44e3-5696-4b26-a370-0ce64ec3d169",
-        "name": "EVGA GeForce GTX 1060 GAMING 6GB GDDR5 Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B01LZ3VNG0",
-        "clean_name": "EVGA GeForce GTX 1060 GAMING GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
     },
     {
         "id": "ee306886-a073-44b4-819a-d36c05f7da8e",
@@ -932,17 +805,6 @@
         "vram": "16GB"
     },
     {
-        "id": "fa7b4392-3bec-48fc-a103-8e45c64b0ecf",
-        "name": "Asus Turbo GeForce GTX 1080 Ti 11GB GDDR5X Black / White",
-        "variant": "Asus",
-        "amazon_sku": "B06Y31FYWY",
-        "clean_name": "Asus Turbo GeForce GTX 1080 Ti GDDR5X Black / White",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T06:17:17.178Z"
-    },
-    {
         "id": "8f64dc32-aaa1-427b-9090-92665a204141",
         "name": "AORUS GeForce RTX 4070 Ti ELITE 12G",
         "variant": "12G",
@@ -966,14 +828,6 @@
         "clean_name": "Zotac GAMING SOLID CORE OC GeForce RTX 5070 Ti GDDR7",
         "chipset": "GeForce RTX 5070 Ti",
         "vram": "16GB"
-    },
-    {
-        "id": "96e0f43b-4a27-47a2-afe2-9bba6b143ff8",
-        "name": "Gigabyte GeForce GTX 1050 Ti OC Low Profile 4G",
-        "variant": "OC Low Profile",
-        "amazon_sku": "B06WWLWWJM",
-        "clean_name": "Gigabyte GeForce GTX 1050 Ti OC Low Profile 4G",
-        "chipset": "GeForce GTX 1050 Ti"
     },
     {
         "id": "51a8875c-91f5-4904-a7c6-f05b0536e234",
@@ -1020,15 +874,6 @@
         "vram": "16GB"
     },
     {
-        "id": "ae15a906-e33c-4052-8711-afe625cc4fca",
-        "name": "Asus Radeon RX 550 - 512 Radeon RX 550 - 512 4GB GDDR5 Black",
-        "variant": "Asus",
-        "amazon_sku": "B08L6S2GGM",
-        "clean_name": "Asus Radeon RX 550 - 512 Radeon RX 550 - 512 GDDR5 Black",
-        "chipset": "Radeon RX 550",
-        "vram": "4GB"
-    },
-    {
         "id": "630e9382-c784-4454-b661-1105bfab374f",
         "name": "Asus ROG STRIX OC EVA-02 GeForce RTX 4090 24GB GDDR6X Red / Black",
         "variant": "Asus",
@@ -1038,17 +883,6 @@
         "vram": "24GB"
     },
     {
-        "id": "7fe99da7-a6fa-453c-ba84-ca93b28308f4",
-        "name": "EVGA SC2 Gaming iCX GeForce GTX 1080 8GB GDDR5X White / Black",
-        "variant": "EVGA",
-        "amazon_sku": "B06W51YRVT",
-        "clean_name": "EVGA SC2 Gaming iCX GeForce GTX 1080 GDDR5X White / Black",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T06:18:04.866Z"
-    },
-    {
         "id": "2d90b5a6-2ea2-4f2a-975b-e79dbf5261ef",
         "name": "Zotac GAMING AMP Holo GeForce RTX 3080 Ti 12GB GDDR6X Black / Silver",
         "variant": "Zotac",
@@ -1056,15 +890,6 @@
         "clean_name": "Zotac GAMING AMP Holo GeForce RTX 3080 Ti GDDR6X Black / Silver",
         "chipset": "GeForce RTX 3080 Ti",
         "vram": "12GB"
-    },
-    {
-        "id": "95937222-8a7d-4642-90ad-cee8caa5f7a7",
-        "name": "XFX GTS Radeon RX 580 8GB GDDR5 Black / Red",
-        "variant": "XFX",
-        "amazon_sku": "B079MFGCTG",
-        "clean_name": "XFX GTS Radeon RX 580 GDDR5 Black / Red",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
     },
     {
         "id": "7ba8d416-bb9d-4070-8bb6-832e45522bbc",
@@ -1101,15 +926,6 @@
         "clean_name": "Palit GameRock GeForce RTX 4090 GDDR6X Silver / Black",
         "chipset": "GeForce RTX 4090",
         "vram": "24GB"
-    },
-    {
-        "id": "f38ccb7d-7498-42f9-b29a-0f950e73bd79",
-        "name": "EVGA FTW2 GAMING iCX GeForce GTX 1070 8GB GDDR5 Black / Gray",
-        "variant": "EVGA",
-        "amazon_sku": "B06X3RBJLW",
-        "clean_name": "EVGA FTW2 GAMING iCX GeForce GTX 1070 GDDR5 Black / Gray",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
     },
     {
         "id": "d6bb46fa-c335-4b0d-84d4-b1d28f585c15",
@@ -1204,15 +1020,6 @@
         "vram": "16 GB"
     },
     {
-        "id": "edbd7ede-021b-47d8-97fa-e51ddc13d3ca",
-        "name": "Gigabyte WINDFORCE OC GeForce GTX 1650 G5 4GB GDDR5 Black / Silver",
-        "variant": "Gigabyte",
-        "amazon_sku": "B07QHGKC2D",
-        "clean_name": "Gigabyte WINDFORCE OC GeForce GTX 1650 G5 GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
-    },
-    {
         "id": "4168f8e8-9310-4477-816c-a9062b3f9811",
         "name": "Gigabyte GeForce RTX 5060 Ti EAGLE OC 8G GDDR7",
         "variant": "OC ",
@@ -1240,14 +1047,6 @@
         "clean_name": "Asus GeForce RTX 4070 Ti SUPER TUF Gaming OG OC GDDR6X Black",
         "chipset": "GeForce RTX 4070 Ti SUPER",
         "vram": "16GB"
-    },
-    {
-        "id": "748c1cd5-004b-4405-84f9-502a0cf7b72f",
-        "name": "GeForce GTX 1080",
-        "variant": "GP104-400-A1",
-        "amazon_sku": "B07KW9GD4F",
-        "clean_name": "GeForce GTX 1080",
-        "chipset": "GeForce GTX 1080"
     },
     {
         "id": "fdeb4811-a91b-4261-a8c3-4ddad09631e0",
@@ -1391,15 +1190,6 @@
         "vram": "8GB"
     },
     {
-        "id": "f3138fef-ef59-4c5f-a124-16baef823c09",
-        "name": "Sapphire PULSE Radeon RX 550 - 512 4GB GDDR5 Black / Red",
-        "variant": "Sapphire",
-        "amazon_sku": "B06ZY216Y2",
-        "clean_name": "Sapphire PULSE Radeon RX 550 - 512 GDDR5 Black / Red",
-        "chipset": "Radeon RX 550",
-        "vram": "4GB"
-    },
-    {
         "id": "450d1d39-afeb-4b05-82c0-178e48a7ea53",
         "name": "EVGA GeForce RTX 3060 Ti FTW3 ULTRA GAMING 8GB GDDR6",
         "variant": "ULTRA GAMING",
@@ -1442,14 +1232,6 @@
         "clean_name": "Gigabyte GAMING OC GeForce RTX 4070 Ti GDDR6X Black",
         "chipset": "GeForce RTX 4070 Ti",
         "vram": "12GB"
-    },
-    {
-        "id": "1c0d4e93-32a5-406d-8bd0-a5bedb785c66",
-        "name": "Radeon RX 470 G1 Gaming 4G",
-        "variant": "G1 Gaming",
-        "amazon_sku": "B01N0MI5PY",
-        "clean_name": "Radeon RX 470 G1 Gaming 4G",
-        "chipset": "Radeon RX 470"
     },
     {
         "id": "9580dad8-6974-438c-b895-6f828107dbab",
@@ -1812,14 +1594,6 @@
         "vram": "12GB"
     },
     {
-        "id": "f81afc82-f0c7-4298-b8ac-60ee415f0944",
-        "name": "MSI GeForce GTX 1660 Ti GAMING X 6G GDDR6",
-        "variant": "X ",
-        "amazon_sku": "B07N825Y1L",
-        "clean_name": "MSI GeForce GTX 1660 Ti GAMING X 6G GDDR6",
-        "chipset": "GeForce GTX 1660 Ti"
-    },
-    {
         "id": "67246b6e-2caf-4222-8c50-51d187b9ab05",
         "name": "Gigabyte WINDFORCE OC GeForce RTX 4060 8G GDDR6",
         "variant": "OC ",
@@ -1958,14 +1732,6 @@
         "clean_name": "Palit JetStream GeForce RTX 3070 LHR GDDR6 Black / Silver",
         "chipset": "GeForce RTX 3070",
         "vram": "8GB"
-    },
-    {
-        "id": "bccf3b45-2bb5-4d1f-abd3-1f812447eef2",
-        "name": "Gigabyte GAMING Radeon RX 580 8G GDDR5",
-        "variant": "",
-        "amazon_sku": "B06Y3ZQPY6",
-        "clean_name": "Gigabyte GAMING Radeon RX 580 8G GDDR5",
-        "chipset": "Radeon RX 580"
     },
     {
         "id": "10d63863-5964-4cf3-aec2-5a662c716b70",
@@ -2139,15 +1905,6 @@
         "vram": "8GB"
     },
     {
-        "id": "ec12e916-7152-4ba9-9daf-f9380ce2c001",
-        "name": "PowerColor Radeon RX 550 - 512 Red Dragon 4GB GDDR5 Black",
-        "variant": "PowerColor",
-        "amazon_sku": "B09NTNSCJM",
-        "clean_name": "PowerColor Radeon RX 550 - 512 Red Dragon GDDR5 Black",
-        "chipset": "Radeon RX 550",
-        "vram": "4GB"
-    },
-    {
         "id": "44865898-1794-490b-8a16-fd52d36d70d1",
         "name": "XFX Swift OC Radeon RX 9060 XT 16GB GDDR6 White Triple Fan",
         "variant": "OC ",
@@ -2184,15 +1941,6 @@
         "clean_name": "ASRock Phantom Gaming OC Radeon RX 7700 XT GDDR6 Black",
         "chipset": "Radeon RX 7700 XT",
         "vram": "12GB"
-    },
-    {
-        "id": "cdcb72d4-35c8-4ff6-b463-d1d82b6f7619",
-        "name": "EVGA SC ULTRA GAMING GeForce GTX 1650 G6 4GB GDDR6 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B085WV18XN",
-        "clean_name": "EVGA SC ULTRA GAMING GeForce GTX 1650 G6 GDDR6 Black",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "e6c253c1-9b78-4ac0-996c-eb19d094588e",
@@ -2302,17 +2050,6 @@
         "chipset": "GeForce RTX 4070"
     },
     {
-        "id": "8fb4dfd6-e1a7-4782-82bd-7a38c5fa37ec",
-        "name": "MSI GAMING X GeForce GTX 1080 Ti 11GB GDDR5X Black / Red",
-        "variant": "MSI",
-        "amazon_sku": "B06XVG7M23",
-        "clean_name": "MSI GAMING X GeForce GTX 1080 Ti GDDR5X Black / Red",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T06:27:50.863Z"
-    },
-    {
         "id": "4a18576b-2317-4178-ad15-5a4852f96a44",
         "name": "GIGABYTE AORUS Radeon RX 5700 XT 8G Graphics Card, PCIe 4.0, 8GB 256-Bit GDDR6, GV-R57XTAORUS-8GD Video Card",
         "amazon_sku": "B0842SCK5T",
@@ -2379,14 +2116,6 @@
         "amazon_sku": "B0C5BMVMTZ",
         "clean_name": "MSI GeForce RTX 4060 Ti GAMING X TRIO 8G GDDR6",
         "chipset": "GeForce RTX 4060 Ti"
-    },
-    {
-        "id": "82b6d8f7-015f-43c5-8c15-3dc23ce16d8a",
-        "name": "Radeon RX 580",
-        "variant": "XXX Edition",
-        "amazon_sku": "B06ZZ6FMF8",
-        "clean_name": "Radeon RX 580",
-        "chipset": "Radeon RX 580"
     },
     {
         "id": "cbffa8b3-d43c-411f-aafd-e4854ccd88ba",
@@ -2461,25 +2190,6 @@
         "chipset": "GeForce RTX 5070 Ti"
     },
     {
-        "id": "86b5be0f-8314-4afe-adaf-f7adece18895",
-        "name": "Gigabyte GeForce® GTX 1650 SUPER™ WINDFORCE OC 4G GDDR6",
-        "variant": "OC ",
-        "amazon_sku": "B081R359ZM",
-        "clean_name": "Gigabyte GeForce® GTX 1650 SUPER™ WINDFORCE OC 4G GDDR6",
-        "chipset": "GeForce GTX 1650 SUPER"
-    },
-    {
-        "id": "48567abf-79fb-48d4-8b41-9255048128b4",
-        "name": "EVGA SC2 GeForce GTX 1080 Ti 11GB GDDR5X Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B06Y13N2B6",
-        "clean_name": "EVGA SC2 GeForce GTX 1080 Ti GDDR5X Silver",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T06:29:06.028Z"
-    },
-    {
         "id": "1904f49d-e51d-4dc4-8998-7be2dcbc0b8a",
         "name": "Zotac GAMING Trinity OC GeForce RTX 3080 10GB GDDR6X Black",
         "variant": "Zotac",
@@ -2550,15 +2260,6 @@
         "vram": "12GB"
     },
     {
-        "id": "f2e99a02-f10f-4e26-bd84-c65d5cadefff",
-        "name": "MSI GeForce GTX 1060 6GB ARMOR OCV1 6GB GDDR5 Black / White",
-        "variant": "MSI",
-        "amazon_sku": "B01L9VB642",
-        "clean_name": "MSI GeForce GTX 1060 ARMOR OCV1 GDDR5 Black / White",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
-    },
-    {
         "id": "8115784d-4027-45e5-b95f-cd1364714d9c",
         "name": "MSI GeForce RTX™ 5070 Ti 16G INSPIRE 3X OC GDDR7",
         "variant": "OC ",
@@ -2620,15 +2321,6 @@
         "vram": "8GB"
     },
     {
-        "id": "6fd2bc9c-d33f-4055-9cbf-2a2fe5fc9b73",
-        "name": "MSI LP GeForce GTX 1050 Ti 4GB GDDR5 Black / White",
-        "variant": "MSI",
-        "amazon_sku": "B01N2W8MJ9",
-        "clean_name": "MSI LP GeForce GTX 1050 Ti GDDR5 Black / White",
-        "chipset": "GeForce GTX 1050 Ti",
-        "vram": "4GB"
-    },
-    {
         "id": "46de9858-3f8a-4506-b0bc-65f5fc782554",
         "name": "XFX Speedster SWFT 210 Core Radeon RX 6600 8GB GDDR6",
         "variant": "Core",
@@ -2657,15 +2349,6 @@
         "last_updated": "2026-04-30T06:30:18.969Z"
     },
     {
-        "id": "7e1b80dc-78e5-416b-8214-fd5741b5f90e",
-        "name": "Sapphire NITRO+ Radeon RX 580 8GB GDDR5",
-        "variant": "",
-        "amazon_sku": "B071QX74F9",
-        "clean_name": "Sapphire NITRO+ Radeon RX 580 GDDR5",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
-    },
-    {
         "id": "41023f5d-9c52-4941-8bd5-965b1e8bc456",
         "name": "Asus TUF GAMING OC GeForce RTX 3060 Ti 8GB GDDR6X Black",
         "variant": "Asus",
@@ -2682,15 +2365,6 @@
         "clean_name": "Inno3D X3 OC GeForce RTX 4070 Ti GDDR6X Black / Silver",
         "chipset": "GeForce RTX 4070 Ti",
         "vram": "12GB"
-    },
-    {
-        "id": "b144d140-d393-4cae-9607-46fa7a1327fa",
-        "name": "MSI D6 VENTUS XS OC GeForce GTX 1650 G6 4GB GDDR6 Black Silver",
-        "variant": "MSI",
-        "amazon_sku": "B086VR4VHX",
-        "clean_name": "MSI D6 VENTUS XS OC GeForce GTX 1650 G6 GDDR6 Black Silver",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "f9302fd9-9698-4485-912c-f820b4d3146c",
@@ -2727,15 +2401,6 @@
         "clean_name": "PNY GeForce RTX 4090 XLR8 Gaming VERTO EPIC-X RGB GDDR6X Black",
         "chipset": "GeForce RTX 4090",
         "vram": "24GB"
-    },
-    {
-        "id": "d6561185-d4e4-4b6b-acf7-b2e02723284e",
-        "name": "Asus Phoenix OC GeForce GTX 1660 SUPER 6GB GDDR6 Black / White",
-        "variant": "Asus",
-        "amazon_sku": "B07ZGXG8GM",
-        "clean_name": "Asus Phoenix OC GeForce GTX 1660 SUPER GDDR6 Black / White",
-        "chipset": "GeForce GTX 1660 SUPER",
-        "vram": "6GB"
     },
     {
         "id": "940f967a-6fbb-4e4d-af0f-e89a81c10d0b",
@@ -2825,15 +2490,6 @@
         "clean_name": "MSI VENTUS 2X E OC GeForce RTX 4070 GDDR6X Silver / Black",
         "chipset": "GeForce RTX 4070",
         "vram": "12GB"
-    },
-    {
-        "id": "68a2441c-f4ab-4653-ae3b-59f8098d2924",
-        "name": "MSI OCV1 GeForce GTX 1060 3GB 3GB GDDR5 Black / White",
-        "variant": "MSI",
-        "amazon_sku": "B01LW14DG7",
-        "clean_name": "MSI OCV1 GeForce GTX 1060 GDDR5 Black / White",
-        "chipset": "GeForce GTX 1060",
-        "vram": "3GB"
     },
     {
         "id": "f11971d8-fe37-4ccc-b143-bec6924d6a29",
@@ -3001,14 +2657,6 @@
         "vram": "8GB"
     },
     {
-        "id": "f349e815-0b9f-4069-a6fc-58a595012319",
-        "name": "MSI GeForce GTX 1660 Ti VENTUS XS 6G OC",
-        "variant": "XS OC",
-        "amazon_sku": "B07N824KNV",
-        "clean_name": "MSI GeForce GTX 1660 Ti VENTUS XS 6G OC",
-        "chipset": "GeForce GTX 1660 Ti"
-    },
-    {
         "id": "2e1ddcdb-3ef3-486f-a7bb-32a9c52236cc",
         "name": "Gigabyte AERO OC GeForce RTX 4070 Ti SUPER 16GB GDDR6X White / Silver",
         "variant": "Gigabyte",
@@ -3108,17 +2756,6 @@
         "vram": "8GB"
     },
     {
-        "id": "06575505-11e4-4c6c-aace-95b61390f5f9",
-        "name": "MSI GAMING X GeForce GTX 1070 8GB GDDR5 Black / Red",
-        "variant": "MSI",
-        "amazon_sku": "B01GXOX3SW",
-        "clean_name": "MSI GAMING X GeForce GTX 1070 GDDR5 Black / Red",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T06:33:49.777Z"
-    },
-    {
         "id": "49ac6b86-0a3f-4c4c-a432-70bc1464e34f",
         "name": "Inno3D Twin X2 GeForce RTX 4060 Ti 16GB GDDR6 Black / Silver",
         "variant": "Inno3D",
@@ -3181,14 +2818,6 @@
         "clean_name": "Zotac GeForce RTX 5080 GAMING AMP Extreme INFINITY GDDR7 Black / Copper",
         "chipset": "GeForce RTX 5080",
         "vram": "16GB"
-    },
-    {
-        "id": "b5210587-0049-45f8-bb4a-cb6b1fd400e2",
-        "name": "MSI GeForce GTX 1080 GAMING X 8G GDDR5X",
-        "variant": "X ",
-        "amazon_sku": "B01GLYD7MG",
-        "clean_name": "MSI GeForce GTX 1080 GAMING X 8G GDDR5X",
-        "chipset": "GeForce GTX 1080"
     },
     {
         "id": "90656184-0f3a-456f-97a1-e540edbfb7ae",
@@ -3267,15 +2896,6 @@
         "vram": "8GB"
     },
     {
-        "id": "6d2d1e33-6ae9-470a-8b51-cb68754a74ac",
-        "name": "EVGA SC ULTRA GAMING GeForce GTX 1650 SUPER 4GB GDDR6 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B081R425YH",
-        "clean_name": "EVGA SC ULTRA GAMING GeForce GTX 1650 SUPER GDDR6 Black",
-        "chipset": "GeForce GTX 1650 SUPER",
-        "vram": "4GB"
-    },
-    {
         "id": "344292c1-3ddc-4f2d-ad49-dafbb6c756c3",
         "name": "Asus TUF GAMING GeForce RTX 3080 Ti 12GB GDDR6X Black",
         "variant": "Asus",
@@ -3303,15 +2923,6 @@
         "vram": "8GB",
         "price": 277.42,
         "last_updated": "2026-04-30T06:34:51.303Z"
-    },
-    {
-        "id": "978d993a-5ae1-485a-87f3-abafab627461",
-        "name": "EVGA XC BLACK GAMING GeForce GTX 1660 6GB GDDR5 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B07PGLLWRY",
-        "clean_name": "EVGA XC BLACK GAMING GeForce GTX 1660 GDDR5 Black",
-        "chipset": "GeForce GTX 1660",
-        "vram": "6GB"
     },
     {
         "id": "8852d227-5668-4c91-9df7-1755c80af03f",
@@ -3375,15 +2986,6 @@
         "vram": "10GB"
     },
     {
-        "id": "534e6059-b1a4-4a5c-91e5-b9f7517b0169",
-        "name": "Gigabyte GAMING OC GeForce GTX 1660 SUPER 6GB GDDR6 Black / Silver",
-        "variant": "Gigabyte",
-        "amazon_sku": "B07YYZD17M",
-        "clean_name": "Gigabyte GAMING OC GeForce GTX 1660 SUPER GDDR6 Black / Silver",
-        "chipset": "GeForce GTX 1660 SUPER",
-        "vram": "6GB"
-    },
-    {
         "id": "49ccc894-68fe-4005-ab1a-f144659fa6c0",
         "name": "Zotac GeForce RTX 4080 SUPER GAMING AMP 16GB GDDR6X Black",
         "variant": "Zotac",
@@ -3440,14 +3042,6 @@
         "vram": "16 GB"
     },
     {
-        "id": "789c90e0-e6cc-421a-8b05-0a6e24eec48a",
-        "name": "NITRO+ RX 590 8G G5 SE",
-        "variant": "Special Edition",
-        "amazon_sku": "B07K12KNHG",
-        "clean_name": "NITRO+ RX 590 8G G5 SE",
-        "chipset": "Radeon RX 590"
-    },
-    {
         "id": "e7b4c3bc-b1ff-47c6-87eb-98171d47ce88",
         "name": "XFX Radeon RX 5600 XT THICC III PRO - 14GBPS 6GB GDDR6 Boost Up to 1750MHz 3xDP HDMI Graphics Card RX-56XT6TF48",
         "variant": "THICC III PRO",
@@ -3484,14 +3078,6 @@
         "vram": "10GB"
     },
     {
-        "id": "d567f56d-0e10-4440-ba17-6c4069260fb4",
-        "name": "Gigabyte GeForce GTX 1060 MINI ITX OC 6G GDDR5",
-        "variant": "OC ",
-        "amazon_sku": "B01KQUDCQW",
-        "clean_name": "Gigabyte GeForce GTX 1060 MINI ITX OC 6G GDDR5",
-        "chipset": "GeForce GTX 1060"
-    },
-    {
         "id": "25b29cf0-fb53-4cc4-86ac-31bff268dda5",
         "name": "Zotac AMP Extreme Core Holo GeForce RTX 3090 Ti 24GB GDDR6X Black",
         "variant": "Zotac",
@@ -3516,13 +3102,6 @@
         "clean_name": "PNY XLR8 Gaming GeForce RTX 3050 GDDR6 PCI Express 4.0 x16 VCG30508DFXPPB",
         "chipset": "GeForce RTX 3050 8 GB",
         "vram": "8GB"
-    },
-    {
-        "id": "ed0882a5-3e32-44a1-8313-52da61bbdfd5",
-        "name": "AMD Radeon RX 480",
-        "amazon_sku": "B073646STC",
-        "clean_name": "AMD Radeon RX 480",
-        "chipset": "Radeon RX 480"
     },
     {
         "id": "1054f467-dfa9-4bef-bb3e-4e21cf854105",
@@ -3578,13 +3157,6 @@
         "clean_name": "Asus PRIME OC Radeon RX 9060 XT GDDR6 Black",
         "chipset": "Radeon RX 9060 XT 16 GB",
         "vram": "16GB"
-    },
-    {
-        "id": "e324c5a7-630f-46f3-be17-34f0a8652e99",
-        "name": "Gigabyte GeForce GTX 1660 GAMING OC",
-        "amazon_sku": "B07P689CXR",
-        "clean_name": "Gigabyte GeForce GTX 1660 GAMING OC",
-        "chipset": "GeForce GTX 1660"
     },
     {
         "id": "18d5b377-d4fd-4d64-b899-47162171958b",
@@ -3656,15 +3228,6 @@
         "clean_name": "Gigabyte OC Low Profile GeForce RTX 4060 GDDR6",
         "chipset": "GeForce RTX 4060",
         "vram": "8GB"
-    },
-    {
-        "id": "ef0b999f-5c2f-4238-827b-fac6c25ba00e",
-        "name": "MSI GT LP OC GeForce GTX 1650 G5 4GB GDDR5 Black",
-        "variant": "MSI",
-        "amazon_sku": "B07ZTXYVMN",
-        "clean_name": "MSI GT LP OC GeForce GTX 1650 G5 GDDR5 Black",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "bb836bc4-69bc-41ee-8bee-963732a9cc6a",
@@ -3837,15 +3400,6 @@
         "clean_name": "EVGA XC ULTRA GAMING GeForce RTX 2080 Ti GDDR6 Black / Clear",
         "chipset": "GeForce RTX 2080 Ti",
         "vram": "11GB"
-    },
-    {
-        "id": "7bf9d6a5-81e9-483c-98ce-1b7d464d10c9",
-        "name": "ASUS Dual GeForce GTX 1650 MINI OC edition 4GB GDDR6",
-        "variant": "MINI OC edition",
-        "amazon_sku": "B08HSYLTW1",
-        "clean_name": "ASUS Dual GeForce GTX 1650 MINI OC edition GDDR6",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "a9a454b0-1c6a-4290-8a96-70ce397e9b1a",
@@ -4063,15 +3617,6 @@
         "vram": "12GB"
     },
     {
-        "id": "a72ea2a0-2d86-45ee-92eb-45c0d520e906",
-        "name": "XFX Radeon RX 580 RX-580P427D6 4GB GDDR5 Black / Red",
-        "variant": "XFX",
-        "amazon_sku": "B07115GPN7",
-        "clean_name": "XFX Radeon RX 580 RX-580P427D6 GDDR5 Black / Red",
-        "chipset": "Radeon RX 580",
-        "vram": "4GB"
-    },
-    {
         "id": "964e08fe-6f0a-461f-8158-b8d631f3022a",
         "name": "Asus TUF GAMING OC GeForce RTX 4070 Ti SUPER 16GB GDDR6X",
         "variant": "Asus",
@@ -4108,96 +3653,12 @@
         "vram": "12GB"
     },
     {
-        "id": "cb70e341-978d-47e1-a2d2-51c925098e0a",
-        "name": "MSI ARMOR OC Radeon RX 570 8GB GDDR5 Black / White",
-        "variant": "MSI",
-        "amazon_sku": "B076Y93L8F",
-        "clean_name": "MSI ARMOR OC Radeon RX 570 GDDR5 Black / White",
-        "chipset": "Radeon RX 570",
-        "vram": "8GB"
-    },
-    {
-        "id": "9bba9eae-f2df-4ad2-bb38-bcf35716787a",
-        "name": "Asus Turbo GeForce GTX 1060 6GB GDDR5 Black",
-        "variant": "Asus",
-        "amazon_sku": "B01K1JTCZS",
-        "clean_name": "Asus Turbo GeForce GTX 1060 GDDR5 Black",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
-    },
-    {
-        "id": "f50b3149-057c-4b52-b43b-d160e08c3548",
-        "name": "GeForce GTX 1060 6GB",
-        "variant": "6GB",
-        "amazon_sku": "B07GRSHW97",
-        "clean_name": "GeForce GTX 1060",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB",
-        "price": 1164.19,
-        "last_updated": "2026-04-30T06:41:11.638Z"
-    },
-    {
-        "id": "54bc129e-d3d0-4ca2-8b61-317c2d26f4b9",
-        "name": "EVGA GeForce GTX 1070 ACX 3.0 Black / Silver 8GB GDDR5",
-        "variant": "EVGA",
-        "amazon_sku": "B01H74VTBK",
-        "clean_name": "EVGA GeForce GTX 1070 ACX 3.0 Black / Silver GDDR5",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
-    },
-    {
         "id": "089f0fbb-85b2-437b-a0ed-dcd9d9209432",
         "name": "Gigabyte GeForce RTX 3050 OC Low Profile 6G GDDR6",
         "variant": "OC ",
         "amazon_sku": "B0CTJZCJH1",
         "clean_name": "Gigabyte GeForce RTX 3050 OC Low Profile 6G GDDR6",
         "chipset": "GeForce RTX 3050 6 GB"
-    },
-    {
-        "id": "f4b484a4-606e-4b31-a2ff-da86c71c5c4a",
-        "name": "EVGA SC GAMING GeForce GTX 1060 3GB GDDR5 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B01KU2CIIY",
-        "clean_name": "EVGA SC GAMING GeForce GTX 1060 GDDR5 Black",
-        "chipset": "GeForce GTX 1060",
-        "vram": "3GB"
-    },
-    {
-        "id": "98e85819-20ef-4830-84c6-84bf54d2ed12",
-        "name": "Gigabyte GeForce® GTX 1050 OC 2G GDDR5",
-        "variant": "OC",
-        "amazon_sku": "B01MG0733A",
-        "clean_name": "Gigabyte GeForce® GTX 1050 OC 2G GDDR5",
-        "chipset": "GeForce GTX 1050"
-    },
-    {
-        "id": "922fa7d7-4608-4631-9ff2-61b7c1a27824",
-        "name": "EVGA GAMING GeForce GTX 1080 Ti 11GB GDDR5X Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B072SMNJ82",
-        "clean_name": "EVGA GAMING GeForce GTX 1080 Ti GDDR5X Black / Silver",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T06:41:30.499Z"
-    },
-    {
-        "id": "bb588f7d-e608-4c2b-b174-18c56205b9e2",
-        "name": "MSI ARMOR OC Radeon RX 580 8GB GDDR5 ",
-        "variant": "OC ",
-        "amazon_sku": "B06XZQMMHJ",
-        "clean_name": "MSI ARMOR OC Radeon RX 580 GDDR5",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
-    },
-    {
-        "id": "cf8de3fc-fa30-4654-9a58-daf9812ccfdb",
-        "name": "Asus Phoenix GeForce GTX 1050 Ti 4GB GDDR5",
-        "variant": "",
-        "amazon_sku": "B01M360WG6",
-        "clean_name": "Asus Phoenix GeForce GTX 1050 Ti GDDR5",
-        "chipset": "GeForce GTX 1050 Ti",
-        "vram": "4GB"
     },
     {
         "id": "c8aab633-0dd4-4847-a60a-1bd14d6c5d9e",
@@ -4288,17 +3749,6 @@
         "vram": "8GB"
     },
     {
-        "id": "2c8b553f-a558-4b31-9a46-cc9c0a7b5886",
-        "name": "NVIDIA GeForce GTX 1060 Founders Edition 6GB GDDR5",
-        "variant": "",
-        "amazon_sku": "B01IT6LGMC",
-        "clean_name": "NVIDIA GeForce GTX 1060 Founders Edition GDDR5",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB",
-        "price": 1164.19,
-        "last_updated": "2026-04-30T06:42:16.593Z"
-    },
-    {
         "id": "a6365a16-2f24-4603-893b-0c6e4d8e5b08",
         "name": "EVGA XC GAMING GeForce RTX 3060 Ti LHR 8GB GDDR6 Black",
         "variant": "EVGA",
@@ -4308,16 +3758,6 @@
         "vram": "8GB",
         "price": 933.2,
         "last_updated": "2026-04-30T06:42:21.896Z"
-    },
-    {
-        "id": "44f9095b-d6fd-434e-9016-5b4a16acc8df",
-        "name": "GeForce GTX 1070 8GB",
-        "amazon_sku": "B07NZ244SL",
-        "clean_name": "GeForce GTX 1070",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T06:42:30.413Z"
     },
     {
         "id": "f678cad6-4e2d-4742-8d26-5345af3af78a",
@@ -4346,15 +3786,6 @@
         "vram": "8GB"
     },
     {
-        "id": "e005263c-8b1f-4e1d-a758-b388c7265520",
-        "name": "Zotac AMP Extreme GeForce GTX 1070 8GB GDDR5 Black",
-        "variant": "Zotac",
-        "amazon_sku": "B01GVNN9GQ",
-        "clean_name": "Zotac AMP Extreme GeForce GTX 1070 GDDR5 Black",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
-    },
-    {
         "id": "adc2a334-9f9b-40a8-a2ab-b0366859a2ad",
         "name": "XFX Swift Radeon RX 9070 XT 16GB GDDR6",
         "variant": "Triple Fan Gaming Edition",
@@ -4370,14 +3801,6 @@
         "amazon_sku": "B087J3KM2X",
         "clean_name": "XFX Radeon RX 5700 XT GDDR6 PCI Express 4.0 ATX RX-57XT83LD8",
         "chipset": "Radeon RX 5700 XT",
-        "vram": "8GB"
-    },
-    {
-        "id": "36356a22-e57f-4e3a-a883-9cb00d6e6166",
-        "name": "PowerColor RED DEVIL Radeon RX 590 8GB GDDR5 PCI Express 3.0 CrossFireX Support ATX Video Card AXRX 590 8GBD5-3DH/OC",
-        "amazon_sku": "B07KB2F3GL",
-        "clean_name": "PowerColor RED DEVIL Radeon RX 590 GDDR5 PCI Express 3.0 CrossFireX Support ATX AXRX 590 D5-3DH/OC",
-        "chipset": "Radeon RX 590",
         "vram": "8GB"
     },
     {
@@ -4505,23 +3928,6 @@
         "vram": "12GB"
     },
     {
-        "id": "fdfbae63-17c3-4b5c-a83a-6ab3faac83a7",
-        "name": "GeForce GTX 1660 GAMING X 6G",
-        "variant": "GAMING X",
-        "amazon_sku": "B07P9G4QK1",
-        "clean_name": "GeForce GTX 1660 GAMING X 6G",
-        "chipset": "GeForce GTX 1660"
-    },
-    {
-        "id": "b8d3a0c6-b121-4eb3-be3e-c3ae64f0b6c5",
-        "name": "EVGA SC ULTRA GAMING GeForce GTX 1660 6GB GDDR5 Silver / Black",
-        "variant": "EVGA",
-        "amazon_sku": "B07RJGL33C",
-        "clean_name": "EVGA SC ULTRA GAMING GeForce GTX 1660 GDDR5 Silver / Black",
-        "chipset": "GeForce GTX 1660",
-        "vram": "6GB"
-    },
-    {
         "id": "ba18d7ed-4995-4ca5-8f9e-3972dce22816",
         "name": "PowerColor Radeon RX 6650 XT Red Devil OC 8GB GDDR6 Black",
         "variant": "PowerColor",
@@ -4538,15 +3944,6 @@
         "clean_name": "XFX Speedster QICK 319 Radeon RX 6700 XT GDDR6 Black",
         "chipset": "Radeon RX 6700 XT",
         "vram": "12GB"
-    },
-    {
-        "id": "0d7f3e75-c29d-45e1-9f51-0161a4f38ab4",
-        "name": "SAPPHIRE PULSE Radeon RX 580 8GB GDDR5 PCI-E Dual HDMI / DVI-D / Dual DP OC w/ Backplate (UEFI), 100411P8GOCL",
-        "variant": "8GB GDDR5",
-        "amazon_sku": "B06ZZ6FMF8",
-        "clean_name": "SAPPHIRE PULSE Radeon RX 580 GDDR5 PCI-E Dual HDMI / DVI-D / Dual DP OC w/ Backplate (UEFI), 100411P8GOCL",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
     },
     {
         "id": "9374210b-23dc-4e78-a8b8-bb964ae269fd",
@@ -4567,15 +3964,6 @@
         "vram": "16GB"
     },
     {
-        "id": "227a9be2-7a27-4c1f-8b1a-3befae1b2dfa",
-        "name": "EVGA XC BLACK GAMING GeForce GTX 1660 Ti 6GB GDDR6 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B07N9XNC1B",
-        "clean_name": "EVGA XC BLACK GAMING GeForce GTX 1660 Ti GDDR6 Black",
-        "chipset": "GeForce GTX 1660 Ti",
-        "vram": "6GB"
-    },
-    {
         "id": "90a84a28-621c-494d-870f-579a728e6b41",
         "name": "Asus DUAL EVO GeForce RTX 2060 12GB 12GB GDDR6 Black",
         "variant": "Asus",
@@ -4583,15 +3971,6 @@
         "clean_name": "Asus DUAL EVO GeForce RTX 2060 GDDR6 Black",
         "chipset": "GeForce RTX 2060",
         "vram": "12GB"
-    },
-    {
-        "id": "945dba16-051e-448c-b549-b1fa8cc7316e",
-        "name": "ASUS TUF Gaming GeForce GTX 1650 OC Edition 4GB GDDR6",
-        "variant": "OC Edition",
-        "amazon_sku": "B08F2KZM8X",
-        "clean_name": "ASUS TUF Gaming GeForce GTX 1650 OC Edition GDDR6",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "c4a1b63c-cdfe-4be0-8148-b0a476bea583",
@@ -4665,15 +4044,6 @@
         "chipset": "GeForce RTX 5050"
     },
     {
-        "id": "d0a1925c-6e02-4c4b-8a6a-634a05f23417",
-        "name": "Asus ROG STRIX GeForce GTX 1070 Ti 8GB GDDR5 Black",
-        "variant": "Asus",
-        "amazon_sku": "B076RCTXGX",
-        "clean_name": "Asus ROG STRIX GeForce GTX 1070 Ti GDDR5 Black",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB"
-    },
-    {
         "id": "65f18a06-765d-4ea6-9ce8-933ace3b3c88",
         "name": "Asus DUAL OC GeForce RTX 3060 Ti 8GB GDDR6X White",
         "variant": "Asus",
@@ -4696,15 +4066,6 @@
         "amazon_sku": "B0BNW9Z91T",
         "clean_name": "GeForce RTX 4070 Ti SUPRIM 12G",
         "chipset": "GeForce RTX 4070 Ti"
-    },
-    {
-        "id": "2cb6d3f3-1120-447a-9612-222564f88b36",
-        "name": "Asus DUAL EVO OC GeForce GTX 1660 SUPER 6GB GDDR6 Black",
-        "variant": "Asus",
-        "amazon_sku": "B07ZHWQ81N",
-        "clean_name": "Asus DUAL EVO OC GeForce GTX 1660 SUPER GDDR6 Black",
-        "chipset": "GeForce GTX 1660 SUPER",
-        "vram": "6GB"
     },
     {
         "id": "01778b89-e9ae-4099-aceb-8ee168a52fce",
@@ -4789,15 +4150,6 @@
         "last_updated": "2026-04-30T06:46:19.001Z"
     },
     {
-        "id": "7bbb3aa0-c135-4b8d-b400-4759e9f479ec",
-        "name": "MSI GeForce GTX 1050 Ti GAMING X Black / Red 4GB GDDR5 Black / Red",
-        "variant": "MSI",
-        "amazon_sku": "B01MA62JSZ",
-        "clean_name": "MSI GeForce GTX 1050 Ti GAMING X Black / Red GDDR5 Black / Red",
-        "chipset": "GeForce GTX 1050 Ti",
-        "vram": "4GB"
-    },
-    {
         "id": "8845f40e-ae1b-4541-8298-9a93db3b8054",
         "name": "ASRock Phantom Gaming OC Radeon RX 7900 XTX 24GB GDDR6",
         "variant": "OC",
@@ -4814,15 +4166,6 @@
         "clean_name": "Gigabyte AI TOP GeForce RTX 4070 Ti SUPER GDDR6X Black",
         "chipset": "GeForce RTX 4070 Ti SUPER",
         "vram": "16GB"
-    },
-    {
-        "id": "c0ec6a4e-57da-4585-8925-33348976fd8c",
-        "name": "Zotac AMP Core GeForce GTX 1650 G6 4GB GDDR6 Gray",
-        "variant": "Zotac",
-        "amazon_sku": "B0BS173WWL",
-        "clean_name": "Zotac AMP Core GeForce GTX 1650 G6 GDDR6 Gray",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "58e78f95-10e0-4080-b849-354ff71260b0",
@@ -5096,15 +4439,6 @@
         "vram": "8GB"
     },
     {
-        "id": "08c2115b-1c63-496b-9b1d-0e3688aa02c1",
-        "name": "EVGA FTW ULTRA SILENT GAMING GeForce GTX 1070 Ti 8GB GDDR5 Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B077Z6LFQ1",
-        "clean_name": "EVGA FTW ULTRA SILENT GAMING GeForce GTX 1070 Ti GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB"
-    },
-    {
         "id": "0b531ddd-a819-44d8-8873-e99d16095bea",
         "name": "SAPPHIRE NITRO Radeon RX 7900 XTX 24GB GDDR6 PCI Express 4.0 x16 ATX Video Card 11322-01-40G",
         "variant": "24G",
@@ -5155,15 +4489,6 @@
         "amazon_sku": "B08WPRMVWB",
         "clean_name": "MSI GeForce RTX 3060 VENTUS 2X 12G OC GDDR6",
         "chipset": "GeForce RTX 3060 12 GB"
-    },
-    {
-        "id": "f9a0635b-fbd4-4ec8-a389-9a18a264327a",
-        "name": "EVGA SC GAMING ACX 3.0 GeForce GTX 1070 8GB GDDR5 Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B01GX5YWAO",
-        "clean_name": "EVGA SC GAMING ACX 3.0 GeForce GTX 1070 GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
     },
     {
         "id": "53a97ae0-13da-4e10-85d7-a89868451b93",
@@ -5320,17 +4645,6 @@
         "vram": "8GB"
     },
     {
-        "id": "3cef6ca6-4a59-43dc-a389-bdaa26a73114",
-        "name": "Gigabyte GeForce GTX 1080 Ti Black 11GB GDDR5X Black",
-        "variant": "Gigabyte",
-        "amazon_sku": "B074PL43GQ",
-        "clean_name": "Gigabyte GeForce GTX 1080 Ti Black GDDR5X Black",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T06:50:56.840Z"
-    },
-    {
         "id": "24c84dc6-44e5-4229-b46e-31416dbce949",
         "name": "Sapphire Radeon RX 7800 XT Black 16GB GDDR6 Black",
         "variant": "Sapphire",
@@ -5464,26 +4778,6 @@
         "vram": "8GB"
     },
     {
-        "id": "18d6ca13-1ea2-496c-8ccd-d92b22461bcf",
-        "name": "PowerColor AXRX 560 4GBD5-DHA Radeon RX 560 - 896 4GB GDDR5 Black",
-        "variant": "PowerColor",
-        "amazon_sku": "B076F9KC7G",
-        "clean_name": "PowerColor AXRX 560 D5-DHA Radeon RX 560 - 896 GDDR5 Black",
-        "chipset": "Radeon RX 560",
-        "vram": "4GB"
-    },
-    {
-        "id": "6ec9960f-d3b1-46c0-9098-0d23ea27d385",
-        "name": "PNY VCGGTX10708XPB-OC-BB GeForce GTX 1070 8GB GDDR5",
-        "variant": "PNY",
-        "amazon_sku": "B07B9ZY75X",
-        "clean_name": "PNY VCGGTX10708XPB-OC-BB GeForce GTX 1070 GDDR5",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T06:52:15.561Z"
-    },
-    {
         "id": "3093e821-dab8-41e3-94a4-2504e4399268",
         "name": "PNY GeForce RTX 5070 Ti 16GB Overclocked Triple Fan GDDR7",
         "variant": "Overclocked",
@@ -5538,15 +4832,6 @@
         "clean_name": "MSI GAMING Z TRIO V1 Radeon RX 6800 GDDR6 Black / Silver",
         "chipset": "Radeon RX 6800",
         "vram": "16GB"
-    },
-    {
-        "id": "91159478-a2ca-41c6-8d11-023ae397bb4a",
-        "name": "Asus Turbo GeForce GTX 1080 8GB GDDR5X Black / Silver",
-        "variant": "Asus",
-        "amazon_sku": "B01HDUVJ2M",
-        "clean_name": "Asus Turbo GeForce GTX 1080 GDDR5X Black / Silver",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB"
     },
     {
         "id": "b1f53843-8a6e-4023-a300-33be26eccd08",
@@ -5669,15 +4954,6 @@
         "clean_name": "Asus TUF GAMING OC GeForce RTX 3080 LHR GDDR6X Black / Silver",
         "chipset": "GeForce RTX 3080 12 GB",
         "vram": "12GB"
-    },
-    {
-        "id": "88d4b0de-274e-4ff3-a17d-dee1b9ae2da4",
-        "name": "Gigabyte XTREME GeForce GTX 1070 8GB GDDR5 Black / Orange",
-        "variant": "Gigabyte",
-        "amazon_sku": "B01I550FJC",
-        "clean_name": "Gigabyte XTREME GeForce GTX 1070 GDDR5 Black / Orange",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
     },
     {
         "id": "686630ee-d25b-410a-bb83-2048412dbdd6",
@@ -5813,17 +5089,6 @@
         "vram": "6GB"
     },
     {
-        "id": "f934f4dd-9b13-45bb-9c6c-4f5f765491e2",
-        "name": "EVGA GeForce GTX 1080 FTW DT GAMING 8GB GDDR5X Black / Gray",
-        "variant": "EVGA",
-        "amazon_sku": "B01IA9HKGE",
-        "clean_name": "EVGA GeForce GTX 1080 FTW DT GAMING GDDR5X Black / Gray",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T06:54:42.718Z"
-    },
-    {
         "id": "d8268ef9-2383-43da-ab12-dc0fef4f360b",
         "name": "MSI ARMOR Radeon RX 6600 8GB GDDR6 Black / White",
         "variant": "MSI",
@@ -5922,15 +5187,6 @@
         "vram": "12GB"
     },
     {
-        "id": "626b47e1-8298-4af9-b951-903e2e0f92ac",
-        "name": "ZOTAC GAMING GeForce GTX 1660 Ti 6GB GDDR6",
-        "variant": "",
-        "amazon_sku": "B07NMWQXLR",
-        "clean_name": "ZOTAC GAMING GeForce GTX 1660 Ti GDDR6",
-        "chipset": "GeForce GTX 1660 Ti",
-        "vram": "6GB"
-    },
-    {
         "id": "4783a1e7-1830-4e87-9e72-a149d338d249",
         "name": "XFX Radeon RX 6700 XT Speedster MERC 319 12GB GDDR6 Black",
         "variant": "XFX",
@@ -5983,15 +5239,6 @@
         "clean_name": "MSI GeForce RTX 4070 SUPER VENTUS 2X OC GDDR6X",
         "chipset": "GeForce RTX 4070 SUPER",
         "vram": "12GB"
-    },
-    {
-        "id": "93c1e338-ecf7-4724-8290-1d9f8618f2c0",
-        "name": "Asus ROG STRIX GAMING GeForce GTX 1070 8GB GDDR5 Black",
-        "variant": "Asus",
-        "amazon_sku": "B01HDUVJ1I",
-        "clean_name": "Asus ROG STRIX GAMING GeForce GTX 1070 GDDR5 Black",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
     },
     {
         "id": "f1f1e7be-8401-4e80-a60a-99bc7b5064f1",
@@ -6182,15 +5429,6 @@
         "vram": "16GB"
     },
     {
-        "id": "3b387754-68d7-4531-bef0-7d12c2e41122",
-        "name": "XFX Black Edition Radeon RX 580 8GB GDDR5 Black / White",
-        "variant": "XFX",
-        "amazon_sku": "B06Y54TK2B",
-        "clean_name": "XFX Black Edition Radeon RX 580 GDDR5 Black / White",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
-    },
-    {
         "id": "242704da-8922-48bf-b443-f4c7e7acbbc2",
         "name": "XFX Speedster SWFT 210 AMD Radeon™ RX 6650 XT Core Gaming Graphics Card with 8GB GDDR6, AMD RDNA™ 2",
         "variant": "SWFT 210",
@@ -6229,13 +5467,6 @@
         "clean_name": "PowerColor Fighter Radeon RX 6650 XT GDDR6 Black",
         "chipset": "Radeon RX 6650 XT",
         "vram": "8GB"
-    },
-    {
-        "id": "7d75af20-a10e-4862-b568-cf5e11f376c3",
-        "name": "PowerColor Red Devil RX 570 OC",
-        "amazon_sku": "B071DF8SJV",
-        "clean_name": "PowerColor Red Devil RX 570 OC",
-        "chipset": "Radeon RX 570"
     },
     {
         "id": "1cf31f3f-c2ca-45b5-a35b-88c64daf7ea3",
@@ -6318,35 +5549,6 @@
         "vram": "12GB"
     },
     {
-        "id": "5b75a2a1-8cc4-4e6a-89e2-03b07dd26aec",
-        "name": "XFX RX-560D2SFG5 Radeon RX 560 - 896 2 GB",
-        "variant": "XFX",
-        "amazon_sku": "B075LHSH5M",
-        "clean_name": "XFX RX-560D2SFG5 Radeon RX 560 - 896",
-        "chipset": "Radeon RX 560",
-        "vram": "2 GB"
-    },
-    {
-        "id": "9a1296f2-1364-4b21-9764-4b7f2242e42e",
-        "name": "MSI AERO GeForce GTX 1070 Ti 8GB GDDR5 Black / White",
-        "variant": "MSI",
-        "amazon_sku": "B076QDSVB4",
-        "clean_name": "MSI AERO GeForce GTX 1070 Ti GDDR5 Black / White",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T06:58:25.503Z"
-    },
-    {
-        "id": "68d5c07f-e6ce-40d9-ac82-ee5a1022ed84",
-        "name": "MSI GeForce GTX 1060 OCV1 6GB GDDR5 Black / White",
-        "variant": "MSI",
-        "amazon_sku": "B01N2W09Q6",
-        "clean_name": "MSI GeForce GTX 1060 OCV1 GDDR5 Black / White",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
-    },
-    {
         "id": "b57f0ff6-a4ba-4526-b90b-3f8786054d62",
         "name": "Asus PRIME GeForce RTX 5080 16 GB",
         "variant": "",
@@ -6356,15 +5558,6 @@
         "vram": "16 GB",
         "price": 2286.52,
         "last_updated": "2026-04-30T06:58:43.113Z"
-    },
-    {
-        "id": "c039a067-eb99-4243-8f6e-2873963b354e",
-        "name": "Gigabyte GAMING GeForce GTX 1060 3GB 3GB GDDR5 Black / Orange",
-        "variant": "Gigabyte",
-        "amazon_sku": "B01KQUDB1S",
-        "clean_name": "Gigabyte GAMING GeForce GTX 1060 GDDR5 Black / Orange",
-        "chipset": "GeForce GTX 1060",
-        "vram": "3GB"
     },
     {
         "id": "a6731520-c138-49b8-b264-0f309b350eba",
@@ -6447,15 +5640,6 @@
         "vram": "12GB"
     },
     {
-        "id": "e0ed6d8a-ff25-4759-91f5-dcd8eb61e1b4",
-        "name": "Radeon RX 550",
-        "amazon_sku": "B07P7M5GZQ",
-        "clean_name": "Radeon RX 550",
-        "chipset": "Radeon RX 550",
-        "price": 1060.37,
-        "last_updated": "2026-04-30T06:59:26.204Z"
-    },
-    {
         "id": "7ae3ce7d-09f8-4f0d-8ae2-51e7936cd4f5",
         "name": "ASUS TUF Gaming GeForce RTX™ 5060 8GB GDDR7 OC Edition",
         "variant": "OC Edition",
@@ -6519,15 +5703,6 @@
         "vram": "12GB"
     },
     {
-        "id": "8a4c0d5b-f8b9-414a-8895-9e0d8de20cb0",
-        "name": "MSI GeForce GTX 1650 SUPER GAMING 4GB GDDR6",
-        "variant": "X ",
-        "amazon_sku": "B081R2KRCZ",
-        "clean_name": "MSI GeForce GTX 1650 SUPER GAMING GDDR6",
-        "chipset": "GeForce GTX 1650 SUPER",
-        "vram": "4GB"
-    },
-    {
         "id": "869bf0a5-db74-4427-9f50-2fd721442a5f",
         "name": "SAPPHIRE Toxic Radeon RX 6900 XT Liquid Cooled PCIe 4.0 Gaming Graphics Card with 16GB GDDR6",
         "variant": "Limited Edition",
@@ -6552,15 +5727,6 @@
         "amazon_sku": "B07TZ185FZ",
         "clean_name": "PNY Dual GeForce RTX 2060 SUPER GDDR6 Black",
         "chipset": "GeForce RTX 2060 SUPER",
-        "vram": "8GB"
-    },
-    {
-        "id": "7b413a32-acb4-436f-b5bc-bcd2b6cd3297",
-        "name": "EVGA SC2 Gaming iCX GeForce GTX 1070 8GB GDDR5 White / Black",
-        "variant": "EVGA",
-        "amazon_sku": "B06WP1Y531",
-        "clean_name": "EVGA SC2 Gaming iCX GeForce GTX 1070 GDDR5 White / Black",
-        "chipset": "GeForce GTX 1070",
         "vram": "8GB"
     },
     {
@@ -6638,15 +5804,6 @@
         "vram": "32GB",
         "price": 352.38,
         "last_updated": "2026-04-30T07:00:42.358Z"
-    },
-    {
-        "id": "a96225e6-fa5f-4b93-8b60-e97615d0960f",
-        "name": "Gigabyte MINI ITX OC GeForce GTX 1070 8GB GDDR5 Black / Orange",
-        "variant": "Gigabyte",
-        "amazon_sku": "B01JD2OSX0",
-        "clean_name": "Gigabyte MINI ITX OC GeForce GTX 1070 GDDR5 Black / Orange",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
     },
     {
         "id": "ef92c07b-8368-4697-bd9e-8ecc0b41aa7c",
@@ -6761,15 +5918,6 @@
         "clean_name": "Gigabyte WINDFORCE GeForce RTX 2080",
         "chipset": "GeForce RTX 2080",
         "vram": "8 GB"
-    },
-    {
-        "id": "58624cae-bcbc-4828-b8f7-941f518bc329",
-        "name": "ASUS TUF Gaming GeForce GTX 1660 SUPER OC Edition 6GB GDDR6",
-        "variant": "OC Edition",
-        "amazon_sku": "B081SPGMBD",
-        "clean_name": "ASUS TUF Gaming GeForce GTX 1660 SUPER OC Edition GDDR6",
-        "chipset": "GeForce GTX 1660 SUPER",
-        "vram": "6GB"
     },
     {
         "id": "bc9ccea1-ccc8-4b1c-9459-ebcbf0eff758",
@@ -6917,17 +6065,6 @@
         "vram": "24GB"
     },
     {
-        "id": "40f0d012-b3a4-44ce-8fd7-f2fc1a2e6e48",
-        "name": "Gigabyte WINDFORCE GeForce GTX 1070 Ti 8GB GDDR5 Black / Orange",
-        "variant": "Gigabyte",
-        "amazon_sku": "B077G98RM6",
-        "clean_name": "Gigabyte WINDFORCE GeForce GTX 1070 Ti GDDR5 Black / Orange",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T07:02:43.463Z"
-    },
-    {
         "id": "6530f66c-2112-42fb-8f81-047f159ffc28",
         "name": "GeForce RTX 2060",
         "amazon_sku": "B07MC63K76",
@@ -7028,15 +6165,6 @@
         "vram": "8GB"
     },
     {
-        "id": "a17bfbfd-4221-4e9c-a763-c266b45e74ae",
-        "name": "EVGA GeForce GTX 1060 SC GAMING 6GB GDDR5 Black / Gray",
-        "variant": "EVGA",
-        "amazon_sku": "B01IPVSLTC",
-        "clean_name": "EVGA GeForce GTX 1060 SC GAMING GDDR5 Black / Gray",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
-    },
-    {
         "id": "001f4618-d3f8-44d7-8c6f-697bfbdc1858",
         "name": "MSI VENTUS 2X OC GeForce RTX 4070 12GB GDDR6 White / Silver",
         "variant": "MSI",
@@ -7081,24 +6209,6 @@
         "vram": "16GB"
     },
     {
-        "id": "127928b1-6270-4f26-a362-07fc95895305",
-        "name": "Gigabyte OC GeForce GTX 1660 Ti 6GB GDDR6 Black / Gray",
-        "variant": "Gigabyte",
-        "amazon_sku": "B07NJPKZQG",
-        "clean_name": "Gigabyte OC GeForce GTX 1660 Ti GDDR6 Black / Gray",
-        "chipset": "GeForce GTX 1660 Ti",
-        "vram": "6GB"
-    },
-    {
-        "id": "2254b971-9380-4609-9f95-b442410e3680",
-        "name": "PNY XLR8 GeForce GTX 1080 8GB GDDR5X Black / Red",
-        "variant": "PNY",
-        "amazon_sku": "B01JOF7YGY",
-        "clean_name": "PNY XLR8 GeForce GTX 1080 GDDR5X Black / Red",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB"
-    },
-    {
         "id": "60038240-f6cb-4832-8561-7e18a9aabbb4",
         "name": "Gigabyte EAGLE OC GeForce RTX 3060 Ti 8GB GDDR6X Black / Silver",
         "variant": "Gigabyte",
@@ -7135,17 +6245,6 @@
         "vram": "16GB"
     },
     {
-        "id": "a774dc65-0065-4b41-a832-67497c3a4085",
-        "name": "Zotac MINI GeForce GTX 1070 8GB GDDR5 Black / Silver",
-        "variant": "Zotac",
-        "amazon_sku": "B01LLAJ8PU",
-        "clean_name": "Zotac MINI GeForce GTX 1070 GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T07:04:17.370Z"
-    },
-    {
         "id": "70ebf8d6-0ce0-4b5c-97b6-ec21bd6b43aa",
         "name": "Asus TUF GAMING OC GeForce RTX 5070 12 GB",
         "variant": "OC ",
@@ -7171,15 +6270,6 @@
         "clean_name": "PowerColor Hellhound Spectral Radeon RX 7800 XT GDDR6 White",
         "chipset": "Radeon RX 7800 XT",
         "vram": "16GB"
-    },
-    {
-        "id": "56393cd2-1dde-499e-831a-658e4e141a9c",
-        "name": "MSI GAMING X GeForce GTX 1060 6GB GDDR5 Black / Red",
-        "variant": "MSI",
-        "amazon_sku": "B01IEKYD5U",
-        "clean_name": "MSI GAMING X GeForce GTX 1060 GDDR5 Black / Red",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
     },
     {
         "id": "039be6f9-76b0-427c-8dd0-776ca4fa59c5",
@@ -7234,15 +6324,6 @@
         "vram": "4GB"
     },
     {
-        "id": "86b5f72d-5d31-4be6-a684-b3737e75a660",
-        "name": "Asus STRIX GAMING OC GeForce GTX 1650 G5 4GB GDDR5 Black",
-        "variant": "Asus",
-        "amazon_sku": "B07QL3N6BH",
-        "clean_name": "Asus STRIX GAMING OC GeForce GTX 1650 G5 GDDR5 Black",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
-    },
-    {
         "id": "7fd64158-5da8-41b1-9195-9a984cc005fd",
         "name": "ASRock Steel Legend OC Radeon RX 7600 8GB GDDR6 White",
         "variant": "OC ",
@@ -7287,15 +6368,6 @@
         "clean_name": "MSI GeForce RTX 5080 16G VENTUS 3X OC BLACK GDDR7",
         "chipset": "GeForce RTX 5080",
         "vram": "16GB"
-    },
-    {
-        "id": "b961a4d1-6ded-4072-a5b1-c6e1823dcf5e",
-        "name": "ZOTAC GAMING GeForce GTX 1660 Twin Fan 6GB GDDR5",
-        "variant": "Twin Fan",
-        "amazon_sku": "B07XV7FNR2",
-        "clean_name": "ZOTAC GAMING GeForce GTX 1660 Twin Fan GDDR5",
-        "chipset": "GeForce GTX 1660",
-        "vram": "6GB"
     },
     {
         "id": "30156fdc-5410-4383-a774-37244819834f",
@@ -7402,15 +6474,6 @@
         "vram": "8GB"
     },
     {
-        "id": "c95970c1-18a1-40f8-b6ab-bc85eeb825c2",
-        "name": "Gigabyte GeForce GTX 1080 GAMING 8GB GDDR5X Black / Orange",
-        "variant": "Gigabyte",
-        "amazon_sku": "B01GJEE9BG",
-        "clean_name": "Gigabyte GeForce GTX 1080 GAMING GDDR5X Black / Orange",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB"
-    },
-    {
         "id": "ffad6066-c92e-4702-9e4c-9ea76a6e123b",
         "name": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE MAX OC 8G GDDR7",
         "variant": "OC",
@@ -7427,17 +6490,6 @@
         "amazon_sku": "B09728V47N",
         "clean_name": "MSI GeForce RTX 5060 8G GAMING TRIO OC Black",
         "chipset": "GeForce RTX 5060"
-    },
-    {
-        "id": "13355443-a472-4d0f-8077-774587b97f74",
-        "name": "EVGA ACX 3.0 GeForce GTX 1080 8GB GDDR5X Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B01GE9RFNK",
-        "clean_name": "EVGA ACX 3.0 GeForce GTX 1080 GDDR5X Black / Silver",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:06:29.856Z"
     },
     {
         "id": "0b62527e-fa49-4c07-9422-651b9a7ea605",
@@ -7466,15 +6518,6 @@
         "vram": "24GB"
     },
     {
-        "id": "c2a0cbf6-fb4f-4490-8dc3-b17e105f8652",
-        "name": "Asus TUF GAMING OC GeForce GTX 1650 G6 4GB GDDR6 Black",
-        "variant": "Asus",
-        "amazon_sku": "B087XP6FSG",
-        "clean_name": "Asus TUF GAMING OC GeForce GTX 1650 G6 GDDR6 Black",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
-    },
-    {
         "id": "1cbcc6fc-404e-4e51-bc29-8ef3cf013652",
         "name": "PowerColor Red Devil OC Radeon RX 9070 XT 16GB GDDR6",
         "variant": "OC",
@@ -7493,17 +6536,6 @@
         "vram": "8GB"
     },
     {
-        "id": "ddc2c2dc-8747-4e34-9f53-097957384a02",
-        "name": "MSI ARMOR OC GeForce GTX 1080 8GB GDDR5X Black White",
-        "variant": "MSI",
-        "amazon_sku": "B01GXOWUDQ",
-        "clean_name": "MSI ARMOR OC GeForce GTX 1080 GDDR5X Black White",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:07:17.519Z"
-    },
-    {
         "id": "125b03e9-e033-494c-abeb-34e9b0f5385d",
         "name": "Asus ROG STRIX GAMING OC GeForce RTX 3080 Ti 12GB GDDR6X Black / Silver",
         "variant": "Asus",
@@ -7511,33 +6543,6 @@
         "clean_name": "Asus ROG STRIX GAMING OC GeForce RTX 3080 Ti GDDR6X Black / Silver",
         "chipset": "GeForce RTX 3080 Ti",
         "vram": "12GB"
-    },
-    {
-        "id": "e201f0f5-cf41-4427-a011-cb95be752354",
-        "name": "EVGA SC ULTRA GAMING GeForce GTX 1660 SUPER 6GB GDDR6 ",
-        "variant": "Black",
-        "amazon_sku": "B07ZHZL2JB",
-        "clean_name": "EVGA SC ULTRA GAMING GeForce GTX 1660 SUPER GDDR6",
-        "chipset": "GeForce GTX 1660 SUPER",
-        "vram": "6GB"
-    },
-    {
-        "id": "738b8312-afcc-425d-a632-46c8f9874d4a",
-        "name": "EVGA FTW+ GAMING GeForce GTX 1060 3GB 3GB GDDR5 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B01KU2CIKM",
-        "clean_name": "EVGA FTW+ GAMING GeForce GTX 1060 GDDR5 Black",
-        "chipset": "GeForce GTX 1060",
-        "vram": "3GB"
-    },
-    {
-        "id": "b125792a-8406-4e4a-9d54-17f15f638a7b",
-        "name": "MSI ARMOR OC GeForce GTX 1660 Ti 6GB GDDR6 Black / White",
-        "variant": "MSI",
-        "amazon_sku": "B07N8292SM",
-        "clean_name": "MSI ARMOR OC GeForce GTX 1660 Ti GDDR6 Black / White",
-        "chipset": "GeForce GTX 1660 Ti",
-        "vram": "6GB"
     },
     {
         "id": "62cb581b-4432-4422-81f1-fa56b3935ffb",
@@ -7575,15 +6580,6 @@
         "clean_name": "Sparkle Intel Arc B580 TITAN OC GDDR6",
         "chipset": "Arc B580",
         "vram": "12GB"
-    },
-    {
-        "id": "dcdb9442-e74f-4bdc-8785-11b651589afb",
-        "name": "MSI ARMOR MK2 OC Radeon RX 580 8GB GDDR5 Red / Black",
-        "variant": "MSI",
-        "amazon_sku": "B079NX4GCF",
-        "clean_name": "MSI ARMOR MK2 OC Radeon RX 580 GDDR5 Red / Black",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
     },
     {
         "id": "98ad0792-a79d-4ef7-850f-717fcfd2192e",
@@ -7648,26 +6644,6 @@
         "vram": "12GB",
         "price": 596.98,
         "last_updated": "2026-04-30T07:08:25.402Z"
-    },
-    {
-        "id": "498c54f2-8d48-432d-a134-0200e84b581e",
-        "name": "EVGA SSC DT GeForce GTX 1060 6GB GDDR5 Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B01MYUHW2I",
-        "clean_name": "EVGA SSC DT GeForce GTX 1060 GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
-    },
-    {
-        "id": "132d6734-abb8-4e37-94fb-5d320487b096",
-        "name": "MSI TITANIUM GeForce GTX 1070 Ti 8GB GDDR5 Black / Silver",
-        "variant": "MSI",
-        "amazon_sku": "B076Q62TDF",
-        "clean_name": "MSI TITANIUM GeForce GTX 1070 Ti GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T07:08:34.730Z"
     },
     {
         "id": "e8eee38a-d587-4ac5-a1f6-483907b5c501",
@@ -7784,15 +6760,6 @@
         "vram": "8GB"
     },
     {
-        "id": "217aeb0e-0b79-4a1d-b867-7f526db1294f",
-        "name": "Gigabyte Black / Orange GeForce GTX 1050 Ti 4GB GDDR5",
-        "variant": "Gigabyte",
-        "amazon_sku": "B01M4KGTNI",
-        "clean_name": "Gigabyte Black / Orange GeForce GTX 1050 Ti GDDR5",
-        "chipset": "GeForce GTX 1050 Ti",
-        "vram": "4GB"
-    },
-    {
         "id": "c8c6d14a-30bf-48b6-996e-34b9a31b4bf4",
         "name": "ASRock Steel Legend OC Radeon RX 7700 XT 12GB GDDR6 White",
         "variant": "ASRock",
@@ -7809,15 +6776,6 @@
         "clean_name": "ZOTAC GAMING GeForce RTX 4080 Trinity OC",
         "chipset": "GeForce RTX 4080",
         "vram": "16GB"
-    },
-    {
-        "id": "f721f903-d7c8-47ff-8a64-2f8da04466a9",
-        "name": "PNY VCG16606SSFPPB GeForce GTX 1660 SUPER 6GB GDDR6 Black",
-        "variant": "PNY",
-        "amazon_sku": "B07ZPK6YRS",
-        "clean_name": "PNY VCG16606SSFPPB GeForce GTX 1660 SUPER GDDR6 Black",
-        "chipset": "GeForce GTX 1660 SUPER",
-        "vram": "6GB"
     },
     {
         "id": "5059a4c6-8a99-4b15-883c-020cc6a8c540",
@@ -7838,17 +6796,6 @@
         "vram": "8GB"
     },
     {
-        "id": "fbf40e88-010f-460d-ba80-ab2b3abf2db7",
-        "name": "EVGA GAMING GeForce GTX 1070 Ti 8GB GDDR5 Silver / Black",
-        "variant": "EVGA",
-        "amazon_sku": "B076S558ZZ",
-        "clean_name": "EVGA GAMING GeForce GTX 1070 Ti GDDR5 Silver / Black",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T07:09:52.242Z"
-    },
-    {
         "id": "d376adb0-99d5-46fc-8353-b359ce20ba78",
         "name": "ASUS ProArt GeForce RTX 5080 16GB GDDR7 OC Edition",
         "variant": "OC Edition",
@@ -7865,15 +6812,6 @@
         "clean_name": "Zotac GAMING Trinity OC GeForce RTX 3070 Ti GDDR6X",
         "chipset": "GeForce RTX 3070 Ti",
         "vram": "8GB"
-    },
-    {
-        "id": "305324fe-3e83-49c0-ab90-5701b9980cc2",
-        "name": "MSI GeForce GTX 1060 3GT OC 3GB GDDR5",
-        "variant": "OC",
-        "amazon_sku": "B01KUCL25Y",
-        "clean_name": "MSI GeForce GTX 1060 3GT OC GDDR5",
-        "chipset": "GeForce GTX 1060",
-        "vram": "3GB"
     },
     {
         "id": "a4a6ecf4-1a28-408e-97cf-ddbe44c86147",
@@ -7903,17 +6841,6 @@
         "vram": "12GB"
     },
     {
-        "id": "6465181b-1f65-477a-a04d-46b0a3061632",
-        "name": "Gigabyte GAMING GeForce GTX 1070 8GB GDDR5 Black / Orange",
-        "variant": "Gigabyte",
-        "amazon_sku": "B01H0WU884",
-        "clean_name": "Gigabyte GAMING GeForce GTX 1070 GDDR5 Black / Orange",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T07:10:19.015Z"
-    },
-    {
         "id": "b2d7892c-fefb-485a-b665-f31fa664bcec",
         "name": "Zotac GeForce RTX 5050 GAMING SOLO 8GB GDDR6 Black",
         "variant": "SOLO ",
@@ -7930,17 +6857,6 @@
         "clean_name": "ZOTAC GAMING GeForce RTX 5060 Ti Twin Edge OC White Edition",
         "chipset": "GeForce RTX 5060 Ti 16 GB",
         "vram": "16GB"
-    },
-    {
-        "id": "99515877-49e7-4a0c-8caa-c449cb92236d",
-        "name": "EVGA GAMING GeForce GTX 1070 8GB GDDR5 Black / Gray",
-        "variant": "EVGA",
-        "amazon_sku": "B01LZ5J28B",
-        "clean_name": "EVGA GAMING GeForce GTX 1070 GDDR5 Black / Gray",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T07:10:38.041Z"
     },
     {
         "id": "3d4cb07c-b9ac-47a1-8559-2435fadd4c4d",
@@ -7969,15 +6885,6 @@
         "chipset": "GeForce RTX 2060"
     },
     {
-        "id": "7d2046cd-f706-45f1-ae17-b7abf2fb0526",
-        "name": "PNY VCGGTX10606PB GeForce GTX 1060 6GB GDDR5 Black",
-        "variant": "PNY",
-        "amazon_sku": "B01IR5MR32",
-        "clean_name": "PNY VCGGTX10606PB GeForce GTX 1060 GDDR5 Black",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
-    },
-    {
         "id": "5ac2266d-a161-402c-bce7-dc7a6c97e63f",
         "name": "Gigabyte AORUS ELITE GeForce RTX 3060 Ti 8GB GDDR6 Black",
         "variant": "Gigabyte",
@@ -8001,14 +6908,6 @@
         "amazon_sku": "B08MVC76SR",
         "clean_name": "NITRO+ AMD Radeon™ RX 6800 XT",
         "chipset": "Radeon RX 6800 XT"
-    },
-    {
-        "id": "79fcf209-a36b-4d8d-b533-6128c91ed936",
-        "name": "AMD Radeon™ RX 560",
-        "variant": "4GB",
-        "amazon_sku": "B075LM7GYZ",
-        "clean_name": "AMD Radeon™ RX 560",
-        "chipset": "Radeon RX 560"
     },
     {
         "id": "70432ca3-6067-47ea-91af-4654efa2afb5",
@@ -8065,15 +6964,6 @@
         "clean_name": "ASRock Phantom Gaming D OC Radeon RX 6600 XT",
         "chipset": "Radeon RX 6600 XT",
         "vram": "8 GB"
-    },
-    {
-        "id": "87709b76-8026-4cbe-acaa-75f26b674320",
-        "name": "ZOTAC GAMING GeForce GTX 1660 6GB GDDR5",
-        "variant": "Twin",
-        "amazon_sku": "B07PD2LG7Z",
-        "clean_name": "ZOTAC GAMING GeForce GTX 1660 GDDR5",
-        "chipset": "GeForce GTX 1660",
-        "vram": "6GB"
     },
     {
         "id": "e200804c-8120-4cb7-8a93-716b94f64a15",
@@ -8203,15 +7093,6 @@
         "vram": "12GB"
     },
     {
-        "id": "9c6b5584-640d-4207-894f-c55850ffb2ec",
-        "name": "EVGA SSC GAMING GeForce GTX 1060 6GB GDDR5 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B01LYN9KK6",
-        "clean_name": "EVGA SSC GAMING GeForce GTX 1060 GDDR5 Black",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
-    },
-    {
         "id": "21bae687-580e-462f-b773-86d8eb0a5fe8",
         "name": "AMD Black / Silver Radeon RX 6700 XT 12GB GDDR6",
         "variant": "AMD",
@@ -8257,17 +7138,6 @@
         "clean_name": "Sapphire NITRO+ Radeon RX 7700 XT",
         "chipset": "Radeon RX 7700 XT",
         "vram": "12 GB"
-    },
-    {
-        "id": "4fed6bb4-75a6-40cb-b1ba-4bf0798ca251",
-        "name": "NVIDIA GeForce GTX 1070 8GB GDDR5 Founders Edition",
-        "variant": "",
-        "amazon_sku": "B01H1BLHYS",
-        "clean_name": "NVIDIA GeForce GTX 1070 GDDR5 Founders Edition",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB",
-        "price": 1164.19,
-        "last_updated": "2026-04-30T07:13:02.471Z"
     },
     {
         "id": "655f01d9-7753-4a0b-b8f3-e6425109e9b5",
@@ -8323,15 +7193,6 @@
         "clean_name": "ROG Strix GeForce RTX 3050 OC Edition",
         "chipset": "GeForce RTX 3050 8 GB",
         "vram": "8 GB"
-    },
-    {
-        "id": "189e78a7-c7f8-4de6-be08-410b5cf25528",
-        "name": "Gigabyte GeForce GTX 1660 Ti WINDFORCE OC 6GB GDDR6 Black / Gray",
-        "variant": "Gigabyte",
-        "amazon_sku": "B07NJQLQWP",
-        "clean_name": "Gigabyte GeForce GTX 1660 Ti WINDFORCE OC GDDR6 Black / Gray",
-        "chipset": "GeForce GTX 1660 Ti",
-        "vram": "6GB"
     },
     {
         "id": "ec90afea-36f7-42c1-8720-f441f7d2843e",
@@ -8424,30 +7285,12 @@
         "vram": "8GB"
     },
     {
-        "id": "978a67fb-3ad2-44ce-b7f3-e15350568de9",
-        "name": "XFX AMD Radeon™ RX 570 RS 8GB XXX Edition GDDR5",
-        "variant": "XXX Edition",
-        "amazon_sku": "B077VX31FZ",
-        "clean_name": "XFX AMD Radeon™ RX 570 RS XXX Edition GDDR5",
-        "chipset": "Radeon RX 570",
-        "vram": "8GB"
-    },
-    {
         "id": "f14c0857-967d-49c7-aff6-074de7590a2b",
         "name": "PowerColor Red Devil RX 6800 Limited Edition",
         "variant": "Limited Edition",
         "amazon_sku": "B08P2CJQSS",
         "clean_name": "PowerColor Red Devil RX 6800 Limited Edition",
         "chipset": "Radeon RX 6800"
-    },
-    {
-        "id": "88f12ccc-5244-4f58-abc0-db66fb780380",
-        "name": "EVGA XC GAMING GeForce GTX 1660 6GB GDDR5 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B07PHQHFCQ",
-        "clean_name": "EVGA XC GAMING GeForce GTX 1660 GDDR5 Black",
-        "chipset": "GeForce GTX 1660",
-        "vram": "6GB"
     },
     {
         "id": "ab45100b-51ce-4af1-b9d6-cb851c6b063b",
@@ -8676,14 +7519,6 @@
         "vram": "12GB, 12 GB"
     },
     {
-        "id": "f8d3f983-c0a2-4265-8f4c-0a12f47177a9",
-        "name": "GeForce® GTX 1650 GAMING OC 4G (rev. 2.0)",
-        "variant": "GAMING OC",
-        "amazon_sku": "B07QFZ24VS",
-        "clean_name": "GeForce® GTX 1650 GAMING OC 4G (rev. 2.0)",
-        "chipset": "GeForce GTX 1650"
-    },
-    {
         "id": "1f083725-3d25-4f7a-a079-085ea5a0216c",
         "name": "ZOTAC GAMING GeForce RTX 2080 Ti AMP",
         "variant": "AMP",
@@ -8848,15 +7683,6 @@
         "last_updated": "2026-04-30T07:17:06.652Z"
     },
     {
-        "id": "065f309c-bf41-406d-bfcd-5123917539cd",
-        "name": "GIGABYTE Eagle GeForce GTX 1650 4GB GDDR6 PCI Express 3.0 x16 ATX Video Card GV-N1656EAGLE OC-4GD",
-        "variant": "OC",
-        "amazon_sku": "B087R9H2KB",
-        "clean_name": "GIGABYTE Eagle GeForce GTX 1650 GDDR6 PCI Express 3.0 x16 ATX GV-N1656EAGLE OC-4GD",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
-    },
-    {
         "id": "baefa60e-c487-4c3f-a0df-750e372e48d7",
         "name": "Asus STRIX GAMING Advanced GeForce RTX 2060 SUPER 8 GB Video Card",
         "variant": "Advanced",
@@ -8864,23 +7690,6 @@
         "clean_name": "Asus STRIX GAMING Advanced GeForce RTX 2060 SUPER",
         "chipset": "GeForce RTX 2060 SUPER",
         "vram": "8 GB"
-    },
-    {
-        "id": "5358adb7-1f28-46b0-9e92-ca9515b28794",
-        "name": "MSI GeForce GTX 1650 SUPER 4GB GDDR6 Black / Silver",
-        "variant": "MSI",
-        "amazon_sku": "B081Q6KKDS",
-        "clean_name": "MSI GeForce GTX 1650 SUPER GDDR6 Black / Silver",
-        "chipset": "GeForce GTX 1650 SUPER",
-        "vram": "4GB"
-    },
-    {
-        "id": "9729a667-004a-4023-8d0c-de878f983725",
-        "name": "ZOTAC GAMING GeForce GTX 1650 OC GDDR6",
-        "variant": "OC",
-        "amazon_sku": "B0881YZJ45",
-        "clean_name": "ZOTAC GAMING GeForce GTX 1650 OC GDDR6",
-        "chipset": "GeForce GTX 1650"
     },
     {
         "id": "2cf39f77-2af0-4f10-be5f-bbbd6ef47d67",
@@ -8892,15 +7701,6 @@
         "vram": "12GB"
     },
     {
-        "id": "fcd93a12-87f0-4b9d-ae63-daf1460ef431",
-        "name": "Asus ROG STRIX Radeon RX 480 8GB GDDR5 Black",
-        "variant": "Asus",
-        "amazon_sku": "B01J3TZMQA",
-        "clean_name": "Asus ROG STRIX Radeon RX 480 GDDR5 Black",
-        "chipset": "Radeon RX 480",
-        "vram": "8GB"
-    },
-    {
         "id": "12a0a7b7-292b-42ab-a0d8-51e27c06ba25",
         "name": "Asus TUF GAMING OC Radeon RX 7900 XT 20 GB",
         "variant": "Asus",
@@ -8908,14 +7708,6 @@
         "clean_name": "Asus TUF GAMING OC Radeon RX 7900 XT",
         "chipset": "Radeon RX 7900 XT",
         "vram": "20 GB"
-    },
-    {
-        "id": "00097466-68c7-4288-87af-a692475e1962",
-        "name": "Radeon RX 570 ARMOR MK2 8G OC",
-        "variant": "OC",
-        "amazon_sku": "B079NW5Y1C",
-        "clean_name": "Radeon RX 570 ARMOR MK2 8G OC",
-        "chipset": "Radeon RX 570"
     },
     {
         "id": "8897b2ce-b7d7-4473-8bbd-eda6d60fca39",
@@ -8986,15 +7778,6 @@
         "amazon_sku": "B0985Z47C8",
         "clean_name": "ROG-STRIX-RTX3060-O12G-V2-GAMING",
         "chipset": "GeForce RTX 3060 12 GB"
-    },
-    {
-        "id": "063dd386-39e9-46ec-9d82-902456e5c2f3",
-        "name": "XFX Radeon RX 590 FATBOY OC+ 8GB GDDR5 Black / Red",
-        "variant": "XFX",
-        "amazon_sku": "B07JQDKNXS",
-        "clean_name": "XFX Radeon RX 590 FATBOY OC+ GDDR5 Black / Red",
-        "chipset": "Radeon RX 590",
-        "vram": "8GB"
     },
     {
         "id": "231ee847-8165-462e-8f05-3a40fac4bf39",
@@ -9093,32 +7876,6 @@
         "chipset": "Radeon RX 5700",
         "price": 402.89,
         "last_updated": "2026-04-30T07:18:51.760Z"
-    },
-    {
-        "id": "6940e494-9758-4f22-b92c-68e5bb56cee8",
-        "name": "GeForce® GTX 1660 OC 6G",
-        "variant": "OC 6G",
-        "amazon_sku": "B07P76G428",
-        "clean_name": "GeForce® GTX 1660 OC 6G",
-        "chipset": "GeForce GTX 1660"
-    },
-    {
-        "id": "200ba265-52ef-43a8-a040-18ccce789076",
-        "name": "ASUS Dual series Radeon RX 580 OC edition 8GB GDDR5",
-        "variant": "OC edition",
-        "amazon_sku": "B071D8YQJD",
-        "clean_name": "ASUS Dual series Radeon RX 580 OC edition GDDR5",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
-    },
-    {
-        "id": "8c4a6d48-1c94-4f61-b0ab-ac1cd25db5c1",
-        "name": "MSI GeForce GTX 1650 G5 VENTUS XS OC 4GB GDDR5 Black / White",
-        "variant": "MSI",
-        "amazon_sku": "B07QPXT4NG",
-        "clean_name": "MSI GeForce GTX 1650 G5 VENTUS XS OC GDDR5 Black / White",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "937423e1-f0a5-4c54-b867-e37a02f30250",
@@ -9253,14 +8010,6 @@
         "vram": "6GB"
     },
     {
-        "id": "e0f7c45e-ee44-40aa-a750-4bee42cc4849",
-        "name": "ASUS Dual GeForce GTX 1070 8GB GDDR5 PCI Express 3.0 SLI Support Video Card DUAL-GTX1070-O8G",
-        "amazon_sku": "B01IFESATU",
-        "clean_name": "ASUS Dual GeForce GTX 1070 GDDR5 PCI Express 3.0 SLI Support DUAL-GTX1070-O8G",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
-    },
-    {
         "id": "85e2fa0e-195b-43fa-931d-9f2e3d951f22",
         "name": "EVGA XC3 ULTRA GAMING iCX3 GeForce RTX 3080 Ti 12GB GDDR6X Black",
         "variant": "EVGA",
@@ -9270,32 +8019,12 @@
         "vram": "12GB"
     },
     {
-        "id": "eebf5e3d-3a80-4fdd-b14d-20c76da47904",
-        "name": "Gigabyte WINDFORCE OC GeForce GTX 1070 8GB GDDR5 Black / Orange",
-        "variant": "Gigabyte",
-        "amazon_sku": "B01HHCA1IO",
-        "clean_name": "Gigabyte WINDFORCE OC GeForce GTX 1070 GDDR5 Black / Orange",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
-    },
-    {
         "id": "64976ebb-ff09-487d-a64f-d8925d9be638",
         "name": "PowerColor Fighter Radeon RX 7700 XT 12GB GDDR6 PCI Express 4.0 x16 ATX Video Card RX7700XT 12G-F/OC",
         "amazon_sku": "B0CFPQPMVX",
         "clean_name": "PowerColor Fighter Radeon RX 7700 XT GDDR6 PCI Express 4.0 x16 ATX RX7700XT 12G-F/OC",
         "chipset": "Radeon RX 7700 XT",
         "vram": "12GB"
-    },
-    {
-        "id": "47b268ec-1aeb-4a13-9819-691f5e4b29ef",
-        "name": "PNY Founders Edition GeForce GTX 1080 Ti 11GB GDDR5X Black / Silver",
-        "variant": "PNY",
-        "amazon_sku": "B06XGM9KZ6",
-        "clean_name": "PNY Founders Edition GeForce GTX 1080 Ti GDDR5X Black / Silver",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:20:37.056Z"
     },
     {
         "id": "62f248ea-1fa8-4e12-9f06-985388960db8",
@@ -9561,15 +8290,6 @@
         "last_updated": "2026-04-30T07:22:34.767Z"
     },
     {
-        "id": "27e2f79c-8ee5-49a6-86f2-7c6e222c517d",
-        "name": "Asus Phoenix OC GeForce GTX 1650 G5 4GB GDDR5 Black",
-        "variant": "Asus",
-        "amazon_sku": "B07QJDT7GR",
-        "clean_name": "Asus Phoenix OC GeForce GTX 1650 G5 GDDR5 Black",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
-    },
-    {
         "id": "7bb7bbe8-4b33-4fa9-8948-46f42c9cbb57",
         "name": "ASUS Dual GeForce RTX 4060 V2 OC Edition 8GB GDDR6",
         "variant": "OC Edition V2",
@@ -9696,17 +8416,6 @@
         "vram": "16GB"
     },
     {
-        "id": "6ce670c5-b8ec-4ee8-a7d2-9b3eb2b452de",
-        "name": "MSI AERO GeForce GTX 1080 Ti 11GB GDDR5X Black / Green",
-        "variant": "MSI",
-        "amazon_sku": "B06XXGNZB3",
-        "clean_name": "MSI AERO GeForce GTX 1080 Ti GDDR5X Black / Green",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:23:40.993Z"
-    },
-    {
         "id": "0bb8815f-2fa6-4ff3-9c6c-ce7378f74b9f",
         "name": "Sapphire NITRO+ Radeon RX 7900 XT 20GB GDDR6 Silver / Black",
         "variant": "Sapphire",
@@ -9771,15 +8480,6 @@
         "vram": "16GB"
     },
     {
-        "id": "0b6de788-df86-4ccd-b20b-9e422b33533f",
-        "name": "XFX RS XXX Radeon RX 570 4GB GDDR5 Black / Red",
-        "variant": "XFX",
-        "amazon_sku": "B06ZXY43VC",
-        "clean_name": "XFX RS XXX Radeon RX 570 GDDR5 Black / Red",
-        "chipset": "Radeon RX 570",
-        "vram": "4GB"
-    },
-    {
         "id": "52248a6d-14a1-45ee-b2cd-9fe42d516861",
         "name": "Radeon™ RX 5700 8G GDDR6",
         "amazon_sku": "B07TFRMJXH",
@@ -9787,15 +8487,6 @@
         "chipset": "Radeon RX 5700",
         "price": 132.63,
         "last_updated": "2026-04-30T07:24:26.380Z"
-    },
-    {
-        "id": "f7e79ef8-d2be-409b-ab8a-ea9b8204fe37",
-        "name": "Asus ROG STRIX GeForce GTX 1080 8GB GDDR5X Black",
-        "variant": "Asus",
-        "amazon_sku": "B01K5F8MJK",
-        "clean_name": "Asus ROG STRIX GeForce GTX 1080 GDDR5X Black",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB"
     },
     {
         "id": "ded34d98-4bdd-450d-bbdd-6c79351374d0",
@@ -9923,32 +8614,12 @@
         "vram": "8GB"
     },
     {
-        "id": "ec651775-755c-44f1-8794-e3a144162cc3",
-        "name": "NVIDIA Founders Edition GeForce GTX 1070 Ti 8GB GDDR5 Silver / Black",
-        "variant": "NVIDIA",
-        "amazon_sku": "B077BQ83WP",
-        "clean_name": "NVIDIA Founders Edition GeForce GTX 1070 Ti GDDR5 Silver / Black",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T07:25:34.032Z"
-    },
-    {
         "id": "0653d195-f151-4cb7-a4a8-d78004183fb7",
         "name": "EVGA GeForce RTX 3080 XC3 ULTRA GAMING",
         "variant": "ULTRA GAMING",
         "amazon_sku": "B08HR4RJ3Q",
         "clean_name": "EVGA GeForce RTX 3080 XC3 ULTRA GAMING",
         "chipset": "GeForce RTX 3080 10 GB"
-    },
-    {
-        "id": "222d1d03-00b8-47f2-930c-17236c883528",
-        "name": "Asus GeForce GTX 1060 3GB DUAL White 3GB GDDR5",
-        "variant": "Asus",
-        "amazon_sku": "B01KMVHB6M",
-        "clean_name": "Asus GeForce GTX 1060 DUAL White GDDR5",
-        "chipset": "GeForce GTX 1060",
-        "vram": "3GB"
     },
     {
         "id": "c1ba453c-aeaf-4075-aba1-23dc4af3f4f8",
@@ -9987,15 +8658,6 @@
         "vram": "14Gb"
     },
     {
-        "id": "600006b4-5a8c-4d7d-8b9d-fcef76363e52",
-        "name": "MSI GeForce GTX 1660 VENTUS XS OC 6GB GDDR5 Black / White",
-        "variant": "MSI",
-        "amazon_sku": "B07PBLDV3D",
-        "clean_name": "MSI GeForce GTX 1660 VENTUS XS OC GDDR5 Black / White",
-        "chipset": "GeForce GTX 1660",
-        "vram": "6GB"
-    },
-    {
         "id": "c66009b7-4560-479f-afde-066c1cd1dec2",
         "name": "MSI VENTUS 2X OC Black GeForce RTX 3060 Ti 8GB GDDR6X",
         "variant": "MSI",
@@ -10029,15 +8691,6 @@
         "clean_name": "ASRock Steel Legend OC Arc B580 GDDR6",
         "chipset": "Arc B580",
         "vram": "12GB"
-    },
-    {
-        "id": "bae85ee6-7437-41eb-957f-3eb1c62c3a7f",
-        "name": "EVGA FTW GAMING ACX 3.0 GeForce GTX 1080 8GB GDDR5X Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B01GAI64GO",
-        "clean_name": "EVGA FTW GAMING ACX 3.0 GeForce GTX 1080 GDDR5X Black / Silver",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB"
     },
     {
         "id": "fded1e74-76c2-4c0b-bea0-00c2de9a0d9d",
@@ -10128,23 +8781,6 @@
         "vram": "16GB"
     },
     {
-        "id": "c704cca2-38ba-46d6-b4b2-49991b32bbec",
-        "name": "GeForce GTX 1650 AERO ITX 4G OC",
-        "variant": "AERO ITX OC",
-        "amazon_sku": "B07QR2YFTX",
-        "clean_name": "GeForce GTX 1650 AERO ITX 4G OC",
-        "chipset": "GeForce GTX 1650"
-    },
-    {
-        "id": "1c9125fc-b90f-48b8-95c5-a24d6e58e618",
-        "name": "ASRock Radeon RX 580 OC Phantom Gaming D 8GB GDDR5 ",
-        "variant": "OC ",
-        "amazon_sku": "B07HKB634Y",
-        "clean_name": "ASRock Radeon RX 580 OC Phantom Gaming D GDDR5",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
-    },
-    {
         "id": "db1d47df-d06e-417d-aa98-8634e1600272",
         "name": "MSI GeForce RTX 5090 32G SUPRIM LIQUID OC",
         "variant": "OC ",
@@ -10216,15 +8852,6 @@
         "clean_name": "EVGA FTW3 GAMING GeForce RTX 3090 Ti GDDR6X Black",
         "chipset": "GeForce RTX 3090 Ti",
         "vram": "24GB"
-    },
-    {
-        "id": "7b266844-95e9-4fea-9a9f-9b13ae72528f",
-        "name": "MSI GeForce GTX 1630 VENTUS XS 4G OC GeForce GTX 1630 4 GB",
-        "variant": "MSI",
-        "amazon_sku": "B0B5V8NT52",
-        "clean_name": "MSI GeForce GTX 1630 VENTUS XS 4G OC GeForce GTX 1630",
-        "chipset": "GeForce GTX 1630",
-        "vram": "4 GB"
     },
     {
         "id": "70d5fcb0-2a62-476b-9a3c-1ea6f6e7d728",
@@ -10347,15 +8974,6 @@
         "last_updated": "2026-04-30T07:28:30.682Z"
     },
     {
-        "id": "9e19dae9-f7b9-4cf3-8ff3-63b5d8d4a205",
-        "name": "XFX AMD Radeon RX 580 GTS XXX Edition 8GB GDDR5",
-        "variant": "XXX Edition",
-        "amazon_sku": "B06Y66K3XD",
-        "clean_name": "XFX AMD Radeon RX 580 GTS XXX Edition GDDR5",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
-    },
-    {
         "id": "20702eb2-461b-469a-bcfe-7adc417a12c1",
         "name": "GIGABYTE GeForce RTX 5070 Ti WINDFORCE OC V2 16G",
         "variant": "OC V2",
@@ -10435,15 +9053,6 @@
         "vram": "8GB"
     },
     {
-        "id": "5f80a37f-db28-4e13-81c6-be636faccd14",
-        "name": "Asus DUAL GeForce GTX 1060 6GB GDDR5 White",
-        "variant": "Asus",
-        "amazon_sku": "B01JHQT1SE",
-        "clean_name": "Asus DUAL GeForce GTX 1060 GDDR5 White",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
-    },
-    {
         "id": "68598261-da10-4bba-9bf7-693275b51cb1",
         "name": "EVGA GeForce RTX 3070 XC3 ULTRA GAMING 8GB GDDR6 Black / Silver",
         "variant": "EVGA",
@@ -10451,14 +9060,6 @@
         "clean_name": "EVGA GeForce RTX 3070 XC3 ULTRA GAMING GDDR6 Black / Silver",
         "chipset": "GeForce RTX 3070",
         "vram": "8GB"
-    },
-    {
-        "id": "7f06d754-471b-4696-a71a-b56cab4d35bb",
-        "name": "Radeon RX 570 GAMING X 4G",
-        "variant": "GAMING X",
-        "amazon_sku": "B06ZY21842",
-        "clean_name": "Radeon RX 570 GAMING X 4G",
-        "chipset": "Radeon RX 570"
     },
     {
         "id": "89f14ab6-b8bd-41f4-b51b-fc614c10f64b",
@@ -10543,14 +9144,6 @@
         "vram": "16GB"
     },
     {
-        "id": "f5ce8b2b-614b-44ee-a651-fc684608105f",
-        "name": "GIGABYTE GeForce GTX 1660 Ti OC 6G",
-        "variant": "OC",
-        "amazon_sku": "B07NJPKRMZ",
-        "clean_name": "GIGABYTE GeForce GTX 1660 Ti OC 6G",
-        "chipset": "GeForce GTX 1660 Ti"
-    },
-    {
         "id": "ead3caf8-275e-41a8-a4a8-df71fb9fe0d6",
         "name": "Zotac GAMING Twin Edge OC GeForce RTX 4070 SUPER 12GB GDDR6X Black",
         "variant": "Zotac",
@@ -10567,14 +9160,6 @@
         "clean_name": "XFX Radeon RX 7900 XT Gaming GDDR6",
         "chipset": "Radeon RX 7900 XT",
         "vram": "20GB"
-    },
-    {
-        "id": "9ef5cc51-a6c5-411b-a2f3-5c988b573c61",
-        "name": "Gigabyte GeForce GTX 1650 D6 OC 4G Graphics Card (Rev 2.0)",
-        "variant": "Rev 2.0",
-        "amazon_sku": "B086TSK5M3",
-        "clean_name": "Gigabyte GeForce GTX 1650 D6 OC 4G (Rev 2.0)",
-        "chipset": "GeForce GTX 1650"
     },
     {
         "id": "6810cc13-a096-4cc0-9d31-19a1ac1cd952",
@@ -10837,15 +9422,6 @@
         "vram": "8GB"
     },
     {
-        "id": "81198e13-8e25-410e-84ed-5ad002edb20c",
-        "name": "MSI Radeon RX 580 Black / Red 8GB GDDR5",
-        "variant": "MSI",
-        "amazon_sku": "B071RW7SCT",
-        "clean_name": "MSI Radeon RX 580 Black / Red GDDR5",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
-    },
-    {
         "id": "b26af5e7-3584-4ec1-a2d6-d00f31b191a6",
         "name": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE MAX OC 16G GDDR7",
         "variant": "OC",
@@ -10872,17 +9448,6 @@
         "vram": "8GB",
         "price": 132.63,
         "last_updated": "2026-04-30T07:32:47.437Z"
-    },
-    {
-        "id": "1965d92c-995b-442a-80f2-00f3455150fb",
-        "name": "MSI GeForce GTX 1080 Ti GAMING X TRIO 11GB GDDR5X",
-        "variant": "MSI",
-        "amazon_sku": "B076LWZHBK",
-        "clean_name": "MSI GeForce GTX 1080 Ti GAMING X TRIO GDDR5X",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:32:41.773Z"
     },
     {
         "id": "f493d1b9-6a73-4e87-a896-c447fe88d5a7",
@@ -10946,15 +9511,6 @@
         "clean_name": "MSI VENTUS 3X OC GeForce RTX 3080 LHR GDDR6X Black",
         "chipset": "GeForce RTX 3080 10 GB",
         "vram": "10GB"
-    },
-    {
-        "id": "c4cd0a7a-395f-43bb-8934-9dc0804f6574",
-        "name": "PNY GeForce GTX 1650 4GB Single Fan",
-        "variant": "Single Fan",
-        "amazon_sku": "B0851G1HG9",
-        "clean_name": "PNY GeForce GTX 1650 Single Fan",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "ecfb14be-f2b5-487a-8685-d25cd0c74462",
@@ -11042,15 +9598,6 @@
         "vram": "8GB"
     },
     {
-        "id": "f69c3153-2dea-435d-8887-8ae3de42c10d",
-        "name": "ASUS TUF Gaming GeForce® GTX 1660 Ti EVO OC Edition 6GB GDDR6",
-        "variant": "EVO OC Edition",
-        "amazon_sku": "B09HL87KQM",
-        "clean_name": "ASUS TUF Gaming GeForce® GTX 1660 Ti EVO OC Edition GDDR6",
-        "chipset": "GeForce GTX 1660 Ti",
-        "vram": "6GB"
-    },
-    {
         "id": "9208917d-fec4-4fea-83f6-4e3d4032f092",
         "name": "Asus ProArt OC GeForce RTX 4070 SUPER 12GB GDDR6X Black Gold",
         "variant": "Asus",
@@ -11129,15 +9676,6 @@
         "vram": "12GB"
     },
     {
-        "id": "2e370c17-177a-42ff-a0b3-674b70581b10",
-        "name": "Asus TURBO GeForce GTX 1070 8GB GDDR5 Black / Silver",
-        "variant": "Asus",
-        "amazon_sku": "B01IPVTHL8",
-        "clean_name": "Asus TURBO GeForce GTX 1070 GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
-    },
-    {
         "id": "50a8ae46-c228-498b-a713-809438ce116d",
         "name": "MSI GeForce RTX 5060 Ti 16G GAMING TRIO OC WHITE GDDR7",
         "variant": "OC WHITE",
@@ -11146,17 +9684,6 @@
         "chipset": "GeForce RTX 5060 Ti 16 GB",
         "price": 570.86,
         "last_updated": "2026-04-30T07:34:43.993Z"
-    },
-    {
-        "id": "cc2d5763-662c-4234-ab1c-7181aa07fe1b",
-        "name": "MSI GeForce GTX 1080 Ti DUKE OC 11GB GDDR5X Black",
-        "variant": "MSI",
-        "amazon_sku": "B0722YBZGK",
-        "clean_name": "MSI GeForce GTX 1080 Ti DUKE OC GDDR5X Black",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:34:47.261Z"
     },
     {
         "id": "ff319243-38ee-4031-ac17-88dd1e91d5cc",
@@ -11239,15 +9766,6 @@
         "vram": "8GB",
         "price": 754.31,
         "last_updated": "2026-04-30T07:35:11.503Z"
-    },
-    {
-        "id": "95332c26-8bac-4685-83b5-4c924b28f70e",
-        "name": "Asus TUF GAMING OC GeForce GTX 1650 SUPER 4GB GDDR6 Black",
-        "variant": "Asus",
-        "amazon_sku": "B081KY5L57",
-        "clean_name": "Asus TUF GAMING OC GeForce GTX 1650 SUPER GDDR6 Black",
-        "chipset": "GeForce GTX 1650 SUPER",
-        "vram": "4GB"
     },
     {
         "id": "cbc1cf88-a3b0-40b5-87d9-85cfcc57d0a1",
@@ -11396,15 +9914,6 @@
         "vram": "12GB"
     },
     {
-        "id": "40a4cd76-24c1-44fc-b38f-fbe1742c5e6b",
-        "name": "Asus DUAL OC GeForce GTX 1650 G5 4GB GDDR5 Silver / Black",
-        "variant": "Asus",
-        "amazon_sku": "B07QKGDDJD",
-        "clean_name": "Asus DUAL OC GeForce GTX 1650 G5 GDDR5 Silver / Black",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
-    },
-    {
         "id": "209c4adf-8e90-4cfa-9490-9be53845357c",
         "name": "MSI SUPRIM X GeForce RTX 3080 10GB GDDR6X Black / Silver",
         "variant": "MSI",
@@ -11491,23 +10000,6 @@
         "clean_name": "PNY GeForce RTX 4070 SUPER VERTO Overclocked Dual Fan GDDR6X",
         "chipset": "GeForce RTX 4070 SUPER",
         "vram": "12GB"
-    },
-    {
-        "id": "999d4a8a-ba06-4422-b432-4887105d0002",
-        "name": "Sapphire PULSE Radeon RX 590 8GB GDDR5 PCI-E Dual HDMI / DVI-D / Dual DP w/ Backplate",
-        "amazon_sku": "B07RQ325DW",
-        "clean_name": "Sapphire PULSE Radeon RX 590 GDDR5 PCI-E Dual HDMI / DVI-D / Dual DP w/ Backplate",
-        "chipset": "Radeon RX 590",
-        "vram": "8GB"
-    },
-    {
-        "id": "8f84a025-93ef-478c-bbfe-a9131b41b15d",
-        "name": "EVGA FTW GAMING ACX 3.0 GeForce GTX 1070 8GB GDDR5 Black / Gray",
-        "variant": "EVGA",
-        "amazon_sku": "B01I60OGUK",
-        "clean_name": "EVGA FTW GAMING ACX 3.0 GeForce GTX 1070 GDDR5 Black / Gray",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
     },
     {
         "id": "37e7b9a1-b9a8-4346-9d72-2bbeb0506750",
@@ -11631,26 +10123,6 @@
         "last_updated": "2026-04-30T07:38:14.543Z"
     },
     {
-        "id": "286c4fda-1750-42d8-b2b9-d8438b0e346e",
-        "name": "Zotac AMP GeForce GTX 1060 6GB GDDR5 Black / Silver",
-        "variant": "Zotac",
-        "amazon_sku": "B01I5O5AP2",
-        "clean_name": "Zotac AMP GeForce GTX 1060 GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
-    },
-    {
-        "id": "a9f88425-6044-4b5a-8fda-d2e88ccafc62",
-        "name": "EVGA DT GAMING GeForce GTX 1080 Ti 11GB GDDR5X Silver / Black",
-        "variant": "EVGA",
-        "amazon_sku": "B0762Q49NV",
-        "clean_name": "EVGA DT GAMING GeForce GTX 1080 Ti GDDR5X Silver / Black",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:38:27.870Z"
-    },
-    {
         "id": "5188dd3c-3fa7-4d15-a9f2-23b94d566277",
         "name": "PowerColor Fighter Radeon RX 7600 XT 16GB GDDR6 Black",
         "variant": "PowerColor",
@@ -11749,15 +10221,6 @@
         "clean_name": "PowerColor Radeon RX 6800 XT Red Dragon OC GDDR6 Black",
         "chipset": "Radeon RX 6800 XT",
         "vram": "16GB"
-    },
-    {
-        "id": "1ccb9c19-d15e-4135-b6fe-48b32a2cd514",
-        "name": "Gigabyte D6 OC Rev 2.0 GeForce GTX 1650 G6 4GB GDDR6 Black / Silver",
-        "variant": "Gigabyte",
-        "amazon_sku": "B08BNRR5SJ",
-        "clean_name": "Gigabyte D6 OC Rev 2.0 GeForce GTX 1650 G6 GDDR6 Black / Silver",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "d443738f-b201-41ff-be3a-5defa56a1494",
@@ -11867,15 +10330,6 @@
         "vram": "16GB"
     },
     {
-        "id": "a01af626-6410-4da9-b932-489c96fb3c73",
-        "name": "EVGA GeForce GTX 1070 SC GAMING ACX 3.0 Black Edition 8GB GDDR5 Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B01KVZBNY0",
-        "clean_name": "EVGA GeForce GTX 1070 SC GAMING ACX 3.0 Black Edition GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1070",
-        "vram": "8GB"
-    },
-    {
         "id": "2b2908e7-f8a0-41f1-9915-4eb6009bad61",
         "name": "XFX Mercury AMD Radeon RX 9070XT OC Magnetic Air Edition 16GB GDDR6",
         "variant": "OC Magnetic Air Edition",
@@ -11930,15 +10384,6 @@
         "vram": "12GB"
     },
     {
-        "id": "714a9f07-e9d7-451d-a0e2-1fe5a4c5982d",
-        "name": "EVGA SC ULTRA GAMING GeForce GTX 1650 G5 4GB GDDR5 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B07RT744F8",
-        "clean_name": "EVGA SC ULTRA GAMING GeForce GTX 1650 G5 GDDR5 Black",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
-    },
-    {
         "id": "8d2fb2ab-3c2c-46b7-98a0-764990ea980f",
         "name": "Gigabyte AORUS XTREME WATERFORCE GeForce RTX 4080 16GB GDDR6X Black",
         "variant": "Gigabyte",
@@ -11973,26 +10418,6 @@
         "vram": "8GB",
         "price": 933.2,
         "last_updated": "2026-04-30T07:40:54.147Z"
-    },
-    {
-        "id": "1ccd2340-733d-48e6-95ef-6be6a6b4d750",
-        "name": "MSI GeForce GTX 1660 SUPER GAMING X 6GB GDDR6",
-        "variant": "",
-        "amazon_sku": "B07ZK69HDK",
-        "clean_name": "MSI GeForce GTX 1660 SUPER GAMING X GDDR6",
-        "chipset": "GeForce GTX 1660 SUPER",
-        "vram": "6GB"
-    },
-    {
-        "id": "a69ac9fd-0d12-4893-acad-405d2da1c5c3",
-        "name": "Asus STRIX GAMING GeForce GTX 1080 Ti 11GB GDDR5X Black",
-        "variant": "Asus",
-        "amazon_sku": "B06XY25VTC",
-        "clean_name": "Asus STRIX GAMING GeForce GTX 1080 Ti GDDR5X Black",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:40:58.277Z"
     },
     {
         "id": "363a627b-f23c-452d-9668-1c9d2eca4e3f",
@@ -12119,15 +10544,6 @@
         "vram": "16GB"
     },
     {
-        "id": "0ffef6da-362f-4d9c-95a6-f46d45621dd8",
-        "name": "EVGA SC GAMING ACX 3.0 Black Edition GeForce GTX 1070 Ti 8GB GDDR5 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B076S4RH6K",
-        "clean_name": "EVGA SC GAMING ACX 3.0 Black Edition GeForce GTX 1070 Ti GDDR5 Black",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB"
-    },
-    {
         "id": "b17d82b3-4947-462c-8071-81f5d5c30c91",
         "name": "MSI GAMING X GeForce RTX 4060 8GB GDDR6 Black",
         "variant": "MSI",
@@ -12205,15 +10621,6 @@
         "chipset": "Radeon RX 7600"
     },
     {
-        "id": "43708c10-b778-40a2-b058-e0b5bbdad12a",
-        "name": "EVGA GeForce GTX 1070 Ti FTW2 GAMING iCX 8GB GDDR5 Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B076RT2ZVV",
-        "clean_name": "EVGA GeForce GTX 1070 Ti FTW2 GAMING iCX GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB"
-    },
-    {
         "id": "06364d8d-4380-415e-b8f5-478ba7179db4",
         "name": "ASRock Phantom Gaming Radeon RX 6500 XT 8GB GDDR6",
         "variant": "ASRock",
@@ -12276,33 +10683,6 @@
         "vram": "8GB"
     },
     {
-        "id": "52daae7d-74af-4ec1-8b7b-72e75b0b3dc5",
-        "name": "ZOTAC GAMING GeForce GTX 1650 SUPER Twin Fan 4GB GDDR6",
-        "variant": "Twin Fan",
-        "amazon_sku": "B07ZKSZ5LF",
-        "clean_name": "ZOTAC GAMING GeForce GTX 1650 SUPER Twin Fan GDDR6",
-        "chipset": "GeForce GTX 1650 SUPER",
-        "vram": "4GB"
-    },
-    {
-        "id": "8978660d-3295-4f13-9286-e0401e430a28",
-        "name": "EVGA SC GAMING ACX 2.0 GeForce GTX 1050 Ti 4GB GDDR5 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B01MF7EQJZ",
-        "clean_name": "EVGA SC GAMING ACX 2.0 GeForce GTX 1050 Ti GDDR5 Black",
-        "chipset": "GeForce GTX 1050 Ti",
-        "vram": "4GB"
-    },
-    {
-        "id": "8ba7cdbd-84bc-48f6-8d0c-25118d30d9d4",
-        "name": "MSI GeForce GTX 1650 D6 VENTUS XS OCV1 4GB GDDR6",
-        "variant": "OCV1",
-        "amazon_sku": "B08J9CF57K",
-        "clean_name": "MSI GeForce GTX 1650 D6 VENTUS XS OCV1 GDDR6",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
-    },
-    {
         "id": "23350b50-eac3-4360-b5fc-f74a4784b851",
         "name": "Gigabyte GeForce RTX 4060 Ti GAMING OC 8G GDDR6",
         "variant": "OC ",
@@ -12338,17 +10718,6 @@
         "vram": "16GB"
     },
     {
-        "id": "4031c6e0-7794-454b-94eb-6b1184c0fd6d",
-        "name": "EVGA GeForce GTX 1080 Ti FOUNDERS EDITION 11GB GDDR5X",
-        "variant": "",
-        "amazon_sku": "B06XH2P8DD",
-        "clean_name": "EVGA GeForce GTX 1080 Ti FOUNDERS EDITION GDDR5X",
-        "chipset": "GeForce GTX 1080 Ti",
-        "vram": "11GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:43:55.354Z"
-    },
-    {
         "id": "7f768077-47f5-4e88-b045-c49b87a8d2b8",
         "name": "XFX Speedster QICK 210 Radeon RX 6500 XT 4GB GDDR6 Black / Silver",
         "variant": "XFX",
@@ -12376,15 +10745,6 @@
         "clean_name": "Asus DUAL OC Radeon RX 7900 GRE GDDR6 Black",
         "chipset": "Radeon RX 7900 GRE",
         "vram": "16GB"
-    },
-    {
-        "id": "ed05907b-b160-4bc4-bb6d-299367cb4db0",
-        "name": "Gigabyte WINDFORCE OC GeForce GTX 1060 3GB 3GB GDDR5 Black / Orange",
-        "variant": "Gigabyte",
-        "amazon_sku": "B01KQUDE2Y",
-        "clean_name": "Gigabyte WINDFORCE OC GeForce GTX 1060 GDDR5 Black / Orange",
-        "chipset": "GeForce GTX 1060",
-        "vram": "3GB"
     },
     {
         "id": "3ef453b4-652b-4753-a130-2f390ac0bc22",
@@ -12430,17 +10790,6 @@
         "clean_name": "Gigabyte TURBO Black GeForce RTX 3090 GDDR6X",
         "chipset": "GeForce RTX 3090",
         "vram": "24GB"
-    },
-    {
-        "id": "fb5599b4-d604-4065-8a0b-0886445b0c2e",
-        "name": "MSI GeForce GTX 1070 Ti DUKE 8GB GDDR5 Black",
-        "variant": "MSI",
-        "amazon_sku": "B076Q6HT34",
-        "clean_name": "MSI GeForce GTX 1070 Ti DUKE GDDR5 Black",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB",
-        "price": 1280.84,
-        "last_updated": "2026-04-30T07:44:42.477Z"
     },
     {
         "id": "e25485c2-b582-4a85-9f13-88839c7b77b7",
@@ -12540,15 +10889,6 @@
         "amazon_sku": "B082G2XDLL",
         "clean_name": "MSI Radeon RX 5500 XT MECH 8G OC",
         "chipset": "Radeon RX 5500 XT"
-    },
-    {
-        "id": "abf9e1a1-f6e4-4c40-ba7a-390202cc2da1",
-        "name": "EVGA FTW GAMING GeForce GTX 1060 6GB GDDR5 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B01LSLRQQA",
-        "clean_name": "EVGA FTW GAMING GeForce GTX 1060 GDDR5 Black",
-        "chipset": "GeForce GTX 1060",
-        "vram": "6GB"
     },
     {
         "id": "fcf6155c-e687-4f3e-b29f-b9a3adae4759",
@@ -12698,15 +11038,6 @@
         "chipset": "GeForce RTX 2070 SUPER"
     },
     {
-        "id": "1b4f9f9a-ee43-4d1c-8fa5-e8b9b99e7dd6",
-        "name": "MSI GeForce GTX 1050 Ti 4GT OCV1 4GB GDDR5",
-        "variant": "OCV1 ",
-        "amazon_sku": "B01MG3IX4F",
-        "clean_name": "MSI GeForce GTX 1050 Ti 4GT OCV1 GDDR5",
-        "chipset": "GeForce GTX 1050 Ti",
-        "vram": "4GB"
-    },
-    {
         "id": "2138a7f6-ce2d-40d6-8d58-8bf8da4b9881",
         "name": "MSI GeForce RTX 5080 16G GAMING TRIO OC WHITE",
         "variant": "OC WHITE",
@@ -12802,15 +11133,6 @@
         "clean_name": "PNY RTX 4000 SFF Ada Generation GDDR6 Black",
         "chipset": "RTX 4000 SFF Ada",
         "vram": "20GB"
-    },
-    {
-        "id": "865c4ecd-7e67-48cc-9ebf-e1bf186c4da3",
-        "name": "Zotac GAMING OC GeForce GTX 1650 G5 4GB GDDR5 Black / Silver",
-        "variant": "Zotac",
-        "amazon_sku": "B07QF1H9YR",
-        "clean_name": "Zotac GAMING OC GeForce GTX 1650 G5 GDDR5 Black / Silver",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "8918064a-493c-4b58-95dc-6833581facc5",
@@ -12936,17 +11258,6 @@
         "clean_name": "MSI VENTUS 2X OC GeForce RTX 4070 Ti SUPER GDDR6X Black / Silver",
         "chipset": "GeForce RTX 4070 Ti SUPER",
         "vram": "16GB"
-    },
-    {
-        "id": "af127767-8496-4a3a-805d-2766e16c976c",
-        "name": "NVIDIA Founders Edition GeForce GTX 1080 8GB GDDR5X Black / Silver",
-        "variant": "NVIDIA",
-        "amazon_sku": "B01GATSH9U",
-        "clean_name": "NVIDIA Founders Edition GeForce GTX 1080 GDDR5X Black / Silver",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:48:33.894Z"
     },
     {
         "id": "bac99f12-f908-49e3-b073-865523ade790",
@@ -13183,15 +11494,6 @@
         "vram": "16GB"
     },
     {
-        "id": "609efd6c-440f-4c2f-8720-813cd2b0c9f4",
-        "name": "Zotac GAMING AMP GeForce GTX 1660 SUPER 6GB GDDR6 Black",
-        "variant": "Zotac",
-        "amazon_sku": "B07YXQS33J",
-        "clean_name": "Zotac GAMING AMP GeForce GTX 1660 SUPER GDDR6 Black",
-        "chipset": "GeForce GTX 1660 SUPER",
-        "vram": "6GB"
-    },
-    {
         "id": "400a9e9e-64bd-485c-a57d-b4042ff425e4",
         "name": "MSI GAMING SLIM MONSTER HUNTER EDITION GeForce RTX 4060 Ti 8GB GDDR6 Red / Black",
         "variant": "MSI",
@@ -13208,15 +11510,6 @@
         "clean_name": "Asus TUF GAMING OC Radeon RX 6800 GDDR6 Black",
         "chipset": "Radeon RX 6800",
         "vram": "16GB"
-    },
-    {
-        "id": "82c0ec48-4572-481b-8442-e6cee558716b",
-        "name": "MSI Gaming X GeForce GTX 1650 G5 4GB GDDR5 Black",
-        "variant": "MSI",
-        "amazon_sku": "B07QTMRJTK",
-        "clean_name": "MSI Gaming X GeForce GTX 1650 G5 GDDR5 Black",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "31636465-761c-4cf3-a611-7867c7f899c3",
@@ -13349,15 +11642,6 @@
         "clean_name": "EVGA GeForce RTX 3080 XC3 ULTRA GAMING GDDR6X",
         "chipset": "GeForce RTX 3080 10 GB",
         "vram": "10GB"
-    },
-    {
-        "id": "ad4d4c69-1909-46b5-96da-e1075e7c2541",
-        "name": "ZOTAC GAMING GeForce GTX 1660 SUPER Twin Fan 6GB GDDR6",
-        "variant": "Twin Fan",
-        "amazon_sku": "B07Z8PWC6R",
-        "clean_name": "ZOTAC GAMING GeForce GTX 1660 SUPER Twin Fan GDDR6",
-        "chipset": "GeForce GTX 1660 SUPER",
-        "vram": "6GB"
     },
     {
         "id": "081c92c6-8808-4688-b010-9c208bea17a8",
@@ -13504,15 +11788,6 @@
         "vram": "8GB"
     },
     {
-        "id": "672afbf9-6d19-47dd-81b1-06b9c1ae20ff",
-        "name": "XFX AMD Radeon™ RX 580 GTS Black Edition 8GB GDDR5",
-        "variant": "Black Edition",
-        "amazon_sku": "B072B6W44N",
-        "clean_name": "XFX AMD Radeon™ RX 580 GTS Black Edition GDDR5",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
-    },
-    {
         "id": "947dd804-e941-43d3-abdb-8b0258b284f0",
         "name": "MSI GeForce RTX 5090 32G SUPRIM LIQUID SOC GDDR7",
         "variant": "SOC",
@@ -13605,17 +11880,6 @@
         "vram": "16GB"
     },
     {
-        "id": "20e4ef51-590b-4ade-af28-5e391531002e",
-        "name": "EVGA Founders Edition GeForce GTX 1080 8GB GDDR5X Black / Silver",
-        "variant": "EVGA",
-        "amazon_sku": "B01FWI6F08",
-        "clean_name": "EVGA Founders Edition GeForce GTX 1080 GDDR5X Black / Silver",
-        "chipset": "GeForce GTX 1080",
-        "vram": "8GB",
-        "price": 1397.49,
-        "last_updated": "2026-04-30T07:53:28.963Z"
-    },
-    {
         "id": "4051ee98-6673-4f27-b7d7-5923e7c1906f",
         "name": "PowerColor Fighter OC Radeon RX 6500 XT 4GB GDDR6",
         "variant": "OC ",
@@ -13652,15 +11916,6 @@
         "vram": "4GB"
     },
     {
-        "id": "f15b555b-b055-4cfa-b216-9c919aa966ea",
-        "name": "Gigabyte WINDFORCE OC GeForce GTX 1650 G6 4GB GDDR6 Black / Silver",
-        "variant": "Gigabyte",
-        "amazon_sku": "B086T6W63R",
-        "clean_name": "Gigabyte WINDFORCE OC GeForce GTX 1650 G6 GDDR6 Black / Silver",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
-    },
-    {
         "id": "3422ba53-f539-420b-b1a1-1a487b6c65fa",
         "name": "XFX Radeon RX 5700 XT THICC II Ultra",
         "variant": "Thicc II Ultra",
@@ -13676,15 +11931,6 @@
         "clean_name": "Gigabyte GeForce RTX 4070 SUPER GAMING OC Black GDDR6X",
         "chipset": "GeForce RTX 4070 SUPER",
         "vram": "12GB"
-    },
-    {
-        "id": "b4e5137b-21a1-455a-86ce-36c6dbe018a8",
-        "name": "MSI GeForce GTX 1650 G6 D6 VENTUS XS OCV3 4GB GDDR6 Silver / Black",
-        "variant": "MSI",
-        "amazon_sku": "B0CK9SRJWW",
-        "clean_name": "MSI GeForce GTX 1650 G6 D6 VENTUS XS OCV3 GDDR6 Silver / Black",
-        "chipset": "GeForce GTX 1650",
-        "vram": "4GB"
     },
     {
         "id": "2ce15628-a703-4be8-b809-f0998a292983",
@@ -13761,15 +12007,6 @@
         "chipset": "GeForce RTX 2080 Ti"
     },
     {
-        "id": "516b5f61-8895-4182-a3d2-9025c5bff0e5",
-        "name": "AMD Radeon RX 580 8GB GDDR5",
-        "variant": "",
-        "amazon_sku": "B06ZZ6FMF8",
-        "clean_name": "AMD Radeon RX 580 GDDR5",
-        "chipset": "Radeon RX 580",
-        "vram": "8GB"
-    },
-    {
         "id": "4cd4f1b7-38a1-4452-b91b-dd20d978f593",
         "name": "Asus STRIX GAMING GeForce RTX 2080 Ti 11GB GDDR6 Black",
         "variant": "Asus",
@@ -13824,15 +12061,6 @@
         "vram": "8GB"
     },
     {
-        "id": "2a5b9110-7a1f-4b3e-a6dd-86629a2e0ed7",
-        "name": "EVGA XC ULTRA GAMING GeForce GTX 1660 Ti 6GB GDDR6 Black",
-        "variant": "EVGA",
-        "amazon_sku": "B07NRD6DH4",
-        "clean_name": "EVGA XC ULTRA GAMING GeForce GTX 1660 Ti GDDR6 Black",
-        "chipset": "GeForce GTX 1660 Ti",
-        "vram": "6GB"
-    },
-    {
         "id": "3113d465-ab67-4c76-8c1e-b6a062918289",
         "name": "Gigabyte WINDFORCE OC SFF GeForce RTX 5070 12GB GDDR7 Black",
         "variant": "OC SFF",
@@ -13851,15 +12079,6 @@
         "clean_name": "Gigabyte OC Rev 2.0 GeForce RTX 2060 GDDR6 Black / Gray",
         "chipset": "GeForce RTX 2060",
         "vram": "6GB"
-    },
-    {
-        "id": "4dfd84da-eeb9-4e6a-932c-b00839dd3dfa",
-        "name": "Asus DUAL GeForce GTX 1050 2GB GDDR5 White / Blue",
-        "variant": "Asus",
-        "amazon_sku": "B01MQJ49NW",
-        "clean_name": "Asus DUAL GeForce GTX 1050 GDDR5 White / Blue",
-        "chipset": "GeForce GTX 1050",
-        "vram": "2GB"
     },
     {
         "id": "94c35469-9736-47f4-bbdc-d5bfc5aa6441",
@@ -13908,15 +12127,6 @@
         "chipset": "GeForce RTX 3050 8 GB"
     },
     {
-        "id": "90ddef71-4f14-4803-a595-52717c03e95c",
-        "name": "Zotac AMP Extreme GeForce GTX 1070 Ti 8GB GDDR5 Black/Yellow",
-        "variant": "Zotac",
-        "amazon_sku": "B076S6VXGB",
-        "clean_name": "Zotac AMP Extreme GeForce GTX 1070 Ti GDDR5 Black/Yellow",
-        "chipset": "GeForce GTX 1070 Ti",
-        "vram": "8GB"
-    },
-    {
         "id": "3570e718-7040-478b-b45f-dc7a3f30a349",
         "name": "PNY XLR8 Gaming VERTO EPIC-X RGB OC GeForce RTX 4080 16GB GDDR6X Black",
         "variant": "PNY",
@@ -13933,14 +12143,6 @@
         "clean_name": "MSI GeForce RTX 4070 Ti SUPER VENTUS 3X GDDR6X Silver / Black",
         "chipset": "GeForce RTX 4070 Ti SUPER",
         "vram": "16GB"
-    },
-    {
-        "id": "cd7dbe4e-0a5f-4633-9b3e-3f330b18e9ff",
-        "name": "Gigabyte GeForce GTX 1660 SUPER OC 6G GDDR6",
-        "variant": "OC ",
-        "amazon_sku": "B07YYZGM51",
-        "clean_name": "Gigabyte GeForce GTX 1660 SUPER OC 6G GDDR6",
-        "chipset": "GeForce GTX 1660 SUPER"
     },
     {
         "id": "eaae163c-2016-4771-b9fa-6c7e3a38a8a8",
