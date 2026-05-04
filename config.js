@@ -1,5 +1,6 @@
 const CONFIG = {
-    GEMINI_API_KEY: "GEMINI_API_KEY"
+    GEMINI_API_KEY: "GEMINI_API_KEY",
+    API_BASE_URL: "https://db.pc-builder.at"
 };
 
 /**

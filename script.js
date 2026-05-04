@@ -249,9 +249,9 @@ const PRESETS = {
 
 async function fetchCategoryData(category) {
     try {
-        const response = await fetch(`processed_data/${category}.json`);
+        const response = await fetch(`${CONFIG.API_BASE_URL}/api/${category}`);
         if (!response.ok) {
-            throw new Error(`Failed to load ${category}.json - Status: ${response.status}`);
+            throw new Error(`Failed to load ${category} - Status: ${response.status}`);
         }
         const data = await response.json();
         return data;
@@ -385,8 +385,7 @@ async function initializeDropdowns() {
         if (!selectEl) return;
 
         try {
-            // Fetch all products from JSON files
-            const response = await fetch(`processed_data/${category}.json`);
+            const response = await fetch(`${CONFIG.API_BASE_URL}/api/${category}`);
             if (response.ok) {
                 const data = await response.json();
 
