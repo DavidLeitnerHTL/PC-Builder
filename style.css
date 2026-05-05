@@ -1427,13 +1427,13 @@ header {
   background: transparent;
   border-bottom: none;
   position: relative;
-  overflow: hidden;
+  clip-path: inset(0);
 }
 
 header::before {
   content: '';
   position: absolute;
-  inset: 0;
+  inset: -80px;
   background-image:
     linear-gradient(var(--grid-line) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
