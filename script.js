@@ -1,14 +1,6 @@
-/**
- * PC Builder 2026 - Main Script
- * Handles hardware configuration, price calculation, 
- * dark mode, AI assistant via Cloudflare Worker Proxy,
- * and dynamic component browsing.
- */
-
 // ==========================================
 // CONFIGURATION & STATE
 // ==========================================
-const WORKER_URL = "https://gemini-proxy.builder-htl.workers.dev";
 
 // Flag to check if a preset is currently loading (prevents button flickering)
 let isPresetLoading = false;
@@ -557,63 +549,6 @@ function calcTotal() {
 }
 
 // ==========================================
-// AI LOGIC (WORKER PROXY)
-// ==========================================
-
-function getSelectedComponents() {
-    let components = [];
-    document.querySelectorAll('#hardware-table tbody tr').forEach(row => {
-        const category = row.getAttribute('data-category');
-        const select = row.querySelector('select');
-
-        // Ensure TomSelect instance value is read safely
-        const tsInstance = tomSelectInstances[select.id];
-        if (tsInstance && tsInstance.getValue()) {
-            const optionText = tsInstance.options[tsInstance.getValue()].text;
-            components.push(`- ${category}: ${optionText}`);
-        }
-    });
-    return components.join('\n');
-}
-
-function toggleLoading(show) {
-    const loadingEl = document.getElementById('ai-loading');
-    const resultWrapper = document.getElementById('ai-result-wrapper');
-
-    if (loadingEl) loadingEl.style.display = show ? 'flex' : 'none';
-    if (resultWrapper) resultWrapper.style.display = show ? 'none' : 'flex';
-}
-
-async function callWorkerAI(prompt) {
-    try {
-        const response = await fetch(WORKER_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ prompt: prompt })
-        });
-
-        const data = await response.json();
-
-        if (data.candidates && data.candidates[0].content) {
-            return data.candidates[0].content.parts[0].text;
-        }
-
-        if (data.error) {
-            let errorDetails = data.error;
-            if (typeof data.error === 'object') {
-                errorDetails = data.error.message || JSON.stringify(data.error);
-            }
-            return `KI Fehler: ${errorDetails}`;
-        }
-
-        return "Die KI konnte keine Antwort generieren.";
-    } catch (error) {
-        console.error("Worker Error:", error);
-        return `Fehler: Die Verbindung zum KI-Server ist fehlgeschlagen. (${error.message})`;
-    }
-}
-
-// ==========================================
 // UI EVENT LISTENERS
 // ==========================================
 
@@ -635,73 +570,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         loadCategory('GPU');
     }
 
-    // 3. AI Assistant Buttons
-    const btnCheck = document.getElementById('btn-check-build');
-    const btnAsk = document.getElementById('btn-ask-ai');
-    const outputBox = document.getElementById('ai-output');
-    const inputField = document.getElementById('ai-question-input');
-
-    if (btnCheck) {
-        btnCheck.addEventListener('click', async () => {
-            const components = getSelectedComponents();
-            const prompt = `Analysiere diese PC-Konfiguration (2026):\n${components}\nPrüfe kurz Kompatibilität, Flaschenhälse und ob das Netzteil reicht. Antworte in Markdown.`;
-
-            toggleLoading(true);
-            const result = await callWorkerAI(prompt);
-            toggleLoading(false);
-
-            if (outputBox) {
-                outputBox.innerHTML = typeof marked !== 'undefined' ? marked.parse(result) : result;
-            }
-        });
-    }
-
-    if (btnAsk) {
-        btnAsk.addEventListener('click', async () => {
-            const question = inputField ? inputField.value : "";
-            if (!question) return;
-
-            const components = getSelectedComponents();
-            const prompt = `Aktuelle PC-Konfig:\n${components}\n\nFrage des Nutzers: ${question}\nAntworte kurz und präzise.`;
-
-            toggleLoading(true);
-            const result = await callWorkerAI(prompt);
-            toggleLoading(false);
-
-            if (outputBox) {
-                outputBox.innerHTML = typeof marked !== 'undefined' ? marked.parse(result) : result;
-            }
-        });
-    }
-
-    // 4. UI Resizing/Reset
-    const btnResize = document.getElementById('btn-resize-ai');
-    const btnClose = document.getElementById('btn-close-expanded');
-
-    const toggleExpandedView = () => {
-        const hwCol = document.getElementById('hardware-column');
-        const aiCol = document.getElementById('ai-column');
-        if (!hwCol || !aiCol) return;
-
-        const isExpanded = aiCol.classList.contains('col-lg-8');
-
-        if (isExpanded) {
-            hwCol.classList.replace('col-lg-4', 'col-lg-8');
-            aiCol.classList.replace('col-lg-8', 'col-lg-4');
-            if (btnResize) btnResize.style.display = 'inline-block';
-            if (btnClose) btnClose.style.display = 'none';
-        } else {
-            hwCol.classList.replace('col-lg-8', 'col-lg-4');
-            aiCol.classList.replace('col-lg-4', 'col-lg-8');
-            if (btnResize) btnResize.style.display = 'none';
-            if (btnClose) btnClose.style.display = 'inline-block';
-        }
-    };
-
-    if (btnResize) btnResize.addEventListener('click', toggleExpandedView);
-    if (btnClose) btnClose.addEventListener('click', toggleExpandedView);
-
-    // 5. Dark Mode Logic
+    // 3. Dark Mode Logic
     const themeToggle = document.getElementById('theme-toggle');
     const htmlElement = document.documentElement;
 
