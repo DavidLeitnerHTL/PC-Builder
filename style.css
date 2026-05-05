@@ -876,6 +876,7 @@ footer a:hover {
   border: 1px solid var(--border-color-strong) !important;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3) !important;
   overflow: hidden;
+  z-index: 1100 !important;
 }
 
 .ts-dropdown .option {
