@@ -149,9 +149,97 @@ async function detectPageBlock(page) {
     }
 }
 
+// Returns true if the page is a 404 / product-not-found page.
+export async function detectPageNotFound(page) {
+    try {
+        return await page.evaluate(() => {
+            const title = (document.title || "").toLowerCase();
+            if (title === "page not found" || title.includes("seite nicht gefunden")) return true;
+            // Amazon's 404 page has no #ppd or #dp element
+            if (!document.querySelector("#ppd") && !document.querySelector("#dp")) {
+                // But also no search results (to avoid false-positive on search pages)
+                if (!document.querySelector('[data-component-type="s-search-result"]')) {
+                    const body = (document.body?.innerText || "").substring(0, 500).toLowerCase();
+                    if (body.includes("page not found") || body.includes("seite nicht gefunden")) return true;
+                }
+            }
+            return false;
+        });
+    } catch {
+        return false;
+    }
+}
+
+// Returns true if the buybox explicitly says the product is unavailable.
+export async function detectOutOfStock(page) {
+    try {
+        return await page.evaluate(() => {
+            const oos = document.querySelector("#outOfStock, #availability_feature_div #outOfStock");
+            if (oos) return true;
+            const avail = document.querySelector("#availability span, #availability");
+            if (avail) {
+                const t = (avail.textContent || "").toLowerCase();
+                if (
+                    t.includes("currently unavailable") ||
+                    t.includes("derzeit nicht verfügbar") ||
+                    t.includes("nicht auf lager") ||
+                    t.includes("we don't know when or if")
+                ) return true;
+            }
+            // "No featured offers available" — no active seller on any marketplace
+            const ppd = document.querySelector("#ppd, #rightCol");
+            if (ppd) {
+                const t = (ppd.textContent || "").toLowerCase();
+                if (t.includes("no featured offers available") || t.includes("kein featured angebot verfügbar")) return true;
+            }
+            return false;
+        });
+    } catch {
+        return false;
+    }
+}
+
 // ==========================================
 // PRICE EXTRACTION
 // ==========================================
+
+// Extract the lowest new-condition price from an offer-listing page
+// (amazon.de/gp/offer-listing/ASIN?condition=new).
+export async function extractOfferListingPrice(page) {
+    try {
+        await page
+            .waitForSelector(".olpOffer, .a-price", { timeout: 6000 })
+            .catch(() => {});
+
+        const rawPrice = await page.evaluate(() => {
+            // New-condition offer rows
+            const offers = Array.from(document.querySelectorAll(".olpOffer"));
+            for (const offer of offers) {
+                const cond = (offer.querySelector(".olpCondition")?.textContent || "").toLowerCase();
+                if (cond && !cond.includes("neu") && !cond.includes("new")) continue;
+                const priceEl = offer.querySelector(".olpOfferPrice, .a-price .a-offscreen, .a-price-whole");
+                const text = priceEl ? priceEl.textContent.trim() : null;
+                if (text && /[0-9]/.test(text)) return text;
+            }
+            // Newer offer-listing layout
+            const offscreen = document.querySelector(".a-price:not(.a-text-strike) .a-offscreen");
+            if (offscreen) return offscreen.textContent.trim() || null;
+            return null;
+        });
+
+        if (rawPrice) {
+            const parsed = parsePrice(rawPrice);
+            if (parsed !== null) {
+                console.log(`[PRICE] Offer-listing hit → raw="${rawPrice}" parsed=${parsed.toFixed(2)}`);
+                return parsed;
+            }
+        }
+    } catch (e) {
+        console.warn(`[PRICE] extractOfferListingPrice error: ${e.message}`);
+    }
+    return null;
+}
+
 export async function extractPriceFromPage(page) {
     await page
         .waitForSelector(
@@ -1108,10 +1196,37 @@ export async function scrapeProduct(page, product, category = null) {
             throw new Error(`Bot detection (${block}) during phase-1 lookup`);
         }
 
-        await acceptCookies(page);
-        await sleep(getRandomDelay(800, 1500));
+        if (await detectPageNotFound(page)) {
+            console.warn(`[SCRAPER]  → Phase 1: ASIN not found on amazon.de, skipping to search`);
+            // Don't fall to Phase 2 search — the ASIN is invalid, searching by name is the best we can do
+        } else if (await detectOutOfStock(page)) {
+            console.warn(`[SCRAPER]  → Phase 1: product currently unavailable on amazon.de`);
+            // Fall through to Phase 2 — a marketplace seller might still list it
+        } else {
+            await acceptCookies(page);
+            await sleep(getRandomDelay(800, 1500));
+            price = await extractPriceFromPage(page);
+        }
 
-        price = await extractPriceFromPage(page);
+        // ---- Phase 1.5: Offer-listing fallback ----
+        // Some products have prices loaded via AJAX on the product page (lazy buybox).
+        // The offer-listing page always renders prices statically — try it as a last resort.
+        if (price === null) {
+            const offerUrl = `https://www.amazon.de/gp/offer-listing/${String(product.amazon_sku).trim()}?condition=new`;
+            console.log(`[SCRAPER] Phase 1.5 (offer-listing) for "${identifier}" → ${offerUrl}`);
+            try {
+                await page.goto(offerUrl, { waitUntil: "domcontentloaded", timeout: 25000 });
+            } catch (navErr) {
+                if (!/timeout/i.test(navErr.message)) {
+                    console.warn(`[SCRAPER] Phase 1.5 nav error: ${navErr.message}`);
+                }
+            }
+            const block15 = await detectPageBlock(page);
+            if (!block15 && !(await detectPageNotFound(page))) {
+                await sleep(getRandomDelay(600, 1200));
+                price = await extractOfferListingPrice(page);
+            }
+        }
 
         if (price !== null) {
             // Plausibility check (direct hits are more trusted – use half the min)
