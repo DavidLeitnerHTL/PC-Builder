@@ -1418,41 +1418,29 @@ body {
   padding-top: 82px;
 }
 
-@keyframes grid-drift {
-  0%   { transform: translate(0, 0); }
-  100% { transform: translate(80px, 80px); }
+@keyframes grid-drift-bg {
+  0%   { background-position: 0 0; }
+  100% { background-position: 80px 80px; }
 }
 
 header {
-  background: transparent;
-  border-bottom: none;
-  position: relative;
-  clip-path: inset(0);
-}
-
-header::before {
-  content: '';
-  position: absolute;
-  inset: -80px;
+  background-color: transparent;
   background-image:
     linear-gradient(var(--grid-line) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
   background-size: 80px 80px;
-  opacity: 0.6;
-  animation: grid-drift 20s linear infinite;
-  pointer-events: none;
-  z-index: 0;
+  animation: grid-drift-bg 20s linear infinite;
+  border-bottom: none;
+  position: relative;
 }
 
 [data-theme="light"] header {
-  background: transparent;
+  background-color: transparent;
 }
 
 header .container {
   padding-top: 0.65rem;
   padding-bottom: 0.55rem;
-  position: relative;
-  z-index: 1;
 }
 
 .navbar {
@@ -1700,6 +1688,8 @@ main::after {
   position: relative;
   background: var(--bg-card);
   background-image: var(--card-gradient);
+  color: inherit;
+  cursor: pointer;
 }
 
 .feature-card::after {
