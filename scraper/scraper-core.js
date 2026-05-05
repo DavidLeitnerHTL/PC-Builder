@@ -1163,6 +1163,7 @@ export async function scrapeProduct(page, product, category = null) {
         product.amazon_sku && String(product.amazon_sku).trim().length > 0;
 
     let price = null;
+    let isUnavailable = false;
     let scrapedUrl = undefined;
     let scrapedTitle = undefined;
 
@@ -1197,12 +1198,13 @@ export async function scrapeProduct(page, product, category = null) {
             throw new Error(`Bot detection (${block}) during phase-1 lookup`);
         }
 
-        if (await detectPageNotFound(page)) {
-            console.warn(`[SCRAPER]  → Phase 1: ASIN not found on amazon.de, skipping to search`);
-            // Don't fall to Phase 2 search — the ASIN is invalid, searching by name is the best we can do
+        const pageNotFound = await detectPageNotFound(page);
+        if (pageNotFound) {
+            console.warn(`[SCRAPER]  → Phase 1: ASIN not found on amazon.de`);
+            isUnavailable = true;
         } else if (await detectOutOfStock(page)) {
             console.warn(`[SCRAPER]  → Phase 1: product currently unavailable on amazon.de`);
-            // Fall through to Phase 2 — a marketplace seller might still list it
+            isUnavailable = true;
         } else {
             await acceptCookies(page);
             await sleep(getRandomDelay(800, 1500));
@@ -1210,9 +1212,9 @@ export async function scrapeProduct(page, product, category = null) {
         }
 
         // ---- Phase 1.5: Offer-listing fallback ----
-        // Some products have prices loaded via AJAX on the product page (lazy buybox).
-        // The offer-listing page always renders prices statically — try it as a last resort.
-        if (price === null) {
+        // Skipped for 404 (ASIN doesn't exist). For OOS, checks marketplace sellers.
+        // For normal pages, handles AJAX-loaded lazy buyboxes.
+        if (price === null && !pageNotFound) {
             const offerUrl = `https://www.amazon.de/gp/offer-listing/${String(product.amazon_sku).trim()}?condition=new`;
             console.log(`[SCRAPER] Phase 1.5 (offer-listing) for "${identifier}" → ${offerUrl}`);
             try {
@@ -1226,6 +1228,7 @@ export async function scrapeProduct(page, product, category = null) {
             if (!block15 && !(await detectPageNotFound(page))) {
                 await sleep(getRandomDelay(600, 1200));
                 price = await extractOfferListingPrice(page);
+                if (price !== null) isUnavailable = false;
             }
         }
 
@@ -1238,8 +1241,13 @@ export async function scrapeProduct(page, product, category = null) {
                 );
                 price = null;
             } else {
-                return { price, scraped_url: scrapedUrl, scraped_title: scrapedTitle };
+                return { price, available: true, scraped_url: scrapedUrl, scraped_title: scrapedTitle };
             }
+        }
+
+        if (isUnavailable) {
+            console.warn(`[SCRAPER]  → Product confirmed unavailable, skipping search`);
+            return { price: null, available: false, scraped_url: scrapedUrl, scraped_title: scrapedTitle };
         }
 
         console.warn(
@@ -1349,7 +1357,7 @@ export async function scrapeProduct(page, product, category = null) {
         );
     }
 
-    return { price, scraped_url: scrapedUrl, scraped_title: scrapedTitle };
+    return { price, available: true, scraped_url: scrapedUrl, scraped_title: scrapedTitle };
 }
 
 // ==========================================

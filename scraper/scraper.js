@@ -33,7 +33,7 @@ const ALL_CATEGORIES = [
     "OS",
 ];
 
-const CONCURRENCY = 4;
+const CONCURRENCY = 6;
 const MIN_DELAY_MS = 2000;
 const MAX_DELAY_MS = 6000;
 const MAX_RETRIES = 3;
@@ -97,30 +97,14 @@ const MAX_RETRIES = 3;
                 continue;
             }
 
-            const alreadyDone = products.filter((p) => p.price != null).length;
-            const todo = products.filter((p) => p.price == null);
-
             console.log(`\n==========================================`);
             console.log(`  Category: ${category}`);
             console.log(
-                `  Total: ${products.length} | Priced: ${alreadyDone} | Remaining: ${todo.length} | Workers: ${CONCURRENCY}`
+                `  Total: ${products.length} | Workers: ${CONCURRENCY}`
             );
             console.log(`==========================================\n`);
 
-            if (todo.length === 0) {
-                console.log(
-                    `[SKIP] All products in ${category} already have prices.\n`
-                );
-                summaryRows.push({
-                    category,
-                    total: products.length,
-                    ok: alreadyDone,
-                    failed: 0,
-                    skipped: 0,
-                });
-                continue;
-            }
-
+            const todo = [...products];
             let okCount = 0;
             let failCount = 0;
             const queue = [...todo];
@@ -159,6 +143,7 @@ const MAX_RETRIES = 3;
                     }
 
                     product.price = scrapeResult.price;
+                    product.available = scrapeResult.available ?? true;
                     product.last_updated = new Date().toISOString();
                     const hasSku =
                         product.amazon_sku &&
@@ -197,9 +182,9 @@ const MAX_RETRIES = 3;
             summaryRows.push({
                 category,
                 total: products.length,
-                ok: alreadyDone + okCount,
+                ok: okCount,
                 failed: failCount,
-                skipped: alreadyDone,
+                unavailable: products.filter(p => p.available === false).length,
             });
         }
 
@@ -210,18 +195,16 @@ const MAX_RETRIES = 3;
         console.log("  ETL Summary");
         console.log("===========================================");
         console.log(
-            `  ${"Category".padEnd(14)} ${"Total".padStart(6)} ${"OK".padStart(
-                6
-            )} ${"Failed".padStart(7)} ${"Skipped".padStart(8)}`
+            `  ${"Category".padEnd(14)} ${"Total".padStart(6)} ${"OK".padStart(6)} ${"Failed".padStart(7)} ${"N/A".padStart(6)}`
         );
-        console.log(`  ${"-".repeat(46)}`);
+        console.log(`  ${"-".repeat(44)}`);
         for (const row of summaryRows) {
             console.log(
                 `  ${row.category.padEnd(14)} ` +
                     `${String(row.total).padStart(6)} ` +
                     `${String(row.ok).padStart(6)} ` +
                     `${String(row.failed).padStart(7)} ` +
-                    `${String(row.skipped).padStart(8)}`
+                    `${String(row.unavailable).padStart(6)}`
             );
         }
         console.log("===========================================");

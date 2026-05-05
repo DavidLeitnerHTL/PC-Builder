@@ -15,7 +15,7 @@ const getByCategory = db.prepare('SELECT data FROM products WHERE category = ?')
 app.get('/api/:category', (req, res) => {
     const rows = getByCategory.all(req.params.category);
     if (rows.length === 0) return res.status(404).json({ error: 'Category not found' });
-    res.json(rows.map(r => JSON.parse(r.data)));
+    res.json(rows.map(r => JSON.parse(r.data)).filter(p => p.available !== false));
 });
 
 app.get('/health', (_, res) => res.json({ status: 'ok' }));
