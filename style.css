@@ -1418,9 +1418,30 @@ body {
   padding-top: 82px;
 }
 
+@keyframes grid-drift {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(80px, 80px); }
+}
+
 header {
   background: transparent;
   border-bottom: none;
+  position: relative;
+  overflow: hidden;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 80px 80px;
+  opacity: 0.6;
+  animation: grid-drift 20s linear infinite;
+  pointer-events: none;
+  z-index: 0;
 }
 
 [data-theme="light"] header {
@@ -1430,6 +1451,8 @@ header {
 header .container {
   padding-top: 0.65rem;
   padding-bottom: 0.55rem;
+  position: relative;
+  z-index: 1;
 }
 
 .navbar {
