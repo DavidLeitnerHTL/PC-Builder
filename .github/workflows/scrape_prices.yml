@@ -2,7 +2,7 @@ name: Daily Price Scraper
 
 on:
   schedule:
-    # Runs at 03:00 UTC daily — 1h after sync_opendb (02:00 UTC) so data is fresh.
+    # Runs at 03:00 UTC daily — 1h after sync_opendb so data is fresh.
     - cron: '0 3 * * *'
   workflow_dispatch:
     inputs:
@@ -12,32 +12,12 @@ on:
         default: ''
 
 jobs:
-  setup:
-    runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.set-matrix.outputs.matrix }}
-    steps:
-      - name: Build category matrix
-        id: set-matrix
-        run: |
-          ALL='["CPU","GPU","RAM","Motherboard","Storage","PSU","PCCase","CPUCooler","CaseFan","OS"]'
-          INPUT="${{ github.event.inputs.category }}"
-          if [ -z "$INPUT" ]; then
-            echo "matrix=${ALL}" >> $GITHUB_OUTPUT
-          else
-            echo "matrix=[\"${INPUT}\"]" >> $GITHUB_OUTPUT
-          fi
-
   scrape:
-    needs: setup
-    runs-on: ubuntu-latest
+    # Must run on your home PC (residential IP) — GitHub-hosted runners
+    # are on Azure IPs that Amazon permanently blocks with captcha.
+    runs-on: self-hosted
     permissions:
       contents: write
-
-    strategy:
-      matrix:
-        category: ${{ fromJson(needs.setup.outputs.matrix) }}
-      fail-fast: false
 
     steps:
       - name: Checkout repository
@@ -45,44 +25,28 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Node.js 20
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: scraper/package-lock.json
-
       - name: Install dependencies
         working-directory: scraper
+        shell: bash
         run: npm ci
 
-      - name: Install Chromium system dependencies
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends \
-            libgbm1 libasound2t64 libatk1.0-0 libatk-bridge2.0-0 \
-            libcups2 libdrm2 libgtk-3-0 libnspr4 libnss3 \
-            libxcomposite1 libxdamage1 libxfixes3 libxkbcommon0 \
-            libxrandr2 libxss1 libxtst6
-
-      - name: Run price scraper — ${{ matrix.category }}
+      - name: Run price scraper
         working-directory: scraper
-        run: node scraper.js ${{ matrix.category }}
-        env:
-          CI: true
+        shell: bash
+        # Empty category string → process.argv[2] is '' → '' || null = null → all categories
+        run: node scraper.js "${{ github.event.inputs.category }}"
 
-      - name: Commit and push ${{ matrix.category }}.json
-        working-directory: ${{ github.workspace }}
+      - name: Commit and push updated prices
+        shell: bash
         run: |
-          git config --global user.name  "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add processed_data/${{ matrix.category }}.json
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add processed_data/
           if git diff --staged --quiet; then
-            echo "No price changes for ${{ matrix.category }} — nothing to commit."
+            echo "No price changes — nothing to commit."
             exit 0
           fi
-          git commit -m "Auto-update prices: ${{ matrix.category }} [skip ci]"
-          # Use dynamic branch name instead of hardcoded 'main'
+          git commit -m "Auto-update prices [skip ci]"
           BRANCH="${{ github.ref_name }}"
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin "$BRANCH" && git push && break

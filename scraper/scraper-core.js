@@ -54,6 +54,7 @@ export function parsePrice(rawPriceString) {
 export async function launchStealthBrowser() {
     console.log("[BROWSER] Launching stealth browser...");
     const browser = await puppeteer.launch({
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
         headless: true,
         args: [
             "--no-sandbox",
