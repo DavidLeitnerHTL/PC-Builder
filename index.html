@@ -1,835 +1,279 @@
-<!doctype html>
-<html lang="de">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PC Builder — Deinen Traum-PC selbst konfigurieren</title>
-  <meta name="description" content="Baue deinen Custom PC mit unserem modernen Konfigurator. Echtzeit-Kompatibilitätscheck, intelligente Presets und aktuelle Amazon-Preise für alle Komponenten.">
-  <meta property="og:title" content="PC Builder — Deinen Traum-PC selbst konfigurieren">
-  <meta property="og:description" content="Baue deinen Custom PC mit unserem modernen Konfigurator. Echtzeit-Kompatibilitätscheck, intelligente Presets und aktuelle Amazon-Preise für alle Komponenten.">
-  <meta property="og:url" content="https://pc-builder.at/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="PC Builder">
-  
-  <script>
-    const savedTheme = localStorage.getItem('theme');
-    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if (savedTheme === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
-    } else if (savedTheme === 'dark' || systemPrefersDark) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
-  </script>
-
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC-Builder</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <style>
-    /* === LANDING PAGE SPECIFIC STYLES === */
-    
-    /* Hero Section */
-    .landing-hero {
-      min-height: calc(100vh - 72px);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      overflow: hidden;
-      padding: 4rem 0;
-    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #0a0a0a; overflow-x: hidden; }
 
-    .landing-hero::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-image: 
-        linear-gradient(var(--grid-line) 1px, transparent 1px),
-        linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
-      background-size: 80px 80px;
-      opacity: 0.6;
-      animation: grid-drift 20s linear infinite;
+    #canvas-container {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 0;
     }
+    #canvas-container canvas { display: block; }
 
-    @keyframes grid-drift {
-      0% { transform: translate(0, 0); }
-      100% { transform: translate(80px, 80px); }
+    .nav-bar {
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
     }
-
-    .landing-hero::after {
-      content: '';
-      position: absolute;
-      top: -30%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 800px;
-      height: 800px;
-      background: radial-gradient(circle, rgba(255, 107, 0, 0.12) 0%, transparent 70%);
-      pointer-events: none;
-      animation: glow-pulse 4s ease-in-out infinite;
-    }
-
-    @keyframes glow-pulse {
-      0%, 100% { opacity: 0.6; transform: translateX(-50%) scale(1); }
-      50% { opacity: 1; transform: translateX(-50%) scale(1.1); }
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-      max-width: 900px;
-    }
-
-    .hero-eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--accent-glow);
-      border: 1px solid rgba(255, 107, 0, 0.2);
-      padding: 0.4rem 1.2rem;
-      border-radius: var(--radius-pill);
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--accent-color);
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      margin-bottom: 2rem;
-      font-family: 'Space Grotesk', sans-serif;
-    }
-
-    .hero-title {
-      font-size: clamp(3rem, 7vw, 5.5rem);
-      font-weight: 900;
-      letter-spacing: -0.04em;
-      line-height: 1.05;
-      margin-bottom: 1.5rem;
-      font-family: 'Space Grotesk', sans-serif;
-    }
-
-    .hero-subtitle {
-      font-size: clamp(1rem, 2vw, 1.3rem);
-      color: var(--text-secondary);
-      max-width: 600px;
-      margin: 0 auto 2.5rem;
-      line-height: 1.7;
-    }
-
-    .hero-cta-group {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    .btn-hero {
-      padding: 0.9rem 2.2rem;
-      font-size: 1rem;
-      font-weight: 700;
-      border-radius: var(--radius-pill);
-      font-family: 'Space Grotesk', sans-serif;
-      letter-spacing: 0.01em;
-      transition: all 0.3s var(--ease-out-expo);
-    }
-
-    .btn-hero-primary {
-      background: var(--accent-color);
-      color: #fff;
-      border: 2px solid var(--accent-color);
-      box-shadow: 0 6px 30px rgba(255, 107, 0, 0.35);
-    }
-
-    .btn-hero-primary:hover {
-      background: var(--accent-hover);
-      border-color: var(--accent-hover);
-      transform: translateY(-3px);
-      box-shadow: 0 10px 40px rgba(255, 107, 0, 0.45);
-      color: #fff;
-    }
-
-    .btn-hero-outline {
-      background: transparent;
-      color: var(--text-primary);
-      border: 2px solid var(--border-color-strong);
-    }
-
-    .btn-hero-outline:hover {
-      border-color: var(--accent-color);
-      color: var(--accent-color);
-      transform: translateY(-3px);
-    }
-
-    .hero-scroll-hint {
-      position: absolute;
-      bottom: 2rem;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-      color: var(--text-secondary);
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      animation: scroll-bounce 2s ease-in-out infinite;
-    }
-
-    @keyframes scroll-bounce {
-      0%, 100% { transform: translateX(-50%) translateY(0); }
-      50% { transform: translateX(-50%) translateY(8px); }
-    }
-
-    .hero-scroll-hint .line {
-      width: 1px;
-      height: 40px;
-      background: linear-gradient(to bottom, var(--accent-color), transparent);
-    }
-
-    /* Stats Bar */
-    .stats-bar {
-      border-top: 1px solid var(--border-color);
-      border-bottom: 1px solid var(--border-color);
-      padding: 3rem 0;
-    }
-
-    .stat-divider {
-      width: 1px;
-      height: 50px;
-      background: var(--border-color);
-      margin: 0 auto;
-    }
-
-    /* Features Section */
-    .features-section {
-      padding: var(--section-padding) 0;
-    }
-
-    .feature-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 2rem;
-      height: 100%;
-      transition: all 0.4s var(--ease-out-expo);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .feature-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background: var(--accent-color);
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 0.5s var(--ease-out-expo);
-    }
-
-    .feature-card:hover::before {
-      transform: scaleX(1);
-    }
-
-    .feature-card:hover {
-      border-color: var(--accent-color);
-      transform: translateY(-6px);
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
-    }
-
-    .feature-icon {
-      width: 56px;
-      height: 56px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: var(--radius-md);
-      background: var(--accent-glow);
-      color: var(--accent-color);
-      font-size: 1.3rem;
-      margin-bottom: 1.5rem;
-      border: 1px solid rgba(255, 107, 0, 0.15);
-    }
-
-    .feature-card h3 {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 1.15rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .feature-card p {
-      color: var(--text-secondary);
-      font-size: 0.9rem;
-      line-height: 1.7;
-    }
-
-    /* CTA Section */
-    .cta-section {
-      padding: var(--section-padding) 0;
-      text-align: center;
-      position: relative;
-    }
-
-    .cta-section::before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 600px;
-      height: 600px;
-      background: radial-gradient(circle, rgba(255, 107, 0, 0.06) 0%, transparent 70%);
-      pointer-events: none;
-    }
-
-    .cta-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-xl);
-      padding: clamp(2.5rem, 5vw, 4rem);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .cta-card::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 3px;
-      background: var(--success-gradient);
-    }
-
-    /* Marquee */
-    .marquee-section {
-      border-top: 1px solid var(--border-color);
-      border-bottom: 1px solid var(--border-color);
-      padding: 1.5rem 0;
-      overflow: hidden;
-    }
-
-    .marquee-track {
-      display: flex;
-      animation: marquee 30s linear infinite;
-      gap: 3rem;
-      width: max-content;
-    }
-
-    .marquee-track:hover {
-      animation-play-state: paused;
-    }
-
-    @keyframes marquee {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
-
-    .marquee-item {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: clamp(1.2rem, 2vw, 1.8rem);
-      font-weight: 700;
-      color: var(--text-secondary);
-      white-space: nowrap;
-      opacity: 0.4;
-      transition: opacity 0.3s;
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .marquee-item:hover {
-      opacity: 1;
-      color: var(--accent-color);
-    }
-
-    .marquee-dot {
-      width: 6px;
-      height: 6px;
-      background: var(--accent-color);
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-
-    /* How it works */
-    .steps-section {
-      padding: var(--section-padding) 0;
-    }
-
-    .step-card {
-      position: relative;
-      padding-left: 2rem;
-    }
-
-    .step-number {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 4rem;
-      font-weight: 900;
-      background: var(--success-gradient);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      line-height: 1;
-      margin-bottom: 1rem;
-      opacity: 0.5;
-    }
-
-    .step-card h3 {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 1.3rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .step-card p {
-      color: var(--text-secondary);
-      font-size: 0.95rem;
-      line-height: 1.7;
-    }
-
-    /* Page Sections */
-    .pages-section {
-      padding: var(--section-padding) 0;
-    }
-
-    .page-link-card {
-      display: flex;
-      align-items: center;
-      gap: 1.5rem;
-      padding: 1.5rem;
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
+    .nav-link {
+      color: rgba(255, 255, 255, 0.75);
       text-decoration: none;
-      color: var(--text-primary);
-      transition: all 0.4s var(--ease-out-expo);
+      font-size: 0.875rem;
+      transition: color 0.2s;
+    }
+    .nav-link:hover { color: #ffffff; }
+    .nav-cta {
+      color: #FFD700;
+      font-weight: 700;
+      font-size: 0.875rem;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    .nav-cta:hover { opacity: 0.75; }
+
+    .glass-panel {
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+    }
+    .eyebrow {
+      color: #FFD700;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .headline {
+      font-size: clamp(2.5rem, 6vw, 5.5rem);
+      font-weight: 900;
+      line-height: 1.05;
+      color: #ffffff;
+    }
+    .btn-primary {
+      background: #ffffff;
+      color: #000000;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.2s, box-shadow 0.2s;
+    }
+    .btn-primary:hover {
+      background: #FFD700;
+      box-shadow: 0 0 24px rgba(255, 215, 0, 0.45);
+    }
+    .btn-secondary {
+      background: transparent;
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.2s, color 0.2s;
+    }
+    .btn-secondary:hover {
+      background: #ffffff;
+      color: #000000;
     }
 
-    .page-link-card:hover {
-      border-color: var(--accent-color);
-      transform: translateX(8px);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-      color: var(--text-primary);
-    }
-
-    .page-link-card .page-icon {
-      width: 50px;
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: var(--radius-md);
-      background: var(--accent-glow);
-      color: var(--accent-color);
-      font-size: 1.2rem;
-      flex-shrink: 0;
-      border: 1px solid rgba(255, 107, 0, 0.15);
-    }
-
-    .page-link-card .page-info h4 {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 1rem;
-      margin-bottom: 0.25rem;
-    }
-
-    .page-link-card .page-info p {
-      color: var(--text-secondary);
-      font-size: 0.85rem;
-      margin: 0;
-    }
-
-    .page-link-card .page-arrow {
-      margin-left: auto;
-      color: var(--text-secondary);
-      transition: all 0.3s;
-    }
-
-    .page-link-card:hover .page-arrow {
-      color: var(--accent-color);
-      transform: translateX(4px);
-    }
-
-    /* Tech Highlights */
-    .tech-section {
-      padding: var(--section-padding) 0;
-    }
-
-    .tech-item {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 1.5rem 1rem;
-      text-align: center;
-      transition: all 0.4s var(--ease-out-expo);
-    }
-
-    .tech-item:hover {
-      border-color: var(--accent-color);
-      transform: translateY(-4px);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-    }
-
-    .tech-item i {
-      font-size: 1.5rem;
-      color: var(--accent-color);
-      margin-bottom: 0.75rem;
-      display: block;
-    }
-
-    .tech-item span {
-      font-family: 'Space Grotesk', sans-serif;
-      font-weight: 600;
-      font-size: 0.9rem;
-      color: var(--text-primary);
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .hero-title {
-        font-size: clamp(2.2rem, 8vw, 3.5rem);
+    @media (max-width: 767px) {
+      #canvas-container canvas {
+        transform: scale(0.65) translateY(-8%);
+        transform-origin: center top;
       }
-      .stat-divider {
-        display: none;
-      }
-      .btn-hero {
-        width: 100%;
-        justify-content: center;
+      .glass-panel {
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
       }
     }
   </style>
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body>
 
-  <!-- Header will be injected by config.js -->
-  <div id="site-header"></div>
+  <!-- 3D Canvas Container -->
+  <div id="canvas-container"></div>
 
-  <main class="flex-grow-1">
+  <!-- UI Layer -->
+  <div class="relative z-10">
 
-    <!-- ====================== HERO ====================== -->
-    <section class="landing-hero">
-      <!-- Ambient animated orbs -->
-      <div class="hero-orb hero-orb--1"></div>
-      <div class="hero-orb hero-orb--2"></div>
-      <div class="hero-orb hero-orb--3"></div>
-      <div class="hero-content px-3">
-        <div class="hero-eyebrow fade-in-up">
-          <span class="dot-accent" style="margin-right: 0;"></span>
-          Schulprojekt 2026 — HTL Leonding
-        </div>
-        
-        <h1 class="hero-title fade-in-up delay-1">
-          Baue deinen<br>
-          <span class="text-gradient">perfekten PC</span>
-        </h1>
-        
-        <p class="hero-subtitle fade-in-up delay-2">
-          Der intelligenteste PC-Konfigurator mit Echtzeit-Kompatibilitätscheck, 
-          KI-Beratung und einer Datenbank mit über 1.000 Komponenten.
+    <!-- Navigation -->
+    <nav class="nav-bar fixed top-0 left-0 right-0 z-50 px-8 py-4 flex items-center justify-between">
+      <span class="text-white font-bold text-xl tracking-tight">PC-Builder</span>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#" class="nav-link">Products</a>
+        <a href="#" class="nav-link">Build</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-cta">Get Started</a>
+      </div>
+      <button class="md:hidden text-white" aria-label="Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center px-6 md:px-16 pt-24 pb-12">
+      <div class="glass-panel p-8 md:p-12 w-full md:w-5/12 max-w-xl">
+        <p class="eyebrow mb-4">// Custom Builds</p>
+        <h1 class="headline mb-6">Engineering<br>Masterpieces</h1>
+        <p class="mb-10 leading-relaxed" style="color:#9ca3af;font-size:1rem;">
+          Precision-built custom PCs, designed around your workflow.<br>
+          Every component hand-selected. Every build benchmarked.
         </p>
-        
-        <div class="hero-cta-group fade-in-up delay-3">
-          <a href="builder.html" class="btn btn-hero btn-hero-primary">
-            <i class="fas fa-rocket me-2"></i>Jetzt konfigurieren
+        <div class="flex flex-wrap gap-4">
+          <a href="#" class="btn-primary px-7 py-3 rounded-lg font-semibold text-sm">
+            Configure Your Build
           </a>
-          <a href="knowledge.html" class="btn btn-hero btn-hero-outline">
-            <i class="fas fa-book-open me-2"></i>Hardware lernen
+          <a href="#" class="btn-secondary px-7 py-3 rounded-lg font-semibold text-sm">
+            View Gallery
           </a>
         </div>
       </div>
-
-      <div class="hero-scroll-hint">
-        <span>Scroll</span>
-        <div class="line"></div>
-      </div>
     </section>
 
-    <!-- ====================== MARQUEE ====================== -->
-    <section class="marquee-section">
-      <div class="marquee-track">
-        <span class="marquee-item"><span class="marquee-dot"></span> RTX 5090</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> Ryzen 9 9950X3D</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> DDR5 8000</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> PCIe 5.0</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> ATX 3.1</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> NVMe Gen5</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> GDDR7</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> Wi-Fi 7</span>
-        <!-- Duplicate for seamless loop -->
-        <span class="marquee-item"><span class="marquee-dot"></span> RTX 5090</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> Ryzen 9 9950X3D</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> DDR5 8000</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> PCIe 5.0</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> ATX 3.1</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> NVMe Gen5</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> GDDR7</span>
-        <span class="marquee-item"><span class="marquee-dot"></span> Wi-Fi 7</span>
-      </div>
-    </section>
+  </div>
 
-    <!-- ====================== STATS ====================== -->
-    <section class="stats-bar">
-      <div class="container">
-        <div class="row align-items-center text-center">
-          <div class="col-6 col-md-3 fade-in-up">
-            <div class="stat-item">
-              <div class="stat-number">1000+</div>
-              <div class="stat-label">Komponenten</div>
-            </div>
-          </div>
-          <div class="d-none d-md-block col-md-auto"><div class="stat-divider"></div></div>
-          <div class="col-6 col-md-3 fade-in-up delay-1">
-            <div class="stat-item">
-              <div class="stat-number">10</div>
-              <div class="stat-label">Kategorien</div>
-            </div>
-          </div>
-          <div class="d-none d-md-auto col-md-auto"><div class="stat-divider"></div></div>
-          <div class="col-6 col-md-3 fade-in-up delay-2">
-            <div class="stat-item">
-              <div class="stat-number">AI</div>
-              <div class="stat-label">Powered</div>
-            </div>
-          </div>
-          <div class="d-none d-md-block col-md-auto"><div class="stat-divider"></div></div>
-          <div class="col-6 col-md-2 fade-in-up delay-3">
-            <div class="stat-item">
-              <div class="stat-number">∞</div>
-              <div class="stat-label">Möglichkeiten</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <script>
+    // ── Renderer ──────────────────────────────────────────────────────────────
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputEncoding = THREE.sRGBEncoding;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.2;
+    document.getElementById('canvas-container').appendChild(renderer.domElement);
 
-    <!-- Background grid wrapper for lower sections -->
-    <div class="grid-bg" style="position: relative;">
+    // ── Scene + Camera ────────────────────────────────────────────────────────
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0a0a0a);
 
-    <!-- ====================== FEATURES ====================== -->
-    <section class="features-section">
-      <div class="container">
-        <div class="text-center mb-5">
-          <div class="section-index mb-3 justify-content-center fade-in-up">
-            <span>Was wir bieten</span>
-          </div>
-          <h2 class="fade-in-up delay-1" style="font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.8rem, 3vw, 2.8rem);">
-            Alles was du brauchst,<br><span class="text-gradient">an einem Ort</span>
-          </h2>
-        </div>
-        
-        <div class="row g-4">
-          <div class="col-md-4 fade-in-up">
-            <a href="builder.html" class="feature-card text-decoration-none d-block">
-              <div class="feature-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
-              <h3>KI-Kompatibilitätscheck</h3>
-              <p>Gemini AI analysiert deine Konfiguration in Echtzeit. Erkennt Flaschenhälse, prüft die Kompatibilität und optimiert dein Build.</p>
-            </a>
-          </div>
-          <div class="col-md-4 fade-in-up delay-1">
-            <a href="builder.html" class="feature-card text-decoration-none d-block">
-              <div class="feature-icon"><i class="fas fa-sliders"></i></div>
-              <h3>Smart Konfigurator</h3>
-              <p>Durchsuche 1.000+ Komponenten mit intelligenter Suche. Preset-Builds für Budget, Mid-Range und High-End sofort verfügbar.</p>
-            </a>
-          </div>
-          <div class="col-md-4 fade-in-up delay-2">
-            <a href="knowledge.html" class="feature-card text-decoration-none d-block">
-              <div class="feature-icon"><i class="fas fa-graduation-cap"></i></div>
-              <h3>Hardware Wissensbasis</h3>
-              <p>Verstehe die Technik hinter den Komponenten. Von CPU-Architektur bis Panel-Technologie — alles einfach erklärt.</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 100);
+    camera.position.set(0, 0, 6);
 
-    <!-- ====================== HOW IT WORKS ====================== -->
-    <section class="steps-section">
-      <div class="container">
-        <div class="line-accent"></div>
-        <div class="text-center mb-5">
-          <div class="section-index mb-3 justify-content-center fade-in-up">
-            <span>So funktioniert's</span>
-          </div>
-          <h2 class="fade-in-up delay-1" style="font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.8rem, 3vw, 2.8rem);">
-            In <span class="text-gradient">3 Schritten</span> zum Traum-PC
-          </h2>
-        </div>
+    // ── CubeCamera (real-time reflections) ────────────────────────────────────
+    const cubeRenderTarget = new THREE.WebGLCubeRenderTarget(256, {
+      format: THREE.RGBFormat,
+      generateMipmaps: true,
+      minFilter: THREE.LinearMipmapLinearFilter
+    });
+    const cubeCamera = new THREE.CubeCamera(0.1, 100, cubeRenderTarget);
+    scene.add(cubeCamera);
 
-        <div class="row g-5">
-          <!-- Timeline connectors (visible on desktop) -->
-          <div class="step-connector" aria-hidden="true"></div>
-          <div class="step-connector step-connector--2" aria-hidden="true"></div>
-          <div class="col-md-4 fade-in-up">
-            <div class="step-card">
-              <div class="step-number">01</div>
-              <h3>Wähle dein Preset</h3>
-              <p>Starte mit einem Budget, Mid-Range oder High-End Preset — oder wähle jede Komponente individuell aus.</p>
-            </div>
-          </div>
-          <div class="col-md-4 fade-in-up delay-1">
-            <div class="step-card">
-              <div class="step-number">02</div>
-              <h3>KI prüft dein Build</h3>
-              <p>Unser Gemini-KI-Assistent analysiert automatisch Kompatibilität, Performance-Potenzial und Engpässe.</p>
-            </div>
-          </div>
-          <div class="col-md-4 fade-in-up delay-2">
-            <div class="step-card">
-              <div class="step-number">03</div>
-              <h3>Bestelle direkt</h3>
-              <p>Über die Detail-Ansicht kommst du direkt zum Amazon-Listing jeder gewählten Komponente.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    // ── Materials ─────────────────────────────────────────────────────────────
+    const mirrorMat = new THREE.MeshPhysicalMaterial({
+      color: 0xe0e0e0,
+      metalness: 1.0,
+      roughness: 0.05,
+      envMap: cubeRenderTarget.texture
+    });
 
-    <!-- ====================== PAGES NAV ====================== -->
-    <section class="pages-section">
-      <div class="container">
-        <div class="line-accent"></div>
-        <div class="text-center mb-5">
-          <div class="section-index mb-3 justify-content-center fade-in-up">
-            <span>Entdecke mehr</span>
-          </div>
-          <h2 class="fade-in-up delay-1" style="font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.8rem, 3vw, 2.8rem);">
-            Alle <span class="text-gradient">Bereiche</span>
-          </h2>
-        </div>
+    const torusMat = new THREE.MeshPhysicalMaterial({
+      color: 0xe0e0e0,
+      metalness: 1.0,
+      roughness: 0.05,
+      envMap: cubeRenderTarget.texture,
+      emissive: new THREE.Color(0xFFD700),
+      emissiveIntensity: 0.3
+    });
 
-        <div class="row g-3 justify-content-center">
-          <div class="col-md-8 fade-in-up">
-            <a href="builder.html" class="page-link-card">
-              <div class="page-icon"><i class="fas fa-sliders"></i></div>
-              <div class="page-info">
-                <h4>Konfigurator</h4>
-                <p>Stelle deinen PC mit 1.000+ Komponenten zusammen</p>
-              </div>
-              <div class="page-arrow"><i class="fas fa-arrow-right"></i></div>
-            </a>
-          </div>
-          <div class="col-md-8 fade-in-up delay-1">
-            <a href="knowledge.html" class="page-link-card">
-              <div class="page-icon"><i class="fas fa-graduation-cap"></i></div>
-              <div class="page-info">
-                <h4>Hardware Wissen</h4>
-                <p>Technik verstehen — von CPU bis Peripherie</p>
-              </div>
-              <div class="page-arrow"><i class="fas fa-arrow-right"></i></div>
-            </a>
-          </div>
-          <div class="col-md-8 fade-in-up delay-2">
-            <a href="faq.html" class="page-link-card">
-              <div class="page-icon"><i class="fas fa-circle-question"></i></div>
-              <div class="page-info">
-                <h4>FAQ & Troubleshooting</h4>
-                <p>Lösungen für häufige Hardware-Probleme</p>
-              </div>
-              <div class="page-arrow"><i class="fas fa-arrow-right"></i></div>
-            </a>
-          </div>
-          <div class="col-md-8 fade-in-up delay-3">
-            <a href="news.html" class="page-link-card">
-              <div class="page-icon"><i class="fas fa-bolt"></i></div>
-              <div class="page-info">
-                <h4>Tech News</h4>
-                <p>Aktuelle Entwicklungen aus der Hardware-Industrie</p>
-              </div>
-              <div class="page-arrow"><i class="fas fa-arrow-right"></i></div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    // ── Geometry: Core icosahedron ────────────────────────────────────────────
+    const icosaMesh = new THREE.Mesh(
+      new THREE.IcosahedronGeometry(1.2, 1),
+      mirrorMat
+    );
 
-    <!-- ====================== TECH HIGHLIGHTS ====================== -->
-    <section class="tech-section">
-      <div class="container">
-        <div class="text-center mb-5">
-          <div class="section-index mb-3 justify-content-center fade-in-up">
-            <span>Neueste Generation</span>
-          </div>
-          <h2 class="fade-in-up delay-1" style="font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.8rem, 3vw, 2.8rem);">
-            Zukunftsweisende <span class="text-gradient">Technologie</span>
-          </h2>
-        </div>
-        <div class="row g-3 justify-content-center">
-          <div class="col-6 col-md-4 col-lg-2 fade-in-up">
-            <div class="tech-item">
-              <i class="fas fa-bolt"></i>
-              <span>PCIe 5.0</span>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2 fade-in-up delay-1">
-            <div class="tech-item">
-              <i class="fas fa-memory"></i>
-              <span>DDR5 8000</span>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2 fade-in-up delay-2">
-            <div class="tech-item">
-              <i class="fas fa-hard-drive"></i>
-              <span>NVMe Gen5</span>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2 fade-in-up">
-            <div class="tech-item">
-              <i class="fas fa-wifi"></i>
-              <span>Wi-Fi 7</span>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2 fade-in-up delay-1">
-            <div class="tech-item">
-              <i class="fas fa-display"></i>
-              <span>GDDR7</span>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2 fade-in-up delay-2">
-            <div class="tech-item">
-              <i class="fas fa-plug"></i>
-              <span>ATX 3.1</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    // ── Geometry: Floating slabs ──────────────────────────────────────────────
+    const slabConfigs = [
+      { size: [0.8, 0.07, 0.38], pos: [ 1.8,  0.3,  0.2], rot: [ 0.3,  0.5,  0.1] },
+      { size: [0.6, 0.06, 0.48], pos: [-1.9, -0.4,  0.3], rot: [-0.2,  0.8,  0.3] },
+      { size: [1.0, 0.07, 0.28], pos: [ 0.5,  1.6, -0.2], rot: [ 0.1,  0.3,  0.6] },
+      { size: [0.7, 0.06, 0.44], pos: [-0.8, -1.5,  0.1], rot: [ 0.4, -0.3,  0.2] },
+      { size: [0.5, 0.08, 0.34], pos: [ 1.4, -1.2,  0.4], rot: [-0.1,  0.6, -0.3] },
+    ];
+    const slabs = slabConfigs.map(({ size, pos, rot }) => {
+      const mesh = new THREE.Mesh(new THREE.BoxGeometry(...size), mirrorMat);
+      mesh.position.set(...pos);
+      mesh.rotation.set(...rot);
+      return mesh;
+    });
 
-    <!-- ====================== CTA ====================== -->
-    <section class="cta-section">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 fade-in-up">
-            <div class="cta-card text-center">
-              <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.5rem, 3vw, 2.2rem); margin-bottom: 1rem;">
-                Bereit deinen <span class="text-gradient">Traum-PC</span> zu bauen?
-              </h2>
-              <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto 2rem; font-size: 1rem;">
-                Starte jetzt mit dem Konfigurator und lass dir von unserer KI helfen, die perfekte Konfiguration zu finden.
-              </p>
-              <a href="builder.html" class="btn btn-hero btn-hero-primary">
-                <i class="fas fa-rocket me-2"></i>Konfigurator starten
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    // ── Geometry: Torus ring ──────────────────────────────────────────────────
+    const torusMesh = new THREE.Mesh(
+      new THREE.TorusGeometry(2.5, 0.06, 16, 100),
+      torusMat
+    );
+    torusMesh.rotation.x = Math.PI / 6;
 
-    </div><!-- /grid-bg wrapper -->
+    // ── Group ─────────────────────────────────────────────────────────────────
+    const group = new THREE.Group();
+    group.add(icosaMesh, ...slabs, torusMesh);
+    scene.add(group);
 
-  </main>
+    // ── Lighting (3-point) ────────────────────────────────────────────────────
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.4);
 
-  <!-- Footer injected by config.js -->
-  <div id="site-footer"></div>
+    const keyLight = new THREE.DirectionalLight(0xffffff, 2.0);
+    keyLight.position.set(3, 4, 3);
 
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script defer src="config.js"></script>
-  <script defer src="script.js"></script>
+    const rimLight = new THREE.DirectionalLight(0xe8f0ff, 1.5);
+    rimLight.position.set(-3, 1, -4);
+
+    scene.add(ambientLight, keyLight, rimLight);
+
+    // ── Animation loop ────────────────────────────────────────────────────────
+    const clock = new THREE.Clock();
+
+    function animate() {
+      requestAnimationFrame(animate);
+      const t = clock.getElapsedTime();
+
+      group.visible = false;
+      cubeCamera.update(renderer, scene);
+      group.visible = true;
+
+      group.rotation.y += 0.003;
+
+      icosaMesh.rotation.x = Math.sin(t * 0.4) * 0.2;
+      icosaMesh.rotation.y += 0.002;
+
+      slabs.forEach((slab, i) => {
+        const dir = i % 2 === 0 ? 1 : -1;
+        slab.rotation.x += 0.001 * dir;
+        slab.rotation.y += 0.0015 * (i % 3 === 0 ? 1 : -1);
+      });
+
+      torusMesh.rotation.z += 0.008;
+
+      renderer.render(scene, camera);
+    }
+
+    animate();
+
+    // ── Resize handler ────────────────────────────────────────────────────────
+    function onResize() {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      camera.position.z = window.innerWidth < 768 ? 8 : 6;
+    }
+    window.addEventListener('resize', onResize);
+    onResize();
+  </script>
+
 </body>
 </html>
