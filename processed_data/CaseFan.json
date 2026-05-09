@@ -3702,10 +3702,10 @@
     },
     {
         "id": "ece5a22c-8dc2-4684-980e-9b0baa4e3fa3",
-        "name": "APNX FP2 120mm Black PWM ARGB 1-Pack",
+        "name": "APNX FP2 120mm Black PWM ARGB",
         "variant": "",
         "amazon_sku": "B0CHS7DQ4T",
-        "clean_name": "APNX FP2 Black 1-Pack",
+        "clean_name": "APNX FP2 Black",
         "size": 120,
         "quantity": 1,
         "pwm": true,
@@ -3719,7 +3719,8 @@
         "max_noise_level": 34.8,
         "static_pressure": 3.49,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ],
         "fan_size": "120mm",
         "features": "PWM, ARGB"
@@ -6639,6 +6640,31 @@
         "features": "PWM",
         "price": 15.96,
         "last_updated": "2026-05-04T06:41:02.595Z"
+    },
+    {
+        "id": "1a1779c7-b634-4953-8c85-4d2cb7d499b3",
+        "name": "APNX FP2 120mm White PWM ARGB",
+        "variant": "",
+        "amazon_sku": "B0F131TFMN",
+        "clean_name": "APNX FP2 White",
+        "size": 120,
+        "quantity": 1,
+        "pwm": true,
+        "led": "Addressable RGB",
+        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+        "controller": "None",
+        "flow_direction": "Standard",
+        "is_oem": false,
+        "min_airflow": 83.87,
+        "min_noise_level": 15.3,
+        "max_noise_level": 34.8,
+        "static_pressure": 3.49,
+        "color": [
+            "RGB",
+            "WHITE"
+        ],
+        "fan_size": "120mm",
+        "features": "PWM, ARGB"
     },
     {
         "id": "f9c9df00-1522-4d03-bdd0-d297401d4ba3",
