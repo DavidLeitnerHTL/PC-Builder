@@ -905,17 +905,19 @@
     },
     {
         "id": "0f4d54a8-31b6-4aa4-a07c-ac6eaa528247",
-        "name": "Thermaltake TH240 V2 Water 240mm ARGB Sync 57.05 CFM White",
+        "name": "Thermaltake TH240 V2 ARGB White",
         "variant": "White",
         "amazon_sku": "B0CHN5F2M7",
-        "clean_name": "Thermaltake TH240 V2 Water ARGB Sync 57.05 CFM White",
+        "clean_name": "Thermaltake TH240 V2 ARGB White",
         "cooler_type": true,
         "radiator_size": 240,
+        "height": 52,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 25.8,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ],
         "price": 409,
         "last_updated": "2026-05-05T06:02:08.993Z"
@@ -1219,17 +1221,19 @@
     },
     {
         "id": "774a47d4-1fb9-450c-a9dc-b9a58079e3fd",
-        "name": "Thermaltake TH360 V2 ARGB Sync 57.05 CFM Water 360mm Black",
-        "variant": "Black",
+        "name": "Thermaltake TH360 V2 ARGB Black",
+        "variant": "",
         "amazon_sku": "B0CCXHZBSV",
-        "clean_name": "Thermaltake TH360 V2 ARGB Sync 57.05 CFM Water Black",
+        "clean_name": "Thermaltake TH360 V2 ARGB Black",
         "cooler_type": true,
         "radiator_size": 360,
+        "height": 52,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 25.8,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ],
         "price": 77.23,
         "last_updated": "2026-05-04T06:26:30.526Z"
@@ -1834,17 +1838,19 @@
     },
     {
         "id": "2420413f-5cc0-42ce-8c69-d956df4b709e",
-        "name": "Thermaltake TH280 V2 Water 280mm ARGB Sync Green",
-        "variant": "Green",
-        "amazon_sku": "B0CHN8GLXF",
-        "clean_name": "Thermaltake TH280 V2 Water ARGB Sync Green",
+        "name": "Thermaltake TH280 V2 ARGB Matcha Green",
+        "variant": "",
+        "amazon_sku": "B0CH5TGDZ2",
+        "clean_name": "Thermaltake TH280 V2 ARGB Matcha Green",
         "cooler_type": true,
         "radiator_size": 280,
+        "height": 52,
         "min_fan_rpm": 500,
         "max_fan_rpm": 1800,
-        "min_noise_level": 25.8,
+        "min_noise_level": 34.7,
         "color": [
-            "GREEN"
+            "GREEN",
+            "RGB"
         ]
     },
     {
@@ -2142,17 +2148,19 @@
     },
     {
         "id": "df777db4-ce5e-4f7b-a73e-d99a537bbada",
-        "name": "Thermaltake TH280 V2 Ultra ARGB Water 280mm White",
-        "variant": "White",
+        "name": "Thermaltake TH280 V2 Ultra ARGB Snow White",
+        "variant": "",
         "amazon_sku": "B0CHN8G5W7",
-        "clean_name": "Thermaltake TH280 V2 Ultra ARGB Water White",
+        "clean_name": "Thermaltake TH280 V2 Ultra ARGB Snow White",
         "cooler_type": true,
         "radiator_size": 280,
+        "height": 60,
         "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
+        "max_fan_rpm": 1800,
         "min_noise_level": 34.7,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ]
     },
     {
@@ -2800,17 +2808,19 @@
     },
     {
         "id": "9d568ae3-fcc7-4afd-8519-f1c7a511a2c6",
-        "name": "Thermaltake TH240 V2 Ultra ARGB Sync 57.05 CFM Water 240mm White",
-        "variant": "White",
+        "name": "Thermaltake TH240 V2 Ultra ARGB Snow White",
+        "variant": "",
         "amazon_sku": "B0CHN8M5RK",
-        "clean_name": "Thermaltake TH240 V2 Ultra ARGB Sync 57.05 CFM Water White",
+        "clean_name": "Thermaltake TH240 V2 Ultra ARGB Snow White",
         "cooler_type": true,
         "radiator_size": 240,
+        "height": 60,
         "min_fan_rpm": 500,
         "max_fan_rpm": 1800,
         "min_noise_level": 25.8,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ],
         "price": 409,
         "last_updated": "2026-05-05T06:08:27.464Z"
@@ -3899,7 +3909,7 @@
         "id": "9dd074e5-3093-4b2c-a704-78d011dcee8f",
         "name": "Asus ROG Ryujin III 71.6 CFM Water 240mm Black",
         "variant": "ROG RYUJIN III 240",
-        "amazon_sku": "B0C53M38P1",
+        "amazon_sku": "B0C8BT4Q9G",
         "clean_name": "Asus ROG Ryujin III 71.6 CFM Water Black",
         "cooler_type": true,
         "radiator_size": 240,
@@ -3915,32 +3925,36 @@
     },
     {
         "id": "485bc1ad-d0e6-4563-859a-106ce61da35c",
-        "name": "Thermaltake TH420 V2 Water 420mm ARGB Sync 84.32 CFM Black",
-        "variant": "Black",
+        "name": "Thermaltake TH420 V2 ARGB Black",
+        "variant": "",
         "amazon_sku": "B0CCX9MKRL",
-        "clean_name": "Thermaltake TH420 V2 Water ARGB Sync 84.32 CFM Black",
+        "clean_name": "Thermaltake TH420 V2 ARGB Black",
         "cooler_type": true,
         "radiator_size": 420,
+        "height": 52,
         "min_fan_rpm": 500,
         "max_fan_rpm": 1800,
         "min_noise_level": 34.7,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ]
     },
     {
         "id": "01c2afe0-42a5-45af-979d-385b06f142ed",
-        "name": "Thermaltake TH240 V2 ARGB Sync Water 240mm 57.05 CFM Black",
-        "variant": "Black",
+        "name": "Thermaltake TH240 V2 ARGB Black",
+        "variant": "",
         "amazon_sku": "B0CCXG57HT",
-        "clean_name": "Thermaltake TH240 V2 ARGB Sync Water 57.05 CFM Black",
+        "clean_name": "Thermaltake TH240 V2 ARGB Black",
         "cooler_type": true,
         "radiator_size": 240,
+        "height": 52,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 25.8,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ],
         "price": 409,
         "last_updated": "2026-05-05T06:12:50.992Z"
@@ -4378,17 +4392,19 @@
     },
     {
         "id": "62a7277e-f6e2-46c7-9b17-b1540ca49585",
-        "name": "Thermaltake TH240 V2 Ultra ARGB Sync Water 240mm 57.05 CFM Black",
-        "variant": "Black",
+        "name": "Thermaltake TH240 V2 Ultra ARGB Black",
+        "variant": "",
         "amazon_sku": "B0CCXDV3Q8",
-        "clean_name": "Thermaltake TH240 V2 Ultra ARGB Sync Water 57.05 CFM Black",
+        "clean_name": "Thermaltake TH240 V2 Ultra ARGB Black",
         "cooler_type": true,
         "radiator_size": 240,
+        "height": 60,
         "min_fan_rpm": 500,
         "max_fan_rpm": 1800,
         "min_noise_level": 25.8,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ],
         "price": 409,
         "last_updated": "2026-05-05T06:14:45.827Z"
@@ -4428,17 +4444,19 @@
     },
     {
         "id": "5e796d52-ee9c-4ba2-beb4-355e12f706a1",
-        "name": "Thermaltake TH280 V2 Water 280mm ARGB Sync 84.32 CFM White",
+        "name": "Thermaltake TH280 V2 ARGB Snow White",
         "variant": "White",
         "amazon_sku": "B0CHN8LYRV",
-        "clean_name": "Thermaltake TH280 V2 Water ARGB Sync 84.32 CFM White",
+        "clean_name": "Thermaltake TH280 V2 ARGB Snow White",
         "cooler_type": true,
         "radiator_size": 280,
+        "height": 52,
         "min_fan_rpm": 500,
         "max_fan_rpm": 1800,
         "min_noise_level": 34.7,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ]
     },
     {
@@ -5741,17 +5759,19 @@
     },
     {
         "id": "1b2aaf91-d08d-474a-8aca-b8ffdd66b20f",
-        "name": "Thermaltake TH420 V2 Ultra ARGB Sync Water 420mm 84.32 CFM White",
-        "variant": "White",
+        "name": "Thermaltake TH420 V2 Ultra ARGB Snow White",
+        "variant": "",
         "amazon_sku": "B0CHN6MYZ4",
-        "clean_name": "Thermaltake TH420 V2 Ultra ARGB Sync Water 84.32 CFM White",
+        "clean_name": "Thermaltake TH420 V2 Ultra ARGB Snow White",
         "cooler_type": true,
         "radiator_size": 420,
+        "height": 60,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 34.7,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ]
     },
     {
@@ -7332,21 +7352,6 @@
         ]
     },
     {
-        "id": "d143a5b7-d564-4c26-a93c-4c5af94d1e45",
-        "name": "Thermaltake TH280 V2 ARGB Sync Water 280mm 84.32 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0CCX7Q565",
-        "clean_name": "Thermaltake TH280 V2 ARGB Sync Water 84.32 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 34.7,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
         "id": "08d33494-342d-4c87-a678-853754dd931f",
         "name": "Thermalright AQUA ELITE ARGB V4 66.17 CFM Water 240mm Black",
         "variant": "Black",
@@ -8388,22 +8393,6 @@
         ]
     },
     {
-        "id": "45c3e30c-bc30-4954-8c47-d9672e7e2449",
-        "name": "Thermaltake TH360 V2 Ultra ARGB Sync 57.05 CFM Water 360mm Blue / White",
-        "variant": "Blue / White",
-        "amazon_sku": "B0CTGNF87X",
-        "clean_name": "Thermaltake TH360 V2 Ultra ARGB Sync 57.05 CFM Water Blue / White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 25.8,
-        "color": [
-            "BLUE",
-            "WHITE"
-        ]
-    },
-    {
         "id": "e8c6b3a1-534d-42c5-9e54-66ac7a27a963",
         "name": "Cooler Master Hyper 212 EVO Air 159mm 82.9 CFM Sleeve Bearing",
         "variant": "",
@@ -8436,17 +8425,19 @@
     },
     {
         "id": "2673b1b2-3446-4152-88a8-6dc706811e9a",
-        "name": "Thermaltake TH120 V2 ARGB Sync Water 120mm White",
-        "variant": "White",
+        "name": "Thermaltake TH120 V2 ARGB 120mm White",
+        "variant": "",
         "amazon_sku": "B0CHN82YLM",
-        "clean_name": "Thermaltake TH120 V2 ARGB Sync Water White",
+        "clean_name": "Thermaltake TH120 V2 ARGB White",
         "cooler_type": true,
         "radiator_size": 120,
+        "height": 52,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 25.8,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ]
     },
     {
@@ -8955,17 +8946,19 @@
     },
     {
         "id": "94f54c0f-4208-4c51-aef7-a03e8bf27aa0",
-        "name": "Thermaltake TH360 V2 Water 360mm ARGB Sync 57.05 CFM White",
-        "variant": "White",
+        "name": "Thermaltake TH360 V2 ARGB Snow White",
+        "variant": "",
         "amazon_sku": "B0CHN7V9CH",
-        "clean_name": "Thermaltake TH360 V2 Water ARGB Sync 57.05 CFM White",
+        "clean_name": "Thermaltake TH360 V2 ARGB Snow White",
         "cooler_type": true,
         "radiator_size": 360,
+        "height": 52,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 25.8,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ],
         "price": 77.23,
         "last_updated": "2026-05-04T07:00:01.427Z"
@@ -9758,17 +9751,19 @@
     },
     {
         "id": "bd7a2636-c474-4065-a638-20fedb3cf23e",
-        "name": "Thermaltake TH120 V2 ARGB Sync Water 120mm 57.05 CFM Black",
-        "variant": "Black",
+        "name": "Thermaltake TH120 V2 ARGB 120mm Black",
+        "variant": "",
         "amazon_sku": "B0CCXNXVFC",
-        "clean_name": "Thermaltake TH120 V2 ARGB Sync Water 57.05 CFM Black",
+        "clean_name": "Thermaltake TH120 V2 ARGB Black",
         "cooler_type": true,
         "radiator_size": 120,
+        "height": 52,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 25.8,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ]
     },
     {
@@ -9956,17 +9951,19 @@
     },
     {
         "id": "9e2c0c50-37cc-4b59-8364-07aea41fd100",
-        "name": "Thermaltake TH420 V2 Water ARGB Sync 84.32 CFM 420mm White",
-        "variant": "White",
+        "name": "Thermaltake TH420 V2 ARGB Snow White",
+        "variant": "",
         "amazon_sku": "B0CHN7BPZK",
-        "clean_name": "Thermaltake TH420 V2 Water ARGB Sync 84.32 CFM White",
+        "clean_name": "Thermaltake TH420 V2 ARGB Snow White",
         "cooler_type": true,
         "radiator_size": 420,
+        "height": 52,
         "min_fan_rpm": 500,
         "max_fan_rpm": 1800,
         "min_noise_level": 34.7,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ]
     },
     {
@@ -10334,17 +10331,19 @@
     },
     {
         "id": "318b997b-f054-4267-80a3-94d2b392241a",
-        "name": "Thermaltake TH280 V2 Ultra ARGB Sync Water 280mm 84.32 CFM Black",
-        "variant": "Black",
+        "name": "Thermaltake TH280 V2 Ultra ARGB Black",
+        "variant": "",
         "amazon_sku": "B0CCXFQPNK",
-        "clean_name": "Thermaltake TH280 V2 Ultra ARGB Sync Water 84.32 CFM Black",
+        "clean_name": "Thermaltake TH280 V2 Ultra ARGB Black",
         "cooler_type": true,
         "radiator_size": 280,
+        "height": 60,
         "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
+        "max_fan_rpm": 1800,
         "min_noise_level": 34.7,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ]
     },
     {
@@ -11354,17 +11353,19 @@
     },
     {
         "id": "79f1c0ff-6c7a-415f-83b9-b789d15e7c6f",
-        "name": "Thermaltake TH360 V2 Ultra ARGB Sync Water 360mm Black",
-        "variant": "Black",
+        "name": "Thermaltake TH360 V2 Ultra ARGB Black",
+        "variant": "",
         "amazon_sku": "B0CCX93N83",
-        "clean_name": "Thermaltake TH360 V2 Ultra ARGB Sync Water Black",
+        "clean_name": "Thermaltake TH360 V2 Ultra ARGB Black",
         "cooler_type": true,
         "radiator_size": 360,
+        "height": 60,
         "min_fan_rpm": 500,
-        "max_fan_rpm": 1800,
+        "max_fan_rpm": 2000,
         "min_noise_level": 25.8,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ]
     },
     {
@@ -14258,17 +14259,19 @@
     },
     {
         "id": "a9c82f02-8193-45f6-8ddd-ff6916dddf67",
-        "name": "Thermaltake TH420 V2 Ultra ARGB Sync 84.32 CFM Water 420mm Black",
-        "variant": "Black",
+        "name": "Thermaltake TH420 V2 Ultra Black",
+        "variant": "",
         "amazon_sku": "B0CCXDLFZZ",
-        "clean_name": "Thermaltake TH420 V2 Ultra ARGB Sync 84.32 CFM Water Black",
+        "clean_name": "Thermaltake TH420 V2 Ultra Black",
         "cooler_type": true,
         "radiator_size": 420,
+        "height": 60,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 34.7,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ]
     },
     {
@@ -14547,17 +14550,19 @@
     },
     {
         "id": "2c19d041-d4e0-44b6-95ca-c3e8f9bee125",
-        "name": "Thermaltake TH360 V2 Ultra Water 360mm White",
-        "variant": "White",
+        "name": "Thermaltake TH360 V2 Ultra ARGB Snow White",
+        "variant": "",
         "amazon_sku": "B0CHN9G4RS",
-        "clean_name": "Thermaltake TH360 V2 Ultra Water White",
+        "clean_name": "Thermaltake TH360 V2 Ultra ARGB Snow White",
         "cooler_type": true,
         "radiator_size": 360,
+        "height": 60,
         "min_fan_rpm": 500,
         "max_fan_rpm": 1800,
         "min_noise_level": 25.8,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ]
     },
     {
