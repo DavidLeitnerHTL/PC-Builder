@@ -3909,7 +3909,7 @@
         "id": "9dd074e5-3093-4b2c-a704-78d011dcee8f",
         "name": "Asus ROG Ryujin III 71.6 CFM Water 240mm Black",
         "variant": "ROG RYUJIN III 240",
-        "amazon_sku": "B0C8BT4Q9G",
+        "amazon_sku": "B0C53M38P1",
         "clean_name": "Asus ROG Ryujin III 71.6 CFM Water Black",
         "cooler_type": true,
         "radiator_size": 240,
@@ -7352,6 +7352,23 @@
         ]
     },
     {
+        "id": "d143a5b7-d564-4c26-a93c-4c5af94d1e45",
+        "name": "Thermaltake TH280 V2 ARGB Black",
+        "variant": "",
+        "amazon_sku": "B0CCX7Q565",
+        "clean_name": "Thermaltake TH280 V2 ARGB Black",
+        "cooler_type": true,
+        "radiator_size": 280,
+        "height": 52,
+        "min_fan_rpm": 500,
+        "max_fan_rpm": 1800,
+        "min_noise_level": 34.7,
+        "color": [
+            "BLACK",
+            "RGB"
+        ]
+    },
+    {
         "id": "08d33494-342d-4c87-a678-853754dd931f",
         "name": "Thermalright AQUA ELITE ARGB V4 66.17 CFM Water 240mm Black",
         "variant": "Black",
@@ -8390,6 +8407,23 @@
         "min_noise_level": 26.8,
         "color": [
             "BLACK"
+        ]
+    },
+    {
+        "id": "45c3e30c-bc30-4954-8c47-d9672e7e2449",
+        "name": "Thermaltake TH360 V2 Ultra ARGB Hydrangea Blue",
+        "variant": "",
+        "amazon_sku": "B0CTGNF87X",
+        "clean_name": "Thermaltake TH360 V2 Ultra ARGB Hydrangea Blue",
+        "cooler_type": true,
+        "radiator_size": 360,
+        "height": 60,
+        "min_fan_rpm": 500,
+        "max_fan_rpm": 1800,
+        "min_noise_level": 25.8,
+        "color": [
+            "BLUE",
+            "WHITE"
         ]
     },
     {
@@ -14259,10 +14293,10 @@
     },
     {
         "id": "a9c82f02-8193-45f6-8ddd-ff6916dddf67",
-        "name": "Thermaltake TH420 V2 Ultra Black",
+        "name": "Thermaltake TH420 V2 Ultra  ARGB Black",
         "variant": "",
         "amazon_sku": "B0CCXDLFZZ",
-        "clean_name": "Thermaltake TH420 V2 Ultra Black",
+        "clean_name": "Thermaltake TH420 V2 Ultra ARGB Black",
         "cooler_type": true,
         "radiator_size": 420,
         "height": 60,
