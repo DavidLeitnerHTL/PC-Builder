@@ -137,11 +137,9 @@ def is_modern_motherboard(socket, name=""):
 
 
 def is_modern_ram(name, speed=""):
-    """Keep only DDR4/DDR5 with at least 8 GB capacity."""
+    """Keep only DDR5 with at least 8 GB capacity."""
     text = (name or "").lower() + " " + str(speed or "").lower()
-    if "ddr3" in text or "ddr2" in text or "ddr1" in text:
-        return False
-    if "ddr4" not in text and "ddr5" not in text:
+    if "ddr5" not in text:
         return False
     cap = _parse_capacity_gb(name)
     if cap is not None and cap < 8:
@@ -499,7 +497,7 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
 # ==========================================
 
 def load_existing_prices():
-    """Load scraped prices from current processed_data so they survive regeneration."""
+    """Load scraped prices and availability from current processed_data so they survive regeneration."""
     prices = {}
     if not os.path.exists(OUTPUT_FOLDER):
         return prices
@@ -511,16 +509,21 @@ def load_existing_prices():
                 items = json.load(f)
             for item in items:
                 item_id = item.get("id")
-                if item_id and item.get("price") is not None:
+                if not item_id:
+                    continue
+                has_price = item.get("price") is not None
+                is_unavailable = item.get("available") is False
+                if has_price or is_unavailable:
                     prices[item_id] = {
-                        "price": item["price"],
+                        "price": item.get("price"),
+                        "available": item.get("available"),
                         "last_updated": item.get("last_updated"),
                         "scraped_url": item.get("scraped_url"),
                         "scraped_title": item.get("scraped_title"),
                     }
         except Exception:
             pass
-    print(f"Preserved {len(prices)} existing prices across all categories.")
+    print(f"Preserved {len(prices)} existing prices/availability across all categories.")
     return prices
 
 
@@ -563,10 +566,13 @@ def process_hardware_data():
                         # Skip products with no Amazon SKU — the scraper cannot price them
                         if not clean_item.get("amazon_sku", "").strip():
                             continue
-                        # Restore previously scraped price for this product
+                        # Restore previously scraped price and availability for this product
                         saved = existing_prices.get(clean_item.get("id"))
                         if saved:
-                            clean_item["price"] = saved["price"]
+                            if saved.get("price") is not None:
+                                clean_item["price"] = saved["price"]
+                            if saved.get("available") is False:
+                                clean_item["available"] = False
                             if saved.get("last_updated"):
                                 clean_item["last_updated"] = saved["last_updated"]
                             if saved.get("scraped_url"):
@@ -578,13 +584,16 @@ def process_hardware_data():
                     print(f"Failed to process {filename}: {error}")
 
         # ── Deduplication ──────────────────────────────────────────────────
-        # GPU: one entry per chipset (brand variants are redundant in a builder).
+        # GPU: one entry per chipset (normalize away brand/manufacturer prefix).
         # Others: deduplicate by clean_name.
-        # In both cases keep the entry with the most populated spec fields.
+        # Keep the entry with the most populated spec fields.
         seen_names: dict = {}
         for item in processed_items:
             if raw_category == "GPU":
-                key = (item.get("chipset") or "").strip().lower()
+                chipset = (item.get("chipset") or "").strip().lower()
+                chipset = re.sub(r'^(nvidia|amd|intel)\s+', '', chipset)
+                chipset = re.sub(r'^(geforce|radeon)\s+', '', chipset)
+                key = chipset
             else:
                 key = (item.get("clean_name") or item.get("name") or "").strip().lower()
             if not key:
@@ -595,13 +604,24 @@ def process_hardware_data():
         deduplicated = list(seen_names.values())
         removed_dupes = len(processed_items) - len(deduplicated)
 
+        # ── Hard cap at 100 ────────────────────────────────────────────────
+        # Sort: already-priced first, then more spec fields, then alphabetical.
+        deduplicated.sort(key=lambda x: (
+            0 if x.get("price") is not None else 1,
+            -len(x),
+            (x.get("clean_name") or x.get("name") or "").lower()
+        ))
+        MAX_PER_CATEGORY = 100
+        removed_capped = max(0, len(deduplicated) - MAX_PER_CATEGORY)
+        deduplicated = deduplicated[:MAX_PER_CATEGORY]
+
         if deduplicated:
             output_file = os.path.join(OUTPUT_FOLDER, f"{target_filename}.json")
             with open(output_file, 'w', encoding='utf-8') as output:
                 json.dump(deduplicated, output, indent=4, ensure_ascii=False)
             priced = sum(1 for p in deduplicated if p.get("price") is not None)
             print(f"Success! Created {output_file} with {len(deduplicated)} items "
-                  f"({removed_dupes} dupes removed, {priced} already priced).\n")
+                  f"({removed_dupes} dupes removed, {removed_capped} capped, {priced} already priced).\n")
 
 if __name__ == "__main__":
     process_hardware_data()
