@@ -15,9 +15,19 @@ db.exec(`
         PRIMARY KEY (id, category)
     );
     CREATE INDEX IF NOT EXISTS idx_category ON products(category);
+
+    CREATE TABLE IF NOT EXISTS price_history (
+        product_id TEXT NOT NULL,
+        date       TEXT NOT NULL,
+        price      REAL NOT NULL,
+        PRIMARY KEY (product_id, date)
+    );
 `);
 
 const insert = db.prepare('INSERT OR REPLACE INTO products (id, category, data) VALUES (?, ?, ?)');
+const insertHistory = db.prepare('INSERT OR IGNORE INTO price_history (product_id, date, price) VALUES (?, ?, ?)');
+
+const today = new Date().toISOString().slice(0, 10);
 
 const importAll = db.transaction(() => {
     db.prepare('DELETE FROM products').run();
@@ -26,7 +36,9 @@ const importAll = db.transaction(() => {
         const category = file.replace('.json', '');
         const products = JSON.parse(readFileSync(join(DATA_DIR, file), 'utf8'));
         for (const product of products) {
-            insert.run(product.id ?? product.name, category, JSON.stringify(product));
+            const id = product.id ?? product.name;
+            insert.run(id, category, JSON.stringify(product));
+            if (product.price != null) insertHistory.run(id, today, product.price);
             total++;
         }
         console.log(`  ${category}: ${products.length} products`);

@@ -24,6 +24,7 @@
 
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -138,6 +139,26 @@
       background: var(--hover-bg);
     }
 
+    .price-history-section {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .price-history-section h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    .chart-wrapper {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      position: relative;
+      height: 220px;
+    }
+
     .amazon-section {
       background: var(--accent-glow);
       border-left: 3px solid var(--accent-color);
@@ -223,6 +244,13 @@
           </h3>
           <table class="spec-table" id="spec-table"></table>
 
+          <div class="price-history-section" id="price-history-section" style="display:none;">
+            <h3><span class="dot-accent"></span>Preisverlauf</h3>
+            <div class="chart-wrapper">
+              <canvas id="price-chart"></canvas>
+            </div>
+          </div>
+
           <div class="amazon-section">
             <h3 id="amazon-product-name">Ganzer Produktname</h3>
             <a id="amazon-link" href="#" target="_blank" rel="noopener noreferrer" class="amazon-btn">
@@ -307,6 +335,60 @@
 
             sessionStorage.removeItem('currentCategory');
             sessionStorage.removeItem('currentProduct');
+
+            const productId = product.id ?? product.name;
+            fetch(`${CONFIG.API_BASE_URL}/api/history/${encodeURIComponent(productId)}`)
+              .then(r => r.json())
+              .then(history => {
+                if (!Array.isArray(history) || history.length < 2) return;
+                document.getElementById('price-history-section').style.display = 'block';
+                const isDark = document.documentElement.getAttribute('data-theme') !== 'light';
+                const gridColor = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.08)';
+                const textColor = isDark ? '#aaa' : '#555';
+                new Chart(document.getElementById('price-chart'), {
+                  type: 'line',
+                  data: {
+                    labels: history.map(h => h.date),
+                    datasets: [{
+                      label: 'Preis (€)',
+                      data: history.map(h => h.price),
+                      borderColor: '#ff6b00',
+                      backgroundColor: 'rgba(255,107,0,0.08)',
+                      pointBackgroundColor: '#ff6b00',
+                      pointRadius: history.length > 30 ? 0 : 3,
+                      borderWidth: 2,
+                      fill: true,
+                      tension: 0.3,
+                    }]
+                  },
+                  options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                      legend: { display: false },
+                      tooltip: {
+                        callbacks: {
+                          label: ctx => `${ctx.parsed.y.toFixed(2)} €`
+                        }
+                      }
+                    },
+                    scales: {
+                      x: {
+                        ticks: { color: textColor, maxTicksLimit: 8 },
+                        grid: { color: gridColor }
+                      },
+                      y: {
+                        ticks: {
+                          color: textColor,
+                          callback: v => v + ' €'
+                        },
+                        grid: { color: gridColor }
+                      }
+                    }
+                  }
+                });
+              })
+              .catch(() => {});
           } else {
             loadingText.textContent = "Das gewünschte Produkt wurde nicht gefunden.";
           }

@@ -11,6 +11,12 @@ const app = express();
 app.use(cors());
 
 const getByCategory = db.prepare('SELECT data FROM products WHERE category = ?');
+const getHistory = db.prepare('SELECT date, price FROM price_history WHERE product_id = ? ORDER BY date ASC');
+
+app.get('/api/history/:product_id', (req, res) => {
+    const rows = getHistory.all(req.params.product_id);
+    res.json(rows);
+});
 
 app.get('/api/:category', (req, res) => {
     const rows = getByCategory.all(req.params.category);
