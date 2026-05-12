@@ -403,7 +403,7 @@ async function initializeDropdowns() {
 
                     // Only put the clean, unique ID in the HTML value attribute
                     option.value = uniqueKey;
-                    option.textContent = price !== null ? `${displayName} (${price} €)` : `${displayName} (Preis unbekannt)`;
+                    option.textContent = displayName;
                     selectEl.appendChild(option);
                 });
             }
