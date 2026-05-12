@@ -48,6 +48,10 @@ jobs:
         if: always()
         shell: bash
         run: |
+          git add processed_data/
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update prices (partial) [skip ci]"
+          fi
           BRANCH="${{ github.ref_name }}"
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin "$BRANCH" && git push && break
