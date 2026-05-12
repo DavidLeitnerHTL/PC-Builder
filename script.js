@@ -142,25 +142,6 @@ function setupPerformanceAndUxPolish() {
         link.classList.toggle('active', linkPage === currentPage);
     });
 
-    // 3) Add a subtle scroll progress indicator.
-    let progressBar = document.querySelector('.scroll-progress');
-    if (!progressBar) {
-        progressBar = document.createElement('div');
-        progressBar.className = 'scroll-progress';
-        progressBar.setAttribute('aria-hidden', 'true');
-        document.body.appendChild(progressBar);
-    }
-
-    const updateScrollProgress = () => {
-        const doc = document.documentElement;
-        const maxScroll = Math.max(1, doc.scrollHeight - doc.clientHeight);
-        const progress = Math.min(100, (window.scrollY / maxScroll) * 100);
-        progressBar.style.transform = `scaleX(${progress / 100})`;
-    };
-
-    window.addEventListener('scroll', updateScrollProgress, { passive: true });
-    window.addEventListener('resize', updateScrollProgress, { passive: true });
-    updateScrollProgress();
 }
 
 function setupSmartHeaderVisibility() {

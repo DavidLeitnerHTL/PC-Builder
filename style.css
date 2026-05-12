@@ -232,20 +232,6 @@ h6 {
 }
 
 /* === HEADER / NAVIGATION === */
-/* === SCROLL PROGRESS BAR === */
-.scroll-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  z-index: 1300;
-  transform-origin: left center;
-  transform: scaleX(0);
-  background: var(--success-gradient);
-  box-shadow: 0 2px 12px rgba(255, 107, 0, 0.35);
-  pointer-events: none;
-}
 
 /* === MAIN CONTENT === */
 main {
@@ -1252,11 +1238,6 @@ main::before {
 
 .dot-accent {
   animation: none;
-  box-shadow: none;
-}
-
-.scroll-progress {
-  height: 2px;
   box-shadow: none;
 }
 
