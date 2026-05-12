@@ -10,7 +10,7 @@
   <meta property="og:url" content="https://pc-builder.at/news.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="PC Builder">
-  
+
   <script>
     const savedTheme = localStorage.getItem('theme');
     const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -29,14 +29,326 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* News Page Specific Styles */
+    .news-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+    }
+
+    .news-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .news-filter-btn {
+      padding: 0.4rem 1rem;
+      border-radius: var(--radius-pill);
+      border: 1px solid var(--border-color-strong);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      transition: all 0.3s var(--ease-out-expo);
+      cursor: pointer;
+    }
+
+    .news-filter-btn:hover,
+    .news-filter-btn.active {
+      background: var(--accent-color);
+      border-color: var(--accent-color);
+      color: #fff;
+    }
+
+    .news-search {
+      position: relative;
+      min-width: 260px;
+    }
+
+    .news-search input {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color-strong);
+      border-radius: var(--radius-pill);
+      padding: 0.5rem 1rem 0.5rem 2.5rem;
+      color: var(--text-primary);
+      font-size: 0.9rem;
+      width: 100%;
+      transition: all 0.3s var(--ease-out-expo);
+    }
+
+    .news-search input:focus {
+      outline: none;
+      border-color: var(--accent-color);
+      box-shadow: 0 0 0 4px var(--accent-glow);
+    }
+
+    .news-search i {
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+    }
+
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 992px) {
+      .news-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .news-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      transition: all 0.4s var(--ease-out-expo);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .news-card:hover {
+      border-color: var(--accent-color);
+      transform: translateY(-6px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    }
+
+    .news-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--accent-color);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.5s var(--ease-out-expo);
+    }
+
+    .news-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .news-card-img-wrap {
+      position: relative;
+      overflow: hidden;
+      height: 200px;
+      background: var(--bg-body);
+    }
+
+    .news-card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s var(--ease-out-expo);
+    }
+
+    .news-card:hover .news-card-img-wrap img {
+      transform: scale(1.05);
+    }
+
+    .news-card-img-wrap .no-img {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-secondary);
+      font-size: 2.5rem;
+      background: var(--bg-body);
+    }
+
+    .news-tag {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background: var(--accent-color);
+      color: #fff;
+      padding: 0.25rem 0.75rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      z-index: 2;
+    }
+
+    .news-source {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+      color: #fff;
+      padding: 0.25rem 0.75rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.7rem;
+      font-weight: 600;
+      z-index: 2;
+    }
+
+    .news-card-body {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .news-date {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.75rem;
+    }
+
+    .news-card-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary);
+    }
+
+    .news-card-text {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      flex-grow: 1;
+      margin-bottom: 1.25rem;
+    }
+
+    .news-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+    }
+
+    .news-read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--accent-color);
+      text-decoration: none;
+      transition: all 0.3s var(--ease-out-expo);
+    }
+
+    .news-read-more:hover {
+      gap: 0.75rem;
+      color: var(--accent-hover);
+    }
+
+    .news-read-more i {
+      font-size: 0.75rem;
+      transition: transform 0.3s var(--ease-out-expo);
+    }
+
+    .news-read-more:hover i {
+      transform: translateX(3px);
+    }
+
+    /* Loading Skeleton */
+    .news-skeleton {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      animation: skeleton-pulse 1.5s ease-in-out infinite;
+    }
+
+    .news-skeleton-img {
+      height: 200px;
+      background: var(--hover-bg);
+    }
+
+    .news-skeleton-body {
+      padding: 1.5rem;
+    }
+
+    .news-skeleton-line {
+      height: 12px;
+      background: var(--hover-bg);
+      border-radius: 6px;
+      margin-bottom: 0.75rem;
+    }
+
+    .news-skeleton-line.short {
+      width: 40%;
+    }
+
+    .news-skeleton-line.medium {
+      width: 70%;
+    }
+
+    @keyframes skeleton-pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+
+    /* Empty state */
+    .news-empty {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: var(--text-secondary);
+    }
+
+    .news-empty i {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      opacity: 0.5;
+    }
+
+    /* Last updated badge */
+    .news-meta-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
+    .news-last-updated {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .news-count {
+      font-weight: 600;
+      color: var(--accent-color);
+    }
+  </style>
 </head>
 <body class="d-flex flex-column min-vh-100">
 
-  <!-- Header injected by config.js -->
   <div id="site-header"></div>
 
   <main class="flex-grow-1">
-    
+
     <!-- Hero -->
     <section class="page-hero grid-bg">
       <div class="container">
@@ -44,77 +356,256 @@
           <span>04 — News</span>
         </div>
         <h1 class="fade-in-up delay-1">Tech <span class="text-gradient">News Feed</span></h1>
-        <p class="fade-in-up delay-2">Aktuelle Entwicklungen aus der Hardware-Industrie.</p>
+        <p class="fade-in-up delay-2">Aktuelle Entwicklungen aus der Hardware-Industrie — täglich aktualisiert.</p>
         <div class="accent-line fade-in-up delay-3"></div>
       </div>
     </section>
 
     <div class="container pb-5">
-      <div class="row g-4">
-        
-        <!-- News 1 -->
-        <div class="col-md-4 fade-in-up">
-          <div class="card news-card h-100">
-            <div class="position-relative overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="RAM Speicher" style="height: 200px; object-fit: cover;">
-              <span class="news-tag">Markt</span>
-            </div>
-            <div class="card-body d-flex flex-column">
-              <small class="label-upper mb-2">28.01.2026</small>
-              <h2 class="card-title fw-bold" style="font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem;">DDR4-RAM Preise explodieren</h2>
-              <p class="card-text small flex-grow-1" style="color: var(--text-secondary);">Preise steigen doppelt so schnell wie bei DDR5.</p>
-              <a href="https://www.notebookcheck.com/DDR4-RAM-Preise-steigen-doppelt-so-schnell-wie-DDR5-Speicherknappheit-treibt-Nachfrage-nach-aelteren-CPUs-an.1214109.0.html" target="_blank" class="btn btn-sm btn-outline-primary mt-3 stretched-link">
-                Mehr lesen <i class="fas fa-arrow-right ms-1"></i>
-              </a>
-            </div>
-          </div>
-        </div>
 
-        <!-- News 2 -->
-        <div class="col-md-4 fade-in-up delay-1">
-          <div class="card news-card h-100">
-            <div class="position-relative overflow-hidden">
-              <img src="https://www.gigabyte.com/FileUpload/Global/KeyFeature/3983/innergigabyte/images/kv-img.png" class="card-img-top" alt="Grafikkarte" style="height: 200px; object-fit: contain; padding: 1rem; background: var(--bg-body);">
-              <span class="news-tag">Hardware</span>
-            </div>
-            <div class="card-body d-flex flex-column">
-              <small class="label-upper mb-2">30.01.2026</small>
-              <h2 class="card-title fw-bold" style="font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem;">NVIDIA Q1 2026: RTX 5060 Ti</h2>
-              <p class="card-text small flex-grow-1" style="color: var(--text-secondary);">Drei Modelle der RTX 5060 Ti sollen 75% aller Nvidia-Auslieferungen stellen.</p>
-              <a href="https://www.pcgameshardware.de/Geforce-RTX-5060-Ti-8GB-Grafikkarte-281132/News/3-Modelle-sollen-75-Prozent-von-Nvidias-Q1-2026-Auslieferungen-stellen-1493885/" target="_blank" class="btn btn-sm btn-outline-primary mt-3 stretched-link">
-                Mehr lesen <i class="fas fa-arrow-right ms-1"></i>
-              </a>
-            </div>
-          </div>
+      <!-- Controls -->
+      <div class="news-controls fade-in-up">
+        <div class="news-filters" id="news-filters">
+          <button class="news-filter-btn active" data-filter="all">Alle</button>
+          <button class="news-filter-btn" data-filter="Hardware">Hardware</button>
+          <button class="news-filter-btn" data-filter="Markt">Markt</button>
+          <button class="news-filter-btn" data-filter="Angebote">Angebote</button>
+          <button class="news-filter-btn" data-filter="Software">Software</button>
+          <button class="news-filter-btn" data-filter="Industrie">Industrie</button>
         </div>
-
-        <!-- News 3 -->
-        <div class="col-md-4 fade-in-up delay-2">
-          <div class="card news-card h-100">
-            <div class="position-relative overflow-hidden">
-              <img src="https://gzhls.at/pix/cd/50/cd5078ec008292de-l.webp" class="card-img-top" alt="Gaming Monitor" style="height: 200px; object-fit: contain; padding: 1rem; background: var(--bg-body);">
-              <span class="news-tag">Angebote</span>
-            </div>
-            <div class="card-body d-flex flex-column">
-              <small class="label-upper mb-2">30.01.2026</small>
-              <h2 class="card-title fw-bold" style="font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem;">Samsung Odyssey OLED & AOC</h2>
-              <p class="card-text small flex-grow-1" style="color: var(--text-secondary);">Starke Rabatte für WQHD-Gaming Monitore aktuell verfügbar.</p>
-              <a href="https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/News/Gaming-Monitor-Samsung-Odyssey-OLED-G50SF-LS27FG502SUXEN-AOC-Q27G41ZDF-WQHD-guenstig-kaufen-Angebot-1494013/" target="_blank" class="btn btn-sm btn-outline-primary mt-3 stretched-link">
-                Mehr lesen <i class="fas fa-arrow-right ms-1"></i>
-              </a>
-            </div>
-          </div>
+        <div class="news-search">
+          <i class="fas fa-search"></i>
+          <input type="text" id="news-search-input" placeholder="News durchsuchen..." autocomplete="off">
         </div>
-
       </div>
+
+      <!-- Meta bar -->
+      <div class="news-meta-bar fade-in-up delay-1">
+        <span id="news-count">Lade Artikel...</span>
+        <span class="news-last-updated" id="news-last-updated" style="display:none;">
+          <i class="fas fa-sync-alt"></i> Zuletzt aktualisiert: <span id="last-updated-date">—</span>
+        </span>
+      </div>
+
+      <!-- News Grid -->
+      <div class="news-grid" id="news-grid">
+        <!-- Skeleton Loading -->
+        <div class="news-skeleton">
+          <div class="news-skeleton-img"></div>
+          <div class="news-skeleton-body">
+            <div class="news-skeleton-line short"></div>
+            <div class="news-skeleton-line"></div>
+            <div class="news-skeleton-line medium"></div>
+          </div>
+        </div>
+        <div class="news-skeleton">
+          <div class="news-skeleton-img"></div>
+          <div class="news-skeleton-body">
+            <div class="news-skeleton-line short"></div>
+            <div class="news-skeleton-line"></div>
+            <div class="news-skeleton-line medium"></div>
+          </div>
+        </div>
+        <div class="news-skeleton">
+          <div class="news-skeleton-img"></div>
+          <div class="news-skeleton-body">
+            <div class="news-skeleton-line short"></div>
+            <div class="news-skeleton-line"></div>
+            <div class="news-skeleton-line medium"></div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </main>
 
-  <!-- Footer injected by config.js -->
   <div id="site-footer"></div>
 
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script defer src="config.js"></script>
   <script defer src="script.js"></script>
+
+  <script>
+    (function() {
+      const GRID = document.getElementById('news-grid');
+      const COUNT_EL = document.getElementById('news-count');
+      const LAST_UPDATED_EL = document.getElementById('news-last-updated');
+      const LAST_UPDATED_DATE = document.getElementById('last-updated-date');
+      const SEARCH_INPUT = document.getElementById('news-search-input');
+      const FILTER_BTNS = document.querySelectorAll('.news-filter-btn');
+
+      let allNews = [];
+      let currentFilter = 'all';
+      let currentSearch = '';
+
+      const FALLBACK_IMAGE = 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80';
+      const GENERIC_IMAGES = {
+        'Hardware': 'https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=600&q=80',
+        'Markt': 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=600&q=80',
+        'Angebote': 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=600&q=80',
+        'Software': 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80',
+        'Industrie': 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80'
+      };
+
+      function formatDate(dateStr) {
+        if (!dateStr) return '';
+        try {
+          const d = new Date(dateStr);
+          if (isNaN(d.getTime())) return dateStr;
+          return d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+        } catch {
+          return dateStr;
+        }
+      }
+
+      function getImage(article) {
+        if (article.image && article.image.trim().length > 0) return article.image;
+        return GENERIC_IMAGES[article.category] || FALLBACK_IMAGE;
+      }
+
+      function createCard(article) {
+        const img = getImage(article);
+        const isExternalImg = img.startsWith('http');
+        const date = formatDate(article.date);
+        const source = article.source || article.category || 'News';
+
+        const card = document.createElement('div');
+        card.className = 'news-card fade-in-up';
+        card.innerHTML = `
+          <div class="news-card-img-wrap">
+            ${isExternalImg
+              ? `<img src="${img}" alt="${escapeHtml(article.title)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="no-img" style="display:none;"><i class="fas fa-newspaper"></i></div>`
+              : `<div class="no-img"><i class="fas fa-newspaper"></i></div>`
+            }
+            <span class="news-tag">${escapeHtml(article.category || 'News')}</span>
+            <span class="news-source">${escapeHtml(source)}</span>
+          </div>
+          <div class="news-card-body">
+            <div class="news-date">${date}</div>
+            <h2 class="news-card-title">${escapeHtml(article.title)}</h2>
+            <p class="news-card-text">${escapeHtml(article.description || '')}</p>
+            <div class="news-card-footer">
+              <a href="${escapeHtml(article.url)}" target="_blank" rel="noopener" class="news-read-more">
+                Mehr lesen <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        `;
+        return card;
+      }
+
+      function escapeHtml(str) {
+        if (!str) return '';
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
+      }
+
+      function render() {
+        let filtered = allNews.slice();
+
+        if (currentFilter !== 'all') {
+          filtered = filtered.filter(a => (a.category || 'News') === currentFilter);
+        }
+
+        if (currentSearch.trim()) {
+          const q = currentSearch.toLowerCase();
+          filtered = filtered.filter(a =>
+            (a.title || '').toLowerCase().includes(q) ||
+            (a.description || '').toLowerCase().includes(q) ||
+            (a.source || '').toLowerCase().includes(q)
+          );
+        }
+
+        GRID.innerHTML = '';
+
+        if (filtered.length === 0) {
+          GRID.innerHTML = `
+            <div class="news-empty" style="grid-column: 1 / -1;">
+              <i class="fas fa-inbox"></i>
+              <h3>Keine Artikel gefunden</h3>
+              <p>Probiere einen anderen Filter oder Suchbegriff.</p>
+            </div>
+          `;
+          COUNT_EL.textContent = '0 Artikel';
+          return;
+        }
+
+        filtered.forEach(article => {
+          GRID.appendChild(createCard(article));
+        });
+
+        COUNT_EL.innerHTML = `<span class="news-count">${filtered.length}</span> Artikel`;
+      }
+
+      function showError(message) {
+        GRID.innerHTML = `
+          <div class="news-empty" style="grid-column: 1 / -1;">
+            <i class="fas fa-triangle-exclamation"></i>
+            <h3>Fehler beim Laden</h3>
+            <p>${escapeHtml(message)}</p>
+          </div>
+        `;
+        COUNT_EL.textContent = 'Fehler';
+      }
+
+      async function loadNews() {
+        try {
+          const response = await fetch('news.json?v=' + Date.now());
+          if (!response.ok) throw new Error('news.json konnte nicht geladen werden.');
+          const data = await response.json();
+
+          if (!Array.isArray(data) || data.length === 0) {
+            showError('Keine News-Daten vorhanden.');
+            return;
+          }
+
+          // Sort by date descending
+          allNews = data.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+
+          // Show last updated
+          const latest = allNews[0];
+          if (latest && latest.date) {
+            LAST_UPDATED_DATE.textContent = formatDate(latest.date);
+            LAST_UPDATED_EL.style.display = 'inline-flex';
+          }
+
+          render();
+        } catch (err) {
+          console.error('[News] Failed to load:', err);
+          showError('Die News konnten nicht geladen werden. Bitte versuche es später erneut.');
+        }
+      }
+
+      // Filter clicks
+      FILTER_BTNS.forEach(btn => {
+        btn.addEventListener('click', () => {
+          FILTER_BTNS.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentFilter = btn.dataset.filter;
+          render();
+        });
+      });
+
+      // Search input
+      let searchDebounce;
+      SEARCH_INPUT.addEventListener('input', (e) => {
+        clearTimeout(searchDebounce);
+        searchDebounce = setTimeout(() => {
+          currentSearch = e.target.value;
+          render();
+        }, 200);
+      });
+
+      // Load on DOM ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', loadNews);
+      } else {
+        loadNews();
+      }
+    })();
+  </script>
 </body>
 </html>

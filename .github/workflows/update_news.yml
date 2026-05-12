@@ -1,0 +1,59 @@
+name: Update News Feed
+
+on:
+  schedule:
+    # Runs at 06:00 UTC daily — after the price scraper so they don't clash.
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: scraper/package-lock.json
+
+      - name: Install dependencies
+        working-directory: scraper
+        shell: bash
+        run: npm ci
+
+      - name: Configure git
+        shell: bash
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run RSS news scraper
+        working-directory: scraper
+        shell: bash
+        run: node rss-scraper.js
+
+      - name: Commit & push news.json
+        shell: bash
+        run: |
+          git add news.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update news feed [skip ci]"
+            BRANCH="${{ github.ref_name }}"
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin "$BRANCH" && git push && break
+              echo "Push conflict — retrying in $((attempt * 15))s..."
+              sleep $((attempt * 15))
+            done
+          else
+            echo "No news changes to commit."
+          fi
