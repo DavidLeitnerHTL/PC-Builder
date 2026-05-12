@@ -377,15 +377,15 @@ async function initializeDropdowns() {
         if (!selectEl) return;
 
         try {
-            const response = await fetch(`${CONFIG.API_BASE_URL}/api/${category}`);
+            const response = await fetch(`processed_data/${category}.json`);
             if (response.ok) {
-                const data = await response.json();
+                const data = (await response.json()).filter(p => p.available !== false);
 
                 selectEl.innerHTML = '<option value="">Bitte wählen...</option>';
 
                 data.forEach(product => {
                     const option = document.createElement('option');
-                    const price = product.price || 0;
+                    const price = product.price ?? null;
 
                     // Create a safe, unique ID for the dictionary
                     const uniqueKey = `${category}_${product.name}`;
@@ -403,7 +403,7 @@ async function initializeDropdowns() {
 
                     // Only put the clean, unique ID in the HTML value attribute
                     option.value = uniqueKey;
-                    option.textContent = `${displayName} (${price} €)`;
+                    option.textContent = price !== null ? `${displayName} (${price} €)` : `${displayName} (Preis unbekannt)`;
                     selectEl.appendChild(option);
                 });
             }
@@ -490,7 +490,7 @@ function updateRow(selectId, selectedValue) {
 
     // Valid selection found
     const rawPrice = parseFloat(productData.price);
-    const formattedPrice = isNaN(rawPrice) ? "0.00" : rawPrice.toFixed(2);
+    const formattedPrice = isNaN(rawPrice) ? "" : rawPrice.toFixed(2);
 
     // Construct the URL safely right when it's needed
     const safeLink = `product.html?category=${encodeURIComponent(productData.category)}&name=${encodeURIComponent(productData.name)}`;
