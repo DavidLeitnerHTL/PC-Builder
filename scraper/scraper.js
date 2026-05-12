@@ -6,6 +6,7 @@
  */
 
 import { readFile } from "fs/promises";
+import { execSync } from "child_process";
 import {
     launchStealthBrowser,
     enableResourceBlocking,
@@ -186,6 +187,14 @@ const MAX_RETRIES = 3;
                 failed: failCount,
                 unavailable: products.filter(p => p.available === false).length,
             });
+
+            try {
+                execSync(`git add processed_data/${category}.json`, { cwd: join(__dirname, '..') });
+                execSync(`git commit -m "Auto-update prices: ${category} [skip ci]"`, { cwd: join(__dirname, '..') });
+                console.log(`[GIT] Committed ${category}`);
+            } catch {
+                console.log(`[GIT] No changes to commit for ${category}`);
+            }
         }
 
         await browser.close();

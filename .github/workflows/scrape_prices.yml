@@ -31,23 +31,23 @@ jobs:
         shell: bash
         run: npm ci
 
-      - name: Run price scraper
-        working-directory: scraper
-        shell: bash
-        # Empty category string → process.argv[2] is '' → '' || null = null → all categories
-        run: node --max-old-space-size=512 scraper.js "${{ github.event.inputs.category }}"
-
-      - name: Commit and push updated prices
+      - name: Configure git
         shell: bash
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add processed_data/
-          if git diff --staged --quiet; then
-            echo "No price changes — nothing to commit."
-            exit 0
-          fi
-          git commit -m "Auto-update prices [skip ci]"
+
+      - name: Run price scraper
+        working-directory: scraper
+        shell: bash
+        # Empty category string → process.argv[2] is '' → '' || null = null → all categories
+        # Scraper commits after each category so partial results survive a crash.
+        run: node --max-old-space-size=512 scraper.js "${{ github.event.inputs.category }}"
+
+      - name: Push commits
+        if: always()
+        shell: bash
+        run: |
           BRANCH="${{ github.ref_name }}"
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin "$BRANCH" && git push && break
