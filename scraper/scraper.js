@@ -34,9 +34,9 @@ const ALL_CATEGORIES = [
     "OS",
 ];
 
-const CONCURRENCY = 4;
-const MIN_DELAY_MS = 1500;
-const MAX_DELAY_MS = 3500;
+const CONCURRENCY = 2;
+const MIN_DELAY_MS = 2000;
+const MAX_DELAY_MS = 5000;
 const MAX_RETRIES = 3;
 const UNAVAILABLE_RECHECK_DAYS = 3;
 
