@@ -257,20 +257,18 @@
         "last_updated": "2026-04-30T06:43:18.578Z"
     },
     {
-        "id": "b3591540-7284-451b-985a-01abfa956af8",
-        "name": "NVIDIA Founders Edition GeForce RTX 3080 10GB GDDR6X",
-        "variant": "",
-        "amazon_sku": "B095XZMSPB",
-        "clean_name": "NVIDIA Founders Edition GeForce RTX 3080 GDDR6X",
+        "id": "5bae9be7-dad7-4f03-b6f9-5d569b4e0c5f",
+        "name": "Zotac GAMING Trinity OC GeForce RTX 3080 10GB LHR 10GB GDDR6X Gray",
+        "variant": "Zotac",
+        "amazon_sku": "B099ZCG8T5",
+        "clean_name": "Zotac GAMING Trinity OC GeForce RTX 3080 LHR GDDR6X Gray",
         "chipset": "GeForce RTX 3080 10 GB",
         "vram": 10,
         "core_clock": 1440,
-        "boost_clock": 1710,
-        "length": 285,
+        "boost_clock": 1725,
+        "length": 318,
         "tdp": 320,
-        "memory_type": "GDDR6X",
-        "price": 1514.14,
-        "last_updated": "2026-04-30T06:26:32.592Z"
+        "memory_type": "GDDR6X"
     },
     {
         "id": "d8f681d4-1ff8-41e9-a572-9a1a931b22cf",
@@ -902,6 +900,22 @@
         "length": 210,
         "tdp": 184,
         "memory_type": "GDDR6"
+    },
+    {
+        "id": "b3591540-7284-451b-985a-01abfa956af8",
+        "name": "NVIDIA Founders Edition GeForce RTX 3080 10GB GDDR6X",
+        "variant": "",
+        "amazon_sku": "B095XZMSPB",
+        "clean_name": "NVIDIA Founders Edition GeForce RTX 3080 GDDR6X",
+        "chipset": "GeForce RTX 3080",
+        "vram": 10,
+        "core_clock": 1440,
+        "boost_clock": 1710,
+        "length": 285,
+        "tdp": 320,
+        "memory_type": "GDDR6X",
+        "price": 1514.14,
+        "last_updated": "2026-04-30T06:26:32.592Z"
     },
     {
         "id": "5e151a9e-1049-4bd1-aee7-7b9f47b555f6",

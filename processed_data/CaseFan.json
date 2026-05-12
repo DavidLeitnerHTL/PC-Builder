@@ -570,6 +570,32 @@
         "features": "PWM"
     },
     {
+        "id": "fdb2bb5e-c7e6-4865-a8f5-8e9126c05d64",
+        "name": "Corsair iCUE LINK QX120 120mm Black RGB",
+        "variant": "120mm Black",
+        "amazon_sku": "B0C64WLQSK",
+        "clean_name": "Corsair iCUE LINK QX120 Black",
+        "size": 120,
+        "quantity": 3,
+        "pwm": true,
+        "led": "Addressable RGB",
+        "connector": "Proprietary PWM",
+        "controller": "USB",
+        "flow_direction": "Standard",
+        "is_oem": false,
+        "min_airflow": 16.44,
+        "max_airflow": 63.1,
+        "min_noise_level": 10,
+        "max_noise_level": 37,
+        "static_pressure": 3.8,
+        "color": [
+            "BLACK",
+            "RGB"
+        ],
+        "fan_size": "120mm",
+        "features": "RGB"
+    },
+    {
         "id": "5a6e1228-66e5-49df-bd2d-d89e372a4940",
         "name": "Noctua F12 120mm Brown PWM",
         "variant": "120mm Brown",
@@ -976,6 +1002,32 @@
         "features": "RGB, PWM",
         "price": 144.45,
         "last_updated": "2026-05-04T06:23:04.907Z"
+    },
+    {
+        "id": "ecdbc951-5343-4194-a669-a03a18f08913",
+        "name": "Corsair iCUE LINK QX140 140mm Black ARGB",
+        "variant": "140mm Black",
+        "amazon_sku": "B0C64WFQGC",
+        "clean_name": "Corsair iCUE LINK QX140 Black",
+        "size": 140,
+        "quantity": 1,
+        "pwm": true,
+        "led": "Addressable RGB",
+        "connector": "Proprietary PWM",
+        "controller": "USB",
+        "flow_direction": "Standard",
+        "is_oem": false,
+        "min_airflow": 12.1,
+        "max_airflow": 82.5,
+        "min_noise_level": 10,
+        "max_noise_level": 37,
+        "static_pressure": 3.5,
+        "color": [
+            "BLACK",
+            "RGB"
+        ],
+        "fan_size": "140mm",
+        "features": "ARGB"
     },
     {
         "id": "b13ec292-a382-4e94-b94c-5fed55aa70cb",
@@ -1902,32 +1954,6 @@
         "features": "PWM, ARGB"
     },
     {
-        "id": "9d15aa15-9d78-4992-b592-3e8cbb8028ca",
-        "name": "Corsair iCUE LINK QX120 RGB 120mm RGB PWM Black",
-        "variant": "120mm Black",
-        "amazon_sku": "B0C64SZQHN",
-        "clean_name": "Corsair iCUE LINK QX120 Black",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "connector": "Proprietary PWM",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": false,
-        "min_airflow": 16.44,
-        "max_airflow": 63.1,
-        "min_noise_level": 10,
-        "max_noise_level": 37,
-        "static_pressure": 3.8,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "fan_size": "120mm",
-        "features": "RGB, PWM"
-    },
-    {
         "id": "3c696698-18cc-42ef-85d0-6ff6bcbf4015",
         "name": "Gigabyte AORUS 120 ARGB 120mm Black ARGB PWM 40.85 CFM",
         "variant": "120mm Black",
@@ -2278,6 +2304,32 @@
         "features": "PWM, RGB"
     },
     {
+        "id": "b494adc6-6197-4807-b2fc-38804efc3fb1",
+        "name": "NZXT F120 RGB Core 120mm White ARGB",
+        "variant": "Core",
+        "amazon_sku": "B0BYN32YCB",
+        "clean_name": "NZXT F120 Core White A",
+        "size": 120,
+        "quantity": 1,
+        "pwm": true,
+        "led": "RGB",
+        "connector": "4-pin PWM + 4-pin 12V RGB",
+        "controller": "None",
+        "flow_direction": "Standard",
+        "is_oem": false,
+        "min_airflow": 13.94,
+        "max_airflow": 50.18,
+        "min_noise_level": 17.2,
+        "max_noise_level": 27.5,
+        "static_pressure": 2.57,
+        "color": [
+            "WHITE",
+            "RGB"
+        ],
+        "fan_size": "120mm",
+        "features": "RGB, ARGB"
+    },
+    {
         "id": "9dbe0664-d69f-471b-8c66-26ab4c65ce2e",
         "name": "NZXT F120Q (2022) 64 CFM 120mm Black PWM 1-Pack",
         "variant": "",
@@ -2357,7 +2409,7 @@
     {
         "id": "20b8af33-17ff-4658-aa26-e24be227cdd8",
         "name": "NZXT F120P (2022) 120mm White PWM 78.02 CFM",
-        "variant": "120mm White",
+        "variant": "2022",
         "amazon_sku": "B0B1L7N9VL",
         "clean_name": "NZXT F120P (2022) White",
         "size": 120,
@@ -3119,10 +3171,10 @@
     },
     {
         "id": "31584475-0c30-453a-af17-c2a84b4568b8",
-        "name": "Corsair RS120 120mm Black PWM ARGB 72.8 CFM 3-Pack",
+        "name": "Corsair RS120 120mm Black ARGB ",
         "variant": "120mm Black",
-        "amazon_sku": "B0D49Q4CGM",
-        "clean_name": "Corsair RS120 Black 3-Pack",
+        "amazon_sku": "B0D49NN28D",
+        "clean_name": "Corsair RS120 Black",
         "size": 120,
         "quantity": 3,
         "pwm": true,
@@ -3137,11 +3189,11 @@
         "max_noise_level": 36,
         "static_pressure": 4.15,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ],
         "fan_size": "120mm",
-        "airflow": "72.8 CFM",
-        "features": "PWM, ARGB"
+        "features": "ARGB"
     },
     {
         "id": "3b4d837a-fd0c-4f79-8cd0-7d2b4238ff0f",
@@ -3401,7 +3453,7 @@
     {
         "id": "c7e0234b-96c0-42d5-9e59-ce5de7fa40ac",
         "name": "NZXT F120 120mm White Addressable RGB PWM 50.18 CFM 1-Pack",
-        "variant": "120mm White",
+        "variant": "",
         "amazon_sku": "B0B1LY84DW",
         "clean_name": "NZXT F120 White Addressable 1-Pack",
         "size": 120,
@@ -4393,32 +4445,6 @@
         "features": "RGB, PWM"
     },
     {
-        "id": "fced80b4-87e2-4da2-88a1-c452f92518b8",
-        "name": "Corsair RS120 120mm Black 72.8 CFM PWM 1-Pack",
-        "variant": "120mm Black",
-        "amazon_sku": "B0D49L67NS",
-        "clean_name": "Corsair RS120 Black 1-Pack",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "None",
-        "connector": "4-pin PWM",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": false,
-        "min_airflow": 13.3,
-        "max_airflow": 72.8,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "static_pressure": 4.15,
-        "color": [
-            "BLACK"
-        ],
-        "fan_size": "120mm",
-        "airflow": "72.8 CFM",
-        "features": "PWM"
-    },
-    {
         "id": "d3c721c2-58c4-4a9e-8173-1b32188ae039",
         "name": "Corsair iCUE LINK RX120 MAX 120mm Black RGB PWM 3-Pack",
         "variant": "120mm Black",
@@ -4623,10 +4649,10 @@
     },
     {
         "id": "34b7c6ed-7116-4240-be16-8daab7fa17ec",
-        "name": "Noctua NF-A14x25 G2 140mm chromax.black PWM ",
+        "name": "Noctua NF-A14x25 G2 chromax 140mm Black",
         "variant": "140mm Black",
         "amazon_sku": "B0FXGGFGBF",
-        "clean_name": "Noctua NF-A14x25 G2 chromax.black",
+        "clean_name": "Noctua NF-A14x25 G2 chromax Black",
         "size": 140,
         "quantity": 1,
         "pwm": true,
@@ -4643,8 +4669,7 @@
         "color": [
             "BLACK"
         ],
-        "fan_size": "140mm",
-        "features": "PWM"
+        "fan_size": "140mm"
     },
     {
         "id": "cb461871-c123-470e-9a96-527a0167c103",
@@ -4892,8 +4917,8 @@
     },
     {
         "id": "59ee598c-e174-4115-93df-88caa299759b",
-        "name": "NZXT F120 120mm Black Addressable RGB PWM 50.18 CFM",
-        "variant": "120mm Black",
+        "name": "NZXT F120 Black Addressable RGB PWM 50.18 CFM",
+        "variant": "",
         "amazon_sku": "B0B1LCHW1N",
         "clean_name": "NZXT F120 Black Addressable",
         "size": 120,
@@ -4912,7 +4937,6 @@
         "color": [
             "BLACK"
         ],
-        "fan_size": "120mm",
         "airflow": "50.18 CFM",
         "features": "RGB, PWM"
     },
@@ -5018,6 +5042,32 @@
         "features": "PWM"
     },
     {
+        "id": "251cbdf8-4f29-4caf-94e2-206e2ccb689e",
+        "name": "Corsair RS120 120mm Black ARGB PWM 72.8 CFM 1-Pack",
+        "variant": "120mm Black",
+        "amazon_sku": "B0D49P43QP",
+        "clean_name": "Corsair RS120 Black 1-Pack",
+        "size": 120,
+        "quantity": 1,
+        "pwm": true,
+        "led": "Addressable RGB",
+        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+        "controller": "None",
+        "flow_direction": "Standard",
+        "is_oem": false,
+        "min_airflow": 13.3,
+        "max_airflow": 72.8,
+        "min_noise_level": 10,
+        "max_noise_level": 36,
+        "static_pressure": 4.15,
+        "color": [
+            "BLACK"
+        ],
+        "fan_size": "120mm",
+        "airflow": "72.8 CFM",
+        "features": "ARGB, PWM"
+    },
+    {
         "id": "6e410428-1325-400d-9378-3ecbac90b022",
         "name": "Iceberg Thermal IceGALE Silent 120mm Black / Blue Silent PWM 55 CFM 3-Pack",
         "variant": "120mm Black / Blue",
@@ -5115,6 +5165,32 @@
             "BLACK"
         ],
         "features": "ARGB"
+    },
+    {
+        "id": "1ad03e5a-b5fe-4b69-8840-7a861aed0447",
+        "name": "Corsair RS120 120mm PWM 72.8 CFM Black 3-Pack",
+        "variant": "120mm Black",
+        "amazon_sku": "B0D49QX74S",
+        "clean_name": "Corsair RS120 Black 3-Pack",
+        "size": 120,
+        "quantity": 3,
+        "pwm": true,
+        "led": "None",
+        "connector": "4-pin PWM",
+        "controller": "None",
+        "flow_direction": "Standard",
+        "is_oem": false,
+        "min_airflow": 13.3,
+        "max_airflow": 72.8,
+        "min_noise_level": 10,
+        "max_noise_level": 36,
+        "static_pressure": 4.15,
+        "color": [
+            "BLACK"
+        ],
+        "fan_size": "120mm",
+        "airflow": "72.8 CFM",
+        "features": "PWM"
     },
     {
         "id": "353bf613-b4ee-40a3-9ace-9f533da32316",
@@ -5821,32 +5897,6 @@
         "last_updated": "2026-05-04T06:38:33.603Z"
     },
     {
-        "id": "e2f990bb-e3a3-4fec-ae5f-5643300d70f5",
-        "name": "Lian Li UNI FAN TL LCD 140mm Black",
-        "variant": "140mm Black",
-        "amazon_sku": "‎ B0DY7SQWDR",
-        "clean_name": "Lian Li UNI TL LCD Black",
-        "size": 140,
-        "quantity": 1,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": false,
-        "min_airflow": 0,
-        "max_airflow": 64,
-        "min_noise_level": 0,
-        "max_noise_level": 29.4,
-        "static_pressure": 3.5,
-        "color": [
-            "BLACK"
-        ],
-        "fan_size": "140mm",
-        "price": 211.92,
-        "last_updated": "2026-04-30T07:24:38.788Z"
-    },
-    {
         "id": "bf039697-7e15-4940-a852-4fe2e9e8e01b",
         "name": "Iceberg Thermal IceGALE Xtra 127 CFM 120mm Gray PWM 3-Pack",
         "variant": "120mm Gray",
@@ -6092,31 +6142,6 @@
         ],
         "fan_size": "140mm",
         "airflow": "102.9 CFM",
-        "features": "RGB, PWM"
-    },
-    {
-        "id": "32941a95-2d7c-4a67-84e2-b2821757406b",
-        "name": "Lian Li Uni Fan SL-Infinity 120mm White RGB PWM",
-        "variant": "120mm White",
-        "amazon_sku": "B0B4SJVQKY",
-        "clean_name": "Lian Li Uni SL-Infinity White",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "Addressable RGB",
-        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": false,
-        "min_airflow": 0,
-        "max_airflow": 61.3,
-        "min_noise_level": 0,
-        "max_noise_level": 29,
-        "static_pressure": 2.66,
-        "color": [
-            "WHITE"
-        ],
-        "fan_size": "120mm",
         "features": "RGB, PWM"
     },
     {
@@ -7229,7 +7254,7 @@
     {
         "id": "1b830871-0f40-44ba-b403-b1435e8d3266",
         "name": "NZXT F120P (2022) 120mm Black PWM",
-        "variant": "120mm Black",
+        "variant": "2022",
         "amazon_sku": "B0B1LMGJYN",
         "clean_name": "NZXT F120P (2022) Black",
         "size": 120,
