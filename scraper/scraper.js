@@ -99,14 +99,6 @@ const UNAVAILABLE_RECHECK_DAYS = 3;
                 continue;
             }
 
-            const skipped = products.length - todo.length;
-            console.log(`\n==========================================`);
-            console.log(`  Category: ${category}`);
-            console.log(
-                `  Total: ${products.length} | Todo: ${todo.length} | Skipped (N/A): ${skipped} | Workers: ${CONCURRENCY}`
-            );
-            console.log(`==========================================\n`);
-
             const todo = products.filter(p => {
                 if (p.available === false && p.last_updated) {
                     const ageDays = (Date.now() - new Date(p.last_updated)) / 86400000;
@@ -114,6 +106,13 @@ const UNAVAILABLE_RECHECK_DAYS = 3;
                 }
                 return true;
             });
+            const skipped = products.length - todo.length;
+            console.log(`\n==========================================`);
+            console.log(`  Category: ${category}`);
+            console.log(
+                `  Total: ${products.length} | Todo: ${todo.length} | Skipped (N/A): ${skipped} | Workers: ${CONCURRENCY}`
+            );
+            console.log(`==========================================\n`);
             let okCount = 0;
             let failCount = 0;
             const queue = [...todo];
