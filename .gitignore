@@ -3,7 +3,11 @@ node_modules/
 .claudeignore
 CLAUDE.md
 
+__pycache__/
+*.pyc
+
 # Scraper debug / test artifacts
+scraper/test-screenshots/
 scraper-test.log
 scraper-test.err
 scraper/search.html
