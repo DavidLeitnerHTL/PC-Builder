@@ -34,10 +34,11 @@ const ALL_CATEGORIES = [
     "OS",
 ];
 
-const CONCURRENCY = 3;
-const MIN_DELAY_MS = 2000;
-const MAX_DELAY_MS = 6000;
+const CONCURRENCY = 4;
+const MIN_DELAY_MS = 1500;
+const MAX_DELAY_MS = 3500;
 const MAX_RETRIES = 3;
+const UNAVAILABLE_RECHECK_DAYS = 3;
 
 // ==========================================
 // MAIN ENTRY POINT
@@ -98,14 +99,21 @@ const MAX_RETRIES = 3;
                 continue;
             }
 
+            const skipped = products.length - todo.length;
             console.log(`\n==========================================`);
             console.log(`  Category: ${category}`);
             console.log(
-                `  Total: ${products.length} | Workers: ${CONCURRENCY}`
+                `  Total: ${products.length} | Todo: ${todo.length} | Skipped (N/A): ${skipped} | Workers: ${CONCURRENCY}`
             );
             console.log(`==========================================\n`);
 
-            const todo = [...products];
+            const todo = products.filter(p => {
+                if (p.available === false && p.last_updated) {
+                    const ageDays = (Date.now() - new Date(p.last_updated)) / 86400000;
+                    return ageDays > UNAVAILABLE_RECHECK_DAYS;
+                }
+                return true;
+            });
             let okCount = 0;
             let failCount = 0;
             const queue = [...todo];
