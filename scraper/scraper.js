@@ -33,7 +33,7 @@ const ALL_CATEGORIES = [
     "OS",
 ];
 
-const CONCURRENCY = 6;
+const CONCURRENCY = 3;
 const MIN_DELAY_MS = 2000;
 const MAX_DELAY_MS = 6000;
 const MAX_RETRIES = 3;

@@ -16,6 +16,7 @@ jobs:
     # Must run on your home PC (residential IP) — GitHub-hosted runners
     # are on Azure IPs that Amazon permanently blocks with captcha.
     runs-on: self-hosted
+    timeout-minutes: 300
     permissions:
       contents: write
 
@@ -34,7 +35,7 @@ jobs:
         working-directory: scraper
         shell: bash
         # Empty category string → process.argv[2] is '' → '' || null = null → all categories
-        run: node scraper.js "${{ github.event.inputs.category }}"
+        run: node --max-old-space-size=512 scraper.js "${{ github.event.inputs.category }}"
 
       - name: Commit and push updated prices
         shell: bash
