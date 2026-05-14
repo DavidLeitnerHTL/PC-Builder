@@ -1,5 +1,24 @@
 [
     {
+        "id": "2bea72f6-edc2-461b-960b-7f5ff6dab83b",
+        "name": "Aerocool Cylon 4 Air 52.5 CFM 155mm Black",
+        "variant": "Black",
+        "amazon_sku": "B092JV7DKH",
+        "clean_name": "Aerocool Cylon 4 Air 52.5 CFM Black",
+        "cooler_type": false,
+        "radiator_size": "155mm",
+        "height": 155,
+        "min_fan_rpm": 800,
+        "max_fan_rpm": 1800,
+        "min_noise_level": 14,
+        "max_noise_level": 26,
+        "color": [
+            "BLACK"
+        ],
+        "price": 37.21,
+        "last_updated": "2026-05-13T09:00:12.373Z"
+    },
+    {
         "id": "ae9af83a-ba69-46ad-b248-c46afddd8a44",
         "name": "AORUS LIQUID COOLER 280",
         "variant": "LIQUID COOLER 280",
@@ -13,8 +32,8 @@
         "min_noise_level": 22.3,
         "max_noise_level": 44.5,
         "color": [],
-        "price": 62.29,
-        "last_updated": "2026-05-04T06:29:17.716Z"
+        "price": 253.21,
+        "last_updated": "2026-05-13T08:36:59.241Z"
     },
     {
         "id": "ead0cdff-b60e-489c-904d-e6d36dafff11",
@@ -30,8 +49,8 @@
         "min_noise_level": 29.7,
         "max_noise_level": 29.7,
         "color": [],
-        "price": 255.48,
-        "last_updated": "2026-04-30T07:04:21.918Z"
+        "price": 213.12,
+        "last_updated": "2026-05-13T08:37:03.700Z"
     },
     {
         "id": "70b6d756-4411-41ad-86a1-1f1e124c8a90",
@@ -47,8 +66,8 @@
         "min_noise_level": 19.8,
         "max_noise_level": 40.5,
         "color": [],
-        "price": 249,
-        "last_updated": "2026-05-04T06:42:15.350Z"
+        "price": 116.05,
+        "last_updated": "2026-05-13T08:37:37.366Z"
     },
     {
         "id": "e6654154-2082-4a02-8a84-d9fe71d7be1c",
@@ -66,8 +85,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 139.88,
-        "last_updated": "2026-04-30T07:33:50.959Z"
+        "price": 27.13,
+        "last_updated": "2026-05-13T08:37:41.726Z"
     },
     {
         "id": "3954c797-32e5-44b9-9103-2027135d4a68",
@@ -85,8 +104,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 29.33,
-        "last_updated": "2026-05-04T06:24:48.546Z"
+        "price": 50.41,
+        "last_updated": "2026-05-13T08:38:35.893Z"
     },
     {
         "id": "02cf116c-c99e-4943-a244-06d15b7d4e64",
@@ -104,8 +123,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 88.15,
-        "last_updated": "2026-05-04T07:08:13.769Z"
+        "price": 80.58,
+        "last_updated": "2026-05-13T08:38:18.699Z"
     },
     {
         "id": "dd9fe19d-9fcb-449c-ab4a-0998c585e61b",
@@ -123,8 +142,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 159.47,
-        "last_updated": "2026-04-30T06:20:08.362Z"
+        "price": 172.33,
+        "last_updated": "2026-05-13T08:38:39.707Z"
     },
     {
         "id": "693134bf-8d44-4551-b8ff-f33de87f8faa",
@@ -143,8 +162,8 @@
             "WHITE",
             "RGB"
         ],
-        "price": 144.45,
-        "last_updated": "2026-05-04T06:53:39.634Z"
+        "price": 200.57,
+        "last_updated": "2026-05-13T08:38:51.803Z"
     },
     {
         "id": "98a82ab4-5e47-4fa5-bd5e-56347d90d6c1",
@@ -162,8 +181,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 96.55,
-        "last_updated": "2026-05-04T06:29:08.188Z"
+        "price": 80.49,
+        "last_updated": "2026-05-13T08:39:33.422Z"
     },
     {
         "id": "2ddd19c1-a996-41d1-b464-dc7d1560f6f9",
@@ -181,46 +200,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 142.04,
-        "last_updated": "2026-04-30T07:39:36.848Z"
-    },
-    {
-        "id": "8d3f0132-a0ff-4d08-aa5e-f3b860d639cf",
-        "name": "Gigabyte AORUS WATERFORCE X II 240 Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CPQ8V6LM",
-        "clean_name": "Gigabyte AORUS WATERFORCE X II 240 Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 78,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2400,
-        "min_noise_level": 12,
-        "max_noise_level": 37.5,
-        "color": [
-            "BLACK"
-        ],
-        "price": 871.19,
-        "last_updated": "2026-04-30T07:37:07.734Z"
-    },
-    {
-        "id": "0a372c62-2c2f-4356-86fe-e4b3456d556c",
-        "name": "Gigabyte GAMING 360 61.61 CFM Water 360mm 61.61 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0DZFFMRTS",
-        "clean_name": "Gigabyte GAMING 360 61.61 CFM Water 61.61 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 63,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2200,
-        "min_noise_level": 13.8,
-        "max_noise_level": 35.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 1037.74,
-        "last_updated": "2026-04-30T06:50:45.148Z"
+        "price": 146.11,
+        "last_updated": "2026-05-13T08:39:24.374Z"
     },
     {
         "id": "c202fd44-72e0-446e-a289-247962f900b3",
@@ -238,8 +219,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 68.52,
-        "last_updated": "2026-04-30T06:24:38.959Z"
+        "price": 69.06,
+        "last_updated": "2026-05-13T08:39:36.407Z"
     },
     {
         "id": "77339c05-5c8e-40dc-850b-98f5e1c5e14f",
@@ -257,8 +238,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 96.55,
-        "last_updated": "2026-05-04T06:33:10.452Z"
+        "price": 80.57,
+        "last_updated": "2026-05-13T08:39:55.403Z"
     },
     {
         "id": "5e9a89e1-c8f8-4573-acd0-c59a453bb96e",
@@ -276,8 +257,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 123.86,
-        "last_updated": "2026-04-30T07:12:43.302Z"
+        "price": 106.74,
+        "last_updated": "2026-05-13T08:39:51.379Z"
     },
     {
         "id": "39e8fb87-b8f2-4091-bf1a-5744f48c61b9",
@@ -295,8 +276,8 @@
         "color": [
             "BROWN"
         ],
-        "price": 114.11,
-        "last_updated": "2026-05-04T06:38:41.645Z"
+        "price": 50.32,
+        "last_updated": "2026-05-13T08:40:07.618Z"
     },
     {
         "id": "4b2062af-459c-4c3a-b6ac-f675ac8a5b8a",
@@ -314,8 +295,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 142.69,
-        "last_updated": "2026-05-04T06:22:46.075Z"
+        "price": 70.49,
+        "last_updated": "2026-05-13T08:40:14.644Z"
     },
     {
         "id": "c4066d39-4079-43dd-b07e-ca88cb2b649c",
@@ -331,8 +312,8 @@
         "min_noise_level": 19.2,
         "max_noise_level": 24.6,
         "color": [],
-        "price": 531,
-        "last_updated": "2026-05-05T06:25:02.045Z"
+        "price": 90.66,
+        "last_updated": "2026-05-13T08:40:48.354Z"
     },
     {
         "id": "1d83f6d2-f062-4301-8ae1-0beb34f513e8",
@@ -350,8 +331,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 96.55,
-        "last_updated": "2026-05-04T07:20:46.523Z"
+        "price": 138.58,
+        "last_updated": "2026-05-13T08:40:50.620Z"
     },
     {
         "id": "bdaac34d-ebf3-44fd-8fec-e51b0fa4715a",
@@ -370,8 +351,8 @@
             "RED",
             "BLACK"
         ],
-        "price": 9.16,
-        "last_updated": "2026-05-04T07:18:42.611Z"
+        "price": 7.01,
+        "last_updated": "2026-05-13T08:41:15.606Z"
     },
     {
         "id": "616e9df9-850d-4ee8-9289-2905ec222ff8",
@@ -390,8 +371,8 @@
             "RED",
             "BLACK"
         ],
-        "price": 9.16,
-        "last_updated": "2026-05-04T06:33:50.988Z"
+        "price": 16.08,
+        "last_updated": "2026-05-13T08:41:13.467Z"
     },
     {
         "id": "5ebd83a7-5693-4cac-8e9d-031cd1a2b7b4",
@@ -410,8 +391,8 @@
             "RED",
             "BLACK"
         ],
-        "price": 9.16,
-        "last_updated": "2026-05-04T07:04:08.185Z"
+        "price": 17.04,
+        "last_updated": "2026-05-13T08:41:32.750Z"
     },
     {
         "id": "210ae193-1a3c-4f34-be96-0f3497bde66a",
@@ -430,8 +411,8 @@
             "RED",
             "BLACK"
         ],
-        "price": 249,
-        "last_updated": "2026-05-04T06:24:18.581Z"
+        "price": 84.6,
+        "last_updated": "2026-05-13T08:41:40.375Z"
     },
     {
         "id": "d98f1cc4-b06d-45e5-bd9d-51312a1d11e7",
@@ -449,8 +430,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 78.41,
-        "last_updated": "2026-04-30T06:53:54.524Z"
+        "price": 80.66,
+        "last_updated": "2026-05-13T08:41:48.275Z"
     },
     {
         "id": "0712be57-eafe-4a0a-a76b-053941088860",
@@ -465,8 +446,8 @@
         "min_noise_level": 36.45,
         "max_noise_level": 36.45,
         "color": [],
-        "price": 481.87,
-        "last_updated": "2026-04-30T06:31:43.653Z"
+        "price": 485.4,
+        "last_updated": "2026-05-13T08:41:55.259Z"
     },
     {
         "id": "306567ae-4b86-4829-95ff-53c21f917a8e",
@@ -483,8 +464,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 481.87,
-        "last_updated": "2026-04-30T06:26:54.345Z"
+        "price": 485.4,
+        "last_updated": "2026-05-13T08:41:57.830Z"
     },
     {
         "id": "9dd074e5-3093-4b2c-a704-78d011dcee8f",
@@ -501,8 +482,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 459.22,
-        "last_updated": "2026-04-30T06:35:22.337Z"
+        "price": 462.06,
+        "last_updated": "2026-05-13T08:42:10.872Z"
     },
     {
         "id": "c97abd04-0b50-4bb7-a541-d71432a85404",
@@ -519,8 +500,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 459.22,
-        "last_updated": "2026-04-30T07:06:08.979Z"
+        "price": 126.23,
+        "last_updated": "2026-05-13T08:42:12.971Z"
     },
     {
         "id": "b1432886-1b14-4d21-af83-26a5585701ae",
@@ -537,8 +518,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 18.91,
-        "last_updated": "2026-05-05T06:44:40.808Z"
+        "price": 88.29,
+        "last_updated": "2026-05-13T08:43:07.842Z"
     },
     {
         "id": "807fab83-61a7-488d-a259-ddcda46037eb",
@@ -555,8 +536,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 96.55,
-        "last_updated": "2026-05-04T07:20:42.643Z"
+        "price": 110.82,
+        "last_updated": "2026-05-13T08:42:59.287Z"
     },
     {
         "id": "1397bbab-fcb5-4bb2-9261-d60e56929fd2",
@@ -573,8 +554,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 96.55,
-        "last_updated": "2026-05-04T06:45:40.968Z"
+        "price": 105.77,
+        "last_updated": "2026-05-13T08:43:15.278Z"
     },
     {
         "id": "ac319df9-4f44-414c-a4a7-6ceea30bad04",
@@ -591,8 +572,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 161.89,
-        "last_updated": "2026-05-04T06:49:13.526Z"
+        "price": 24.49,
+        "last_updated": "2026-05-13T08:43:31.572Z"
     },
     {
         "id": "b44cabee-4c53-4c62-8b7c-c605a5b4ec70",
@@ -610,8 +591,8 @@
             "WHITE",
             "ORANGE"
         ],
-        "price": 168.06,
-        "last_updated": "2026-05-04T06:59:45.103Z"
+        "price": 53.54,
+        "last_updated": "2026-05-13T08:43:32.183Z"
     },
     {
         "id": "0560a23c-542b-4217-9cbd-9c6a1b7851db",
@@ -628,8 +609,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 644.74,
-        "last_updated": "2026-04-30T06:42:14.362Z"
+        "price": 110.93,
+        "last_updated": "2026-05-13T08:43:51.705Z"
     },
     {
         "id": "39f3097c-c570-4e40-890a-33cc3c98d4e2",
@@ -646,26 +627,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 232.92,
-        "last_updated": "2026-04-30T07:02:40.083Z"
-    },
-    {
-        "id": "e4d0abe3-01b2-47e9-868f-657678275963",
-        "name": "Cooler Master MasterLiquid 360 Atmos Black",
-        "variant": "Atmos 360mm",
-        "amazon_sku": "‎B0CFB956LP",
-        "clean_name": "Cooler Master MasterLiquid 360 Atmos Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 53,
-        "min_fan_rpm": 690,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 27.2,
-        "color": [
-            "BLACK"
-        ],
-        "price": 394.35,
-        "last_updated": "2026-04-30T06:15:30.166Z"
+        "price": 100.84,
+        "last_updated": "2026-05-13T08:43:44.251Z"
     },
     {
         "id": "267d7edb-7797-43cd-b840-155d384c33c8",
@@ -682,8 +645,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 249,
-        "last_updated": "2026-05-04T06:30:27.650Z"
+        "price": 24.49,
+        "last_updated": "2026-05-13T08:44:19.237Z"
     },
     {
         "id": "f92305cc-5a94-4ff8-8cac-254e4d3cdbd5",
@@ -700,8 +663,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 64.04,
-        "last_updated": "2026-05-04T06:34:11.736Z"
+        "price": 442.6,
+        "last_updated": "2026-05-13T08:44:31.394Z"
     },
     {
         "id": "64fd1dc8-0041-457a-9b71-c52cb3ea5f2b",
@@ -718,8 +681,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 284.5,
-        "last_updated": "2026-04-30T07:10:02.527Z"
+        "price": 100.84,
+        "last_updated": "2026-05-13T08:44:32.845Z"
     },
     {
         "id": "84a5912f-720e-4c63-8b40-80bafa718ea1",
@@ -736,8 +699,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 64.04,
-        "last_updated": "2026-05-04T07:16:09.867Z"
+        "price": 80.66,
+        "last_updated": "2026-05-13T08:44:58.626Z"
     },
     {
         "id": "7151d79b-d8a5-4236-9843-d73768bf5f1c",
@@ -754,8 +717,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 121.76,
-        "last_updated": "2026-05-04T06:36:06.317Z"
+        "price": 110.93,
+        "last_updated": "2026-05-13T08:44:48.778Z"
     },
     {
         "id": "f1042593-5f79-405e-96f9-572e9b884ca6",
@@ -772,8 +735,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 144.45,
-        "last_updated": "2026-05-04T06:50:33.792Z"
+        "price": 50.32,
+        "last_updated": "2026-05-13T08:45:47.634Z"
     },
     {
         "id": "3dbed72d-1dda-41c9-b7dd-c8e14fffa995",
@@ -790,8 +753,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 96.55,
-        "last_updated": "2026-05-04T07:15:21.209Z"
+        "price": 231.94,
+        "last_updated": "2026-05-13T08:45:49.285Z"
     },
     {
         "id": "4fd501b4-be04-4fb4-879f-63896ade832c",
@@ -808,8 +771,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 121.76,
-        "last_updated": "2026-05-04T06:53:50.651Z"
+        "price": 354.79,
+        "last_updated": "2026-05-13T08:46:56.851Z"
     },
     {
         "id": "63dda3ac-109c-435b-b93a-571077911595",
@@ -826,8 +789,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 334.45,
-        "last_updated": "2026-05-04T06:51:39.847Z"
+        "price": 403.36,
+        "last_updated": "2026-05-13T08:46:53.404Z"
     },
     {
         "id": "83a49ef9-ae8c-4d88-83fc-45a8eb75f933",
@@ -844,8 +807,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 121.76,
-        "last_updated": "2026-05-04T07:09:12.248Z"
+        "price": 403.36,
+        "last_updated": "2026-05-13T08:47:28.869Z"
     },
     {
         "id": "73e60e46-dd95-4806-ac10-44e56d5056f3",
@@ -863,8 +826,8 @@
             "WHITE",
             "GREY"
         ],
-        "price": 144.45,
-        "last_updated": "2026-05-04T06:22:23.709Z"
+        "price": 100.74,
+        "last_updated": "2026-05-13T08:47:56.341Z"
     },
     {
         "id": "a6b9ad72-a810-4d3f-b75d-08e858c8d2ab",
@@ -881,8 +844,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 144.45,
-        "last_updated": "2026-05-04T07:24:09.489Z"
+        "price": 354.79,
+        "last_updated": "2026-05-13T08:47:55.555Z"
     },
     {
         "id": "9f7facad-b554-4df9-952d-b54b0e2ce325",
@@ -899,8 +862,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 637.75,
-        "last_updated": "2026-04-30T06:20:55.386Z"
+        "price": 412.34,
+        "last_updated": "2026-05-13T08:48:54.006Z"
     },
     {
         "id": "bba886ef-4cb5-48e1-b963-c2a2097c4e41",
@@ -917,8 +880,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 88.15,
-        "last_updated": "2026-05-04T06:51:05.935Z"
+        "price": 187.94,
+        "last_updated": "2026-05-13T08:48:32.474Z"
     },
     {
         "id": "af9bf004-ada9-4120-acdf-cd0ed254b625",
@@ -935,8 +898,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 96.46,
-        "last_updated": "2026-05-04T06:56:58.247Z"
+        "price": 176.36,
+        "last_updated": "2026-05-13T08:49:16.101Z"
     },
     {
         "id": "ce6b5b52-250f-4bc8-bae5-5439f32a533b",
@@ -953,8 +916,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 102.83,
-        "last_updated": "2026-04-30T06:37:19.840Z"
+        "price": 80.57,
+        "last_updated": "2026-05-13T08:49:27.096Z"
     },
     {
         "id": "a2080f57-2202-4259-9e8d-75b9603719ec",
@@ -971,8 +934,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 249,
-        "last_updated": "2026-05-04T06:22:45.535Z"
+        "price": 88.51,
+        "last_updated": "2026-05-13T08:49:44.501Z"
     },
     {
         "id": "7622365f-37d9-4ad7-b9be-9223f2fec593",
@@ -989,8 +952,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 112.52,
-        "last_updated": "2026-04-30T06:18:13.230Z"
+        "price": 115.75,
+        "last_updated": "2026-05-13T08:49:54.469Z"
     },
     {
         "id": "72652c64-2fca-4517-94ee-8f82492ab7c7",
@@ -1007,8 +970,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 112.63,
-        "last_updated": "2026-04-30T06:16:43.203Z"
+        "price": 115.86,
+        "last_updated": "2026-05-13T08:50:07.987Z"
     },
     {
         "id": "094ed36f-740b-4453-8dd6-3bf877a7d7ce",
@@ -1025,8 +988,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 249,
-        "last_updated": "2026-05-04T06:48:14.054Z"
+        "price": 63.88,
+        "last_updated": "2026-05-13T08:50:15.537Z"
     },
     {
         "id": "25d4fac7-8c40-44f8-91bf-1d40b3a92547",
@@ -1043,8 +1006,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 142.69,
-        "last_updated": "2026-05-04T06:27:27.936Z"
+        "price": 126.04,
+        "last_updated": "2026-05-13T08:51:19.882Z"
     },
     {
         "id": "7611e2d6-28ad-4f52-b009-917ca620e302",
@@ -1061,8 +1024,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 531,
-        "last_updated": "2026-05-04T07:00:42.527Z"
+        "price": 126.23,
+        "last_updated": "2026-05-13T08:51:19.896Z"
     },
     {
         "id": "1bc34854-d6c9-41ef-aee0-f8b16e9253ba",
@@ -1079,8 +1042,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 278.65,
-        "last_updated": "2026-05-05T06:24:49.882Z"
+        "price": 24.19,
+        "last_updated": "2026-05-13T08:51:44.721Z"
     },
     {
         "id": "6038081b-a0dc-4a0a-9721-7e89d482cf07",
@@ -1097,8 +1060,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 278.65,
-        "last_updated": "2026-05-05T06:41:21.254Z"
+        "price": 44.65,
+        "last_updated": "2026-05-13T08:51:43.370Z"
     },
     {
         "id": "27e18966-68d7-4ce0-9960-f6e8bec1c766",
@@ -1115,8 +1078,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 92.35,
-        "last_updated": "2026-05-04T07:22:39.299Z"
+        "price": 100.74,
+        "last_updated": "2026-05-13T08:52:01.416Z"
     },
     {
         "id": "03486cdf-7c08-4bfb-80a6-690678adc744",
@@ -1133,8 +1096,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 142.69,
-        "last_updated": "2026-05-04T07:07:18.871Z"
+        "price": 37.21,
+        "last_updated": "2026-05-13T08:52:12.159Z"
     },
     {
         "id": "c7c34ec4-aa21-4061-bd5b-7c3be4225618",
@@ -1151,8 +1114,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 375.54,
-        "last_updated": "2026-04-30T07:19:36.173Z"
+        "price": 299.75,
+        "last_updated": "2026-05-13T08:52:33.827Z"
     },
     {
         "id": "14f129bb-f85d-4fd0-a012-8bcbb854db96",
@@ -1169,8 +1132,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 375.54,
-        "last_updated": "2026-04-30T06:30:57.827Z"
+        "price": 299.75,
+        "last_updated": "2026-05-13T08:52:43.437Z"
     },
     {
         "id": "874a10c6-eb43-4fca-a92c-456a95229c3d",
@@ -1187,8 +1150,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 471.83,
-        "last_updated": "2026-04-30T06:46:33.699Z"
+        "price": 520.18,
+        "last_updated": "2026-05-13T08:52:46.078Z"
     },
     {
         "id": "5d16a3da-2edc-45a2-9058-51c8d1646572",
@@ -1205,8 +1168,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 375.54,
-        "last_updated": "2026-04-30T07:34:28.464Z"
+        "price": 299.75,
+        "last_updated": "2026-05-13T08:52:54.188Z"
     },
     {
         "id": "85056d61-b3ab-4a42-8c57-a59c75017f93",
@@ -1223,8 +1186,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 183.93,
-        "last_updated": "2026-05-04T06:56:06.585Z"
+        "price": 92.42,
+        "last_updated": "2026-05-13T08:53:17.458Z"
     },
     {
         "id": "b259c0fd-2a33-4151-8249-304d58804907",
@@ -1241,8 +1204,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 64.04,
-        "last_updated": "2026-05-04T07:08:48.873Z"
+        "price": 135.67,
+        "last_updated": "2026-05-13T08:53:15.940Z"
     },
     {
         "id": "2fb3d749-fbb2-4c0d-9822-29316b9f488d",
@@ -1259,8 +1222,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 64.04,
-        "last_updated": "2026-05-04T07:14:03.142Z"
+        "price": 77.16,
+        "last_updated": "2026-05-13T08:53:55.301Z"
     },
     {
         "id": "47653668-8b43-4d32-9b5b-8873745a018d",
@@ -1277,8 +1240,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 64.04,
-        "last_updated": "2026-05-05T06:38:08.809Z"
+        "price": 57.34,
+        "last_updated": "2026-05-13T08:53:55.550Z"
     },
     {
         "id": "a0c5942f-98ab-4090-bfb7-e700e16f4fd6",
@@ -1295,8 +1258,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 64.04,
-        "last_updated": "2026-05-04T06:54:04.671Z"
+        "price": 131.03,
+        "last_updated": "2026-05-13T08:54:12.899Z"
     },
     {
         "id": "8d721dad-5112-455e-b54c-bcd4418985f1",
@@ -1313,8 +1276,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 632.43,
-        "last_updated": "2026-04-30T06:33:09.708Z"
+        "price": 93,
+        "last_updated": "2026-05-13T08:54:17.252Z"
     },
     {
         "id": "03bea814-1e7f-493f-ad25-a76a3d9c535a",
@@ -1331,8 +1294,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 780.95,
-        "last_updated": "2026-04-30T07:13:33.182Z"
+        "price": 110.92,
+        "last_updated": "2026-05-13T08:54:30.494Z"
     },
     {
         "id": "82cbdac8-da28-47c2-8a97-4fb819a8486e",
@@ -1349,8 +1312,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 114.11,
-        "last_updated": "2026-05-04T07:09:27.839Z"
+        "price": 60.41,
+        "last_updated": "2026-05-13T08:54:36.735Z"
     },
     {
         "id": "0da1d260-bf32-44c0-a165-34905daef666",
@@ -1368,8 +1331,8 @@
             "BLACK",
             "RGB"
         ],
-        "price": 96.55,
-        "last_updated": "2026-05-04T07:20:21.800Z"
+        "price": 109.82,
+        "last_updated": "2026-05-13T08:54:42.023Z"
     },
     {
         "id": "62be088e-810f-4b41-9660-ae129439fdd6",
@@ -1386,8 +1349,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 249,
-        "last_updated": "2026-05-04T06:30:19.689Z"
+        "price": 141,
+        "last_updated": "2026-05-13T08:55:28.388Z"
     },
     {
         "id": "799093c0-3c6f-42ba-905f-c955a4d66347",
@@ -1405,8 +1368,8 @@
             "BLACK",
             "RGB"
         ],
-        "price": 249,
-        "last_updated": "2026-05-04T06:25:43.992Z"
+        "price": 282.25,
+        "last_updated": "2026-05-13T08:55:11.896Z"
     },
     {
         "id": "9828a076-03d8-4750-ad07-dceba4cef233",
@@ -1424,8 +1387,8 @@
             "BLACK",
             "RGB"
         ],
-        "price": 249,
-        "last_updated": "2026-05-04T06:25:58.028Z"
+        "price": 312.9,
+        "last_updated": "2026-05-13T08:55:27.338Z"
     },
     {
         "id": "3916d3dc-9163-49e1-8fc4-d5a4d9410050",
@@ -1443,8 +1406,8 @@
             "BLACK",
             "RGB"
         ],
-        "price": 249,
-        "last_updated": "2026-05-04T06:42:23.338Z"
+        "price": 122.64,
+        "last_updated": "2026-05-13T08:55:49.249Z"
     },
     {
         "id": "40d9d347-f011-41d1-94e4-67a1f7fe793d",
@@ -1462,44 +1425,8 @@
             "WHITE",
             "BLACK"
         ],
-        "price": 344.4,
-        "last_updated": "2026-05-04T06:28:43.964Z"
-    },
-    {
-        "id": "36e32a51-414c-44d5-b2ab-d1dd7ab1aacd",
-        "name": "Phanteks Glacier One D30 X2 72.72 CFM Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0F4QGP9RX",
-        "clean_name": "Phanteks Glacier One D30 X2 72.72 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 66,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 35.13,
-        "color": [
-            "BLACK"
-        ],
-        "price": 249,
-        "last_updated": "2026-05-04T06:47:58.441Z"
-    },
-    {
-        "id": "a5465e59-1289-4df5-9b98-40d62492b7eb",
-        "name": "Phanteks Glacier One D30 X2 Water 360mm 72.72 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0F4QGPFBJ",
-        "clean_name": "Phanteks Glacier One D30 X2 Water 72.72 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 66,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 35.13,
-        "color": [
-            "WHITE"
-        ],
-        "price": 121.76,
-        "last_updated": "2026-05-04T06:59:13.428Z"
+        "price": 142.5,
+        "last_updated": "2026-05-13T08:55:49.367Z"
     },
     {
         "id": "da795975-9edb-48cc-897d-bd5df76b3da1",
@@ -1517,8 +1444,8 @@
             "GREY",
             "BLACK"
         ],
-        "price": 102.53,
-        "last_updated": "2026-04-30T07:19:19.228Z"
+        "price": 15.02,
+        "last_updated": "2026-05-13T08:56:17.763Z"
     },
     {
         "id": "01c2afe0-42a5-45af-979d-385b06f142ed",
@@ -1536,8 +1463,8 @@
             "BLACK",
             "RGB"
         ],
-        "price": 409,
-        "last_updated": "2026-05-05T06:12:50.992Z"
+        "price": 81.31,
+        "last_updated": "2026-05-13T08:56:42.822Z"
     },
     {
         "id": "0f4d54a8-31b6-4aa4-a07c-ac6eaa528247",
@@ -1555,8 +1482,8 @@
             "WHITE",
             "RGB"
         ],
-        "price": 409,
-        "last_updated": "2026-05-05T06:02:08.993Z"
+        "price": 143.66,
+        "last_updated": "2026-05-13T08:56:53.841Z"
     },
     {
         "id": "62a7277e-f6e2-46c7-9b17-b1540ca49585",
@@ -1574,8 +1501,8 @@
             "BLACK",
             "RGB"
         ],
-        "price": 409,
-        "last_updated": "2026-05-05T06:14:45.827Z"
+        "price": 81.31,
+        "last_updated": "2026-05-13T08:57:28.922Z"
     },
     {
         "id": "9d568ae3-fcc7-4afd-8519-f1c7a511a2c6",
@@ -1593,8 +1520,8 @@
             "WHITE",
             "RGB"
         ],
-        "price": 409,
-        "last_updated": "2026-05-05T06:08:27.464Z"
+        "price": 148.49,
+        "last_updated": "2026-05-13T08:57:24.207Z"
     },
     {
         "id": "774a47d4-1fb9-450c-a9dc-b9a58079e3fd",
@@ -1612,8 +1539,8 @@
             "BLACK",
             "RGB"
         ],
-        "price": 77.23,
-        "last_updated": "2026-05-04T06:26:30.526Z"
+        "price": 552.47,
+        "last_updated": "2026-05-13T08:57:43.243Z"
     },
     {
         "id": "94f54c0f-4208-4c51-aef7-a03e8bf27aa0",
@@ -1631,8 +1558,8 @@
             "WHITE",
             "RGB"
         ],
-        "price": 77.23,
-        "last_updated": "2026-05-04T07:00:01.427Z"
+        "price": 143.66,
+        "last_updated": "2026-05-13T08:57:44.328Z"
     },
     {
         "id": "f06d11c6-dbdb-41b6-a472-8bdc914c0084",
@@ -1649,8 +1576,8 @@
         "color": [
             "GREEN"
         ],
-        "price": 249.59,
-        "last_updated": "2026-04-30T06:33:35.803Z"
+        "price": 26.49,
+        "last_updated": "2026-05-13T08:58:03.406Z"
     },
     {
         "id": "06cfccbc-10dc-4375-823b-05914e808675",
@@ -1667,8 +1594,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 9.16,
-        "last_updated": "2026-05-04T06:38:57.103Z"
+        "price": 34.48,
+        "last_updated": "2026-05-13T08:58:04.173Z"
     },
     {
         "id": "441be00d-e43e-401e-a8ab-110bbe714c51",
@@ -1685,8 +1612,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 9.16,
-        "last_updated": "2026-05-04T06:40:49.980Z"
+        "price": 32.17,
+        "last_updated": "2026-05-13T08:58:20.045Z"
     },
     {
         "id": "51948646-b238-4e28-bed1-5648feaa1d7e",
@@ -1703,8 +1630,8 @@
         "color": [
             "WHITE"
         ],
-        "price": 409,
-        "last_updated": "2026-05-05T06:00:44.217Z"
+        "price": 299,
+        "last_updated": "2026-05-13T08:58:22.632Z"
     },
     {
         "id": "2da9af09-a952-42fc-b5e5-e39278481b9e",
@@ -1721,23 +1648,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 70.21,
-        "last_updated": "2026-04-30T06:19:01.159Z"
-    },
-    {
-        "id": "2fe228cd-58ba-47ca-b664-f9ad3dd1af23",
-        "name": "AORUS LIQUID COOLER 360",
-        "variant": "360",
-        "amazon_sku": "B07YZ26VVQ",
-        "clean_name": "AORUS LIQUID COOLER 360",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 2500,
-        "min_noise_level": 18,
-        "max_noise_level": 39.5,
-        "color": [],
-        "price": 167.14,
-        "last_updated": "2026-05-02T05:58:54.432Z"
+        "price": 54.86,
+        "last_updated": "2026-05-13T08:59:15.002Z"
     },
     {
         "id": "5af1ae6a-5972-472d-9e1b-b1e9487dc127",
@@ -1754,8 +1666,8 @@
             "BLACK",
             "GREY"
         ],
-        "price": 121.76,
-        "last_updated": "2026-05-04T06:22:47.606Z"
+        "price": 130.06,
+        "last_updated": "2026-05-13T08:59:15.989Z"
     },
     {
         "id": "f35a4968-798c-4d44-8377-8ab94b5e06f9",
@@ -1771,8 +1683,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 88.15,
-        "last_updated": "2026-05-04T07:13:35.372Z"
+        "price": 91.43,
+        "last_updated": "2026-05-13T08:59:47.081Z"
     },
     {
         "id": "3e1bcc6c-0d0b-45df-b858-4a17d49dd56a",
@@ -1789,8 +1701,8 @@
             "BLACK",
             "GREY"
         ],
-        "price": 88.15,
-        "last_updated": "2026-05-04T06:48:18.909Z"
+        "price": 63.98,
+        "last_updated": "2026-05-13T08:59:44.444Z"
     },
     {
         "id": "03e37343-5a63-4bad-a0ec-90abf06059fd",
@@ -1806,8 +1718,8 @@
         "color": [
             "BLACK"
         ],
-        "price": 459.22,
-        "last_updated": "2026-04-30T06:26:03.032Z"
+        "price": 111.74,
+        "last_updated": "2026-05-13T08:59:57.489Z"
     },
     {
         "id": "ebe7e848-e163-430d-8abf-2024c32582a3",
@@ -1823,7 +1735,99 @@
         "color": [
             "BLACK"
         ],
-        "price": 459.22,
-        "last_updated": "2026-04-30T06:33:53.966Z"
+        "price": 63.83,
+        "last_updated": "2026-05-13T09:00:02.151Z"
+    },
+    {
+        "id": "8d3f0132-a0ff-4d08-aa5e-f3b860d639cf",
+        "name": "Gigabyte AORUS WATERFORCE X II 240 Water 240mm Black",
+        "variant": "Black",
+        "amazon_sku": "B0CPQ8V6LM",
+        "clean_name": "Gigabyte AORUS WATERFORCE X II 240 Water Black",
+        "cooler_type": true,
+        "radiator_size": 240,
+        "height": 78,
+        "min_fan_rpm": 800,
+        "max_fan_rpm": 2400,
+        "min_noise_level": 12,
+        "max_noise_level": 37.5,
+        "color": [
+            "BLACK"
+        ],
+        "available": false,
+        "last_updated": "2026-05-12T20:27:44.832Z"
+    },
+    {
+        "id": "0a372c62-2c2f-4356-86fe-e4b3456d556c",
+        "name": "Gigabyte GAMING 360 61.61 CFM Water 360mm 61.61 CFM Black",
+        "variant": "Black",
+        "amazon_sku": "B0DZFFMRTS",
+        "clean_name": "Gigabyte GAMING 360 61.61 CFM Water 61.61 CFM Black",
+        "cooler_type": true,
+        "radiator_size": 360,
+        "height": 63,
+        "min_fan_rpm": 500,
+        "max_fan_rpm": 2200,
+        "min_noise_level": 13.8,
+        "max_noise_level": 35.8,
+        "color": [
+            "BLACK"
+        ],
+        "available": false,
+        "last_updated": "2026-05-12T20:27:45.543Z"
+    },
+    {
+        "id": "e4d0abe3-01b2-47e9-868f-657678275963",
+        "name": "Cooler Master MasterLiquid 360 Atmos Black",
+        "variant": "Atmos 360mm",
+        "amazon_sku": "‎B0CFB956LP",
+        "clean_name": "Cooler Master MasterLiquid 360 Atmos Black",
+        "cooler_type": true,
+        "radiator_size": 360,
+        "height": 53,
+        "min_fan_rpm": 690,
+        "max_fan_rpm": 2500,
+        "min_noise_level": 27.2,
+        "color": [
+            "BLACK"
+        ],
+        "available": false,
+        "last_updated": "2026-05-12T20:31:08.053Z"
+    },
+    {
+        "id": "36e32a51-414c-44d5-b2ab-d1dd7ab1aacd",
+        "name": "Phanteks Glacier One D30 X2 72.72 CFM Water 360mm Black",
+        "variant": "Black",
+        "amazon_sku": "B0F4QGP9RX",
+        "clean_name": "Phanteks Glacier One D30 X2 72.72 CFM Water Black",
+        "cooler_type": true,
+        "radiator_size": 360,
+        "height": 66,
+        "min_fan_rpm": 250,
+        "max_fan_rpm": 2000,
+        "min_noise_level": 35.13,
+        "color": [
+            "BLACK"
+        ],
+        "available": false,
+        "last_updated": "2026-05-12T20:38:29.175Z"
+    },
+    {
+        "id": "a5465e59-1289-4df5-9b98-40d62492b7eb",
+        "name": "Phanteks Glacier One D30 X2 Water 360mm 72.72 CFM White",
+        "variant": "White",
+        "amazon_sku": "B0F4QGPFBJ",
+        "clean_name": "Phanteks Glacier One D30 X2 Water 72.72 CFM White",
+        "cooler_type": true,
+        "radiator_size": 360,
+        "height": 66,
+        "min_fan_rpm": 250,
+        "max_fan_rpm": 2000,
+        "min_noise_level": 35.13,
+        "color": [
+            "WHITE"
+        ],
+        "available": false,
+        "last_updated": "2026-05-12T20:38:34.592Z"
     }
 ]

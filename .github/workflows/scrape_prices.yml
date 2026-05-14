@@ -2,7 +2,7 @@ name: Daily Price Scraper
 
 on:
   schedule:
-    # Runs at 03:00 UTC daily — 1h after sync_opendb so data is fresh.
+    # Runs at 03:00 UTC daily -- 1h after sync_opendb so data is fresh.
     - cron: '0 3 * * *'
   workflow_dispatch:
     inputs:
@@ -13,7 +13,7 @@ on:
 
 jobs:
   scrape:
-    # Must run on your home PC (residential IP) — GitHub-hosted runners
+    # Must run on your home Pi (residential IP) -- GitHub-hosted runners
     # are on Azure IPs that Amazon permanently blocks with captcha.
     runs-on: self-hosted
     timeout-minutes: 300
@@ -44,8 +44,6 @@ jobs:
         shell: bash
         env:
           PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium
-        # Empty category string → process.argv[2] is '' → '' || null = null → all categories
-        # Scraper commits after each category so partial results survive a crash.
         run: node --max-old-space-size=512 scraper.js "${{ github.event.inputs.category }}"
 
       - name: Push commits
@@ -59,6 +57,6 @@ jobs:
           BRANCH="${{ github.ref_name }}"
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin "$BRANCH" && git push && break
-            echo "Push conflict — retrying in $((attempt * 15))s..."
+            echo "Push conflict -- retrying in $((attempt * 15))s..."
             sleep $((attempt * 15))
           done

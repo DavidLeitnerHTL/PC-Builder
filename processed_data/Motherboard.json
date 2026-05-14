@@ -1,15 +1,27 @@
 [
     {
-        "id": "5cc281a8-dd9a-4c94-9bcb-d541a2eac8c3",
-        "name": "ASRock A520 A520M-ITX/ac AM4 DDR4 Mini ITX",
-        "variant": "M-ITX/ac",
-        "amazon_sku": "B08G1WLVR2",
-        "clean_name": "ASRock A520 A520M-ITX/ac",
+        "id": "61fbb759-611f-43b7-abd1-feea3de0226b",
+        "name": "ASRock A320 A320M-DVS R4.0 AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B07NJ337VW",
+        "clean_name": "ASRock A320 A320M-DVS R4.0",
         "socket": "AM4",
-        "form_factor": "Mini-ITX",
+        "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 81.42,
-        "last_updated": "2026-05-04T07:42:24.023Z"
+        "price": 97.62,
+        "last_updated": "2026-05-13T07:27:06.520Z"
+    },
+    {
+        "id": "6244c472-22bf-4122-8df7-af6942e61405",
+        "name": "ASRock A320 HDV R4.0 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B07MNSP7PB",
+        "clean_name": "ASRock A320 HDV R4.0",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4",
+        "price": 61.01,
+        "last_updated": "2026-05-13T07:27:09.458Z"
     },
     {
         "id": "71485fc2-60a7-442a-8fc4-251f9bba2608",
@@ -20,8 +32,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 49.01,
-        "last_updated": "2026-04-30T06:29:04.524Z"
+        "price": 49.7,
+        "last_updated": "2026-05-13T07:11:14.630Z"
     },
     {
         "id": "bfbd6ed8-a085-4a0b-bc3b-dfacfc2cc920",
@@ -32,8 +44,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 42.01,
-        "last_updated": "2026-05-04T07:29:19.039Z"
+        "price": 47.18,
+        "last_updated": "2026-05-13T07:11:15.964Z"
     },
     {
         "id": "12b6d5d4-df43-4feb-b862-1a690495e390",
@@ -44,8 +56,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 65.58,
-        "last_updated": "2026-04-30T06:25:23.080Z"
+        "price": 67.46,
+        "last_updated": "2026-05-13T07:11:27.954Z"
     },
     {
         "id": "f8893dbc-3158-490b-8587-f6f9f0e39370",
@@ -56,8 +68,8 @@
         "socket": "AM5",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR5",
-        "price": 142.69,
-        "last_updated": "2026-05-04T07:40:48.269Z"
+        "price": 165.64,
+        "last_updated": "2026-05-13T07:11:30.404Z"
     },
     {
         "id": "324a4934-082a-42dc-bfb3-47df2d9ef9a2",
@@ -68,8 +80,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 42.01,
-        "last_updated": "2026-05-04T07:40:31.728Z"
+        "price": 265,
+        "last_updated": "2026-05-13T07:11:40.546Z"
     },
     {
         "id": "e13268ff-3bc6-4e4e-8ef9-1ddd137995f8",
@@ -80,8 +92,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 65.61,
-        "last_updated": "2026-05-04T07:17:27.193Z"
+        "price": 88.73,
+        "last_updated": "2026-05-13T07:11:50.743Z"
     },
     {
         "id": "a3a54077-f409-4a24-b11c-b9152162fde6",
@@ -92,8 +104,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 65.61,
-        "last_updated": "2026-05-04T07:11:49.085Z"
+        "price": 129,
+        "last_updated": "2026-05-13T07:11:53.571Z"
     },
     {
         "id": "2ece4b70-e168-46d5-87bf-5e5d6ac22cf9",
@@ -104,8 +116,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 65.61,
-        "last_updated": "2026-05-04T07:20:40.752Z"
+        "price": 88.73,
+        "last_updated": "2026-05-13T07:12:08.511Z"
     },
     {
         "id": "2a2c54b1-fbf1-48cd-8c90-8a0c9536d4e2",
@@ -116,8 +128,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 65.61,
-        "last_updated": "2026-05-04T07:29:37.609Z"
+        "price": 96,
+        "last_updated": "2026-05-13T07:12:06.157Z"
     },
     {
         "id": "ee3d41ab-e854-4166-a518-63567e5dbb4e",
@@ -128,8 +140,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 133.54,
-        "last_updated": "2026-04-30T06:53:10.512Z"
+        "price": 85.75,
+        "last_updated": "2026-05-13T07:12:22.153Z"
     },
     {
         "id": "ca0b0597-3d12-4767-abcf-f2d95c97cb0f",
@@ -140,8 +152,8 @@
         "socket": "AM4",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR4",
-        "price": 114.11,
-        "last_updated": "2026-05-04T07:12:09.965Z"
+        "price": 134.82,
+        "last_updated": "2026-05-13T07:12:32.643Z"
     },
     {
         "id": "18daa624-5c47-43d3-a931-1ac7c6869c05",
@@ -152,8 +164,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 158.44,
-        "last_updated": "2026-04-30T06:15:54.422Z"
+        "price": 124.01,
+        "last_updated": "2026-05-13T07:12:40.363Z"
     },
     {
         "id": "711e8069-a8bd-4b05-a069-aa23a62e1c72",
@@ -164,20 +176,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 65.61,
-        "last_updated": "2026-05-04T07:46:45.511Z"
-    },
-    {
-        "id": "13e720e7-1399-40ac-b163-ab9ff03d2cb7",
-        "name": "ASRock B550 PG Velocita DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B089W55GQJ",
-        "clean_name": "ASRock B550 PG Velocita",
-        "socket": "AM4",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 95.32,
-        "last_updated": "2026-04-30T07:03:12.898Z"
+        "price": 61.01,
+        "last_updated": "2026-05-13T07:12:50.755Z"
     },
     {
         "id": "f976c79b-32a0-4787-83be-3224cef7ac1f",
@@ -188,8 +188,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 65.61,
-        "last_updated": "2026-05-04T07:26:55.420Z"
+        "price": 82.9,
+        "last_updated": "2026-05-13T07:12:51.184Z"
     },
     {
         "id": "3eeccc7d-2e24-44ea-b8d2-0e12ccf19fa3",
@@ -200,20 +200,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 133.54,
-        "last_updated": "2026-04-30T07:17:12.939Z"
-    },
-    {
-        "id": "f9f67062-9f91-47b0-ac1d-f960132bfb40",
-        "name": "ASRock B550M Phantom Gaming 4 AM4 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B08MXSQS49",
-        "clean_name": "ASRock B550M Phantom Gaming 4",
-        "socket": "AM4",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 76.54,
-        "last_updated": "2026-04-30T06:31:04.585Z"
+        "price": 616.46,
+        "last_updated": "2026-05-13T07:13:07.154Z"
     },
     {
         "id": "de33624e-6b68-41d0-b1c6-e90f1273f3af",
@@ -224,8 +212,8 @@
         "socket": "AM5",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 115.63,
-        "last_updated": "2026-04-30T06:57:29.617Z"
+        "price": 115.37,
+        "last_updated": "2026-05-13T07:13:04.544Z"
     },
     {
         "id": "53948cf8-065d-4d92-80bd-6e5b78ec161b",
@@ -236,8 +224,8 @@
         "socket": "AM5",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 402.31,
-        "last_updated": "2026-04-30T07:08:25.037Z"
+        "price": 139.69,
+        "last_updated": "2026-05-13T07:13:18.632Z"
     },
     {
         "id": "d9a87c46-000b-44a7-aa1d-8294b080d64f",
@@ -248,8 +236,8 @@
         "socket": "AM5",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 247.09,
-        "last_updated": "2026-05-02T06:07:52.981Z"
+        "price": 146.11,
+        "last_updated": "2026-05-13T07:13:30.375Z"
     },
     {
         "id": "73d6569f-3103-4de1-a194-f1a3afd2bb39",
@@ -260,8 +248,8 @@
         "socket": "AM5",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 245.94,
-        "last_updated": "2026-04-30T06:56:13.973Z"
+        "price": 97.64,
+        "last_updated": "2026-05-13T07:13:45.492Z"
     },
     {
         "id": "c92a3d9e-37a6-4b78-8547-3a2a9b9da54e",
@@ -272,8 +260,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 88.13,
-        "last_updated": "2026-04-30T06:34:09.804Z"
+        "price": 90.66,
+        "last_updated": "2026-05-13T07:13:45.265Z"
     },
     {
         "id": "45dab551-6deb-4458-90c6-360dcc347c57",
@@ -284,8 +272,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T06:58:23.421Z"
+        "price": 201.67,
+        "last_updated": "2026-05-13T07:14:02.861Z"
     },
     {
         "id": "41fe7de9-3371-4864-8b30-6b9dff220d9e",
@@ -296,32 +284,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:24:12.630Z"
-    },
-    {
-        "id": "171db910-9c1c-4029-b2f6-e56b335ca65a",
-        "name": "ASRock B760 M-H2/M.2 DDR5 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B0CT8XQHKP",
-        "clean_name": "ASRock B760 M-H2/M.2",
-        "socket": "LGA 1700",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR5",
-        "price": 42.54,
-        "last_updated": "2026-05-04T07:38:02.239Z"
-    },
-    {
-        "id": "74f738a2-8a3a-4f16-83b3-3176fab2dc37",
-        "name": "ASRock B760 M-HDV/M.2 LGA1700 DDR5 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B0CG6B3YC6",
-        "clean_name": "ASRock B760 M-HDV/M.2",
-        "socket": "LGA 1700",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR5",
-        "price": 42.54,
-        "last_updated": "2026-05-04T07:25:45.118Z"
+        "price": 109.02,
+        "last_updated": "2026-05-13T07:14:03.068Z"
     },
     {
         "id": "76bc3424-326d-4063-be0f-e1dc17ca0c28",
@@ -332,8 +296,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 107.36,
-        "last_updated": "2026-04-30T06:39:18.404Z"
+        "price": 134.3,
+        "last_updated": "2026-05-13T07:14:36.186Z"
     },
     {
         "id": "f13c4e08-fd51-41b7-97e3-3382ba7b469b",
@@ -344,8 +308,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 129.82,
-        "last_updated": "2026-04-30T06:58:31.099Z"
+        "price": 79.66,
+        "last_updated": "2026-05-13T07:14:23.093Z"
     },
     {
         "id": "ff34d65e-d982-4bec-bc21-4d9b4b351636",
@@ -356,8 +320,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 129.82,
-        "last_updated": "2026-04-30T07:14:17.557Z"
+        "price": 134.3,
+        "last_updated": "2026-05-13T07:14:40.689Z"
     },
     {
         "id": "ca457ca9-ecc5-48f3-849a-74eed142ed6d",
@@ -368,8 +332,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 129.82,
-        "last_updated": "2026-04-30T06:59:59.138Z"
+        "price": 134.3,
+        "last_updated": "2026-05-13T07:14:49.266Z"
     },
     {
         "id": "9b4275f5-fa56-4def-b30a-948123b3634f",
@@ -380,8 +344,8 @@
         "socket": "LGA 1700",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:44:14.687Z"
+        "price": 104.58,
+        "last_updated": "2026-05-13T07:15:10.942Z"
     },
     {
         "id": "af059b9b-1998-4861-a557-1e818f762415",
@@ -392,8 +356,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 245.94,
-        "last_updated": "2026-04-30T07:17:10.759Z"
+        "price": 131.95,
+        "last_updated": "2026-05-13T07:15:01.966Z"
     },
     {
         "id": "e76394b6-ceec-4e91-93e4-dec30ce7e161",
@@ -404,8 +368,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 245.94,
-        "last_updated": "2026-04-30T07:16:59.139Z"
+        "price": 211.67,
+        "last_updated": "2026-05-13T07:15:18.137Z"
     },
     {
         "id": "f5b7becd-f2da-4c14-a74a-d34e3bf51d26",
@@ -416,8 +380,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 110.83,
-        "last_updated": "2026-05-01T06:41:48.277Z"
+        "price": 113.36,
+        "last_updated": "2026-05-13T07:15:24.212Z"
     },
     {
         "id": "33a8da01-cff3-46ec-8ca7-9435c85cc200",
@@ -428,8 +392,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T07:22:33.339Z"
+        "price": 113.36,
+        "last_updated": "2026-05-13T07:15:32.777Z"
     },
     {
         "id": "ba7f9641-6032-466a-83cd-f36c183ed13f",
@@ -440,8 +404,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 88.33,
-        "last_updated": "2026-04-30T06:40:23.842Z"
+        "price": 113.36,
+        "last_updated": "2026-05-13T07:15:44.584Z"
     },
     {
         "id": "79bf4e2a-592c-4b1a-bf38-9fe71135c047",
@@ -453,7 +417,7 @@
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
         "price": 121.92,
-        "last_updated": "2026-05-12T13:09:40.316Z"
+        "last_updated": "2026-05-13T07:16:01.000Z"
     },
     {
         "id": "5249e76b-f3d3-4224-890b-b5c072c39333",
@@ -464,8 +428,8 @@
         "socket": "AM5",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR5",
-        "price": 150.29,
-        "last_updated": "2026-05-04T07:09:33.701Z"
+        "price": 183.79,
+        "last_updated": "2026-05-13T07:16:01.547Z"
     },
     {
         "id": "981c8d0f-c4d0-465f-aff3-989bb51d1722",
@@ -476,8 +440,8 @@
         "socket": "AM5",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 310.32,
-        "last_updated": "2026-05-04T07:43:16.728Z"
+        "price": 148.76,
+        "last_updated": "2026-05-13T07:16:11.354Z"
     },
     {
         "id": "01b21076-587f-4e18-aaa4-e93e673906a5",
@@ -488,8 +452,8 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 151.18,
-        "last_updated": "2026-05-04T07:35:21.783Z"
+        "price": 129.98,
+        "last_updated": "2026-05-13T07:16:35.876Z"
     },
     {
         "id": "b97a6fed-b5a9-422a-a47b-cde670dd0445",
@@ -500,8 +464,8 @@
         "socket": "LGA 1851",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 151.18,
-        "last_updated": "2026-05-04T07:41:09.719Z"
+        "price": 123.94,
+        "last_updated": "2026-05-13T07:16:38.982Z"
     },
     {
         "id": "d04f64f6-777e-4fd4-b3e0-4f425bc324e0",
@@ -512,8 +476,8 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 137.51,
-        "last_updated": "2026-05-04T07:47:31.823Z"
+        "price": 129.98,
+        "last_updated": "2026-05-13T07:17:46.675Z"
     },
     {
         "id": "578dd4db-da0c-4ad4-999c-4756a39b6ffe",
@@ -524,8 +488,8 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 137.51,
-        "last_updated": "2026-05-04T07:42:00.198Z"
+        "price": 402.35,
+        "last_updated": "2026-05-13T07:17:41.696Z"
     },
     {
         "id": "b657eb80-ad32-4c40-9747-339936ba0a3d",
@@ -536,8 +500,8 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 137.51,
-        "last_updated": "2026-05-04T07:33:11.694Z"
+        "price": 129.98,
+        "last_updated": "2026-05-13T07:17:53.619Z"
     },
     {
         "id": "4202106c-c42b-4483-864f-3aceb6f530f0",
@@ -548,8 +512,8 @@
         "socket": "LGA 1851",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR5",
-        "price": 151.18,
-        "last_updated": "2026-05-04T07:20:52.718Z"
+        "price": 134.82,
+        "last_updated": "2026-05-13T07:18:18.055Z"
     },
     {
         "id": "d17b7b59-8ad4-45af-851b-f3d277a9a1ae",
@@ -560,8 +524,8 @@
         "socket": "LGA 1851",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR5",
-        "price": 137.51,
-        "last_updated": "2026-05-04T07:46:08.901Z"
+        "price": 123.94,
+        "last_updated": "2026-05-13T07:18:19.280Z"
     },
     {
         "id": "7ac8c6cd-870e-49fa-bcac-264518219020",
@@ -572,8 +536,8 @@
         "socket": "LGA 1851",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 530.3,
-        "last_updated": "2026-04-30T07:23:20.079Z"
+        "price": 129.86,
+        "last_updated": "2026-05-13T07:18:58.188Z"
     },
     {
         "id": "9aee2f7f-801c-47cb-9f46-17c3307c6d76",
@@ -584,8 +548,8 @@
         "socket": "LGA 1851",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 532.78,
-        "last_updated": "2026-05-02T06:28:33.137Z"
+        "price": 24.49,
+        "last_updated": "2026-05-13T07:18:35.149Z"
     },
     {
         "id": "35b8774a-8f14-47fb-ae8e-268ce3c13157",
@@ -596,20 +560,8 @@
         "socket": "LGA 1851",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 530.3,
-        "last_updated": "2026-04-30T06:23:23.454Z"
-    },
-    {
-        "id": "8a22f2a7-07d2-462d-a5be-4ca9412849af",
-        "name": "ASRock H610 M-HDV LGA1700 DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B09QFV94H5",
-        "clean_name": "ASRock H610 M-HDV",
-        "socket": "LGA 1700",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 49.86,
-        "last_updated": "2026-05-02T06:08:28.811Z"
+        "price": 181.01,
+        "last_updated": "2026-05-13T07:18:58.033Z"
     },
     {
         "id": "a9b463d2-9680-4366-828e-f2ce8751c9aa",
@@ -620,20 +572,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 49.86,
-        "last_updated": "2026-05-02T05:51:15.995Z"
-    },
-    {
-        "id": "d7055bdf-d7db-4315-bc05-78157ff1b97a",
-        "name": "ASRock H670 Steel Legend DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B09QFV15T9",
-        "clean_name": "ASRock H670 Steel Legend",
-        "socket": "LGA 1700",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T06:37:00.501Z"
+        "price": 49.01,
+        "last_updated": "2026-05-13T07:19:21.676Z"
     },
     {
         "id": "5a9620e0-809e-4f66-8dc0-e7b4804db15b",
@@ -644,8 +584,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 53.59,
-        "last_updated": "2026-04-30T06:46:55.013Z"
+        "price": 149,
+        "last_updated": "2026-05-13T07:19:21.483Z"
     },
     {
         "id": "d0219236-f17c-4057-8b88-b8d5c7620d91",
@@ -656,8 +596,8 @@
         "socket": "AM4",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR4",
-        "price": 53.71,
-        "last_updated": "2026-04-30T06:51:23.470Z"
+        "price": 134.3,
+        "last_updated": "2026-05-13T07:19:38.571Z"
     },
     {
         "id": "86f2ef33-8e7d-43f8-9857-d460c126f998",
@@ -668,8 +608,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 53.71,
-        "last_updated": "2026-04-30T06:34:48.921Z"
+        "price": 149,
+        "last_updated": "2026-05-13T07:19:48.592Z"
     },
     {
         "id": "31b14345-46e4-4ffc-a793-c9df7d76b665",
@@ -680,8 +620,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 940.2,
-        "last_updated": "2026-04-30T07:04:19.520Z"
+        "price": 754.52,
+        "last_updated": "2026-05-13T07:19:49.441Z"
     },
     {
         "id": "2e790111-4459-45ac-8cf2-7217aed20ea6",
@@ -692,8 +632,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 374.97,
-        "last_updated": "2026-04-30T06:30:09.076Z"
+        "price": 269,
+        "last_updated": "2026-05-13T07:20:02.095Z"
     },
     {
         "id": "f03b94f7-d75d-4c89-9ab3-fc0f2d31f686",
@@ -704,8 +644,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 940.2,
-        "last_updated": "2026-04-30T06:44:03.946Z"
+        "price": 269,
+        "last_updated": "2026-05-13T07:20:04.869Z"
     },
     {
         "id": "76c98d0c-6e56-4122-b7c4-258c585b288d",
@@ -716,8 +656,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 158.44,
-        "last_updated": "2026-04-30T07:11:05.376Z"
+        "price": 171.66,
+        "last_updated": "2026-05-13T07:20:17.676Z"
     },
     {
         "id": "fa8ac75c-0135-4a21-b70b-d5d58bcf2933",
@@ -728,8 +668,8 @@
         "socket": "AM5",
         "form_factor": "EATX",
         "memory_type": "DDR5",
-        "price": 245.94,
-        "last_updated": "2026-04-30T07:19:34.935Z"
+        "price": 322.99,
+        "last_updated": "2026-05-13T07:20:25.310Z"
     },
     {
         "id": "e5acd9db-fa5a-4437-ac0a-49126796ff8a",
@@ -740,8 +680,8 @@
         "socket": "AM5",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 402.31,
-        "last_updated": "2026-04-30T06:17:57.054Z"
+        "price": 307.95,
+        "last_updated": "2026-05-13T07:20:27.715Z"
     },
     {
         "id": "1cfc8570-689b-4f79-9416-b4b69e0439a3",
@@ -752,8 +692,8 @@
         "socket": "AM5",
         "form_factor": "EATX",
         "memory_type": "DDR5",
-        "price": 600.34,
-        "last_updated": "2026-05-01T06:56:05.070Z"
+        "price": 322.99,
+        "last_updated": "2026-05-13T07:21:39.073Z"
     },
     {
         "id": "6211bdbe-4ed0-427a-be3c-b9b744547d9d",
@@ -765,7 +705,7 @@
         "form_factor": "ATX",
         "memory_type": "DDR4",
         "price": 232.93,
-        "last_updated": "2026-05-12T13:10:32.196Z"
+        "last_updated": "2026-05-13T07:20:39.828Z"
     },
     {
         "id": "6ccce2ba-9c4c-45e2-b3af-586f735792d0",
@@ -776,8 +716,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T06:37:20.146Z"
+        "price": 204.29,
+        "last_updated": "2026-05-13T07:21:37.363Z"
     },
     {
         "id": "e75b00a4-5362-4a5d-a181-029c97de48b8",
@@ -788,8 +728,8 @@
         "socket": "LGA 1700",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR4",
-        "price": 271.57,
-        "last_updated": "2026-05-04T07:41:13.587Z"
+        "price": 149.69,
+        "last_updated": "2026-05-13T07:21:54.961Z"
     },
     {
         "id": "b33a4ac8-2aae-489d-ac82-5708b286b2a5",
@@ -800,8 +740,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T07:14:22.162Z"
+        "price": 265,
+        "last_updated": "2026-05-13T07:22:03.862Z"
     },
     {
         "id": "59f649be-a02c-4147-8cba-3ff98a5caec8",
@@ -812,8 +752,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 245.94,
-        "last_updated": "2026-04-30T06:20:19.173Z"
+        "price": 265,
+        "last_updated": "2026-05-13T07:22:06.974Z"
     },
     {
         "id": "a6c89da1-2635-44bd-af89-f7371d673f7f",
@@ -824,32 +764,8 @@
         "socket": "LGA 1700",
         "form_factor": "Mini-ITX",
         "memory_type": "DDR5",
-        "price": 331.84,
-        "last_updated": "2026-04-30T07:20:41.186Z"
-    },
-    {
-        "id": "d8aa8508-aa5c-41d9-aae3-2360f9d73aca",
-        "name": "ASRock Z690 Steel Legend DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B09JM6L6MH",
-        "clean_name": "ASRock Z690 Steel Legend",
-        "socket": "LGA 1700",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T06:47:38.030Z"
-    },
-    {
-        "id": "cd8ab5f6-8453-4dca-a4e9-8822681a45e2",
-        "name": "ASRock Z690 Steel Legend WiFi 6E DDR5 ATX",
-        "variant": "",
-        "amazon_sku": "B0B1GV9V1C",
-        "clean_name": "ASRock Z690 Steel Legend WiFi 6E",
-        "socket": "LGA 1700",
-        "form_factor": "ATX",
-        "memory_type": "DDR5",
-        "price": 98.58,
-        "last_updated": "2026-04-30T06:41:48.985Z"
+        "price": 265,
+        "last_updated": "2026-05-13T07:22:18.529Z"
     },
     {
         "id": "3f4d3b1f-b698-4227-8f19-4ee416fa874c",
@@ -860,8 +776,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 331.84,
-        "last_updated": "2026-04-30T06:39:48.403Z"
+        "price": 228.6,
+        "last_updated": "2026-05-13T07:22:22.687Z"
     },
     {
         "id": "069918a6-4f67-4203-814b-129442c71fd8",
@@ -872,8 +788,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 245.94,
-        "last_updated": "2026-04-30T06:50:26.829Z"
+        "price": 704.87,
+        "last_updated": "2026-05-13T07:22:37.856Z"
     },
     {
         "id": "8620b544-cfcb-403f-a1bd-72b60ef1dd16",
@@ -884,20 +800,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T07:13:10.103Z"
-    },
-    {
-        "id": "ede53059-c4ef-4701-ab5e-41c4e72d7835",
-        "name": "ASRock Z790 LiveMixer DDR5 ATX",
-        "variant": "",
-        "amazon_sku": "B0CG2LDTCG",
-        "clean_name": "ASRock Z790 LiveMixer",
-        "socket": "LGA 1700",
-        "form_factor": "ATX",
-        "memory_type": "DDR5",
-        "price": 245.94,
-        "last_updated": "2026-04-30T06:58:32.051Z"
+        "price": 265,
+        "last_updated": "2026-05-13T07:22:36.710Z"
     },
     {
         "id": "b3941390-4b50-4769-9431-d171668a20f0",
@@ -908,8 +812,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 146.58,
-        "last_updated": "2026-04-30T06:59:49.752Z"
+        "price": 150.24,
+        "last_updated": "2026-05-13T07:22:48.940Z"
     },
     {
         "id": "2b7340ad-5e40-4693-a394-3e7d665ec5a3",
@@ -920,8 +824,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 245.94,
-        "last_updated": "2026-04-30T06:12:44.287Z"
+        "price": 146.11,
+        "last_updated": "2026-05-13T07:22:56.881Z"
     },
     {
         "id": "407a4772-1eb4-4df6-b095-1ed77cd9e160",
@@ -932,8 +836,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 129.82,
-        "last_updated": "2026-04-30T06:50:53.987Z"
+        "price": 185.27,
+        "last_updated": "2026-05-13T07:23:26.667Z"
     },
     {
         "id": "8f54a3ae-8c4b-44d7-acce-9da874c14b98",
@@ -944,8 +848,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 217.84,
-        "last_updated": "2026-04-30T06:50:27.688Z"
+        "price": 24.49,
+        "last_updated": "2026-05-13T07:23:43.382Z"
     },
     {
         "id": "a5a2e61e-9647-4f0f-a1da-1883d4616cac",
@@ -956,8 +860,8 @@
         "socket": "LGA 1700",
         "form_factor": "EATX",
         "memory_type": "DDR5",
-        "price": 245.94,
-        "last_updated": "2026-04-30T06:56:31.967Z"
+        "price": 182.52,
+        "last_updated": "2026-05-13T07:23:44.585Z"
     },
     {
         "id": "464a24e7-a690-492f-8e05-42a706eeb6bb",
@@ -968,8 +872,8 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 530.3,
-        "last_updated": "2026-04-30T06:59:23.890Z"
+        "price": 242.68,
+        "last_updated": "2026-05-13T07:23:56.644Z"
     },
     {
         "id": "5a61cb1a-9432-4ca9-b5e0-c622d8129e7a",
@@ -981,7 +885,7 @@
         "form_factor": "ATX",
         "memory_type": "DDR5",
         "price": 129.98,
-        "last_updated": "2026-05-12T13:10:31.192Z"
+        "last_updated": "2026-05-13T07:24:16.944Z"
     },
     {
         "id": "a983d5e2-e513-4693-9f8a-8898a7e21e0a",
@@ -992,8 +896,8 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 151.18,
-        "last_updated": "2026-05-04T07:05:26.970Z"
+        "price": 134.3,
+        "last_updated": "2026-05-13T07:24:27.505Z"
     },
     {
         "id": "15e65f6c-4488-4ca3-8d77-1dff6019e8ab",
@@ -1004,8 +908,8 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 137.51,
-        "last_updated": "2026-05-04T07:15:32.778Z"
+        "price": 186.46,
+        "last_updated": "2026-05-13T07:24:31.654Z"
     },
     {
         "id": "a4d88537-e49a-4e04-a44e-6080c1c4a6c9",
@@ -1016,8 +920,8 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 530.3,
-        "last_updated": "2026-04-30T07:02:33.434Z"
+        "price": 300.32,
+        "last_updated": "2026-05-13T07:25:17.073Z"
     },
     {
         "id": "b91f34ff-63dc-4904-8cb7-d0c230d6d08d",
@@ -1028,8 +932,8 @@
         "socket": "LGA 1851",
         "form_factor": "ATX",
         "memory_type": "DDR5",
-        "price": 530.3,
-        "last_updated": "2026-04-30T06:39:20.525Z"
+        "price": 287.08,
+        "last_updated": "2026-05-13T07:25:24.780Z"
     },
     {
         "id": "0740e1ad-cddb-4de6-923d-58ce6d72e4b0",
@@ -1040,8 +944,8 @@
         "socket": "LGA 1851",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 530.3,
-        "last_updated": "2026-04-30T06:13:29.391Z"
+        "price": 224.87,
+        "last_updated": "2026-05-13T07:25:28.954Z"
     },
     {
         "id": "9a55d5ed-88e1-4534-af30-b4d73b153626",
@@ -1052,8 +956,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 58.18,
-        "last_updated": "2026-05-04T07:21:02.574Z"
+        "price": 72.37,
+        "last_updated": "2026-05-13T07:25:46.504Z"
     },
     {
         "id": "1f2ddf9f-28d9-4ae8-9734-36c80f3eae47",
@@ -1064,8 +968,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 42.01,
-        "last_updated": "2026-05-04T07:33:05.324Z"
+        "price": 69.95,
+        "last_updated": "2026-05-13T07:25:42.185Z"
     },
     {
         "id": "de54212b-ea18-410d-8c10-8323fb182731",
@@ -1076,8 +980,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 230.07,
-        "last_updated": "2026-04-30T06:30:11.320Z"
+        "price": 85.25,
+        "last_updated": "2026-05-13T07:25:54.196Z"
     },
     {
         "id": "e209a926-007e-442b-82b0-7ede783e845c",
@@ -1088,8 +992,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 158.64,
-        "last_updated": "2026-04-30T06:40:57.626Z"
+        "price": 98.81,
+        "last_updated": "2026-05-13T07:26:01.114Z"
     },
     {
         "id": "509ca758-52d6-45d7-905e-eb4ec7d1a38f",
@@ -1100,8 +1004,8 @@
         "socket": "AM4",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 66.8,
-        "last_updated": "2026-05-04T07:32:55.725Z"
+        "price": 131.09,
+        "last_updated": "2026-05-13T07:26:09.433Z"
     },
     {
         "id": "bffa82fe-d9d3-496b-9ba9-70f20c3396a6",
@@ -1112,8 +1016,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 136.09,
-        "last_updated": "2026-04-30T06:42:01.280Z"
+        "price": 128.1,
+        "last_updated": "2026-05-13T07:26:17.959Z"
     },
     {
         "id": "e5032f02-46b3-453d-8fe2-f5fad914574e",
@@ -1124,8 +1028,8 @@
         "socket": "AM4",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 136.09,
-        "last_updated": "2026-04-30T06:40:02.891Z"
+        "price": 128.1,
+        "last_updated": "2026-05-13T07:26:25.482Z"
     },
     {
         "id": "ad991c87-f2ac-4a69-913a-0cc8c0472b87",
@@ -1136,8 +1040,8 @@
         "socket": "LGA 1700",
         "form_factor": "Micro ATX",
         "memory_type": "DDR4",
-        "price": 137.14,
-        "last_updated": "2026-05-12T13:07:38.755Z"
+        "price": 139.78,
+        "last_updated": "2026-05-13T07:26:31.186Z"
     },
     {
         "id": "84367bb4-4cc2-45db-96ad-0e50b956e908",
@@ -1148,32 +1052,8 @@
         "socket": "LGA 1700",
         "form_factor": "ATX",
         "memory_type": "DDR4",
-        "price": 75.72,
-        "last_updated": "2026-05-05T06:45:46.840Z"
-    },
-    {
-        "id": "13dfd584-3355-4682-9157-d7d3b2b8bc12",
-        "name": "ASUS B660 ProArt CREATOR D4 DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B09NWCTDTL",
-        "clean_name": "ASUS B660 ProArt CREATOR D4",
-        "socket": "LGA 1700",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T06:42:17.583Z"
-    },
-    {
-        "id": "73410d29-9b89-4bf6-9cbe-6a068780635c",
-        "name": "Asus B660M Pro D4-CSM DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B09Q3JCMGT",
-        "clean_name": "Asus B660M Pro D4-CSM",
-        "socket": "LGA 1700",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 98.58,
-        "last_updated": "2026-04-30T07:09:07.356Z"
+        "price": 116.72,
+        "last_updated": "2026-05-13T07:26:38.713Z"
     },
     {
         "id": "cd1d5e7a-12ad-4553-9f03-60cba3ba0bf6",
@@ -1184,8 +1064,8 @@
         "socket": "LGA 1851",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 151.18,
-        "last_updated": "2026-05-04T07:39:53.785Z"
+        "price": 149.36,
+        "last_updated": "2026-05-13T07:26:44.049Z"
     },
     {
         "id": "faff4cdf-b168-4390-bba1-ca527713271f",
@@ -1196,7 +1076,127 @@
         "socket": "LGA 1851",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5",
-        "price": 151.18,
-        "last_updated": "2026-05-04T07:35:14.091Z"
+        "price": 136.1,
+        "last_updated": "2026-05-13T07:26:49.783Z"
+    },
+    {
+        "id": "c8fae984-dade-4d35-bd55-d551d22b45bb",
+        "name": "ASRock A320 M-HDV AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B06XNRWM3C",
+        "clean_name": "ASRock A320 M-HDV",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4",
+        "available": false,
+        "last_updated": "2026-05-13T07:27:25.552Z"
+    },
+    {
+        "id": "5cc281a8-dd9a-4c94-9bcb-d541a2eac8c3",
+        "name": "ASRock A520 A520M-ITX/ac AM4 DDR4 Mini ITX",
+        "variant": "M-ITX/ac",
+        "amazon_sku": "B08G1WLVR2",
+        "clean_name": "ASRock A520 A520M-ITX/ac",
+        "socket": "AM4",
+        "form_factor": "Mini-ITX",
+        "memory_type": "DDR4",
+        "available": false,
+        "last_updated": "2026-05-12T19:20:11.040Z"
+    },
+    {
+        "id": "13e720e7-1399-40ac-b163-ab9ff03d2cb7",
+        "name": "ASRock B550 PG Velocita DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B089W55GQJ",
+        "clean_name": "ASRock B550 PG Velocita",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "memory_type": "DDR4",
+        "available": false,
+        "last_updated": "2026-05-12T19:21:57.733Z"
+    },
+    {
+        "id": "8a22f2a7-07d2-462d-a5be-4ca9412849af",
+        "name": "ASRock H610 M-HDV LGA1700 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B09QFV94H5",
+        "clean_name": "ASRock H610 M-HDV",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4",
+        "available": false,
+        "last_updated": "2026-05-12T19:27:33.676Z"
+    },
+    {
+        "id": "d7055bdf-d7db-4315-bc05-78157ff1b97a",
+        "name": "ASRock H670 Steel Legend DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B09QFV15T9",
+        "clean_name": "ASRock H670 Steel Legend",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4",
+        "available": false,
+        "last_updated": "2026-05-12T19:27:51.781Z"
+    },
+    {
+        "id": "d8aa8508-aa5c-41d9-aae3-2360f9d73aca",
+        "name": "ASRock Z690 Steel Legend DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B09JM6L6MH",
+        "clean_name": "ASRock Z690 Steel Legend",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4",
+        "available": false,
+        "last_updated": "2026-05-12T19:30:07.523Z"
+    },
+    {
+        "id": "cd8ab5f6-8453-4dca-a4e9-8822681a45e2",
+        "name": "ASRock Z690 Steel Legend WiFi 6E DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0B1GV9V1C",
+        "clean_name": "ASRock Z690 Steel Legend WiFi 6E",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR5",
+        "available": false,
+        "last_updated": "2026-05-12T19:29:56.961Z"
+    },
+    {
+        "id": "ede53059-c4ef-4701-ab5e-41c4e72d7835",
+        "name": "ASRock Z790 LiveMixer DDR5 ATX",
+        "variant": "",
+        "amazon_sku": "B0CG2LDTCG",
+        "clean_name": "ASRock Z790 LiveMixer",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR5",
+        "available": false,
+        "last_updated": "2026-05-12T19:30:46.170Z"
+    },
+    {
+        "id": "13dfd584-3355-4682-9157-d7d3b2b8bc12",
+        "name": "ASUS B660 ProArt CREATOR D4 DDR4 ATX",
+        "variant": "",
+        "amazon_sku": "B09NWCTDTL",
+        "clean_name": "ASUS B660 ProArt CREATOR D4",
+        "socket": "LGA 1700",
+        "form_factor": "ATX",
+        "memory_type": "DDR4",
+        "available": false,
+        "last_updated": "2026-05-12T19:33:48.318Z"
+    },
+    {
+        "id": "73410d29-9b89-4bf6-9cbe-6a068780635c",
+        "name": "Asus B660M Pro D4-CSM DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B09Q3JCMGT",
+        "clean_name": "Asus B660M Pro D4-CSM",
+        "socket": "LGA 1700",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4",
+        "available": false,
+        "last_updated": "2026-05-12T19:33:51.586Z"
     }
 ]
