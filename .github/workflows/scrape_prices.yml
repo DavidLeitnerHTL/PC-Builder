@@ -29,6 +29,8 @@ jobs:
       - name: Install dependencies
         working-directory: scraper
         shell: bash
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: "true"
         run: npm ci
 
       - name: Configure git
@@ -40,6 +42,8 @@ jobs:
       - name: Run price scraper
         working-directory: scraper
         shell: bash
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium
         # Empty category string → process.argv[2] is '' → '' || null = null → all categories
         # Scraper commits after each category so partial results survive a crash.
         run: node --max-old-space-size=512 scraper.js "${{ github.event.inputs.category }}"
