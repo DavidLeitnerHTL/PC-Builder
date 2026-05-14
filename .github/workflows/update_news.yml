@@ -1,6 +1,6 @@
 name: Update News Feed
 
-on:
+on: 
   schedule:
     # Runs at 06:00 UTC daily — after the price scraper so they don't clash.
     - cron: '0 6 * * *'
