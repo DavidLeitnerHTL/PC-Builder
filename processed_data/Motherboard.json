@@ -996,42 +996,6 @@
         "last_updated": "2026-05-13T07:26:01.114Z"
     },
     {
-        "id": "509ca758-52d6-45d7-905e-eb4ec7d1a38f",
-        "name": "Asus B550 PRIME B550M-A/CSM DDR4 Micro ATX",
-        "variant": "",
-        "amazon_sku": "B088VVN85S",
-        "clean_name": "Asus B550 PRIME B550M-A/CSM",
-        "socket": "AM4",
-        "form_factor": "Micro ATX",
-        "memory_type": "DDR4",
-        "price": 131.09,
-        "last_updated": "2026-05-13T07:26:09.433Z"
-    },
-    {
-        "id": "bffa82fe-d9d3-496b-9ba9-70f20c3396a6",
-        "name": "Asus B550 ROG STRIX -E GAMING DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B088W4933P",
-        "clean_name": "Asus B550 ROG STRIX -E GAMING",
-        "socket": "AM4",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 128.1,
-        "last_updated": "2026-05-13T07:26:17.959Z"
-    },
-    {
-        "id": "e5032f02-46b3-453d-8fe2-f5fad914574e",
-        "name": "ASUS B550 ROG STRIX F GAMING DDR4 ATX",
-        "variant": "",
-        "amazon_sku": "B089HFR9CX",
-        "clean_name": "ASUS B550 ROG STRIX F GAMING",
-        "socket": "AM4",
-        "form_factor": "ATX",
-        "memory_type": "DDR4",
-        "price": 128.1,
-        "last_updated": "2026-05-13T07:26:25.482Z"
-    },
-    {
         "id": "ad991c87-f2ac-4a69-913a-0cc8c0472b87",
         "name": "Asus B660 PRIME B660M-K D4 LGA1700 DDR4 Micro ATX",
         "variant": "",
@@ -1078,6 +1042,39 @@
         "memory_type": "DDR5",
         "price": 136.1,
         "last_updated": "2026-05-13T07:26:49.783Z"
+    },
+    {
+        "id": "509ca758-52d6-45d7-905e-eb4ec7d1a38f",
+        "name": "ASUS PRIME B550M-A/CSM",
+        "variant": "B550M-A/CSM",
+        "amazon_sku": "B088VVN85S",
+        "clean_name": "ASUS PRIME B550M-A/CSM",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "price": 131.09,
+        "last_updated": "2026-05-13T07:26:09.433Z"
+    },
+    {
+        "id": "bffa82fe-d9d3-496b-9ba9-70f20c3396a6",
+        "name": "ASUS ROG STRIX B550-E GAMING",
+        "variant": "STRIX B550-E GAMING",
+        "amazon_sku": "B088W4933P",
+        "clean_name": "ASUS ROG STRIX B550-E GAMING",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "price": 128.1,
+        "last_updated": "2026-05-13T07:26:17.959Z"
+    },
+    {
+        "id": "e5032f02-46b3-453d-8fe2-f5fad914574e",
+        "name": "ASUS ROG STRIX B550-F GAMING",
+        "variant": "STRIX B550-F GAMING",
+        "amazon_sku": "B089HFR9CX",
+        "clean_name": "ASUS ROG STRIX B550-F GAMING",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "price": 128.1,
+        "last_updated": "2026-05-13T07:26:25.482Z"
     },
     {
         "id": "c8fae984-dade-4d35-bd55-d551d22b45bb",

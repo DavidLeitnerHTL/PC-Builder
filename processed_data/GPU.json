@@ -149,7 +149,7 @@
         "variant": "Elite",
         "amazon_sku": "B0C5BQ1HM1",
         "clean_name": "Gigabyte AORUS GeForce RTX 4060 Ti ELITE 8G",
-        "chipset": "GeForce RTX 4060 Ti",
+        "chipset": "GeForce RTX 4060 Ti 8 GB",
         "vram": 8,
         "core_clock": 2535,
         "boost_clock": 2655,
@@ -533,7 +533,7 @@
         "variant": "",
         "amazon_sku": "B095XZMSPB",
         "clean_name": "NVIDIA Founders Edition GeForce RTX 3080 GDDR6X",
-        "chipset": "GeForce RTX 3080",
+        "chipset": "GeForce RTX 3080 10 GB",
         "vram": 10,
         "core_clock": 1440,
         "boost_clock": 1710,
@@ -976,22 +976,6 @@
         "last_updated": "2026-05-13T06:53:02.737Z"
     },
     {
-        "id": "5bae9be7-dad7-4f03-b6f9-5d569b4e0c5f",
-        "name": "Zotac GAMING Trinity OC GeForce RTX 3080 10GB LHR 10GB GDDR6X Gray",
-        "variant": "Zotac",
-        "amazon_sku": "B099ZCG8T5",
-        "clean_name": "Zotac GAMING Trinity OC GeForce RTX 3080 LHR GDDR6X Gray",
-        "chipset": "GeForce RTX 3080 10 GB",
-        "vram": 10,
-        "core_clock": 1440,
-        "boost_clock": 1725,
-        "length": 318,
-        "tdp": 320,
-        "memory_type": "GDDR6X",
-        "price": 1789.99,
-        "last_updated": "2026-05-13T06:53:01.431Z"
-    },
-    {
         "id": "49ccc894-68fe-4005-ab1a-f144659fa6c0",
         "name": "Zotac GeForce RTX 4080 SUPER GAMING AMP 16GB GDDR6X Black",
         "variant": "Zotac",
@@ -1212,5 +1196,33 @@
         "memory_type": "GDDR6X",
         "available": false,
         "last_updated": "2026-05-12T09:31:34.133Z"
+    },
+    {
+        "id": "371ebe9d-0cac-4941-9a0e-deb3759cb80d",
+        "name": "EVGA GeForce RTX 3070 LHR FTW3 ULTRA GAMING iCX3 8GB GDDR6 Black",
+        "variant": "ULTRA GAMING",
+        "amazon_sku": "B097CLCXDX",
+        "clean_name": "EVGA GeForce RTX 3070 LHR FTW3 ULTRA GAMING iCX3 GDDR6 Black",
+        "chipset": "GeForce RTX 3070 LHR",
+        "vram": 8,
+        "core_clock": 1500,
+        "boost_clock": 1815,
+        "length": 300,
+        "tdp": 220,
+        "memory_type": "GDDR6"
+    },
+    {
+        "id": "df2fd70d-c506-4c28-8fe7-97ff900de8ee",
+        "name": "Gainward Panther OC GeForce RTX 4060 Ti 16GB GDDR6 Black",
+        "variant": "Gainward",
+        "amazon_sku": "B0CH5SQ5B3",
+        "clean_name": "Gainward Panther OC GeForce RTX 4060 Ti GDDR6 Black",
+        "chipset": "GeForce RTX 4060 Ti",
+        "vram": 16,
+        "core_clock": 2310,
+        "boost_clock": 2595,
+        "length": 250,
+        "tdp": 165,
+        "memory_type": "GDDR6"
     }
 ]
