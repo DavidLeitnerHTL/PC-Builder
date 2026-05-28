@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Produkt-Vergleich | PC Builder</title>
+  <meta name="description" content="Vergleiche bis zu 3 PC-Komponenten nebeneinander – Specs und Preise auf einen Blick.">
+  <meta property="og:title" content="Produkt-Vergleich | PC Builder">
+  <meta property="og:url" content="https://pc-builder.at/compare.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PC Builder">
+
+  <script>
+    const savedTheme = localStorage.getItem('theme');
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (savedTheme === 'light') document.documentElement.setAttribute('data-theme', 'light');
+    else if (savedTheme === 'dark' || systemPrefersDark) document.documentElement.setAttribute('data-theme', 'dark');
+  </script>
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .compare-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .cat-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-secondary);
+      margin-bottom: 0.35rem;
+    }
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    .compare-table th,
+    .compare-table td {
+      padding: 0.65rem 1rem;
+      border: 1px solid var(--border-color);
+      vertical-align: middle;
+    }
+    .compare-table .key-col {
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-weight: 500;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      width: 26%;
+    }
+    .compare-table .prod-header {
+      background: var(--bg-card);
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      text-align: center;
+      color: var(--text-primary);
+    }
+    .compare-table .price-cell {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 1.05rem;
+      text-align: center;
+    }
+    .compare-table td:not(.key-col) {
+      text-align: center;
+    }
+    .compare-table tr:hover td { background: var(--hover-bg); }
+    .val-best  { color: #22c55e; font-weight: 600; }
+    .val-worst { color: var(--text-secondary); }
+    .prod-slot { position: relative; flex: 1; min-width: 180px; }
+    .remove-btn {
+      position: absolute; top: -8px; right: -8px;
+      width: 22px; height: 22px; border-radius: 50%;
+      background: var(--accent-color); color: #fff;
+      border: none; font-size: 0.72rem; cursor: pointer;
+      display: flex; align-items: center; justify-content: center; z-index: 1;
+    }
+    .add-slot-btn {
+      flex: 0 0 auto;
+      align-self: flex-end;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <div id="site-header"></div>
+
+  <main class="flex-grow-1 py-5">
+    <div class="container">
+
+      <section class="page-hero text-center" style="padding: clamp(40px,8vw,80px) 0 clamp(30px,5vw,60px)">
+        <div class="d-flex gap-2 mb-3 justify-content-center fade-in-up">
+          <span>Tools — Vergleich</span>
+        </div>
+        <h1 class="fade-in-up delay-1">Produkte <span class="text-gradient">vergleichen</span></h1>
+        <p class="fade-in-up delay-2">Bis zu 3 Komponenten einer Kategorie direkt nebeneinander.</p>
+        <div class="accent-line fade-in-up delay-3"></div>
+      </section>
+
+      <div class="compare-card fade-in-up">
+        <div class="row g-3 align-items-end">
+          <div class="col-12 col-md-auto" style="min-width:180px">
+            <div class="cat-label">Kategorie</div>
+            <select id="cat-sel" class="form-select" onchange="onCatChange()">
+              <option value="">Bitte wählen…</option>
+              <option value="CPU">CPU</option>
+              <option value="GPU">GPU</option>
+              <option value="RAM">RAM</option>
+              <option value="Motherboard">Mainboard</option>
+              <option value="Storage">Storage</option>
+              <option value="PSU">PSU</option>
+              <option value="PCCase">Gehäuse</option>
+              <option value="CPUCooler">CPU-Kühler</option>
+            </select>
+          </div>
+          <div class="col" id="slots-wrap" style="display:none">
+            <div class="d-flex gap-2 flex-wrap" id="slots-row"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="result-wrap" style="display:none">
+        <div class="compare-card">
+          <div class="table-responsive">
+            <table class="compare-table" id="ctable"></table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+  <script>
+    const SKIP = new Set(['name','clean_name','tags','id','image','link','amazon_sku','available','last_updated']);
+    const KEY_LABEL = {
+      price:'Preis', cores:'Kerne', threads:'Threads', tdp:'TDP (W)',
+      base_clock:'Basis-Takt', boost_clock:'Boost-Takt', socket:'Sockel',
+      vram:'VRAM (GB)', core_clock:'Core-Takt', capacity:'Kapazität',
+      speed:'Geschwindigkeit', type:'Typ', wattage:'Leistung (W)',
+      max_gpu_length:'Max. GPU-Länge', color:'Farbe', rpm:'RPM', airflow:'Luftstrom',
+    };
+    const LOWER_BETTER = new Set(['tdp','price']);
+
+    let allProducts = [];
+    let numSlots = 2;
+
+    async function onCatChange() {
+      const cat = document.getElementById('cat-sel').value;
+      if (!cat) return;
+      const res = await fetch(`processed_data/${cat}.json`);
+      allProducts = (await res.json()).filter(p => p.available !== false);
+      numSlots = 2;
+      renderSlots();
+      document.getElementById('slots-wrap').style.display = '';
+      document.getElementById('result-wrap').style.display = 'none';
+    }
+
+    function renderSlots() {
+      const row = document.getElementById('slots-row');
+      row.innerHTML = '';
+      for (let i = 0; i < numSlots; i++) {
+        const wrap = document.createElement('div');
+        wrap.className = 'prod-slot';
+
+        const lbl = document.createElement('div');
+        lbl.className = 'cat-label';
+        lbl.textContent = `Produkt ${i + 1}`;
+
+        const sel = document.createElement('select');
+        sel.className = 'form-select';
+        sel.id = `slot-${i}`;
+        sel.onchange = updateTable;
+        sel.innerHTML = '<option value="">Bitte wählen…</option>';
+        allProducts.forEach(p => {
+          const o = document.createElement('option');
+          o.value = p.name;
+          o.textContent = (p.clean_name || p.name) + (p.price ? ` — ${p.price} €` : '');
+          sel.appendChild(o);
+        });
+
+        if (i === 2) {
+          const rm = document.createElement('button');
+          rm.className = 'remove-btn';
+          rm.innerHTML = '×';
+          rm.title = 'Slot entfernen';
+          rm.onclick = () => { numSlots = 2; renderSlots(); updateTable(); };
+          wrap.appendChild(rm);
+        }
+
+        wrap.appendChild(lbl);
+        wrap.appendChild(sel);
+        row.appendChild(wrap);
+      }
+
+      if (numSlots < 3) {
+        const addBtn = document.createElement('button');
+        addBtn.className = 'btn btn-outline-accent btn-sm add-slot-btn';
+        addBtn.innerHTML = '<i class="fas fa-plus me-1"></i>3. Produkt';
+        addBtn.onclick = () => { numSlots = 3; renderSlots(); };
+        row.appendChild(addBtn);
+      }
+    }
+
+    function fmt(key, val) {
+      if (val === null || val === undefined) return '—';
+      if (key === 'price') return `${val} €`;
+      if (Array.isArray(val)) return val.join(', ');
+      return String(val);
+    }
+
+    function updateTable() {
+      const selected = [];
+      for (let i = 0; i < numSlots; i++) {
+        const el = document.getElementById(`slot-${i}`);
+        if (el && el.value) {
+          const p = allProducts.find(x => x.name === el.value);
+          if (p) selected.push(p);
+        }
+      }
+      if (selected.length < 2) { document.getElementById('result-wrap').style.display = 'none'; return; }
+
+      const cat = document.getElementById('cat-sel').value;
+      const keySet = new Set();
+      const extraKeys = [];
+      selected.forEach(p => Object.keys(p).forEach(k => {
+        if (!SKIP.has(k.toLowerCase()) && k !== 'price' && !keySet.has(k)) {
+          keySet.add(k); extraKeys.push(k);
+        }
+      }));
+
+      let html = '<thead><tr><th class="key-col">Spec</th>';
+      selected.forEach(p => {
+        const n = p.clean_name || p.name;
+        const link = `product.html?category=${encodeURIComponent(cat)}&name=${encodeURIComponent(p.name)}`;
+        html += `<th class="prod-header"><a href="${link}" style="color:inherit;text-decoration:none">${n}</a></th>`;
+      });
+      html += '</tr></thead><tbody>';
+
+      // Price row
+      const prices = selected.map(p => p.price).filter(Boolean);
+      const minP = prices.length ? Math.min(...prices) : null;
+      html += '<tr><th class="key-col">Preis</th>';
+      selected.forEach(p => {
+        const cls = p.price && p.price === minP ? 'price-cell val-best' : 'price-cell';
+        html += `<td class="${cls}">${p.price ? p.price + ' €' : '—'}</td>`;
+      });
+      html += '</tr>';
+
+      extraKeys.forEach(key => {
+        const vals = selected.map(p => p[key]);
+        const nums = vals.map(v => parseFloat(v));
+        const allNum = nums.every(n => !isNaN(n));
+        const best = allNum ? (LOWER_BETTER.has(key) ? Math.min(...nums) : Math.max(...nums)) : null;
+        const worst = allNum ? (LOWER_BETTER.has(key) ? Math.max(...nums) : Math.min(...nums)) : null;
+
+        html += `<tr><th class="key-col">${KEY_LABEL[key] || key.replace(/_/g,' ').replace(/\b\w/g,c=>c.toUpperCase())}</th>`;
+        vals.forEach((v, i) => {
+          let cls = '';
+          if (best !== null && nums[i] === best) cls = 'val-best';
+          else if (worst !== null && nums[i] === worst && selected.length > 2) cls = 'val-worst';
+          html += `<td class="${cls}">${fmt(key, v)}</td>`;
+        });
+        html += '</tr>';
+      });
+
+      html += '</tbody>';
+      document.getElementById('ctable').innerHTML = html;
+      document.getElementById('result-wrap').style.display = '';
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initSiteLayout();
+      hidePreloader();
+    });
+  </script>
+</body>
+</html>
