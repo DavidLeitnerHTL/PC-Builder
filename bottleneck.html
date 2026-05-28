@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bottleneck-Rechner | PC Builder</title>
+  <meta name="description" content="Prüfe ob CPU oder GPU der Flaschenhals deines Builds ist.">
+  <meta property="og:title" content="Bottleneck-Rechner | PC Builder">
+  <meta property="og:url" content="https://pc-builder.at/bottleneck.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PC Builder">
+
+  <script>
+    const savedTheme = localStorage.getItem('theme');
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (savedTheme === 'light') document.documentElement.setAttribute('data-theme', 'light');
+    else if (savedTheme === 'dark' || systemPrefersDark) document.documentElement.setAttribute('data-theme', 'dark');
+  </script>
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .tool-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .cat-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-secondary);
+      margin-bottom: 0.35rem;
+    }
+    .perf-bar-wrap {
+      margin-bottom: 1.25rem;
+    }
+    .perf-bar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.4rem;
+    }
+    .perf-bar-label {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .perf-bar-pct {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+    .perf-bar-bg {
+      height: 14px;
+      background: var(--border-color);
+      border-radius: var(--radius-pill);
+      overflow: hidden;
+    }
+    .perf-bar-fill {
+      height: 100%;
+      border-radius: var(--radius-pill);
+      transition: width 0.8s var(--ease-out-expo);
+      background: var(--accent-color);
+    }
+    .perf-bar-fill.balanced { background: #22c55e; }
+    .perf-bar-fill.bottleneck-bar { background: #ef4444; }
+
+    .verdict-box {
+      border-radius: var(--radius-lg);
+      padding: 1.5rem 2rem;
+      margin-top: 1.5rem;
+      border: 1px solid var(--border-color);
+      text-align: center;
+    }
+    .verdict-box.balanced  { border-color: #22c55e; background: rgba(34,197,94,.07); }
+    .verdict-box.warn      { border-color: #f59e0b; background: rgba(245,158,11,.07); }
+    .verdict-box.critical  { border-color: #ef4444; background: rgba(239,68,68,.07); }
+    .verdict-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+    .verdict-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+    .verdict-sub { color: var(--text-secondary); font-size: 0.9rem; }
+    .diff-badge {
+      display: inline-block;
+      padding: 0.2rem 0.75rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-top: 0.6rem;
+    }
+    .spec-mini {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      margin-top: 0.2rem;
+    }
+  </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <div id="site-header"></div>
+
+  <main class="flex-grow-1 py-5">
+    <div class="container" style="max-width:760px">
+
+      <section class="page-hero text-center" style="padding: clamp(40px,8vw,80px) 0 clamp(30px,5vw,60px)">
+        <div class="d-flex gap-2 mb-3 justify-content-center fade-in-up">
+          <span>Tools — Bottleneck</span>
+        </div>
+        <h1 class="fade-in-up delay-1">Bottleneck <span class="text-gradient">Rechner</span></h1>
+        <p class="fade-in-up delay-2">Wähle CPU und GPU – sieh sofort welches Teil der Flaschenhals ist.</p>
+        <div class="accent-line fade-in-up delay-3"></div>
+      </section>
+
+      <div class="tool-card fade-in-up" id="select-card">
+        <div id="loading-hint" style="text-align:center;color:var(--text-secondary);padding:1rem 0">
+          <i class="fas fa-spinner fa-spin me-2"></i>Lade Komponenten…
+        </div>
+        <div id="select-row" class="row g-3" style="display:none!important">
+          <div class="col-12 col-md-6">
+            <div class="cat-label"><i class="fas fa-microchip me-1"></i>CPU</div>
+            <select id="cpu-sel" class="form-select" onchange="onSelChange()">
+              <option value="">CPU wählen…</option>
+            </select>
+            <div class="spec-mini" id="cpu-specs"></div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="cat-label"><i class="fas fa-display me-1"></i>GPU</div>
+            <select id="gpu-sel" class="form-select" onchange="onSelChange()">
+              <option value="">GPU wählen…</option>
+            </select>
+            <div class="spec-mini" id="gpu-specs"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="result" style="display:none">
+        <div class="tool-card">
+          <div class="perf-bar-wrap">
+            <div class="perf-bar-header">
+              <span class="perf-bar-label"><i class="fas fa-microchip me-2" style="color:var(--accent-color)"></i>CPU</span>
+              <span class="perf-bar-pct" id="cpu-pct-lbl">–</span>
+            </div>
+            <div class="perf-bar-bg">
+              <div class="perf-bar-fill" id="cpu-bar" style="width:0%"></div>
+            </div>
+          </div>
+          <div class="perf-bar-wrap">
+            <div class="perf-bar-header">
+              <span class="perf-bar-label"><i class="fas fa-display me-2" style="color:var(--accent-color)"></i>GPU</span>
+              <span class="perf-bar-pct" id="gpu-pct-lbl">–</span>
+            </div>
+            <div class="perf-bar-bg">
+              <div class="perf-bar-fill" id="gpu-bar" style="width:0%"></div>
+            </div>
+          </div>
+
+          <div class="verdict-box" id="verdict-box">
+            <div class="verdict-icon" id="verdict-icon"></div>
+            <div class="verdict-title" id="verdict-title"></div>
+            <div class="verdict-sub" id="verdict-sub"></div>
+            <div class="diff-badge" id="diff-badge"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+  <script>
+    let cpus = [], gpus = [];
+
+    function score(p, type) {
+      if (p.price) return p.price;
+      if (type === 'cpu') return (p.cores || 4) * (parseFloat(p.boost_clock || p.base_clock) || 3) * 30;
+      return (parseInt(p.vram) || 8) * 50;
+    }
+
+    function percentile(products, target, type) {
+      const sorted = [...products].sort((a, b) => score(a, type) - score(b, type));
+      const idx = sorted.findIndex(p => p.name === target.name);
+      if (idx < 0) return 50;
+      return Math.round(idx / Math.max(sorted.length - 1, 1) * 100);
+    }
+
+    function specStr(p, type) {
+      if (type === 'cpu') {
+        const parts = [];
+        if (p.cores) parts.push(`${p.cores} Kerne`);
+        if (p.boost_clock) parts.push(`${p.boost_clock} Boost`);
+        else if (p.base_clock) parts.push(`${p.base_clock} Basistakt`);
+        if (p.tdp) parts.push(`${p.tdp} W TDP`);
+        return parts.join(' · ');
+      }
+      const parts = [];
+      if (p.vram) parts.push(`${p.vram} GB VRAM`);
+      if (p.boost_clock) parts.push(`${p.boost_clock} MHz Boost`);
+      if (p.tdp) parts.push(`${p.tdp} W TDP`);
+      return parts.join(' · ');
+    }
+
+    function onSelChange() {
+      const cpuName = document.getElementById('cpu-sel').value;
+      const gpuName = document.getElementById('gpu-sel').value;
+
+      const cpu = cpus.find(p => p.name === cpuName);
+      const gpu = gpus.find(p => p.name === gpuName);
+
+      document.getElementById('cpu-specs').textContent = cpu ? specStr(cpu, 'cpu') : '';
+      document.getElementById('gpu-specs').textContent = gpu ? specStr(gpu, 'gpu') : '';
+
+      if (!cpu || !gpu) { document.getElementById('result').style.display = 'none'; return; }
+
+      const cpuPct = percentile(cpus, cpu, 'cpu');
+      const gpuPct = percentile(gpus, gpu, 'gpu');
+      const diff = cpuPct - gpuPct;
+      const absDiff = Math.abs(diff);
+
+      document.getElementById('cpu-pct-lbl').textContent = `${cpuPct}. Perzentile`;
+      document.getElementById('gpu-pct-lbl').textContent = `${gpuPct}. Perzentile`;
+
+      const cpuBar = document.getElementById('cpu-bar');
+      const gpuBar = document.getElementById('gpu-bar');
+      cpuBar.style.width = cpuPct + '%';
+      gpuBar.style.width = gpuPct + '%';
+
+      const vBox = document.getElementById('verdict-box');
+      const vIcon = document.getElementById('verdict-icon');
+      const vTitle = document.getElementById('verdict-title');
+      const vSub = document.getElementById('verdict-sub');
+      const vBadge = document.getElementById('diff-badge');
+
+      cpuBar.className = 'perf-bar-fill';
+      gpuBar.className = 'perf-bar-fill';
+
+      if (absDiff <= 10) {
+        vBox.className = 'verdict-box balanced';
+        vIcon.textContent = '✅';
+        vTitle.textContent = 'Ausgewogenes Build';
+        vSub.textContent = 'CPU und GPU passen gut zueinander – kein signifikanter Flaschenhals.';
+        vBadge.textContent = `Differenz: ${absDiff} Perzentilpunkte`;
+        vBadge.style.cssText = 'background:rgba(34,197,94,.15);color:#22c55e';
+        cpuBar.classList.add('balanced');
+        gpuBar.classList.add('balanced');
+      } else if (diff > 0) {
+        // CPU > GPU → GPU is bottleneck
+        const severity = absDiff > 25 ? 'critical' : 'warn';
+        vBox.className = `verdict-box ${severity}`;
+        vIcon.textContent = severity === 'critical' ? '🔴' : '🟡';
+        vTitle.textContent = 'GPU-Bottleneck';
+        vSub.textContent = `Die GPU ist deutlich schwächer als die CPU. Der Prozessor wartet auf die Grafikkarte.`;
+        const color = severity === 'critical' ? '#ef4444' : '#f59e0b';
+        vBadge.textContent = `~${absDiff} Perzentilpunkte Unterschied`;
+        vBadge.style.cssText = `background:rgba(${severity==='critical'?'239,68,68':'245,158,11'},.15);color:${color}`;
+        gpuBar.classList.add('bottleneck-bar');
+      } else {
+        // GPU > CPU → CPU is bottleneck
+        const severity = absDiff > 25 ? 'critical' : 'warn';
+        vBox.className = `verdict-box ${severity}`;
+        vIcon.textContent = severity === 'critical' ? '🔴' : '🟡';
+        vTitle.textContent = 'CPU-Bottleneck';
+        vSub.textContent = `Der Prozessor ist deutlich schwächer als die GPU. Die Grafikkarte kann ihr Potenzial nicht voll entfalten.`;
+        const color = severity === 'critical' ? '#ef4444' : '#f59e0b';
+        vBadge.textContent = `~${absDiff} Perzentilpunkte Unterschied`;
+        vBadge.style.cssText = `background:rgba(${severity==='critical'?'239,68,68':'245,158,11'},.15);color:${color}`;
+        cpuBar.classList.add('bottleneck-bar');
+      }
+
+      document.getElementById('result').style.display = '';
+    }
+
+    async function init() {
+      const [cpuRes, gpuRes] = await Promise.all([
+        fetch('processed_data/CPU.json'),
+        fetch('processed_data/GPU.json'),
+      ]);
+      cpus = (await cpuRes.json()).filter(p => p.available !== false);
+      gpus = (await gpuRes.json()).filter(p => p.available !== false);
+
+      const cpuSel = document.getElementById('cpu-sel');
+      const gpuSel = document.getElementById('gpu-sel');
+
+      cpus.forEach(p => {
+        const o = document.createElement('option');
+        o.value = p.name;
+        o.textContent = (p.clean_name || p.name) + (p.price ? ` — ${p.price} €` : '');
+        cpuSel.appendChild(o);
+      });
+      gpus.forEach(p => {
+        const o = document.createElement('option');
+        o.value = p.name;
+        o.textContent = (p.clean_name || p.name) + (p.price ? ` — ${p.price} €` : '');
+        gpuSel.appendChild(o);
+      });
+
+      document.getElementById('loading-hint').style.display = 'none';
+      document.getElementById('select-row').style.removeProperty('display');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initSiteLayout();
+      hidePreloader();
+      init();
+    });
+  </script>
+</body>
+</html>
