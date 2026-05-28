@@ -17,6 +17,8 @@ function getCurrentPage() {
 function renderHeader() {
     const currentPage = getCurrentPage();
     const isActive = (href) => currentPage === href.toLowerCase() ? 'active' : '';
+    const toolPages = ['compare.html', 'bottleneck.html', 'budget.html'];
+    const isToolActive = toolPages.includes(currentPage) ? 'active' : '';
 
     return `
   <!-- === HEADER === -->
@@ -33,6 +35,16 @@ function renderHeader() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav nav-pills ms-auto gap-1 align-items-center">
             <li class="nav-item"><a class="nav-link ${isActive('builder.html')}" href="builder.html"><i class="fas fa-sliders me-1"></i>Konfigurator</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ${isToolActive}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-wrench me-1"></i>Tools
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item ${isActive('compare.html')}" href="compare.html"><i class="fas fa-code-compare me-2"></i>Vergleich</a></li>
+                <li><a class="dropdown-item ${isActive('bottleneck.html')}" href="bottleneck.html"><i class="fas fa-gauge me-2"></i>Bottleneck</a></li>
+                <li><a class="dropdown-item ${isActive('budget.html')}" href="budget.html"><i class="fas fa-wallet me-2"></i>Budget</a></li>
+              </ul>
+            </li>
             <li class="nav-item"><a class="nav-link ${isActive('knowledge.html')}" href="knowledge.html"><i class="fas fa-graduation-cap me-1"></i>Wissen</a></li>
             <li class="nav-item"><a class="nav-link ${isActive('faq.html')}" href="faq.html"><i class="fas fa-circle-question me-1"></i>FAQ</a></li>
             <li class="nav-item"><a class="nav-link ${isActive('news.html')}" href="news.html"><i class="fas fa-bolt me-1"></i>News</a></li>
