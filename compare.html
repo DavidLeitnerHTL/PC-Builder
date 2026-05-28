@@ -150,15 +150,33 @@
   <script src="config.js"></script>
   <script src="script.js"></script>
   <script>
-    const SKIP = new Set(['name','clean_name','tags','id','image','link','amazon_sku','available','last_updated']);
+    const SKIP = new Set([
+      'name','clean_name','tags','id','image','link','amazon_sku',
+      'available','last_updated','variant',
+    ]);
     const KEY_LABEL = {
-      price:'Preis', cores:'Kerne', threads:'Threads', tdp:'TDP (W)',
-      base_clock:'Basis-Takt', boost_clock:'Boost-Takt', socket:'Sockel',
-      vram:'VRAM (GB)', core_clock:'Core-Takt', capacity:'Kapazität',
-      speed:'Geschwindigkeit', type:'Typ', wattage:'Leistung (W)',
-      max_gpu_length:'Max. GPU-Länge', color:'Farbe', rpm:'RPM', airflow:'Luftstrom',
+      // universal
+      price: 'Preis', tdp: 'TDP',
+      // CPU
+      cores: 'Kerne', threads: 'Threads', clock_speed: 'Takt',
+      socket: 'Sockel', ram_type: 'RAM-Typ',
+      // GPU
+      vram: 'VRAM', core_clock: 'Core-Takt', boost_clock: 'Boost-Takt',
+      length: 'Länge', memory_type: 'Speicher-Typ', chipset: 'Chipset',
+      // RAM
+      capacity: 'Kapazität', cas_latency: 'CAS-Latenz',
+      modules_config: 'Konfiguration',
+      // Storage
+      type: 'Typ', form_factor: 'Formfaktor', interface: 'Interface',
+      nvme: 'NVMe', storage_type: 'Speicher-Typ',
+      // PSU
+      wattage: 'Leistung', efficiency: 'Effizienz', modularity: 'Modularität',
+      // Case
+      color: 'Farbe', max_gpu_length: 'Max. GPU-Länge',
+      // Cooler
+      rpm: 'RPM', airflow: 'Luftstrom', speed: 'Geschwindigkeit',
     };
-    const LOWER_BETTER = new Set(['tdp','price']);
+    const LOWER_BETTER = new Set(['tdp', 'price', 'cas_latency']);
 
     let allProducts = [];
     let numSlots = 2;
@@ -222,7 +240,11 @@
 
     function fmt(key, val) {
       if (val === null || val === undefined) return '—';
-      if (key === 'price') return `${val} €`;
+      if (typeof val === 'boolean') return val ? 'Ja' : 'Nein';
+      if (key === 'price') return Number(val).toFixed(2) + ' €';
+      if (key === 'tdp') return val + ' W';
+      if (key === 'core_clock' || key === 'boost_clock') return val + ' MHz';
+      if (key === 'length' || key === 'max_gpu_length') return val + ' mm';
       if (Array.isArray(val)) return val.join(', ');
       return String(val);
     }
@@ -261,7 +283,7 @@
       html += '<tr><th class="key-col">Preis</th>';
       selected.forEach(p => {
         const cls = p.price && p.price === minP ? 'price-cell val-best' : 'price-cell';
-        html += `<td class="${cls}">${p.price ? p.price + ' €' : '—'}</td>`;
+        html += `<td class="${cls}">${p.price ? Number(p.price).toFixed(2) + ' €' : '—'}</td>`;
       });
       html += '</tr>';
 

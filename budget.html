@@ -245,10 +245,15 @@
           <div class="chip-label"><i class="fas ${a.icon} me-1"></i>${a.label}</div>
           <div class="chip-val">${slice} €</div>
           <div class="alloc-bar-bg">
-            <div class="alloc-bar-fill" style="width:${a.pct * 3}%"></div>
+            <div class="alloc-bar-fill" style="width:${allocBarWidth(a.pct)}%"></div>
           </div>`;
         grid.appendChild(chip);
       });
+    }
+
+    function allocBarWidth(pct) {
+      // Normalise to the largest allocation (GPU 33%) = 100%
+      return Math.round(pct / 33 * 100);
     }
 
     function bestFit(products, budget) {
@@ -273,6 +278,7 @@
         const results = await Promise.all(
           ALLOC.map(async a => {
             const res = await fetch(`processed_data/${a.key}.json`);
+            if (!res.ok) throw new Error(`Fehler beim Laden von ${a.key}`);
             const products = await res.json();
             const slice = Math.round(budget * a.pct / 100);
             const pick = bestFit(products, slice);
@@ -289,7 +295,7 @@
             ? `<a href="product.html?category=${encodeURIComponent(r.key)}&name=${encodeURIComponent(p.name)}" class="prod-name text-decoration-none">${p.clean_name || p.name}</a>`
             : '<span class="no-prod">Kein Produkt in diesem Budget</span>';
           const priceCell = p
-            ? `<td class="prod-price">${p.price} €</td>`
+            ? `<td class="prod-price">${Number(p.price).toFixed(2)} €</td>`
             : '<td class="prod-price" style="color:var(--text-secondary)">—</td>';
           html += `<tr>
             <td><i class="fas ${r.icon} cat-icon me-2" style="color:var(--accent-color)"></i>${r.label}</td>
@@ -301,18 +307,25 @@
         const remaining = budget - totalPrice;
         html += `<tr class="total-row">
           <td colspan="2">Gesamt</td>
-          <td class="prod-price">${totalPrice.toFixed(0)} €</td>
+          <td class="prod-price">${Number(totalPrice).toFixed(2)} €</td>
         </tr>`;
-        if (remaining > 0) {
+        if (remaining >= 0) {
           html += `<tr>
             <td colspan="2" style="color:var(--text-secondary);font-size:0.82rem">Restbudget</td>
-            <td style="text-align:right;font-size:0.82rem;color:#22c55e">+${remaining.toFixed(0)} €</td>
+            <td style="text-align:right;font-size:0.82rem;color:#22c55e">+${remaining.toFixed(2)} €</td>
+          </tr>`;
+        } else {
+          html += `<tr>
+            <td colspan="2" style="color:var(--text-secondary);font-size:0.82rem">Budget überschritten</td>
+            <td style="text-align:right;font-size:0.82rem;color:#ef4444">${remaining.toFixed(2)} €</td>
           </tr>`;
         }
 
         document.getElementById('result-body').innerHTML = html;
         document.getElementById('result-wrap').style.display = '';
         document.getElementById('result-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } catch (err) {
+        alert('Fehler beim Laden der Produktdaten: ' + err.message);
       } finally {
         btn.disabled = false;
         btn.innerHTML = '<i class="fas fa-wand-magic-sparkles me-2"></i>Build optimieren';

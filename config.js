@@ -100,7 +100,8 @@ function renderFooter() {
 function setupToolsDropdown() {
     const toggle = document.getElementById('tools-toggle');
     const menu = document.getElementById('tools-menu');
-    if (!toggle || !menu) return;
+    // Guard: already initialised (menu teleported to body) or elements missing
+    if (!toggle || !menu || menu.parentElement === document.body) return;
 
     // Teleport menu to <body> so it escapes the navbar's backdrop-filter
     // stacking context (which clips position:fixed/absolute children).

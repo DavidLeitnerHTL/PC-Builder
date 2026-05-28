@@ -188,7 +188,9 @@
 
     function score(p, type) {
       if (p.price) return p.price;
-      if (type === 'cpu') return (p.cores || 4) * (parseFloat(p.boost_clock || p.base_clock) || 3) * 30;
+      // Fallback when price is null: estimate from specs
+      // CPU: clock_speed is "3.1 GHz" (string); GPU: vram is integer GB
+      if (type === 'cpu') return (p.cores || 4) * (parseFloat(p.clock_speed) || 3) * 30;
       return (parseInt(p.vram) || 8) * 50;
     }
 
@@ -203,14 +205,15 @@
       if (type === 'cpu') {
         const parts = [];
         if (p.cores) parts.push(`${p.cores} Kerne`);
-        if (p.boost_clock) parts.push(`${p.boost_clock} Boost`);
-        else if (p.base_clock) parts.push(`${p.base_clock} Basistakt`);
+        if (p.clock_speed) parts.push(p.clock_speed);   // "3.1 GHz" already has unit
+        if (p.socket) parts.push(p.socket);
         if (p.tdp) parts.push(`${p.tdp} W TDP`);
         return parts.join(' · ');
       }
       const parts = [];
       if (p.vram) parts.push(`${p.vram} GB VRAM`);
       if (p.boost_clock) parts.push(`${p.boost_clock} MHz Boost`);
+      else if (p.core_clock) parts.push(`${p.core_clock} MHz Core`);
       if (p.tdp) parts.push(`${p.tdp} W TDP`);
       return parts.join(' · ');
     }
