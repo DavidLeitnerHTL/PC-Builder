@@ -12,18 +12,18 @@ import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = join(__dirname, '..', 'news.json');
-const MAX_ARTICLES = 30;
+const MAX_ARTICLES = 50;
 
 // ── Feeds ──────────────────────────────────────────────────────────
+// generalTech: true → apply hardware relevance filter (broad sources like Heise/Golem
+// publish everything; we only want PC hardware articles from them)
 const FEEDS = [
-  { url: 'https://www.heise.de/rss/heise.rdf',         source: 'Heise' },
-  { url: 'https://www.computerbase.de/rss/news.xml',   source: 'ComputerBase' },
-  { url: 'https://rss.golem.de/rss.php?feed=RSS2.0',   source: 'Golem' },
-  { url: 'https://www.pcgameshardware.de/rss/news.rss', source: 'PCGH' },
-  { url: 'https://www.hardwareluxx.de/rss.xml',        source: 'HardwareLuxx' },
-  { url: 'https://www.notebookcheck.com/rss.xml',      source: 'Notebookcheck' },
-  { url: 'https://www.hardwareschotte.de/?feed=rss2',  source: 'HardwareSchotte' },
-  { url: 'https://www.tomshardware.de/rss.xml',        source: 'Tom\'s Hardware' },
+  { url: 'https://www.heise.de/rss/heise.rdf',                     source: 'Heise',        generalTech: true },
+  { url: 'https://www.computerbase.de/rss/news.xml',                source: 'ComputerBase', generalTech: true },
+  { url: 'https://rss.golem.de/rss.php?feed=RSS2.0',                source: 'Golem',        generalTech: true },
+  { url: 'https://www.pcgameshardware.de/feed.cfm?menu_alias=home/', source: 'PCGH',         generalTech: true },
+  { url: 'https://feeds.feedburner.com/hardwareluxx',               source: 'HardwareLuxx', generalTech: true },
+  { url: 'https://www.techpowerup.com/rss/news',                    source: 'TechPowerUp'                     },
 ];
 
 // ── Categorization keywords ────────────────────────────────────────
@@ -75,6 +75,42 @@ const CATEGORIES = {
 };
 
 const FALLBACK_CATEGORY = 'Hardware';
+
+// Keywords that must appear (at least one) for an article from a general-tech
+// source (Heise, Golem) to be considered relevant to PC hardware.
+const RELEVANCE_KEYWORDS = [
+  // Core PC components (specific enough to not false-match unrelated articles)
+  'cpu', 'gpu', 'grafikkarte', 'prozessor', 'mainboard', 'motherboard',
+  'nvme', 'arbeitsspeicher', 'netzteil', 'psu',
+  'cpu-kühler', 'wasserkühlung', 'luftkühlung', 'aio kühler',
+  // GPU brands / product lines
+  'rtx ', 'geforce', 'radeon rx', 'radeon r', 'arc b', 'arc a',
+  // CPU brands / product lines
+  'ryzen ', 'intel core', 'core ultra', 'core i', 'threadripper', 'xeon',
+  // RAM & storage (keep specific to avoid "ram" in German verbs like "programm")
+  'ddr5', 'ddr4', 'ddr6', 'gddr', 'hbm', 'nand-', 'pcie-ssd', 'nvme-ssd',
+  'ssd ', 'ssd-', ' ram ', ' ram,', ' ram.',
+  // Chip industry (company + context specific)
+  'nvidia', 'tsmc', 'asml', 'chipset', 'grafikchip', 'siliziumchip',
+  'halbleiter', 'halbleiterfertigung',
+  // PC-relevant technologies
+  'dlss', 'fsr ', 'xess', 'raytracing', 'pathtracing', 'pcie ', 'pci-e',
+  'overclocking', 'übertakten', 'directx 1', 'vulkan api',
+  // Gaming + hardware intersection (benchmark/fps implies hardware context)
+  'benchmark', 'fps ', ' fps,', ' fps.', 'frametimes', 'gaming-pc',
+  'gaming pc', 'high-end pc', 'custom pc',
+  // OS in hardware context
+  'windows 11', 'windows 10', 'linux gaming',
+  // Display hardware
+  'gaming-monitor', 'oled-monitor', 'refresh rate', 'hz panel', 'displayport',
+  // Audio/peripherals hardware
+  'gaming-headset', 'gaming-maus', 'gaming-tastatur',
+];
+
+function isHardwareRelevant(title, description) {
+  const text = (title + ' ' + description).toLowerCase();
+  return RELEVANCE_KEYWORDS.some(kw => text.includes(kw));
+}
 
 // ── Helpers ────────────────────────────────────────────────────────
 const parser = new Parser({
@@ -167,6 +203,10 @@ function cleanDescription(raw = '') {
 
 function cleanTitle(raw = '') {
   let text = raw.replace(/<[^>]+>/g, '');
+  // Strip source-specific title prefixes that add no value
+  text = text.replace(/^heise\+\s*\|\s*/i, '');
+  text = text.replace(/^heise-angebot:\s*/i, '');
+  text = text.replace(/^heise-news:\s*/i, '');
   text = text.replace(/\s+/g, ' ').trim();
   if (text.length > 120) {
     text = text.substring(0, 117).trim() + '...';
@@ -186,6 +226,10 @@ async function fetchFeed(feed) {
 
       const title = cleanTitle(getTextField(item, 'title'));
       const description = cleanDescription(getTextField(item, 'contentSnippet', 'content', 'description', 'summary'));
+
+      // Skip off-topic articles from general tech sources
+      if (feed.generalTech && !isHardwareRelevant(title, description)) continue;
+
       const imageRaw = extractImage(item);
       const image = looksLikeImageUrl(imageRaw) ? imageRaw : null;
       const date = parseDate(item);
