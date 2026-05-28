@@ -256,16 +256,29 @@
       return Math.round(pct / 33 * 100);
     }
 
-    function bestFit(products, budget) {
-      const eligible = products
-        .filter(p => p.available !== false && p.price && p.price <= budget)
-        .sort((a, b) => b.price - a.price);
+    function perfScore(p, category) {
+      if (category === 'GPU') {
+        // tdp × vram: correlates with real GPU tier across AMD/NVIDIA architectures.
+        // Avoids the boost_clock trap (RDNA4 runs 3000+ MHz but isn't 2× faster).
+        const s = (p.tdp || 0) * (p.vram || 0);
+        return s > 0 ? s : p.price;
+      }
+      if (category === 'CPU') {
+        // cores × clock_speed (GHz): reasonable proxy for multi- and single-thread
+        return (p.cores || 4) * (parseFloat(p.clock_speed) || 3);
+      }
+      // All other categories: price is the best available proxy for quality
+      return p.price || 0;
+    }
+
+    function bestFit(products, budget, category) {
+      const available = products.filter(p => p.available !== false && p.price);
+      const eligible = available
+        .filter(p => p.price <= budget)
+        .sort((a, b) => perfScore(b, category) - perfScore(a, category));
       if (eligible.length) return eligible[0];
-      // Nothing fits → cheapest available
-      const fallback = products
-        .filter(p => p.available !== false && p.price)
-        .sort((a, b) => a.price - b.price);
-      return fallback[0] || null;
+      // Nothing fits the slice → cheapest available as fallback
+      return available.sort((a, b) => a.price - b.price)[0] || null;
     }
 
     async function buildOptimal() {
@@ -281,7 +294,7 @@
             if (!res.ok) throw new Error(`Fehler beim Laden von ${a.key}`);
             const products = await res.json();
             const slice = Math.round(budget * a.pct / 100);
-            const pick = bestFit(products, slice);
+            const pick = bestFit(products, slice, a.key);
             return { ...a, slice, pick };
           })
         );
