@@ -1922,25 +1922,45 @@ footer::before {
   padding: 0.75rem 1rem;
 }
 
-/* --- Nav Tools Dropdown --- */
+/* --- Nav Tools Dropdown (teleported to <body>) --- */
 .nav-tools-menu {
+  /* Teleported to body — position: fixed escapes ALL stacking contexts */
+  position: fixed;
+  z-index: 99990;
+  display: none;
+  list-style: none;
+  margin: 0;
   min-width: 170px;
-  background: color-mix(in srgb, var(--bg-card) 96%, transparent);
+  padding: 0.3rem;
+  background: color-mix(in srgb, var(--bg-card) 97%, transparent);
   border: 1px solid var(--border-color-strong);
   border-radius: var(--radius-md);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
-  padding: 0.3rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
 
+.nav-tools-menu.show {
+  display: block;
+  animation: dropdown-in 0.15s var(--ease-out-expo);
+}
+
+@keyframes dropdown-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 .nav-tools-menu .dropdown-item {
+  display: flex;
+  align-items: center;
   color: var(--text-primary);
   border-radius: var(--radius-sm);
   padding: 0.48rem 0.85rem;
   font-size: 0.82rem;
   font-weight: 500;
+  text-decoration: none;
   transition: background var(--transition-fast), color var(--transition-fast);
+  cursor: pointer;
 }
 
 .nav-tools-menu .dropdown-item i {
@@ -1954,6 +1974,7 @@ footer::before {
 .nav-tools-menu .dropdown-item:focus {
   background: var(--accent-glow);
   color: var(--accent-color);
+  outline: none;
 }
 
 .nav-tools-menu .dropdown-item:hover i,
@@ -1967,9 +1988,10 @@ footer::before {
 }
 
 [data-theme="light"] .nav-tools-menu {
-  background: color-mix(in srgb, #ffffff 96%, transparent);
+  background: color-mix(in srgb, #ffffff 97%, transparent);
   box-shadow: 0 12px 32px rgba(17, 24, 39, 0.12);
 }
+
 
 /* --- Modal Styling --- */
 .modal-content {

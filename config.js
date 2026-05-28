@@ -3,11 +3,6 @@ const CONFIG = {
     API_BASE_URL: "https://db.pc-builder.at"
 };
 
-/**
- * PC Builder 2026 — Global Layout Injection
- * Injects shared header and footer into every page to avoid duplication.
- */
-
 function getCurrentPage() {
     const path = window.location.pathname;
     const page = path.substring(path.lastIndexOf('/') + 1) || 'index.html';
@@ -21,7 +16,6 @@ function renderHeader() {
     const isToolActive = toolPages.includes(currentPage) ? 'active' : '';
 
     return `
-  <!-- === HEADER === -->
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg p-0">
@@ -35,13 +29,11 @@ function renderHeader() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav nav-pills ms-auto gap-1 align-items-center">
             <li class="nav-item"><a class="nav-link ${isActive('builder.html')}" href="builder.html"><i class="fas fa-sliders me-1"></i>Konfigurator</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle ${isToolActive}" href="#" role="button"
-                 data-bs-toggle="dropdown" data-bs-strategy="fixed" data-bs-offset="[0,6]"
-                 aria-expanded="false">
+            <li class="nav-item">
+              <button id="tools-toggle" class="nav-link ${isToolActive}" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-wrench me-1"></i>Tools
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end nav-tools-menu">
+              </button>
+              <ul id="tools-menu" class="nav-tools-menu" role="menu" aria-labelledby="tools-toggle">
                 <li><a class="dropdown-item ${isActive('compare.html')}" href="compare.html"><i class="fas fa-code-compare me-2"></i>Vergleich</a></li>
                 <li><a class="dropdown-item ${isActive('bottleneck.html')}" href="bottleneck.html"><i class="fas fa-gauge me-2"></i>Bottleneck</a></li>
                 <li><a class="dropdown-item ${isActive('budget.html')}" href="budget.html"><i class="fas fa-wallet me-2"></i>Budget</a></li>
@@ -66,7 +58,6 @@ function renderHeader() {
 
 function renderFooter() {
     return `
-  <!-- === FOOTER === -->
   <footer class="pt-5 pb-3">
     <div class="container">
       <div class="row">
@@ -106,6 +97,43 @@ function renderFooter() {
     `.trim();
 }
 
+function setupToolsDropdown() {
+    const toggle = document.getElementById('tools-toggle');
+    const menu = document.getElementById('tools-menu');
+    if (!toggle || !menu) return;
+
+    // Teleport menu to <body> so it escapes the navbar's backdrop-filter
+    // stacking context (which clips position:fixed/absolute children).
+    document.body.appendChild(menu);
+
+    function open() {
+        const r = toggle.getBoundingClientRect();
+        menu.style.top  = (r.bottom + 6) + 'px';
+        menu.style.right = (window.innerWidth - r.right) + 'px';
+        menu.classList.add('show');
+        toggle.setAttribute('aria-expanded', 'true');
+    }
+
+    function close() {
+        menu.classList.remove('show');
+        toggle.setAttribute('aria-expanded', 'false');
+    }
+
+    toggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        menu.classList.contains('show') ? close() : open();
+    });
+
+    // Close on outside click
+    document.addEventListener('click', close);
+    // Keep open when clicking inside the menu
+    menu.addEventListener('click', (e) => e.stopPropagation());
+
+    // Reposition on scroll/resize so it tracks the toggle button
+    window.addEventListener('scroll', () => { if (menu.classList.contains('show')) open(); }, { passive: true });
+    window.addEventListener('resize', () => { if (menu.classList.contains('show')) open(); }, { passive: true });
+}
+
 function initSiteLayout() {
     const headerPlaceholder = document.getElementById('site-header');
     if (headerPlaceholder) {
@@ -116,9 +144,10 @@ function initSiteLayout() {
     if (footerPlaceholder) {
         footerPlaceholder.outerHTML = renderFooter();
     }
+
+    setupToolsDropdown();
 }
 
-/* Initialize as soon as DOM is ready */
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initSiteLayout);
 } else {
