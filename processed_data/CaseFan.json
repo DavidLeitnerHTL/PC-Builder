@@ -2209,7 +2209,8 @@
         "max_noise_level": 29.5,
         "static_pressure": 4.16,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RGB"
         ],
         "fan_size": "120mm",
         "features": "RGB, PWM",
@@ -2230,13 +2231,14 @@
         "controller": "None",
         "flow_direction": "Standard",
         "is_oem": false,
-        "min_airflow": 10.5,
-        "max_airflow": 74.2,
+        "min_airflow": 10.4,
+        "max_airflow": 73.5,
         "min_noise_level": 10,
         "max_noise_level": 36,
         "static_pressure": 4.33,
         "color": [
-            "WHITE"
+            "WHITE",
+            "RGB"
         ],
         "fan_size": "120mm",
         "features": "RGB, PWM",
