@@ -1,6 +1,213 @@
 [
   {
-    "title": "Chips Act 2:0: Behörden sollen mehr europäische Chips kaufen",
+    "title": "Lokale Bild-KI für ältere Gaming-Hardware: So erzeugen Sie Bilder in Sekunden",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "Selbst betagtere Spiele-PCs können schnell schöne KI-Bilder generieren: Wir zeigen ComfyUI-Workflows für einen PC mit Nvidia RTX 3070 (8 GByte) und DDR4-RAM.",
+    "url": "https://www.heise.de/ratgeber/Lokale-Bild-KI-fuer-aelterer-Gaming-Hardware-So-erzeugen-Sie-Bilder-in-Sekunden-11309751.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/9/0/4/0/8/Aufmacher-Qwen-2512-4steps-low-VRAM-986156f1bb9968a4.png",
+    "source": "Heise"
+  },
+  {
+    "title": "007 First Light unter Linux im Test: Proton-Benchmarks mit Radeon RX, GeForce RTX und Arc",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "Dem Technik-Test zu 007 First Light unter Windows folgt der Test unter Linux. Wie die Windows-Version für Steam dank Proton mit AMD Radeon RX 9000, GeForce RTX 5000 und Intel Arc B580 läuft, klärt der nachfolgende Tes...",
+    "url": "https://www.computerbase.de/artikel/gaming/007-first-light-linux-test.97559/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Halbleiterfabrik in Sachsen: TSMC beginnt in Dresden mit Personaleinstellung",
+    "date": "2026-05-29",
+    "category": "Industrie",
+    "description": "Nach der Fertigstellung der Halbleiterfabrik von TSMC in Dresden sollen dort 2.000 Angestellte beschäftigt werden. (Halbleiterfertigung, TSMC)",
+    "url": "https://www.golem.de/news/halbleiterfabrik-in-sachsen-tsmc-beginnt-in-dresden-mit-personaleinstellung-2605-209181.html",
+    "image": "https://www.golem.de/2605/209181-579778-579776_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "KI: Claude Opus 4.8 - schneller, ehrlicher, besser",
+    "date": "2026-05-29",
+    "category": "Software",
+    "description": "Anthropics neues Vorzeigemodell Opus 4.8 schlägt die Konkurrenz in fast allen Benchmarks und kostet dabei genauso viel wie sein Vorgänger. (Claude, KI)",
+    "url": "https://www.golem.de/news/ki-claude-opus-4-8-schneller-ehrlicher-besser-2605-209166.html",
+    "image": "https://www.golem.de/2605/209166-579696-579694_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Anzeige: SSD-Gehäuse für \"externe Festplatte\" bei Amazon immer günstiger",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "Ein SSD-Gehäuse, um sich selbst eine externe Festplatte bauen zu können, wurde bei Amazon zuletzt immer günstiger. (Solid State Drive, Speichermedien)",
+    "url": "https://www.golem.de/news/anzeige-ssd-gehaeuse-fuer-externe-festplatte-bei-amazon-immer-guenstiger-2605-209164.html",
+    "image": "https://www.golem.de/2605/209164-579687-579685_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "[PLUS] Undervolting vs. Powerlimit: Radeon RX 9070 XT und RTX 5070 Ti optimiert",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "PCGH Plus: Wie zügelt man den Stromhunger aktueller GPUs: mit einem Powerlimit oder per Spannungsoptimierung? Radeon RX 9070 XT und Geforce RTX 5070 Ti geben individuelle Antworten im Test. Der Artikel stammt aus PC G...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Undervolting-vs-Underpowering-RX-9070-XT-und-RTX-5070-Ti-1488087/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/12/aufmacher_undervolting-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "PC aufrüsten oder optimieren? CPU-Guide + heiße GPU-Tricks in PCGH 07/2026",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "Die PCGH-Ausgabe 07/2026 hat es in sich: der große CPU-Guide, Intels stärkster Battlemage im Gaming-Test, FSR 4 auf alten GPUs, bessere Spiele-Settings und Valves neuer Steam Controller!",
+    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-07-2026-Magazin-309-DVD-Download-PDF-1536294/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/05/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Gigabyte Aorus RTX 5090 Infinity im Test: Enorme Leistung, aber relativ laut und heiß",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "Ausgefallenes Design und zwei Lüfter - oder etwa doch drei? Mit der Aorus Infinity bringt Gigabyte eine besondere Version der RTX 5090. Wir haben das Einhorn eingefangen, auf unsere Testweide gestellt und ordentlich D...",
+    "url": "https://www.pcgameshardware.de/Geforce-RTX-5090-Grafikkarte-281029/Tests/Gigabyte-Aorus-Infinity-32G-Preis-1536063/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/05/Gigabyte-RTX-5090-Infinity-Testtabelle-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Computex 2026: Samsung Display bringt 4K-Panel mit nativen 360 Hertz",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "Samsung Display stellt auf der Computex 2026 das erste QD-OLED-Monitor-Panel vor, das 4K-Auflösung und native 360 Hz Bildfrequenz kombiniert. Auch ein Dual-Mode auf bis zu 680 Hertz sowie Trueblack 600 sind an Bord.",
+    "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/News/Samsung-4K-360-Hertz-QD-OLED-Panel-Computex-1537194/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/05/Samsung-Display-QD-OLED-Panel-4K-360-Hz-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "(PR) Cooler Master and G.SKILL Partner to Bring Active Cooling Technology to DDR5 Memory",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "Cooler Master, a global leader in innovative thermal solutions and PC hardware, today announced a partnership with G.SKILL to introduce new MasterDimm AC DDR5 memory featuring active cooling technology from Cooler Mas...",
+    "url": "https://www.techpowerup.com/349481/cooler-master-and-g-skill-partner-to-bring-active-cooling-technology-to-ddr5-memory",
+    "image": "https://www.techpowerup.com/img/xkDi8pkrAC9BwX7c.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Samsung Electronics Begins Shipment of Industry-First HBM4E Samples",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "Samsung Electronics, a global leader in advanced memory technology, today announced that it has begun shipping the industry's first 12-layer HBM4E samples to major global customers, further strengthening its leadershi...",
+    "url": "https://www.techpowerup.com/349479/samsung-electronics-begins-shipment-of-industry-first-hbm4e-samples",
+    "image": "https://www.techpowerup.com/img/PCH6nN68geSRKJqs.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) ECS to Showcase AI-ready Computing Platforms at COMPUTEX 2026",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "Elitegroup Computer Systems (ECS), a leading global provider of motherboards, mini PCs, and computing solutions, will participate in COMPUTEX 2026 from June 2 to 5, 2026, at Taipei Nangang Exhibition Center, Hall 1, B...",
+    "url": "https://www.techpowerup.com/349478/ecs-to-showcase-ai-ready-computing-platforms-at-computex-2026",
+    "image": "https://www.techpowerup.com/img/LAa9lFo49Mk6EtSK.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Evnia and BOE Debut the World's First Native 1000Hz 1080p Gaming Monitor",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "A revolutionary breakthrough in global gaming display technology has arrived. Evnia, the premium gaming brand under Philips, together with display giant BOE, recently unveiled its new flagship benchmark at a technical...",
+    "url": "https://www.techpowerup.com/349477/evnia-and-boe-debut-the-worlds-first-native-1000hz-1080p-gaming-monitor",
+    "image": "https://www.techpowerup.com/img/g6ts7U8M9i6BrIEX.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Beelink Expands ME Pro Storage PC Lineup for the AI Era",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "As data-intensive AI workloads reshape computing, demand for systems that combine performance with massive local storage is accelerating. Beelink, renowned for its innovations, has expanded the ME Pro series with new...",
+    "url": "https://www.techpowerup.com/349476/beelink-expands-me-pro-storage-pc-lineup-for-the-ai-era",
+    "image": "https://www.techpowerup.com/img/bwK2XaCx0hJbRhjE.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Microsoft Visual Studio Professional 2026 + 15 Coding Courses Just $50",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "Microsoft Visual Studio Professional 2026 has long been the development environment of choice for serious programmers, and pairing it with 15 structured coding courses makes this one of the more well-rounded deals you...",
+    "url": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50",
+    "image": "https://www.techpowerup.com/img/A8zV60F1u5dE7Ahg.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) NVIDIA GeForce NOW Bundles 007 First Light With Ultimate Membership and Adds Eight More Games",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "GeForce NOW is dialing up the espionage with the launch of 007 First Light, letting members slip into James Bond's reimagined origin story from almost any device - no tux or preloads required. For a limited time, the...",
+    "url": "https://www.techpowerup.com/349475/nvidia-geforce-now-bundles-007-first-light-with-ultimate-membership-and-adds-eight-more-games",
+    "image": "https://www.techpowerup.com/img/izMrc6CgzI83vZxe.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Asustor's All-Flash Storage Becomes the New Standard for Content Creation",
+    "date": "2026-05-29",
+    "category": "Software",
+    "description": "Asustor Inc. has successfully pioneered the all-flash NAS design with its Flashstor series, bringing high-performance storage solutions into top-tier content creation studios. The Flashstor's all-flash, zero noise, an...",
+    "url": "https://www.techpowerup.com/349474/asustors-all-flash-storage-becomes-the-new-standard-for-content-creation",
+    "image": "https://www.techpowerup.com/img/lzrXoZ5F3OHePGKB.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "No Surprise Microsoft Office Hikes—Own it for Life for $50",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "If your Microsoft 365 subscription has been quietly renewing every month without much thought, this is a good time to rethink that. A lifetime license to Microsoft Office Professional 2021 for Windows is currently ava...",
+    "url": "https://www.techpowerup.com/349451/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-50",
+    "image": "https://www.techpowerup.com/img/oahGNvkvfkWUHdMw.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) MSI Launches PRO MAX 27P/TP All-in-One PCs with 120 Hz Display",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "MSI, a global leader in business and productivity computing, is proud to introduce the PRO MAX 27P/TP All-in-One PCs, including the PRO MAX 27TP Z 8MG and PRO MAX 27P Z 8MG. The series has been honored with the Red Do...",
+    "url": "https://www.techpowerup.com/349473/msi-launches-pro-max-27p-tp-all-in-one-pcs-with-120-hz-display",
+    "image": "https://www.techpowerup.com/img/BdJJXFW7JjfaDUf3.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Agentic AI Drives Structural Expansion in Memory Demand, Global Memory Market Projected to Reach US$1.28 Trillio...",
+    "date": "2026-05-29",
+    "category": "Software",
+    "description": "The shift in AI development from large-scale model training toward inference-centric Agentic AI applications is driving a structural expansion in memory demand, according to TrendForce's latest findings on the memory...",
+    "url": "https://www.techpowerup.com/349471/agentic-ai-drives-structural-expansion-in-memory-demand-global-memory-market-projected-to-reach-ususd-1-28-trillion-by-2027",
+    "image": "https://www.techpowerup.com/img/2r8aTCrXnA3YtfWi.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "The Witcher 3: Wild Hunt Reaches 65 Million Copies Ahead of Songs of the Past Launch",
+    "date": "2026-05-29",
+    "category": "Markt",
+    "description": "Following the recent announcement of the Songs of the Past DLC for The Witcher 3: Wild Hunt, landing alongside a free Next-Gen Upgrade—11 years after the game's initial release, mind you—CD Projekt Red officially anno...",
+    "url": "https://www.techpowerup.com/349470/the-witcher-3-wild-hunt-reaches-65-million-copies-ahead-of-songs-of-the-past-launch",
+    "image": "https://www.techpowerup.com/img/J43og0REdcB2kEJ3.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Valve Steam Deck Sells Out in 24 Hours Despite Price Hike",
+    "date": "2026-05-29",
+    "category": "Hardware",
+    "description": "The internet has recently been rife with complaints and discussions about the recent price increases to the Valve Steam Deck OLED, which saw prices of the gaming handheld spike by as much as $300. However, that same p...",
+    "url": "https://www.techpowerup.com/349469/valve-steam-deck-sells-out-in-24-hours-despite-price-hike",
+    "image": "https://www.techpowerup.com/img/YJdYgDqJzvKN4Ac1.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "007 First Light Exceeds 1.5 Million Sales in 24 Hours",
+    "date": "2026-05-29",
+    "category": "Markt",
+    "description": "007 First Light officially launched on May 27, and although the game was far from free of criticism, it has apparently been quite popular. Although SteamDB reports that First Light peaked at only 68,477 concurrent pla...",
+    "url": "https://www.techpowerup.com/349462/007-first-light-exceeds-1-5-million-sales-in-24-hours",
+    "image": "https://www.techpowerup.com/img/MAFgv27CFDxQbUKj.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Chips Act 2.0: Behörden sollen mehr europäische Chips kaufen",
     "date": "2026-05-28",
     "category": "Hardware",
     "description": "„Kauft vor Ort”, will die EU-Kommission Behörden nahelegen, konkret für Prozessoren europäischer Start-ups. Das soll Teil des zweiten Chips-Gesetzes werden.",
@@ -126,42 +333,6 @@
     "source": "Golem"
   },
   {
-    "title": "Cloud Computing: Snowflake wird größter CPU-Kunde von AWS",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Das Cloud-Computing-Unternehmen sichert sich den Zugriff auf Graviton-Chips von AWS im Wert von sechs Milliarden US-Dollar. (AWS, Web Service)",
-    "url": "https://www.golem.de/news/cloud-computing-snowflake-wird-groesster-cpu-kunde-von-aws-2605-209146.html",
-    "image": "https://www.golem.de/2605/209146-579605-579603_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Snapdragon C: Qualcomm kündigt CPU für günstige Laptops an",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Qualcomm baut seine Snapdragon-Reihe für Laptops weiter nach unten aus. Geräte mit Snapdragon C sollen preislich mit Chromebooks konkurrieren. (Prozessor, Notebook)",
-    "url": "https://www.golem.de/news/snapdragon-c-qualcomm-kuendigt-cpu-fuer-guenstige-laptops-an-2605-209140.html",
-    "image": "https://www.golem.de/2605/209140-579574-579572_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Seitenkanalangriff im Browser: App-Spionage durch Messung von SSD-Zugriffszeiten",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Forscher haben einen Weg gefunden, durch die Auswertung von SSD-Zugriffszeiten unbemerkt von Website-Besuchern ausgeführte Apps zu ermitteln. (Sicherheitslücke, Speichermedien)",
-    "url": "https://www.golem.de/news/seitenkanalangriff-per-javascript-spionage-ueber-ssd-zugriffe-einer-website-2605-209137.html",
-    "image": "https://www.golem.de/2605/209137-579560-579558_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Zorin OS ausprobiert: Ein guter Windows-Ersatz für Linux-Anfänger",
-    "date": "2026-05-28",
-    "category": "Software",
-    "description": "Ich bin als Linux-Laie von Windows 11 auf das an Windows angelehnte Zorin OS umgestiegen. Ich bin überrascht, wie gut es funktioniert. Ein Erfahrungsbericht von Oliver Nickel (Linux, Ubuntu)",
-    "url": "https://www.golem.de/news/zorin-os-ausprobiert-ein-guter-windows-ersatz-fuer-linux-anfaenger-2605-208984.html",
-    "image": "https://www.golem.de/2605/208984-578839-578837_rc.jpg",
-    "source": "Golem"
-  },
-  {
     "title": "Colorful iGame RTX 5070: 007 First Light Edition in Schwarz-Gold",
     "date": "2026-05-28",
     "category": "Hardware",
@@ -207,51 +378,6 @@
     "source": "PCGH"
   },
   {
-    "title": "Intel Arc G-Serie: Neue Chips für Windows-Handhelds mit XeSS 3",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Intel stellt mit der Arc-G-Serie neue Prozessoren für Windows-Handhelds vor. Arc G3 und Arc G3 Extreme setzen auf Xe3-Grafik, XeSS 3, Wi-Fi 7 und sollen ab Juni 2026 in ersten Geräten erscheinen.",
-    "url": "https://www.pcgameshardware.de/Handheld-PC-Hardware-279763/News/Intel-Arc-G3-Extreme-Gaming-Windows-11-XeSS-3-1537269/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/05/Arc-G3-Extreme-1-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Gigabyte X870 Aorus Infinity: Jubiläums-Mainboard für AM5",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Zum 40. Geburtstag teasert Gigabyte das X870 Aorus Infinity, ein limitiertes AM5-Mainboard der neuen Infinity-Reihe. Im Handel gibt es das Board vorerst nicht: Es winkt exklusiv als Hauptpreis im weltweiten #MyPerfect...",
-    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/Gigabyte-X870-Aorus-Infinity-Jubilaeum-AM5-1537215/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/05/Gigabyte-Aorus-X870E-Infinity-Gewinnspiel-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "007 First Light: FSR 4.1 macht den Bond mit OptiScaler hübscher",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "007 First Light führt ab Werk nur FSR 3.1.5 im Quellcode, doch seit dem PC-Start am 27. Mai 2026 bringt OptiScaler endlich auch FSR 4.1 zum Laufen. Radeon-RX-9000-Besitzer müssen dafür den DLSS-Pfad anzapfen - sauber...",
-    "url": "https://www.pcgameshardware.de/007-First-Light-Spiel-75274/News/FSR-4-1-aktivieren-OptiScaler-Bildqualitaet-1536886/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/05/007-First-Light-mit-FSR-4-1-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS] Geforce RTX 5070 Ti: Sechs Custom-Modelle auf Temperatur und Lautstärke geprüft",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Wir haben sechs Custom-Designs der Geforce RTX 5070 Ti auf Temperaturen und Lautheit geprüft und verraten, welches Modell von fünf unterschiedlichen Herstellern sich lohnt und worum man eher einen Bogen machen sollte.",
-    "url": "https://www.pcgameshardware.de/Geforce-RTX-5070-Ti-Grafikkarte-281031/Specials/kaufen-Test-Preis-Release-Asus-MSI-Gigabyte-Zotac-PNY-1466874/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2025/03/2-Tabelle-5070-Ti-V2-pcgh.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "007 First Light im Tech-Test mit Benchmarks: Bond in Bestform - vorerst ohne Pathtracing",
-    "date": "2026-05-28",
-    "category": "Software",
-    "description": "Mit 007 First Light bieten die Hitman-Macher IO Interactive eine unterhaltsame Mischung aus Schleichen, cleverem Gadget-Einsatz und Actionfeuerwerk. Basis dafür ist die rundum modernisierte Glacier Engine - Zeit für e...",
-    "url": "https://www.pcgameshardware.de/007-First-Light-Spiel-75274/Specials/Release-Test-Benchmarks-Review-1536311/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/05/007-First-Light-maxed-4K-TAA-native-19--pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
     "title": "20-jähriges Jubiläum: Zotac feiert unter anderem mit einer wassergekühlten GeForce RTX 5080",
     "date": "2026-05-28",
     "category": "Hardware",
@@ -268,6 +394,33 @@
     "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/69154-radeon-rx-9070-gre-bisher-nur-in-china-bald-weltweit.html",
     "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/May/avid_resistor_u7/sapphire_radeon_rx_9070_gre_pulse_china_680px.jpg",
     "source": "HardwareLuxx"
+  },
+  {
+    "title": "Rockstar Workers Unionize Ahead of GTA VI Launch Following Dismissal of 31 Workers",
+    "date": "2026-05-28",
+    "category": "Hardware",
+    "description": "Following the dismissal of 31 workers in 2025, which Rockstar and Take-Two argued were motivated by gross misconduct, which drew allegations of union busting and were even commented on by UK prime minister, Keir Starm...",
+    "url": "https://www.techpowerup.com/349461/rockstar-workers-unionize-ahead-of-gta-vi-launch-following-dismissal-of-31-workers",
+    "image": "https://www.techpowerup.com/img/SNhXkZgpUQWTYo0a.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Unknown Worlds Earns $250M Performance Bonus After Stellar Subnautica 2 Launch",
+    "date": "2026-05-28",
+    "category": "Markt",
+    "description": "If you weren't aware, a legal battle has been unfolding between Unknown Worlds, the developer of Subnautica 2, and its parent company and former publisher, Krafton, in what appears to have been a bit from Krafton to a...",
+    "url": "https://www.techpowerup.com/349460/unknown-worlds-earns-usd-250m-performance-bonus-after-stellar-subnautica-2-launch",
+    "image": "https://www.techpowerup.com/img/lHzQUWACBGxXZujN.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Dell Technologies Delivers First Quarter Fiscal 2027 Financial Results",
+    "date": "2026-05-28",
+    "category": "Hardware",
+    "description": "Dell Technologies (NYSE: DELL) announces financial results for its fiscal 2027 first quarter and provides guidance for its fiscal 2027-second quarter and full year. First-Quarter Summary Record revenue of $43.8 billio...",
+    "url": "https://www.techpowerup.com/349459/dell-technologies-delivers-first-quarter-fiscal-2027-financial-results",
+    "image": "https://www.techpowerup.com/img/hy4c0sJzYk7rvbPr.jpg",
+    "source": "TechPowerUp"
   },
   {
     "title": "Marathon Season 2 To Start With Free Week and Plenty of New Content",
@@ -294,159 +447,6 @@
     "description": "Acer today introduced the Swift Spin 14 AI and the Aspire Go 15, broadening the company's laptop portfolio with a greater range of devices powered by Snapdragon. A premium ultraportable AI laptop, Swift Spin 14 AI fea...",
     "url": "https://www.techpowerup.com/349456/acer-broadens-portfolio-with-two-new-laptops-powered-by-the-latest-snapdragon-processors",
     "image": "https://www.techpowerup.com/img/ZTWywUPZzRkIgVoZ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Qualcomm Introduces Snapdragon C Entry‑Level Processors for Budget Laptops",
-    "date": "2026-05-28",
-    "category": "Industrie",
-    "description": "Qualcomm Technologies, Inc. today announced the Snapdragon C Platform, a new entry‑tier processor designed to make modern personal computing more accessible to students, families, and small businesses. Snapdragon C de...",
-    "url": "https://www.techpowerup.com/349455/qualcomm-introduces-snapdragon-c-entry-level-processors-for-budget-laptops",
-    "image": "https://www.techpowerup.com/img/k6XINjZJPDLrXS6n.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "OneXPlayer 3 Gaming Handheld Emerges With Intel Arc G3 Extreme",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Following the launch of the Intel Arc G3 series CPUs designed for next-gen gaming handhelds, OneXPlayer has officially revealed its first handheld gaming PC based on the new Arc G3 CPU. OneXPlayer has pitched the OneX...",
-    "url": "https://www.techpowerup.com/349453/onexplayer-3-gaming-handheld-emerges-with-intel-arc-g3-extreme",
-    "image": "https://www.techpowerup.com/img/iYFCegfKJA9wVz0U.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Microsoft Visual Studio Professional 2026 + 15 Coding Courses Just $50",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Microsoft Visual Studio Professional 2026 has long been the development environment of choice for serious programmers, and pairing it with 15 structured coding courses makes this one of the more well-rounded deals you...",
-    "url": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50",
-    "image": "https://www.techpowerup.com/img/A8zV60F1u5dE7Ahg.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Intel Arc G3 CPU Family Officially Released for Handheld Gaming PCs",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Following a series of leaks about an upcoming Intel Panther Lake CPU for gaming handhelds, the hardware giant has officially announced the Intel Arc G3 CPU series, which features the powerful Arc B390 iGPU and optimiz...",
-    "url": "https://www.techpowerup.com/349450/intel-arc-g3-cpu-family-officially-released-for-handheld-gaming-pcs",
-    "image": "https://www.techpowerup.com/img/EXkLNvywlnLdqqMN.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Samsung Exynos 2600 SoC Annotated, Showcases 3-tier CPU, AMD RDNA 4 iGPU",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Die-shots of the Samsung Exynos 2600 application processor for smartphones, tablets, and ultraportable notebooks surfaced, and were annotated by Kurnal Salts. It showcases a massive logic complex with large amounts of...",
-    "url": "https://www.techpowerup.com/349448/samsung-exynos-2600-soc-annotated-showcases-3-tier-cpu-amd-rdna-4-igpu",
-    "image": "https://www.techpowerup.com/img/NLwjN6k6XUUr5MUB.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "No Surprise Microsoft Office Hikes—Own it for Life for $50",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "If your Microsoft 365 subscription has been quietly renewing every month without much thought, this is a good time to rethink that. A lifetime license to Microsoft Office Professional 2021 for Windows is currently ava...",
-    "url": "https://www.techpowerup.com/349451/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-50",
-    "image": "https://www.techpowerup.com/img/oahGNvkvfkWUHdMw.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Acer Expands Gaming Portfolio with Predator Atlas 8 Handheld Powered by Intel",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Acer today announced the Predator Atlas 8 (PA08-I51) gaming handheld, broadening the portfolio of high-performance solutions under the Predator brand. The device is powered by up to the new Intel Arc G3 Extreme proces...",
-    "url": "https://www.techpowerup.com/349447/acer-expands-gaming-portfolio-with-predator-atlas-8-handheld-powered-by-intel",
-    "image": "https://www.techpowerup.com/img/XHdzLTjQuLzTnLPt.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Silicon Motion Introduces SM2524XT PCIe Gen 5 DRAMless SSD Controller",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Silicon Motion Technology Corporation (NasdaqGS: SIMO), a global leader in NAND flash controllers for solid-state storage devices, today announced the SM2524XT, a next-generation PCIe Gen 5 DRAMless SSD controller pur...",
-    "url": "https://www.techpowerup.com/349446/silicon-motion-introduces-sm2524xt-pcie-gen-5-dramless-ssd-controller",
-    "image": "https://www.techpowerup.com/img/rYGVQ7dyH2MXlTiU.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) PXN Launches the Vector X Professional-Grade Sim Racing Pedals",
-    "date": "2026-05-28",
-    "category": "Markt",
-    "description": "Leading gaming peripherals manufacturer PXN is proud to announce the official launch of the PXN Vector X Pedals, a new professional-grade sim racing pedal system built for drivers who demand precision, strength, and d...",
-    "url": "https://www.techpowerup.com/349445/pxn-launches-the-vector-x-professional-grade-sim-racing-pedals",
-    "image": "https://www.techpowerup.com/img/vfH2EbtJhp7g6NXY.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) TP-Link Introduces Archer 8, Its First Wi-Fi 8 Router Platform",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "TP-Link Systems Inc., a global provider of consumer networking products, today announced Archer 8, the company's first Wi-Fi 8 router platform built around the emerging IEEE 802.11bn specification focused on ultra-hig...",
-    "url": "https://www.techpowerup.com/349443/tp-link-introduces-archer-8-its-first-wi-fi-8-router-platform",
-    "image": "https://www.techpowerup.com/img/UcVx9HElN5XDVUlF.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Synology Announces Availability of New FlashStation FS200T",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Synology today announced the launch of the FS200T, a compact all-flash storage solution designed to power home or small offices. \"Delivering a remarkably small footprint alongside near-silent operation and responsive...",
-    "url": "https://www.techpowerup.com/349438/synology-announces-availability-of-new-flashstation-fs200t",
-    "image": "https://www.techpowerup.com/img/skqDzVf0Qws5q2nK.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Philips Announces Evnia 32M2N8900P QD-OLED 4K 240 Hz Gaming Monitor",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Philips Evnia introduces the 32M2N8900P, a 31.5-inch 4K QD-OLED gaming monitor built for players who want elite motion performance without compromising image quality. Powered by a QD-OLED 4th Gen panel and pairing Ult...",
-    "url": "https://www.techpowerup.com/349437/philips-announces-evnia-32m2n8900p-qd-oled-4k-240-hz-gaming-monitor",
-    "image": "https://www.techpowerup.com/img/sTYsjS3AqLQUjx6s.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Samsung Display Develops First 4K 360 Hz QD-OLED Panel for Monitors",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "Samsung Display has successfully developed the first QD-OLED monitors to combine 4K resolution with a 360 Hz refresh rate. The company will unveil the panel for the first time at COMPUTEX 2026 in June. Samsung Display...",
-    "url": "https://www.techpowerup.com/349435/samsung-display-develops-first-4k-360-hz-qd-oled-panel-for-monitors",
-    "image": "https://www.techpowerup.com/img/75XOK4LNotB0WDVC.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) LG Display Begins Mass Production of World's First 240 Hz RGB Stripe OLED",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "LG Display, the world's leading innovator of display technologies, announced today that it will begin mass production of the world's first 240 Hz RGB Stripe OLED panel, accelerating its push into the premium monitor m...",
-    "url": "https://www.techpowerup.com/349434/lg-display-begins-mass-production-of-worlds-first-240-hz-rgb-stripe-oled",
-    "image": "https://www.techpowerup.com/img/hzGjS4UYHIqcLl4A.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "ZALMAN Intros ZM-STC11 Silicone-based Thermal Paste",
-    "date": "2026-05-28",
-    "category": "Hardware",
-    "description": "ZALMAN today introduced the ZM-STC11, a silicone-based thermal compound. It is composed mainly of dimethylpolysiloxane, zinc oxide, and aluminium oxide. The star-attraction here is its claimed thermal conductivity of...",
-    "url": "https://www.techpowerup.com/349431/zalman-intros-zm-stc11-silicone-based-thermal-paste",
-    "image": "https://www.techpowerup.com/img/aIMV1260DSXgr4qb.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Stream Deck Becomes the Action Layer for AI, Starting with NVIDIA G-Assist",
-    "date": "2026-05-28",
-    "category": "Industrie",
-    "description": "Corsair Gaming, Inc. today announced that its Elgato brand is bringing MCP support to Stream Deck, opening the award-winning platform to AI assistants for the first time. Starting with NVIDIA G-Assist, AI tools and ag...",
-    "url": "https://www.techpowerup.com/349430/stream-deck-becomes-the-action-layer-for-ai-starting-with-nvidia-g-assist",
-    "image": "https://www.techpowerup.com/img/Ai992K7rbZCIQqoK.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) GIGABYTE Debuts New BRIX Mini PC Powered by Panther Lake to Scale Enterprise AI",
-    "date": "2026-05-28",
-    "category": "Software",
-    "description": "As edge AI adoption accelerates across the commercial market, GIGABYTE Technology, a global leader in high-performance computing, today announced the new GB-BRU9-386H for its BRIX Mainstream ultra-compact mini PC seri...",
-    "url": "https://www.techpowerup.com/349429/gigabyte-debuts-new-brix-mini-pc-powered-by-panther-lake-to-scale-enterprise-ai",
-    "image": "https://www.techpowerup.com/img/MNgJpI9EqRBiEben.jpg",
     "source": "TechPowerUp"
   }
 ]
