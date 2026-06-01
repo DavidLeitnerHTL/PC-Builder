@@ -1,1834 +1,1930 @@
 [
-    {
-        "id": "2bea72f6-edc2-461b-960b-7f5ff6dab83b",
-        "name": "Aerocool Cylon 4 Air 52.5 CFM 155mm Black",
-        "variant": "Black",
-        "amazon_sku": "B092JV7DKH",
-        "clean_name": "Aerocool Cylon 4 Air 52.5 CFM Black",
-        "cooler_type": false,
-        "radiator_size": "155mm",
-        "height": 155,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 14,
-        "max_noise_level": 26,
-        "color": [
-            "BLACK"
-        ],
-        "price": 33.02,
-        "last_updated": "2026-05-31T09:21:33.345Z"
-    },
-    {
-        "id": "9f3e47a1-f931-42db-90be-ef8cdfa15e39",
-        "name": "Antec A400i Air 155mm Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0B1H8FBQD",
-        "clean_name": "Antec A400i Air Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "155mm",
-        "height": 155,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 20,
-        "max_noise_level": 36,
-        "color": [
-            "BLACK",
-            "GREY"
-        ],
-        "price": 30.56,
-        "last_updated": "2026-05-31T09:21:33.829Z"
-    },
-    {
-        "id": "ae9af83a-ba69-46ad-b248-c46afddd8a44",
-        "name": "AORUS LIQUID COOLER 280",
-        "variant": "LIQUID COOLER 280",
-        "amazon_sku": "B07YZ2NCR5",
-        "clean_name": "AORUS LIQUID COOLER 280",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "height": 0,
-        "min_fan_rpm": 2200,
-        "max_fan_rpm": 2400,
-        "min_noise_level": 22.3,
-        "max_noise_level": 44.5,
-        "color": [],
-        "price": 172.58,
-        "last_updated": "2026-05-31T09:21:50.103Z"
-    },
-    {
-        "id": "ead0cdff-b60e-489c-904d-e6d36dafff11",
-        "name": "ASUS ROG Ryujin 360 RGB",
-        "variant": "RGB",
-        "amazon_sku": "B07JVQXH8M",
-        "clean_name": "ASUS ROG Ryujin 360 RGB",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 186,
-        "min_fan_rpm": 450,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 29.7,
-        "max_noise_level": 29.7,
-        "color": [],
-        "price": 209.9,
-        "last_updated": "2026-05-31T09:21:55.600Z"
-    },
-    {
-        "id": "70b6d756-4411-41ad-86a1-1f1e124c8a90",
-        "name": "be quiet! Pure Loop 360mm",
-        "variant": "360mm",
-        "amazon_sku": "B08K3P1KRY",
-        "clean_name": "be quiet! Pure Loop",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 397,
-        "min_fan_rpm": 0,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 19.8,
-        "max_noise_level": 40.5,
-        "color": [],
-        "price": 78.55,
-        "last_updated": "2026-05-31T09:22:11.197Z"
-    },
-    {
-        "id": "e6654154-2082-4a02-8a84-d9fe71d7be1c",
-        "name": "Cooler Master Hyper 212 RGB Air 159mm Black",
-        "variant": "Black",
-        "amazon_sku": "B07H22TC1N",
-        "clean_name": "Cooler Master Hyper 212 RGB Air Black",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 8,
-        "max_noise_level": 30,
-        "color": [
-            "BLACK"
-        ],
-        "price": 42.17,
-        "last_updated": "2026-05-31T09:22:21.836Z"
-    },
-    {
-        "id": "3954c797-32e5-44b9-9103-2027135d4a68",
-        "name": "Corsair A115 Air 165mm 84.5 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0CPHKT7YN",
-        "clean_name": "Corsair A115 Air 84.5 CFM Black",
-        "cooler_type": false,
-        "radiator_size": "165mm",
-        "height": 165,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 1600,
-        "min_noise_level": 5,
-        "max_noise_level": 33.9,
-        "color": [
-            "BLACK"
-        ],
-        "price": 87.79,
-        "last_updated": "2026-05-31T09:22:25.867Z"
-    },
-    {
-        "id": "02cf116c-c99e-4943-a244-06d15b7d4e64",
-        "name": "Corsair iCUE LINK TITAN 240 RX Water 240mm RGB 73.5 CFM White",
-        "variant": "240mm White",
-        "amazon_sku": "B0D6BGFVX8",
-        "clean_name": "Corsair iCUE LINK TITAN 240 RX Water RGB 73.5 CFM White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 69,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "WHITE"
-        ],
-        "price": 80.58,
-        "last_updated": "2026-05-31T09:22:56.786Z"
-    },
-    {
-        "id": "dd9fe19d-9fcb-449c-ab4a-0998c585e61b",
-        "name": "Corsair iCUE LINK TITAN RX Water 360mm RGB White",
-        "variant": "360mm White",
-        "amazon_sku": "B0D6BCSFNC",
-        "clean_name": "Corsair iCUE LINK TITAN RX Water RGB White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 69,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "WHITE"
-        ],
-        "price": 161.34,
-        "last_updated": "2026-05-31T09:22:55.942Z"
-    },
-    {
-        "id": "693134bf-8d44-4551-b8ff-f33de87f8faa",
-        "name": "Corsair iCUE LINK TITAN Water 360mm RX LCD White",
-        "variant": "360mm White",
-        "amazon_sku": "B0DF79SWMJ",
-        "clean_name": "Corsair iCUE LINK TITAN Water RX LCD White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 66.2,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "WHITE",
-            "RGB"
-        ],
-        "price": 226.84,
-        "last_updated": "2026-05-31T09:23:15.997Z"
-    },
-    {
-        "id": "98a82ab4-5e47-4fa5-bd5e-56347d90d6c1",
-        "name": "Corsair iCUE LINK TITAN Water 420mm RX RGB 94.7 CFM Black AIO Liquid Cooler",
-        "variant": "420mm Black",
-        "amazon_sku": "B0F8R2BW2Q",
-        "clean_name": "Corsair iCUE LINK TITAN Water RX RGB 94.7 CFM Black AIO Liquid Cooler",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "height": 69,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 1700,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "BLACK"
-        ],
-        "price": 45.19,
-        "last_updated": "2026-05-31T09:23:56.855Z"
-    },
-    {
-        "id": "2ddd19c1-a996-41d1-b464-dc7d1560f6f9",
-        "name": "Corsair iCUE LINK TITAN Water 360mm RX RGB Black AIO Liquid Cooler",
-        "variant": "360mm Black",
-        "amazon_sku": "B0D6BFBLTK",
-        "clean_name": "Corsair iCUE LINK TITAN Water RX RGB Black AIO Liquid Cooler",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 69,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "BLACK"
-        ],
-        "price": 159.31,
-        "last_updated": "2026-05-31T09:23:35.787Z"
-    },
-    {
-        "id": "8d3f0132-a0ff-4d08-aa5e-f3b860d639cf",
-        "name": "Gigabyte AORUS WATERFORCE X II 240 Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CPQ8V6LM",
-        "clean_name": "Gigabyte AORUS WATERFORCE X II 240 Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 78,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2400,
-        "min_noise_level": 12,
-        "max_noise_level": 37.5,
-        "color": [
-            "BLACK"
-        ],
-        "price": 316.64,
-        "last_updated": "2026-05-31T09:24:02.686Z"
-    },
-    {
-        "id": "c202fd44-72e0-446e-a289-247962f900b3",
-        "name": "Gigabyte GAMING 360 Water 360mm 61.61 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0DXVSJWQV",
-        "clean_name": "Gigabyte GAMING 360 Water 61.61 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 63,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2200,
-        "min_noise_level": 13.8,
-        "max_noise_level": 35.8,
-        "color": [
-            "WHITE"
-        ],
-        "price": 69.06,
-        "last_updated": "2026-05-31T09:24:14.982Z"
-    },
-    {
-        "id": "77339c05-5c8e-40dc-850b-98f5e1c5e14f",
-        "name": "iCUE LINK TITAN 240 RX RGB AIO Liquid CPU Cooler",
-        "variant": "240mm Black",
-        "amazon_sku": "B0D6BF3RXL",
-        "clean_name": "iCUE LINK TITAN 240 RX RGB AIO",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 69,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "BLACK"
-        ],
-        "price": 80.57,
-        "last_updated": "2026-05-31T09:24:17.331Z"
-    },
-    {
-        "id": "5e9a89e1-c8f8-4573-acd0-c59a453bb96e",
-        "name": "Noctua NH-D15S chromax.black Air 160mm Black",
-        "variant": "Black",
-        "amazon_sku": "B08HM1T6RL",
-        "clean_name": "Noctua NH-D15S chromax.black Air Black",
-        "cooler_type": false,
-        "radiator_size": "160mm",
-        "height": 160,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 1500,
-        "min_noise_level": 19.2,
-        "max_noise_level": 24.6,
-        "color": [
-            "BLACK"
-        ],
-        "price": 127.42,
-        "last_updated": "2026-05-31T09:24:32.562Z"
-    },
-    {
-        "id": "39e8fb87-b8f2-4091-bf1a-5744f48c61b9",
-        "name": "Noctua NH-L9a-AM4 Air 37mm Brown",
-        "variant": "Brown",
-        "amazon_sku": "B075SG1T3X",
-        "clean_name": "Noctua NH-L9a-AM4 Air Brown",
-        "cooler_type": false,
-        "radiator_size": "37mm",
-        "height": 37,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 14.8,
-        "max_noise_level": 23.6,
-        "color": [
-            "BROWN"
-        ],
-        "price": 50.32,
-        "last_updated": "2026-05-31T09:24:32.921Z"
-    },
-    {
-        "id": "4b2062af-459c-4c3a-b6ac-f675ac8a5b8a",
-        "name": "Noctua NH-L9x65 chromax.black Air 65mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CKVZ2NZ1",
-        "clean_name": "Noctua NH-L9x65 chromax.black Air Black",
-        "cooler_type": false,
-        "radiator_size": "65mm",
-        "height": 65,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 14.8,
-        "max_noise_level": 23.6,
-        "color": [
-            "BLACK"
-        ],
-        "price": 70.49,
-        "last_updated": "2026-05-31T09:24:47.764Z"
-    },
-    {
-        "id": "c4066d39-4079-43dd-b07e-ca88cb2b649c",
-        "name": "Noctua NH-U14S Air 165mm 82.52 CFM",
-        "variant": "",
-        "amazon_sku": "B00C9FLSLY",
-        "clean_name": "Noctua NH-U14S Air 82.52 CFM",
-        "cooler_type": false,
-        "radiator_size": "165mm",
-        "height": 165,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 1500,
-        "min_noise_level": 19.2,
-        "max_noise_level": 24.6,
-        "color": [],
-        "price": 90.66,
-        "last_updated": "2026-05-31T09:24:52.076Z"
-    },
-    {
-        "id": "1d83f6d2-f062-4301-8ae1-0beb34f513e8",
-        "name": "NZXT Kraken Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BNYQQ97K",
-        "clean_name": "NZXT Kraken Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 56,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 17.9,
-        "max_noise_level": 30.6,
-        "color": [
-            "BLACK"
-        ],
-        "price": 125.69,
-        "last_updated": "2026-05-31T09:25:21.508Z"
-    },
-    {
-        "id": "bdaac34d-ebf3-44fd-8fec-e51b0fa4715a",
-        "name": "Xilence A250PWM Air 69mm Red / Black 49.5 CFM",
-        "variant": "Red / Black",
-        "amazon_sku": "B01L6PND6U",
-        "clean_name": "Xilence A250PWM Air Red / Black 49.5 CFM",
-        "cooler_type": false,
-        "radiator_size": "69mm",
-        "height": 69,
-        "min_fan_rpm": 1000,
-        "max_fan_rpm": 2800,
-        "min_noise_level": 17.8,
-        "max_noise_level": 32,
-        "color": [
-            "RED",
-            "BLACK"
-        ],
-        "price": 7.01,
-        "last_updated": "2026-05-31T09:25:15.880Z"
-    },
-    {
-        "id": "616e9df9-850d-4ee8-9289-2905ec222ff8",
-        "name": "Xilence A404T 65.4 CFM Air 55mm Red / Black",
-        "variant": "Red / Black",
-        "amazon_sku": "B074HZHQB6",
-        "clean_name": "Xilence A404T 65.4 CFM Air Red / Black",
-        "cooler_type": false,
-        "radiator_size": "55mm",
-        "height": 55,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2200,
-        "min_noise_level": 14,
-        "max_noise_level": 21.8,
-        "color": [
-            "RED",
-            "BLACK"
-        ],
-        "price": 16.08,
-        "last_updated": "2026-05-31T09:25:40.206Z"
-    },
-    {
-        "id": "5ebd83a7-5693-4cac-8e9d-031cd1a2b7b4",
-        "name": "Xilence I404T 65.4 CFM Air 55mm Red / Black",
-        "variant": "Red / Black",
-        "amazon_sku": "B074J1QXNG",
-        "clean_name": "Xilence I404T 65.4 CFM Air Red / Black",
-        "cooler_type": false,
-        "radiator_size": "55mm",
-        "height": 55,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2200,
-        "min_noise_level": 14,
-        "max_noise_level": 21.8,
-        "color": [
-            "RED",
-            "BLACK"
-        ],
-        "price": 17.04,
-        "last_updated": "2026-05-31T09:25:39.518Z"
-    },
-    {
-        "id": "210ae193-1a3c-4f34-be96-0f3497bde66a",
-        "name": "Xilence LQ360 Water 70 CFM 360mm Red / Black",
-        "variant": "Red / Black",
-        "amazon_sku": "B08LZPKJRD",
-        "clean_name": "Xilence LQ360 Water 70 CFM Red / Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 47,
-        "min_fan_rpm": 700,
-        "max_fan_rpm": 1600,
-        "min_noise_level": 18,
-        "max_noise_level": 35.2,
-        "color": [
-            "RED",
-            "BLACK"
-        ],
-        "price": 57.38,
-        "last_updated": "2026-05-31T09:25:56.640Z"
-    },
-    {
-        "id": "d98f1cc4-b06d-45e5-bd9d-51312a1d11e7",
-        "name": "YEYIAN VATN ARGB Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CF78QMBS",
-        "clean_name": "YEYIAN VATN ARGB Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 53,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 25,
-        "max_noise_level": 32,
-        "color": [
-            "BLACK"
-        ],
-        "price": 80.66,
-        "last_updated": "2026-05-31T09:25:58.683Z"
-    },
-    {
-        "id": "0712be57-eafe-4a0a-a76b-053941088860",
-        "name": "ASUS ROG RYUJIN III 240 ARGB White Edition ",
-        "amazon_sku": "B0CBJQ4R9X",
-        "clean_name": "ASUS ROG RYUJIN III 240 ARGB White Edition",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 0,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2200,
-        "min_noise_level": 36.45,
-        "max_noise_level": 36.45,
-        "color": [],
-        "price": 15.74,
-        "last_updated": "2026-05-31T09:26:28.908Z"
-    },
-    {
-        "id": "306567ae-4b86-4829-95ff-53c21f917a8e",
-        "name": "ASUS ROG RYUJIN III 360 ARGB White Edition All-in-One Liquid CPU Cooler",
-        "variant": "RYUJIN III 360 ARGB White Edition",
-        "amazon_sku": "B0CBJRZ2Y7",
-        "clean_name": "ASUS ROG RYUJIN III 360 ARGB White Edition All-in-One",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 101,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2200,
-        "min_noise_level": 36.45,
-        "color": [
-            "WHITE"
-        ],
-        "price": 361.18,
-        "last_updated": "2026-05-31T09:26:30.057Z"
-    },
-    {
-        "id": "9dd074e5-3093-4b2c-a704-78d011dcee8f",
-        "name": "Asus ROG Ryujin III 71.6 CFM Water 240mm Black",
-        "variant": "ROG RYUJIN III 240",
-        "amazon_sku": "B0C8BT4Q9G",
-        "clean_name": "Asus ROG Ryujin III 71.6 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 101,
-        "min_fan_rpm": 450,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 29.7,
-        "color": [
-            "BLACK"
-        ],
-        "price": 361.18,
-        "last_updated": "2026-05-31T09:26:54.011Z"
-    },
-    {
-        "id": "c97abd04-0b50-4bb7-a541-d71432a85404",
-        "name": "Asus ROG Ryujin III Water 240mm ARGB Black",
-        "variant": "ROG RYUJIN III 240 ARGB",
-        "amazon_sku": "B0C9SLJ44B",
-        "clean_name": "Asus ROG Ryujin III Water ARGB Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 101,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2200,
-        "min_noise_level": 36.45,
-        "color": [
-            "BLACK"
-        ],
-        "price": 126.23,
-        "last_updated": "2026-05-31T09:26:53.612Z"
-    },
-    {
-        "id": "b1432886-1b14-4d21-af83-26a5585701ae",
-        "name": "be quiet! Shadow Rock Slim 2 Air 161mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09B7JXQS8",
-        "clean_name": "be quiet! Shadow Rock Slim 2 Air Black",
-        "cooler_type": false,
-        "radiator_size": "161mm",
-        "height": 161,
-        "min_fan_rpm": 1400,
-        "min_noise_level": 11.5,
-        "max_noise_level": 23.7,
-        "color": [
-            "BLACK"
-        ],
-        "price": 45,
-        "last_updated": "2026-05-31T09:27:08.274Z"
-    },
-    {
-        "id": "807fab83-61a7-488d-a259-ddcda46037eb",
-        "name": "be quiet! Silent Loop 3 360mm CPU AIO Liquid Cooler Black",
-        "variant": "360mm Black",
-        "amazon_sku": "B0DWZJNH28",
-        "clean_name": "be quiet! Silent Loop 3 CPU AIO Liquid Cooler Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 94,
-        "min_fan_rpm": 2500,
-        "min_noise_level": 19.8,
-        "max_noise_level": 38.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 121.39,
-        "last_updated": "2026-05-31T09:27:17.735Z"
-    },
-    {
-        "id": "1397bbab-fcb5-4bb2-9261-d60e56929fd2",
-        "name": "be quiet! Silent Loop 3 Water 240mm Black",
-        "variant": "240mm Black",
-        "amazon_sku": "B0DWZQ7LKT",
-        "clean_name": "be quiet! Silent Loop 3 Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 94,
-        "min_fan_rpm": 2500,
-        "min_noise_level": 18.7,
-        "max_noise_level": 36.9,
-        "color": [
-            "BLACK"
-        ],
-        "price": 105.77,
-        "last_updated": "2026-05-31T09:27:46.837Z"
-    },
-    {
-        "id": "ac319df9-4f44-414c-a4a7-6ceea30bad04",
-        "name": "Cooler Master Hyper 212 Black X Duo Air 152mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0CQ1YMWVM",
-        "clean_name": "Cooler Master Hyper 212 Black X Duo Air Black",
-        "cooler_type": false,
-        "radiator_size": "152mm",
-        "height": 152,
-        "min_fan_rpm": 690,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 32.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 23.09,
-        "last_updated": "2026-05-31T09:28:05.375Z"
-    },
-    {
-        "id": "b44cabee-4c53-4c62-8b7c-c605a5b4ec70",
-        "name": "Cooler Master Hyper 212 Halo SF6 Ryu Air 51.88 CFM 154mm White / Orange",
-        "variant": "White / Orange",
-        "amazon_sku": "B0BNYV6NV4",
-        "clean_name": "Cooler Master Hyper 212 Halo SF6 Ryu Air 51.88 CFM White / Orange",
-        "cooler_type": false,
-        "radiator_size": "154mm",
-        "height": 154,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 2050,
-        "min_noise_level": 27,
-        "color": [
-            "WHITE",
-            "ORANGE"
-        ],
-        "price": 53.54,
-        "last_updated": "2026-05-31T09:28:08.616Z"
-    },
-    {
-        "id": "0560a23c-542b-4217-9cbd-9c6a1b7851db",
-        "name": "Cooler Master Masterliquid 240 Atmos Water 240mm White",
-        "variant": "Atmos 240mm White",
-        "amazon_sku": "B0CZ5Q7PRM",
-        "clean_name": "Cooler Master Masterliquid 240 Atmos Water White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 53,
-        "min_fan_rpm": 690,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 25,
-        "color": [
-            "WHITE"
-        ],
-        "price": 115.97,
-        "last_updated": "2026-05-31T09:28:27.775Z"
-    },
-    {
-        "id": "39f3097c-c570-4e40-890a-33cc3c98d4e2",
-        "name": "Cooler Master MasterLiquid 240L Core Water 240mm ARGB White",
-        "variant": "White",
-        "amazon_sku": "B0C4BW38R4",
-        "clean_name": "Cooler Master MasterLiquid 240L Core Water ARGB White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 47,
-        "min_fan_rpm": 350,
-        "max_fan_rpm": 1750,
-        "min_noise_level": 27.2,
-        "color": [
-            "WHITE"
-        ],
-        "price": 136.94,
-        "last_updated": "2026-05-31T09:28:24.905Z"
-    },
-    {
-        "id": "267d7edb-7797-43cd-b840-155d384c33c8",
-        "name": "Cooler Master MasterLiquid 360 Core II Water 360mm 70.7 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0DQ2N7YPK",
-        "clean_name": "Cooler Master MasterLiquid 360 Core II Water 70.7 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 52,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 1750,
-        "min_noise_level": 30,
-        "color": [
-            "WHITE"
-        ],
-        "price": 23.09,
-        "last_updated": "2026-05-31T09:28:50.360Z"
-    },
-    {
-        "id": "f92305cc-5a94-4ff8-8cac-254e4d3cdbd5",
-        "name": "Cooler Master MasterLiquid 360 Core II Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0DQ2LJ9VH",
-        "clean_name": "Cooler Master MasterLiquid 360 Core II Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 52,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 1750,
-        "min_noise_level": 30,
-        "color": [
-            "BLACK"
-        ],
-        "price": 119.57,
-        "last_updated": "2026-05-31T09:28:59.131Z"
-    },
-    {
-        "id": "84a5912f-720e-4c63-8b40-80bafa718ea1",
-        "name": "Cooler Master MasterLiquid ML360R Water 360mm RGB 66.7 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B07DV29GYN",
-        "clean_name": "Cooler Master MasterLiquid ML360R Water RGB 66.7 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 6,
-        "max_noise_level": 34,
-        "color": [
-            "BLACK"
-        ],
-        "price": 84.5,
-        "last_updated": "2026-05-31T09:29:13.398Z"
-    },
-    {
-        "id": "7151d79b-d8a5-4236-9843-d73768bf5f1c",
-        "name": "Cooler Master MasterLiquid Water 360mm Atmos 70.7 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0CFB956LP",
-        "clean_name": "Cooler Master MasterLiquid Water Atmos 70.7 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 53,
-        "min_fan_rpm": 690,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 27.2,
-        "color": [
-            "BLACK"
-        ],
-        "price": 115.97,
-        "last_updated": "2026-05-31T09:29:17.514Z"
-    },
-    {
-        "id": "f1042593-5f79-405e-96f9-572e9b884ca6",
-        "name": "Corsair iCUE H100i ELITE CAPELLIX XT Water 240mm 65.57 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0BQJ4VNT1",
-        "clean_name": "Corsair iCUE H100i ELITE CAPELLIX XT Water 65.57 CFM White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 550,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 5,
-        "max_noise_level": 34.1,
-        "color": [
-            "WHITE"
-        ],
-        "price": 40.24,
-        "last_updated": "2026-05-31T09:29:47.737Z"
-    },
-    {
-        "id": "3dbed72d-1dda-41c9-b7dd-c8e14fffa995",
-        "name": "Corsair iCUE H115i RGB ELITE 89 CFM Water 280mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09YC262VM",
-        "clean_name": "Corsair iCUE H115i RGB ELITE 89 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 1600,
-        "min_noise_level": 19,
-        "max_noise_level": 35.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 139.15,
-        "last_updated": "2026-05-31T09:29:48.149Z"
-    },
-    {
-        "id": "4fd501b4-be04-4fb4-879f-63896ade832c",
-        "name": "Corsair iCUE H150i ELITE CAPELLIX XT Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BQJ6QL7L",
-        "clean_name": "Corsair iCUE H150i ELITE CAPELLIX XT Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 550,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 5,
-        "max_noise_level": 34.1,
-        "color": [
-            "BLACK"
-        ],
-        "price": 115.86,
-        "last_updated": "2026-05-31T09:30:32.634Z"
-    },
-    {
-        "id": "63dda3ac-109c-435b-b93a-571077911595",
-        "name": "Corsair iCUE H150i ELITE LCD 58.1 CFM Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09HDWQKV8",
-        "clean_name": "Corsair iCUE H150i ELITE LCD 58.1 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 450,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 10,
-        "max_noise_level": 30.4,
-        "color": [
-            "BLACK"
-        ],
-        "price": 50.32,
-        "last_updated": "2026-05-31T09:30:55.228Z"
-    },
-    {
-        "id": "83a49ef9-ae8c-4d88-83fc-45a8eb75f933",
-        "name": "Corsair iCUE H150i ELITE LCD XT Water 360mm LCD 65.57 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0BQWSP2ZP",
-        "clean_name": "Corsair iCUE H150i ELITE LCD XT Water LCD 65.57 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 550,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 5,
-        "max_noise_level": 34.1,
-        "color": [
-            "BLACK"
-        ],
-        "price": 329,
-        "last_updated": "2026-05-31T09:31:10.307Z"
-    },
-    {
-        "id": "a6b9ad72-a810-4d3f-b75d-08e858c8d2ab",
-        "name": "Corsair iCUE H150i RGB ELITE Water 360mm 59.1 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0C615L32Q",
-        "clean_name": "Corsair iCUE H150i RGB ELITE Water 59.1 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 400,
-        "max_fan_rpm": 1850,
-        "min_noise_level": 5,
-        "max_noise_level": 28.9,
-        "color": [
-            "WHITE"
-        ],
-        "price": 115.86,
-        "last_updated": "2026-05-31T09:31:31.095Z"
-    },
-    {
-        "id": "9f7facad-b554-4df9-952d-b54b0e2ce325",
-        "name": "Corsair iCUE H170i ELITE LCD XT Water 420mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BQWTVYLV",
-        "clean_name": "Corsair iCUE H170i ELITE LCD XT Water Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1700,
-        "min_noise_level": 5,
-        "max_noise_level": 33.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 139.15,
-        "last_updated": "2026-05-31T09:32:05.806Z"
-    },
-    {
-        "id": "bba886ef-4cb5-48e1-b963-c2a2097c4e41",
-        "name": "Corsair iCUE LINK TITAN Water 240mm RX LCD 73.5 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0DF7CGGCW",
-        "clean_name": "Corsair iCUE LINK TITAN Water RX LCD 73.5 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "BLACK"
-        ],
-        "price": 151.16,
-        "last_updated": "2026-05-31T09:32:08.859Z"
-    },
-    {
-        "id": "af9bf004-ada9-4120-acdf-cd0ed254b625",
-        "name": "Corsair iCUE LINK TITAN Water 240mm RX LCD 73.5 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0DF79QWJW",
-        "clean_name": "Corsair iCUE LINK TITAN Water RX LCD 73.5 CFM White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "WHITE"
-        ],
-        "price": 170.52,
-        "last_updated": "2026-05-31T09:32:31.738Z"
-    },
-    {
-        "id": "ce6b5b52-250f-4bc8-bae5-5439f32a533b",
-        "name": "Corsair NAUTILUS 240 RS LCD Water 240mm 72.8 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0FGDHFMDN",
-        "clean_name": "Corsair NAUTILUS 240 RS LCD Water 72.8 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 125,
-        "min_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "BLACK"
-        ],
-        "price": 80.57,
-        "last_updated": "2026-05-31T09:32:47.638Z"
-    },
-    {
-        "id": "a2080f57-2202-4259-9e8d-75b9603719ec",
-        "name": "Corsair NAUTILUS 240 RS LCD Water 240mm 72.8 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0FGDKZVVM",
-        "clean_name": "Corsair NAUTILUS 240 RS LCD Water 72.8 CFM White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 125,
-        "min_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "WHITE"
-        ],
-        "price": 80.57,
-        "last_updated": "2026-05-31T09:32:55.039Z"
-    },
-    {
-        "id": "7622365f-37d9-4ad7-b9be-9223f2fec593",
-        "name": "Corsair NAUTILUS 360 RS LCD Water 360mm 72.8 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0FGDMTHY4",
-        "clean_name": "Corsair NAUTILUS 360 RS LCD Water 72.8 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 125,
-        "min_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "WHITE"
-        ],
-        "price": 115.86,
-        "last_updated": "2026-05-31T09:33:19.442Z"
-    },
-    {
-        "id": "72652c64-2fca-4517-94ee-8f82492ab7c7",
-        "name": "Corsair NAUTILUS Water 360mm RS LCD 72.8 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0FGDJ3QP1",
-        "clean_name": "Corsair NAUTILUS Water RS LCD 72.8 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 125,
-        "min_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "BLACK"
-        ],
-        "price": 115.86,
-        "last_updated": "2026-05-31T09:33:19.961Z"
-    },
-    {
-        "id": "094ed36f-740b-4453-8dd6-3bf877a7d7ce",
-        "name": "Enermax Liqmax III Water 120mm HF 90.1 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B07QK5Z2XZ",
-        "clean_name": "Enermax Liqmax III Water HF 90.1 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 120,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 14,
-        "max_noise_level": 32,
-        "color": [
-            "BLACK"
-        ],
-        "price": 64.16,
-        "last_updated": "2026-05-31T09:33:42.276Z"
-    },
-    {
-        "id": "25d4fac7-8c40-44f8-91bf-1d40b3a92547",
-        "name": "Fractal Design Lumen S28 V2 Water 280mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BH8GQ5YR",
-        "clean_name": "Fractal Design Lumen S28 V2 Water Black",
-        "cooler_type": true,
-        "radiator_size": 280,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1700,
-        "min_noise_level": 10,
-        "max_noise_level": 35.5,
-        "color": [
-            "BLACK"
-        ],
-        "price": 126.04,
-        "last_updated": "2026-05-31T09:33:43.902Z"
-    },
-    {
-        "id": "7611e2d6-28ad-4f52-b009-917ca620e302",
-        "name": "Fractal Design Lumen S36 RGB V2 Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0BH8D49RX",
-        "clean_name": "Fractal Design Lumen S36 RGB V2 Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 10,
-        "max_noise_level": 33.2,
-        "color": [
-            "BLACK"
-        ],
-        "price": 126.23,
-        "last_updated": "2026-05-31T09:34:01.774Z"
-    },
-    {
-        "id": "27e18966-68d7-4ce0-9960-f6e8bec1c766",
-        "name": "ID-COOLING FX360 PRO Water 360mm White",
-        "variant": "White",
-        "amazon_sku": "B0DPM1TYBD",
-        "clean_name": "ID-COOLING FX360 PRO Water White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 50,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 35.2,
-        "color": [
-            "WHITE"
-        ],
-        "price": 84.99,
-        "last_updated": "2026-05-31T09:34:05.137Z"
-    },
-    {
-        "id": "03486cdf-7c08-4bfb-80a6-690678adc744",
-        "name": "ID-COOLING IS-55 Air ARGB 55mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0B38JL29B",
-        "clean_name": "ID-COOLING IS-55 Air ARGB Black",
-        "cooler_type": false,
-        "radiator_size": "55mm",
-        "height": 55,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 31.2,
-        "color": [
-            "BLACK"
-        ],
-        "price": 32.26,
-        "last_updated": "2026-05-31T09:34:43.509Z"
-    },
-    {
-        "id": "c7c34ec4-aa21-4061-bd5b-7c3be4225618",
-        "name": "Lian Li Galahad II Lite Performance 73.14 CFM Liquid Water 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0DP9S4CNX",
-        "clean_name": "Lian Li Galahad II Lite Performance 73.14 CFM Liquid Water Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 67,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 29.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 301.48,
-        "last_updated": "2026-05-31T09:34:21.280Z"
-    },
-    {
-        "id": "14f129bb-f85d-4fd0-a012-8bcbb854db96",
-        "name": "Lian Li Galahad II Lite Performance Water 360mm 73.14 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0DP9PWX6M",
-        "clean_name": "Lian Li Galahad II Lite Performance Water 73.14 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 67,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 29.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 301.48,
-        "last_updated": "2026-05-31T09:34:57.253Z"
-    },
-    {
-        "id": "874a10c6-eb43-4fca-a92c-456a95229c3d",
-        "name": "Lian Li Galahad II Lite RGB Water 360mm 79 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0DP9THWJX",
-        "clean_name": "Lian Li Galahad II Lite RGB Water 79 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 67,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 34.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 29.23,
-        "last_updated": "2026-05-31T09:35:04.006Z"
-    },
-    {
-        "id": "5d16a3da-2edc-45a2-9058-51c8d1646572",
-        "name": "Lian Li Galahad II Lite Water 240mm RGB 79 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0DP9RSZS2",
-        "clean_name": "Lian Li Galahad II Lite Water RGB 79 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 67,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 34.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 301.48,
-        "last_updated": "2026-05-31T09:35:12.549Z"
-    },
-    {
-        "id": "b259c0fd-2a33-4151-8249-304d58804907",
-        "name": "MSI MAG CORELIQUID 360R V2 Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09CQFD4JG",
-        "clean_name": "MSI MAG CORELIQUID 360R V2 Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 14.3,
-        "max_noise_level": 34.3,
-        "color": [
-            "BLACK"
-        ],
-        "price": 210.49,
-        "last_updated": "2026-05-31T09:35:18.890Z"
-    },
-    {
-        "id": "2fb3d749-fbb2-4c0d-9822-29316b9f488d",
-        "name": "MSI MAG CORELIQUID A13 Water 360mm 62.6 CFM Black",
-        "variant": "360mm Black",
-        "amazon_sku": "B0BSLK8VYH",
-        "clean_name": "MSI MAG CORELIQUID A13 Water 62.6 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 57,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 20,
-        "color": [
-            "BLACK"
-        ],
-        "price": 77.88,
-        "last_updated": "2026-05-31T09:35:33.672Z"
-    },
-    {
-        "id": "47653668-8b43-4d32-9b5b-8873745a018d",
-        "name": "MSI MAG CORELIQUID A13 Water 240mm 62.6 CFM White",
-        "variant": "240mm White",
-        "amazon_sku": "B0DLNZY23J",
-        "clean_name": "MSI MAG CORELIQUID A13 Water 62.6 CFM White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 57,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 20,
-        "color": [
-            "WHITE"
-        ],
-        "price": 47.83,
-        "last_updated": "2026-05-31T09:35:34.279Z"
-    },
-    {
-        "id": "a0c5942f-98ab-4090-bfb7-e700e16f4fd6",
-        "name": "MSI MAG CORELIQUID C360 Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0992176M7",
-        "clean_name": "MSI MAG CORELIQUID C360 Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 14.3,
-        "max_noise_level": 34.3,
-        "color": [
-            "BLACK"
-        ],
-        "price": 131.03,
-        "last_updated": "2026-05-31T09:35:53.164Z"
-    },
-    {
-        "id": "8d721dad-5112-455e-b54c-bcd4418985f1",
-        "name": "MSI MAG CORELIQUID Water 360mm 78.23 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0C4WVDCSG",
-        "clean_name": "MSI MAG CORELIQUID Water 78.23 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 14.3,
-        "max_noise_level": 34.3,
-        "color": [
-            "BLACK"
-        ],
-        "price": 84.14,
-        "last_updated": "2026-05-31T09:35:47.947Z"
-    },
-    {
-        "id": "82cbdac8-da28-47c2-8a97-4fb819a8486e",
-        "name": "Noctua NH-L9a-AM4 Air 33.8 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B083LQVX5W",
-        "clean_name": "Noctua NH-L9a-AM4 Air 33.8 CFM Black",
-        "cooler_type": false,
-        "height": 37,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 14.8,
-        "max_noise_level": 23.6,
-        "color": [
-            "BLACK"
-        ],
-        "price": 60.41,
-        "last_updated": "2026-05-31T09:36:03.537Z"
-    },
-    {
-        "id": "0da1d260-bf32-44c0-a165-34905daef666",
-        "name": "NZXT Kraken Core 360 RGB Black",
-        "variant": "RGB",
-        "amazon_sku": "B0FLTZ2SHM",
-        "clean_name": "NZXT Kraken Core 360 RGB Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 64.24,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2400,
-        "min_noise_level": 31.9,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "price": 102.76,
-        "last_updated": "2026-05-31T09:36:07.966Z"
-    },
-    {
-        "id": "62be088e-810f-4b41-9660-ae129439fdd6",
-        "name": "NZXT Kraken Elite 240 Black (2024)",
-        "variant": "Non-RGB (2024)",
-        "amazon_sku": "B0DCFMG8PB",
-        "clean_name": "NZXT Kraken Elite 240 Black (2024)",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 65,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 30,
-        "color": [
-            "BLACK"
-        ],
-        "price": 163.1,
-        "last_updated": "2026-05-31T09:36:20.755Z"
-    },
-    {
-        "id": "799093c0-3c6f-42ba-905f-c955a4d66347",
-        "name": "NZXT Kraken Elite 360 RGB Black (2024)",
-        "variant": "RGB (2024)",
-        "amazon_sku": "B0D9GV78D8",
-        "clean_name": "NZXT Kraken Elite 360 RGB Black (2024)",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 65,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2400,
-        "min_noise_level": 30,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "price": 263.81,
-        "last_updated": "2026-05-31T09:37:12.273Z"
-    },
-    {
-        "id": "9828a076-03d8-4750-ad07-dceba4cef233",
-        "name": "NZXT Kraken Elite 420mm RGB Black (2024)",
-        "variant": "RGB (2024)",
-        "amazon_sku": "B0DN4QKMSV",
-        "clean_name": "NZXT Kraken Elite RGB Black (2024)",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "height": 65,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 34.5,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "price": 312.9,
-        "last_updated": "2026-05-31T09:37:19.936Z"
-    },
-    {
-        "id": "3916d3dc-9163-49e1-8fc4-d5a4d9410050",
-        "name": "NZXT Kraken Plus 240mm RGB Black (2025)",
-        "variant": "RGB (2025)",
-        "amazon_sku": "B0F5S84X8P",
-        "clean_name": "NZXT Kraken Plus RGB Black (2025)",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 56,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2400,
-        "min_noise_level": 31.9,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "price": 122.64,
-        "last_updated": "2026-05-31T09:37:32.690Z"
-    },
-    {
-        "id": "40d9d347-f011-41d1-94e4-67a1f7fe793d",
-        "name": "NZXT Kraken Z73 RGB Water 360mm 52.44 CFM White / Black",
-        "variant": "White / Black",
-        "amazon_sku": "B09GKPTYG6",
-        "clean_name": "NZXT Kraken Z73 RGB Water 52.44 CFM White / Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1500,
-        "min_noise_level": 22,
-        "max_noise_level": 33,
-        "color": [
-            "WHITE",
-            "BLACK"
-        ],
-        "price": 278.72,
-        "last_updated": "2026-05-31T09:37:34.639Z"
-    },
-    {
-        "id": "36e32a51-414c-44d5-b2ab-d1dd7ab1aacd",
-        "name": "Phanteks Glacier One D30 X2 72.72 CFM Water 360mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0F4QGP9RX",
-        "clean_name": "Phanteks Glacier One D30 X2 72.72 CFM Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 66,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 35.13,
-        "color": [
-            "BLACK"
-        ],
-        "price": 100.74,
-        "last_updated": "2026-05-31T09:37:59.624Z"
-    },
-    {
-        "id": "a5465e59-1289-4df5-9b98-40d62492b7eb",
-        "name": "Phanteks Glacier One D30 X2 Water 360mm 72.72 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0F4QGPFBJ",
-        "clean_name": "Phanteks Glacier One D30 X2 Water 72.72 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 66,
-        "min_fan_rpm": 250,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 35.13,
-        "color": [
-            "WHITE"
-        ],
-        "price": 100.74,
-        "last_updated": "2026-05-31T09:37:59.016Z"
-    },
-    {
-        "id": "da795975-9edb-48cc-897d-bd5df76b3da1",
-        "name": "Thermaltake Gravity A2 46.24 CFM Air 60mm Silver / Black",
-        "variant": "Silver / Black",
-        "amazon_sku": "B08T1NMSVX",
-        "clean_name": "Thermaltake Gravity A2 46.24 CFM Air Silver / Black",
-        "cooler_type": false,
-        "radiator_size": "60mm",
-        "height": 60,
-        "min_fan_rpm": 1200,
-        "max_fan_rpm": 3500,
-        "min_noise_level": 33.5,
-        "color": [
-            "GREY",
-            "BLACK"
-        ],
-        "price": 15.02,
-        "last_updated": "2026-05-31T09:38:40.714Z"
-    },
-    {
-        "id": "01c2afe0-42a5-45af-979d-385b06f142ed",
-        "name": "Thermaltake TH240 V2 ARGB Black",
-        "variant": "",
-        "amazon_sku": "B0CCXG57HT",
-        "clean_name": "Thermaltake TH240 V2 ARGB Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 52,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 25.8,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "price": 95.28,
-        "last_updated": "2026-05-31T09:38:38.164Z"
-    },
-    {
-        "id": "0f4d54a8-31b6-4aa4-a07c-ac6eaa528247",
-        "name": "Thermaltake TH240 V2 ARGB White",
-        "variant": "White",
-        "amazon_sku": "B0CHN5F2M7",
-        "clean_name": "Thermaltake TH240 V2 ARGB White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 52,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 25.8,
-        "color": [
-            "WHITE",
-            "RGB"
-        ],
-        "price": 96.71,
-        "last_updated": "2026-05-31T09:39:14.982Z"
-    },
-    {
-        "id": "62a7277e-f6e2-46c7-9b17-b1540ca49585",
-        "name": "Thermaltake TH240 V2 Ultra ARGB Black",
-        "variant": "",
-        "amazon_sku": "B0CCXDV3Q8",
-        "clean_name": "Thermaltake TH240 V2 Ultra ARGB Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 60,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 25.8,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "price": 95.28,
-        "last_updated": "2026-05-31T09:39:11.758Z"
-    },
-    {
-        "id": "9d568ae3-fcc7-4afd-8519-f1c7a511a2c6",
-        "name": "Thermaltake TH240 V2 Ultra ARGB Snow White",
-        "variant": "",
-        "amazon_sku": "B0CHN8M5RK",
-        "clean_name": "Thermaltake TH240 V2 Ultra ARGB Snow White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 60,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 25.8,
-        "color": [
-            "WHITE",
-            "RGB"
-        ],
-        "price": 140.8,
-        "last_updated": "2026-05-31T09:39:22.871Z"
-    },
-    {
-        "id": "774a47d4-1fb9-450c-a9dc-b9a58079e3fd",
-        "name": "Thermaltake TH360 V2 ARGB Black",
-        "variant": "",
-        "amazon_sku": "B0CCXHZBSV",
-        "clean_name": "Thermaltake TH360 V2 ARGB Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 52,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 25.8,
-        "color": [
-            "BLACK",
-            "RGB"
-        ],
-        "price": 478.44,
-        "last_updated": "2026-05-31T09:39:31.589Z"
-    },
-    {
-        "id": "94f54c0f-4208-4c51-aef7-a03e8bf27aa0",
-        "name": "Thermaltake TH360 V2 ARGB Snow White",
-        "variant": "",
-        "amazon_sku": "B0CHN7V9CH",
-        "clean_name": "Thermaltake TH360 V2 ARGB Snow White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 52,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 25.8,
-        "color": [
-            "WHITE",
-            "RGB"
-        ],
-        "price": 115.49,
-        "last_updated": "2026-05-31T09:39:42.010Z"
-    },
-    {
-        "id": "f06d11c6-dbdb-41b6-a472-8bdc914c0084",
-        "name": "Thermaltake TOUGHAIR 510 Air 160mm 58.35 CFM Green",
-        "variant": "Green",
-        "amazon_sku": "B09TNBNY3Z",
-        "clean_name": "Thermaltake TOUGHAIR 510 Air 58.35 CFM Green",
-        "cooler_type": false,
-        "radiator_size": "160mm",
-        "height": 160,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 1200,
-        "min_noise_level": 23.6,
-        "color": [
-            "GREEN"
-        ],
-        "price": 163.95,
-        "last_updated": "2026-05-31T09:39:52.458Z"
-    },
-    {
-        "id": "06cfccbc-10dc-4375-823b-05914e808675",
-        "name": "Thermaltake UX200 SE Air 156mm ARGB Black",
-        "variant": "Black",
-        "amazon_sku": "B09XFKW431",
-        "clean_name": "Thermaltake UX200 SE Air ARGB Black",
-        "cooler_type": false,
-        "radiator_size": "156mm",
-        "height": 156,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 25,
-        "color": [
-            "BLACK"
-        ],
-        "price": 31.19,
-        "last_updated": "2026-05-31T09:40:00.546Z"
-    },
-    {
-        "id": "441be00d-e43e-401e-a8ab-110bbe714c51",
-        "name": "Thermaltake UX200 SE ARGB Air 156mm 62.72 CFM White",
-        "variant": "White",
-        "amazon_sku": "B0C7MT48CF",
-        "clean_name": "Thermaltake UX200 SE ARGB Air 62.72 CFM White",
-        "cooler_type": false,
-        "radiator_size": "156mm",
-        "height": 156,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 25,
-        "color": [
-            "WHITE"
-        ],
-        "price": 25.1,
-        "last_updated": "2026-05-31T09:40:56.844Z"
-    },
-    {
-        "id": "51948646-b238-4e28-bed1-5648feaa1d7e",
-        "name": "TRYX PANORAMA Water 240mm 81.32 CFM White",
-        "variant": "White 240",
-        "amazon_sku": "B0DLB2GV7F",
-        "clean_name": "TRYX PANORAMA Water 81.32 CFM White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 116,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2250,
-        "min_noise_level": 30.97,
-        "color": [
-            "WHITE"
-        ],
-        "price": 299,
-        "last_updated": "2026-05-31T09:40:59.393Z"
-    },
-    {
-        "id": "2da9af09-a952-42fc-b5e5-e39278481b9e",
-        "name": "Valkyrie Vind 125 SL 80 CFM Air 158mm Black",
-        "variant": "Black",
-        "amazon_sku": "B0C8Z1PWBJ",
-        "clean_name": "Valkyrie Vind 125 SL 80 CFM Air Black",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2150,
-        "min_noise_level": 29,
-        "color": [
-            "BLACK"
-        ],
-        "price": 54.93,
-        "last_updated": "2026-05-31T09:41:13.406Z"
-    },
-    {
-        "id": "5af1ae6a-5972-472d-9e1b-b1e9487dc127",
-        "name": "ARCTIC Liquid Freezer II 360 RGB Water 360mm RGB 48.8 CFM Black / Gray",
-        "variant": "Black / Gray",
-        "amazon_sku": "B08WRWNNZ9",
-        "clean_name": "ARCTIC Liquid Freezer II 360 RGB Water RGB 48.8 CFM Black / Gray",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 22.5,
-        "color": [
-            "BLACK",
-            "GREY"
-        ],
-        "price": 201.35,
-        "last_updated": "2026-05-31T09:41:15.380Z"
-    },
-    {
-        "id": "f35a4968-798c-4d44-8377-8ab94b5e06f9",
-        "name": "ARCTIC Liquid Freezer II Water 240mm RGB 48.8 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B08WRJ8LP2",
-        "clean_name": "ARCTIC Liquid Freezer II Water RGB 48.8 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 22.5,
-        "color": [
-            "BLACK"
-        ],
-        "price": 89.09,
-        "last_updated": "2026-05-31T09:41:38.620Z"
-    },
-    {
-        "id": "3e1bcc6c-0d0b-45df-b858-4a17d49dd56a",
-        "name": "ARCTIC Liquid Freezer II Water 240mm RGB 48.8 CFM Black / Gray",
-        "variant": "Black / Gray",
-        "amazon_sku": "B08WRJ5MQW",
-        "clean_name": "ARCTIC Liquid Freezer II Water RGB 48.8 CFM Black / Gray",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 200,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 22.5,
-        "color": [
-            "BLACK",
-            "GREY"
-        ],
-        "price": 70.49,
-        "last_updated": "2026-05-31T09:41:50.473Z"
-    },
-    {
-        "id": "03e37343-5a63-4bad-a0ec-90abf06059fd",
-        "name": "Asus ROG Ryujin 240 RGB AIO Water 240mm 121.8 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B07J59JW35",
-        "clean_name": "Asus ROG Ryujin 240 RGB AIO Water 121.8 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 450,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 29.7,
-        "color": [
-            "BLACK"
-        ],
-        "price": 111.2,
-        "last_updated": "2026-05-31T09:42:52.588Z"
-    },
-    {
-        "id": "ebe7e848-e163-430d-8abf-2024c32582a3",
-        "name": "Asus ROG RYUJIN II Water 71.6 CFM 240mm Black",
-        "variant": "Black",
-        "amazon_sku": "B09KSVR9CJ",
-        "clean_name": "Asus ROG RYUJIN II Water 71.6 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "min_fan_rpm": 450,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 29.7,
-        "color": [
-            "BLACK"
-        ],
-        "price": 204.85,
-        "last_updated": "2026-05-31T09:42:56.044Z"
-    },
-    {
-        "id": "1bc34854-d6c9-41ef-aee0-f8b16e9253ba",
-        "name": "ID-COOLING FROZN A620 Black",
-        "variant": "",
-        "amazon_sku": "B0CFQC6LCD",
-        "clean_name": "ID-COOLING FROZN A620 Black",
-        "cooler_type": false,
-        "height": 154,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 29.85,
-        "color": [
-            "BLACK"
-        ],
-        "price": 22.98,
-        "last_updated": "2026-05-31T09:43:19.023Z"
-    },
-    {
-        "id": "6038081b-a0dc-4a0a-9721-7e89d482cf07",
-        "name": "ID-COOLING FROZN A620 PRO SE ARGB Black",
-        "variant": "PRO SE ARGB",
-        "amazon_sku": "B0DJSTZRL4",
-        "clean_name": "ID-COOLING FROZN A620 PRO SE ARGB Black",
-        "cooler_type": false,
-        "height": 157,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 27.2,
-        "color": [
-            "BLACK"
-        ],
-        "price": 33.67,
-        "last_updated": "2026-05-31T09:43:21.646Z"
-    },
-    {
-        "id": "27e2c5b0-de96-48a4-af8d-ed58a969985b",
-        "name": "Antec FrigusAir 400 RGB Air 158mm 77 CFM Black / Silver",
-        "variant": "Black / Silver",
-        "amazon_sku": "B0B1PJ87VM",
-        "clean_name": "Antec FrigusAir 400 RGB Air 77 CFM Black / Silver",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 1600,
-        "min_noise_level": 20,
-        "max_noise_level": 36,
-        "color": [
-            "BLACK",
-            "GREY"
-        ],
-        "available": false,
-        "last_updated": "2026-05-30T10:09:47.531Z"
-    },
-    {
-        "id": "0a372c62-2c2f-4356-86fe-e4b3456d556c",
-        "name": "Gigabyte GAMING 360 61.61 CFM Water 360mm 61.61 CFM Black",
-        "variant": "Black",
-        "amazon_sku": "B0DZFFMRTS",
-        "clean_name": "Gigabyte GAMING 360 61.61 CFM Water 61.61 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 63,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2200,
-        "min_noise_level": 13.8,
-        "max_noise_level": 35.8,
-        "color": [
-            "BLACK"
-        ],
-        "available": false,
-        "last_updated": "2026-05-29T10:50:44.519Z"
-    },
-    {
-        "id": "e4d0abe3-01b2-47e9-868f-657678275963",
-        "name": "Cooler Master MasterLiquid 360 Atmos Black",
-        "variant": "Atmos 360mm",
-        "amazon_sku": "B0CFB956LP",
-        "clean_name": "Cooler Master MasterLiquid 360 Atmos Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 53,
-        "min_fan_rpm": 690,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 27.2,
-        "color": [
-            "BLACK"
-        ],
-        "available": false,
-        "last_updated": "2026-05-29T10:50:48.332Z"
-    },
-    {
-        "id": "64fd1dc8-0041-457a-9b71-c52cb3ea5f2b",
-        "name": "Cooler Master MasterLiquid Core Water 360mm ARGB White",
-        "variant": "White",
-        "amazon_sku": "B0C4BQYN6Z",
-        "clean_name": "Cooler Master MasterLiquid Core Water ARGB White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 47,
-        "min_fan_rpm": 350,
-        "max_fan_rpm": 1750,
-        "min_noise_level": 27.2,
-        "color": [
-            "WHITE"
-        ],
-        "available": false,
-        "last_updated": "2026-05-30T09:36:01.089Z"
-    },
-    {
-        "id": "03bea814-1e7f-493f-ad25-a76a3d9c535a",
-        "name": "MSI MPG CORELIQUID P13 360 White",
-        "variant": "360mm White",
-        "amazon_sku": "B0FKWTNKQS",
-        "clean_name": "MSI MPG CORELIQUID P13 360 White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 78,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2050,
-        "min_noise_level": 20,
-        "color": [
-            "WHITE"
-        ],
-        "available": false,
-        "last_updated": "2026-05-29T10:38:53.746Z"
-    }
+  {
+    "id": "2bea72f6-edc2-461b-960b-7f5ff6dab83b",
+    "name": "Aerocool Cylon 4 Air 52.5 CFM 155mm Black",
+    "variant": "Black",
+    "amazon_sku": "B092JV7DKH",
+    "clean_name": "Aerocool Cylon 4 Air 52.5 CFM Black",
+    "cooler_type": false,
+    "radiator_size": "155mm",
+    "height": 155,
+    "min_fan_rpm": 800,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 14,
+    "max_noise_level": 26,
+    "color": [
+      "BLACK"
+    ],
+    "price": 33.02,
+    "last_updated": "2026-06-01T10:41:37.355Z",
+    "available": true
+  },
+  {
+    "id": "9f3e47a1-f931-42db-90be-ef8cdfa15e39",
+    "name": "Antec A400i Air 155mm Black / Silver",
+    "variant": "Black / Silver",
+    "amazon_sku": "B0B1H8FBQD",
+    "clean_name": "Antec A400i Air Black / Silver",
+    "cooler_type": false,
+    "radiator_size": "155mm",
+    "height": 155,
+    "min_fan_rpm": 800,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 20,
+    "max_noise_level": 36,
+    "color": [
+      "BLACK",
+      "GREY"
+    ],
+    "price": 30.56,
+    "last_updated": "2026-06-01T10:41:38.601Z",
+    "available": true
+  },
+  {
+    "id": "ae9af83a-ba69-46ad-b248-c46afddd8a44",
+    "name": "AORUS LIQUID COOLER 280",
+    "variant": "LIQUID COOLER 280",
+    "amazon_sku": "B07YZ2NCR5",
+    "clean_name": "AORUS LIQUID COOLER 280",
+    "cooler_type": true,
+    "radiator_size": 280,
+    "height": 0,
+    "min_fan_rpm": 2200,
+    "max_fan_rpm": 2400,
+    "min_noise_level": 22.3,
+    "max_noise_level": 44.5,
+    "color": [],
+    "price": 155.93,
+    "last_updated": "2026-06-01T10:41:56.106Z",
+    "available": true
+  },
+  {
+    "id": "ead0cdff-b60e-489c-904d-e6d36dafff11",
+    "name": "ASUS ROG Ryujin 360 RGB",
+    "variant": "RGB",
+    "amazon_sku": "B07JVQXH8M",
+    "clean_name": "ASUS ROG Ryujin 360 RGB",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 186,
+    "min_fan_rpm": 450,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 29.7,
+    "max_noise_level": 29.7,
+    "color": [],
+    "price": 210.91,
+    "last_updated": "2026-06-01T10:42:00.470Z",
+    "available": true
+  },
+  {
+    "id": "70b6d756-4411-41ad-86a1-1f1e124c8a90",
+    "name": "be quiet! Pure Loop 360mm",
+    "variant": "360mm",
+    "amazon_sku": "B08K3P1KRY",
+    "clean_name": "be quiet! Pure Loop",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 397,
+    "min_fan_rpm": 0,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 19.8,
+    "max_noise_level": 40.5,
+    "color": [],
+    "price": 78.55,
+    "last_updated": "2026-06-01T10:42:24.908Z",
+    "available": true
+  },
+  {
+    "id": "e6654154-2082-4a02-8a84-d9fe71d7be1c",
+    "name": "Cooler Master Hyper 212 RGB Air 159mm Black",
+    "variant": "Black",
+    "amazon_sku": "B07H22TC1N",
+    "clean_name": "Cooler Master Hyper 212 RGB Air Black",
+    "cooler_type": false,
+    "radiator_size": "159mm",
+    "height": 159,
+    "min_fan_rpm": 650,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 8,
+    "max_noise_level": 30,
+    "color": [
+      "BLACK"
+    ],
+    "price": 42.17,
+    "last_updated": "2026-06-01T10:42:25.611Z",
+    "available": true
+  },
+  {
+    "id": "3954c797-32e5-44b9-9103-2027135d4a68",
+    "name": "Corsair A115 Air 165mm 84.5 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0CPHKT7YN",
+    "clean_name": "Corsair A115 Air 84.5 CFM Black",
+    "cooler_type": false,
+    "radiator_size": "165mm",
+    "height": 165,
+    "min_fan_rpm": 400,
+    "max_fan_rpm": 1600,
+    "min_noise_level": 5,
+    "max_noise_level": 33.9,
+    "color": [
+      "BLACK"
+    ],
+    "price": 87.79,
+    "last_updated": "2026-06-01T10:44:04.663Z",
+    "available": true
+  },
+  {
+    "id": "02cf116c-c99e-4943-a244-06d15b7d4e64",
+    "name": "Corsair iCUE LINK TITAN 240 RX Water 240mm RGB 73.5 CFM White",
+    "variant": "240mm White",
+    "amazon_sku": "B0D6BGFVX8",
+    "clean_name": "Corsair iCUE LINK TITAN 240 RX Water RGB 73.5 CFM White",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 69,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "WHITE"
+    ],
+    "price": 80.58,
+    "last_updated": "2026-06-01T10:44:02.774Z",
+    "available": true
+  },
+  {
+    "id": "dd9fe19d-9fcb-449c-ab4a-0998c585e61b",
+    "name": "Corsair iCUE LINK TITAN RX Water 360mm RGB White",
+    "variant": "360mm White",
+    "amazon_sku": "B0D6BCSFNC",
+    "clean_name": "Corsair iCUE LINK TITAN RX Water RGB White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 69,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "WHITE"
+    ],
+    "price": 161.34,
+    "last_updated": "2026-06-01T10:44:18.804Z",
+    "available": true
+  },
+  {
+    "id": "693134bf-8d44-4551-b8ff-f33de87f8faa",
+    "name": "Corsair iCUE LINK TITAN Water 360mm RX LCD White",
+    "variant": "360mm White",
+    "amazon_sku": "B0DF79SWMJ",
+    "clean_name": "Corsair iCUE LINK TITAN Water RX LCD White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 66.2,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "WHITE",
+      "RGB"
+    ],
+    "price": 198.55,
+    "last_updated": "2026-06-01T10:44:26.350Z",
+    "available": true
+  },
+  {
+    "id": "98a82ab4-5e47-4fa5-bd5e-56347d90d6c1",
+    "name": "Corsair iCUE LINK TITAN Water 420mm RX RGB 94.7 CFM Black AIO Liquid Cooler",
+    "variant": "420mm Black",
+    "amazon_sku": "B0F8R2BW2Q",
+    "clean_name": "Corsair iCUE LINK TITAN Water RX RGB 94.7 CFM Black AIO Liquid Cooler",
+    "cooler_type": true,
+    "radiator_size": 420,
+    "height": 69,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 1700,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "BLACK"
+    ],
+    "price": 45.19,
+    "last_updated": "2026-06-01T10:45:14.409Z",
+    "available": true
+  },
+  {
+    "id": "2ddd19c1-a996-41d1-b464-dc7d1560f6f9",
+    "name": "Corsair iCUE LINK TITAN Water 360mm RX RGB Black AIO Liquid Cooler",
+    "variant": "360mm Black",
+    "amazon_sku": "B0D6BFBLTK",
+    "clean_name": "Corsair iCUE LINK TITAN Water RX RGB Black AIO Liquid Cooler",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 69,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "BLACK"
+    ],
+    "price": 159.31,
+    "last_updated": "2026-06-01T10:45:18.886Z",
+    "available": true
+  },
+  {
+    "id": "8d3f0132-a0ff-4d08-aa5e-f3b860d639cf",
+    "name": "Gigabyte AORUS WATERFORCE X II 240 Water 240mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0CPQ8V6LM",
+    "clean_name": "Gigabyte AORUS WATERFORCE X II 240 Water Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 78,
+    "min_fan_rpm": 800,
+    "max_fan_rpm": 2400,
+    "min_noise_level": 12,
+    "max_noise_level": 37.5,
+    "color": [
+      "BLACK"
+    ],
+    "price": 316.64,
+    "last_updated": "2026-06-01T10:45:28.066Z",
+    "available": true
+  },
+  {
+    "id": "c202fd44-72e0-446e-a289-247962f900b3",
+    "name": "Gigabyte GAMING 360 Water 360mm 61.61 CFM White",
+    "variant": "White",
+    "amazon_sku": "B0DXVSJWQV",
+    "clean_name": "Gigabyte GAMING 360 Water 61.61 CFM White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 63,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2200,
+    "min_noise_level": 13.8,
+    "max_noise_level": 35.8,
+    "color": [
+      "WHITE"
+    ],
+    "price": 69.06,
+    "last_updated": "2026-06-01T10:45:35.324Z",
+    "available": true
+  },
+  {
+    "id": "77339c05-5c8e-40dc-850b-98f5e1c5e14f",
+    "name": "iCUE LINK TITAN 240 RX RGB AIO Liquid CPU Cooler",
+    "variant": "240mm Black",
+    "amazon_sku": "B0D6BF3RXL",
+    "clean_name": "iCUE LINK TITAN 240 RX RGB AIO",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 69,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "BLACK"
+    ],
+    "price": 80.57,
+    "last_updated": "2026-06-01T10:45:46.182Z",
+    "available": true
+  },
+  {
+    "id": "5e9a89e1-c8f8-4573-acd0-c59a453bb96e",
+    "name": "Noctua NH-D15S chromax.black Air 160mm Black",
+    "variant": "Black",
+    "amazon_sku": "B08HM1T6RL",
+    "clean_name": "Noctua NH-D15S chromax.black Air Black",
+    "cooler_type": false,
+    "radiator_size": "160mm",
+    "height": 160,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 1500,
+    "min_noise_level": 19.2,
+    "max_noise_level": 24.6,
+    "color": [
+      "BLACK"
+    ],
+    "price": 127.42,
+    "last_updated": "2026-06-01T10:45:50.616Z",
+    "available": true
+  },
+  {
+    "id": "39e8fb87-b8f2-4091-bf1a-5744f48c61b9",
+    "name": "Noctua NH-L9a-AM4 Air 37mm Brown",
+    "variant": "Brown",
+    "amazon_sku": "B075SG1T3X",
+    "clean_name": "Noctua NH-L9a-AM4 Air Brown",
+    "cooler_type": false,
+    "radiator_size": "37mm",
+    "height": 37,
+    "min_fan_rpm": 600,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 14.8,
+    "max_noise_level": 23.6,
+    "color": [
+      "BROWN"
+    ],
+    "price": 50.32,
+    "last_updated": "2026-06-01T10:46:02.586Z",
+    "available": true
+  },
+  {
+    "id": "4b2062af-459c-4c3a-b6ac-f675ac8a5b8a",
+    "name": "Noctua NH-L9x65 chromax.black Air 65mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0CKVZ2NZ1",
+    "clean_name": "Noctua NH-L9x65 chromax.black Air Black",
+    "cooler_type": false,
+    "radiator_size": "65mm",
+    "height": 65,
+    "min_fan_rpm": 600,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 14.8,
+    "max_noise_level": 23.6,
+    "color": [
+      "BLACK"
+    ],
+    "price": 70.49,
+    "last_updated": "2026-06-01T10:46:10.374Z",
+    "available": true
+  },
+  {
+    "id": "c4066d39-4079-43dd-b07e-ca88cb2b649c",
+    "name": "Noctua NH-U14S Air 165mm 82.52 CFM",
+    "variant": "",
+    "amazon_sku": "B00C9FLSLY",
+    "clean_name": "Noctua NH-U14S Air 82.52 CFM",
+    "cooler_type": false,
+    "radiator_size": "165mm",
+    "height": 165,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 1500,
+    "min_noise_level": 19.2,
+    "max_noise_level": 24.6,
+    "color": [],
+    "price": 90.66,
+    "last_updated": "2026-06-01T10:46:50.074Z",
+    "available": true
+  },
+  {
+    "id": "1d83f6d2-f062-4301-8ae1-0beb34f513e8",
+    "name": "NZXT Kraken Water 360mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0BNYQQ97K",
+    "clean_name": "NZXT Kraken Water Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 56,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 17.9,
+    "max_noise_level": 30.6,
+    "color": [
+      "BLACK"
+    ],
+    "price": 41.24,
+    "last_updated": "2026-06-01T10:47:08.140Z",
+    "available": true
+  },
+  {
+    "id": "bdaac34d-ebf3-44fd-8fec-e51b0fa4715a",
+    "name": "Xilence A250PWM Air 69mm Red / Black 49.5 CFM",
+    "variant": "Red / Black",
+    "amazon_sku": "B01L6PND6U",
+    "clean_name": "Xilence A250PWM Air Red / Black 49.5 CFM",
+    "cooler_type": false,
+    "radiator_size": "69mm",
+    "height": 69,
+    "min_fan_rpm": 1000,
+    "max_fan_rpm": 2800,
+    "min_noise_level": 17.8,
+    "max_noise_level": 32,
+    "color": [
+      "RED",
+      "BLACK"
+    ],
+    "price": 7.01,
+    "last_updated": "2026-06-01T10:47:05.993Z",
+    "available": true
+  },
+  {
+    "id": "616e9df9-850d-4ee8-9289-2905ec222ff8",
+    "name": "Xilence A404T 65.4 CFM Air 55mm Red / Black",
+    "variant": "Red / Black",
+    "amazon_sku": "B074HZHQB6",
+    "clean_name": "Xilence A404T 65.4 CFM Air Red / Black",
+    "cooler_type": false,
+    "radiator_size": "55mm",
+    "height": 55,
+    "min_fan_rpm": 600,
+    "max_fan_rpm": 2200,
+    "min_noise_level": 14,
+    "max_noise_level": 21.8,
+    "color": [
+      "RED",
+      "BLACK"
+    ],
+    "price": 16.08,
+    "last_updated": "2026-06-01T10:47:22.019Z",
+    "available": true
+  },
+  {
+    "id": "5ebd83a7-5693-4cac-8e9d-031cd1a2b7b4",
+    "name": "Xilence I404T 65.4 CFM Air 55mm Red / Black",
+    "variant": "Red / Black",
+    "amazon_sku": "B074J1QXNG",
+    "clean_name": "Xilence I404T 65.4 CFM Air Red / Black",
+    "cooler_type": false,
+    "radiator_size": "55mm",
+    "height": 55,
+    "min_fan_rpm": 600,
+    "max_fan_rpm": 2200,
+    "min_noise_level": 14,
+    "max_noise_level": 21.8,
+    "color": [
+      "RED",
+      "BLACK"
+    ],
+    "price": 17.04,
+    "last_updated": "2026-06-01T10:47:27.272Z",
+    "available": true
+  },
+  {
+    "id": "210ae193-1a3c-4f34-be96-0f3497bde66a",
+    "name": "Xilence LQ360 Water 70 CFM 360mm Red / Black",
+    "variant": "Red / Black",
+    "amazon_sku": "B08LZPKJRD",
+    "clean_name": "Xilence LQ360 Water 70 CFM Red / Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 47,
+    "min_fan_rpm": 700,
+    "max_fan_rpm": 1600,
+    "min_noise_level": 18,
+    "max_noise_level": 35.2,
+    "color": [
+      "RED",
+      "BLACK"
+    ],
+    "price": 57.38,
+    "last_updated": "2026-06-01T10:47:33.481Z",
+    "available": true
+  },
+  {
+    "id": "d98f1cc4-b06d-45e5-bd9d-51312a1d11e7",
+    "name": "YEYIAN VATN ARGB Water 360mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0CF78QMBS",
+    "clean_name": "YEYIAN VATN ARGB Water Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 53,
+    "min_fan_rpm": 800,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 25,
+    "max_noise_level": 32,
+    "color": [
+      "BLACK"
+    ],
+    "price": 80.66,
+    "last_updated": "2026-06-01T10:47:42.575Z",
+    "available": true
+  },
+  {
+    "id": "0712be57-eafe-4a0a-a76b-053941088860",
+    "name": "ASUS ROG RYUJIN III 240 ARGB White Edition ",
+    "amazon_sku": "B0CBJQ4R9X",
+    "clean_name": "ASUS ROG RYUJIN III 240 ARGB White Edition",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 0,
+    "min_fan_rpm": 600,
+    "max_fan_rpm": 2200,
+    "min_noise_level": 36.45,
+    "max_noise_level": 36.45,
+    "color": [],
+    "price": 15.74,
+    "last_updated": "2026-06-01T10:47:54.640Z",
+    "available": true
+  },
+  {
+    "id": "306567ae-4b86-4829-95ff-53c21f917a8e",
+    "name": "ASUS ROG RYUJIN III 360 ARGB White Edition All-in-One Liquid CPU Cooler",
+    "variant": "RYUJIN III 360 ARGB White Edition",
+    "amazon_sku": "B0CBJRZ2Y7",
+    "clean_name": "ASUS ROG RYUJIN III 360 ARGB White Edition All-in-One",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 101,
+    "min_fan_rpm": 600,
+    "max_fan_rpm": 2200,
+    "min_noise_level": 36.45,
+    "color": [
+      "WHITE"
+    ],
+    "price": 361.18,
+    "last_updated": "2026-06-01T10:48:07.973Z",
+    "available": true
+  },
+  {
+    "id": "9dd074e5-3093-4b2c-a704-78d011dcee8f",
+    "name": "Asus ROG Ryujin III 71.6 CFM Water 240mm Black",
+    "variant": "ROG RYUJIN III 240",
+    "amazon_sku": "B0C8BT4Q9G",
+    "clean_name": "Asus ROG Ryujin III 71.6 CFM Water Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 101,
+    "min_fan_rpm": 450,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 29.7,
+    "color": [
+      "BLACK"
+    ],
+    "price": 361.18,
+    "last_updated": "2026-06-01T10:48:38.836Z",
+    "available": true
+  },
+  {
+    "id": "c97abd04-0b50-4bb7-a541-d71432a85404",
+    "name": "Asus ROG Ryujin III Water 240mm ARGB Black",
+    "variant": "ROG RYUJIN III 240 ARGB",
+    "amazon_sku": "B0C9SLJ44B",
+    "clean_name": "Asus ROG Ryujin III Water ARGB Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 101,
+    "min_fan_rpm": 600,
+    "max_fan_rpm": 2200,
+    "min_noise_level": 36.45,
+    "color": [
+      "BLACK"
+    ],
+    "price": 126.23,
+    "last_updated": "2026-06-01T10:48:51.201Z",
+    "available": true
+  },
+  {
+    "id": "b1432886-1b14-4d21-af83-26a5585701ae",
+    "name": "be quiet! Shadow Rock Slim 2 Air 161mm Black",
+    "variant": "Black",
+    "amazon_sku": "B09B7JXQS8",
+    "clean_name": "be quiet! Shadow Rock Slim 2 Air Black",
+    "cooler_type": false,
+    "radiator_size": "161mm",
+    "height": 161,
+    "min_fan_rpm": 1400,
+    "min_noise_level": 11.5,
+    "max_noise_level": 23.7,
+    "color": [
+      "BLACK"
+    ],
+    "price": 45,
+    "last_updated": "2026-06-01T10:48:54.957Z",
+    "available": true
+  },
+  {
+    "id": "807fab83-61a7-488d-a259-ddcda46037eb",
+    "name": "be quiet! Silent Loop 3 360mm CPU AIO Liquid Cooler Black",
+    "variant": "360mm Black",
+    "amazon_sku": "B0DWZJNH28",
+    "clean_name": "be quiet! Silent Loop 3 CPU AIO Liquid Cooler Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 94,
+    "min_fan_rpm": 2500,
+    "min_noise_level": 19.8,
+    "max_noise_level": 38.8,
+    "color": [
+      "BLACK"
+    ],
+    "price": 121.39,
+    "last_updated": "2026-06-01T10:49:12.358Z",
+    "available": true
+  },
+  {
+    "id": "1397bbab-fcb5-4bb2-9261-d60e56929fd2",
+    "name": "be quiet! Silent Loop 3 Water 240mm Black",
+    "variant": "240mm Black",
+    "amazon_sku": "B0DWZQ7LKT",
+    "clean_name": "be quiet! Silent Loop 3 Water Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 94,
+    "min_fan_rpm": 2500,
+    "min_noise_level": 18.7,
+    "max_noise_level": 36.9,
+    "color": [
+      "BLACK"
+    ],
+    "price": 100.96,
+    "last_updated": "2026-06-01T10:49:11.270Z",
+    "available": true
+  },
+  {
+    "id": "ac319df9-4f44-414c-a4a7-6ceea30bad04",
+    "name": "Cooler Master Hyper 212 Black X Duo Air 152mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0CQ1YMWVM",
+    "clean_name": "Cooler Master Hyper 212 Black X Duo Air Black",
+    "cooler_type": false,
+    "radiator_size": "152mm",
+    "height": 152,
+    "min_fan_rpm": 690,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 32.8,
+    "color": [
+      "BLACK"
+    ],
+    "price": 23.09,
+    "last_updated": "2026-06-01T10:49:38.618Z",
+    "available": true
+  },
+  {
+    "id": "b44cabee-4c53-4c62-8b7c-c605a5b4ec70",
+    "name": "Cooler Master Hyper 212 Halo SF6 Ryu Air 51.88 CFM 154mm White / Orange",
+    "variant": "White / Orange",
+    "amazon_sku": "B0BNYV6NV4",
+    "clean_name": "Cooler Master Hyper 212 Halo SF6 Ryu Air 51.88 CFM White / Orange",
+    "cooler_type": false,
+    "radiator_size": "154mm",
+    "height": 154,
+    "min_fan_rpm": 650,
+    "max_fan_rpm": 2050,
+    "min_noise_level": 27,
+    "color": [
+      "WHITE",
+      "ORANGE"
+    ],
+    "price": 53.54,
+    "last_updated": "2026-06-01T10:49:58.769Z",
+    "available": true
+  },
+  {
+    "id": "0560a23c-542b-4217-9cbd-9c6a1b7851db",
+    "name": "Cooler Master Masterliquid 240 Atmos Water 240mm White",
+    "variant": "Atmos 240mm White",
+    "amazon_sku": "B0CZ5Q7PRM",
+    "clean_name": "Cooler Master Masterliquid 240 Atmos Water White",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 53,
+    "min_fan_rpm": 690,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 25,
+    "color": [
+      "WHITE"
+    ],
+    "price": 115.97,
+    "last_updated": "2026-06-01T10:50:13.180Z",
+    "available": true
+  },
+  {
+    "id": "39f3097c-c570-4e40-890a-33cc3c98d4e2",
+    "name": "Cooler Master MasterLiquid 240L Core Water 240mm ARGB White",
+    "variant": "White",
+    "amazon_sku": "B0C4BW38R4",
+    "clean_name": "Cooler Master MasterLiquid 240L Core Water ARGB White",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 47,
+    "min_fan_rpm": 350,
+    "max_fan_rpm": 1750,
+    "min_noise_level": 27.2,
+    "color": [
+      "WHITE"
+    ],
+    "price": 136.94,
+    "last_updated": "2026-06-01T10:50:15.482Z",
+    "available": true
+  },
+  {
+    "id": "267d7edb-7797-43cd-b840-155d384c33c8",
+    "name": "Cooler Master MasterLiquid 360 Core II Water 360mm 70.7 CFM White",
+    "variant": "White",
+    "amazon_sku": "B0DQ2N7YPK",
+    "clean_name": "Cooler Master MasterLiquid 360 Core II Water 70.7 CFM White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 52,
+    "min_fan_rpm": 600,
+    "max_fan_rpm": 1750,
+    "min_noise_level": 30,
+    "color": [
+      "WHITE"
+    ],
+    "price": 23.09,
+    "last_updated": "2026-06-01T10:50:30.235Z",
+    "available": true
+  },
+  {
+    "id": "f92305cc-5a94-4ff8-8cac-254e4d3cdbd5",
+    "name": "Cooler Master MasterLiquid 360 Core II Water 360mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0DQ2LJ9VH",
+    "clean_name": "Cooler Master MasterLiquid 360 Core II Water Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 52,
+    "min_fan_rpm": 600,
+    "max_fan_rpm": 1750,
+    "min_noise_level": 30,
+    "color": [
+      "BLACK"
+    ],
+    "price": 119.57,
+    "last_updated": "2026-06-01T10:50:33.548Z",
+    "available": true
+  },
+  {
+    "id": "84a5912f-720e-4c63-8b40-80bafa718ea1",
+    "name": "Cooler Master MasterLiquid ML360R Water 360mm RGB 66.7 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B07DV29GYN",
+    "clean_name": "Cooler Master MasterLiquid ML360R Water RGB 66.7 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 650,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 6,
+    "max_noise_level": 34,
+    "color": [
+      "BLACK"
+    ],
+    "price": 84.5,
+    "last_updated": "2026-06-01T10:50:52.670Z",
+    "available": true
+  },
+  {
+    "id": "7151d79b-d8a5-4236-9843-d73768bf5f1c",
+    "name": "Cooler Master MasterLiquid Water 360mm Atmos 70.7 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0CFB956LP",
+    "clean_name": "Cooler Master MasterLiquid Water Atmos 70.7 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 53,
+    "min_fan_rpm": 690,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 27.2,
+    "color": [
+      "BLACK"
+    ],
+    "price": 115.97,
+    "last_updated": "2026-06-01T10:50:55.896Z",
+    "available": true
+  },
+  {
+    "id": "f1042593-5f79-405e-96f9-572e9b884ca6",
+    "name": "Corsair iCUE H100i ELITE CAPELLIX XT Water 240mm 65.57 CFM White",
+    "variant": "White",
+    "amazon_sku": "B0BQJ4VNT1",
+    "clean_name": "Corsair iCUE H100i ELITE CAPELLIX XT Water 65.57 CFM White",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "min_fan_rpm": 550,
+    "max_fan_rpm": 2100,
+    "min_noise_level": 5,
+    "max_noise_level": 34.1,
+    "color": [
+      "WHITE"
+    ],
+    "price": 40.24,
+    "last_updated": "2026-06-01T10:51:49.401Z",
+    "available": true
+  },
+  {
+    "id": "3dbed72d-1dda-41c9-b7dd-c8e14fffa995",
+    "name": "Corsair iCUE H115i RGB ELITE 89 CFM Water 280mm Black",
+    "variant": "Black",
+    "amazon_sku": "B09YC262VM",
+    "clean_name": "Corsair iCUE H115i RGB ELITE 89 CFM Water Black",
+    "cooler_type": true,
+    "radiator_size": 280,
+    "min_fan_rpm": 400,
+    "max_fan_rpm": 1600,
+    "min_noise_level": 19,
+    "max_noise_level": 35.8,
+    "color": [
+      "BLACK"
+    ],
+    "price": 139.15,
+    "last_updated": "2026-06-01T10:51:41.497Z",
+    "available": true
+  },
+  {
+    "id": "4fd501b4-be04-4fb4-879f-63896ade832c",
+    "name": "Corsair iCUE H150i ELITE CAPELLIX XT Water 360mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0BQJ6QL7L",
+    "clean_name": "Corsair iCUE H150i ELITE CAPELLIX XT Water Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 550,
+    "max_fan_rpm": 2100,
+    "min_noise_level": 5,
+    "max_noise_level": 34.1,
+    "color": [
+      "BLACK"
+    ],
+    "price": 115.86,
+    "last_updated": "2026-06-01T10:52:13.715Z",
+    "available": true
+  },
+  {
+    "id": "63dda3ac-109c-435b-b93a-571077911595",
+    "name": "Corsair iCUE H150i ELITE LCD 58.1 CFM Water 360mm Black",
+    "variant": "Black",
+    "amazon_sku": "B09HDWQKV8",
+    "clean_name": "Corsair iCUE H150i ELITE LCD 58.1 CFM Water Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 450,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 10,
+    "max_noise_level": 30.4,
+    "color": [
+      "BLACK"
+    ],
+    "price": 50.32,
+    "last_updated": "2026-06-01T10:52:12.953Z",
+    "available": true
+  },
+  {
+    "id": "83a49ef9-ae8c-4d88-83fc-45a8eb75f933",
+    "name": "Corsair iCUE H150i ELITE LCD XT Water 360mm LCD 65.57 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0BQWSP2ZP",
+    "clean_name": "Corsair iCUE H150i ELITE LCD XT Water LCD 65.57 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 550,
+    "max_fan_rpm": 2100,
+    "min_noise_level": 5,
+    "max_noise_level": 34.1,
+    "color": [
+      "BLACK"
+    ],
+    "price": 329,
+    "last_updated": "2026-06-01T10:54:20.168Z",
+    "available": true
+  },
+  {
+    "id": "a6b9ad72-a810-4d3f-b75d-08e858c8d2ab",
+    "name": "Corsair iCUE H150i RGB ELITE Water 360mm 59.1 CFM White",
+    "variant": "White",
+    "amazon_sku": "B0C615L32Q",
+    "clean_name": "Corsair iCUE H150i RGB ELITE Water 59.1 CFM White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 400,
+    "max_fan_rpm": 1850,
+    "min_noise_level": 5,
+    "max_noise_level": 28.9,
+    "color": [
+      "WHITE"
+    ],
+    "price": 115.86,
+    "last_updated": "2026-06-01T10:54:39.529Z",
+    "available": true
+  },
+  {
+    "id": "9f7facad-b554-4df9-952d-b54b0e2ce325",
+    "name": "Corsair iCUE H170i ELITE LCD XT Water 420mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0BQWTVYLV",
+    "clean_name": "Corsair iCUE H170i ELITE LCD XT Water Black",
+    "cooler_type": true,
+    "radiator_size": 420,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 1700,
+    "min_noise_level": 5,
+    "max_noise_level": 33.8,
+    "color": [
+      "BLACK"
+    ],
+    "price": 139.15,
+    "last_updated": "2026-06-01T10:54:56.163Z",
+    "available": true
+  },
+  {
+    "id": "bba886ef-4cb5-48e1-b963-c2a2097c4e41",
+    "name": "Corsair iCUE LINK TITAN Water 240mm RX LCD 73.5 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0DF7CGGCW",
+    "clean_name": "Corsair iCUE LINK TITAN Water RX LCD 73.5 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "BLACK"
+    ],
+    "price": 151.16,
+    "last_updated": "2026-06-01T10:55:01.741Z",
+    "available": true
+  },
+  {
+    "id": "af9bf004-ada9-4120-acdf-cd0ed254b625",
+    "name": "Corsair iCUE LINK TITAN Water 240mm RX LCD 73.5 CFM White",
+    "variant": "White",
+    "amazon_sku": "B0DF79QWJW",
+    "clean_name": "Corsair iCUE LINK TITAN Water RX LCD 73.5 CFM White",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "WHITE"
+    ],
+    "price": 170.52,
+    "last_updated": "2026-06-01T10:57:29.088Z",
+    "available": true
+  },
+  {
+    "id": "ce6b5b52-250f-4bc8-bae5-5439f32a533b",
+    "name": "Corsair NAUTILUS 240 RS LCD Water 240mm 72.8 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0FGDHFMDN",
+    "clean_name": "Corsair NAUTILUS 240 RS LCD Water 72.8 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 125,
+    "min_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "BLACK"
+    ],
+    "price": 80.57,
+    "last_updated": "2026-06-01T10:57:30.934Z",
+    "available": true
+  },
+  {
+    "id": "a2080f57-2202-4259-9e8d-75b9603719ec",
+    "name": "Corsair NAUTILUS 240 RS LCD Water 240mm 72.8 CFM White",
+    "variant": "White",
+    "amazon_sku": "B0FGDKZVVM",
+    "clean_name": "Corsair NAUTILUS 240 RS LCD Water 72.8 CFM White",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 125,
+    "min_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "WHITE"
+    ],
+    "price": 80.57,
+    "last_updated": "2026-06-01T10:57:45.649Z",
+    "available": true
+  },
+  {
+    "id": "7622365f-37d9-4ad7-b9be-9223f2fec593",
+    "name": "Corsair NAUTILUS 360 RS LCD Water 360mm 72.8 CFM White",
+    "variant": "White",
+    "amazon_sku": "B0FGDMTHY4",
+    "clean_name": "Corsair NAUTILUS 360 RS LCD Water 72.8 CFM White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 125,
+    "min_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "WHITE"
+    ],
+    "price": 115.86,
+    "last_updated": "2026-06-01T10:57:51.123Z",
+    "available": true
+  },
+  {
+    "id": "72652c64-2fca-4517-94ee-8f82492ab7c7",
+    "name": "Corsair NAUTILUS Water 360mm RS LCD 72.8 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0FGDJ3QP1",
+    "clean_name": "Corsair NAUTILUS Water RS LCD 72.8 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 125,
+    "min_fan_rpm": 2100,
+    "min_noise_level": 10,
+    "max_noise_level": 36,
+    "color": [
+      "BLACK"
+    ],
+    "price": 115.86,
+    "last_updated": "2026-06-01T10:58:02.643Z",
+    "available": true
+  },
+  {
+    "id": "094ed36f-740b-4453-8dd6-3bf877a7d7ce",
+    "name": "Enermax Liqmax III Water 120mm HF 90.1 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B07QK5Z2XZ",
+    "clean_name": "Enermax Liqmax III Water HF 90.1 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 120,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 14,
+    "max_noise_level": 32,
+    "color": [
+      "BLACK"
+    ],
+    "price": 64.16,
+    "last_updated": "2026-06-01T10:58:18.719Z",
+    "available": true
+  },
+  {
+    "id": "25d4fac7-8c40-44f8-91bf-1d40b3a92547",
+    "name": "Fractal Design Lumen S28 V2 Water 280mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0BH8GQ5YR",
+    "clean_name": "Fractal Design Lumen S28 V2 Water Black",
+    "cooler_type": true,
+    "radiator_size": 280,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 1700,
+    "min_noise_level": 10,
+    "max_noise_level": 35.5,
+    "color": [
+      "BLACK"
+    ],
+    "price": 126.04,
+    "last_updated": "2026-06-01T10:58:40.887Z",
+    "available": true
+  },
+  {
+    "id": "7611e2d6-28ad-4f52-b009-917ca620e302",
+    "name": "Fractal Design Lumen S36 RGB V2 Water 360mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0BH8D49RX",
+    "clean_name": "Fractal Design Lumen S36 RGB V2 Water Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 10,
+    "max_noise_level": 33.2,
+    "color": [
+      "BLACK"
+    ],
+    "price": 126.23,
+    "last_updated": "2026-06-01T10:58:57.040Z",
+    "available": true
+  },
+  {
+    "id": "27e18966-68d7-4ce0-9960-f6e8bec1c766",
+    "name": "ID-COOLING FX360 PRO Water 360mm White",
+    "variant": "White",
+    "amazon_sku": "B0DPM1TYBD",
+    "clean_name": "ID-COOLING FX360 PRO Water White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 50,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 35.2,
+    "color": [
+      "WHITE"
+    ],
+    "price": 84.99,
+    "last_updated": "2026-06-01T10:59:00.796Z",
+    "available": true
+  },
+  {
+    "id": "03486cdf-7c08-4bfb-80a6-690678adc744",
+    "name": "ID-COOLING IS-55 Air ARGB 55mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0B38JL29B",
+    "clean_name": "ID-COOLING IS-55 Air ARGB Black",
+    "cooler_type": false,
+    "radiator_size": "55mm",
+    "height": 55,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 31.2,
+    "color": [
+      "BLACK"
+    ],
+    "price": 32.26,
+    "last_updated": "2026-06-01T11:03:41.083Z",
+    "available": true
+  },
+  {
+    "id": "c7c34ec4-aa21-4061-bd5b-7c3be4225618",
+    "name": "Lian Li Galahad II Lite Performance 73.14 CFM Liquid Water 240mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0DP9S4CNX",
+    "clean_name": "Lian Li Galahad II Lite Performance 73.14 CFM Liquid Water Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 67,
+    "min_fan_rpm": 200,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 29.8,
+    "color": [
+      "BLACK"
+    ],
+    "price": 301.48,
+    "last_updated": "2026-06-01T10:59:17.146Z",
+    "available": true
+  },
+  {
+    "id": "14f129bb-f85d-4fd0-a012-8bcbb854db96",
+    "name": "Lian Li Galahad II Lite Performance Water 360mm 73.14 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0DP9PWX6M",
+    "clean_name": "Lian Li Galahad II Lite Performance Water 73.14 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 67,
+    "min_fan_rpm": 200,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 29.8,
+    "color": [
+      "BLACK"
+    ],
+    "price": 561.93,
+    "last_updated": "2026-06-01T11:03:39.998Z",
+    "available": true
+  },
+  {
+    "id": "874a10c6-eb43-4fca-a92c-456a95229c3d",
+    "name": "Lian Li Galahad II Lite RGB Water 360mm 79 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0DP9THWJX",
+    "clean_name": "Lian Li Galahad II Lite RGB Water 79 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 67,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 34.8,
+    "color": [
+      "BLACK"
+    ],
+    "price": 522.61,
+    "last_updated": "2026-06-01T11:03:55.583Z",
+    "available": true
+  },
+  {
+    "id": "5d16a3da-2edc-45a2-9058-51c8d1646572",
+    "name": "Lian Li Galahad II Lite Water 240mm RGB 79 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0DP9RSZS2",
+    "clean_name": "Lian Li Galahad II Lite Water RGB 79 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 67,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 34.8,
+    "color": [
+      "BLACK"
+    ],
+    "price": 301.48,
+    "last_updated": "2026-06-01T11:03:56.578Z",
+    "available": true
+  },
+  {
+    "id": "b259c0fd-2a33-4151-8249-304d58804907",
+    "name": "MSI MAG CORELIQUID 360R V2 Water 360mm Black",
+    "variant": "Black",
+    "amazon_sku": "B09CQFD4JG",
+    "clean_name": "MSI MAG CORELIQUID 360R V2 Water Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 14.3,
+    "max_noise_level": 34.3,
+    "color": [
+      "BLACK"
+    ],
+    "price": 210.49,
+    "last_updated": "2026-06-01T11:04:18.515Z",
+    "available": true
+  },
+  {
+    "id": "2fb3d749-fbb2-4c0d-9822-29316b9f488d",
+    "name": "MSI MAG CORELIQUID A13 Water 360mm 62.6 CFM Black",
+    "variant": "360mm Black",
+    "amazon_sku": "B0BSLK8VYH",
+    "clean_name": "MSI MAG CORELIQUID A13 Water 62.6 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 57,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 20,
+    "color": [
+      "BLACK"
+    ],
+    "price": 77.88,
+    "last_updated": "2026-06-01T11:04:13.233Z",
+    "available": true
+  },
+  {
+    "id": "47653668-8b43-4d32-9b5b-8873745a018d",
+    "name": "MSI MAG CORELIQUID A13 Water 240mm 62.6 CFM White",
+    "variant": "240mm White",
+    "amazon_sku": "B0DLNZY23J",
+    "clean_name": "MSI MAG CORELIQUID A13 Water 62.6 CFM White",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 57,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 20,
+    "color": [
+      "WHITE"
+    ],
+    "price": 47.83,
+    "last_updated": "2026-06-01T11:04:39.097Z",
+    "available": true
+  },
+  {
+    "id": "a0c5942f-98ab-4090-bfb7-e700e16f4fd6",
+    "name": "MSI MAG CORELIQUID C360 Water 360mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0992176M7",
+    "clean_name": "MSI MAG CORELIQUID C360 Water Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 14.3,
+    "max_noise_level": 34.3,
+    "color": [
+      "BLACK"
+    ],
+    "price": 131.03,
+    "last_updated": "2026-06-01T11:05:15.745Z",
+    "available": true
+  },
+  {
+    "id": "8d721dad-5112-455e-b54c-bcd4418985f1",
+    "name": "MSI MAG CORELIQUID Water 360mm 78.23 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0C4WVDCSG",
+    "clean_name": "MSI MAG CORELIQUID Water 78.23 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 14.3,
+    "max_noise_level": 34.3,
+    "color": [
+      "BLACK"
+    ],
+    "price": 84.14,
+    "last_updated": "2026-06-01T11:05:16.035Z",
+    "available": true
+  },
+  {
+    "id": "82cbdac8-da28-47c2-8a97-4fb819a8486e",
+    "name": "Noctua NH-L9a-AM4 Air 33.8 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B083LQVX5W",
+    "clean_name": "Noctua NH-L9a-AM4 Air 33.8 CFM Black",
+    "cooler_type": false,
+    "height": 37,
+    "min_fan_rpm": 600,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 14.8,
+    "max_noise_level": 23.6,
+    "color": [
+      "BLACK"
+    ],
+    "price": 60.41,
+    "last_updated": "2026-06-01T11:05:33.004Z",
+    "available": true
+  },
+  {
+    "id": "0da1d260-bf32-44c0-a165-34905daef666",
+    "name": "NZXT Kraken Core 360 RGB Black",
+    "variant": "RGB",
+    "amazon_sku": "B0FLTZ2SHM",
+    "clean_name": "NZXT Kraken Core 360 RGB Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 64.24,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2400,
+    "min_noise_level": 31.9,
+    "color": [
+      "BLACK",
+      "RGB"
+    ],
+    "price": 102.77,
+    "last_updated": "2026-06-01T11:05:34.741Z",
+    "available": true
+  },
+  {
+    "id": "62be088e-810f-4b41-9660-ae129439fdd6",
+    "name": "NZXT Kraken Elite 240 Black (2024)",
+    "variant": "Non-RGB (2024)",
+    "amazon_sku": "B0DCFMG8PB",
+    "clean_name": "NZXT Kraken Elite 240 Black (2024)",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 65,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 30,
+    "color": [
+      "BLACK"
+    ],
+    "price": 163.1,
+    "last_updated": "2026-06-01T11:05:48.740Z",
+    "available": true
+  },
+  {
+    "id": "799093c0-3c6f-42ba-905f-c955a4d66347",
+    "name": "NZXT Kraken Elite 360 RGB Black (2024)",
+    "variant": "RGB (2024)",
+    "amazon_sku": "B0D9GV78D8",
+    "clean_name": "NZXT Kraken Elite 360 RGB Black (2024)",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 65,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2400,
+    "min_noise_level": 30,
+    "color": [
+      "BLACK",
+      "RGB"
+    ],
+    "price": 263.81,
+    "last_updated": "2026-06-01T11:06:22.630Z",
+    "available": true
+  },
+  {
+    "id": "9828a076-03d8-4750-ad07-dceba4cef233",
+    "name": "NZXT Kraken Elite 420mm RGB Black (2024)",
+    "variant": "RGB (2024)",
+    "amazon_sku": "B0DN4QKMSV",
+    "clean_name": "NZXT Kraken Elite RGB Black (2024)",
+    "cooler_type": true,
+    "radiator_size": 420,
+    "height": 65,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 34.5,
+    "color": [
+      "BLACK",
+      "RGB"
+    ],
+    "price": 312.9,
+    "last_updated": "2026-06-01T11:06:25.576Z",
+    "available": true
+  },
+  {
+    "id": "3916d3dc-9163-49e1-8fc4-d5a4d9410050",
+    "name": "NZXT Kraken Plus 240mm RGB Black (2025)",
+    "variant": "RGB (2025)",
+    "amazon_sku": "B0F5S84X8P",
+    "clean_name": "NZXT Kraken Plus RGB Black (2025)",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 56,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2400,
+    "min_noise_level": 31.9,
+    "color": [
+      "BLACK",
+      "RGB"
+    ],
+    "price": 122.64,
+    "last_updated": "2026-06-01T11:06:51.439Z",
+    "available": true
+  },
+  {
+    "id": "40d9d347-f011-41d1-94e4-67a1f7fe793d",
+    "name": "NZXT Kraken Z73 RGB Water 360mm 52.44 CFM White / Black",
+    "variant": "White / Black",
+    "amazon_sku": "B09GKPTYG6",
+    "clean_name": "NZXT Kraken Z73 RGB Water 52.44 CFM White / Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 1500,
+    "min_noise_level": 22,
+    "max_noise_level": 33,
+    "color": [
+      "WHITE",
+      "BLACK"
+    ],
+    "price": 278.72,
+    "last_updated": "2026-06-01T11:06:47.851Z",
+    "available": true
+  },
+  {
+    "id": "36e32a51-414c-44d5-b2ab-d1dd7ab1aacd",
+    "name": "Phanteks Glacier One D30 X2 72.72 CFM Water 360mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0F4QGP9RX",
+    "clean_name": "Phanteks Glacier One D30 X2 72.72 CFM Water Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 66,
+    "min_fan_rpm": 250,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 35.13,
+    "color": [
+      "BLACK"
+    ],
+    "price": 100.74,
+    "last_updated": "2026-06-01T11:07:06.433Z",
+    "available": true
+  },
+  {
+    "id": "a5465e59-1289-4df5-9b98-40d62492b7eb",
+    "name": "Phanteks Glacier One D30 X2 Water 360mm 72.72 CFM White",
+    "variant": "White",
+    "amazon_sku": "B0F4QGPFBJ",
+    "clean_name": "Phanteks Glacier One D30 X2 Water 72.72 CFM White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 66,
+    "min_fan_rpm": 250,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 35.13,
+    "color": [
+      "WHITE"
+    ],
+    "price": 100.74,
+    "last_updated": "2026-06-01T11:11:07.638Z",
+    "available": true
+  },
+  {
+    "id": "da795975-9edb-48cc-897d-bd5df76b3da1",
+    "name": "Thermaltake Gravity A2 46.24 CFM Air 60mm Silver / Black",
+    "variant": "Silver / Black",
+    "amazon_sku": "B08T1NMSVX",
+    "clean_name": "Thermaltake Gravity A2 46.24 CFM Air Silver / Black",
+    "cooler_type": false,
+    "radiator_size": "60mm",
+    "height": 60,
+    "min_fan_rpm": 1200,
+    "max_fan_rpm": 3500,
+    "min_noise_level": 33.5,
+    "color": [
+      "GREY",
+      "BLACK"
+    ],
+    "price": 15.02,
+    "last_updated": "2026-06-01T11:14:38.440Z",
+    "available": true
+  },
+  {
+    "id": "01c2afe0-42a5-45af-979d-385b06f142ed",
+    "name": "Thermaltake TH240 V2 ARGB Black",
+    "variant": "",
+    "amazon_sku": "B0CCXG57HT",
+    "clean_name": "Thermaltake TH240 V2 ARGB Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 52,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 25.8,
+    "color": [
+      "BLACK",
+      "RGB"
+    ],
+    "price": 95.28,
+    "last_updated": "2026-06-01T11:14:42.117Z",
+    "available": true
+  },
+  {
+    "id": "0f4d54a8-31b6-4aa4-a07c-ac6eaa528247",
+    "name": "Thermaltake TH240 V2 ARGB White",
+    "variant": "White",
+    "amazon_sku": "B0CHN5F2M7",
+    "clean_name": "Thermaltake TH240 V2 ARGB White",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 52,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 25.8,
+    "color": [
+      "WHITE",
+      "RGB"
+    ],
+    "price": 96.71,
+    "last_updated": "2026-06-01T11:14:58.994Z",
+    "available": true
+  },
+  {
+    "id": "62a7277e-f6e2-46c7-9b17-b1540ca49585",
+    "name": "Thermaltake TH240 V2 Ultra ARGB Black",
+    "variant": "",
+    "amazon_sku": "B0CCXDV3Q8",
+    "clean_name": "Thermaltake TH240 V2 Ultra ARGB Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 60,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 25.8,
+    "color": [
+      "BLACK",
+      "RGB"
+    ],
+    "price": 95.28,
+    "last_updated": "2026-06-01T11:15:01.776Z",
+    "available": true
+  },
+  {
+    "id": "9d568ae3-fcc7-4afd-8519-f1c7a511a2c6",
+    "name": "Thermaltake TH240 V2 Ultra ARGB Snow White",
+    "variant": "",
+    "amazon_sku": "B0CHN8M5RK",
+    "clean_name": "Thermaltake TH240 V2 Ultra ARGB Snow White",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 60,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 25.8,
+    "color": [
+      "WHITE",
+      "RGB"
+    ],
+    "price": 137.03,
+    "last_updated": "2026-06-01T11:15:07.449Z",
+    "available": true
+  },
+  {
+    "id": "774a47d4-1fb9-450c-a9dc-b9a58079e3fd",
+    "name": "Thermaltake TH360 V2 ARGB Black",
+    "variant": "",
+    "amazon_sku": "B0CCXHZBSV",
+    "clean_name": "Thermaltake TH360 V2 ARGB Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 52,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 25.8,
+    "color": [
+      "BLACK",
+      "RGB"
+    ],
+    "price": 481.21,
+    "last_updated": "2026-06-01T11:15:20.120Z",
+    "available": true
+  },
+  {
+    "id": "94f54c0f-4208-4c51-aef7-a03e8bf27aa0",
+    "name": "Thermaltake TH360 V2 ARGB Snow White",
+    "variant": "",
+    "amazon_sku": "B0CHN7V9CH",
+    "clean_name": "Thermaltake TH360 V2 ARGB Snow White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 52,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 25.8,
+    "color": [
+      "WHITE",
+      "RGB"
+    ],
+    "price": 115.49,
+    "last_updated": "2026-06-01T11:15:23.431Z",
+    "available": true
+  },
+  {
+    "id": "f06d11c6-dbdb-41b6-a472-8bdc914c0084",
+    "name": "Thermaltake TOUGHAIR 510 Air 160mm 58.35 CFM Green",
+    "variant": "Green",
+    "amazon_sku": "B09TNBNY3Z",
+    "clean_name": "Thermaltake TOUGHAIR 510 Air 58.35 CFM Green",
+    "cooler_type": false,
+    "radiator_size": "160mm",
+    "height": 160,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 1200,
+    "min_noise_level": 23.6,
+    "color": [
+      "GREEN"
+    ],
+    "price": 163.95,
+    "last_updated": "2026-06-01T11:15:52.418Z",
+    "available": true
+  },
+  {
+    "id": "06cfccbc-10dc-4375-823b-05914e808675",
+    "name": "Thermaltake UX200 SE Air 156mm ARGB Black",
+    "variant": "Black",
+    "amazon_sku": "B09XFKW431",
+    "clean_name": "Thermaltake UX200 SE Air ARGB Black",
+    "cooler_type": false,
+    "radiator_size": "156mm",
+    "height": 156,
+    "min_fan_rpm": 800,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 25,
+    "color": [
+      "BLACK"
+    ],
+    "price": 31.19,
+    "last_updated": "2026-06-01T11:16:05.801Z",
+    "available": true
+  },
+  {
+    "id": "441be00d-e43e-401e-a8ab-110bbe714c51",
+    "name": "Thermaltake UX200 SE ARGB Air 156mm 62.72 CFM White",
+    "variant": "White",
+    "amazon_sku": "B0C7MT48CF",
+    "clean_name": "Thermaltake UX200 SE ARGB Air 62.72 CFM White",
+    "cooler_type": false,
+    "radiator_size": "156mm",
+    "height": 156,
+    "min_fan_rpm": 800,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 25,
+    "color": [
+      "WHITE"
+    ],
+    "price": 25.1,
+    "last_updated": "2026-06-01T11:16:17.724Z",
+    "available": true
+  },
+  {
+    "id": "51948646-b238-4e28-bed1-5648feaa1d7e",
+    "name": "TRYX PANORAMA Water 240mm 81.32 CFM White",
+    "variant": "White 240",
+    "amazon_sku": "B0DLB2GV7F",
+    "clean_name": "TRYX PANORAMA Water 81.32 CFM White",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "height": 116,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2250,
+    "min_noise_level": 30.97,
+    "color": [
+      "WHITE"
+    ],
+    "price": 299,
+    "last_updated": "2026-06-01T11:16:30.737Z",
+    "available": true
+  },
+  {
+    "id": "2da9af09-a952-42fc-b5e5-e39278481b9e",
+    "name": "Valkyrie Vind 125 SL 80 CFM Air 158mm Black",
+    "variant": "Black",
+    "amazon_sku": "B0C8Z1PWBJ",
+    "clean_name": "Valkyrie Vind 125 SL 80 CFM Air Black",
+    "cooler_type": false,
+    "radiator_size": "158mm",
+    "height": 158,
+    "min_fan_rpm": 800,
+    "max_fan_rpm": 2150,
+    "min_noise_level": 29,
+    "color": [
+      "BLACK"
+    ],
+    "price": 54.93,
+    "last_updated": "2026-06-01T11:16:37.859Z",
+    "available": true
+  },
+  {
+    "id": "5af1ae6a-5972-472d-9e1b-b1e9487dc127",
+    "name": "ARCTIC Liquid Freezer II 360 RGB Water 360mm RGB 48.8 CFM Black / Gray",
+    "variant": "Black / Gray",
+    "amazon_sku": "B08WRWNNZ9",
+    "clean_name": "ARCTIC Liquid Freezer II 360 RGB Water RGB 48.8 CFM Black / Gray",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "min_fan_rpm": 200,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 22.5,
+    "color": [
+      "BLACK",
+      "GREY"
+    ],
+    "price": 201.35,
+    "last_updated": "2026-06-01T11:16:51.511Z",
+    "available": true
+  },
+  {
+    "id": "f35a4968-798c-4d44-8377-8ab94b5e06f9",
+    "name": "ARCTIC Liquid Freezer II Water 240mm RGB 48.8 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B08WRJ8LP2",
+    "clean_name": "ARCTIC Liquid Freezer II Water RGB 48.8 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "min_fan_rpm": 200,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 22.5,
+    "color": [
+      "BLACK"
+    ],
+    "price": 89.09,
+    "last_updated": "2026-06-01T11:18:03.011Z",
+    "available": true
+  },
+  {
+    "id": "3e1bcc6c-0d0b-45df-b858-4a17d49dd56a",
+    "name": "ARCTIC Liquid Freezer II Water 240mm RGB 48.8 CFM Black / Gray",
+    "variant": "Black / Gray",
+    "amazon_sku": "B08WRJ5MQW",
+    "clean_name": "ARCTIC Liquid Freezer II Water RGB 48.8 CFM Black / Gray",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "min_fan_rpm": 200,
+    "max_fan_rpm": 1800,
+    "min_noise_level": 22.5,
+    "color": [
+      "BLACK",
+      "GREY"
+    ],
+    "price": 70.49,
+    "last_updated": "2026-06-01T11:18:15.117Z",
+    "available": true
+  },
+  {
+    "id": "03e37343-5a63-4bad-a0ec-90abf06059fd",
+    "name": "Asus ROG Ryujin 240 RGB AIO Water 240mm 121.8 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B07J59JW35",
+    "clean_name": "Asus ROG Ryujin 240 RGB AIO Water 121.8 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "min_fan_rpm": 450,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 29.7,
+    "color": [
+      "BLACK"
+    ],
+    "price": 111.2,
+    "last_updated": "2026-06-01T11:18:22.412Z",
+    "available": true
+  },
+  {
+    "id": "ebe7e848-e163-430d-8abf-2024c32582a3",
+    "name": "Asus ROG RYUJIN II Water 71.6 CFM 240mm Black",
+    "variant": "Black",
+    "amazon_sku": "B09KSVR9CJ",
+    "clean_name": "Asus ROG RYUJIN II Water 71.6 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 240,
+    "min_fan_rpm": 450,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 29.7,
+    "color": [
+      "BLACK"
+    ],
+    "price": 204.85,
+    "last_updated": "2026-06-01T11:18:28.216Z",
+    "available": true
+  },
+  {
+    "id": "1bc34854-d6c9-41ef-aee0-f8b16e9253ba",
+    "name": "ID-COOLING FROZN A620 Black",
+    "variant": "",
+    "amazon_sku": "B0CFQC6LCD",
+    "clean_name": "ID-COOLING FROZN A620 Black",
+    "cooler_type": false,
+    "height": 154,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 29.85,
+    "color": [
+      "BLACK"
+    ],
+    "price": 24.19,
+    "last_updated": "2026-06-01T11:18:48.597Z",
+    "available": true
+  },
+  {
+    "id": "6038081b-a0dc-4a0a-9721-7e89d482cf07",
+    "name": "ID-COOLING FROZN A620 PRO SE ARGB Black",
+    "variant": "PRO SE ARGB",
+    "amazon_sku": "B0DJSTZRL4",
+    "clean_name": "ID-COOLING FROZN A620 PRO SE ARGB Black",
+    "cooler_type": false,
+    "height": 157,
+    "min_fan_rpm": 300,
+    "max_fan_rpm": 2000,
+    "min_noise_level": 27.2,
+    "color": [
+      "BLACK"
+    ],
+    "price": 33.67,
+    "last_updated": "2026-06-01T11:18:50.620Z",
+    "available": true
+  },
+  {
+    "id": "27e2c5b0-de96-48a4-af8d-ed58a969985b",
+    "name": "Antec FrigusAir 400 RGB Air 158mm 77 CFM Black / Silver",
+    "variant": "Black / Silver",
+    "amazon_sku": "B0B1PJ87VM",
+    "clean_name": "Antec FrigusAir 400 RGB Air 77 CFM Black / Silver",
+    "cooler_type": false,
+    "radiator_size": "158mm",
+    "height": 158,
+    "min_fan_rpm": 800,
+    "max_fan_rpm": 1600,
+    "min_noise_level": 20,
+    "max_noise_level": 36,
+    "color": [
+      "BLACK",
+      "GREY"
+    ],
+    "available": false,
+    "last_updated": "2026-05-30T10:09:47.531Z"
+  },
+  {
+    "id": "0a372c62-2c2f-4356-86fe-e4b3456d556c",
+    "name": "Gigabyte GAMING 360 61.61 CFM Water 360mm 61.61 CFM Black",
+    "variant": "Black",
+    "amazon_sku": "B0DZFFMRTS",
+    "clean_name": "Gigabyte GAMING 360 61.61 CFM Water 61.61 CFM Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 63,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2200,
+    "min_noise_level": 13.8,
+    "max_noise_level": 35.8,
+    "color": [
+      "BLACK"
+    ],
+    "available": false,
+    "last_updated": "2026-05-29T10:50:44.519Z"
+  },
+  {
+    "id": "e4d0abe3-01b2-47e9-868f-657678275963",
+    "name": "Cooler Master MasterLiquid 360 Atmos Black",
+    "variant": "Atmos 360mm",
+    "amazon_sku": "B0CFB956LP",
+    "clean_name": "Cooler Master MasterLiquid 360 Atmos Black",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 53,
+    "min_fan_rpm": 690,
+    "max_fan_rpm": 2500,
+    "min_noise_level": 27.2,
+    "color": [
+      "BLACK"
+    ],
+    "available": false,
+    "last_updated": "2026-05-29T10:50:48.332Z"
+  },
+  {
+    "id": "64fd1dc8-0041-457a-9b71-c52cb3ea5f2b",
+    "name": "Cooler Master MasterLiquid Core Water 360mm ARGB White",
+    "variant": "White",
+    "amazon_sku": "B0C4BQYN6Z",
+    "clean_name": "Cooler Master MasterLiquid Core Water ARGB White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 47,
+    "min_fan_rpm": 350,
+    "max_fan_rpm": 1750,
+    "min_noise_level": 27.2,
+    "color": [
+      "WHITE"
+    ],
+    "available": false,
+    "last_updated": "2026-05-30T09:36:01.089Z"
+  },
+  {
+    "id": "03bea814-1e7f-493f-ad25-a76a3d9c535a",
+    "name": "MSI MPG CORELIQUID P13 360 White",
+    "variant": "360mm White",
+    "amazon_sku": "B0FKWTNKQS",
+    "clean_name": "MSI MPG CORELIQUID P13 360 White",
+    "cooler_type": true,
+    "radiator_size": 360,
+    "height": 78,
+    "min_fan_rpm": 500,
+    "max_fan_rpm": 2050,
+    "min_noise_level": 20,
+    "color": [
+      "WHITE"
+    ],
+    "available": true,
+    "last_updated": "2026-06-01T11:19:01.816Z",
+    "price": 110.92
+  }
 ]
