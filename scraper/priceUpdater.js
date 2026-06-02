@@ -10,6 +10,7 @@ import { existsSync } from "fs";
 import path from "path";
 import {
     launchStealthBrowser,
+    enableResourceBlocking,
     scrapeProduct,
     sleep,
     getRandomDelay,
@@ -75,6 +76,7 @@ function isStale(product) {
         browser = await launchStealthBrowser();
         const page = await browser.newPage();
         await page.setViewport({ width: 1366, height: 768 });
+        await enableResourceBlocking(page);
 
         const safeWrite = createSafeWriter();
         let totalUpdated = 0;

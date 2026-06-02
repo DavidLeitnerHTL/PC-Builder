@@ -63,9 +63,9 @@ _SERVER_CASE_RE = re.compile(
     re.IGNORECASE
 )
 
-# PCCase: only ATX/EATX and Mini-ITX towers (no Micro ATX towers — too many variants)
+# PCCase: ATX/EATX/Micro-ATX towers and Mini-ITX towers
 _CONSUMER_CASE_FF_RE = re.compile(
-    r"(?:eatx\s+|atx\s+)(?:mid|full)[\s-]*tower"
+    r"(?:(?:micro[\s-]*)?(?:e)?atx\s+)(?:mid|mini|full)[\s-]*tower"
     r"|mini[\s-]*itx[\s-]*tower",
     re.IGNORECASE
 )
@@ -447,9 +447,7 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         max_gpu = raw_data.get("max_video_card_length") or specs.get("maximum_video_card_length")
         if not max_gpu:
             return False
-        max_cooler = raw_data.get("max_cpu_cooler_height")
-        if not max_cooler:
-            return False
+        max_cooler = raw_data.get("max_cpu_cooler_height")  # optional — most DB entries omit it
         item_data["type"] = case_ff or specs.get("type")
         item_data["color"] = raw_data.get("color") or specs.get("color")
         item_data["motherboard_support"] = mb_form
