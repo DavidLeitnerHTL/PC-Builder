@@ -180,38 +180,38 @@ function setupSmartHeaderVisibility() {
 const PRESETS = {
     budget: {
         cpu: "Ryzen 5 9600X",
-        cooler: "Peerless Assassin",
+        cooler: "Shadow Rock Slim 2",
         mb: "PRO B650",
         gpu: "RTX 5060",
-        ram: "Vengeance",
-        ssd: "SN770",
-        psu: "Pure Power 12 M 750",
+        ram: "Crucial Pro Overclocking Black",
+        ssd: "P3 -2280",
+        psu: "Pure Power 12 Black",
         case: "Arx 700",
-        os: "Windows 11 Home",
+        os: "Windows 11 Pro USB",
         casefan: "Pure Wings 2"
     },
     midrange: {
         cpu: "Ryzen 7 9800X3D",
-        cooler: "Dark Rock Elite",
+        cooler: "Silent Loop 3 CPU",
         mb: "B850",
         gpu: "RTX 5070",
-        ram: "Trident Z5",
-        ssd: "990 Pro",
-        psu: "VERTEX GX-1000",
+        ram: "Flare X5 Black",
+        ssd: "T500 -2280",
+        psu: "Straight Power 12",
         case: "North XL",
-        os: "Windows 11 Home",
+        os: "Windows 11 Pro USB",
         casefan: "NF-A12x25"
     },
     highend: {
         cpu: "Ryzen 9 9950X3D",
-        cooler: "Liquid Freezer III",
+        cooler: "Liquid Freezer II 360 RGB",
         mb: "X870E",
         gpu: "RTX 5090",
         ram: "Dominator Titanium",
         ssd: "T705",
-        psu: "Dark Power Pro 13 1300",
+        psu: "HX1000i",
         case: "Y70",
-        os: "Windows 11 Pro",
+        os: "Windows 11 Pro USB",
         casefan: "T30"
     }
 };
