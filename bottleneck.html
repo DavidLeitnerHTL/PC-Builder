@@ -293,8 +293,8 @@
         fetch('processed_data/CPU.json'),
         fetch('processed_data/GPU.json'),
       ]);
-      cpus = (await cpuRes.json()).filter(p => p.available !== false);
-      gpus = (await gpuRes.json()).filter(p => p.available !== false);
+      cpus = (await cpuRes.json()).filter(p => p.available !== false && p.price > 0);
+      gpus = (await gpuRes.json()).filter(p => p.available !== false && p.price > 0);
 
       const cpuSel = document.getElementById('cpu-sel');
       const gpuSel = document.getElementById('gpu-sel');

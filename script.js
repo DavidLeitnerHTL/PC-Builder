@@ -360,7 +360,7 @@ async function initializeDropdowns() {
         try {
             const response = await fetch(`processed_data/${category}.json`);
             if (response.ok) {
-                const data = (await response.json()).filter(p => p.available !== false);
+                const data = (await response.json()).filter(p => p.available !== false && p.price > 0);
 
                 selectEl.innerHTML = '<option value="">Bitte wählen...</option>';
 

@@ -185,7 +185,7 @@
       const cat = document.getElementById('cat-sel').value;
       if (!cat) return;
       const res = await fetch(`processed_data/${cat}.json`);
-      allProducts = (await res.json()).filter(p => p.available !== false);
+      allProducts = (await res.json()).filter(p => p.available !== false && p.price > 0);
       numSlots = 2;
       renderSlots();
       document.getElementById('slots-wrap').style.display = '';

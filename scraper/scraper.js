@@ -7,6 +7,8 @@
 
 import { readFile } from "fs/promises";
 import { execSync } from "child_process";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
 import {
     launchStealthBrowser,
     enableResourceBlocking,
@@ -15,6 +17,8 @@ import {
     getRandomDelay,
     createSafeWriter,
 } from "./scraper-core.js";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // ==========================================
 // CONFIGURATION
