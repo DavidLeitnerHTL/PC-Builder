@@ -1200,10 +1200,11 @@ export async function scrapeProduct(page, product, category = null) {
 
         const pageNotFound = await detectPageNotFound(page);
         if (pageNotFound) {
-            console.warn(`[SCRAPER]  → Phase 1: ASIN not found on amazon.de`);
-            isUnavailable = true;
+            // A 404 means the ASIN is wrong or stale — NOT that the product is unavailable.
+            // Fall through to Phase 2 search so we can find a live listing by name.
+            console.warn(`[SCRAPER]  → Phase 1: ASIN 404 (stale/wrong SKU). Falling back to search.`);
         } else if (await detectOutOfStock(page)) {
-            console.warn(`[SCRAPER]  → Phase 1: product currently unavailable on amazon.de`);
+            console.warn(`[SCRAPER]  → Phase 1: product confirmed out-of-stock.`);
             isUnavailable = true;
         } else {
             await acceptCookies(page);

@@ -41,7 +41,8 @@ _MODERN_GPU_RE = re.compile(
 _EXCLUDED_GPU_RE = re.compile(
     r"quadro|tesla|firepro|radeon\s+pro|radeon\s+instinct"
     r"|nvs\s+\d|grid\s+\w|\binstinct\b|\bcompute\b"
-    r"|\ba100\b|\bh100\b|\bv100\b|\bp100\b|\bl40\b|\ba10\b",
+    r"|\ba100\b|\bh100\b|\bv100\b|\bp100\b|\bl40\b|\ba10\b"
+    r"|\bada\s+generation\b",  # professional workstation Ada line (RTX 6000 Ada, RTX 4000 Ada, etc.)
     re.IGNORECASE
 )
 
@@ -593,14 +594,26 @@ def process_hardware_data():
                 chipset = (item.get("chipset") or "").strip().lower()
                 chipset = re.sub(r'^(nvidia|amd|intel)\s+', '', chipset)
                 chipset = re.sub(r'^(geforce|radeon)\s+', '', chipset)
+                # Strip VRAM amounts appended to chipset name (e.g. "RTX 4060 Ti 8 GB" → "RTX 4060 Ti")
+                chipset = re.sub(r'\s+\d+\s*gb\b', '', chipset).strip()
                 key = chipset
             else:
                 key = (item.get("clean_name") or item.get("name") or "").strip().lower()
             if not key:
                 continue
             existing = seen_names.get(key)
-            if existing is None or len(item) > len(existing):
+            if existing is None:
                 seen_names[key] = item
+            else:
+                # Prefer: already has price > has amazon_sku > more spec fields
+                def _score(i):
+                    return (
+                        1 if i.get("price") is not None else 0,
+                        1 if (i.get("amazon_sku") or "").strip() else 0,
+                        len(i),
+                    )
+                if _score(item) > _score(existing):
+                    seen_names[key] = item
         deduplicated = list(seen_names.values())
         removed_dupes = len(processed_items) - len(deduplicated)
 
