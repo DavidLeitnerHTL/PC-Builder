@@ -206,7 +206,7 @@ const PRESETS = {
         cpu: "Ryzen 9 9950X3D",
         cooler: "Liquid Freezer II 360 RGB",
         mb: "X870E",
-        gpu: "RTX 5090",
+        gpu: "RTX 4090",
         ram: "Dominator Titanium",
         ssd: "T705",
         psu: "HX1000i",
