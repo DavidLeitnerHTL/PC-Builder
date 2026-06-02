@@ -110,9 +110,10 @@ def is_modern_desktop_cpu(name, socket):
             return False
     if not socket:
         return False
-    socket_lower = socket.lower()
+    # Normalize: remove spaces/hyphens so "LGA 1700" matches "lga1700"
+    socket_norm = socket.lower().replace(" ", "").replace("-", "")
     for modern_socket in ["am4", "am5", "lga1700", "lga1851"]:
-        if modern_socket in socket_lower:
+        if modern_socket in socket_norm:
             return True
     return False
 
@@ -408,7 +409,13 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
         storage_type = raw_data.get("type") or raw_data.get("storage_type") or specs.get("type") or ""
         is_hdd = "hdd" in storage_type.lower() or "hard" in storage_type.lower()
         is_nvme = raw_data.get("nvme") is True
-        if not is_hdd and not is_nvme:
+        # Also keep SATA SSDs (nvme=False but still consumer SSD)
+        is_ssd = (
+            "ssd" in storage_type.lower()
+            or "ssd" in (name or "").lower()
+            or is_nvme
+        )
+        if not is_hdd and not is_ssd:
             return False
         if not is_consumer_storage(interface, capacity_str, storage_type, name):
             return False
