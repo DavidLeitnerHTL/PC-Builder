@@ -181,14 +181,14 @@ const PRESETS = {
     budget: {
         cpu: "Ryzen 5 9600X",
         cooler: "Shadow Rock Slim 2",
-        mb: "PRO B650",
+        mb: "B650M HDV",
         gpu: "RTX 5060",
         ram: "Crucial Pro Overclocking Black",
         ssd: "P3 -2280",
         psu: "Pure Power 12 Black",
-        case: "Arx 700",
+        case: "Light Base 600 DX",
         os: "Windows 11 Pro USB",
-        casefan: "Pure Wings 2"
+        casefan: "Aspect 14 Black"
     },
     midrange: {
         cpu: "Ryzen 7 9800X3D",
