@@ -432,7 +432,8 @@ function loadPreset(type) {
                 }
             }
             if (!foundMatch) {
-                console.warn(`Could not find preset item for ${id}: ${preset[id]}`);
+                tsInstance.clear();
+                updateRow(id, '');
             }
         }
     });
