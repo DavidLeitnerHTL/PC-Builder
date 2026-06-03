@@ -1,11 +1,335 @@
 [
   {
-    "title": "Von 1 bis 4 TByte: 18 SSDs mit PCIe 4.0 und 5.0 im Test",
+    "title": "Computex: Durststrecke: Neue Desktop-Prozessoren kommen erst 2027",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Intels Nova Lake und AMDs Zen 6 sollen nicht mehr 2026 in den Handel gelangen. Die Leistung scheint allerdings vielversprechend zu sein.",
+    "url": "https://www.heise.de/news/Durststrecke-Neue-Desktop-Prozessoren-kommen-erst-2027-11316246.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/9/3/7/0/7/DSC01275-209fec69b87356c3.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Mittwoch: Trumps neues KI-Dekret, Microsoft-Neuheiten von der Build-Konferenz",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "KI-Zugriff statt Sicherheit + Microsoft Surface mit RTX Spark + KI-Agenten statt Apps + Microsofts neuer Quantenchip + Klage wegen Ring-Kameras + Bit-Rauschen",
+    "url": "https://www.heise.de/news/Mittwoch-Trumps-neues-KI-Dekret-Microsoft-Neuheiten-von-der-Build-Konferenz-11316242.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/9/3/7/0/5/mittwoch-ccbd2839aa4c231a.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Bit-Rauschen, der Prozessor-Podcast: Heiße Neuigkeiten von der Computex 2026",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Die taiwanische IT-Messe Computex steht im Zeichen teurer Chips, aber es gibt auch interessante Neuheiten: Folge 2026/11 des Podcasts Bit-Rauschen.",
+    "url": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Heisse-Neuigkeiten-von-der-Computex-2026-11302135.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/8/6/5/3/2/Podcast_Bitrauschen_16_9-2751b03c1e8dbe8f.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Jensen Huang: Nvidia zieht Arm-CPU-Kerne „von der Stange“ vor",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Der RTX Spark Superchip ist Nvidias Einstieg in den Windows-on-Arm-PC-Markt. Für die CPU setzt Nvidia auf Kerne direkt von Arm, während im Datacenter die Eigen­entwicklung „Olympus“ zum Einsatz kommt. Im Gespräch mit...",
+    "url": "https://www.computerbase.de/news/prozessoren/jensen-huang-nvidia-zieht-arm-cpu-kerne-von-der-stange-vor.97694/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Master AI Gen6: Team Group stellt PCIe-6.0-SSD mit 28 GB/s zur Schau",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Allmählich beginnt die Ära von PCIe-6.0-SSDs, allerdings nur für Rechenzentren der jüngsten Generation. Für solche hatte Micron im Februar die erste PCIe-6.0-SSD in Serie eingeführt. Zur Computex zeigt auch Team Group...",
+    "url": "https://www.computerbase.de/news/storage/master-ai-gen6-team-group-stellt-pcie-6-0-ssd-mit-28-gb-s-zur-schau.97687/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "3DMark: Mit Pathtracing: Der erste Blick auf den neuen 3DMark-Test",
+    "date": "2026-06-03",
+    "category": "Software",
+    "description": "UL arbeitet an einer neuen Testsequenz für den bekannten Benchmarks 3DMark. Darauf hat UL ComputerBase hingewiesen und die Redaktion zum Computex-Stand von Thermal Grizzly geschickt, wo eine kurze Sequenz des neuen Te...",
+    "url": "https://www.computerbase.de/news/grafikkarten/3dmark-mit-pathtracing-der-erste-blick-auf-den-neuen-3dmark-test.97699/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Zotac: GeForce RTX 5080 als Magnus One Ultra im Kompaktformat",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Zotacs Kompakt-PC Magnus One Ultra erhält ein Upgrade. Nicht mehr die GeForce RTX 5070 Ti ist die schnellste Grafikkarte in dem System, sondern nun die GeForce RTX 5080. Einfach nur ein Wechsel der Grafikkarte hat für...",
+    "url": "https://www.computerbase.de/news/pc-systeme/zotac-geforce-rtx-5080-als-magnus-one-ultra-im-kompaktformat.97697/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Aorus Infinity: Gigabyte feiert 40-jähriges Jubiläum mit neuer Hardware-Serie",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Gigabyte wird dieses Jahr 40 Jahre alt und feiert dies im Rahmen der Computex 2026 mit der neuen Hardware-Serie Infinity. Diese umfasst neben Grafikkarten und Mainboards auch Tastaturen und Mäuse sowie ein Gehäuse.",
+    "url": "https://www.computerbase.de/news/pc-systeme/aorus-infinity-gigabyte-feiert-40-jaehriges-jubilaeum-mit-neuer-hardware-serie.97662/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Mit 64-MB-BIOS: Intel Sockel LGA 1954 und Chipsätze fit für Hammer Lake",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Intel legt Partnern bereits heute nahe, doch möglichst 64-MB-BIOS-Bausteine zu verbauen, damit die Plattform alle Next-(Next-Next-)Gen-CPUs nutzen kann. Zumindest wird so sichergestellt, dass neben Nova Lake und Razor...",
+    "url": "https://www.computerbase.de/news/mainboards/mit-64-mb-bios-intel-sockel-lga-1954-und-chipsaetze-fit-fuer-hammer-lake.97698/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Copilot Super-App: Scout ist Microsofts OpenClaw-Variante für Windows 11",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Wie im Vorfeld der Entwicklerkonferenz Build 2026 erwartet, hat Microsoft eine Copilot-Super-App vorgestellt, die Chat-Funktionen mit Coding-Assistenten und Agenten-Funktionen vereint. Die dauerhaft im Hintergrund lau...",
+    "url": "https://www.computerbase.de/news/apps/copilot-super-app-scout-ist-microsofts-openclaw-variante-fuer-windows-11.97686/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Panther Lake & Wildcat Lake: Intel hat Lieferprobleme bei Intel-18A-Prozessoren",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Intel drängt Kunden zu neueren Prozessoren, kann aber nicht genug liefern. Der Grund könnten zugekaufte Chiplets sein. (Intel, Prozessor)",
+    "url": "https://www.golem.de/news/panther-lake-wildcat-lake-intel-hat-lieferprobleme-bei-intel-18a-prozessoren-2606-209350.html",
+    "image": "https://www.golem.de/2606/209350-580565-580563_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Es wird eng für x86: Nvidias RTX Spark könnte ARMs PC-Durchbruch sein",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Wenn Microsoft es nicht verbockt, kann RTX Spark ARM als x86-PC-Alternative etablieren. Mehr Auswahl könnte aber für Konsumenten sogar Nachteile bringen. Eine Analyse von Johannes Hiltscher (PC & Notebooks, Prozessor)",
+    "url": "https://www.golem.de/news/es-wird-eng-fuer-x86-nvidias-rtx-spark-koennte-arms-pc-durchbruch-sein-2606-209314.html",
+    "image": "https://www.golem.de/2606/209314-580451-580449_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Betriebssysteme: Verbreitung von Windows 11 sinkt in Deutschland",
+    "date": "2026-06-03",
+    "category": "Software",
+    "description": "International und auch in Europa ist die Entwicklung bei der Verbreitung von Windows 11 anders als in Deutschland. (Windows 11, Microsoft)",
+    "url": "https://www.golem.de/news/betriebssysteme-verbreitung-von-windows-11-sinkt-in-deutschland-2606-209335.html",
+    "image": "https://www.golem.de/2606/209335-580509-580507_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "AMD macht Druck: Intels LGA1954 könnte längere CPU-Upgrades ermöglichen",
+    "date": "2026-06-03",
+    "category": "Industrie",
+    "description": "Nach AMDs AM5-Zusage bis 2029 gibt es neue Hinweise zu Intels LGA1954. Laut Leak könnte die BIOS-Größe über spätere CPU-Upgrades entscheiden.",
+    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/Intel-LGA1954-64-MB-BIOS-Nova-Lake-Razor-Lake-Hammer-Lake-1543723/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2024/10/Sockel-mit-ILM-und-CPU-pcgh.JPG",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS] Linux-Kernel 7 und Proton 11: Alles neu, mit weiterem GPU-Performance-Sprung?",
+    "date": "2026-06-03",
+    "category": "Software",
+    "description": "PCGH Plus: Mit dem kürzlich erschienenen Linux-Kernel 7 macht das OS einen weiteren Schritt in die Zukunft. Proton legt einen drauf und wird auf Version 11 geupdatet. Wir haben mit vier Grafikkarten geprüft, ob die Ga...",
+    "url": "https://www.pcgameshardware.de/Linux-Software-26761/Specials/Kernel-7-Proton-11-GPU-Benchmarks-1534322/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/05/Kernel-7-und-Proton-11-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Biwin zur Computex: DDR5 bis 256 GiByte und RAM-Wasserkühlung",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Biwin zeigt auf der Computex 2026 neue Speicherprodukte für Enthusiasten. Neben DDR5-Kits mit bis zu 256 GiByte fallen vor allem RAM-Kühler und eine kompakte Mini-SSD auf.",
+    "url": "https://www.pcgameshardware.de/SSD-Hardware-255552/News/Biwin-Computex-2026-DDR5-RAM-Wasserkuehlung-1542103/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Biwin-Computex-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Acer Predator und Nitro: Fünf neue Gaming-Monitore mit 3D-KI, 5K und bis zu 1.000 Hz",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Acer stellt fünf neue Gaming-Monitore aus den Serien Predator und Nitro vor - darunter ein 4K-Modell mit KI-gestützter 3D-Umwandlung und ein Display mit bis zu 1.000 Hz per DFR-Technologie.",
+    "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/News/Acer-Predator-Nitro-Gaming-2026-3D-KI-5K-1000-Hz-1542015/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/acer-predator-nitro-monitor-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Duke Nukem 3D mit Pathtracing: Duke-RT bekommt Voxel-Support und mehr Leistung",
+    "date": "2026-06-03",
+    "category": "Software",
+    "description": "Duke-RT macht den nächsten Schritt: Die Pathtracing-Mod für Duke Nukem 3D unterstützt jetzt Voxel, remastert weitere Episoden und soll in großen Levels deutlich schneller laufen.",
+    "url": "https://www.pcgameshardware.de/Duke-Nukem-3D-Spiel-22266/News/RT-bekommt-Voxel-Support-und-mehr-Leistung-1542096/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/580539245-f19d9bc1-1f5e-4e34-8f99-a0fb6f7ba7a8-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "AMD Adrenalin 26.6.1: Neuer Treiber lässt die Panzer rollen",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "AMD hat mit der Adrenalin Edition 26.6.1 einen neuen WHQL-Grafiktreiber freigegeben, der zwei Spiele offiziell unterstützt und mehrere Fehler auf Radeon-Grafikkarten behebt. Wer ein Gaming-Handheld nutzt, bleibt aber...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/AMD-Software-Adrenalin-Edition-26-6-1-World-of-Tanks-Heat-1543600/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/World-of-Tanks-Heat-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "Ryzen AI Max 400: AMD schießt mit 192 GiB gegen Nvidia N1X",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "AMD-Marketingchef Saša Marinković hat auf X eine Vergleichstabelle geteilt, welche die Ryzen AI Max 400 (\"Gorgon Halo\") Sprachmodelle bescheinigt, an denen Nvidias RTX Spark Superchips der N1X und N1 am Speicher schei...",
+    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/AMD-Ryzen-AI-Max-400-vs-Nvidia-N1X-LLM-Vergleich-1543601/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/05/AMD-Ryzen-AI-Max-400-Serie-mit-192-GiB-RAM-und-160-GiB-VRAM-3-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "PowerColor Showcases Graphics Cards with Groovy UV-reactive Art",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "PowerColor in its Computex 2026 booth showcased some new prototype custom AMD Radeon RX 9000 series graphics cards. These are variants of its existing RX 9070 XT Red Devil, RX 9070 XT HellHound, and Reaper series grap...",
+    "url": "https://www.techpowerup.com/349665/powercolor-showcases-graphics-cards-with-groovy-uv-reactive-art",
+    "image": "https://www.techpowerup.com/img/VfQ9PDYXb9X5gkNP.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "KLEVV at Computex 2026: 4R CUDIMMs, CRAS C925 G-Lite, CRAS V RGB Prime Memory",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Essencore KLEVV brought a slew of new memory and storage products to Computex 2026. We begin our touer with the new LITE V RGB DDR5 memory, which comes in capacities of up to 64 GB, featuring an RGB-crowned heat sprea...",
+    "url": "https://www.techpowerup.com/349664/klevv-at-computex-2026-4r-cudimms-cras-c925-g-lite-cras-v-rgb-prime-memory",
+    "image": "https://www.techpowerup.com/img/jBrfjrjbnvCueFaJ.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GoDeal24 Unveils 6th Anniversary Sale—Office 2024 at Just $16.99!",
+    "date": "2026-06-03",
+    "category": "Angebote",
+    "description": "GoDeal24 is celebrating its 6th Anniversary with a bonanza deal. Get Genuine, lifetime valid Office 2024 Professional Plus at just $16.99—a huge saving over paying the Microsoft 365 subscription fee each year. Office...",
+    "url": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99",
+    "image": "https://www.techpowerup.com/img/cahIX2s6Rx6Wvnjl.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "G.Skill Also Demos AMD EXPO-ULL Memory: DDR5-6000 with CL26",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "In addition to high-speed RDIMMs, G.Skill, in its Computex 2026 booth, showcased its first memory kits to feature AMD EXPO-ULL (ultra-low latency) profiles. Shown at Computex, was a DDR5-6000 kit with 26-36-36-32 CR1...",
+    "url": "https://www.techpowerup.com/349663/g-skill-also-demos-amd-expo-ull-memory-ddr5-6000-with-cl26",
+    "image": "https://www.techpowerup.com/img/Sg7u90XyN32x3KsX.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "G.Skill Demos a DDR5-10000 RDIMM in 8-channel Config, ECC CUDIMMs on 270K Plus",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "G.Skill in its Computex 2026 booth shows us an astounding memory setup for workstations—512 GB of OCTA-Channel DDR5-10000 ECC RDIMM. The setup uses eight 64 GB G.Skill DDR5-10000 RDIMMs, an Intel Xeon 658X \"Granite Ra...",
+    "url": "https://www.techpowerup.com/349662/g-skill-demos-a-ddr5-10000-rdimm-in-8-channel-config-ecc-cudimms-on-270k-plus",
+    "image": "https://www.techpowerup.com/img/ZiJq9jHb2g3LRelv.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "XIGMATEK At Computex 2026: Lumina Core Case, Aurora Core PSUs",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "XIGMATEK at the 2026 Computex showed off the new Lumina and Aurora lines of PC case and power products. Lumina Core is a spacious full-tower case with glass taking up two sides. It has pillarless and seamless glass ed...",
+    "url": "https://www.techpowerup.com/349661/xigmatek-at-computex-2026-lumina-core-case-aurora-core-psus",
+    "image": "https://www.techpowerup.com/img/G1GyZnxVa8lR1yUp.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Microsoft Visual Studio Professional 2026 + 15 Coding Courses Just $50",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Microsoft Visual Studio Professional 2026 has long been the development environment of choice for serious programmers, and pairing it with 15 structured coding courses makes this one of the more well-rounded deals you...",
+    "url": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50",
+    "image": "https://www.techpowerup.com/img/A8zV60F1u5dE7Ahg.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Enermax at Computex 2026: Pump-free AIO, Oil-immersed Case, New PSUs and Cooling Products",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Enermax at the 2026 Computex showed off its latest cooling, casing, and power supply innovations. The most interesting exhibit is its PFA (pump-free AIO) liquid CPU cooler. This closed-loop liquid CPU cooler uses Daik...",
+    "url": "https://www.techpowerup.com/349660/enermax-at-computex-2026-pump-free-aio-oil-immersed-case-new-psus-and-cooling-products",
+    "image": "https://www.techpowerup.com/img/KWbk6kDDlzXHqfzw.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AMD Software Adrenalin 26.6.1 WHQL Drivers Released",
+    "date": "2026-06-03",
+    "category": "Software",
+    "description": "AMD today released the latest version of AMD Software Adrenalin drivers. Version 26.6.1 WHQL comes with optimization for \"F1 25: 2026 Season Pack,\" and \"World of Tanks: HEAT.\" The drivers also fix a handful of issues....",
+    "url": "https://www.techpowerup.com/349659/amd-software-adrenalin-26-6-1-whql-drivers-released",
+    "image": "https://www.techpowerup.com/img/sIFqcDcQ87UWgSMC.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "No Surprise Microsoft Office Hikes—Own it for Life for $50",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "If your Microsoft 365 subscription has been quietly renewing every month without much thought, this is a good time to rethink that. A lifetime license to Microsoft Office Professional 2021 for Windows is currently ava...",
+    "url": "https://www.techpowerup.com/349451/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-50",
+    "image": "https://www.techpowerup.com/img/oahGNvkvfkWUHdMw.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Corsair Collaborates With OBT and ElmorLabs on Benchlab 2 System Monitoring Platform",
+    "date": "2026-06-03",
+    "category": "Hardware",
+    "description": "Benchlab is a real-time telemetry hardware project originally built by ElmorLabs and Open Benchtable with the goal of making PC system monitoring and fine-tuning easier and more precise. The latest development in the...",
+    "url": "https://www.techpowerup.com/349656/corsair-collaborates-with-obt-and-elmorlabs-on-benchlab-2-system-monitoring-platform",
+    "image": "https://www.techpowerup.com/img/yV8wxLEFIpXZcztl.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Trump gibt sich exklusiven Zugriff auf neue KI vor allen anderen",
+    "date": "2026-06-02",
+    "category": "Software",
+    "description": "Geheimes Benchmarking von KI, Zugriff für die US-Regierung vor allen anderen, staatliche Suche nach Software-Bugs. Das und mehr ordnet der US-Präsident an.",
+    "url": "https://www.heise.de/news/Trump-gibt-sich-exklusiven-Zugriff-auf-neue-KI-vor-allen-anderen-11316188.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/9/3/6/7/8/shutterstock_2455396913-46daf3b4e2842a95.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Nvidia bringt nächste große KI-Modelle heraus",
+    "date": "2026-06-02",
+    "category": "Industrie",
+    "description": "Nvidia präsentiert Nemotron 3 Ultra als neues Frontier-Modell, sowie Cosmos 3, ein Weltmodell für Robotik und autonome Systeme.",
+    "url": "https://www.heise.de/news/Nvidia-bringt-naechste-grosse-KI-Modelle-heraus-11314083.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/9/2/6/1/2/shutterstock_1742705531-e2df313a6f22b503.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Surface RTX Spark Dev Box: Microsofts „Traummaschine”",
     "date": "2026-06-02",
     "category": "Hardware",
-    "description": "Aufgrund der gestiegenen Preise suchen viele Käufer nach günstigen SSDs. In diesem Artikel tritt eine billige China-SSD gegen die etablierte Konkurrenz an.",
-    "url": "https://www.heise.de/tests/Von-1-bis-4-TByte-18-SSDs-mit-PCIe-4-0-und-5-0-im-Test-11172765.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/2/5/8/6/2/ll-f9d3b510443f5d38.jpeg",
+    "description": "Nach dem Surface Laptop Ultra kündigt Microsoft auf der Konferenz Build einen Desktop mit RTX Spark speziell für Entwickler an.",
+    "url": "https://www.heise.de/news/Surface-RTX-Spark-Dev-Box-Microsofts-Traummaschine-11316058.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/9/3/6/1/3/Screenshot_2026-06-02_at_19-e697778f2bde97a5.png",
+    "source": "Heise"
+  },
+  {
+    "title": "Flash-Talk: Speicherkrise, SSD-Controller mit RISC-V",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Flash-Hersteller planen neue Werke, aber auch Preiserhöhungen. Etwas günstiger werden SSDs vielleicht durch Controller mit RISC-V-Kernen.",
+    "url": "https://www.heise.de/hintergrund/Flash-Talk-Speicherkrise-SSD-Controller-mit-RISC-V-11267071.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/6/8/5/0/5/ll-e13e8daca9232731.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Computex: Neue Speichertechnologien für Desktop-PCs auf der Computex",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Auf der Computex zeigen die RAM-Hersteller CQDIMMs mit 128 GByte Kapazität und CUDIMMs mit bis zu DDR5-8000. Die Speicherkrise ist auch Thema.",
+    "url": "https://www.heise.de/news/RAM-Trends-auf-der-Computex-Mehr-Speed-und-Kapazitaet-11314765.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/9/2/9/5/6/IMG_7911_DxO-6d2e8d80137ea788.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Computex: KI-Beschleuniger mit 480 GByte Speicher als PCIe-Karte mit 350 Watt von Intel",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Intel kündigt noch fürs laufende Jahr den Inferencing-Beschleuniger „Crescent Island“ mit sehr viel LPDDR5X-RAM statt teurem HBM an.",
+    "url": "https://www.heise.de/news/KI-Beschleuniger-mit-480-GByte-Speicher-als-PCIe-Karte-mit-350-Watt-von-Intel-11315339.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/9/3/2/4/7/Intel-Crescnet-Lake-16-9-2-ba91eafe5e77ecbf.png",
     "source": "Heise"
   },
   {
@@ -21,10 +345,91 @@
     "title": "Spielergrafikkarte: Radeon RX 9070 GRE gegen Nvidias (zu teure) RTX 5060 Ti 16GB",
     "date": "2026-06-02",
     "category": "Hardware",
-    "description": "Mit abgespecktem Grafikchip und 12 GByte Speicher geht AMDs Radeon RX 9070 XT auf Kundenfang. Der Test zeigt, wer sich von dem Angebot umgarnen lassen sollte.",
+    "description": "Mit abgespecktem Grafikchip und 12 GByte Speicher geht AMDs Radeon RX 9070 GRE auf Kundenfang. Der Test zeigt, wer sich von dem Angebot umgarnen lassen sollte.",
     "url": "https://www.heise.de/tests/Spielergrafikkarte-Radeon-RX-9070-GRE-gegen-Nvidias-zu-teure-RTX-5060-Ti-16GB-11288121.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
     "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/7/9/4/7/9/csp-0efe49e82ab2e8fe.jpeg",
     "source": "Heise"
+  },
+  {
+    "title": "Intel Coral Rapids: Next-Next-Gen-Xeon bringt wohl bis zu 320 Kerne und 20-Kanal-Speicher (Update)",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Intel pusht den übernächsten Xeon-Prozessor Coral Rapids mit voller Kraft. Er bringt SMT zurück, gepaart zudem mit sehr vielen Kernen und auch einem nochmals verbreiterten Speicherinterface. Diese Kombination soll hel...",
+    "url": "https://www.computerbase.de/news/prozessoren/intel-coral-rapids-next-next-gen-xeon-bringt-wohl-bis-zu-320-kerne-und-20-kanal-speicher.97661/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Corsair AXi, HXi und RMe: Netzteile schützen 12V-2x6-Anschluss",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Mangels Schutzfunktionen des 12V-2x6-Anschlusses auf Seiten der Grafikkarte (insbesondere der RTX-5000-Generation) rüsten Hersteller zunehmend Netzteile mit einem solchen Mechanismus nach. So auch Corsair mit \"PinProt...",
+    "url": "https://www.computerbase.de/news/netzteile/corsair-axi-hxi-und-rme-netzteile-schuetzen-12v-2x6-anschluss.97684/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Aorus Infinity Mainboards: Organische Kühlkörper aus dem 3D-Drucker treffen auf 11.400 MT/s",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Gigabyte präsentiert im Rahmen der Computex zwei Oberklasse-Mainboards aus der neuen Infinity-Serie. Während das X870 Infinity den Fokus auf schnellen Speicher legt und an die Tachyon-Serie erinnert, fällt das X870E I...",
+    "url": "https://www.computerbase.de/news/mainboards/aorus-infinity-mainboards-organische-kuehlkoerper-aus-dem-3d-drucker-treffen-auf-11-400-mt-s.97653/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Gigabyte B850M Aorus Stealth: Erstes mATX-Mainboard mit rückwärtigen Anschlüssen",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Gigabyte präsentiert zur Computex 2026 das erste B850-mATX-Mainboard mit rückwärtigen Anschlüssen (Back Connect). Das Gigabyte B850M Aorus Stealth verfügt über einen massiven Aufbau mitsamt Backplate. Es wird es in de...",
+    "url": "https://www.computerbase.de/news/mainboards/gigabyte-b850m-aorus-stealth-erstes-matx-mainboard-mit-rueckwaertigen-anschluessen.97659/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Neue LCDs für Spieler: Asus setzt auf 5K mit Dual Mode und TUF im Doppelpack",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Asus hat auch neue Gaming-Monitore mit LCD-Technik zur Computex vorgestellt. Darunter ist der ROG Strix 5K XG27JCEG mit 5K-IPS-Panel und Dual Mode. Bei den TUF-Modellen gibt es VA mit UWQHD auf 34 Zoll und IPS mit WQH...",
+    "url": "https://www.computerbase.de/news/monitore/neue-lcds-fuer-spieler-asus-setzt-auf-5k-mit-dual-mode-und-tuf-im-doppelpack.97649/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "NM1090 Pro SSD: Lexar bringt 8-TB-Version des Flaggschiffs",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Lexars schnellste SSD für Verbraucher, die NM1090 Pro mit PCIe 5.0 und SM2508-Controller, gab es bisher mit maximal 4 TB Speicherplatz. Jetzt kündigt der Hersteller eine 8-TB-Version an, die sogar noch etwas schneller...",
+    "url": "https://www.computerbase.de/news/storage/nm1090-pro-ssd-lexar-bringt-8-tb-version-des-flaggschiffs.97651/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Für Nova Lake: Gigabyte teasert erste Platine für neue Intel-Desktop-CPU",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Noch ist es zwar rund ein halbes Jahr bis zur Vorstellung von Intel Nova Lake, aber die Hausmesse lassen sich Partner aus dem Mainboard-Segment nicht für Teaser entgehen. Gigabyte zeigt eine Z990-Platine und deckt daf...",
+    "url": "https://www.computerbase.de/news/mainboards/fuer-nova-lake-gigabyte-teasert-erste-platine-fuer-neue-intel-desktop-cpu.97665/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Asus: Eine auf 48 Volt umgebaute RTX 5090 – bei 1.000 Watt",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Computer arbeiten seit langer Zeit mit einer Stromversorgung von 12 Volt. Asus zeigt auf der Computex ein Experiment, bei dem die Grafikkarte auf höhere 48 Volt umgebaut worden ist. Das ändert unter anderem die Anford...",
+    "url": "https://www.computerbase.de/news/grafikkarten/asus-eine-auf-48-volt-umgebaute-rtx-5090-bei-1-000-watt.97667/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Asus Ascent QN10 im Hands-on: Erster Mini-PC mit 18-Kerner Qualcomm Snapdragon X2 Elite",
+    "date": "2026-06-02",
+    "category": "Hardware",
+    "description": "Qualcomms schnellster Chip Snapdragon X2 Elite ist nun auch im Mini-PC angekommen. Der Asus Ascent QN10 markiert den Anfang, dort wird der 18-Kern-Prozessor mit einer TDP von 65 Watt in einem 0,75 Liter kleinen Gehäus...",
+    "url": "https://www.computerbase.de/news/pc-systeme/asus-ascent-qn10-im-hands-on-der-erste-mini-pc-mit-18-kerner-qualcomm-snapdragon-x2-elite.97663/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
     "title": "Mini-PCs zur Computex: MSI mit Wildcat Lake, Panther Lake und Strix Halo",
@@ -39,414 +444,9 @@
     "title": "MSI: Zukünftiger Gaming-Grafikkarten-Kühler wird ausgestellt",
     "date": "2026-06-02",
     "category": "Hardware",
-    "description": "Wer Grafikkarten im eigenen Portfolio hat, kann dieses Jahr nur wenige Neuigkeiten verbreitet – das Problem zeigt sich auch auf der gerade stattfindenden Computex. Da müssen die Partner dann eigene Wege finden, um in...",
+    "description": "Wer Grafikkarten im eigenen Portfolio hat, kann dieses Jahr nur wenige Neuigkeiten verbreiten – das Problem zeigt sich auch auf der gerade stattfindenden Computex. Da müssen die Partner dann eigene Wege finden, um in...",
     "url": "https://www.computerbase.de/news/grafikkarten/msi-zukuenftiger-gaming-grafikkarten-kuehler-wird-ausgestellt.97660/",
     "image": null,
     "source": "ComputerBase"
-  },
-  {
-    "title": "Intel Coral Rapids: Next-Next-Gen-Xeon bringt wohl bis zu 320 Kerne und 20-Kanal-Speicher",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Intel pusht den übernächsten Xeon-Prozessor Coral Rapids mit voller Kraft. Er bringt SMT zurück, gepaart zudem mit sehr vielen Kernen und auch einem nochmals verbreiterten Speicherinterface. Diese Kombination soll hel...",
-    "url": "https://www.computerbase.de/news/prozessoren/intel-coral-rapids-next-next-gen-xeon-bringt-wohl-bis-zu-320-kerne-und-20-kanal-speicher.97661/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Asus ROG Xbox Ally X20: Jubiläums-Edition mit OLED-Display und AR-Brille enthüllt",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Der Asus ROG Xbox Ally X20 nutzt den gleichen Ryzen AI Z2 Extreme-Chip wie der Ally X, ist aber mit einem 7,4-Zoll-OLED-Display und TMR-Sticks ausgestattet. Zudem besitzt der Gaming-Handheld ein durchsichtiges Gehäuse...",
-    "url": "https://www.computerbase.de/news/gaming/gaming-handheld-asus-rog-xbox-ally-x20-als-jubilaeums-edition-mit-oled-display-und-ar-brille-enthuellt.97648/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "12V-2×6-Stromstecker: MSI will Stecker in Zukunft direkt an der Grafikkarte absichern",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Der 12V-2×6-Stromstecker bleibt ein leidiges Thema, das immer mehr Hersteller für sich entdecken. Sei es per externem Schutz wie dem WireView Pro II (Test) oder per Netzteil-Absicherung. MSI macht aktuell letzteres pe...",
-    "url": "https://www.computerbase.de/news/grafikkarten/12v-2x6-stromstecker-msi-will-stecker-in-zukunft-direkt-an-der-grafikkarte-absichern.97656/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Asus ExpertBook: Mehr Auswahl mit Wildcat Lake, Panther Lake & Gorgon Point",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Die ExpertBooks von Asus haben sich gemausert und wissen dabei zu gefallen. Noch mehr CPU-Auswahl soll beim Verkauf in der Breite helfen. Dieses schließt nun sowohl nach oben als auch nach unten ein, denn neben neuen...",
-    "url": "https://www.computerbase.de/news/notebooks/asus-expertbook-mehr-auswahl-mit-wildcat-lake-panther-lake-und-gorgon-point.97486/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Asus' „MacBook-Neo-Killer“: Vivobook in zwei Größen bringt Intel Core 3 ins günstige Segment",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Panther Lake in der kleinen Ausführung Intel Wildcat Lake soll im Vivobook auch bei Asus im Einstiegssegment Kunden einfangen. Dafür wird der Hersteller die CPUs in zwei Größen anbieten und sie im gleichen Haus gegen...",
-    "url": "https://www.computerbase.de/news/notebooks/asus-macbook-neo-killer-vivobook-in-zwei-groessen-bringt-intel-core-3-ins-guenstige-segment.97485/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Noctua „Thermosiphon“: Pumpenlose AIO kühlt Ryzen jetzt bei 230 W, Q3 2027 im Visier",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Noctuas All-in-One-Wasserkühler haben als Noctua NL-LC1 die Serienreife erreicht. Parallel gehen die Arbeiten an der dank Phasenwechselkühlung ohne Pumpe funktionierenden AIO „Thermosiphon“ weiter. Auf dem Messestand...",
-    "url": "https://www.computerbase.de/news/kuehlung/noctua-thermosiphon-pumpenlose-aio-kuehlt-ryzen-jetzt-bei-230-w-q3-2027-im-visier.97624/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "NL-LC1-24, -36 & -42: Noctuas AIO-Kühler sind ab 16. Juni ab 219,90 Euro verfügbar",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Noctuas erste All-in-One-CPU-Wasserkühler-Serie hat einen Namen, einen Preis und einen Termin: Die Noctua NL-LC1 erscheint am 16. Juni und wird 219,90 Euro (240 mm), 249,90 Euro (360 mm) respektive 279,90 Euro (420 mm...",
-    "url": "https://www.computerbase.de/news/kuehlung/nl-lc1-24-36-und-42-noctuas-aio-kuehler-sind-ab-16-juni-ab-219-90-euro-verfuegbar.97622/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Zenbook 14 für 2026: Asus bietet Notebook mit AMD, Intel und Qualcomm an",
-    "date": "2026-06-02",
-    "category": "Industrie",
-    "description": "Asus legt das Zenbook 14 für 2026 neu auf und bietet es mit einer breiten Auswahl von Prozessoren von AMD, Intel und Qualcomm an. Der Hersteller setzt bei seiner Konstruktion auf „Ceraluminum“, das Leichtigkeit mit St...",
-    "url": "https://www.computerbase.de/news/notebooks/zenbook-14-fuer-2026-asus-bietet-notebook-mit-amd-intel-und-qualcomm-an.97639/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Radeon RX 9070 GRE im Test: So schnell ist die neue kleins­te RX 9070 mit 12 GB VRAM",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Unverhofft kommt manchmal oft: Es gibt eine neue Gaming-Grafikkarte! Die AMD Radeon RX 9070 GRE, die sich mit ihren 12 GB VRAM zwischen der Radeon RX 9060 XT und der RX 9070 platziert. Im Test gibt es keine Überraschu...",
-    "url": "https://www.computerbase.de/artikel/grafikkarten/amd-radeon-rx-9070-gre-test.97564/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Radeon RX 9070 GRE: AMD veröffentlicht Grafikkarte für 1440p-Gaming",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Als direktes Konkurrenzmodell nennt AMD die Geforce RTX 5060 Ti (16 GB), wobei die RX 9070 GRE um mindestens 20 Prozent schneller sein soll. (Grafikkarten, AMD)",
-    "url": "https://www.golem.de/news/radeon-rx-9070-gre-amd-veroeffentlicht-grafikkarte-fuer-1440p-gaming-2606-209292.html",
-    "image": "https://www.golem.de/2606/209292-580314-580312_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Intel Z990: Erstes Nova-Lake-Mainboard von Gigabyte gesichtet?",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Für Intels kommende CPU-Generation Nova Lake-S soll es unter anderem neue Z990-Mainboards geben und ein erstes Modell wurde jetzt wohl gesichtet.",
-    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/Intel-Z990-Erstes-Nova-Lake-Gigabyte-gesichtet-1541704/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Intel-Z990-Erstes-Nova-Lake-Mainboard-von-Gigabyte-gesichtet-2--pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Thermal Grizzly Wireview Pro 2: Noctua-Version soll leiser kühlen",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Thermal Grizzly arbeitet offenbar an einer Noctua Edition des Wireview Pro 2. Der GPU-Strommonitor soll einen größeren Lüfter, ein angepasstes PCB und einen höheren Preis erhalten.",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Thermal-Grizzly-Wireview-Pro-2-Noctua-Version-leiser-1540506/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Thermal-Grizzly-WireView-Pro-2-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Asus ROG Edition 20: Jubiläums-Peripherie von der Computex kostet bis zu 999 Euro",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Zur Computex 2026 hat Asus einige ROG-Edition-20-Produkte vorgestellt. Neben GPU, Netzteil und Gehäuse gibt es auch einen Gaming-Stuhl und die passende Maus als limitiere Jubiläumsmodelle.",
-    "url": "https://www.pcgameshardware.de/Hardware-Thema-130320/News/Asus-ROG-Edition-20-Harpe-2-Extreme-Destrier-Gaming-Stuhl-Maus-1541363/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Asus-ROG-Edition-Computex-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Be Quiet rüstet auf: Neues Dark Power Pro 14 IO und Pure Base 803 zur Computex",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Be Quiet zeigt zur Computex 2026 mehrere neue Komponenten. Im Mittelpunkt stehen das digitale Netzteil Dark Power Pro 14 IO und die neue Gehäuseserie Pure Base 803.",
-    "url": "https://www.pcgameshardware.de/Hardware-Thema-130320/News/Be-Quiet-Dark-Power-Pro-14-IO-Pure-Base-803-Computex-1541277/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/bq-lifestyle-shots-dark-power-pro-14-io-16x9-2-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Phanteks EX-Reihe: Neues Gehäusekonzept trennt GPU, Netzteil und Kühlung radikal",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Phanteks zeigt zur Computex eine neue EX-Serie, die klassische Gehäuseaufbauten aufbricht. Mainboard, Grafikkarte, Netzteil und Kühlung sitzen dabei in getrennten Bereichen.",
-    "url": "https://www.pcgameshardware.de/Gehaeuse-Hardware-213436/News/Phanteks-EX-GPU-Kammer-Computex-1539851/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Phanteks-EX-Reihe-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Neue RTX-50-Karten auf der Computex 2026: Aorus Infinity, ROG Edition 20, PNY AiO und mehr",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Mehrere Custom-GPU-Hersteller nutzen die Computex 2026 zur Vorstellung neuer RTX-50-Modelle. Von Jubiläums- und Sondereditionen über AiO-Debüts ist einiges dabei.",
-    "url": "https://www.pcgameshardware.de/Nvidia-Geforce-Grafikkarte-255598/News/RTX-50-Computex-2026-Asus-Gigabyte-MSI-PNY-1540160/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2023/12/Screenshot-2023-12-06-at-09-25-49-nvidia-geforce-rtx-4060-visual-feature.jpg-WEBP-Grafik-1200-675-Pixel--pcgh.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "Nvidia Vera Rubin: Blackwell-Nachfolger für KI-Fabriken startet",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Nvidia hat weitere Details zu Vera Rubin gezeigt. Die KI-Plattform kombiniert Rubin-GPU, Vera-CPU, NVLink 6 und neue Netzwerkbausteine für kommende KI-Fabriken.",
-    "url": "https://www.pcgameshardware.de/Kuenstliche-Intelligenz-Hardware-279517/News/Nvidia-Vera-Rubin-KI-Plattform-Vera-CPU-Rubin-GPU-NVL72-1540111/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/NVIDIA-Rubin-Vera-_1-scaled-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Sapphire Pulse Radeon RX 9070 GRE: 12-GiB-Grafikkarte mit RDNA 4 kommt in kompakter Bauform",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Sapphire kündigt die Pulse Radeon RX 9070 GRE mit 12 GiByte GDDR6-Speicher, 48 Compute Units und Dual-X-Kühlung an. Die RDNA-4-Grafikkarte ist für kompakte PCs vorgesehen.",
-    "url": "https://www.pcgameshardware.de/Radeon-RX-9070-GRE-Grafikkarte-281249/News/Sapphire-Pulse-12-GB-RDNA-4-Dual-X-Kuehlung-1540215/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/11354_01_rx9070_gre_c01-pcgh.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "Predator Atlas 8: Acer wechselt von AMD Ryzen zu Intel Arc G3",
-    "date": "2026-06-02",
-    "category": "Industrie",
-    "description": "Acer hat zur Computex 2026 seinen neuen Gaming-Handheld Predator Atlas 8 mit Intel Arc G3 Extreme vorgestellt. Der Marktstart ist für Oktober 2026 geplant, einen offiziellen Preis nennt der Hersteller bislang nicht.",
-    "url": "https://www.pcgameshardware.de/Handheld-PC-Hardware-279763/News/Acer-Predator-Atlas-8-Gaming-Handheld-Intel-Arc-G3-Extreme-1541273/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/06/20260531_032347085_iOS-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "AMD Radeon RX 9070 GRE im Test: Gute Antwort auf die Speicherkrise oder Lückenfüller?",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Im Sommer 2025 importierten wir die Radeon RX 9070 GRE aus China, in freudiger Erwartung einer internationalen Version. Ein knappes Jahr später erscheint die neueste AMD-Grafikkarte tatsächlich hierzulande - Zeit für...",
-    "url": "https://www.pcgameshardware.de/Radeon-RX-9070-GRE-Grafikkarte-281249/Tests/Review-kaufen-Release-Preis-vs-9070-XT-vs-RTX-5070-1536164/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/05/AMD-Radeon-RX-9070-GRE-Review-Test-Benchmarks_XFX-Swift-1-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Für Nova Lake: Gigabyte zeigt Mainboard für nächste Core-Ultra-Generation",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Bei unserem Besuch der Stände fallen uns die besonderen Stücke natürlich direkt ins Auge.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/mainboards/69262-fuer-nova-lake-gigabyte-zeigt-gigaybte-fuer-naechste-core-ultra-generation.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jun/glad_chiplet_z0/gigabyte_computex_2026_nova_lake_3_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Microsoft Surface Laptop Ultra: Mit RTX Spark zum ultimativem Windows Laptop?",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Nach dem Produktionsende des Surface Laptop Studio 2 fehlte Microsoft ein richtiges Flaggschiff-Notebook.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/69258-microsoft-surface-laptop-ultra-mit-rtx-spark-zum-ultimativem-windows-laptop.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jun/pure_industry_xb/microsoft_surface_laptop_ultra_00_680px.png",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Corsair HX1000i Shift Crystal: Ein Netzteil, drei Sichtfenster",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Im Netzteilbereich hat Corsair gleich mehrere spannende Computex-Neuheiten im Gepäck.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/netzteile/69256-corsair-hx1000i-shift-crystal-ein-netzteil-drei-sichtfenster.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jun/zippy_branch_iv/corsair_computex26_nt_00_680px.png",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Zur richtigen Zeit, am richtigen Ort: Intel Xeon 6+ mit höherer Effizienz, auch dank AET",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Auf den ersten Blick beschränkt sich Clearwater Forest auf eine \"einfache\" Verdopplung in der Anzahl der Kerne.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/69253-zur-richtigen-zeit-am-richtigen-ort-intel-xeon-6-mit-hoeherer-effizienz-auch-dank-aet.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jun/fancy_radar_4z/intel_kira_boyko_rowe_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Gigabyte AORUS Master 16: Ryzen 9 9955HX3D mit GeForce RTX 5090 und OLED",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Zur Computex 2026 stellt Gigabyte sein AORUS Master 16 neu auf und wechselt bei der CPU auf einen AMD Ryzen 9 9955HX3D.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/69252-gigabyte-aorus-master-16-ryzen-9-9955hx3d-mit-geforce-rtx-5090-und-oled.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jun/joyful_pixel_1i/gbt_aorus_mastter16_ctex26_00_680px.jpeg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Trifft die Lücke nicht ganz: AMD Radeon RX 9070 GRE im Test",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Mit einer neuen Grafikkarten-Generation ist in diesem Jahr nicht zu rechnen.",
-    "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/grafikkarten/69093-amd-radeon-rx-9070-gre-im-test.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/May/funny_waterloop_aa/img_9889_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "OCPC Showcases Pista and Accelerator DDR5 Memory, New Gen 5 and Gen 4 M.2 NVMe SSDs",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Overclockers PC (OCPC), showcased its latest enthusiast-segment memory and storage products at Computex 2026. The star of the show is the new Pista Black Label line of enthusiast-segment DDR5 PC memory, which comes in...",
-    "url": "https://www.techpowerup.com/349621/ocpc-showcases-pista-and-accelerator-ddr5-memory-new-gen-5-and-gen-4-m-2-nvme-ssds",
-    "image": "https://www.techpowerup.com/img/TtfY9RgFcGAoFAgq.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) ASUS Announces ExpertCenter P200 AiO",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "ASUS today announced ExpertCenter P200 AiO (PM240FA), a sleek and space-saving all-in-one 24-inch desktop designed for modern work environments. Powered by up to an AMD Ryzen 5 40 processor, ExpertCenter P200 AiO deli...",
-    "url": "https://www.techpowerup.com/349620/asus-announces-expertcenter-p200-aio",
-    "image": "https://www.techpowerup.com/img/TrKMu9dIOs02M6kj.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GoDeal24 Unveils 6th Anniversary Sale—Office 2024 at Just $16.99!",
-    "date": "2026-06-02",
-    "category": "Angebote",
-    "description": "GoDeal24 is celebrating its 6th Anniversary with a bonanza deal. Get Genuine, lifetime valid Office 2024 Professional Plus at just $16.99—a huge saving over paying the Microsoft 365 subscription fee each year. Office...",
-    "url": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99",
-    "image": "https://www.techpowerup.com/img/cahIX2s6Rx6Wvnjl.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "be quiet! Turns Down the Heat at Computex, Quietly",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "be quiet! unveiled a powerful new lineup of hardware innovations at Computex 2026, the brand's suite introduces major advancements across power supplies, cooling solutions, PC cases, and its very first official foray...",
-    "url": "https://www.techpowerup.com/349619/be-quiet-turns-down-the-heat-at-computex-quietly",
-    "image": "https://www.techpowerup.com/img/5yvgskhWABIGQcRF.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Shuttle Showcases Its Latest Mini-PC Barebones at Computex 2026",
-    "date": "2026-06-02",
-    "category": "Markt",
-    "description": "At Computex, Shuttle presented its portfolio of Mini-PC barebones systems starting with fanless Intel Twin Lake designs to compact Arrow Lake-powered workstations. The XB860G2 is a compact desktop barebone launched in...",
-    "url": "https://www.techpowerup.com/349617/shuttle-showcases-its-latest-mini-pc-barebones-at-computex-2026",
-    "image": "https://www.techpowerup.com/img/fJTqIMH5ZfB17KAZ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "KRUX Drox is a Fascinating 60% Keyboard with a Useful Display",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "The KRUX Drox (model: KRXA001) is a compact, retro-inspired wireless mechanical keyboard we spotted at Computex 2026 that efficiently packs big personality into a space-saving layout. This versatile peripheral offers...",
-    "url": "https://www.techpowerup.com/349616/krux-drox-is-a-fascinating-60-keyboard-with-a-useful-display",
-    "image": "https://www.techpowerup.com/img/gAWNo3YemiGk8S8a.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Microsoft Visual Studio Professional 2026 + 15 Coding Courses Just $50",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Microsoft Visual Studio Professional 2026 has long been the development environment of choice for serious programmers, and pairing it with 15 structured coding courses makes this one of the more well-rounded deals you...",
-    "url": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50",
-    "image": "https://www.techpowerup.com/img/A8zV60F1u5dE7Ahg.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Patriot Memory Viper Steel 5 Infinite RGB Memory Spied",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Patriot Memory showed us their Viper Gaming Steel 5 Infinite RGB DDR5 memory. These feature a groovy infinity reflection element along the top of the heatsink. We didn't think you could pull off this effect on an elem...",
-    "url": "https://www.techpowerup.com/349615/patriot-memory-viper-steel-5-infinite-rgb-memory-spied",
-    "image": "https://www.techpowerup.com/img/ZTuG40OfG0KlUA0Z.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Corsair Launches New Gaming Peripherals at Computex 2026",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Corsair showcased at Computex 2026 four new gaming peripherals: the CLIPPER PRO MINI 60 Hall Effect keyboard, NIGHTSWORD v2 WIRELESS SD gaming mouse, HS35 v3 WIRELESS headset, and HS35 v3 wired headset. The CLIPPER PR...",
-    "url": "https://www.techpowerup.com/349614/corsair-launches-new-gaming-peripherals-at-computex-2026",
-    "image": "https://www.techpowerup.com/img/ZusWrxQmoNtjSQgW.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "No Surprise Microsoft Office Hikes—Own it for Life for $50",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "If your Microsoft 365 subscription has been quietly renewing every month without much thought, this is a good time to rethink that. A lifetime license to Microsoft Office Professional 2021 for Windows is currently ava...",
-    "url": "https://www.techpowerup.com/349451/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-50",
-    "image": "https://www.techpowerup.com/img/oahGNvkvfkWUHdMw.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Phison and Pascari at Computex 2026: New PCIe Gen 6 X3 and E37T DRAMless Gen 5 Controllers, Lots More",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Phison at the 2026 Computex showcased its next-generation SSD controllers based on new foundry nodes, implementing new PCI-Express Gen 6 (256 Gbps), and its reference SSD demos. The company also unveiled its newest Pa...",
-    "url": "https://www.techpowerup.com/349613/phison-and-pascari-at-computex-2026-new-pcie-gen-6-x3-and-e37t-dramless-gen-5-controllers-lots-more",
-    "image": "https://www.techpowerup.com/img/Wc70PdQIVAhetyGG.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Phanteks Brings Showcases Stunning EX Series Cases, AMP Series PSUs and Fans, and Enthoo Elite Server Full-tower",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Phanteks at the 2026 Computex showcased the stunning the EX series of PC cases that feature an extruded, compartmentalized, and modular-looking layout. The foundational feature of the EX-Series is its ability to deliv...",
-    "url": "https://www.techpowerup.com/349612/phanteks-brings-showcases-stunning-ex-series-cases-amp-series-psus-and-fans-and-enthoo-elite-server-full-tower",
-    "image": "https://www.techpowerup.com/img/qtGZhqmmp24cl7z6.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Corsair Unveils New Cases, Coolers and Power Supplies at Computex 2026",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Corsair came to this year's Computex show with a wide range of new components including the WARTHOG and 2800X RS-ARGB cases, the iCUE LINK TITAN II ULTRA LCD AIO cooler, the AXi SHIFT, HXi SHIFT Crystal and RMe Series...",
-    "url": "https://www.techpowerup.com/349609/corsair-unveils-new-cases-coolers-and-power-supplies-at-computex-2026",
-    "image": "https://www.techpowerup.com/img/T1DN4Z5al1gpDa5y.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "1stPlayer at Computex 2026: New Cases, Cooling, PSUs",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "1stPlayer at Computex 2026 showed off its latest PC cases, power supplies, and CPU cooling products. We begin our tour with the new ERA8-S, a pillarless front-left panel ATX mid-tower with a spacious right-hand crawls...",
-    "url": "https://www.techpowerup.com/349611/1stplayer-at-computex-2026-new-cases-cooling-psus",
-    "image": "https://www.techpowerup.com/img/HMIpVdiW9iJUOhdy.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Biwin at Computex 2026: Mini SSDs for Handhelds, ROG Certified Memory, Origin Code 4R and EXPO-ULL Memory",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Biwin is a major OEM of PC memory and SSDs, the company showcased the best of its own channel brands at Computex 2026. We begin our tour of their booth with the new Origin Code brand of enthusiast-segment memory from...",
-    "url": "https://www.techpowerup.com/349608/biwin-at-computex-2026-mini-ssds-for-handhelds-rog-certified-memory-origin-code-4r-and-expo-ull-memory",
-    "image": "https://www.techpowerup.com/img/3fMmuVN1ODd49rQi.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Exascend Enterprise and Client SSDs at Computex 2026, NVMe 2.1 Makes a Splash",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "At Computex 2026, Exascend, the enterprise and workstation brand of Memoright, showcased its first SSDs to implement the new NVMe 2.1 protocol. Current PCIe Gen 5 based SSDs are based on NVMe 2.0, and the new NVMe 2.1...",
-    "url": "https://www.techpowerup.com/349607/exascend-enterprise-and-client-ssds-at-computex-2026-nvme-2-1-makes-a-splash",
-    "image": "https://www.techpowerup.com/img/JKTUH0y20TJnoHWh.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "COLORFUL At Computex 2026: Epoch Series Notebooks, iGame Desktops, and a Prototype for the Living Room",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "COLORFUL at the 2026 Computex showed off its new prebuilt notebooks, desktops, and a stunning new prototype product. The company debuted the Epoch Air 14 Ultra, an ultraportable with a powerful set of hardware based o...",
-    "url": "https://www.techpowerup.com/349606/colorful-at-computex-2026-epoch-series-notebooks-igame-desktops-and-a-prototype-for-the-living-room",
-    "image": "https://www.techpowerup.com/img/sDvRy6fh7UeM6WBf.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "NVIDIA Already Planning the 2nd and 3rd Generations of RTX Spark, Secures Supply for Robust Growth",
-    "date": "2026-06-02",
-    "category": "Industrie",
-    "description": "NVIDIA in its interactions with the press at Computex 2026 says that it has secured enough supply of the 3 nm N1X silicon from TSMC to ensure robust growth of the RTX Spark processor in the PC industry. The company se...",
-    "url": "https://www.techpowerup.com/349605/nvidia-already-planning-the-2nd-and-3rd-generations-of-rtx-spark-secures-supply-for-robust-growth",
-    "image": "https://www.techpowerup.com/img/qDEVuHg2vrH7sSLv.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Lexar Eyes Next-Generation AI Solutions with ASUS Collaboration on Mini-PCs, Handheld Gaming and High-Performanc...",
-    "date": "2026-06-02",
-    "category": "Hardware",
-    "description": "Lexar, a leading global brand in memory and storage solutions, will unveil a key collaboration with ASUS at COMPUTEX 2026 that will showcase the company's advanced capabilities as the world of AI dramatically increase...",
-    "url": "https://www.techpowerup.com/349604/lexar-eyes-next-generation-ai-solutions-with-asus-collaboration-on-mini-pcs-handheld-gaming-and-high-performance-gaming-memory",
-    "image": "https://www.techpowerup.com/img/ZKEnI1enQy6txSjG.jpg",
-    "source": "TechPowerUp"
   }
 ]
