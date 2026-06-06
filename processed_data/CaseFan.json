@@ -325,7 +325,7 @@
         "min_airflow": 16.5,
         "max_airflow": 71.6,
         "min_noise_level": 10,
-        "max_noise_level": 29.5,
+        "max_noise_level": 36.5,
         "static_pressure": 4.18,
         "color": [
             "BLACK"
@@ -2181,8 +2181,7 @@
         "max_noise_level": 36,
         "static_pressure": 4.16,
         "color": [
-            "BLACK",
-            "RGB"
+            "BLACK"
         ],
         "fan_size": "120mm",
         "features": "RGB, PWM",
@@ -2237,8 +2236,7 @@
         "max_noise_level": 31,
         "static_pressure": 2.38,
         "color": [
-            "BLACK",
-            "RGB"
+            "BLACK"
         ],
         "fan_size": "140mm",
         "features": "RGB, ARGB",
