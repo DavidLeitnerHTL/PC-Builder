@@ -180,21 +180,6 @@
         "last_updated": "2026-06-07T07:13:27.857Z"
     },
     {
-        "id": "d9ec7e79-51e4-4763-8f51-d72ecd8feba0",
-        "name": "AMD Ryzen 5 1600 (12nm) 3.2 GHz 6-Core AM4",
-        "variant": "",
-        "amazon_sku": "B07XTQZJ28",
-        "clean_name": "AMD Ryzen 5 1600 (12nm)",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.2 GHz",
-        "price": 47.63,
-        "last_updated": "2026-06-07T07:13:41.831Z"
-    },
-    {
         "id": "ea92e2c9-afa9-4c7a-8f25-df4083b0680f",
         "name": "AMD Ryzen 5 1600 (14nm) 3.2 GHz 6-Core AM4",
         "variant": "",
@@ -480,21 +465,6 @@
         "last_updated": "2026-06-07T07:18:14.374Z"
     },
     {
-        "id": "e16a10af-3e6e-4d60-8f7b-96f054281fa6",
-        "name": "Intel Core i3 13100F 3.4 GHz 4-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "B0BQ6BCWC4",
-        "clean_name": "Intel Core i3 13100F",
-        "socket": "LGA 1700",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 58,
-        "ram_type": "DDR5",
-        "clock_speed": "3.4 GHz",
-        "price": 97.6,
-        "last_updated": "2026-06-07T07:21:55.955Z"
-    },
-    {
         "id": "6030a0b4-dc81-4bd6-bc2c-819e643f3a7d",
         "name": "Intel Core i3 14100 3.5 GHz 4-Core LGA1700",
         "variant": "",
@@ -540,21 +510,6 @@
         "last_updated": "2026-06-07T07:23:48.031Z"
     },
     {
-        "id": "b20e3cca-2a76-407d-9a2b-a8d191215899",
-        "name": "Intel Core i5 13400 2.5 GHz 10-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "B0BQ68QB6R",
-        "clean_name": "Intel Core i5 13400",
-        "socket": "LGA 1700",
-        "cores": 10,
-        "threads": 16,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "2.5 GHz",
-        "price": 248.06,
-        "last_updated": "2026-06-07T07:24:25.071Z"
-    },
-    {
         "id": "f5cb6fa2-042a-48ce-a09d-eaf41290a607",
         "name": "Intel Core i5 13500 2.5 GHz 14-Core LGA1700",
         "variant": "",
@@ -570,36 +525,6 @@
         "last_updated": "2026-06-07T07:24:32.807Z"
     },
     {
-        "id": "e53fd77d-8083-4243-8739-a8ec2311b25a",
-        "name": "Intel Core i5 14500 2.6 GHz 14-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "B0CQ27H8VY",
-        "clean_name": "Intel Core i5 14500",
-        "socket": "LGA 1700",
-        "cores": 14,
-        "threads": 20,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "2.6 GHz",
-        "price": 97.6,
-        "last_updated": "2026-06-07T07:25:19.075Z"
-    },
-    {
-        "id": "868feebe-9c5d-47c2-b0e9-4aa78708b574",
-        "name": "Intel Core i7 12700 2.1 GHz 12-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "B09NPHHSZ1",
-        "clean_name": "Intel Core i7 12700",
-        "socket": "LGA 1700",
-        "cores": 12,
-        "threads": 20,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "2.1 GHz",
-        "price": 442.29,
-        "last_updated": "2026-06-07T07:25:24.938Z"
-    },
-    {
         "id": "7f0f36c1-c2c5-4bb9-bc9d-e3be2999a3fc",
         "name": "Intel Core i7 13700 2.1 GHz 16-Core LGA1700",
         "variant": "",
@@ -613,21 +538,6 @@
         "clock_speed": "2.1 GHz",
         "price": 595.51,
         "last_updated": "2026-06-07T07:25:47.919Z"
-    },
-    {
-        "id": "ebb0e539-2265-4e3f-bb05-960429116b4b",
-        "name": "Intel Core i7 13700F 2.1 GHz 16-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "B0BQ6CSY9C",
-        "clean_name": "Intel Core i7 13700F",
-        "socket": "LGA 1700",
-        "cores": 16,
-        "threads": 24,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "2.1 GHz",
-        "price": 292.93,
-        "last_updated": "2026-06-07T07:25:59.875Z"
     },
     {
         "id": "a6fe3c8d-4bf6-49ef-887b-9d53b8c635e8",
@@ -660,21 +570,6 @@
         "last_updated": "2026-06-07T07:27:08.400Z"
     },
     {
-        "id": "310fc3af-a1f1-4923-8f2f-5f835020fac1",
-        "name": "Intel Core i9 13900KF 3.0 GHz 24-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "B0BCFM3CJ4",
-        "clean_name": "Intel Core i9 13900KF",
-        "socket": "LGA 1700",
-        "cores": 24,
-        "threads": 32,
-        "tdp": 125,
-        "ram_type": "DDR5",
-        "clock_speed": "3.0 GHz",
-        "price": 349,
-        "last_updated": "2026-06-07T07:57:22.058Z"
-    },
-    {
         "id": "8fa3e52f-5fef-48ff-bba6-0f81708ccacf",
         "name": "AMD Ryzen 3 3200G",
         "variant": "3200G",
@@ -701,6 +596,20 @@
         "ram_type": "DDR4",
         "price": 46.33,
         "last_updated": "2026-06-07T07:27:39.391Z"
+    },
+    {
+        "id": "d9ec7e79-51e4-4763-8f51-d72ecd8feba0",
+        "name": "AMD Ryzen 5 1600",
+        "variant": "1600",
+        "amazon_sku": "B07XTQZJ28",
+        "clean_name": "AMD Ryzen 5 1600",
+        "socket": "AM4",
+        "cores": 6,
+        "threads": 12,
+        "tdp": 65,
+        "ram_type": "DDR4",
+        "price": 47.63,
+        "last_updated": "2026-06-07T07:13:41.831Z"
     },
     {
         "id": "d4f192f2-115a-4821-9510-369615c4b0a4",
@@ -1347,6 +1256,34 @@
         "last_updated": "2026-06-07T07:56:33.262Z"
     },
     {
+        "id": "e16a10af-3e6e-4d60-8f7b-96f054281fa6",
+        "name": "Intel Core i3 13100F",
+        "variant": "13100F",
+        "amazon_sku": "B0BQ6BCWC4",
+        "clean_name": "Intel Core i3 13100F",
+        "socket": "LGA 1700",
+        "cores": 4,
+        "threads": 8,
+        "tdp": 58,
+        "ram_type": "DDR5",
+        "price": 97.6,
+        "last_updated": "2026-06-07T07:21:55.955Z"
+    },
+    {
+        "id": "b20e3cca-2a76-407d-9a2b-a8d191215899",
+        "name": "Intel Core i5 13400",
+        "variant": "13400",
+        "amazon_sku": "B0BQ68QB6R",
+        "clean_name": "Intel Core i5 13400",
+        "socket": "LGA 1700",
+        "cores": 10,
+        "threads": 16,
+        "tdp": 65,
+        "ram_type": "DDR5",
+        "price": 248.06,
+        "last_updated": "2026-06-07T07:24:25.071Z"
+    },
+    {
         "id": "0240f7db-68e5-4aac-9438-41d2f12ec15a",
         "name": "Intel Core i5 14400F",
         "variant": "14400F",
@@ -1359,6 +1296,48 @@
         "ram_type": "DDR5",
         "price": 125.29,
         "last_updated": "2026-06-07T07:56:42.150Z"
+    },
+    {
+        "id": "e53fd77d-8083-4243-8739-a8ec2311b25a",
+        "name": "Intel Core i5 14500",
+        "variant": "14500",
+        "amazon_sku": "B0CQ27H8VY",
+        "clean_name": "Intel Core i5 14500",
+        "socket": "LGA 1700",
+        "cores": 14,
+        "threads": 20,
+        "tdp": 65,
+        "ram_type": "DDR5",
+        "price": 97.6,
+        "last_updated": "2026-06-07T07:25:19.075Z"
+    },
+    {
+        "id": "868feebe-9c5d-47c2-b0e9-4aa78708b574",
+        "name": "Intel Core i7 12700",
+        "variant": "12700",
+        "amazon_sku": "B09NPHHSZ1",
+        "clean_name": "Intel Core i7 12700",
+        "socket": "LGA 1700",
+        "cores": 12,
+        "threads": 20,
+        "tdp": 65,
+        "ram_type": "DDR5",
+        "price": 442.29,
+        "last_updated": "2026-06-07T07:25:24.938Z"
+    },
+    {
+        "id": "ebb0e539-2265-4e3f-bb05-960429116b4b",
+        "name": "Intel Core i7 13700F",
+        "variant": "13700F",
+        "amazon_sku": "B0BQ6CSY9C",
+        "clean_name": "Intel Core i7 13700F",
+        "socket": "LGA 1700",
+        "cores": 16,
+        "threads": 24,
+        "tdp": 65,
+        "ram_type": "DDR5",
+        "price": 292.93,
+        "last_updated": "2026-06-07T07:25:59.875Z"
     },
     {
         "id": "4c755ff5-c35b-433b-a2fb-66e65d2ac68e",
@@ -1375,19 +1354,18 @@
         "last_updated": "2026-06-07T07:26:42.094Z"
     },
     {
-        "id": "8a185318-6ca2-4a53-93b1-f01d9d5dbad1",
-        "name": "Intel Core i9 12900KS 3.4 GHz 16-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "B09RWL74GY",
-        "clean_name": "Intel Core i9 12900KS",
+        "id": "310fc3af-a1f1-4923-8f2f-5f835020fac1",
+        "name": "Intel Core i9 13900KF",
+        "variant": "13900KF",
+        "amazon_sku": "B0BCFM3CJ4",
+        "clean_name": "Intel Core i9 13900KF",
         "socket": "LGA 1700",
-        "cores": 16,
-        "threads": 24,
-        "tdp": 150,
+        "cores": 24,
+        "threads": 32,
+        "tdp": 125,
         "ram_type": "DDR5",
-        "clock_speed": "3.4 GHz",
-        "available": false,
-        "last_updated": "2026-06-04T08:17:26.645Z"
+        "price": 349,
+        "last_updated": "2026-06-07T07:57:22.058Z"
     },
     {
         "id": "7f001c73-b6ad-4adc-a2cf-e4f3d300bb5a",
@@ -1403,6 +1381,20 @@
         "clock_speed": "2 GHz",
         "available": false,
         "last_updated": "2026-06-07T07:57:29.805Z"
+    },
+    {
+        "id": "8a185318-6ca2-4a53-93b1-f01d9d5dbad1",
+        "name": "Intel Core i9 12900KS",
+        "variant": "12900KS",
+        "amazon_sku": "B09RWL74GY",
+        "clean_name": "Intel Core i9 12900KS",
+        "socket": "LGA 1700",
+        "cores": 16,
+        "threads": 24,
+        "tdp": 150,
+        "ram_type": "DDR5",
+        "available": false,
+        "last_updated": "2026-06-04T08:17:26.645Z"
     },
     {
         "id": "182326d2-d7a5-495e-811c-2b6bcb28e029",
@@ -1431,16 +1423,16 @@
         "clock_speed": "3.4 GHz"
     },
     {
-        "id": "8a75e218-1c37-4639-9945-59d320271ffc",
-        "name": "Intel Core i9 12900KF 3.2 GHz 16-Core LGA1700",
+        "id": "1292d93d-417f-4ec6-b84f-21be2d85b2b2",
+        "name": "Intel Core i9 14900F 2.0 GHz 24-Core LGA1700",
         "variant": "",
-        "amazon_sku": "B09FWYK5M9",
-        "clean_name": "Intel Core i9 12900KF",
+        "amazon_sku": "B0CQ1FC8WZ",
+        "clean_name": "Intel Core i9 14900F",
         "socket": "LGA 1700",
-        "cores": 16,
-        "threads": 24,
-        "tdp": 125,
+        "cores": 24,
+        "threads": 32,
+        "tdp": 65,
         "ram_type": "DDR5",
-        "clock_speed": "3.2 GHz"
+        "clock_speed": "2.0 GHz"
     }
 ]
