@@ -12,8 +12,6 @@ function getCurrentPage() {
 function renderHeader() {
     const currentPage = getCurrentPage();
     const isActive = (href) => currentPage === href.toLowerCase() ? 'active' : '';
-    const toolPages = ['compare.html', 'bottleneck.html', 'budget.html'];
-    const isToolActive = toolPages.includes(currentPage) ? 'active' : '';
 
     return `
   <header>
@@ -29,16 +27,6 @@ function renderHeader() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav nav-pills ms-auto gap-1 align-items-center">
             <li class="nav-item"><a class="nav-link ${isActive('builder.html')}" href="builder.html"><i class="fas fa-sliders me-1"></i>Konfigurator</a></li>
-            <li class="nav-item">
-              <button id="tools-toggle" class="nav-link ${isToolActive}" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-wrench me-1"></i>Tools
-              </button>
-              <ul id="tools-menu" class="nav-tools-menu" role="menu" aria-labelledby="tools-toggle">
-                <li><a class="dropdown-item ${isActive('compare.html')}" href="compare.html"><i class="fas fa-code-compare me-2"></i>Vergleich</a></li>
-                <li><a class="dropdown-item ${isActive('bottleneck.html')}" href="bottleneck.html"><i class="fas fa-gauge me-2"></i>Bottleneck</a></li>
-                <li><a class="dropdown-item ${isActive('budget.html')}" href="budget.html"><i class="fas fa-wallet me-2"></i>Budget</a></li>
-              </ul>
-            </li>
             <li class="nav-item"><a class="nav-link ${isActive('knowledge.html')}" href="knowledge.html"><i class="fas fa-graduation-cap me-1"></i>Wissen</a></li>
             <li class="nav-item"><a class="nav-link ${isActive('faq.html')}" href="faq.html"><i class="fas fa-circle-question me-1"></i>FAQ</a></li>
             <li class="nav-item"><a class="nav-link ${isActive('news.html')}" href="news.html"><i class="fas fa-bolt me-1"></i>News</a></li>
@@ -97,44 +85,6 @@ function renderFooter() {
     `.trim();
 }
 
-function setupToolsDropdown() {
-    const toggle = document.getElementById('tools-toggle');
-    const menu = document.getElementById('tools-menu');
-    // Guard: already initialised (menu teleported to body) or elements missing
-    if (!toggle || !menu || menu.parentElement === document.body) return;
-
-    // Teleport menu to <body> so it escapes the navbar's backdrop-filter
-    // stacking context (which clips position:fixed/absolute children).
-    document.body.appendChild(menu);
-
-    function open() {
-        const r = toggle.getBoundingClientRect();
-        menu.style.top  = (r.bottom + 6) + 'px';
-        menu.style.right = (window.innerWidth - r.right) + 'px';
-        menu.classList.add('show');
-        toggle.setAttribute('aria-expanded', 'true');
-    }
-
-    function close() {
-        menu.classList.remove('show');
-        toggle.setAttribute('aria-expanded', 'false');
-    }
-
-    toggle.addEventListener('click', (e) => {
-        e.stopPropagation();
-        menu.classList.contains('show') ? close() : open();
-    });
-
-    // Close on outside click
-    document.addEventListener('click', close);
-    // Keep open when clicking inside the menu
-    menu.addEventListener('click', (e) => e.stopPropagation());
-
-    // Reposition on scroll/resize so it tracks the toggle button
-    window.addEventListener('scroll', () => { if (menu.classList.contains('show')) open(); }, { passive: true });
-    window.addEventListener('resize', () => { if (menu.classList.contains('show')) open(); }, { passive: true });
-}
-
 function initSiteLayout() {
     const headerPlaceholder = document.getElementById('site-header');
     if (headerPlaceholder) {
@@ -146,7 +96,6 @@ function initSiteLayout() {
         footerPlaceholder.outerHTML = renderFooter();
     }
 
-    setupToolsDropdown();
 }
 
 if (document.readyState === 'loading') {

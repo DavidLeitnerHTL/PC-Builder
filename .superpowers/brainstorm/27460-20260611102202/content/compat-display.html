@@ -1,0 +1,83 @@
+<h2>Wie sollen Kompatibilität & Bottleneck im Builder angezeigt werden?</h2>
+<p class="subtitle">Wähle den Anzeigestil der dir am besten gefällt</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:1rem;background:var(--bg-secondary);border-radius:8px">
+      <div style="font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-bottom:.5rem">BUILD STATUS</div>
+      <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.75rem">
+        <span style="background:#22c55e22;color:#22c55e;border:1px solid #22c55e44;border-radius:20px;padding:.2rem .6rem;font-size:.75rem;font-weight:600">✓ Socket: AM5</span>
+        <span style="background:#22c55e22;color:#22c55e;border:1px solid #22c55e44;border-radius:20px;padding:.2rem .6rem;font-size:.75rem;font-weight:600">✓ DDR5</span>
+        <span style="background:#ef444422;color:#ef4444;border:1px solid #ef444444;border-radius:20px;padding:.2rem .6rem;font-size:.75rem;font-weight:600">⚠ PSU zu schwach</span>
+        <span style="background:#22c55e22;color:#22c55e;border:1px solid #22c55e44;border-radius:20px;padding:.2rem .6rem;font-size:.75rem;font-weight:600">✓ Case passt</span>
+      </div>
+      <div style="background:#f59e0b22;border:1px solid #f59e0b44;border-radius:8px;padding:.5rem .75rem;font-size:.78rem;color:#f59e0b">
+        ⚡ Bottleneck ~18% — GPU limitiert (RTX 4090 vs. i5-12400)
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Status-Bar oben</h3>
+      <p>Kompakte Badge-Leiste immer sichtbar über dem Build. Bottleneck als eigene Zeile darunter.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:1rem;background:var(--bg-secondary);border-radius:8px">
+      <div style="font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-bottom:.5rem">KOMPONENTE</div>
+      <div style="display:flex;justify-content:space-between;align-items:center;background:var(--bg-card);border:1px solid #22c55e55;border-radius:8px;padding:.5rem .75rem;margin-bottom:.4rem">
+        <span style="font-size:.85rem;font-weight:600">CPU: AMD Ryzen 5 7600X</span>
+        <span style="color:#22c55e;font-size:.8rem;font-weight:600">✓</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;background:var(--bg-card);border:1px solid #22c55e55;border-radius:8px;padding:.5rem .75rem;margin-bottom:.4rem">
+        <span style="font-size:.85rem;font-weight:600">MB: ASUS ROG X670E</span>
+        <span style="color:#22c55e;font-size:.8rem;font-weight:600">✓ AM5 · DDR5</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;background:var(--bg-card);border:1px solid #ef444455;border-radius:8px;padding:.5rem .75rem;margin-bottom:.4rem">
+        <span style="font-size:.85rem;font-weight:600">PSU: 650W</span>
+        <span style="color:#ef4444;font-size:.8rem;font-weight:600">✗ Zu wenig (750W nötig)</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;background:var(--bg-card);border:1px solid #f59e0b55;border-radius:8px;padding:.5rem .75rem">
+        <span style="font-size:.85rem;font-weight:600">Bottleneck</span>
+        <span style="color:#f59e0b;font-size:.8rem;font-weight:600">~18% GPU-limitiert</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Pro Komponente inline</h3>
+      <p>Direkt neben jeder Zeile im Konfigurator. Fehler sofort bei der betroffenen Komponente sichtbar.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:1rem;background:var(--bg-secondary);border-radius:8px">
+      <div style="display:flex;gap:.75rem">
+        <div style="flex:1;background:var(--bg-card);border-radius:8px;padding:.75rem;border:1px solid var(--border-color)">
+          <div style="font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-bottom:.5rem">KOMPATIBILITÄT</div>
+          <div style="font-size:.82rem;color:#22c55e;margin-bottom:.3rem">✓ Socket OK</div>
+          <div style="font-size:.82rem;color:#22c55e;margin-bottom:.3rem">✓ RAM OK</div>
+          <div style="font-size:.82rem;color:#ef4444;margin-bottom:.3rem">✗ PSU zu schwach</div>
+          <div style="font-size:.82rem;color:#22c55e">✓ Case OK</div>
+        </div>
+        <div style="flex:1;background:var(--bg-card);border-radius:8px;padding:.75rem;border:1px solid var(--border-color)">
+          <div style="font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-bottom:.5rem">BOTTLENECK</div>
+          <div style="margin-bottom:.4rem">
+            <div style="display:flex;justify-content:space-between;font-size:.75rem;margin-bottom:.2rem"><span>CPU</span><span>62%</span></div>
+            <div style="height:6px;background:#333;border-radius:3px"><div style="width:62%;height:100%;background:#22c55e;border-radius:3px"></div></div>
+          </div>
+          <div>
+            <div style="display:flex;justify-content:space-between;font-size:.75rem;margin-bottom:.2rem"><span>GPU</span><span style="color:#f59e0b">81%</span></div>
+            <div style="height:6px;background:#333;border-radius:3px"><div style="width:81%;height:100%;background:#f59e0b;border-radius:3px"></div></div>
+          </div>
+          <div style="font-size:.72rem;color:#f59e0b;margin-top:.5rem">GPU-Bottleneck ~18%</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Seitenleiste / Panel</h3>
+      <p>Eigenes Panel neben oder unter dem Konfigurator. Beide Infos kompakt nebeneinander mit Balken.</p>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:1.5rem">Auch Kombinationen möglich — z.B. B + C</p>

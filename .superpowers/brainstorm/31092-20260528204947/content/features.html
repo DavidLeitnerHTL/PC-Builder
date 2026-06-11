@@ -1,0 +1,52 @@
+<h2>Was soll als nächstes gebaut werden?</h2>
+<p class="subtitle">Wähle eine oder mehrere Features — ich plane dann die Umsetzung.</p>
+
+<div class="options" data-multiselect>
+  <div class="option" data-choice="share" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Build-Sharing via URL</h3>
+      <p>Build als shareable Link exportieren — alle Komponenten sind in der URL kodiert. Jemand öffnet den Link und sieht sofort den konfigurierten PC.</p>
+      <div style="margin-top:0.5rem">
+        <span style="font-size:0.75rem;background:var(--accent-color);color:#fff;padding:2px 8px;border-radius:99px;opacity:0.85">Frontend only</span>
+        <span style="font-size:0.75rem;background:rgba(128,128,128,0.2);padding:2px 8px;border-radius:99px;margin-left:4px">~1–2h</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="compare" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Produkt-Vergleich</h3>
+      <p>Bis zu 3 Komponenten einer Kategorie nebeneinander vergleichen — Specs, Preis, Preisverlauf. Wie ein Mini-Vergleichsportal.</p>
+      <div style="margin-top:0.5rem">
+        <span style="font-size:0.75rem;background:var(--accent-color);color:#fff;padding:2px 8px;border-radius:99px;opacity:0.85">Frontend only</span>
+        <span style="font-size:0.75rem;background:rgba(128,128,128,0.2);padding:2px 8px;border-radius:99px;margin-left:4px">~3–5h</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="bottleneck" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Bottleneck-Rechner</h3>
+      <p>CPU + GPU auswählen → Bottleneck-Prozentsatz berechnen & visuell anzeigen. Zeigt welches Teil der Flaschenhals ist.</p>
+      <div style="margin-top:0.5rem">
+        <span style="font-size:0.75rem;background:var(--accent-color);color:#fff;padding:2px 8px;border-radius:99px;opacity:0.85">Frontend only</span>
+        <span style="font-size:0.75rem;background:rgba(128,128,128,0.2);padding:2px 8px;border-radius:99px;margin-left:4px">~2–4h</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="budget" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>Budget-Optimierer</h3>
+      <p>Budget eingeben (z.B. €800) → automatisch bestes Build vorschlagen das ins Budget passt. Nutzt echte Preise aus den JSON-Daten.</p>
+      <div style="margin-top:0.5rem">
+        <span style="font-size:0.75rem;background:var(--accent-color);color:#fff;padding:2px 8px;border-radius:99px;opacity:0.85">Frontend only</span>
+        <span style="font-size:0.75rem;background:rgba(128,128,128,0.2);padding:2px 8px;border-radius:99px;margin-left:4px">~3–5h</span>
+      </div>
+    </div>
+  </div>
+</div>
