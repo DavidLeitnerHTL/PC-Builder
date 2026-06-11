@@ -38,12 +38,6 @@
   <link href="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/css/tom-select.bootstrap5.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
-  <style>
-    .compat-check { display:flex; align-items:flex-start; gap:.35rem; padding:.18rem 0; font-size:.82rem; line-height:1.35; }
-    .compat-check i { margin-top:.15rem; flex-shrink:0; }
-    .compat-ok    { color:#22c55e; }
-    .compat-error { color:#ef4444; cursor:help; }
-  </style>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -210,21 +204,26 @@
         <!-- Compatibility & Bottleneck Panel -->
         <div class="col-lg-4" id="compat-panel-col">
           <div id="compat-panel" style="position:sticky;top:90px;display:none">
-            <div style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:1.25rem">
-              <div style="font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text-secondary);margin-bottom:1rem">Build-Status</div>
-              <div style="font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--text-secondary);margin-bottom:.5rem">
+            <div class="compat-panel-card">
+              <div class="compat-panel-title">
+                <i class="fas fa-shield-halved me-1"></i>Build-Status
+              </div>
+              <div class="compat-section-label">
                 <i class="fas fa-check-circle me-1"></i>Kompatibilität
               </div>
-              <div id="compat-list" style="margin-bottom:.25rem"></div>
-              <div style="height:1px;background:var(--border-color);margin:1rem 0"></div>
-              <div style="font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--text-secondary);margin-bottom:.5rem">
+              <div id="compat-list" class="mb-1"></div>
+              <div class="compat-divider"></div>
+              <div class="compat-section-label">
                 <i class="fas fa-gauge me-1"></i>Bottleneck
               </div>
               <div id="bottleneck-content"></div>
             </div>
-            <button class="btn btn-warning fw-bold w-100 mt-2" onclick="openAmazonCart()" id="btn-amazon-cart">
+            <a id="btn-amazon-cart"
+               class="btn btn-outline-accent fw-bold w-100 mt-2"
+               href="#" target="_blank" rel="noopener noreferrer"
+               style="display:none">
               <i class="fab fa-amazon me-2"></i>In Amazon-Warenkorb
-            </button>
+            </a>
           </div>
         </div>
 

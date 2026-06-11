@@ -352,6 +352,20 @@ function updateCompatibilityPanel() {
         }
     }
 
+    // Update Amazon cart link (always runs when panel is visible)
+    const cartLink = document.getElementById('btn-amazon-cart');
+    if (cartLink) {
+        const allIds = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case', 'os', 'casefan'];
+        const asins = allIds.map(id => getSelected(id)).filter(c => c && c.amazon_sku).map(c => c.amazon_sku);
+        if (asins.length > 0) {
+            const params = asins.map((asin, i) => `ASIN.${i + 1}=${encodeURIComponent(asin)}&Quantity.${i + 1}=1`).join('&');
+            cartLink.href = `https://www.amazon.de/gp/aws/cart/add.html?${params}`;
+            cartLink.style.display = '';
+        } else {
+            cartLink.style.display = 'none';
+        }
+    }
+
     // Bottleneck bars
     const btEl = document.getElementById('bottleneck-content');
     if (!btEl) return;
@@ -847,29 +861,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 });
 
-// ==========================================
-// AMAZON CART
-// ==========================================
-
-function openAmazonCart() {
-    const selectIds = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case', 'os', 'casefan'];
-    const asins = [];
-
-    selectIds.forEach(id => {
-        const comp = getSelected(id);
-        if (comp && comp.amazon_sku) {
-            asins.push(comp.amazon_sku);
-        }
-    });
-
-    if (asins.length === 0) {
-        showToast('Keine Komponenten mit Amazon-ASIN ausgewählt.', 'error');
-        return;
-    }
-
-    const params = asins.map((asin, i) => `ASIN.${i + 1}=${asin}&Quantity.${i + 1}=1`).join('&');
-    window.open(`https://www.amazon.de/gp/aws/cart/add.html?${params}`, '_blank');
-}
 
 // ==========================================
 // SAVE/LOAD BUILD FEATURE

@@ -110,7 +110,7 @@ body {
   color: var(--text-primary);
   transition: background-color var(--transition-slow), color var(--transition-normal);
   line-height: 1.6;
-  overflow-x: hidden;
+  overflow-x: clip; /* clip instead of hidden — hidden creates a scroll container that breaks position:sticky */
 }
 
 /* === SCROLLBAR === */
@@ -273,6 +273,41 @@ main::before {
   color: var(--text-primary);
   padding: 1.2rem 1.5rem;
 }
+
+/* === COMPAT / BOTTLENECK PANEL === */
+.compat-panel-card {
+  background: var(--bg-card);
+  background-image: var(--card-gradient);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  color: var(--text-primary);
+}
+.compat-panel-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--accent-color);
+  margin-bottom: .75rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+.compat-section-label {
+  font-size: .68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--text-secondary);
+  margin-bottom: .4rem;
+}
+.compat-divider { height: 1px; background: var(--border-color); margin: .9rem 0; }
+.compat-check   { display: flex; align-items: flex-start; gap: .35rem; padding: .18rem 0; font-size: .82rem; line-height: 1.35; }
+.compat-check i { margin-top: .15rem; flex-shrink: 0; }
+.compat-ok      { color: #22c55e; }
+.compat-error   { color: #ef4444; cursor: help; }
 
 /* === NEWS CARDS === */
 .news-card {
