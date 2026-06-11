@@ -435,21 +435,6 @@
         "last_updated": "2026-06-09T07:16:25.310Z"
     },
     {
-        "id": "6030a0b4-dc81-4bd6-bc2c-819e643f3a7d",
-        "name": "Intel Core i3 14100 3.5 GHz 4-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "B0CQ1S3L53",
-        "clean_name": "Intel Core i3 14100",
-        "socket": "LGA 1700",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 60,
-        "ram_type": "DDR5",
-        "clock_speed": "3.5 GHz",
-        "price": 60.41,
-        "last_updated": "2026-06-09T07:01:35.830Z"
-    },
-    {
         "id": "34711b7b-a952-4b0d-a251-3774b3406e3d",
         "name": "Intel Core i5 12500 3.0 GHz 6-Core LGA1700",
         "variant": "",
@@ -528,7 +513,7 @@
         "id": "8fa3e52f-5fef-48ff-bba6-0f81708ccacf",
         "name": "AMD Ryzen 3 3200G",
         "variant": "3200G",
-        "amazon_sku": "B07STGHZK8",
+        "amazon_sku": "B08VF6FTYY",
         "clean_name": "AMD Ryzen 3 3200G",
         "socket": "AM4",
         "cores": 4,
@@ -1253,6 +1238,20 @@
         "last_updated": "2026-06-09T07:13:49.324Z"
     },
     {
+        "id": "6030a0b4-dc81-4bd6-bc2c-819e643f3a7d",
+        "name": "Intel Core i3 14100",
+        "variant": "14100",
+        "amazon_sku": "B0CQ1S3L53",
+        "clean_name": "Intel Core i3 14100",
+        "socket": "LGA 1700",
+        "cores": 4,
+        "threads": 8,
+        "tdp": 60,
+        "ram_type": "DDR5",
+        "price": 60.41,
+        "last_updated": "2026-06-09T07:01:35.830Z"
+    },
+    {
         "id": "b20e3cca-2a76-407d-9a2b-a8d191215899",
         "name": "Intel Core i5 13400",
         "variant": "13400",
@@ -1394,8 +1393,8 @@
     },
     {
         "id": "7f001c73-b6ad-4adc-a2cf-e4f3d300bb5a",
-        "name": "Intel Core i9 13900 2 GHz 24-Core LGA1700",
-        "variant": "",
+        "name": "Intel Core i9 13900",
+        "variant": "13900",
         "amazon_sku": "B0BQ69VJ1S",
         "clean_name": "Intel Core i9 13900",
         "socket": "LGA 1700",
@@ -1403,7 +1402,6 @@
         "threads": 32,
         "tdp": 65,
         "ram_type": "DDR5",
-        "clock_speed": "2 GHz",
         "available": false,
         "last_updated": "2026-06-07T07:57:29.805Z"
     },

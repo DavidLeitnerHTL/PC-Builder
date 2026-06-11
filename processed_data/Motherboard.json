@@ -267,7 +267,7 @@
         "id": "f976c79b-32a0-4787-83be-3224cef7ac1f",
         "name": "ASRock B550 Phantom Gaming 4 AM4 DDR4 ATX",
         "variant": "",
-        "amazon_sku": "B089VTZ83Q",
+        "amazon_sku": "B088VSTS9H",
         "clean_name": "ASRock B550 Phantom Gaming 4",
         "socket": "AM4",
         "form_factor": "ATX",
@@ -891,7 +891,7 @@
         "id": "a5a2e61e-9647-4f0f-a1da-1883d4616cac",
         "name": "ASRock Z790 Taichi Carrara DDR5 EATX",
         "variant": "",
-        "amazon_sku": "B0BJZF7XNW",
+        "amazon_sku": "B0BHMTC99Q",
         "clean_name": "ASRock Z790 Taichi Carrara",
         "socket": "LGA 1700",
         "form_factor": "EATX",
@@ -975,7 +975,7 @@
         "id": "84367bb4-4cc2-45db-96ad-0e50b956e908",
         "name": "Asus B660 PRIME PLUS D4 DDR4 ATX",
         "variant": "",
-        "amazon_sku": "B09P3TTXPT",
+        "amazon_sku": "B09NWDQ1TH",
         "clean_name": "Asus B660 PRIME PLUS D4",
         "socket": "LGA 1700",
         "form_factor": "ATX",
@@ -1039,17 +1039,6 @@
         "form_factor": "ATX",
         "price": 115.96,
         "last_updated": "2026-06-09T08:13:00.409Z"
-    },
-    {
-        "id": "a4d88537-e49a-4e04-a44e-6080c1c4a6c9",
-        "name": "ASRock Z890 Riptide WiFi",
-        "variant": "Z890 Riptide WiFi",
-        "amazon_sku": "B0DJPY6CZX",
-        "clean_name": "ASRock Z890 Riptide WiFi",
-        "socket": "LGA 1851",
-        "form_factor": "ATX",
-        "price": 269.85,
-        "last_updated": "2026-06-09T08:13:10.026Z"
     },
     {
         "id": "b91f34ff-63dc-4904-8cb7-d0c230d6d08d",
@@ -1188,5 +1177,15 @@
         "socket": "AM5",
         "form_factor": "Micro ATX",
         "memory_type": "DDR5"
+    },
+    {
+        "id": "d078fe2d-1b09-4621-92d0-3ea05db26507",
+        "name": "ASRock B350 AB350M Pro4 AM4 DDR4 Micro ATX",
+        "variant": "",
+        "amazon_sku": "B06X9LN3QK",
+        "clean_name": "ASRock B350 AB350M Pro4",
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "memory_type": "DDR4"
     }
 ]
