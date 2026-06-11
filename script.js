@@ -217,6 +217,183 @@ const PRESETS = {
 };
 
 // ==========================================
+// COMPATIBILITY & BOTTLENECK PANEL
+// ==========================================
+
+function getProductSpecs(product, category) {
+    switch (category) {
+        case 'CPU':         return { socket: product.socket, tdp: product.tdp, cores: product.cores, clock_speed: product.clock_speed, passmark_score: product.passmark_score };
+        case 'CPUCooler':   return { height: product.height };
+        case 'Motherboard': return { socket: product.socket, form_factor: product.form_factor, memory_type: product.memory_type };
+        case 'GPU':         return { length: product.length, tdp: product.tdp, vram: product.vram, boost_clock: product.boost_clock, passmark_score: product.passmark_score };
+        case 'RAM':         return { ram_type: product.ram_type };
+        case 'PSU':         return { wattage: product.wattage };
+        case 'PCCase':      return { motherboard_support: product.motherboard_support, max_gpu_length: product.max_gpu_length, max_cooler_height: product.max_cooler_height };
+        default:            return {};
+    }
+}
+
+function getSelected(selectId) {
+    const ts = tomSelectInstances[selectId];
+    if (!ts) return null;
+    const val = ts.getValue();
+    return val ? (window.hardwareData[val] || null) : null;
+}
+
+function compScore(comp, type) {
+    if (!comp) return 0;
+    if (comp.specs && comp.specs.passmark_score) return comp.specs.passmark_score;
+    if (type === 'CPU') {
+        const cores = parseInt(comp.specs && comp.specs.cores) || 4;
+        const clock = parseFloat(comp.specs && comp.specs.clock_speed) || 3.0;
+        return cores * clock * 380;
+    }
+    const vram  = parseInt(comp.specs && comp.specs.vram)        || 8;
+    const boost = parseInt(comp.specs && comp.specs.boost_clock) || 1500;
+    return vram * boost * 0.05;
+}
+
+function calcPercentile(all, target, type) {
+    if (!target || all.length === 0) return 50;
+    const score = compScore(target, type);
+    const below = all.filter(p => compScore(p, type) <= score).length;
+    return Math.round((below / all.length) * 100);
+}
+
+function updateCompatibilityPanel() {
+    const panel = document.getElementById('compat-panel');
+    if (!panel) return;
+
+    const cpu    = getSelected('cpu');
+    const mb     = getSelected('mb');
+    const ram    = getSelected('ram');
+    const psu    = getSelected('psu');
+    const gpu    = getSelected('gpu');
+    const cas    = getSelected('case');
+    const cooler = getSelected('cooler');
+
+    if (!cpu && !mb && !ram && !psu && !gpu && !cas && !cooler) {
+        panel.style.display = 'none';
+        return;
+    }
+    panel.style.display = '';
+
+    const checks = [];
+
+    // 1. CPU ↔ MB socket
+    if (cpu && mb) {
+        const cpuS = (cpu.specs.socket || '').toLowerCase().replace(/\s/g, '');
+        const mbS  = (mb.specs.socket  || '').toLowerCase().replace(/\s/g, '');
+        const ok   = !!(cpuS && mbS && cpuS === mbS);
+        checks.push({ ok, label: `Socket: ${cpu.specs.socket || '?'}`, msg: ok ? '' : `CPU: ${cpu.specs.socket}, MB: ${mb.specs.socket}` });
+    }
+
+    // 2. RAM ↔ MB memory type
+    if (ram && mb) {
+        const ramT = (ram.specs.ram_type   || '').toUpperCase();
+        const mbT  = (mb.specs.memory_type || '').toUpperCase();
+        const ok   = !!(ramT && mbT && mbT.includes(ramT));
+        checks.push({ ok, label: `RAM: ${ramT || '?'}`, msg: ok ? '' : `MB: ${mbT}, RAM: ${ramT}` });
+    }
+
+    // 3. PSU wattage ≥ CPU.tdp + GPU.tdp + 100W buffer
+    if (psu && (cpu || gpu)) {
+        const watts  = parseInt(psu.specs.wattage) || 0;
+        const cpuTdp = parseInt(cpu  && cpu.specs.tdp) || 0;
+        const gpuTdp = parseInt(gpu  && gpu.specs.tdp) || 0;
+        const needed = cpuTdp + gpuTdp + 100;
+        const ok     = watts >= needed;
+        checks.push({ ok, label: `PSU: ${watts}W`, msg: ok ? '' : `Braucht ~${needed}W (CPU ${cpuTdp}+GPU ${gpuTdp}+100)` });
+    }
+
+    // 4. Case ↔ MB form factor
+    if (cas && mb) {
+        const mbFF     = (mb.specs.form_factor          || '').toLowerCase();
+        const caseSupp = (cas.specs.motherboard_support || '').toLowerCase();
+        const ok       = !!(mbFF && caseSupp && caseSupp.includes(mbFF));
+        checks.push({ ok, label: `Form: ${mb.specs.form_factor || '?'}`, msg: ok ? '' : `Gehäuse: ${cas.specs.motherboard_support}` });
+    }
+
+    // 5. GPU length ≤ case max_gpu_length
+    if (gpu && cas) {
+        const gpuLen  = parseInt(gpu.specs.length)         || 0;
+        const caseMax = parseInt(cas.specs.max_gpu_length) || 0;
+        if (gpuLen && caseMax) {
+            const ok = gpuLen <= caseMax;
+            checks.push({ ok, label: `GPU: ${gpuLen}mm`, msg: ok ? '' : `GPU ${gpuLen}mm > Max ${caseMax}mm` });
+        }
+    }
+
+    // 6. Cooler height ≤ case max_cooler_height
+    if (cooler && cas) {
+        const coolerH = parseInt(cooler.specs.height)           || 0;
+        const caseMax = parseInt(cas.specs.max_cooler_height)   || 0;
+        if (coolerH && caseMax) {
+            const ok = coolerH <= caseMax;
+            checks.push({ ok, label: `Kühler: ${coolerH}mm`, msg: ok ? '' : `Kühler ${coolerH}mm > Max ${caseMax}mm` });
+        }
+    }
+
+    const listEl = document.getElementById('compat-list');
+    if (listEl) {
+        if (checks.length === 0) {
+            listEl.innerHTML = '<span style="color:var(--text-secondary);font-size:.82rem">Mehr Komponenten wählen…</span>';
+        } else {
+            listEl.innerHTML = checks.map(c => {
+                const cls  = c.ok ? 'compat-ok' : 'compat-error';
+                const icon = c.ok ? 'fa-check' : 'fa-xmark';
+                const tip  = c.msg ? ` title="${c.msg}"` : '';
+                return `<div class="compat-check ${cls}"${tip}><i class="fas ${icon}"></i>${c.label}</div>`;
+            }).join('');
+        }
+    }
+
+    // Bottleneck bars
+    const btEl = document.getElementById('bottleneck-content');
+    if (!btEl) return;
+
+    if (!cpu || !gpu) {
+        const missing = !cpu ? 'CPU' : 'GPU';
+        btEl.innerHTML = `<span style="color:var(--text-secondary);font-size:.82rem">${missing} noch wählen…</span>`;
+        return;
+    }
+
+    const allCPUs = Object.values(window.hardwareData).filter(p => p.category === 'CPU');
+    const allGPUs = Object.values(window.hardwareData).filter(p => p.category === 'GPU');
+    const cpuPct  = calcPercentile(allCPUs, cpu, 'CPU');
+    const gpuPct  = calcPercentile(allGPUs, gpu, 'GPU');
+    const diff    = Math.abs(cpuPct - gpuPct);
+
+    const cpuBottleneck = cpuPct < gpuPct && diff > 15;
+    const gpuBottleneck = gpuPct < cpuPct && diff > 15;
+    const cpuColor = cpuBottleneck ? '#ef4444' : '#22c55e';
+    const gpuColor = gpuBottleneck ? '#ef4444' : '#22c55e';
+
+    const verdictColor = diff <= 15 ? '#22c55e' : '#ef4444';
+    const verdictIcon  = diff <= 15 ? 'fa-check' : 'fa-triangle-exclamation';
+    const verdictText  = diff <= 15 ? 'Ausgewogen' : (cpuBottleneck ? `CPU-Bottleneck ~${diff}%` : `GPU-Bottleneck ~${diff}%`);
+
+    btEl.innerHTML = `
+        <div style="margin-bottom:.35rem">
+            <div style="display:flex;justify-content:space-between;font-size:.75rem;margin-bottom:.2rem">
+                <span>CPU</span><span style="color:${cpuColor};font-weight:600">${cpuPct}. Pzt.</span>
+            </div>
+            <div style="height:6px;background:var(--border-color);border-radius:3px;overflow:hidden">
+                <div style="width:${cpuPct}%;height:100%;background:${cpuColor};border-radius:3px;transition:width .5s ease"></div>
+            </div>
+        </div>
+        <div style="margin-bottom:.35rem">
+            <div style="display:flex;justify-content:space-between;font-size:.75rem;margin-bottom:.2rem">
+                <span>GPU</span><span style="color:${gpuColor};font-weight:600">${gpuPct}. Pzt.</span>
+            </div>
+            <div style="height:6px;background:var(--border-color);border-radius:3px;overflow:hidden">
+                <div style="width:${gpuPct}%;height:100%;background:${gpuColor};border-radius:3px;transition:width .5s ease"></div>
+            </div>
+        </div>
+        <div style="font-size:.72rem;color:${verdictColor};margin-top:.4rem"><i class="fas ${verdictIcon} me-1"></i>${verdictText}</div>`;
+}
+
+// ==========================================
 // COMPONENT BROWSER LOGIC
 // ==========================================
 
@@ -376,7 +553,9 @@ async function initializeDropdowns() {
                         name: product.name,
                         clean_name: product.clean_name,
                         price: price,
-                        category: category
+                        category: category,
+                        amazon_sku: product.amazon_sku || null,
+                        specs: getProductSpecs(product, category)
                     };
 
                     // Use clean_name for dropdown display and Tom Select search
@@ -509,6 +688,8 @@ function calcTotal() {
         }
         totalEl.textContent = sum.toFixed(2);
     }
+
+    updateCompatibilityPanel();
 }
 
 // ==========================================
