@@ -2,6 +2,7 @@ import json
 import os
 import re
 import shutil
+import urllib.request
 
 # ==========================================
 # GLOBAL CONFIGURATION
@@ -499,6 +500,80 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
     return True
 
 # ==========================================
+# PASSMARK SCORE ENRICHMENT
+# ==========================================
+
+_PM_ENDPOINTS = {
+    'CPU': 'https://www.cpubenchmark.net/resources/chart-data/CPU_mega_chart.csv',
+    'GPU': 'https://www.videocardbenchmark.net/resources/chart-data/GPU_mega_chart.csv',
+}
+_PM_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (compatible; pc-builder/1.0)',
+    'Accept': 'text/csv,*/*',
+}
+
+
+def fetch_passmark_scores():
+    """Download PassMark CPU/GPU scores from public CSV endpoints.
+    Returns {'CPU': {name: score}, 'GPU': {name: score}}. Never raises."""
+    scores = {'CPU': {}, 'GPU': {}}
+    for category, url in _PM_ENDPOINTS.items():
+        try:
+            req = urllib.request.Request(url, headers=_PM_HEADERS)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                content = r.read().decode('utf-8', errors='replace')
+            for line in content.splitlines()[1:]:
+                parts = line.split(',')
+                if len(parts) < 2:
+                    continue
+                name = parts[0].strip().strip('"')
+                try:
+                    score = int(float(parts[1].strip().strip('"')))
+                    if name and score > 0:
+                        scores[category][name] = score
+                except (ValueError, IndexError):
+                    continue
+            print(f"  PassMark {category}: {len(scores[category])} scores loaded.")
+        except Exception as exc:
+            print(f"  PassMark {category} fetch skipped: {exc}")
+    return scores
+
+
+def _pm_normalize(name):
+    """Strip noise words so model numbers dominate the match."""
+    name = name.lower()
+    name = re.sub(r'@\s*\d+\.?\d*\s*ghz', '', name)
+    name = re.sub(r'\b(intel|amd|nvidia|geforce|radeon|core|processor|desktop|mobile)\b', '', name)
+    name = re.sub(r'\(.*?\)', '', name)
+    name = re.sub(r'[^\w\s]', ' ', name)
+    return re.sub(r'\s+', ' ', name).strip()
+
+
+def match_passmark_score(product_name, passmark_dict):
+    """Return best PassMark score for product_name, or None if no good match."""
+    if not product_name or not passmark_dict:
+        return None
+    target = _pm_normalize(product_name)
+    # Pass 1: exact normalized match
+    for pm_name, score in passmark_dict.items():
+        if _pm_normalize(pm_name) == target:
+            return score
+    # Pass 2: every significant word in target is present in passmark name
+    words = [w for w in target.split() if len(w) > 2]
+    if not words:
+        return None
+    best_score, best_overlap = None, 0.0
+    for pm_name, score in passmark_dict.items():
+        pm = _pm_normalize(pm_name)
+        matched = sum(1 for w in words if w in pm)
+        overlap = matched / len(words)
+        if overlap > best_overlap and overlap >= 0.8:
+            best_overlap = overlap
+            best_score = score
+    return best_score
+
+
+# ==========================================
 # MAIN PROCESSING LOOP
 # ==========================================
 
@@ -541,6 +616,9 @@ def process_hardware_data():
     # Snapshot existing prices before wiping the folder
     existing_prices = load_existing_prices()
 
+    print("Fetching PassMark benchmark scores…")
+    passmark_scores = fetch_passmark_scores()
+
     if os.path.exists(OUTPUT_FOLDER):
         shutil.rmtree(OUTPUT_FOLDER)
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
@@ -568,6 +646,14 @@ def process_hardware_data():
                         if not item_data.get(key):
                             item_data[key] = val
                     if should_keep_item and item_data.get("name"):
+                        # Enrich CPU/GPU with PassMark score
+                        if raw_category in ('CPU', 'GPU'):
+                            pm_score = match_passmark_score(
+                                item_data.get("name", ""),
+                                passmark_scores.get(raw_category, {})
+                            )
+                            if pm_score:
+                                item_data["passmark_score"] = pm_score
                         clean_item = {key: value for key, value in item_data.items() if value is not None}
                         # Skip products with no Amazon SKU — the scraper cannot price them
                         if not clean_item.get("amazon_sku", "").strip():
