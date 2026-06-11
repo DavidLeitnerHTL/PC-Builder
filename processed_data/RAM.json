@@ -9,8 +9,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 413.48,
-        "last_updated": "2026-06-01T09:07:41.695Z"
+        "price": 477.2,
+        "last_updated": "2026-06-09T07:29:29.636Z"
     },
     {
         "id": "c7681f06-346b-4223-9c9c-dac4c59b906f",
@@ -22,8 +22,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(1x16GB)",
         "capacity": "16GB",
-        "price": 180.99,
-        "last_updated": "2026-06-01T09:07:44.683Z"
+        "price": 213.54,
+        "last_updated": "2026-06-09T07:29:38.739Z"
     },
     {
         "id": "4f693ed1-6dcc-4a59-9500-37ae6b96a539",
@@ -35,8 +35,21 @@
         "ram_type": "DDR5-6400",
         "modules_config": "(1x16GB)",
         "capacity": "16GB",
-        "price": 549,
-        "last_updated": "2026-06-01T09:08:01.583Z"
+        "price": 413.42,
+        "last_updated": "2026-06-09T07:29:49.316Z"
+    },
+    {
+        "id": "c0319b80-d7e3-4e67-b4d5-79bcd610bfa2",
+        "name": "ADATA XPG LANCER Black DDR5-5200 CL38 32GB (2x16GB)",
+        "variant": "5200 CL38",
+        "amazon_sku": "B09JQTQZJQ",
+        "clean_name": "ADATA XPG LANCER Black",
+        "cas_latency": "CL38",
+        "ram_type": "DDR5-5200",
+        "modules_config": "(2x16GB)",
+        "capacity": "32GB",
+        "price": 163.04,
+        "last_updated": "2026-06-09T07:29:59.932Z"
     },
     {
         "id": "475c7c04-c95d-4581-bcae-8c3bcd8b2a11",
@@ -48,8 +61,8 @@
         "ram_type": "DDR5-6000",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 475.8,
-        "last_updated": "2026-06-01T09:08:01.513Z"
+        "price": 484.76,
+        "last_updated": "2026-06-09T07:30:01.849Z"
     },
     {
         "id": "874da619-0bc5-4987-bf01-f7f831c94a90",
@@ -62,7 +75,33 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 668.03,
-        "last_updated": "2026-06-01T09:08:16.316Z"
+        "last_updated": "2026-06-09T07:30:15.660Z"
+    },
+    {
+        "id": "9b609a0e-977b-4cbd-a0b8-499608d9a93c",
+        "name": "ADATA XPG LANCER RGB Black DDR5-6000 CL30 32GB (2x16GB)",
+        "variant": "6000 CL30",
+        "amazon_sku": "B0C6B2JM7H",
+        "clean_name": "ADATA XPG LANCER RGB Black",
+        "cas_latency": "CL30",
+        "ram_type": "DDR5-6000",
+        "modules_config": "(2x16GB)",
+        "capacity": "32GB",
+        "price": 789.37,
+        "last_updated": "2026-06-09T07:55:39.848Z"
+    },
+    {
+        "id": "00a55598-4e9c-4255-bcda-1e97600884d6",
+        "name": "ADATA XPG LANCER RGB Black 32GB (2x16GB) DDR5 5200 CL38",
+        "variant": "5200 CL38",
+        "amazon_sku": "B09JQGH9WL",
+        "clean_name": "ADATA XPG LANCER RGB Black 5200",
+        "cas_latency": "CL38",
+        "ram_type": "DDR5",
+        "modules_config": "(2x16GB)",
+        "capacity": "32GB",
+        "price": 366.94,
+        "last_updated": "2026-06-09T07:55:43.715Z"
     },
     {
         "id": "f7dd85b9-f5b7-487d-954d-7a1d780e7fa7",
@@ -75,7 +114,7 @@
         "modules_config": "(1x16GB)",
         "capacity": "16GB",
         "price": 342.95,
-        "last_updated": "2026-06-01T09:08:14.929Z"
+        "last_updated": "2026-06-09T07:30:15.652Z"
     },
     {
         "id": "f24c92b2-4b8d-43f9-86fc-1dbd0be196b9",
@@ -87,8 +126,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 436.45,
-        "last_updated": "2026-06-01T09:08:36.236Z"
+        "price": 503.48,
+        "last_updated": "2026-06-09T07:30:37.648Z"
     },
     {
         "id": "a8da7417-33ea-49ad-801f-fca1b4a0fd24",
@@ -100,21 +139,8 @@
         "ram_type": "DDR5-6600",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 1109.23,
-        "last_updated": "2026-06-01T09:08:40.470Z"
-    },
-    {
-        "id": "09414334-b1af-4aa8-af11-261289c506ed",
-        "name": "ADATA XPG LANCER RGB White 32GB (2x16GB) DDR5 5200 CL38",
-        "variant": "5200 CL38",
-        "amazon_sku": "B09TG5PFTB",
-        "clean_name": "ADATA XPG LANCER RGB White 5200",
-        "cas_latency": "CL38",
-        "ram_type": "DDR5",
-        "modules_config": "(2x16GB)",
-        "capacity": "32GB",
-        "price": 278.3,
-        "last_updated": "2026-06-01T09:08:50.253Z"
+        "price": 544.83,
+        "last_updated": "2026-06-09T07:30:43.234Z"
     },
     {
         "id": "ecda4b59-c4a3-42eb-990e-30ec735f29e9",
@@ -126,8 +152,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 402.35,
-        "last_updated": "2026-06-01T09:09:00.454Z"
+        "price": 163.04,
+        "last_updated": "2026-06-09T07:30:50.671Z"
     },
     {
         "id": "06ba879c-965e-483b-be25-b2420b1561e5",
@@ -139,8 +165,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 221.75,
-        "last_updated": "2026-06-01T09:09:05.572Z"
+        "price": 402.35,
+        "last_updated": "2026-06-09T07:31:07.839Z"
     },
     {
         "id": "0c66c678-98d8-45a8-8858-70d81b4301ce",
@@ -153,7 +179,7 @@
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
         "price": 1266.99,
-        "last_updated": "2026-06-01T09:09:16.114Z"
+        "last_updated": "2026-06-09T07:31:05.204Z"
     },
     {
         "id": "82983606-4804-48a3-b380-140cf6c3fbc4",
@@ -165,8 +191,8 @@
         "ram_type": "DDR5-6000",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 1244.09,
-        "last_updated": "2026-06-01T09:09:19.213Z"
+        "price": 1251.92,
+        "last_updated": "2026-06-09T07:31:24.605Z"
     },
     {
         "id": "16ea3327-a947-4be0-89b1-f712799fe84d",
@@ -178,8 +204,8 @@
         "ram_type": "DDR5-6600",
         "modules_config": "(4x16GB)",
         "capacity": "64GB",
-        "price": 1350.99,
-        "last_updated": "2026-06-01T09:09:32.280Z"
+        "price": 1414.79,
+        "last_updated": "2026-06-09T07:31:44.585Z"
     },
     {
         "id": "0712aa7d-7a8c-4e5c-86b7-ba8c76ab83c8",
@@ -192,20 +218,7 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 1151,
-        "last_updated": "2026-06-01T09:09:33.888Z"
-    },
-    {
-        "id": "b330abed-0637-41e1-b696-c556097ebab2",
-        "name": "Corsair Dominator Platinum RGB Gray / Black DDR5-5200 CL40 32GB (2x16GB)",
-        "variant": "5200 CL40",
-        "amazon_sku": "B0BD4RL4SP",
-        "clean_name": "Corsair Dominator Platinum RGB Gray / Black",
-        "cas_latency": "CL40",
-        "ram_type": "DDR5-5200",
-        "modules_config": "(2x16GB)",
-        "capacity": "32GB",
-        "price": 450.74,
-        "last_updated": "2026-06-01T09:10:00.064Z"
+        "last_updated": "2026-06-09T07:31:40.997Z"
     },
     {
         "id": "cefbb2b9-c5a3-4f77-813c-7d60eaaf7d57",
@@ -217,8 +230,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 450.74,
-        "last_updated": "2026-06-01T09:09:55.002Z"
+        "price": 410.82,
+        "last_updated": "2026-06-09T07:31:58.843Z"
     },
     {
         "id": "bdfb1755-3a3d-4e67-b306-ed6ea31650ac",
@@ -230,8 +243,8 @@
         "ram_type": "DDR5-6400",
         "modules_config": "(2x48GB)",
         "capacity": "96GB",
-        "price": 1057.26,
-        "last_updated": "2026-06-01T09:10:15.220Z"
+        "price": 1058.72,
+        "last_updated": "2026-06-09T07:32:26.372Z"
     },
     {
         "id": "48187329-c8e5-4505-841c-687afbea51f0",
@@ -244,7 +257,7 @@
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
         "price": 984.99,
-        "last_updated": "2026-06-01T09:10:29.849Z"
+        "last_updated": "2026-06-09T07:32:40.788Z"
     },
     {
         "id": "58486d11-2cf5-4671-afc8-1ee6a4fd334d",
@@ -257,7 +270,7 @@
         "modules_config": "(2x48GB)",
         "capacity": "96GB",
         "price": 1815,
-        "last_updated": "2026-06-01T09:10:30.143Z"
+        "last_updated": "2026-06-09T07:32:47.421Z"
     },
     {
         "id": "2b8f9f9f-b852-47a5-9cdb-cb5d1134c627",
@@ -270,7 +283,7 @@
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
         "price": 984.99,
-        "last_updated": "2026-06-01T09:10:49.624Z"
+        "last_updated": "2026-06-09T07:32:54.430Z"
     },
     {
         "id": "ef171e85-ccba-4731-a2fb-ea2582fcfff9",
@@ -283,7 +296,7 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 803,
-        "last_updated": "2026-06-01T09:11:02.268Z"
+        "last_updated": "2026-06-09T07:33:25.268Z"
     },
     {
         "id": "1e1d1c52-940d-4484-a80b-61b2e7006c85",
@@ -296,7 +309,7 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 491.82,
-        "last_updated": "2026-06-01T09:11:06.797Z"
+        "last_updated": "2026-06-09T07:33:09.060Z"
     },
     {
         "id": "70a8406c-dbe8-4106-bfc0-45b3ae32274a",
@@ -308,8 +321,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x48GB)",
         "capacity": "96GB",
-        "price": 958.34,
-        "last_updated": "2026-06-01T09:11:17.404Z"
+        "price": 576.97,
+        "last_updated": "2026-06-09T07:33:43.969Z"
     },
     {
         "id": "c4c166cd-8a92-4192-8f55-1f415672b071",
@@ -321,8 +334,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 386.21,
-        "last_updated": "2026-06-01T09:11:32.282Z"
+        "price": 442.69,
+        "last_updated": "2026-06-09T07:33:45.519Z"
     },
     {
         "id": "226ce638-41be-43c2-b80f-833742389735",
@@ -334,8 +347,8 @@
         "ram_type": "DDR5-7000",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 648.41,
-        "last_updated": "2026-06-01T09:11:33.209Z"
+        "price": 410.82,
+        "last_updated": "2026-06-09T07:34:24.280Z"
     },
     {
         "id": "ecad9c41-7c29-49b5-a9fb-2acc699149b8",
@@ -347,21 +360,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(2x8GB)",
         "capacity": "16GB",
-        "price": 150.5,
-        "last_updated": "2026-06-01T09:12:07.788Z"
-    },
-    {
-        "id": "8ffa5eba-f6f1-4c8b-8a2b-1f97d1d0b965",
-        "name": "Corsair Vengeance Black 32GB (2x16GB) DDR5 5200 CL40 Black",
-        "variant": "5200 CL40",
-        "amazon_sku": "B09NCPTVX5",
-        "clean_name": "Corsair Vengeance Black 5200 Black",
-        "cas_latency": "CL40",
-        "ram_type": "DDR5",
-        "modules_config": "(2x16GB)",
-        "capacity": "32GB",
-        "price": 494.8,
-        "last_updated": "2026-06-01T09:11:54.218Z"
+        "price": 172.99,
+        "last_updated": "2026-06-09T07:34:41.914Z"
     },
     {
         "id": "905d0c15-5b56-46a9-adb9-eea20b6309a2",
@@ -373,8 +373,8 @@
         "ram_type": "DDR5-6000",
         "modules_config": "(2x24GB)",
         "capacity": "48GB",
-        "price": 386.21,
-        "last_updated": "2026-06-01T09:12:21.510Z"
+        "price": 386.87,
+        "last_updated": "2026-06-09T07:34:46.380Z"
     },
     {
         "id": "95dd1ef0-aeb1-4c22-9d4c-7f24fa58c277",
@@ -386,8 +386,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(4x16GB)",
         "capacity": "64GB",
-        "price": 570.67,
-        "last_updated": "2026-06-01T09:15:23.119Z"
+        "price": 564.62,
+        "last_updated": "2026-06-09T07:35:01.684Z"
     },
     {
         "id": "51ba1e70-a1fc-4e31-88a0-7f1b14c75042",
@@ -399,8 +399,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 844.5,
-        "last_updated": "2026-06-01T09:12:39.069Z"
+        "price": 827.48,
+        "last_updated": "2026-06-09T07:35:02.788Z"
     },
     {
         "id": "70d84acb-d97c-47fc-8e62-9805d4aa62a3",
@@ -412,8 +412,8 @@
         "ram_type": "DDR5-5200",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 503.2,
-        "last_updated": "2026-06-01T09:13:08.281Z"
+        "price": 410.82,
+        "last_updated": "2026-06-09T07:35:40.447Z"
     },
     {
         "id": "3b851fb0-d6ff-4fc7-877e-9f9834542673",
@@ -425,8 +425,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 504.19,
-        "last_updated": "2026-06-01T09:13:22.754Z"
+        "price": 479.99,
+        "last_updated": "2026-06-09T07:35:18.781Z"
     },
     {
         "id": "ffef03d9-acd8-4fc0-93f2-0b7b8261bfc4",
@@ -438,8 +438,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 954.42,
-        "last_updated": "2026-06-01T09:13:37.019Z"
+        "price": 1007.4,
+        "last_updated": "2026-06-09T07:35:36.912Z"
     },
     {
         "id": "51d14f6b-e4cf-4258-914e-4f16efd67524",
@@ -451,8 +451,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 416.99,
-        "last_updated": "2026-06-01T09:13:51.019Z"
+        "price": 395.8,
+        "last_updated": "2026-06-09T07:36:22.066Z"
     },
     {
         "id": "d321b543-51a3-4961-a37e-1a743580b7e8",
@@ -464,8 +464,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 1057.3,
-        "last_updated": "2026-06-01T09:14:05.791Z"
+        "price": 1058.72,
+        "last_updated": "2026-06-09T07:36:12.743Z"
     },
     {
         "id": "eec68d88-1409-45c3-a9b6-495d0de1f1b9",
@@ -477,8 +477,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x24GB)",
         "capacity": "48GB",
-        "price": 577.08,
-        "last_updated": "2026-06-01T09:14:20.980Z"
+        "price": 580,
+        "last_updated": "2026-06-09T07:36:34.897Z"
     },
     {
         "id": "e6ccc5f3-bdaa-4d70-a7b1-ff1aa7bc5e17",
@@ -490,8 +490,8 @@
         "ram_type": "DDR5-5200",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 503.2,
-        "last_updated": "2026-06-01T09:14:55.999Z"
+        "price": 463.86,
+        "last_updated": "2026-06-09T07:37:13.091Z"
     },
     {
         "id": "6463746f-fdce-434e-a084-5260f7335a15",
@@ -504,7 +504,7 @@
         "modules_config": "(2x48GB)",
         "capacity": "96GB",
         "price": 1756,
-        "last_updated": "2026-06-01T09:15:09.330Z"
+        "last_updated": "2026-06-09T07:37:08.773Z"
     },
     {
         "id": "858064f6-b43d-428d-8d02-b85d2d833cfc",
@@ -517,7 +517,7 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 550.63,
-        "last_updated": "2026-06-01T09:15:23.407Z"
+        "last_updated": "2026-06-09T07:37:47.621Z"
     },
     {
         "id": "a3a88aea-9931-411b-98b7-5691ebcbc130",
@@ -529,8 +529,8 @@
         "ram_type": "DDR5-6000",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 1052.64,
-        "last_updated": "2026-06-01T09:15:40.306Z"
+        "price": 1052.65,
+        "last_updated": "2026-06-09T07:37:52.341Z"
     },
     {
         "id": "a06e3702-ca4f-4467-a1e0-ff9a848c9433",
@@ -542,8 +542,8 @@
         "ram_type": "DDR5-5200",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 1052.64,
-        "last_updated": "2026-06-01T09:15:45.632Z"
+        "price": 1052.65,
+        "last_updated": "2026-06-09T07:38:11.530Z"
     },
     {
         "id": "e3376586-f9c5-47a7-94b0-f2c02fcb51bf",
@@ -556,7 +556,7 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 576.89,
-        "last_updated": "2026-06-01T09:15:54.880Z"
+        "last_updated": "2026-06-09T07:38:08.175Z"
     },
     {
         "id": "3f3e4739-6d60-4e36-901e-04dafa0201c3",
@@ -569,7 +569,7 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 576.97,
-        "last_updated": "2026-06-01T09:16:03.300Z"
+        "last_updated": "2026-06-09T07:38:46.262Z"
     },
     {
         "id": "7f3ad62c-5311-4346-aad9-d9fe35ea6a73",
@@ -581,8 +581,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 549.01,
-        "last_updated": "2026-06-01T09:16:06.130Z"
+        "price": 321.68,
+        "last_updated": "2026-06-09T07:39:10.096Z"
     },
     {
         "id": "e0745afd-3a5a-4402-bb74-75700cb977a1",
@@ -594,8 +594,8 @@
         "ram_type": "DDR5-6000",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 459.79,
-        "last_updated": "2026-06-01T09:16:20.316Z"
+        "price": 413.42,
+        "last_updated": "2026-06-09T07:39:06.058Z"
     },
     {
         "id": "947a5c7d-6aad-46e0-a3d8-d4e56e48ba88",
@@ -608,7 +608,7 @@
         "modules_config": "(8x32GB)",
         "capacity": "256GB",
         "price": 383.18,
-        "last_updated": "2026-06-01T09:16:22.528Z"
+        "last_updated": "2026-06-09T07:40:07.216Z"
     },
     {
         "id": "398d5847-ae13-463f-a99d-ab1c93a04fd5",
@@ -621,7 +621,7 @@
         "modules_config": "(4x16GB)",
         "capacity": "64GB",
         "price": 35.27,
-        "last_updated": "2026-06-01T09:16:43.518Z"
+        "last_updated": "2026-06-09T07:40:08.837Z"
     },
     {
         "id": "179f4678-b29a-4293-8c0b-c8d28ba2ae65",
@@ -633,8 +633,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(4x16GB)",
         "capacity": "64GB",
-        "price": 393.28,
-        "last_updated": "2026-06-01T09:16:42.638Z"
+        "price": 397.87,
+        "last_updated": "2026-06-09T07:40:27.516Z"
     },
     {
         "id": "ad8dcb83-5056-4004-9db4-aee68bf16a47",
@@ -646,8 +646,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x8GB)",
         "capacity": "16GB",
-        "price": 245,
-        "last_updated": "2026-06-01T09:17:00.382Z"
+        "price": 220,
+        "last_updated": "2026-06-09T07:40:31.849Z"
     },
     {
         "id": "001b8acb-1e90-4025-bc27-4d99540aee45",
@@ -659,8 +659,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x64GB)",
         "capacity": "128GB",
-        "price": 1149.56,
-        "last_updated": "2026-06-01T09:17:02.718Z"
+        "price": 1314.59,
+        "last_updated": "2026-06-09T07:40:43.664Z"
     },
     {
         "id": "319e0d06-1bdb-4b58-9685-a6b4f58edd80",
@@ -672,8 +672,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(1x16GB)",
         "capacity": "16GB",
-        "price": 185.39,
-        "last_updated": "2026-06-01T09:17:16.296Z"
+        "price": 183.69,
+        "last_updated": "2026-06-09T07:41:54.499Z"
     },
     {
         "id": "41c8108c-4973-466e-9341-e85192a0ee4a",
@@ -685,8 +685,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(1x16GB)",
         "capacity": "16GB",
-        "price": 169.99,
-        "last_updated": "2026-06-01T09:17:20.842Z"
+        "price": 209.9,
+        "last_updated": "2026-06-09T07:41:10.826Z"
     },
     {
         "id": "b28aa2db-6ddf-4bf0-bd50-128c19650a0c",
@@ -698,8 +698,8 @@
         "ram_type": "DDR5-5200",
         "modules_config": "(1x16GB)",
         "capacity": "16GB",
-        "price": 301.51,
-        "last_updated": "2026-06-01T09:17:36.785Z"
+        "price": 366.94,
+        "last_updated": "2026-06-09T07:42:06.717Z"
     },
     {
         "id": "25605d42-6414-429d-9d15-a241be71448c",
@@ -712,7 +712,7 @@
         "modules_config": "(1x16GB)",
         "capacity": "16GB",
         "price": 183.69,
-        "last_updated": "2026-06-01T09:17:39.623Z"
+        "last_updated": "2026-06-09T07:42:16.821Z"
     },
     {
         "id": "7ecedf75-f5ce-4cc2-b2d3-e9517ed4f1de",
@@ -724,8 +724,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 301.51,
-        "last_updated": "2026-06-01T09:17:51.572Z"
+        "price": 305.18,
+        "last_updated": "2026-06-09T07:42:21.312Z"
     },
     {
         "id": "cfb87f85-28fc-4c28-a0df-896d34d8d37d",
@@ -738,7 +738,7 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 172.05,
-        "last_updated": "2026-06-01T09:18:19.426Z"
+        "last_updated": "2026-06-09T07:43:09.158Z"
     },
     {
         "id": "8db4dfe8-d4b3-4946-99fb-d14c04bcc846",
@@ -751,7 +751,7 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 1551.91,
-        "last_updated": "2026-06-01T09:18:09.701Z"
+        "last_updated": "2026-06-09T07:42:36.086Z"
     },
     {
         "id": "01e4e42f-2a39-47c6-b322-b5f5bb19bd90",
@@ -763,8 +763,8 @@
         "ram_type": "DDR5-5200",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 181.5,
-        "last_updated": "2026-06-01T09:18:31.331Z"
+        "price": 353.95,
+        "last_updated": "2026-06-09T07:43:21.850Z"
     },
     {
         "id": "56087874-9652-45ce-89b7-08e793cf50c9",
@@ -776,8 +776,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 302.42,
-        "last_updated": "2026-06-01T09:18:43.615Z"
+        "price": 301.49,
+        "last_updated": "2026-06-09T07:43:45.889Z"
     },
     {
         "id": "a8f827c9-2470-4a69-8060-7bc174eeeac7",
@@ -790,7 +790,7 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 417.89,
-        "last_updated": "2026-06-01T09:18:45.637Z"
+        "last_updated": "2026-06-09T07:43:51.847Z"
     },
     {
         "id": "da4c661a-0e0e-49e6-9b1e-95221660d15e",
@@ -802,8 +802,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 583.86,
-        "last_updated": "2026-06-01T09:19:12.508Z"
+        "price": 627,
+        "last_updated": "2026-06-09T07:44:31.657Z"
     },
     {
         "id": "f9c17b74-2fd7-46b1-9311-3b62224f75ad",
@@ -816,7 +816,7 @@
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
         "price": 253.01,
-        "last_updated": "2026-06-01T09:19:23.457Z"
+        "last_updated": "2026-06-09T07:44:53.727Z"
     },
     {
         "id": "3857ec95-4822-496a-b4d2-eb9e4b4d3fee",
@@ -828,8 +828,8 @@
         "ram_type": "DDR5-5200",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 832,
-        "last_updated": "2026-06-01T09:19:54.020Z"
+        "price": 831.9,
+        "last_updated": "2026-06-09T07:45:44.532Z"
     },
     {
         "id": "f7082cdb-7159-4a91-906f-6f089a523bf9",
@@ -841,8 +841,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 638.92,
-        "last_updated": "2026-06-01T09:19:44.122Z"
+        "price": 650.42,
+        "last_updated": "2026-06-09T07:45:58.823Z"
     },
     {
         "id": "94ba94cb-277e-460e-8504-7cb0015d477e",
@@ -854,8 +854,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x64GB)",
         "capacity": "128GB",
-        "price": 181.5,
-        "last_updated": "2026-06-01T09:20:25.482Z"
+        "price": 183.69,
+        "last_updated": "2026-06-09T07:47:15.493Z"
     },
     {
         "id": "fbf4f018-5b23-4b73-8c38-934e300306a3",
@@ -867,8 +867,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x64GB)",
         "capacity": "128GB",
-        "price": 1309.92,
-        "last_updated": "2026-06-01T09:20:16.640Z"
+        "price": 1290,
+        "last_updated": "2026-06-09T07:46:30.233Z"
     },
     {
         "id": "f788511b-f84f-483a-88aa-33ea88a48507",
@@ -880,8 +880,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(2x8GB)",
         "capacity": "16GB",
-        "price": 23.09,
-        "last_updated": "2026-06-01T09:20:57.362Z"
+        "price": 297.76,
+        "last_updated": "2026-06-09T07:47:43.060Z"
     },
     {
         "id": "b12c2237-2aac-406f-a3b9-3bcacdc34254",
@@ -893,8 +893,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(2x8GB)",
         "capacity": "16GB",
-        "price": 355.16,
-        "last_updated": "2026-06-01T09:20:42.104Z"
+        "price": 356.69,
+        "last_updated": "2026-06-09T07:47:59.416Z"
     },
     {
         "id": "a6b157e3-83a7-4242-abc6-a534ace558b3",
@@ -907,20 +907,20 @@
         "modules_config": "(1x32GB)",
         "capacity": "32GB",
         "price": 299.95,
-        "last_updated": "2026-06-01T09:20:57.334Z"
+        "last_updated": "2026-06-09T07:48:15.355Z"
     },
     {
         "id": "35457330-f601-4eea-b180-639575262963",
         "name": "Crucial CT32G48C40U5 Black DDR5-4800 CL40 32GB (1x32GB)",
         "variant": "4800 CL40",
-        "amazon_sku": "B09HW97JVF",
+        "amazon_sku": "B0GWRBV2D1",
         "clean_name": "Crucial CT32G48C40U5 Black",
         "cas_latency": "CL40",
         "ram_type": "DDR5-4800",
         "modules_config": "(1x32GB)",
         "capacity": "32GB",
-        "price": 321.58,
-        "last_updated": "2026-06-01T09:21:24.747Z"
+        "price": 504.14,
+        "last_updated": "2026-06-09T07:49:17.340Z"
     },
     {
         "id": "0e395a9c-9b72-4292-81d0-4598340b7fc4",
@@ -932,8 +932,8 @@
         "ram_type": "DDR5-5200",
         "modules_config": "(1x32GB)",
         "capacity": "32GB",
-        "price": 181.5,
-        "last_updated": "2026-06-01T09:21:41.114Z"
+        "price": 183.69,
+        "last_updated": "2026-06-09T07:49:30.971Z"
     },
     {
         "id": "481886e7-c2d6-4e0f-9b71-13af094a6cd6",
@@ -946,7 +946,7 @@
         "modules_config": "(1x32GB)",
         "capacity": "32GB",
         "price": 371,
-        "last_updated": "2026-06-01T09:21:43.407Z"
+        "last_updated": "2026-06-09T07:50:25.655Z"
     },
     {
         "id": "2bccd0a8-706e-4fc1-92f9-aecfe2249c3b",
@@ -958,21 +958,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(1x32GB)",
         "capacity": "32GB",
-        "price": 325.7,
-        "last_updated": "2026-06-01T09:22:02.400Z"
-    },
-    {
-        "id": "1b60548c-5be4-4163-a426-ff7d8fb30fb1",
-        "name": "Crucial CT48G56C46S5 Black SODIMM DDR5-5600 CL46 48GB (1x48GB)",
-        "variant": "5600 CL46",
-        "amazon_sku": "B0C79T2CP7",
-        "clean_name": "Crucial CT48G56C46S5 Black SODIMM",
-        "cas_latency": "CL46",
-        "ram_type": "DDR5-5600",
-        "modules_config": "(1x48GB)",
-        "capacity": "48GB",
-        "price": 181.5,
-        "last_updated": "2026-06-01T09:22:17.091Z"
+        "price": 324.36,
+        "last_updated": "2026-06-09T07:49:58.634Z"
     },
     {
         "id": "2c2b2cf0-5317-4d37-a9ec-25830045216c",
@@ -984,8 +971,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(1x64GB)",
         "capacity": "64GB",
-        "price": 655.44,
-        "last_updated": "2026-06-01T09:22:22.881Z"
+        "price": 688.58,
+        "last_updated": "2026-06-09T07:50:55.024Z"
     },
     {
         "id": "64fa7921-8be9-4e64-b75d-a4c7d6d991f9",
@@ -997,8 +984,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(1x8GB)",
         "capacity": "8GB",
-        "price": 181.5,
-        "last_updated": "2026-06-01T09:23:03.856Z"
+        "price": 109.92,
+        "last_updated": "2026-06-09T07:51:10.774Z"
     },
     {
         "id": "8b2d4a1f-0780-4755-b33e-0d364302aec2",
@@ -1010,8 +997,8 @@
         "ram_type": "DDR5-4800",
         "modules_config": "(1x8GB)",
         "capacity": "8GB",
-        "price": 146.94,
-        "last_updated": "2026-06-01T09:23:21.612Z"
+        "price": 82.99,
+        "last_updated": "2026-06-09T07:51:32.918Z"
     },
     {
         "id": "088f55a0-787f-423a-b5c1-f971efa6735a",
@@ -1023,8 +1010,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 368.06,
-        "last_updated": "2026-06-01T09:23:21.610Z"
+        "price": 366.94,
+        "last_updated": "2026-06-09T07:51:34.358Z"
     },
     {
         "id": "2bea6685-16e7-4a4a-895e-5dedee695aea",
@@ -1036,8 +1023,8 @@
         "ram_type": "DDR5-6000",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 668.12,
-        "last_updated": "2026-06-01T09:23:44.001Z"
+        "price": 668.87,
+        "last_updated": "2026-06-09T07:52:14.567Z"
     },
     {
         "id": "1708162d-85c9-4d32-afce-363be7de2372",
@@ -1049,8 +1036,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 172.05,
-        "last_updated": "2026-06-01T09:23:46.789Z"
+        "price": 353.95,
+        "last_updated": "2026-06-09T07:52:19.855Z"
     },
     {
         "id": "ab361feb-fd36-45bd-819e-33ef46c45876",
@@ -1062,8 +1049,8 @@
         "ram_type": "DDR5",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 393.28,
-        "last_updated": "2026-06-01T09:24:03.153Z"
+        "price": 397.87,
+        "last_updated": "2026-06-09T07:52:35.871Z"
     },
     {
         "id": "dadfd3cc-c42a-4316-a147-12e2b29b82e6",
@@ -1076,7 +1063,7 @@
         "modules_config": "(1x16GB)",
         "capacity": "16GB",
         "price": 219,
-        "last_updated": "2026-06-01T09:24:00.565Z"
+        "last_updated": "2026-06-09T07:52:36.772Z"
     },
     {
         "id": "5dd989f9-9636-4fab-b3bd-c25491e61df8",
@@ -1089,7 +1076,7 @@
         "modules_config": "(1x16GB)",
         "capacity": "16GB",
         "price": 879.52,
-        "last_updated": "2026-06-01T09:24:20.264Z"
+        "last_updated": "2026-06-09T07:52:58.006Z"
     },
     {
         "id": "bf496cb0-5e70-4a78-abe6-2be02179f91b",
@@ -1101,8 +1088,8 @@
         "ram_type": "DDR5-6400",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 373.43,
-        "last_updated": "2026-06-01T09:24:23.575Z"
+        "price": 388.79,
+        "last_updated": "2026-06-09T07:53:01.401Z"
     },
     {
         "id": "be3ba6ac-f6e5-4d18-851b-0b83618b649e",
@@ -1115,7 +1102,7 @@
         "modules_config": "(4x16GB)",
         "capacity": "64GB",
         "price": 1240.22,
-        "last_updated": "2026-06-01T09:24:35.693Z"
+        "last_updated": "2026-06-09T07:53:17.402Z"
     },
     {
         "id": "cef5d714-c6bd-402a-9b4c-0ee72fbd9634",
@@ -1127,8 +1114,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2 x 32 GB)",
         "capacity": "64 GB",
-        "price": 1085.44,
-        "last_updated": "2026-06-01T09:24:44.261Z"
+        "price": 985.56,
+        "last_updated": "2026-06-09T07:53:23.374Z"
     },
     {
         "id": "b57ad015-1fb5-4336-ba2b-392ec32cffac",
@@ -1141,20 +1128,7 @@
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
         "price": 1201.78,
-        "last_updated": "2026-06-01T09:24:52.703Z"
-    },
-    {
-        "id": "fbc5b7a1-6a89-4a21-8313-4b6e846d49e3",
-        "name": "G.Skill Flare X5 256GB (4x64GB) DDR5 6000 CL34 Black",
-        "variant": "6000 CL34",
-        "amazon_sku": "B0FH5V4TDB",
-        "clean_name": "G.Skill Flare X5 6000 Black",
-        "cas_latency": "CL34",
-        "ram_type": "DDR5",
-        "modules_config": "(4x64GB)",
-        "capacity": "256GB",
-        "price": 12155.48,
-        "last_updated": "2026-06-01T09:24:58.461Z"
+        "last_updated": "2026-06-09T07:53:35.523Z"
     },
     {
         "id": "6dbeef2e-1259-49a9-8264-a054e9fe8df5",
@@ -1166,8 +1140,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 505.79,
-        "last_updated": "2026-06-01T09:25:05.565Z"
+        "price": 506.44,
+        "last_updated": "2026-06-09T07:53:50.320Z"
     },
     {
         "id": "bcf445fb-2c49-4ed8-83d7-8aa7fb6b72af",
@@ -1179,8 +1153,8 @@
         "ram_type": "DDR5-5600",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 641.54,
-        "last_updated": "2026-06-01T09:25:35.317Z"
+        "price": 614.27,
+        "last_updated": "2026-06-09T07:54:31.054Z"
     },
     {
         "id": "5a4e4bd7-9e4a-4600-a8e2-4bbbcaba834f",
@@ -1192,8 +1166,8 @@
         "ram_type": "DDR5-6000",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 1497.44,
-        "last_updated": "2026-06-01T09:25:17.828Z"
+        "price": 1540.46,
+        "last_updated": "2026-06-09T07:54:09.120Z"
     },
     {
         "id": "1da2df2e-bb7d-486c-824a-db41097dc2a0",
@@ -1205,34 +1179,34 @@
         "ram_type": "DDR5-6000",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 450.74,
-        "last_updated": "2026-06-01T09:25:46.951Z"
+        "price": 410.82,
+        "last_updated": "2026-06-09T07:54:41.027Z"
     },
     {
         "id": "dd95dbfd-bc3d-4f7f-b18e-34760bbc99c1",
         "name": "G.Skill Ripjaws Black / Silver DDR5-4800 SODIMM CL34 32GB (2x16GB)",
         "variant": "4800 CL34",
-        "amazon_sku": "B0B1GMD6SB",
+        "amazon_sku": "B0BHPF51Y6",
         "clean_name": "G.Skill Ripjaws Black / Silver SODIMM",
         "cas_latency": "CL34",
         "ram_type": "DDR5-4800",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 822.16,
-        "last_updated": "2026-06-01T09:25:50.792Z"
+        "last_updated": "2026-06-09T07:54:44.947Z"
     },
     {
         "id": "f4d0ae7e-df3e-4a15-be9a-df345562858d",
         "name": "G.Skill Ripjaws Black / White SODIMM DDR5-5600 CL40 32GB (2x16GB)",
         "variant": "5600 CL40",
-        "amazon_sku": "B0C64HZSRX",
+        "amazon_sku": "B0CDHP62W1",
         "clean_name": "G.Skill Ripjaws Black / White SODIMM",
         "cas_latency": "CL40",
         "ram_type": "DDR5-5600",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 437.91,
-        "last_updated": "2026-06-01T09:26:02.148Z"
+        "last_updated": "2026-06-09T07:54:55.594Z"
     },
     {
         "id": "f38bd95c-566f-4724-adff-25f8e51d2254",
@@ -1245,7 +1219,7 @@
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "price": 1235.9,
-        "last_updated": "2026-06-01T09:26:06.718Z"
+        "last_updated": "2026-06-09T07:55:00.239Z"
     },
     {
         "id": "f5ca9264-8e61-4520-8e8b-818027506a0f",
@@ -1257,8 +1231,8 @@
         "ram_type": "DDR5-6000",
         "modules_config": "(2x32GB)",
         "capacity": "64GB",
-        "price": 634.68,
-        "last_updated": "2026-06-01T09:26:14.308Z"
+        "price": 663,
+        "last_updated": "2026-06-09T07:55:07.223Z"
     },
     {
         "id": "34c2d0b7-f05c-4275-97d1-a88fa249f551",
@@ -1270,33 +1244,59 @@
         "ram_type": "DDR5-6400",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
-        "price": 1416.58,
-        "last_updated": "2026-06-01T09:26:23.659Z"
+        "price": 660.43,
+        "last_updated": "2026-06-09T07:55:23.666Z"
     },
     {
-        "id": "5db1bbc9-2e5e-417e-9dad-527a4e1004e8",
-        "name": "G.Skill Ripjaws S5 32 GB (2 x 16 GB) DDR5-5200 CL36",
-        "variant": "5200 CL36",
-        "amazon_sku": "B09W99CZD4",
-        "clean_name": "G.Skill Ripjaws S5",
-        "cas_latency": "CL36",
-        "ram_type": "DDR5-5200",
-        "modules_config": "(2 x 16 GB)",
-        "capacity": "32 GB",
-        "price": 1215.82,
-        "last_updated": "2026-06-01T09:26:29.852Z"
+        "id": "6895dbb3-b9a6-4bf7-ab5e-73cee4668ff6",
+        "name": "ADATA XPG Lancer Blade White DDR5-6400 CL32 32GB (2x16GB)",
+        "variant": "6400 CL32",
+        "amazon_sku": "B0CCK7M1QJ",
+        "clean_name": "ADATA XPG Lancer Blade White",
+        "cas_latency": "CL32",
+        "ram_type": "DDR5-6400",
+        "modules_config": "(2x16GB)",
+        "capacity": "32GB",
+        "available": false,
+        "last_updated": "2026-06-06T07:40:48.906Z"
     },
     {
-        "id": "c0319b80-d7e3-4e67-b4d5-79bcd610bfa2",
-        "name": "ADATA XPG LANCER Black DDR5-5200 CL38 32GB (2x16GB)",
+        "id": "09414334-b1af-4aa8-af11-261289c506ed",
+        "name": "ADATA XPG LANCER RGB White 32GB (2x16GB) DDR5 5200 CL38",
         "variant": "5200 CL38",
-        "amazon_sku": "B09JQTQZJQ",
-        "clean_name": "ADATA XPG LANCER Black",
+        "amazon_sku": "B09TG5PFTB",
+        "clean_name": "ADATA XPG LANCER RGB White 5200",
         "cas_latency": "CL38",
+        "ram_type": "DDR5",
+        "modules_config": "(2x16GB)",
+        "capacity": "32GB",
+        "available": false,
+        "last_updated": "2026-06-09T07:55:28.603Z"
+    },
+    {
+        "id": "b330abed-0637-41e1-b696-c556097ebab2",
+        "name": "Corsair Dominator Platinum RGB Gray / Black DDR5-5200 CL40 32GB (2x16GB)",
+        "variant": "5200 CL40",
+        "amazon_sku": "B0BD4RL4SP",
+        "clean_name": "Corsair Dominator Platinum RGB Gray / Black",
+        "cas_latency": "CL40",
         "ram_type": "DDR5-5200",
         "modules_config": "(2x16GB)",
         "capacity": "32GB",
         "available": false,
-        "last_updated": "2026-05-30T06:56:54.004Z"
+        "last_updated": "2026-06-07T08:28:27.251Z"
+    },
+    {
+        "id": "fbc5b7a1-6a89-4a21-8313-4b6e846d49e3",
+        "name": "G.Skill Flare X5 256GB (4x64GB) DDR5 6000 CL34 Black",
+        "variant": "6000 CL34",
+        "amazon_sku": "B0FH5V4TDB",
+        "clean_name": "G.Skill Flare X5 6000 Black",
+        "cas_latency": "CL34",
+        "ram_type": "DDR5",
+        "modules_config": "(4x64GB)",
+        "capacity": "256GB",
+        "available": false,
+        "last_updated": "2026-06-09T07:53:52.224Z"
     }
 ]

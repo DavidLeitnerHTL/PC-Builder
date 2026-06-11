@@ -1,26 +1,5 @@
 [
     {
-        "id": "9c84ecf5-a519-42d9-a8c9-4d9b7e194737",
-        "name": "ADATA XPG INVADER ATX Mid Tower Black Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B07YMXMPZ6",
-        "clean_name": "ADATA XPG INVADER Black Tempered Glass Side Panel",
-        "type": "ATX Mid Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 170,
-        "case_type": "Mid Tower",
-        "price": 89.96,
-        "last_updated": "2026-06-01T10:18:55.524Z"
-    },
-    {
         "id": "09424cc4-7d24-4e65-97fc-0f1b5e60a0ec",
         "name": "Aerocool AirHawk Duo ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -39,7 +18,7 @@
         "max_cooler_height": 168,
         "case_type": "Mid Tower",
         "price": 99,
-        "last_updated": "2026-06-01T10:19:00.489Z"
+        "last_updated": "2026-06-09T08:51:15.487Z"
     },
     {
         "id": "63c55a1d-2cdb-45e3-9244-f55e2b11420d",
@@ -59,8 +38,8 @@
         "max_gpu_length": 355,
         "max_cooler_height": 155,
         "case_type": "Mid Tower",
-        "price": 55.45,
-        "last_updated": "2026-06-01T10:19:30.018Z"
+        "price": 33.67,
+        "last_updated": "2026-06-09T08:51:57.874Z"
     },
     {
         "id": "a3cd4439-ae0a-4ccf-9b17-b39ffc5c3d07",
@@ -80,29 +59,8 @@
         "max_gpu_length": 400,
         "max_cooler_height": 160,
         "case_type": "Mid Tower",
-        "price": 46.38,
-        "last_updated": "2026-06-01T10:19:25.901Z"
-    },
-    {
-        "id": "5023f7f6-6ecf-424a-8f9f-530e89f35ed4",
-        "name": "Aerocool Cronus ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B08QJLZBQ7",
-        "clean_name": "Aerocool Cronus Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
-        "type": "ATX Mid Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 387,
-        "max_cooler_height": 180,
-        "case_type": "Mid Tower",
-        "price": 111.71,
-        "last_updated": "2026-06-01T10:19:42.065Z"
+        "price": 16.1,
+        "last_updated": "2026-06-09T08:51:40.867Z"
     },
     {
         "id": "12c35c06-57c4-481d-b5f8-5740c2fa823f",
@@ -122,8 +80,8 @@
         "max_gpu_length": 375,
         "max_cooler_height": 150,
         "case_type": "Mid Tower",
-        "price": 37.57,
-        "last_updated": "2026-06-01T10:19:49.646Z"
+        "price": 27.85,
+        "last_updated": "2026-06-09T08:52:03.809Z"
     },
     {
         "id": "893d6df2-e941-44c7-bf27-63ce4124f98c",
@@ -143,8 +101,29 @@
         "max_gpu_length": 335,
         "max_cooler_height": 151,
         "case_type": "Mid Tower",
-        "price": 28.64,
-        "last_updated": "2026-06-01T10:20:08.188Z"
+        "price": 29.15,
+        "last_updated": "2026-06-09T08:52:40.915Z"
+    },
+    {
+        "id": "7245f089-fea8-41a0-92b2-4a807c52393e",
+        "name": "Aerocool D501A V2 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+        "variant": "",
+        "amazon_sku": "B0DKVGBRJ8",
+        "clean_name": "Aerocool D501A V2 Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+        "type": "ATX Mid Tower",
+        "color": [
+            "BLACK"
+        ],
+        "motherboard_support": [
+            "ATX",
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 400,
+        "max_cooler_height": 171,
+        "case_type": "Mid Tower",
+        "price": 46.38,
+        "last_updated": "2026-06-09T08:52:41.416Z"
     },
     {
         "id": "81e6a1c7-4cea-49a0-a908-38bd7587f6af",
@@ -164,8 +143,29 @@
         "max_gpu_length": 400,
         "max_cooler_height": 171,
         "case_type": "Mid Tower",
-        "price": 23.09,
-        "last_updated": "2026-06-01T10:20:09.118Z"
+        "price": 73.61,
+        "last_updated": "2026-06-09T08:53:12.563Z"
+    },
+    {
+        "id": "a4bead41-d80a-4073-a6e4-b057a828cae5",
+        "name": "Aerocool Prism V1 ATX Mid Tower Black Tempered Glass Side Panel",
+        "variant": "",
+        "amazon_sku": "B09T7881W5",
+        "clean_name": "Aerocool Prism V1 Black Tempered Glass Side Panel",
+        "type": "ATX Mid Tower",
+        "color": [
+            "BLACK"
+        ],
+        "motherboard_support": [
+            "ATX",
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 346,
+        "max_cooler_height": 164,
+        "case_type": "Mid Tower",
+        "price": 71.21,
+        "last_updated": "2026-06-09T09:19:22.641Z"
     },
     {
         "id": "33b72e07-b3e0-41ce-8d60-791bca5c3add",
@@ -186,7 +186,7 @@
         "max_cooler_height": 160,
         "case_type": "Mid Tower",
         "price": 109.9,
-        "last_updated": "2026-06-01T10:20:25.678Z"
+        "last_updated": "2026-06-09T08:53:06.727Z"
     },
     {
         "id": "40ab8158-8f05-491b-ba71-4da5c1969c07",
@@ -207,8 +207,8 @@
         "max_gpu_length": 440,
         "max_cooler_height": 175,
         "case_type": "Full Tower",
-        "price": 120.28,
-        "last_updated": "2026-06-01T10:20:22.298Z"
+        "price": 117.2,
+        "last_updated": "2026-06-09T08:53:20.231Z"
     },
     {
         "id": "d7bde2d8-d616-4ec1-b213-c22f136a0c1e",
@@ -231,7 +231,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 105.93,
-        "last_updated": "2026-06-01T10:20:39.070Z"
+        "last_updated": "2026-06-09T08:53:31.761Z"
     },
     {
         "id": "a36839c5-28a4-43e0-9172-8980f7794252",
@@ -253,8 +253,8 @@
         "max_gpu_length": 455,
         "max_cooler_height": 190,
         "case_type": "Full Tower",
-        "price": 105.93,
-        "last_updated": "2026-06-01T10:20:51.853Z"
+        "price": 76.49,
+        "last_updated": "2026-06-09T08:53:39.012Z"
     },
     {
         "id": "78252cc0-9a9b-4b44-a254-1aad43a5cff3",
@@ -276,8 +276,8 @@
         "max_gpu_length": 455,
         "max_cooler_height": 190,
         "case_type": "Full Tower",
-        "price": 105.93,
-        "last_updated": "2026-06-01T10:21:02.199Z"
+        "price": 76.49,
+        "last_updated": "2026-06-09T08:53:53.734Z"
     },
     {
         "id": "5d8ee164-e0e0-4b54-ba07-904f533c1eb8",
@@ -296,8 +296,8 @@
         "max_gpu_length": 340,
         "max_cooler_height": 155,
         "case_type": "Mid Tower",
-        "price": 84.01,
-        "last_updated": "2026-06-01T10:21:10.671Z"
+        "price": 84.31,
+        "last_updated": "2026-06-09T08:53:56.973Z"
     },
     {
         "id": "11f93083-b82a-41fd-8327-da7b5b24736a",
@@ -318,7 +318,7 @@
         "max_cooler_height": 166,
         "case_type": "Mid Tower",
         "price": 89.99,
-        "last_updated": "2026-06-01T10:21:23.906Z"
+        "last_updated": "2026-06-09T08:54:13.090Z"
     },
     {
         "id": "af329514-006d-49d8-a2b2-a73e62be14e8",
@@ -339,7 +339,7 @@
         "max_cooler_height": 170,
         "case_type": "Mid Tower",
         "price": 70.49,
-        "last_updated": "2026-06-01T10:21:30.860Z"
+        "last_updated": "2026-06-09T08:54:12.654Z"
     },
     {
         "id": "a9797780-9efd-47db-b00c-20afce5fabcf",
@@ -361,7 +361,7 @@
         "max_cooler_height": 171,
         "case_type": "Mid Tower",
         "price": 109.99,
-        "last_updated": "2026-06-01T10:21:38.987Z"
+        "last_updated": "2026-06-09T08:54:42.906Z"
     },
     {
         "id": "9850cf2c-0710-4dcc-ba86-da3b93cf9dc7",
@@ -382,8 +382,8 @@
         "max_gpu_length": 482,
         "max_cooler_height": 171,
         "case_type": "Mid Tower",
-        "price": 139.99,
-        "last_updated": "2026-06-01T10:21:52.127Z"
+        "price": 139.9,
+        "last_updated": "2026-06-09T08:54:40.259Z"
     },
     {
         "id": "9ff16e5a-3e0c-45c4-8228-ad70d9a2a337",
@@ -405,7 +405,7 @@
         "max_cooler_height": 171,
         "case_type": "Mid Tower",
         "price": 149.99,
-        "last_updated": "2026-06-01T10:21:52.603Z"
+        "last_updated": "2026-06-09T08:55:10.942Z"
     },
     {
         "id": "6c22ae17-5c8d-42bd-ab77-07935a29e066",
@@ -427,7 +427,7 @@
         "max_cooler_height": 171,
         "case_type": "Mid Tower",
         "price": 119.99,
-        "last_updated": "2026-06-01T10:22:14.937Z"
+        "last_updated": "2026-06-09T08:55:14.723Z"
     },
     {
         "id": "fb53c01d-36be-4892-a4b9-663e6183bc43",
@@ -448,8 +448,8 @@
         "max_gpu_length": 440,
         "max_cooler_height": 185,
         "case_type": "Mid Tower",
-        "price": 1511.74,
-        "last_updated": "2026-06-01T10:22:07.871Z"
+        "price": 1662.92,
+        "last_updated": "2026-06-09T08:55:26.323Z"
     },
     {
         "id": "7c942cc1-e1db-4143-935b-fb7534aca62b",
@@ -471,7 +471,7 @@
         "max_cooler_height": 190,
         "case_type": "Full Tower",
         "price": 5221.81,
-        "last_updated": "2026-06-01T10:22:26.435Z"
+        "last_updated": "2026-06-09T08:55:38.341Z"
     },
     {
         "id": "5bae8aeb-27ab-4e60-b85f-da3192c05340",
@@ -492,8 +492,8 @@
         "max_gpu_length": 450,
         "max_cooler_height": 190,
         "case_type": "mid-Tower",
-        "price": 588.47,
-        "last_updated": "2026-06-01T10:22:30.336Z"
+        "price": 620.32,
+        "last_updated": "2026-06-09T08:55:40.670Z"
     },
     {
         "id": "cb249036-862a-4d15-b65d-ff6a100866af",
@@ -514,8 +514,8 @@
         "max_gpu_length": 420,
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
-        "price": 223.81,
-        "last_updated": "2026-06-01T10:22:42.436Z"
+        "price": 235.78,
+        "last_updated": "2026-06-09T08:56:07.271Z"
     },
     {
         "id": "3baa62b5-ed88-46c1-a2a0-742bc62886c0",
@@ -536,7 +536,7 @@
         "max_cooler_height": 163,
         "case_type": "Mid Tower",
         "price": 181.52,
-        "last_updated": "2026-06-01T10:23:15.134Z"
+        "last_updated": "2026-06-09T08:56:23.314Z"
     },
     {
         "id": "a1d61d9e-2e69-4e0b-b337-0d510ad4164a",
@@ -556,8 +556,8 @@
         "max_gpu_length": 400,
         "max_cooler_height": 170,
         "case_type": "Mid Tower",
-        "price": 50.32,
-        "last_updated": "2026-06-01T10:23:32.996Z"
+        "price": 59.2,
+        "last_updated": "2026-06-09T08:57:20.777Z"
     },
     {
         "id": "958894f5-a5b3-4c7f-9c9c-5fe617a2613a",
@@ -578,8 +578,8 @@
         "max_gpu_length": 495,
         "max_cooler_height": 190,
         "case_type": "Full Tower",
-        "price": 109.54,
-        "last_updated": "2026-06-01T10:24:05.302Z"
+        "price": 50.32,
+        "last_updated": "2026-06-09T08:57:44.116Z"
     },
     {
         "id": "1354b86c-6b0a-4cec-af9d-d4ad0e596a50",
@@ -600,8 +600,8 @@
         "max_gpu_length": 495,
         "max_cooler_height": 190,
         "case_type": "Full Tower",
-        "price": 109.54,
-        "last_updated": "2026-06-01T10:24:01.311Z"
+        "price": 106.89,
+        "last_updated": "2026-06-09T08:58:09.137Z"
     },
     {
         "id": "e648bbdd-0d62-46fb-8f0f-d3d6bf0ba96e",
@@ -622,7 +622,7 @@
         "max_cooler_height": 178,
         "case_type": "Mid Tower",
         "price": 71.9,
-        "last_updated": "2026-06-01T10:24:29.251Z"
+        "last_updated": "2026-06-09T08:58:06.976Z"
     },
     {
         "id": "3aab4b61-8b42-4874-86b1-e2bfe94730cd",
@@ -643,7 +643,7 @@
         "max_cooler_height": 181,
         "case_type": "Mid Tower",
         "price": 130.28,
-        "last_updated": "2026-06-01T10:25:14.179Z"
+        "last_updated": "2026-06-09T08:59:01.372Z"
     },
     {
         "id": "e0f622e1-a2ab-4f3e-84d1-00467b51c5b5",
@@ -662,8 +662,8 @@
         "max_gpu_length": 365,
         "max_cooler_height": 163.5,
         "case_type": "Mid Tower",
-        "price": 121.08,
-        "last_updated": "2026-06-01T10:25:32.003Z"
+        "price": 109.99,
+        "last_updated": "2026-06-09T08:59:03.994Z"
     },
     {
         "id": "1f09d853-2162-4798-896f-c06ffef9ec15",
@@ -683,8 +683,8 @@
         "max_gpu_length": 485,
         "max_cooler_height": 190,
         "case_type": "Mid Tower",
-        "price": 122.93,
-        "last_updated": "2026-06-01T10:25:33.914Z"
+        "price": 98.81,
+        "last_updated": "2026-06-09T08:59:22.265Z"
     },
     {
         "id": "bfc0e466-693f-40b3-9971-3b2bf4e0b98f",
@@ -704,8 +704,29 @@
         "max_gpu_length": 320,
         "max_cooler_height": 164,
         "case_type": "Mid Tower",
-        "price": 121.08,
-        "last_updated": "2026-06-01T10:25:46.931Z"
+        "price": 109.99,
+        "last_updated": "2026-06-09T08:59:24.909Z"
+    },
+    {
+        "id": "008ba4a2-0324-4ef4-b3a5-df58cc59c6ec",
+        "name": "Corsair 6500X ATX Mid Tower Black Tempered Glass Side Panel",
+        "variant": "",
+        "amazon_sku": "B0CQ59S798",
+        "clean_name": "Corsair 6500X Black Tempered Glass Side Panel",
+        "type": "ATX Mid Tower",
+        "color": [
+            "BLACK"
+        ],
+        "motherboard_support": [
+            "ATX",
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 400,
+        "max_cooler_height": 190,
+        "case_type": "Mid Tower",
+        "price": 92.78,
+        "last_updated": "2026-06-09T09:00:29.910Z"
     },
     {
         "id": "b5e6c25d-a8df-4eb4-8cbd-8abf12b3d783",
@@ -727,7 +748,7 @@
         "max_cooler_height": 180,
         "case_type": "Full Tower",
         "price": 482.93,
-        "last_updated": "2026-06-01T10:25:53.811Z"
+        "last_updated": "2026-06-09T09:00:15.212Z"
     },
     {
         "id": "f24fc186-62f2-49c7-a839-3c4fce2f0a05",
@@ -747,8 +768,8 @@
         "max_gpu_length": 400,
         "max_cooler_height": 170,
         "case_type": "Mid Tower",
-        "price": 252.64,
-        "last_updated": "2026-06-01T10:26:29.526Z"
+        "price": 252.61,
+        "last_updated": "2026-06-09T09:01:32.986Z"
     },
     {
         "id": "22b8e493-ec73-4a3b-a6ca-67d1fcb8ad5c",
@@ -771,7 +792,28 @@
         "max_cooler_height": 170,
         "case_type": "Mid Tower",
         "price": 141.18,
-        "last_updated": "2026-06-01T10:26:29.990Z"
+        "last_updated": "2026-06-09T09:00:51.577Z"
+    },
+    {
+        "id": "75a890b1-76df-45c4-acd6-0fba132ba763",
+        "name": "Corsair iCUE LINK 6500X RGB ATX Mid Tower White Tempered Glass",
+        "variant": "",
+        "amazon_sku": "B0CTR8BZZQ",
+        "clean_name": "Corsair iCUE LINK 6500X RGB White Tempered Glass",
+        "type": "ATX Mid Tower",
+        "color": [
+            "WHITE"
+        ],
+        "motherboard_support": [
+            "ATX",
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 400,
+        "max_cooler_height": 190,
+        "case_type": "Mid Tower",
+        "price": 212.22,
+        "last_updated": "2026-06-09T09:01:40.733Z"
     },
     {
         "id": "926880c2-4881-4036-b9a0-464d027f9ccd",
@@ -791,8 +833,8 @@
         "max_gpu_length": 425,
         "max_cooler_height": 170,
         "case_type": "Mid Tower",
-        "price": 60.49,
-        "last_updated": "2026-06-01T10:26:52.536Z"
+        "price": 65.53,
+        "last_updated": "2026-06-09T09:02:00.659Z"
     },
     {
         "id": "b9e20e76-7e88-40de-9586-be0cb679b1fa",
@@ -813,7 +855,7 @@
         "max_cooler_height": 175,
         "case_type": "Mid Tower",
         "price": 131.09,
-        "last_updated": "2026-06-01T10:26:50.769Z"
+        "last_updated": "2026-06-09T09:02:14.642Z"
     },
     {
         "id": "e3d8a0f2-ca35-4dae-802d-ab67902d2824",
@@ -834,7 +876,7 @@
         "max_cooler_height": 175,
         "case_type": "Mid Tower",
         "price": 158.3,
-        "last_updated": "2026-06-01T10:27:11.103Z"
+        "last_updated": "2026-06-09T09:02:44.898Z"
     },
     {
         "id": "11264d2e-d889-49ea-b0c7-342f8040ab19",
@@ -853,8 +895,8 @@
         "max_gpu_length": 350,
         "max_cooler_height": 148,
         "case_type": "Mid Tower",
-        "price": 28.21,
-        "last_updated": "2026-06-01T10:27:11.531Z"
+        "price": 9.52,
+        "last_updated": "2026-06-09T09:02:43.894Z"
     },
     {
         "id": "9bdc38c0-54b4-49ba-b12a-9b4fbd500a19",
@@ -874,8 +916,8 @@
         "max_gpu_length": 372,
         "max_cooler_height": 170,
         "case_type": "Mid Tower",
-        "price": 47.81,
-        "last_updated": "2026-06-01T10:27:49.405Z"
+        "price": 60.42,
+        "last_updated": "2026-06-09T09:03:32.036Z"
     },
     {
         "id": "6db1c186-5535-4bb2-a20b-8b81374f2518",
@@ -895,8 +937,30 @@
         "max_gpu_length": 360,
         "max_cooler_height": 169,
         "case_type": "Mid Tower",
-        "price": 105.78,
-        "last_updated": "2026-06-01T10:27:54.021Z"
+        "price": 133.1,
+        "last_updated": "2026-06-09T09:03:44.221Z"
+    },
+    {
+        "id": "0e1f6dbd-d1e8-4563-b5e6-e2bb71f5ea36",
+        "name": "Fractal Design Meshify 2 Lite ATX Mid Tower White / Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
+        "variant": "",
+        "amazon_sku": "B093HJNWWX",
+        "clean_name": "Fractal Design Meshify 2 Lite White / Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
+        "type": "ATX Mid Tower",
+        "color": [
+            "WHITE",
+            "BLACK"
+        ],
+        "motherboard_support": [
+            "ATX",
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 450,
+        "max_cooler_height": 185,
+        "case_type": "Mid Tower",
+        "price": 99.83,
+        "last_updated": "2026-06-09T09:19:10.738Z"
     },
     {
         "id": "e19f2f10-a072-4360-b592-14c1edf6c49f",
@@ -917,8 +981,8 @@
         "max_gpu_length": 355,
         "max_cooler_height": 170,
         "case_type": "Mid-Tower",
-        "price": 116.82,
-        "last_updated": "2026-06-01T10:28:18.126Z"
+        "price": 110.83,
+        "last_updated": "2026-06-09T09:03:48.047Z"
     },
     {
         "id": "73ae628d-0d71-4332-af5d-638b659cee50",
@@ -938,8 +1002,8 @@
         "max_gpu_length": 355,
         "max_cooler_height": 170,
         "case_type": "Mid Tower",
-        "price": 113.45,
-        "last_updated": "2026-06-01T10:28:18.247Z"
+        "price": 117.3,
+        "last_updated": "2026-06-09T09:04:17.453Z"
     },
     {
         "id": "346e977f-72ea-48ac-821e-a6d0779f54f0",
@@ -960,7 +1024,7 @@
         "max_cooler_height": 170,
         "case_type": "Mid Tower",
         "price": 70.58,
-        "last_updated": "2026-06-01T10:29:39.017Z"
+        "last_updated": "2026-06-09T09:04:41.430Z"
     },
     {
         "id": "9b3e0ea6-9e4a-4797-a407-26658ff0c01e",
@@ -982,7 +1046,7 @@
         "max_cooler_height": 169,
         "case_type": "Full Tower",
         "price": 152.45,
-        "last_updated": "2026-06-01T10:28:43.752Z"
+        "last_updated": "2026-06-09T09:04:45.159Z"
     },
     {
         "id": "5b063ce6-a082-48eb-88b8-c99903a0f27d",
@@ -1003,8 +1067,8 @@
         "max_gpu_length": 413,
         "max_cooler_height": 185,
         "case_type": "Full Tower",
-        "price": 146.87,
-        "last_updated": "2026-06-01T10:29:30.935Z"
+        "price": 151.07,
+        "last_updated": "2026-06-09T09:05:15.319Z"
     },
     {
         "id": "b4930d60-45f4-4219-9fa8-d8dffdaf0d85",
@@ -1026,7 +1090,7 @@
         "max_cooler_height": 170,
         "case_type": "Mid Tower",
         "price": 91.67,
-        "last_updated": "2026-06-01T10:29:55.750Z"
+        "last_updated": "2026-06-09T09:05:58.552Z"
     },
     {
         "id": "b08b886e-e34f-429d-b054-e6b6dc5314fb",
@@ -1047,7 +1111,7 @@
         "max_cooler_height": 185,
         "case_type": "Full Tower",
         "price": 100.74,
-        "last_updated": "2026-06-01T10:30:24.437Z"
+        "last_updated": "2026-06-09T09:06:00.241Z"
     },
     {
         "id": "db89804c-72a0-4580-8efc-5cb103c6545d",
@@ -1067,8 +1131,8 @@
         "max_gpu_length": 410,
         "max_cooler_height": 160,
         "case_type": "Mid Tower",
-        "price": 110.5,
-        "last_updated": "2026-06-01T10:30:28.262Z"
+        "price": 107.76,
+        "last_updated": "2026-06-09T09:06:22.825Z"
     },
     {
         "id": "e71bb9b5-f89d-470d-9a1c-e5449476072f",
@@ -1088,8 +1152,8 @@
         "max_gpu_length": 410,
         "max_cooler_height": 160,
         "case_type": "Mid Tower",
-        "price": 83.28,
-        "last_updated": "2026-06-01T10:31:17.314Z"
+        "price": 83.84,
+        "last_updated": "2026-06-09T09:06:20.968Z"
     },
     {
         "id": "45b8af4f-725e-4e74-bae3-818d32a1de44",
@@ -1109,8 +1173,8 @@
         "max_gpu_length": 340,
         "max_cooler_height": 160,
         "case_type": "Mid Tower",
-        "price": 60.08,
-        "last_updated": "2026-06-01T10:31:17.273Z"
+        "price": 58.86,
+        "last_updated": "2026-06-09T09:06:39.806Z"
     },
     {
         "id": "a713e2ad-ee45-4ec6-ba1f-c2c05a9b4f86",
@@ -1130,8 +1194,8 @@
         "max_gpu_length": 300,
         "max_cooler_height": 160,
         "case_type": "Mid Tower",
-        "price": 54.5,
-        "last_updated": "2026-06-01T10:31:39.997Z"
+        "price": 50.2,
+        "last_updated": "2026-06-09T09:06:41.732Z"
     },
     {
         "id": "e3a8852c-716f-4cee-9d39-b5951ef18e0a",
@@ -1153,7 +1217,7 @@
         "max_cooler_height": 160,
         "case_type": "Mid Tower",
         "price": 46.38,
-        "last_updated": "2026-06-01T10:32:20.027Z"
+        "last_updated": "2026-06-09T09:07:34.918Z"
     },
     {
         "id": "3baf22f5-e281-4045-82ca-d2ac029bb649",
@@ -1174,8 +1238,8 @@
         "max_gpu_length": 410,
         "max_cooler_height": 165,
         "case_type": "Mid Tower",
-        "price": 77.14,
-        "last_updated": "2026-06-01T10:41:20.545Z"
+        "price": 60.49,
+        "last_updated": "2026-06-09T09:07:30.852Z"
     },
     {
         "id": "80e7a13f-ad8f-4952-8ae9-e5ba32a2615f",
@@ -1197,7 +1261,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 161.24,
-        "last_updated": "2026-06-01T10:32:26.373Z"
+        "last_updated": "2026-06-09T09:07:57.316Z"
     },
     {
         "id": "f98ab089-f2ab-4426-8dab-550d1061e5cf",
@@ -1219,7 +1283,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 171.32,
-        "last_updated": "2026-06-01T10:32:38.587Z"
+        "last_updated": "2026-06-09T09:07:55.968Z"
     },
     {
         "id": "b4afdfc8-8830-42f6-bc25-90b28787c1d4",
@@ -1241,7 +1305,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 161.24,
-        "last_updated": "2026-06-01T10:32:45.440Z"
+        "last_updated": "2026-06-09T09:08:19.763Z"
     },
     {
         "id": "ece5bf7a-6067-4294-9366-016c3d2f7c45",
@@ -1263,7 +1327,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 161.24,
-        "last_updated": "2026-06-01T10:32:52.598Z"
+        "last_updated": "2026-06-09T09:08:22.606Z"
     },
     {
         "id": "07a8e032-f9b3-4f70-85c4-e722416c313e",
@@ -1285,7 +1349,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 130.99,
-        "last_updated": "2026-06-01T10:33:26.682Z"
+        "last_updated": "2026-06-09T09:08:38.256Z"
     },
     {
         "id": "96f8ca61-8730-4dfc-ad23-20310f9dd1ce",
@@ -1305,8 +1369,8 @@
         "max_gpu_length": 460,
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
-        "price": 196.85,
-        "last_updated": "2026-06-01T10:33:48.399Z"
+        "price": 183.34,
+        "last_updated": "2026-06-09T09:08:42.327Z"
     },
     {
         "id": "517f12f3-4679-4d13-8832-0fcd2c2a40ea",
@@ -1328,7 +1392,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 452.77,
-        "last_updated": "2026-06-01T10:34:04.404Z"
+        "last_updated": "2026-06-09T09:08:59.679Z"
     },
     {
         "id": "2786f0a9-0b2c-410a-84a4-446c68479872",
@@ -1349,8 +1413,8 @@
         "max_gpu_length": 430,
         "max_cooler_height": 170,
         "case_type": "Mid Tower",
-        "price": 133.72,
-        "last_updated": "2026-06-01T10:34:04.918Z"
+        "price": 283.71,
+        "last_updated": "2026-06-09T09:08:59.624Z"
     },
     {
         "id": "d3e7f370-f4d3-48f9-9060-1dc4c8644040",
@@ -1371,7 +1435,29 @@
         "max_cooler_height": 183,
         "case_type": "Mid Tower",
         "price": 150.25,
-        "last_updated": "2026-06-01T10:34:52.818Z"
+        "last_updated": "2026-06-09T09:12:24.837Z"
+    },
+    {
+        "id": "f58a046d-11b2-4f79-a212-bfa18bcaf7a7",
+        "name": "HYTE Y60 Modern Aesthetic Dual Chamber Panoramic Tempered Glass Mid-Tower ATX Computer Gaming Case with PCIe 4.0 Riser Cable Included, Black",
+        "variant": "Pitch Black",
+        "amazon_sku": "B09TQ1J58V",
+        "clean_name": "HYTE Y60 Modern Aesthetic Dual Chamber Panoramic Tempered Glass Computer Gaming with PCIe 4.0 Riser Cable Included, Black",
+        "type": "ATX Mid Tower",
+        "color": [
+            "BLACK"
+        ],
+        "motherboard_support": [
+            "EATX",
+            "ATX",
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 375,
+        "max_cooler_height": 160,
+        "case_type": "Mid-Tower",
+        "price": 50.41,
+        "last_updated": "2026-06-09T09:12:24.277Z"
     },
     {
         "id": "e3db10ee-9cb2-4702-896e-8b815395c896",
@@ -1392,8 +1478,8 @@
         "max_gpu_length": 375,
         "max_cooler_height": 160,
         "case_type": "Mid-Tower",
-        "price": 193.11,
-        "last_updated": "2026-06-01T10:34:54.445Z"
+        "price": 150.25,
+        "last_updated": "2026-06-09T09:13:10.934Z"
     },
     {
         "id": "cd6829b7-980a-40c2-84db-37f6de684542",
@@ -1416,7 +1502,7 @@
         "max_cooler_height": 160,
         "case_type": "Mid Tower",
         "price": 150.25,
-        "last_updated": "2026-06-01T10:35:13.948Z"
+        "last_updated": "2026-06-09T09:12:46.407Z"
     },
     {
         "id": "2dcc1d35-1ef8-4bb5-b1fd-7fe57c87b882",
@@ -1439,7 +1525,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 252.1,
-        "last_updated": "2026-06-01T10:35:12.120Z"
+        "last_updated": "2026-06-09T09:13:08.077Z"
     },
     {
         "id": "eea4aa90-5848-40f3-97c0-d4176a586064",
@@ -1461,7 +1547,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 241.01,
-        "last_updated": "2026-06-01T10:35:29.694Z"
+        "last_updated": "2026-06-09T09:13:33.084Z"
     },
     {
         "id": "3a8ff174-de02-4c85-bf68-3536826fec76",
@@ -1484,7 +1570,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 441.43,
-        "last_updated": "2026-06-01T10:35:30.147Z"
+        "last_updated": "2026-06-09T09:13:34.816Z"
     },
     {
         "id": "ef06ada1-e96d-42ee-8726-05942881d65b",
@@ -1507,28 +1593,7 @@
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
         "price": 441.43,
-        "last_updated": "2026-06-01T10:35:52.028Z"
-    },
-    {
-        "id": "06fba849-864d-4331-84d6-eefe2eb07705",
-        "name": "In Win A5 ATX Mid Tower Black Tempered Glass Side Panel, USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0BF2GDPDZ",
-        "clean_name": "In Win A5 Black Tempered Glass Side Panel, USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "ATX Mid Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 340,
-        "max_cooler_height": 162,
-        "case_type": "Mid Tower",
-        "price": 50.32,
-        "last_updated": "2026-06-01T10:36:02.265Z"
+        "last_updated": "2026-06-09T09:13:52.301Z"
     },
     {
         "id": "57e5895e-3860-437c-84a4-6bd4a19abe02",
@@ -1549,7 +1614,7 @@
         "max_cooler_height": 180,
         "case_type": "Full Tower",
         "price": 70.58,
-        "last_updated": "2026-06-01T10:36:14.156Z"
+        "last_updated": "2026-06-09T09:13:55.603Z"
     },
     {
         "id": "d94a67ba-2cc3-4efd-9910-2a2b55869840",
@@ -1570,7 +1635,7 @@
         "max_cooler_height": 180,
         "case_type": "Full Tower",
         "price": 131.65,
-        "last_updated": "2026-06-01T10:36:28.157Z"
+        "last_updated": "2026-06-09T09:14:30.259Z"
     },
     {
         "id": "68dd9ccc-590c-474a-b4e6-ec1108b56242",
@@ -1590,8 +1655,8 @@
         "max_gpu_length": 330,
         "max_cooler_height": 168,
         "case_type": "Mid Tower",
-        "price": 59.4,
-        "last_updated": "2026-06-01T10:36:49.987Z"
+        "price": 67.46,
+        "last_updated": "2026-06-09T09:14:31.333Z"
     },
     {
         "id": "842d8d1a-e71a-46be-b7e8-e96617882044",
@@ -1612,8 +1677,8 @@
         "max_gpu_length": 455.7,
         "max_cooler_height": 167,
         "case_type": "Mid Tower",
-        "price": 75.54,
-        "last_updated": "2026-06-01T10:37:10.619Z"
+        "price": 76.89,
+        "last_updated": "2026-06-09T09:15:21.924Z"
     },
     {
         "id": "9fadd423-7e08-4348-a3cd-d08c3a8f017e",
@@ -1636,7 +1701,7 @@
         "max_cooler_height": 167,
         "case_type": "Mid Tower",
         "price": 231.83,
-        "last_updated": "2026-06-01T10:37:11.082Z"
+        "last_updated": "2026-06-09T09:15:16.918Z"
     },
     {
         "id": "f130958a-c06d-4773-8f16-8326ccd1799a",
@@ -1657,8 +1722,8 @@
         "max_gpu_length": 455,
         "max_cooler_height": 167,
         "case_type": "Mid Tower",
-        "price": 910.02,
-        "last_updated": "2026-06-01T10:37:27.499Z"
+        "price": 60.49,
+        "last_updated": "2026-06-09T09:15:40.153Z"
     },
     {
         "id": "ff5dad4d-d3f6-4bb8-bdcd-fa2438ae277c",
@@ -1679,7 +1744,7 @@
         "max_cooler_height": 88.2,
         "case_type": "Mid Tower",
         "price": 60.41,
-        "last_updated": "2026-06-01T10:37:26.967Z"
+        "last_updated": "2026-06-09T09:15:41.866Z"
     },
     {
         "id": "97eb4da2-4d50-409a-8cf9-9550224ace37",
@@ -1701,7 +1766,7 @@
         "max_cooler_height": 178,
         "case_type": "Mid Tower",
         "price": 414.96,
-        "last_updated": "2026-06-01T10:37:40.494Z"
+        "last_updated": "2026-06-09T09:15:59.878Z"
     },
     {
         "id": "4150389d-91c5-487d-907e-4bac34cb20a6",
@@ -1722,8 +1787,8 @@
         "max_gpu_length": 420,
         "max_cooler_height": 178,
         "case_type": "Mid Tower",
-        "price": 422.22,
-        "last_updated": "2026-06-01T10:37:44.672Z"
+        "price": 433.56,
+        "last_updated": "2026-06-09T09:16:00.268Z"
     },
     {
         "id": "e4cbb73f-fe9c-4b50-ae84-526635397e1a",
@@ -1744,7 +1809,7 @@
         "max_cooler_height": 145,
         "case_type": "Mid Tower",
         "price": 35.65,
-        "last_updated": "2026-06-01T10:37:59.383Z"
+        "last_updated": "2026-06-09T09:16:22.318Z"
     },
     {
         "id": "229273c1-e1ba-4c1e-8e6a-a6d3fb922746",
@@ -1764,8 +1829,8 @@
         "max_gpu_length": 418,
         "max_cooler_height": 162,
         "case_type": "Mid Tower",
-        "price": 93.16,
-        "last_updated": "2026-06-01T10:38:23.767Z"
+        "price": 76.4,
+        "last_updated": "2026-06-09T09:16:27.343Z"
     },
     {
         "id": "021d3b2e-8f92-48e0-b1fc-2dd7961fefca",
@@ -1786,8 +1851,8 @@
         "max_gpu_length": 400,
         "max_cooler_height": 180,
         "case_type": "Mid Tower",
-        "price": 129.82,
-        "last_updated": "2026-06-01T10:39:00.298Z"
+        "price": 39.23,
+        "last_updated": "2026-06-09T09:17:20.407Z"
     },
     {
         "id": "d2e6d3d9-091c-489a-906a-690279f8e8cc",
@@ -1807,8 +1872,8 @@
         "max_gpu_length": 305,
         "max_cooler_height": 160,
         "case_type": "Mid Tower",
-        "price": 47.89,
-        "last_updated": "2026-06-01T10:39:18.414Z"
+        "price": 50.41,
+        "last_updated": "2026-06-09T09:16:49.013Z"
     },
     {
         "id": "15a9ad31-458e-48b0-8123-166a2cad9361",
@@ -1828,8 +1893,8 @@
         "max_gpu_length": 305,
         "max_cooler_height": 160,
         "case_type": "Mid Tower",
-        "price": 60.41,
-        "last_updated": "2026-06-01T10:39:19.388Z"
+        "price": 99.25,
+        "last_updated": "2026-06-09T09:17:32.660Z"
     },
     {
         "id": "e03be251-5a74-457d-b5bb-c66a3889ee03",
@@ -1849,8 +1914,8 @@
         "max_gpu_length": 420,
         "max_cooler_height": 175,
         "case_type": "Mid Tower",
-        "price": 45.89,
-        "last_updated": "2026-06-01T10:39:58.986Z"
+        "price": 33.67,
+        "last_updated": "2026-06-09T09:17:55.584Z"
     },
     {
         "id": "be92a03c-54d4-40fa-970a-f07e3fbe20e4",
@@ -1871,8 +1936,8 @@
         "max_gpu_length": 420,
         "max_cooler_height": 175,
         "case_type": "Mid Tower",
-        "price": 161.02,
-        "last_updated": "2026-06-01T10:39:37.994Z"
+        "price": 82.98,
+        "last_updated": "2026-06-09T09:17:53.298Z"
     },
     {
         "id": "091e47d6-a671-4078-a18b-4d6e73175321",
@@ -1892,8 +1957,8 @@
         "max_gpu_length": 380,
         "max_cooler_height": 166,
         "case_type": "Mid Tower",
-        "price": 204.64,
-        "last_updated": "2026-06-01T10:39:55.882Z"
+        "price": 182.36,
+        "last_updated": "2026-06-09T09:18:45.165Z"
     },
     {
         "id": "554ba1bb-99c6-4fd0-9ed2-a467d965d303",
@@ -1913,8 +1978,8 @@
         "max_gpu_length": 400,
         "max_cooler_height": 166,
         "case_type": "Mid Tower",
-        "price": 129.31,
-        "last_updated": "2026-06-01T10:40:10.239Z"
+        "price": 128.14,
+        "last_updated": "2026-06-09T09:18:40.664Z"
     },
     {
         "id": "a5343ff8-1984-4861-8e2e-22f599628010",
@@ -1933,8 +1998,70 @@
         "max_gpu_length": 390,
         "max_cooler_height": 175,
         "case_type": "Mid Tower",
-        "price": 242.99,
-        "last_updated": "2026-06-01T10:40:14.092Z"
+        "price": 238.08,
+        "last_updated": "2026-06-09T09:18:54.533Z"
+    },
+    {
+        "id": "ca96d961-6d33-4350-aade-64f26cf1b0b1",
+        "name": "MSI MAG PANO M100R PZ Micro ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C / USB 3.2 Gen 1 Type-A",
+        "variant": "",
+        "amazon_sku": "B0CPRPMG8D",
+        "clean_name": "MSI MAG PANO M100R PZ White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C / USB 3.2 Gen 1 Type-A",
+        "type": "Micro ATX Mid Tower",
+        "color": [
+            "WHITE"
+        ],
+        "motherboard_support": [
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 390,
+        "max_cooler_height": 175,
+        "case_type": "Mid Tower",
+        "price": 64.34,
+        "last_updated": "2026-06-09T09:19:15.673Z"
+    },
+    {
+        "id": "9c84ecf5-a519-42d9-a8c9-4d9b7e194737",
+        "name": "ADATA XPG INVADER ATX Mid Tower Black Tempered Glass Side Panel",
+        "variant": "",
+        "amazon_sku": "B07YMXMPZ6",
+        "clean_name": "ADATA XPG INVADER Black Tempered Glass Side Panel",
+        "type": "ATX Mid Tower",
+        "color": [
+            "BLACK"
+        ],
+        "motherboard_support": [
+            "ATX",
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 400,
+        "max_cooler_height": 170,
+        "case_type": "Mid Tower",
+        "available": false,
+        "last_updated": "2026-06-09T08:51:19.453Z"
+    },
+    {
+        "id": "5023f7f6-6ecf-424a-8f9f-530e89f35ed4",
+        "name": "Aerocool Cronus ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
+        "variant": "",
+        "amazon_sku": "B08QJLZBQ7",
+        "clean_name": "Aerocool Cronus Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
+        "type": "ATX Mid Tower",
+        "color": [
+            "BLACK"
+        ],
+        "motherboard_support": [
+            "ATX",
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 387,
+        "max_cooler_height": 180,
+        "case_type": "Mid Tower",
+        "available": false,
+        "last_updated": "2026-06-06T09:13:57.089Z"
     },
     {
         "id": "b7b29a0a-ee15-40d8-b3f9-d669e157c7a1",
@@ -1955,49 +2082,7 @@
         "max_cooler_height": 190,
         "case_type": "Mid Tower",
         "available": false,
-        "last_updated": "2026-06-01T10:40:46.741Z"
-    },
-    {
-        "id": "008ba4a2-0324-4ef4-b3a5-df58cc59c6ec",
-        "name": "Corsair 6500X ATX Mid Tower Black Tempered Glass Side Panel",
-        "variant": "",
-        "amazon_sku": "B0CQ59S798",
-        "clean_name": "Corsair 6500X Black Tempered Glass Side Panel",
-        "type": "ATX Mid Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 190,
-        "case_type": "Mid Tower",
-        "available": false,
-        "last_updated": "2026-05-30T08:47:57.768Z"
-    },
-    {
-        "id": "75a890b1-76df-45c4-acd6-0fba132ba763",
-        "name": "Corsair iCUE LINK 6500X RGB ATX Mid Tower White Tempered Glass",
-        "variant": "",
-        "amazon_sku": "B0CTR8BZZQ",
-        "clean_name": "Corsair iCUE LINK 6500X RGB White Tempered Glass",
-        "type": "ATX Mid Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 190,
-        "case_type": "Mid Tower",
-        "available": false,
-        "last_updated": "2026-05-30T08:50:27.909Z"
+        "last_updated": "2026-06-06T10:00:00.463Z"
     },
     {
         "id": "9c11a922-0588-45e6-9d7b-f28c06311085",
@@ -2018,38 +2103,16 @@
         "max_cooler_height": 190,
         "case_type": "Mid Tower",
         "available": false,
-        "last_updated": "2026-06-01T10:40:52.669Z"
+        "last_updated": "2026-06-06T09:59:57.237Z"
     },
     {
-        "id": "d7bdef13-8221-411b-b731-5631d044c842",
-        "name": "Cougar Duoface RGB ATX Mid Tower White Tempered Glass",
+        "id": "06fba849-864d-4331-84d6-eefe2eb07705",
+        "name": "In Win A5 ATX Mid Tower Black Tempered Glass Side Panel, USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A",
         "variant": "",
-        "amazon_sku": "B0C9PB3RM8",
-        "clean_name": "Cougar Duoface RGB White Tempered Glass",
+        "amazon_sku": "B0BF2GDPDZ",
+        "clean_name": "In Win A5 Black Tempered Glass Side Panel, USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A",
         "type": "ATX Mid Tower",
         "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 325,
-        "max_cooler_height": 190,
-        "case_type": "Mid Tower",
-        "available": false,
-        "last_updated": "2026-06-01T10:40:50.280Z"
-    },
-    {
-        "id": "0e1f6dbd-d1e8-4563-b5e6-e2bb71f5ea36",
-        "name": "Fractal Design Meshify 2 Lite ATX Mid Tower White / Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
-        "variant": "",
-        "amazon_sku": "B093HJNWWX",
-        "clean_name": "Fractal Design Meshify 2 Lite White / Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel",
-        "type": "ATX Mid Tower",
-        "color": [
-            "WHITE",
             "BLACK"
         ],
         "motherboard_support": [
@@ -2057,33 +2120,11 @@
             "Micro ATX",
             "Mini-ITX"
         ],
-        "max_gpu_length": 450,
-        "max_cooler_height": 185,
+        "max_gpu_length": 340,
+        "max_cooler_height": 162,
         "case_type": "Mid Tower",
         "available": false,
-        "last_updated": "2026-05-30T08:53:50.624Z"
-    },
-    {
-        "id": "f58a046d-11b2-4f79-a212-bfa18bcaf7a7",
-        "name": "HYTE Y60 Modern Aesthetic Dual Chamber Panoramic Tempered Glass Mid-Tower ATX Computer Gaming Case with PCIe 4.0 Riser Cable Included, Black",
-        "variant": "Pitch Black",
-        "amazon_sku": "B09TQ1J58V",
-        "clean_name": "HYTE Y60 Modern Aesthetic Dual Chamber Panoramic Tempered Glass Computer Gaming with PCIe 4.0 Riser Cable Included, Black",
-        "type": "ATX Mid Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "EATX",
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 375,
-        "max_cooler_height": 160,
-        "case_type": "Mid-Tower",
-        "available": false,
-        "last_updated": "2026-06-01T10:34:35.825Z"
+        "last_updated": "2026-06-06T09:52:01.387Z"
     },
     {
         "id": "c28235f2-db5c-458d-8432-4e2c1eb5dc3e",
@@ -2104,45 +2145,6 @@
         "max_cooler_height": 175,
         "case_type": "Mid Tower",
         "available": false,
-        "last_updated": "2026-06-01T10:41:20.984Z"
-    },
-    {
-        "id": "ca96d961-6d33-4350-aade-64f26cf1b0b1",
-        "name": "MSI MAG PANO M100R PZ Micro ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C / USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0CPRPMG8D",
-        "clean_name": "MSI MAG PANO M100R PZ White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C / USB 3.2 Gen 1 Type-A",
-        "type": "Micro ATX Mid Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 390,
-        "max_cooler_height": 175,
-        "case_type": "Mid Tower",
-        "available": false,
-        "last_updated": "2026-06-01T10:41:24.827Z"
-    },
-    {
-        "id": "7245f089-fea8-41a0-92b2-4a807c52393e",
-        "name": "Aerocool D501A V2 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "",
-        "amazon_sku": "B0DKVGBRJ8",
-        "clean_name": "Aerocool D501A V2 Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "type": "ATX Mid Tower",
-        "color": [
-            "BLACK"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX"
-        ],
-        "max_gpu_length": 400,
-        "max_cooler_height": 171,
-        "case_type": "Mid Tower"
+        "last_updated": "2026-06-06T10:00:59.896Z"
     }
 ]
