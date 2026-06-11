@@ -288,12 +288,12 @@ function updateCompatibilityPanel() {
         checks.push({ ok, label: `Socket: ${cpu.specs.socket || '?'}`, msg: ok ? '' : `CPU: ${cpu.specs.socket}, MB: ${mb.specs.socket}` });
     }
 
-    // 2. RAM ↔ MB memory type
+    // 2. RAM ↔ MB memory type (normalize "DDR5-6000" → "DDR5")
     if (ram && mb) {
-        const ramT = (ram.specs.ram_type   || '').toUpperCase();
-        const mbT  = (mb.specs.memory_type || '').toUpperCase();
-        const ok   = !!(ramT && mbT && mbT.includes(ramT));
-        checks.push({ ok, label: `RAM: ${ramT || '?'}`, msg: ok ? '' : `MB: ${mbT}, RAM: ${ramT}` });
+        const ramT = (ram.specs.ram_type   || '').replace(/-\d+.*$/, '').toUpperCase();
+        const mbT  = (mb.specs.memory_type || '').replace(/-\d+.*$/, '').toUpperCase();
+        const ok   = !!(ramT && mbT && (mbT.includes(ramT) || ramT.includes(mbT)));
+        checks.push({ ok, label: `RAM: ${ram.specs.ram_type || '?'}`, msg: ok ? '' : `MB: ${mbT}, RAM: ${ramT}` });
     }
 
     // 3. PSU wattage ≥ CPU.tdp + GPU.tdp + 100W buffer
@@ -306,12 +306,16 @@ function updateCompatibilityPanel() {
         checks.push({ ok, label: `PSU: ${watts}W`, msg: ok ? '' : `Braucht ~${needed}W (CPU ${cpuTdp}+GPU ${gpuTdp}+100)` });
     }
 
-    // 4. Case ↔ MB form factor
+    // 4. Case ↔ MB form factor (motherboard_support may be an array)
     if (cas && mb) {
-        const mbFF     = (mb.specs.form_factor          || '').toLowerCase();
-        const caseSupp = (cas.specs.motherboard_support || '').toLowerCase();
+        const norm = s => s.toLowerCase().replace(/[-\s]/g, '');
+        const mbFF     = norm(mb.specs.form_factor || '');
+        const suppRaw  = Array.isArray(cas.specs.motherboard_support)
+            ? cas.specs.motherboard_support.join(' ')
+            : (cas.specs.motherboard_support || '');
+        const caseSupp = norm(suppRaw);
         const ok       = !!(mbFF && caseSupp && caseSupp.includes(mbFF));
-        checks.push({ ok, label: `Form: ${mb.specs.form_factor || '?'}`, msg: ok ? '' : `Gehäuse: ${cas.specs.motherboard_support}` });
+        checks.push({ ok, label: `Form: ${mb.specs.form_factor || '?'}`, msg: ok ? '' : `Gehäuse: ${suppRaw}` });
     }
 
     // 5. GPU length ≤ case max_gpu_length
