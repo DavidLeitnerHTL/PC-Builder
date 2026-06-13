@@ -105,36 +105,6 @@
         "last_updated": "2026-06-11T08:11:44.857Z"
     },
     {
-        "id": "364316a2-e476-40f7-b8c7-f7ce230a8ab9",
-        "name": "AMD Ryzen 3 2200G 3.5 GHz 4-Core AM4",
-        "variant": "",
-        "amazon_sku": "B079D3DBNM",
-        "clean_name": "AMD Ryzen 3 2200G",
-        "socket": "AM4",
-        "cores": 4,
-        "threads": 4,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.5 GHz",
-        "price": 32,
-        "last_updated": "2026-06-11T08:11:57.526Z"
-    },
-    {
-        "id": "7a9c7440-6aca-4f8e-a6a1-9ae438789cd9",
-        "name": "AMD Ryzen 3 3100 3.6 GHz 4-Core AM4",
-        "variant": "",
-        "amazon_sku": "B0876Y2TMZ",
-        "clean_name": "AMD Ryzen 3 3100",
-        "socket": "AM4",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz",
-        "price": 153.75,
-        "last_updated": "2026-06-11T08:12:09.662Z"
-    },
-    {
         "id": "dd073712-0a1f-4e7f-a7e0-40f40aea600c",
         "name": "AMD Ryzen 3 3300X 3.8 GHz 4-Core",
         "variant": "",
@@ -165,21 +135,6 @@
         "last_updated": "2026-06-11T08:12:36.826Z"
     },
     {
-        "id": "a9fc2c82-bbfc-4267-bcd6-2bcefbd5a033",
-        "name": "AMD Ryzen 5 1500X 3.5 GHz 4-Core AM4",
-        "variant": "",
-        "amazon_sku": "B06XKVNRSM",
-        "clean_name": "AMD Ryzen 5 1500X",
-        "socket": "AM4",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.5 GHz",
-        "price": 80.48,
-        "last_updated": "2026-06-11T08:12:55.715Z"
-    },
-    {
         "id": "18a5a222-98ff-417a-9e2e-1dbecb75ae2a",
         "name": "AMD Ryzen 5 2400G 3.6 GHz 4-Core AM4 OEM/Tray",
         "variant": "",
@@ -208,21 +163,6 @@
         "clock_speed": "3.6 GHz",
         "price": 42,
         "last_updated": "2026-06-11T08:13:31.311Z"
-    },
-    {
-        "id": "2b6e8f53-c9c6-4a64-a9fd-75d40fa7150a",
-        "name": "AMD Ryzen 5 2600X 3.6 GHz 6-Core AM4",
-        "variant": "",
-        "amazon_sku": "B07B428V2L",
-        "clean_name": "AMD Ryzen 5 2600X",
-        "socket": "AM4",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 95,
-        "ram_type": "DDR4",
-        "clock_speed": "3.6 GHz",
-        "price": 42,
-        "last_updated": "2026-06-11T08:13:46.224Z"
     },
     {
         "id": "06a6ec99-73aa-4cac-9cfb-21fa974ebe70",
@@ -345,21 +285,6 @@
         "last_updated": "2026-06-11T08:15:47.362Z"
     },
     {
-        "id": "43597450-8c66-4f59-9ef5-c347c0a45fd4",
-        "name": "AMD Ryzen 7 3800X 3.9 GHz 8-Core AM4",
-        "variant": "",
-        "amazon_sku": "B07SXMZLPJ",
-        "clean_name": "AMD Ryzen 7 3800X",
-        "socket": "AM4",
-        "cores": 8,
-        "threads": 16,
-        "tdp": 105,
-        "ram_type": "DDR4",
-        "clock_speed": "3.9 GHz",
-        "price": 156.03,
-        "last_updated": "2026-06-11T08:15:50.095Z"
-    },
-    {
         "id": "6c0ac2b9-20b2-40f8-b206-06877dc8f047",
         "name": "AMD Ryzen 7 5800X3D 3.4 GHz 8-Core AM4",
         "variant": "",
@@ -375,21 +300,6 @@
         "last_updated": "2026-06-11T08:16:50.003Z"
     },
     {
-        "id": "70bae351-5e16-46d2-ac14-821d393b6244",
-        "name": "AMD Ryzen 9 3900X 3.8 GHz 12-Core AM4",
-        "variant": "",
-        "amazon_sku": "B07SXMZLP9",
-        "clean_name": "AMD Ryzen 9 3900X",
-        "socket": "AM4",
-        "cores": 12,
-        "threads": 24,
-        "tdp": 105,
-        "ram_type": "DDR4",
-        "clock_speed": "3.8 GHz",
-        "price": 237.69,
-        "last_updated": "2026-06-11T08:16:33.074Z"
-    },
-    {
         "id": "129aed7c-71fc-4e26-8a7d-527d88eae596",
         "name": "AMD Ryzen 9 3900XT 3.8 GHz 12-Core AM4",
         "variant": "",
@@ -403,21 +313,6 @@
         "clock_speed": "3.8 GHz",
         "price": 193.03,
         "last_updated": "2026-06-11T08:18:06.989Z"
-    },
-    {
-        "id": "2c0ed4a5-939f-4902-bfeb-cb16c0890ef2",
-        "name": "AMD Ryzen 9 3950X 3.5 GHz 16-Core AM4",
-        "variant": "",
-        "amazon_sku": "B07ZTYKLZW",
-        "clean_name": "AMD Ryzen 9 3950X",
-        "socket": "AM4",
-        "cores": 16,
-        "threads": 32,
-        "tdp": 105,
-        "ram_type": "DDR4",
-        "clock_speed": "3.5 GHz",
-        "price": 269,
-        "last_updated": "2026-06-11T08:17:42.595Z"
     },
     {
         "id": "ded20bd3-aaf0-42d7-83ce-501679fb8363",
@@ -510,6 +405,34 @@
         "last_updated": "2026-06-11T08:20:27.574Z"
     },
     {
+        "id": "364316a2-e476-40f7-b8c7-f7ce230a8ab9",
+        "name": "AMD Ryzen 3 2200G",
+        "variant": "2200G",
+        "amazon_sku": "B079D3DBNM",
+        "clean_name": "AMD Ryzen 3 2200G",
+        "socket": "AM4",
+        "cores": 4,
+        "threads": 4,
+        "tdp": 65,
+        "ram_type": "DDR4",
+        "price": 32,
+        "last_updated": "2026-06-11T08:11:57.526Z"
+    },
+    {
+        "id": "7a9c7440-6aca-4f8e-a6a1-9ae438789cd9",
+        "name": "AMD Ryzen 3 3100",
+        "variant": "3100",
+        "amazon_sku": "B0876Y2TMZ",
+        "clean_name": "AMD Ryzen 3 3100",
+        "socket": "AM4",
+        "cores": 4,
+        "threads": 8,
+        "tdp": 65,
+        "ram_type": "DDR4",
+        "price": 153.75,
+        "last_updated": "2026-06-11T08:12:09.662Z"
+    },
+    {
         "id": "8fa3e52f-5fef-48ff-bba6-0f81708ccacf",
         "name": "AMD Ryzen 3 3200G",
         "variant": "3200G",
@@ -536,6 +459,20 @@
         "ram_type": "DDR4",
         "price": 46.33,
         "last_updated": "2026-06-11T08:21:26.774Z"
+    },
+    {
+        "id": "a9fc2c82-bbfc-4267-bcd6-2bcefbd5a033",
+        "name": "AMD Ryzen 5 1500X",
+        "variant": "1500X",
+        "amazon_sku": "B06XKVNRSM",
+        "clean_name": "AMD Ryzen 5 1500X",
+        "socket": "AM4",
+        "cores": 4,
+        "threads": 8,
+        "tdp": 65,
+        "ram_type": "DDR4",
+        "price": 80.48,
+        "last_updated": "2026-06-11T08:12:55.715Z"
     },
     {
         "id": "d9ec7e79-51e4-4763-8f51-d72ecd8feba0",
@@ -578,6 +515,20 @@
         "ram_type": "DDR4",
         "price": 58.62,
         "last_updated": "2026-06-11T08:22:21.028Z"
+    },
+    {
+        "id": "2b6e8f53-c9c6-4a64-a9fd-75d40fa7150a",
+        "name": "AMD Ryzen 5 2600X",
+        "variant": "2600X",
+        "amazon_sku": "B07B428V2L",
+        "clean_name": "AMD Ryzen 5 2600X",
+        "socket": "AM4",
+        "cores": 6,
+        "threads": 12,
+        "tdp": 95,
+        "ram_type": "DDR4",
+        "price": 42,
+        "last_updated": "2026-06-11T08:13:46.224Z"
     },
     {
         "id": "f34f9bc1-0136-43ee-bd78-a9efbd0e5f17",
@@ -846,6 +797,20 @@
         "last_updated": "2026-06-11T08:35:18.766Z"
     },
     {
+        "id": "43597450-8c66-4f59-9ef5-c347c0a45fd4",
+        "name": "AMD Ryzen 7 3800X",
+        "variant": "3800X",
+        "amazon_sku": "B07SXMZLPJ",
+        "clean_name": "AMD Ryzen 7 3800X",
+        "socket": "AM4",
+        "cores": 8,
+        "threads": 16,
+        "tdp": 105,
+        "ram_type": "DDR4",
+        "price": 156.03,
+        "last_updated": "2026-06-11T08:15:50.095Z"
+    },
+    {
         "id": "ab6f4801-06f7-4d96-a9f4-0a84de527f54",
         "name": "AMD Ryzen 7 3800XT",
         "variant": "",
@@ -1054,6 +1019,34 @@
         "ram_type": "DDR5",
         "price": 433.26,
         "last_updated": "2026-06-11T08:44:48.708Z"
+    },
+    {
+        "id": "70bae351-5e16-46d2-ac14-821d393b6244",
+        "name": "AMD Ryzen 9 3900X",
+        "variant": "3900X",
+        "amazon_sku": "B07SXMZLP9",
+        "clean_name": "AMD Ryzen 9 3900X",
+        "socket": "AM4",
+        "cores": 12,
+        "threads": 24,
+        "tdp": 105,
+        "ram_type": "DDR4",
+        "price": 237.69,
+        "last_updated": "2026-06-11T08:16:33.074Z"
+    },
+    {
+        "id": "2c0ed4a5-939f-4902-bfeb-cb16c0890ef2",
+        "name": "AMD Ryzen 9 3950X",
+        "variant": "3950X",
+        "amazon_sku": "B07ZTYKLZW",
+        "clean_name": "AMD Ryzen 9 3950X",
+        "socket": "AM4",
+        "cores": 16,
+        "threads": 32,
+        "tdp": 105,
+        "ram_type": "DDR4",
+        "price": 269,
+        "last_updated": "2026-06-11T08:17:42.595Z"
     },
     {
         "id": "88335ff6-ffb7-4410-87d0-2b28cf7b1008",
