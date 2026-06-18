@@ -13,9 +13,10 @@ on:
 
 jobs:
   scrape:
-    # Must run on your home Pi (residential IP) -- GitHub-hosted runners
-    # are on Azure IPs that Amazon permanently blocks with captcha.
-    runs-on: self-hosted
+    # Runs on GitHub-hosted ubuntu-latest (no OOM), but all network traffic
+    # is routed through a WireGuard tunnel to the home Pi so Amazon sees
+    # the residential IP instead of an Azure datacenter IP.
+    runs-on: ubuntu-latest
     timeout-minutes: 300
     permissions:
       contents: write
@@ -26,11 +27,15 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Connect to Tailscale exit node (residential IP)
+        uses: tailscale/github-action@v2
+        with:
+          authkey: ${{ secrets.TS_AUTHKEY }}
+          args: --exit-node=100.101.155.64 --exit-node-allow-lan-access=false
+
       - name: Install dependencies
         working-directory: scraper
         shell: bash
-        env:
-          PUPPETEER_SKIP_DOWNLOAD: "true"
         run: npm ci
 
       - name: Configure git
@@ -42,9 +47,7 @@ jobs:
       - name: Run price scraper
         working-directory: scraper
         shell: bash
-        env:
-          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium
-        run: node --max-old-space-size=512 scraper.js "${{ github.event.inputs.category }}"
+        run: node scraper.js "${{ github.event.inputs.category }}"
 
       - name: Push commits
         if: always()

@@ -38,7 +38,7 @@ const ALL_CATEGORIES = [
     "OS",
 ];
 
-const CONCURRENCY = 2;
+const CONCURRENCY = Number(process.env.SCRAPE_CONCURRENCY) || 3;
 const MIN_DELAY_MS = 2000;
 const MAX_DELAY_MS = 5000;
 const MAX_RETRIES = 3;
