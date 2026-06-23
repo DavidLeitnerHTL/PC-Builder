@@ -59,6 +59,9 @@ function renderFooter() {
             <i class="fas fa-database me-1"></i> Enthält Informationen aus der <a href="https://github.com/buildcores/buildcores-open-db" target="_blank" class="text-decoration-underline">Buildcores Open Database</a>,
             <br>welche unter der <a href="https://opendatacommons.org/licenses/by/1-0/" target="_blank" class="text-decoration-underline">ODC Attribution License</a> bereitgestellt wird.
           </p>
+          <p class="small">
+            <i class="fas fa-tachometer-alt me-1"></i> Benchmark-Daten von <a href="https://www.passmark.com" target="_blank" class="text-decoration-underline">PassMark Software</a> © PassMark Software Pty Ltd.
+          </p>
         </div>
         <div class="col-md-6 mb-4 text-md-end">
           <h5>Links</h5>
