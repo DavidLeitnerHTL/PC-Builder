@@ -296,7 +296,7 @@ function updateCompatibilityPanel() {
         checks.push({ ok, label: `RAM: ${ram.specs.ram_type || '?'}`, msg: ok ? '' : `MB: ${mbT}, RAM: ${ramT}` });
     }
 
-    // 3. PSU wattage ≥ CPU.tdp + GPU.tdp + 150W buffer
+    // 3. PSU wattage — realistic estimate with peak/boost headroom
     if (psu && (cpu || gpu)) {
         const watts  = parseInt(psu.specs.wattage) || 0;
         const cpuTdp = parseInt(cpu && cpu.specs.tdp) || 0;
@@ -305,9 +305,10 @@ function updateCompatibilityPanel() {
         if (missingTdp) {
             checks.push({ warn: true, label: `PSU: ${watts}W`, msg: 'TDP-Daten unvollständig – kann nicht geprüft werden' });
         } else {
-            const needed = cpuTdp + gpuTdp + 150;
+            // CPU ×1.4 (boost), GPU ×1.6 (power spikes), +100W system
+            const needed = Math.ceil((cpuTdp * 1.4 + gpuTdp * 1.6 + 100) / 50) * 50;
             if (watts < needed) {
-                checks.push({ ok: false, label: `PSU: ${watts}W`, msg: `Braucht ~${needed}W (CPU ${cpuTdp}+GPU ${gpuTdp}+150)` });
+                checks.push({ ok: false, label: `PSU: ${watts}W`, msg: `Braucht ~${needed}W (CPU ${cpuTdp}W · GPU ${gpuTdp}W · System)` });
             } else if (watts >= needed + 300) {
                 checks.push({ tip: true, label: `PSU: ${watts}W`, msg: `Überdimensioniert – ~${needed}W würden reichen` });
             } else {
@@ -448,6 +449,10 @@ function updateCompatibilityPanel() {
     const verdictIcon  = diff <= 15 ? 'fa-check' : 'fa-triangle-exclamation';
     const verdictText  = diff <= 15 ? 'Ausgewogen' : (cpuBottleneck ? `CPU-Bottleneck ~${diff}%` : `GPU-Bottleneck ~${diff}%`);
 
+    let gpuBenchName = gpu.clean_name || gpu.name;
+    if (/^RTX\s|^GTX\s/i.test(gpuBenchName))   gpuBenchName = 'GeForce ' + gpuBenchName;
+    else if (/^RX\s|^R9\s/i.test(gpuBenchName)) gpuBenchName = 'Radeon '  + gpuBenchName;
+
     btEl.innerHTML = `
         <div style="margin-bottom:.35rem">
             <div style="display:flex;justify-content:space-between;font-size:.75rem;margin-bottom:.2rem">
@@ -471,7 +476,7 @@ function updateCompatibilityPanel() {
                 <i class="fas fa-chart-bar"></i>CPU Benchmark
             </a>
             <span class="benchmark-sep">·</span>
-            <a href="https://www.videocardbenchmark.net/gpu.php?gpu=${encodeURIComponent(gpu.clean_name || gpu.name)}" target="_blank" rel="noopener noreferrer" class="benchmark-link">
+            <a href="https://www.videocardbenchmark.net/gpu.php?gpu=${encodeURIComponent(gpuBenchName)}" target="_blank" rel="noopener noreferrer" class="benchmark-link">
                 <i class="fas fa-chart-bar"></i>GPU Benchmark
             </a>
         </div>`;
