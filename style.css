@@ -308,6 +308,7 @@ main::before {
 .compat-check i { margin-top: .15rem; flex-shrink: 0; }
 .compat-ok      { color: #22c55e; }
 .compat-warn    { color: #f59e0b; cursor: help; }
+.compat-tip     { color: #3b82f6; cursor: help; }
 .compat-error   { color: #ef4444; cursor: help; }
 
 /* === NEWS CARDS === */

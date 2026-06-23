@@ -306,8 +306,13 @@ function updateCompatibilityPanel() {
             checks.push({ warn: true, label: `PSU: ${watts}W`, msg: 'TDP-Daten unvollständig – kann nicht geprüft werden' });
         } else {
             const needed = cpuTdp + gpuTdp + 150;
-            const ok     = watts >= needed;
-            checks.push({ ok, label: `PSU: ${watts}W`, msg: ok ? '' : `Braucht ~${needed}W (CPU ${cpuTdp}+GPU ${gpuTdp}+150)` });
+            if (watts < needed) {
+                checks.push({ ok: false, label: `PSU: ${watts}W`, msg: `Braucht ~${needed}W (CPU ${cpuTdp}+GPU ${gpuTdp}+150)` });
+            } else if (watts >= needed + 300) {
+                checks.push({ tip: true, label: `PSU: ${watts}W`, msg: `Überdimensioniert – ~${needed}W würden reichen` });
+            } else {
+                checks.push({ ok: true, label: `PSU: ${watts}W` });
+            }
         }
     }
 
@@ -347,14 +352,54 @@ function updateCompatibilityPanel() {
         }
     }
 
+    // ── Advisory tips ────────────────────────────────────────────────────────
+    // RAM capacity
+    if (ram) {
+        const capMatch = (ram.specs.capacity || ram.specs.modules_config || '').match(/([\d.]+)\s*(gb|tb)/i);
+        const capGb = capMatch ? parseFloat(capMatch[1]) * (capMatch[2].toLowerCase() === 'tb' ? 1024 : 1) : 0;
+        if (capGb >= 64) {
+            checks.push({ tip: true, label: `RAM: ${capGb}GB`, msg: '64GB+ ist für Gaming unnötig – 16–32GB reichen' });
+        } else if (capGb && capGb <= 8) {
+            checks.push({ tip: true, label: `RAM: ${capGb}GB`, msg: '8GB ist für moderne Spiele knapp – 16GB empfohlen' });
+        }
+    }
+
+    // Single-channel RAM (only 1 module)
+    if (ram) {
+        const modMatch = (ram.specs.modules_config || '').match(/\(\s*(\d+)\s*x/i);
+        const modCount = modMatch ? parseInt(modMatch[1]) : (parseInt(ram.specs.modules) || 0);
+        if (modCount === 1) {
+            checks.push({ tip: true, label: 'RAM: Single-Channel', msg: 'Ein Modul = Single-Channel. Zweites Modul für deutlich mehr Bandbreite empfohlen' });
+        }
+    }
+
+    // No SSD selected
+    if (cpu && mb && !getSelected('ssd')) {
+        checks.push({ tip: true, label: 'Kein Speicher', msg: 'Kein SSD/HDD ausgewählt – der Build bootet nicht' });
+    }
+
+    // No CPU cooler selected (and CPU has no integrated graphics hinting at a boxed cooler)
+    if (cpu && !cooler) {
+        checks.push({ tip: true, label: 'Kein Kühler', msg: 'Kein CPU-Kühler ausgewählt – prüfen ob Boxed-Kühler beigelegt ist' });
+    }
+
+    // High-TDP CPU with air cooler
+    if (cpu && cooler) {
+        const cpuTdpAdv = parseInt(cpu.specs.tdp) || 0;
+        const isWater   = cooler.specs.cooler_type === true || cooler.specs.cooler_type === 'liquid';
+        if (cpuTdpAdv >= 150 && !isWater) {
+            checks.push({ tip: true, label: `TDP: ${cpuTdpAdv}W`, msg: 'Hohe CPU-TDP – Wasserkühlung empfohlen für stabilen Betrieb' });
+        }
+    }
+
     const listEl = document.getElementById('compat-list');
     if (listEl) {
         if (checks.length === 0) {
             listEl.innerHTML = '<span style="color:var(--text-secondary);font-size:.82rem">Mehr Komponenten wählen…</span>';
         } else {
             listEl.innerHTML = checks.map(c => {
-                const cls  = c.warn ? 'compat-warn' : (c.ok ? 'compat-ok' : 'compat-error');
-                const icon = c.warn ? 'fa-question' : (c.ok ? 'fa-check' : 'fa-xmark');
+                const cls  = c.tip ? 'compat-tip' : c.warn ? 'compat-warn' : (c.ok ? 'compat-ok' : 'compat-error');
+                const icon = c.tip ? 'fa-lightbulb' : c.warn ? 'fa-question' : (c.ok ? 'fa-check' : 'fa-xmark');
                 const tip  = c.msg ? ` title="${c.msg}"` : '';
                 return `<div class="compat-check ${cls}"${tip}><i class="fas ${icon}"></i>${c.label}</div>`;
             }).join('');
