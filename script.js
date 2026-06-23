@@ -454,8 +454,9 @@ function updateCompatibilityPanel() {
         /((?:GeForce|Radeon)\s+(?:RTX|GTX|GT|RX|R9|R7)\s+\d+(?:\s+(?:Ti|SUPER|XTX?|GRE|SE|ULTRA|OEM))*)/i
     );
     let gpuBenchName = gpuChipMatch ? gpuChipMatch[1] : gpuSrc;
-    if (/^RTX\s|^GTX\s/i.test(gpuBenchName))   gpuBenchName = 'GeForce ' + gpuBenchName;
-    else if (/^RX\s|^R9\s/i.test(gpuBenchName)) gpuBenchName = 'Radeon '  + gpuBenchName;
+    if (/^GeForce\s/i.test(gpuBenchName))        gpuBenchName = 'NVIDIA ' + gpuBenchName;
+    else if (/^RTX\s|^GTX\s/i.test(gpuBenchName)) gpuBenchName = 'NVIDIA GeForce ' + gpuBenchName;
+    else if (/^RX\s|^R9\s/i.test(gpuBenchName))   gpuBenchName = 'Radeon ' + gpuBenchName;
 
     btEl.innerHTML = `
         <div style="margin-bottom:.35rem">
