@@ -307,6 +307,7 @@ main::before {
 .compat-check   { display: flex; align-items: flex-start; gap: .35rem; padding: .18rem 0; font-size: .82rem; line-height: 1.35; }
 .compat-check i { margin-top: .15rem; flex-shrink: 0; }
 .compat-ok      { color: #22c55e; }
+.compat-warn    { color: #f59e0b; cursor: help; }
 .compat-error   { color: #ef4444; cursor: help; }
 
 /* === NEWS CARDS === */

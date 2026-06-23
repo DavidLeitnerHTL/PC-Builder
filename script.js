@@ -296,14 +296,19 @@ function updateCompatibilityPanel() {
         checks.push({ ok, label: `RAM: ${ram.specs.ram_type || '?'}`, msg: ok ? '' : `MB: ${mbT}, RAM: ${ramT}` });
     }
 
-    // 3. PSU wattage ≥ CPU.tdp + GPU.tdp + 100W buffer
+    // 3. PSU wattage ≥ CPU.tdp + GPU.tdp + 150W buffer
     if (psu && (cpu || gpu)) {
         const watts  = parseInt(psu.specs.wattage) || 0;
-        const cpuTdp = parseInt(cpu  && cpu.specs.tdp) || 0;
-        const gpuTdp = parseInt(gpu  && gpu.specs.tdp) || 0;
-        const needed = cpuTdp + gpuTdp + 100;
-        const ok     = watts >= needed;
-        checks.push({ ok, label: `PSU: ${watts}W`, msg: ok ? '' : `Braucht ~${needed}W (CPU ${cpuTdp}+GPU ${gpuTdp}+100)` });
+        const cpuTdp = parseInt(cpu && cpu.specs.tdp) || 0;
+        const gpuTdp = parseInt(gpu && gpu.specs.tdp) || 0;
+        const missingTdp = (cpu && !cpuTdp) || (gpu && !gpuTdp);
+        if (missingTdp) {
+            checks.push({ warn: true, label: `PSU: ${watts}W`, msg: 'TDP-Daten unvollständig – kann nicht geprüft werden' });
+        } else {
+            const needed = cpuTdp + gpuTdp + 150;
+            const ok     = watts >= needed;
+            checks.push({ ok, label: `PSU: ${watts}W`, msg: ok ? '' : `Braucht ~${needed}W (CPU ${cpuTdp}+GPU ${gpuTdp}+150)` });
+        }
     }
 
     // 4. Case ↔ MB form factor (motherboard_support may be an array)
@@ -325,16 +330,20 @@ function updateCompatibilityPanel() {
         if (gpuLen && caseMax) {
             const ok = gpuLen <= caseMax;
             checks.push({ ok, label: `GPU: ${gpuLen}mm`, msg: ok ? '' : `GPU ${gpuLen}mm > Max ${caseMax}mm` });
+        } else {
+            checks.push({ warn: true, label: `GPU: ${gpuLen ? gpuLen + 'mm' : '?'}`, msg: 'Längenangaben fehlen – bitte manuell prüfen' });
         }
     }
 
     // 6. Cooler height ≤ case max_cooler_height
     if (cooler && cas) {
-        const coolerH = parseInt(cooler.specs.height)           || 0;
-        const caseMax = parseInt(cas.specs.max_cooler_height)   || 0;
+        const coolerH = parseInt(cooler.specs.height)         || 0;
+        const caseMax = parseInt(cas.specs.max_cooler_height) || 0;
         if (coolerH && caseMax) {
             const ok = coolerH <= caseMax;
             checks.push({ ok, label: `Kühler: ${coolerH}mm`, msg: ok ? '' : `Kühler ${coolerH}mm > Max ${caseMax}mm` });
+        } else {
+            checks.push({ warn: true, label: `Kühler: ${coolerH ? coolerH + 'mm' : '?'}`, msg: 'Höhenangaben fehlen – bitte manuell prüfen' });
         }
     }
 
@@ -344,8 +353,8 @@ function updateCompatibilityPanel() {
             listEl.innerHTML = '<span style="color:var(--text-secondary);font-size:.82rem">Mehr Komponenten wählen…</span>';
         } else {
             listEl.innerHTML = checks.map(c => {
-                const cls  = c.ok ? 'compat-ok' : 'compat-error';
-                const icon = c.ok ? 'fa-check' : 'fa-xmark';
+                const cls  = c.warn ? 'compat-warn' : (c.ok ? 'compat-ok' : 'compat-error');
+                const icon = c.warn ? 'fa-question' : (c.ok ? 'fa-check' : 'fa-xmark');
                 const tip  = c.msg ? ` title="${c.msg}"` : '';
                 return `<div class="compat-check ${cls}"${tip}><i class="fas ${icon}"></i>${c.label}</div>`;
             }).join('');
