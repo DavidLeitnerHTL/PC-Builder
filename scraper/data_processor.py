@@ -503,18 +503,31 @@ def add_category_specific_specs(raw_category, raw_data, item_data):
 # PASSMARK SCORE ENRICHMENT
 # ==========================================
 
+# CPU list: Intel-only static HTML (AMD rows are JS-rendered, not accessible without a browser).
+# GPU list: full coverage via gpu_list.php static HTML.
 _PM_ENDPOINTS = {
-    'CPU': 'https://www.cpubenchmark.net/resources/chart-data/CPU_mega_chart.csv',
-    'GPU': 'https://www.videocardbenchmark.net/resources/chart-data/GPU_mega_chart.csv',
+    'CPU': 'https://www.cpubenchmark.net/cpu-list/',
+    'GPU': 'https://www.videocardbenchmark.net/gpu_list.php',
 }
 _PM_HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (compatible; pc-builder/1.0)',
-    'Accept': 'text/csv,*/*',
+    'User-Agent': (
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+        'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36'
+    ),
+    'Accept': 'text/html,*/*',
 }
+# Matches both cpubenchmark.net/cpu-list/ (lowercase tags) and
+# videocardbenchmark.net/gpu_list.php (uppercase tags).
+_PM_ROW_RE = re.compile(
+    r'">([^<"]{5,80})</a></td><td>([\d,]+)</td><td>\d+</td>',
+    re.IGNORECASE,
+)
 
 
 def fetch_passmark_scores():
-    """Download PassMark CPU/GPU scores from public CSV endpoints.
+    """Scrape PassMark scores from HTML list pages.
+    CPU scores cover Intel only (AMD rows are JS-rendered, unavailable without a browser).
+    AMD CPUs fall back to the cores*clock formula in compScore().
     Returns {'CPU': {name: score}, 'GPU': {name: score}}. Never raises."""
     scores = {'CPU': {}, 'GPU': {}}
     for category, url in _PM_ENDPOINTS.items():
@@ -522,16 +535,14 @@ def fetch_passmark_scores():
             req = urllib.request.Request(url, headers=_PM_HEADERS)
             with urllib.request.urlopen(req, timeout=30) as r:
                 content = r.read().decode('utf-8', errors='replace')
-            for line in content.splitlines()[1:]:
-                parts = line.split(',')
-                if len(parts) < 2:
-                    continue
-                name = parts[0].strip().strip('"')
+            for match in _PM_ROW_RE.finditer(content):
+                name = match.group(1).strip()
+                score_str = match.group(2).replace(',', '')
                 try:
-                    score = int(float(parts[1].strip().strip('"')))
+                    score = int(score_str)
                     if name and score > 0:
                         scores[category][name] = score
-                except (ValueError, IndexError):
+                except ValueError:
                     continue
             print(f"  PassMark {category}: {len(scores[category])} scores loaded.")
         except Exception as exc:
