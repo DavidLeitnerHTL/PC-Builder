@@ -465,7 +465,16 @@ function updateCompatibilityPanel() {
                 <div style="width:${gpuPct}%;height:100%;background:${gpuColor};border-radius:3px;transition:width .5s ease"></div>
             </div>
         </div>
-        <div style="font-size:.72rem;color:${verdictColor};margin-top:.4rem"><i class="fas ${verdictIcon} me-1"></i>${verdictText}</div>`;
+        <div style="font-size:.72rem;color:${verdictColor};margin-top:.4rem"><i class="fas ${verdictIcon} me-1"></i>${verdictText}</div>
+        <div class="benchmark-links">
+            <a href="https://www.cpubenchmark.net/cpu.php?cpu=${encodeURIComponent(cpu.name)}" target="_blank" rel="noopener noreferrer" class="benchmark-link">
+                <i class="fas fa-chart-bar"></i>CPU Benchmark
+            </a>
+            <span class="benchmark-sep">·</span>
+            <a href="https://www.videocardbenchmark.net/gpu.php?gpu=${encodeURIComponent(gpu.name)}" target="_blank" rel="noopener noreferrer" class="benchmark-link">
+                <i class="fas fa-chart-bar"></i>GPU Benchmark
+            </a>
+        </div>`;
 }
 
 // ==========================================
@@ -591,6 +600,88 @@ function activatePresetButton(type) {
 // CALCULATION & UPDATES
 // ==========================================
 
+function formatDisplayName(product, category) {
+    const raw   = product.name        || '';
+    const clean = product.clean_name  || raw;
+
+    const BRANDS = [
+        'AMD', 'Intel',
+        'ASUS', 'MSI', 'Gigabyte', 'Sapphire', 'PowerColor', 'XFX', 'Zotac', 'ZOTAC',
+        'Palit', 'EVGA', 'PNY', 'Gainward',
+        'G.Skill', 'Corsair', 'Kingston', 'Crucial', 'TeamGroup',
+        'Seasonic', 'Silverstone', 'SilverStone', 'Thermaltake', 'Antec',
+        'be quiet!', 'Noctua', 'Arctic', 'Deepcool', 'DeepCool', 'Cooler Master', 'Scythe',
+        'Fractal Design', 'Lian Li', 'NZXT', 'Phanteks', 'Kolink', 'Jonsbo', 'Sharkoon',
+        'Samsung', 'WD', 'Western Digital', 'Seagate', 'Sabrent',
+    ];
+
+    let brand = '';
+    for (const b of BRANDS) {
+        if (raw.toLowerCase().startsWith(b.toLowerCase())) { brand = b; break; }
+    }
+
+    let model = clean;
+    if (brand && model.toLowerCase().startsWith(brand.toLowerCase())) {
+        model = model.substring(brand.length).replace(/^[- ]+/, '');
+    }
+
+    let spec = '';
+    switch (category) {
+        case 'CPU':
+            if (product.cores) spec = `${product.cores}C`;
+            if (product.tdp)   spec += (spec ? ' · ' : '') + `${product.tdp}W`;
+            break;
+        case 'GPU': {
+            const v = product.vram ? String(product.vram) : '';
+            if (v) spec = v.toLowerCase().includes('gb') ? v : `${v}GB`;
+            break;
+        }
+        case 'RAM': {
+            const capStr = product.capacity || product.modules_config || '';
+            const m = capStr.match(/([\d.]+)\s*(gb|tb)/i);
+            if (m) spec = `${m[1]}${m[2].toUpperCase()}`;
+            if (product.ram_type) spec += (spec ? ' ' : '') + product.ram_type;
+            break;
+        }
+        case 'PSU':
+            if (product.wattage)    spec = `${product.wattage}W`;
+            if (product.efficiency) spec += (spec ? ' ' : '') + product.efficiency;
+            break;
+        case 'Motherboard':
+            if (product.socket)      spec = product.socket;
+            if (product.form_factor) spec += (spec ? ' · ' : '') + product.form_factor;
+            break;
+        case 'Storage': {
+            const m = raw.match(/([\d.]+)\s*(tb|gb)/i);
+            if (m) spec = `${m[1]}${m[2].toUpperCase()}`;
+            break;
+        }
+        case 'CPUCooler':
+            if (product.height) spec = `${product.height}mm`;
+            break;
+        case 'CaseFan': {
+            const m = raw.match(/(\d{2,3})\s*mm/i);
+            if (m) spec = `${m[1]}mm`;
+            break;
+        }
+        case 'PCCase': {
+            const base = brand ? `${brand} ${model}` : model;
+            return base.length > 34 ? base.substring(0, 32) + '…' : base;
+        }
+        case 'OS':
+            return model.length > 42 ? model.substring(0, 40) + '…' : model;
+    }
+
+    const base = brand ? `${brand} ${model}` : model;
+    if (spec) {
+        const key = spec.split(/[\s·]/)[0].replace(/\W/g, '').toLowerCase();
+        if (!key || !base.toLowerCase().replace(/\W/g, '').includes(key)) {
+            return `${base} · ${spec}`;
+        }
+    }
+    return base;
+}
+
 async function initializeDropdowns() {
     const selectMap = {
         'cpu': 'CPU',
@@ -633,8 +724,7 @@ async function initializeDropdowns() {
                         specs: getProductSpecs(product, category)
                     };
 
-                    // Use clean_name for dropdown display and Tom Select search
-                    const displayName = product.clean_name || product.name;
+                    const displayName = formatDisplayName(product, category);
 
                     // Only put the clean, unique ID in the HTML value attribute
                     option.value = uniqueKey;

@@ -311,6 +311,12 @@ main::before {
 .compat-tip     { color: #3b82f6; cursor: help; }
 .compat-error   { color: #ef4444; cursor: help; }
 
+.benchmark-links { display:flex; align-items:center; gap:.4rem; margin-top:.5rem; flex-wrap:wrap; }
+.benchmark-link  { font-size:.72rem; color:var(--text-secondary); text-decoration:none; display:flex; align-items:center; gap:.25rem; transition:color .15s; }
+.benchmark-link:hover { color:var(--accent-color); }
+.benchmark-link i { font-size:.65rem; }
+.benchmark-sep   { color:var(--border-color-strong); font-size:.72rem; }
+
 /* === NEWS CARDS === */
 .news-card {
   border-radius: var(--radius-lg);

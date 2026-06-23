@@ -202,8 +202,8 @@
         </div>
 
         <!-- Compatibility & Bottleneck Panel -->
-        <div class="col-lg-4" id="compat-panel-col">
-          <div id="compat-panel" style="position:sticky;top:90px;display:none">
+        <div class="col-lg-4" id="compat-panel-col" style="position:sticky;top:90px;align-self:flex-start">
+          <div id="compat-panel" style="display:none">
             <div class="compat-panel-card">
               <div class="compat-panel-title">
                 <i class="fas fa-shield-halved me-1"></i>Build-Status
@@ -349,6 +349,21 @@
   </div>
 
   <!-- Scripts -->
+  <!-- === GSAP core + ScrollTrigger + SplitText === -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/SplitText.min.js"></script>
+  <!-- === Lenis smooth scroll === -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger, SplitText);
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      window.__lenis = new Lenis({ lerp: 0.08 });
+      window.__lenis.on('scroll', ScrollTrigger.update);
+      gsap.ticker.add(function (time) { window.__lenis.raf(time * 1000); });
+      gsap.ticker.lagSmoothing(0);
+    }
+  </script>
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/js/tom-select.complete.min.js"></script>
   <script defer src="config.js"></script>
