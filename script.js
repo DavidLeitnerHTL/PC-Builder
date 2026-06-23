@@ -451,7 +451,7 @@ function updateCompatibilityPanel() {
 
     const gpuSrc = gpu.clean_name || gpu.name;
     const gpuChipMatch = gpuSrc.match(
-        /(GeForce\s+(?:RTX|GTX|GT)\s+\d+\S*|Radeon\s+(?:RX|R9|R7)\s+\d+\S*|Intel\s+Arc\s+[A-Z]\d+\S*)/i
+        /((?:GeForce|Radeon)\s+(?:RTX|GTX|GT|RX|R9|R7)\s+\d+(?:\s+(?:Ti|SUPER|XTX?|GRE|SE|ULTRA|OEM))*)/i
     );
     let gpuBenchName = gpuChipMatch ? gpuChipMatch[1] : gpuSrc;
     if (/^RTX\s|^GTX\s/i.test(gpuBenchName))   gpuBenchName = 'GeForce ' + gpuBenchName;
