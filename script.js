@@ -471,7 +471,7 @@ function updateCompatibilityPanel() {
                 <i class="fas fa-chart-bar"></i>CPU Benchmark
             </a>
             <span class="benchmark-sep">·</span>
-            <a href="https://www.videocardbenchmark.net/gpu.php?gpu=${encodeURIComponent(gpu.name)}" target="_blank" rel="noopener noreferrer" class="benchmark-link">
+            <a href="https://www.videocardbenchmark.net/gpu.php?gpu=${encodeURIComponent(gpu.clean_name || gpu.name)}" target="_blank" rel="noopener noreferrer" class="benchmark-link">
                 <i class="fas fa-chart-bar"></i>GPU Benchmark
             </a>
         </div>`;

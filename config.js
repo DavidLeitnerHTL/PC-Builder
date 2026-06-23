@@ -46,7 +46,7 @@ function renderHeader() {
 
 function renderFooter() {
     return `
-  <footer class="pt-5 pb-3">
+  <footer class="pt-3 pb-2">
     <div class="container">
       <div class="row">
         <div class="col-md-6 mb-4">
@@ -78,9 +78,6 @@ function renderFooter() {
             </li>
           </ul>
         </div>
-      </div>
-      <div class="footer-bottom text-center">
-        <small style="color: var(--text-secondary);">Designed with <span class="text-accent">●</span> precision</small>
       </div>
     </div>
     <div class="footer-spacer"></div>
