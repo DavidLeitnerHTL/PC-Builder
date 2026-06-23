@@ -401,7 +401,10 @@ function updateCompatibilityPanel() {
                 const cls  = c.tip ? 'compat-tip' : c.warn ? 'compat-warn' : (c.ok ? 'compat-ok' : 'compat-error');
                 const icon = c.tip ? 'fa-lightbulb' : c.warn ? 'fa-question' : (c.ok ? 'fa-check' : 'fa-xmark');
                 const tip  = c.msg ? ` title="${c.msg}"` : '';
-                return `<div class="compat-check ${cls}"${tip}><i class="fas ${icon}"></i>${c.label}</div>`;
+                const sub  = (c.tip || c.warn) && c.msg
+                    ? `<div style="font-size:.72rem;opacity:.8;padding-left:1.1rem;line-height:1.3;margin-bottom:.15rem">${c.msg}</div>`
+                    : '';
+                return `<div class="compat-check ${cls}"${tip}><i class="fas ${icon}"></i><span>${c.label}</span></div>${sub}`;
             }).join('');
         }
     }
