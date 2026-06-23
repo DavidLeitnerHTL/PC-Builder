@@ -1,26 +1,21 @@
 /**
  * fetch_passmark.js — run once to generate passmark_scores.json
  *
- * Uses Puppeteer so AMD CPUs (JS-rendered on cpubenchmark.net) are included.
- * GPU data is fetched via plain HTTP (no JS needed on videocardbenchmark.net).
+ * Scrapes PassMark CPU chart pages (high_end + mid_range) and the GPU list
+ * page via plain HTTP — no Puppeteer needed.
  *
  * Usage:  node fetch_passmark.js
  * Output: passmark_scores.json  (read by data_processor.py)
  */
 
-import puppeteer from 'puppeteer-extra';
-import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import https from 'https';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-puppeteer.use(StealthPlugin());
-
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT = path.join(__dirname, 'passmark_scores.json');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36';
-const ROW_RE = /">([^<"]{5,80})<\/a><\/td><td>([\d,]+)<\/td><td>\d+<\/td>/gi;
 
 function httpGet(url) {
     return new Promise((resolve, reject) => {
@@ -32,11 +27,30 @@ function httpGet(url) {
     });
 }
 
-function parseHtmlScores(html) {
+// Parses CPU chart pages (high_end_cpus.html, mid_range_cpus.html).
+// HTML structure: <span class="prdname">NAME</span> … <span class="count">SCORE</span>
+const CPU_CHART_RE = /<span class="prdname">([^<]+)<\/span>[\s\S]{0,300}?<span class="count">([\d,]+)<\/span>/g;
+
+// Parses videocardbenchmark.net/gpu_list.php (uppercase tags, all GPUs).
+const GPU_LIST_RE = /">([^<"]{5,80})<\/a><\/td><td>([\d,]+)<\/td><td>\d+<\/td>/gi;
+
+function parseCpuChart(html) {
     const scores = {};
-    ROW_RE.lastIndex = 0;
+    CPU_CHART_RE.lastIndex = 0;
     let m;
-    while ((m = ROW_RE.exec(html)) !== null) {
+    while ((m = CPU_CHART_RE.exec(html)) !== null) {
+        const name = m[1].trim();
+        const score = parseInt(m[2].replace(/,/g, ''), 10);
+        if (name && score > 0 && !(name in scores)) scores[name] = score;
+    }
+    return scores;
+}
+
+function parseGpuList(html) {
+    const scores = {};
+    GPU_LIST_RE.lastIndex = 0;
+    let m;
+    while ((m = GPU_LIST_RE.exec(html)) !== null) {
         const name = m[1].trim();
         const score = parseInt(m[2].replace(/,/g, ''), 10);
         if (name && score > 0) scores[name] = score;
@@ -44,79 +58,33 @@ function parseHtmlScores(html) {
     return scores;
 }
 
-async function fetchCpuScores() {
-    const browser = await puppeteer.launch({
-        headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
-    });
-    try {
-        const page = await browser.newPage();
-        await page.setUserAgent(UA);
-
-        // Intercept DataTables AJAX responses to capture AMD rows
-        const ajaxRows = [];
-        page.on('response', async response => {
-            const ct = response.headers()['content-type'] || '';
-            if (!ct.includes('json')) return;
-            try {
-                const json = await response.json();
-                if (Array.isArray(json.data) && json.data.length > 0)
-                    ajaxRows.push(...json.data);
-            } catch (_) {}
-        });
-
-        await page.goto('https://www.cpubenchmark.net/cpu-list/', {
-            waitUntil: 'networkidle2',
-            timeout: 60000,
-        });
-
-        // Extract rows from the rendered DOM (Intel SSR + AMD AJAX)
-        const domRows = await page.evaluate(() =>
-            [...document.querySelectorAll('table tbody tr')].flatMap(tr => {
-                const cells = [...tr.querySelectorAll('td')];
-                if (cells.length < 2) return [];
-                const a = cells[0].querySelector('a');
-                if (!a) return [];
-                const name = a.textContent.trim();
-                const score = parseInt(cells[1].textContent.replace(/,/g, ''), 10);
-                return name && score > 0 ? [[name, score]] : [];
-            })
-        );
-
-        const scores = {};
-        domRows.forEach(([n, s]) => { scores[n] = s; });
-
-        // Merge AJAX rows (DataTables format: [name_html, score, rank, …])
-        for (const row of ajaxRows) {
-            if (!Array.isArray(row) || row.length < 2) continue;
-            const nameMatch = String(row[0]).match(/'>([^<']+)<\/a>/i)
-                           || String(row[0]).match(/">([^<"]+)<\/a>/i);
-            const name = nameMatch
-                ? nameMatch[1].trim()
-                : String(row[0]).replace(/<[^>]+>/g, '').trim();
-            const score = parseInt(String(row[1]).replace(/,/g, ''), 10);
-            if (name && score > 0) scores[name] = score;
-        }
-
-        console.log(`CPU: ${Object.keys(scores).length} scores (DOM rows: ${domRows.length}, AJAX rows: ${ajaxRows.length})`);
-        return scores;
-    } finally {
-        await browser.close();
-    }
-}
-
-async function fetchGpuScores() {
-    const html = await httpGet('https://www.videocardbenchmark.net/gpu_list.php');
-    const scores = parseHtmlScores(html);
-    console.log(`GPU: ${Object.keys(scores).length} scores`);
-    return scores;
-}
-
 (async () => {
-    console.log('Fetching PassMark scores (this takes ~30 s)…\n');
-    const [CPU, GPU] = await Promise.all([fetchCpuScores(), fetchGpuScores()]);
+    console.log('Fetching PassMark scores…\n');
+
+    const [highEnd, midRange, gpuHtml] = await Promise.all([
+        httpGet('https://www.cpubenchmark.net/high_end_cpus.html'),
+        httpGet('https://www.cpubenchmark.net/mid_range_cpus.html'),
+        httpGet('https://www.videocardbenchmark.net/gpu_list.php'),
+    ]);
+
+    const highScores = parseCpuChart(highEnd);
+    const midScores  = parseCpuChart(midRange);
+
+    // Merge: high_end takes priority (higher scores listed first on that page)
+    const CPU = { ...midScores, ...highScores };
+    const GPU = parseGpuList(gpuHtml);
+
+    const amdCount   = Object.keys(CPU).filter(n => n.includes('Ryzen') || n.startsWith('AMD')).length;
+    const intelCount = Object.keys(CPU).filter(n => n.includes('Intel') || n.includes('Core i')).length;
+
+    console.log(`CPU: ${Object.keys(CPU).length} total  (AMD≈${amdCount}, Intel≈${intelCount})`);
+    console.log(`GPU: ${Object.keys(GPU).length} total`);
+
+    // Spot-check
+    const checks = ['AMD Ryzen 7 9800X3D', 'Intel Core i9-14900K', 'GeForce RTX 4090', 'Radeon RX 7900 XTX'];
+    checks.forEach(n => console.log(`  ${n}: ${CPU[n] ?? GPU[n] ?? 'not found'}`));
+
     const out = { generated: new Date().toISOString(), CPU, GPU };
     fs.writeFileSync(OUTPUT, JSON.stringify(out, null, 2));
     console.log(`\nWritten → ${OUTPUT}`);
-    console.log(`  CPU: ${Object.keys(CPU).length}  GPU: ${Object.keys(GPU).length}`);
 })();
