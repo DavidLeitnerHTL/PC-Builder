@@ -1,72 +1,99 @@
-PC Builder Web App
-======================
+# PC Builder
 
-A modern and simple web app that helps you build your own PC and calculate the price. Included: a smart AI assistant and an automated hardware database.
+A modern PC configurator with AI support. Built as a school project at HTL Leonding.
 
-Features
-----------
+**Live:** [pc-builder.at](https://pc-builder.at)
 
-*   **Interactive PC Building**: Choose your PC parts (CPU, graphics card, RAM, etc.) and instantly see the total price.
-    
-*   **Sleek Design**: Features a Dark Mode, a floating price bar, and modern buttons.
-    
-*   **AI Assistant**: A built-in chat using Google Gemini AI helps with questions about your PC (securely connected via a Cloudflare Worker).
-    
-*   **Automated Data**: A background program (GitHub Actions) fetches the latest hardware data every night, sorts it, and saves it as handy JSON files.
-    
+---
 
-Features
---------
+## Features
 
-*   **Save/Load Builds**: Save your PC configurations locally and load them later. Export builds as JSON to share with friends!
-    
-*   **Interactive PC Building**: Choose your PC parts (CPU, graphics card, RAM, etc.) and instantly see the total price.
-    
-*   **Sleek Design**: Features a Dark Mode, a floating price bar, and modern buttons.
-    
-*   **AI Assistant**: A built-in chat using Google Gemini AI helps with questions about your PC (securely connected via a Cloudflare Worker).
-    
-*   **Automated Data**: A background program (GitHub Actions) fetches the latest hardware data every night, sorts it, and saves it as handy JSON files.
-    
+- **PC Configurator** — Pick CPU, GPU, RAM, motherboard, storage, PSU, case, cooler, and OS. Instant price total with a floating price bar.
+- **Compatibility Panel** — Real-time checks for socket, RAM type, PSU wattage, form factor, GPU length, and cooler height. Color-coded: green (ok), yellow (data missing), red (incompatible), blue (advisory tip).
+- **Advisory Tips** — Smart hints for unbalanced builds: oversized PSU, too little/much RAM, single-channel RAM, missing storage, underpowered cooling.
+- **Bottleneck Calculator** — Percentile-based CPU/GPU balance indicator powered by PassMark scores.
+- **AI Assistant** — Built-in chat via Google Gemini (proxied through a Cloudflare Worker — API key never exposed).
+- **Save / Load Builds** — Up to 10 named builds in localStorage. JSON export & import for sharing.
+- **Automated Data Pipeline** — GitHub Actions runs nightly: syncs the Buildcores Open Database, scrapes Amazon.de prices per category, and commits updated JSON files.
+- **Price History** — SQLite database on a Raspberry Pi 4 tracks daily prices per product via a self-hosted API (`db.pc-builder.at`).
 
-Planned Feature: Hardware Info Button
-----------------------------------------
+---
 
-We are currently working on connecting our website directly to the new data (processed\_data/).In the next update, there will be an **Info Button** next to every PC part. When you click it, the app will search our database and instantly show you all important technical details (like socket, power consumption, or core count) right on the website!
+## Tech Stack
 
-Technologies Used
----------------------
+| Layer | Technology |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript, Bootstrap 5 |
+| AI | Google Gemini API (via Cloudflare Worker) |
+| Data processing | Python 3 |
+| Price scraping | Node.js, Puppeteer, puppeteer-extra-plugin-stealth |
+| Benchmark data | PassMark Software (scraped via `fetch_passmark.js`) |
+| Automation | GitHub Actions |
+| Production API | Node.js + Express + SQLite on Raspberry Pi 4 |
 
-*   **Frontend (Website)**: HTML5, CSS3, JavaScript, Bootstrap 5
-    
-*   **Backend (Server)**: Cloudflare Workers
-    
-*   **AI Model**: Google Gemini API
-    
-*   **Data Processing**: Python 3, GitHub Actions
-    
+---
 
-Project Structure
------------------
+## Project Structure
 
-```text
+```
 /
-├── index.html            # Main page of the web app
-├── builder.html          # PC configurator page
-├── style.css             # Design, colors, and animations
-├── script.js             # Site logic and AI connection
-├── buildStorage.js       # Save/Load build feature module
-├── config.js             # Settings
-├── /scraper/             # Scraper suite (Node.js + Python) for prices & data
-├── /processed_data/      # Automatically created JSON data (CPUs, graphics cards...)
-└── /.github/workflows/   # Background programs (e.g., for daily updates)
+├── index.html              # Landing page
+├── builder.html            # PC configurator
+├── product.html            # Product detail page
+├── knowledge.html          # Hardware guide
+├── news.html               # Tech news feed
+├── faq.html                # FAQ
+├── style.css               # Styles & dark theme
+├── script.js               # Builder logic, compatibility checks, AI chat
+├── buildStorage.js         # Save/load builds (localStorage)
+├── config.js               # Shared header/footer, API config
+├── scraper/
+│   ├── scraper.js          # Amazon.de price scraper (Puppeteer)
+│   ├── priceUpdater.js     # Refreshes stale prices (>7 days)
+│   ├── scraper-core.js     # Shared scraper utilities
+│   ├── data_processor.py   # Converts raw Buildcores DB → processed_data/
+│   ├── fetch_passmark.js   # One-shot PassMark score scraper → passmark_scores.json
+│   ├── passmark_scores.json# Cached CPU + GPU benchmark scores
+│   └── rss-scraper.js      # Tech news RSS fetcher
+├── server/
+│   ├── server.js           # Express API (products + price history)
+│   └── import.js           # Imports processed_data/ into SQLite
+├── processed_data/         # Auto-generated JSON per category (gitignored for large files)
+└── .github/workflows/      # CI: nightly DB sync + price scraping matrix
 ```
 
-Installation & Setup
------------------------
+---
 
-1.  Download the project: git clone https://github.com/DavidLeitnerHTL/PC-Builder.git
-    
-2.  Open the index.html file in your web browser.
-    
-3.  To test the data processing locally: Run python data\_processor.py.
+## Local Setup
+
+```bash
+# Frontend — no build step needed
+open index.html
+
+# Price scraper (Node.js)
+cd scraper
+npm ci
+node scraper.js           # scrape all categories
+node scraper.js CPU       # scrape single category
+
+# Data processor (Python)
+cd scraper
+pip install -r requirements.txt
+python data_processor.py
+
+# Refresh PassMark benchmark scores
+cd scraper
+node fetch_passmark.js    # writes passmark_scores.json
+```
+
+---
+
+## Data Sources & Credits
+
+- Hardware data: [Buildcores Open Database](https://github.com/buildcores/buildcores-open-db) — [ODC Attribution License](https://opendatacommons.org/licenses/by/1-0/)
+- Benchmark scores: [PassMark Software](https://www.passmark.com) — © PassMark Software Pty Ltd
+- Prices: Amazon.de (scraped)
+
+---
+
+*© 2026 David Leitner & Maximilian Baumgartner — HTL Leonding*
