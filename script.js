@@ -185,7 +185,7 @@ const PRESETS = {
         gpu: "RTX 5060",
         ram: "Crucial Pro Overclocking Black",
         ssd: "P3 -2280",
-        psu: "Pure Power 12 Black",
+        psu: "RM650 Black",
         case: "Light Base 600 DX",
         os: "Windows 11 Pro USB",
         casefan: "Aspect 14 Black"
@@ -197,7 +197,7 @@ const PRESETS = {
         gpu: "RTX 5070",
         ram: "Flare X5 Black",
         ssd: "T500 -2280",
-        psu: "Straight Power 12",
+        psu: "RM750x",
         case: "North XL",
         os: "Windows 11 Pro USB",
         casefan: "NF-A12x25"
@@ -206,10 +206,10 @@ const PRESETS = {
         cpu: "Ryzen 9 9950X3D",
         cooler: "Liquid Freezer II 360 RGB",
         mb: "X870E",
-        gpu: "RTX 4090",
+        gpu: "RTX 5090",
         ram: "Dominator Titanium",
         ssd: "T705",
-        psu: "HX1000i",
+        psu: "Straight Power 12 1500",
         case: "Y70",
         os: "Windows 11 Pro USB",
         casefan: "T30"
@@ -223,7 +223,7 @@ const PRESETS = {
 function getProductSpecs(product, category) {
     switch (category) {
         case 'CPU':         return { socket: product.socket, tdp: product.tdp, cores: product.cores, clock_speed: product.clock_speed, passmark_score: product.passmark_score };
-        case 'CPUCooler':   return { height: product.height };
+        case 'CPUCooler':   return { height: product.height, cooler_type: product.cooler_type };
         case 'Motherboard': return { socket: product.socket, form_factor: product.form_factor, memory_type: product.memory_type };
         case 'GPU':         return { length: product.length, tdp: product.tdp, vram: product.vram, boost_clock: product.boost_clock, passmark_score: product.passmark_score };
         case 'RAM':         return { ram_type: product.ram_type };
@@ -449,7 +449,11 @@ function updateCompatibilityPanel() {
     const verdictIcon  = diff <= 15 ? 'fa-check' : 'fa-triangle-exclamation';
     const verdictText  = diff <= 15 ? 'Ausgewogen' : (cpuBottleneck ? `CPU-Bottleneck ~${diff}%` : `GPU-Bottleneck ~${diff}%`);
 
-    let gpuBenchName = gpu.clean_name || gpu.name;
+    const gpuSrc = gpu.clean_name || gpu.name;
+    const gpuChipMatch = gpuSrc.match(
+        /(GeForce\s+(?:RTX|GTX|GT)\s+\d+\S*|Radeon\s+(?:RX|R9|R7)\s+\d+\S*|Intel\s+Arc\s+[A-Z]\d+\S*)/i
+    );
+    let gpuBenchName = gpuChipMatch ? gpuChipMatch[1] : gpuSrc;
     if (/^RTX\s|^GTX\s/i.test(gpuBenchName))   gpuBenchName = 'GeForce ' + gpuBenchName;
     else if (/^RX\s|^R9\s/i.test(gpuBenchName)) gpuBenchName = 'Radeon '  + gpuBenchName;
 
@@ -648,10 +652,12 @@ function formatDisplayName(product, category) {
             if (product.ram_type) spec += (spec ? ' ' : '') + product.ram_type;
             break;
         }
-        case 'PSU':
-            if (product.wattage)    spec = `${product.wattage}W`;
+        case 'PSU': {
+            const w = String(product.wattage || '').replace(/\s*W$/i, '').trim();
+            if (w) spec = `${w}W`;
             if (product.efficiency) spec += (spec ? ' ' : '') + product.efficiency;
             break;
+        }
         case 'Motherboard':
             if (product.socket)      spec = product.socket;
             if (product.form_factor) spec += (spec ? ' · ' : '') + product.form_factor;
