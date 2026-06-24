@@ -1,18 +1,144 @@
 [
   {
-    "title": "Bit-Rauschen: Microsoft verzettelt sich bei KI für Windows",
-    "date": "2026-06-23",
+    "title": "Lenovo über DRAM-Preise: „Es wird nie mehr wie letztes Jahr“",
+    "date": "2026-06-24",
     "category": "Hardware",
-    "description": "Microsoft kooperiert mit Nvidia bei KI-PCs, aber ohne Copilot. In Frankreich entstehen Gigawatt-Rechenzentren und in Magdeburg vielleicht doch eine Chipfabrik.",
-    "url": "https://www.heise.de/hintergrund/Bit-Rauschen-Microsoft-verzettelt-sich-bei-KI-fuer-Windows-11264112.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/6/6/9/4/8/Aufmacher-Prozessorkolumne_Bitrauschen-734272370c8cda6c.jpeg",
-    "source": "Heise"
+    "description": "Lenovo hat zur ISC 2026 im Rahmen eines Vortrags erklärt, dass es bei den DRAM- und NAND-Preisen auf lange Zeit nicht mehr so wird wie zuvor bekannt. Selbst nach der Inbetriebnahme deutlich gesteigerter Produktionskap...",
+    "url": "https://www.computerbase.de/news/arbeitsspeicher/lenovo-ueber-dram-preise-es-wird-nie-mehr-wie-letztes-jahr.98057/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Optionales Juni-Update: Wie Microsoft den Updatestress in Windows 11 reduzieren will",
+    "date": "2026-06-24",
+    "category": "Software",
+    "description": "Mit dem optionalen Juni-Update für Windows 11 25H2 und 24H2 (KB5095093) bringt Microsoft eine Reihe von Neuerungen, zu denen etwa die bessere Planbarkeit von Updates zählt. Über ein Kalendermenü lassen sich Updates kü...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/optionales-juni-update-wie-microsoft-den-updatestress-in-windows-11-reduzieren-will.98074/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "HPE-Rack mit AMD Venice: 81.920 Kerne durch 40 Blades mit je acht 256-Kern-CPUs bei bis zu 400 kW",
+    "date": "2026-06-24",
+    "category": "Hardware",
+    "description": "AMDs neue Epyc-CPU Venice wirft auch bei HPE große Schatten voraus. Im GX5000 sucht die Dichte an Prozessorkernen in einem Schrank dabei seinesgleichen: 81.920 Kerne im Rack werden so zu finden sein. Das übertrifft di...",
+    "url": "https://www.computerbase.de/news/prozessoren/hpe-rack-mit-amd-venice-81-920-kerne-durch-40-blades-mit-je-acht-256-kern-cpus-bei-bis-zu-400-kw.98071/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "SteamOS × GeForce: Valve arbeitet mit Nvidia am Hardware-Support",
+    "date": "2026-06-24",
+    "category": "Hardware",
+    "description": "Im Zuge der Steam-Maschine-Veröffentlichung werden auch die Rufe nach ausgeweitetem Hardware-Support für SteamOS lauter. Aktuell stehen Nutzer noch vor dem Problem, dass Valves Betriebssystem keine GeForce-Karten unte...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/steamos-x-geforce-valve-arbeitet-mit-nvidia-am-hardware-support.98062/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Zufallsfund: Unangekündigte Lexar M7 SSD gesichtet",
+    "date": "2026-06-24",
+    "category": "Hardware",
+    "description": "Eine neue SSD-Serie von Lexar steht in den Startlöchern. Ohne offizielle Ankündigung haben Händler schon mit dem Verkauf der Lexar M7 SSD begonnen. Doch bei den Eckdaten der PCIe-4.0-SSD im M.2-Format herrscht noch Ve...",
+    "url": "https://www.computerbase.de/news/storage/zufallsfund-unangekuendigte-lexar-m7-ssd-gesichtet.98070/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Anzeige: Microsoft Surface Pro 13'' OLED am Prime Day stark reduziert",
+    "date": "2026-06-24",
+    "category": "Hardware",
+    "description": "Das Microsoft Surface Pro mit 13''großem OLED-Display, Snapdragon X Elite Prozessor und 16 GByte RAM gibt es am Prime Day zum Tiefpreis. (Surface, Microsoft)",
+    "url": "https://www.golem.de/news/anzeige-microsoft-surface-pro-13-oled-am-prime-day-stark-reduziert-2606-210113.html",
+    "image": "https://www.golem.de/2606/210113-584166-584164_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Anzeige: 100-Watt-Ladegerät mit vier Ports am Prime Day erstmals nur rund 30 Euro",
+    "date": "2026-06-24",
+    "category": "Angebote",
+    "description": "100 Watt Leistung, vier Ports und GaN-Technik: Das kompakte Netzteil von Ugreen gibt es bei Amazon im Prime-Deal zum Bestpreis. (Technik/Hardware, Notebook)",
+    "url": "https://www.golem.de/news/anzeige-100-watt-ladegeraet-mit-vier-ports-am-prime-day-erstmals-nur-rund-30-euro-2606-210108.html",
+    "image": "https://www.golem.de/2606/210108-584144-584142_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "5 Jahre Windows 11: Für Spieler längst Pflicht, aber nur selten wirklich geliebt",
+    "date": "2026-06-24",
+    "category": "Angebote",
+    "description": "Am 24. Juni 2021 stellte Microsoft Windows 11 vor, fünf Jahre später fällt die Gaming-Bilanz zwiespältig aus. Wer noch mit Windows 10 spielt, sollte den Umstieg nun planen: Der kostenlose ESU-Support für Windows 10 lä...",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/Specials/11-5-Jahre-Gaming-Bilanz-Spieler-1546124/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/5-Jahre-Windows-11-Gaming-pcgh.jpeg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Thermalright Intros Assassin Classic-6 SE Black CPU Cooler",
+    "date": "2026-06-24",
+    "category": "Hardware",
+    "description": "Thermalright today introduced the Assassin Classic-6 SE Black, a premium aluminium fin-stack air CPU cooler. The cooler is characterized by a very traditional design, with the aluminium fins lacking any black powder c...",
+    "url": "https://www.techpowerup.com/350244/thermalright-intros-assassin-classic-6-se-black-cpu-cooler",
+    "image": "https://www.techpowerup.com/img/9QOr00dlB1YZNtGf.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GIGABYTE Motherboard Bundles Headline Micro Center Tech Days",
+    "date": "2026-06-24",
+    "category": "Hardware",
+    "description": "GIGABYTE is bringing major savings to Micro Center Tech Days with a lineup of motherboard, CPU, and RAM bundles designed for gamers, creators, and PC builders looking to upgrade their systems. Running from June 23 to...",
+    "url": "https://www.techpowerup.com/350205/gigabyte-motherboard-bundles-headline-micro-center-tech-days",
+    "image": "https://www.techpowerup.com/img/P8niNeBZ5oz1O3uv.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Creative Releases XF1 Desktop Speakers with In-built Hi-Res DAC",
+    "date": "2026-06-24",
+    "category": "Markt",
+    "description": "Creative today introduced the XF1 (model: MF1730), a set of 2.0 stereo desktop speakers that feature an in-built DAC that supports USB and Bluetooth inputs, besides 3.5 mm aux. The speakers feature 72 W of combined ou...",
+    "url": "https://www.techpowerup.com/350243/creative-releases-xf1-desktop-speakers-with-in-built-hi-res-dac",
+    "image": "https://www.techpowerup.com/img/bEDlGKQjFAdvuxVF.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GIGABYTE Prime Day Week Deals Bring Big Savings on Motherboards and Monitors",
+    "date": "2026-06-24",
+    "category": "Hardware",
+    "description": "GIGABYTE is kicking off Prime Day Week with a strong mix of motherboard and monitor deals on Amazon from June 23 through June 26. PC builders can find major savings across AMD platforms, including the B550M K, B650 EA...",
+    "url": "https://www.techpowerup.com/350204/gigabyte-prime-day-week-deals-bring-big-savings-on-motherboards-and-monitors",
+    "image": "https://www.techpowerup.com/img/r0hOXnvohaE3Q1Of.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Biostar Introduces EdgeComp MS-NAT5000 Edge AI System",
+    "date": "2026-06-24",
+    "category": "Hardware",
+    "description": "BIOSTAR, a leading manufacturer of edge AI solutions, industrial motherboards, motherboards, graphics cards, and storage devices, today announces the EdgeComp MS-NAT5000, a compact edge AI computing system that integr...",
+    "url": "https://www.techpowerup.com/350242/biostar-introduces-edgecomp-ms-nat5000-edge-ai-system",
+    "image": "https://www.techpowerup.com/img/UbJW2DpnS9PScfnB.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "EA Exec Says 'AI Everything' Helps Creativity, Workflows and Pipelines",
+    "date": "2026-06-24",
+    "category": "Hardware",
+    "description": "In October 2025, we reported on insider commentary by EA developers who claimed that AI tools had hampered productivity, despite the company having all but mandated the tech for over a year at that point. A survey con...",
+    "url": "https://www.techpowerup.com/350240/ea-exec-says-ai-everything-helps-creativity-workflows-and-pipelines",
+    "image": "https://www.techpowerup.com/img/teVjmF6OX71Bk0qD.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AceMagic Unveils Mini PC Sale: Get Up to 20% Off on AMD Ryzen-powered Mini PCs",
+    "date": "2026-06-24",
+    "category": "Angebote",
+    "description": "Mini PC and notebook brand AceMagic today announced a flash sale on two of its latest AMD Ryzen-powered mini PCs on Amazon, open from today until June 30, 2026. Up for sale is an AceMagician M1, powered by AMD Ryzen 7...",
+    "url": "https://www.techpowerup.com/350057/acemagic-unveils-mini-pc-sale-get-up-to-20-off-on-amd-ryzen-powered-mini-pcs",
+    "image": "https://www.techpowerup.com/img/wRPjbVd3LLZYjhjY.jpg",
+    "source": "TechPowerUp"
   },
   {
     "title": "Top500: China stellt mit eigener Hardware den schnellsten Supercomputer",
     "date": "2026-06-23",
     "category": "Hardware",
-    "description": "Nach Jahren der Abstinenz ist China wieder dabei – und wie: Mit eigenem Prozessor, eigenem Interconnect und eigenem Betriebssystem auf Platz 1 der Top500-Liste.",
+    "description": "Nach Jahren der Abstinenz ist China wieder dabei – und wie: mit eigenem Prozessor, eigenem Interconnect und eigenem Betriebssystem auf Platz 1 der Top500-Liste.",
     "url": "https://www.heise.de/news/China-ueberholt-die-USA-mit-schnellstem-Top500-Supercomputer-2-2-Exaflops-11340555.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
     "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/4/6/2/3/LineShine-1-NSCCSZ-16-9-2327c4654a34a511.jpeg",
     "source": "Heise"
@@ -25,6 +151,51 @@
     "url": "https://www.heise.de/news/Nach-Protesten-AMD-bringt-RAM-Verschluesselung-TSME-zurueck-11340937.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
     "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/4/8/1/4/csp-12abf2b21d65d60a.jpeg",
     "source": "Heise"
+  },
+  {
+    "title": "Adrenalin 26.6.2: AMD bestätigt Treiber-Probleme unter Windows 10",
+    "date": "2026-06-23",
+    "category": "Hardware",
+    "description": "Der gestern erschienene Adrenalin-Treiber der Version 26.6.2, mit dem AMD erstmals das KI-Upsampling FSR 4.1 offiziell für Grafikkarten der Serie Radeon RX 7000 freischaltet, lässt sich unter Windows 10 teilweise nich...",
+    "url": "https://www.computerbase.de/news/grafikkarten/adrenalin-26-6-2-amd-bestaetigt-treiber-probleme-unter-windows-10.98068/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "LineShine im Detail: Chinas Nummer-1-System ist ein wahres Monster",
+    "date": "2026-06-23",
+    "category": "Hardware",
+    "description": "Eine CPU mit 304 Kernen, skaliert über 10.000e Nodes – heraus kommt LineShine aus China, der schnellste Supercomputer der Welt. Im Rahmen der ISC 2026 gab der Erstplatzierte einige weitere Details zu dem System und se...",
+    "url": "https://www.computerbase.de/news/prozessoren/lineshine-im-detail-chinas-nummer-1-system-ist-ein-wahres-monster.98055/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Valve und AMD: Auch die Steam Machine soll FSR 4 unterstützen",
+    "date": "2026-06-23",
+    "category": "Software",
+    "description": "Gleichzeitig zu ersten Tests der Steam Machine hat Valve bestätigt, dass die neue PC-Konsole „bald“ auch AMDs Upscaling-Technologie FSR 4 unterstützen wird. Details dazu, wie die Zusammenarbeit mit AMD hierbei abläuft...",
+    "url": "https://www.computerbase.de/news/pc-systeme/valve-und-amd-auch-die-steam-machine-soll-fsr-4-unterstuetzen.98059/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Epyc Venice zur ISC 2026: AMDs neue Server-CPU mit 16-Kanal-Speicher inkognito bereits zu sehen",
+    "date": "2026-06-23",
+    "category": "Hardware",
+    "description": "Der Start wird in genau einem Monat erfolgen, doch die ISC 2026 greift wieder etwas voraus. An einigen Ständen sind Systeme mit neuem Epyc-Prozessor, Codename Venice, bereits zu sehen. Dabei dürfen die Partner PCI Exp...",
+    "url": "https://www.computerbase.de/news/prozessoren/epyc-venice-zur-isc-2026-amds-neue-server-cpu-mit-16-kanal-speicher-inkognito-bereits-zu-sehen.98061/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Arc G3 Extreme vs. Z2 Extreme: Intel mit Panther Lake vs. AMD mit Ryzen im Handheld-Duell",
+    "date": "2026-06-23",
+    "category": "Hardware",
+    "description": "Intel Arc G3 Extreme und Arc G3 sind explizit auf den Einsatz in Gaming-Handheld optimierte Panther-Lake-Prozessoren („Core Ultra 300“). Sie sollen die Dominanz der AMD Ryzen Z1/Z2 (Extreme) in diesem Segment brechen....",
+    "url": "https://www.computerbase.de/artikel/gaming/intel-arc-g3-extreme-z2-extreme-test.97877/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
     "title": "Schwachstellen-Benchmark: GPT-5.5-Cyber von OpenAI übertrifft Claude Mythos 5",
@@ -54,188 +225,53 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Rüstungsbetrieb: Ukrainische Raketen treffen Halbleiterwerk in Woronesch",
+    "title": "Anzeige: Externe SSD von SanDisk mit 1 TByte günstig wie seit Monaten nicht am Prime Day",
     "date": "2026-06-23",
     "category": "Hardware",
-    "description": "Ein Angriff auf die Halbleiterfabrik WZPP-S in Woronesch soll die Produktion von Bauteilen für russische Marschflugkörper und Flugabwehrsysteme getroffen haben. (Ukrainekrieg, Politik)",
-    "url": "https://www.golem.de/news/ruestungsbetrieb-ukrainische-raketen-treffen-halbleiterwerk-in-woronesch-2606-210066.html",
-    "image": "https://www.golem.de/2606/210066-583944-583942_rc.jpg",
+    "description": "Deals für externe Festplatten haben in letzter Zeit auf sich warten lassen. Doch jetzt ist ein beliebtes Modell von SanDisk wieder günstiger. (Prime Day, Speichermedien)",
+    "url": "https://www.golem.de/news/anzeige-externe-ssd-von-sandisk-mit-1-tbyte-guenstig-wie-seit-monaten-nicht-am-prime-day-2606-210100.html",
+    "image": "https://www.golem.de/2606/210100-584112-584110_rc.jpg",
     "source": "Golem"
   },
   {
-    "title": "RAM-Krise: Sogar DDR2-Arbeitsspeicher von 2003 wird merklich teurer",
+    "title": "Anzeige: 27 Zoll großer 2K-Gaming-Monitor mit 200 Hz für unter 130 Euro am Prime Day",
     "date": "2026-06-23",
     "category": "Hardware",
-    "description": "Während RAM-Hersteller teils wegwollen von DDR2, setzen mehr Kunden auf den älteren Standard. Es kommt zu Engpässen und Preiserhöhungen. (RAM, Server)",
-    "url": "https://www.golem.de/news/ram-krise-sogar-ddr2-arbeitsspeicher-von-2003-wird-merklich-teurer-2606-210061.html",
-    "image": "https://www.golem.de/2606/210061-583915-583913_rc.jpg",
+    "description": "Der KOORUI G2722P ist am Prime Day zum neuen Tiefstpreis im Angebot. Weitere Gaming-Monitore diverser Hersteller sind ebenfalls reduziert. (Prime Day, Display)",
+    "url": "https://www.golem.de/news/anzeige-27-zoll-grosser-2k-gaming-monitor-mit-200-hz-fuer-unter-130-euro-am-prime-day-2606-210093.html",
+    "image": "https://www.golem.de/2606/210093-584077-584075_rc.jpg",
     "source": "Golem"
   },
   {
-    "title": "AM4 lebt weiter: Asrock bringt neues B550-Mainboard für AMD Ryzen",
+    "title": "Jedec: SPHBM4 bringt Stapelspeicher in günstigere Packages",
     "date": "2026-06-23",
     "category": "Hardware",
-    "description": "Asrock listet das B550 Rock WiFi: ein neues ATX-Mainboard für AMDs AM4-Plattform mit DDR4, PCIe 4.0, Wi-Fi 6E und 2,5-GbE. Damit bekommt der betagte Sockel erneut frische Hardware.",
-    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/Asrock-B550-Rock-WiFi-AM4-DDR4-Ryzen-1545991/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/B550-Rock-WiFi-L1--pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Halbleiterwerk offenbar zerstört: Schlag gegen russische Rüstungsproduktion",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "Videos zeigen ein zerstörtes Halbleiterwerk im russischen Woronesch. Laut ukrainischer Datenbank entstanden dort Komponenten für Marschflugkörper.",
-    "url": "https://www.heise.de/news/Ukraine-nimmt-Russlands-Halbleiterfertigung-ins-Visier-11340485.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/4/5/8/8/Prozessor-f274802c0bd2f75d.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Kein neues Nothing CMF Phone in diesem Jahr",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "Aufgrund der hohen Kosten für Arbeitsspeicher bringt Nothing 2026 kein neues CMF Phone auf den Markt. Der Preis sei zu hoch für ein Gerät der Mittelklasse.",
-    "url": "https://www.heise.de/news/Nothing-CMF-Kein-neues-Budget-Smartphone-2026-11340137.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/4/4/0/9/52ec2d1b0debfca340bf0a625200052077637563-4096x2304-008dc9a533c2c410.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Nachrüstung für Apples Time Capsule: Open-Source-Projekt hält SMB am Leben",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "Mit macOS 27 dreht Apple endgültig den Time-Capsule-Support für den Mac ab. Entwickler James Chang hat auf GitHub einen kleinen Hack dagegen publiziert.",
-    "url": "https://www.heise.de/news/Nachruestung-fuer-Apples-Time-Capsule-Open-Source-Projekt-haelt-SMB-am-Leben-11339611.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/4/1/4/6/Screenshot_2026-06-21_at_15-65e07128416c02f2.png",
-    "source": "Heise"
-  },
-  {
-    "title": "Windows 11 26H2 biegt auf Zielgerade ein",
-    "date": "2026-06-22",
-    "category": "Software",
-    "description": "Das jährliche Funktionsupdate für Windows 11 rollt an. In den Insider-Kanälen heißen die Windows-11-Builds nun bereits 26H2.",
-    "url": "https://www.heise.de/news/Windows-11-26H2-biegt-auf-Zielgerade-ein-11339801.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/4/2/4/1/shutterstock_2001209357-352844e2e275c2b1.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Frühstart nach 1,5 Jahren: AMD bringt FSR 4.1 schon heute offiziell für Radeon RX 7000",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "Angekündigt hatte AMD eine Portierung des leistungsstarken KI-Upsamplings FSR 4.1 für ältere Radeon-Generationen Mitte Mai 2026. Für Grafikkarten der Generation Radeon RX 7000 sollte es demnach im Juli soweit sein. Je...",
-    "url": "https://www.computerbase.de/news/grafikkarten/fruehstart-nach-1-5-jahren-amd-bringt-fsr-4-1-schon-heute-fuer-radeon-rx-7000.98040/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Nvidia zur ISC 2026: 35 Supercomputer in Europa und FP64 lebt mit Vera Rubin",
-    "date": "2026-06-22",
-    "category": "Industrie",
-    "description": "Supercomputer in Europa mausern sich, auch dank Nvidia. Das Unternehmen wirbt zur ISC 2026 zudem erstmals auch wieder mit FP64, denn mit FP8 oder noch kleinerem Format ist in der Wissenschaft oft nicht viel anzufangen...",
-    "url": "https://www.computerbase.de/news/wirtschaft/nvidia-zur-isc-2026-35-supercomputer-in-europa-und-fp64-lebt-mit-vera-rubin.98011/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "AMD Ryzen 7 5800X3D im Test: Letzte Chance für Ryzen-2000/3000-Aufrüster",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "AMD stellt den Ryzen 7 5800X3D als AM4 10 Years Anniversary Edition erneut vor. Der Test verrät, wer zugreifen darf – und wer nicht. Denn am Ende ist die Zen-3-basierte CPU bald 6 Jahre alt, entsprechend gering die Le...",
-    "url": "https://www.computerbase.de/artikel/prozessoren/amd-ryzen-7-5800x3d-re-test.97796/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "ROG EDITION 20 verfügbar: Von 5.800 Euro für eine RTX 5090 bis 270 Euro für eine Maus",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "Die Preisempfehlungen für die Asus ROG EDITION 20 für die DACH-Region liegen vor. Es wird wie erwartet teuer, mitunter sehr viel teurer. An der Spitze steht die ROG Astral GeForce RTX 5090 32GB GDDR7 OC EDITION 20, di...",
-    "url": "https://www.computerbase.de/news/grafikkarten/rog-edition-20-verfuegbar-von-5-800-euro-fuer-eine-rtx-5090-bis-270-euro-fuer-eine-maus.98033/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Auch macOS Ventura betroffen: Adobe schmeißt Windows 10 aus Premiere-Pro-Support",
-    "date": "2026-06-22",
-    "category": "Software",
-    "description": "Adobe hat die Systemanforderungen für Premiere Pro mit Stand vom 21. Januar 2026 angepasst. Auf Windows-PCs wird Windows 11 24H2 künftig zur Mindestvoraussetzung, sodass sich neue Versionen nicht mehr unter Windows 10...",
-    "url": "https://www.computerbase.de/news/apps/auch-macos-ventura-betroffen-adobe-schmeisst-windows-10-aus-premiere-pro-support.98031/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Windows 11 und M365 Business: Microsoft will Copilot erneut zwangsweise installieren",
-    "date": "2026-06-22",
-    "category": "Software",
-    "description": "Microsoft lockert an anderer Stelle den Kontozwang und fährt gegenüber Nutzern zuletzt fast eine Charme-Offensive. In anderen Bereichen fällt der Software-Konzern jedoch erneut in alte Muster zurück: Ab Juni soll die...",
-    "url": "https://www.computerbase.de/news/apps/windows-11-und-m365-business-microsoft-will-copilot-erneut-zwangsweise-installieren.98029/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Windows 11 ohne Bing: \"Die schnellste Suche, die ich in Windows je erlebt habe\"",
-    "date": "2026-06-22",
-    "category": "Software",
-    "description": "Windows 11 wird die Option bekommen, Webergebnisse in der Suche zu deaktivieren. Das soll besonders schnell funktionieren. (Windows 11, Microsoft)",
-    "url": "https://www.golem.de/news/windows-11-ohne-bing-die-schnellste-suche-die-ich-in-windows-je-erlebt-habe-2606-210045.html",
-    "image": "https://www.golem.de/2606/210045-583842-583840_rc.jpg",
+    "description": "SPHBM4 bringt die Bandbreite von HBM4 mit weniger Signalen. Das ermöglicht einfachere Packages und mehr Flexibilität bei der Platzierung. (3D-Speicher, Jedec)",
+    "url": "https://www.golem.de/news/jedec-sphbm4-bringt-stapelspeicher-in-guenstigere-packages-2606-210089.html",
+    "image": "https://www.golem.de/2606/210089-584062-584060_rc.jpg",
     "source": "Golem"
   },
   {
-    "title": "Happy Birthday Athlon und Sonic, File Transfer Protocol wird geboren (PCGH-Retro, 23. Juni)",
-    "date": "2026-06-22",
-    "category": "Industrie",
-    "description": "AMD stößt mit dem Athlon Intel vom CPU-Thron - das geschah am 23. Juni. Jeden Tag wagt PC Games Hardware einen Blick zurück in die noch junge, aber bewegte Geschichte des Computers.",
-    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/News/AMDs-Pentium-3-Killer-Happy-Birthday-Athlon-PCGH-Retro-23-Juni-687893/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2009/06/AMD_Athlon_K7.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "Nvidia Blackwell-Next: Geheimnisvoller Codename im Linux 7.2",
-    "date": "2026-06-22",
-    "category": "Software",
-    "description": "Nvidia hat im Merge-Fenster zu Linux 7.2 erstmals den Codenamen \"Blackwell-Next\" in einem VFIO-Patch hinterlegt. Was sich dahinter verbirgt, lässt der Kernel-Code offen; ein konkreter Bezug zur nächsten Geforce fehlt...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Nvidia-Blackwell-Next-Linux-Kernel-7-2-1546017/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/06/Blackwell-Next-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "FSR 4.1 für Radeon RX 7000: AMD liefert früher als gedacht",
-    "date": "2026-06-22",
+    "title": "Supercomputer: LineShine aus China ist die neue Nummer 1",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "AMD hat FSR Upscaling 4.1 auf RDNA 3 überraschend vorgezogen und schaltet das KI-Upscaling ab sofort per Adrenalin 26.6.2 für alle Radeon RX 7000 und über 300 Spiele frei - Wochen vor dem ursprünglich geplanten Startt...",
-    "url": "https://www.pcgameshardware.de/FidelityFX-Super-Resolution-Software-277617/News/SR-4-1-Radeon-RX-7000-Release-Adrenalin-26-6-2-1546015/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2022/12/AMD-Radeon-RX-7900-XTX-MBA_AMD-Radeon-RX-7900-XT-MBA_Test-Review-Benchmarks-30-pcgh.jpg",
+    "description": "Die USA wollten Chinas KI-Aufstieg ausbremsen, doch Peking schlägt zurück: Mit dem Supercomputer LineShine und 2,4 Millionen Prozessorkernen von Huawei knackt das National Supercomputing Center die magische ExaFLOPS-M...",
+    "url": "https://www.pcgameshardware.de/Wissenschaft-Thema-237118/News/LineShine-China-Supercomputer-Top-500-Platz-1-ExaFLOPS-1546140/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/06/supercomputer-pcgh.jpeg",
     "source": "PCGH"
   },
   {
-    "title": "[PLUS] Aqua Computer vs. Thermal Grizzly: Smarte 12V-2×6-Wächter im Test",
-    "date": "2026-06-22",
-    "category": "Software",
-    "description": "PCGH Plus: Der längst nicht mehr neue 12+4-Pin-GPU‑Stecker bleibt trotz Überarbeitung ein heißes Eisen. Wir testen, wie effektiv Aqua Computers Ampinel sowie Thermal Grizzlys Wireview Pro II Schwachstellen am Stecker...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Thermal-Grizzly-Wireview-Pro-2-Aqua-Computer-Ampinel-Test-12VHPWR-1527929/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/04/aufmacher_Aqua_Computer_Ampinel-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "Steam Machine: Valve will 8-GiByte-Sorge mit FSR 4 entschärfen",
-    "date": "2026-06-22",
+    "title": "[PLUS] Sieben CPU-Wasserkühler im Ryzen-Test: Alphacool, Aquacomputer, EKWB und mehr",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "Valve bestätigt FSR 4 für die Steam Machine. Die AMD-Technik soll Upscaling und Bildqualität verbessern, ein Termin fehlt aber weiterhin noch.",
-    "url": "https://www.pcgameshardware.de/Steam-Machine-Hardware-256919/News/Valve-FSR-4-AMD-Upscaling-1545876/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/steam-machine-rueckseite-anschluesse-pc-games.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Luftkühler, Wakü und AiO für überhitzte PCs: Aktuelle Vergleichstests und Praxistipps bei PCGH Plus",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "Bei den Rekordtemperaturen in Deutschland glühen auch die Spiele-PCs daheim. Sie suchen nach Tests zu Produkten rund um Luftkühlung, AiO oder Wasserkühlung? Durch PCGH Plus bekommen Sie das Komplettpaket an entspreche...",
-    "url": "https://www.pcgameshardware.de/Luftkuehlung-Hardware-217993/News/Temperaturen-Deutschland-PCGH-Plus-1545951/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2023/12/teaser_kuehler-pcgh.jpg",
+    "description": "PCGH Plus: Nasse, kalte Sommertage sind eher negativ bewertet. Nasse, kalte Hardware dagegen ist toll - bei Hitzewellen ebenso wie in \"stillen\" Winternächten. Wir integrieren Ryzens in modulare Wasserkreisläufe. Der A...",
+    "url": "https://www.pcgameshardware.de/Wasserkuehlung-Hardware-217994/Specials/Sieben-CPU-Wasserkuehler-im-Test-1480911/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/08/aufmacher_CPU_wasserkuehler-pcgh.jpg",
     "source": "PCGH"
   },
   {
     "title": "PC aufrüsten oder optimieren? CPU-Guide + heiße GPU-Tricks in PCGH 07/2026",
-    "date": "2026-06-22",
+    "date": "2026-06-23",
     "category": "Hardware",
     "description": "Die PCGH-Ausgabe 07/2026 hat es in sich: der große CPU-Guide, Intels stärkster Battlemage im Gaming-Test, FSR 4 auf alten GPUs, bessere Spiele-Settings und Valves neuer Steam Controller!",
     "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-07-2026-Magazin-309-DVD-Download-PDF-1536294/",
@@ -243,71 +279,35 @@
     "source": "PCGH"
   },
   {
-    "title": "SanDisk Optimus GX Pro 850P: 8-TB-SSD für die PlayStation 5 kostet 3.000 US-Dollar",
-    "date": "2026-06-22",
+    "title": "Neue Grafikkarten-Umfrage: Bleibt die Radeon RX 9070 XT vor der Geforce RTX 4090? [Update]",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "Mit der Optimus GX Pro 850P hat SanDisk eine neue SSD vorgestellt, die offiziell für die Sony PlayStation 5 und PlayStation 5 Pro lizenziert wurde und es beim Preis richtig in sich hat.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/festplatten/69481-sandisk-optimus-gx-pro-850p-8-tb-ssd-fuer-die-playstation-5-kostet-3-000-us-dollar.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jun/gentle_branch_97/optimus_gx_pro_850p_left.png.wdthumb.1280.1280__1__680px.jpg",
-    "source": "HardwareLuxx"
+    "description": "Neue Q2-Umfrage im PCGHX-Forum: Welche der Grafikkarten von AMD, Nvidia oder Intel stehen aktuell hoch im Kurs? Geht es eher Richtung Geforce RTX 4090 und 5090 oder Radeon RX 7900 XT und 9070 XT?",
+    "url": "https://www.pcgameshardware.de/Umfrage-Thema-136900/News/Grafikkarte-Forum-Q2-1526070/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/01/Gaming-PC-Grafikkarten-Bestseller-AMD-Radeon-RX-9070-XT-Nvidia-Geforce-RTX-5070-Ti-5080-PCGH-PC-pcgh-pcgh.jpg",
+    "source": "PCGH"
   },
   {
-    "title": "Splitgate Dev Details Their New Game \"Empulse\"—Inspired by Titanfall",
-    "date": "2026-06-22",
+    "title": "Steam Machine selbst bauen: Finger weg von diesem SteamOS!",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "1047 Games, the developer behind Splitgate and its infamous sequel, has just wrapped up a Steam Next Fest demo of its upcoming game, Empulse, which is inspired by Titanfall, with a heavy focus on mobility, verticality...",
-    "url": "https://www.techpowerup.com/350193/splitgate-dev-details-their-new-game-empulse-inspired-by-titanfall",
-    "image": "https://www.techpowerup.com/img/Z16hiHxMSXwD1kPq.jpg",
-    "source": "TechPowerUp"
+    "description": "Valve hat am 22. Juni 2026 die Installation von SteamOS auf Gaming-PCs mit Radeon-Grafikkarten freigegeben. Prompt kursiert überall derselbe Download-Link. Das empfohlene Systemabbild ist allerdings extrem veraltet un...",
+    "url": "https://www.pcgameshardware.de/Steam-Machine-Hardware-256919/Specials/selbst-bauen-richtiges-SteamOS-Abbild-1546087/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/06/Steam-Machine-39-pcgh.jpg",
+    "source": "PCGH"
   },
   {
-    "title": "GIGABYTE Prime Day Week Deals Bring Big Savings on Motherboards and Monitors",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "GIGABYTE is kicking off Prime Day Week with a strong mix of motherboard and monitor deals on Amazon from June 23 through June 26. PC builders can find major savings across AMD platforms, including the B550M K, B650 EA...",
-    "url": "https://www.techpowerup.com/350204/gigabyte-prime-day-week-deals-bring-big-savings-on-motherboards-and-monitors",
-    "image": "https://www.techpowerup.com/img/r0hOXnvohaE3Q1Of.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Assassin's Creed Shadows \"True Ending\" Sparks Speculation of Sequel or DLC",
-    "date": "2026-06-22",
-    "category": "Software",
-    "description": "Ubisoft recently released what it called the final update for Assassin's Creed Shadows, which was meant to give fans one final hurrah for the characters of Naoe and Yasuke with a Black Flag Resynced tie-in to see them...",
-    "url": "https://www.techpowerup.com/350192/assassins-creed-shadows-true-ending-sparks-speculation-of-sequel-or-dlc",
-    "image": "https://www.techpowerup.com/img/7ITwtzPkPxqHWwsS.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AceMagic Unveils Mini PC Sale: Get Up to 20% Off on AMD Ryzen-powered Mini PCs",
-    "date": "2026-06-22",
-    "category": "Angebote",
-    "description": "Mini PC and notebook brand AceMagic today announced a flash sale on two of its latest AMD Ryzen-powered mini PCs on Amazon, open from today until June 30, 2026. Up for sale is an AceMagician M1, powered by AMD Ryzen 7...",
-    "url": "https://www.techpowerup.com/350057/acemagic-unveils-mini-pc-sale-get-up-to-20-off-on-amd-ryzen-powered-mini-pcs",
-    "image": "https://www.techpowerup.com/img/wRPjbVd3LLZYjhjY.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Valve Finally Reveals Steam Machine Pricing and Starts Accepting Pre-orders",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "It's been over seven months since Valve announced the Steam Machine and every single leak and educated guess in relation to its cost can now be confirmed to have been wrong, since the base system will come in at a rat...",
-    "url": "https://www.techpowerup.com/350188/valve-finally-reveals-steam-machine-pricing-and-starts-accepting-pre-orders",
-    "image": "https://www.techpowerup.com/img/T1CGA5Eq0Qhuo3Lf.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AMD Releases Adrenalin Edition 26.6.2 WHQL Drivers",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "AMD has released its latest Adrenalin Edition 26.6.2 WHQL Drivers today, bringing FSR Upscaling 4.1 to the RDNA 3 GPU family, commonly known as the Radeon RX 7000 series. This driver release is the second in June, spe...",
-    "url": "https://www.techpowerup.com/350186/amd-releases-adrenalin-edition-26-6-2-whql-drivers",
-    "image": "https://www.techpowerup.com/img/nBMijSbZfZNQztLf.jpg",
+    "title": "Lords of the Fallen 2 Delayed to 2027 To Avoid \"Highly Competitive Holiday Period\"",
+    "date": "2026-06-23",
+    "category": "Markt",
+    "description": "Lords of the Fallen 2 (stylized as Lords of the Fallen II) is an upcoming indie dark fantasy RPG with Souls-like combat that was originally slated to launch in fall 2026. According to a new update by CI Games founder,...",
+    "url": "https://www.techpowerup.com/350239/lords-of-the-fallen-2-delayed-to-2027-to-avoid-highly-competitive-holiday-period",
+    "image": "https://www.techpowerup.com/img/aKy1W7FuKriF4uDp.jpg",
     "source": "TechPowerUp"
   },
   {
     "title": "GIGABYTE Fantastech Deals Deliver Motherboard Bundles and Monitor Discounts on Newegg",
-    "date": "2026-06-22",
+    "date": "2026-06-23",
     "category": "Hardware",
     "description": "GIGABYTE's Newegg Fantastech promotion brings a focused lineup of motherboard and monitor deals from June 22 through June 28. For display upgrades, the GS27QCA drops to $139.99, while the MO27Q28G SA OLED gaming monit...",
     "url": "https://www.techpowerup.com/350190/gigabyte-fantastech-deals-deliver-motherboard-bundles-and-monitor-discounts-on-newegg",
@@ -315,17 +315,35 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "AMD FSR Upscaling 4.1 Officially Released for Radeon RX 7000 GPUs",
-    "date": "2026-06-22",
+    "title": "OneXPlayer 3 Gaming Handheld Emerges With Intel Arc G3 Extreme, $1,400 Starting Price",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "AMD has officially released the RDNA 3-focused FSR Upscaling 4.1 model for the Radeon RX 7000 series of graphics cards. This marks the first step towards deploying the FSR 4 technology across all RDNA gaming GPUs. Acc...",
-    "url": "https://www.techpowerup.com/350185/amd-fsr-upscaling-4-1-officially-released-for-radeon-rx-7000-gpus",
-    "image": "https://www.techpowerup.com/img/ER1nAF3k7uHrCEs2.jpg",
+    "description": "Following the launch of the Intel Arc G3 series CPUs designed for next-gen gaming handhelds, OneXPlayer has officially revealed its first handheld gaming PC based on the new Arc G3 CPU. OneXPlayer has pitched the OneX...",
+    "url": "https://www.techpowerup.com/349453/onexplayer-3-gaming-handheld-emerges-with-intel-arc-g3-extreme-usd-1-400-starting-price",
+    "image": "https://www.techpowerup.com/img/iYFCegfKJA9wVz0U.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Marathon's New PvE Mode Ditches Extraction Shooter Model",
+    "date": "2026-06-23",
+    "category": "Markt",
+    "description": "It seems as though, shortly after the launch of Marathon, Bungie realized that it would need to take player feedback seriously if it wanted the new extraction shooter to be successful and retain players. One bit of fe...",
+    "url": "https://www.techpowerup.com/350232/marathons-new-pve-mode-ditches-extraction-shooter-model",
+    "image": "https://www.techpowerup.com/img/J1dflJ0OmNh4DZJi.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Titanfall-Inspired \"Empulse\" Delayed for PS5",
+    "date": "2026-06-23",
+    "category": "Markt",
+    "description": "1047 Games, the developer behind Splitgate, recently announced that its upcoming Titanfall-inspired shooter, Empulse, would be launching in Early Access on Xbox, PS5, and Steam on June 24 at 9 AM PT (16:00 UTC). Less...",
+    "url": "https://www.techpowerup.com/350231/titanfall-inspired-empulse-delayed-for-ps5",
+    "image": "https://www.techpowerup.com/img/5hT1FDV2REzl4FiE.jpg",
     "source": "TechPowerUp"
   },
   {
     "title": "Get Office 2024 and an 8-course Training Bundle for $116",
-    "date": "2026-06-22",
+    "date": "2026-06-23",
     "category": "Angebote",
     "description": "Most people use Office every day without ever touching half of what it can do. Through StackSocial's Deal Days, the company's version of Prime Day, this bundle pairs Microsoft Office 2024 Home & Business with an 8-cou...",
     "url": "https://www.techpowerup.com/350180/get-office-2024-and-an-8-course-training-bundle-for-usd-116",
@@ -333,35 +351,26 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "(PR) Micron and Anthropic Announce Strategic Agreement to Scale Next-Generation AI Infrastructure",
-    "date": "2026-06-22",
+    "title": "Games Made With Gen AI Suffer Up To 53% Worse Sales on Steam",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "Micron Technology, Inc. (Nasdaq: MU) today announced a strategic agreement with Anthropic that spans memory and storage AI architecture design, supply and demand, enterprise adoption of Claude across Micron and a stra...",
-    "url": "https://www.techpowerup.com/350179/micron-and-anthropic-announce-strategic-agreement-to-scale-next-generation-ai-infrastructure",
-    "image": "https://www.techpowerup.com/img/6w47LC4aQDAd4Npq.jpg",
+    "description": "It's no secret that large game studios are leaning into generative AI in search of greater productivity and efficiency, but there is a growing resentment in the gaming and game dev community towards games created with...",
+    "url": "https://www.techpowerup.com/350230/games-made-with-gen-ai-suffer-up-to-53-worse-sales-on-steam",
+    "image": "https://www.techpowerup.com/img/YJTQuNyLgTkoqApA.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Microsoft Confirms Windows 11 26H2 Update for x86-64 PCs",
-    "date": "2026-06-22",
-    "category": "Software",
-    "description": "Microsoft late last week confirmed this year's update to Windows 11, version 26H2. This update would be exclusive to PCs powered by x86-64 processors (compatible processors from Intel and AMD); as devices based on Qua...",
-    "url": "https://www.techpowerup.com/350178/microsoft-confirms-windows-11-26h2-update-for-x86-64-pcs",
-    "image": "https://www.techpowerup.com/img/vGjDEvH6RGNtKLXp.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) GravaStar Unveils Mercury K98 Pro: A Cyberpunk-Engineered 98% Mechanical Keyboard",
-    "date": "2026-06-22",
+    "title": "8BitDo New Retro 87 Keyboard and Controller Celebrate 30 Years of Nintendo 64",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "GravaStar, the cyberpunk-inspired industrial design brand known for its distinctive approach to gaming peripherals, today announced the Mercury K98 Pro, a 98% full-size wireless mechanical keyboard. Designed for playe...",
-    "url": "https://www.techpowerup.com/350177/gravastar-unveils-mercury-k98-pro-a-cyberpunk-engineered-98-mechanical-keyboard",
-    "image": "https://www.techpowerup.com/img/aB7Mx4TnVDWG5rJV.jpg",
+    "description": "8BitDo is marking the Nintendo 64's 30th anniversary with two new products: a Clear Blue colorway for the Retro 87 Mechanical Keyboard and a matching Ultimate 2 Wireless Controller. The Retro 87 N64 Edition keyboard l...",
+    "url": "https://www.techpowerup.com/350229/8bitdo-new-retro-87-keyboard-and-controller-celebrate-30-years-of-nintendo-64",
+    "image": "https://www.techpowerup.com/img/d7jm3LTV83VU5loI.jpg",
     "source": "TechPowerUp"
   },
   {
     "title": "This $79 Lifetime Deal Replaces Your ChatGPT, Claude, and Gemini Subscriptions",
-    "date": "2026-06-22",
+    "date": "2026-06-23",
     "category": "Angebote",
     "description": "Switching between ChatGPT, Claude, Gemini, and a handful of other AI tools just to land on one solid answer means you're paying for overlapping capabilities several times over, easily $60 to $80 a month, or hundreds a...",
     "url": "https://www.techpowerup.com/350181/this-usd-79-lifetime-deal-replaces-your-chatgpt-claude-and-gemini-subscriptions",
@@ -369,84 +378,75 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "(PR) SilverStone Expands FLP Series with the FLP03 Retro-Inspired microATX Chassis",
-    "date": "2026-06-22",
+    "title": "Pre-RAMpocalypse Steam Machine Pricing was ~30% Cheaper",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "SilverStone introduces the FLP03—a retro-inspired microATX chassis that brings classic PC aesthetics into a more compact and versatile form factor, combining nostalgic exterior details with support for modern storage,...",
-    "url": "https://www.techpowerup.com/350176/silverstone-expands-flp-series-with-the-flp03-retro-inspired-microatx-chassis",
-    "image": "https://www.techpowerup.com/img/7XRJSUKKFAxDayAD.jpg",
+    "description": "It's no secret that Valve's Steam Machine is launching at possibly the worst moment for both PC and console gaming hardware, given the ongoing DRAM crisis, but Valve engineer, Pierre-Loup Griffais, has recently shed l...",
+    "url": "https://www.techpowerup.com/350224/pre-rampocalypse-steam-machine-pricing-was-30-cheaper",
+    "image": "https://www.techpowerup.com/img/0uCj6WYG9S41FaEq.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "(PR) Dell Introduces PowerEdge XE8812 Server with NVIDIA Vera Rubin NVL4 Architecture",
-    "date": "2026-06-22",
+    "title": "(PR) NVIDIA Adds DLSS to Mortal Shell II and The Sinking City 2, Subnautica 2 Upgraded to Native DLSS 4.5",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "Dell Technologies (NYSE: DELL) introduces the Dell PowerEdge XE8812 server, a new addition to the Dell AI Factory with NVIDIA, purpose-built for the world's most demanding HPC and AI workloads, featuring NVIDIA Vera R...",
-    "url": "https://www.techpowerup.com/350175/dell-introduces-poweredge-xe8812-server-with-nvidia-vera-rubin-nvl4-architecture",
-    "image": "https://www.techpowerup.com/img/Ebzm6UBW8tyXapGk.jpg",
+    "description": "Each week, new games and apps integrating NVIDIA DLSS, NVIDIA Reflex, and advanced ray-traced effects are released or announced, delivering the definitive PC experience for GeForce RTX players. Last week, Valve kicked...",
+    "url": "https://www.techpowerup.com/350227/nvidia-adds-dlss-to-mortal-shell-ii-and-the-sinking-city-2-subnautica-2-upgraded-to-native-dlss-4-5",
+    "image": "https://www.techpowerup.com/img/FVFHqjAF1TPW3x0v.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "GIGABYTE Motherboard Bundles Headline Micro Center Tech Days",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "GIGABYTE is bringing major savings to Micro Center Tech Days with a lineup of motherboard, CPU, and RAM bundles designed for gamers, creators, and PC builders looking to upgrade their systems. Running from June 23 to...",
-    "url": "https://www.techpowerup.com/350205/gigabyte-motherboard-bundles-headline-micro-center-tech-days",
-    "image": "https://www.techpowerup.com/img/P8niNeBZ5oz1O3uv.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Montech Announces the TG3 Mid-Tower Case",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "Montech today released the TG3, a cost-effective ATX mid-tower case with a pillarless front-left corner. The case features two tempered glass panels to make up its left- and front panels. While designed to be a horizo...",
-    "url": "https://www.techpowerup.com/350172/montech-announces-the-tg3-mid-tower-case",
-    "image": "https://www.techpowerup.com/img/EMZXgBHy1mN6h8xI.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Killscreen Launches the SFC-1, a Super Famicom-inspired Custom Controller for PC and PS5",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "Killscreen today announced the launch of SFC-1, a new custom performance controller inspired by the Japanese Super Famicom and the 16-bit era of gaming. Built for PC and PlayStation 5 players, SFC-1 brings the unmista...",
-    "url": "https://www.techpowerup.com/350171/killscreen-launches-the-sfc-1-a-super-famicom-inspired-custom-controller-for-pc-and-ps5",
-    "image": "https://www.techpowerup.com/img/gGPAd0CVrDFNu8gL.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Leaked FSR 4.1 INT8 Model Confirms Compatibility with RDNA 3.5",
-    "date": "2026-06-22",
+    "title": "China's LineShine Debuts as World's Fastest 2 ExaFLOP Supercomputer",
+    "date": "2026-06-23",
     "category": "Software",
-    "description": "Valve has begun integrating AMD's FSR Upscaler 4.1 into its Proton compatibility layer to enable FSR 4.1 on the SteamOS Linux-based operating system. Recently, we reported that AMD has been developing a separate model...",
-    "url": "https://www.techpowerup.com/350170/leaked-fsr-4-1-int8-model-confirms-compatibility-with-rdna-3-5",
-    "image": "https://www.techpowerup.com/img/5DGkqsZiVNqPpdQU.jpg",
+    "description": "According to the June update of the TOP500 list, which tracks 500 of the world's most powerful supercomputers, China has taken the number one spot with its LineShine supercomputer. This system is capable of running 2....",
+    "url": "https://www.techpowerup.com/350225/chinas-lineshine-debuts-as-worlds-fastest-2-exaflop-supercomputer",
+    "image": "https://www.techpowerup.com/img/LO3im64lrxLpMDNd.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "(PR) LG Display OLED Becomes World's First to Achieve \"Perfect Color/Brightness\" Certification",
-    "date": "2026-06-22",
+    "title": "Steam Deck 2 \"Getting There\" But Efficiency Remains an Issue",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "LG Display, the world's leading innovator of display technologies, announced today that its entire lineup of large-sized OLED panels, including for monitors and TVs, has become the first in the world to receive \"Perfe...",
-    "url": "https://www.techpowerup.com/350169/lg-display-oled-becomes-worlds-first-to-achieve-perfect-color-brightness-certification",
-    "image": "https://www.techpowerup.com/img/nHERCXcCdActgYDc.jpg",
+    "description": "So far, every time Valve has spoken about the possibility of a Steam Deck 2, it has said that it is waiting for a true generational leap in performance, and that that has not yet happened. Following the launch of the...",
+    "url": "https://www.techpowerup.com/350222/steam-deck-2-getting-there-but-efficiency-remains-an-issue",
+    "image": "https://www.techpowerup.com/img/rpGT8njiKPtOW6Hf.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "iiyama Launches G-Master GOB2701QSC-B1 Titan Falcon Monitor",
-    "date": "2026-06-22",
-    "category": "Hardware",
-    "description": "iiyama today launched its first gaming monitor based on an OLED panel, the G-Master GOB2701QSC-B1 Titan Falcon. The 27-inch flat-screen uses a 4th Generation Meta 3.0 OLED panel sourced from LG Display. It offers a WQ...",
-    "url": "https://www.techpowerup.com/350166/iiyama-launches-g-master-gob2701qsc-b1-titan-falcon-monitor",
-    "image": "https://www.techpowerup.com/img/8L7QESF4PsvXOCyy.jpg",
+    "title": "ASUS & Acer Resume Notebook Sales in Germany After Nokia Patent Dispute",
+    "date": "2026-06-23",
+    "category": "Angebote",
+    "description": "Earlier this year, the Munich Regional Court banned ASUS and Acer from directly selling their notebooks in Germany due to a patent dispute with Nokia. However, the two major notebook OEMs have reached an agreement wit...",
+    "url": "https://www.techpowerup.com/350218/asus-acer-resume-notebook-sales-in-germany-after-nokia-patent-dispute",
+    "image": "https://www.techpowerup.com/img/ipo7SwdXM2FUpskn.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "GIGABYTE Launches RTX 5080 AORUS Infinity Wood, RTX 5080 and RTX 5070 Ti AORUS Infinity Graphics Cards",
-    "date": "2026-06-22",
+    "title": "(PR) TerraMaster Launches the F4-425 Pro Featuring the World's First AI-native NAS OS",
+    "date": "2026-06-23",
     "category": "Hardware",
-    "description": "GIGABYTE expanded its AORUS Infinity line of flagship custom-design GeForce RTX 50-series graphics cards with three new models, two of which are based on the GeForce RTX 5080, and the third one on the GeForce RTX 5070...",
-    "url": "https://www.techpowerup.com/350164/gigabyte-launches-rtx-5080-aorus-infinity-wood-rtx-5080-and-rtx-5070-ti-aorus-infinity-graphics-cards",
-    "image": "https://www.techpowerup.com/img/Xg9JEw9h0UwoY81I.jpg",
+    "description": "TerraMaster, a leading global private cloud storage brand, today announced the global debut of its latest 4-bay flagship NAS, the F4-425 Pro, scheduled for June 23 to coincide with Amazon Prime Day. Powered by TOS 7,...",
+    "url": "https://www.techpowerup.com/350216/terramaster-launches-the-f4-425-pro-featuring-the-worlds-first-ai-native-nas-os",
+    "image": "https://www.techpowerup.com/img/VnDa4IoBb6k0sHn7.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) AGON by AOC Announces AGON PRO AGP277QKDC Gaming Monitor",
+    "date": "2026-06-23",
+    "category": "Hardware",
+    "description": "AGON by AOC, the world's leading gaming monitor brand, today announces the debut of the AGON 7 series with the launch of its first model, the AGON PRO AGP277QKDC. This 26.5-inch (67.3 cm) professional-grade monitor is...",
+    "url": "https://www.techpowerup.com/350215/agon-by-aoc-announces-agon-pro-agp277qkdc-gaming-monitor",
+    "image": "https://www.techpowerup.com/img/sKSQVskWFEkEnaHU.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Goodram Introduces PRO S6B0 SD Card for Photographers and Videographers",
+    "date": "2026-06-23",
+    "category": "Hardware",
+    "description": "A single missed frame can mean losing the strongest shot from an entire session. For photographers, videographers, and content creators working with demanding formats, storage performance is not just a technical detai...",
+    "url": "https://www.techpowerup.com/350214/goodram-introduces-pro-s6b0-sd-card-for-photographers-and-videographers",
+    "image": "https://www.techpowerup.com/img/UNrwv3RHK0NwZpoH.jpg",
     "source": "TechPowerUp"
   }
 ]
