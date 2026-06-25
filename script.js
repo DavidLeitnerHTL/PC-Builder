@@ -410,17 +410,20 @@ function updateCompatibilityPanel() {
         }
     }
 
-    // Update Amazon cart link (always runs when panel is visible)
+    // Update Amazon links (always runs when panel is visible)
     const cartLink = document.getElementById('btn-amazon-cart');
     if (cartLink) {
         const allIds = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case', 'os', 'casefan'];
         const asins = allIds.map(id => getSelected(id)).filter(c => c && c.amazon_sku).map(c => c.amazon_sku);
         if (asins.length > 0) {
-            const params = asins.map((asin, i) => `ASIN.${i + 1}=${encodeURIComponent(asin)}&Quantity.${i + 1}=1`).join('&');
-            cartLink.href = `https://www.amazon.de/gp/aws/cart/add.html?${params}`;
             cartLink.style.display = '';
+            cartLink.onclick = (e) => {
+                e.preventDefault();
+                asins.forEach(asin => window.open(`https://www.amazon.de/dp/${asin}`, '_blank'));
+            };
         } else {
             cartLink.style.display = 'none';
+            cartLink.onclick = null;
         }
     }
 
