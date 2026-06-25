@@ -586,17 +586,15 @@ def match_passmark_score(product_name, passmark_dict):
     for pm_name, score in passmark_dict.items():
         if _pm_normalize(pm_name) == target:
             return score
-    # Pass 2: every significant word in target is present in passmark name
-    words = [w for w in target.split() if len(w) > 2]
-    if not words:
-        return None
-    best_score, best_overlap = None, 0.0
+    # Pass 2: all PassMark-name words present in product name; prefer longer (more specific) match
+    best_score, best_len = None, 0
     for pm_name, score in passmark_dict.items():
         pm = _pm_normalize(pm_name)
-        matched = sum(1 for w in words if w in pm)
-        overlap = matched / len(words)
-        if overlap > best_overlap and overlap >= 0.8:
-            best_overlap = overlap
+        pm_words = [w for w in pm.split() if len(w) > 2]
+        if not pm_words:
+            continue
+        if all(w in target for w in pm_words) and len(pm_words) > best_len:
+            best_len = len(pm_words)
             best_score = score
     return best_score
 
