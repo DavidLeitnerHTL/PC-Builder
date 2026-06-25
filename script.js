@@ -410,39 +410,18 @@ function updateCompatibilityPanel() {
         }
     }
 
-    // Update Amazon shopping list button
+    // Update Amazon cart link (always runs when panel is visible)
     const cartLink = document.getElementById('btn-amazon-cart');
     if (cartLink) {
         const allIds = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case', 'os', 'casefan'];
-        const products = allIds.map(id => getSelected(id)).filter(c => c && c.amazon_sku);
-        cartLink.style.display = products.length > 0 ? '' : 'none';
-    }
-
-    // Fill modal on open
-    const modal = document.getElementById('amazonListModal');
-    if (modal && !modal._pcBuilderBound) {
-        modal._pcBuilderBound = true;
-        modal.addEventListener('show.bs.modal', () => {
-            const allIds = ['cpu', 'cooler', 'mb', 'gpu', 'ram', 'ssd', 'psu', 'case', 'os', 'casefan'];
-            const products = allIds.map(id => getSelected(id)).filter(c => c && c.amazon_sku);
-            const listEl = document.getElementById('amazon-list-items');
-            const totalEl = document.getElementById('amazon-list-total');
-            if (!listEl) return;
-            listEl.innerHTML = products.map(p => `
-                <div class="d-flex align-items-center justify-content-between py-2 border-bottom gap-3">
-                  <div class="flex-grow-1">
-                    <div class="small fw-semibold">${p.clean_name || p.name}</div>
-                    <div class="text-secondary" style="font-size:.78rem">${p.category}</div>
-                  </div>
-                  <div class="fw-bold text-nowrap">${p.price != null ? p.price.toFixed(2) + ' €' : '—'}</div>
-                  <a href="https://www.amazon.de/dp/${p.amazon_sku}" target="_blank" rel="noopener noreferrer"
-                     class="btn btn-sm btn-outline-accent text-nowrap">
-                    <i class="fab fa-amazon me-1"></i>Kaufen
-                  </a>
-                </div>`).join('');
-            const total = products.reduce((s, p) => s + (p.price || 0), 0);
-            if (totalEl) totalEl.textContent = total > 0 ? total.toFixed(2) + ' €' : '—';
-        });
+        const asins = allIds.map(id => getSelected(id)).filter(c => c && c.amazon_sku).map(c => c.amazon_sku);
+        if (asins.length > 0) {
+            const params = asins.map((asin, i) => `ASIN.${i + 1}=${encodeURIComponent(asin)}&Quantity.${i + 1}=1`).join('&');
+            cartLink.href = `https://www.amazon.de/gp/aws/cart/add.html?${params}`;
+            cartLink.style.display = '';
+        } else {
+            cartLink.style.display = 'none';
+        }
     }
 
     // Bottleneck bars
