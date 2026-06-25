@@ -209,7 +209,7 @@ const PRESETS = {
         gpu: "RTX 5090",
         ram: "Dominator Titanium",
         ssd: "T705",
-        psu: "Straight Power 12 1500",
+        psu: "Straight Power 12",
         case: "Y70",
         os: "Windows 11 Pro USB",
         casefan: "T30"
