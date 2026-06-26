@@ -1493,16 +1493,16 @@
         "passmark_score": 14114
     },
     {
-        "id": "99464443-aee0-4b34-bb27-dc7e2594943c",
-        "name": "AMD Ryzen 9 5900XT",
-        "variant": "5900XT",
-        "amazon_sku": "B0D6NMCZG1",
-        "clean_name": "AMD Ryzen 9 5900XT",
+        "id": "7f125c39-b1e1-41f3-8ae8-562d3d5e6467",
+        "name": "AMD Ryzen 5 3500X",
+        "variant": "3500X",
+        "amazon_sku": "B0D69R1T54",
+        "clean_name": "AMD Ryzen 5 3500X",
         "socket": "AM4",
-        "cores": 16,
-        "threads": 32,
-        "tdp": 105,
+        "cores": 6,
+        "threads": 6,
+        "tdp": 65,
         "ram_type": "DDR4",
-        "passmark_score": 43838
+        "passmark_score": 13165
     }
 ]
