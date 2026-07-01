@@ -32,38 +32,6 @@
         "last_updated": "2026-06-29T08:21:28.820Z"
     },
     {
-        "id": "dd073712-0a1f-4e7f-a7e0-40f40aea600c",
-        "name": "AMD Ryzen 3 3300X 3.8 GHz 4-Core",
-        "variant": "",
-        "amazon_sku": "B0876YS2T4",
-        "clean_name": "AMD Ryzen 3 3300X",
-        "socket": "AM4",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.8 GHz",
-        "passmark_score": 12853,
-        "price": 161.32,
-        "last_updated": "2026-06-29T08:21:35.003Z"
-    },
-    {
-        "id": "b5af1355-01e2-44a3-8708-5f488001b29e",
-        "name": "AMD Ryzen 5 1400 3.2 GHz 4-Core AM4",
-        "variant": "",
-        "amazon_sku": "B06XKWT8J4",
-        "clean_name": "AMD Ryzen 5 1400",
-        "socket": "AM4",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 65,
-        "ram_type": "DDR4",
-        "clock_speed": "3.2 GHz",
-        "passmark_score": 7738,
-        "price": 75.6,
-        "last_updated": "2026-06-29T08:21:36.606Z"
-    },
-    {
         "id": "9f192a62-7a9d-4fb1-8e2c-9e3b6c8610f2",
         "name": "AMD Ryzen 5 3600XT 3.8 GHz 6-Core AM4",
         "variant": "",
@@ -94,38 +62,6 @@
         "passmark_score": 28301,
         "price": 237.43,
         "last_updated": "2026-06-29T08:21:44.680Z"
-    },
-    {
-        "id": "ded20bd3-aaf0-42d7-83ce-501679fb8363",
-        "name": "Intel Core i3 13100 3.4 GHz 4-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "B0BQ6CTTMK",
-        "clean_name": "Intel Core i3 13100",
-        "socket": "LGA 1700",
-        "cores": 4,
-        "threads": 8,
-        "tdp": 60,
-        "ram_type": "DDR5",
-        "clock_speed": "3.4 GHz",
-        "passmark_score": 14114,
-        "price": 278.03,
-        "last_updated": "2026-06-29T08:21:55.850Z"
-    },
-    {
-        "id": "ecebadb2-f535-4dbf-a847-9d92971e2b00",
-        "name": "Intel Core i5 12600 3.3 GHz 6-Core LGA1700",
-        "variant": "",
-        "amazon_sku": "B09MSLG944",
-        "clean_name": "Intel Core i5 12600",
-        "socket": "LGA 1700",
-        "cores": 6,
-        "threads": 12,
-        "tdp": 65,
-        "ram_type": "DDR5",
-        "clock_speed": "3.3 GHz",
-        "passmark_score": 5328,
-        "price": 318.35,
-        "last_updated": "2026-06-29T08:21:49.494Z"
     },
     {
         "id": "92f76877-d37d-4026-a930-e71d0880d506",
@@ -248,6 +184,21 @@
         "last_updated": "2026-06-29T08:22:12.322Z"
     },
     {
+        "id": "dd073712-0a1f-4e7f-a7e0-40f40aea600c",
+        "name": "AMD Ryzen 3 3300X",
+        "variant": "3300X",
+        "amazon_sku": "B0876YS2T4",
+        "clean_name": "AMD Ryzen 3 3300X",
+        "socket": "AM4",
+        "cores": 4,
+        "threads": 8,
+        "tdp": 65,
+        "ram_type": "DDR4",
+        "passmark_score": 12578,
+        "price": 161.32,
+        "last_updated": "2026-06-29T08:21:35.003Z"
+    },
+    {
         "id": "561fd78d-c0ca-4619-a942-92eacf4bfccf",
         "name": "AMD Ryzen 3 4100",
         "variant": "4100",
@@ -261,6 +212,21 @@
         "passmark_score": 11041,
         "price": 45.25,
         "last_updated": "2026-06-29T08:22:12.735Z"
+    },
+    {
+        "id": "b5af1355-01e2-44a3-8708-5f488001b29e",
+        "name": "AMD Ryzen 5 1400",
+        "variant": "1400",
+        "amazon_sku": "B06XKWT8J4",
+        "clean_name": "AMD Ryzen 5 1400",
+        "socket": "AM4",
+        "cores": 4,
+        "threads": 8,
+        "tdp": 65,
+        "ram_type": "DDR4",
+        "passmark_score": 7738,
+        "price": 75.6,
+        "last_updated": "2026-06-29T08:21:36.606Z"
     },
     {
         "id": "a9fc2c82-bbfc-4267-bcd6-2bcefbd5a033",
@@ -1238,6 +1204,21 @@
         "last_updated": "2026-06-29T08:26:15.717Z"
     },
     {
+        "id": "ded20bd3-aaf0-42d7-83ce-501679fb8363",
+        "name": "Intel Core i3 13100",
+        "variant": "13100",
+        "amazon_sku": "B0BQ6CTTMK",
+        "clean_name": "Intel Core i3 13100",
+        "socket": "LGA 1700",
+        "cores": 4,
+        "threads": 8,
+        "tdp": 60,
+        "ram_type": "DDR5",
+        "passmark_score": 14114,
+        "price": 278.03,
+        "last_updated": "2026-06-29T08:21:55.850Z"
+    },
+    {
         "id": "e16a10af-3e6e-4d60-8f7b-96f054281fa6",
         "name": "Intel Core i3 13100F",
         "variant": "13100F",
@@ -1341,6 +1322,21 @@
         "passmark_score": 30884,
         "price": 286.51,
         "last_updated": "2026-06-29T08:26:45.482Z"
+    },
+    {
+        "id": "ecebadb2-f535-4dbf-a847-9d92971e2b00",
+        "name": "Intel Core i5-12600",
+        "variant": "12600",
+        "amazon_sku": "B09MSLG944",
+        "clean_name": "Intel Core i5-12600",
+        "socket": "LGA 1700",
+        "cores": 6,
+        "threads": 12,
+        "tdp": 65,
+        "ram_type": "DDR5",
+        "passmark_score": 21327,
+        "price": 318.35,
+        "last_updated": "2026-06-29T08:21:49.494Z"
     },
     {
         "id": "868feebe-9c5d-47c2-b0e9-4aa78708b574",
