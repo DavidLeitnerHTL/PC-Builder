@@ -1,5 +1,50 @@
 [
   {
+    "title": "Halbleiterfertigung: Imec gibt Ausblick auf Halbleitertechnik bis 2041",
+    "date": "2026-07-04",
+    "category": "Hardware",
+    "description": "Für die Zukunft der Halbleiterfertigung sieht das Forschungszentrum Imec mehrere Entwicklungsrichtungen. Die neue Roadmap gibt eine Transistorform auf. (Halbleiterfertigung, IBM)",
+    "url": "https://www.golem.de/news/halbleiterfertigung-imec-gibt-ausblick-auf-halbleitertechnik-bis-2041-2607-210495.html",
+    "image": "https://www.golem.de/2607/210495-586033-586031_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Intel Core 13/14: Mehr Raptor-Lake-CPUs im Handel? Warum DDR4-Aufrüster profitieren könnten",
+    "date": "2026-07-04",
+    "category": "Hardware",
+    "description": "Intel setzt offenbar weiter auf alte Core-CPUs: 13. und 14. Generation sollen wieder stärker produziert werden. Für DDR4-Aufrüster kann LGA1700 damit länger interessant bleiben.",
+    "url": "https://www.pcgameshardware.de/Intel-Core-Architektur-267419/News/Gen-13-14-Raptor-Lake-DDR4-LGA-1700-1547191/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/ChatGPT-Image-3.-Juli-2026-13_50_56-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Intel verteuert seinen beliebtesten Desktop-Prozessor",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Die drei Core-Ultra-Plus-CPUs bekommen höhere Preisempfehlungen. Beim beliebten Core Ultra 7 270K Plus steigt sie um bis zu 17 Prozent.",
+    "url": "https://www.heise.de/news/Intel-verteuert-seinen-beliebtesten-Desktop-Prozessor-11353550.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/1/1/9/5/https___xp-eba39a33947ab660-5bca10151ce12484.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Wasserkühlung für die Wohnung: Das bringen Verdunstungskühler",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Verdunstungskühler sind billiger als Klimaanlagen und fühlen sich zumindest kurzzeitig kühl an. Übersteht man damit den Sommer besser als mit dem Ventilator?",
+    "url": "https://www.heise.de/tests/Wasserkuehlung-fuer-die-Wohnung-Das-bringen-Verdunstungskuehler-11347951.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/8/3/6/5/PXL_20260703_114503384-b08f31315a479143.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "#TGIQF: Das Quiz rund um Grafikkarten",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Grafikkarten machen das Computerbild schöner. In unserem etwas nerdigen Freitagsquiz testen wir Ihr Wissen rund um die Erweiterungskarten. Knobeln Sie mit!",
+    "url": "https://www.heise.de/news/TGIQF-Das-Quiz-rund-um-Grafikkarten-11352716.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/0/7/6/9/Overlay_TGIQF_1__47_-e26bc39e854aa1d5.png",
+    "source": "Heise"
+  },
+  {
     "title": "Nvidia & Co: USA dominieren Börsen – Deutschland fällt ab",
     "date": "2026-07-03",
     "category": "Industrie",
@@ -9,13 +54,40 @@
     "source": "Heise"
   },
   {
-    "title": "Test: Erster Mini-PC mit RISC-V-CPU für Ubuntu ab Version 26.04",
+    "title": "GeForce Now: Zwölf neue Spiele im Juli",
     "date": "2026-07-03",
     "category": "Hardware",
-    "description": "Moderne Linux-Distros für RISC-V laufen nur auf Chips mit RVA23-Erweiterung. Einer der ersten ist der SpacemiT K3 in der AIBOX-K3, die recht raue Kanten hat.",
-    "url": "https://www.heise.de/tests/Test-Erster-Mini-PC-mit-RISC-V-CPU-fuer-Ubuntu-ab-Version-26-04-11302381.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/8/6/6/5/7/ciw-a4beb9fd2907a0da.jpeg",
-    "source": "Heise"
+    "description": "Zum Start in den Juli erweitert Nvidia den Cloud-Gaming-Dienst GeForce Now um weitere Titel. Den Anfang machen Monopoly: Star Wars Heroes vs. Villains und Meccha Chameleon, im Laufe des Monats folgen zehn weitere Spie...",
+    "url": "https://www.computerbase.de/news/gaming/geforce-now-zwoelf-neue-spiele-im-juli.98220/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "„Red Line of Death“: Bericht über erste Steam Machine mit GPU-Fehler",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Ein erster Bericht dokumentiert einen mutmaßlichen GPU-Fehler bei Valves neuer Steam Machine. Der Spieler hat nach eigenem Bekunden für einige Minuten No Man's Sky gespielt und dann ein Update eingespielt, danach zeig...",
+    "url": "https://www.computerbase.de/news/gaming/red-line-of-death-bericht-ueber-erste-steam-machine-mit-gpu-fehler.98219/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Reader's Choice Awards: Bester Desktop- & Notebook-CPU-Hersteller 2026",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "ComputerBase ruft erneut die Reader's Choice Awards aus. Dieses Jahr wird nicht nur der beste Desktop-, sondern auch Notebook-CPU-Hersteller gekürt. Denn euer Favorit am Desktop muss nicht auch der Favorit am mobilen...",
+    "url": "https://www.computerbase.de/artikel/prozessoren/readers-choice-awards-bester-desktop-laptop-cpu-hersteller-2026.97199/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Mini-PC mit Core Ultra 300: Asus NUC 16 Pro ist ab sofort für 631 bis 2.542 Euro erhältlich",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Asus hat den Verkaufsstart des NUC 16 Pro mit Core Ultra 300 „Panther Lake“ bekanntgegeben. Als Barebone ohne RAM, SSD und Betriebssystem geht es mit kleinem Core Ultra 5 325 bei 631 Euro los. Das Topmodell mit Core U...",
+    "url": "https://www.computerbase.de/news/pc-systeme/mini-pc-mit-core-ultra-300-asus-nuc-16-pro-ist-ab-sofort-ab-631-euro-erhaeltlich.98217/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
     "title": "ROG GR70 im Test: Der 3-Liter-Mini-PC mit 9955HX3D und RTX 5070 Laptop GPU",
@@ -36,6 +108,15 @@
     "source": "ComputerBase"
   },
   {
+    "title": "DSpark: Deepseek verbessert mit Token-Raten die GPU-Auslastung",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Spekulative Decodierung ermöglicht, GPUs deutlich besser auszulasten. Die Qualität der Ausgaben bleibt gleich, Deepseek nutzt Dspark bereits produktiv. Von Johannes Hiltscher (KI, Wissenschaft)",
+    "url": "https://www.golem.de/news/dspark-deepseek-verbessert-mit-token-raten-die-gpu-auslastung-2607-210485.html",
+    "image": "https://www.golem.de/2607/210485-585989-585987_rc.jpg",
+    "source": "Golem"
+  },
+  {
     "title": "Valar Atomics: Teuerster Kernreaktor aller Zeiten hat Strom produziert",
     "date": "2026-07-03",
     "category": "Hardware",
@@ -45,13 +126,157 @@
     "source": "Golem"
   },
   {
-    "title": "Speicherkrise: Günstiger DDR5-RAM ist nur noch Restbestand",
+    "title": "[PLUS] 360er-AiO-Wasserkühlungen im Test: Teure bis günstige Modelle diverser Hersteller",
     "date": "2026-07-03",
     "category": "Hardware",
-    "description": "Nach Kritik an Aufpreisen von bis zu 79 Prozent für DDR5-RAM mit AMD EXPO Ultra Low Latency erklärt G.Skill die Preise mit alten Lagerbeständen im Handel. Für Käufer heißt das: Auch reguläre EXPO-Kits dürften bald deu...",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/DR5-AMD-EXPO-ULL-G-Skill-Preise-Lagerbestaende-1547107/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/G.Skill-Trident-Z5-NeoX-AMD-EXPO-ULL-DDR5-pcgh.jpg",
+    "description": "Wir schicken 360-mm-Kompaktwasserkühlungen durch unseren lautheitsnormierten Testparcours. Von günstig bis teuer prüfen wir acht verschiedene Kühlsysteme auf Herz und Nieren.",
+    "url": "https://www.pcgameshardware.de/Kompaktwasserkuehlung-Hardware-267963/Specials/360-mm-AiO-Test-Corsair-Weiss-Preis-1471604/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2025/08/360er-Tabelle-mit-Awards-pcgh.png",
     "source": "PCGH"
+  },
+  {
+    "title": "Lederjacke von Nvidia-CEO Jensen Huang wird versteigert: Bis zu 60.000 US-Dollar erwartet",
+    "date": "2026-07-03",
+    "category": "Industrie",
+    "description": "Eine von Nvidia-CEO Jensen Huang getragene Lederjacke wird derzeit gemeinnützig versteigert, mit einem Schätzwert von 40.000 bis 60.000 US-Dollar.",
+    "url": "https://www.pcgameshardware.de/Panorama-Thema-233992/News/Lederjacke-Nvidia-CEO-Jensen-Huang-versteigert-Bis-60000-US-Dollar-erwartet-1547182/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2023/11/NVIDIA-CEO-Jensen-Huang-GeForce-RTX-3080-1280x720-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Aufrüsten 2026: Welche CPU passt zu welcher GPU? Das und mehr in PCGH 08/2026",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Die PCGH-Ausgabe 08/2026 hat es in sich: Clever aufrüsten 2026 mit Hunderten CPU-/GPU-Kombinationen, AMDs Radeon RX 9070 GRE im kritischen Check, der 12+4-Pol-Stecker in Zahlen, Gaming mit 5.120 × 2.160 Pixeln und das...",
+    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-08-2026-Magazin-310-DVD-Download-PDF-1546511/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Intel Nova Lake-S: Zwei 18-Kern-CPUs mit bLLC als Core Ultra 400 im Gerücht",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Intel soll für Nova Lake-S zwei weitere Core-Ultra-400-CPUs mit 18 Kernen und bLLC planen. Der Leak nennt eine 125-Watt- und eine 65-Watt-Variante.",
+    "url": "https://www.pcgameshardware.de/Intel-Core-Ultra-Architektur-280887/News/Nova-Lake-S-400-18-Kerne-bLLC-Leak-1547159/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/07/Intel-CPU-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS] Die optimale CPU für Radeon RX 9070 (XT): Ryzen 7 9800X3D gar nicht nötig?",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "PCGH Plus: AMDs RX 9070 XT und 9070 sind sehr beliebt und Verkaufsschlager. Doch wie schnell sollte der verbaute Prozessor sein, um nicht zu limitieren? Wir haben dazu zahlreiche Benchmarks durchgeführt! Der Artikel s...",
+    "url": "https://www.pcgameshardware.de/Radeon-RX-9070-XT-Grafikkarte-281023/Specials/Die-beste-CPU-fuer-RDNA-4-1470797/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/04/aufmacher_optimale_CPU_fuer_Radeon-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Samsung Readies SSD 990 Value Gen 4 NVMe SSD",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Samsung is giving finishing touches to the SSD 990, a new upcoming M.2 NVMe Gen 4 SSD taking up the value end of the company's client SSD lineup. The 990 is not to be confused with the 990 EVO Plus, which was the comp...",
+    "url": "https://www.techpowerup.com/350506/samsung-readies-ssd-990-value-gen-4-nvme-ssd",
+    "image": "https://www.techpowerup.com/img/q4nRXvLztgCgXlSD.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Epomaker Launches NEX Pro Gaming Mouse and HE65 V2 TMR Keyboard",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "After teasing the HE65 V2 in early June, Epomaker has finally released the compact 65% TMR gaming keyboard, making it available in black or white for $99.99 on the Epomaker online shop or at Amazon. The HE65 V2 TMR, a...",
+    "url": "https://www.techpowerup.com/350500/epomaker-launches-nex-pro-gaming-mouse-and-he65-v2-tmr-keyboard",
+    "image": "https://www.techpowerup.com/img/tmC5qpiv0A3lt46t.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GoDeal24 Unveils Midsummer Sale: Get Windows 11 + Office 2024 for Just $31.91",
+    "date": "2026-07-03",
+    "category": "Angebote",
+    "description": "GoDeal24 today unveiled the 2026 Midsummer Sale. Get the latest genuine, globally-valid software you need, at deep-discount prices. Our key offer is a combo of Windows 11 Pro + Office 2024 Professional Plus at just $3...",
+    "url": "https://www.techpowerup.com/350385/godeal24-unveils-midsummer-sale-get-windows-11-office-2024-for-just-usd-31-91",
+    "image": "https://www.techpowerup.com/img/ydF4BY4b9HFFZq5H.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "System76 Announces New Adder Pro 15.3-inch Performance Laptop Series",
+    "date": "2026-07-03",
+    "category": "Software",
+    "description": "System76 is preparing a new version of its Adder Pro performance laptop series. The Denver, Colorado company that leans mostly towards Linux users is offering this new 15.3-inch model with Intel Panther Lake Core Ultr...",
+    "url": "https://www.techpowerup.com/350503/system76-announces-new-adder-pro-15-3-inch-performance-laptop-series",
+    "image": "https://www.techpowerup.com/img/nM2jWSGdxzQBj3Xe.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Intel Readies Two 22-Core \"Nova Lake-S\" SKUs with 108 MB bLLC Cache for Gaming",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "According to well-known Intel leaker Jaykihn, Intel is preparing two \"Nova Lake-S\" CPU models with a 22-core configuration, enhanced by the big Last Level Cache (bLLC). These processors are part of the Core Ultra 5 40...",
+    "url": "https://www.techpowerup.com/350502/intel-readies-two-22-core-nova-lake-s-skus-with-108-mb-bllc-cache-for-gaming",
+    "image": "https://www.techpowerup.com/img/RRwacBx4hCj5RJkn.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Get Office 2024 and an 8-course Training Bundle for $116",
+    "date": "2026-07-03",
+    "category": "Angebote",
+    "description": "Most people use Office every day without ever touching half of what it can do. Through StackSocial's Deal Days, the company's version of Prime Day, this bundle pairs Microsoft Office 2024 Home & Business with an 8-cou...",
+    "url": "https://www.techpowerup.com/350180/get-office-2024-and-an-8-course-training-bundle-for-usd-116",
+    "image": "https://www.techpowerup.com/img/qZ2BRV8RtNGP2RBk.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Yunzii Introduces New Colorways for B75 PRO Mechanical Keyboard",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "The beloved Yunzii B75 PRO is welcoming a collection of beautiful new colorways, bringing even more personality to one of our most popular mechanical keyboards. Whether your setup is clean and minimal or colorful and...",
+    "url": "https://www.techpowerup.com/350501/yunzii-introduces-new-colorways-for-b75-pro-mechanical-keyboard",
+    "image": "https://www.techpowerup.com/img/jdWint1AXPhXMObG.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Razer Announces Wuthering Waves Gaming Peripherals Collection",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Razer, the leading global lifestyle brand for gamers, today announced the Razer | Wuthering Waves Collection, created in collaboration with Kuro Games. Inspired by the game's newest Resonator, Denia, the collection ma...",
+    "url": "https://www.techpowerup.com/350499/razer-announces-wuthering-waves-gaming-peripherals-collection",
+    "image": "https://www.techpowerup.com/img/LOwClCcwG4as8EsX.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "This $79 Lifetime Deal Replaces Your ChatGPT, Claude, and Gemini Subscriptions",
+    "date": "2026-07-03",
+    "category": "Angebote",
+    "description": "Switching between ChatGPT, Claude, Gemini, and a handful of other AI tools just to land on one solid answer means you're paying for overlapping capabilities several times over, easily $60 to $80 a month, or hundreds a...",
+    "url": "https://www.techpowerup.com/350181/this-usd-79-lifetime-deal-replaces-your-chatgpt-claude-and-gemini-subscriptions",
+    "image": "https://www.techpowerup.com/img/VKidWGgEn0BDPl9c.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Thermaltake Intros Dr. Power III Pro Tester for ATX 3.1 PSUs",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Thermaltake today introduced the Dr. Power III Pro (model: AC-083-OO1NAN-A1), a handy tool to test modern ATX 3.1 power supplies. This was first showcased by Thermaltake at the 2026 CES. The tester lets you check volt...",
+    "url": "https://www.techpowerup.com/350491/thermaltake-intros-dr-power-iii-pro-tester-for-atx-3-1-psus",
+    "image": "https://www.techpowerup.com/img/9cl4WVxQY8Cnt8m6.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Attack Shark Launches R98 HE Magnetic Switch Keyboard",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "Gaming peripheral brand ATTACK SHARK has announced the launch of its R98 HE, a new flagship competitive magnetic switch keyboard designed to raise the standard for high-end hall-effect magnetic switch keyboards. Targe...",
+    "url": "https://www.techpowerup.com/350490/attack-shark-launches-r98-he-magnetic-switch-keyboard",
+    "image": "https://www.techpowerup.com/img/mvbNX9isPOBz5E7e.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) GMKtec Launches EVO-X3 AI Workstation with AMD Ryzen AI Max+ 395",
+    "date": "2026-07-03",
+    "category": "Hardware",
+    "description": "GMKtec has officially launched the EVO-X3 AI Workstation, a compact desktop system powered by the AMD Ryzen AI Max+ 395 processor, targeting developers, AI professionals, creators, and users requiring workstation-clas...",
+    "url": "https://www.techpowerup.com/350489/gmktec-launches-evo-x3-ai-workstation-with-amd-ryzen-ai-max-395",
+    "image": "https://www.techpowerup.com/img/wIwGIyk9OcEOuDB3.jpg",
+    "source": "TechPowerUp"
   },
   {
     "title": "Intel Solves 18A Yield Issues, Production Reaches 30,000 Wafers Per Month",
@@ -69,15 +294,6 @@
     "description": "TrendForce's latest memory pricing survey reveals that the DRAM market will remain extremely tight in the third quarter of 2026. However, weaker demand from consumer applications and the impact of a higher comparison...",
     "url": "https://www.techpowerup.com/350486/ai-server-demand-continues-to-support-memory-prices-in-3q26-but-gains-moderate-as-consumer-demand-weakens-and-high-base-effects-take-hold",
     "image": "https://www.techpowerup.com/img/nnEaVSYjoLgbjg19.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GoDeal24 Unveils Midsummer Sale: Get Windows 11 + Office 2024 for Just $31.91",
-    "date": "2026-07-03",
-    "category": "Angebote",
-    "description": "GoDeal24 today unveiled the 2026 Midsummer Sale. Get the latest genuine, globally-valid software you need, at deep-discount prices. Our key offer is a combo of Windows 11 Pro + Office 2024 Professional Plus at just $3...",
-    "url": "https://www.techpowerup.com/350385/godeal24-unveils-midsummer-sale-get-windows-11-office-2024-for-just-usd-31-91",
-    "image": "https://www.techpowerup.com/img/ydF4BY4b9HFFZq5H.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -108,114 +324,6 @@
     "source": "ComputerBase"
   },
   {
-    "title": "DSX AI Factory: Nvidia will auch an Nutzung seiner Hardware verdienen",
-    "date": "2026-07-02",
-    "category": "Industrie",
-    "description": "Nvidia bietet sein Referenzdesign für KI-Rechenzentren mit neuem Finanzierungsmodell an. Das soll den Bau beschleunigen und Nvidias Bilanz verbessern. (Nvidia, KI)",
-    "url": "https://www.golem.de/news/dsx-ai-factory-nvidia-will-auch-an-nutzung-seiner-hardware-verdienen-2607-210449.html",
-    "image": "https://www.golem.de/2607/210449-585800-585798_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Anzeige: Glorious Model O Gaming-Maus jetzt zum Tiefstpreis",
-    "date": "2026-07-02",
-    "category": "Angebote",
-    "description": "Wer sein Gaming-Set-up optimieren möchte, findet bei Amazon ein starkes Angebot. Die ultraleichte Glorious-Model-O-Maus gibt es jetzt für unter 50 Euro. (Technik/Hardware, Maus)",
-    "url": "https://www.golem.de/news/anzeige-glorious-model-o-gaming-maus-jetzt-zum-tiefstpreis-2607-210445.html",
-    "image": "https://www.golem.de/2607/210445-585775-585773_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Bis zu 50 US-Dollar mehr: Intel erhöht still die CPU-Preise",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "Intel hat die unverbindlichen Preisempfehlungen für den Core Ultra 7 270K Plus und Core Ultra 5 250K(F) Plus offiziell deutlich angehoben. Käufer zahlen nach Listenpreis künftig bis zu 50 US-Dollar mehr für die CPUs a...",
-    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/Intel-Preiserhoehung-UVP-Core-Ultra-7-270K-Core-Ultra-5-250K-Plus-1547106/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/03/Arrow-Lake-Refresh-4--pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Asus: Zwei neue 4K-OLED-Monitore für Profis ab 2.250 Euro",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "Mit dem Proart OLED PA27USD und dem größeren PA32USD hat Asus zwei neue High-End-Monitore für den professionellen Einsatz vorgestellt.",
-    "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/News/Asus-zweimal-4K-OLED-fuer-Profis-ab-2250-Euro-1547042/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Screenshot-2026-07-02-at-14-46-10-ProArt-Display-OLED-PA27USDund-PA32USD.jpg-AVIF-Grafik-1782-1002-Pixel-Skaliert-52--pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11: Neues Startmenü für alle vor großem Update",
-    "date": "2026-07-02",
-    "category": "Software",
-    "description": "Microsoft will die jüngste Neugestaltung des Startmenüs von Windows 11 an alle ausgerollt haben, bevor es später im Jahr weitere große Überarbeitungen gibt.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/11-Neues-Startmenue-kommt-vor-grossem-Update-fuer-alle-1547035/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/11/Windows-10-Teaser-pcgh.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "Aufrüsten 2026: Welche CPU passt zu welcher GPU? Das und mehr in PCGH 08/2026",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "Die PCGH-Ausgabe 08/2026 hat es in sich: Clever aufrüsten 2026 mit Hunderten CPU-/GPU-Kombinationen, AMDs Radeon RX 9070 GRE im kritischen Check, der 12+4-Pol-Stecker in Zahlen, Gaming mit 5.120 × 2.160 Pixeln und das...",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-08-2026-Magazin-310-DVD-Download-PDF-1546511/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "CPUs bei Mindfactory: 9800X3D und 5800X3D dominieren",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "Der AMD Ryzen 7 9800X3D und \"neue\" Ryzen 7 5800X3D dominieren die CPU-Verkaufscharts bei Mindfactory auch weiterhin nach Belieben. Die Verkaufszahlen und Umsätze des Online-Händlers sind dabei im Vergleich zum Vormona...",
-    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/Ryzen-Dominanz-Verkaufszahlen-Mindfactory-1547029/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Mindfactory-Teaser-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "Gaming-Monitore: 4K, OLED, 240 Hz, 27 oder 32 Zoll - empfehlenswerte Modelle im Vergleich",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "Wir präsentieren empfehlenswerte Monitore für Spieler von Full HD bis 4K. Dabei legen wir einen Fokus auf das Preis-Leistungs-Verhältnis, stellen jedoch auch einige Budget-Spartipps sowie High-End-Modelle vor. Wir ach...",
-    "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/Specials/Gaming-Test-Vergleich-4K-OLED-240-Hz-27-oder-32-Zoll-1545715/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Titan_Army_P2712V_PCGH_001-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Linux 7.3: Neuer Kernel löst Flaschenhals bei PCIe-5.0-SSDs",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "Ein Bytedance-Entwickler beseitigt mit einem vereinfachten Direct-I/O-Zugriffspfad in Linux 7.3 einen Flaschenhals bei schnellen NVMe-SSDs. Erste Tests zeigen bis zu 14 Prozent mehr IOPS auf PCIe-5.0-Laufwerken unter...",
-    "url": "https://www.pcgameshardware.de/Linux-Software-26761/News/Kernel-7-3-NVMe-SSD-Direct-IO-schneller-1547019/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/03/Samsung-9100-Pro-SSD-Test-2-Web-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Preiserhöhung: Intels Core-Ultra-200S-Plus-Modelle werden teurer",
-    "date": "2026-07-02",
-    "category": "Markt",
-    "description": "Die beiden Modelle der Core-Ultra-200S-Plus-Serie, namentlich der Core Ultra 7 270K Plus und Core Ultra 5 250K Plus (beide im Test), konnten vorwiegend durch ein attraktives Preisniveau der Arrow-Lake-Generation wiede...",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/69574-preiserhoehung-intels-core-ultra-200s-plus-modelle-werden-teurer.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Mar/poetic_binary_1g/img_9783_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Neue Chipfabrik in Dresden: Infineon eröffnet Smart Power Fab",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "Mit der Smart Power Fab eröffnet Infineon heute das nach eigenen Angaben größte Werk für Leistungshalbleiter.",
-    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/69573-neue-chipfabrik-in-dresden-infineon-eroeffnet-smart-power-fab.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jul/superb_energy_dy/infineon_smart_power_fab_mai_30_16_9_a8db7e0ab4f01626_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "GTA 6: Digital Foundry hält 60 FPS auf PS5 Pro für unwahrscheinlich",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "Seit einer Woche ist Grand Theft Auto VI für die PlayStation 5, PlayStation 5 Pro und die Xbox Series X|S vorbestellbar.",
-    "url": "https://www.hardwareluxx.de/index.php/news/software/spiele/69572-gta-6-digital-foundry-haelt-60-fps-auf-ps5-pro-fuer-unwahrscheinlich.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/May/firmer_robotics_ag/vice_city_03_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
     "title": "(PR) Sandisk Announces Sampling of BiCS10 1 Tb TLC 3D NAND Flash Memory",
     "date": "2026-07-02",
     "category": "Hardware",
@@ -234,15 +342,6 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "Get Office 2024 and an 8-course Training Bundle for $116",
-    "date": "2026-07-02",
-    "category": "Angebote",
-    "description": "Most people use Office every day without ever touching half of what it can do. Through StackSocial's Deal Days, the company's version of Prime Day, this bundle pairs Microsoft Office 2024 Home & Business with an 8-cou...",
-    "url": "https://www.techpowerup.com/350180/get-office-2024-and-an-8-course-training-bundle-for-usd-116",
-    "image": "https://www.techpowerup.com/img/qZ2BRV8RtNGP2RBk.jpg",
-    "source": "TechPowerUp"
-  },
-  {
     "title": "Video Game History Foundation Addresses Death of Physical PlayStation Games",
     "date": "2026-07-02",
     "category": "Hardware",
@@ -258,15 +357,6 @@
     "description": "Relic Entertainment is proud to announce Company of Heroes 3: Final Stand. Launching July 29 on PC via Steam, Final Stand captures the strategy and intensity of Company of Heroes' cinematic battles in a fast-paced wav...",
     "url": "https://www.techpowerup.com/350481/relic-entertainment-announces-company-of-heroes-3-final-stand-launching-july-29",
     "image": "https://www.techpowerup.com/img/e45TzY95q3JD07nQ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "This $79 Lifetime Deal Replaces Your ChatGPT, Claude, and Gemini Subscriptions",
-    "date": "2026-07-02",
-    "category": "Angebote",
-    "description": "Switching between ChatGPT, Claude, Gemini, and a handful of other AI tools just to land on one solid answer means you're paying for overlapping capabilities several times over, easily $60 to $80 a month, or hundreds a...",
-    "url": "https://www.techpowerup.com/350181/this-usd-79-lifetime-deal-replaces-your-chatgpt-claude-and-gemini-subscriptions",
-    "image": "https://www.techpowerup.com/img/VKidWGgEn0BDPl9c.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -358,95 +448,5 @@
     "url": "https://www.techpowerup.com/350464/philips-evnia-launches-the-worlds-first-triple-mode-fast-ips-gaming-monitor",
     "image": "https://www.techpowerup.com/img/AZzkcfP3BBXmJaGI.jpg",
     "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) IBASE Releases CMI211-1005 Expandable Edge AI Computer with Up to 99 TOPS",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "IBASE Technology Inc., a leading provider of industrial computing and edge AI solutions, announces the CMI211-1005, a compact and expandable edge AI computer powered by Intel Core Ultra 200H Series processors. Integra...",
-    "url": "https://www.techpowerup.com/350463/ibase-releases-cmi211-1005-expandable-edge-ai-computer-with-up-to-99-tops",
-    "image": "https://www.techpowerup.com/img/dM10PeAV9e0FXIFO.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Cherry Xtrfy Releases K63W Pro Compact Ultra-Wideband Gaming Keyboard",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "Cherry Xtrfy has expanded its premium portfolio with the K63W Pro Compact Ultra-Wideband. It is the first gaming keyboard to combine Ultra-Wideband technology with a wireless polling rate of 8000 Hz, alongside a low-p...",
-    "url": "https://www.techpowerup.com/350462/cherry-xtrfy-releases-k63w-pro-compact-ultra-wideband-gaming-keyboard",
-    "image": "https://www.techpowerup.com/img/PerpMiEVj3DG5nF0.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) MSI Named Among First EPEAT 2.0 Launch Partners; Flagship AI Business Laptop Achieves Silver Certification",
-    "date": "2026-07-02",
-    "category": "Markt",
-    "description": "MSI, a global leader in gaming, AI PC, and high-performance computing, proudly announces its standing as one of the world's first brands to become an EPEAT 2.0 Launch Partner. This milestone underscores MSI's core com...",
-    "url": "https://www.techpowerup.com/350461/msi-named-among-first-epeat-2-0-launch-partners-flagship-ai-business-laptop-achieves-silver-certification",
-    "image": "https://www.techpowerup.com/img/tjDl0go2fTQbd9Fj.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "NVIDIA GeForce RTX 5090D Overclocked to 4 GHz with Liquid Nitrogen",
-    "date": "2026-07-02",
-    "category": "Hardware",
-    "description": "Thanks to an incredible feat by Team OGS, NVIDIA's \"Blackwell\" GPU architecture has finally breached the 4 GHz mark with the help of liquid nitrogen. Using the GALAX GeForce RTX 5090D Hall of Fame OC Lab Edition GPU,...",
-    "url": "https://www.techpowerup.com/350460/nvidia-geforce-rtx-5090d-overclocked-to-4-ghz-with-liquid-nitrogen",
-    "image": "https://www.techpowerup.com/img/XCzvGR3PGhAkMjp9.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "iPhone 18 und 18e: Mini-RAM-Erhöhung angepeilt",
-    "date": "2026-07-01",
-    "category": "Hardware",
-    "description": "Für Siri AI mit den größten Modellen braucht es ausreichend RAM. Bei iPhone 18 und 18e wird das offenbar nichts.",
-    "url": "https://www.heise.de/news/iPhone-18-und-18e-Mini-RAM-Erhoehung-angepeilt-11349322.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/9/0/6/2/iPhones-2025_tre__5-4f0f15a40736b6fc.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "AMD bringt mit Zen 6 einen dritten Kerntyp",
-    "date": "2026-07-01",
-    "category": "Hardware",
-    "description": "Kommende Ryzen-Prozessoren könnten besonders stromsparende Low-Power-Kerne erhalten. Die Weichen stellt AMD bereits in Linux.",
-    "url": "https://www.heise.de/news/AMD-bringt-mit-Zen-6-einen-dritten-Kerntyp-11350220.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/9/5/1/3/Ryzen_AI_400_Series_04-39fc73e9c859edef-cb0c77102f3b3737.png",
-    "source": "Heise"
-  },
-  {
-    "title": "RAM-Krise: Micron wirft Apple indirekt Mitschuld vor",
-    "date": "2026-07-01",
-    "category": "Hardware",
-    "description": "Apple-CEO Tim Cook nennt die aktuelle RAM- und SSD-Versorgungssituation beispiellos. Bei einem Produzenten will man Gründe kennen – KI kein Alleinschuldiger.",
-    "url": "https://www.heise.de/news/RAM-Krise-Micron-wirft-Apple-indirekt-Mitschuld-vor-11349326.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/9/0/6/4/shutterstock_2586627697-025385c091dbae9d.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Bit-Rauschen, der Prozessor-Podcast: Das Secure-Boot-Problem von Windows 11",
-    "date": "2026-07-01",
-    "category": "Hardware",
-    "description": "Microsoft werkelt an der Schutzfunktionen UEFI Secure Boot herum, sodass manche Rechner nicht mehr starten: Folge 2026/13 des Podcasts Bit-Rauschen.",
-    "url": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Das-Secure-Boot-Problem-von-Windows-11-11336226.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/2/4/2/7/Podcast_Bitrauschen_16_9-2751b03c1e8dbe8f.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Cinder City: PvE-Shooter verlangt 32 GB RAM, 64 GB empfohlen",
-    "date": "2026-07-01",
-    "category": "Hardware",
-    "description": "Die Systemanforderungen des Open-World-Shooters Cinder City fallen auf: Der Titel verlangt nach mindestens 32 GB RAM, empfohlen werden sogar 64 GB Arbeitsspeicher. Gerade in Zeiten extrem teurer Speicherriegel erschei...",
-    "url": "https://www.computerbase.de/news/gaming/cinder-city-pve-shooter-verlangt-32-gb-ram-64-gb-empfohlen.98195/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Raja Koduris Firma: OXMIQ sammelt 35 Mio. US-Dollar für offene GPU-Architektur ein",
-    "date": "2026-07-01",
-    "category": "Hardware",
-    "description": "Raja Koduri als Chef, Jim Keller dazu im Aufsichtsrat – das zieht bei Investoren. Und so sammelt OXMIQ weitere 35 Millionen US-Dollar über eine Serie-A-Finanzierung ein. Bisher wurden insgesamt so nun bereits 60 Milli...",
-    "url": "https://www.computerbase.de/news/grafikkarten/raja-koduris-firma-oxmiq-sammelt-35-mio-us-dollar-fuer-offene-gpu-architektur-ein.98193/",
-    "image": null,
-    "source": "ComputerBase"
   }
 ]
