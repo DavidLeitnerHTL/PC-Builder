@@ -1,10 +1,64 @@
 [
   {
-    "title": "Probleme mit Windows 11: Microsoft stoppt Rollout von Secure-Boot-Zertifikaten",
-    "date": "2026-07-10",
+    "title": "(g+) Prozessor-Geschwindigkeit: Warum Zahlen in Textform CPUs ausbremsen können",
+    "date": "2026-07-11",
+    "category": "Hardware",
+    "description": "Die Ausgabe von 64-Bit-Integern mit AVX-512 lässt sich beschleunigen. Das spart Divisionen - doch nicht jede Anwendung profitiert automatisch. Ein Bericht von Oliver Jessner (Prozessor, JSON)",
+    "url": "https://www.golem.de/news/prozessor-geschwindigkeit-warum-zahlen-in-textform-cpus-ausbremsen-koennen-2607-210597.html",
+    "image": "https://www.golem.de/2607/210597-586520-586518_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Intel Dunlow geleakt: Nova-Lake-Xeon mit 28 Kernen und LGA1954",
+    "date": "2026-07-11",
+    "category": "Hardware",
+    "description": "Frachtdaten nennen Intels mutmaßliche Xeon-Plattform Dunlow mit bis zu 28 Kernen, LGA1954 und einer TDP-Klasse von 95 Watt. Hinweise deuten auf eine technische Basis aus Nova Lake-S hin.",
+    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/Intel-Dunlow-Nova-Lake-Xeon-28-Kerne-LGA1954-1547936/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/DSCF8367-Wafer-Perspective-02-1920x1080-1-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "DDR5-8600: CXMT-Speicher aus China lässt die Muskeln spielen",
+    "date": "2026-07-11",
+    "category": "Hardware",
+    "description": "Mit DDR5-8600 markiert Colorful den bislang höchsten Takt für Speicherchips des chinesischen DRAM-Herstellers CXMT und übertrifft die Bestwerte von MSI und Asus. Der Rekordlauf gelang stabil auf einem AM5-Mainboard mi...",
+    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/Colorful-CXMT-DDR5-8600-China-Rekord-1547966/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/07/iGame-DDR5-8600-MTs-CXMT-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Unionized Bethesda Workers Plan Strike Over Xbox Mass Layoffs",
+    "date": "2026-07-11",
     "category": "Software",
-    "description": "Microsoft hat Firmware- und Kompatibilitätsprobleme bei einigen Windows-11-PCs im Zusammenhang mit neuen Secure-Boot-Zertifikaten bestätigt und deren Verteilung vorübergehend gestoppt. Das Unternehmen arbeitet mit PC-...",
-    "url": "https://www.computerbase.de/news/betriebssysteme/probleme-mit-windows-11-microsoft-stoppt-rollout-von-secure-boot-zertifikaten.98330/",
+    "description": "Following the recent confirmation that layoffs related to Asha Sharma's Xbox reset have resulted in significant layoffs at ZeniMax-run studios—amounting to 50% of Id Software's workers and 25% of Bethesda's—OneBGS, th...",
+    "url": "https://www.techpowerup.com/350680/unionized-bethesda-workers-plan-strike-over-xbox-mass-layoffs",
+    "image": "https://www.techpowerup.com/img/X7J1Tjasvh4Di61e.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Top 10: Die beste Gaming-Maus im Test",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "Kabellose Gaming-Mäuse sollen leicht und präzise sein und gleichzeitig viele Zusatztasten bieten. Wir zeigen die besten.",
+    "url": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-gaming-maus-im-test-preis-leistungs-sieger-fuer-30-euro/116hh77?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag#id-0-logitech-g-pro-x-2-superstrike",
+    "image": null,
+    "source": "Heise"
+  },
+  {
+    "title": "MSI MEG Maestro 900R: Mainboard, Lüfter und GPU neigen sich im Gehäuse",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "Das Maestro 900R ist ein großes Flaggschiff-Gehäuse mit ungewöhnlichen Features. Unter anderem kann es das Mainboard in vier Positionen drehen. Geschicktes Design sorgt dafür, dass das Show-Gehäuse von MSI zu schweben...",
+    "url": "https://www.computerbase.de/news/gehaeuse/msi-meg-maestro-900r-mainboard-luefter-und-gpu-neigen-sich-im-gehaeuse.98332/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Nanya macht 680 % mehr Umsatz: DDR3, DDR4 und etwas DDR5 führen wieder ganz nach oben",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "Noch vor einem Jahr verbuchte Nanya mit seinem DRAM-Portfolio Quartalsverluste. 1.324 Prozent später sieht das ganz anders aus, denn selbst mit DDR3, DDR4 und dem kleinsten Anteil an DDR5-Speicher macht Nanya nun hohe...",
+    "url": "https://www.computerbase.de/news/wirtschaft/nanya-macht-680-prozent-mehr-umsatz-ddr3-ddr4-und-etwas-ddr5-fuehren-wieder-ganz-nach-oben.98334/",
     "image": null,
     "source": "ComputerBase"
   },
@@ -18,49 +72,184 @@
     "source": "ComputerBase"
   },
   {
-    "title": "AMD EXPO Ultra Low Latency im Test: Bis zu 14 Prozent mehr Fps auf Knopfdruck",
+    "title": "(g+) Digitale Souveränität: Lokale KI für das GPU-Proletariat",
     "date": "2026-07-10",
     "category": "Hardware",
-    "description": "Im Rahmen der Computex 2026 hat AMD mit EXPO 1.2 Ultra Low Latency ein neues DDR5-Profil für Ryzen 7000 und 9000 auf dem Sockel AM5 vorgestellt. Wir machen den Test!",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/Specials/AMD-EXPO-ULL-DDR5-Ryzen-9000-Review-Benchmark-1547640/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/AMD-EXPO-1.2-mit-Ultra-Low-Latency-Benchmarks-pcgh.jpg",
+    "description": "Lokale LLMs sind nur was für Leute mit ordentlich GPU und VRAM. Normale Nutzer schauen in die Röhre. Was wäre, wenn es dafür eine Lösung gäbe? Eine Anleitung von Stefanie Schmidt (LLM, Grafikkarten)",
+    "url": "https://www.golem.de/news/digitale-souveraenitaet-lokale-ki-fuer-das-gpu-proletariat-2607-210590.html",
+    "image": "https://www.golem.de/2607/210590-586487-586485_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "[PLUS] Das Gothic Remake im Tech-Test: CPUs und GPUs unter Linux und Windows geprüft",
+    "date": "2026-07-10",
+    "category": "Software",
+    "description": "PCGH Plus: Nach jahrelangem Warten bringt das Gothic Remake endlich den rauen Charme der Strafkolonie zurück - PCGH untersucht, wie gut die UE5‑Neuauflage gelingt und welche Technik dafür nötig ist. Der Artikel stammt...",
+    "url": "https://www.pcgameshardware.de/Gothic-Remake-Spiel-73829/Specials/Release-Test-GPU-CPU-Benchmarks-Linux-Windows-1547169/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/aufmacher_gothic_remake-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "30 Jahre SEGA × Nvidia: Warum Jensen Huang dem Dreamcast-Drama bis heute dankbar ist",
+    "title": "Black Flag Resynced: Mod behebt 30-Fps-Bug und aktiviert Frame Generation",
     "date": "2026-07-10",
-    "category": "Industrie",
-    "description": "Die engen Verbindungen zwischen Nvidia, dem CEO Jensen Huang und SEGA sind bekannt - nun gibt es etwas zu feiern.",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Nvidia-Sega-1547650/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2023/04/NVidia_Riva_128-pcgh.jpg",
+    "category": "Hardware",
+    "description": "In Assassin's Creed Black Flag Resynced können Zwischensequenzen unter bestimmten Einstellungen auf 30 Fps fallen. Eine Mod umgeht das Problem und erweitert zugleich die Frame-Generation-Unterstützung.",
+    "url": "https://www.pcgameshardware.de/Assassins-Creed-Black-Flag-Resynced-Spiel-77564/News/Mod-30-Fps-Cutscenes-Frame-Generation-1547905/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/e0e9c0f0-9bb9-4798-be30-4b1ae6a091cb-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "DDR4-Preise steigen um über 50 Prozent: Auch DDR3 betroffen",
+    "title": "Aufrüsten 2026: Welche CPU passt zu welcher GPU? Das und mehr in PCGH 08/2026",
     "date": "2026-07-10",
     "category": "Hardware",
-    "description": "Die angespannte Lage am Speichermarkt trifft offenbar auch ältere DRAM-Standards. DDR4 soll im dritten Quartal 2026 deutlich teurer werden, DDR3 ebenfalls.",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/DDR4-Preise-2026-Speicher-Knappheit-DDR3-DRAM-1547763/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2021/10/Gskill-Trident-Z-Royal-Elite-F4-4000C16D-32GTEG-16-pcgh.jpg",
+    "description": "Die PCGH-Ausgabe 08/2026 hat es in sich: Clever aufrüsten 2026 mit Hunderten CPU-/GPU-Kombinationen, AMDs Radeon RX 9070 GRE im kritischen Check, der 12+4-Pol-Stecker in Zahlen, Gaming mit 5.120 × 2.160 Pixeln und das...",
+    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-08-2026-Magazin-310-DVD-Download-PDF-1546511/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "AMD Ryzen 7 4700LE: Zen 2 aus der Rente in den Gaming-PC",
+    "title": "Windows 10: Microsoft bringt Windows-11-Linux-Feature - für Entwickler",
     "date": "2026-07-10",
-    "category": "Hardware",
-    "description": "AMD holt Zen 2 aus der Rente zurück: Der AMD Ryzen 7 4700LE ist ein reiner OEM-Prozessor und steckt in einem Gaming-PC mit 16 GiByte DDR4-Arbeitsspeicher und einer Nvidia Geforce RTX 3050 für 800 US-Dollar.",
-    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/AMD-Ryzen-7-4700LE-Zen-2-RTX-3050-PC-1547852/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/09/AMD-Ryzen-pcgh.png",
+    "category": "Software",
+    "description": "Ein Linux-Feature, das eigentlich für Windows 11 entwickelt wurde, kommt überraschend auch für Windows 10, jedoch richtet es sich vornehmlich an Entwickler.",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-10-Microsoft-bringt-Windows-11-Feature-fuer-Entwickler-1547889/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2024/08/aufmacher_windows_vs_linux-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "AMD Medusa Point: Zen 6, Zen 6c und RDNA 4m im Benchmark",
+    "title": "Windows 11: GDID deaktivieren geht nicht, eindämmen schon",
+    "date": "2026-07-10",
+    "category": "Software",
+    "description": "Windows 11 versieht jede Installation mit einer dauerhaften Geräte-ID namens GDID, wie eine im Juli 2026 veröffentlichte US-Anklageschrift zeigt. Abschalten lässt sich die Kennung nicht, drei Einstellungen begrenzen a...",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/GDID-Tracking-einschraenken-Global-Device-Identifier-1547900/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Windows-11-GDID-Tracking-eingrenzen-pcgh.jpeg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Windows 11: Microsoft pausiert Secure-Boot-Zertifikate auf problematischen PCs",
+    "date": "2026-07-10",
+    "category": "Software",
+    "description": "Microsoft pausiert die Verteilung neuer Secure-Boot-Zertifikate auf einigen Windows-PCs. Bei den betroffenen Geräten könnten Firmware-Fehler im schlimmsten Fall den Windows-Start verhindern.",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Secure-Boot-Update-blockiert-Firmware-Probleme-1547888/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/01/Windows_11-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS] DDR4- vs. DDR5-RAM: So viel Leistung verliert man wirklich mit \"altem\" Speicher",
     "date": "2026-07-10",
     "category": "Hardware",
-    "description": "AMDs Next-Gen-Architekturen Zen 6 (\"Morpheus\"), Zen 6c (\"Monarch\") und RDNA 4m (\"GFX1170\") hat sich jetzt in Form eines Ryzen AI 500 (\"Medusa Point\") abermals in der Benchmark-Datenbank von Geekbench gezeigt und ein A...",
-    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/AMD-Zen-6-Medusa-Point-Benchmark-Geekbench-1547786/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2025/11/Gorgon-Point-und-Medusa-Point-pcgh.png",
+    "description": "PCGH Plus: Die Speicherkrise wirft die Frage auf, ob sich Prozessoren lohnen, die auch mit günstigerem DDR4-RAM betrieben werden können. Doch wie viel Leistung verliert man gegenüber DDR5? PCGH hat's getestet. Der Art...",
+    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/Specials/DDR4-vs-DDR5-1519711/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/02/aufmacher_DDR4DDR5-pcgh.jpg",
     "source": "PCGH"
+  },
+  {
+    "title": "Keychron Launches K5 Ultra 8K Low Profile Mechanical Keyboard with Wood Accents",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "Following the recent launch of the Keychron K4 Ultra and K10 Ultra, the accessory maker has officially launched the new K5 Ultra 8K, a low-profile wireless mechanical keyboard with a full 100% layout and sleek cherry...",
+    "url": "https://www.techpowerup.com/350678/keychron-launches-k5-ultra-8k-low-profile-mechanical-keyboard-with-wood-accents",
+    "image": "https://www.techpowerup.com/img/mWw00adH8WuVjKQk.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "KAMRUI July Deals: AK1PLUS and Pinova P1 Mini PCs from $230.84",
+    "date": "2026-07-10",
+    "category": "Angebote",
+    "description": "KAMRUI is currently running a July promotion on Amazon US, offering discounts of up to 34% on its AK1PLUS and Pinova P1 mini PC lineup. The promotion covers three configurations, with prices starting at $230.84 after...",
+    "url": "https://www.techpowerup.com/350543/kamrui-july-deals-ak1plus-and-pinova-p1-mini-pcs-from-usd-230-84",
+    "image": "https://www.techpowerup.com/img/uc8918nXiRX8CKsz.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Thermaltake Launches CAPO X Dual-System Full-Tower Chassis",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "Thermaltake CAPO X is one of the more unusual cases we've seen at Computex this year, and now it has been officially launched. CAPO X is a full tower designed to house two completely independent microATX systems in a...",
+    "url": "https://www.techpowerup.com/350677/thermaltake-launches-capo-x-dual-system-full-tower-chassis",
+    "image": "https://www.techpowerup.com/img/va1BG0ddjALyNFeW.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Assassin's Creed Black Flag Resynced Hits 2 Million Sales in 24 Hours as Reviews Swing Positive",
+    "date": "2026-07-10",
+    "category": "Markt",
+    "description": "Assassin's Creed Black Flag Resynced has seemingly managed to turn things around following a wave of negative reviews on launch day. Not only has its Steam review rating swung from \"Mixed\" to \"Mostly Positive\"—with 77...",
+    "url": "https://www.techpowerup.com/350675/assassins-creed-black-flag-resynced-hits-2-million-sales-in-24-hours-as-reviews-swing-positive",
+    "image": "https://www.techpowerup.com/img/An0fmwqgFHMb8eD1.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Windows 11 Pro Has Dropped to Just $10 Through July 19",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "If your PC needs a new operating system license, this is one of the lowest prices you'll find on Windows 11 Pro. Through July 19, a lifetime license is available for $9.97 (MSRP $199). This version is intended for PCs...",
+    "url": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19",
+    "image": "https://www.techpowerup.com/img/eJP5kB0TyLJbRIyB.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Jsaux Previews 3 Steam Machine Display Faceplates",
+    "date": "2026-07-10",
+    "category": "Software",
+    "description": "Jsaux, the maker of a smorgasbord of functional and decorative Steam Deck accessories, has just provided an update on its previously announced Steam Machine faceplate project, which it has revealed to potentially be c...",
+    "url": "https://www.techpowerup.com/350673/jsaux-previews-3-steam-machine-display-faceplates",
+    "image": "https://www.techpowerup.com/img/NflghZJBDlgVfX3d.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Palworld Exits Early Access With 72 New Pals and Pages of Update Notes",
+    "date": "2026-07-10",
+    "category": "Markt",
+    "description": "As promised previously, Palworld 1.0 has officially launched on Steam, bringing with it an absolutely gargantuan list of updates, features, and fixes. The update officially launches the game out of Early Access and ad...",
+    "url": "https://www.techpowerup.com/350672/palworld-exits-early-access-with-72-new-pals-and-pages-of-update-notes",
+    "image": "https://www.techpowerup.com/img/ziIjeXgHmOI40cDb.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Death of Console Discs Pushes Gamers to PC",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "The reception of PlayStation's recent decision to stop producing physical games media in early 2028 has been heard far and wide across the internet, with fans even going as far as to start the \"Don't Kill the Disc\" pe...",
+    "url": "https://www.techpowerup.com/350667/death-of-console-discs-pushes-gamers-to-pc",
+    "image": "https://www.techpowerup.com/img/gi1gdEXCDQgj8kEr.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Send Unlimited Files for Life With Transfr Pro for Just $80",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "Large file transfers are still more complicated than they probably should be. Many services limit upload sizes, require subscriptions, or offer little visibility into whether a file was actually received. Transfr Pro...",
+    "url": "https://www.techpowerup.com/350558/send-unlimited-files-for-life-with-transfr-pro-for-just-usd-80",
+    "image": "https://www.techpowerup.com/img/ik11CWmiLMQa7KC2.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Slimbook Launches Nexus AI Workstation Series",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "The new Nexus family is available in two configurations Ryzen AI and Threadripper AI ranging from high-performance systems to uncompromising professional workstations engineered for Local AI development and deployment...",
+    "url": "https://www.techpowerup.com/350665/slimbook-launches-nexus-ai-workstation-series",
+    "image": "https://www.techpowerup.com/img/F8Oo0xtB6S0npIXY.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Steam Now Shows Steam Machine and SteamOS Verified Ratings",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "Following the launch of the Steam Machine, Valve has finally rolled out its compatibility rating system for its living room gaming experience in Steam, with a new UI that shows both Steam Machine and SteamOS compatibi...",
+    "url": "https://www.techpowerup.com/350662/steam-now-shows-steam-machine-and-steamos-verified-ratings",
+    "image": "https://www.techpowerup.com/img/gOlYUB6a2juhAHSo.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Lian Li Introduces the UNI FAN FLEX Series",
+    "date": "2026-07-10",
+    "category": "Hardware",
+    "description": "LIAN LI Industrial Co., Ltd., a leading manufacturer of chassis and PC accessories, introduces the UNI FAN FLEX Series, a new generation of UNI FANs designed for more flexibility over fan speed, lighting, and LCD cust...",
+    "url": "https://www.techpowerup.com/350661/lian-li-introduces-the-uni-fan-flex-series",
+    "image": "https://www.techpowerup.com/img/WZjvVqTfB6ErV8HT.jpg",
+    "source": "TechPowerUp"
   },
   {
     "title": "NVIDIA Readies GeForce RTX 5090 SE Graphics Card",
@@ -81,15 +270,6 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "KAMRUI July Deals: AK1PLUS and Pinova P1 Mini PCs from $230.84",
-    "date": "2026-07-10",
-    "category": "Angebote",
-    "description": "KAMRUI is currently running a July promotion on Amazon US, offering discounts of up to 34% on its AK1PLUS and Pinova P1 mini PC lineup. The promotion covers three configurations, with prices starting at $230.84 after...",
-    "url": "https://www.techpowerup.com/350543/kamrui-july-deals-ak1plus-and-pinova-p1-mini-pcs-from-usd-230-84",
-    "image": "https://www.techpowerup.com/img/uc8918nXiRX8CKsz.jpg",
-    "source": "TechPowerUp"
-  },
-  {
     "title": "(PR) ASUS Republic of Gamers Announces Gjallar Gaming Soundbar",
     "date": "2026-07-10",
     "category": "Hardware",
@@ -106,24 +286,6 @@
     "url": "https://www.techpowerup.com/350655/asus-republic-of-gamers-announces-raikiri-ii-pro-pc-game-controller",
     "image": "https://www.techpowerup.com/img/LvnLm2epEM2ZrGGD.jpg",
     "source": "TechPowerUp"
-  },
-  {
-    "title": "Windows 11 Pro Has Dropped to Just $10 Through July 19",
-    "date": "2026-07-10",
-    "category": "Hardware",
-    "description": "If your PC needs a new operating system license, this is one of the lowest prices you'll find on Windows 11 Pro. Through July 19, a lifetime license is available for $9.97 (MSRP $199). This version is intended for PCs...",
-    "url": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19",
-    "image": "https://www.techpowerup.com/img/eJP5kB0TyLJbRIyB.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Test: KI- und Workstationgrafikkarte Asrock Arc Pro B70 Creator mit Intel-GPU",
-    "date": "2026-07-09",
-    "category": "Hardware",
-    "description": "Die Arc Pro B70 ist die billigste 32-GByte-Karte für Workstations und KI. Was sie kann und wer davon profitiert, verrät unser Test.",
-    "url": "https://www.heise.de/tests/Test-KI-und-Workstationgrafikkarte-Asrock-Arc-Pro-B70-Creator-mit-Intel-GPU-11139872.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/0/9/0/3/9/csp-ff9f78be9dc95f75.jpeg",
-    "source": "Heise"
   },
   {
     "title": "Speicherkrise: Budget-Smartphones werden für Hersteller unrentabel",
@@ -198,60 +360,6 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Anzeige: Nur für kurze Zeit zum Amazon-Tiefstpreis - tausendfach verkauftes Ugreen USB-SSD-Gehäuse",
-    "date": "2026-07-09",
-    "category": "Hardware",
-    "description": "Bei Amazon gibt es aktuell das beliebte Ugreen USB-SSD-Gehäuse 90541 im befristeten Angebot. Dabei zahlt man so wenig, wie am Prime Day 2026. (USB, Speichermedien)",
-    "url": "https://www.golem.de/news/anzeige-nur-fuer-kurze-zeit-zum-amazon-tiefstpreis-tausendfach-verkauftes-ugreen-usb-ssd-gehaeuse-2607-210708.html",
-    "image": "https://www.golem.de/2607/210708-587060-587058_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "[PLUS] Das Gothic Remake im Tech-Test: CPUs und GPUs unter Linux und Windows geprüft",
-    "date": "2026-07-09",
-    "category": "Software",
-    "description": "PCGH Plus: Nach jahrelangem Warten bringt das Gothic Remake endlich den rauen Charme der Strafkolonie zurück - PCGH untersucht, wie gut die UE5‑Neuauflage gelingt und welche Technik dafür nötig ist. Der Artikel stammt...",
-    "url": "https://www.pcgameshardware.de/Gothic-Remake-Spiel-73829/Specials/Release-Test-GPU-CPU-Benchmarks-Linux-Windows-1547169/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/aufmacher_gothic_remake-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Sammelkarten für Nvidia-GPUs: Gratisaktion sorgt für gemischte Reaktionen",
-    "date": "2026-07-09",
-    "category": "Hardware",
-    "description": "Nvidia hat mit \"Generations of GeForce\" eine erste Serie offizieller Geforce-Sammelkarten vorgestellt. Die Aktion greift GPU-Geschichte auf, sorgt in der Community aber auch für Spott.",
-    "url": "https://www.pcgameshardware.de/Nvidia-Geforce-Grafikkarte-255598/News/Nvidia-Geforce-Sammelkarten-Trading-Cards-Giveaway-Community-1547820/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Nvidia-Trading-Card-Sammelkarten-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Aufrüsten 2026: Welche CPU passt zu welcher GPU? Das und mehr in PCGH 08/2026",
-    "date": "2026-07-09",
-    "category": "Hardware",
-    "description": "Die PCGH-Ausgabe 08/2026 hat es in sich: Clever aufrüsten 2026 mit Hunderten CPU-/GPU-Kombinationen, AMDs Radeon RX 9070 GRE im kritischen Check, der 12+4-Pol-Stecker in Zahlen, Gaming mit 5.120 × 2.160 Pixeln und das...",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-08-2026-Magazin-310-DVD-Download-PDF-1546511/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "AMD kündigt \"führende x86-CPU der neuen Generation\" an: Zen-6-Server-CPUs kommen bald",
-    "date": "2026-07-09",
-    "category": "Hardware",
-    "description": "Auf seiner \"Advancing AI\"-Veranstaltung möchte AMD neue Produkte basierend auf der Zen-6-Mikroarchitektur vorstellen. Konkret geht es um eine \"führende x86-CPU der neuen Generation\" - Ryzen dürfte damit aber ausgeschl...",
-    "url": "https://www.pcgameshardware.de/AMD-Zen-Architektur-261795/News/Zen-6-x86-CPU-neue-Generation-Ankuendigung-1547782/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/AMD-Ryzen-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Samsung mit neuer PCIe-6.0-SSD: PM1763 mit bis zu 28,4 GB/s startet in die Massenproduktion",
-    "date": "2026-07-09",
-    "category": "Hardware",
-    "description": "Samsung fertigt ab sofort die PM1763 in Serie: Die neue PCIe-6.0-SSD für KI-Rechenzentren soll mit bis zu 28,4 GB/s Lesegeschwindigkeit abliefern - mehr als doppelt so schnell wie das Vorgängermodell.",
-    "url": "https://www.pcgameshardware.de/SSD-Hardware-255552/News/Samsung-PM1763-PCIe-6-schnell-1547770/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Samsung-Semiconductors-Mass-Production-PM1763-SSD_d5-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
     "title": "Assassin's Creed Black Flag Resynced Launches To Mixed Reviews: Controversial Microtransactions Spark Outrage",
     "date": "2026-07-09",
     "category": "Markt",
@@ -276,15 +384,6 @@
     "description": "It's no secret that Xbox is undergoing massive changes, including everything from mass layoffs to studio closures, but it seems as though studios and developers are starting to feel the less obvious repercussions to t...",
     "url": "https://www.techpowerup.com/350646/the-elder-scrolls-6-may-be-impacted-by-xbox-reset",
     "image": "https://www.techpowerup.com/img/2roPnkMDfEDn1MYK.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Send Unlimited Files for Life With Transfr Pro for Just $80",
-    "date": "2026-07-09",
-    "category": "Hardware",
-    "description": "Large file transfers are still more complicated than they probably should be. Many services limit upload sizes, require subscriptions, or offer little visibility into whether a file was actually received. Transfr Pro...",
-    "url": "https://www.techpowerup.com/350558/send-unlimited-files-for-life-with-transfr-pro-for-just-usd-80",
-    "image": "https://www.techpowerup.com/img/ik11CWmiLMQa7KC2.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -349,104 +448,5 @@
     "url": "https://www.techpowerup.com/350641/msi-unveils-meg-maestro-900r-case-and-meg-coreliquid-e15-360-liquid-cooler",
     "image": "https://www.techpowerup.com/img/mmRAm2PKHNEsstBq.jpg",
     "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab",
-    "date": "2026-07-09",
-    "category": "Industrie",
-    "description": "Micron Technology, Inc. (Nasdaq: MU) today announced it is accelerating its planned U.S. fab and technology investments and increasing its expected spend to more than $250 billion through 2035, driven by surging deman...",
-    "url": "https://www.techpowerup.com/350640/micron-accelerates-u-s-investments-pours-first-concrete-at-new-york-fab",
-    "image": "https://www.techpowerup.com/img/5mKY8f6QKhCzxGnn.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) XMG APEX 17 Now Available with RTX 5070 and 12 GB VRAM",
-    "date": "2026-07-09",
-    "category": "Hardware",
-    "description": "The XMG APEX 17 is the first laptop in XMG's lineup to feature the 2026 NVIDIA GeForce RTX 5070 with 12 GB of VRAM, up from the previous 8 GB. This new configuration, first announced at Computex 2026, complements the...",
-    "url": "https://www.techpowerup.com/350607/xmg-apex-17-now-available-with-rtx-5070-and-12-gb-vram",
-    "image": "https://www.techpowerup.com/img/qmxpPXElSfHHgg5N.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Worldwide PC Market Declined 4% in 2Q26 Amid Mounting Supply Pressure",
-    "date": "2026-07-09",
-    "category": "Hardware",
-    "description": "Global shipments of desktops, notebooks, and workstations in 2Q26 declined 3.6% year-over-year to 65.7 million units according to the latest research from Omdia. Shipments of desktops (including desktop workstations)...",
-    "url": "https://www.techpowerup.com/350634/worldwide-pc-market-declined-4-in-2q26-amid-mounting-supply-pressure",
-    "image": "https://www.techpowerup.com/img/yQPzUjB2YVrYIAs1.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) In Win Introduces L50 BREEZE with Reeded Glass and AWWA PureTone Lighting",
-    "date": "2026-07-09",
-    "category": "Hardware",
-    "description": "In Win Development Inc. (InWin), a global innovator in PC hardware design and engineering, proudly introduces the L50 BREEZE. Moving beyond the aggressive styling and vibrant RGB effects traditionally associated with...",
-    "url": "https://www.techpowerup.com/350632/in-win-introduces-l50-breeze-with-reeded-glass-and-awwa-puretone-lighting",
-    "image": "https://www.techpowerup.com/img/JatloKrebHlXlnIB.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Xbox To Follow PlayStation: Single-Player Exclusives and Cross-Platform Multiplayer Games",
-    "date": "2026-07-09",
-    "category": "Industrie",
-    "description": "It has been known for a while that, as part of the new Xbox reset strategy under new CEO, Asha Sharma, Xbox would be leaning into Xbox exclusives more and more going forward, with it being understood that \"Xbox exclus...",
-    "url": "https://www.techpowerup.com/350627/xbox-to-follow-playstation-single-player-exclusives-and-cross-platform-multiplayer-games",
-    "image": "https://www.techpowerup.com/img/1C9CrT8iv7aKpxVL.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Crimson Desert May Get Multiplayer After All",
-    "date": "2026-07-09",
-    "category": "Markt",
-    "description": "Crimson Desert reportedly initially started out as an MMO but later pivoted to a single-player open-world game, although it still has much of its MMO DNA, even though it launched as a single-player title. According to...",
-    "url": "https://www.techpowerup.com/350626/crimson-desert-may-get-multiplayer-after-all",
-    "image": "https://www.techpowerup.com/img/gTMhYigv0tkHnb7o.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Infineon hätte gern ein TSMC-Werk für feinste Chipstrukturen in Deutschland",
-    "date": "2026-07-08",
-    "category": "Hardware",
-    "description": "Der Stein für ein zweites deutsches TSMC-Halbleiterwerk gerät ins Rollen. Infineon wünscht sich konkret eine Möglichkeit für modernste Strukturbreiten.",
-    "url": "https://www.heise.de/news/Infineon-haette-gern-ein-TSMC-Werk-fuer-feinste-Chipstrukturen-in-Deutschland-11358501.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/3/6/8/3/waferc008_2536_VpnH_02-a8d6ce63e85291be-f038adfcf022c531.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "KI-Update: China-Export, KI gegen Betrug, Nvidias Marktmacht, KI am Meeresgrund",
-    "date": "2026-07-08",
-    "category": "Markt",
-    "description": "Das \"KI-Update\" liefert werktäglich eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
-    "url": "https://www.heise.de/news/KI-Update-China-Export-KI-gegen-Betrug-Nvidias-Marktmacht-KI-am-Meeresgrund-11355971.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/2/4/0/7/KIupdate_Titel_122023-2c1b735f773527bd.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Samsung startet Serienproduktion seiner ersten PCIe-6.0-SSD",
-    "date": "2026-07-08",
-    "category": "Hardware",
-    "description": "Samsung will Konkurrent Micron knapp überbieten. Die PCIe-6.0-SSD PM1763 knackt die bisherige Bestmarke von 28 GByte/s.",
-    "url": "https://www.heise.de/news/Samsung-startet-Serienproduktion-seiner-ersten-PCIe-6-0-SSD-11358153.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/3/5/0/8/spec-ssd-pcssd-pm9e1-6c60b54e74cb7d81.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Assassin's Creed Benchmarks: So läuft Black Flag Resynced auf der Steam Machine (Update)",
-    "date": "2026-07-08",
-    "category": "Software",
-    "description": "Der Technik-Test zu Assassin's Creed Black Flag Resynced ist bereits online. Was geplant, aber nicht mehr rechtzeitig umgesetzt werden konnte, waren Benchmarks auf der Steam Machine. Sie werden an dieser Stelle für FH...",
-    "url": "https://www.computerbase.de/artikel/gaming/assassins-creed-black-flag-resynced-steam-machine.98295/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Speicherpreise: Nach dem Höhepunkt 2027 folgt 2028 der Absturz?",
-    "date": "2026-07-08",
-    "category": "Hardware",
-    "description": "Wann werden Speicherchips endlich wieder günstiger? Analysten der US-Firma Bernstein wagten jetzt eine Prognose, laut der es 2028 bei den Preisen für RAM und NAND rapide bergab gehen könnte. Allerdings soll das aktuel...",
-    "url": "https://www.computerbase.de/news/arbeitsspeicher/speicherpreise-nach-dem-hoehepunkt-2027-folgt-2028-der-absturz.98292/",
-    "image": null,
-    "source": "ComputerBase"
   }
 ]
