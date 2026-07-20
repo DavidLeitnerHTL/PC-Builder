@@ -1,5 +1,122 @@
 [
   {
+    "title": "Montag: Speicherkrise bremst Super-GeForce, PayPal-Übernahmeangebot zu dürftig",
+    "date": "2026-07-20",
+    "category": "Hardware",
+    "description": "GeForce mit mehr VRAM verspätet + PayPal sieht sich unterbewertet + Windows-Update gegen Dell-Probleme + Android Auto mit Tachoanzeige + Panne bei Polizeigesetz",
+    "url": "https://www.heise.de/news/Montag-Speicherkrise-bremst-Super-GeForce-PayPal-Uebernahmeangebot-zu-duerftig-11370218.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/9/5/9/6/monday-92353573e9ea1f7c.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Angriff mit nur 11 Bytes: OpenSSL-Bug lässt Speicher von Servern volllaufen",
+    "date": "2026-07-20",
+    "category": "Hardware",
+    "description": "Durch eine Sicherheitslücke in OpenSSL können Angreifer mit 11-Byte-Paketen den RAM anfälliger Server stark auslasten und Ausfälle herbeiführen. (Sicherheitslücke, Apache)",
+    "url": "https://www.golem.de/news/angriff-mit-nur-11-bytes-openssl-bug-laesst-speicher-von-servern-volllaufen-2607-211051.html",
+    "image": "https://www.golem.de/2607/211051-588719-588717_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Google: Pixel 11a soll aktuelle SoC-Version und kleineren Akku bekommen",
+    "date": "2026-07-20",
+    "category": "Hardware",
+    "description": "Beim Pixel 10a hatte Google den Prozessor der Vorgängergeneration verbaut - beim 11a soll das aktuelle Modell zum Einsatz kommen. (Google Pixel, Smartphone)",
+    "url": "https://www.golem.de/news/google-pixel-11a-soll-aktuelle-soc-version-und-kleineren-akku-bekommen-2607-211048.html",
+    "image": "https://www.golem.de/2607/211048-588702-588700_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Windows 11: Microsoft veröffentlicht Notfallupdate gegen Abstürze",
+    "date": "2026-07-20",
+    "category": "Software",
+    "description": "Zwei Windows-11-Updates von Juni und Juli konnten einige Dell-PCs übermäßig erhitzen, ausbremsen und abstürzen lassen. Dafür gibt es nun einen Fix. (Updates & Patches, Microsoft)",
+    "url": "https://www.golem.de/news/windows-11-microsoft-veroeffentlicht-notfallupdate-gegen-abstuerze-2607-211045.html",
+    "image": "https://www.golem.de/2607/211045-588685-588683_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Grafikkarten-Rangliste Raytracing 2026: 33 Gaming-GPUs im Vergleich [Update]",
+    "date": "2026-07-20",
+    "category": "Software",
+    "description": "Raytracing-Rangliste 2026: Spieler, die eine Gaming-Grafikkarte für das High-End-Feature Raytracing kaufen möchten, sollten nicht zu tief einsteigen. Wir haben für Sie 33 Grafikkarten in den vier beliebtesten Auflösun...",
+    "url": "https://www.pcgameshardware.de/Raytracing-Hardware-255905/Specials/Gaming-Grafikkarten-Vergleich-Benchmark-Preis-Leistung-1411231/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/03/Acer-Arc-B580-Nitro-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Gaming-Maus mit Noctua-Lüfter: \"So unglaublich dämlich, dass ich keine Wahl habe, als sie zu kaufen\"",
+    "date": "2026-07-20",
+    "category": "Hardware",
+    "description": "Pulsar zeigt erneut seine Gaming-Maus mit integriertem Noctua-Lüfter. Neben der ungewöhnlichen Kühlung erhält die Feinmann F01 Noctua Edition auch einen neuen Sensor und ein anderes Gehäuse.",
+    "url": "https://www.pcgameshardware.de/Maeuse-Hardware-255539/News/Gaming-Maus-Noctua-NF-A4x10-Luefter-Pulsar-Feinmann-F01-1548700/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Pulsar-zeigt-erneut-seine-Gaming-Maus-mit-integriertem-Noctua-Luefter.-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "TSMC im Gewinnrausch: Chipfertigung \"kein Milchkauf\" - und Neid auf Samsung",
+    "date": "2026-07-20",
+    "category": "Industrie",
+    "description": "TSMC-CEO C.C. Wei hat klargestellt, warum Chip-Designer trotz Kapazitätsausbau der Konkurrenz nicht einfach die Foundry wechseln können - und dabei zugegeben, auf Samsungs Gewinne neidisch zu sein.",
+    "url": "https://www.pcgameshardware.de/Chipsatz-Markt-Thema-131300/News/TSMC-CEO-Wei-Fertigung-kein-Milchkauf-Samsung-Neid-1548653/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2020/06/tsmc-fab2-outside_104-areamobile.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "AMD Ryzen AI 500: Zen-6-Prozessor liefert im Benchmark ab",
+    "date": "2026-07-20",
+    "category": "Hardware",
+    "description": "Ein neues Engineering Sample der Ryzen AI 500 (\"Medusa Point\") erreicht im Geekbench 6 starke 3.329 und 16.555 Punkte und zieht damit am Strix-Point-Spitzenmodell klar vorbei. Marktreif ist die Zen-6-APU allerdings wo...",
+    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/AMD-Medusa-Point-Zen-6-schlaegt-Strix-Point-Zen-5-Benchmark-1548753/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/07/AMD-Ryzen-AI-500-Medusa-Halo-Zen-6-Geekbench-pcgh.jpeg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Nvidia DLSS 5: \"Ein Spiel braucht mehr als ein schönes Bild\"",
+    "date": "2026-07-20",
+    "category": "Software",
+    "description": "Nvidia hat mit Edward Liu einen führenden DLSS-Entwickler vorgeschickt, der DLSS 5 kurz vor der SIGGRAPH 2026 einordnet. Für Spieler zentral: Die Simulation definiere weiter die Welt, die künstlerische Kontrolle bleib...",
+    "url": "https://www.pcgameshardware.de/Deep-Learning-Super-Sampling-Software-277618/News/DLSS-5-Nvidia-Siggraph-2026-Edward-Liu-1548752/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Nvidia-DLSS-5-Resident-Evil-Requiem-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Speicher-Temperaturen bei RTX 50: Modder ermöglichen das Auslesen mehrerer ICs",
+    "date": "2026-07-20",
+    "category": "Hardware",
+    "description": "Nach der Freischaltung der GPU-Hotspot-Temperatur mit den Blackwell-Grafikkarten folgen nun die Temperaturen der einzelnen Speicher-ICs.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/69741-speicher-temperaturen-bei-rtx-50-modder-ermoeglichen-das-auslesen-mehrerer-ics.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jul/divine_radar_2j/nvidia_blackwell_speicher_temperaturen_ics_auslesen_news_000_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "NVIDIA GeForce RTX 50 Super: Marktstart hängt an teurem 3-GB-GDDR7",
+    "date": "2026-07-20",
+    "category": "Hardware",
+    "description": "Mit der NVIDIA GeForce RTX 5090 Founders Edition gab die Blackwell-Architektur vor etwa anderthalb Jahren ihren Einstand auf dem Retailmarkt für Spieler und wurde recht zügig mit weiteren Modellen nach unten hin erwei...",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/69738-bericht-rtx-5000-super-serie-fertig-aber-wegen-teurer-3-gbyte-gddr7-chips-zurueckgehalten.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/Sep/grand_script_r7/img_9473_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Per-Module GDDR7 Temperature Reading Unlocked on NVIDIA GeForce RTX 50 \"Blackwell\"",
+    "date": "2026-07-20",
+    "category": "Hardware",
+    "description": "More individual readings are being unlocked on NVIDIA's GeForce RTX 50 series \"Blackwell\" graphics cards, as the modding community has started exploring GDDR7 temperature monitoring on a per-module basis. Interestingl...",
+    "url": "https://www.techpowerup.com/350888/per-module-gddr7-temperature-reading-unlocked-on-nvidia-geforce-rtx-50-blackwell",
+    "image": "https://www.techpowerup.com/img/NcFaM9iriuZ38uih.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Bericht: Super-Version von Nvidias Grafikkarten hängt an 3-GByte-Chips",
+    "date": "2026-07-19",
+    "category": "Hardware",
+    "description": "Bei den Kartenherstellern sollen erste seriennahe Versionen von RTX 5080 Super und kleineren Versionen vorliegen. Nur die Speicherkrise bremst den Marktstart.",
+    "url": "https://www.heise.de/news/Bericht-Nvidias-Super-Serie-der-RTX-5000-angeblich-fertig-11370096.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/9/5/3/5/5090-781d4b023ca0e455.jpeg",
+    "source": "Heise"
+  },
+  {
     "title": "Wochenrück- und Ausblick: Ganz nach oben mit dem Ryzen 7 7700X3D und der DJI EV50",
     "date": "2026-07-19",
     "category": "Hardware",
@@ -9,22 +126,76 @@
     "source": "ComputerBase"
   },
   {
-    "title": "DDR5 aus China: Asus bringt CXMT-BIOS für AM5-Mainboards",
+    "title": "42-mal längere Laufzeit: Nächster Ubuntu-Kernel bremst AMD-GPUs drastisch aus",
     "date": "2026-07-19",
     "category": "Hardware",
-    "description": "Asus verteilt erstmals ein BIOS, das DRAM des chinesischen Herstellers CXMT ausdrücklich freigibt, und zwar über die offizielle Website statt über einen chinesischen Community-Kanal. Für Anwender hierzulande ändert da...",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/Asus-BIOS-CXMT-DDR5-X670-X870-AM5-Freigabe-1548732/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/01/Asus-Mainboard-pcgh.jpg",
+    "description": "Wer auf AMD-GPUs rechnet, kann von extremen Leistungseinbußen betroffen sein. Schuld ist ein bereits behobener Programmierfehler. (Ubuntu, AMD)",
+    "url": "https://www.golem.de/news/42-mal-laengere-laufzeit-naechster-ubuntu-kernel-bremst-amd-gpus-drastisch-aus-2607-211036.html",
+    "image": "https://www.golem.de/2607/211036-588652-588650_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "[PLUS] RTX 3050 + Ryzen 5 5600 im PC 2026: Wie weit kommt Budget-Gaming noch?",
+    "date": "2026-07-19",
+    "category": "Hardware",
+    "description": "Wir untersuchen, ob man auch mit schwächerer, älterer Hardware aktuelle Spiele zocken kann und welche Optimierungen dazu nötig sind. RTX 3050 und Ryzen 5 5600 stellen sich Assassin's Creed, Gothic, Forza Horzion 6 und...",
+    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/Specials/Low-End-Gaming-alte-GPU-CPU-Gothic-Remake-Forze-Horizon-6-1547769/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/07/Arc-Raiders-Vergleich-3-Flimgleich-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "Nvidia RTX Spark: Geforce-Treiber für N1X und Windows 11",
+    "title": "Windows 11: Microsoft erklärt endlich das Update-Namens-Chaos",
+    "date": "2026-07-19",
+    "category": "Software",
+    "description": "B-, C- und D-Release, LCU, Vorschau- oder Sicherheitsupdate: Microsoft verwendet für Windows-Aktualisierungen zahlreiche Begriffe. Nun erklärt der Hersteller, was tatsächlich dahintersteckt.",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/11-Update-Namens-Chaos-erklaert-1548665/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Windows-11-Microsoft-erklaert-endlich-das-Update-Namens-Chaos-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Aufrüsten 2026: Welche CPU passt zu welcher GPU? Das und mehr in PCGH 08/2026",
     "date": "2026-07-19",
     "category": "Hardware",
-    "description": "Nvidia hat einen ersten nativen Geforce-Grafiktreiber für Windows 11 on ARM veröffentlicht und rückt damit den RTX Spark alias N1X näher an den Marktstart. Die Entwickler-Vorschau ist vorerst für Microsofts Surface RT...",
-    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/Nvidia-N1X-Windows-Treiber-RTX-Spark-Superchip-1548731/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/07/Surface-RTX-Spark-Dev-Box-shots-pcgh.gif",
+    "description": "Die PCGH-Ausgabe 08/2026 hat es in sich: Clever aufrüsten 2026 mit Hunderten CPU-/GPU-Kombinationen, AMDs Radeon RX 9070 GRE im kritischen Check, der 12+4-Pol-Stecker in Zahlen, Gaming mit 5.120 × 2.160 Pixeln und das...",
+    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-08-2026-Magazin-310-DVD-Download-PDF-1546511/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
     "source": "PCGH"
+  },
+  {
+    "title": "Windows 11: Microsoft veröffentlicht Notfall-Update für einige Dell-Systeme",
+    "date": "2026-07-19",
+    "category": "Software",
+    "description": "Mit KB5121767 veröffentlicht Microsoft ein Notfall-Update für Windows 11. Es behebt Probleme nach dem Juli-Patch auf ausgewählten Dell-PCs. Andere Nutzer benötigen das Update laut Angaben nicht, könnten es aber dennoc...",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-Microsoft-veroeffentlicht-Notfall-Update-fuer-einige-Dell-Systeme-1548744/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2021/06/Hero-Bloom-Logo-1000x563.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "ASUS ROG Strix X870E-E Gaming WiFi7 Neo im Test: Dem Dark Hero dicht auf den Fersen",
+    "date": "2026-07-19",
+    "category": "Hardware",
+    "description": "Mit dem ROG Strix X870E-E Gaming WiFi7 Neo werden wir uns in diesem Test-Artikel das dritte AM5-Refresh-Mainboard von ASUS zu Gemüte führen.",
+    "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/mainboards/69589-asus-rog-strix-x870e-e-gaming-wifi7-neo-im-test-dem-dark-hero-dicht-auf-den-fersen.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jul/free_app_8f/asus_rog_strix_x870e_e_gaming_wifi7_neo_review_003_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "This Week in Gaming (Week 30)",
+    "date": "2026-07-19",
+    "category": "Markt",
+    "description": "As we enter the second to last week of July, we have a week full of mid-range game releases. We kick off the week with some dinosaur action in this week's biggest release, where you get to take on the role as a Spinos...",
+    "url": "https://www.techpowerup.com/350879/this-week-in-gaming-week-30",
+    "image": "https://www.techpowerup.com/img/FBJSZElJJVWINuYg.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
+    "date": "2026-07-19",
+    "category": "Markt",
+    "description": "DropReference, a PC hardware comparison and build-planning platform attracting more than 200,000 unique visitors each month, is officially expanding to the United States. Already established among European PC builders...",
+    "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
+    "image": "https://www.techpowerup.com/img/UJbkD4amCaPtXXES.jpg",
+    "source": "TechPowerUp"
   },
   {
     "title": "Apple mal kurz wieder wertvollstes Unternehmen der Welt",
@@ -63,51 +234,6 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Linux: DXVK poliert Klassiker auf und jagt GPU-Abstürze",
-    "date": "2026-07-18",
-    "category": "Software",
-    "description": "Philip Rebohle hat mit DXVK 3.0.2 ein weiteres Wartungsupdate für die Direct3D-zu-Vulkan-Übersetzer veröffentlicht und damit fünf Windows-Spiele unter Linux repariert. Wer über Proton spielt, erhält die Korrekturen au...",
-    "url": "https://www.pcgameshardware.de/Linux-Software-26761/News/DXVK-3-0-2-Fixes-Debugging-Linux-1548730/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/07/DXVK-3-0-2-pcgh.jpeg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Intel und Nvidia: Ex-CEO Gelsinger räumt GPU-Irrtum ein",
-    "date": "2026-07-18",
-    "category": "Industrie",
-    "description": "Der ehemalige Intel-CEO Pat Gelsinger hat im All-In-Podcast eingeräumt, dass sein Konzern die GPUs von Nvidia zu Zeiten eigener CPU-Dominanz als Gamer-Spielzeug abtat. Diese Fehleinschätzung kostete Intel den Anschlus...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/intel-gelsinger-nvidia-gpus-irrtum-eingestaendnis-1548729/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Intel-Ex-CEO-Gelsinger-Nvidia-GPU-Irrtum-pcgh.jpeg",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS] RTX 3050 + Ryzen 5 5600 im PC 2026: Wie weit kommt Budget-Gaming noch?",
-    "date": "2026-07-18",
-    "category": "Hardware",
-    "description": "Wir untersuchen, ob man auch mit schwächerer, älterer Hardware aktuelle Spiele zocken kann und welche Optimierungen dazu nötig sind. RTX 3050 und Ryzen 5 5600 stellen sich Assassin's Creed, Gothic, Forza Horzion 6 und...",
-    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/Specials/Low-End-Gaming-alte-GPU-CPU-Gothic-Remake-Forze-Horizon-6-1547769/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/07/Gothic-1-Remake-Vergleich-1-Gothic-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Aufrüsten 2026: Welche CPU passt zu welcher GPU? Das und mehr in PCGH 08/2026",
-    "date": "2026-07-18",
-    "category": "Hardware",
-    "description": "Die PCGH-Ausgabe 08/2026 hat es in sich: Clever aufrüsten 2026 mit Hunderten CPU-/GPU-Kombinationen, AMDs Radeon RX 9070 GRE im kritischen Check, der 12+4-Pol-Stecker in Zahlen, Gaming mit 5.120 × 2.160 Pixeln und das...",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-08-2026-Magazin-310-DVD-Download-PDF-1546511/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS zum Reboot] Ryzen 7 5800X3D richtig ausreizen: Tuning-Guide, Subtimings optimieren, RAM-Skalierung",
-    "date": "2026-07-18",
-    "category": "Hardware",
-    "description": "Der 8-Kerner Ryzen 7 5800X3D für den Sockel AM4 mausert sich zum Liebling der PCGH-Leser. Doch wie kann man den Gaming-Boliden richtig ausreizen? Ein PCGH-Plus-Guide aus drei Einzelartikeln.",
-    "url": "https://www.pcgameshardware.de/Ryzen-7-5800X3D-CPU-278064/Specials/Tuning-Praxistipps-1407777/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2022/06/teaser_tuning-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
     "title": "Valve Reportedly Sells 12-15K Steam Machine Units Per Week",
     "date": "2026-07-18",
     "category": "Hardware",
@@ -123,15 +249,6 @@
     "description": "Exactly a week after the game crossed the two-million-sales mark—in less than 24 hours, no less—Ubisoft has announced that Assassin's Creed Black Flag Resynced has officially sold three million units. Black Flag Resyn...",
     "url": "https://www.techpowerup.com/350863/ubisoft-celebrates-3-million-sales-for-assassins-creed-black-flag-resynced-and-promises-new-game-content",
     "image": "https://www.techpowerup.com/img/L44xeD5LqcQo4aYi.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
-    "date": "2026-07-18",
-    "category": "Markt",
-    "description": "DropReference, a PC hardware comparison and build-planning platform attracting more than 200,000 unique visitors each month, is officially expanding to the United States. Already established among European PC builders...",
-    "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
-    "image": "https://www.techpowerup.com/img/UJbkD4amCaPtXXES.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -252,21 +369,21 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "iFixit Slams ASUS ROG Flow Z13's 10/10 Repairability Score",
-    "date": "2026-07-17",
-    "category": "Hardware",
-    "description": "When ASUS launched the ROG Flow Z13 gaming 2-in-1 in 2025, it proudly boasted about the convertible's 10/10 repairability score—a self-reported score that evaluates the repairability of a product based on the availabi...",
-    "url": "https://www.techpowerup.com/350852/ifixit-slams-asus-rog-flow-z13s-10-10-repairability-score",
-    "image": "https://www.techpowerup.com/img/XGe36nAqhuJrjtBJ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
     "title": "Windows 11 Pro Has Dropped to Just $10 Through July 19",
     "date": "2026-07-17",
     "category": "Hardware",
     "description": "If your PC needs a new operating system license, this is one of the lowest prices you'll find on Windows 11 Pro. Through July 19, a lifetime license is available for $9.97 (MSRP $199). This version is intended for PCs...",
     "url": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19",
     "image": "https://www.techpowerup.com/img/eJP5kB0TyLJbRIyB.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "iFixit Slams ASUS ROG Flow Z13's 10/10 Repairability Score",
+    "date": "2026-07-17",
+    "category": "Hardware",
+    "description": "When ASUS launched the ROG Flow Z13 gaming 2-in-1 in 2025, it proudly boasted about the convertible's 10/10 repairability score—a self-reported score that evaluates the repairability of a product based on the availabi...",
+    "url": "https://www.techpowerup.com/350852/ifixit-slams-asus-rog-flow-z13s-10-10-repairability-score",
+    "image": "https://www.techpowerup.com/img/XGe36nAqhuJrjtBJ.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -279,21 +396,21 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "PC Vendors \"Fight\" for CXMT Memory Supply, Smaller OEMs Struggle",
-    "date": "2026-07-17",
-    "category": "Industrie",
-    "description": "Major PC OEMs are beginning to secure deals with Chinese memory maker CXMT, as the supply chain has been depleted of available DRAM from the big three memory makers—SK hynix, Samsung, and Micron. According to a report...",
-    "url": "https://www.techpowerup.com/350853/pc-vendors-fight-for-cxmt-memory-supply-smaller-oems-struggle",
-    "image": "https://www.techpowerup.com/img/pc8JzX6DlmdAePJa.jpg",
-    "source": "TechPowerUp"
-  },
-  {
     "title": "Send Unlimited Files for Life With Transfr Pro for Just $80",
     "date": "2026-07-17",
     "category": "Hardware",
     "description": "Large file transfers are still more complicated than they probably should be. Many services limit upload sizes, require subscriptions, or offer little visibility into whether a file was actually received. Transfr Pro...",
     "url": "https://www.techpowerup.com/350558/send-unlimited-files-for-life-with-transfr-pro-for-just-usd-80",
     "image": "https://www.techpowerup.com/img/ik11CWmiLMQa7KC2.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "PC Vendors \"Fight\" for CXMT Memory Supply, Smaller OEMs Struggle",
+    "date": "2026-07-17",
+    "category": "Industrie",
+    "description": "Major PC OEMs are beginning to secure deals with Chinese memory maker CXMT, as the supply chain has been depleted of available DRAM from the big three memory makers—SK hynix, Samsung, and Micron. According to a report...",
+    "url": "https://www.techpowerup.com/350853/pc-vendors-fight-for-cxmt-memory-supply-smaller-oems-struggle",
+    "image": "https://www.techpowerup.com/img/pc8JzX6DlmdAePJa.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -331,122 +448,5 @@
     "url": "https://www.techpowerup.com/350844/nvidia-board-partners-receive-rtx-50-super-but-gddr7-pricing-holds-the-release-back",
     "image": "https://www.techpowerup.com/img/MVL4WpclEMB2dldo.jpg",
     "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) iBUYPOWER Relaunches RDYxYOU Creator Collab PCs",
-    "date": "2026-07-17",
-    "category": "Hardware",
-    "description": "Today, the leading system integrator iBUYPOWER is thrilled to announce that, following previous one-off projects with \"cozy tech\" creators momodokii and kaileune, it is relaunching its RDYxYOU program, where the compa...",
-    "url": "https://www.techpowerup.com/350843/ibuypower-relaunches-rdyxyou-creator-collab-pcs",
-    "image": "https://www.techpowerup.com/img/izLDd5Eh5QyTCxRb.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Intel to Launch 28-Core \"Nova Lake-S\" Before 52-Core Version",
-    "date": "2026-07-17",
-    "category": "Hardware",
-    "description": "Intel is gradually laying the groundwork for the launch of its Core Ultra 400 \"Nova Lake-S\" desktop processors with a basic branding overhaul. However, the company is reportedly preparing different launch dates for va...",
-    "url": "https://www.techpowerup.com/350842/intel-to-launch-28-core-nova-lake-s-before-52-core-version",
-    "image": "https://www.techpowerup.com/img/Sa2jrn7E7cpvuAUF.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Akko Launches New U1 Switch Series, Debuting with Creamy Yellow U1",
-    "date": "2026-07-17",
-    "category": "Hardware",
-    "description": "As Akko approaches its 10th anniversary, the brand introduces U1 Series mechanical keyboard switches. As Akko's next-generation switch lineup, the U1 Series is built around material innovation, structural refinement,...",
-    "url": "https://www.techpowerup.com/350841/akko-launches-new-u1-switch-series-debuting-with-creamy-yellow-u1",
-    "image": "https://www.techpowerup.com/img/JjnamF7FDeTHvzSa.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GTA VI Expected To Cross $4.5 Billion in Sales, in Launch Week",
-    "date": "2026-07-17",
-    "category": "Markt",
-    "description": "We already know that GTA VI is a highly anticipated game, with the game's second trailer reportedly crossing over 475 million views in its first 24 hours across all platforms. Now, analytics firm Newzoo has predicted...",
-    "url": "https://www.techpowerup.com/350837/gta-vi-expected-to-cross-usd-4-5-billion-in-sales-in-launch-week",
-    "image": "https://www.techpowerup.com/img/6W7ilBjFrFePyBUL.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Steam Machine im Test: Mit FSR 4 gegen Preis- und Leistungsprobleme",
-    "date": "2026-07-16",
-    "category": "Software",
-    "description": "Die Steam Machine soll Konsolenkomfort mit der Flexibilität eines Linux-PCs verbinden. Unser Test zeigt, ob die Rechnung auch in der Hardware-Krise aufgeht.",
-    "url": "https://www.heise.de/tests/Steam-Machine-im-Test-Mit-FSR-4-gegen-Preis-und-Leistungsprobleme-11348644.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/8/7/1/6/Fotoaufmacher-wod-c55168129f4edd23.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "TSMC klotzt in den USA noch weiter",
-    "date": "2026-07-16",
-    "category": "Industrie",
-    "description": "Der Weltmarktführer TSMC will weitere Halbleiterwerke in den USA bauen. Dafür stehen zusätzliche 100 Milliarden US-Dollar bereit.",
-    "url": "https://www.heise.de/news/TSMC-will-US-Investitionen-auf-265-Milliarden-US-Dollar-erhoehen-11367592.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/8/2/7/1/about_arizona-9d55813032eaa322.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Newcomer gegen Altmeister: Ryzen 7 7700X3D und Ryzen 7 5800X3D im Gaming-Test",
-    "date": "2026-07-16",
-    "category": "Hardware",
-    "description": "AMD bringt zwei Achtkerner mit großem Cache für AM4- und AM5-Mainboards. Wir prüfen anhand von fps und Effizienz, für welche Anwender sich die X3D-CPUs lohnen.",
-    "url": "https://www.heise.de/tests/Newcomer-gegen-Altmeister-Ryzen-7-7700X3D-und-Ryzen-7-5800X3D-im-Gaming-Test-11349685.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/9/2/4/4/chh-1dd21ee632b7eedd.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Kaufbegierden: Apple sucht nach KI-Chip-Firmen",
-    "date": "2026-07-16",
-    "category": "Hardware",
-    "description": "Spezialisierte Prozessoren für Training und Inferenz müssen nicht von Nvidia kommen. Davon ist man offenbar bei Apple überzeugt und streckt die Fühler aus.",
-    "url": "https://www.heise.de/news/Kaufbegierden-Apple-sucht-nach-KI-Chip-Firmen-11366368.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/7/6/5/3/shutterstock_1242902644-c785fddb8f013ae8.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "TSMC: Erste Umsätze mit 2-Nanometer-Chips für Apple und AMD",
-    "date": "2026-07-16",
-    "category": "Hardware",
-    "description": "Ein Jahresvergleich des weltweit wichtigen Chipherstellers zeigt, wie Prozessoren, GPUs und Beschleuniger teurer werden.",
-    "url": "https://www.heise.de/news/Teurere-Chips-TSMCs-Gewinn-steigt-doppelt-so-stark-wie-der-Umsatz-11367226.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/8/0/8/7/TSMC-c3a25b1a7cc350dd-7b7ef78bdf1882d9.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Asus PG27UCWM und PG32UCWM: OLED mit RGB-Stripe-Pixeln bereit für den Marktstart (Update)",
-    "date": "2026-07-16",
-    "category": "Hardware",
-    "description": "Zwei neue OLED-Monitore von Asus waren bisher nur auf CES und Computex zu Gast. Doch jetzt kündigt Asus die Verfügbarkeit des ROG Swift OLED PG27UCWM und des ROG Swift OLED PG32UCWM an. Beide nutzen ein neues LG-Panel...",
-    "url": "https://www.computerbase.de/news/monitore/asus-pg27ucwm-und-pg32ucwm-oled-mit-rgb-stripe-pixeln-bereit-fuer-den-marktstart.98404/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Mit GB205-GPU als „V1“: MSI veröffentlicht vier neue GeForce RTX 5060",
-    "date": "2026-07-16",
-    "category": "Hardware",
-    "description": "MSI hat vier neue GeForce RTX 5060-Grafikkarten mit dem Zusatz „V1“ enthüllt, die statt des GB206-250-Chips vorheriger RTX-5060-Modelle einen beschnittenen GB205-Grafikprozessor verwenden. Zu den vier neuen Modellen g...",
-    "url": "https://www.computerbase.de/news/grafikkarten/mit-gb205-gpu-als-v1-msi-veroeffentlicht-vier-neue-geforce-rtx-5060.98421/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "CB-Funk-Podcast #178: R7 7700X3D, Samsungs 990 und der WAF der Steam Machine",
-    "date": "2026-07-16",
-    "category": "Hardware",
-    "description": "In der heutigen Episode des ComputerBase-Podcasts besprechen Jan und Fabian die Tests des Ryzen 7 7700X3D und der Samsung SSD 990. Im Anschluss gibt es einen Ausblick auf Wolfgangs Test zu Assassin's Creed Black Flag...",
-    "url": "https://www.computerbase.de/news/prozessoren/cb-funk-podcast-178-r7-7700x3d-samsungs-990-und-der-waf-der-steam-machine.98420/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "AM4 oder AM5 bei Neukauf?: Ryzen 7 7700X3D mit 1×DDR5 schlägt Ryzen 7 5800X3D deutlich",
-    "date": "2026-07-16",
-    "category": "Hardware",
-    "description": "Wer noch einen Gaming-PC mit Sockel AM4 und DDR4 nutzt, hat mit dem AMD Ryzen 7 5800X3D (Test) noch einmal die Chance, auf die schnellste für den Sockel jemals verfügbare Gaming-CPU zu wechseln. Aber ist das auch die...",
-    "url": "https://www.computerbase.de/artikel/prozessoren/amd-ryzen-7-7700x3d-1-ddr5-test.98370/",
-    "image": null,
-    "source": "ComputerBase"
   }
 ]
