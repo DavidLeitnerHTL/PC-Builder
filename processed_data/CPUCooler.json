@@ -184,10 +184,10 @@
     },
     {
         "id": "bba886ef-4cb5-48e1-b963-c2a2097c4e41",
-        "name": "Corsair iCUE LINK TITAN Water 240mm RX LCD 73.5 CFM Black",
+        "name": "Corsair iCUE LINK TITAN Water 240mm RX LCD Black",
         "variant": "LCD",
         "amazon_sku": "B0DF7CGGCW",
-        "clean_name": "Corsair iCUE LINK TITAN Water RX LCD 73.5 CFM Black",
+        "clean_name": "Corsair iCUE LINK TITAN Water RX LCD Black",
         "cooler_type": true,
         "radiator_size": 240,
         "height": 73,
@@ -203,10 +203,10 @@
     },
     {
         "id": "af9bf004-ada9-4120-acdf-cd0ed254b625",
-        "name": "Corsair iCUE LINK TITAN Water 240mm RX LCD 73.5 CFM White",
+        "name": "Corsair iCUE LINK TITAN Water 240mm RX LCD White",
         "variant": "LCD",
         "amazon_sku": "B0DF79QWJW",
-        "clean_name": "Corsair iCUE LINK TITAN Water RX LCD 73.5 CFM White",
+        "clean_name": "Corsair iCUE LINK TITAN Water RX LCD White",
         "cooler_type": true,
         "radiator_size": 240,
         "height": 73,
@@ -221,31 +221,11 @@
         "last_updated": "2026-07-23T06:43:24.178Z"
     },
     {
-        "id": "693134bf-8d44-4551-b8ff-f33de87f8faa",
-        "name": "Corsair iCUE LINK TITAN Water 360mm RX LCD White",
-        "variant": "LCD",
-        "amazon_sku": "B0DF79SWMJ",
-        "clean_name": "Corsair iCUE LINK TITAN Water RX LCD White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 66.2,
-        "min_fan_rpm": 300,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "WHITE",
-            "RGB"
-        ],
-        "price": 213.31,
-        "last_updated": "2026-07-23T06:43:26.036Z"
-    },
-    {
         "id": "98a82ab4-5e47-4fa5-bd5e-56347d90d6c1",
-        "name": "Corsair iCUE LINK TITAN Water 420mm RX RGB 94.7 CFM Black AIO Liquid Cooler",
+        "name": "Corsair iCUE LINK TITAN Water 420mm RX RGB Black",
         "variant": "",
         "amazon_sku": "B0F8R2BW2Q",
-        "clean_name": "Corsair iCUE LINK TITAN Water RX RGB 94.7 CFM Black AIO Liquid Cooler",
+        "clean_name": "Corsair iCUE LINK TITAN Water RX RGB Black",
         "cooler_type": true,
         "radiator_size": 420,
         "height": 69,
@@ -546,7 +526,7 @@
         "id": "9dd074e5-3093-4b2c-a704-78d011dcee8f",
         "name": "Asus ROG Ryujin III 71.6 CFM Water 240mm Black",
         "variant": "ROG RYUJIN III 240",
-        "amazon_sku": "B0C53M38P1",
+        "amazon_sku": "B0C8BT4Q9G",
         "clean_name": "Asus ROG Ryujin III 71.6 CFM Water Black",
         "cooler_type": true,
         "radiator_size": 240,
@@ -1828,5 +1808,22 @@
         ],
         "available": false,
         "last_updated": "2026-07-20T07:05:21.221Z"
+    },
+    {
+        "id": "514301c6-2edb-4b03-8c42-7d1a74b14a24",
+        "name": "be quiet! Dark Rock Elite Air 168mm Black",
+        "variant": "Elite",
+        "amazon_sku": "B0CJY2QS2W",
+        "clean_name": "be quiet! Dark Rock Elite Air Black",
+        "cooler_type": false,
+        "radiator_size": "168mm",
+        "height": 168,
+        "min_fan_rpm": 1500,
+        "max_fan_rpm": 2000,
+        "min_noise_level": 11,
+        "max_noise_level": 25.8,
+        "color": [
+            "BLACK"
+        ]
     }
 ]
