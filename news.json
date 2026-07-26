@@ -1,5 +1,68 @@
 [
   {
+    "title": "20 Jahre Core 2 Duo: Der Prozessor, der Intel zurück in die Spur brachte",
+    "date": "2026-07-26",
+    "category": "Hardware",
+    "description": "2006 befreite der Core 2 Duo Intel aus der Pentium-4-Sackgasse. Die Desktop-CPU übertraf alle Erwartungen und wirkt bis heute nach. Wir blicken 20 Jahre zurück.",
+    "url": "https://www.heise.de/hintergrund/20-Jahre-Core-2-Duo-Der-Prozessor-der-Intel-zurueck-in-die-Spur-brachte-11150158.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/1/4/3/5/7/chh-190b4a7699f035ea.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Offene KI-Modelle: Nvidia warnt öffentlich vor übereilten Verboten",
+    "date": "2026-07-26",
+    "category": "Industrie",
+    "description": "Mit seinem ersten Beitrag auf X macht Nvidia-Chef Jensen Huang auf einen gemeinsamen Appell von 25 Unternehmen und Organisationen aufmerksam. Die Unterzeichner sehen frei verfügbare Modellgewichte als Grundlage für We...",
+    "url": "https://www.computerbase.de/news/apps/offene-ki-modelle-nvidia-warnt-oeffentlich-vor-uebereilten-verboten.98559/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "DDR5 aus China: Preise für CXMT-Speicher bereits höher als DRAM von Samsung",
+    "date": "2026-07-26",
+    "category": "Hardware",
+    "description": "Die hohe Nachfrage nach Speicherchips für KI-Rechenzentren stärkt Chinas Hersteller CXMT und YMTC. Reuters zufolge können beide Unternehmen inzwischen höhere Preise verlangen, Großkunden langfristig binden und ihre Fe...",
+    "url": "https://www.computerbase.de/news/wirtschaft/ddr5-aus-china-preise-fuer-cxmt-speicher-bereits-hoeher-als-dram-von-samsung.98558/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Max Payne wird 25: Retro-Grafikkarten stellen sich dem \"fotorealistischen\" Bullet-Time-Shooter",
+    "date": "2026-07-26",
+    "category": "Hardware",
+    "description": "Max Payne aus den finnischen Remedy Studios ließ im Sommer 2001 diverse Kinnladen zu Boden fallen. Der düstere Third-Person-Shooter führte nicht nur das \"Bullet Time\"-Feature ein, sondern ließ auch jeden PC glühen. PC...",
+    "url": "https://www.pcgameshardware.de/Max-Payne-Spiel-16086/Specials/Release-Retro-Benchmarks-Remake-Performance-1546574/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Max-Payne-1-new-27-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Geforce RTX 3090 und 3050 vereint: Dank Lossless Scaling wurden 144 Fps bei 4K erreicht",
+    "date": "2026-07-26",
+    "category": "Hardware",
+    "description": "Ein Reddit-Nutzer präsentierte sein Dual-GPU-Setup mit einer Geforce RTX 3090 und 3050, welches mithilfe des Upscaling- und Frame-Gen-Tools Lossless Scaling 144 Fps bei 4K erreicht haben soll.",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/RTX-3090-3050-Lossless-Scaling-144-Fps-4K-1549283/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Dual-GPU-Setup-quziwuzzi-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "Offener Brief: Microsoft, Nvidia & Co. fordern offenes KI-Ökosystem",
+    "date": "2026-07-25",
+    "category": "Industrie",
+    "description": "25 US-Tech-Riesen sprechen sich für ein KI-Ökosystem mit Open-Weights-Modellen aus. Ist das die richtige Antwort auf Kimi K3?",
+    "url": "https://www.heise.de/news/Offener-Brief-Microsoft-Nvidia-Co-fordern-offenes-KI-Oekosystem-11378076.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/2/4/0/9/4/shutterstock_2771548405-d33e03b33e333098.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Der „ganze“ Rest vom AAI 2026: Hands-on Helios, Chip-Shots, Slides, TSMC und Robo-Hunde",
+    "date": "2026-07-25",
+    "category": "Hardware",
+    "description": "AMD Advancing AI 2026 ist zu Ende. Es war die größte Veranstaltung dieser Art für AMD bisher. Und es gab viel zu hören, zu sehen und auch zum Anfassen, was vor Ort in San Francisco auch gern getan wurde. Denn Hand an...",
+    "url": "https://www.computerbase.de/news/grafikkarten/der-ganze-rest-vom-aai-2026-hands-on-helios-chip-shots-slides-tsmc-und-robo-hunde.98491/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
     "title": "Im Test vor 15 Jahren: High-End-Kühlung von Thermalright für 40 Euro",
     "date": "2026-07-25",
     "category": "Hardware",
@@ -18,22 +81,76 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Intel bringt Hyper-Threading 2028 zurück: Coral Rapids erhält wieder SMT",
+    "title": "Von Windows Me, 3dfx Velocity und SSD 840 Evo (PCGH-Retro, 26. Juli)",
     "date": "2026-07-25",
     "category": "Hardware",
-    "description": "Intel bestätigt die Rückkehr von Simultaneous Multithreading: Die für 2028 geplanten Xeon-Prozessoren Coral Rapids sollen wieder zwei Threads pro Kern bearbeiten können.",
-    "url": "https://www.pcgameshardware.de/Intel-Core-Ultra-Architektur-280887/News/Coral-Rapids-CPU-Hyper-Threading-2028-1549300/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/07/Intel-CPU-pcgh.jpg",
+    "description": "Von Windows Me, der 3dfx Velocity und der SSD 840 Evo - das geschah am 26. Juli. Jeden Tag wagt PC Games Hardware einen Blick zurück in die noch junge, aber bewegte Geschichte des Computers.",
+    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/News/Von-Windows-Me-und-der-3dfx-Velocity-PCGH-Retro-26-Juli-607710/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2007/07/55_mepack2.jpg",
     "source": "PCGH"
   },
   {
-    "title": "RPCS3: PS3-Emulator läuft jetzt auf ATi Radeon von 2007",
+    "title": "[PLUS] Spielbar ist nicht gleich gut: Was man mit einem Low-End-PC wirklich verpasst",
+    "date": "2026-07-25",
+    "category": "Software",
+    "description": "Weshalb in potente Hardware investieren, wenn es schon mit einem Budget-PC und ein paar Anpassungen flüssig läuft? Wir prüfen, um wie viel besser aktuelle Spiele auf einem leistungsstarken Gaming-PC laufen und aussehe...",
+    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/Specials/Hi-Fi-Gaming-in-4K-is-better-Ryzen-7900X-Benchmarks-1548496/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/ARC-Raiders-Hi-fi-Gaming-Screenshot-Overlay-1--pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "DDR5-Rekord: Asgard-RAM mit CXMT-Chips erreicht 8.800 MT/s auf Z890",
     "date": "2026-07-25",
     "category": "Hardware",
-    "description": "Die Entwickler des freien PS3-Emulators RPCS3 haben die Unterstützung auf ATi-Grafikkarten der Baureihen Radeon HD 2000 bis 4000 aus den Jahren 2007 bis 2009 ausgeweitet. Neues GPU-Minimum ist die Radeon HD 2900 XT, j...",
-    "url": "https://www.pcgameshardware.de/Playstation-3-Konsolen-33601/News/RPCS3-PS3-Emulator-laeuft-auf-Radeon-Grafikkarten-von-2007-1549340/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/RPCS3-auf-ATi-Radeon-pcgh.jpeg",
+    "description": "DDR5-Speicherchips des chinesischen Herstellers CXMT haben mit 8.800 MT/s einen neuen eigenen Höchstwert auf RAM-Modulen von Asgard erreicht.",
+    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/DDR5-Rekord-Asgard-CXMT-Chips-erreicht-8800-MT-s-Z890-1549274/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Asgard-DDR5-8800-MTs-Z890-pcgh.jpg",
     "source": "PCGH"
+  },
+  {
+    "title": "Aufrüsten 2026: Welche CPU passt zu welcher GPU? Das und mehr in PCGH 08/2026",
+    "date": "2026-07-25",
+    "category": "Hardware",
+    "description": "Die PCGH-Ausgabe 08/2026 hat es in sich: Clever aufrüsten 2026 mit Hunderten CPU-/GPU-Kombinationen, AMDs Radeon RX 9070 GRE im kritischen Check, der 12+4-Pol-Stecker in Zahlen, Gaming mit 5.120 × 2.160 Pixeln und das...",
+    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-08-2026-Magazin-310-DVD-Download-PDF-1546511/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Euro Truck Simulator 2 bekommt bessere Grafik - ohne teures Raytracing",
+    "date": "2026-07-25",
+    "category": "Software",
+    "description": "Der Euro Truck Simulator 2 hat vor kurzem ein neues Update erhalten. Mit diesem wurde unter anderem ein verbessertes Materialsystem eingeführt, das nach und nach die Grafik der Lkws verbessert, ohne auf teures Raytrac...",
+    "url": "https://www.pcgameshardware.de/Euro-Truck-Simulator-2-Spiel-22781/News/Truck-Simulator-bekommt-bessere-Grafik-1549348/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Euro-Truck-Simulator-2-Holland-Style-5-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS zum Reboot] Ryzen 7 5800X3D richtig ausreizen: Tuning-Guide, Subtimings optimieren, RAM-Skalierung",
+    "date": "2026-07-25",
+    "category": "Hardware",
+    "description": "Der 8-Kerner Ryzen 7 5800X3D für den Sockel AM4 mausert sich zum Liebling der PCGH-Leser. Doch wie kann man den Gaming-Boliden richtig ausreizen? Ein PCGH-Plus-Guide aus drei Einzelartikeln.",
+    "url": "https://www.pcgameshardware.de/Ryzen-7-5800X3D-CPU-278064/Specials/Tuning-Praxistipps-1407777/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2022/06/teaser_tuning-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Nvidia zeigt DLSS 5 erneut: Hat sich eure Meinung geändert? - Das sagt das PCGH-Team!",
+    "date": "2026-07-25",
+    "category": "Angebote",
+    "description": "Lesen Sie die persönlichen Meinungen der PCGH-Redaktionsmitglieder. Heute zum Thema \"Nvidia zeigt DLSS 5 erneut: Hat sich eure Meinung geändert?\"",
+    "url": "https://www.pcgameshardware.de/Deep-Learning-Super-Sampling-Software-277618/Specials/DLSS-5-Release-wann-und-fuer-welche-Geforce-1549324/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/04/PCGH-Ratgeber-Chris-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Denuvo Removed From 007 First Light After Just Two Months",
+    "date": "2026-07-25",
+    "category": "Markt",
+    "description": "IO Interactive released its AAA title 007 First Light on May 26 this year, surprising players with the inclusion of Denuvo DRM. However, after just two months on the market, IO Interactive has officially removed this...",
+    "url": "https://www.techpowerup.com/351071/denuvo-removed-from-007-first-light-after-just-two-months",
+    "image": "https://www.techpowerup.com/img/SasoxnnO41NFV1rE.jpg",
+    "source": "TechPowerUp"
   },
   {
     "title": "Blizzard's Battle.net Gets Online Age Verification in UK",
@@ -42,6 +159,15 @@
     "description": "Following the recently passes UK Online Safety Act law, everything from Discord to PlayStation Network, and even Roblox, have at least experimented with adding online age verification with systems like Persona and ID....",
     "url": "https://www.techpowerup.com/351066/blizzards-battle-net-gets-online-age-verification-in-uk",
     "image": "https://www.techpowerup.com/img/C4F6mBI2yF34XtPa.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Microsoft Office 2024 Professional Plus Just Hit a New Low Price: $55 for Life",
+    "date": "2026-07-25",
+    "category": "Hardware",
+    "description": "Microsoft's subscription model isn't for everyone. Some people just want to pay once and move on with their lives, no auto-renewals, no billing surprises, no \"your plan has changed\" emails. This lifetime license just...",
+    "url": "https://www.techpowerup.com/350898/microsoft-office-2024-professional-plus-just-hit-a-new-low-price-usd-55-for-life",
+    "image": "https://www.techpowerup.com/img/PRZATAV1XGrGJMWj.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -135,78 +261,6 @@
     "source": "Golem"
   },
   {
-    "title": "Microsoft kapituliert beim Support: 30 Prozent bleiben laut HP bei Windows 10",
-    "date": "2026-07-24",
-    "category": "Software",
-    "description": "HP beziffert den Windows-10-Anteil im eigenen Gerätebestand auf rund 30 Prozent. Die Zahl erklärt, warum Microsoft den Support bis Oktober 2027 verlängert hat: Nutzer erhalten via ESU weiter Sicherheitsupdates, hierzu...",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/HP-30-Prozent-Bestand-Support-bis-2027-1549326/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Windows-11-Teaser-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS] Spielbar ist nicht gleich gut: Was man mit einem Low-End-PC wirklich verpasst",
-    "date": "2026-07-24",
-    "category": "Software",
-    "description": "Weshalb in potente Hardware investieren, wenn es schon mit einem Budget-PC und ein paar Anpassungen flüssig läuft? Wir prüfen, um wie viel besser aktuelle Spiele auf einem leistungsstarken Gaming-PC laufen und aussehe...",
-    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/Specials/Hi-Fi-Gaming-in-4K-is-better-Ryzen-7900X-Benchmarks-1548496/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/ARC-Raiders-Hi-fi-Gaming-Screenshot-Overlay-1--pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11: Microsoft lässt die Copilot-Taste künftig einfach nichts tun",
-    "date": "2026-07-24",
-    "category": "Software",
-    "description": "Microsoft arbeitet offenbar an einer weiteren Belegung für die Copilot-Taste. Unter Windows 11 soll sie sich künftig vollständig deaktivieren lassen, obwohl sie auf neuen PCs erhalten bleibt.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/11-Copilot-Taste-deaktivieren-nichts-tun-1549293/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Windows-11-Copilot-Taste-laesst-sich-bald-abschalten-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Aufrüsten 2026: Welche CPU passt zu welcher GPU? Das und mehr in PCGH 08/2026",
-    "date": "2026-07-24",
-    "category": "Hardware",
-    "description": "Die PCGH-Ausgabe 08/2026 hat es in sich: Clever aufrüsten 2026 mit Hunderten CPU-/GPU-Kombinationen, AMDs Radeon RX 9070 GRE im kritischen Check, der 12+4-Pol-Stecker in Zahlen, Gaming mit 5.120 × 2.160 Pixeln und das...",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-08-2026-Magazin-310-DVD-Download-PDF-1546511/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "AMD gegen Nvidia: CUDA spielt für Unternehmen angeblich kaum noch eine Rolle",
-    "date": "2026-07-24",
-    "category": "Industrie",
-    "description": "AMD-Manager Andrew Dieckman sagt, mit Kunden rede er kaum noch über Nvidias CUDA - der oft beschworene Software-Vorsprung sei für viele kaum noch relevant.",
-    "url": "https://www.pcgameshardware.de/Nvidia-Geforce-Grafikkarte-255598/News/AMD-CUDA-Kunden-Keine-Rolle-1549295/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Nvidia-CUDA-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Proton-CachyOS: Nvidia Reflex senkt den Input-Lag unter Linux",
-    "date": "2026-07-24",
-    "category": "Software",
-    "description": "Die Entwickler von CachyOS haben jetzt ein neues Proton-CachyOS veröffentlicht, welches die Nvidia-Reflex-API erstmals nativ in der Übersetzungsschicht umsetzt. Davon profitieren DirectX-12-Spiele unter Linux unabhäng...",
-    "url": "https://www.pcgameshardware.de/Linux-Software-26761/News/Proton-CachyOS-Nvidia-Reflex-Input-Lag-DX12-Linux-1549296/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/07/Proton-CachyOS-Release-Notes-pcgh.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "\"Kompletter Unsinn\": Nvidia-Chef Jensen Huang über KI-Weltuntergang und massiven Jobabbau",
-    "date": "2026-07-24",
-    "category": "Industrie",
-    "description": "Nvidia-Chef Jensen Huang weist Warnungen vor einem KI-Weltuntergang und massenhaftem Jobverlust scharf zurück. Übertriebene Ängste könnten Unternehmen und Politik von der Nutzung der Technik abhalten.",
-    "url": "https://www.pcgameshardware.de/Kuenstliche-Intelligenz-Hardware-279517/News/Jensen-Huang-KI-Weltuntergang-Jobverlust-kompletter-Unsinn-1549271/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/03/nvidia-ceo-jensen-huang-delivers-gtc-keynote-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS] Tuning für AM5-Mainboards: Über 400 Optionen im Asus-UEFI erklärt [Update für 2026]",
-    "date": "2026-07-24",
-    "category": "Hardware",
-    "description": "PCGH Plus: PCGH erklärt sämtliche UEFI-Optionen von Asus-Mainboards und legt dar, welche Einstellungen empfehlenswert sind - und welche eher nicht. Außerdem geben wir Tipps zur Optimierung des Prozessors über herstell...",
-    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/Specials/Asus-UEFI-erklaert-1414849/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2023/03/Teaser_UEFI_Guide_Asus-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
     "title": "WQHD, QD-OLED, 240 Hz und FreeSync: ASRock PGO27QSA(-W) ist in Deutschland erschienen",
     "date": "2026-07-24",
     "category": "Hardware",
@@ -225,15 +279,6 @@
     "source": "HardwareLuxx"
   },
   {
-    "title": "Bis 256 Kerne, PCIe 6.0 und 16-Channel-RAM: AMD stellt Epyc 9006 mit Zen 6 vor",
-    "date": "2026-07-24",
-    "category": "Hardware",
-    "description": "Heute ist es endlich so weit und AMD stellte auf der Advancing AI 2026 unter der Führung von CEO Dr.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/69801-bis-256-kerne-pcie-6-0-und-16-channel-ram-amd-stellt-epyc-9006-mit-zen-6-vor.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jul/stable_device_2x/amd_epyc_9006_zen_6_vorstellung_news_006_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
     "title": "QNAP TS-262A und TS-462A: Neue NAS-Systeme mit Intel-CPU, 2,5-GbE und KI-Funktionen",
     "date": "2026-07-24",
     "category": "Hardware",
@@ -241,15 +286,6 @@
     "url": "https://www.hardwareluxx.de/index.php/news/hardware/festplatten/69808-qnap-ts-262a-und-ts-462a-neue-nas-systeme-mit-intel-cpu-25-gbe-und-ki-funktionen.html",
     "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jul/lawful_theorem_d7/qnap_ts262a_ts462q_001_680px.jpg",
     "source": "HardwareLuxx"
-  },
-  {
-    "title": "Microsoft Office 2024 Professional Plus Just Hit a New Low Price: $55 for Life",
-    "date": "2026-07-24",
-    "category": "Hardware",
-    "description": "Microsoft's subscription model isn't for everyone. Some people just want to pay once and move on with their lives, no auto-renewals, no billing surprises, no \"your plan has changed\" emails. This lifetime license just...",
-    "url": "https://www.techpowerup.com/350898/microsoft-office-2024-professional-plus-just-hit-a-new-low-price-usd-55-for-life",
-    "image": "https://www.techpowerup.com/img/PRZATAV1XGrGJMWj.jpg",
-    "source": "TechPowerUp"
   },
   {
     "title": "Marvel Tokon: Fighting Souls Beta Crashes PSN Servers for Hours on End",
@@ -270,21 +306,21 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "Halo: Campaign Evolved—Cracked Before Launch as Paying Players Fight Microsoft Account Linking",
-    "date": "2026-07-24",
-    "category": "Markt",
-    "description": "Halo: Campaign Evolved game was cracked just four days before its official release. A group of hackers claims that their version runs smoothly on Windows without needing a Microsoft or Steam account. The game, develop...",
-    "url": "https://www.techpowerup.com/351060/halo-campaign-evolved-cracked-before-launch-as-paying-players-fight-microsoft-account-linking",
-    "image": "https://www.techpowerup.com/img/zw0qg3w0DnMe8Dep.jpg",
-    "source": "TechPowerUp"
-  },
-  {
     "title": "Sale: Get ChatGPT, Gemini, Claude, and More for Life for $80",
     "date": "2026-07-24",
     "category": "Angebote",
     "description": "ChatGPT costs $20 per month, but most professionals can't get everything done with just one model. Pair that with paid subscriptions to Claude and Gemini, and you could be paying $60 per month just for AI. Rather than...",
     "url": "https://www.techpowerup.com/350899/sale-get-chatgpt-gemini-claude-and-more-for-life-for-usd-80",
     "image": "https://www.techpowerup.com/img/ZEABhhEC19WyoOQG.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Halo: Campaign Evolved—Cracked Before Launch as Paying Players Fight Microsoft Account Linking",
+    "date": "2026-07-24",
+    "category": "Markt",
+    "description": "Halo: Campaign Evolved game was cracked just four days before its official release. A group of hackers claims that their version runs smoothly on Windows without needing a Microsoft or Steam account. The game, develop...",
+    "url": "https://www.techpowerup.com/351060/halo-campaign-evolved-cracked-before-launch-as-paying-players-fight-microsoft-account-linking",
+    "image": "https://www.techpowerup.com/img/zw0qg3w0DnMe8Dep.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -412,41 +448,5 @@
     "url": "https://www.heise.de/news/AMD-Epyc-9006-Zen-6-Generation-der-Serverprozessoren-bringt-neue-Varianten-11376591.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
     "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/2/3/3/5/1/AMD-Venice-Launch-5b6f755c7d0c9c4d.jpeg",
     "source": "Heise"
-  },
-  {
-    "title": "AMD Instinct und Helios: Roadmaps nennen MI500 und MI600, Updates im Jahrestakt",
-    "date": "2026-07-23",
-    "category": "Software",
-    "description": "Wie geht es bei AMDs KI-Beschleunigern der Instinct-Serie weiter? Eine neue Roadmap liefert darauf Antworten. Bereits nächstes Jahr soll MI500 mit HBM4e kommen und die Leistung massiv steigern. Auf MI600 soll man aber...",
-    "url": "https://www.computerbase.de/news/grafikkarten/amd-instinct-und-helios-roadmaps-nennen-mi500-und-mi600-updates-im-jahrestakt.98537/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "AMD Epyc CPU Roadmap: Auf Venice folgen Florence (Zen 7) und Ravenna (Zen 8)",
-    "date": "2026-07-23",
-    "category": "Hardware",
-    "description": "Heute fällt der Startschuss für AMD Epyc Venice als neue Server-Prozessoren mit Zen-6-Architektur. Parallel gibt es einen Ausblick auf die Nachfolger. Laut Epyc-Roadmap folgt 2028 Florence mit Zen 7 und AI Compute Ext...",
-    "url": "https://www.computerbase.de/news/prozessoren/amd-epyc-cpu-roadmap-auf-venice-folgen-florence-zen-7-und-ravenna-zen-8.98538/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "AMD Instinct MI455X vorgestellt: Mit 320 Mrd. Transistoren, CDNA5 & HBM4 gegen Nvidia Rubin",
-    "date": "2026-07-23",
-    "category": "Industrie",
-    "description": "AMD Instinct MI455X ist das 320 Milliarden Transistoren große Flaggschiff, welches N2-gefertigte XCDs mit N3P-FCDs/MIDs und HBM4 kombiniert. Dazu gibt die CDNA5-Architektur Überraschungen preis, wie unter anderem den...",
-    "url": "https://www.computerbase.de/news/grafikkarten/amd-instinct-mi455x-vorgestellt-mit-320-mrd-transistoren-cdna5-und-hbm4-gegen-nvidia-rubin.98518/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "AMD Epyc 9006 „Venice“: Zen-6(c)-CPUs mit bis zu 256 Kernen kosten bis zu 14.904 USD",
-    "date": "2026-07-23",
-    "category": "Hardware",
-    "description": "Gleich vier Serien innerhalb der neuen Epyc-9006-Familie mit Zen 6(c) enthüllt AMD heute: für Sockel SP7 ohne und mit „3D V-Cache“ (Venice-X), für Sockel SP8 und als LP-Version. Die ersten Chips gehen primär zum neuen...",
-    "url": "https://www.computerbase.de/news/prozessoren/amd-epyc-9006-venice-details-zu-kernen-takt-x3d-cache-und-lp-in-vier-cpu-familien.98520/",
-    "image": null,
-    "source": "ComputerBase"
   }
 ]
