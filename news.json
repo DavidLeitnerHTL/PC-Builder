@@ -1,21 +1,363 @@
 [
   {
-    "title": "TinyGPU v2.0: 240.000 Transistoren reichen für 3D-Grafik",
-    "date": "2026-08-05",
+    "title": "KI ohne Cloud: So nutzen Sie AMD Lemonade auf Ryzen-Prozessoren",
+    "date": "2026-08-06",
     "category": "Hardware",
-    "description": "Eine winzige GPU mit nur rund 240.000 Transistoren rendert erstmals 3D-Grafik auf echter Hardware. Schnell ist sie nicht. (Grafikkarten, AMD)",
-    "url": "https://www.golem.de/news/tinygpu-v2-0-240-000-transistoren-reichen-fuer-3d-grafik-2608-211611.html",
-    "image": "https://www.golem.de/2608/211611-591490-591488_rc.jpg",
+    "description": "Die Gratis-Software Lemonade vereinfacht die Nutzung von KI-Modellen auf Ryzen-NPUs. Wir prüfen, welche KI-Aufgaben lokal laufen und wo die NPU scheitert.",
+    "url": "https://www.heise.de/ratgeber/KI-ohne-Cloud-So-nutzen-Sie-AMD-Lemonade-auf-Ryzen-Prozessoren-11373128.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/2/1/0/9/4/chh-eeffaf7bfc697133.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Jetzt offiziell: Anthropic entwickelt eigene KI-Chips",
+    "date": "2026-08-06",
+    "category": "Hardware",
+    "description": "Nach Deals mit Google und Nvidia will Anthropic nun eigene KI-Chips entwickeln und baut dafür eine neue Abteilung auf.",
+    "url": "https://www.heise.de/news/Jetzt-offiziell-Anthropic-entwickelt-eigene-KI-Chips-11400520.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/3/7/8/3/1/shutterstock_130437422-f7d2d06dc55f741f.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Radeon RX 7800 XT & RX 7600 im Test: Langsamer, aber schöner mit FSR Upscaling 4.1",
+    "date": "2026-08-06",
+    "category": "Hardware",
+    "description": "Im neuen Grafikkarten-Testparcours durchliefen Radeon RX 7800 XT und Radeon RX 7600 ihre Benchmarks bis jetzt mit FSR Upscaling 3.1. Doch mittlerweile unterstützt RDNA 3 auch das moderne FSR Upscaling 4.1, sodass die...",
+    "url": "https://www.computerbase.de/artikel/grafikkarten/rx-7800-xt-rx-7600-fsr-4-1-benchmarks.98640/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Corsair Skiff 100 (Plus): Spiele-Tastatur setzt auf alte Schule",
+    "date": "2026-08-06",
+    "category": "Hardware",
+    "description": "Die Skiff 100 (Plus) ist eine (relativ) günstige Gaming-Tastatur der alten Schule: Corsair priorisiert beim Design eine Menge Ausstattung, nicht die Technik. Auch so kann man für 60 Euro eine Tastatur für das Segment...",
+    "url": "https://www.computerbase.de/news/tastaturen/corsair-skiff-100-plus-spiele-tastatur-setzt-auf-alte-schule.98725/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Direkt auf die XPU: Samsungs zHBM soll HBM5 um Längen schlagen",
+    "date": "2026-08-06",
+    "category": "Hardware",
+    "description": "Samsung formuliert mit zHBM ein neues Konzept für High Bandwidth Memory der Zukunft. Der Speicher sitzt dabei nicht wie bisher neben dem Prozessor, sondern direkt auf diesem. Mit kürzeren Leitungswegen und noch mehr D...",
+    "url": "https://www.computerbase.de/news/arbeitsspeicher/direkt-auf-die-xpu-samsungs-zhbm-soll-hbm5-um-laengen-schlagen.98729/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Kioxia GP1: PCIe-6.0-SSD erreicht mit XL-Flash 10 Mio. IOPS",
+    "date": "2026-08-06",
+    "category": "Hardware",
+    "description": "Kioxia konkretisiert seine im März angekündigte GP-Serie für KI-Systeme. Die erste SSD namens GP1 nutzt PCIe 6.0 und XL-Flash der zweiten Generation, erreicht bis zu 10 Millionen IOPS und soll GPUs als vergleichsweise...",
+    "url": "https://www.computerbase.de/news/storage/kioxia-gp1-pcie-6-0-ssd-erreicht-mit-xl-flash-10-mio-iops.98726/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Digitale Souveränität: Soofi, Deutschlands Chance auf KI-Souveränität?",
+    "date": "2026-08-06",
+    "category": "Industrie",
+    "description": "War Soofi Millionen Euro Steuergeld wert? Ein Projektmacher erklärt, warum Deutschland bei KI anders vorgehen sollte als OpenAI & Co. Eine Analyse von Johannes Hiltscher (Souveränität, Nvidia)",
+    "url": "https://www.golem.de/news/digitale-souveraenitaet-soofi-deutschlands-chance-auf-ki-souveraenitaet-2608-211319.html",
+    "image": "https://www.golem.de/2608/211319-590150-590148_rc.jpg",
     "source": "Golem"
   },
   {
-    "title": "Windows 11: Microsoft kassiert eigene RAM-Empfehlung stillschweigend ein",
+    "title": "DRAM und HBM für 2027 laut Bericht bereits vollständig vergeben",
+    "date": "2026-08-06",
+    "category": "Hardware",
+    "description": "Die großen Speicherhersteller sollen ihre DRAM- und HBM-Kapazitäten für 2027 bereits verteilt haben. PC- und Smartphone-Anbieter dürften weniger Speicher erhalten.",
+    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/DRAM-HBM-Kapazitaeten-2027-ausverkauft-1550387/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2023/05/Samsung-12-nm-DDR5-DRAM-3-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Kioxias XL-Flash kommt mit 10 Millionen IOPS",
     "date": "2026-08-05",
     "category": "Hardware",
-    "description": "Noch vor wenigen Monaten empfahl Microsoft 32 Gigabyte RAM für Windows-11-Gaming. Jetzt ist diese Empfehlung spurlos verschwunden. (Windows 11, Microsoft)",
-    "url": "https://www.golem.de/news/windows-11-microsoft-kassiert-eigene-ram-empfehlung-stillschweigend-ein-2608-211607.html",
-    "image": "https://www.golem.de/2608/211607-591476-591474_rc.jpg",
+    "description": "Die zweite XL-Flash-Generation ist für direkte GPU-Zugriffe gedacht. Kioxia zeigt erste SSD-Ableger für Server.",
+    "url": "https://www.heise.de/news/Kioxias-XL-Flash-kommt-mit-10-Millionen-IOPS-11400139.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/3/7/6/3/9/FMS26_KIOXIA_BOS_GP1_wlabels-d13053215eca9900.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Alpamayo 2 Super: Nvidia gibt offenes KI-Modell für autonome Fahrzeuge frei",
+    "date": "2026-08-05",
+    "category": "Industrie",
+    "description": "Nvidia stellt das KI-Modell Alpamayo 2 Super für autonome Fahrzeuge ab sofort für die kommerzielle Nutzung bereit. Es soll vor allem komplexe Verkehrssituationen bewälti­gen, indem es Wahrnehmung, Schlussfolgerung und...",
+    "url": "https://www.computerbase.de/news/mobilitaet/alpamayo-2-super-nvidia-gibt-offenes-ki-modell-fuer-autonome-fahrzeuge-frei.98720/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "HWiNFO 8.51: VRAM-Temperaturen pro Chip für GeForce und Radeon auslesen",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Überwachungstools für Grafikkarten haben in den letzten Wochen einen Schritt nach vorne gemacht. So können die GPU-Hotspot-Temperaturen auf GeForce RTX 5000 nun ausgelesen werden. Der Sensor an sich war zwar nie weg,...",
+    "url": "https://www.computerbase.de/news/apps/hwinfo-8-51-vram-temperaturen-pro-chip-fuer-geforce-und-radeon-auslesen.98719/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Anzeige: Schnelle externe SSD mit 512 GByte von Lexar günstig wie nie",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Die noch relativ neue Lexar ES3 SSD mit 512 GByte ist bei Amazon zum neuen Tiefstpreis im Angebot. Auch größere Modelle sind erhältlich. (Speichermedien, USB-Festplatte)",
+    "url": "https://www.golem.de/news/anzeige-schnelle-externe-ssd-mit-512-gbyte-von-lexar-guenstig-wie-nie-2608-211643.html",
+    "image": "https://www.golem.de/2608/211643-591668-591666_rc.jpg",
     "source": "Golem"
+  },
+  {
+    "title": "Anzeige: Samsung 990 Pro 2TB SSD mit Heatsink bei Amazon zum aktuell besten Preis von 299 Euro",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Die Samsung 990 Pro mit Heatsink erreicht bis zu 7.450 MB/s und ist mitten in der Speicherkrise bei Amazon günstiger als überall sonst. (Technik/Hardware, Speichermedien)",
+    "url": "https://www.golem.de/news/anzeige-samsung-990-pro-2tb-ssd-mit-heatsink-bei-amazon-zum-aktuell-besten-preis-von-299-euro-2608-211628.html",
+    "image": "https://www.golem.de/2608/211628-591579-591577_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "[PLUS] Spielbar ist nicht gleich gut: Was man mit einem Low-End-PC wirklich verpasst",
+    "date": "2026-08-05",
+    "category": "Software",
+    "description": "Weshalb in potente Hardware investieren, wenn es schon mit einem Budget-PC und ein paar Anpassungen flüssig läuft? Wir prüfen, um wie viel besser aktuelle Spiele auf einem leistungsstarken Gaming-PC laufen und aussehe...",
+    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/Specials/Hi-Fi-Gaming-in-4K-is-better-Ryzen-7900X-Benchmarks-1548496/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/ARC-Raiders-Hi-fi-Gaming-Screenshot-Overlay-1--pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Korea. IL-2 Series startet mit schicker Grafik und 24 GiB RAM als Mindestanforderung",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Korea. IL-2 Series ist der jüngste Spross der etablierten militärischen Flugsimulation. In den 1950er-Jahren steigen Sie in Cockpits von Propellermaschinen sowie Jets und erobern mit schicker Grafik die Lüfte – 24 GiB...",
+    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/News/Korea-IL-2-Series-Flightsim-Release-Systemanforderungen-1550334/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/IL-2-Korea-1--pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "12VHPWR gekühlt: Neue RTX-5000-Karten von Gigabyte gegen schmorende Stecker",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Die Infinity-Serie von Gigabyte war schon in Form der RTX 5090 seltsam und außergewöhnlich, mit den kleineren Nvidia-Modellen verbaut der Hersteller nun einen Steckerkühler für den umstrittenen 12VHPWR- bzw. 12+4-Pol-...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Gigabyte-RTX-5000-Infinity-Steckerkuehler-1550331/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/RTX-5000-Infinity-Stecker-Kuehler-1--pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "500 Grafikkarten im Stromcheck: Das und mehr in PCGH 09/2026",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Die PCGH-Ausgabe 09/2026 bündelt rund 800 Verbrauchsmessungen zu 500 Grafikkarten, erzählt die Geschichte von ATI und prüft den Ryzen 7 5800X3D als AM4-Upgrade. Dazu kommen sechs CPU-Wasserkühler, EXPO ULL, Valves Ste...",
+    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-09-2026-Magazin-311-DVD-Download-PDF-1549887/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Ryzen 7 7700X3D - 1 vs. 2 RAM-Riegel mit 32 GiB: Ist Single-Channel-Betrieb möglich?",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Wir haben überprüft, was Single-Channel an Performance kosten kann, dabei jedoch auch die Speichermenge halbiert. Nun liefern wir einen Vergleich bei identischer Kapazität mit einem Ryzen 7 7700X3D.",
+    "url": "https://www.pcgameshardware.de/Ryzen-7-7700X3D-CPU-285809/Specials/Single-Channel-RAM-Benchmark-Performance-1550320/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/BG3-frames-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "Windows 11 26H2: Microsoft aktiviert Cloud-Backups automatisch",
+    "date": "2026-08-05",
+    "category": "Software",
+    "description": "Windows 11 26H2 fällt klein aus, bringt aber zwei wichtige Standardänderungen mit: Cloud-Backups und die Systemwiederherstellung werden künftig automatisch aktiviert.",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-26H2-Cloud-Backup-standard-aktiviert-1550360/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/10/ms-windows11-Hero_Image-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "Asus ROG Swift OLED mit 500 Hz: Hersteller widerspricht sich beim Panel",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Asus ROG Swift OLED PG27AQDPR: Neuer Gaming-Monitor mit 500 Hz wirft Fragen zum Panel-Typ auf. Kommt der Monitor mit einem QD-OLED-Panel der dritten Generation oder mit einem Tandem-QD-OLED-Panel?",
+    "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/News/Neuer-Gaming-Monitor-von-Asus-gelistet-1550359/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Asus_ROG_Swift_OLED_PG27AQDPR-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "AMD wächst um 50 Prozent, aber das Gaming-Geschäft bricht um 31 Prozent ein",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "AMD meldet für Q2 2026 einen Rekordumsatz von 11,5 Milliarden US-Dollar. Epyc, Instinct und Ryzen wachsen kräftig. Gaming verliert derweil 31 Prozent, wobei Radeon nicht einmal der Grund dafür ist.",
+    "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/AMD-Quartalszahlen-Q2-2026-Bericht-Wachstum-Gaming-Einbruch-1550362/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/AMD-Quartalszahlen-Q2-2026-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "NVMe 2.4: SSD-Standard wird quantensicher, die Hardware muss folgen",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "NVM Express hat am 4. August 2026 alle elf NVMe-Spezifikationen auf Stand 2.4 gehoben und dabei Post-Quanten-Kryptografie im Protokoll verankert. Für Endkunden ändert sich vorerst nichts: Kein käufliches Laufwerk behe...",
+    "url": "https://www.pcgameshardware.de/SSD-Hardware-255552/News/NVMe-2-4-Post-Quanten-Kryptografie-Spezifikation-1550348/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Samsung-SSD-Gaming-2-TB-Bestpreis-befristet-Angebot-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Heatkiller V & Delta Mate MPII: Watercool & Thermal Grizzly vs. vier weitere AM5-Wasserkühler [Video-Update: der8auer...",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Jetzt aktualisiert: Der Sommer ist heiß, die CPU soll kühl bleiben und zwei deutsche Hersteller versprechen die perfekte Lösung. Wir testen ihre neuen Wasserkühlblöcke sowie vier bewährte Modelle.",
+    "url": "https://www.pcgameshardware.de/Wasserkuehlung-Hardware-217994/Tests/AM5-Watercool-Heatkiller-V-Thermal-Grizzly-Delta-Mate-MPII-1548868/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/HeatkillerVUltra-versus-DeltaMateMPII_Aufmacher2-mittel-2pcgh-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Fix ist da: TensorRT 11.2.1 behebt Leistungsproblem auf RTX Pro 6000 Blackwell [Update]",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Jetzt aktualisiert: TensorRT 11.2.1 beseitigt mehrere Probleme auf Nvidias Blackwell-Architektur. Eines davon hat einzelne FP16-Netzwerke auf einer RTX-Pro-GPU erheblich ausgebremst.",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Nvidia-TensorRT-11-2-1-Blackwell-45-Prozent-Leistungsverlust-Fix-1550124/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Blackwell-GPU-bis-zu-45-Prozent-langsamer-Fix-ist-da-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "(PR) Silicon Motion Unveils MonTitan SSD Reference Design Kit at FMS 2026",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Silicon Motion Technology Corporation (NasdaqGS: SIMO), a global leader in designing and marketing NAND flash controllers for solid-state storage devices, today unveiled its new MonTitan SSD Reference Design Kit (RDK)...",
+    "url": "https://www.techpowerup.com/351398/silicon-motion-unveils-montitan-ssd-reference-design-kit-at-fms-2026",
+    "image": "https://www.techpowerup.com/img/KWZ67noDna8QlHNk.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Sandisk Reports Fiscal Fourth Quarter 2026 Financial Results",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Sandisk Corporation (Nasdaq: SNDK) today reported fiscal fourth quarter financial results. \"We closed fiscal 2026 with a leading technology portfolio, established datacenter as a key growth pillar, and deepened our cu...",
+    "url": "https://www.techpowerup.com/351395/sandisk-reports-fiscal-fourth-quarter-2026-financial-results",
+    "image": "https://www.techpowerup.com/img/j1janLDmBYMqlaZp.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "While Everyone's Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "date": "2026-08-05",
+    "category": "Software",
+    "description": "OpenAI, Anthropic, and Google all pushed major updates to their coding models, Cursor just crossed $1 billion in annual recurring revenue, and developers are embracing AI at an increasing rate. Underneath all the hype...",
+    "url": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
+    "image": "https://www.techpowerup.com/img/da7TMpKc5X9bVtOF.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) WD Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
+    "date": "2026-08-05",
+    "category": "Software",
+    "description": "Western Digital Corporation (Nasdaq: WDC) today reported fiscal fourth quarter and fiscal year 2026 financial results for the period ended July 3, 2026. \"WD concluded fiscal year 2026 with strong performance. In our f...",
+    "url": "https://www.techpowerup.com/351394/wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
+    "image": "https://www.techpowerup.com/img/JuuSChjMh3WyDBcS.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) ESS Technology Unveils the SABRE ES9292PRO Audio Codec",
+    "date": "2026-08-05",
+    "category": "Software",
+    "description": "ESS Technology, Inc., a leading provider of high-performance audio semiconductors, today announced the ES9292PRO, a fully integrated audio SMART CODEC designed for applications that demand the highest levels of signal...",
+    "url": "https://www.techpowerup.com/351393/ess-technology-unveils-the-sabre-es9292pro-audio-codec",
+    "image": "https://www.techpowerup.com/img/K1fyEkHPg2rUPYO9.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Apple Scrambles for DRAM, CXMT Reportedly Rejects Negotiations",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Apple is one of the largest supply chain operators in the world, maintaining a vast network of suppliers and manufacturing capacity. However, even a company of its stature is struggling amid the current DRAM shortage....",
+    "url": "https://www.techpowerup.com/351391/apple-scrambles-for-dram-cxmt-reportedly-rejects-negotiations",
+    "image": "https://www.techpowerup.com/img/p4W2hlW22SVgXDoX.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Own Microsoft Office Professional 2021 for Windows for Just $33",
+    "date": "2026-08-05",
+    "category": "Software",
+    "description": "If you prefer buying software outright instead of paying recurring subscription fees, Microsoft Office Professional 2021 for Windows is available for $32.97 through Aug. 9 (MSRP $219.99). The license provides lifetime...",
+    "url": "https://www.techpowerup.com/351314/own-microsoft-office-professional-2021-for-windows-for-just-usd-33",
+    "image": "https://www.techpowerup.com/img/g9KecHQWNNdQtNYY.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Electronic Arts, the World's Largest Game Studio, Officially Goes Private",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Electronic Arts is officially back to private ownership after nearly 36 years in the public markets. If readers recall, in September 2025, EA announced that the company would be going private again under a consortium...",
+    "url": "https://www.techpowerup.com/351386/electronic-arts-the-worlds-largest-game-studio-officially-goes-private",
+    "image": "https://www.techpowerup.com/img/67ZkcmIt6M3eajlU.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Huawei MateBook Pro Arrives with Kirin X90 Plus SoC and $1,480 Price Tag",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Huawei has just unveiled its latest MateBook Pro laptop, featuring a homegrown processor, operating system, and a fully integrated experience. Priced at 9,999 RMB for the base model with 24 GB of RAM and a 512 GB SSD,...",
+    "url": "https://www.techpowerup.com/351388/huawei-matebook-pro-arrives-with-kirin-x90-plus-soc-and-usd-1-480-price-tag",
+    "image": "https://www.techpowerup.com/img/SZvyaEsROl527bec.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
+    "date": "2026-08-05",
+    "category": "Markt",
+    "description": "DropReference, a PC hardware comparison and build-planning platform attracting more than 200,000 unique visitors each month, is officially expanding to the United States. Already established among European PC builders...",
+    "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
+    "image": "https://www.techpowerup.com/img/UJbkD4amCaPtXXES.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) NEO Semiconductor Launches NEO.AI Memory Platform",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "NEO Semiconductor, a leading innovator in advanced AI and memory technologies, today announced the launch of NEO.AI, its next-generation AI memory platform designed to solve the two most significant memory bottlenecks...",
+    "url": "https://www.techpowerup.com/351383/neo-semiconductor-launches-neo-ai-memory-platform",
+    "image": "https://www.techpowerup.com/img/jDUClKCGyx9DGJKH.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Microsoft Is Quietly Deleting 32 GB RAM Recommendation for Windows 11",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Microsoft is retroactively removing documentation from its website and materials that mention 32 GB of RAM as a recommendation for new PC builds or purchases. Instead, the company is now emphasizing 8 GB devices that...",
+    "url": "https://www.techpowerup.com/351384/microsoft-is-quietly-deleting-32-gb-ram-recommendation-for-windows-11",
+    "image": "https://www.techpowerup.com/img/ir3o3JgSBEpITeXd.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Corsair Welcomes Trak Racer to the Fanatec Family",
+    "date": "2026-08-05",
+    "category": "Software",
+    "description": "Corsair, a leading global maker of high-performance gear for gamers, streamers, content creators, PC builders and sim racing enthusiasts, today announced it has acquired the assets of Trak Racer, a global designer and...",
+    "url": "https://www.techpowerup.com/351382/corsair-welcomes-trak-racer-to-the-fanatec-family",
+    "image": "https://www.techpowerup.com/img/pELxANw2KnCuPTnt.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Corsair Expands Its Everyday Gaming Lineup with Versatile Keyboards and an Ergonomic Wireless Mouse",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Corsair, a leading global developer and manufacturer of high-performance gear and technology for gamers, content creators, and PC enthusiasts, today announced three new additions to its everyday gaming lineup, the Ski...",
+    "url": "https://www.techpowerup.com/351381/corsair-expands-its-everyday-gaming-lineup-with-versatile-keyboards-and-an-ergonomic-wireless-mouse",
+    "image": "https://www.techpowerup.com/img/37pN6OB8QveLdam9.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Samsung Continues DRAM Market Share Lead, Micron Is Catching Up, Notes Report",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "According to Counterpoint Research's Global Memory Tracker update for the second quarter of 2026, memory manufacturers are adjusting their share of the global DRAM revenue. The report highlights that South Korean memo...",
+    "url": "https://www.techpowerup.com/351380/samsung-continues-dram-market-share-lead-micron-is-catching-up-notes-report",
+    "image": "https://www.techpowerup.com/img/ouxFnDjVl8XjGOcB.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Chieftec Announces Iceberg PRO Series All-in-One Liquid CPU Coolers",
+    "date": "2026-08-05",
+    "category": "Hardware",
+    "description": "Chieftec is excited to introduce the Iceberg PRO Series, our new flagship 360 mm all-in-one CPU liquid cooler, available in both ARGB and Black editions. Unlike conventional AIO coolers, the Iceberg PRO features an in...",
+    "url": "https://www.techpowerup.com/351377/chieftec-announces-iceberg-pro-series-all-in-one-liquid-cpu-coolers",
+    "image": "https://www.techpowerup.com/img/bvxa0VpT4Yim5z55.jpg",
+    "source": "TechPowerUp"
   },
   {
     "title": "(PR) Silicon Motion Showcases Next-Generation Storage Solutions for Agentic AI Applications at FMS 2026",
@@ -27,10 +369,10 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "Top 10: Die beste Gaming-Tastatur im Test – für Shooter, RPGs & Co.",
+    "title": "Top 10: Die beste Gaming-Tastatur im Test",
     "date": "2026-08-04",
     "category": "Hardware",
-    "description": "Gaming-Tastaturen haben besondere Anforderungen. Wir zeigen die besten Keyboards mit mechanischen und magnetischen Switches aus über 30 Tests.",
+    "description": "Besondere Anforderungen. Wir zeigen die besten Gaming-Tastaturen mit mechanischen und magnetischen Switches.",
     "url": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-gaming-tastatur-im-test-fuer-shooter-rpgs-und-co/gj64hls?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
     "image": null,
     "source": "Heise"
@@ -54,15 +396,6 @@
     "source": "Heise"
   },
   {
-    "title": "Bit-Rauschen: AMD startet den Nvidia-Angriff und probabilistische Prozessoren",
-    "date": "2026-08-04",
-    "category": "Industrie",
-    "description": "AMD schickt das KI-System Helios ins Rennen gegen Nvidia Vera Rubin NVL72. Mehrere Teams entwickeln ungenaue, aber effiziente Rechner. Die Raspi-Aktie hebt ab.",
-    "url": "https://www.heise.de/hintergrund/Bit-Rauschen-AMD-startet-den-Nvidia-Angriff-und-probabilistische-Prozessoren-11338822.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/3/7/3/9/Aufmacher-Prozessorkolumne_Bitrauschen-734272370c8cda6c.jpeg",
-    "source": "Heise"
-  },
-  {
     "title": "Software Testing: Vibe Coding und das fehlende Systemverständnis in der Praxis",
     "date": "2026-08-04",
     "category": "Software",
@@ -79,105 +412,6 @@
     "url": "https://www.computerbase.de/artikel/notebooks/tuxedo-infinitybook-max-15-gen10-linux-test.97114/",
     "image": null,
     "source": "ComputerBase"
-  },
-  {
-    "title": "Anzeige: Portable Gaming-Monitor mit 144 Hz für unter 120 Euro bei Amazon",
-    "date": "2026-08-04",
-    "category": "Angebote",
-    "description": "Amazon verkauft den Arzopa Z1FC für unter 120 Euro. Abgesehen von exklusiven Prime-Angeboten war er nie günstiger als jetzt. (TV & Monitore, Display)",
-    "url": "https://www.golem.de/news/anzeige-portable-gaming-monitor-mit-144-hz-fuer-unter-120-euro-bei-amazon-2608-211600.html",
-    "image": "https://www.golem.de/2608/211600-591445-591443_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Anzeige: Mechanische Gaming-Tastatur für nur 35,67 Euro bei Amazon",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Eine mechanische Gaming-Tastatur mit roten Schaltern, programmierbaren Tasten und Beleuchtungseffekten gibt es bei Amazon zum Sparpreis. (Technik/Hardware)",
-    "url": "https://www.golem.de/news/anzeige-mechanische-gaming-tastatur-fuer-nur-35-67-euro-bei-amazon-2608-211588.html",
-    "image": "https://www.golem.de/2608/211588-591397-591395_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "High Bandwidth Flash: SK Hynix und Sandisk spezifizieren 3 TB/s für KI",
-    "date": "2026-08-04",
-    "category": "Markt",
-    "description": "SK Hynix hat gemeinsam mit Sandisk zum Start der FMS 2026 in Santa Clara den ersten HBF-Standard veröffentlicht: bis zu 512 GiB je Stapel bei 0,4 bis 3,0 TB/s. Der KI-Markt greift damit noch tiefer in die NAND-Fertigu...",
-    "url": "https://www.pcgameshardware.de/SSD-Hardware-255552/News/High-Bandwidth-Flash-HBF-Standard-SK-Hynix-Sandisk-3-TByte-s-1550315/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/Sandisk_HBF_Speicher-1--pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "Via - der nächste CPU-Gigant und EOL ist \"eol\" (PCGH-Retro, 05. August)",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Via - der nächste CPU-Gigant? Das geschah am 5. August beinahe. Jeden Tag wirft PC Games Hardware einen Blick zurück in die noch junge, aber bewegte Geschichte des Computers.",
-    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/News/Via-der-naechste-CPU-Gigant-PCGH-Retro-05-August-654528/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2009/08/winchip.JPG",
-    "source": "PCGH"
-  },
-  {
-    "title": "Mainboards vor Preissprung: Asus, Gigabyte und MSI erhöhen im Q3 2026",
-    "date": "2026-08-04",
-    "category": "Industrie",
-    "description": "Asus, Gigabyte und MSI wollen die Preise für Mainboards laut Board Channels noch im dritten Quartal 2026 anheben. Signifikant teurer geworden sind vor allem Leiterplatten, Kupfer und Kondensatoren. Wer aufrüsten will,...",
-    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/Preise-Asus-Gigabyte-MSI-Erhoehung-Q3-2026-1550314/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/MOTHERBOARD-PRICE-UPDATE-1536x911-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS] 360er-AiO-Wasserkühlungen im Test: Teure bis günstige Modelle diverser Hersteller",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Wir schicken 360-mm-Kompaktwasserkühlungen durch unseren lautheitsnormierten Testparcours. Von günstig bis teuer prüfen wir acht verschiedene Kühlsysteme auf Herz und Nieren.",
-    "url": "https://www.pcgameshardware.de/Kompaktwasserkuehlung-Hardware-267963/Specials/360-mm-AiO-Test-Corsair-Weiss-Preis-1471604/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2025/08/360er-Tabelle-mit-Awards-pcgh.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "Herrlich „dumm“: Doom läuft jetzt auch in Microsoft Paint",
-    "date": "2026-08-04",
-    "category": "Software",
-    "description": "Die Machbarkeitsstudie hört wohl nie auf: Doom läuft jetzt auch über MS Paint. Azure-CTO Mark Russinovich nutzt die Windows-Zwischenablage als Bildausgabe. Bis zu 35 Fps sind möglich, der Bildverlauf lässt sich per St...",
-    "url": "https://www.pcgameshardware.de/Doom-Classic-Spiel-55785/News/MS-Paint-Mark-Russinovich-1550188/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/DoomPaintAIEdit-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11: Netzwerkfehler löst Sicherheitswarnung aus",
-    "date": "2026-08-04",
-    "category": "Software",
-    "description": "Windows 11 hat Dateien aus dem internen Netzwerk unter bestimmten Umständen wie Downloads aus dem Internet behandelt. Microsoft verteilt inzwischen eine Korrektur für den Fehler.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/11-Netzwerkdateien-Internetdownloads-Mark-of-the-Web-Fehler-1550220/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Windows-11-Fehler-loest-falsche-Datei-Warnung-aus-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "500 Grafikkarten im Stromcheck: Das und mehr in PCGH 09/2026",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Die PCGH-Ausgabe 09/2026 bündelt rund 800 Verbrauchsmessungen zu 500 Grafikkarten, erzählt die Geschichte von ATI und prüft den Ryzen 7 5800X3D als AM4-Upgrade. Dazu kommen sechs CPU-Wasserkühler, EXPO ULL, Valves Ste...",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-09-2026-Magazin-311-DVD-Download-PDF-1549887/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Mainboard-Upgrade: Karte mit 4× M.2, USB 3.2 und SATA für 105 Euro lieferbar",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Lekuo aus China hat eine Erweiterungskarte veröffentlicht, die laut Hersteller jede Platine mit ×4-Slot um multiple M.2-Steckplätze, USB 3.2, mehrere USB-3.1-Anschlüsse und viermal SATA erweitert – zu einem bezahlbare...",
-    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/Quad-M2-und-USB-3-2-fuer-jedes-Mainboard-via-Add-in-Card-1550235/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/1785486150343-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11 unter Spionageverdacht: Microsoft erklärt den Hintergrunddienst",
-    "date": "2026-08-04",
-    "category": "Software",
-    "description": "Ein Beitrag auf X über einen vermeintlichen neuen Windows-11-Dienst ging viral. Nun meldete sich Microsoft und erklärte das Tool.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/11-Spionageverdacht-Hintergrunddienst-1550243/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/08/ms-windows-verschiedene-geraete-pcgh.webp",
-    "source": "PCGH"
   },
   {
     "title": "Nächste Preisstufe gezündet: Grafikkarten werden immer teurer",
@@ -214,239 +448,5 @@
     "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/69921-auch-amd-zieht-die-preisen-an-radeon-grafikkarten-werden-teurer.html",
     "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/Feb/suave_memory_r8/radeon-amd-rx-9070_000_680px.jpg",
     "source": "HardwareLuxx"
-  },
-  {
-    "title": "ACEMAGIC Matrix M1 im Angebot: Mini-PC mit Ryzen 7 und 24 GB RAM für 431 Euro",
-    "date": "2026-08-04",
-    "category": "Angebote",
-    "description": "Advertorial / AnzeigeDer ACEMAGIC Matrix Mini M1 ist aktuell bei Amazon erheblich im Preis reduziert.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/komplettsysteme/69902-acemagic-matrix-m1-im-angebot-mini-pc-mit-ryzen-7-und-24-gb-ram-fuer-431-euro.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jul/peppy_blockchain_di/acermagic_matrix_mini_m1_review_00_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Windows 11 muss abnehmen: WinUI 3 soll wieder mehr RAM freigeben",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Windows 11 muss abspecken. Dieser Ansicht ist auch Microsoft und will daher sein Betriebssystem in den kommenden Monaten spürbar effizienter machen.",
-    "url": "https://www.hardwareluxx.de/index.php/news/software/betriebssysteme/69913-windows-11-muss-abnehmen-winui-3-soll-wieder-mehr-ram-freigeben.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2023/Jan/sharp_memory_da/windows_11_680px.png",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "(PR) AMD Reports Second Quarter 2026 Financial Results",
-    "date": "2026-08-04",
-    "category": "Industrie",
-    "description": "AMD (NASDAQ:AMD) today announced financial results for the second quarter of 2026. Second quarter revenue was $11.5 billion, gross margin was 54%, operating income was $2.0 billion, net income was $2.3 billion and dil...",
-    "url": "https://www.techpowerup.com/351370/amd-reports-second-quarter-2026-financial-results",
-    "image": "https://www.techpowerup.com/img/jPVLPOsRJbxJGqAp.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "While Everyone's Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "date": "2026-08-04",
-    "category": "Software",
-    "description": "OpenAI, Anthropic, and Google all pushed major updates to their coding models, Cursor just crossed $1 billion in annual recurring revenue, and developers are embracing AI at an increasing rate. Underneath all the hype...",
-    "url": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "image": "https://www.techpowerup.com/img/da7TMpKc5X9bVtOF.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Samsung Unveils Next-Gen 3D-Memory Vision at FMS 2026",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Samsung Electronics a global leader in advanced memory technology, today showcased its latest AI memory innovations at Future of Memory and Storage (FMS) 2026 in Santa Clara, California. With broad expertise spanning...",
-    "url": "https://www.techpowerup.com/351366/samsung-unveils-next-gen-3d-memory-vision-at-fms-2026",
-    "image": "https://www.techpowerup.com/img/5bYL3KygjdsPIkjh.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "OpenMouse: Open-Source Mouse Control Panel Announced With Logitech HITS Support Incoming",
-    "date": "2026-08-04",
-    "category": "Software",
-    "description": "OpenMouse is a new hardware-agnostic, open-source, browser-based control panel for gaming mice that aims to support a host of gaming mice that would otherwise require installing software in order to change things like...",
-    "url": "https://www.techpowerup.com/351361/openmouse-open-source-mouse-control-panel-announced-with-logitech-hits-support-incoming",
-    "image": "https://www.techpowerup.com/img/6Y934h13Dx7RqcHo.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GIGABYTE Reportedly Hikes GPU Pricing by Up to 40% in Japan",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "GIGABYTE is reportedly implementing a round of GPU price hikes ranging from 20% to 40%, depending on the model. According to Japanese hardware distributor CFD-BIZ, these price increases have been officially in effect...",
-    "url": "https://www.techpowerup.com/351362/gigabyte-reportedly-hikes-gpu-pricing-by-up-to-40-in-japan",
-    "image": "https://www.techpowerup.com/img/EcUoZuzx4yIOP9ah.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Own Microsoft Office Professional 2021 for Windows for Just $33",
-    "date": "2026-08-04",
-    "category": "Software",
-    "description": "If you prefer buying software outright instead of paying recurring subscription fees, Microsoft Office Professional 2021 for Windows is available for $32.97 through Aug. 9 (MSRP $219.99). The license provides lifetime...",
-    "url": "https://www.techpowerup.com/351314/own-microsoft-office-professional-2021-for-windows-for-just-usd-33",
-    "image": "https://www.techpowerup.com/img/g9KecHQWNNdQtNYY.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "EU Pressures Apple Into Universal Clipboard for Compatibility With Windows",
-    "date": "2026-08-04",
-    "category": "Software",
-    "description": "Apple is once again complying with the rules of the European Union, as the company is now developing a universal copy and paste system to transfer text directly from an iPhone to a Windows-based PC. Under the EU Digit...",
-    "url": "https://www.techpowerup.com/351358/eu-pressures-apple-into-universal-clipboard-for-compatibility-with-windows",
-    "image": "https://www.techpowerup.com/img/SlVXtmty0LgJC42m.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Marvell Introduces Bravera SC6 SSD Controller for PCIe Gen 6 NVMe SSDs",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "As PCIe Gen 6 storage becomes increasingly important for AI infrastructure, cloud platforms, enterprise databases, and hyperscale data centers, SSD controllers must deliver significantly more than raw bandwidth. They...",
-    "url": "https://www.techpowerup.com/351356/marvell-introduces-bravera-sc6-ssd-controller-for-pcie-gen-6-nvme-ssds",
-    "image": "https://www.techpowerup.com/img/vAQDcaizlBBPKex5.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Kioxia and Sandisk Unveil 10th-Gen 332-Layer QLC NAND with 4.8 Gb/s Interface Speeds",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Kioxia Corporation, a subsidiary of Kioxia Holdings Corporation (TOKYO: 285A) and Sandisk Corporation (Nasdaq: SNDK) today unveiled their next-generation Quad-Level-Cell (QLC) 3D flash memory technology, which deliver...",
-    "url": "https://www.techpowerup.com/351353/kioxia-and-sandisk-unveil-10th-gen-332-layer-qlc-nand-with-4-8-gb-s-interface-speeds",
-    "image": "https://www.techpowerup.com/img/IVBzacXcro81UtAt.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) HighPoint Launches Rocket 7602L Bootable Dual-Port PCIe Gen 5 M.2 Add-In-Card",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "HighPoint Technologies, Inc., a leading provider of high-speed, high-density PCIe storage and connectivity solutions, has launched the newest member of their comprehensive NVMe RAID Product Family, the Rocket 7602L, a...",
-    "url": "https://www.techpowerup.com/351351/highpoint-launches-rocket-7602l-bootable-dual-port-pcie-gen-5-m-2-add-in-card",
-    "image": "https://www.techpowerup.com/img/o5DPBf9QXQOnkA7g.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Nothing Announces the CMF Clip Pro Open-ear Earbuds",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Designed to deliver a listening experience that feels as natural as it sounds. Built for people who move through busy cities, long workdays and active lifestyles, Clip Pro combines an ergonomic open-ear design with im...",
-    "url": "https://www.techpowerup.com/351352/nothing-announces-the-cmf-clip-pro-open-ear-earbuds",
-    "image": "https://www.techpowerup.com/img/uFkPDUwY0OLmKNNA.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "CXMT Enters LPDDR6 Risk Production with 12.8 Gbps Memory Chips",
-    "date": "2026-08-04",
-    "category": "Industrie",
-    "description": "We have seen numerous reports about Chinese memory giant CXMT and its production. The company has now reportedly entered risk production of the latest LPDDR6 memory, reaching parity with Samsung, SK hynix, and Micron...",
-    "url": "https://www.techpowerup.com/351350/cxmt-enters-lpddr6-risk-production-with-12-8-gbps-memory-chips",
-    "image": "https://www.techpowerup.com/img/4ABcrEY1NV2nNA3p.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Microchip Partners with Micron to Showcase High-Performance PCIe Gen 6 Storage Architecture",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Microchip Technology (Nasdaq: MCHP) today announced a demonstration showcasing an end‑to‑end PCIe Gen 6 storage architecture, combining Microchip's Switchtec PCIe Gen 6 switches with high-performance Micron 9650 NVMe...",
-    "url": "https://www.techpowerup.com/351349/microchip-partners-with-micron-to-showcase-high-performance-pcie-gen-6-storage-architecture",
-    "image": "https://www.techpowerup.com/img/9MwJT4yTLTjNzNnJ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) NVM Express Publishes Set of NVMe Specifications Enhancing Security, Manageability and Sustainability",
-    "date": "2026-08-04",
-    "category": "Software",
-    "description": "NVM Express, Inc. today announced the release of all 11 of the NVM Express (NVMe) specifications, incorporating new features and engineering change notices (ECNs). These updates represent the next step in the evolutio...",
-    "url": "https://www.techpowerup.com/351348/nvm-express-publishes-set-of-nvme-specifications-enhancing-security-manageability-and-sustainability",
-    "image": "https://www.techpowerup.com/img/ZENg974tj0mr1zAO.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Lekuo Launches B650 Chipset Add-in Card for I/O Expansion",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Lekuo, an add-in card manufacturer that produces just about any add-in card you can think of, has released what they call the SouthBridge Max PCIe 4.0 Multi-Function Expansion Card or PB65MX3. We found out about this...",
-    "url": "https://www.techpowerup.com/351347/lekuo-launches-b650-chipset-add-in-card-for-i-o-expansion",
-    "image": "https://www.techpowerup.com/img/hS0ahq5jud49Eetm.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Akko Celebrates 10th Anniversary with New European Products and IFA 2026 Showcase",
-    "date": "2026-08-04",
-    "category": "Industrie",
-    "description": "Ten years ago, Akko believed that great peripherals should be more than tools. They should connect productivity, creativity, and personal expression. Over the past decade, desktop life has evolved. As work, gaming, cr...",
-    "url": "https://www.techpowerup.com/351346/akko-celebrates-10th-anniversary-with-new-european-products-and-ifa-2026-showcase",
-    "image": "https://www.techpowerup.com/img/dLcEus2YBZk0Suve.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
-    "date": "2026-08-04",
-    "category": "Markt",
-    "description": "Nextorage Japan announced the NX-F2AE series of SDXC UHS-II memory cards for professional video creators and high-res, high-bitrate recording. The new memory cards meet Video Speed Class V90 specifications, offering a...",
-    "url": "https://www.techpowerup.com/351345/nextorage-releases-nx-f2ae-v90-sdxc-uhs-ii-memory-cards",
-    "image": "https://www.techpowerup.com/img/bTGfbRw898Yp5NlH.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Memory Makers Seal 2027 Deals: No Room for New Buyers",
-    "date": "2026-08-04",
-    "category": "Angebote",
-    "description": "According to DigiTimes, industry insiders are now claiming that the entire memory production capacity for 2027 has been fully booked, well ahead of the schedule the industry expected. All of the big three memory maker...",
-    "url": "https://www.techpowerup.com/351344/memory-makers-seal-2027-deals-no-room-for-new-buyers",
-    "image": "https://www.techpowerup.com/img/EgE8B8H0yfy2EEaL.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Gigabyte Brings Flagship Power to Enthusiast PC Builds and Local AI with AORUS P1600W",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Following its unveiling at COMPUTEX 2026, GIGABYTE, the world's leading computer brand, today officially launched the AORUS P1600W 80+ Titanium Modular PCIe 5.1 AI TOP, a flagship power supply engineered for enthusias...",
-    "url": "https://www.techpowerup.com/351343/gigabyte-brings-flagship-power-to-enthusiast-pc-builds-and-local-ai-with-aorus-p1600w",
-    "image": "https://www.techpowerup.com/img/ispDBEUZLrzckbpv.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Club3D Launches First Fully-passive 9m-long USB4 Cable",
-    "date": "2026-08-04",
-    "category": "Markt",
-    "description": "Club 3D, a Dutch technology innovator specializing in advanced computer connectivity solutions since 1997, released their newest products for August. Introducing the CAC-2509 the first fully passive 9 m USB4 cable, de...",
-    "url": "https://www.techpowerup.com/351342/club3d-launches-first-fully-passive-9m-long-usb4-cable",
-    "image": "https://www.techpowerup.com/img/ogWFE7RDBlIv9imZ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Sharkoon Launches PureWriter W100 Keyboard",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Typing is more than just input - it is feel, rhythm, and precision. This is exactly where the PureWriter W100 comes in, combining the characteristic typing feel of the PureWriter series with modern gaming features and...",
-    "url": "https://www.techpowerup.com/351341/sharkoon-launches-purewriter-w100-keyboard",
-    "image": "https://www.techpowerup.com/img/mlF6Zu32g6dIfHKA.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) MSI Launches \"DRACO EPIC EDITION\" Hardware and Peripherals Suite for 40th Anniversary",
-    "date": "2026-08-04",
-    "category": "Markt",
-    "description": "At COMPUTEX 2026, MSI unveiled an exclusive product lineup to celebrate its 40th anniversary. Inspired by Draco—the legendary dragon who guarded the golden apples to become the North Star—the design embodies enduring...",
-    "url": "https://www.techpowerup.com/351340/msi-launches-draco-epic-edition-hardware-and-peripherals-suite-for-40th-anniversary",
-    "image": "https://www.techpowerup.com/img/LThAgOK1LZJVK49E.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "ASUS, GIGABYTE, and MSI to Raise Motherboard Prices in Q3",
-    "date": "2026-08-04",
-    "category": "Software",
-    "description": "Motherboard manufacturers are currently facing a challenging situation where declining sales are impacting their revenue, and rising component costs are eroding their margins. According to the latest update from Board...",
-    "url": "https://www.techpowerup.com/351339/asus-gigabyte-and-msi-to-raise-motherboard-prices-in-q3",
-    "image": "https://www.techpowerup.com/img/MmNid1AC6ZDbrR58.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Silicon Labs Unveils BG2B, its Lowest-Power Bluetooth LE SoC",
-    "date": "2026-08-04",
-    "category": "Hardware",
-    "description": "Silicon Labs, the leading innovator in low-power wireless connectivity, today announced the BG2B, its next Series 2Bluetooth Low Energy (LE) wireless SoC designed to help developers build smaller, more secure, and lon...",
-    "url": "https://www.techpowerup.com/351336/silicon-labs-unveils-bg2b-its-lowest-power-bluetooth-le-soc",
-    "image": "https://www.techpowerup.com/img/wX0DF5rGOywB59v8.jpg",
-    "source": "TechPowerUp"
   }
 ]
