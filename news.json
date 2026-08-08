@@ -1,6 +1,51 @@
 [
   {
-    "title": "Chips für Roboter und Weltall: Musks Terafab kostet 16,8 Milliarden US-Dollar",
+    "title": "Im Test vor 15 Jahren: Corsair Force GT in Ferrari-Rot zur Bestleistung",
+    "date": "2026-08-08",
+    "category": "Hardware",
+    "description": "Die Corsair Force GT (Test) war im Jahr 2011 die schnellste SSD des Herstellers. Mit einem SandForce-Controller, schnellem NAND von Micron und einer Farbauswahl, die an ein Ferrari-Rot erinnerte, wollte Corsair Kunden...",
+    "url": "https://www.computerbase.de/news/storage/im-test-vor-15-jahren-corsair-force-gt-in-ferrari-rot-zur-bestleistung.98752/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Windows 11 gegen Linux: Was CachyOS und Bazzite besser machen",
+    "date": "2026-08-08",
+    "category": "Software",
+    "description": "Linux kommt in der Steam-Umfrage vom Juli 2026 auf 4,01 Prozent, Windows 11 auf 70,26 Prozent. Wir vergleichen beide Betriebssysteme in Performance, Spielekompatibilität und Alltagstauglichkeit und sagen, für welchen...",
+    "url": "https://www.pcgameshardware.de/Linux-Software-26761/Specials/vs-Windows-11-Gaming-Vergleich-Vorteile-Nachteile-1550595/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/05/Windows-vs-Linux-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "Eine einzige Herstellerfolie zeigt, wie schlecht es um SSD-Preise steht",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Einer der größten SSD-Hersteller gibt einen Einblick in seine Langzeitverträge. Der meiste Speicher für die nächsten zwei Jahre ist schon zugewiesen.",
+    "url": "https://www.heise.de/news/Eine-einzige-Herstellerfolie-zeigt-wie-schlecht-es-um-SSD-Preise-steht-11403644.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/3/9/8/3/5/sandisk-optimus-product-family-pr-fd2790209f5ba0b2-fd2790209f5ba0b2.png",
+    "source": "Heise"
+  },
+  {
+    "title": "Proxmox jetzt auch für Arm – aber nicht auf Raspberry Pi",
+    "date": "2026-08-07",
+    "category": "Industrie",
+    "description": "Ab sofort steht die quelloffene Virtualisierungsplattform Proxmox VE 9.2 auch für Arm64-Server zur Verfügung – zunächst für Systeme mit Nvidia Grace und Vera.",
+    "url": "https://www.heise.de/news/Proxmox-jetzt-auch-fuer-Arm-aber-nicht-auf-Raspberry-Pi-11403136.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/3/9/5/8/1/Proxmox-VE-9-2-SDN-WireGuard-Fabrics-3f9b5a57d50326e1.png",
+    "source": "Heise"
+  },
+  {
+    "title": "Teurer NAND: Sandisk verfünffacht Umsatz auf fast 9 Milliarden US-Dollar",
+    "date": "2026-08-07",
+    "category": "Markt",
+    "description": "Sandisk profitiert massiv von der angespannten Lage am NAND-Markt. Im vierten Geschäftsquartal 2026 stieg der Umsatz gegenüber dem Vorjahr von 1,9 auf knapp 9 Milliarden US-Dollar. Zwei Drittel des Wachstums zum Vorqu...",
+    "url": "https://www.computerbase.de/news/wirtschaft/teurer-nand-sandisk-verfuenffacht-umsatz-auf-fast-9-milliarden-us-dollar.98751/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Terafab: Elon Musks Foundry soll größ­tes Gebäude der Welt werden",
     "date": "2026-08-07",
     "category": "Hardware",
     "description": "SpaceX und Tesla wollen zunächst 16,8 Milliarden US-Dollar in ihre gemeinsame Terafab investieren. Der Halbleiterkomplex soll im texanischen Grimes County entstehen und Chips für autonome Fahrzeuge, humanoide Roboter...",
@@ -18,31 +63,238 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Microsoft über Windows: Darum reichen 16 GiB RAM oft nicht mehr aus [Update]",
-    "date": "2026-08-07",
-    "category": "Hardware",
-    "description": "Jetzt aktualisiert: Microsoft soll 32 GiByte RAM für Windows-11-Gaming als sorgenärmere Option beschrieben haben. Das inzwischen entfernte Dokument wirft Fragen zur Speicherlast moderner PCs auf.",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/Windows-11-16-GiByte-RAM-32-GiByte-Gaming-Microsoft-1530064/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/01/Windows_11-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "Open-Source-BIOS für AM5: Nur Ryzen 8000G startet mit Dasharo v0.9.0",
+    "title": "Windows 11: Microsoft installiert absichtlich und ungefragt Onedrive-App",
     "date": "2026-08-07",
     "category": "Software",
-    "description": "3mdeb hat am 30. Juli mit Dasharo v0.9.0 die erste weitgehend quelloffene Firmware für ein modernes AM5-Mainboard veröffentlicht. Wer einen AMD Ryzen 7000 oder 9000 im Sockel hat, sollte sie nicht einspielen: Diese CP...",
-    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/Dasharo-v0-9-0-Open-Source-BIOS-AM5-Ryzen-8000G-1550495/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/05/AMD-Ryzen-X3D-pcgh.png",
+    "description": "Microsoft bestätigt, dass die automatische Installation von Onedrive Fotos gewollt ist. Entfernen lässt sich die App aktuell nicht so einfach. (Onedrive, Microsoft)",
+    "url": "https://www.golem.de/news/windows-11-microsoft-installiert-absichtlich-und-ungefragt-onedrive-app-2608-211716.html",
+    "image": "https://www.golem.de/2608/211716-592006-592004_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Speicher fehlt: TSMC sitzt auf iPhone-Chips mit Milliardenwert",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Apple kann Chips für die kommenden iPhones nicht fertigstellen. Grund sind wohl gescheiterte Verhandlungen mit einem chinesischen Speicherhersteller. (Apple, TSMC)",
+    "url": "https://www.golem.de/news/speicher-fehlt-tsmc-sitzt-auf-iphone-chips-mit-milliardenwert-2608-211699.html",
+    "image": "https://www.golem.de/2608/211699-591921-591919_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "[PLUS] Aqua Computer vs. Thermal Grizzly: Smarte 12V-2×6-Wächter im Test",
+    "date": "2026-08-07",
+    "category": "Software",
+    "description": "PCGH Plus: Der längst nicht mehr neue 12+4-Pin-GPU‑Stecker bleibt trotz Überarbeitung ein heißes Eisen. Wir testen, wie effektiv Aqua Computers Ampinel sowie Thermal Grizzlys Wireview Pro II Schwachstellen am Stecker...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Thermal-Grizzly-Wireview-Pro-2-Aqua-Computer-Ampinel-Test-12VHPWR-1527929/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/04/aufmacher_Aqua_Computer_Ampinel-pcgh.webp",
     "source": "PCGH"
   },
   {
-    "title": "RDNA 4m: Neuer Radeon-Grafikchip in Mesa 26.3 gesichtet",
+    "title": "Nvidia DGX Spark: Lüfter stoppen ohne Display – Nvidia nennt Workarounds",
     "date": "2026-08-07",
     "category": "Hardware",
-    "description": "AMD hat den Zielcode GFX1171 der Grafikarchitektur RDNA 4m am 6. August in den freien Grafikstack Mesa eingepflegt. Der Vulkan-Treiber RADV und der OpenGL-Treiber RadeonSI erkennen die unangekündigte IGP ab Mesa 26.3...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/AMD-RDNA-4m-GFX1171-Mesa-26-3-Linux-1550494/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/RDNA-4m-mit-GFX1171-pcgh.jpeg",
+    "description": "Beim DGX Spark können die Lüfter offenbar stoppen, sobald kein aktives Display vorhanden ist. Bei unbeaufsichtigten KI-Systemen können dadurch die Temperaturen steigen. Nvidia untersucht den Fehler und nennt drei Work...",
+    "url": "https://www.pcgameshardware.de/Mini-PC-Hardware-281198/News/Nvidia-DGX-Spark-Luefter-Headless-Problem-Workaround-1550586/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/DGX-Spark-Luefter-stoppen-ohne-Display-Nvidia-nennt-Workaround-pcgh.jpg",
     "source": "PCGH"
+  },
+  {
+    "title": "Noctua misst über 100 PC-Gehäuse nach: 56 weichen von Herstellerangaben ab",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Bei knappen PC-Builds entscheiden wenige Millimeter darüber, ob ein CPU-Kühler passt. Noctua hat deshalb mehr als 100 Gehäuse selbst vermessen und bei 56 Modellen relevante Abweichungen von den Herstellerangaben gefun...",
+    "url": "https://www.pcgameshardware.de/Gehaeuse-Hardware-213436/News/Noctua-Kuehlerfreiheit-Hersteller-Angaben-Abweichungen-1550556/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/03/Antex-Flux-Pro-Noctua-Edition-10--pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "500 Grafikkarten im Stromcheck: Das und mehr in PCGH 09/2026",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Die PCGH-Ausgabe 09/2026 bündelt rund 800 Verbrauchsmessungen zu 500 Grafikkarten, erzählt die Geschichte von ATI und prüft den Ryzen 7 5800X3D als AM4-Upgrade. Dazu kommen sechs CPU-Wasserkühler, EXPO ULL, Valves Ste...",
+    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-09-2026-Magazin-311-DVD-Download-PDF-1549887/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "AMD warnt vor neuer Spectre-Lücke: Zen 1 bis Zen 4 betroffen",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "AMD warnt vor einer neuen Spectre-V2-Attacke auf Zen-Prozessoren: Praktisch geknackt wurde Zen 2 unter Linux. Für Windows nennt AMD keine Maßnahme. Linux-Nutzer sollten aber jetzt aktualisieren.",
+    "url": "https://www.pcgameshardware.de/Sicherheit-Thema-229955/News/Neue-Spectre-Attacke-AMD-Linux-1550530/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/AMD-Spectre-Luecke-Aufmacher-AI-Edit-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Grafikkarten werden immer teurer: Asus und Gigabyte senden nächstes Warnsignal",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Asus und Gigabyte haben ihre Abgabepreise für nahezu das komplette Geforce- und Radeon-Sortiment im chinesischen Vertrieb im August um durchschnittlich 20 Prozent angehoben. Für Deutschland ist eine solche Runde bisla...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Preise-Asus-Gigabyte-China-August-2026-1550555/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/AUGUST-GPU-PRICE-HIKE-1-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "RTX 4090 unter Linux: NVENC-Test endet nach 15 Sekunden im Neustart",
+    "date": "2026-08-07",
+    "category": "Software",
+    "description": "Ein dokumentierter NVENC-Fehler bringt ein Linux-System mit RTX 4090 reproduzierbar zum Neustart. Belegt ist das Verhalten mit FFmpeg, drei Treiberzweigen und AV1, H.264 sowie HEVC.",
+    "url": "https://www.pcgameshardware.de/Geforce-RTX-4090-Grafikkarte-279170/News/NVENC-Linux-FFmpeg-Neustart-Fehler-1550551/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/RTX-4090-NVENC-Fehler-startet-Linux-PC-nach-15-Sekunden-neu-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS zum Reboot] Ryzen 7 5800X3D richtig ausreizen: Tuning-Guide, Subtimings optimieren, RAM-Skalierung",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Der 8-Kerner Ryzen 7 5800X3D für den Sockel AM4 mausert sich zum Liebling der PCGH-Leser. Doch wie kann man den Gaming-Boliden richtig ausreizen? Ein PCGH-Plus-Guide aus drei Einzelartikeln.",
+    "url": "https://www.pcgameshardware.de/Ryzen-7-5800X3D-CPU-278064/Specials/Tuning-Praxistipps-1407777/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2022/06/teaser_tuning-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Nach fast zehn Jahren: Intel beendet Bestellungen für letzte Skylake-CPUs",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Intel beendet heute die Bestellfrist für verbliebene Skylake- und Kaby-Lake-Chips. Für bestehende Systeme ändert sich zunächst nichts, Industriehersteller können aber keine zusätzlichen Stückzahlen mehr absichern.",
+    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/Intel-Skylake-Kaby-Lake-EOL-letzte-Bestellfrist-1550517/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Letzte-Skylake-CPUs-Intel-stoppt-neue-Bestellungen-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Nvidia warnt vor kritischer 9,0-Lücke: Manipulierte VM kann Code ausführen",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Nvidia schließt eine kritische CVSS-9,0-Lücke in Virtio-Net auf Bluefield-3. Geforce-Grafikkarten und Gaming-PCs sind nicht betroffen.",
+    "url": "https://www.pcgameshardware.de/Sicherheit-Thema-229955/News/Nvidia-warnt-Manipulierte-VM-kann-Code-ausfuehren-1550524/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Nvidia-warnt-Manipulierte-VM-kann-Code-ausfuehren-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "AMD Ryzen 7 7700X3D im Test: Die CPU des kompromisslosen Kompromisses",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Der neue Achtkerner Ryzen 7 7700X3D macht vieles richtig, ohne wirklich Neues zu bieten – und in einer Kategorie ist er sogar richtig stark. Ob das genügt, zeigt unser Test.",
+    "url": "https://www.pcgameshardware.de/Ryzen-7-7700X3D-CPU-285809/Tests/Review-Release-AM4-Preis-1550223/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/01/BENCHLAB-Schnitt-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Notruf 112 - Die Feuerwehr Simulation 3: 32 GiB RAM empfohlen - aber keine Begeisterung",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Publisher Aerosoft und Crenetic Studios aus Mülheim an der Ruhr starten mit der nächsten Feuerwehrsimulation auf Steam durch. Die wurde mit der Unreal Engine 5 entwickelt, überzeugt aber nur einen Teil der Spieler.",
+    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/News/Notruf-112-Feuerwehr-Simulation-Steam-Release-Review-32-GiB-RAM-1550487/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Notruf-112-Die-Feuerwehr-Simulation-3-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "(PR) Intel Appoints Dean Jarnac as Executive VP and Chief Sales Officer",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Intel Corporation today announced the appointment of Dean Jarnac as executive vice president and chief sales officer. Jarnac will lead Intel's global sales organization—strengthening Intel's customer relationships and...",
+    "url": "https://www.techpowerup.com/351435/intel-appoints-dean-jarnac-as-executive-vp-and-chief-sales-officer",
+    "image": "https://www.techpowerup.com/img/Cm8oiK0qNDMGUl7F.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AMD RDNA 4m iGPU Support Arrives in Open-Source Mesa GPU Driver",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "AMD's mysterious RDNA 4m integrated graphics have reappeared after a few months of silence, as the GPU has officially been merged into the Mesa 26.3 open-source driver stack. Running under the GFX1171 GPU target, this...",
+    "url": "https://www.techpowerup.com/351431/amd-rdna-4m-igpu-support-arrives-in-open-source-mesa-gpu-driver",
+    "image": "https://www.techpowerup.com/img/Ofb26XAtqMxJr7Bz.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
+    "date": "2026-08-07",
+    "category": "Markt",
+    "description": "DropReference, a PC hardware comparison and build-planning platform attracting more than 200,000 unique visitors each month, is officially expanding to the United States. Already established among European PC builders...",
+    "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
+    "image": "https://www.techpowerup.com/img/UJbkD4amCaPtXXES.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Lenovo Rises to 153 on \"Fortune Global 500\" with AI Business Growth",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Lenovo climbed 43 places to #153 on Fortune's annual Global 500 List, making it the highest ranking in the company's history and one of the most significant advances in recent years. The recognition underscores Lenovo...",
+    "url": "https://www.techpowerup.com/351432/lenovo-rises-to-153-on-fortune-global-500-with-ai-business-growth",
+    "image": "https://www.techpowerup.com/img/7xc5GwAkOhNRxIqW.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Cabletime Launches the ScreenDock 5.5-inch 720p Portable Display and Docking Station",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Cabletime, a design-driven digital connectivity brand, today announced the Kickstarter launch of Cabletime ScreenDock, an 8-in-1 USB-C docking station with an integrated 5.5-inch 720p companion display. ScreenDock is...",
+    "url": "https://www.techpowerup.com/351430/cabletime-launches-the-screendock-5-5-inch-720p-portable-display-and-docking-station",
+    "image": "https://www.techpowerup.com/img/3XbNyNcUrRDd310l.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Corsair Reports Strong Second Quarter 2026 Profit Growth and Cash Generation",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Corsair Gaming, Inc. (Nasdaq: CRSR) (\"Corsair\" or the \"Company\"), a leading global provider and innovator of high-performance products for gamers, streamers, content-creators, performance PC builders, and Sim Racing e...",
+    "url": "https://www.techpowerup.com/351429/corsair-reports-strong-second-quarter-2026-profit-growth-and-cash-generation",
+    "image": "https://www.techpowerup.com/img/SGCGGEAWy0nVUDow.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "While Everyone's Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "date": "2026-08-07",
+    "category": "Software",
+    "description": "OpenAI, Anthropic, and Google all pushed major updates to their coding models, Cursor just crossed $1 billion in annual recurring revenue, and developers are embracing AI at an increasing rate. Underneath all the hype...",
+    "url": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
+    "image": "https://www.techpowerup.com/img/da7TMpKc5X9bVtOF.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Bose Updates Its QuietComfort Headphones Series",
+    "date": "2026-08-07",
+    "category": "Software",
+    "description": "Today, Bose announced the next generation of its iconic noise-cancelling headphones, the QuietComfort Headphones (2nd Gen). Introducing a refreshed industrial design that brings a modern new look to one of the brand's...",
+    "url": "https://www.techpowerup.com/351426/bose-updates-its-quietcomfort-headphones-series",
+    "image": "https://www.techpowerup.com/img/sl18lKLW6K9z4TyW.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Attack Shark Unveils the F1 AIR 39g Flagship Gaming Mouse",
+    "date": "2026-08-07",
+    "category": "Markt",
+    "description": "Gaming peripheral brand Attack Shark has announced the upcoming launch of the F1 AIR, a new flagship ultra-lightweight gaming mouse designed for competitive esports players seeking top-tier performance, responsiveness...",
+    "url": "https://www.techpowerup.com/351425/attack-shark-unveils-the-f1-air-39g-flagship-gaming-mouse",
+    "image": "https://www.techpowerup.com/img/AT3FEp6UHD8yxHAr.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Own Microsoft Office Professional 2021 for Windows for Just $33",
+    "date": "2026-08-07",
+    "category": "Software",
+    "description": "If you prefer buying software outright instead of paying recurring subscription fees, Microsoft Office Professional 2021 for Windows is available for $32.97 through Aug. 9 (MSRP $219.99). The license provides lifetime...",
+    "url": "https://www.techpowerup.com/351314/own-microsoft-office-professional-2021-for-windows-for-just-usd-33",
+    "image": "https://www.techpowerup.com/img/g9KecHQWNNdQtNYY.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) SK hynix Invests 54 Trillion Won in Yongin Y2 and Cheongju M17 to Secure Mid-to-Long-Term Production for AI Memo...",
+    "date": "2026-08-07",
+    "category": "Industrie",
+    "description": "SK hynix Inc. announced today that it has decided to build new fabs in Yongin and Cheongju to respond to the continuously growing demand for memory in the AI era. The company approved a total investment of approximate...",
+    "url": "https://www.techpowerup.com/351422/sk-hynix-invests-54-trillion-won-in-yongin-y2-and-cheongju-m17-to-secure-mid-to-long-term-production-for-ai-memory-demand",
+    "image": "https://www.techpowerup.com/img/0FJF3Y2Xi2P2aKTh.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Gadhouse Unveils the Wesley Wired Headphones",
+    "date": "2026-08-07",
+    "category": "Hardware",
+    "description": "Audio lifestyle brand Gadhouse today announced a renewed focus on analog listening culture, led by its retro-inspired Wesley Wired On-Ear Headphones. As cassette tapes, wired audio and physical music formats continue...",
+    "url": "https://www.techpowerup.com/351420/gadhouse-unveils-the-wesley-wired-headphones",
+    "image": "https://www.techpowerup.com/img/ij71Dotr3mpnYCIx.jpg",
+    "source": "TechPowerUp"
   },
   {
     "title": "Jetzt offiziell: Anthropic entwickelt eigene KI-Chips",
@@ -108,120 +360,12 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Elon Musk: Der rassistische Geburtenkult der Tech-Elite",
-    "date": "2026-08-06",
-    "category": "Hardware",
-    "description": "Im Silicon Valley boomt eine gefährliche Idee von Selektion und Pronatalismus. Elon Musk steht an der Spitze der Bewegung. Eine Kolumne von Claudia Zettel (Tech-Bro-Watchblog, Marc Andreessen)",
-    "url": "https://www.golem.de/news/elon-musk-der-rassistische-geburtenkult-der-tech-elite-2608-211617.html",
-    "image": "https://www.golem.de/2608/211617-591530-591528_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Anzeige: Curved Gaming-Monitor mit 24'' FHD für unter 80 Euro bei Amazon",
-    "date": "2026-08-06",
-    "category": "Angebote",
-    "description": "Einen Curved Gaming-Monitor mit 24'' FHD, 160 Hz und 1 Millisekunde MPRT gibt es bei Amazon zum günstigen Angebotspreis. (TV & Monitore, Display)",
-    "url": "https://www.golem.de/news/anzeige-curved-gaming-monitor-mit-24-fhd-fuer-unter-80-euro-bei-amazon-2608-211662.html",
-    "image": "https://www.golem.de/2608/211662-591748-591746_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Digitale Souveränität: Soofi, Deutschlands Chance auf KI-Souveränität?",
-    "date": "2026-08-06",
-    "category": "Industrie",
-    "description": "Hoch bezahlt, reichlich kritisiert: War Soofi Millionen Euro Steuergeld wert? Wir fragen einen der Macher, ob die Kritik berechtigt ist. Eine Analyse von Johannes Hiltscher (Souveränität, Nvidia)",
-    "url": "https://www.golem.de/news/digitale-souveraenitaet-soofi-deutschlands-chance-auf-ki-souveraenitaet-2608-211319.html",
-    "image": "https://www.golem.de/2608/211319-590150-590148_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "[PLUS] Die besten GPU- und CPU-Paare: Prozessor und Grafikkarte perfekt kombinieren",
-    "date": "2026-08-06",
-    "category": "Hardware",
-    "description": "PCGH Plus: Welcher Prozessor passt zu welcher Grafikkarte? Lohnt sich das Upgrade oder bremst da was? Wir haben wieder Tag und Nacht gebencht, um Ihnen aktuelle Antworten auf diese Fragen zu liefern. Der Artikel stamm...",
-    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/Specials/Prozessor-und-Grafikkarte-perfekt-kombinieren-1546462/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/aufmacher_CPU-GPU_Dreamteams2026-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Macbook Neo erhöht den Druck: Windows 11 soll schlanker werden",
-    "date": "2026-08-06",
-    "category": "Hardware",
-    "description": "IDC sieht Apples günstiges Macbook Neo als Belastungsprobe für den PC-Markt. Microsoft will parallel den RAM-Bedarf von Windows 11 senken.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Macbook-Neo-Microsoft-11-schlanker-RAM-1550473/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/03/Macbook-Neo-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Bester Gaming-PC für 1.500 Euro: Zusammenstellungen und Empfehlungen (Update)",
-    "date": "2026-08-06",
-    "category": "Markt",
-    "description": "In diesem Artikel finden Sie Empfehlungen und Konfigurationsbeispiele für Gaming-PCs im Preisbereich von etwa 1.500 Euro - sowohl für den Eigenbau als auch für vorkonfigurierte Systeme, die Sie noch im Detail anpassen...",
-    "url": "https://www.pcgameshardware.de/Gaming-PC-Hardware-217554/News/bester-Gaming-PC-fuer-1500-Euro-Konfiguration-Komponenten-PCGH-PC-Guide-2025-1469539/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/08/HERO-Webshop-Krotus-Computer-3840x1000px-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "500 Grafikkarten im Stromcheck: Das und mehr in PCGH 09/2026",
-    "date": "2026-08-06",
-    "category": "Hardware",
-    "description": "Die PCGH-Ausgabe 09/2026 bündelt rund 800 Verbrauchsmessungen zu 500 Grafikkarten, erzählt die Geschichte von ATI und prüft den Ryzen 7 5800X3D als AM4-Upgrade. Dazu kommen sechs CPU-Wasserkühler, EXPO ULL, Valves Ste...",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-09-2026-Magazin-311-DVD-Download-PDF-1549887/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Grafikkarten der Community: ATI Radeon 9700/9800 \"eine der geilsten Grafikkarten-Epochen\"",
-    "date": "2026-08-06",
-    "category": "Hardware",
-    "description": "Jetzt mit neuem Update zu ATI Radeon 9700 Pro und mehr: In der PCGH-Extreme-Community präsentieren die User alle möglichen Aspekte ihres PCs, darunter auch Grafikkarten. Dabei ist von neu bis uralt alles vertreten. PC...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Grafikkarten-ATI-Titan-V-1550017/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/1785590865030-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "RTX 50 zum Normalpreis: Nvidia verkauft die UVP jetzt als Attraktion",
-    "date": "2026-08-06",
-    "category": "Hardware",
-    "description": "Für Quakecon-Besucher macht es Nvidia möglich, aktuelle Geforce-RTX-Grafikkarten zur UVP zu kaufen, und stellt dies als eines seiner Messe-Highlights heraus.",
-    "url": "https://www.pcgameshardware.de/Nvidia-Geforce-Grafikkarte-255598/News/RTX-50-zum-Normalpreis-UVP-als-Attraktion-1550457/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/02/RTX-5090-FE-4-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Asus macht Ernst: Erste AMD- und Intel-Mainboards werden bereits teurer",
-    "date": "2026-08-06",
-    "category": "Industrie",
-    "description": "Asus soll im Zuge gestiegener Komponentenkosten als einer der ersten Mainboard-Hersteller in der Lieferkette über erhöhte Preise informiert haben.",
-    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/Asus-macht-Ernst-Intel-und-AMD-werden-bereits-teurer-1550452/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Sockel-AM5-Mainboard-Asus-B850-X870E-AMD-Ryzen-CPU-LGA-1851-Z890-Hauptplatine-Intel-Core-Ultra-Prozessor-Amazon-Prime-Day-2026-Deals-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "GPU-Roadmap 2026+: Speicherkrise dämpft die Aussichten für Nvidia, AMD und Intel [Update]",
-    "date": "2026-08-06",
-    "category": "Hardware",
-    "description": "Selten veröffentlichen AMD, Nvidia und Intel konkrete Informationen zu kommenden Grafikkarten oder gar offizielle Roadmaps mit näheren Details. Dafür bringt die Gerüchteküche umso öfter mögliche Spezifikationen und Re...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Roadmap-Grafikkarten-Liste-Radeon-Geforce-1128937/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/GPU-Roadmap-08-2026-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
     "title": "Nanya Announces $10.7B Investment in Fab5A, Aims for 10 nm-Class EUV DRAM",
     "date": "2026-08-06",
     "category": "Hardware",
     "description": "Nanya Technology Board of Directors announced on August 5 that the company has launched its largest investment program, committing up to NT$346.6 billion (around $10.7 billion) to its Fab5A facility through 2026-2029....",
     "url": "https://www.techpowerup.com/351415/nanya-announces-usd-10-7b-investment-in-fab5a-aims-for-10-nm-class-euv-dram",
     "image": "https://www.techpowerup.com/img/mUGthRKky9SddB9X.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
-    "date": "2026-08-06",
-    "category": "Markt",
-    "description": "DropReference, a PC hardware comparison and build-planning platform attracting more than 200,000 unique visitors each month, is officially expanding to the United States. Already established among European PC builders...",
-    "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
-    "image": "https://www.techpowerup.com/img/UJbkD4amCaPtXXES.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -252,15 +396,6 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "While Everyone's Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "date": "2026-08-06",
-    "category": "Software",
-    "description": "OpenAI, Anthropic, and Google all pushed major updates to their coding models, Cursor just crossed $1 billion in annual recurring revenue, and developers are embracing AI at an increasing rate. Underneath all the hype...",
-    "url": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "image": "https://www.techpowerup.com/img/da7TMpKc5X9bVtOF.jpg",
-    "source": "TechPowerUp"
-  },
-  {
     "title": "(PR) Jsaux Gaming Announces Voidjoy Controller-Focused Sub-Brand",
     "date": "2026-08-06",
     "category": "Hardware",
@@ -276,15 +411,6 @@
     "description": "Synology today launched the DiskStation neo+ Series, comprising the DS1825neo+, DS1525neo+, DS925neo+, and DS725neo+. This new lineup introduces a more accessible memory configuration, allowing customers to easily bal...",
     "url": "https://www.techpowerup.com/351408/synology-introduces-diskstation-neo-series-lineup",
     "image": "https://www.techpowerup.com/img/PjXpclwX13wXTFYJ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Own Microsoft Office Professional 2021 for Windows for Just $33",
-    "date": "2026-08-06",
-    "category": "Software",
-    "description": "If you prefer buying software outright instead of paying recurring subscription fees, Microsoft Office Professional 2021 for Windows is available for $32.97 through Aug. 9 (MSRP $219.99). The license provides lifetime...",
-    "url": "https://www.techpowerup.com/351314/own-microsoft-office-professional-2021-for-windows-for-just-usd-33",
-    "image": "https://www.techpowerup.com/img/g9KecHQWNNdQtNYY.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -321,132 +447,6 @@
     "description": "TSMC reportedly has a large stockpile of Apple chips as the company waits for DRAM delivery from Apple's suppliers to integrate into a complete package. Using Integrated Fan-Out Package on Package (InFO-PoP), TSMC is...",
     "url": "https://www.techpowerup.com/351401/tsmc-sits-on-usd-1-billion-of-apple-chips-as-it-waits-for-dram",
     "image": "https://www.techpowerup.com/img/EvHGrhXtHQeflS0X.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Kioxias XL-Flash kommt mit 10 Millionen IOPS",
-    "date": "2026-08-05",
-    "category": "Hardware",
-    "description": "Die zweite XL-Flash-Generation ist für direkte GPU-Zugriffe gedacht. Kioxia zeigt erste SSD-Ableger für Server.",
-    "url": "https://www.heise.de/news/Kioxias-XL-Flash-kommt-mit-10-Millionen-IOPS-11400139.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/3/7/6/3/9/FMS26_KIOXIA_BOS_GP1_wlabels-d13053215eca9900.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Alpamayo 2 Super: Nvidia gibt offenes KI-Modell für autonome Fahrzeuge frei",
-    "date": "2026-08-05",
-    "category": "Industrie",
-    "description": "Nvidia stellt das KI-Modell Alpamayo 2 Super für autonome Fahrzeuge ab sofort für die kommerzielle Nutzung bereit. Es soll vor allem komplexe Verkehrssituationen bewälti­gen, indem es Wahrnehmung, Schlussfolgerung und...",
-    "url": "https://www.computerbase.de/news/mobilitaet/alpamayo-2-super-nvidia-gibt-offenes-ki-modell-fuer-autonome-fahrzeuge-frei.98720/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "HWiNFO 8.51: VRAM-Temperaturen pro Chip für GeForce und Radeon auslesen",
-    "date": "2026-08-05",
-    "category": "Hardware",
-    "description": "Überwachungstools für Grafikkarten haben in den letzten Wochen einen Schritt nach vorne gemacht. So können die GPU-Hotspot-Temperaturen auf GeForce RTX 5000 nun ausgelesen werden. Der Sensor an sich war zwar nie weg,...",
-    "url": "https://www.computerbase.de/news/apps/hwinfo-8-51-vram-temperaturen-pro-chip-fuer-geforce-und-radeon-auslesen.98719/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "(PR) Silicon Motion Unveils MonTitan SSD Reference Design Kit at FMS 2026",
-    "date": "2026-08-05",
-    "category": "Hardware",
-    "description": "Silicon Motion Technology Corporation (NasdaqGS: SIMO), a global leader in designing and marketing NAND flash controllers for solid-state storage devices, today unveiled its new MonTitan SSD Reference Design Kit (RDK)...",
-    "url": "https://www.techpowerup.com/351398/silicon-motion-unveils-montitan-ssd-reference-design-kit-at-fms-2026",
-    "image": "https://www.techpowerup.com/img/KWZ67noDna8QlHNk.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Sandisk Reports Fiscal Fourth Quarter 2026 Financial Results",
-    "date": "2026-08-05",
-    "category": "Hardware",
-    "description": "Sandisk Corporation (Nasdaq: SNDK) today reported fiscal fourth quarter financial results. \"We closed fiscal 2026 with a leading technology portfolio, established datacenter as a key growth pillar, and deepened our cu...",
-    "url": "https://www.techpowerup.com/351395/sandisk-reports-fiscal-fourth-quarter-2026-financial-results",
-    "image": "https://www.techpowerup.com/img/j1janLDmBYMqlaZp.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) WD Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
-    "date": "2026-08-05",
-    "category": "Software",
-    "description": "Western Digital Corporation (Nasdaq: WDC) today reported fiscal fourth quarter and fiscal year 2026 financial results for the period ended July 3, 2026. \"WD concluded fiscal year 2026 with strong performance. In our f...",
-    "url": "https://www.techpowerup.com/351394/wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
-    "image": "https://www.techpowerup.com/img/JuuSChjMh3WyDBcS.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) ESS Technology Unveils the SABRE ES9292PRO Audio Codec",
-    "date": "2026-08-05",
-    "category": "Software",
-    "description": "ESS Technology, Inc., a leading provider of high-performance audio semiconductors, today announced the ES9292PRO, a fully integrated audio SMART CODEC designed for applications that demand the highest levels of signal...",
-    "url": "https://www.techpowerup.com/351393/ess-technology-unveils-the-sabre-es9292pro-audio-codec",
-    "image": "https://www.techpowerup.com/img/K1fyEkHPg2rUPYO9.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Apple Scrambles for DRAM, CXMT Reportedly Rejects Negotiations",
-    "date": "2026-08-05",
-    "category": "Hardware",
-    "description": "Apple is one of the largest supply chain operators in the world, maintaining a vast network of suppliers and manufacturing capacity. However, even a company of its stature is struggling amid the current DRAM shortage....",
-    "url": "https://www.techpowerup.com/351391/apple-scrambles-for-dram-cxmt-reportedly-rejects-negotiations",
-    "image": "https://www.techpowerup.com/img/p4W2hlW22SVgXDoX.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Electronic Arts, the World's Largest Game Studio, Officially Goes Private",
-    "date": "2026-08-05",
-    "category": "Hardware",
-    "description": "Electronic Arts is officially back to private ownership after nearly 36 years in the public markets. If readers recall, in September 2025, EA announced that the company would be going private again under a consortium...",
-    "url": "https://www.techpowerup.com/351386/electronic-arts-the-worlds-largest-game-studio-officially-goes-private",
-    "image": "https://www.techpowerup.com/img/67ZkcmIt6M3eajlU.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Huawei MateBook Pro Arrives with Kirin X90 Plus SoC and $1,480 Price Tag",
-    "date": "2026-08-05",
-    "category": "Hardware",
-    "description": "Huawei has just unveiled its latest MateBook Pro laptop, featuring a homegrown processor, operating system, and a fully integrated experience. Priced at 9,999 RMB for the base model with 24 GB of RAM and a 512 GB SSD,...",
-    "url": "https://www.techpowerup.com/351388/huawei-matebook-pro-arrives-with-kirin-x90-plus-soc-and-usd-1-480-price-tag",
-    "image": "https://www.techpowerup.com/img/SZvyaEsROl527bec.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) NEO Semiconductor Launches NEO.AI Memory Platform",
-    "date": "2026-08-05",
-    "category": "Hardware",
-    "description": "NEO Semiconductor, a leading innovator in advanced AI and memory technologies, today announced the launch of NEO.AI, its next-generation AI memory platform designed to solve the two most significant memory bottlenecks...",
-    "url": "https://www.techpowerup.com/351383/neo-semiconductor-launches-neo-ai-memory-platform",
-    "image": "https://www.techpowerup.com/img/jDUClKCGyx9DGJKH.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Microsoft Is Quietly Deleting 32 GB RAM Recommendation for Windows 11",
-    "date": "2026-08-05",
-    "category": "Hardware",
-    "description": "Microsoft is retroactively removing documentation from its website and materials that mention 32 GB of RAM as a recommendation for new PC builds or purchases. Instead, the company is now emphasizing 8 GB devices that...",
-    "url": "https://www.techpowerup.com/351384/microsoft-is-quietly-deleting-32-gb-ram-recommendation-for-windows-11",
-    "image": "https://www.techpowerup.com/img/ir3o3JgSBEpITeXd.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Corsair Welcomes Trak Racer to the Fanatec Family",
-    "date": "2026-08-05",
-    "category": "Software",
-    "description": "Corsair, a leading global maker of high-performance gear for gamers, streamers, content creators, PC builders and sim racing enthusiasts, today announced it has acquired the assets of Trak Racer, a global designer and...",
-    "url": "https://www.techpowerup.com/351382/corsair-welcomes-trak-racer-to-the-fanatec-family",
-    "image": "https://www.techpowerup.com/img/pELxANw2KnCuPTnt.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Corsair Expands Its Everyday Gaming Lineup with Versatile Keyboards and an Ergonomic Wireless Mouse",
-    "date": "2026-08-05",
-    "category": "Hardware",
-    "description": "Corsair, a leading global developer and manufacturer of high-performance gear and technology for gamers, content creators, and PC enthusiasts, today announced three new additions to its everyday gaming lineup, the Ski...",
-    "url": "https://www.techpowerup.com/351381/corsair-expands-its-everyday-gaming-lineup-with-versatile-keyboards-and-an-ergonomic-wireless-mouse",
-    "image": "https://www.techpowerup.com/img/37pN6OB8QveLdam9.jpg",
     "source": "TechPowerUp"
   }
 ]
