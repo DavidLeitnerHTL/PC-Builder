@@ -1,20 +1,137 @@
 [
   {
-    "title": "Intel hält an Raptor Lake fest: LGA1700 bleibt noch Jahre im Programm",
-    "date": "2026-08-16",
+    "title": "Qwen3.8-27B auf RTX 5060 Ti: 47 Token/s mit 16 statt 24 GiB",
+    "date": "2026-08-17",
     "category": "Hardware",
-    "description": "Intel hält Raptor Lake wegen der hohen DDR5-Preise noch jahrelang in seinem CPU-Portfolio, wie Robert Hallock bestätigt. Wer ein LGA1700-Mainboard mit DDR4 betreibt, muss die Plattform also nicht wechseln, zahlt für d...",
-    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/Intel-Raptor-Lake-LGA1700-DDR4-Portfolio-Robert-Hallock-1551264/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2022/10/Raptor_Lake_10-pcgh.jpg",
+    "description": "Ein Community-Test hat Qwen3.8-27B vollständig auf eine einzelne Geforce RTX 5060 Ti mit 16GiB gebracht und 47,6 Token pro Sekunde gemessen. Wer nur 16 GiB VRAM besitzt, zahlt dafür mit IQ4_XS-Quantisierung, 32K Konte...",
+    "url": "https://www.pcgameshardware.de/Kuenstliche-Intelligenz-Hardware-279517/News/Qwen3-8-27B-lokal-47-Token-pro-Sekunde-MTP-2-1551285/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/04/Asus-TUF-Gaming-Geforce-RTX-5060-Ti-OC-Edition-16GB-4-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "Speicherkrise analysiert: Neue Rekordpreise bei RAM, SSDs und Festplatten",
+    "title": "Radeon RX 9050: AMD soll Testmuster blockiert haben, Hardware Unboxed misst nach",
+    "date": "2026-08-17",
+    "category": "Hardware",
+    "description": "AMD verschickte für die Radeon RX 9050 keine Testmuster und soll seinen Partnern die Herausgabe untersagt haben. Hardware Unboxed hat sich trotzdem eine besorgt und misst 49 Fps in Full HD. Die alte Radeon RX 7600 lie...",
+    "url": "https://www.pcgameshardware.de/Radeon-RX-9050-8GB-Grafikkarte-285841/News/Testmuster-blockiert-Hardware-Unboxed-Benchmarks-1551284/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/AMD-Radeon-RX-9050-Benchmarks-Full-HD-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "AMD-Chipsatztreiber 8.08.12.551: Ryzen AI Max drin, vier Treiber älter als zuvor",
+    "date": "2026-08-17",
+    "category": "Hardware",
+    "description": "AMD hat am 14. August 2026 den neuen Ryzen-Chipsatztreiber 8.08.12.551 für Windows 10 und 11 veröffentlicht und listet Ryzen AI Max erstmals offiziell. Welche Fehler das Treiber-Paket behebt, verschweigt AMD; drei bek...",
+    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/AMD-Ryzen-Chipsatztreiber-8-08-12-551-Ryzen-AI-Max-Download-1551278/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/01/AM5-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "PC Partner: Grafikkarten-Hersteller warnt vor steigenden Preisen",
+    "date": "2026-08-17",
+    "category": "Markt",
+    "description": "PC Partner, der Mutterkonzern hinter den Grafikkarten-Marken ZOTAC, Inno3D und Manli, hat im Rahmen seines Halbjahresberichts 2026 (PDF) vor einer weiteren Verschärfung der Grafikkarten-Knappheit gewarnt.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70020-pc-partner-grafikkarten-hersteller-warnt-vor-steigenden-preisen.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Jun/kindly_analyst_tx/dsc09759_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "This Week in Gaming (Week 34)",
+    "date": "2026-08-17",
+    "category": "Software",
+    "description": "Welcome to another week of new games releases and we start off the week with a sequel to a fairly popular ARPG game from 2020 that is currently in open beta for those that want to give it whirl before it's released. T...",
+    "url": "https://www.techpowerup.com/351642/this-week-in-gaming-week-34",
+    "image": "https://www.techpowerup.com/img/wg691oTGmEc6uTxI.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Lokale KI ausprobiert: Das leistet Qwen3.8-27B",
     "date": "2026-08-16",
     "category": "Hardware",
-    "description": "Die globale Speicherkrise treibt die Preise für RAM, SSDs und Festplatten im August 2026 auf neue Höchststände. Arbeitsspeicher liegt 345 Prozent über dem Preisniveau von vor der Krise. Wer sein System jetzt aufrüsten...",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/Specials/Speicherpreise-RAM-SSD-HDD-Rekord-August-2026-1551263/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/04-trident-z5-royal-neo-ddr5-gold-pcgh-pcgh.jpg",
+    "description": "Alibaba hat die Gewichte seines Modells Qwen3.8-27B veröffentlicht, klein genug für bezahlbare Grafikkarten. Der Abstand zu Spitzenmodellen schrumpft.",
+    "url": "https://www.heise.de/news/Lokale-KI-ausprobiert-Das-leistet-Qwen3-8-27B-11415293.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/4/7/5/4/2/shutterstock_2620861083-b8b5f5289aaf73a4.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Grafikkarten-Knappheit: Zotac-Mutter warnt vor steigenden Preisen",
+    "date": "2026-08-16",
+    "category": "Hardware",
+    "description": "PC Partner, der Mutterkonzern von Zotac, Inno3D und Manli, warnt vor einer weiteren Verschärfung der Grafikkarten-Knappheit. Steigende Kosten für Grafikspeicher sollen die Karten im zweiten Halbjahr 2026 verteuern. Vo...",
+    "url": "https://www.computerbase.de/news/grafikkarten/grafikkarten-knappheit-zotac-mutter-warnt-vor-steigenden-preisen.98875/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Windows 11: Kontextmenü bekommt das Listen-Layout von Windows 10 zurück",
+    "date": "2026-08-16",
+    "category": "Software",
+    "description": "Microsoft gibt Nutzern von Windows 11 auch beim Kontextmenü mehr Spielraum, um es eher entsprechend der eigenen Vorstellungen anzupassen. Indem es von Altlasten befreit wird, soll es schneller reagieren und erinnert i...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/windows-11-microsoft-macht-kontextmenue-schneller-und-anpassbar.98872/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Windows 11: August-Update crasht Spiele und hat Bugs wie Blackscreens",
+    "date": "2026-08-16",
+    "category": "Software",
+    "description": "Das verpflichtende August-Update für Windows 11 24H2 und 25H2 (KB5121003) kann auf einigen Systemen bestimmte Spiele zum Absturz bringen und verursacht noch weitere Fehler, berichtet Windows Latest. Betroffene Spiele...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/windows-11-august-update-crasht-spiele-und-hat-bugs-wie-blackscreens.98873/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Aus 5 mach 30: Nvidias Intel-Wette zahlt sich gewaltig aus",
+    "date": "2026-08-16",
+    "category": "Industrie",
+    "description": "Nvidias milliardenschwere Beteiligung an Intel hat sich innerhalb weniger Monate vervielfacht. Für 5 Milliarden US-Dollar kaufte der GPU-Hersteller Ende 2025 rund 215 Millionen Intel-Aktien. Laut einer neuen Pflichtmi...",
+    "url": "https://www.computerbase.de/news/wirtschaft/aus-5-mach-30-nvidias-intel-wette-zahlt-sich-gewaltig-aus.98871/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Emulation mit Einschränkung: PS5-Spiel Astro's Playroom startet auf dem Steam Deck",
+    "date": "2026-08-16",
+    "category": "Hardware",
+    "description": "Der PlayStation-5-Emulator SharpEmu führt erstmals Astro's Playroom auf Valves Steam Deck aus. Demnach startet das PS5-Spiel auf dem Gaming-Handheld, doch es gibt ein großes Problem: Die Bildrate liegt dabei unter 1 FPS.",
+    "url": "https://www.computerbase.de/news/gaming/emulation-mit-einschraenkung-ps5-spiel-astros-playroom-startet-auf-dem-steam-deck.98868/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Dual Use: Nvidia-Chip in russischem Marschflugkörper entdeckt",
+    "date": "2026-08-16",
+    "category": "Hardware",
+    "description": "Die ukrainische Militäraufklärung hat ein Jetson-Orin-NX-16GB-Modul aus dem Wrack einer S-71M geborgen - und offenbart damit erneut, dass westliche Halbleiter Russland erreichen. (Nvidia, Prozessor)",
+    "url": "https://www.golem.de/news/dual-use-nvidia-chip-in-russischem-marschflugkoerper-entdeckt-2608-211971.html",
+    "image": "https://www.golem.de/2608/211971-593287-593282_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "[PLUS] Aqua Computer vs. Thermal Grizzly: Smarte 12V-2×6-Wächter im Test",
+    "date": "2026-08-16",
+    "category": "Software",
+    "description": "PCGH Plus: Der längst nicht mehr neue 12+4-Pin-GPU‑Stecker bleibt trotz Überarbeitung ein heißes Eisen. Wir testen, wie effektiv Aqua Computers Ampinel sowie Thermal Grizzlys Wireview Pro II Schwachstellen am Stecker...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Thermal-Grizzly-Wireview-Pro-2-Aqua-Computer-Ampinel-Test-12VHPWR-1527929/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/04/aufmacher_Aqua_Computer_Ampinel-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "500 Grafikkarten im Stromcheck: Das und mehr in PCGH 09/2026",
+    "date": "2026-08-16",
+    "category": "Hardware",
+    "description": "Die PCGH-Ausgabe 09/2026 bündelt rund 800 Verbrauchsmessungen zu 500 Grafikkarten, erzählt die Geschichte von ATI und prüft den Ryzen 7 5800X3D als AM4-Upgrade. Dazu kommen sechs CPU-Wasserkühler, EXPO ULL, Valves Ste...",
+    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-09-2026-Magazin-311-DVD-Download-PDF-1549887/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS] Ryzen 7 5800X3D mit drei GPUs im Test: Wo Upsampling wie DLSS an seine Grenzen stößt",
+    "date": "2026-08-16",
+    "category": "Hardware",
+    "description": "PCGH Plus: Mit DLSS, FSR und XeSS haben Sie die Qual der Wahl, welche Komponente zuerst limitiert: Prozessor oder Grafikkarte. Wir haben getestet, wie sich ein Ryzen 7 5800X3D mit drei Grafikkarten schlägt. Der Artike...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/DLSS-FSR-XeSS-CPU-oder-GPU-Limit-Ryzen-7-5800X3D-1547135/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/aufmacher_upsampling_dreamteams-pcgh.jpg",
     "source": "PCGH"
   },
   {
@@ -72,75 +189,21 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Input-Lag: Hat ein Grafikkarten-Hersteller Vorteile bei gleichen Fps? Wie ist es bei Fps-Locks?",
-    "date": "2026-08-15",
-    "category": "Industrie",
-    "description": "In diesem Test vergleichen wir den Input-Lag in Form der End-to-End-Latenzen von AMD, Intel und Nvidia bei gleichen Bildraten. Doch haben ein bestimmter Grafikkartenhersteller oder eine der angebotenen Latenzreduktion...",
-    "url": "https://www.pcgameshardware.de/Battlefield-6-Spiel-75270/Specials/Latency-Intel-AMD-Nvidia-at-similar-Fps-LDAT-Reflex-Anti-Lag-XeLL-1549616/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/Aufmacher-Collage3-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "AM4 lebt weiter: Gigabyte bringt 2026 neue B450-Mainboards",
-    "date": "2026-08-15",
-    "category": "Hardware",
-    "description": "Gigabyte führt den alten AM4-Sockel auch mit dem seinerzeit veröffentlichten B450-Chipsatz in Form von neuen Mainboard-Modellen fort.",
-    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/AM4-lebt-weiter-Gigabyte-bringt-2026-neue-B450-Mainboards-1551163/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Gigabyte-B450M-D3HP-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "500 Grafikkarten im Stromcheck: Das und mehr in PCGH 09/2026",
-    "date": "2026-08-15",
-    "category": "Hardware",
-    "description": "Die PCGH-Ausgabe 09/2026 bündelt rund 800 Verbrauchsmessungen zu 500 Grafikkarten, erzählt die Geschichte von ATI und prüft den Ryzen 7 5800X3D als AM4-Upgrade. Dazu kommen sechs CPU-Wasserkühler, EXPO ULL, Valves Ste...",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-09-2026-Magazin-311-DVD-Download-PDF-1549887/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11: Microsoft bringt verschiebbare Taskleiste zurück und entfernt WMIC",
-    "date": "2026-08-15",
-    "category": "Software",
-    "description": "Microsoft bringt die frei positionierbare Taskleiste in den Release-Preview-Kanal von Windows 11. Dazu kommen neue Optionen für Startmenü und Suche sowie das endgültige Aus für WMIC.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-Microsoft-bringt-verschiebbare-Taskleiste-zurueck-und-entfernt-WMIC-1551251/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2021/06/Hero-Bloom-Logo-1000x563.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Grafikkarten-Preise steigen weiter: Europa zahlt 19 Prozent mehr als im Juli",
-    "date": "2026-08-15",
-    "category": "Hardware",
-    "description": "Die europäischen Grafikkarten-Preise sind binnen vier Wochen um rund 19 Prozent gestiegen. Damit ist die Preiswelle aus Fernost im deutschen Handel angekommen, während die jüngsten Herstelleraufschläge noch in der Lie...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Preise-Europa-August-2026-Speicherkrise-1551243/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/09/Asus-ROG-Astral-RTX-5090-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11 KB5121003: Spieler melden Abstürze und komplette Neustarts",
-    "date": "2026-08-15",
-    "category": "Software",
-    "description": "Nach dem August-Patchday häufen sich Berichte über Spielabstürze und komplette PC-Neustarts unter Windows 11. Im Verdacht steht KB5121003.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-KB5121003-Spiele-Abstuerze-Neustarts-1551228/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Windows-11-Update-soll-mehrere-Spiele-abstuerzen-lassen-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Steam Machine mit RX 9070 XT: eGPU über M.2 bringt bis zu 180 Prozent mehr Fps",
-    "date": "2026-08-15",
-    "category": "Hardware",
-    "description": "Ein Steam-Machine-Besitzer hat eine Radeon RX 9070 XT über den internen M.2-Steckplatz und einen OCuLink-Adapter an Valves Wohnzimmer-PC angebunden. Nachmessungen zeigen in 4K bis zu 183 Prozent mehr Fps gegenüber der...",
-    "url": "https://www.pcgameshardware.de/Steam-Machine-Hardware-256919/News/Radeon-RX-9070-XT-eGPU-OCuLink-M-2-Adapter-1551238/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Steam-Machine-Registrierungssystem-pcgh-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
     "title": "Injustice 2 Tops 9 Million Units Sold—7 Million More than \"Gods Among Us\"",
     "date": "2026-08-15",
     "category": "Hardware",
     "description": "It turns out the Injustice game series is a lesson in how concurrent player counts don't necessarily predict a game's commercial success. Despite only drawing a peak concurrent Steam player count of 2,131 players, the...",
     "url": "https://www.techpowerup.com/351628/injustice-2-tops-9-million-units-sold-7-million-more-than-gods-among-us",
     "image": "https://www.techpowerup.com/img/Pa4sHCsUibWL0lDh.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Compare GPT-4o, Claude, and Gemini Side by Side for $59.25",
+    "date": "2026-08-15",
+    "category": "Hardware",
+    "description": "Every major AI lab claims their model is the best one. ChatPlayground AI skips the debate by running one prompt across more than 20 models at once, including GPT-4o, Claude Sonnet 4, Gemini 1.5 Flash, DeepSeek V3, and...",
+    "url": "https://www.techpowerup.com/351503/compare-gpt-4o-claude-and-gemini-side-by-side-for-usd-59-25",
+    "image": "https://www.techpowerup.com/img/rmMDtkvj6bW27kIh.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -234,15 +297,6 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "Compare GPT-4o, Claude, and Gemini Side by Side for $59.25",
-    "date": "2026-08-14",
-    "category": "Hardware",
-    "description": "Every major AI lab claims their model is the best one. ChatPlayground AI skips the debate by running one prompt across more than 20 models at once, including GPT-4o, Claude Sonnet 4, Gemini 1.5 Flash, DeepSeek V3, and...",
-    "url": "https://www.techpowerup.com/351503/compare-gpt-4o-claude-and-gemini-side-by-side-for-usd-59-25",
-    "image": "https://www.techpowerup.com/img/rmMDtkvj6bW27kIh.jpg",
-    "source": "TechPowerUp"
-  },
-  {
     "title": "(PR) S.T.A.L.K.E.R. 2: Heart of Chornobyl Update 2.0 Arrives August 20",
     "date": "2026-08-14",
     "category": "Markt",
@@ -261,21 +315,21 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "Iqunix Officially Launches EC75 HE Gaming Keyboard at $179.99",
-    "date": "2026-08-14",
-    "category": "Markt",
-    "description": "Iqunix showed off the EC75 earlier this year at Computex, but the peripheral maker has now officially released the EC75 HE for sale, simultaneously revealing the pricing and finer details of the keyboard. At the time...",
-    "url": "https://www.techpowerup.com/351619/iqunix-officially-launches-ec75-he-gaming-keyboard-at-usd-179-99",
-    "image": "https://www.techpowerup.com/img/IPrktsFLOP6saWPY.jpg",
-    "source": "TechPowerUp"
-  },
-  {
     "title": "Stop Putting It Off: Windows 11 Pro Drops to $11.23",
     "date": "2026-08-14",
     "category": "Hardware",
     "description": "A full Windows 11 Pro license normally runs $199. Right now it's $11.23 with code Aug25, a one-time purchase that will add more value to your PC time. Why You Need to Upgrade BitLocker for full-disk encryption Hyper-V...",
     "url": "https://www.techpowerup.com/351504/stop-putting-it-off-windows-11-pro-drops-to-usd-11-23",
     "image": "https://www.techpowerup.com/img/mKTJ4Opkg1PQblO2.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Iqunix Officially Launches EC75 HE Gaming Keyboard at $179.99",
+    "date": "2026-08-14",
+    "category": "Markt",
+    "description": "Iqunix showed off the EC75 earlier this year at Computex, but the peripheral maker has now officially released the EC75 HE for sale, simultaneously revealing the pricing and finer details of the keyboard. At the time...",
+    "url": "https://www.techpowerup.com/351619/iqunix-officially-launches-ec75-he-gaming-keyboard-at-usd-179-99",
+    "image": "https://www.techpowerup.com/img/IPrktsFLOP6saWPY.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -392,60 +446,6 @@
     "category": "Hardware",
     "description": "Nachlese von der Speichermesse FMS 2026: Das chinesische Unternehmen DapuStor zeigte eine der ersten SSDs mit 512 TB Speicherkapazität. Das ist noch einmal doppelt so viel wie das aktuelle Maximum im Markt. Wenig über...",
     "url": "https://www.computerbase.de/news/storage/dapustor-r6060-erste-512-tb-ssd-zur-schau-gestellt.98837/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "GeForce Now: Die Linux-App ist fertig, Leis­tungs­ver­bes­serungen für alle",
-    "date": "2026-08-13",
-    "category": "Software",
-    "description": "Seit Anfang des Jahres gibt es GeForce Now auch als native App für Linux – bislang aber als Beta. Damit ist jetzt Schluss, die Linux-App hat offiziell die Betaphase verlassen. Darüber hinaus hat Nvidia Performance-Ver...",
-    "url": "https://www.computerbase.de/news/gaming/nvidia-geforce-now-fuer-linux-verlaesst-die-betaphase.98839/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "AMD Radeon RX 9000: Hinweise auf bis zu 20 Prozent höhere Preise in China",
-    "date": "2026-08-13",
-    "category": "Hardware",
-    "description": "Die Preise für AMDs Radeon-Grafikkarten der RX-9000-Reihe sollen in China im dritten Quartal 2026 ansteigen. Die Erhöhungen reichen von rund 7 Prozent für die RX 9070 bis zu 20 Prozent für die RX 9070 XT. Dies geht au...",
-    "url": "https://www.computerbase.de/news/grafikkarten/amd-radeon-rx-9000-hinweise-auf-bis-zu-20-prozent-hoehere-preise-in-china.98838/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Snapdragon C: Das kann Qualcomms Chip für 300-Dollar-Notebooks",
-    "date": "2026-08-13",
-    "category": "Hardware",
-    "description": "Der Snapdragon C ist Qualcomms kleinster Prozessor für Notebooks, die den zur Computex im Mai angekündigten Pläne zufolge ab 300 US-Dollar erhältlich sein sollen. Die technischen Details zum Snapdragon C ließen die Ch...",
-    "url": "https://www.computerbase.de/news/prozessoren/snapdragon-c-qualcomm-sagt-etwas-mehr-zum-kleinsten-notebook-chip.98835/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Nutzer sollen umsteigen: M365 erhält unter Win­dows 10 keine neuen Funktionen",
-    "date": "2026-08-13",
-    "category": "Software",
-    "description": "Microsoft soll die Weiterentwicklung von Microsoft 365 unter Windows 10 weiter eingeschränkt haben. Damit will der Konzern einem Bericht zufolge den Druck auf verbliebene Nutzer erhöhen, auf Windows 11 umzusteigen. Di...",
-    "url": "https://www.computerbase.de/news/betriebssysteme/nutzer-sollen-umsteigen-m365-erhaelt-unter-windows-10-keine-neuen-funktionen.98831/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Intels Monster-APU?: HWiNFO bestätigt Razor Lake-AX",
-    "date": "2026-08-13",
-    "category": "Hardware",
-    "description": "Gerüchte um einen Intel-Prozessor der „AX“-Reihe mit besonders starker Grafikeinheit erhalten durch das Systemtool HWiNFO neue Nahrung. In einem Ausblick auf kommende Features wird nämlich vorläufiger Support für Razo...",
-    "url": "https://www.computerbase.de/news/prozessoren/intels-monster-apu-hwinfo-bestaetigt-razor-lake-ax.98828/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "RTX Pro 6000: Nvidia erhöht den Preis der stärks­ten Blackwell-GPU erneut",
-    "date": "2026-08-13",
-    "category": "Hardware",
-    "description": "Nvidia hat den Verkaufspreis der 96 GB VRAM starken Profi-Grafikkarte RTX Pro 6000 Blackwell erneut erhöht. Im eigenen Webshop ruft der Hersteller jetzt 16.000 US-Dollar auf. Ursprünglich ist das Modell im Frühjahr 20...",
-    "url": "https://www.computerbase.de/news/grafikkarten/rtx-pro-6000-nvidia-erhoeht-den-preis-der-staerksten-blackwell-gpu-erneut.98826/",
     "image": null,
     "source": "ComputerBase"
   }
