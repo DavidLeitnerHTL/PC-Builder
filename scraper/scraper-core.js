@@ -1269,24 +1269,30 @@ export async function scrapeProductViaHttp(product, category = null) {
         if (page1.notFound || page1.status === 404) {
             console.warn(`[HTTP]  → Phase 1: ASIN 404 (stale/wrong SKU). Falling back to search.`);
             skuNotFound = true;
-        } else if (detectOutOfStockInDocument(page1.doc)) {
-            console.warn(`[HTTP]  → Phase 1: product confirmed out-of-stock.`);
-            isUnavailable = true;
         } else {
+            // A buybox price outranks the availability text.  Amazon's *static*
+            // HTML carries a backorder notice ("Derzeit nicht auf Lager … Geben
+            // Sie Ihre Bestellung auf") that its JavaScript replaces once the
+            // buybox renders, so the browser never sees it.  Trusting that text
+            // would mark perfectly purchasable products as unavailable and drop
+            // them from the site (observed on B0DF7S4HT1 at 161,24 € and
+            // B08KTM51SZ at 95,36 €).
             const hit = extractPriceInDocument(page1.doc, page1.finalUrl);
-            if (hit?.rawPrice) {
-                const parsed = parsePrice(hit.rawPrice);
-                if (parsed !== null) {
-                    console.log(`[HTTP] Hit via "${hit.via}" → raw="${hit.rawPrice}" parsed=${parsed.toFixed(2)}`);
-                    const minPrice = (CATEGORY_MIN_PRICE[category] || 0) / 2;
-                    if (parsed < minPrice) {
-                        console.warn(
-                            `[HTTP]  → Price ${parsed.toFixed(2)}€ below minimum ${minPrice}€ for ${category}, rejecting`
-                        );
-                    } else {
-                        return { handled: true, result: { price: parsed, available: true } };
-                    }
+            const parsed = hit?.rawPrice ? parsePrice(hit.rawPrice) : null;
+
+            if (parsed !== null) {
+                console.log(`[HTTP] Hit via "${hit.via}" → raw="${hit.rawPrice}" parsed=${parsed.toFixed(2)}`);
+                const minPrice = (CATEGORY_MIN_PRICE[category] || 0) / 2;
+                if (parsed < minPrice) {
+                    console.warn(
+                        `[HTTP]  → Price ${parsed.toFixed(2)}€ below minimum ${minPrice}€ for ${category}, rejecting`
+                    );
+                } else {
+                    return { handled: true, result: { price: parsed, available: true } };
                 }
+            } else if (detectOutOfStockInDocument(page1.doc)) {
+                console.warn(`[HTTP]  → Phase 1: no buybox price and availability says out-of-stock.`);
+                isUnavailable = true;
             }
         }
 

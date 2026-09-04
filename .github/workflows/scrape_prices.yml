@@ -33,6 +33,15 @@ jobs:
           authkey: ${{ secrets.TS_AUTHKEY }}
           args: --exit-node=100.101.155.64 --exit-node-allow-lan-access=false
 
+      # The HTTP-first scrape path uses the global fetch API, which needs
+      # Node 18+. Pin it instead of relying on whatever the runner image ships.
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: scraper/package-lock.json
+
       - name: Install dependencies
         working-directory: scraper
         shell: bash
