@@ -7,10 +7,12 @@
     "scrape": "node scraper.js",
     "scrape:category": "node scraper.js",
     "update-prices": "node priceUpdater.js",
-    "update-news": "node rss-scraper.js"
+    "update-news": "node rss-scraper.js",
+    "test:parity": "node parityTest.js"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
+    "linkedom": "^0.18.13",
     "puppeteer": "^24.42.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",

@@ -72,12 +72,24 @@ function isStale(product) {
     }
 
     let browser;
-    try {
-        browser = await launchStealthBrowser();
-        const page = await browser.newPage();
-        await page.setViewport({ width: 1366, height: 768 });
-        await enableResourceBlocking(page);
+    let pagePromise = null;
 
+    // Lazy: the HTTP-first path in scraper-core.js answers most products
+    // without Chromium, so on a clean run the browser is never launched.
+    const getPage = () => {
+        if (!pagePromise) {
+            pagePromise = (async () => {
+                browser = await launchStealthBrowser();
+                const page = await browser.newPage();
+                await page.setViewport({ width: 1366, height: 768 });
+                await enableResourceBlocking(page);
+                return page;
+            })();
+        }
+        return pagePromise;
+    };
+
+    try {
         const safeWrite = createSafeWriter();
         let totalUpdated = 0;
         let totalFailed = 0;
@@ -122,7 +134,7 @@ function isStale(product) {
                 while (attempt < MAX_RETRIES) {
                     attempt++;
                     try {
-                        result = await scrapeProduct(page, product, category);
+                        result = await scrapeProduct(getPage, product, category);
                         break;
                     } catch (err) {
                         console.warn(`[RETRY ${attempt}/${MAX_RETRIES}] ${identifier}: ${err.message}`);
@@ -154,8 +166,12 @@ function isStale(product) {
             totalSkipped += products.length - toUpdate.length;
         }
 
-        await browser.close();
-        browser = null;
+        if (browser) {
+            await browser.close();
+            browser = null;
+        } else {
+            console.log("\n[BROWSER] Never launched — every product was served over HTTP.");
+        }
 
         console.log("\n===========================================");
         console.log("  Price Update Summary");

@@ -7,8 +7,21 @@
 import { readFile, writeFile, rename } from "fs/promises";
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
+import { fetchAmazonPage, parseDocument } from "./httpFetch.js";
+import {
+    detectBlockInDocument,
+    detectNotFoundInDocument,
+    detectOutOfStockInDocument,
+    extractPriceInDocument,
+    extractOfferListingPriceInDocument,
+    pickSearchResultInDocument,
+} from "./domExtractors.js";
 
 puppeteer.use(StealthPlugin());
+
+// Try the browserless HTTP path before spending a Chromium page on a product.
+// Set SCRAPER_HTTP_FIRST=0 to disable and run the pure-Puppeteer pipeline.
+const HTTP_FIRST = process.env.SCRAPER_HTTP_FIRST !== "0";
 
 // ==========================================
 // HELPERS
@@ -206,13 +219,13 @@ export async function detectOutOfStock(page) {
 
 // Extract the lowest new-condition price from an offer-listing page
 // (amazon.de/gp/offer-listing/ASIN?condition=new).
-export async function extractOfferListingPrice(page) {
+export async function extractOfferListingPrice(page, expectedAsin = null) {
     try {
         await page
             .waitForSelector(".olpOffer, .a-price", { timeout: 6000 })
             .catch(() => {});
 
-        const rawPrice = await page.evaluate(() => {
+        const rawPrice = await page.evaluate((asin) => {
             // New-condition offer rows
             const offers = Array.from(document.querySelectorAll(".olpOffer"));
             for (const offer of offers) {
@@ -222,11 +235,41 @@ export async function extractOfferListingPrice(page) {
                 const text = priceEl ? priceEl.textContent.trim() : null;
                 if (text && /[0-9]/.test(text)) return text;
             }
-            // Newer offer-listing layout
-            const offscreen = document.querySelector(".a-price:not(.a-text-strike) .a-offscreen");
-            if (offscreen) return offscreen.textContent.trim() || null;
+
+            // /gp/offer-listing/<ASIN> now redirects to the product page with
+            // ?aod=1, so this fallback runs on a full product page whose first
+            // price often belongs to a recommendation widget for a DIFFERENT
+            // article.  Only accept a price that is not nested under a foreign
+            // ASIN and not inside a carousel/sponsored block.
+            function ownsPrice(el) {
+                if (!asin) return true;
+                let node = el.parentElement;
+                while (node && node !== document.body) {
+                    const nodeAsin =
+                        node.getAttribute("data-csa-c-asin") || node.getAttribute("data-asin");
+                    if (nodeAsin && nodeAsin !== asin) return false;
+                    node = node.parentElement;
+                }
+                return true;
+            }
+
+            const candidates = Array.from(
+                document.querySelectorAll(".a-price:not(.a-text-strike) .a-offscreen")
+            );
+            for (const el of candidates) {
+                if (!ownsPrice(el)) continue;
+                if (
+                    el.closest(
+                        '.a-carousel-container, [data-cel-widget*="carousel"], [data-cel-widget*="sims"], ' +
+                        '[id*="similarities"], [id*="sponsored"], [class*="multi-brand"]'
+                    )
+                )
+                    continue;
+                const text = el.textContent.trim();
+                if (text && /[0-9]/.test(text)) return text;
+            }
             return null;
-        });
+        }, expectedAsin);
 
         if (rawPrice) {
             const parsed = parsePrice(rawPrice);
@@ -891,6 +934,111 @@ const ACCESSORY_BLACKLIST_RE = new RegExp(
 // products themselves are fans/coolers.
 const BLACKLIST_EXEMPT_CATEGORIES = new Set(["CaseFan", "CPUCooler"]);
 
+/**
+ * Build the token sets used to score search results.  Shared by the Puppeteer
+ * path and the HTTP path so both rank candidates identically.
+ */
+function buildSearchTokens(expectedName, category = null) {
+    const simplifiedName = simplifySearchQuery(expectedName);
+    const allTokens = simplifiedName
+        .split(/\s+/)
+        .filter((t) => t.length > 0);
+
+    // Extract brand (first 1-2 words)
+    const brandAliases = {
+        windows: "microsoft",
+        linux: "linux",
+    };
+    let brand = null;
+    if (allTokens.length > 0) {
+        const first = allTokens[0];
+        const second = allTokens[1] || "";
+        const twoWordBrands = [
+            "fractal design",
+            "be quiet",
+            "lian li",
+            "cooler master",
+            "team group",
+            "silicon power",
+            "power color",
+            "v color",
+            "western digital",
+        ];
+        const combined = `${first} ${second}`.trim();
+        if (twoWordBrands.includes(combined)) {
+            brand = combined;
+        } else {
+            brand = brandAliases[first] || first;
+        }
+    }
+
+    // Strong tokens: contain digits OR length >= 4
+    const strongTokens = allTokens.filter(
+        (t) => /\d/.test(t) || t.length >= 4
+    );
+    const weakTokens = allTokens.filter(
+        (t) => !strongTokens.includes(t)
+    );
+
+    // MUST_HAVE: pure model numbers (3+ digit tokens) + known variant qualifiers.
+    // Brand is intentionally NOT must-have — Amazon titles vary in how they write brand
+    // names (e.g. "WD" vs "Western Digital", Windows listings without "Microsoft").
+    // The 70%/allStrongMatch scoring threshold handles brand discrimination instead.
+    // The must-have tokens only guard against cross-model false positives
+    // (e.g. RTX 5090 searched → RTX 5070 Ti matched at 83% because everything except
+    // the model number "5090" matched — model-number must-have hard-rejects this).
+    const QUALIFIER_MUST_HAVE = new Set(["ti", "super", "xt", "xtx", "gre", "kf", "ks", "x3d"]);
+    const mustHaveTokens = [];
+    for (const t of allTokens) {
+        if (/^\d{3,}$/.test(t) || QUALIFIER_MUST_HAVE.has(t)) {
+            mustHaveTokens.push(t);
+        }
+    }
+
+    console.log(
+        `[SEARCH] Tokens: all=${allTokens.length} strong=${strongTokens.length} weak=${weakTokens.length} ` +
+        `brand="${brand}" mustHave=${JSON.stringify(mustHaveTokens)} | query="${simplifiedName}"`
+    );
+
+    return {
+        allTokens, strongTokens, weakTokens, brand,
+        mustHaveTokens,
+        blacklistPattern: ACCESSORY_BLACKLIST_RE.source,
+        applyBlacklist: !BLACKLIST_EXEMPT_CATEGORIES.has(category),
+    };
+}
+
+/**
+ * Turn the raw scoring output into the { price, scraped_title, scraped_url }
+ * shape the callers expect.  Shared by both paths.
+ */
+function finalizeSearchResult(evalResult) {
+    if (evalResult) {
+        const { best, debugCount, allScored } = evalResult;
+        console.log(
+            `[SEARCH] ${debugCount} result cards found. ${allScored.length} passed scoring.`
+        );
+        for (const s of allScored) {
+            console.log(`[SEARCH]   score=${s.score.toFixed(2)} | "${s.title}"`);
+        }
+        if (best) {
+            return {
+                price: best.rawPrice ? parsePrice(best.rawPrice) : null,
+                scraped_title: best.scraped_title,
+                scraped_url: best.scraped_url,
+            };
+        }
+        console.warn(
+            "[SEARCH] No result passed scoring threshold (need allStrong+halfWeak OR ≥70%)."
+        );
+    } else {
+        console.warn(
+            "[SEARCH] evaluate returned null — zero results or page not loaded."
+        );
+    }
+    return { price: null, scraped_title: null, scraped_url: null };
+}
+
 export async function extractFirstSearchResult(page, expectedName, category = null) {
     try {
         await page
@@ -899,66 +1047,7 @@ export async function extractFirstSearchResult(page, expectedName, category = nu
             })
             .catch(() => {});
 
-        const simplifiedName = simplifySearchQuery(expectedName);
-        const allTokens = simplifiedName
-            .split(/\s+/)
-            .filter((t) => t.length > 0);
-
-        // Extract brand (first 1-2 words)
-        const brandAliases = {
-            windows: "microsoft",
-            linux: "linux",
-        };
-        let brand = null;
-        if (allTokens.length > 0) {
-            const first = allTokens[0];
-            const second = allTokens[1] || "";
-            const twoWordBrands = [
-                "fractal design",
-                "be quiet",
-                "lian li",
-                "cooler master",
-                "team group",
-                "silicon power",
-                "power color",
-                "v color",
-                "western digital",
-            ];
-            const combined = `${first} ${second}`.trim();
-            if (twoWordBrands.includes(combined)) {
-                brand = combined;
-            } else {
-                brand = brandAliases[first] || first;
-            }
-        }
-
-        // Strong tokens: contain digits OR length >= 4
-        const strongTokens = allTokens.filter(
-            (t) => /\d/.test(t) || t.length >= 4
-        );
-        const weakTokens = allTokens.filter(
-            (t) => !strongTokens.includes(t)
-        );
-
-        // MUST_HAVE: pure model numbers (3+ digit tokens) + known variant qualifiers.
-        // Brand is intentionally NOT must-have — Amazon titles vary in how they write brand
-        // names (e.g. "WD" vs "Western Digital", Windows listings without "Microsoft").
-        // The 70%/allStrongMatch scoring threshold handles brand discrimination instead.
-        // The must-have tokens only guard against cross-model false positives
-        // (e.g. RTX 5090 searched → RTX 5070 Ti matched at 83% because everything except
-        // the model number "5090" matched — model-number must-have hard-rejects this).
-        const QUALIFIER_MUST_HAVE = new Set(["ti", "super", "xt", "xtx", "gre", "kf", "ks", "x3d"]);
-        const mustHaveTokens = [];
-        for (const t of allTokens) {
-            if (/^\d{3,}$/.test(t) || QUALIFIER_MUST_HAVE.has(t)) {
-                mustHaveTokens.push(t);
-            }
-        }
-
-        console.log(
-            `[SEARCH] Tokens: all=${allTokens.length} strong=${strongTokens.length} weak=${weakTokens.length} ` +
-            `brand="${brand}" mustHave=${JSON.stringify(mustHaveTokens)} | query="${simplifiedName}"`
-        );
+        const searchArgs = buildSearchTokens(expectedName, category);
 
         const evalResult = await page.evaluate(
             (args) => {
@@ -1099,37 +1188,10 @@ export async function extractFirstSearchResult(page, expectedName, category = nu
                     allScored: allScored.slice(0, 5),
                 };
             },
-            {
-                allTokens, strongTokens, weakTokens, brand,
-                mustHaveTokens,
-                blacklistPattern: ACCESSORY_BLACKLIST_RE.source,
-                applyBlacklist: !BLACKLIST_EXEMPT_CATEGORIES.has(category),
-            }
+            searchArgs
         );
 
-        if (evalResult) {
-            const { best, debugCount, allScored } = evalResult;
-            console.log(
-                `[SEARCH] ${debugCount} result cards found. ${allScored.length} passed scoring.`
-            );
-            for (const s of allScored) {
-                console.log(`[SEARCH]   score=${s.score.toFixed(2)} | "${s.title}"`);
-            }
-            if (best) {
-                return {
-                    price: best.rawPrice ? parsePrice(best.rawPrice) : null,
-                    scraped_title: best.scraped_title,
-                    scraped_url: best.scraped_url,
-                };
-            }
-            console.warn(
-                "[SEARCH] No result passed scoring threshold (need allStrong+halfWeak OR ≥70%)."
-            );
-        } else {
-            console.warn(
-                "[SEARCH] evaluate returned null — zero results or page not loaded."
-            );
-        }
+        return finalizeSearchResult(evalResult);
     } catch (e) {
         console.warn(`[SEARCH] Error during extraction: ${e.message}`);
     }
@@ -1156,7 +1218,190 @@ const CATEGORY_MIN_PRICE = {
     OS: 15,
 };
 
+// ==========================================
+// BROWSERLESS (HTTP) SCRAPE PATH
+// ==========================================
+
+/**
+ * Fetch a URL over plain HTTP and hand back a parsed document plus the page
+ * state.  Returns { blocked, notFound, doc, status, finalUrl } — `doc` is null
+ * when the request itself failed.
+ */
+async function loadViaHttp(url) {
+    const response = await fetchAmazonPage(url);
+    if (!response.ok) {
+        return { doc: null, blocked: null, notFound: false, error: response.error, status: 0, finalUrl: url };
+    }
+
+    const doc = parseDocument(response.html);
+    const blocked = detectBlockInDocument(doc, response.finalUrl);
+    const notFound = blocked ? false : detectNotFoundInDocument(doc);
+
+    return { doc, blocked, notFound, error: null, status: response.status, finalUrl: response.finalUrl };
+}
+
+/**
+ * Browserless mirror of scrapeProduct().  Runs the same four phases without
+ * Chromium.  Resolves to:
+ *   { handled: true,  result }   – a definitive answer (price or unavailable)
+ *   { handled: false, reason }   – caller must retry through the browser
+ *
+ * Nothing here is destructive: whenever the HTTP path is unsure it declines
+ * and the untouched Puppeteer pipeline takes over.
+ */
+export async function scrapeProductViaHttp(product, category = null) {
+    const identifier = product.name || product.id || product.clean_name || "unknown";
+    const hasSku = product.amazon_sku && String(product.amazon_sku).trim().length > 0;
+    const sku = hasSku ? String(product.amazon_sku).trim() : null;
+
+    let isUnavailable = false;
+    let skuNotFound = false;
+
+    // ---- Phase 1: Direct SKU hit ----
+    if (hasSku) {
+        const skuUrl = `https://www.amazon.de/dp/${sku}`;
+        console.log(`[HTTP] Phase 1 (SKU) for "${identifier}" → ${skuUrl}`);
+
+        const page1 = await loadViaHttp(skuUrl);
+        if (!page1.doc) return { handled: false, reason: `network error: ${page1.error}` };
+        if (page1.blocked) return { handled: false, reason: `bot detection (${page1.blocked})` };
+
+        if (page1.notFound || page1.status === 404) {
+            console.warn(`[HTTP]  → Phase 1: ASIN 404 (stale/wrong SKU). Falling back to search.`);
+            skuNotFound = true;
+        } else if (detectOutOfStockInDocument(page1.doc)) {
+            console.warn(`[HTTP]  → Phase 1: product confirmed out-of-stock.`);
+            isUnavailable = true;
+        } else {
+            const hit = extractPriceInDocument(page1.doc, page1.finalUrl);
+            if (hit?.rawPrice) {
+                const parsed = parsePrice(hit.rawPrice);
+                if (parsed !== null) {
+                    console.log(`[HTTP] Hit via "${hit.via}" → raw="${hit.rawPrice}" parsed=${parsed.toFixed(2)}`);
+                    const minPrice = (CATEGORY_MIN_PRICE[category] || 0) / 2;
+                    if (parsed < minPrice) {
+                        console.warn(
+                            `[HTTP]  → Price ${parsed.toFixed(2)}€ below minimum ${minPrice}€ for ${category}, rejecting`
+                        );
+                    } else {
+                        return { handled: true, result: { price: parsed, available: true } };
+                    }
+                }
+            }
+        }
+
+        // ---- Phase 1.5: Offer-listing fallback ----
+        if (!skuNotFound) {
+            const offerUrl = `https://www.amazon.de/gp/offer-listing/${sku}?condition=new`;
+            console.log(`[HTTP] Phase 1.5 (offer-listing) → ${offerUrl}`);
+            const page15 = await loadViaHttp(offerUrl);
+            if (page15.doc && !page15.blocked && !page15.notFound) {
+                const raw = extractOfferListingPriceInDocument(page15.doc, sku);
+                const parsed = raw ? parsePrice(raw) : null;
+                if (parsed !== null) {
+                    const minPrice = (CATEGORY_MIN_PRICE[category] || 0) / 2;
+                    if (parsed >= minPrice) {
+                        console.log(`[HTTP] Offer-listing hit → parsed=${parsed.toFixed(2)}`);
+                        return { handled: true, result: { price: parsed, available: true } };
+                    }
+                }
+            }
+        }
+
+        if (isUnavailable) {
+            console.warn(`[HTTP]  → Product confirmed unavailable, skipping search`);
+            return { handled: true, result: { price: null, available: false } };
+        }
+
+        // No price and not a stale ASIN: the buybox is probably behind the
+        // all-offers dialog, which needs a real click. Let the browser retry.
+        if (!skuNotFound) {
+            return { handled: false, reason: "no price in static HTML (AOD dialog needs a browser)" };
+        }
+    }
+
+    // ---- Phase 2: Fallback search ----
+    const rawName = String(product.name || product.clean_name || "").trim();
+    const cleanedName = rawName
+        .replace(/\s*\(OEM\/Tray\)/gi, "")
+        .replace(/\s*OEM\/Tray/gi, "")
+        .replace(/\s*\bOEM\b/gi, "")
+        .replace(/\s*\bTray\b/gi, "")
+        .trim();
+    const artifactCleanName = cleanNameArtifacts(cleanedName);
+    const simplifiedName = simplifySearchQuery(artifactCleanName);
+    const query = encodeURIComponent(simplifiedName || artifactCleanName);
+    const searchUrl = `https://www.amazon.de/s?k=${query}`;
+
+    console.log(`[HTTP] Phase 2 (search) for "${identifier}" → ${searchUrl}`);
+
+    const page2 = await loadViaHttp(searchUrl);
+    if (!page2.doc) return { handled: false, reason: `network error: ${page2.error}` };
+    if (page2.blocked) return { handled: false, reason: `bot detection (${page2.blocked}) on search` };
+
+    const searchArgs = buildSearchTokens(artifactCleanName, category);
+    const result = finalizeSearchResult(pickSearchResultInDocument(page2.doc, searchArgs));
+
+    let price = result.price;
+    const scrapedUrl = result.scraped_url || undefined;
+    const scrapedTitle = result.scraped_title || undefined;
+
+    if (scrapedTitle) {
+        console.log(`[HTTP]  → Matched: "${scrapedTitle.substring(0, 60)}"`);
+    }
+
+    // ---- Phase 3: Deep-link extraction ----
+    if (price === null && scrapedUrl) {
+        console.log(`[HTTP] Phase 3 (deep-link): ${scrapedUrl}`);
+        const page3 = await loadViaHttp(scrapedUrl);
+        if (!page3.doc) return { handled: false, reason: `network error: ${page3.error}` };
+        if (page3.blocked) return { handled: false, reason: `bot detection (${page3.blocked}) on deep-link` };
+
+        const hit = extractPriceInDocument(page3.doc, page3.finalUrl);
+        price = hit?.rawPrice ? parsePrice(hit.rawPrice) : null;
+        if (price !== null) {
+            console.log(`[HTTP] Deep-link hit via "${hit.via}" → parsed=${price.toFixed(2)}`);
+        }
+    }
+
+    if (price !== null) {
+        const minPrice = CATEGORY_MIN_PRICE[category] || 0;
+        if (price < minPrice) {
+            console.warn(
+                `[HTTP]  → Price ${price.toFixed(2)}€ below minimum ${minPrice}€ for ${category}, rejecting`
+            );
+            price = null;
+        } else {
+            console.log(`[HTTP]  → Final price: ${price.toFixed(2)}€`);
+            return {
+                handled: true,
+                result: { price, available: true, scraped_url: scrapedUrl, scraped_title: scrapedTitle },
+            };
+        }
+    }
+
+    // Search produced nothing usable — hand back so the browser can try.
+    return { handled: false, reason: "search found no usable price" };
+}
+
 export async function scrapeProduct(page, product, category = null) {
+    if (HTTP_FIRST) {
+        try {
+            const attempt = await scrapeProductViaHttp(product, category);
+            if (attempt.handled) return attempt.result;
+            console.warn(`[HTTP]  → Declined (${attempt.reason}) — retrying via browser`);
+        } catch (err) {
+            console.warn(`[HTTP]  → Error (${err.message}) — retrying via browser`);
+        }
+    }
+
+    // `page` may be a provider function so callers can launch Chromium lazily —
+    // most products never reach this line.
+    const browserPage = typeof page === "function" ? await page() : page;
+    return scrapeProductViaBrowser(browserPage, product, category);
+}
+
+export async function scrapeProductViaBrowser(page, product, category = null) {
     const identifier =
         product.name || product.id || product.clean_name || "unknown";
     const hasSku =
@@ -1228,7 +1473,7 @@ export async function scrapeProduct(page, product, category = null) {
             const block15 = await detectPageBlock(page);
             if (!block15 && !(await detectPageNotFound(page))) {
                 await sleep(getRandomDelay(600, 1200));
-                price = await extractOfferListingPrice(page);
+                price = await extractOfferListingPrice(page, String(product.amazon_sku).trim());
                 if (price !== null) isUnavailable = false;
             }
         }

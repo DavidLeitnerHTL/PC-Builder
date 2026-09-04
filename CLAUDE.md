@@ -47,13 +47,22 @@ The AI assistant (Google Gemini) is proxied through a Cloudflare Worker — the 
 ### Scraper pipeline
 `scraper-core.js` is the shared utility module used by both `scraper.js` and `priceUpdater.js`. It exports:
 - `launchStealthBrowser` / `enableResourceBlocking` — Puppeteer + stealth plugin setup
-- `scrapeProduct(page, product, category)` — three-phase lookup: (1) direct Amazon SKU, (2) Amazon search with token-scoring, (3) deep-link to product page if search card hid the price
-- `extractPriceFromPage` / `extractFirstSearchResult` — DOM extraction logic
+- `scrapeProduct(pageOrProvider, product, category)` — HTTP-first dispatcher (see below)
+- `scrapeProductViaHttp` / `scrapeProductViaBrowser` — the two paths, exported for `parityTest.js`
+- `extractPriceFromPage` / `extractFirstSearchResult` — Puppeteer DOM extraction logic
 - `createSafeWriter()` — serialises concurrent writes to the same JSON file via a promise chain
 
-`scraper.js` runs 3 concurrent Puppeteer pages as workers (Pi 4 RAM limit), pulling from a shared queue, with 2–6 s random delays. Processes ALL products every run (not just null-priced). Sets `available: false` on confirmed OOS/404 products — server filters these out at query time so they recover automatically next scrape.
+**HTTP-first path.** Amazon.de serves the complete price-bearing HTML to a plain `fetch` as long as the request carries a desktop-Chrome header set; `/s?k=` additionally needs a same-origin `referer`. `scrapeProduct` therefore tries a browserless run first and only falls back to Chromium when the HTTP path declines (bot challenge, network error, or a buybox that lives behind the all-offers dialog, which needs a real click).
 
-`priceUpdater.js` uses a single page and refreshes products whose `last_updated` is older than 7 days, capped at 100 products per run with 10–25 s delays.
+- `httpFetch.js` — header/UA construction, timeouts, and `parseDocument()` (linkedom → a real DOM).
+- `domExtractors.js` — the extraction logic as pure functions over a `document`. These are ports of the `page.evaluate` callbacks in `scraper-core.js` and must stay behaviourally identical.
+- `parityTest.js` — runs both paths against the same live products and fails (exit 1) on any disagreement. Run `node parityTest.js all 3` before touching either extractor; `--search` forces the phase-2 path.
+
+**Rollback:** `SCRAPER_HTTP_FIRST=0` disables the HTTP path entirely and restores the pure-Puppeteer pipeline. The Puppeteer code is untouched by the HTTP path, so this is a complete revert without a code change.
+
+`scraper.js` runs 3 concurrent workers (`SCRAPE_CONCURRENCY`), pulling from a shared queue, with 2–6 s random delays. Processes ALL products every run (not just null-priced). Sets `available: false` on confirmed OOS/404 products — server filters these out at query time so they recover automatically next scrape. Chromium is launched **lazily**: a run where every product resolves over HTTP never starts a browser at all.
+
+`priceUpdater.js` refreshes products whose `last_updated` is older than 7 days, capped at 100 products per run with 10–25 s delays. Same lazy-browser behaviour.
 
 ### GitHub Actions automation
 Two workflows run daily:

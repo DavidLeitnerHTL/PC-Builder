@@ -69,23 +69,42 @@ const UNAVAILABLE_RECHECK_DAYS = 3;
     const summaryRows = [];
     let browser;
 
-    try {
-        browser = await launchStealthBrowser();
+    // Chromium is launched lazily: the HTTP-first path in scraper-core.js
+    // answers most products without a browser, so on a good run this never
+    // fires and the whole scrape stays at Node-only memory.
+    let browserPromise = null;
+    const workerPages = new Map();
 
-        const pages = await Promise.all(
-            Array.from({ length: CONCURRENCY }, async (_, i) => {
-                const p = await browser.newPage();
-                const w = 1280 + Math.floor(Math.random() * 200);
-                const h = 800 + Math.floor(Math.random() * 200);
-                await p.setViewport({ width: w, height: h });
-                await enableResourceBlocking(p);
-                console.log(
-                    `[BROWSER] Page ${i + 1}/${CONCURRENCY} ready.`
-                );
-                return p;
-            })
-        );
-        console.log();
+    async function getBrowser() {
+        if (!browserPromise) {
+            browserPromise = launchStealthBrowser().then((b) => {
+                browser = b;
+                return b;
+            });
+        }
+        return browserPromise;
+    }
+
+    async function getPageFor(workerId) {
+        if (!workerPages.has(workerId)) {
+            workerPages.set(
+                workerId,
+                (async () => {
+                    const b = await getBrowser();
+                    const p = await b.newPage();
+                    const w = 1280 + Math.floor(Math.random() * 200);
+                    const h = 800 + Math.floor(Math.random() * 200);
+                    await p.setViewport({ width: w, height: h });
+                    await enableResourceBlocking(p);
+                    console.log(`[BROWSER] Page for worker ${workerId} ready (lazy).`);
+                    return p;
+                })()
+            );
+        }
+        return workerPages.get(workerId);
+    }
+
+    try {
 
         const safeWrite = createSafeWriter();
 
@@ -121,7 +140,7 @@ const UNAVAILABLE_RECHECK_DAYS = 3;
             let failCount = 0;
             const queue = [...todo];
 
-            const pageWorker = async (page, pageId) => {
+            const pageWorker = async (pageId) => {
                 while (true) {
                     const product = queue.shift();
                     if (!product) break;
@@ -136,7 +155,11 @@ const UNAVAILABLE_RECHECK_DAYS = 3;
                     while (attempt < MAX_RETRIES) {
                         attempt++;
                         try {
-                            scrapeResult = await scrapeProduct(page, product, category);
+                            scrapeResult = await scrapeProduct(
+                                () => getPageFor(pageId),
+                                product,
+                                category
+                            );
                             break;
                         } catch (err) {
                             console.warn(
@@ -189,7 +212,9 @@ const UNAVAILABLE_RECHECK_DAYS = 3;
                 }
             };
 
-            await Promise.all(pages.map((p, i) => pageWorker(p, i + 1)));
+            await Promise.all(
+                Array.from({ length: CONCURRENCY }, (_, i) => pageWorker(i + 1))
+            );
 
             summaryRows.push({
                 category,
@@ -208,8 +233,12 @@ const UNAVAILABLE_RECHECK_DAYS = 3;
             }
         }
 
-        await browser.close();
-        browser = null;
+        if (browser) {
+            await browser.close();
+            browser = null;
+        } else {
+            console.log("\n[BROWSER] Never launched — every product was served over HTTP.");
+        }
 
         console.log("\n===========================================");
         console.log("  ETL Summary");
