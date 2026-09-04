@@ -1,12 +1,336 @@
 [
   {
-    "title": "Sieben 750-Watt-ATX-Netzteile ab 70 Euro im Test",
+    "title": "High-End-Workstation HP Z4 G6i mit KI-Beschleuniger Nvidia RTX Pro 6000 im Test",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Berge von CPU-Kernen, multiple Beschleuniger, extreme SSD- oder RAM-Kapazität überfordern Desktop-PCs. Es schlägt die Stunde von Workstations wie der HP Z4 G6i.",
+    "url": "https://www.heise.de/tests/High-End-Workstation-HP-Z4-G6i-mit-KI-Beschleuniger-Nvidia-RTX-Pro-6000-im-Test-11379263.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/2/4/6/9/2/csp-934386d67fb08225.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Lexar Muse: Die flachste SSD zieht sich mit einer Hülle an",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Die nach eigenen Angaben dünnste tragbare SSD präsentiert Lexar zur IFA. Selbst an der dicksten Stelle misst die Muse Ultra-Slim Portable SSD lediglich 3,8 mm, zum Rand hin verjüngt sie sich auf minimale 1 mm Dicke. S...",
+    "url": "https://www.computerbase.de/news/storage/lexar-muse-die-flachste-ssd-zieht-sich-mit-einer-huelle-an.99203/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Lenovo × AirJet im Hands-on: Project AeroBlade ist superdünn, leicht und interessant",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "AirJet ist wieder da! Air was!? Eine lautlose Kühlungstechnologie für SSDs, Mini-PCs und nun Notebooks. Das Konzept bei Lenovo funktioniert, dort wurden vier dieser kleinen Elemente zusammengeschaltet, die CPU mit bis...",
+    "url": "https://www.computerbase.de/news/notebooks/lenovo-x-airjet-im-hands-on-project-aeroblade-ist-superduenn-leicht-und-interessant.99219/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "13 Milliarden USD: Nvidia kauft mit Hugging-Face das GitHub der KI",
+    "date": "2026-09-04",
+    "category": "Industrie",
+    "description": "Aus den Übernahmegerüchten wird Gewissheit: Nvidia kauft Hugging Face für knapp 13 Milliarden US-Dollar. Der GPU-Konzern erhält damit die Kontrolle über eine zentrale Plattform für KI-Modelle, Datensätze und Anwendung...",
+    "url": "https://www.computerbase.de/news/wirtschaft/13-milliarden-usd-nvidia-kauft-mit-hugging-face-das-github-der-ki.99236/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "ColorEdge CG3200X: Erster OLED-Monitor von Eizo kommt im Winter",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Es hat lange gedauert, doch jetzt hat Eizo seinen ersten OLED-Monitor der ColorEdge-Serie im Detail vorgestellt. Der CG3200X nutzt ein QD-OLED-Panel mit UHD-Auflösung und 31,5 Zoll. Stolz bewirbt das Unternehmen den A...",
+    "url": "https://www.computerbase.de/news/monitore/coloredge-cg3200x-erster-oled-monitor-von-eizo-kommt-im-winter.99234/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Nun also doch: Nvidia DLSS 5 kommt auch für GeForce RTX 4000",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Noch vor einer Woche hieß es auf Rückfrage zur Gamescom: DLSS 5 (erster Test in NBA 2K27) kommt nur für RTX 5000. Bei NBA 2K27 ist das heute auch der Fall. Aber höchstwahrscheinlich im Lichte des DLSS-5-Mods (Anleitun...",
+    "url": "https://www.computerbase.de/news/grafikkarten/nun-also-doch-nvidia-dlss-5-kommt-auch-fuer-geforce-rtx-4000.99232/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "NBA 2K27: DLSS 5 verbessert die Grafik im ersten offiziellen Spiel deutlich",
+    "date": "2026-09-04",
+    "category": "Software",
+    "description": "NBA 2K27 unterstützt ab sofort als erstes Spiel offiziell DLSS 5. Das gilt ohne Mod vorerst nur für RTX 50, aber am RTX-40-Support ist Nvidia dran. ComputerBase liefert umfassende Benchmarks, Bildqualität- und Stromve...",
+    "url": "https://www.computerbase.de/artikel/grafikkarten/dlss-5-nba-2k27-test.99198/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Halbleiterfertigung: Zeiss-SMT-CEO sieht China bei EUV über 20 Jahre zurück",
+    "date": "2026-09-04",
+    "category": "Industrie",
+    "description": "Zeiss SMT entwickelt die Optik für ASMLs EUV-Belichter. Der CEO ist vorsichtig bei einer Aussage zur Dauer der hohen Halbleiternachfrage. (Halbleiterfertigung, ASML)",
+    "url": "https://www.golem.de/news/halbleiterfertigung-zeiss-smt-ceo-sieht-china-bei-euv-ueber-20-jahre-zurueck-2609-212660.html",
+    "image": "https://www.golem.de/2609/212660-596646-596644_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Betriebssystem: Windows 11 wird Altersprüfung selbst übernehmen",
+    "date": "2026-09-04",
+    "category": "Software",
+    "description": "Mithilfe von Age Signals können Apps Windows 11 nach dem Alter der User fragen. Das ist laut Microsoft anonymisiert und sicher. (Windows 11, Microsoft)",
+    "url": "https://www.golem.de/news/betriebssystem-windows-11-wird-alterspruefung-selbst-uebernehmen-2609-212655.html",
+    "image": "https://www.golem.de/2609/212655-596618-596616_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Microsoft gesteht Update-Panne: Windows-11-Update macht den Desktop schwarz",
+    "date": "2026-09-04",
+    "category": "Software",
+    "description": "Auch Mauszeigereinstellungen werden durch das Update auf vielen Windows-11-Systemen zurückgesetzt. Microsoft arbeitet an Korrekturen. (Windows 11, Microsoft)",
+    "url": "https://www.golem.de/news/microsoft-gesteht-windows-11-update-laesst-wallpaper-verschwinden-2609-212638.html",
+    "image": "https://www.golem.de/2609/212638-596546-596544_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Geforce 616.64 ohne Bugfix, Radeon 26.9.1 mit Fix: Neue Treiber von Nvidia und AMD",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Nvidia und AMD veröffentlichen neue Grafiktreiber. Geforce 616.64 nennt keinen Bugfix und bekommt bald ein Folge-Update; Adrenalin 26.9.1 fixt RX-9000-Abstürze, kann unter Windows 10 aber SAM deaktivieren.",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Geforce-616-64-Radeon-Adrenalin-26-9-1-Treiber-Bugfixes-1552869/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/RX-9070-XT-Onimusha-5-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS] Tuning für AM5-Mainboards: Über 400 Optionen im Asus-UEFI erklärt [Update für 2026]",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "PCGH Plus: PCGH erklärt sämtliche UEFI-Optionen von Asus-Mainboards und legt dar, welche Einstellungen empfehlenswert sind - und welche eher nicht. Außerdem geben wir Tipps zur Optimierung des Prozessors über herstell...",
+    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/Specials/Asus-UEFI-erklaert-1414849/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2023/03/Teaser_UEFI_Guide_Asus-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Nun also doch: DLSS 5 soll auch von der GeForce-RTX-40-Serie unterstützt werden",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Mit NBA 2K27 haben wir heute Morgen einen Test des ersten Spiels veröffentlicht, welches offiziell DLSS 5 unterstützt.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70235-nun-also-doch-dlss-5-soll-auch-von-der-geforce-rtx-40-serie-unterstuetzt-werden.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/honest_semiconductor_xa/gamescom_2026_nvidia_dlss5_036_680px.jpeg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Benchmarks und Messungen: DLSS 5 in NBA 2K27 im Test",
+    "date": "2026-09-04",
+    "category": "Software",
+    "description": "Nach der offiziellen Vorstellung von DLSS 5 zu Anfang der Woche können wir heute einen ersten Test der Technik präsentieren.",
+    "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/grafikkarten/70208-benchmarks-dlss-5-in-nba-2k27.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/honest_semiconductor_xa/gamescom_2026_nvidia_dlss5_036_680px.jpeg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "(PR) Alogic Unveils Aspekt Touch 6K and Vision Professional-Grade Docking Monitors at IFA 2026",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Alogic today announced the latest addition to its premium monitor portfolio, introducing the Vision Connect, Vision Docking and Vision Ultrawide monitors and expanding its Clarity and Aspekt display ranges with new hi...",
+    "url": "https://www.techpowerup.com/352339/alogic-unveils-aspekt-touch-6k-and-vision-professional-grade-docking-monitors-at-ifa-2026",
+    "image": "https://www.techpowerup.com/img/fkeXdjlrKEhvz5Kk.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Lexar Shows New AI Storage Core Technologies and Storage for Specialized Application Environments at IFA 2026",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Beyond portable storage, Lexar is also showcasing the continued evolution of its AI Storage Core at IFA 2026. Combining advanced packaging, chip hardware, Lexar Luma Bridge technologies, and system-level optimization,...",
+    "url": "https://www.techpowerup.com/352338/lexar-shows-new-ai-storage-core-technologies-and-storage-for-specialized-application-environments-at-ifa-2026",
+    "image": "https://www.techpowerup.com/img/7OZ90XdNOd9MKQ1X.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AutoCAD LT Is $199 for a Year—Existing Autodesk Users Qualify Too",
+    "date": "2026-09-04",
+    "category": "Software",
+    "description": "Professional CAD software usually comes with an enterprise price tag, even for teams that only need 2D drafting instead of full 3D design tools. AutoCAD LT trims that down to core 2D functionality, and a 1-year subscr...",
+    "url": "https://www.techpowerup.com/352202/autocad-lt-is-usd-199-for-a-year-existing-autodesk-users-qualify-too",
+    "image": "https://www.techpowerup.com/img/7Y3Mb0ZUIKprJCez.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AMD Software Adrenalin 26.9.1 WHQL Drivers Released",
+    "date": "2026-09-04",
+    "category": "Software",
+    "description": "AMD on Thursday released the latest version of AMD Software Adrenalin drivers. Version 26.9.1 WHQL comes with optimization for \"Onimusha: Way of the Sword\" and \"The Blood of Dawnwalker.\" The drivers also fix a single...",
+    "url": "https://www.techpowerup.com/352337/amd-software-adrenalin-26-9-1-whql-drivers-released",
+    "image": "https://www.techpowerup.com/img/nkVnXd540TLXnsya.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Intel Releases Arc GPU Graphics Drivers 101.8992 Beta",
+    "date": "2026-09-04",
+    "category": "Software",
+    "description": "Intel today released the latest version of Arc GPU Graphics Drivers. Version 101.8992 Beta comes with optimization for \"Onimusha: Way of the Sword\" and \" The Blood of Dawnwalker.\" The drivers fix a trio of issues. To...",
+    "url": "https://www.techpowerup.com/352336/intel-releases-arc-gpu-graphics-drivers-101-8992-beta",
+    "image": "https://www.techpowerup.com/img/EX4uUGHFPLLSEeO1.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "NVIDIA Releases GeForce 616.64 WHQL Game Ready Drivers",
+    "date": "2026-09-04",
+    "category": "Software",
+    "description": "NVIDIA late Thursday released the latest version of its GeForce Game Ready drivers. Version 616.64 adds day-zero (Game Ready) optimization for \"NBA 2K27.\" Besides this little change, the company did not fix any new is...",
+    "url": "https://www.techpowerup.com/352335/nvidia-releases-geforce-616-64-whql-game-ready-drivers",
+    "image": "https://www.techpowerup.com/img/qRXaM64VKDubJIOs.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Editing a PDF usually means paying for an Acrobat subscription or uploading sensitive files to random online converters. Neither option feels great for contracts or private documents. A lifetime subscription to IndyPD...",
+    "url": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
+    "image": "https://www.techpowerup.com/img/CPPkiC6miSvAbeOw.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Lexar Claims the World's Thinnest Portable SSD with the Muse at IFA 2026",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Lexar, a global leader in memory and storage solutions, today unveiled its latest storage innovations at IFA 2026, led by the new Lexar Muse the world's thinnest portable SSD. which brings high-speed external storage...",
+    "url": "https://www.techpowerup.com/352246/lexar-claims-the-worlds-thinnest-portable-ssd-with-the-muse-at-ifa-2026",
+    "image": "https://www.techpowerup.com/img/27YNEEbKI1QkZqTy.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "NVIDIA Confirms DLSS 5 for GeForce RTX 40-Series is Coming",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "NVIDIA has officially confirmed that the company is working to bring DLSS 5 neural rendering to the previous-generation GeForce RTX 40-Series \"Ada Lovelace.\" Previously, it was believed that DLSS 5 technology would be...",
+    "url": "https://www.techpowerup.com/352330/nvidia-confirms-dlss-5-for-geforce-rtx-40-series-is-coming",
+    "image": "https://www.techpowerup.com/img/ODqupQpUHTjnqGWw.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Ugreen Launches the NASync DXP6800 Ultra and DXP8800 Ultra at IFA 2026",
+    "date": "2026-09-04",
+    "category": "Markt",
+    "description": "Ugreen, a leading global consumer technology company, is due to showcase the Ugreen NASync DXP6800 Ultra and DXP8800 Ultra at IFA 2026. Designed as powerful local data centers for small studios and growing businesses,...",
+    "url": "https://www.techpowerup.com/352307/ugreen-launches-the-nasync-dxp6800-ultra-and-dxp8800-ultra-at-ifa-2026",
+    "image": "https://www.techpowerup.com/img/SpvFUTvGBMYBtun6.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Xbox Cloud Gaming Gets Monthly Time Limits Starting in November",
+    "date": "2026-09-04",
+    "category": "Hardware",
+    "description": "Microsoft is putting a hard cap on Xbox Cloud Gaming for the first time, ending years of unlimited streaming for Game Pass subscribers. Starting in November, Game Pass Essential will include 5 hours of cloud streaming...",
+    "url": "https://www.techpowerup.com/352323/xbox-cloud-gaming-gets-monthly-time-limits-starting-in-november",
+    "image": "https://www.techpowerup.com/img/222LugczXLfBnLTD.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "OpenAI stellt GPT-6 Astra vor: Mehr Intelligenz und AGI-Raunen",
+    "date": "2026-09-03",
+    "category": "Software",
+    "description": "OpenAI stellt GPT-6 Astra vor. Bei der Präsentation fiel das Wort AGI, in den Benchmarks zielt fast alles auf Konkurrent Anthropic.",
+    "url": "https://www.heise.de/news/OpenAI-stellt-GPT-6-Astra-vor-Mehr-Intelligenz-und-AGI-Raunen-11440778.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/8/7/6/4/Unbenannt-5a4f0e21050f208e.png",
+    "source": "Heise"
+  },
+  {
+    "title": "IFA: Nvidias RTX-Spark-Prozessor landet in Notebooks und Windows-Mini-PCs",
     "date": "2026-09-03",
     "category": "Hardware",
-    "description": "Das ATX-Netzteil, der Maschinenraum des PCs, muss schnell und effizient auf Lastwechsel reagieren. Wir haben sieben Modelle bis 750 Watt getestet.",
-    "url": "https://www.heise.de/tests/Sieben-750-Watt-ATX-Netzteile-ab-70-Euro-im-Test-11360895.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/1/4/8/8/8/rop_2035730667_AufmacherOnline-84c21e802d8a3f1a.jpeg",
+    "description": "Nvidias ARM-Prozessor RTX Spark kommt in zwei Modellvarianten. Erste damit bestückte Notebooks sollen ab Oktober erhältlich sein.",
+    "url": "https://www.heise.de/news/ARM-Prozessor-RTX-Spark-Nvidia-nennt-CPU-Modelle-und-Startzeitpunkt-11438370.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/7/5/5/5/Nvidia-RTX-Spark-N1X-mue-525bf68ffe4b759d.jpeg",
     "source": "Heise"
+  },
+  {
+    "title": "IFA: IdeaPad Vibe: Lenovo startet bunten MacBook-Konkurrent mit AMD oder Qualcomm",
+    "date": "2026-09-03",
+    "category": "Industrie",
+    "description": "Aus dem Reigen der MacBook-Neo-Konkurrenten sticht das IdeaPad Vibe mit sieben möglichen Farben hervor. Ebenfalls ungewöhnlich: Die CPU kommt nicht von Intel.",
+    "url": "https://www.heise.de/news/IdeaPad-Vibe-Lenovo-startet-bunten-MacBook-Konkurrent-mit-AMD-oder-Qualcomm-11440338.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/8/5/3/8/ideapad_vibe-88524a985eea4128.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Kubermatic AI: Teure GPUs besser nutzen – auch Team-übergreifend",
+    "date": "2026-09-03",
+    "category": "Hardware",
+    "description": "Die Kubernetes-native KI-Plattform Kubermatic AI soll GPU-Ressourcen konsolidieren und Modelle als geteilten Dienst über Teams hinweg bereitstellen.",
+    "url": "https://www.heise.de/news/Kubermatic-AI-Teure-GPUs-besser-nutzen-auch-Team-uebergreifend-11438811.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/7/7/7/9/Kubermatic-AI-shard-GPUs-b5d6a76d5f2a298b.png",
+    "source": "Heise"
+  },
+  {
+    "title": "Chef der Halbleitersparte von Zeiss: China 15 Jahre von EUV-Lithografie entfernt",
+    "date": "2026-09-03",
+    "category": "Hardware",
+    "description": "Wie weit ist China bei der Entwicklung eigener Lithografietechnik für die Chipproduktion? Der Chef von Carl Zeiss SMT sagt, man sei „immer noch weit vorne“.",
+    "url": "https://www.heise.de/news/Chef-der-Halbleitersparte-von-Zeiss-China-15-Jahre-von-EUV-Lithografie-entfernt-11440352.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/8/5/4/5/ASML_HighNA_cleanroom_Veldhoven_068_1_-3578eb2427e8c0f1.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Nvidia übernimmt Hugging Face für 12,93 Milliarden US-Dollar",
+    "date": "2026-09-03",
+    "category": "Industrie",
+    "description": "Nvidia kauft Hugging Face für 12,93 Milliarden US-Dollar. Die Plattform für offene KI-Modelle soll offen bleiben, verspricht das Unternehmen.",
+    "url": "https://www.heise.de/news/Nvidia-uebernimmt-Hugging-Face-fuer-12-93-Milliarden-US-Dollar-11440209.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/8/4/7/3/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2-5e6175268bf68c97.png",
+    "source": "Heise"
+  },
+  {
+    "title": "Für RTX mit 24+ GB: 1-Click-Installer für OpenClaw, Hermes und Perplexity PC",
+    "date": "2026-09-03",
+    "category": "Hardware",
+    "description": "Wer lokal einen KI-Agenten mit OpenClaw oder Hermes Agent betreiben will, muss derzeit noch manuell eine Inference Engine wie LM Studio oder Ollama einrichten sowie ein zum eigenen System und dem geplanten Einsatzszen...",
+    "url": "https://www.computerbase.de/news/apps/fuer-rtx-mit-24-plus-gb-1-click-installer-fuer-openclaw-hermes-und-perplexity-pc.99230/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Lenovo Yoga (Pro) 9n (2-in-1) im Hands-on: Die Nvidia-RTX-Spark-N1X-Notebooks sind los!",
+    "date": "2026-09-03",
+    "category": "Hardware",
+    "description": "Lenovo bringt zur IFA 2026 die ersten Notebooks mit Nvidia RTX Spark N1X mit: Yoga Pro 9n und Yoga 9n 2-in-1. Was heute noch fehlt, sind der offizielle Preis und der Termin. Dass es dabei aber alles andere als günstig...",
+    "url": "https://www.computerbase.de/news/notebooks/lenovo-yoga-pro-9n-2-in-1-im-hands-on-die-nvidia-rtx-spark-n1x-notebooks-sind-los.99168/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Nvidia PAIR: RTX und Apple Mac ab M4 rechnen in Zukunft im Team",
+    "date": "2026-09-03",
+    "category": "Industrie",
+    "description": "Neben einem konkreten Datum für Notebooks und Mini-PCs mit RTX Spark N1X hat Nvidia zur IFA den Personal AI Router vorgestellt. Mit Nvidia PAIR lassen sich AI-Lasten im lokalen Netzwerk auf über LAN miteinander verbun...",
+    "url": "https://www.computerbase.de/news/pc-systeme/nvidia-pair-rtx-und-apple-mac-ab-m4-rechnen-in-zukunft-im-team.99226/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "RTX Spark N1X: Nvidia steigt im Oktober gegen AMD und Intel in den Ring",
+    "date": "2026-09-03",
+    "category": "Software",
+    "description": "Die zur Computex im Juni angekündigte Plattform Nvidia RTX Spark für Windows 11 on Arm als Consumer-Ableger von DGX Spark („Mini-KI-Supercomputer für Linux“, Test) kommt der Markteinführung zur IFA 2026 einen Schritt...",
+    "url": "https://www.computerbase.de/news/notebooks/ab-oktober-rtx-spark-n1x-kommt-in-zwei-varianten-mit-24-bis-128-gb-ram.99223/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Intel Nova Lake: 28 Kerne machen 2027 im langlebigen Sockel den Anfang",
+    "date": "2026-09-03",
+    "category": "Hardware",
+    "description": "Die durchgesickerte Präsentation eines Intel-Partners bestätigt jüngste Gerüchte. Demnach wird Intels neue CPU-Generation Nova Lake-S zwar noch in diesem Jahr die Serienfertigung erreichen, doch der Marktstart erfolgt...",
+    "url": "https://www.computerbase.de/news/prozessoren/intel-nova-lake-28-kerne-machen-2027-im-langlebigen-sockel-den-anfang.99229/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Kann Gaming-Leistung mindern: HVCI kommt jetzt für alle Windows-11-Systeme",
+    "date": "2026-09-03",
+    "category": "Software",
+    "description": "Microsoft aktiviert in den nächsten Monaten die Speicherintegrität von Windows 11 automatisch, sofern diese nicht ohnehin schon eingeschaltet ist. Das erfolgt im Rahmen der regulären Patchday-Updates. Die neue Strateg...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/kann-gaming-leistung-mindern-hvci-kommt-jetzt-fuer-alle-windows-11-systeme.99217/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
     "title": "Asus × RTX Spark im Hands-on: Nvidia-Chips übernehmen die Asus-ProArt-Flaggschiffe",
@@ -18,170 +342,35 @@
     "source": "ComputerBase"
   },
   {
-    "title": "[PLUS] Undervolting vs. Powerlimit: Radeon RX 9070 XT und RTX 5070 Ti optimiert",
+    "title": "Anzeige: USB-SSD-Stick mit 1 TByte und 2-in-1-Design für unter 125 Euro",
     "date": "2026-09-03",
     "category": "Hardware",
-    "description": "PCGH Plus: Wie zügelt man den Stromhunger aktueller GPUs: mit einem Powerlimit oder per Spannungsoptimierung? Radeon RX 9070 XT und Geforce RTX 5070 Ti geben individuelle Antworten im Test. Der Artikel stammt aus PC G...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Undervolting-vs-Underpowering-RX-9070-XT-und-RTX-5070-Ti-1488087/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/12/aufmacher_undervolting-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Bodycam: Locked & Loaded bringt Rekord, DLSS 4.5 und große Technik-Umbauten",
-    "date": "2026-09-03",
-    "category": "Software",
-    "description": "Erst der Playtest, dann der Rekord: Bodycam erreicht mit Locked & Loaded nahezu doppelt so viele gleichzeitige Spieler wie zum Early-Access-Start. Technisch wurde dabei kräftig umgebaut.",
-    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/News/Bodycam-Locked-und-Loaded-Early-Access-hyperrealistischen-Shooter-1552742/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Bodycam_Reissad-Studio-1--pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "AOC Agon AGP327KG: AOC und Nvidia präsentieren einen 5K3K-Monitor mit G-Sync Pulsar",
-    "date": "2026-09-03",
-    "category": "Hardware",
-    "description": "Im Rahmen der Gamescom und in Kooperation mit Nvidika hat AOC einen 5K3K-Monitor vorgestellt. Der AOC Agon AGP327KG soll mit 5K-Auflösung, Dual-Mode und G-Sync Pulsar ein schärferes Bewegtbild ohne Tearing und Helligk...",
-    "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/News/AOC-G-Sync-Pulsar-5K3K-1552691/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/80799cf2-a111-4d2a-9cd6-956bdfe7cab1-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Nvidia DLSS: Mod bringt echtes DLSS MFG auf Geforce RTX 4000",
-    "date": "2026-09-03",
-    "category": "Hardware",
-    "description": "Seit dem 1. September 2026 kursiert im OptiScaler-Discord eine Mod, die Nvidias Multi Frame Generation mit Faktor 3x und 4x auch auf den Geforce RTX 4000 aktiviert. Wer sie nutzen will, braucht aktuelle Streamline-Dat...",
-    "url": "https://www.pcgameshardware.de/Deep-Learning-Super-Sampling-Software-277618/News/DLSS-MFG-Geforce-RTX-4000-Ada-Lovelace-Mod-1552741/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2022/10/Nvidia-Geforce-RTX-4090-Founders-Edition-mit-Packung-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Microsoft Will Bring Memory Integrity Protection to More Windows 11 PCs in October",
-    "date": "2026-09-03",
-    "category": "Software",
-    "description": "Microsoft is working on expanding its memory integrity protection feature across its global Windows 11 installations, with the rollout beginning in October. For those unaware, memory integrity protection enhances oper...",
-    "url": "https://www.techpowerup.com/352283/microsoft-will-bring-memory-integrity-protection-to-more-windows-11-pcs-in-october",
-    "image": "https://www.techpowerup.com/img/oYuzu3tqZqJCwRf0.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Banana Pi BPI-AI2N bringt 15 Tops auf den Maker-Tisch",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Der Banana Pi BPI-AI2N zielt auf KI-Anwendungen und trifft auf 8 GByte RAM. Mit Kameraanschlüssen eignet er sich für Bilderkennung.",
-    "url": "https://www.heise.de/news/Banana-Pi-zielt-mit-dem-BPI-AI2N-auf-Computer-Vision-11438426.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/7/5/8/3/BananAi-7cbba8b60bea2ae0.png",
-    "source": "Heise"
-  },
-  {
-    "title": "Chinas Speicherhersteller CXMT und YMTC boomen",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "CXMT stellt bereits LPDDR6-DRAM her und offenbar auch HBM3e. YMTC will beim NAND-Flash für SSDs Weltmarktführer werden.",
-    "url": "https://www.heise.de/news/Chinas-Speicherhersteller-geben-Vollgas-11438181.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/7/4/6/1/RAM-16-9-2a9f1edfa69dc94d-d71754635ad350ca-1f81c0c6b17cb631-0271653cb9ff60d3-6ba9c9f5e8f625d5-09d80ed2a4e83786.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Claude Fable 5.1 setzt sich in Benchmarks an die Spitze, bleibt aber teuer",
-    "date": "2026-09-02",
-    "category": "Software",
-    "description": "Fable 5.1 setzt sich in externen Benchmarks an die Spitze, während Mythos 5.1 mit gelockerten Schutzmechanismen mehr Cyberaufgaben bewältigen soll.",
-    "url": "https://www.heise.de/news/Anthropic-legt-bei-Claude-nach-Fable-5-1-uebernimmt-Benchmark-Fuehrung-11437935.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/7/3/3/5/shutterstock_2737162387-4a5ff5082000a65b.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Günstiger dank Wildcat Lake: Das Galaxy Book6 mit Intel Core 300 startet bei 849 Euro",
-    "date": "2026-09-02",
-    "category": "Industrie",
-    "description": "(Sehr) teure Notebooks mit Nvidia RTX Spark dürften ein großes Thema der IFA 2026 werden, günstigere Systeme mit Intel Core 300 sind es schon. Auch Samsung stellt zur Messe ein solches System auf Basis von „Wildcat La...",
-    "url": "https://www.computerbase.de/news/notebooks/guenstiger-dank-wildcat-lake-das-galaxy-book6-mit-intel-core-300-startet-bei-849-euro.99205/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Acer: Neue Monitorflotte für Spieler macht OLED zur Ausnahme",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Neben dem neuen 1000-Hz-Monitor stellt Acer zur IFA noch eine ganze Flotte weiterer Gaming-Monitore vor. Entgegen dem allgemeinen Trend ist OLED dabei klar in der Unterzahl, denn fünf der sechs Modelle nutzen ein LCD-...",
-    "url": "https://www.computerbase.de/news/monitore/acer-neue-monitorflotte-fuer-spieler-macht-oled-zur-ausnahme.99196/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "CB-Funk-Podcast #182: DLSS 5 – That Escalated Quickly!",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "That Escalated Quickly: DLSS 5 ist per Mod schon quasi überall nutzbar. Dabei soll es erst am Freitag offiziell erstmals in NBA 2K27 für RTX 50 verfügbar sein und offiziell – zumindest vorerst – auf Blackwell-Grafikka...",
-    "url": "https://www.computerbase.de/news/gaming/cb-funk-podcast-182-dlss-5-that-escalated-quickly.99200/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Fractal Design Radius: AiO-Wasserkühlung mit Web-Steuerung für 80 – 100 Euro",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Parallel zu den Gehäuseneuvorstellungen um das Define One (Test) und das Summit erweitert Fractal Design zum Herbstanfang auch das Portfolio an AiO-Wasserkühlern. Die neue Radius-Serie kommt mit verschiedenen Variante...",
-    "url": "https://www.computerbase.de/news/kuehlung/fractal-design-radius-aio-wasserkuehlung-mit-web-steuerung-fuer-80-100-euro.98644/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Neue Alienware-Monitore: RGB-Stripe-OLED für 4K-Gaming und eSports mit 560 Hz",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Zur IFA 2026 stellt Dell zwei neue Gaming-Monitore mit OLED-Technik vor. Der AW3226Q nutzt ein WOLED-Panel von LG mit RGB-Stripe-Pixel-Layout und liefert 4K UHD auf 31,5 Zoll. Beim AW2527HX kommt das für den Sektor eS...",
-    "url": "https://www.computerbase.de/news/monitore/neue-alienware-monitore-rgb-stripe-oled-fuer-4k-gaming-und-esports-mit-560-hz.98970/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Kerze an, Computer an: Bastelcomputer wird mit Stirlingmotor angetrieben",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Statt für ein herkömmliches Netzteil hat sich ein Youtuber bei einem Bastelrechner für eine alternative Energiequelle von 1816 entschieden. (Bastelrechner, OLED)",
-    "url": "https://www.golem.de/news/kerze-an-computer-an-bastelcomputer-wird-mit-stirlingmotor-angetrieben-2609-212568.html",
-    "image": "https://www.golem.de/2609/212568-596201-596199_rc.jpg",
+    "description": "Der 1 TByte große USB-SSD-Stick von SSK ist bei Amazon wieder zum niedrigsten Preis seit Monaten im Angebot. (Solid State Drive, Speichermedien)",
+    "url": "https://www.golem.de/news/anzeige-usb-ssd-stick-mit-1-tbyte-und-2-in-1-design-fuer-unter-125-euro-2609-212630.html",
+    "image": "https://www.golem.de/2609/212630-596513-596511_rc.jpg",
     "source": "Golem"
   },
   {
-    "title": "Anzeige: Tablet Amazon Fire Max 11 mit Alexa stark reduziert",
-    "date": "2026-09-02",
+    "title": "[PLUS] Sieben Mainboards im RAM-Vergleich: XMP ist nicht gleich XMP – und das ist ein Problem",
+    "date": "2026-09-03",
+    "category": "Hardware",
+    "description": "Identischer Speicher sollte über das eingebaute XMP theoretisch auf jedem Mainboard dieselbe Performance zeigen, richtig? Falsch. Im Zuge der Vorbereitungen für das neue RAM-Testsystem decken wir große Unterschiede au...",
+    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/Specials/Arbeitsspeicher-RAM-XMP-Performance-Vergleich-1550552/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/Online-Aufmacher-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Nvidia nennt Grenze von DLSS 5: Renderfehler können sogar verstärkt werden",
+    "date": "2026-09-03",
     "category": "Angebote",
-    "description": "Amazon bietet das Fire Max 11 Tablet mit 11\"-Display, Octa-Core-Prozessor, 14-Stunden-Akku und Alexa für kurze Zeit zum Aktionspreis an. (Tablet, Amazon)",
-    "url": "https://www.golem.de/news/anzeige-tablet-amazon-fire-max-11-mit-alexa-stark-reduziert-2609-212564.html",
-    "image": "https://www.golem.de/2609/212564-596179-596177_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Notebook mit 14 Zoll: Acer stellt 800-Gramm-Laptop vor",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Das Gewicht ist nicht das Einzige, was beim neuen Acer Swift Blade 14 eingespart wird. Es gibt auch weniger RAM als gewohnt. (Acer, Notebook)",
-    "url": "https://www.golem.de/news/notebook-mit-14-zoll-acer-stellt-800-gramm-laptop-vor-2609-212560.html",
-    "image": "https://www.golem.de/2609/212560-596151-596149_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Geforce RTX 5000: Preiserhöhung trifft RTX 5080, 5070 Ti & 5070",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Die Boardpartner Asus und Galax verlangen seit dem 1. September 2026 mehr für Geforce RTX 5070, RTX 5070 Ti und RTX 5080. Die RTX 5090 bleibt außen vor. Im deutschen Einzelhandel zeigt sich erst in einigen Wochen, wie...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/RTX-5000-Preiserhoehung-Asus-Galax-September-2026-1552740/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/06/Gigabyte-Aorus-Geforce-RTX-5070-Ti-Master-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Speicherkrise effektiv genutzt: SSD-Anbieter verdienen sich eine goldene Nase",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Die Speicherknappheit verhilft SSD-Anbietern zu einem boomenden Geschäft. Aktuelle Zahlen zeigen verdoppelte Umsätze, mit Samsung an der Spitze.",
-    "url": "https://www.pcgameshardware.de/SSD-Hardware-255552/News/Speicherkrise-effektiv-genutzt-Anbieter-verdienen-sich-goldene-Nase-1552711/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/02/Mehrere-Samsung-SSDs-im-M.2-Format-sowie-rechts-oben-ein-2-5-Zol-SATA-Modell-pc-games.jpg",
+    "description": "Zum offiziellen Start von DLSS 5 in NBA 2K27 nennt Nvidia eine klare Grenze der KI: Fehler im Eingangsbild werden nicht zuverlässig korrigiert – in ungünstigen Fällen können sie sogar verstärkt werden.",
+    "url": "https://www.pcgameshardware.de/Deep-Learning-Super-Sampling-Software-277618/News/DLSS-5-Renderfehler-verstaerken-Nvidia-Grenzen-KI-1552756/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Kurz-vor-dem-Start-Diese-Schwaeche-von-DLSS-5-nennt-Nvidia-selbst-pcgh.jpg",
     "source": "PCGH"
   },
   {
     "title": "Wie viel guter PC-Sound wirklich kostet: Das und mehr in PCGH 10/2026",
-    "date": "2026-09-02",
+    "date": "2026-09-03",
     "category": "Hardware",
     "description": "Die PCGH 10/2026 bringt stolze 17 Seiten PC-Sound, das GPU-Latenzduell zwischen Arc, Radeon und Geforce sowie den Ryzen 7 7700X3D. Dazu: Low-End-Gaming, Display-Tastaturen, Radeon-Historie, Linux-Artikel und vieles mehr!",
     "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-10-2026-Magazin-312-DVD-Download-PDF-1552358/",
@@ -189,264 +378,75 @@
     "source": "PCGH"
   },
   {
-    "title": "RDNA 5: Neue AMD-Grafikkarten sollen bis zu 3,4 GHz Takt anpeilen",
-    "date": "2026-09-02",
+    "title": "DLSS 5: Geforce RTX 5090 zieht 800 Watt mit Neural Rendering",
+    "date": "2026-09-03",
     "category": "Hardware",
-    "description": "Die kommenden RDNA-5-Grafikkarten von AMD sollen laut einem bekannten Leaker hohe Taktraten bieten. Der Release lässt indes wohl noch lange auf sich warten.",
-    "url": "https://www.pcgameshardware.de/AMD-Radeon-Grafikkarte-255597/News/RDNA-5-soll-ueber-3-GHz-Takt-anpeilen-1552688/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/RDNA-5-pcgh.webp",
+    "description": "Erste Messungen mit DLSS 5 zeigen, wie viel Strom das Neural Rendering zieht: Eine MSI Geforce RTX 5090 Lightning Z erreicht bis zu 802 Watt. Wer eine Founders Edition besitzt, stößt dagegen bei 575 Watt an die Grenze.",
+    "url": "https://www.pcgameshardware.de/Geforce-RTX-5090-Grafikkarte-281029/News/DLSS-5-Neural-Rendering-802-Watt-Leistungsaufnahme-1552776/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/09/DLSS-5-Control-leistung-pcgh.webp",
     "source": "PCGH"
   },
   {
-    "title": "Tomb Raider: Legacy of Atlantis – Entwickler bestätigen Nanite und Lumen",
-    "date": "2026-09-02",
-    "category": "Software",
-    "description": "Tomb Raider: Legacy of Atlantis setzt auf Nanite und Lumen. Das bestätigten die Entwickler gegenüber PCGH. Bei Raytracing und Upscaling bleiben dagegen noch Fragen offen.",
-    "url": "https://www.pcgameshardware.de/Tomb-Raider-Legacy-of-Atlantis-Spiel-75473/News/Nanite-Lumen-Unreal-Engine-5-1552717/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Tomb-Raider-Zwei-grosse-UE5-Techniken-bestaetigt-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "5K, Dual-Hz und 2.304 QD-Mini-LED-Zonen: AOC China bringt AGP277KXM mit HDR 1400",
-    "date": "2026-09-02",
+    "title": "RTX Spark: NVIDIA nennt Ausbaustufen und Startzeitpunkt",
+    "date": "2026-09-03",
     "category": "Hardware",
-    "description": "Die TPV-Technology-Tochter AOC führt auf ihrer chinesischen Website einen neuen Gaming-Monitor namens AGP277KXM, der in die Agon-Ultra-Reihe eingeordnet wird.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/monitore/70216-5k-dual-hz-und-2-304-qd-mini-led-zonen-aoc-china-bringt-agp277kxm-mit-hdr-1400.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/grand_computation_i1/aoc_agp277kxm_001_680px.jpg",
+    "description": "NVIDIA nutzt die IFA, um weitere Details zur zugrundeliegenden Hardware der RTX-Spark-Plattform zu veröffentlichen.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/70234-rtx-spark-nvidia-nennt-ausbaustufen-und-startzeitpunkt.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/gifted_industry_u3/nvidia_rtx_spark_skus_680px.jpg",
     "source": "HardwareLuxx"
   },
   {
-    "title": "Neue OLED-Displays zur IFA: Alienware AW3226Q mit RGB-Stripe und AW2527HX mit 560 Hz",
-    "date": "2026-09-02",
+    "title": "Lenovo Yoga Pro 9n: RTX Spark bringt bis zu 128 GB Unified Memory ins Notebook",
+    "date": "2026-09-03",
     "category": "Hardware",
-    "description": "Alienware erweitert sein OLED-Portfolio zur IFA 2026 um zwei neue Gaming-Monitore.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/monitore/70214-neue-oled-displays-zur-ifa-alienware-aw3226q-mit-rgb-stripe-und-aw2527hx-mit-560-hz.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/superb_resistor_zv/alienware_aw3226q_680px.png",
+    "description": "Lenovo erweitert sein Yoga-Portfolio um zwei Notebooks mit NVIDIA RTX Spark.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/70195-lenovo-yoga-pro-9n-rtx-spark-bringt-bis-zu-128-gb-unified-memory-ins-notebook.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/scenic_sample_cq/yoga_pro_9n__15,_11___11__680px.png",
     "source": "HardwareLuxx"
   },
   {
-    "title": "ASUS ProArt P16 und P14: RTX Spark trifft auf 120-Hz-OLED und bis zu 128 GB",
-    "date": "2026-09-02",
+    "title": "ThinkCentre X Ultra: 1,6-Liter-PC mit Ryzen AI Max+ Pro für lokale KI",
+    "date": "2026-09-03",
     "category": "Hardware",
-    "description": "ASUS fährt zur IFA 2026 eine ProArt-Offensive, denn neben dem ProArt GR1X als kleine KI-Workstation, kündigt man in Berlin die beiden neuen ProArt-Notebooks P16 (H7607BA) und P14 (H7407BA) mit NVIDIAs RTX-Spark-Plattf...",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/70212-asus-proart-p16-und-p14-rtx-spark-trifft-auf-120-hz-oled-und-bis-zu-128-gb.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/tender_oc_2e/proart_lineup_photo_teaser_16_9_680px.jpg",
+    "description": "Zur IFA 2026 in Berlin zeigt Lenovo auch das ThinkCentre X Ultra.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/komplettsysteme/70197-thinkcentre-x-ultra-16-liter-pc-mit-ryzen-ai-max-pro-fuer-lokale-ki.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/neat_chip_97/thinkcentre_x_ultra__1__680px.png",
     "source": "HardwareLuxx"
   },
   {
-    "title": "ASUS ProArt GR1X: 1,1-Liter-PC mit RTX Spark und 10-GbE",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "ASUS zeigt auf der IFA 2026 in Berlin den ProArt GR1X als Mini-PC für lokale KI- und Kreativ-Workflows.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/komplettsysteme/70211-asus-proart-gr1x.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/sane_database_0m/proart_gr1x_family_shot_680px.jpg",
+    "title": "GTA V: Inoffizieller Port für Nintendo Switch läuft mit rund 30 FPS",
+    "date": "2026-09-03",
+    "category": "Markt",
+    "description": "Während GTA 6 bereits vor seinem eigentlichen Release am 19. November durch zahlreiche Leaks und eine überaus erfolgreiche Netflix-Präsentation voll im Hype ist, sorgt auch der Vorgänger für Schlagzeilen.",
+    "url": "https://www.hardwareluxx.de/index.php/news/software/spiele/70229-gta-v-inoffizieller-port-fuer-nintendo-switch-laeuft-mit-rund-30-fps.html",
+    "image": "https://www.hardwareluxx.de/tmpl/android-chrome-192x192.png",
     "source": "HardwareLuxx"
   },
   {
-    "title": "Mit bis zu 1.000 Hz oder 5K-Auflösung: Viele neue Gaming-Displays von Acer",
-    "date": "2026-09-02",
+    "title": "Acer ProDesigner PE270X P: Kreativmonitor mit 5K, Dual-Hz, HDR 1400 und 2.304 Mini-LED-Zonen",
+    "date": "2026-09-03",
     "category": "Hardware",
-    "description": "Acer nutzt die am Freitag startende IFA in Berlin dazu, bereits heute zahlreiche neue Gaming-Monitore vorzustellen.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/monitore/70200-mit-bis-zu-1-000-hz-oder-5k-aufloesung-viele-neue-gaming-displays-von-acer.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/liked_shader_r6/predator_xb253q_u1_03_680px.jpg",
+    "description": "Der in Taiwan beheimatete Hersteller Acer nutzt die IFA nicht nur für die Ankündigung neuer Gaming-Monitore, sondern hat mit dem ProDesigner PE270X P auch ein an Kreativschaffende gerichtetes 27-Zoll-Display vorgestellt.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/monitore/70228-acer-prodesigner-pe270x-p-kreativmonitor-mit-5k-dual-hz-hdr-1400-und-2-304-mini-led-zonen.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/faster_structure_hi/acer__pe270x_p_001_680px.jpg",
     "source": "HardwareLuxx"
   },
   {
-    "title": "Acer Vero 16: Werkzeugloser Zugang zu Akku und SSD",
-    "date": "2026-09-02",
+    "title": "RTX-50-Serie wird erneut teurer: Diesmal erhöhen ASUS und Galax die Preise",
+    "date": "2026-09-03",
     "category": "Hardware",
-    "description": "Acer stellt zur IFA 2026 in Berlin eine neue Generation des Vero 16 vor.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/70204-acer-vero-16-werkzeugloser-zugang-zu-akku-und-ssd.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/calm_shader_7t/acer_vero_16_v16_i71_t__1_680px.jpg",
+    "description": "Die Preise für Grafikkarten der GeForce-RTX-50-Serie steigen weiter.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70230-rtx-50-wird-erneut-teurer-diesmal-erhoehen-asus-und-galax-die-preise.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/Feb/adroit_computation_qz/img_9047_680px.jpg",
     "source": "HardwareLuxx"
   },
   {
-    "title": "Acer RTX Spark: Kompakter Desktop soll lokale KI-Agenten mit 1 Petaflop ausführen",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Ein großes Schlagwort auf der IFA 2026 ist natürlich auch bei Acer das Thema KI.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/komplettsysteme/70202-acer-rtx-spark-kompakter-desktop-soll-lokale-ki-agenten-mit-1-petaflop-ausfuehren.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/faster_os_2u/acer_sff_rtx_spark_01_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "RPCS3 Team Won't Touch Leaked DLSS 5, Calls the Output \"Slop\"",
-    "date": "2026-09-02",
-    "category": "Software",
-    "description": "The RPCS3 developers have made their stance on DLSS 5 pretty clear after fans started poking around with a leaked version of the tool on the PS3 emulator. Responding to questions about whether official support was com...",
-    "url": "https://www.techpowerup.com/352279/rpcs3-team-wont-touch-leaked-dlss-5-calls-the-output-slop",
-    "image": "https://www.techpowerup.com/img/fZP76QtNreFfrc8P.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AutoCAD LT Is $199 for a Year—Existing Autodesk Users Qualify Too",
-    "date": "2026-09-02",
-    "category": "Software",
-    "description": "Professional CAD software usually comes with an enterprise price tag, even for teams that only need 2D drafting instead of full 3D design tools. AutoCAD LT trims that down to core 2D functionality, and a 1-year subscr...",
-    "url": "https://www.techpowerup.com/352202/autocad-lt-is-usd-199-for-a-year-existing-autodesk-users-qualify-too",
-    "image": "https://www.techpowerup.com/img/7Y3Mb0ZUIKprJCez.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Acemagic Debuts F9A Mini-Workstation With Ryzen AI Max+ PRO 495 AI at IFA 2026",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Acemagic is showcasing its latest computing products at IFA 2026 from September 4 to 8, located at Booth 128, Hall 6.2, Messe Berlin. The highlight of the showcase is the F9A AI mini workstation, powered by the AMD Ry...",
-    "url": "https://www.techpowerup.com/352278/acemagic-debuts-f9a-mini-workstation-with-ryzen-ai-max-pro-495-ai-at-ifa-2026",
-    "image": "https://www.techpowerup.com/img/t4yrjNfA5tUE7OxA.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Designed for Xbox Cozy Collection Peripherals Is Now Available",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Microsoft has launched the Xbox Cozy Collection, a themed lineup of peripherals developed in partnership with 8BitDo, SteelSeries, and KontrolFreek, all available now. 8BitDo is contributing two products in a Forest W...",
-    "url": "https://www.techpowerup.com/352277/designed-for-xbox-cozy-collection-peripherals-is-now-available",
-    "image": "https://www.techpowerup.com/img/PQTK4cgvwilErBdS.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Alienware Unveils New OLED 4K and 560 Hz Monitors",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Alienware has added two new OLED gaming monitors to its lineup, with the 32-inch AW3226Q targeting high-end 4K gaming and the 24.5-inch AW2527HX going after the competitive gaming segment with a 560 Hz refresh rate. T...",
-    "url": "https://www.techpowerup.com/352274/alienware-unveils-new-oled-4k-and-560-hz-monitors",
-    "image": "https://www.techpowerup.com/img/d9tpyeZXscpTe8mG.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Editing a PDF usually means paying for an Acrobat subscription or uploading sensitive files to random online converters. Neither option feels great for contracts or private documents. A lifetime subscription to IndyPD...",
-    "url": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
-    "image": "https://www.techpowerup.com/img/CPPkiC6miSvAbeOw.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Hardware Unboxed Falls Victim to Melted RTX 5090 Power Connector as Cable Reaches 175°C",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Hardware Unboxed has become the latest hardware channel to watch a 12V-2×6 connector melt on an RTX 5090 test bench. The setup paired an ASUS ROG Astral RTX 5090 with a be quiet! Dark Power 13 PSU, and host Steve repo...",
-    "url": "https://www.techpowerup.com/352273/hardware-unboxed-falls-victim-to-melted-rtx-5090-power-connector-as-cable-reaches-175-c",
-    "image": "https://www.techpowerup.com/img/GfbNz3EcSSYe1ksJ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) TECNO Will Bring Next-Gen Bezelless Concept Phone and 360° Hinge MEGABOOK T15 360 Pro to IFA ShowStoppers 2026",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "AI-driven innovative technology brand TECNO is set to showcase at IFA ShowStoppers 2026 a broad portfolio that reimagines technology through advanced innovations, distinctive design and more personalized experiences....",
-    "url": "https://www.techpowerup.com/352272/tecno-will-bring-next-gen-bezelless-concept-phone-and-360-hinge-megabook-t15-360-pro-to-ifa-showstoppers-2026",
-    "image": "https://www.techpowerup.com/img/yBvNFDdaTnak3WMs.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Acer Expands Thin-and-Light Portfolio With Swift Blade 14 and Swift Air 16 Laptops",
-    "date": "2026-09-02",
-    "category": "Software",
-    "description": "Acer today announced two new thin-and-light laptops that expand possibilities for portable performance: the ultralight Acer Swift Blade 14 and the Acer Swift Air 16, both running on Windows 11. Acer Swift Blade 14: 79...",
-    "url": "https://www.techpowerup.com/352270/acer-expands-thin-and-light-portfolio-with-swift-blade-14-and-swift-air-16-laptops",
-    "image": "https://www.techpowerup.com/img/auhdhtFkzGYeLiF0.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Fractal Releases Four New Products, Summit, Define One, Refine 2, and Radius",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Today, we're introducing Summit, Define One, Refine 2 and Radius: four new products designed to elevate your gaming experience, from how you build and cool your system to how you sit and play. Summit combines strong g...",
-    "url": "https://www.techpowerup.com/352269/fractal-releases-four-new-products-summit-define-one-refine-2-and-radius",
-    "image": "https://www.techpowerup.com/img/QS5CWhRsiXZ7hBpA.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Possible AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Today marks the day we see AMD's next-generation RDNA 5 GPU IP inside working silicon, but not in the form you might expect. Thanks to SemiAnalysis's die annotation of the Exynos 2700 SoC from Samsung, we see AMD's ne...",
-    "url": "https://www.techpowerup.com/352268/possible-amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-node",
-    "image": "https://www.techpowerup.com/img/7RF366ryDBeersZZ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "TSMC Delays Hybrid Bonding Investment for HBM, Opts for Microbumps",
-    "date": "2026-09-02",
-    "category": "Software",
-    "description": "According to the latest report from ETNews, citing supply chain sources, TSMC is reportedly still holding back from investing in the silicon packaging technology known as hybrid bonding for HBM memory integration. For...",
-    "url": "https://www.techpowerup.com/352267/tsmc-delays-hybrid-bonding-investment-for-hbm-opts-for-microbumps",
-    "image": "https://www.techpowerup.com/img/BFjMQZwOkHABBx1d.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "ASUS and Galax Raise GeForce RTX 50-Series Prices by Up to $74",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "ASUS and Galax have become the latest NVIDIA board partners to raise prices on RTX 50-series cards, with increases landing September 1. According to a report from Channel Gate, ASUS is bumping RTX 5070 prices by 150 t...",
-    "url": "https://www.techpowerup.com/352264/asus-and-galax-raise-geforce-rtx-50-series-prices-by-up-to-usd-74",
-    "image": "https://www.techpowerup.com/img/miD6jRvwFcFNQnHi.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Nexus Mods Acquires SteamDB, Features to Remain Free for Now",
-    "date": "2026-09-02",
+    "title": "Für 12,9 Milliarden US-Dollar: NVIDIA soll KI-Plattform Hugging Face übernehmen",
+    "date": "2026-09-03",
     "category": "Industrie",
-    "description": "In a turn of events the gaming community didn't quite expect, the popular game modding website Nexus Mods has acquired SteamDB, one of the largest Steam tracking databases. According to the announcement, SteamDB has b...",
-    "url": "https://www.techpowerup.com/352263/nexus-mods-acquires-steamdb-features-to-remain-free-for-now",
-    "image": "https://www.techpowerup.com/img/iHW0EKooM7sO5c1n.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Early DLSS 5 Testing Suggests the RTX 5090's Single Power Connector Might Be the Bottleneck",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Community testing of leaked DLSS 5 builds suggests the tech may already be hitting a wall on NVIDIA's own flagship GPU. Tom's Hardware ran the neural rendering model through Cyberpunk 2077, Hogwarts Legacy, and Contro...",
-    "url": "https://www.techpowerup.com/352262/early-dlss-5-testing-suggests-the-rtx-5090s-single-power-connector-might-be-the-bottleneck",
-    "image": "https://www.techpowerup.com/img/u8lCdK6CTe6W54E8.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Lenovo Unveils First Laptop Manufactured in Saudi Arabia, Supporting the Kingdom's Vision for Advanced Manufactu...",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Lenovo today unveiled its first laptop manufactured in Saudi Arabia, marking a major milestone in the company's journey to establish a world-class manufacturing and innovation ecosystem in the Kingdom. As Lenovo conti...",
-    "url": "https://www.techpowerup.com/352261/lenovo-unveils-first-laptop-manufactured-in-saudi-arabia-supporting-the-kingdoms-vision-for-advanced-manufacturing",
-    "image": "https://www.techpowerup.com/img/omcsk1I3CXFeJ34B.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) EIZO Unveils ColorEdge CG3200X 31.5-Inch 4K UHD OLED Professional Monitor",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "EIZO Corporation today introduced the ColorEdge CG3200X - a 31.5-inch 4K UHD (3840 x 2160) color management OLED monitor with unique luminance and contrast control for HDR post-production. Designed for workflows maste...",
-    "url": "https://www.techpowerup.com/352260/eizo-unveils-coloredge-cg3200x-31-5-inch-4k-uhd-oled-professional-monitor",
-    "image": "https://www.techpowerup.com/img/qPdaTTXCc9Su9m3A.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Dell Q2 Fiscal 2027 Results: Record $47B Revenues, Projects $192B Full-Year Outlook",
-    "date": "2026-09-02",
-    "category": "Industrie",
-    "description": "Dell Technologies (NYSE: DELL) announces financial results for its fiscal 2027-second quarter and provides guidance for its fiscal 2027 third quarter and full year. Second-Quarter Summary Record revenue of $47.0 billi...",
-    "url": "https://www.techpowerup.com/352259/dell-q2-fiscal-2027-results-record-usd-47b-revenues-projects-usd-192b-full-year-outlook",
-    "image": "https://www.techpowerup.com/img/fLHZU3bJCbQUFIdm.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Acer Focuses on Repairability and AI-powered Performance With New Vero 16 Laptop",
-    "date": "2026-09-02",
-    "category": "Software",
-    "description": "Acer today announced the Acer Vero 16 (V16-I71 / V16-I71T), a premium laptop that incorporates purposefully sourced materials and significant repairability without compromising performance. Its design makes the device...",
-    "url": "https://www.techpowerup.com/352257/acer-focuses-on-repairability-and-ai-powered-performance-with-new-vero-16-laptop",
-    "image": "https://www.techpowerup.com/img/pMGxa58LFs8E9JVK.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Acer Introduces Veriton RI110 AI Mini Workstation for Powering Hybrid Agentic AI Workloads",
-    "date": "2026-09-02",
-    "category": "Hardware",
-    "description": "Acer today announced the Acer Veriton RI110 AI Mini Workstation (VRI110), a compact yet powerful device engineered for organizations looking to accelerate AI innovation without compromising space, performance, or secu...",
-    "url": "https://www.techpowerup.com/352256/acer-introduces-veriton-ri110-ai-mini-workstation-for-powering-hybrid-agentic-ai-workloads",
-    "image": "https://www.techpowerup.com/img/wngG0N39FYp0ZU16.jpg",
-    "source": "TechPowerUp"
+    "description": "Mehreren Berichten (unter anderem von Reuters) zufolge hat NVIDIA die KI-Plattform Hugging Face übernommen.",
+    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70137-fuer-129-milliarden-us-dollar-nvidia-uebernimmt-ki-plattform-hugging-face.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Aug/lively_chip_80/screenshot_huggingface_680px.png",
+    "source": "HardwareLuxx"
   }
 ]
