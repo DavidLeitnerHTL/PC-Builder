@@ -244,12 +244,47 @@ def is_modern_cooler(sockets):
 # HELPER FUNCTIONS
 # ==========================================
 
+def extract_amazon_sku(raw_data):
+    """Return the Amazon.de ASIN for a product, or "" if it has none.
+
+    Since the 2026-09 "versioned identities" schema, open-db no longer stores
+    `general_product_information.amazon_sku`. ASINs now live in
+    `identifiers.retailer_listings` as one entry per marketplace. Prefer the
+    verified amazon.de listing, then any amazon.de listing, then any other
+    Amazon marketplace (the ASIN is identical across channels in practice),
+    and finally the legacy field for old snapshots.
+    """
+    identifiers = raw_data.get("identifiers")
+    listings = identifiers.get("retailer_listings", []) if isinstance(identifiers, dict) else []
+    amazon = [
+        listing for listing in listings
+        if isinstance(listing, dict)
+        and listing.get("source") == "amazon"
+        and str(listing.get("source_product_id") or "").strip()
+    ]
+
+    def pick(candidates):
+        return str(candidates[0]["source_product_id"]).strip() if candidates else ""
+
+    sku = (
+        pick([l for l in amazon if l.get("channel") == "de" and l.get("verified")])
+        or pick([l for l in amazon if l.get("channel") == "de"])
+        or pick([l for l in amazon if l.get("verified")])
+        or pick(amazon)
+    )
+    if sku:
+        return sku
+
+    legacy = raw_data.get("general_product_information", {})
+    return str(legacy.get("amazon_sku") or "").strip() if isinstance(legacy, dict) else ""
+
+
 def extract_basic_info(raw_data):
     return {
         "id": raw_data.get("opendb_id", ""),
         "name": raw_data.get("metadata", {}).get("name", ""),
         "variant": raw_data.get("metadata", {}).get("variant", ""),
-        "amazon_sku": raw_data.get("general_product_information", {}).get("amazon_sku", "")
+        "amazon_sku": extract_amazon_sku(raw_data)
     }
 
 def extract_specs_and_clean_name(name, category):
@@ -620,13 +655,15 @@ def load_existing_prices():
                     continue
                 has_price = item.get("price") is not None
                 is_unavailable = item.get("available") is False
-                if has_price or is_unavailable:
+                has_score = item.get("passmark_score") is not None
+                if has_price or is_unavailable or has_score:
                     prices[item_id] = {
                         "price": item.get("price"),
                         "available": item.get("available"),
                         "last_updated": item.get("last_updated"),
                         "scraped_url": item.get("scraped_url"),
                         "scraped_title": item.get("scraped_title"),
+                        "passmark_score": item.get("passmark_score"),
                     }
         except Exception:
             pass
@@ -645,9 +682,15 @@ def process_hardware_data():
     print("Fetching PassMark benchmark scores…")
     passmark_scores = fetch_passmark_scores()
 
-    if os.path.exists(OUTPUT_FOLDER):
-        shutil.rmtree(OUTPUT_FOLDER)
-    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+    # Build into a staging folder and only swap it in once every category has
+    # produced data. Wiping OUTPUT_FOLDER up front let an upstream schema
+    # change (2026-09-05) delete all of processed_data/, which the workflow
+    # then committed.
+    staging_folder = OUTPUT_FOLDER + ".staging"
+    if os.path.exists(staging_folder):
+        shutil.rmtree(staging_folder)
+    os.makedirs(staging_folder, exist_ok=True)
+    written_counts = {}
     print(f"Scanning categories in '{INPUT_FOLDER}'...")
 
     for raw_category in os.listdir(INPUT_FOLDER):
@@ -697,6 +740,10 @@ def process_hardware_data():
                                 clean_item["scraped_url"] = saved["scraped_url"]
                             if saved.get("scraped_title"):
                                 clean_item["scraped_title"] = saved["scraped_title"]
+                            # PassMark's list is fetched live and has come back
+                            # partial; keep the last known score over none.
+                            if not clean_item.get("passmark_score") and saved.get("passmark_score"):
+                                clean_item["passmark_score"] = saved["passmark_score"]
                         processed_items.append(clean_item)
                 except Exception as error:
                     print(f"Failed to process {filename}: {error}")
@@ -745,13 +792,29 @@ def process_hardware_data():
         removed_capped = max(0, len(deduplicated) - MAX_PER_CATEGORY)
         deduplicated = deduplicated[:MAX_PER_CATEGORY]
 
+        written_counts[target_filename] = len(deduplicated)
         if deduplicated:
-            output_file = os.path.join(OUTPUT_FOLDER, f"{target_filename}.json")
+            output_file = os.path.join(staging_folder, f"{target_filename}.json")
             with open(output_file, 'w', encoding='utf-8') as output:
                 json.dump(deduplicated, output, indent=4, ensure_ascii=False)
             priced = sum(1 for p in deduplicated if p.get("price") is not None)
-            print(f"Success! Created {output_file} with {len(deduplicated)} items "
+            print(f"Success! Created {target_filename}.json with {len(deduplicated)} items "
                   f"({removed_dupes} dupes removed, {removed_capped} capped, {priced} already priced).\n")
 
+    expected = set(CATEGORY_MAPPING.values())
+    empty = sorted(name for name in expected if written_counts.get(name, 0) == 0)
+    if empty:
+        shutil.rmtree(staging_folder, ignore_errors=True)
+        print(f"Error: no products produced for {', '.join(empty)}. "
+              f"The open-db schema has probably changed. "
+              f"Leaving '{OUTPUT_FOLDER}' untouched.")
+        return False
+
+    if os.path.exists(OUTPUT_FOLDER):
+        shutil.rmtree(OUTPUT_FOLDER)
+    os.replace(staging_folder, OUTPUT_FOLDER)
+    return True
+
 if __name__ == "__main__":
-    process_hardware_data()
+    import sys
+    sys.exit(0 if process_hardware_data() else 1)

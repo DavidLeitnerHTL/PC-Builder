@@ -233,6 +233,18 @@ const UNAVAILABLE_RECHECK_DAYS = 3;
             }
         }
 
+        // Every category file missing means processed_data/ itself is gone
+        // (e.g. the data processor wrote nothing). Fail here with the real
+        // cause instead of exiting 0 and letting a later step trip over it.
+        if (summaryRows.length === 0) {
+            console.error(
+                `[FATAL] No category data could be read from ${PROCESSED_DATA_DIR}. ` +
+                    `Check the "Daily Hardware Data Update" workflow.`
+            );
+            if (browser) await browser.close().catch(() => {});
+            process.exit(1);
+        }
+
         if (browser) {
             await browser.close();
             browser = null;
