@@ -1,21 +1,120 @@
 [
   {
-    "title": "Pathtracing macht den Prozessor einfach komplett unnötig: Die Lösung für langsame CPUs?",
-    "date": "2026-09-19",
+    "title": "RTX 3050 lässt grüßen: AMDs 4-GB-Version der RX 9050 fällt weit zurück",
+    "date": "2026-09-20",
     "category": "Hardware",
-    "description": "Jüngst hat ein weiteres Spiel einen Patch für erweiterte Pathtracing-Grafik erhalten. Was wir dabei immer wieder beobachten: Die CPU-Anforderungen spielen danach scheinbar keine Rolle mehr. Doch was hat es damit auf s...",
-    "url": "https://www.pcgameshardware.de/Raytracing-Hardware-255905/News/Pathtracing-Prozessor-Performance-1554137/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/09/Bonds-Tracing-2-pcgh.jpg",
-    "source": "PCGH"
+    "description": "AMD führt die Radeon RX 9050 mit 4 und 8 GB unter demselben Namen. Ein neuer Test von Hardware Unboxed zeigt nun, wie groß der Unterschied tatsächlich ausfällt: Im Mittel von 18 Spielen liegt die 4-GB-Version in Full...",
+    "url": "https://www.computerbase.de/news/grafikkarten/rtx-3050-laesst-gruessen-amds-4-gb-version-der-rx-9050-faellt-weit-zurueck.99480/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
-    "title": "Gnome 51: Linux-Desktop wird flüssiger und kappt einen alten Nvidia-Treiber",
+    "title": "DLSS 5 auf Arc: Neural Rendering wird mit Intel zur Diashow, aber es läuft",
+    "date": "2026-09-20",
+    "category": "Hardware",
+    "description": "Nach Radeon-Grafikkarten fällt die nächste Herstellergrenze: Eine unabhängige Implementierung von DLSS-5-Neural-Rendering läuft auf Intels integrierter Arc 140V. Technisch ist das bemerkenswert, spielbar ist das Ergeb...",
+    "url": "https://www.computerbase.de/news/grafikkarten/dlss-5-auf-intel-arc-neural-rendering-wird-zur-diashow.99479/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Xbox Series X Gets Experimental PS5 Emulator Port, Quake II Already Running",
+    "date": "2026-09-20",
+    "category": "Hardware",
+    "description": "A developer has apparently gotten an experimental PS5 emulator running on the Xbox Series X. Devran Cosmo Uenal, who posted about the project on YouTube on September 8, calls it a research project that ports the open-...",
+    "url": "https://www.techpowerup.com/352873/xbox-series-x-gets-experimental-ps5-emulator-port-quake-ii-already-running",
+    "image": "https://www.techpowerup.com/img/nS9gCCvy4BNl3DZ5.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Intel Ends Its $100,000 Bug Bounty Program",
+    "date": "2026-09-20",
+    "category": "Hardware",
+    "description": "Intel has officially suspended its Bug Bounty Program, which offered security researchers compensation for finding and reporting security vulnerabilities. The program is now marked as suspended on the Intigriti platfo...",
+    "url": "https://www.techpowerup.com/352872/intel-ends-its-usd-100-000-bug-bounty-program",
+    "image": "https://www.techpowerup.com/img/RUKMXt510t029KcZ.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
+    "date": "2026-09-20",
+    "category": "Angebote",
+    "description": "ACEMAGIC and ACEMAGICIAN have deals on three mini PCs. Discounts go as high as 40%, and savings reach $210. All three ship with Windows 11 Pro already installed. Pick the Intel model for everyday desk work, or the 8-c...",
+    "url": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99",
+    "image": "https://www.techpowerup.com/img/v7tlNM2oUVWV0c3i.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "This Week in Gaming (Week 39)",
+    "date": "2026-09-20",
+    "category": "Markt",
+    "description": "As we enter the last full week of September, we kick off with a sequel AAA release from a Finnish developer that has many famous games in its catalogue. If that's not for you, then how about a racing game unlike any o...",
+    "url": "https://www.techpowerup.com/352871/this-week-in-gaming-week-39",
+    "image": "https://www.techpowerup.com/img/DUqClFn3HjJF3pp6.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Solidigm Reportedly Plans Its First NAND Fab in the United States",
+    "date": "2026-09-20",
+    "category": "Industrie",
+    "description": "SK hynix subsidiary Solidigm is reportedly planning to open its first NAND Flash manufacturing facility in the United States. To address global supply chain challenges, SK hynix is exploring ways to expand its product...",
+    "url": "https://www.techpowerup.com/352855/solidigm-reportedly-plans-its-first-nand-fab-in-the-united-states",
+    "image": "https://www.techpowerup.com/img/G2UGIEM4W4Y5RS5T.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Steam Frame Gets First SteamOS Update With Substantially Faster Charging",
+    "date": "2026-09-20",
+    "category": "Hardware",
+    "description": "Valve has released SteamOS 0.3.0 for the Steam Frame, the headset's first system update since it launched on September 14. The changelog lists \"substantially faster charging while unit is off / sleeping,\" which addres...",
+    "url": "https://www.techpowerup.com/352868/steam-frame-gets-first-steamos-update-with-substantially-faster-charging",
+    "image": "https://www.techpowerup.com/img/yOoFne581ugwviKG.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "The Blood of Dawnwalker Budget Is Reportedly Just $40 Million",
     "date": "2026-09-19",
     "category": "Hardware",
-    "description": "Seit dem 16. September steht Gnome 51 (\"A Coruña\") bereit. Der Linux-Desktop glättet Animationen unter Last und überarbeitet Maps, Papers und Co. Besitzer älterer Geforce-Grafikkarten mit proprietärem Nvidia-Treiber m...",
-    "url": "https://www.pcgameshardware.de/Linux-Software-26761/News/Gnome-51-A-Coruna-erschienen-Linux-Desktop-1554333/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/09/Gnome-51-pcgh.webp",
-    "source": "PCGH"
+    "description": "The Blood of Dawnwalker reportedly cost around $40 million to make, according to a new Bloomberg report. Rebel Wolves director Konrad Tomaszkiewicz self-funded the first year in 2022 to build a prototype, and NetEase...",
+    "url": "https://www.techpowerup.com/352867/the-blood-of-dawnwalker-budget-is-reportedly-just-usd-40-million",
+    "image": "https://www.techpowerup.com/img/yQJbWKHbrfAM5jd1.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Microsoft Patches Windows Defender Bug That Insisted Your Antivirus Was Off",
+    "date": "2026-09-19",
+    "category": "Software",
+    "description": "Microsoft has fixed the bug that made Windows Security wrongly claim Microsoft Defender Antivirus was turned off. According to Windows Latest, the fix comes in Defender platform update 4.18.26080.4, which Microsoft re...",
+    "url": "https://www.techpowerup.com/352865/microsoft-patches-windows-defender-bug-that-insisted-your-antivirus-was-off",
+    "image": "https://www.techpowerup.com/img/meElerImOJ8Ss3tS.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AMD Claims EPYC \"Venice\" Beats NVIDIA Vera by 2.24x in New White Paper",
+    "date": "2026-09-19",
+    "category": "Hardware",
+    "description": "AMD has published a white paper on its 6th Gen EPYC 9006 \"Venice\" server CPUs, and it takes direct aim at NVIDIA's Vera. These are first-party figures from AMD, so it is important to be cautious about their validity....",
+    "url": "https://www.techpowerup.com/352863/amd-claims-epyc-venice-beats-nvidia-vera-by-2-24x-in-new-white-paper",
+    "image": "https://www.techpowerup.com/img/NT16xPvQQvKlGnPe.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Elon Musk's Terafab Faces Trademark Dispute Over Its Name",
+    "date": "2026-09-19",
+    "category": "Hardware",
+    "description": "Tesla, SpaceX, and SpaceXAI have taken a trademark dispute over the \"Terafab\" name to federal court, PCMag reports. The declaratory judgment action was filed on September 15 in the US District Court for the Western Di...",
+    "url": "https://www.techpowerup.com/352862/elon-musks-terafab-faces-trademark-dispute-over-its-name",
+    "image": "https://www.techpowerup.com/img/V6AWFIQmZ14nM2Xv.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "CD Projekt Red Explains Why The Witcher 4 Switched To Unreal Engine 5",
+    "date": "2026-09-19",
+    "category": "Markt",
+    "description": "CD Projekt Red joint CEO Michał Nowakowski has explained why the studio moved The Witcher 4 from its in-house REDengine to Unreal Engine 5, and he says the messy Cyberpunk 2077 launch wasn't the trigger. Speaking on t...",
+    "url": "https://www.techpowerup.com/352859/cd-projekt-red-explains-why-the-witcher-4-switched-to-unreal-engine-5",
+    "image": "https://www.techpowerup.com/img/FJj3emtDBfwxLCfJ.jpg",
+    "source": "TechPowerUp"
   },
   {
     "title": "Modder Builds Split Keyboard With Integrated Joysticks and One-Handed Gaming Functionality",
@@ -33,15 +132,6 @@
     "description": "Following the official launch of the Steam Frame, Valve has finally made Lepton, its compatibility layer that enables the Steam Frame to run Android games, open-source. Lepton was formally announced in March 2026, whe...",
     "url": "https://www.techpowerup.com/352852/valves-android-compatibility-tool-designed-for-the-steam-frame-goes-open-source",
     "image": "https://www.techpowerup.com/img/xy2gGsXu9vft3rit.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
-    "date": "2026-09-19",
-    "category": "Angebote",
-    "description": "ACEMAGIC and ACEMAGICIAN have deals on three mini PCs. Discounts go as high as 40%, and savings reach $210. All three ship with Windows 11 Pro already installed. Pick the Intel model for everyday desk work, or the 8-c...",
-    "url": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99",
-    "image": "https://www.techpowerup.com/img/v7tlNM2oUVWV0c3i.jpg",
     "source": "TechPowerUp"
   },
   {
@@ -97,60 +187,6 @@
     "url": "https://www.computerbase.de/artikel/notebooks/intel-wildcat-lake-chuwi-unibook-304-test.98884/",
     "image": null,
     "source": "ComputerBase"
-  },
-  {
-    "title": "Windows 11 fährt nicht ganz herunter: Warum bei Problemen der Neustart hilft",
-    "date": "2026-09-18",
-    "category": "Software",
-    "description": "Laut Microsoft-Dokumentation sichern Windows 10 und 11 beim Herunterfahren Kernel und Treiber in der hiberfil.sys, sofern der standardmäßig aktive Schnellstart greift. Bei hartnäckigen Fehlern ist der Neustart deshalb...",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-Herunterfahren-Neustart-Schnellstart-1554281/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2024/02/Windows-11-1-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Razer-Hardware unter Windows 10: Ab Mitte Oktober werden bestimmte Fehler nicht mehr behoben",
-    "date": "2026-09-18",
-    "category": "Software",
-    "description": "Razer lässt Windows-10-Nutzer nicht komplett im Stich. Synapse 4 bleibt nutzbar und erhält weiter neue Funktionen. Ab 14. Oktober endet jedoch die Behebung reiner Windows-10-Fehler. Was bedeutet das für Ihre Hardware?",
-    "url": "https://www.pcgameshardware.de/Synapse-Software-Firma-241165/News/razer-synapse-4-windows-10-support-fehler-updates-1554259/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Razer-Deathadder-V4-Pro-Aufmacher-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Wie viel guter PC-Sound wirklich kostet: Das und mehr in PCGH 10/2026",
-    "date": "2026-09-18",
-    "category": "Hardware",
-    "description": "Die PCGH 10/2026 bringt stolze 17 Seiten PC-Sound, das GPU-Latenzduell zwischen Arc, Radeon und Geforce sowie den Ryzen 7 7700X3D. Dazu: Low-End-Gaming, Display-Tastaturen, Radeon-Historie, Linux-Artikel und vieles mehr!",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-10-2026-Magazin-312-DVD-Download-PDF-1552358/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/PCGH-Geheimarchiv-4-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "Raptor Lake Next: Hinweis auf Verbesserung von Intels Core i5-14600K",
-    "date": "2026-09-18",
-    "category": "Industrie",
-    "description": "Intel plant laut Berichten einen neuen Raptor-Lake-Refresh für Core i5-14600K und Co. Eine 8P+8E-Konfiguration könnte hier mehr Kerne und Threads bringen.",
-    "url": "https://www.pcgameshardware.de/Raptor-Lake-S-Codename-278677/News/Next-Hinweis-Verbesserung-Intel-Core-i5-14600K-1554248/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2022/10/teaser_Raptor_Lake-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "1.039 Euro teuer, aber reparierbar: Valve veröffentlicht 18 Anleitungen zur Steam Machine",
-    "date": "2026-09-18",
-    "category": "Hardware",
-    "description": "Valve und iFixit dokumentieren inzwischen zahlreiche Reparaturen an der Steam Machine. 18 Anleitungen reichen von der Reinigung bis zum Austausch von RAM, SSD, Mainboard und Netzteil.",
-    "url": "https://www.pcgameshardware.de/Steam-Machine-Hardware-256919/News/Valve-iFixit-18-Reparatur-Guides-1554209/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Steam-Machine-28-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Gears of War: E-Day – PC-Anforderungen mit Raytracing und Upscaling-Fokus",
-    "date": "2026-09-18",
-    "category": "Software",
-    "description": "Die finalen Systemanforderungen für die PC-Version von Gears of War: E-Day wurden veröffentlicht, welche ganz und gar auf Raytracing und Upscaling setzen.",
-    "url": "https://www.pcgameshardware.de/Gears-of-War-E-Day-Spiel-74725/News/PC-Anforderungen-Raytracing-Upscaling-Fokus-1554279/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Gears-of-War-E-Day-Official-Screenshot-4--pcgh.jpg",
-    "source": "PCGH"
   },
   {
     "title": "CONTROL Resonant: Benchmarks und Screenshot-Vergleiche mit Pathtracing",
@@ -412,41 +448,5 @@
     "url": "https://www.computerbase.de/artikel/grafikkarten/dlss-5-tlou-ii-mod.99308/",
     "image": null,
     "source": "ComputerBase"
-  },
-  {
-    "title": "Nvidia-Konkurrenz: Drei Generationen schneller Huawei-Chips kommen früher",
-    "date": "2026-09-17",
-    "category": "Industrie",
-    "description": "Auf der Hausmesse Huawei Connect 2026 in Shanghai hat das Unternehmen neue Chips enthüllt und den Zeitplan deutlich vorgezogen. Der Huawei Ascend 960DT erscheint nun bereits im ersten Quartal 2027 und bringt dafür ers...",
-    "url": "https://www.computerbase.de/news/wirtschaft/ascend-960-970-und-980-neue-huawei-chips-kommen-frueher-und-sind-schneller.99447/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "AI-Benchmarks: Nvidia gibt Ausblick auf Rubin, AMD noch keinen auf MI400",
-    "date": "2026-09-17",
-    "category": "Software",
-    "description": "Die neuen MLPerf-Inference-Ergebnisse zeigen es: Optimierte Software für bestehende Hardware birgt enormes Potenzial bei AMD, Intel und Nvidia. Der Platzhirsch kann so erstmals Vera Rubin als Preview zeigen, AMD bleib...",
-    "url": "https://www.computerbase.de/news/grafikkarten/mlperf-inference-v6-1-intel-xeon-und-arc-lebt-512-mi355x-skalieren-und-vr200-debuetiert.99435/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Speicherpreise im Check: +370 %, +134 %, +129 % nach einem Jahr",
-    "date": "2026-09-17",
-    "category": "Hardware",
-    "description": "Die globale Speicherkrise hält weiter an. Im Monatsrhythmus blickt ComputerBase auf die Preisentwicklung bei RAM, HDDs und SSDs. Die Vergleichsbasis aus dem vergangenen September ist nun genau ein Jahr her und die Bil...",
-    "url": "https://www.computerbase.de/news/storage/speicherpreise-im-check-plus-370-prozent-plus-134-prozent-plus-129-prozent-nach-einem-jahr.99425/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Über alle Produktgruppen hinweg: AMD soll Preise um 10 % anheben",
-    "date": "2026-09-17",
-    "category": "Hardware",
-    "description": "Nachdem vor allem die GeForce RTX 5090 in den letzten zwei Wochen noch einmal ein deutliches Preisplus über sich ergehen lassen musste, kündigt sich nun auch eine generelle Preiserhöhung bei allen Produkten mit Chips...",
-    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70371-ueber-alle-produktgruppen-hinweg-amd-soll-preise-um-10-anheben.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/Mar/robust_blockchain_ed/img_9196_680px.jpg",
-    "source": "HardwareLuxx"
   }
 ]
