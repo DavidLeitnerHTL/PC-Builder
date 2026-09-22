@@ -1,5 +1,212 @@
 [
   {
+    "title": "Grok 4.7: Günstige API trifft auf hohen Tokenverbrauch",
+    "date": "2026-09-22",
+    "category": "Markt",
+    "description": "Unabhängige Benchmarks rücken Grok 4.7 näher an Spitzenmodelle. Der hohe Tokenverbrauch schmälert den Vorteil der niedrigen API-Preise.",
+    "url": "https://www.heise.de/news/Grok-4-7-Guenstige-API-trifft-auf-hohen-Tokenverbrauch-11461063.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/9/0/6/4/shutterstock_2651939595-f130067437400939.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Geschrumpfte Chatbots: So passt die KI plötzlich in 4 GByte RAM",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "Quantisierung ermöglicht große Sprachmodelle auf Consumer-Hardware. Bonsai verspricht 27B-LLMs mit wenig RAM – auch auf Handys.",
+    "url": "https://www.heise.de/news/Liebling-ich-habe-die-Chatbots-geschrumpft-11460614.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/8/3/8/bonsai-09680a896e3d36f4.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Google Pixel Watch 5 im Test: Mehr Gesundheit, mehr KI und mehr Leistung",
+    "date": "2026-09-22",
+    "category": "Software",
+    "description": "Die Pixel Watch 5 überzeugt im Test mit zahlreichen Detailverbesserungen, die über mehr Leistung, mehr RAM und mehr Gemini-KI hinausgehen. Vor allem mit noch ausstehenden neuen Gesundheitsfunktionen könnte sie sich vo...",
+    "url": "https://www.computerbase.de/artikel/wearables/google-pixel-watch-5-test.99402/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "RAM-Knappheit bis 2030: Acer-Chef hält das für „unmöglich“",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "Acer-Chef Jason Chen stellt sich gegen düstere Prognosen für den Speichermarkt: DDR4 und DDR5 seien inzwischen wieder in großen Mengen verfügbar. Eine Knappheit bis 2030 hält er deshalb für „unmöglich“. Für PC-Käufer...",
+    "url": "https://www.computerbase.de/news/arbeitsspeicher/ram-knappheit-bis-2030-acer-chef-haelt-das-fuer-unmoeglich.99502/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Chip-Packaging: TSMC und Partner bauen mit staatlicher Hilfe weiteren Komplex",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "Das Packen von Chips auf ein Substrat und/oder Interposer bleibt ein Flaschenhals. TSMC investiert deshalb noch einmal, das Vorhaben in Kaohsiung im Süden Taiwans ist so bedeutend, dass sogar Taiwans Staatschef daran...",
+    "url": "https://www.computerbase.de/news/wirtschaft/chip-packaging-tsmc-und-partner-bauen-mit-staatlicher-hilfe-weiteren-komplex.99492/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Betriebssysteme: Windows ist laut Umfragen unbeliebtestes OS für Entwickler",
+    "date": "2026-09-22",
+    "category": "Software",
+    "description": "Zwei Umfragen replizieren die Ergebnisse: Linux ist fast doppelt so beliebt wie Windows, wenn es um Softwareentwicklung geht. (Windows 11, Studien)",
+    "url": "https://www.golem.de/news/betriebssysteme-windows-ist-laut-umfragen-unbeliebtestes-os-fuer-entwickler-2609-213300.html",
+    "image": "https://www.golem.de/2609/213300-599685-599683_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "[PLUS] 360er-AiO-Wasserkühlungen im Test: Teure bis günstige Modelle diverser Hersteller",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "Wir schicken 360-mm-Kompaktwasserkühlungen durch unseren lautheitsnormierten Testparcours. Von günstig bis teuer prüfen wir acht verschiedene Kühlsysteme auf Herz und Nieren.",
+    "url": "https://www.pcgameshardware.de/Kompaktwasserkuehlung-Hardware-267963/Specials/360-mm-AiO-Test-Corsair-Weiss-Preis-1471604/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2025/08/360er-Tabelle-mit-Awards-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "DLSS 5 Autopilot: Gratis-Tool richtet Neural Rendering automatisch ein",
+    "date": "2026-09-22",
+    "category": "Angebote",
+    "description": "DLSS 5 lässt sich per Mod längst in zahlreichen Spielen ausprobieren. Ein neues Gratis-Tool will die dafür nötigen Schritte nun weitgehend automatisieren.",
+    "url": "https://www.pcgameshardware.de/Deep-Learning-Super-Sampling-Software-277618/News/DLSS-5-Autopilot-Tool-Neural-Rendering-Mod-1554552/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/DLSS-5-ohne-Mod-Chaos-Dieses-Tool-macht-es-automatisch-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Raytracing: Neues AMD-Paper setzt auf Tetraederkäfige für feine, bewegte Geometrie",
+    "date": "2026-09-22",
+    "category": "Software",
+    "description": "Bis zu 90 Prozent weniger Speicher und nur 3,3 ms für BVH-Updates: AMDs im Raytracing-Paper vorgestellter Tetraeder-Vorstoß könnte die Darstellung feiner, beweglicher Geometrie drastisch beschleunigen.",
+    "url": "https://www.pcgameshardware.de/Raytracing-Hardware-255905/News/AMD-Tetrahedral-Cage-Driven-Animation-Optimierung-fuer-feine-Geometrie-1554434/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/AMD-Tetraeder-Testszene-Aufmacher-Gen-AI--pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Was passiert, wenn man ein neues Spiel auf einer HDD installiert?",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "Solid-State-Drives, kurz SSDs, sind mittlerweile in jedem Gaming-PC zu finden. Doch ihr Platz ist chronisch knapp und PC-Spiele werden immer größer. Was passiert, wenn man ein neues Spiel auf einer „guten alten“ HDD i...",
+    "url": "https://www.pcgameshardware.de/Festplatte-Hardware-255553/Specials/Spiele-auf-HDD-oder-SSD-installieren-Tipps-1553839/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/02/Western-Digital-WD-40-TB-HDD-Festplatte-HAMR-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "WoW Forever: Spieler melden Radeon-Abstürze – RX 9070 XT auffällig oft betroffen",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "In der Beta von WoW: Forever häufen sich Berichte über Abstürze mit Radeon-Grafikkarten. Besonders oft wird die RX 9070 XT genannt. Ein Grafikschalter scheint dabei eine zentrale Rolle zu spielen.",
+    "url": "https://www.pcgameshardware.de/World-of-Warcraft-Forever-Spiel-78891/News/Radeon-Abstuerze-RX-9070-XT-Workaround-1554475/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/WoW-Forever-RX-9070-XT-crasht-einfacher-Workaround-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Radeon RX 9050 mit 4 GiB: \"Betrug\", urteilt Hardware Unboxed nach 18 Spielen",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "Hardware Unboxed und Toasty Bros haben die Radeon RX 9050 mit 4 GiB aus Komplett-PCs von CyberPowerPC getestet. Die Version mit 8 GiB ist im Schnitt 37 Prozent schneller. Wer einen Fertig-PC mit RX 9050 kauft, muss au...",
+    "url": "https://www.pcgameshardware.de/Radeon-RX-9050-4GB-Grafikkarte-285842/News/Hardware-Unboxed-Test-Betrug-Benchmarks-1554497/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/09/AMD-Radeon-RX-9050-mit-4-GiB-im-Benchmark-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "Windows 11: USB-Audio bleibt nach Notfall-Update stumm, Fix wohl erst im Oktober",
+    "date": "2026-09-22",
+    "category": "Software",
+    "description": "Microsoft führt den Tonausfall bei Geräten der USB Audio Class 1.0 weiter als offenes Problem des Notfall-Updates KB5129195 für Windows 11. Einen Termin für die Korrektur nennt der Konzern nicht, betroffen sind auch W...",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Update-KB5129195-USB-Audio-kein-Ton-Oktober-1554495/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Microsoft-Surface-Headphones-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Chrome 152 bewertet Prozessoren: Welche Leistungsstufe die Website auslesen kann",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "Seit dem 25. August 2026 ordnet Google Chrome den PC einer von vier CPU-Klassen zu, die Webseiten per JavaScript abfragen können. Modell und Kernzahl bleiben verborgen, die berechnete Stufe lässt sich in den Einstellu...",
+    "url": "https://www.pcgameshardware.de/Google-Chrome-Software-255519/News/CPU-Leistungsstufe-Webseiten-auslesen-1554494/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/09/Google_Chrome_by_Sven_Bauduin-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "14.0-Zoll-POLED-WQXGA mit Intel Core Ultra 7 355: ASUS präsentiert das neue Googlebook",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "ASUS erweitert sein Notebook-Angebot um das Googlebook 14 (CX9406), das mit einem Gewicht von weniger als einem Kilogramm primär auf den mobilen Einsatz abzielt.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/70396-14-0-poled-wqxga-mit-intel-core-ultra-7-355-asus-praesentiert-das-neue-googlebook.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/lovely_analyst_e3/asus_googlebook_14_cx9406caa_tg0063_003_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Silent Hill: Townfall Cracked in Pre-Release, Days Before Official Launch",
+    "date": "2026-09-22",
+    "category": "Markt",
+    "description": "The latest sequel in the legendary Silent Hill series, called Silent Hill: Townfall, has been cracked days before its official release, even during the pre-release stage. Today, the game has been made available to pla...",
+    "url": "https://www.techpowerup.com/352937/silent-hill-townfall-cracked-in-pre-release-days-before-official-launch",
+    "image": "https://www.techpowerup.com/img/Bhvy0y3hBF1G0ye4.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Durabook Announces the Z14I-DX3 Rugged Mobile Laptop, a Triple-display, Workstation-class, Edge AI Laptop",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "Durabook, the global rugged mobile solutions brand owned by Twinhead International Corporation, announced today the Z14I-DX3 Rugged Mobile Laptop with three full HD displays integrated in a workstation-class, edge AI...",
+    "url": "https://www.techpowerup.com/352935/durabook-announces-the-z14i-dx3-rugged-mobile-laptop-a-triple-display-workstation-class-edge-ai-laptop",
+    "image": "https://www.techpowerup.com/img/Wy4uD1eJbMoExWVM.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GoDeal24 Unveils Back to School Sale: Great Deals on Genuine Software",
+    "date": "2026-09-22",
+    "category": "Angebote",
+    "description": "As autumn sets in, it is the perfect time to give your digital workspace a much-needed overhaul. Running outdated software not only drags down productivity with missing features, but legacy suites—including Office 202...",
+    "url": "https://www.techpowerup.com/352906/godeal24-unveils-back-to-school-sale-great-deals-on-genuine-software",
+    "image": "https://www.techpowerup.com/img/dLYEXQBvOqZ9dzQQ.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) DRAM Module Revenue Surged 59% YoY in 2025 as Crowding-Out Effect Constrained Chip Supply and Drove Prices Higher",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "According to TrendForce statistics, the global DRAM module market generated $21.2 billion in revenue in 2025, up a strong 59% YoY. Rising prices and concentrated shipments from DRAM module makers in the second half of...",
+    "url": "https://www.techpowerup.com/352934/dram-module-revenue-surged-59-yoy-in-2025-as-crowding-out-effect-constrained-chip-supply-and-drove-prices-higher",
+    "image": "https://www.techpowerup.com/img/H3V3w9FRjMUMHZR4.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "More Blizzard Layoffs \"Imminent\"",
+    "date": "2026-09-22",
+    "category": "Hardware",
+    "description": "Following the recent news of unionization at Blizzard, which is slated to cover 1,900 workers at the Xbox-owned studio, and a handful of announcements at the recent BlizzCon, including Diablo V and StarCraft Dominion,...",
+    "url": "https://www.techpowerup.com/352932/more-blizzard-layoffs-imminent",
+    "image": "https://www.techpowerup.com/img/WUhW0KrKJ1WRrB94.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Sony Patent Imagines PlayStation Consoles That Fix Themselves Using AI",
+    "date": "2026-09-22",
+    "category": "Software",
+    "description": "Sony has filed a patent for an AI system that would let its devices, including PlayStation consoles, diagnose and fix software problems on their own. As reported by TweakTown, citing patent aggregator Patentlyze, the...",
+    "url": "https://www.techpowerup.com/352929/sony-patent-imagines-playstation-consoles-that-fix-themselves-using-ai",
+    "image": "https://www.techpowerup.com/img/48hxBB3sejo3xVnI.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Speicher wird teurer: Die Preisschere zwischen DDR5 und DDR4 geht auseinander",
+    "date": "2026-09-21",
+    "category": "Hardware",
+    "description": "Die Speicherpreise steigen weiter. 32 GByte DDR5-RAM kosten jetzt mindestens 400 Euro. Laut Acer ist der Mangel aber nicht mehr akut.",
+    "url": "https://www.heise.de/news/Acer-Chef-PCs-koennten-ab-Mitte-2027-wieder-guenstiger-werden-11460550.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/8/0/5/https___xp-ac780749c51e5a94-85f1d89f9b2418e2.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Mac Studio mit M5 Ultra im KI-Praxistest: Benchmarks mit lokalen Modellen",
+    "date": "2026-09-21",
+    "category": "Software",
+    "description": "Der Mac Studio mit M5 Ultra verspricht Leistung satt für lokale KI. Im Test muss er zeigen, ob er Claude und ChatGPT für Softwareentwicklung ersetzen kann.",
+    "url": "https://www.heise.de/tests/Mac-Studio-mit-M5-Ultra-im-KI-Praxistest-Benchmarks-mit-lokalen-Modellen-11459736.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/3/9/4/jam-1a6b3821d678d864.jpeg",
+    "source": "Heise"
+  },
+  {
     "title": "Clicks Communicator: Smartphone mit physischer Tastatur erhält mehr RAM und Akku",
     "date": "2026-09-21",
     "category": "Hardware",
@@ -9,13 +216,31 @@
     "source": "Heise"
   },
   {
-    "title": "Nvidia RTX Pro 6000 Blackwell im Test: 96 GByte VRAM für KI und Workstations",
+    "title": "Apple M6 Benchmarks: So schnell ist er im Vergleich zu M5, M4, M3, M2 & M1",
+    "date": "2026-09-21",
+    "category": "Software",
+    "description": "Der neue Apple Mac mini M6 (Test) ist da. Aber wie schnell ist das neue SoC im Vergleich zu den Vorgängern M1, M2, M3, M4 und M5? Dank der ComputerBase-Community lässt sich ein sehr umfassendes Bild zeichnen. Und jede...",
+    "url": "https://www.computerbase.de/artikel/prozessoren/apple-m6-m5-m4-m3-m2-m1-benchmarks.99501/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Apple Mac mini M6 im Test: Der neue Super-Core eilt mal wieder davon",
     "date": "2026-09-21",
     "category": "Hardware",
-    "description": "Mit ihren enormen 96 GByte Grafikspeicher ist die RTX Pro 6000 Blackwell für lokale KI prädestiniert. Nebenbei ist sie auch die schnellste 3D-Grafikkarte.",
-    "url": "https://www.heise.de/tests/Nvidia-RTX-Pro-6000-Blackwell-im-Test-96-GByte-VRAM-fuer-KI-und-Workstations-11419673.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/0/0/4/8/csp-e9778bf755719b12.jpeg",
-    "source": "Heise"
+    "description": "Beim Apple M5 ging der Mac mini leer aus. Beim Apple M6 ist er jetzt direkt der erste Mac, der das neue SoC erhält. Was Apples aktueller Mini-PC in der Version mit M6, 32 GB Unified Memory und 2 TB großer SSD leistet,...",
+    "url": "https://www.computerbase.de/artikel/pc-systeme/apple-mac-mini-m6-test.99469/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Snapdragon X Elite: Qualcomm liefert Chips für zwei von fünf Googlebooks",
+    "date": "2026-09-21",
+    "category": "Hardware",
+    "description": "Qualcomm bringt die eigenen Notebook-Prozessoren nach dem bisherigen Fokus auf Windows nun auch für die neuen Googlebooks mit Android als Unterbau in Stellung. Der Chip-Entwickler hat mit Dell und HP zwei Abnehmer für...",
+    "url": "https://www.computerbase.de/news/prozessoren/snapdragon-x-elite-qualcomm-liefert-chips-fuer-zwei-von-fuenf-googlebooks.99407/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
     "title": "Windows 11: WinUI 3 räumt Systemdialoge wie Ausführen und AutoPlay auf",
@@ -45,408 +270,183 @@
     "source": "Golem"
   },
   {
-    "title": "Investitionen in KI: Tech-Konzerne lagern immer mehr Schulden aus",
-    "date": "2026-09-21",
-    "category": "Industrie",
-    "description": "Zur Absicherung der Investitionen in KI-Infrastruktur setzen Unternehmen wie Broadcom, Nvidia und Meta auf Restwertgarantien für Zweckgesellschaften. (KI, Nvidia)",
-    "url": "https://www.golem.de/news/investitionen-in-ki-tech-konzerne-lagern-immer-mehr-schulden-aus-2609-213259.html",
-    "image": "https://www.golem.de/2609/213259-599479-599477_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "[PLUS zum Reboot] Ryzen 7 5800X3D richtig ausreizen: Tuning-Guide, Subtimings optimieren, RAM-Skalierung",
+    "title": "Linux 7.4: Intel-Grafiktreiber mustert defekten VRAM aus, aber nur für KI-GPUs",
     "date": "2026-09-21",
     "category": "Hardware",
-    "description": "Der 8-Kerner Ryzen 7 5800X3D für den Sockel AM4 mausert sich zum Liebling der PCGH-Leser. Doch wie kann man den Gaming-Boliden richtig ausreizen? Ein PCGH-Plus-Guide aus drei Einzelartikeln.",
-    "url": "https://www.pcgameshardware.de/Ryzen-7-5800X3D-CPU-278064/Specials/Tuning-Praxistipps-1407777/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2022/06/teaser_tuning-pcgh.jpg",
+    "description": "Intels Xe-Grafiktreiber nimmt ab Linux 7.4 fehlerhafte VRAM-Seiten dauerhaft aus dem Verkehr und prüft den Speicher beim Start. Arc-Spieler merken davon vorerst wenig: Der Check läuft nur im Debug-Build, die Sperre zi...",
+    "url": "https://www.pcgameshardware.de/Linux-Software-26761/News/Kernel-7-4-Intel-Xe-defekter-VRAM-Page-Offlining-Health-Check-1554447/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2024/12/Intel-Arc-B580-Test-Review-Benchmarks_Intel-B580-Limited-Edition-5-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "Origin Code Vortex 48 GiB DDR5-6000 im Test: Der silberne Koloss am RAM-Horizont",
+    "title": "[PLUS] Die besten GPU- und CPU-Paare: Prozessor und Grafikkarte perfekt kombinieren",
     "date": "2026-09-21",
     "category": "Hardware",
-    "description": "Mit dem neuen Origin-Code-Label möchte Biwin ganz klar Enthusiasten abholen. Wir testen das neue Vortex-Kit mit DDR5-6000 bei CL26. Wie schnell ist es in Spielen wirklich?",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/Tests/Biwin-Origin-Code-Vortex-48-GiB-DDR5-6000-CL26-Benchmark-Review-1553298/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/09/Kuehler-Vortex-pcgh.jpg",
+    "description": "PCGH Plus: Welcher Prozessor passt zu welcher Grafikkarte? Lohnt sich das Upgrade oder bremst da was? Wir haben wieder Tag und Nacht gebencht, um Ihnen aktuelle Antworten auf diese Fragen zu liefern. Der Artikel stamm...",
+    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/Specials/Prozessor-und-Grafikkarte-perfekt-kombinieren-1546462/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/aufmacher_CPU-GPU_Dreamteams2026-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "Discord meldet 17 Prozent weniger CPU-Last: Doch dafür steigt jetzt der RAM-Bedarf",
+    "title": "Weitere Expansion geplant: CXMT baut eigene 3D-NAND-Entwicklung auf",
     "date": "2026-09-21",
     "category": "Hardware",
-    "description": "Für die Discord-App wurde ein neuer Patch ausgerollt, der die CPU-Last senkt, die RAM-Belegung doch erhöht. Was hat es damit auf sich?",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/Discord-CPU-Last-Performance-1554217/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2017/06/Discord-Logo-Voice-Chat-pcgh.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "Speicherkrise: Fairphone nennt fast 60 Prozent Speicheranteil bei 400-US-Dollar-Handys",
-    "date": "2026-09-21",
-    "category": "Hardware",
-    "description": "Die Speicherkrise verändert Hardware-Designs: Jolla baut zwei Mainboard-Varianten, Framework bestellt auf Risiko. Fairphone nennt für rund 400-US-Dollar-Handys fast 60 Prozent Speicheranteil an der Stückliste.",
-    "url": "https://www.pcgameshardware.de/Handy-Smartphone-229953/News/Speicherkrise-Fairphone-Jolla-Framework-60-Prozent-Speicheranteil-1554020/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/franck-v-nuc3NFB_6po-unsplash-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Radeon RX 9070 XT als Valor-Mortis-Edition: Gratis-Spiel, aber kein Preis",
-    "date": "2026-09-21",
-    "category": "Hardware",
-    "description": "Sapphire bedruckt die Backplate seiner Nitro+ Radeon RX 9070 XT mit Motiven des Soulslikes Valor Mortis, das am 13. Oktober erscheint. Ein Code für das Spiel liegt bei, zu Preis und Verfügbarkeit schweigt der Herstell...",
-    "url": "https://www.pcgameshardware.de/Radeon-RX-9070-XT-Grafikkarte-281023/News/Sapphire-Nitro-Plus-Valor-Mortis-Edition-Preis-1554383/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/RX-9070-XT-Valor-Mortis-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Samsung to Double HBM4 and HBM4E Capacity in 2027 Amid Strong Demand",
-    "date": "2026-09-21",
-    "category": "Industrie",
-    "description": "Samsung is reportedly increasing its orders for materials to boost high-bandwidth memory (HBM) production, with plans to double the production capacity of its current HBM4 and HBM4E manufacturing by 2027. According to...",
-    "url": "https://www.techpowerup.com/352896/samsung-to-double-hbm4-and-hbm4e-capacity-in-2027-amid-strong-demand",
-    "image": "https://www.techpowerup.com/img/lrXiNEJbw70hEBew.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "NVIDIA GeForce RTX 60-Series Reportedly Slips to 2028, Per New Leak",
-    "date": "2026-09-21",
-    "category": "Hardware",
-    "description": "Kopite7Kimi, a leaker with a strong track record on NVIDIA hardware, says the company's next-generation GeForce RTX 60-series based on the Rubin architecture is a 2028 product. \"Unfortunately, GR20x is a product from...",
-    "url": "https://www.techpowerup.com/352894/nvidia-geforce-rtx-60-series-reportedly-slips-to-2028-per-new-leak",
-    "image": "https://www.techpowerup.com/img/UltykwC0JCpIMDBU.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
-    "date": "2026-09-21",
-    "category": "Angebote",
-    "description": "ACEMAGIC and ACEMAGICIAN have deals on three mini PCs. Discounts go as high as 40%, and savings reach $210. All three ship with Windows 11 Pro already installed. Pick the Intel model for everyday desk work, or the 8-c...",
-    "url": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99",
-    "image": "https://www.techpowerup.com/img/v7tlNM2oUVWV0c3i.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) LG Display Launches 24.5-inch 720Hz Gaming OLED Panel",
-    "date": "2026-09-21",
-    "category": "Hardware",
-    "description": "LG Display, the world's leading innovator of display technologies, announced today its launch of a 24.5-inch 720 Hz Gaming OLED panel, leading the esports monitor market paradigm. The company's 24.5-inch 720 Hz Gaming...",
-    "url": "https://www.techpowerup.com/352892/lg-display-launches-24-5-inch-720hz-gaming-oled-panel",
-    "image": "https://www.techpowerup.com/img/TAZOGcsvqY4rdp62.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) GameSir Announces Official Fortnite Mobile Controller Collection",
-    "date": "2026-09-21",
-    "category": "Hardware",
-    "description": "GameSir, a global leader in gaming peripherals, announced its collaboration with Fortnite, introducing an all-new collection of officially licensed mobile controllers that combine GameSir's award-winning technology wi...",
-    "url": "https://www.techpowerup.com/352891/gamesir-announces-official-fortnite-mobile-controller-collection",
-    "image": "https://www.techpowerup.com/img/8IfnOmXPFMU77oeu.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) VZMORE Introduces V-Cooling Vapor Chamber Thermal Architecture for Mini PCs",
-    "date": "2026-09-21",
-    "category": "Hardware",
-    "description": "Combining vapor chamber cooling, vertical airflow and intelligent thermal management, V-Cooling improves thermal efficiency, sustained performance and acoustic performance in compact computers. Mini PC brand VZMORE ha...",
-    "url": "https://www.techpowerup.com/352889/vzmore-introduces-v-cooling-vapor-chamber-thermal-architecture-for-mini-pcs",
-    "image": "https://www.techpowerup.com/img/T8YsQ3aE64I9TFjC.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Stronger North American Demand to Keep Enterprise SSD Prices on an Upward Trend in 4Q26",
-    "date": "2026-09-21",
-    "category": "Hardware",
-    "description": "U.S. CSPs have recently upgraded their enterprise SSD demand forecasts over the past two weeks, according to TrendForce's research. This shift is mainly driven by major CSPs speeding up deployments and expanding enter...",
-    "url": "https://www.techpowerup.com/352888/stronger-north-american-demand-to-keep-enterprise-ssd-prices-on-an-upward-trend-in-4q26",
-    "image": "https://www.techpowerup.com/img/XuVoxNMsG5RX9sju.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Evil Empire and Konami's Castlevania: Belmont's Curse Demo Launches in October",
-    "date": "2026-09-21",
-    "category": "Hardware",
-    "description": "It was announced in February 2026 that Evil Empire and Motion Twin, the indie studios behind the massively successful Dead Cell franchise, is working with Konami on Castlevania: Belmont's Curse. Ahead of the game's Oc...",
-    "url": "https://www.techpowerup.com/352886/evil-empire-and-konamis-castlevania-belmonts-curse-demo-launches-in-october",
-    "image": "https://www.techpowerup.com/img/dlMAJ3o8DVHm8tF0.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Hideo Kojima Says Sony Dropped PHYSINT During a Zoom Call and Gave No Reason",
-    "date": "2026-09-21",
-    "category": "Hardware",
-    "description": "In a new interview with IGN, Hideo Kojima says PlayStation ended its involvement in PHYSINT during a Zoom call in June. He says Sony gave no reason, though he also admits he didn't ask many questions during the meetin...",
-    "url": "https://www.techpowerup.com/352884/hideo-kojima-says-sony-dropped-physint-during-a-zoom-call-and-gave-no-reason",
-    "image": "https://www.techpowerup.com/img/4nB4DP5PozkxmkiY.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Linux-Overlay MangoHud: Leistung und Hardware beim Spielen im Blick behalten",
-    "date": "2026-09-20",
-    "category": "Hardware",
-    "description": "Ein frei konfigurierbares On-Screen-Display zeigt beim Spielen unter Linux, ob die FPS einbrechen, die CPU zu heiß wird oder der Arbeitsspeicher voll läuft.",
-    "url": "https://www.heise.de/ratgeber/Linux-Overlay-MangoHud-Leistung-und-Hardware-beim-Spielen-im-Blick-behalten-11148095.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/1/3/2/8/4/lmd-8350fa8999cb93b3.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Geekbench 7: M6 lässt den Ryzen 9 9950X3D2 weit hinter sich",
-    "date": "2026-09-20",
-    "category": "Hardware",
-    "description": "Im neuen Geekbench 7 sind erste Ergebnisse von Apples neuen Mac-Chips eingetrudelt. Der Konzern hat in synthetischen Benchmarks nicht zu viel versprochen: Die Grafikleistung von M5 Ultra und M6 steigt spürbar an gegen...",
-    "url": "https://www.computerbase.de/news/prozessoren/geekbench-7-m5-ultra-liegt-auf-dem-niveau-einer-rtx-4080.99485/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "RTX 3050 lässt grüßen: AMDs 4-GB-Version der RX 9050 fällt weit zurück",
-    "date": "2026-09-20",
-    "category": "Hardware",
-    "description": "AMD führt die Radeon RX 9050 mit 4 und 8 GB unter demselben Namen. Ein neuer Test von Hardware Unboxed zeigt nun, wie groß der Unterschied tatsächlich ausfällt: Im Mittel von 18 Spielen liegt die 4-GB-Version in Full...",
-    "url": "https://www.computerbase.de/news/grafikkarten/rtx-3050-laesst-gruessen-amds-4-gb-version-der-rx-9050-faellt-weit-zurueck.99480/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "DLSS 5 auf Arc: Neural Rendering wird mit Intel zur Diashow, aber es läuft",
-    "date": "2026-09-20",
-    "category": "Hardware",
-    "description": "Nach Radeon-Grafikkarten fällt die nächste Herstellergrenze: Eine unabhängige Implementierung von DLSS-5-Neural-Rendering läuft auf Intels integrierter Arc 140V. Technisch ist das bemerkenswert, spielbar ist das Ergeb...",
-    "url": "https://www.computerbase.de/news/grafikkarten/dlss-5-auf-intel-arc-neural-rendering-wird-zur-diashow.99479/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Tomb Raider auf 1-Watt-Chip: ESP32-P4 schafft 30 Fps ohne 3D-GPU",
-    "date": "2026-09-20",
-    "category": "Hardware",
-    "description": "Ein ESP32-P4 mit zwei 400-MHz-RISC-V-Kernen bringt das erste Tomb Raider mit rund 30 Fps auf ein Entwicklerboard. Möglich wird das durch OpenLara, Software-Rendering und einen kleinen Trick bei der Auflösung.",
-    "url": "https://www.pcgameshardware.de/Tomb-Raider-1-Spiel-39155/News/ESP23-P4-1-Watt-400-MHz-30-Fps-1554100/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Tomb-Raider-laeuft-auf-1-Watt-Chip-mit-nur-400-MHz-und-30-Fps-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Wie viel guter PC-Sound wirklich kostet: Das und mehr in PCGH 10/2026",
-    "date": "2026-09-20",
-    "category": "Hardware",
-    "description": "Die PCGH 10/2026 bringt stolze 17 Seiten PC-Sound, das GPU-Latenzduell zwischen Arc, Radeon und Geforce sowie den Ryzen 7 7700X3D. Dazu: Low-End-Gaming, Display-Tastaturen, Radeon-Historie, Linux-Artikel und vieles mehr!",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-10-2026-Magazin-312-DVD-Download-PDF-1552358/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/PCGH-Geheimarchiv-4-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "ASUS ROG Strix X870E-A Gaming WiFi7 Neo im Test: AM5-Refresh-Platine für helle Builds",
-    "date": "2026-09-20",
-    "category": "Hardware",
-    "description": "Nach dem ASUS ROG Strix B850-F Gaming WiFi7 Neo (Test) als B850-Refresh-Mainboard kommen wir nun zum ROG Strix X870E-A Gaming WiFi7 Neo, das der abgespeckte Bruder vom bereits getesteten ROG Strix X870E-E Gaming WiFi7...",
-    "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/mainboards/70173-asus-rog-strix-x870e-a-gaming-wifi7-neo-im-test-am5-refresh-platine-fuer-helle-builds.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Aug/worth_branch_4k/asus_rog_strix_x870e_a_gaming_wifi7_neo_review_003_680px.jpg",
+    "description": "Der chinesische Speicherhersteller CXMT will sein Geschäft offenbar über DRAM hinaus ausbauen und künftig auch NAND-Flash produzieren.",
+    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70393-weitere-expansion-geplant-cxmt-baut-eigene-3d-nand-entwicklung-auf.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/Dec/eager_domain_tc/cxmt_fab_680px.jpg",
     "source": "HardwareLuxx"
   },
   {
-    "title": "Latest HWiNFO Beta Adds Support for Intel Nova Lake Qualification Sample CPUs",
-    "date": "2026-09-20",
+    "title": "Babbel's Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "date": "2026-09-21",
     "category": "Hardware",
-    "description": "The latest HWiNFO 8.53 beta (build 6075) lists \"Improved Nova Lake QS support and fixed SA VID reporting\" in its changelog, as spotted by VideoCardz. QS stands for qualification sample, a stage that comes well after t...",
-    "url": "https://www.techpowerup.com/352882/latest-hwinfo-beta-adds-support-for-intel-nova-lake-qualification-sample-cpus",
-    "image": "https://www.techpowerup.com/img/2TDLn0gKsJMcD5iU.jpg",
+    "description": "Sticking with a new language usually comes down to whether the lessons feel like an actual conversation or like homework, and most apps lean hard toward the second. Babbel takes the opposite approach with a lifetime s...",
+    "url": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
+    "image": "https://www.techpowerup.com/img/hNdHrBNDf9jMSRG8.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Acer Expects PC Prices to Rise by Up to 20% in Q4, Peak Around Mid-2027",
-    "date": "2026-09-20",
+    "title": "AMD Ryzen 5 5500F and 7500 Arrive on Amazon $20 Above MSRP",
+    "date": "2026-09-21",
     "category": "Hardware",
-    "description": "Acer Chairman and CEO Jason Chen says PC prices could rise by another 5% to 20% in the fourth quarter of 2026, according to Taiwan's Economic Daily News. Chen reportedly said that DDR4 and DDR5 memory are no longer in...",
-    "url": "https://www.techpowerup.com/352880/acer-expects-pc-prices-to-rise-by-up-to-20-in-q4-peak-around-mid-2027",
-    "image": "https://www.techpowerup.com/img/9MhDlM868nmeiDJJ.jpg",
+    "description": "AMD's Ryzen 5 5500F and Ryzen 5 7500 are finally available in the US, but both are selling above their announced pricing. On Amazon, the Ryzen 5 5500F lists for $120 and the Ryzen 5 7500 for $210, each $20 over AMD's...",
+    "url": "https://www.techpowerup.com/352927/amd-ryzen-5-5500f-and-7500-arrive-on-amazon-usd-20-above-msrp",
+    "image": "https://www.techpowerup.com/img/THzPieQGLWIRfE3Y.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "AMD Radeon RX 9050 4 GB Benchmarks Surface, 8 GB Model 37% Faster",
-    "date": "2026-09-20",
+    "title": "Bungie Says \"Destiny Is Foundational to Our Future\" and Admits Marathon Undersold",
+    "date": "2026-09-21",
     "category": "Hardware",
-    "description": "Hardware Unboxed and Toasty Bros have both tested the mysterious Radeon RX 9050 4 GB, and the results look rough. AMD only sells this version in OEM systems, so both channels had to buy CyberPowerPC prebuilts to get o...",
-    "url": "https://www.techpowerup.com/352878/amd-radeon-rx-9050-4-gb-benchmarks-surface-8-gb-model-37-faster",
-    "image": "https://www.techpowerup.com/img/EZMulzRjlKyu8wod.jpg",
+    "description": "Bungie's new management has apparently suddenly seen the massive fallout that has come from its effective cancellation of Destiny 2, with a new video titled \"The Next Chapter for Bungie\" announcing several changes com...",
+    "url": "https://www.techpowerup.com/352923/bungie-says-destiny-is-foundational-to-our-future-and-admits-marathon-undersold",
+    "image": "https://www.techpowerup.com/img/VNuS41xtmU7GaFtB.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Scalpers List Steam Frame Reservations at $1,700+ on eBay, Community Fights Back",
-    "date": "2026-09-20",
+    "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
+    "date": "2026-09-21",
     "category": "Hardware",
-    "description": "Scalpers have apparently started listing Steam Frame reservations on eBay within hours of Valve sending its first reservation emails. Per IGN, listings for the 256 GB kit start around $1,700 versus Valve's $1,059, whi...",
-    "url": "https://www.techpowerup.com/352874/scalpers-list-steam-frame-reservations-at-usd-1-700-on-ebay-community-fights-back",
-    "image": "https://www.techpowerup.com/img/DkyoZBMbwAUSwbsd.jpg",
+    "description": "Microsoft 365 renews monthly or annually, whether Word is opened once or fifty times, and canceling never refunds the months already paid for. Microsoft Office 2024 Professional Plus skips that recurring bill entirely...",
+    "url": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
+    "image": "https://www.techpowerup.com/img/1Fswt9AiTj6fvwQa.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Xbox Series X Gets Experimental PS5 Emulator Port, Quake II Already Running",
-    "date": "2026-09-20",
-    "category": "Hardware",
-    "description": "A developer has apparently gotten an experimental PS5 emulator running on the Xbox Series X. Devran Cosmo Uenal, who posted about the project on YouTube on September 8, calls it a research project that ports the open-...",
-    "url": "https://www.techpowerup.com/352873/xbox-series-x-gets-experimental-ps5-emulator-port-quake-ii-already-running",
-    "image": "https://www.techpowerup.com/img/nS9gCCvy4BNl3DZ5.jpg",
+    "title": "MMO Solarpunk Cozy Game \"Loftia\" Gets Launch Date",
+    "date": "2026-09-21",
+    "category": "Software",
+    "description": "Loftia was announced in 2023 as a new cozy life simulation game set in a world of floating islands with a solarpunk aesthetic, and after both closed and open beta tests, Qloud Games, the developer behind the game, has...",
+    "url": "https://www.techpowerup.com/352918/mmo-solarpunk-cozy-game-loftia-gets-launch-date",
+    "image": "https://www.techpowerup.com/img/emwA35U9oPYDONeK.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Intel Ends Its $100,000 Bug Bounty Program",
-    "date": "2026-09-20",
+    "title": "NVIDIA RTX 5080 Reportedly Dies After DLSS 5 Test in Modded GTA 5",
+    "date": "2026-09-21",
     "category": "Hardware",
-    "description": "Intel has officially suspended its Bug Bounty Program, which offered security researchers compensation for finding and reporting security vulnerabilities. The program is now marked as suspended on the Intigriti platfo...",
-    "url": "https://www.techpowerup.com/352872/intel-ends-its-usd-100-000-bug-bounty-program",
-    "image": "https://www.techpowerup.com/img/RUKMXt510t029KcZ.jpg",
+    "description": "An MSI GeForce RTX 5080 16G Ventus 3X reportedly stopped working after its owner injected an unofficial version of DLSS 5 into a heavily modded copy of Grand Theft Auto 5. Reddit user \"wax469\" said the card had been r...",
+    "url": "https://www.techpowerup.com/352921/nvidia-rtx-5080-reportedly-dies-after-dlss-5-test-in-modded-gta-5",
+    "image": "https://www.techpowerup.com/img/Tzben2hIUdQgQQHS.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "This Week in Gaming (Week 39)",
-    "date": "2026-09-20",
+    "title": "Rockstar Imposes Strict Limitations on GTA VI Mods",
+    "date": "2026-09-21",
     "category": "Markt",
-    "description": "As we enter the last full week of September, we kick off with a sequel AAA release from a Finnish developer that has many famous games in its catalogue. If that's not for you, then how about a racing game unlike any o...",
-    "url": "https://www.techpowerup.com/352871/this-week-in-gaming-week-39",
-    "image": "https://www.techpowerup.com/img/DUqClFn3HjJF3pp6.jpg",
+    "description": "Ahead of the official launch of GTA VI, Rockstar has put out a new set of mod guidelines for the upcoming action game, revealing strict rules surrounding the community's contributions to Leonida and the world of GTA a...",
+    "url": "https://www.techpowerup.com/352912/rockstar-imposes-strict-limitations-on-gta-vi-mods",
+    "image": "https://www.techpowerup.com/img/otIyumNH0qxFEtB7.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Solidigm Reportedly Plans Its First NAND Fab in the United States",
-    "date": "2026-09-20",
+    "title": "Microsoft Patent Shows Ad Breaks During Loading Screens and After Boss Fights",
+    "date": "2026-09-21",
+    "category": "Hardware",
+    "description": "Microsoft has filed a patent application for a system that would show ads in PC and console games during natural breaks, such as after a boss fight, at the end of a cutscene, or on a loading screen. Titled \"Contextual...",
+    "url": "https://www.techpowerup.com/352914/microsoft-patent-shows-ad-breaks-during-loading-screens-and-after-boss-fights",
+    "image": "https://www.techpowerup.com/img/uuKfFuOtk43W1p4C.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) StarTech.com Launches Quad Monitor Thunderbolt 5 Dock for Multi-Display Workstations",
+    "date": "2026-09-21",
+    "category": "Hardware",
+    "description": "StarTech.com has launched a new Universal Thunderbolt 5 Docking Station (206N-TB5USB4DOCK) built for power users who need more display space, more charging power, and fewer compromises at the desk. The dock supports u...",
+    "url": "https://www.techpowerup.com/352913/startech-com-launches-quad-monitor-thunderbolt-5-dock-for-multi-display-workstations",
+    "image": "https://www.techpowerup.com/img/DwVEIeyNRUagSzux.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AMD Joins Trillion-Dollar Club, Surpasses $600 Per Share",
+    "date": "2026-09-21",
+    "category": "Hardware",
+    "description": "A new era for AMD has begun today as the company officially crossed one trillion US dollars in market capitalization. This achievement places AMD as the world's 16th most valuable company by market capitalization, cli...",
+    "url": "https://www.techpowerup.com/352910/amd-joins-trillion-dollar-club-surpasses-usd-600-per-share",
+    "image": "https://www.techpowerup.com/img/zMlTorevGdBjQ9m5.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Googlebook Launches With Intel Core Ultra Series 3 Processors",
+    "date": "2026-09-21",
+    "category": "Hardware",
+    "description": "Intel today announced the first Googlebook devices powered by Intel Core Ultra Series 3 processors (codenamed Panther Lake), bringing together Google's next-generation computing with the proven performance, best-in-cl...",
+    "url": "https://www.techpowerup.com/352911/googlebook-launches-with-intel-core-ultra-series-3-processors",
+    "image": "https://www.techpowerup.com/img/EjRqu38aMJkQ9NH1.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Snapdragon X Series Powers Googlebook: the First Laptops Designed for Gemini Intelligence",
+    "date": "2026-09-21",
+    "category": "Software",
+    "description": "Qualcomm Technologies, Inc. today announced its collaboration with Google to bring the Snapdragon X Elite platform to the first Googlebook laptops. The collaboration builds on the leading performance, power efficiency...",
+    "url": "https://www.techpowerup.com/352909/snapdragon-x-series-powers-googlebook-the-first-laptops-designed-for-gemini-intelligence",
+    "image": "https://www.techpowerup.com/img/vhj4cptnBXRHWthL.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) ASUS Announces the New ASUS Googlebook 14",
+    "date": "2026-09-21",
     "category": "Industrie",
-    "description": "SK hynix subsidiary Solidigm is reportedly planning to open its first NAND Flash manufacturing facility in the United States. To address global supply chain challenges, SK hynix is exploring ways to expand its product...",
-    "url": "https://www.techpowerup.com/352855/solidigm-reportedly-plans-its-first-nand-fab-in-the-united-states",
-    "image": "https://www.techpowerup.com/img/G2UGIEM4W4Y5RS5T.jpg",
+    "description": "ASUS today announced ASUS Googlebook 14 (CX9406CAA), a 14-inch ultraportable laptop that's the first ever ASUS laptop designed for Gemini Intelligence. Built for users who want a more connected experience with their A...",
+    "url": "https://www.techpowerup.com/352908/asus-announces-the-new-asus-googlebook-14",
+    "image": "https://www.techpowerup.com/img/gVzGLDKw13usqDxQ.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Steam Frame Gets First SteamOS Update With Substantially Faster Charging",
-    "date": "2026-09-20",
-    "category": "Hardware",
-    "description": "Valve has released SteamOS 0.3.0 for the Steam Frame, the headset's first system update since it launched on September 14. The changelog lists \"substantially faster charging while unit is off / sleeping,\" which addres...",
-    "url": "https://www.techpowerup.com/352868/steam-frame-gets-first-steamos-update-with-substantially-faster-charging",
-    "image": "https://www.techpowerup.com/img/yOoFne581ugwviKG.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "The Blood of Dawnwalker Budget Is Reportedly Just $40 Million",
-    "date": "2026-09-19",
-    "category": "Hardware",
-    "description": "The Blood of Dawnwalker reportedly cost around $40 million to make, according to a new Bloomberg report. Rebel Wolves director Konrad Tomaszkiewicz self-funded the first year in 2022 to build a prototype, and NetEase...",
-    "url": "https://www.techpowerup.com/352867/the-blood-of-dawnwalker-budget-is-reportedly-just-usd-40-million",
-    "image": "https://www.techpowerup.com/img/yQJbWKHbrfAM5jd1.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Microsoft Patches Windows Defender Bug That Insisted Your Antivirus Was Off",
-    "date": "2026-09-19",
+    "title": "(PR) HP Googlebook 14 Brings Premium Craftsmanship to Google's Newest Connected Platform",
+    "date": "2026-09-21",
     "category": "Software",
-    "description": "Microsoft has fixed the bug that made Windows Security wrongly claim Microsoft Defender Antivirus was turned off. According to Windows Latest, the fix comes in Defender platform update 4.18.26080.4, which Microsoft re...",
-    "url": "https://www.techpowerup.com/352865/microsoft-patches-windows-defender-bug-that-insisted-your-antivirus-was-off",
-    "image": "https://www.techpowerup.com/img/meElerImOJ8Ss3tS.jpg",
+    "description": "Today, HP Inc. (NYSE: HPQ) announced the HP Googlebook 14, a premium laptop designed to bring the best of HP craftsmanship and the performance and efficiency of the Snapdragon X Elite processor to the new Googlebook e...",
+    "url": "https://www.techpowerup.com/352907/hp-googlebook-14-brings-premium-craftsmanship-to-googles-newest-connected-platform",
+    "image": "https://www.techpowerup.com/img/ekoa5IxLhTWZRH5g.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "AMD Claims EPYC \"Venice\" Beats NVIDIA Vera by 2.24x in New White Paper",
-    "date": "2026-09-19",
-    "category": "Hardware",
-    "description": "AMD has published a white paper on its 6th Gen EPYC 9006 \"Venice\" server CPUs, and it takes direct aim at NVIDIA's Vera. These are first-party figures from AMD, so it is important to be cautious about their validity....",
-    "url": "https://www.techpowerup.com/352863/amd-claims-epyc-venice-beats-nvidia-vera-by-2-24x-in-new-white-paper",
-    "image": "https://www.techpowerup.com/img/NT16xPvQQvKlGnPe.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Elon Musk's Terafab Faces Trademark Dispute Over Its Name",
-    "date": "2026-09-19",
-    "category": "Hardware",
-    "description": "Tesla, SpaceX, and SpaceXAI have taken a trademark dispute over the \"Terafab\" name to federal court, PCMag reports. The declaratory judgment action was filed on September 15 in the US District Court for the Western Di...",
-    "url": "https://www.techpowerup.com/352862/elon-musks-terafab-faces-trademark-dispute-over-its-name",
-    "image": "https://www.techpowerup.com/img/V6AWFIQmZ14nM2Xv.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "CD Projekt Red Explains Why The Witcher 4 Switched To Unreal Engine 5",
-    "date": "2026-09-19",
-    "category": "Markt",
-    "description": "CD Projekt Red joint CEO Michał Nowakowski has explained why the studio moved The Witcher 4 from its in-house REDengine to Unreal Engine 5, and he says the messy Cyberpunk 2077 launch wasn't the trigger. Speaking on t...",
-    "url": "https://www.techpowerup.com/352859/cd-projekt-red-explains-why-the-witcher-4-switched-to-unreal-engine-5",
-    "image": "https://www.techpowerup.com/img/FJj3emtDBfwxLCfJ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Modder Builds Split Keyboard With Integrated Joysticks and One-Handed Gaming Functionality",
-    "date": "2026-09-19",
-    "category": "Hardware",
-    "description": "The Tiwaz is an open-source split keyboard product that started as a DIY project and morphed into something a little more concrete and comprehensive. Unlike traditional split ergonomic keyboards, like the MoErgo Go60...",
-    "url": "https://www.techpowerup.com/352853/modder-builds-split-keyboard-with-integrated-joysticks-and-one-handed-gaming-functionality",
-    "image": "https://www.techpowerup.com/img/LXVnIBCmW0rHxGH7.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Valve's Android Compatibility Tool Designed for the Steam Frame Goes Open-Source",
-    "date": "2026-09-19",
-    "category": "Hardware",
-    "description": "Following the official launch of the Steam Frame, Valve has finally made Lepton, its compatibility layer that enables the Steam Frame to run Android games, open-source. Lepton was formally announced in March 2026, whe...",
-    "url": "https://www.techpowerup.com/352852/valves-android-compatibility-tool-designed-for-the-steam-frame-goes-open-source",
-    "image": "https://www.techpowerup.com/img/xy2gGsXu9vft3rit.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Final Fantasy 7 Revelation Expected to Require Around 200 GB of Storage",
-    "date": "2026-09-19",
-    "category": "Software",
-    "description": "Final Fantasy 7 Revelation may need around 200 GB of storage, according to game director Naoki Hamaguchi. Speaking to VGC at Tokyo Game Show 2026, he was asked whether the download would be larger than the two Blu-ray...",
-    "url": "https://www.techpowerup.com/352846/final-fantasy-7-revelation-expected-to-require-around-200-gb-of-storage",
-    "image": "https://www.techpowerup.com/img/bzZ0bxnCUE6x58tA.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Control Resonant im Test: Benchmarks und Analysen zu Raytracing & DLSS/FSR (Update)",
-    "date": "2026-09-18",
-    "category": "Software",
-    "description": "ComputerBase hat die PC-Version von Control Resonant im Test. Neben Grafikkarten-Benchmarks mit Nvidia GeForce, AMD Radeon und Intel Arc stehen Bildqualitätsanalysen mit Ray- sowie Pathtracing und den Upsampling-Techn...",
-    "url": "https://www.computerbase.de/artikel/gaming/control-resonant-benchmark-test.99350/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Preiserhöhung: Apple zahlt ab 2027 16 Dollar pro GByte RAM (Update)",
-    "date": "2026-09-18",
-    "category": "Hardware",
-    "description": "Dass RAM teurer wird, spüren nicht nur PC-Bauer, sondern auch Großkonzerne wie Apple: Samsung bekommt demnächst wohl 16 US-Dollar pro GB für RAM und 33 US-Cent für jeden Gb Flash-Speicher. Damit steigen die Bezugskost...",
-    "url": "https://www.computerbase.de/news/wirtschaft/preiserhoehung-apple-zahlt-ab-2027-zwei-dollar-pro-gb-ram.99468/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Für Intel Nova Lake: Z990-Mainboards von ASRock benannt und verschickt",
-    "date": "2026-09-18",
-    "category": "Hardware",
-    "description": "Dass sich die neue CPU-Generation Intel Nova Lake dem Marktstart nähert, zeigt sich in diesen Tagen in vielfältiger Form. Während kürzlich ein erstes Notebook mit potenziellem Nova-Lake-Chip in einer Datenbank auftauc...",
-    "url": "https://www.computerbase.de/news/mainboards/fuer-intel-nova-lake-z990-mainboards-von-asrock-benannt-und-verschickt.99472/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Halbleiter-Newsüberblick: AMD, Globalfoundries, Altera, Rutronik, SK Hynix, Intel & Co.",
-    "date": "2026-09-18",
+    "title": "(PR) Dell Technologies Introduces the XPS Googlebook: The First XPS Laptop Built for Gemini Intelligence",
+    "date": "2026-09-21",
     "category": "Industrie",
-    "description": "Offizielle Ankündigungen, aber auch Gerüchte ohne viel Rückhalt sind derzeit in der Halbleiterbranche im Umlauf. Ein kleiner Überblick streift dabei deshalb Firmen wie AMD, Globalfoundries, Marvell, Altera, Rutronik,...",
-    "url": "https://www.computerbase.de/news/wirtschaft/halbleiter-newsueberblick-amd-globalfoundries-altera-rutronik-sk-hynix-intel-und-co.99465/",
-    "image": null,
-    "source": "ComputerBase"
+    "description": "Dell Technologies announced the XPS Googlebook, a 13-inch premium laptop, powered by the Snapdragon X Elite processor, and the first XPS device designed for Gemini Intelligence. Built for Android users and supercharge...",
+    "url": "https://www.techpowerup.com/352905/dell-technologies-introduces-the-xps-googlebook-the-first-xps-laptop-built-for-gemini-intelligence",
+    "image": "https://www.techpowerup.com/img/Vj0ozOkQFDMkDiTA.jpg",
+    "source": "TechPowerUp"
   },
   {
-    "title": "Wildcat Lake im Test: Das leistet Intel Core 300 im Chuwi UniBook für 419 Euro",
-    "date": "2026-09-18",
-    "category": "Hardware",
-    "description": "Das Chuwi UniBook 304 ist für derzeit 419 Euro das günstigste Notebook mit Intels 18A-Prozessor „Wildcat Lake“ alias Core 300. Aber was leisten die topaktuellen, gegenüber Core Ultra 300 „Panther Lake“ zusammen gekürz...",
-    "url": "https://www.computerbase.de/artikel/notebooks/intel-wildcat-lake-chuwi-unibook-304-test.98884/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "CONTROL Resonant: Benchmarks und Screenshot-Vergleiche mit Pathtracing",
-    "date": "2026-09-18",
+    "title": "(PR) Acer Debuts its First Googlebook - the Embodiment of Premium, Intelligence-Powered Hardware",
+    "date": "2026-09-21",
     "category": "Software",
-    "description": "Kommende Woche wird CONTROL Resonant für die PlayStation 5, Windows und Xbox Series X/S erscheinen.",
-    "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/grafikkarten/70325-control-resonant-benchmarks-und-screenshot-vergleiche-mit-pathtracing.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/golden_radar_kq/control_resonant_06_rt_on_680px.jpg",
-    "source": "HardwareLuxx"
+    "description": "Acer today debuted the Acer Googlebook 14, designed for Gemini Intelligence and the first from the company in a brand-new category of flagship laptops bringing together premium materials, powerful performance, intelli...",
+    "url": "https://www.techpowerup.com/352904/acer-debuts-its-first-googlebook-the-embodiment-of-premium-intelligence-powered-hardware",
+    "image": "https://www.techpowerup.com/img/P0CZbuInewZ2OkND.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) MediaTek Dimensity CX C10 Max Offers Flagship Performance to a New Era of AI-First Laptops",
+    "date": "2026-09-21",
+    "category": "Software",
+    "description": "MediaTek, a global leader in computing and mobile technologies, today introduced the MediaTek Dimensity CX C10 Max, the inaugural SoC for the company's new Dimensity Compute Experiences (CX) family. As the flagship of...",
+    "url": "https://www.techpowerup.com/352902/mediatek-dimensity-cx-c10-max-offers-flagship-performance-to-a-new-era-of-ai-first-laptops",
+    "image": "https://www.techpowerup.com/img/P41sBkHFErv4zEVe.jpg",
+    "source": "TechPowerUp"
   }
 ]
