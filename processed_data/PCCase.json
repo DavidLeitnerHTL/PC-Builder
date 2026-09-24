@@ -950,7 +950,7 @@
     {
         "id": "517f12f3-4679-4d13-8832-0fcd2c2a40ea",
         "name": "HYTE - Y70 touch infinite Dual Chamber ATX Mid Tower Modern Aesthetic Case With Integrated 2.5K IPS Touchscreen - Pitch Black",
-        "variant": "Pitch Black",
+        "variant": "",
         "amazon_sku": "B0DKJKGPYZ",
         "clean_name": "HYTE - Y70 touch infinite Dual Chamber Modern Aesthetic With Integrated 2.5K IPS Touchscreen - Pitch Black",
         "type": "ATX Mid Tower",
@@ -1105,7 +1105,7 @@
     {
         "id": "3a8ff174-de02-4c85-bf68-3536826fec76",
         "name": "Hyte Y70 Touch Infinite Dual Chamber ATX Mid Tower Modern Aesthetic Case with Integrated 2.5K LCD Touchscreen - Panda/White",
-        "variant": "Panda",
+        "variant": "",
         "amazon_sku": "B0DKJZKB8Y",
         "clean_name": "Hyte Y70 Touch Infinite Dual Chamber Modern Aesthetic with Integrated 2.5K LCD Touchscreen - Panda/White",
         "type": "ATX Mid Tower",
@@ -1706,10 +1706,10 @@
     },
     {
         "id": "ef06ada1-e96d-42ee-8726-05942881d65b",
-        "name": "HYTE Y70 Touch Infinite ATX Mid Tower Red / Black Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-        "variant": "Black Cherry",
+        "name": "HYTE Y70 Touch Infinite ATX Mid Tower Red / Black Tempered Glass Side Panel",
+        "variant": "",
         "amazon_sku": "B0DKJLXLZJ",
-        "clean_name": "HYTE Y70 Touch Infinite Red / Black Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+        "clean_name": "HYTE Y70 Touch Infinite Red / Black Tempered Glass Side Panel",
         "type": "ATX Mid Tower",
         "color": [
             "RED",
@@ -1996,6 +1996,25 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "f5c2917f-c551-41d8-83dc-7773958916ee",
+        "name": "Aerocool Falcon V2 ATX Mid Tower Black with Tempered Glass Side Panel and Front Panel",
+        "variant": "",
+        "amazon_sku": "B09T79MJLR",
+        "clean_name": "Aerocool Falcon V2 Black with Tempered Glass Side Panel and Front Panel",
+        "type": "ATX Mid Tower",
+        "color": [
+            "BLACK"
+        ],
+        "motherboard_support": [
+            "ATX",
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 290,
+        "max_cooler_height": 157,
+        "case_type": "Mid Tower"
+    },
+    {
         "id": "2879f211-a45f-486c-ae4a-9518fabfb310",
         "name": "Antec AX61 ELITE ATX Mid Tower Black Tempered Glass Side Panel",
         "variant": "",
@@ -2016,10 +2035,10 @@
     },
     {
         "id": "7e08fe00-64cd-4b9f-bfc4-3a9bbe7ed5fc",
-        "name": "Antec AX90 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
-        "variant": "90",
+        "name": "Antec AX90 ATX Mid Tower Black with Tempered Glass Side Panel",
+        "variant": "",
         "amazon_sku": "B0BQLJ7QYY",
-        "clean_name": "Antec AX90 Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A, USB 2.0 Type-A",
+        "clean_name": "Antec AX90 Black with Tempered Glass Side Panel",
         "type": "ATX Mid Tower",
         "color": [
             "BLACK"
@@ -2109,25 +2128,5 @@
         "max_gpu_length": 450,
         "max_cooler_height": 180,
         "case_type": "Mid Tower"
-    },
-    {
-        "id": "f53a4227-3639-445d-b3d4-d3f5be9218dc",
-        "name": "Antec C8 E-ATX Full Tower White Tempered Glass ARGB",
-        "variant": "ARGB",
-        "amazon_sku": "B0CT27364G",
-        "clean_name": "Antec C8 E- White Tempered Glass ARGB",
-        "type": "EATX Full Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX",
-            "EATX"
-        ],
-        "max_gpu_length": 440,
-        "max_cooler_height": 175,
-        "case_type": "Full Tower"
     }
 ]
