@@ -126,6 +126,25 @@
         "last_updated": "2026-09-16T08:53:41.793Z"
     },
     {
+        "id": "807fab83-61a7-488d-a259-ddcda46037eb",
+        "name": "be quiet! Silent Loop 3 360mm CPU AIO Liquid Cooler Black",
+        "variant": "Default",
+        "amazon_sku": "B0DWZJNH28",
+        "clean_name": "be quiet! Silent Loop 3 CPU AIO Liquid Cooler Black",
+        "cooler_type": true,
+        "radiator_size": 360,
+        "height": 93.5,
+        "min_fan_rpm": 600,
+        "max_fan_rpm": 2500,
+        "min_noise_level": 19.8,
+        "max_noise_level": 38.8,
+        "color": [
+            "BLACK"
+        ],
+        "price": 115.86,
+        "last_updated": "2026-09-16T08:54:55.980Z"
+    },
+    {
         "id": "4e48d9b9-e5ba-4523-9eca-9c96ee4a8c52",
         "name": "Cooler Master Hyper 212 Air RGB Black Edition 159mm 59 CFM Black",
         "variant": "Black Edition",
@@ -535,24 +554,6 @@
         ],
         "price": 166.04,
         "last_updated": "2026-09-16T08:54:46.660Z"
-    },
-    {
-        "id": "807fab83-61a7-488d-a259-ddcda46037eb",
-        "name": "be quiet! Silent Loop 3 360mm CPU AIO Liquid Cooler Black",
-        "variant": "Default",
-        "amazon_sku": "B0DWZJNH28",
-        "clean_name": "be quiet! Silent Loop 3 CPU AIO Liquid Cooler Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 94,
-        "min_fan_rpm": 2500,
-        "min_noise_level": 19.8,
-        "max_noise_level": 38.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 115.86,
-        "last_updated": "2026-09-16T08:54:55.980Z"
     },
     {
         "id": "ac319df9-4f44-414c-a4a7-6ceea30bad04",
@@ -1786,6 +1787,23 @@
         "last_updated": "2026-09-16T08:56:23.682Z"
     },
     {
+        "id": "306a6133-8840-498e-891c-09a774cba1a4",
+        "name": "be quiet! Dark Rock 3",
+        "variant": "",
+        "amazon_sku": "B07BYP9S95",
+        "clean_name": "be quiet! Dark Rock 3",
+        "cooler_type": false,
+        "radiator_size": 0,
+        "height": 160,
+        "min_fan_rpm": 380,
+        "max_fan_rpm": 1400,
+        "min_noise_level": 8.4,
+        "max_noise_level": 21.1,
+        "color": [
+            "BLACK"
+        ]
+    },
+    {
         "id": "110ce323-0900-44f3-9e02-fdd98e91b3d2",
         "name": "be quiet! Dark Rock Pro 5 Air 168mm Black",
         "variant": "Pro",
@@ -1801,20 +1819,5 @@
         "color": [
             "BLACK"
         ]
-    },
-    {
-        "id": "cd2a2fd8-b481-4d18-84fd-41d55a8fc333",
-        "name": "Cooler Master MasterAir MA612 Stealth Air 158mm 62 CFM",
-        "variant": "",
-        "amazon_sku": "B08TWPCT6P",
-        "clean_name": "Cooler Master MasterAir MA612 Stealth Air 62 CFM",
-        "cooler_type": false,
-        "radiator_size": "158mm",
-        "height": 158,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 1800,
-        "min_noise_level": 8,
-        "max_noise_level": 27,
-        "color": []
     }
 ]
