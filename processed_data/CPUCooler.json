@@ -1280,10 +1280,10 @@
     },
     {
         "id": "e8c6b3a1-534d-42c5-9e54-66ac7a27a963",
-        "name": "Cooler Master Hyper 212 EVO Air 159mm 82.9 CFM Sleeve Bearing",
+        "name": "Cooler Master Hyper 212 EVO Air 159mm 82.9 CFM Sleeve Bearing Black / Silver",
         "variant": "EVO",
         "amazon_sku": "B005O65JXI",
-        "clean_name": "Cooler Master Hyper 212 EVO Air 82.9 CFM Sleeve Bearing",
+        "clean_name": "Cooler Master Hyper 212 EVO Air 82.9 CFM Sleeve Bearing Black / Silver",
         "cooler_type": false,
         "radiator_size": "159mm",
         "height": 159,
@@ -1291,7 +1291,10 @@
         "max_fan_rpm": 2000,
         "min_noise_level": 9,
         "max_noise_level": 36,
-        "color": [],
+        "color": [
+            "BLACK",
+            "GREY"
+        ],
         "available": false,
         "last_updated": "2026-09-16T08:56:37.860Z"
     },
@@ -1551,24 +1554,6 @@
         "last_updated": "2026-09-15T09:14:36.283Z"
     },
     {
-        "id": "03486cdf-7c08-4bfb-80a6-690678adc744",
-        "name": "ID-COOLING IS-55 Air ARGB 55mm Black",
-        "variant": "Default",
-        "amazon_sku": "B0B38JL29B",
-        "clean_name": "ID-COOLING IS-55 Air ARGB Black",
-        "cooler_type": false,
-        "radiator_size": "55mm",
-        "height": 55,
-        "min_fan_rpm": 500,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 31.2,
-        "color": [
-            "BLACK"
-        ],
-        "available": false,
-        "last_updated": "2026-09-15T09:14:39.794Z"
-    },
-    {
         "id": "c7c34ec4-aa21-4061-bd5b-7c3be4225618",
         "name": "Lian Li Galahad II Lite Performance 73.14 CFM Liquid Water 240mm Black",
         "variant": "Black",
@@ -1816,6 +1801,23 @@
         "max_fan_rpm": 2000,
         "min_noise_level": 8.9,
         "max_noise_level": 23.3,
+        "color": [
+            "BLACK"
+        ]
+    },
+    {
+        "id": "768c9d0f-435c-4b2f-a979-e9ff9981b5ac",
+        "name": "be quiet! Silent Loop 3 Water 420mm Black",
+        "variant": "Default",
+        "amazon_sku": "B0DWZX4SSK",
+        "clean_name": "be quiet! Silent Loop 3 Water Black",
+        "cooler_type": true,
+        "radiator_size": 420,
+        "height": 93.5,
+        "min_fan_rpm": 600,
+        "max_fan_rpm": 1900,
+        "min_noise_level": 19.4,
+        "max_noise_level": 34.3,
         "color": [
             "BLACK"
         ]
