@@ -126,25 +126,6 @@
         "last_updated": "2026-09-16T08:53:41.793Z"
     },
     {
-        "id": "807fab83-61a7-488d-a259-ddcda46037eb",
-        "name": "be quiet! Silent Loop 3 360mm CPU AIO Liquid Cooler Black",
-        "variant": "Default",
-        "amazon_sku": "B0DWZJNH28",
-        "clean_name": "be quiet! Silent Loop 3 CPU AIO Liquid Cooler Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 93.5,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2500,
-        "min_noise_level": 19.8,
-        "max_noise_level": 38.8,
-        "color": [
-            "BLACK"
-        ],
-        "price": 115.86,
-        "last_updated": "2026-09-16T08:54:55.980Z"
-    },
-    {
         "id": "4e48d9b9-e5ba-4523-9eca-9c96ee4a8c52",
         "name": "Cooler Master Hyper 212 Air RGB Black Edition 159mm 59 CFM Black",
         "variant": "Black Edition",
@@ -556,6 +537,24 @@
         "last_updated": "2026-09-16T08:54:46.660Z"
     },
     {
+        "id": "807fab83-61a7-488d-a259-ddcda46037eb",
+        "name": "be quiet! Silent Loop 3 360mm CPU AIO Liquid Cooler Black",
+        "variant": "Default",
+        "amazon_sku": "B0DWZJNH28",
+        "clean_name": "be quiet! Silent Loop 3 CPU AIO Liquid Cooler Black",
+        "cooler_type": true,
+        "radiator_size": 360,
+        "height": 93.5,
+        "min_fan_rpm": 2500,
+        "min_noise_level": 19.8,
+        "max_noise_level": 38.8,
+        "color": [
+            "BLACK"
+        ],
+        "price": 115.86,
+        "last_updated": "2026-09-16T08:54:55.980Z"
+    },
+    {
         "id": "ac319df9-4f44-414c-a4a7-6ceea30bad04",
         "name": "Cooler Master Hyper 212 Black X Duo Air 152mm Black",
         "variant": "X Duo",
@@ -667,12 +666,12 @@
     {
         "id": "7151d79b-d8a5-4236-9843-d73768bf5f1c",
         "name": "Cooler Master MasterLiquid Water 360mm Atmos 70.7 CFM Black",
-        "variant": "Default",
+        "variant": "",
         "amazon_sku": "B0CFB956LP",
         "clean_name": "Cooler Master MasterLiquid Water Atmos 70.7 CFM Black",
         "cooler_type": true,
         "radiator_size": 360,
-        "height": 53,
+        "height": 53.15,
         "min_fan_rpm": 690,
         "max_fan_rpm": 2500,
         "min_noise_level": 27.2,
@@ -1448,15 +1447,15 @@
     {
         "id": "0560a23c-542b-4217-9cbd-9c6a1b7851db",
         "name": "Cooler Master Masterliquid 240 Atmos Water 240mm White",
-        "variant": "Default",
+        "variant": "",
         "amazon_sku": "B0CZ5Q7PRM",
         "clean_name": "Cooler Master Masterliquid 240 Atmos Water White",
         "cooler_type": true,
         "radiator_size": 240,
-        "height": 53,
+        "height": 53.15,
         "min_fan_rpm": 690,
         "max_fan_rpm": 2500,
-        "min_noise_level": 25,
+        "min_noise_level": 27.2,
         "color": [
             "WHITE"
         ],
@@ -1789,6 +1788,23 @@
         ]
     },
     {
+        "id": "708c00b6-bbcf-4179-b7db-43d44540d9d3",
+        "name": "be quiet! Dark Rock Pro 4 Air 163mm 59.5 CFM Black",
+        "variant": "Pro",
+        "amazon_sku": "B07J589GHF",
+        "clean_name": "be quiet! Dark Rock Pro 4 Air 59.5 CFM Black",
+        "cooler_type": false,
+        "radiator_size": "163mm",
+        "height": 163,
+        "min_fan_rpm": 1200,
+        "max_fan_rpm": 1500,
+        "min_noise_level": 12.8,
+        "max_noise_level": 24.3,
+        "color": [
+            "BLACK"
+        ]
+    },
+    {
         "id": "110ce323-0900-44f3-9e02-fdd98e91b3d2",
         "name": "be quiet! Dark Rock Pro 5 Air 168mm Black",
         "variant": "Pro",
@@ -1801,23 +1817,6 @@
         "max_fan_rpm": 2000,
         "min_noise_level": 8.9,
         "max_noise_level": 23.3,
-        "color": [
-            "BLACK"
-        ]
-    },
-    {
-        "id": "768c9d0f-435c-4b2f-a979-e9ff9981b5ac",
-        "name": "be quiet! Silent Loop 3 Water 420mm Black",
-        "variant": "Default",
-        "amazon_sku": "B0DWZX4SSK",
-        "clean_name": "be quiet! Silent Loop 3 Water Black",
-        "cooler_type": true,
-        "radiator_size": 420,
-        "height": 93.5,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 1900,
-        "min_noise_level": 19.4,
-        "max_noise_level": 34.3,
         "color": [
             "BLACK"
         ]
