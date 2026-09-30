@@ -1,5 +1,248 @@
 [
   {
+    "title": "Galaxy Tab S12+ und S12 Ultra: Samsung stellt neue High-End-Tablets vor",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Mit zwei neuen Android-Tablets erneuert Samsung seine Galaxy-Tab-S-Klasse. Drin stecken MediaTek-Prozessoren und hellere Displays.",
+    "url": "https://www.heise.de/news/Galaxy-Tab-S12-und-S12-Ultra-Samsung-stellt-neue-High-End-Tablets-vor-11470905.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/4/0/6/1/Samsung-Galaxy-Tab-S12-1-c42f27204b0a0c3e.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Windows 11 26H2 ist da",
+    "date": "2026-09-30",
+    "category": "Software",
+    "description": "Seit der Nacht zum Mittwoch verteilt Microsoft das Update auf Windows 11 26H2. Die Installation geht flott vonstatten.",
+    "url": "https://www.heise.de/news/Windows-11-26H2-ist-da-11470483.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/3/8/4/7/2026-08-28-Windows11-26H2-Aufmacher-b951f9c8a4643603.png",
+    "source": "Heise"
+  },
+  {
+    "title": "Nuvacore: Prozessor-Design erlaubt x86, Arm und RISC‑V auf einer Basis",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Das Startup Nuvacore plant einen Prozessor ganz anderer Art: Er soll lediglich ein Basisdesign bieten und dadurch zu jedem Instruction Set passen. Denn auf dieses Basisdesign soll am Ende erst aufgelegt werden, ob es...",
+    "url": "https://www.computerbase.de/news/prozessoren/cpu-konkurrenz-nuvacore-verspricht-einheitliche-basis-fuer-mehrere-isas.99610/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Nicht in Arizona: TSMC plant wohl zweiten US-Standort",
+    "date": "2026-09-30",
+    "category": "Industrie",
+    "description": "TSMC plant nochmals mehr Werke außerhalb Taiwans - möglicherweise nicht ganz freiwillig. Das neue Werk soll noch teurer werden als das in Arizona. (TSMC, Wirtschaft)",
+    "url": "https://www.golem.de/news/nicht-in-arizona-tsmc-plant-wohl-zweiten-us-standort-2609-213577.html",
+    "image": "https://www.golem.de/2609/213577-600937-600935_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "35B-LLM unter Verdacht: DDR4-ECC-RAM fällt bei lokaler KI aus",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Unter hoher Last durch ein lokales 35B-LLM meldete eine Workstation wiederholt ECC-Fehler. Zwei DDR4-Module wurden auffällig – ob die KI den RAM beschädigte, ist jedoch nicht belegt.",
+    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/35B-LLM-unter-Verdacht-DDR4-ECC-RAM-faellt-bei-lokaler-KI-aus-1555377/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2019/10/SK_hynix_Develops_1Znm_16Gb_DDR4_DRAM_1-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Windows 11: Update 26H2 ist da und steht als Download zur Installation bereit",
+    "date": "2026-09-30",
+    "category": "Software",
+    "description": "Windows 11 26H2 ist da: Das Feature-Update schaltet neue Funktionen frei, stärkt die Sicherheit und bringt frische Optionen für Profis.",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Win-11-Update-26H2-ist-da-Download-Installation-1555341/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/01/Windows_11-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "MSI-BIOS mit Security Level 2: Bis zu 15 % weniger Fps – Ursache noch offen",
+    "date": "2026-09-30",
+    "category": "Software",
+    "description": "Eine kaum erklärte UEFI-Option findet sich auf aktuellen MSI-AM5-Platinen: „Microsoft Security Level 2“. Das steht hinter der neuen Funktion.",
+    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/microsoft-security-level-2-msi-bios-agesa-performance-1555362/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/09/Bild-14-Neues-MSI-BIOS-Verlieren-AMD-CPUs-15-Fps-wegen-Microsoft-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "235 Milliarden US-Dollar: Nvidias Rekord-Wette auf den KI-Hype bis 2028",
+    "date": "2026-09-30",
+    "category": "Industrie",
+    "description": "Nvidias Verwaltungsrat hat am 28. September weitere 150 Milliarden US-Dollar für Aktienrückkäufe freigegeben, bis Anfang 2028 wächst der Rahmen auf 235 Milliarden. Teurer Speicher bremst laut Nvidia derweil das PC-Ges...",
+    "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Nvidia-Aktienrueckkauf-235-Milliarden-Rekord-KI-1555331/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/03/nvidia-ceo-jensen-huang-project-digits-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "AM4 wird noch billiger: Gigabyte mit neuem Low-End-B450-Mainboard für umgerechnet 60 Euro",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Gigabyte bringt in Japan ein neues B450-Mainboard für 9.980 Yen, also 56 Euro inklusive Steuern, auf den Markt. 10 Jahre nach seinem Start als Low-End-Plattform kehrt der Sockel zu seinen Wurzeln zurück.",
+    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/gigabyte-b450m-h-am4-unter-60-euro-1555279/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/09/B450M-H-ARGB_04_beschnitten-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Neuer AMD‑Grafiktreiber: Kann Smart Access Memory unter Windows 10 abschalten",
+    "date": "2026-09-30",
+    "category": "Software",
+    "description": "Neue Grafiktreiber sind immer gern gesehen, doch Vorsicht, falls Sie tatsächlich noch Windows 10 im Einsatz haben. Hier kann Smart Access Memory deaktiviert werden. So prüfen Sie die Funktion.",
+    "url": "https://www.pcgameshardware.de/AMD-Radeon-Grafikkarte-255597/News/ReBAR-SAM-Treiber-Performance-Probleme-1555328/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/AMD-SAM-News-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS] Geforce RTX 5070 Ti: Sechs Custom-Modelle auf Temperatur und Lautstärke geprüft",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Wir haben sechs Custom-Designs der Geforce RTX 5070 Ti auf Temperaturen und Lautheit geprüft und verraten, welches Modell von fünf unterschiedlichen Herstellern sich lohnt und worum man eher einen Bogen machen sollte.",
+    "url": "https://www.pcgameshardware.de/Geforce-RTX-5070-Ti-Grafikkarte-281031/Specials/kaufen-Test-Preis-Release-Asus-MSI-Gigabyte-Zotac-PNY-1466874/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2025/03/2-Tabelle-5070-Ti-V2-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "Kurioser Garantiefall bei Zotac: RTX 3060 verliert Garantie durch Lagerzeit beim Händler [Update]",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Jetzt aktualisiert: Ein Grafikkartenkäufer aus Indien soll von Zotac keine Garantieansprüche bekommen, weil seine Geforce RTX 3060 zu lange beim Händler lag.",
+    "url": "https://www.pcgameshardware.de/Geforce-RTX-3060-12GB-Grafikkarte-279277/News/Kurioser-Garantiefall-Garantieverlust-durch-Lagerzeit-beim-Haendler-1555233/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2021/02/ZOTAC-GAMING-GeForce-RTX-3060-Twin-Edge-pc-games.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Corsair Vengeance RGB CUDIMM: 48 GiB DDR5-8000-RAM im Vergleich mit SK Hynix A-Dies",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "CUDIMM ist aufgrund der aktuellen Preissituation noch nicht wirklich bei den Nutzern angekommen, doch wie schnell ist ein solches RAM-Kit eigentlich? Wir machen den Test.",
+    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/Tests/Corsair-Vengeance-DDR5-8000-RGB-48GB-Performance-Benchmark-1555148/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/09/Corsair-CUDIMM-Timings-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "The Witcher 3 Remastered: RTX 5090 schafft 4K60 erst mit DLSS",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "The Witcher 3 Remastered lässt selbst Nvidias schnellste Geforce ins Schwitzen. Mit maximalen Details und Pathtracing wird in Ultra HD deutlich, wie teuer die neue Beleuchtung ausfällt.",
+    "url": "https://www.pcgameshardware.de/The-Witcher-3-Spiel-38488/News/Remastered-RTX-5090-Pathtracing-4K-DLSS-1555292/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/The-Witcher-3-Snap-Szene-5-RT-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "EVGA: Ex-Mitarbeiter äußert Gründe für das Aus bei Nvidia-Grafikkarten",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Ein Ex-Produktmanager erklärt, warum EVGA bei Nvidia-Grafikkarten ausstieg: Founders Editions, geringe Margen, strenge Vorgaben und hohe Kosten.",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/EVGA-Ex-Mitarbeiter-aeussert-Gruende-fuer-Nvidia-Aus-1555203/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2024/06/EVGA-KINGPIN-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "Cloudgaming auf altem Handheld: GeForce NOW auf dem New Nintendo 3DS",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "In der Modding-Community ist besonders der New Nintendo 3DS noch immer äußerst beliebt.",
+    "url": "https://www.hardwareluxx.de/index.php/news/software/spiele/70477-cloudgaming-auf-altem-handheld-geforce-now-auf-dem-new-nintendo-3ds.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/richer_cores_m6/kasumi_geforce_now_3ds_01_680px.png",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Zu wenig Spielraum für Boardpartner: Ex-EVGA-Mitarbeiter kritisiert NVIDIA",
+    "date": "2026-09-30",
+    "category": "Industrie",
+    "description": "Brendon Ray Hedrick, der von 2016 bis Ende 2019 bei EVGA vom technischen Support bis ins Produktmarketing und den Vertrieb aufstieg, zeichnet in seinem Rückblick (\"Why I left - a future at EVGA\") das Bild eines Geschä...",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70466-zu-wenig-spielraum-fuer-boardpartner-ex-evga-mitarbeiter-kritisiert-nvidia.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/wieldy_web_jt/evga_geforce_rtx_3090_ftw3_ultra_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Intel \"Nova Lake\" Launch Nears as Platform Passes USB4 and PCIe 5.0 Compliance Testing",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Intel's Core Ultra 400-series \"Nova Lake\" CPUs are reportedly nearing launch as Intel has successfully passed USB and PCIe compliance testing. This means the platform has officially passed testing with the two organiz...",
+    "url": "https://www.techpowerup.com/353240/intel-nova-lake-launch-nears-as-platform-passes-usb4-and-pcie-5-0-compliance-testing",
+    "image": "https://www.techpowerup.com/img/fmZVnavQ8rAjcLLt.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Reverse engineering often starts with a physical part but no reliable digital data. In restoration and customization, manual measurement can provide basic dimensions, but it becomes limiting when complex curves, mount...",
+    "url": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
+    "image": "https://www.techpowerup.com/img/i5SXGmwJkubAv2DR.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Microsoft Launches Windows 11 26H2 Update",
+    "date": "2026-09-30",
+    "category": "Software",
+    "description": "Microsoft today released its latest Windows 11 26H2 update, bringing a new milestone for Windows 11 users. In this release, Microsoft is highlighting a few features that Windows 11 25H2 users have not yet experienced....",
+    "url": "https://www.techpowerup.com/353239/microsoft-launches-windows-11-26h2-update",
+    "image": "https://www.techpowerup.com/img/TbHv75LrFBudkCas.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "ATK Launches Dragonfly A9 Ultimate+ Wireless Gaming Mouse With Magnetic Charging Dock",
+    "date": "2026-09-30",
+    "category": "Markt",
+    "description": "Following on the launch of the ATK Blazing Sky Phantom, ATK has officially launched the Dragonfly A9 Ultimate+, a new wireless gaming mouse that combines flagship internals with convenient wireless charging capabiliti...",
+    "url": "https://www.techpowerup.com/353237/atk-launches-dragonfly-a9-ultimate-wireless-gaming-mouse-with-magnetic-charging-dock",
+    "image": "https://www.techpowerup.com/img/wgx2TlmU24dXsEx5.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Epomaker Shows Off EM3 Carbon Fiber Wireless Gaming Mouse",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Not too long ago, Epomaker started expanding its gaming peripherals line-up beyond the usual mechanical and analogue keyboards, with gaming mice being one of the company's new categories. The EM3 is Epomaker's latest...",
+    "url": "https://www.techpowerup.com/353236/epomaker-shows-off-em3-carbon-fiber-wireless-gaming-mouse",
+    "image": "https://www.techpowerup.com/img/hHCKHQn3AmqIfKHW.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Learn how EasyEDA and JLCPCB connect PCB design, component sourcing, DFM, fabrication, and PCBA to simplify hardware prototyping. Modern electronic products increasingly demand smaller, denser, and more complex PCBs....",
+    "url": "https://www.techpowerup.com/353085/pcb-prototyping-from-design-to-pcba-with-easyeda-and-jlcpcb",
+    "image": "https://www.techpowerup.com/img/pqGbG22bYjSICXIC.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Deadlock City Never Sleeps Update Adds 6 New Heroes and Makes Numerous Map and UI Changes",
+    "date": "2026-09-30",
+    "category": "Software",
+    "description": "Deadlock, Valve's MOBA that has been in beta testing for nearly two years, has just received another major update, building on its previous UI refinements and adding six more heroes into the mix, to boot. The update i...",
+    "url": "https://www.techpowerup.com/353231/deadlock-city-never-sleeps-update-adds-6-new-heroes-and-makes-numerous-map-and-ui-changes",
+    "image": "https://www.techpowerup.com/img/QNU8opsvGP1DqtUW.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Apple CEO John Ternus Reportedly Plans Faster Product Launches and a Leaner Company",
+    "date": "2026-09-30",
+    "category": "Markt",
+    "description": "New Apple CEO John Ternus, who took over from Tim Cook on September 1, is reportedly planning an overhaul aimed at faster launches and a leaner company, according to Bloomberg's Mark Gurman. Ternus, previously Apple's...",
+    "url": "https://www.techpowerup.com/353233/apple-ceo-john-ternus-reportedly-plans-faster-product-launches-and-a-leaner-company",
+    "image": "https://www.techpowerup.com/img/esCtFuP2IUPzKWiC.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "date": "2026-09-30",
+    "category": "Hardware",
+    "description": "Microsoft Project Professional 2024 is built for managing projects from the initial plan through completion, with tools for organizing tasks, coordinating resources, monitoring progress, and creating reports. For a li...",
+    "url": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
+    "image": "https://www.techpowerup.com/img/Wm7OkZN9FMvZfKlO.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Bit-Rauschen: Huaweis Logic-Folding-Technik und neue KI-Konkurrenz für Nvidia",
+    "date": "2026-09-29",
+    "category": "Hardware",
+    "description": "Huawei stapelt Chiplets, weil man nicht bei TSMC einkaufen darf. Der KI-Boom beschert EU-Firmen Aufwind. Neue KI-Chips rücken dichter an die von Nvidia heran.",
+    "url": "https://www.heise.de/hintergrund/Bit-Rauschen-Huaweis-Logic-Folding-Technik-und-neue-KI-Konkurrenz-fuer-Nvidia-11420638.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/5/0/5/3/4/Aufmacher-Prozessorkolumne_Bitrauschen-734272370c8cda6c.jpeg",
+    "source": "Heise"
+  },
+  {
     "title": "Dienstag: Bund schließt Risiko-Anbieter aus, Starship in der Erdumlaufbahn",
     "date": "2026-09-29",
     "category": "Industrie",
@@ -9,20 +252,38 @@
     "source": "Heise"
   },
   {
+    "title": "Das „große“ Herbst-Update: Microsoft veröffentlicht Windows 11 26H2",
+    "date": "2026-09-29",
+    "category": "Software",
+    "description": "Microsoft hat mit Windows 11 26H2 das alljährliche Herbst-Update veröffentlicht. Relevante Neuerungen wurden bereits in den letzten Monaten ausgespielt. Für die meisten Nutzer ändern sich damit vor allem die Support-Z...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/das-grosse-herbst-update-microsoft-veroeffentlicht-windows-11-26h2.99606/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Treiber für The Witcher 3 Remastered: RX 9000 benötigt unter Windows den Adrenalin 26.9.2 (Update)",
+    "date": "2026-09-29",
+    "category": "Software",
+    "description": "Heute um 12 Uhr erscheint The Witcher 3 Remastered (Test). Spieler mit AMD Radeon RX 9000 benötigen zum Spielen zwingend den neuen AMD-Grafiktreiber Adrenalin 26.9.2. Doch auch 15 Minuten vor dem Launch lässt die neue...",
+    "url": "https://www.computerbase.de/news/grafikkarten/the-witcher-3-remastered-rx-9000-gamer-benoetigen-zwingend-den-adrenalin-26-9-2.99598/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Viraler Aufreger, altes Phänomen: Warum Windows 11 die Thumbnails gelöschter Fotos behält",
+    "date": "2026-09-29",
+    "category": "Hardware",
+    "description": "Es ist mal wieder ein viraler Aufreger: Wie der X-Nutzer Ayzaa schreibt, speichert Windows 11 Thumbnails von „allen Bildern, die du jemals gelöscht hast“. Der Beitrag erreicht damit 1,7 Millionen Aufrufe, beschreibt a...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/viraler-aufreger-altes-phaenomen-warum-windows-11-die-thumbnails-geloeschter-fotos-behaelt.99595/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
     "title": "AMD RDNA 5: Erst sieben Chips, jetzt nur noch drei für „AT0“ im Gespräch",
     "date": "2026-09-29",
     "category": "Hardware",
     "description": "Neben der Frage „Wann wird AMD RDNA 5 erscheinen?“ steht weiterhin auch die Frage „Wie werden die GPUs aussehen?“ im Raum. Um den Aufbau der GPUs rankten sich zuletzt neue Gerüchte. Innerhalb einer Woche hat sich das...",
     "url": "https://www.computerbase.de/news/grafikkarten/rdna-5-mit-compute-chiplets-erst-hiess-es-erneut-ja-dann-doch-wieder-nein.99593/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Treiber für The Witcher 3 Remastered: RX 9000 benötigt unter Windows den Adrenalin 26.9.2",
-    "date": "2026-09-29",
-    "category": "Software",
-    "description": "Heute um 12 Uhr erscheint The Witcher 3 Remastered (Test). Spieler mit AMD Radeon RX 9000 benötigen zum Spielen zwingend den neuen AMD-Grafiktreiber Adrenalin 26.9.2. Doch auch 15 Minuten vor dem Launch lässt die neue...",
-    "url": "https://www.computerbase.de/news/grafikkarten/the-witcher-3-remastered-rx-9000-gamer-benoetigen-zwingend-den-adrenalin-26-9-2.99598/",
     "image": null,
     "source": "ComputerBase"
   },
@@ -45,103 +306,31 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Keine Grafikkarten: Diebe stehlen \"Nvidia\"-Trucks und bekommen 18 Tonnen Sand",
+    "title": "(g+) Halbleiterindustrie: Japans Resonac entwickelt große Wafer, die viermal so viele Chips ...",
     "date": "2026-09-29",
     "category": "Hardware",
-    "description": "Die zwei großen Trucks waren unter anderem mit Nvidia-Logo versehen. Statt GPUs gab es aber eine Menge Sand. (Start-up, Grafikkarten)",
-    "url": "https://www.golem.de/news/keine-grafikkarten-diebe-stehlen-nvidia-trucks-und-bekommen-18-tonnen-sand-2609-213530.html",
-    "image": "https://www.golem.de/2609/213530-600724-600722_rc.jpg",
+    "description": "Unsere Leseempfehlung: Nikkei-Asia-Autor Kazuki Yamaguchi erklärt, wie der Resonac mit 300-mm-SiC-Wafern die Kosten von Leistungshalbleitern drücken könnte. Von Kazuki Yamaguchi (Technik/Hardware, Golem Plus)",
+    "url": "https://www.golem.de/news/halbleiterindustrie-japans-resonac-entwickelt-grosse-wafer-die-viermal-so-viele-chips-hervorbringen-koennen-2609-213543.html",
+    "image": "https://www.golem.de/2609/213543-600785-600783_rc.jpg",
     "source": "Golem"
   },
   {
-    "title": "Geralt in besserer Grafik: Witcher 3 Remastered will 24 GByte RAM und Windows 11",
+    "title": "660.000 neue GPUs bis Jahresende: xAI-Cluster Colossus 2 verschlingt Blackwell in Massen",
     "date": "2026-09-29",
     "category": "Hardware",
-    "description": "Windows 10 wird offiziell nicht mehr von CD Project unterstützt. Bei minimalen Einstellungen sollen aber weniger als 24 GByte RAM reichen. (The Witcher 3, Core i5)",
-    "url": "https://www.golem.de/news/geralt-in-besserer-grafik-witcher-3-remastered-will-24-gbyte-ram-und-windows-11-2609-213523.html",
-    "image": "https://www.golem.de/2609/213523-600699-600697_rc.jpg",
-    "source": "Golem"
+    "description": "Elon Musk will die Rechenleistung von xAI noch einmal erheblich ausbauen.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70469-660-000-neue-gpus-bis-jahresende-xai-cluster-colossus-2-verschlingt-blackwell-in-massen.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2024/Oct/swank_energies_rq/xai-colossus-servethehome-00001_680px.jpg",
+    "source": "HardwareLuxx"
   },
   {
-    "title": "Blue Screen of Death: Bug lässt Windows nach Verbindung mit Internet abstürzen",
+    "title": "Hohes Entwicklungstempo mit starken Leistungszuwächsen: DLSS 5 auf Radeon wird deutlich schneller",
     "date": "2026-09-29",
     "category": "Software",
-    "description": "Schuld an dem Problem ist wohl ein recht wichtiger Task in Windows 11 - der Secure-Boot-Updater. (Windows 11, Microsoft)",
-    "url": "https://www.golem.de/news/blue-screen-of-death-bug-laesst-windows-nach-verbindung-mit-internet-abstuerzen-2609-213518.html",
-    "image": "https://www.golem.de/2609/213518-600687-600685_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "World-Labs-Übernahme: AMD lässt sich KI-Start-up 8,2 Milliarden US-Dollar kosten",
-    "date": "2026-09-29",
-    "category": "Industrie",
-    "description": "AMD kauft wieder einmal bei KI zu, um bei Robotik zu Nvidia aufzuholen. Hinter dem Start-up World Labs steckt eine bekannte Wissenschaftlerin. (AMD, KI)",
-    "url": "https://www.golem.de/news/world-labs-uebernahme-amd-laesst-sich-ki-start-up-8-2-milliarden-us-dollar-kosten-2609-213516.html",
-    "image": "https://www.golem.de/2609/213516-600666-600664_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Grafikkarten günstig kaufen: Unsere aktuellen Top-3-Empfehlungen bezüglich Preis-Leistung",
-    "date": "2026-09-29",
-    "category": "Hardware",
-    "description": "Sie benötigen dringend eine neue Grafikkarte? Der Zeitpunkt ist wegen hoher Speicherpreise nicht optimal, doch wir lassen Sie nicht im Regen stehen: Das sind unsere aktuellen Top-3-Empfehlungen mit dem besten Preis-Le...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Top-3-guenstig-kaufen-Empfehlungen-Preis-Leistung-1555166/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Aufmacher-9070-XT-pcgh-pcgh.jpeg",
-    "source": "PCGH"
-  },
-  {
-    "title": "8, 12 oder 16 GiB: Wie viel VRAM braucht Witcher 3 Remastered?",
-    "date": "2026-09-29",
-    "category": "Hardware",
-    "description": "Pathtracing treibt in The Witcher 3 Remastered nicht nur die GPU-Last nach oben. Auch beim Grafikspeicher gibt es Grenzen. PCGH klärt, wann 8, 12 oder 16 GiB sinnvoll sind.",
-    "url": "https://www.pcgameshardware.de/The-Witcher-3-Spiel-38488/News/Remastered-VRAM-8-12-16-GiB-1555193/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/The-Witcher-3-Snap-Szene-8-RT-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS] RTX 3050 + Ryzen 5 5600 im PC 2026: Wie weit kommt Budget-Gaming noch?",
-    "date": "2026-09-29",
-    "category": "Hardware",
-    "description": "Wir untersuchen, ob man auch mit schwächerer, älterer Hardware aktuelle Spiele zocken kann und welche Optimierungen dazu nötig sind. RTX 3050 und Ryzen 5 5600 stellen sich Assassin's Creed, Gothic, Forza Horzion 6 und...",
-    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/Specials/Low-End-Gaming-alte-GPU-CPU-Gothic-Remake-Forze-Horizon-6-1547769/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Low-End-Gaming-2026-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Arrow Lake startet mit bestimmten DDR5-Riegeln nicht? Intels Datenblatt liefert Hinweise",
-    "date": "2026-09-29",
-    "category": "Hardware",
-    "description": "Einige 8- und 16-GiB-Module werden von Arrow Lake nicht unterstützt. Das System verweigert dann den Boot. Wir ordnen ein.",
-    "url": "https://www.pcgameshardware.de/Arrow-Lake-S-Codename-280890/News/Mainboard-RAM-Inkompatibilitaet-1555058/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/03/Arrow-Lake-Refresh-7--pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Aorus RTX 5090: Gigabyte tauscht Grafikkarte nach Rissen im Wasserblock aus",
-    "date": "2026-09-29",
-    "category": "Hardware",
-    "description": "Ein Besitzer einer wassergekühlten RTX 5090 hat einen schwerwiegenden Defekt dokumentiert. Die Schäden am Kühlblock wurden früh entdeckt, wodurch eine mögliche Eskalation des Problems verhindert werden konnte.",
-    "url": "https://www.pcgameshardware.de/Geforce-RTX-5090-Grafikkarte-281029/News/Aorus-Gigabyte-tauscht-Grafikkarte-nach-Rissen-im-Wasserblock-aus-1555065/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/5090-aorus-waterforce-wb-cracks-in-waterblock-after-3-weeks-01-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Diebe hatten es auf Nvidia abgesehen: Statt teurer Hardware fanden sie nur tonnenweise Sand vor",
-    "date": "2026-09-29",
-    "category": "Hardware",
-    "description": "Der Chipgigant Nvidia war wohl Ziel eines Verbrechens: Diebe stahlen offenbar Lkw-Auflieger des Partner-Start-ups PlusAI mit Nvidia-Logo, um an teure Hardware zu kommen. Am Ende blieb nur ein Haufen Sand übrig.",
-    "url": "https://www.pcgameshardware.de/Kurioses-Thema-205466/News/Diebe-stahlen-Auflieger-statt-teuerer-Hardware-tonnenweise-Sand-1555076/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Sandlader-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Nicht Pathtracing: Diese drei kleinen Änderungen feiern Witcher-Fans gerade am meisten",
-    "date": "2026-09-29",
-    "category": "Angebote",
-    "description": "The Witcher 3 Remastered bekommt Pathtracing und neue Upscaler. In der Community sorgen derzeit allerdings deutlich unscheinbarere Neuerungen für einige der stärksten Reaktionen.",
-    "url": "https://www.pcgameshardware.de/The-Witcher-3-Spiel-38488/News/Remasteres-Fans-Medition-Loot-1555138/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Witcher-3_Remastered-Vergleich_Geralt-pcgh.jpg",
-    "source": "PCGH"
+    "description": "Das inoffizielle Projekt zur Nutzung von Nvidias DLSS 5 Neural Rendering auf AMD-Grafikkarten, kurz DLSS-NR on AMD, vermeldet binnen kurzer Zeit erhebliche Fortschritte in Sachen Performance.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70462-hohes-entwicklungstempo-mit-starken-leistungszuwaechsen-dlss-5-auf-radeon-wird-deutlich-schneller.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2024/Oct/elite_energies_bk/pc_gaming_000_680px.png",
+    "source": "HardwareLuxx"
   },
   {
     "title": "Benchmark-Sprung: Claude Sennet 5.5 setzt auf mehr Leistung pro Token",
@@ -153,300 +342,111 @@
     "source": "HardwareLuxx"
   },
   {
-    "title": "(PR) Turtle Beach Releases Minecraft Dungeons II Themed Peripherals",
+    "title": "Intel Patent Describes Micro LEDs Built Into Glass Substrate CPU Packages",
     "date": "2026-09-29",
     "category": "Hardware",
-    "description": "SAN DIEGO - Sept. 26, 2026 - Leading gaming accessories maker Turtle Beach Corporation (Nasdaq: TBCH), today announced its new family of Minecraft Dungeons II themed peripherals including an exclusive controller, head...",
-    "url": "https://www.techpowerup.com/353196/turtle-beach-releases-minecraft-dungeons-ii-themed-peripherals",
-    "image": "https://www.techpowerup.com/img/xSBsecFisvAHZS1m.jpg",
+    "description": "Intel has been granted a US patent for a chip package with tiny LEDs built into it, according to a TrendForce report. Titled \"IC Package with Micro LEDs\" (patent 12,733,303), it describes a semiconductor die with a mi...",
+    "url": "https://www.techpowerup.com/353232/intel-patent-describes-micro-leds-built-into-glass-substrate-cpu-packages",
+    "image": "https://www.techpowerup.com/img/zOxoO8XTlAPgdXVi.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Amid PlayStation 5 Pro Shortages, Sony Implements Lottery System Based on Playtime",
+    "title": "Xbox Disc-To-Digital Officially Exits Testing",
     "date": "2026-09-29",
     "category": "Hardware",
-    "description": "No one is exempt from the global DRAM shortage, and today Sony confirmed there might be a way for enthusiastic gamers to purchase the PlayStation 5 Pro console at MSRP. In Japan, Sony is running a lottery system that...",
-    "url": "https://www.techpowerup.com/353194/amid-playstation-5-pro-shortages-sony-implements-lottery-system-based-on-playtime",
-    "image": "https://www.techpowerup.com/img/LWucBp1uPHUBBhoe.jpg",
+    "description": "The Xbox Disc-to-Digital licensing program recently launched to insiders, effectively paving the way to a discless future for Xbox, while still allowing the brand to market its console as backwards compatible. Followi...",
+    "url": "https://www.techpowerup.com/353228/xbox-disc-to-digital-officially-exits-testing",
+    "image": "https://www.techpowerup.com/img/D7NIkiVzK1pH1TJz.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "title": "Satisfactory Core Values Expansion Aims To Deliver Revamped Gameplay Experience",
     "date": "2026-09-29",
     "category": "Hardware",
-    "description": "Reverse engineering often starts with a physical part but no reliable digital data. In restoration and customization, manual measurement can provide basic dimensions, but it becomes limiting when complex curves, mount...",
-    "url": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
-    "image": "https://www.techpowerup.com/img/i5SXGmwJkubAv2DR.jpg",
+    "description": "Satisfactory has been a cornerstone of the automation and factory simulation genre since its early access launch in 2019, and its developer just announced the game's first expansion, called Core Values. Core Values wi...",
+    "url": "https://www.techpowerup.com/353227/satisfactory-core-values-expansion-aims-to-deliver-revamped-gameplay-experience",
+    "image": "https://www.techpowerup.com/img/Qc476vLqA9IinHbp.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Former EVGA Product Manager Recounts NVIDIA FE Squeeze and Leaker Witch Hunts",
+    "title": "Upgrade Your Windows 11 Setup With Pro Features for a One-Time $9.97 Payment",
     "date": "2026-09-29",
-    "category": "Hardware",
-    "description": "When it was first revealed that EVGA would be leaving the GPU industry, there was speculation that the hardware maker was leaving the industry partly due to direct competition from NVIDIA's own Founder's Edition cards...",
-    "url": "https://www.techpowerup.com/353192/former-evga-product-manager-recounts-nvidia-fe-squeeze-and-leaker-witch-hunts",
-    "image": "https://www.techpowerup.com/img/6lHSc4tTM4ZfLeNr.jpg",
+    "category": "Software",
+    "description": "If you're still running Windows 11 Home, the Pro version adds features aimed at people who need more control over their PC, including BitLocker encryption, Hyper-V virtualization, Remote Desktop, and enhanced device m...",
+    "url": "https://www.techpowerup.com/353223/upgrade-your-windows-11-setup-with-pro-features-for-a-one-time-usd-9-97-payment",
+    "image": "https://www.techpowerup.com/img/GCTySAHr3J3D2qND.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Framework Desktop with Ryzen AI Max+ Pro 495 Gets Official Pre-Order Date",
+    "title": "Microsoft Blames \"Limited Portfolio\" For Lack of AMD-Powered Surface Devices",
     "date": "2026-09-29",
-    "category": "Hardware",
-    "description": "After teasing the AMD Ryzen AI Max+ Pro 495 upgrade to the Framework Destkop mini PC, Framework has officially announced that pre-orders for the SFF desktop will start on Wednesday, 30 September. The announcement came...",
-    "url": "https://www.techpowerup.com/353191/framework-desktop-with-ryzen-ai-max-pro-495-gets-official-pre-order-date",
-    "image": "https://www.techpowerup.com/img/2V4tT0DEqlROGYCv.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Imminent Control Resonant Updates To Add Unlimited \"New Game++\" and Photo Mode",
-    "date": "2026-09-29",
-    "category": "Markt",
-    "description": "Control Resonant launched on September 24 to a rather positive reception, and less than a week after launch, Remedy, the studio behind the game, is promising an October update that makes sizeable changes to gameplay,...",
-    "url": "https://www.techpowerup.com/353186/imminent-control-resonant-updates-to-add-unlimited-new-game-and-photo-mode",
-    "image": "https://www.techpowerup.com/img/fJIUVj9xnOJ6eApM.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GoDeal24 Unveils Back to School Sale: Great Deals on Genuine Software",
-    "date": "2026-09-29",
-    "category": "Angebote",
-    "description": "As autumn sets in, it is the perfect time to give your digital workspace a much-needed overhaul. Running outdated software not only drags down productivity with missing features, but legacy suites—including Office 202...",
-    "url": "https://www.techpowerup.com/352906/godeal24-unveils-back-to-school-sale-great-deals-on-genuine-software",
-    "image": "https://www.techpowerup.com/img/dLYEXQBvOqZ9dzQQ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Redditor Orders One MSI RTX 5070 Ti From Walmart for $1,099, Gets Four",
-    "date": "2026-09-29",
-    "category": "Hardware",
-    "description": "Orders that get mixed up often tend to leave buyers with the short end of the stick. For instance, in 2025, a Micro Center customer found backpacks inside a Zotac GeForce RTX 5090 box, and another Best Buy customer re...",
-    "url": "https://www.techpowerup.com/353188/redditor-orders-one-msi-rtx-5070-ti-from-walmart-for-usd-1-099-gets-four",
-    "image": "https://www.techpowerup.com/img/NgHgzqrf64noX09H.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Nvidia: Rekord-Aktienrückkauf im Wert von 150 Milliarden US-Dollar",
-    "date": "2026-09-28",
     "category": "Industrie",
-    "description": "Während der KI-Boom Nvidias Gewinne befeuert, startet der Konzern ein rekordverdächtiges Aktienrückkaufprogramm. Dies könnte auf langsameres Wachstum hindeuten.",
-    "url": "https://www.heise.de/news/Nvidia-Rekord-Aktienrueckkauf-im-Wert-von-150-Milliarden-US-Dollar-11468825.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/3/0/1/2/shutterstock_1742705531-e2df313a6f22b503.jpeg",
-    "source": "Heise"
+    "description": "AMD's processors are notoriously missing from Microsoft's latest Surface device line-up, despite there being more CPU options in Microsoft Surface PCs than ever before, including an upcoming NVIDIA SKU. In a recent st...",
+    "url": "https://www.techpowerup.com/353225/microsoft-blames-limited-portfolio-for-lack-of-amd-powered-surface-devices",
+    "image": "https://www.techpowerup.com/img/63QzW63hDd6r9bLK.jpg",
+    "source": "TechPowerUp"
   },
   {
-    "title": "Nvidia stellt Sicherheitsnetz für autonome KI-Agenten vor",
-    "date": "2026-09-28",
+    "title": "(PR) Raspberry Pi Announces Availability of Its Smart Display Module",
+    "date": "2026-09-29",
     "category": "Hardware",
-    "description": "Nvidia baut seine Sicherheitsarchitektur für KI-Agenten aus: OpenShell begrenzt bereits Zugriffe per Software, Sentry wacht nun zusätzlich auf Hardwareebene.",
-    "url": "https://www.heise.de/news/Nvidia-stellt-Sicherheitsnetz-fuer-autonome-KI-Agenten-vor-11468689.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/2/9/4/4/shutterstock_2705357347-12b280dba25485df.jpeg",
-    "source": "Heise"
+    "description": "Back in January, we introduced the Raspberry Pi Smart Display Module, an adapter board for Raspberry Pi Compute Module 5 that is designed to deliver high-quality, low-power display experiences for digital signage and...",
+    "url": "https://www.techpowerup.com/353226/raspberry-pi-announces-availability-of-its-smart-display-module",
+    "image": "https://www.techpowerup.com/img/FBatTYhAcCf94qjJ.jpg",
+    "source": "TechPowerUp"
   },
   {
-    "title": "DraStic nano: GammaOS Next 1.4.2 aktiviert GPU Rendering und senkt Audio-Latenzen",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "GammaOS Next 1.4.2 erweitert Android-Handhelds um zahlreiche Funktionen, von denen vor allem RG DS und RG DS Plus profitieren. Neben neuen Themes, Medien- und Systemoptionen erhält DraStic-nano GPU-Rendering, geringer...",
-    "url": "https://www.computerbase.de/news/gaming/drastic-nano-gammaos-next-1-4-2-aktiviert-gpu-rendering-und-senkt-audio-latenzen.99580/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "GDDR7-Roadmaps: 4 GB pro Chip bald zu erwarten, 6 GB ein wildes Gerücht",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Im nächsten oder übernächsten Jahr sollen GDDR7-Chips mit 4 GB (32 Gbit) Speicherkapazität erscheinen, behauptet eine in der Regel treffsichere Quelle aus China. Das würde durchaus zu Microns Roadmap passen. Dass aber...",
-    "url": "https://www.computerbase.de/news/grafikkarten/gddr7-roadmaps-4-gb-pro-chip-bald-zu-erwarten-6-gb-ein-wildes-geruecht.99582/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "The Witcher 3 Remastered im Test: So gut ist das kostenlose Upgrade der PC-Version",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Wie gut läuft The Witcher 3 Remastered auf dem PC? Wir verraten es euch anhand umfassender Benchmarks und Analysen mit GeForce RTX, Radeon RX und Intel Arc. Darüber hinaus analysieren wird die Bildqualität von DLSS un...",
-    "url": "https://www.computerbase.de/artikel/gaming/the-witcher-3-remastered-benchmark-test.99563/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Advanced Packaging: Wo bisher Farmland war, stehen bald zehn TSMC-Fabriken",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Der Hunger nach mehr Chips trifft auf viele Flaschenhälse. In Taiwan errichtet TSMC einen riesigen Komplex mit eventuell bis zu zehn Anlagen. Diese machen aus einer bisher landwirtschaftlich geprägten Region einen der...",
-    "url": "https://www.computerbase.de/news/wirtschaft/tsmcs-mega-komplex-bis-zu-zehn-fabriken-nur-fuer-das-packen-von-chips.99574/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Game Mode: Discord soll CPU und GPU beim Spielen entlasten",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Discord soll einen speziellen Game Mode erhalten, der automatisch erkennt, wenn ein Spiel läuft. In diesem Fall reduziert der Client Animationen und visuelle Effekte, um Prozessor und Grafikkarte weniger zu belasten....",
-    "url": "https://www.computerbase.de/news/apps/game-mode-discord-soll-cpu-und-gpu-beim-spielen-entlasten.99570/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Anzeige: Sabrent Dual-NVMe-Dockingstation mit Klonfunktion jetzt reduziert bei Amazon",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Das Sabrent Dual-NVMe-Gehäuse klont M.2-SSDs ohne Computer und hält sie per Lüfter kühl, jetzt sogar zum Sparpreis. (Technik/Hardware, PC-Hardware)",
-    "url": "https://www.golem.de/news/anzeige-sabrent-dual-nvme-dockingstation-mit-klonfunktion-jetzt-reduziert-bei-amazon-2609-213503.html",
-    "image": "https://www.golem.de/2609/213503-600600-600598_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "RTX 4090: 80 Prozent Power-Limit schützt nicht vor geschmolzenem Stromadapter",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Der bekannte 16-Pin-Anschluss sorgt erneut für Schlagzeilen: Ein aktueller Fall zeigt, dass selbst reduzierte Leistungsaufnahme einen Defekt offenbar nicht ausschließt.",
-    "url": "https://www.pcgameshardware.de/Geforce-RTX-4090-Grafikkarte-279170/News/80-Prozent-Power-Limit-schuetzt-nicht-vor-geschmolzenem-Stromadapter-1555046/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/09/RTX-4090-03-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "The Witcher 3 Remastered: Neue Systemanforderungen im Generationsvergleich",
-    "date": "2026-09-28",
+    "title": "CDPR Says The Witcher 3 Remastered Took Lessons from Cyberpunk 2077 2.0 Update",
+    "date": "2026-09-29",
     "category": "Software",
-    "description": "Mit den Release Notes hat CD Projekt Red am 28. September die vollständigen PC-Anforderungen von The Witcher 3 Remastered veröffentlicht – erstmals mit Zielbildraten. Windows 10 und Festplatten sieht keines der sechs...",
-    "url": "https://www.pcgameshardware.de/The-Witcher-3-Spiel-38488/News/Remastered-Systemanforderungen-Pathtracing-Vergleich-1555130/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/The-Witcher-3-Grafikfehler-2--pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Noctua (!) stellt vor: 12V-2×6-Wächter Wireview Pro II jetzt mit leiser Kühlung",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "High-End-Grafikkarten nicht nur sicher, sondern auch leise betreiben: Das verspricht die Neuauflage von Thermal Grizzlys 12V-2×6-Steckerwächter mit Kühlungstechnologie von Noctua. Der Preis steigt allerdings noch weiter.",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Wireview-Pro-II-Noctua-Edition-vorgestellt-1555082/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/5-WV-P2_Noctua_Kabelmanagement-oben-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "In China gelistet: Neuer Gaming-Monitor von MSI mit QD-Mini-LED und HDR 1000",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Auf dem chinesischen Markt ist vor Kurzem der MAG 276QRM34 veröffentlicht worden, ein 27 Zoll großer Fast-IPS-Monitor aus dem Hause MSI.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/monitore/70454-in-china-gelistet-neuer-gaming-monitor-von-msi-mit-qd-mini-led-und-hdr-1000.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/crisp_bot_nf/msi_mag_001_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Mit Ryzen 5 PRO 7645 und bis 192 GB RAM: QNAPs TVS-hx77AX-Serie ab sofort verfügbar",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "QNAP Systems drei leistungsstarke Desktop-NAS-Systeme der TVS-hx77AX-Serie vorgestellt und alle drei Systeme basieren auf dem ZFS-Betriebssystem QuTS hero.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/netzwerk/70452-mit-ryzen-5-pro-7645-und-bis-192-gb-ram-qnaps-tvs-hx77ax-serie-ab-sofort-verfuegbar.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Sep/nicest_byte_qn/qnap_tvs_hx77ax_systeme_002_680px.png",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "ASUS ROG Xbox Ally X20 Launches With $300 Price Premium for OLED and TMR Upgrade",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "When ASUS first revealed the ROG Xbox Ally X20 at Computex 2026, it said that the gaming handheld would be available as a bundle with a set of Xreal R1 Edition 20 AR glasses or as a standalone handheld, but pricing an...",
-    "url": "https://www.techpowerup.com/351918/asus-rog-xbox-ally-x20-launches-with-usd-300-price-premium-for-oled-and-tmr-upgrade",
-    "image": "https://www.techpowerup.com/img/KEQHLxpg0d1OVskL.jpg",
+    "description": "The Witcher 3: Wild Hunt Remastered just dropped to significant fanfare and a massive boost in the game's peak concurrent player count. It was previously revealed that CD Projekt Red wanted The Witcher 3: Wild Hunt Re...",
+    "url": "https://www.techpowerup.com/353224/cdpr-says-the-witcher-3-remastered-took-lessons-from-cyberpunk-2077-2-0-update",
+    "image": "https://www.techpowerup.com/img/nLqUTJP75TgeMpHL.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "SteamOS 3.9.2 Beta Previews Better Legion Go 2 Support and Squashes Myriad UI and Feature Bugs",
-    "date": "2026-09-28",
+    "title": "Keychron Launches Special Edition All-Wood K8 HE Gaming Keyboard",
+    "date": "2026-09-29",
+    "category": "Hardware",
+    "description": "The design team at Keychron has seemingly recently been on a new-features jaunt, with refreshes to some of the brand's product line coming with unique selling points, like the K2 HE Concrete Edition shown off at CES 2...",
+    "url": "https://www.techpowerup.com/353219/keychron-launches-special-edition-all-wood-k8-he-gaming-keyboard",
+    "image": "https://www.techpowerup.com/img/VOgfoNAqiASbPjAX.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Gigabyte Launches Anime Themed B760M AORUS Ari WiFi6E DDR4 Motherboard",
+    "date": "2026-09-29",
+    "category": "Hardware",
+    "description": "Gigabyte launched the B760M AORUS Ari WiFi6E DDR4 microATX motherboard for the Intel LGA1700 platform, adding PCIe 5.0 support and its AORUS anime theme. The board relies on DDR4 memory instead of DDR5, a choice made...",
+    "url": "https://www.techpowerup.com/353218/gigabyte-launches-anime-themed-b760m-aorus-ari-wifi6e-ddr4-motherboard",
+    "image": "https://www.techpowerup.com/img/DhAMr7MrUJXDCmYq.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "The Witcher 3 Remastered Tops 120,000 Concurrent Steam Players, Beating Its All-Time Record",
+    "date": "2026-09-29",
+    "category": "Markt",
+    "description": "The Witcher 3: Wild Hunt Remastered launched today, and it has already set a new all-time Steam concurrent player record for the game. SteamDB showed a peak of around 120,000 players at the time of writing, and the nu...",
+    "url": "https://www.techpowerup.com/353216/the-witcher-3-remastered-tops-120-000-concurrent-steam-players-beating-its-all-time-record",
+    "image": "https://www.techpowerup.com/img/AQZW4cEcDmGD6mGG.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AMD Software Adrenalin 26.9.2 WHQL Drivers Released",
+    "date": "2026-09-29",
     "category": "Software",
-    "description": "Building on Valve's ongoing expansion of support for third-party gaming handhelds, SteamOS 3.9.2 beta has officially launched with several improvements across the board, but especially for non-Steam hardware. For one,...",
-    "url": "https://www.techpowerup.com/353185/steamos-3-9-2-beta-previews-better-legion-go-2-support-and-squashes-myriad-ui-and-feature-bugs",
-    "image": "https://www.techpowerup.com/img/edHeI7hlrKnuP8sT.jpg",
+    "description": "AMD today released the latest version of its Adrenalin drivers for Radeon RX graphics cards. Version 26.9.2 WHQL comes with optimization for \"Minecraft Dungeons II,\" \"Call of Duty: Modern Warfare 4 Early Access,\" \"The...",
+    "url": "https://www.techpowerup.com/353220/amd-software-adrenalin-26-9-2-whql-drivers-released",
+    "image": "https://www.techpowerup.com/img/de4iZjZErPCIHUDj.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Mozilla Releases Firefox 157 with Nova UI",
-    "date": "2026-09-28",
+    "title": "Embark Backed Off Arc Raiders Monthly Updates To Stop Burnout",
+    "date": "2026-09-29",
     "category": "Hardware",
-    "description": "Hot on the heels of the release of Firefox 156, which introduced a number of improvements to online file and image handling, as well as better video decoding for Arm users, Mozilla has officially started the roll-out...",
-    "url": "https://www.techpowerup.com/353182/mozilla-releases-firefox-157-with-nova-ui",
-    "image": "https://www.techpowerup.com/img/wENjmpSRIZvrxAYs.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Razer Releases Hello Kitty and Friends Blind Box Keycaps",
-    "date": "2026-09-28",
-    "category": "Markt",
-    "description": "Razer is continuing its Sanrio partnership with a new Hello Kitty and Friends blind box keycap series, following the Hello Kitty Rose Gold Kraken Kitty V2 headset launched earlier this spring. The series includes five...",
-    "url": "https://www.techpowerup.com/353179/razer-releases-hello-kitty-and-friends-blind-box-keycaps",
-    "image": "https://www.techpowerup.com/img/gK9w57ZqjlEEh2Yg.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Ayaneo Opens Orders for Konkr Pocket Block, a Sub-$100 Game Boy-Style Android Handheld",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Ayaneo has opened orders for the Konkr Pocket Block, the vertical Android handheld its budget Konkr sub-brand first showed off in May. The 2 GB RAM and 32 GB storage model costs $89, while the 3 GB and 64 GB version c...",
-    "url": "https://www.techpowerup.com/353181/ayaneo-opens-orders-for-konkr-pocket-block-a-sub-usd-100-game-boy-style-android-handheld",
-    "image": "https://www.techpowerup.com/img/F4AoHJ0WVAjM5r2Y.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Marvel's Wolverine Inches Towards PC Playability via Community Project",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "In recent weeks, likely much to the dismay of PlayStation's publishing division, there have been a number of PlayStation 5 games, including exclusives, that have become playable on PC via emulation or game porting pro...",
-    "url": "https://www.techpowerup.com/353177/marvels-wolverine-inches-towards-pc-playability-via-community-project",
-    "image": "https://www.techpowerup.com/img/txrbVdAixoPcxxZD.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) AMD to Buy World Labs for $8.2 Billion to Boost 3D Simulation and Robotics Strategy",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "AMD (NASDAQ: AMD) today announced that it has entered into a definitive agreement to acquire World Labs, an AI model and research lab led by AI pioneer Dr. Fei-Fei Li. The acquisition will bring a world-class team of...",
-    "url": "https://www.techpowerup.com/353178/amd-to-buy-world-labs-for-usd-8-2-billion-to-boost-3d-simulation-and-robotics-strategy",
-    "image": "https://www.techpowerup.com/img/BDEGyA1GZCdLvEMO.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Colorful Resorts to RTX 3050 and DDR4 for P15E Budget Gaming Laptop",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Seemingly in light of the recent PC hardware crisis, which has affected PC OEMs big and small alike, Colorful has just revived the NVIDIA GeForce RTX 3050 for its latest Panda laptop design. The latest revision of the...",
-    "url": "https://www.techpowerup.com/353170/colorful-resorts-to-rtx-3050-and-ddr4-for-p15e-budget-gaming-laptop",
-    "image": "https://www.techpowerup.com/img/RXrdL9uK7Ovjblch.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) HiBy Unveils Cyberpunk 2077 Themed Gaming Headset and External Sound Card",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Following the announcement of the collaboration earlier this year, HiBy has officially unveiled the first products from its sub-brand HiBy Digital's collaboration with Cyberpunk 2077. Since Cyberpunk 2077 was released...",
-    "url": "https://www.techpowerup.com/353176/hiby-unveils-cyberpunk-2077-themed-gaming-headset-and-external-sound-card",
-    "image": "https://www.techpowerup.com/img/fbOjBFBNk7wleflu.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Modders Transform Android Handhelds into Mini Steam Decks",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "Valve's SteamOS port for the Arm (ARM64) architecture has inspired creativity in the modding community, as they are now actively transforming their Android-based gaming handhelds into miniature versions of the Steam D...",
-    "url": "https://www.techpowerup.com/353171/modders-transform-android-handhelds-into-mini-steam-decks",
-    "image": "https://www.techpowerup.com/img/WZFjiqnDkZFYqeMB.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Pulsar Launches X2F CrazyLight 29 g Wireless Fingertip Gaming Mouse",
-    "date": "2026-09-28",
-    "category": "Markt",
-    "description": "Pulsar has officially launched its latest fingertip grip gaming mouse, the X2F CrazyLight, effectively shaving off a whole extra 9 g—or 24%—from the original X2F design, and updating the mouse's internals in the proce...",
-    "url": "https://www.techpowerup.com/353168/pulsar-launches-x2f-crazylight-29-g-wireless-fingertip-gaming-mouse",
-    "image": "https://www.techpowerup.com/img/gN3FV6NFvvPkmGTM.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Acemagic Launches F9A: $6,500 Workstation Mini PC with AMD Ryzen AI Max+ Pro 495",
-    "date": "2026-09-28",
-    "category": "Hardware",
-    "description": "After showing off its Gorgon Halo mini workstations at IFA 2026, Acemagic has officially launched the F9A mini PC as an AI workstation powered by the AMD Ryzen AI Max+ APU with its Radeon 8065S iGPU, for 131 TOPS of A...",
-    "url": "https://www.techpowerup.com/353163/acemagic-launches-f9a-usd-6-500-workstation-mini-pc-with-amd-ryzen-ai-max-pro-495",
-    "image": "https://www.techpowerup.com/img/MWPUPmZKW2VfctLS.jpg",
+    "description": "Since its launch in late 2025, Arc Raiders has been a commanding presence in the extraction shooter genre, at one point peaking at over 480,000 concurrent players. Embark has earned its player count partially by liste...",
+    "url": "https://www.techpowerup.com/353215/embark-backed-off-arc-raiders-monthly-updates-to-stop-burnout",
+    "image": "https://www.techpowerup.com/img/UOSJDeb6d1PGzcEK.jpg",
     "source": "TechPowerUp"
   }
 ]
