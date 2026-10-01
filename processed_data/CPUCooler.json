@@ -75,23 +75,6 @@
         "last_updated": "2026-09-16T08:53:49.561Z"
     },
     {
-        "id": "0712be57-eafe-4a0a-a76b-053941088860",
-        "name": "ASUS ROG RYUJIN III 240 ARGB White Edition",
-        "variant": "",
-        "amazon_sku": "B0CBYY6B5B",
-        "clean_name": "ASUS ROG RYUJIN III 240 ARGB White Edition",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 0,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 2200,
-        "min_noise_level": 36.45,
-        "max_noise_level": 36.45,
-        "color": [],
-        "price": 166.42,
-        "last_updated": "2026-09-16T08:53:36.173Z"
-    },
-    {
         "id": "79ac65a2-f286-4f6a-b71a-26111c77bdaa",
         "name": "ASUS ROG Strix LC 120 RGB Black",
         "variant": "RGB Black",
@@ -499,6 +482,24 @@
         ],
         "price": 92.68,
         "last_updated": "2026-09-16T08:54:39.886Z"
+    },
+    {
+        "id": "0712be57-eafe-4a0a-a76b-053941088860",
+        "name": "ASUS ROG RYUJIN III 240 ARGB White Edition",
+        "variant": "",
+        "amazon_sku": "B0CBYY6B5B",
+        "clean_name": "ASUS ROG RYUJIN III 240 ARGB White Edition",
+        "cooler_type": true,
+        "radiator_size": 240,
+        "height": 101,
+        "min_fan_rpm": 600,
+        "max_fan_rpm": 2200,
+        "min_noise_level": 36.45,
+        "color": [
+            "WHITE"
+        ],
+        "price": 166.42,
+        "last_updated": "2026-09-16T08:53:36.173Z"
     },
     {
         "id": "306567ae-4b86-4829-95ff-53c21f917a8e",
@@ -936,7 +937,7 @@
     {
         "id": "0da1d260-bf32-44c0-a165-34905daef666",
         "name": "NZXT Kraken Core 360 RGB Black",
-        "variant": "Default",
+        "variant": "",
         "amazon_sku": "B0FLTZ2SHM",
         "clean_name": "NZXT Kraken Core 360 RGB Black",
         "cooler_type": true,
@@ -946,8 +947,7 @@
         "max_fan_rpm": 2400,
         "min_noise_level": 31.9,
         "color": [
-            "BLACK",
-            "RGB"
+            "BLACK"
         ],
         "price": 100.74,
         "last_updated": "2026-09-16T08:55:56.540Z"
