@@ -870,7 +870,7 @@
         "clean_name": "MSI MAG CORELIQUID A13 Water 62.6 CFM Black",
         "cooler_type": true,
         "radiator_size": 360,
-        "height": 57,
+        "height": 56.98,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 20,
@@ -888,7 +888,7 @@
         "clean_name": "MSI MAG CORELIQUID A13 Water 62.6 CFM White",
         "cooler_type": true,
         "radiator_size": 240,
-        "height": 57,
+        "height": 56.98,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2000,
         "min_noise_level": 20,
@@ -1021,8 +1021,7 @@
         "max_fan_rpm": 2000,
         "min_noise_level": 25.8,
         "color": [
-            "BLACK",
-            "RGB"
+            "BLACK"
         ],
         "price": 254.8,
         "last_updated": "2026-09-16T08:56:10.168Z"
@@ -1040,8 +1039,7 @@
         "max_fan_rpm": 2000,
         "min_noise_level": 25.8,
         "color": [
-            "WHITE",
-            "RGB"
+            "WHITE"
         ],
         "price": 135.01,
         "last_updated": "2026-09-16T08:56:10.016Z"
@@ -1191,7 +1189,7 @@
     {
         "id": "514301c6-2edb-4b03-8c42-7d1a74b14a24",
         "name": "be quiet! Dark Rock Elite Air 168mm Black",
-        "variant": "Elite",
+        "variant": "",
         "amazon_sku": "B0CJY2QS2W",
         "clean_name": "be quiet! Dark Rock Elite Air Black",
         "cooler_type": false,
@@ -1711,8 +1709,7 @@
         "max_fan_rpm": 2000,
         "min_noise_level": 25.8,
         "color": [
-            "WHITE",
-            "RGB"
+            "WHITE"
         ],
         "available": false,
         "last_updated": "2026-09-15T09:15:03.247Z"
