@@ -199,7 +199,7 @@
     {
         "id": "f1042593-5f79-405e-96f9-572e9b884ca6",
         "name": "Corsair iCUE H100i ELITE CAPELLIX XT Water 240mm 65.57 CFM White",
-        "variant": "Default",
+        "variant": "",
         "amazon_sku": "B0BQJ4VNT1",
         "clean_name": "Corsair iCUE H100i ELITE CAPELLIX XT Water 65.57 CFM White",
         "cooler_type": true,
@@ -290,6 +290,82 @@
         ],
         "price": 151.16,
         "last_updated": "2026-09-16T08:54:21.823Z"
+    },
+    {
+        "id": "ce6b5b52-250f-4bc8-bae5-5439f32a533b",
+        "name": "Corsair NAUTILUS 240 RS LCD Water 240mm 72.8 CFM Black",
+        "variant": "LCD",
+        "amazon_sku": "B0FGDHFMDN",
+        "clean_name": "Corsair NAUTILUS 240 RS LCD Water 72.8 CFM Black",
+        "cooler_type": true,
+        "radiator_size": 240,
+        "height": 69,
+        "min_fan_rpm": 420,
+        "max_fan_rpm": 2100,
+        "min_noise_level": 10,
+        "max_noise_level": 36,
+        "color": [
+            "BLACK"
+        ],
+        "price": 60.42,
+        "last_updated": "2026-09-16T08:55:33.967Z"
+    },
+    {
+        "id": "a2080f57-2202-4259-9e8d-75b9603719ec",
+        "name": "Corsair NAUTILUS 240 RS LCD Water 240mm 72.8 CFM White",
+        "variant": "LCD",
+        "amazon_sku": "B0FGDKZVVM",
+        "clean_name": "Corsair NAUTILUS 240 RS LCD Water 72.8 CFM White",
+        "cooler_type": true,
+        "radiator_size": 240,
+        "height": 69,
+        "min_fan_rpm": 420,
+        "max_fan_rpm": 2100,
+        "min_noise_level": 10,
+        "max_noise_level": 36,
+        "color": [
+            "WHITE"
+        ],
+        "price": 104.46,
+        "last_updated": "2026-09-16T08:55:34.528Z"
+    },
+    {
+        "id": "7622365f-37d9-4ad7-b9be-9223f2fec593",
+        "name": "Corsair NAUTILUS 360 RS LCD Water 360mm 72.8 CFM White",
+        "variant": "LCD",
+        "amazon_sku": "B0FGDMTHY4",
+        "clean_name": "Corsair NAUTILUS 360 RS LCD Water 72.8 CFM White",
+        "cooler_type": true,
+        "radiator_size": 360,
+        "height": 69,
+        "min_fan_rpm": 420,
+        "max_fan_rpm": 2100,
+        "min_noise_level": 10,
+        "max_noise_level": 36,
+        "color": [
+            "WHITE"
+        ],
+        "price": 115.86,
+        "last_updated": "2026-09-16T08:55:39.244Z"
+    },
+    {
+        "id": "72652c64-2fca-4517-94ee-8f82492ab7c7",
+        "name": "Corsair NAUTILUS Water 360mm RS LCD 72.8 CFM Black",
+        "variant": "LCD",
+        "amazon_sku": "B0FGDJ3QP1",
+        "clean_name": "Corsair NAUTILUS Water RS LCD 72.8 CFM Black",
+        "cooler_type": true,
+        "radiator_size": 360,
+        "height": 69,
+        "min_fan_rpm": 420,
+        "max_fan_rpm": 2100,
+        "min_noise_level": 10,
+        "max_noise_level": 36,
+        "color": [
+            "BLACK"
+        ],
+        "price": 100.74,
+        "last_updated": "2026-09-16T08:55:40.387Z"
     },
     {
         "id": "77339c05-5c8e-40dc-850b-98f5e1c5e14f",
@@ -618,7 +694,7 @@
         "clean_name": "Cooler Master MasterLiquid 360 Atmos Black",
         "cooler_type": true,
         "radiator_size": 360,
-        "height": 53,
+        "height": 53.15,
         "min_fan_rpm": 690,
         "max_fan_rpm": 2500,
         "min_noise_level": 27.2,
@@ -717,78 +793,6 @@
         ],
         "price": 403.31,
         "last_updated": "2026-09-16T08:55:36.053Z"
-    },
-    {
-        "id": "ce6b5b52-250f-4bc8-bae5-5439f32a533b",
-        "name": "Corsair NAUTILUS 240 RS LCD Water 240mm 72.8 CFM Black",
-        "variant": "LCD",
-        "amazon_sku": "B0FGDHFMDN",
-        "clean_name": "Corsair NAUTILUS 240 RS LCD Water 72.8 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 125,
-        "min_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "BLACK"
-        ],
-        "price": 60.42,
-        "last_updated": "2026-09-16T08:55:33.967Z"
-    },
-    {
-        "id": "a2080f57-2202-4259-9e8d-75b9603719ec",
-        "name": "Corsair NAUTILUS 240 RS LCD Water 240mm 72.8 CFM White",
-        "variant": "LCD",
-        "amazon_sku": "B0FGDKZVVM",
-        "clean_name": "Corsair NAUTILUS 240 RS LCD Water 72.8 CFM White",
-        "cooler_type": true,
-        "radiator_size": 240,
-        "height": 125,
-        "min_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "WHITE"
-        ],
-        "price": 104.46,
-        "last_updated": "2026-09-16T08:55:34.528Z"
-    },
-    {
-        "id": "7622365f-37d9-4ad7-b9be-9223f2fec593",
-        "name": "Corsair NAUTILUS 360 RS LCD Water 360mm 72.8 CFM White",
-        "variant": "LCD",
-        "amazon_sku": "B0FGDMTHY4",
-        "clean_name": "Corsair NAUTILUS 360 RS LCD Water 72.8 CFM White",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 125,
-        "min_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "WHITE"
-        ],
-        "price": 115.86,
-        "last_updated": "2026-09-16T08:55:39.244Z"
-    },
-    {
-        "id": "72652c64-2fca-4517-94ee-8f82492ab7c7",
-        "name": "Corsair NAUTILUS Water 360mm RS LCD 72.8 CFM Black",
-        "variant": "LCD",
-        "amazon_sku": "B0FGDJ3QP1",
-        "clean_name": "Corsair NAUTILUS Water RS LCD 72.8 CFM Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 125,
-        "min_fan_rpm": 2100,
-        "min_noise_level": 10,
-        "max_noise_level": 36,
-        "color": [
-            "BLACK"
-        ],
-        "price": 100.74,
-        "last_updated": "2026-09-16T08:55:40.387Z"
     },
     {
         "id": "094ed36f-740b-4453-8dd6-3bf877a7d7ce",
