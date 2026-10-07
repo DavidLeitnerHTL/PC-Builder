@@ -116,31 +116,16 @@
         "clean_name": "Cooler Master Hyper 212 Air RGB Black Edition 59 CFM Black",
         "cooler_type": false,
         "radiator_size": "159mm",
-        "height": 159,
+        "height": 158.8,
         "min_fan_rpm": 650,
         "max_fan_rpm": 2000,
         "min_noise_level": 8,
         "max_noise_level": 30,
-        "color": [],
+        "color": [
+            "BLACK"
+        ],
         "price": 61.22,
         "last_updated": "2026-09-16T08:53:50.909Z"
-    },
-    {
-        "id": "023f67c6-8015-4b73-86bc-f02192c67b09",
-        "name": "Cooler Master Hyper 212 LED Air 160mm 66.3 CFM Rifle Bearing",
-        "variant": "Default",
-        "amazon_sku": "B01KBXKP8W",
-        "clean_name": "Cooler Master Hyper 212 LED Air 66.3 CFM Rifle Bearing",
-        "cooler_type": false,
-        "radiator_size": "160mm",
-        "height": 160,
-        "min_fan_rpm": 600,
-        "max_fan_rpm": 1600,
-        "min_noise_level": 9,
-        "max_noise_level": 31,
-        "color": [],
-        "price": 40.25,
-        "last_updated": "2026-09-16T08:53:58.724Z"
     },
     {
         "id": "cea28198-7784-4777-90a5-e6bcb014f52d",
@@ -1251,32 +1236,16 @@
         "cooler_type": false,
         "radiator_size": "163mm",
         "height": 163,
-        "min_fan_rpm": 300,
+        "min_fan_rpm": 600,
         "max_fan_rpm": 1600,
         "min_noise_level": 9,
         "max_noise_level": 31,
-        "color": [],
-        "available": false,
-        "last_updated": "2026-09-15T09:14:12.310Z"
-    },
-    {
-        "id": "2fa45cbb-7dce-433f-981f-2f46b1f5d61d",
-        "name": "Cooler Master Hyper 212 Black Edition Air 159mm 42 CFM Black",
-        "variant": "Black Edition",
-        "amazon_sku": "B07H25DYM3",
-        "clean_name": "Cooler Master Hyper 212 Black Edition Air 42 CFM Black",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 800,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 6.5,
-        "max_noise_level": 26,
         "color": [
-            "BLACK"
+            "BLACK",
+            "RED"
         ],
         "available": false,
-        "last_updated": "2026-09-16T08:56:34.903Z"
+        "last_updated": "2026-09-15T09:14:12.310Z"
     },
     {
         "id": "e8c6b3a1-534d-42c5-9e54-66ac7a27a963",
@@ -1297,25 +1266,6 @@
         ],
         "available": false,
         "last_updated": "2026-09-16T08:56:37.860Z"
-    },
-    {
-        "id": "e6654154-2082-4a02-8a84-d9fe71d7be1c",
-        "name": "Cooler Master Hyper 212 RGB Air 159mm Black",
-        "variant": "Black Edition",
-        "amazon_sku": "B07H22TC1N",
-        "clean_name": "Cooler Master Hyper 212 RGB Air Black",
-        "cooler_type": false,
-        "radiator_size": "159mm",
-        "height": 159,
-        "min_fan_rpm": 650,
-        "max_fan_rpm": 2000,
-        "min_noise_level": 8,
-        "max_noise_level": 30,
-        "color": [
-            "BLACK"
-        ],
-        "available": false,
-        "last_updated": "2026-09-15T09:14:12.812Z"
     },
     {
         "id": "c84e3d87-c57c-4ae0-83db-a6e896528fd5",
@@ -1444,6 +1394,42 @@
         ],
         "available": false,
         "last_updated": "2026-09-15T09:14:21.705Z"
+    },
+    {
+        "id": "2fa45cbb-7dce-433f-981f-2f46b1f5d61d",
+        "name": "Cooler Master Hyper 212 Black Air 152mm 42 CFM Black",
+        "variant": "Black Edition",
+        "amazon_sku": "B07H25DYM3",
+        "clean_name": "Cooler Master Hyper 212 Black Air 42 CFM Black",
+        "cooler_type": false,
+        "radiator_size": "152mm",
+        "height": 152,
+        "min_fan_rpm": 690,
+        "max_fan_rpm": 2500,
+        "min_noise_level": 32.8,
+        "color": [
+            "BLACK"
+        ],
+        "available": false,
+        "last_updated": "2026-09-16T08:56:34.903Z"
+    },
+    {
+        "id": "e6654154-2082-4a02-8a84-d9fe71d7be1c",
+        "name": "Cooler Master Hyper 212 Pro ARGB Air 159mm Black",
+        "variant": "Black Edition",
+        "amazon_sku": "B07H22TC1N",
+        "clean_name": "Cooler Master Hyper 212 Pro ARGB Air Black",
+        "cooler_type": false,
+        "radiator_size": "159mm",
+        "height": 152,
+        "min_fan_rpm": 690,
+        "max_fan_rpm": 2500,
+        "min_noise_level": 32.8,
+        "color": [
+            "BLACK"
+        ],
+        "available": false,
+        "last_updated": "2026-09-15T09:14:12.812Z"
     },
     {
         "id": "0560a23c-542b-4217-9cbd-9c6a1b7851db",
@@ -1817,6 +1803,23 @@
         "max_fan_rpm": 2000,
         "min_noise_level": 8.9,
         "max_noise_level": 23.3,
+        "color": [
+            "BLACK"
+        ]
+    },
+    {
+        "id": "eea23b45-803f-4bf5-8a7b-58740a7feac6",
+        "name": "be quiet! Dark Rock TF 2 Air 135mm Black",
+        "variant": "TF2",
+        "amazon_sku": "B09BCWPG1S",
+        "clean_name": "be quiet! Dark Rock TF 2 Air Black",
+        "cooler_type": false,
+        "radiator_size": "135mm",
+        "height": 134,
+        "min_fan_rpm": 1300,
+        "max_fan_rpm": 1400,
+        "min_noise_level": 11.1,
+        "max_noise_level": 27.1,
         "color": [
             "BLACK"
         ]
