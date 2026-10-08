@@ -1,5 +1,329 @@
 [
   {
+    "title": "Welcher Befehl ist schneller? Hyperfine misst nach",
+    "date": "2026-10-08",
+    "category": "Software",
+    "description": "Das Benchmark-Tool Hyperfine misst in Version 2.0.0 mehr als Laufzeiten. Zugleich ändern sich der Start von Testbefehlen und der JSON-Export.",
+    "url": "https://www.heise.de/news/Welcher-Befehl-ist-schneller-Hyperfine-misst-nach-11480298.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/8/8/2/5/odi-92a770c04bad5da7.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Claude Haiku 5.5: Anthropic senkt API-Preise um bis zu 90 Prozent",
+    "date": "2026-10-08",
+    "category": "Markt",
+    "description": "Haiku 5.5 legt in Benchmarks deutlich zu. Zugleich senkt Anthropic die API-Preise um bis zu 90 Prozent und reagiert damit auf den wachsenden Preisdruck.",
+    "url": "https://www.heise.de/news/Claude-Haiku-5-5-Anthropic-senkt-API-Preise-um-bis-zu-90-Prozent-11480214.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/8/7/8/2/shutterstock_2645234093-1e12caed58e50647.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Amazon Alexa Tablets: Schnellere Android-Tablets kommen mit Google Play Store",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Amazon bringt eine völlig neue Tablet-Serie, die technisch mit schnelleren Prozessoren und hochauflösenden Displays sowie dem Google Play Store deutlich aufgewertet wird. Die neue Serie umfasst drei Modelle: Amazon Al...",
+    "url": "https://www.computerbase.de/news/tablets/amazon-alexa-tablets-schnellere-android-tablets-kommen-mit-google-play-store.99718/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Preisübersicht: So viel kosten die ersten Notebooks mit Nvidia RTX Spark",
+    "date": "2026-10-08",
+    "category": "Markt",
+    "description": "Notebooks mit Nvidia RTX Spark (N1X) und Windows 11 werden ab dem 16. Oktober verfügbar sein. Das ist seit Mittwochabend bekannt. Erste OEMs wie MSI oder Microsoft nehmen bereits Vorbestellungen an. Doch was kosten di...",
+    "url": "https://www.computerbase.de/news/notebooks/preisuebersicht-so-viel-kosten-die-ersten-notebooks-mit-nvidia-rtx-spark.99681/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Microsoft × Nvidia: Surface Ultra ab 2.899 Euro, RTX Spark Dev Box für 6.000 USD",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Microsoft hat die eigenen Geräte mit RTX Spark final enthüllt und Preise genannt: Das High-End-Notebook Surface Ultra startet ab 2.899 Euro und die RTX Spark Dev Box für 5.999,99 US-Dollar vor Steuern in den Vorverkau...",
+    "url": "https://www.computerbase.de/news/pc-systeme/microsoft-x-nvidia-surface-ultra-startet-ab-2-899-euro-rtx-spark-dev-box-bei-6-000-usd.99711/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Games für RTX Spark: Hunderte Titel zum Start, Call of Duty aber erst 2027",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Im gestrigen Livestream hat das Windows-Team auch das Thema Spiele für die neue Plattform RTX Spark von Nvidia angerissen. Zum Start sollen Hunderte von AAA- und Indie-Games auf RTX Spark laufen, lautet das Verspreche...",
+    "url": "https://www.computerbase.de/news/gaming/games-fuer-rtx-spark-hunderte-titel-zum-start-call-of-duty-aber-erst-2027.99713/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Wartezeiten von einem Jahr: Halbleiter-Lieferengpass in Deutschland",
+    "date": "2026-10-08",
+    "category": "Markt",
+    "description": "Engpässe bei Chips und Leiterplatten verschärfen sich. Einige Hersteller nennen Rekord-Lieferzeiten, die Preise haben sich verfünffacht. (Chipknappheit, KI)",
+    "url": "https://www.golem.de/news/wartezeiten-von-einem-jahr-halbleiter-lieferengpass-in-deutschland-2610-213862.html",
+    "image": "https://www.golem.de/2610/213862-602298-602296_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "RTX Spark N1X: Warum jetzt auch Apple Nvidia fürchten muss",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Nvidias ARM-Chip hat das Potenzial, Apples Vormachtstellung bei den mobilen Chips infrage zu stellen. Eine Analyse von Oliver Nickel (Nvidia, Microsoft)",
+    "url": "https://www.golem.de/news/rtx-spark-n1x-warum-jetzt-auch-apple-nvidia-fuerchten-muss-2610-213870.html",
+    "image": "https://www.golem.de/2610/213870-602348-602346_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Anzeige: Chromebook von Acer mit 15,6'' FHD reduziert bei Amazon",
+    "date": "2026-10-08",
+    "category": "Angebote",
+    "description": "Ein Chromebook von Acer mit 15,6''-IPS-Display, FHD-Auflösung und Octa-Core-Prozessor gibt es bei Amazon zum günstigen Aktionspreis. (Chromebook, Acer)",
+    "url": "https://www.golem.de/news/anzeige-chromebook-von-acer-mit-15-6-fhd-reduziert-bei-amazon-2610-213878.html",
+    "image": "https://www.golem.de/2610/213878-602393-602391_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Anzeige: Gaming-Maus Logitech G502 X Plus jetzt reduziert bei Amazon",
+    "date": "2026-10-08",
+    "category": "Angebote",
+    "description": "Die Logitech G502 X Plus Gaming-Maus mit 13 Tasten und Hero-Sensor ist bei Amazon günstiger zu haben. (Technik/Hardware, Logitech)",
+    "url": "https://www.golem.de/news/anzeige-gaming-maus-logitech-g502-x-plus-jetzt-reduziert-bei-amazon-2610-213873.html",
+    "image": "https://www.golem.de/2610/213873-602353-602351_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Wollen Foundry-Aufträge: Samsung setzt AMD mit HBM-Lieferung unter Druck",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Samsung will als Gegenleistung für HBM4-Lieferungen AMD-Chips fertigen. Anthropic soll sich freiwillig für den SF2-Prozess entschieden haben. (Halbleiterfertigung, AMD)",
+    "url": "https://www.golem.de/news/wollen-foundry-auftraege-samsung-setzt-amd-mit-hbm-lieferung-unter-druck-2610-213863.html",
+    "image": "https://www.golem.de/2610/213863-602311-602309_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Microsoft: Neue Suche kann Windows 11 direkt in Dark Mode versetzen",
+    "date": "2026-10-08",
+    "category": "Software",
+    "description": "Künftig können User direkt in der Suche OS-Einstellungen vornehmen. Sie ist zudem das nächste Element in Windows 11, das KI bekommt. (Betriebssysteme, KI)",
+    "url": "https://www.golem.de/news/microsoft-neue-suche-kann-windows-11-direkt-in-dark-mode-versetzen-2610-213854.html",
+    "image": "https://www.golem.de/2610/213854-602262-602260_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "RTX Spark: Microsofts Surface Laptop Ultra kostet bis zu 6.879 Euro",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Mit dem Surface Laptop Ultra will Microsoft das lokale KI-Zeitalter auf Windows einläuten. Das 15-Zoll-Gerät kann vorbestellt werden, doch die Preise sind happig. (Microsoft, Notebook)",
+    "url": "https://www.golem.de/news/rtx-spark-microsofts-surface-laptop-ultra-kostet-bis-zu-6-879-euro-2610-213845.html",
+    "image": "https://www.golem.de/2610/213845-602222-602220_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "„Hühnerbrühe kühlt so hart viel besser“: RTX 5090 steht auf Suppengrün",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Eine RTX 5090 verlangt inzwischen ein enormes Budget. Ein Nutzer im PCGHX-Forum spart deshalb bei der GPU-Stütze und greift zu einer ungewöhnlichen Lösung: einem Glas Suppengrün.",
+    "url": "https://www.pcgameshardware.de/Geforce-RTX-5090-Grafikkarte-281029/News/Suppengruen-GPU-Halterung-1556204/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/RTX-5090-auf-Suppengruen-Huehnerbruehe-kuehlt-besser-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Surface Laptop & RTX Spark: „Hunderte unterstützte Spiele“, aber Call of Duty erst 2027",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Microsoft nennt für Surface Laptop Ultra und RTX Spark Hunderte unterstützte Spiele zum Start. Bei Call of Duty soll Unterstützung aber erst 2027 kommen.",
+    "url": "https://www.pcgameshardware.de/Microsoft-Surface-Laptop-Hardware-266092/News/RTX-Spark-Hunderte-unterstuetzte-Spiele-Call-of-Duty-erst-2027-1556170/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Nvidia-RTX-Spark-Superchip-1--pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS] 360er-AiO-Wasserkühlungen im Test: Teure bis günstige Modelle diverser Hersteller",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Wir schicken 360-mm-Kompaktwasserkühlungen durch unseren lautheitsnormierten Testparcours. Von günstig bis teuer prüfen wir acht verschiedene Kühlsysteme auf Herz und Nieren.",
+    "url": "https://www.pcgameshardware.de/Kompaktwasserkuehlung-Hardware-267963/Specials/360-mm-AiO-Test-Corsair-Weiss-Preis-1471604/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2025/08/360er-Tabelle-mit-Awards-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "Kaufberatung AMD-Mainboards: Gamingplatinen für Ryzen 7000 und 9000 [Update]",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Mainboard-Kaufberatung und -Vergleich auf Basis der PCGH-Bestenliste für AMDs AM5, mit Rück- und Ausblick auf ältere und exotische Plattformen wie AM4 und TR5: Egal ob Asus, MSI, Asrock, Gigabyte oder ein anderer Hers...",
+    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/Tests/Kaufberatung-fuer-AMD-Ryzen-1391276/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/12/Gigabyte_X870EeliteX3D_Packungsinhalt-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "PCGH antwortet: Lohnt sich das Aufrüsten eines vier Jahre alten Gaming-PCs?",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Der i9-11900K ist hier kaum die Rettung: Warum ein CPU-Upgrade im vier Jahre alten Gaming-PC oft verpufft und wann es sich doch lohnt – PCGH beantwortet Leserfragen.",
+    "url": "https://www.pcgameshardware.de/Leserbriefe-Thema-200713/News/lohnt-sich-ein-CPU-Upgrade-1556048/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2021/04/NEU-11900K-11700K-und-11600K-3-pcgh-pcgh2-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Windows 11: Copilot bekommt Zugriff auf lokale Dateien und darf handeln",
+    "date": "2026-10-08",
+    "category": "Angebote",
+    "description": "Microsoft erweitert Copilot unter Windows 11 um lokalen Kontext und direkte Aktionen. Die KI soll damit auf Dateien zugreifen und Aufgaben auf dem PC selbst erledigen können.",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/windows-11-copilot-lokale-dateien-windows-steuern-1556114/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Windows-11-Copilot-darf-Dateien-verwalten-und-Probleme-beheben-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Nvidia 615.78.08: Linux-Treiber adressiert Frame Generation",
+    "date": "2026-10-08",
+    "category": "Software",
+    "description": "Seit dem 7. Oktober bietet Nvidia den Geforce-Treiber 615.78.08 für Linux an. Neu ist eine Revision der Vulkan-Erweiterung VK_NV_low_latency2, von der DirectX-12-Spiele unter Proton vor allem mit aktiver Frame Generat...",
+    "url": "https://www.pcgameshardware.de/Linux-Software-26761/News/Nvidia-Linux-Treiber-615-78-08-VKD3D-Proton-Frame-Generation-1556111/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/02/5090-Founders-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "RTX Spark im Notebook: Dell zeigt neues XPS 16 in der Creator Edition",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Die Vorstellung einer neuen Notebook-Plattform zieht natürlich zahlreiche passende Produktvorstellungen nach sich.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/70560-rtx-spark-im-notebook-dell-zeigt-neues-xps-16-in-der-creator-edition.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/great_lab_77/dell_xps_16_creator_edition_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Surface RTX Spark Dev Box: Microsofts Entwickler-PC kommt im November",
+    "date": "2026-10-08",
+    "category": "Markt",
+    "description": "Neben dem Surface Laptop Ultra hat Microsoft zum Start der neuen RTX-Plattform die Vorbestellungen für die Surface RTX Spark Dev Box geöffnet.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/komplettsysteme/70559-surface-rtx-spark-dev-box-microsofts-entwickler-pc-kommt-im-november.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/devout_shader_nn/microsoft_surface_rtx_spark_dev_box_00_680px.png",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "NVIDIA RTX Spark: ASUS stattet ProArt P14 und P16 aus",
+    "date": "2026-10-08",
+    "category": "Markt",
+    "description": "Nachdem bereits Microsoft und MSI ihre ersten Geräte mit NVIDIA RTX Spark in die Vorbestellung schickten, tat dies am Mittwochabend auch ASUS.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/70558-nvidia-rtx-spark-asus-stattet-proart-p14-und-p16-aus.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/noble_silicone_da/asus_proart_spark_00_680px.jpeg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "200 Euro billiger durch Non-ECC: Synology bringt neo+-Modelle auf den Markt",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Synology reagiert auf die anhaltende Verteuerung von Arbeitsspeicher mit einer neuen Produktreihe.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/netzwerk/70554-200-euro-billiger-durch-non-ecc-synology-bringt-neo-modelle-auf-den-markt.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/Jul/usable_modding_d0/synology_diskstation_ds425_und_ds725_680px.png",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Prestige N16 Flip AI: MSI bringt KI-Convertible mit Tandem-OLED und RTX Spark",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Nachdem am Mittwochabend endlich der Startschuss für NVIDIAs Spark-Plattform gefallen ist, startet MSI den Vorverkauf für sein neues Prestige N16 Flip AI+ mit RTX-Spark-N1X.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/70557-prestige-n16-flip-ai-msi-bringt-ki-convertible-mit-tandem-oled-und-rtx-spark.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/tough_domain_bf/prestige_n16_flip_ai_c1mx_photo_01_680px.png",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Sony Gives Up on VR: Patents Sold to Meta",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Sony is seemingly pulling away from its XR ambitions, as the company has reportedly transferred 43 patents it holds in the United States to none other than Meta. In a large transfer between June and September this yea...",
+    "url": "https://www.techpowerup.com/353499/sony-gives-up-on-vr-patents-sold-to-meta",
+    "image": "https://www.techpowerup.com/img/Auo06Nk8jX6SHj8x.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Xbox Game Pass Gets Battlefield 6 This Month, Days Before Modern Warfare 4 Launches",
+    "date": "2026-10-08",
+    "category": "Markt",
+    "description": "Microsoft has confirmed that Battlefield 6 is joining Xbox Game Pass on October 13, the same day EA and Battlefield Studios kick off Season 5. The shooter will be playable on Xbox Series X|S, PC, and cloud for Game Pa...",
+    "url": "https://www.techpowerup.com/353506/xbox-game-pass-gets-battlefield-6-this-month-days-before-modern-warfare-4-launches",
+    "image": "https://www.techpowerup.com/img/g3o1Ed6d2xBkfgo2.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Amazon Fall Prime Day Deal: KAMRUI Mini PCs from $360.99, Save Up to 35%",
+    "date": "2026-10-08",
+    "category": "Angebote",
+    "description": "Amazon Fall Prime Day is here, and KAMRUI is bringing some serious mini PC deals, with savings of up to 35% when the coupon is applied. Three models are on sale, including the Hyper H2 with a 14-core Intel HX chip, th...",
+    "url": "https://www.techpowerup.com/353332/amazon-fall-prime-day-deal-kamrui-mini-pcs-from-usd-360-99-save-up-to-35",
+    "image": "https://www.techpowerup.com/img/GQyWwk6zNcMghzgF.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) OnlyOffice 10.0 Brings AI Tools, Modular Apps and Stronger Security to Its Open-Source Office Suite",
+    "date": "2026-10-08",
+    "category": "Software",
+    "description": "OnlyOffice presents the major autumn update 10.0 with context-aware AI tools directly in the editors, new modular Apps, and a significant security upgrade. Around 50 new features and more than 1,000 fixes for the onli...",
+    "url": "https://www.techpowerup.com/353505/onlyoffice-10-0-brings-ai-tools-modular-apps-and-stronger-security-to-its-open-source-office-suite",
+    "image": "https://www.techpowerup.com/img/kXe1URpOUNwEUU3b.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Minisforum Launches the MS-S1 MAX-P495 with 192GB Unified Memory, Expanding Its Local AI Computing Strategy",
+    "date": "2026-10-08",
+    "category": "Markt",
+    "description": "As Artificial Intelligence (AI) evolves toward Super Intelligence (SI), intelligent computing is entering a new phase—one in which increasingly capable AI is moving closer to endpoints and edge environments. This shif...",
+    "url": "https://www.techpowerup.com/353503/minisforum-launches-the-ms-s1-max-p495-with-192gb-unified-memory-expanding-its-local-ai-computing-strategy",
+    "image": "https://www.techpowerup.com/img/YuKZVJYMlAVdFnK3.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GIGABYTE Powers Up Amazon Prime Day 2 with Major Savings on Motherboards and Gaming Monitors",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "GIGABYTE, a global leader in PC components and gaming hardware, is bringing major savings to Amazon Prime Day 2 with a wide selection of deals on motherboards and gaming monitors from October 6-7, 2026. Whether gamers...",
+    "url": "https://www.techpowerup.com/353362/gigabyte-powers-up-amazon-prime-day-2-with-major-savings-on-motherboards-and-gaming-monitors",
+    "image": "https://www.techpowerup.com/img/G8qmozMSCtjUHTcp.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Rising Costs Threaten Notebook Demand in 2027, Raising Risks of Shipment Declines and Price Increase",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "TrendForce's latest notebook industry research reveals that the primary risk facing the market in 2027 is expected to shift from supply constraints to the impact of rising costs on demand. Global notebook shipments ar...",
+    "url": "https://www.techpowerup.com/353502/rising-costs-threaten-notebook-demand-in-2027-raising-risks-of-shipment-declines-and-price-increase",
+    "image": "https://www.techpowerup.com/img/8fxIs1tzBNMLM5Yn.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Mass Layoffs at Titanfall Veteran Studio \"Gravity Well\" Ahead of First Game Launch",
+    "date": "2026-10-08",
+    "category": "Markt",
+    "description": "Gravity Well Studio, a young indie game studio founded and headed up by several Apex Legends and Titanfall veterans, has just announced that it has had to lay off a majority of its staff, totaling over 40 workers, acc...",
+    "url": "https://www.techpowerup.com/353483/mass-layoffs-at-titanfall-veteran-studio-gravity-well-ahead-of-first-game-launch",
+    "image": "https://www.techpowerup.com/img/3kn6j4N0DNiD7efo.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Microsoft Project Professional 2024 is built for managing projects from the initial plan through completion, with tools for organizing tasks, coordinating resources, monitoring progress, and creating reports. For a li...",
+    "url": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
+    "image": "https://www.techpowerup.com/img/Wm7OkZN9FMvZfKlO.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Sony Patent Describes Bosses That Learn From Your Reaction Times and Retries",
+    "date": "2026-10-08",
+    "category": "Hardware",
+    "description": "Sony Interactive Entertainment has a new patent application out that describes using machine learning to change how NPCs and bosses behave, based on how the person holding the controller plays. Titled \"AI-adapted non-...",
+    "url": "https://www.techpowerup.com/353484/sony-patent-describes-bosses-that-learn-from-your-reaction-times-and-retries",
+    "image": "https://www.techpowerup.com/img/kOcVbT4KvErDdD9S.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Surface Laptop Ultra und andere Notebooks mit RTX Spark jetzt vorbestellbar",
+    "date": "2026-10-07",
+    "category": "Hardware",
+    "description": "Microsoft hat seine Herbst-Veranstaltung genutzt, um den Verkauf von Notebooks mit Nvidias ARM-CPU RTX Spark einzuläuten. Ausgeliefert wird ab 16. Oktober.",
+    "url": "https://www.heise.de/news/Surface-Laptop-Ultra-und-andere-Notebooks-mit-RTX-Spark-jetzt-vorbestellbar-11479948.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/8/6/4/8/n1x_01-a838d54208f4bcb2.jpeg",
+    "source": "Heise"
+  },
+  {
     "title": "Copilot auf Platz eins: GitHub stellt neuen Review-Benchmark vor",
     "date": "2026-10-07",
     "category": "Software",
@@ -18,15 +342,6 @@
     "source": "Heise"
   },
   {
-    "title": "CPU-Wegweiser 2026: 27 PC-Prozessoren von AMD und Intel im Test",
-    "date": "2026-10-07",
-    "category": "Hardware",
-    "description": "Große Caches, viele Kerne oder hoher Takt? Wir haben 27 Desktop-CPUs auf Leistung, Spieletempo, Preis und Effizienz geprüft, damit Sie die richtige finden.",
-    "url": "https://www.heise.de/tests/CPU-Wegweiser-2026-27-PC-Prozessoren-von-AMD-und-Intel-im-Test-11450717.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/3/8/0/2/chh-917f75f85b55894b.jpeg",
-    "source": "Heise"
-  },
-  {
     "title": "Bit-Rauschen, der Prozessor-Podcast: Wie lange bleibt RAM noch teuer?",
     "date": "2026-10-07",
     "category": "Hardware",
@@ -36,417 +351,102 @@
     "source": "Heise"
   },
   {
-    "title": "Windows-Chef: 3D-Pinball kommt vielleicht für Windows 11",
-    "date": "2026-10-07",
-    "category": "Software",
-    "description": "Der 25. Geburtstag von Windows XP Ende Oktober wäre ein guter Zeitpunkt für eine Hommage an Space Cadet Pinball. (Windows 11, Microsoft)",
-    "url": "https://www.golem.de/news/windows-chef-3d-pinball-kommt-vielleicht-fuer-windows-11-2610-213793.html",
-    "image": "https://www.golem.de/2610/213793-601979-601977_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "AMD will 2027 deutlich mehr Chips liefern, doch Lisa Su sagt: Es reicht nicht",
+    "title": "ProArt P14 & P16: RTX Spark startet bei Asus mit 24 GB knapp unter 3.000 Euro",
     "date": "2026-10-07",
     "category": "Hardware",
-    "description": "AMD-Chefin Lisa Su hat am Dienstag in Taipeh angekündigt, das Chipangebot 2027 kräftig auszuweiten, die Nachfrage übertreffe aber weiter die Liefermengen. Ob Käufer von Ryzen-CPUs und Radeon-Grafikkarten profitieren,...",
-    "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/AMD-Lisa-Su-2027-Liefermengen-CPU-GPU-1556015/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2024/03/Dr.-Lisa-Su-pcgh.png",
-    "source": "PCGH"
+    "description": "Neben MSI beim Prestige N16 Flip AI+ (C1XMT) hat auch Asus am Abend den Vorhang vor den finalen Konfigurationen der ersten RTX-Spark-Notebooks fallen lassen und Preise genannt: Das ProArt P14 (H7407) mit 32 GB kostet...",
+    "url": "https://www.computerbase.de/news/notebooks/proart-p14-und-p16-rtx-spark-kostet-bei-asus-mit-64-gb-weniger-als-mit-32-gb.99708/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
-    "title": "3DMark-Rangliste 2026: 102 Gaming-Grafikkarten seit 2013 im Benchmark [Update mit LX 7G100]",
+    "title": "Windows 11: Wie die Taskleiste zum Startpunkt für die neuen Agenten wird",
     "date": "2026-10-07",
     "category": "Software",
-    "description": "Wie schnell ist meine Grafikkarte? Keine Frage hören wir öfter. Damit Sie auf die Schnelle einordnen können, wie Ihre Grafikkarte im Vergleich abschneidet, bieten wir Ihnen eine gepflegte 3DMark-Rangliste mit 102 Graf...",
-    "url": "https://www.pcgameshardware.de/3DMark-Software-122260/Specials/Punkte-Tabelle-Time-Spy-Benchmark-1357989/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2016/06/timespy-pcgh.jpg",
-    "source": "PCGH"
+    "description": "Auf dem Spark-Event mit Nvidia präsentiert Microsoft die Agenten-Neuerungen für Windows 11. Nutzer erhalten in diesem Herbst eine neue Suche als Startpunkt für Agenten-Tätigkeiten und die neue Copilot-App. Ein Fokus l...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/microsoft-x-nvidia-windows-11-erhaelt-eine-neue-agenten-suche-und-copilot-app.99712/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
-    "title": "Geforce-Treiber 617.42 bringt 6× Frame Generation für Modern Warfare 4 und MSFS 2024",
+    "title": "Prestige N16 Flip AI+ (C1XMT): 3.449 bis 7.999 Euro für MSIs erstes RTX-Spark-Notebook",
     "date": "2026-10-07",
     "category": "Hardware",
-    "description": "Nvidia weitet mit dem neuesten Game-Ready-Treiber den Spiele-Support für aktuelle Titel aus, darunter auch mit sechsfacher Dynamic Multi Frame Generation.",
-    "url": "https://www.pcgameshardware.de/Nvidia-Geforce-Grafikkarte-255598/News/Treiber-61742-6-Frame-Generation-Modern-Warfare-4-MSFS-2024-1556008/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/02_Call-of-Duty-Modern-Warfare-4-pc-games.jpg",
-    "source": "PCGH"
+    "description": "Microsoft und Nvidia haben heute Abend zur agentischen Zukunft von Windows 11 on Arm auf Nvidia RTX Spark gesprochen und damit den Endspurt zur Markteinführung der Plattform eingeläutet. Auch Partner dürfen jetzt endl...",
+    "url": "https://www.computerbase.de/news/notebooks/rtx-spark-preise-das-msi-prestige-n16-flip-ai-plus-c1xmt-startet-bei-3-449-euro.99705/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
-    "title": "[PLUS] Radeon RX 9070 \"XTX\" per Tuning: Mit PCGH-i2c-Tool zu mehr Leistung",
-    "date": "2026-10-07",
-    "category": "Software",
-    "description": "Ein direkter Zugriff auf Spannungs- und Power-Regler eröffnet neuen Tuning-Spielraum für RDNA 4 - über Linux mit Wirkung in Windows. Der Artikel stammt aus PC Games Hardware 03/2026.",
-    "url": "https://www.pcgameshardware.de/Radeon-RX-9070-XT-Grafikkarte-281023/Specials/Tuning-fuer-RDNA-4-per-i2c-Bus-1493877/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/01/aufmacher_rx9070_Linux-pcgh.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "Geforce unter Windows 10: Im Oktober kommt der letzte Game-Ready-Treiber",
-    "date": "2026-10-07",
-    "category": "Software",
-    "description": "Nvidia läutet bei Geforce unter Windows 10 den letzten Monat mit regulären Game-Ready-Treibern ein. Ab November 2026 ändert sich der Support deutlich.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/nvidia-geforce-windows-10-letzter-game-ready-treiber-oktober-2026-1555965/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Windows-10-Nvidia-Treiber-stehen-vor-dem-Support-Ende-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Doom mit DLSS 5: Fan-Port bringt Neural Rendering in den Klassiker von 1993",
-    "date": "2026-10-07",
-    "category": "Software",
-    "description": "Ein Entwickler hat den Shooter-Klassiker Doom jetzt fit für Nvidias Neural Rendering gemacht: Sein DirectX-12-Port erzeugt die Zusatzdaten, die DLSS 5 erwartet. Nvidia sieht das nicht vor und verlangt für DLSS 5 eine...",
-    "url": "https://www.pcgameshardware.de/Doom-Classic-Spiel-55785/News/DLSS-5-Neural-Rendering-Fan-Port-1993-1555975/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Doom_Classic_DLSS_5-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Stromtarif für Gamer im Check: Der Gaming-PC spart kaum mit",
-    "date": "2026-10-07",
-    "category": "Markt",
-    "description": "Unter der Marke meinGAMING vermarktet die SWK Energie aus Krefeld bundesweit einen Stromtarif, der Spieler mit niedrigem Arbeitspreis lockt. Ob sich der Wechsel lohnt, entscheidet der Verbrauch des ganzen Haushalts, k...",
-    "url": "https://www.pcgameshardware.de/Gaming-PC-Hardware-217554/News/Stromtarif-Gamer-meinGAMING-SWK-Ersparnis-Check-1555974/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/10/Screenshot-2026-10-07-at-00-19-23-meinGAMING-Strom-Stromtarif-fuer-Gamer-und-Vielverbraucher-pcgh.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "SK hynix Reportedly Faces Difficulties in HBM Hybrid Bonding, Trailing Samsung",
+    "title": "Speicher-Rennen: Samsungs HBM4E soll Tests bei Nvidia bestanden haben",
     "date": "2026-10-07",
     "category": "Industrie",
-    "description": "According to a process development engineer at SK hynix's future technology research institute, who spoke with Damnang, SK hynix is reportedly facing challenges in developing hybrid bonding technology for its HBM memo...",
-    "url": "https://www.techpowerup.com/353458/sk-hynix-reportedly-faces-difficulties-in-hbm-hybrid-bonding-trailing-samsung",
-    "image": "https://www.techpowerup.com/img/ENfrH2IFSbBkT5Rt.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Samsung Foundry to Manufacture Anthropic AI ASIC on 2 nm Node",
-    "date": "2026-10-07",
-    "category": "Angebote",
-    "description": "Samsung Foundry may be on the verge of securing a significant deal with AI lab Anthropic to manufacture AI accelerators. According to the latest report, Anthropic is developing its custom AI accelerator on Samsung's S...",
-    "url": "https://www.techpowerup.com/353457/samsung-foundry-to-manufacture-anthropic-ai-asic-on-2-nm-node",
-    "image": "https://www.techpowerup.com/img/GeX5rz0zSBhjHupt.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GIGABYTE Levels Up Newegg FantasTech with Big Savings on Gaming Hardware",
-    "date": "2026-10-07",
-    "category": "Angebote",
-    "description": "GIGABYTE, a global leader in PC components and gaming hardware, is bringing a new lineup of deals to Newegg FantasTech from October 5-11, 2026, giving PC builders and gamers an opportunity to upgrade their setups with...",
-    "url": "https://www.techpowerup.com/353365/gigabyte-levels-up-newegg-fantastech-with-big-savings-on-gaming-hardware",
-    "image": "https://www.techpowerup.com/img/vp4mtI88xvwbDNZb.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Intel to Continue Working on Terafab, Confirms CEO Lip-Bu Tan",
-    "date": "2026-10-07",
-    "category": "Industrie",
-    "description": "A few days ago, after news broke that Elon Musk and his Terafab project are looking to start working with TSMC, we were left in the dark about Intel's role in the project. However, we are finally getting confirmation...",
-    "url": "https://www.techpowerup.com/353453/intel-to-continue-working-on-terafab-confirms-ceo-lip-bu-tan",
-    "image": "https://www.techpowerup.com/img/awGEACg7RT4OuMQZ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Xbox Helix Will Be \"a Great Console First\" With Portable Play in Mind, Says CEO",
-    "date": "2026-10-07",
-    "category": "Industrie",
-    "description": "Xbox CEO Asha Sharma has reportedly told staff that the next-generation \"Project Helix\" hardware will lead with a home console, with portable play apparently coming as part of the same lineup. The remarks come from an...",
-    "url": "https://www.techpowerup.com/353451/xbox-helix-will-be-a-great-console-first-with-portable-play-in-mind-says-ceo",
-    "image": "https://www.techpowerup.com/img/bxXGsIsPHxWC6ByW.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Grab Biwin Black Opal NV7400 M.2 NVMe SSD in Our Exclusive Prime Day Deal: Up to 28% Off!",
-    "date": "2026-10-07",
-    "category": "Hardware",
-    "description": "If you've been keeping an eye on the PC hardware market lately, you already know the score: the situation for flash storage is increasingly tense. NAND prices have been steadily climbing for months, and realistically,...",
-    "url": "https://www.techpowerup.com/353311/grab-biwin-black-opal-nv7400-m-2-nvme-ssd-in-our-exclusive-prime-day-deal-up-to-28-off",
-    "image": "https://www.techpowerup.com/img/0VfdnnV0IToGLiF6.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AirLLM: Große KI-Modelle auf schwachen Grafikkarten starten",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "Mit dem GitHub-Repository AirLLM können Sie gewaltige KI-Modelle lokal auf wenigen GByte VRAM laufen lassen. Doch die Sache hat einen großen Haken.",
-    "url": "https://www.heise.de/ratgeber/AirLLM-Grosse-KI-Modelle-auf-schwachen-Grafikkarten-starten-11476015.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/6/6/4/9/Airllm-Aufmacher-255f9287ef98f9ab.png",
-    "source": "Heise"
-  },
-  {
-    "title": "Stresstest: Lastprogramme für AMD- und Intel-CPUs im Vergleich",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "Volllast allein sagt wenig und nicht jedes Tool reizt jeden Prozessor aus. Mit dem passenden Stresstest prüfen Sie, ob Ihr System stabil läuft und kühl bleibt.",
-    "url": "https://www.heise.de/ratgeber/Stresstest-Lastprogramme-fuer-AMD-und-Intel-CPUs-im-Vergleich-11458865.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/9/5/8/image-1547480830385305_Kopie-4336d2aeb5cae25b.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Intel-Googlebooks: Diesmal wird x86 zum Kompatibilitäts­problem",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "Zum Marktstart der neuen Googlebooks folgt eine Einschränkung, die Google zuvor nicht öffentlich gemacht hatte: Einige komplexe Android-Apps und Spiele benötigen auf Modellen mit Intel-Prozessor zusätzliche Optimierun...",
-    "url": "https://www.computerbase.de/news/notebooks/intel-googlebooks-diesmal-wird-x86-zum-kompatibilitaetsproblem.99690/",
+    "description": "Samsungs 12-lagiger HBM4E-Speicher soll die Qualifikationstests bei Nvidia und mehreren großen Hyperscalern bestanden haben. Das berichtet das koreanische Nachrichtenmedium Hankyung. Ende Mai dieses Jahres hatte Samsu...",
+    "url": "https://www.computerbase.de/news/arbeitsspeicher/speicher-rennen-samsungs-hbm4e-soll-tests-bei-nvidia-bestanden-haben.99704/",
     "image": null,
     "source": "ComputerBase"
   },
   {
-    "title": "Community-Benchmark: Testet Gears of War: E-Day auf eurem System!",
-    "date": "2026-10-06",
-    "category": "Software",
-    "description": "Gears of War: E-Day (Test) kann ab sofort auch von Käufern der Basisversion und im Game Pass (Ultimate + PC) gespielt werden. Mit an Bord: Ein integrierter Benchmark. Beides zusammen lässt uns am Ende keine Wahl: Wir...",
-    "url": "https://www.computerbase.de/artikel/gaming/community-benchmark-gears-war-e-day.99650/",
+    "title": "Nvidia GeForce 617.42: Treiber optimiert für CoD: MW4, Galactic Racer & Valor Mortis",
+    "date": "2026-10-07",
+    "category": "Hardware",
+    "description": "Beim neuen GeForce-Treiber 617.42 stehen Optimierungen für Call of Duty: Modern Warfare 4 im Fokus. Das ist aber nicht das einzige Spiel, für den der Treiber als „Game Ready“ markiert wird. Auch Dragon's Dogma 2: Dark...",
+    "url": "https://www.computerbase.de/news/grafikkarten/nvidia-geforce-617-42-treiber-optimiert-fuer-cod-mw4-galactic-racer-und-valor-mortis.99702/",
     "image": null,
     "source": "ComputerBase"
   },
   {
-    "title": "Core Ultra 4xxx: AIDA64 erkennt nun Intel Nova Lake-S",
-    "date": "2026-10-06",
+    "title": "Kaum noch Lagerware: Die Nvidia GeForce RTX 5090 ist quasi verschwunden",
+    "date": "2026-10-07",
     "category": "Hardware",
-    "description": "Eine neue Beta-Version des Monitoring-Tools AIDA64 bestätigt, was die Spatzen bereits von den Dächern pfeifen: Die Prozessoren der Familie Intel Nova Lake-S werden als Core Ultra 4xxx Series erscheinen. Der Entwickler...",
-    "url": "https://www.computerbase.de/news/prozessoren/core-ultra-4xxx-aida64-erkennt-nun-intel-nova-lake-s.99688/",
+    "description": "Es gibt keine Gerüchte, die besagen, dass Nvidia die GeForce RTX 5090 eingestellt hat. Doch im deutschen Handel ist das zuletzt im Durchschnitt über 6.000 Euro 2.099-Euro-UVP-Topmodell trotzdem so gut wie nicht mehr z...",
+    "url": "https://www.computerbase.de/news/grafikkarten/kaum-noch-lagerware-die-nvidia-geforce-rtx-5090-ist-quasi-verschwunden.99699/",
     "image": null,
     "source": "ComputerBase"
   },
   {
-    "title": "RAMageddon: Den RAM-Verbrauch von Windows zu senken, ist Fokusthema",
-    "date": "2026-10-06",
+    "title": "Der erste \"Multimedia-PC\" (PCGH-Retro, 08. Oktober)",
+    "date": "2026-10-07",
     "category": "Hardware",
-    "description": "Speicher ist teuer, also weniger kaufen? Ja, aber dem Griff nach nur 8 GB RAM schiebt Windows 11 aktuell noch schnell einen Riegel vor. Der Test des Chuwi UniBook 304 mit 8 GB RAM hat das erst jüngst wieder gezeigt. D...",
-    "url": "https://www.computerbase.de/news/betriebssysteme/ramageddon-den-ram-verbrauch-von-windows-zu-senken-ist-fokusthema.99689/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Anzeige: Gaming-Headset von Logitech am Prime Day günstig wie nie",
-    "date": "2026-10-06",
-    "category": "Angebote",
-    "description": "Das Gaming-Headset Logitech G Astro A50 Lightspeed mit Dolby Atmos und Spatial Audio gibt es am Prime Day zum Tiefstpreis bei Amazon. (Logitech, Prime Day)",
-    "url": "https://www.golem.de/news/anzeige-gaming-headset-von-logitech-am-prime-day-guenstig-wie-nie-2610-213782.html",
-    "image": "https://www.golem.de/2610/213782-601930-601928_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Atis erste Dual-GPU-Karte (PCGH-Retro, 07. Oktober)",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "Atis erste Dual-GPU-Karte - die kam am 7. Oktober. Jeden Tag wagt PC Games Hardware einen Blick zurück in die noch junge, aber bewegte Geschichte des Computers.",
-    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/News/Atis-erste-Dual-GPU-Karte-PCGH-Retro-07-Oktober-662392/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2009/10/Rage-Fury-Maxx.JPG",
+    "description": "Der erste Multimedia-PC mit 386SX und 2 MiB RAM - das geschah am 8. Oktober. Jeden Tag wirft PC Games Hardware einen Blick zurück in die noch junge, aber bewegte Geschichte des Computers.",
+    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/News/Der-erste-Multimedia-PC-PCGH-Retro-08-Oktober-662514/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2009/10/MPC.png",
     "source": "PCGH"
   },
   {
-    "title": "[PLUS] Tuning-Guide: Geforce RTX 5080 im Griff - Mehr Fps, weniger Lärm, höhere Effizienz",
-    "date": "2026-10-06",
+    "title": "DDR5-6000 CL30: Hynix-Tempo zum Hynix-Preis aus China",
+    "date": "2026-10-07",
     "category": "Hardware",
-    "description": "PCGH Plus: Ganzer Generationssprung, halber Leistungshüpfer - das ist Nvidias Geforce RTX 5080. Wie viel Tuning lässt sie zu? Gelingt der Satz über die Zehn-Prozent-Hürde? Bühne frei, jetzt spricht sie für sich selbst...",
-    "url": "https://www.pcgameshardware.de/Geforce-RTX-5080-Grafikkarte-281030/Specials/Tuning-Geforce-RTX-5080-im-Griff-1469747/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/04/aufmacher_tuning_geforce_RTX2080-pcgh.jpg",
+    "description": "Colorful verkauft in China jetzt ein DDR5-6000-Kit mit CL30 und Speicherchips aus heimischer Fertigung. Wer auf China-RAM als Ausweg aus der Speicherkrise gehofft hat, dürfte beim Preis von 600 US-Dollar für 32 GiB er...",
+    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/DDR5-6000-CL30-China-RAM-CXMT-Colorful-Preis-1556109/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/10/COLORFUL-IGAME-SHADOW-CXMT-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "Gigabyte AI TOP 100 B850: Mit RTX 5090 oder zwei Radeon AI Pro R9700 für doppelten VRAM",
-    "date": "2026-10-06",
+    "title": "RTX Spark und Windows 11: Surface Laptop Ultra startet ab 2.599 USD",
+    "date": "2026-10-07",
     "category": "Hardware",
-    "description": "Gigabyte erweitert sein AI-TOP-Portfolio um einen weiteren Desktop-PC, der lokale KI-Workloads ohne den Umweg über Cloud-Infrastruktur bewältigen soll.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/komplettsysteme/70541-gigabyte-ai-top-100-b850-mit-rtx-5090-oder-zwei-radeon-ai-pro-r9700-fuer-doppelten-vram.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/jolly_thermals_96/gigabyte_ai_top_100_b850_001_680px.jpg",
+    "description": "Für die RTX-Spark-Plattform ist heute der Startschuss gefallen. Die Ehre der Einführung der neuen Hardware und Gesamtplattform wurde Microsoft zuteil, die auf einer Veranstaltung über die Hardware, vor allem aber die...",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/70553-nvidia-und-microsoft-rtx-spark.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/loyal_oc_k0/bildschirmfoto_2026_10_07_um_10_09_40_680px.png",
     "source": "HardwareLuxx"
   },
   {
-    "title": "NVIDIA Shield TV Pro: Statt neuer Hardware gibt es eine kräftige Preiserhöhung",
-    "date": "2026-10-06",
-    "category": "Markt",
-    "description": "NVIDIA hält auch sieben Jahre nach der letzten größeren Hardware-Aktualisierung an seiner Shield-TV-Plattform fest.",
-    "url": "https://www.hardwareluxx.de/index.php/news/consumer-electronics/gadgets/70540-nvidia-shield-tv-pro-statt-neuer-hardware-gibt-es-eine-kraeftige-preiserhoehung.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2022/Dec/fresh_traffic_9f/nvidia-shield-1_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "192 GB Speicher: AMD stellt Gorgon Halo ins Schaufenster",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "Zur Computex stellte AMD mit Gorgon Halo (Ryzen AI Max Pro 400+) den \"Nachfolger\" von Strix Halo vor.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/70538-192-gb-speicher-amd-stellt-gorgon-halo-ins-schaufenster.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/lucid_silicone_wi/amd_ryzen_ai_max_pro_400_1_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Leaked GameStop Memo Calls $1,399.99 Used PS5 Pro Pricing \"Intentional\"",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "GameStop is now reportedly asking $1,399.99 for a pre-owned PlayStation 5 Pro, which is $500 more than Sony's $899.99 list price for a new one. Consoles with the disc drive attached go for $1,499.99, and GameStop Pro...",
-    "url": "https://www.techpowerup.com/353447/leaked-gamestop-memo-calls-usd-1-399-99-used-ps5-pro-pricing-intentional",
-    "image": "https://www.techpowerup.com/img/jxcqZZfuxa4miE7f.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GTA 6 Cloud Streaming Reportedly Exclusive to Xbox",
-    "date": "2026-10-06",
-    "category": "Markt",
-    "description": "Microsoft has reportedly signed a deal that makes Xbox Cloud Gaming the only cloud service allowed to stream Grand Theft Auto 6 at launch, according to The Verge's Tom Warren, citing sources familiar with Microsoft's...",
-    "url": "https://www.techpowerup.com/353446/gta-6-cloud-streaming-reportedly-exclusive-to-xbox",
-    "image": "https://www.techpowerup.com/img/9og93JFkFksxl1fB.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GIGABYTE Levels Up Best Buy Techtober with Big Savings on High-Performance Laptops",
-    "date": "2026-10-06",
-    "category": "Angebote",
-    "description": "GIGABYTE, a global leader in PC components and gaming hardware, is bringing a new lineup of deals to Best Buy Techtober from October 5-11, 2026, giving PC gamers, students, and creators an opportunity to upgrade their...",
-    "url": "https://www.techpowerup.com/353366/gigabyte-levels-up-best-buy-techtober-with-big-savings-on-high-performance-laptops",
-    "image": "https://www.techpowerup.com/img/7YXqKDdUXYpOrcAz.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AMD CEO Lisa Su Says 2027 Will Bring a \"Substantial\" Supply Increase",
-    "date": "2026-10-06",
+    "title": "Fast 6 Billionen Dollar wert: NVIDIA schreibt Börsengeschichte",
+    "date": "2026-10-07",
     "category": "Industrie",
-    "description": "AMD will \"substantially\" increase its chip supply in 2027, CEO Lisa Su told reporters in Taipei on Tuesday, while admitting that demand is still running ahead of what the company can ship. Su is on her third trip to T...",
-    "url": "https://www.techpowerup.com/353445/amd-ceo-lisa-su-says-2027-will-bring-a-substantial-supply-increase",
-    "image": "https://www.techpowerup.com/img/0W4DS6pInwWuIojO.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Borderlands Online MMO Back from Cancellation Thanks to Community Project",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "It seems as though the Borderlands franchise still has its hardcore fanbase, with recent projects, like Project Moonshot that merged Borderlands 2 and The Pre-Sequel into one mega-game being just one example. Followin...",
-    "url": "https://www.techpowerup.com/353444/borderlands-online-mmo-back-from-cancellation-thanks-to-community-project",
-    "image": "https://www.techpowerup.com/img/0gnsIbaXZonOGwwo.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Amazon Fall Prime Day Deal: KAMRUI Mini PCs from $360.99, Save Up to 35%",
-    "date": "2026-10-06",
-    "category": "Angebote",
-    "description": "Amazon Fall Prime Day is here, and KAMRUI is bringing some serious mini PC deals, with savings of up to 35% when the coupon is applied. Three models are on sale, including the Hyper H2 with a 14-core Intel HX chip, th...",
-    "url": "https://www.techpowerup.com/353332/amazon-fall-prime-day-deal-kamrui-mini-pcs-from-usd-360-99-save-up-to-35",
-    "image": "https://www.techpowerup.com/img/GQyWwk6zNcMghzgF.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AMD B650 Chipset Arrives on a $58 PCIe Expansion Card From JGINYUE",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "JGINYUE has put AMD's B650 chipset on a PCIe add-in card called the Xscale.io, and it costs just 388 yuan in China, VideoCardz reports. That works out to roughly $58, although some conversions put it closer to $54. Th...",
-    "url": "https://www.techpowerup.com/353443/amd-b650-chipset-arrives-on-a-usd-58-pcie-expansion-card-from-jginyue",
-    "image": "https://www.techpowerup.com/img/9vyeBA55GXy4hgJ1.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Leak Tips NVIDIA RTX Spark-Powered Microsoft Surface Laptop Specs",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "Following what appears to have been a series of unfortunate events that led to a roadside laptop find resulting in confirmation that Microsoft will be launching a 20-core NVIDIA RTX Spark Surface Laptop, we now appear...",
-    "url": "https://www.techpowerup.com/353440/leak-tips-nvidia-rtx-spark-powered-microsoft-surface-laptop-specs",
-    "image": "https://www.techpowerup.com/img/9Qz90384DCJukCVh.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GIGABYTE Powers Up Amazon Prime Day 2 with Major Savings on Motherboards and Gaming Monitors",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "GIGABYTE, a global leader in PC components and gaming hardware, is bringing major savings to Amazon Prime Day 2 with a wide selection of deals on motherboards and gaming monitors from October 6-7, 2026. Whether gamers...",
-    "url": "https://www.techpowerup.com/353362/gigabyte-powers-up-amazon-prime-day-2-with-major-savings-on-motherboards-and-gaming-monitors",
-    "image": "https://www.techpowerup.com/img/G8qmozMSCtjUHTcp.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Dell Servers are Exposed to Privilege Escalation Vulnerability",
-    "date": "2026-10-06",
-    "category": "Software",
-    "description": "Dell has released a patch for its Dell System Update (DSU) software, version 2.3.0.0, to address a critical vulnerability affecting the tool. According to the latest DSU update information, several CVEs are present th...",
-    "url": "https://www.techpowerup.com/353441/dell-servers-are-exposed-to-privilege-escalation-vulnerability",
-    "image": "https://www.techpowerup.com/img/i0fBqvBXjViNqoq6.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "SEGA Exec Says AI Already in Use at Studio but Not for Creative Tasks",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "The use of AI-generated art to accelerate video game development is becoming more and more common, with massive game studios like EA and Capcom openly acknowledging that they will be using AI to streamline their game...",
-    "url": "https://www.techpowerup.com/353438/sega-exec-says-ai-already-in-use-at-studio-but-not-for-creative-tasks",
-    "image": "https://www.techpowerup.com/img/1MASSuUkrBqgVvkB.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "Microsoft Project Professional 2024 is built for managing projects from the initial plan through completion, with tools for organizing tasks, coordinating resources, monitoring progress, and creating reports. For a li...",
-    "url": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
-    "image": "https://www.techpowerup.com/img/Wm7OkZN9FMvZfKlO.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Zalman Intros S6 Black ATX Mid-Tower Case Series",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "Zalman has launched two new mid-tower cases, the S6 Black and S6 V2 Black, with identical dimensions of 412 x 215 x 486 mm and the same core specifications. The only difference between them is that the V2 Black includ...",
-    "url": "https://www.techpowerup.com/353437/zalman-intros-s6-black-atx-mid-tower-case-series",
-    "image": "https://www.techpowerup.com/img/pqZtDdRjMHNV7nXn.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Warhammer Survivors Bullet Heaven Gets Early November Launch Date and Release Pricing",
-    "date": "2026-10-06",
-    "category": "Markt",
-    "description": "Warhammer Survivors is an upcoming bullet heaven game set in the grim-dark Warhammer universe. As the name suggests, the game takes inspiration from the recent flurry of games similar to Vampire Survivors, and it feat...",
-    "url": "https://www.techpowerup.com/353430/warhammer-survivors-bullet-heaven-gets-early-november-launch-date-and-release-pricing",
-    "image": "https://www.techpowerup.com/img/mb62EKNWlx5FdexY.jpg",
-    "source": "TechPowerUp"
+    "description": "NVIDIAs Höhenflug an den Kapitalmärkten hält weiterhin an. Das führt dazu, dass sich der Konzern einer neuen Rekordmarke nähert.",
+    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70544-fast-6-billionen-dollar-wert-nvidia-schreibt-boersengeschichte.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2023/May/galore_query_ez/nvidia_logo_680px.png",
+    "source": "HardwareLuxx"
   },
   {
     "title": "Upgrade Your Windows 11 Setup With Pro Features for a One-Time $9.97 Payment",
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "category": "Software",
     "description": "If you're still running Windows 11 Home, the Pro version adds features aimed at people who need more control over their PC, including BitLocker encryption, Hyper-V virtualization, Remote Desktop, and enhanced device m...",
     "url": "https://www.techpowerup.com/353223/upgrade-your-windows-11-setup-with-pro-features-for-a-one-time-usd-9-97-payment",
     "image": "https://www.techpowerup.com/img/GCTySAHr3J3D2qND.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "NVIDIA Releases GeForce 617.42 WHQL Game Ready Drivers",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "NVIDIA today introduced its GeForce 617.42 WHQL Game Ready driver, bringing support and optimizations for various new game releases. First, there is Game Ready support for two new titles: Call of Duty: Modern Warfare...",
-    "url": "https://www.techpowerup.com/353425/nvidia-releases-geforce-617-42-whql-game-ready-drivers",
-    "image": "https://www.techpowerup.com/img/m9xis7lmjjoUbsUa.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Starforge Systems Launches Frieren: Beyond Journey's End Themed Keyboard, Keycap Set, Desk Mat and Wall Art",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "Starforge Systems is expanding its range for the beloved anime series Frieren: Beyond Journey's End with an all-new Ducky Tinker 75 Keyboard, Keycap Set, Desk Mat and new Wall Art featuring Frieren and her loyal trave...",
-    "url": "https://www.techpowerup.com/353433/starforge-systems-launches-frieren-beyond-journeys-end-themed-keyboard-keycap-set-desk-mat-and-wall-art",
-    "image": "https://www.techpowerup.com/img/JcBI89YvJ4FVCPjv.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Pimax Unveils Crystal Pro Wireless PC VR Headset with Native Foveated Streaming",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "Pimax, a leading manufacturer of high-end PC virtual reality headsets, today unveiled Crystal Pro, a wireless PC VR headset built around a streaming technology it calls Native Foveated Streaming, at its \"Frontier: Cha...",
-    "url": "https://www.techpowerup.com/353432/pimax-unveils-crystal-pro-wireless-pc-vr-headset-with-native-foveated-streaming",
-    "image": "https://www.techpowerup.com/img/IsMPKh1H4Jw3mWGf.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Icy Dock Releases EXLink MB308A5 PCIe 5.0 x16 NVMe Host Adapter Card",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "The ICY DOCK EXLink MB308A5 is a PCIe 5.0 x16 NVMe host adapter card with dual MCIO 8i (SFF-TA-1016) connectivity, designed for next-generation high-speed NVMe cabling. With an integrated PCIe Gen 5 redriver and 100 M...",
-    "url": "https://www.techpowerup.com/353431/icy-dock-releases-exlink-mb308a5-pcie-5-0-x16-nvme-host-adapter-card",
-    "image": "https://www.techpowerup.com/img/KWXEhX42PXDYLzSi.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) TDM. Announces Neo, the World's First Headphones That Twist Into a Speaker",
-    "date": "2026-10-06",
-    "category": "Hardware",
-    "description": "TDM., the innovative audio company that designs products to move with the rhythm of daily life, today announced Neo, the world's first high-fidelity headphones that transform into a portable speaker with a single twis...",
-    "url": "https://www.techpowerup.com/353429/tdm-announces-neo-the-worlds-first-headphones-that-twist-into-a-speaker",
-    "image": "https://www.techpowerup.com/img/Auu7BFjwBKj2ziPh.jpg",
     "source": "TechPowerUp"
   }
 ]
