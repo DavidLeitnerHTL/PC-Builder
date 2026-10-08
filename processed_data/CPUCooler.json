@@ -189,7 +189,7 @@
         "clean_name": "Corsair iCUE H100i ELITE CAPELLIX XT Water 65.57 CFM White",
         "cooler_type": true,
         "radiator_size": 240,
-        "height": 49,
+        "height": 54,
         "min_fan_rpm": 550,
         "max_fan_rpm": 2100,
         "min_noise_level": 5,
@@ -1035,12 +1035,12 @@
     {
         "id": "51948646-b238-4e28-bed1-5648feaa1d7e",
         "name": "TRYX PANORAMA Water 240mm 81.32 CFM White",
-        "variant": "Default",
+        "variant": "",
         "amazon_sku": "B0DLB2GV7F",
         "clean_name": "TRYX PANORAMA Water 81.32 CFM White",
         "cooler_type": true,
         "radiator_size": 240,
-        "height": 116,
+        "height": 118,
         "min_fan_rpm": 500,
         "max_fan_rpm": 2250,
         "min_noise_level": 30.97,
@@ -1319,25 +1319,6 @@
         "color": [],
         "available": false,
         "last_updated": "2026-09-16T08:56:45.022Z"
-    },
-    {
-        "id": "4fd501b4-be04-4fb4-879f-63896ade832c",
-        "name": "Corsair iCUE H150i ELITE CAPELLIX XT Water 360mm Black",
-        "variant": "Default",
-        "amazon_sku": "B0BQJ6QL7L",
-        "clean_name": "Corsair iCUE H150i ELITE CAPELLIX XT Water Black",
-        "cooler_type": true,
-        "radiator_size": 360,
-        "height": 49,
-        "min_fan_rpm": 550,
-        "max_fan_rpm": 2100,
-        "min_noise_level": 5,
-        "max_noise_level": 34.1,
-        "color": [
-            "BLACK"
-        ],
-        "available": false,
-        "last_updated": "2026-09-15T09:14:13.418Z"
     },
     {
         "id": "8d3f0132-a0ff-4d08-aa5e-f3b860d639cf",
@@ -1822,6 +1803,24 @@
         "max_noise_level": 27.1,
         "color": [
             "BLACK"
+        ]
+    },
+    {
+        "id": "1e9792e7-4ac2-42a1-b72f-ab3c2d55bdc5",
+        "name": "Cooler Master Hyper 212 EVO V2 Air 154mm 62 CFM",
+        "variant": "EVO V2 ARGB",
+        "amazon_sku": "B09KYDY9HB",
+        "clean_name": "Cooler Master Hyper 212 EVO V2 Air 62 CFM",
+        "cooler_type": false,
+        "radiator_size": "154mm",
+        "height": 154,
+        "min_fan_rpm": 650,
+        "max_fan_rpm": 1800,
+        "min_noise_level": 8,
+        "max_noise_level": 27,
+        "color": [
+            "BLACK",
+            "GREY"
         ]
     }
 ]
