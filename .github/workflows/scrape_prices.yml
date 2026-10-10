@@ -14,7 +14,7 @@ on:
 jobs:
   scrape:
     # Runs on GitHub-hosted ubuntu-latest (no OOM), but all network traffic
-    # is routed through a WireGuard tunnel to the home Pi so Amazon sees
+    # is routed through a Tailscale exit node on the home Pi so Amazon sees
     # the residential IP instead of an Azure datacenter IP.
     runs-on: ubuntu-latest
     timeout-minutes: 300
@@ -27,11 +27,35 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Auth: an OAuth client (TS_OAUTH_CLIENT_ID / TS_OAUTH_SECRET) never
+      # expires and wins when set. TS_AUTHKEY is the legacy fallback -- auth
+      # keys expire after at most 90 days, which silently broke this job.
       - name: Connect to Tailscale exit node (residential IP)
-        uses: tailscale/github-action@v2
+        uses: tailscale/github-action@v3
         with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
           authkey: ${{ secrets.TS_AUTHKEY }}
           args: --exit-node=100.101.155.64 --exit-node-allow-lan-access=false
+
+      # The action does not fail the step when every `tailscale up` retry
+      # fails, so check the tunnel explicitly. Scraping from the Azure IP
+      # only gets the run bot-blocked.
+      - name: Verify exit node is active
+        shell: bash
+        run: |
+          for attempt in $(seq 1 12); do
+            if sudo tailscale status --json \
+                | jq -e '.BackendState == "Running" and (.ExitNodeStatus.Online // false)' >/dev/null; then
+              echo "Exit node online -- traffic leaves via the residential IP."
+              exit 0
+            fi
+            sleep 5
+          done
+          sudo tailscale status || true
+          echo "::error title=Tailscale exit node not active::Refusing to scrape from a datacenter IP. Check the TS_OAUTH_CLIENT_ID/TS_OAUTH_SECRET (or TS_AUTHKEY) secrets and that the Pi exit node 100.101.155.64 is online and advertising as exit node."
+          exit 1
 
       # The HTTP-first scrape path uses the global fetch API, which needs
       # Node 18+. Pin it instead of relying on whatever the runner image ships.
