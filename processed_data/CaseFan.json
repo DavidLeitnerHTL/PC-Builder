@@ -1620,33 +1620,6 @@
         "last_updated": "2026-09-16T08:59:24.959Z"
     },
     {
-        "id": "c3fe3adf-f657-414d-ae13-cb8f44944914",
-        "name": "Noctua A12x15 120mm Brown PWM",
-        "variant": "",
-        "amazon_sku": "B071W6HJP6",
-        "clean_name": "Noctua A12x15 Brown",
-        "size": 120,
-        "quantity": 1,
-        "pwm": true,
-        "led": "None",
-        "connector": "4-pin PWM",
-        "controller": "None",
-        "flow_direction": "Standard",
-        "is_oem": false,
-        "min_airflow": 41.67,
-        "max_airflow": 55.44,
-        "min_noise_level": 16.8,
-        "max_noise_level": 23.9,
-        "static_pressure": 1.53,
-        "color": [
-            "BROWN"
-        ],
-        "fan_size": "120mm",
-        "features": "PWM",
-        "price": 25.1,
-        "last_updated": "2026-09-16T08:59:28.200Z"
-    },
-    {
         "id": "f82a7fac-3aa7-4af1-b4ec-7d71f7c83ac5",
         "name": "Noctua A12x25 120mm Brown PWM",
         "variant": "",
@@ -2780,5 +2753,32 @@
         "fan_size": "120mm",
         "airflow": "78.02 CFM",
         "features": "PWM"
+    },
+    {
+        "id": "f9c9df00-1522-4d03-bdd0-d297401d4ba3",
+        "name": "Thermaltake SWAFAN EX14 140mm ARGB PWM 81.6 CFM Blue / White 3-Pack",
+        "variant": "140mm Blue / White",
+        "amazon_sku": "B0CTGNJ2KK",
+        "clean_name": "Thermaltake SWA EX14 Blue / White 3-Pack",
+        "size": 140,
+        "quantity": 3,
+        "pwm": true,
+        "led": "Addressable RGB",
+        "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+        "controller": "None",
+        "flow_direction": "Standard",
+        "is_oem": false,
+        "min_airflow": 79.3,
+        "max_airflow": 81.6,
+        "min_noise_level": 34.5,
+        "max_noise_level": 38.8,
+        "static_pressure": 3.17,
+        "color": [
+            "BLUE",
+            "WHITE"
+        ],
+        "fan_size": "140mm",
+        "airflow": "81.6 CFM",
+        "features": "ARGB, PWM"
     }
 ]
