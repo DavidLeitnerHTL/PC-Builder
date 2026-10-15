@@ -1958,6 +1958,25 @@
         "case_type": "Mid Tower"
     },
     {
+        "id": "76d4d0ac-931c-4867-8776-fb52a191ccd4",
+        "name": "AeroCool Cylon RGB Front with Built in Card Reader and Side Window Panel Mid Tower White",
+        "variant": "RGB",
+        "amazon_sku": "B07B915QRW",
+        "clean_name": "AeroCool Cylon RGB Front with Built in Card Reader and Side Window Panel White",
+        "type": "ATX Mid Tower",
+        "color": [
+            "WHITE"
+        ],
+        "motherboard_support": [
+            "ATX",
+            "Micro ATX",
+            "Mini-ITX"
+        ],
+        "max_gpu_length": 371,
+        "max_cooler_height": 155,
+        "case_type": "Mid Tower"
+    },
+    {
         "id": "7245f089-fea8-41a0-92b2-4a807c52393e",
         "name": "Aerocool D501A V2 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
         "variant": "",
@@ -2107,26 +2126,6 @@
         ],
         "max_gpu_length": 410,
         "max_cooler_height": 160,
-        "case_type": "Mid Tower"
-    },
-    {
-        "id": "87bb55b6-30ad-4002-a97b-0eb9118d12e7",
-        "name": "Antec C7 ATX Mid Tower White Tempered Glass Side Panel ARGB",
-        "variant": "",
-        "amazon_sku": "B0D9LKXD8R",
-        "clean_name": "Antec C7 White Tempered Glass Side Panel ARGB",
-        "type": "ATX Mid Tower",
-        "color": [
-            "WHITE"
-        ],
-        "motherboard_support": [
-            "ATX",
-            "Micro ATX",
-            "Mini-ITX",
-            "EATX"
-        ],
-        "max_gpu_length": 450,
-        "max_cooler_height": 180,
         "case_type": "Mid Tower"
     }
 ]
