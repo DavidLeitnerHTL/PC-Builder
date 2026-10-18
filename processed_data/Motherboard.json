@@ -14,7 +14,7 @@
     {
         "id": "71485fc2-60a7-442a-8fc4-251f9bba2608",
         "name": "ASRock A520 M-HDV DDR4 Micro ATX",
-        "variant": "",
+        "variant": "A520M-HDV",
         "amazon_sku": "B08G1Y95SZ",
         "clean_name": "ASRock A520 M-HDV",
         "socket": "AM4",
@@ -26,7 +26,7 @@
     {
         "id": "bfbd6ed8-a085-4a0b-bc3b-dfacfc2cc920",
         "name": "ASRock A520 M-HVS AM4 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "A520M-HVS",
         "amazon_sku": "B08HKWLNPV",
         "clean_name": "ASRock A520 M-HVS",
         "socket": "AM4",
@@ -170,7 +170,7 @@
     {
         "id": "92c363b9-65ac-4955-b88b-888704569ee6",
         "name": "ASROCK B650M PRO RS AM5 DDR5 MICRO-ATX",
-        "variant": "B650M PRO RS",
+        "variant": "B650M RS",
         "amazon_sku": "B0C6HWFVNS",
         "clean_name": "ASROCK B650M PRO RS",
         "socket": "AM5",
@@ -182,7 +182,7 @@
     {
         "id": "34782783-8f5d-413e-a676-b59ca50069c9",
         "name": "ASRock B650M Pro RS WiFi AM5 DDR5 Micro ATX",
-        "variant": "B650M PRO RS WIFI",
+        "variant": "B650M RS WiFi",
         "amazon_sku": "B0C5Y4SRKF",
         "clean_name": "ASRock B650M Pro RS WiFi",
         "socket": "AM5",
@@ -398,7 +398,7 @@
     {
         "id": "cd1d5e7a-12ad-4553-9f03-60cba3ba0bf6",
         "name": "Asus B860 PRIME B860M-A-CSM LGA1851 DDR5 Micro ATX",
-        "variant": "",
+        "variant": "B860M-A-CSM",
         "amazon_sku": "B0DPMQJ2W7",
         "clean_name": "Asus B860 PRIME B860M-A-CSM",
         "socket": "LGA 1851",
@@ -410,7 +410,7 @@
     {
         "id": "faff4cdf-b168-4390-bba1-ca527713271f",
         "name": "Asus B860 PRIME B860M-K DDR5 Micro ATX",
-        "variant": "",
+        "variant": "B860M-K",
         "amazon_sku": "B0DPMPSGF6",
         "clean_name": "Asus B860 PRIME B860M-K",
         "socket": "LGA 1851",
@@ -529,7 +529,7 @@
     {
         "id": "5fd9b0a1-b7c6-4254-86d1-b7b368be8300",
         "name": "ASRock B450 M-HDV AM4 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "B450M-HDV",
         "amazon_sku": "B07FVKWLQK",
         "clean_name": "ASRock B450 M-HDV",
         "socket": "AM4",
@@ -541,7 +541,7 @@
     {
         "id": "324a4934-082a-42dc-bfb3-47df2d9ef9a2",
         "name": "ASRock B450 M/AC AM4 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "B450M/ac",
         "amazon_sku": "B07SY8CMTX",
         "clean_name": "ASRock B450 M/AC",
         "socket": "AM4",
@@ -553,7 +553,7 @@
     {
         "id": "e13268ff-3bc6-4e4e-8ef9-1ddd137995f8",
         "name": "ASRock B450 M/ac R2.0 WIFI DDR4 Micro ATX",
-        "variant": "",
+        "variant": "B450M/ac R2.0",
         "amazon_sku": "B09KZYMP8P",
         "clean_name": "ASRock B450 M/ac R2.0 WIFI",
         "socket": "AM4",
@@ -625,7 +625,7 @@
     {
         "id": "13e720e7-1399-40ac-b163-ab9ff03d2cb7",
         "name": "ASRock B550 PG Velocita DDR4 ATX",
-        "variant": "",
+        "variant": "B550 PG VELOCITA",
         "amazon_sku": "B088VSTS9H",
         "clean_name": "ASRock B550 PG Velocita",
         "socket": "AM4",
@@ -685,7 +685,7 @@
     {
         "id": "578fa78a-0ece-4592-ac81-d9bfbf4ace8e",
         "name": "ASRock B650 Pro RS WiFi DDR5 ATX",
-        "variant": "",
+        "variant": "B650 RS WiFi",
         "amazon_sku": "B0D2CRJ9GY",
         "clean_name": "ASRock B650 Pro RS WiFi",
         "socket": "AM5",
@@ -1103,7 +1103,7 @@
     {
         "id": "b0144217-6f1a-412e-ab0f-b9af6a831d5e",
         "name": "ASRock A620 A620M Pro RS WiFi AM5 DDR5 Micro ATX",
-        "variant": "",
+        "variant": "A620M RS WIFI",
         "amazon_sku": "B0C2114HTX",
         "clean_name": "ASRock A620 A620M Pro RS WiFi",
         "socket": "AM5",
@@ -1113,7 +1113,7 @@
     {
         "id": "f9f67062-9f91-47b0-ac1d-f960132bfb40",
         "name": "ASRock B550M Phantom Gaming 4 AM4 DDR4 Micro ATX",
-        "variant": "",
+        "variant": "B550M 4",
         "amazon_sku": "B08MXSQS49",
         "clean_name": "ASRock B550M Phantom Gaming 4",
         "socket": "AM4",
@@ -1133,7 +1133,7 @@
     {
         "id": "de33624e-6b68-41d0-b1c6-e90f1273f3af",
         "name": "ASRock B650 PG LIGHTNING AM5 DDR5 ATX",
-        "variant": "",
+        "variant": "B650 Lightning",
         "amazon_sku": "B0BH4M6ZL9",
         "clean_name": "ASRock B650 PG LIGHTNING",
         "socket": "AM5",
@@ -1153,7 +1153,7 @@
     {
         "id": "b593ec1e-3348-4bc2-bdfa-c14b3ebe58f5",
         "name": "ASRock B650M PG RIPTIDE AM5 DDR5 Micro ATX",
-        "variant": "",
+        "variant": "B650M Riptide",
         "amazon_sku": "B0BHYV43QV",
         "clean_name": "ASRock B650M PG RIPTIDE",
         "socket": "AM5",
@@ -1163,7 +1163,7 @@
     {
         "id": "f95a2cf1-ec57-4529-aed6-e3674858fa29",
         "name": "ASRock B650M PG RIPTIDE WIFI DDR5 Micro ATX",
-        "variant": "",
+        "variant": "B650M Riptide WiFi",
         "amazon_sku": "B0BHZHV5V1",
         "clean_name": "ASRock B650M PG RIPTIDE WIFI",
         "socket": "AM5",
