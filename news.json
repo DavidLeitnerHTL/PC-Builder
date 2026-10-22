@@ -1,5 +1,194 @@
 [
   {
+    "title": "Qwen 3.6 lokal: Perplexity Computer braucht keine Cloud mehr",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "Die Rechnersteuerung von Perplexity kommt nun ohne Internet aus. Allerdings benötigt der Apple-Silicon-Mac dafür ausreichend RAM.",
+    "url": "https://www.heise.de/news/Perplexity-Computer-Lokale-Nutzung-mit-Qwen-3-6-auf-dem-Mac-11496128.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/6/8/8/2/aufmacher-1792601500995-d15208e7308cff69.png",
+    "source": "Heise"
+  },
+  {
+    "title": "Für bis zu 150.000 Euro: DGX Station für Windows geht im Dezember in den Verkauf",
+    "date": "2026-10-22",
+    "category": "Markt",
+    "description": "Nvidias DGX Station mit Windows wird ab Dezember über OEM-Partner verkauft. Die Preise bewegen sich zwischen 100.000 und 150.000 Euro, der Unterschied liegt natürlich in erster Linie bei der Speicherbestückung der jew...",
+    "url": "https://www.computerbase.de/news/pc-systeme/fuer-bis-zu-150-000-euro-dgx-station-fuer-windows-geht-im-dezember-in-den-verkauf.99947/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Für Rechenzentren: Nvidia will mehr Geld mit Software-Lizenzen verdienen",
+    "date": "2026-10-22",
+    "category": "Angebote",
+    "description": "Bislang stellt Nvidia Software für KI-Systeme kostenlos bereit. Das soll sich ändern, Lizenzen sollen ein neues Standbein werden. (Nvidia, KI)",
+    "url": "https://www.golem.de/news/fuer-rechenzentren-nvidia-will-mehr-geld-mit-software-lizenzen-verdienen-2610-214389.html",
+    "image": "https://www.golem.de/2610/214389-604699-604697_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Microsoft: Verstecktes Menü verschiebt Taskleiste in Windows 11",
+    "date": "2026-10-22",
+    "category": "Software",
+    "description": "Taskleiste an den Seiten oder doch lieber wie bei MacOS oben am Rand? Microsoft testet das Verschieben per Menü, nicht aber Drag-and-Drop. (Windows 11, Microsoft)",
+    "url": "https://www.golem.de/news/microsoft-verstecktes-menue-verschiebt-taskleiste-in-windows-11-2610-214377.html",
+    "image": "https://www.golem.de/2610/214377-604622-604620_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "AI-RAN im Labortest: Telekom, Nokia und Nvidia erzielen mehr Uplink-Durchsatz",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "In Labortests von Deutscher Telekom, Nokia und Nvidia steigert eine KI-basierte Kanalschätzung den Uplink-Durchsatz. Es gibt aber praktische Probleme. (Nvidia, Grafikkarten)",
+    "url": "https://www.golem.de/news/ai-ran-im-labortest-telekom-nokia-und-nvidia-erzielen-mehr-uplink-durchsatz-2610-214367.html",
+    "image": "https://www.golem.de/2610/214367-604572-604570_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Ständig Wasser wechseln, Korrosionsschutz weglassen: PCGH-X diskutiert über XMG-Vorgaben [Update: Herstellerreaktion]",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "Vorgaben eines Notebook-Herstellers sorgen für Kopfschütteln im PCGH-X-Wasserkühlungsforum: XMG schreibt für die Oasis Mk2 ausdrücklich destilliertes Wasser ohne Zusätze vor – im Gegensatz zu nahezu allen anderen Mark...",
+    "url": "https://www.pcgameshardware.de/Wasserkuehlung-Hardware-217994/News/PCGH-X-Diskussion-ueber-Destilliertes-Wasser-in-XMG-Kuehlung-1557138/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/XMG-NEO-16-E25_Feature-05_OASIS-1-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Ryzen unter Linux: AMD reicht Overclocking-Treiber ein, doch die App fehlt noch",
+    "date": "2026-10-22",
+    "category": "Software",
+    "description": "AMD hat am 10. Oktober 2026 einen Overclocking-Treiber für Ryzen unter Linux eingereicht. AOD soll die Power-Limits PPT, TDC und EDC über sysfs zugänglich machen. Die Änderungen greifen erst nach dem Neustart, eine Be...",
+    "url": "https://www.pcgameshardware.de/Linux-Software-26761/News/AMD-Ryzen-Overclocking-Treiber-AOD-1557464/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Linux_Tux_PCGH-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Erste Benchmarks auf dem Mond: HPE schickt lüfterlosen Rechner mit CPU und GPU ins All",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "Hewlett Packard Enterprise bringt einen besonderen Rechner auf den Mond. Damit soll geprüft werden, in welchem Umfang moderne Technik auf dem Erdtrabanten eingesetzt werden kann.",
+    "url": "https://www.pcgameshardware.de/Kuenstliche-Intelligenz-Hardware-279517/News/HPE-Rechner-auf-dem-Mond-1557473/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2024/06/SpaceX-Starship-Mission-Dear-Moon-Mond-Flug-abgesagt-Yusaku-Maezawa-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "USB4 für 98, XP und 7: Treiber macht alte Windows fit für Ryzen- und Core-i-14000-Systeme",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "Ein Hobby-Coder hat lauffähige XHCI-Treiber für alte Windows-Versionen entwickelt, sodass diese USB-Ports auf modernen Mainboards ansteuern können – inklusive Support für USB 3.x, USB4 und Thunderbolt.",
+    "url": "https://www.pcgameshardware.de/PCGH-Retro-Thema-284165/News/xhci98-bringt-windows-98-XP-und-7-auf-Ryzen-und-Core-i-14000-1557395/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/xhci98-superspeed-atto-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Grip 2: Action-Rennspiel mit Steam-Demo und ungeahnte Erinnerungen an EVGA",
+    "date": "2026-10-22",
+    "category": "Industrie",
+    "description": "Mit Grip 2 gibt es seit Kurzem ein neues Kampfrennspiel als Demo auf Steam, das bei Nvidia-Technologiebotschafter Jacob Freeman Erinnerungen an EVGA weckt.",
+    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/News/Grip-2-Action-Rennspiel-Steam-Demo-ungeahnte-EVGA-Erinnerungen-1557361/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Grip-2-Combat-Racing-Evolved-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "(PR) Durabook Introduces the R12 Rugged Tablet Active Edge AI Platform",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "Durabook, the global rugged mobile solutions brand owned by Twinhead International Corporation, today announced its new R12 Rugged Tablet active edge AI platform. With the Intel Core Ultra Series 3 CPU, the R12 Rugged...",
+    "url": "https://www.techpowerup.com/354010/durabook-introduces-the-r12-rugged-tablet-active-edge-ai-platform",
+    "image": "https://www.techpowerup.com/img/TrdTOYojkoFWWrME.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Philips Evnia Unveils Latest Gaming Monitors, Featuring the World's First 36-inch 260Hz Display Built for Gamers",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "Philips Evnia adds the 36M4C5500P, its world's first 36-inch gaming monitor, adopting a 36-inch curved fast VA 1500R panel with Ultra-Wide QHD resolution and a 260 Hz overclockable refresh rate. The 21:9 ultrawide for...",
+    "url": "https://www.techpowerup.com/354009/philips-evnia-unveils-latest-gaming-monitors-featuring-the-worlds-first-36-inch-260hz-display-built-for-gamers",
+    "image": "https://www.techpowerup.com/img/SUtz1YfctYuCMoUa.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "AI image generators can draw a character once, but keeping that character's look consistent across page 12 usually means regenerating images repeatedly. Turning those images into a laid-out book takes another program...",
+    "url": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
+    "image": "https://www.techpowerup.com/img/5VFDr21mU89xNZn0.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Server CPU Shipments Projected to Grow Over 40% YoY in 2027, with Arm-Based Products Continuing to Gain Market S...",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "TrendForce's latest AI server industry research indicates that demand for server CPUs has grown steadily since the second half of 2025 as AI server providers actively introduce AI agent applications. Server CPU shipme...",
+    "url": "https://www.techpowerup.com/354008/server-cpu-shipments-projected-to-grow-over-40-yoy-in-2027-with-arm-based-products-continuing-to-gain-market-share",
+    "image": "https://www.techpowerup.com/img/jkeu28QPf9BwJIg1.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Cherry Launches MX ILLUMA and MX EMERALD REEF Mechanic Keyboard Switches",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "CHERRY has expanded its range of mechanical keyboard switches with the launch of the MX ILLUMA RED, MX ILLUMA BROWN and MX EMERALD REEF. Designed for different typing preferences, the new switches focus on improved st...",
+    "url": "https://www.techpowerup.com/354012/cherry-launches-mx-illuma-and-mx-emerald-reef-mechanic-keyboard-switches",
+    "image": "https://www.techpowerup.com/img/nFKiPGwYq7Ecb8AE.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Ryzen 5800X3D Revival was Lisa Su's Initiative, and Other Interesting Details in AMD Interview with MyNavi Tech+",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "Japanese tech publication MyNavi Tech+ interviewed Travis Kirsch, the client-segment product manager for AMD, and there are some interesting excerpts from the conversation. It turns out that reviving Ryzen 7 5800X3D f...",
+    "url": "https://www.techpowerup.com/354011/ryzen-5800x3d-revival-was-lisa-sus-initiative-and-other-interesting-details-in-amd-interview-with-mynavi-tech",
+    "image": "https://www.techpowerup.com/img/YEUFvifjzQDnwLAg.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Xbox Labs Revives the Xbox 360 Blades Dashboard Inside a PC Browser",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "Xbox CTO Scott Van Vliet has shown off the classic Xbox 360 Blades dashboard running inside a web browser on a PC. It's one of the first public experiments from the newly formed Xbox Labs team. The short clip also sho...",
+    "url": "https://www.techpowerup.com/353999/xbox-labs-revives-the-xbox-360-blades-dashboard-inside-a-pc-browser",
+    "image": "https://www.techpowerup.com/img/pyVJPfa165IN4w6E.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Super Flower's 12V-2x6 OCP Dongle Watches Every Pin, Blacks Out Your Screen on Overcurrent",
+    "date": "2026-10-22",
+    "category": "Hardware",
+    "description": "Super Flower has launched the VGA 12+4PIN OCP Dongle, a small inline box that sits between the PSU cable and a graphics card's 12V-2x6 connector and keeps an eye on the current running through each 12 V line. It was f...",
+    "url": "https://www.techpowerup.com/353998/super-flowers-12v-2x6-ocp-dongle-watches-every-pin-blacks-out-your-screen-on-overcurrent",
+    "image": "https://www.techpowerup.com/img/Z4UOrtioCbIgUteG.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "OpenBSD 8.0: RTR-Cache-Server, Multi-CPU-Gäste und ein CoW-Dateisystem in Sicht",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "OpenBSD 8.0 bringt einen RPKI-RTR-Cache-Server, Gäste mit bis zu 64 vCPUs und mit GEFS ein schlankes CoW-Dateisystem – bislang aber nur als Prototyp.",
+    "url": "https://www.heise.de/news/OpenBSD-8-0-RTR-Cache-Server-Multi-CPU-Gaeste-und-ein-CoW-Dateisystem-in-Sicht-11495940.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/6/7/8/7/80song-52e50adcd80fbe4d.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Nvidia will KI-Agenten per Hardware überwachen",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "Offene KI-Modelle versprechen Unabhängigkeit. Mit OpenShell und speziellen Prozessoren will Nvidia jedoch die Handlungsräume von Agenten begrenzen.",
+    "url": "https://www.heise.de/hintergrund/Nvidia-will-KI-Agenten-per-Hardware-ueberwachen-11494932.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/6/2/6/5/OpenShell-948f42a4e82f2be9.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Nvidia will Ausbau von Rechenzentren mit vorgefertigten Containern beschleunigen",
+    "date": "2026-10-21",
+    "category": "Industrie",
+    "description": "Nvidia nutzt Europas Ruf nach digitaler Souveränität und will Engpässe bei Strom und Wasser entschärfen, um den KI-Ausbau voranzutreiben.",
+    "url": "https://www.heise.de/hintergrund/Nvidia-will-Ausbau-von-Rechenzentren-mit-vorgefertigten-Containern-beschleunigen-11494908.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/6/2/5/3/gtc_dsx-1f52a60653ed8e9e.jpeg",
+    "source": "Heise"
+  },
+  {
     "title": "Oracle-Patchday mit 1295 Sicherheitspatches",
     "date": "2026-10-21",
     "category": "Hardware",
@@ -36,67 +225,193 @@
     "source": "Heise"
   },
   {
-    "title": "FSR: AMD bringt KI-Upscaling auf Xbox Series X/S",
+    "title": "CB-Funk-Podcast #189: FSR 4.1 überrascht, DLSS 5 gibt Gas und COD nervt",
     "date": "2026-10-21",
     "category": "Software",
-    "description": "Microsofts Xbox Series soll mit FSR 4.1 eine bessere Grafikqualität bekommen. Das könnte vor allem auf der S einige Vorteile bringen. (Xbox, Microsoft)",
-    "url": "https://www.golem.de/news/fsr-amd-bringt-ki-upscaling-auf-xbox-series-x-s-2610-214340.html",
-    "image": "https://www.golem.de/2610/214340-604445-604443_rc.jpg",
+    "description": "AMD did it again! Was FSR 4.1 für Spieler mit RDNA-2-Grafikkarten und RDNA-3.5-APUs bedeutet und wie viel schneller DLSS 5 geworden ist, besprechen Jan und Fabian diese Woche im Podcast. Außerdem geht es um den Techni...",
+    "url": "https://www.computerbase.de/news/grafikkarten/cb-funk-podcast-189-fsr-4-1-ueberrascht-dlss-5-gibt-gas-und-cod-nervt.99933/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Gigabyte: Zwei Dutzend Z990-Mainboards, zwei davon mit „Wood“",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "Gigabyte hat gleich zwei Dutzend Namen für Z990-Mainboards registrieren lassen. Dazu zählen zu erwartende Modelle wie das Aorus Z990 Xtreme als auch neue Varianten mit stilisierten Holzelementen in der Wood-Serie. Die...",
+    "url": "https://www.computerbase.de/news/mainboards/gigabyte-zwei-dutzend-z990-mainboards-zwei-davon-mit-wood.99934/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Automatisiertes Fahren: Volvo plant L2++ und will Kunden vor Kauf Test­phase anbieten",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "Volvo will noch vor 2030 das automatisierte Fahren nach Level 2++ mit Nvidia auf die Straße bringen. Die Funktion soll Fahrten von Parkplatz zu Parkplatz ermöglichen und nicht nur teuren Ausstattungs­varianten vorbeha...",
+    "url": "https://www.computerbase.de/news/mobilitaet/volvo-im-gtc-gespraech-volvo-plant-l2-plus-plus-und-will-testphase-vor-dem-kauf-anbieten.99932/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Retroid-Handhelds: Pocket 6, Nova und Duo erhalten Linux-Support",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "Retroid öffnet die Handhelds Pocket 6, Pocket Nova und Pocket Duo für Mainline-Linux. Mit Linux-Kernel 7.3 werden bereits GPU, WLAN, Bluetooth, Eingabegeräte, Speicher sowie USB-C inklusive DisplayPort unterstützt. Di...",
+    "url": "https://www.computerbase.de/news/gaming/retroid-handhelds-pocket-6-nova-und-duo-erhalten-linux-support.99926/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "GTC Berlin: Google und Nvidia planen KI-Cluster mit bis zu 960.000 GPUs",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "Auf der GTC Berlin kündigt Google Cloud gemeinsam mit Nvidia neue Infrastruktur für agentische KI an. Im Zentrum stehen Vera-Rubin-Systeme für große GPU-Cluster, zusätzliche Modelle und Speicher­funktionen sowie der s...",
+    "url": "https://www.computerbase.de/news/internet/gtc-berlin-google-cloud-baut-ki-infrastruktur-mit-nvidia-aus.99894/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Warmwasserkühlung: Nvidia will Wasserverbrauch auf nahezu null reduzieren",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "Nvidia erweitert die DSX-Plattform um Funktionen für einen effizienteren Betrieb von KI-Rechenzentren. Eine neue Kühlarchitektur ohne Verdampfung soll den Wasserverbrauch nahezu auf null senken, während DSX MaxLPS bei...",
+    "url": "https://www.computerbase.de/news/prozessoren/nvidia-wird-gruen-wasserverbrauch-im-datacenter-soll-auf-nahezu-null-sinken.99927/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Für Millionen Nvidia-Chips: Viel mehr Substrate, Packaging, Testen und 30-fach CPO",
+    "date": "2026-10-21",
+    "category": "Industrie",
+    "description": "Nvidia erklärt zur GTC in Berlin, wie sich das Unternehmen viel mehr Kapazitäten bei Substraten, Packaging, Testing und Co-Packed Optics (CPO) sichert. Denn der Flaschenhals bei der Chipfertigung ist nicht nur TSMC al...",
+    "url": "https://www.computerbase.de/news/wirtschaft/fuer-millionen-nvidia-chips-viel-mehr-substrate-packaging-testen-und-30-fach-cpo.99921/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Nvidia DSX Pod: Fertige KI-Fabrik kommt im Container",
+    "date": "2026-10-21",
+    "category": "Software",
+    "description": "Nvidia will mit dem neuen DSX Pod den Aufbau neuer KI-Rechenzentren signifikant beschleunigen. Dafür werden komplette KI-Fabriken auf Basis der Vera-Rubin-Plattform in Containern vorgefertigt, verkabelt und getestet....",
+    "url": "https://www.computerbase.de/news/prozessoren/in-2-wochen-einsatzbereit-nvidia-dsx-pod-packt-fertige-ki-fabrik-in-container.99917/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "DLSS 5 Update im Test: Neues Modell ermöglicht bis zu 49 Prozent höhere FPS",
+    "date": "2026-10-21",
+    "category": "Software",
+    "description": "NBA 2K27 ist seit knapp sieben Wochen das erste und bisher einzige offizielle Spiel mit DLSS 5. Im Test konnte DLSS 5 in NBA 2K27 optisch überzeugen, die Anforderungen an die Grafikkarte waren aber extrem hoch. Ein er...",
+    "url": "https://www.computerbase.de/artikel/grafikkarten/dlss-5-update-nba-2k27-test.99846/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Steam Deck 2: 50 Prozent mehr Kerne und RAM im Benchmark",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "Im Oktober tauchte in einem AMD-Grafiktreiber der Codename „Gainsborough“ auf. Inzwischen finden sich in der OpenBenchmarking-Datenbank Messwerte zu einem anscheinend passenden Entwicklungsmuster mit sechs CPU-Kernen...",
+    "url": "https://www.computerbase.de/news/gaming/steam-deck-2-50-prozent-mehr-kerne-und-ram-im-benchmark.99910/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "GTC Berlin: Nvidia verkauft das Rechenzentrum im Baucontainer",
+    "date": "2026-10-21",
+    "category": "Markt",
+    "description": "Europa ist gegenüber KI skeptischer als die USA. Nvidia verspricht der Industrie mehr Sicherheit, Rechenzentren sollen \"Partner im Stromnetz\" werden. Ein Bericht von Johannes Hiltscher (Nvidia, KI)",
+    "url": "https://www.golem.de/news/gtc-berlin-nvidia-containerisiert-das-rechenzentrum-2610-214338.html",
+    "image": "https://www.golem.de/2610/214338-604529-604527_rc.jpg",
     "source": "Golem"
   },
   {
-    "title": "Broken Arrow: Großes Technikupdate bringt Unity 6 und DLSS 4.5",
-    "date": "2026-10-21",
-    "category": "Software",
-    "description": "Mit Version 1.2.1 wechselt Broken Arrow auf Unity 6, ergänzt DLSS 4.5 und FSR 3.0 Stable und bessert bei der Multiplayer-Synchronisierung nach. Ganz problemfrei kommt das Echtzeitstrategiespiel aber noch immer nicht aus.",
-    "url": "https://www.pcgameshardware.de/Broken-Arrow-Spiel-75269/News/Update-Version-121-DLSS-45-AMD-FSR-30-Performance-Netzwerk-1557348/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2024/12/Broken-Arrow-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "DDR5 hat ECC eingebaut: Warum EXPO und XMP trotzdem instabil werden können",
+    "title": "Die Wikipedia-Idee, die ersten AMD-Grafikkarten und Windows 7 (PCGH-Retro, 22. Oktober)",
     "date": "2026-10-21",
     "category": "Hardware",
-    "description": "Wer DDR5-Arbeitsspeicher kauft, findet in Datenblättern den Zusatz On-Die ECC. Dahinter steckt eine echte Fehlerkorrektur, die bereits in den Speicherchips integriert ist. Doch nicht alle Fehler können damit korrigier...",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/DDR5-Speicher-EXPO-XMP-ECC-1557342/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/DDR5-Speicher-mit-Fehlerkorrektur-pcgh.jpg",
+    "description": "Windows 7 und die ersten AMD-Grafikkarten kommen in den Handel und die Idee zur Wikipedia kommt auf - das geschah am 22. Oktober. Jeden Tag wagt PC Games Hardware einen Blick zurück in die noch junge, aber bewegte Ges...",
+    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/News/Die-Wikipedia-Idee-und-Windows-7-PCGH-Retro-22-Oktober-697854/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2009/10/Produktion_Windows7_DVDs_Win7_Home_Premium.jpg",
     "source": "PCGH"
   },
   {
-    "title": "[PLUS] Geforce RTX 5080 im Test: Custom-Modelle auf Temperaturen, Lautheit und Taktrate geprüft",
+    "title": "Geforce 621.01 gegen Shader-Ruckler: Auch für Steam, aber nur mit Xbox-App",
     "date": "2026-10-21",
     "category": "Hardware",
-    "description": "Im erweiterten Test überprüfen wir fünf Custom-Designs der Geforce RTX 5080 auf Temperaturen und Lautstärke und verraten, welches Modell überzeugen konnte. Mit dabei: Asus, MSI, Gigabyte, Zotac und Palit. Mittels laut...",
-    "url": "https://www.pcgameshardware.de/Geforce-RTX-5080-Grafikkarte-281030/Specials/Custom-Designs-erweiterter-Test-1465808/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2025/02/5080-Tabelle-1-3-Version-pcgh.png",
+    "description": "Mit dem Geforce 621.01 unterstützt Nvidia erstmals Microsofts Advanced Shader Delivery. Vorkompilierte Shader sollen Ladezeiten und Ruckler reduzieren. Auch Steam-Versionen profitieren laut Nvidia, sofern die Xbox PC...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Geforce-621-01-Advanced-Shader-Delivery-Steam-1557419/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/10/Shader-Kompilierung-pcgh.png",
     "source": "PCGH"
   },
   {
-    "title": "Geforce RTX 5090 und RTX 5080: Aus im Januar 2027 [Gerücht]",
+    "title": "Nach 24 Jahren: Retro-PC verliert Pentium-4-Mainboard beim Kühlereinbau",
     "date": "2026-10-21",
     "category": "Hardware",
-    "description": "Moore’s Law Is Dead beruft sich auf einen Händler, dem zufolge Geforce RTX 5090 und RTX 5080 mit 16 GiB Anfang Januar 2027 auslaufen sollen. Nvidia hat bislang nur bestritten, dass die Geforce RTX 5090 bereits eingest...",
-    "url": "https://www.pcgameshardware.de/Geforce-RTX-5090-Grafikkarte-281029/News/EOL-Januar-2027-1557344/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/Geforce-RTX-5080-pcgh.jpeg",
+    "description": "Ein Kondensatortausch brachte das Jetway-Mainboard aus dem ersten selbst gebauten Gaming-PC von PCGHX-User modx wieder zum Laufen. Bei der Montage eines CPU-Kühlers fiel die Sockel-478-Platine erneut aus. Für den Nach...",
+    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/News/Pentium-4-Mainboard-Retro-PC-defekt-1557417/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/P4_1-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "Grafikkarten-Rangliste Raytracing 2026: 33 Gaming-GPUs im Vergleich [Update]",
+    "title": "[PLUS] Input-Lag: Hat ein GPU-Hersteller Vorteile bei gleichen Fps? Wie ist es bei Fps-Locks?",
     "date": "2026-10-21",
-    "category": "Software",
-    "description": "Raytracing-Rangliste 2026: Spieler, die eine Gaming-Grafikkarte für das High-End-Feature Raytracing kaufen möchten, sollten nicht zu tief einsteigen. Wir haben für Sie 33 Grafikkarten in den vier beliebtesten Auflösun...",
-    "url": "https://www.pcgameshardware.de/Raytracing-Hardware-255905/Specials/Gaming-Grafikkarten-Vergleich-Benchmark-Preis-Leistung-1411231/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/03/Acer-Arc-B580-Nitro-pcgh.jpg",
+    "category": "Industrie",
+    "description": "In diesem Test vergleichen wir den Input-Lag in Form der End-to-End-Latenzen von AMD, Intel und Nvidia bei gleichen Bildraten. Doch haben ein bestimmter Grafikkartenhersteller oder eine der angebotenen Latenzreduktion...",
+    "url": "https://www.pcgameshardware.de/Battlefield-6-Spiel-75270/Specials/Latency-Intel-AMD-Nvidia-at-similar-Fps-LDAT-Reflex-Anti-Lag-XeLL-1549616/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2026/08/Aufmacher-Collage3-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "Windows 11: Warum Systemdateien wie kernel32.dll noch immer DOS-Namen tragen",
+    "title": "RAM im Jahr 2027: Nicht nur teurer, sondern auch knapper (für Endkunden)",
     "date": "2026-10-21",
     "category": "Hardware",
-    "description": "Windows 11 enthält Systemdateien wie kernel32.dll und ntoskrnl.exe, deren Namen ins alte DOS-Schema passen. Microsoft behält die Bezeichnungen aus Kompatibilitätsgründen bei: Viele Programme laden die Bibliotheken unt...",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/OS-Dateinamen-Systemdateien-kernel32-1557264/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/04/86-DOS-artifact-and-IBM-PC-pcgh.webp",
+    "description": "Das RAM-Jahr 2027 wird (noch) schlimmer als 2026: Trendforce prognostiziert ein schrumpfendes Angebot an Arbeitsspeicher für PCs. Diese Erwartung könnte aktuelle Preisanstiege begründen oder weiter verschärfen.",
+    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/trendforce-prognose-pc-ram-2027-verfuegbarkeit-sinkt-1557347/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/kein-RAM-wegen-KI-pcgh.jpg",
     "source": "PCGH"
+  },
+  {
+    "title": "Nvidias DLSS-5-Grafikwunder hat einen Fps-Haken: Das und mehr in PCGH 11/2026",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "Die PCGH 11/2026 bringt satte 23 Seiten DLSS 5, FSR 4.1.1b auf RX 6000 und Geforce, Valves Steam Frame und Chinas stärkste Gaming-GPU. Dazu: RAM-, Mainboard-Tests und mehr!",
+    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-11-2026-Magazin-313-DVD-Download-PDF-1554992/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "NVIDIA überwacht NVIDIA: Neue Hardware-Sicherheit soll KI-Agenten kontrollieren",
+    "date": "2026-10-21",
+    "category": "Industrie",
+    "description": "Neben der schnell aufzubauenden, flexiblen und im Wasserverbrauch sparsamen DSX-AI-Factory-Plattform sowie einigen News rund um die Spark-Plattformen, hat NVIDIA ein hardwarebasiertes Sicherheitssystem vorgestellt.",
+    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70684-nvidia-ueberwacht-nvidia-neue-hardware-sicherheit-soll-ki-agenten-kontrollieren.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/otic_fan_kb/bildschirmfoto_2026_10_21_um_16_03_35_680px.png",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Bis zu acht Systeme im Verbund: NVIDIA DGX Spark mit 64 GB startet am Freitag",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "Anfang Oktober kündigte NVIDIA eine günstigere Variante des DGX Spark mit 64 GB Speicher an.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/komplettsysteme/70683-bis-zu-acht-systeme-im-verbund-nvidia-dgx-spark-mit-64-gb-startet-am-freitag.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/super_media_9k/local_ai_blog_dgx_spark_64gb_nvidia_sync_10_2_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Weniger Strom und kaum Wasserverbrauch: NVIDIA erweitert DSX-Plattform für KI-Rechenzentren",
+    "date": "2026-10-21",
+    "category": "Industrie",
+    "description": "NVIDIA hat auf der GTC in Berlin den Ausbau seiner DSX-AI-Factory-Plattform in Zusammenarbeit mit zahlreichen europäischen Technologie-, Energie- und Infrastrukturunternehmen angekündigt.",
+    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70682-weniger-strom-und-kaum-wasserverbrauch-nvidia-erweitert-dsx-plattform-fuer-ki-rechenzentren.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/grand_backend_rd/bildschirmfoto_2026_10_21_um_11_58_21_680px.png",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Teure Konsolen: Microsoft prognostiziert 1.200 bis 1.800 USD für Project Helix",
+    "date": "2026-10-21",
+    "category": "Hardware",
+    "description": "Es ist eine recht einfache Rechnung: Aufgrund der hohen DRAM- und NAND-Preise dürfte die kommende Konsolen-Generation von Microsoft und Sony kein günstiger Spaß mehr werden.",
+    "url": "https://www.hardwareluxx.de/index.php/news/consumer-electronics/konsolen/70681-teure-konsolen-microsoft-projiziert-1-200-bis-1-800-usd-fuer-project-helix.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Mar/hot_performance_ds/hcq_qmna4aanvrq_680px.jpeg",
+    "source": "HardwareLuxx"
   },
   {
     "title": "FSR Upscaling: AMD FSR 4.1 nun offiziell für RDNA 2 und RDNA 3.5 verfügbar",
@@ -104,7 +419,7 @@
     "category": "Software",
     "description": "Bereits im Frühsommer sorgte die mögliche Unterstützung von FSR 4 auf RDNA-3.5-Grafikeinheiten für Diskussionen.",
     "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70675-fsr-upscaling-amd-fsr-4-1-nun-offiziell-fuer-rdna-2-und-rdna-3-5-verfuegbar.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/polite_sample_em/bildschirmfoto_2026_10_20_um_22_58_26_680px.png",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/secure_robotics_4w/bildschirmfoto_2026_10_20_um_18_57_33_680px.png",
     "source": "HardwareLuxx"
   },
   {
@@ -126,327 +441,12 @@
     "source": "HardwareLuxx"
   },
   {
-    "title": "(PR) Synaptics Announces Astra SR200 Multimodal Edge AI Processors with Google Coral NPU",
-    "date": "2026-10-21",
-    "category": "Hardware",
-    "description": "Synaptics Incorporated (Nasdaq: SYNA) today introduced the xMCU, a new class of microcontrollers that runs multimodal Edge AI, with the launch of the Synaptics Astra SR200 Series. Unlike conventional MCUs constrained...",
-    "url": "https://www.techpowerup.com/353957/synaptics-announces-astra-sr200-multimodal-edge-ai-processors-with-google-coral-npu",
-    "image": "https://www.techpowerup.com/img/TuQzQvJNnke6RBXO.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Darmoshark Air28 Revealed As 28 G Wireless Fingertip Gaming Mouse",
-    "date": "2026-10-21",
-    "category": "Hardware",
-    "description": "Darmoshark, the Chinese mouse maker previously responsible for the Darmoshark M9, a flagship-spec gaming mouse for gamers with big hands, has come out swinging at the likes of the new Pulsar X2F CrazyLight and G-Wolve...",
-    "url": "https://www.techpowerup.com/353945/darmoshark-air28-revealed-as-28-g-wireless-fingertip-gaming-mouse",
-    "image": "https://www.techpowerup.com/img/KWsO52kBh3SaTQwm.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "date": "2026-10-21",
-    "category": "Hardware",
-    "description": "AI image generators can draw a character once, but keeping that character's look consistent across page 12 usually means regenerating images repeatedly. Turning those images into a laid-out book takes another program...",
-    "url": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
-    "image": "https://www.techpowerup.com/img/5VFDr21mU89xNZn0.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Dell CEO Says the Memory Shortage Will Get Worse in 2027",
+    "title": "Call of Duty: Modern Warfare 4 Rockets to 1st on Steam's Top Sellers List Ahead of Launch",
     "date": "2026-10-21",
     "category": "Markt",
-    "description": "Michael Dell doesn't think the memory shortage is anywhere near over. Speaking with The Wall Street Journal, Dell's chairman and CEO said things will get worse next year, as the AI data center buildout keeps soaking u...",
-    "url": "https://www.techpowerup.com/353947/dell-ceo-says-the-memory-shortage-will-get-worse-in-2027",
-    "image": "https://www.techpowerup.com/img/7wa5XE1HasFEkuab.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Cyberpunk 2077 Update 2.5 Leaks Early, Brings Console Mods and Dual-Wielding Pistols",
-    "date": "2026-10-21",
-    "category": "Software",
-    "description": "CD Projekt RED's Cyberpunk 2077 Update 2.5 isn't out until October 22, but most of its content has already leaked. YouTuber WesNemo apparently published a video covering the update too early, and while it has since be...",
-    "url": "https://www.techpowerup.com/353946/cyberpunk-2077-update-2-5-leaks-early-brings-console-mods-and-dual-wielding-pistols",
-    "image": "https://www.techpowerup.com/img/cnrXLW6hDCWVTQUv.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Chinesische Konzerne geben enorme Grafikkarten-Bestellung auf",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Bei Nvidia sind chinesische Bestellungen für mehr als sechs Millionen Grafikkarten RTX PRO 5500 eingegangen. Nvidia kann aber nur drei Millionen herstellen.",
-    "url": "https://www.heise.de/news/Chinesische-Konzerne-geben-enorme-Grafikkarten-Bestellung-auf-11494892.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/6/2/4/5/shutterstock_2325547161-77695bbe1ee5b51f.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "[PLUS] Tuning für AM5-Mainboards: Über 400 Optionen im Asus-UEFI erklärt [Update für 2026]",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "PCGH Plus: PCGH erklärt sämtliche UEFI-Optionen von Asus-Mainboards und legt dar, welche Einstellungen empfehlenswert sind - und welche eher nicht. Außerdem geben wir Tipps zur Optimierung des Prozessors über herstell...",
-    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/Specials/Asus-UEFI-erklaert-1414849/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2023/03/Teaser_UEFI_Guide_Asus-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "FSR 4.1 für Radeon RX 6000 und Ryzen AI: Upscaling für RDNA 2 und RDNA 3.5 ist da",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Mit der Adrenalin Edition 26.10.1 schaltet AMD FSR 4.1 für Radeon RX 6000 und ausgewählte Ryzen-AI-APUs frei. RDNA 2 war erst für Anfang 2027 geplant. Handhelds mit Ryzen Z2 A oder Z2 Extreme brauchen vorerst OEM-Trei...",
-    "url": "https://www.pcgameshardware.de/FidelityFX-Super-Resolution-Software-277617/News/FSR-4-1-Radeon-RX-6000-Ryzen-AI-Release-Adrenalin-26-10-1-1557314/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/FSR-4.1-auf-Strix-Halo-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "HeroQuest: Der Brettspiel-Klassiker erscheint 2027 auf Steam und empfiehlt 32 GiB RAM",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Ein Fantasy-Klassiker wagt den Sprung auf den PC: Die digitale Neuauflage von HeroQuest soll das bekannte Dungeon-Abenteuer neu erlebbar machen. Allerdings zeigt sich das Spiel sehr speicherhungrig und empfiehlt 32 Gi...",
-    "url": "https://www.pcgameshardware.de/Spiele-Thema-239104/News/HeroQuest-Der-Brettspiel-Klassiker-erscheint-2027-auf-Steam-und-verlangt-32-GiB-RAM-1557249/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/HeroQuest-01-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Nvidias DLSS-5-Grafikwunder hat einen Fps-Haken: Das und mehr in PCGH 11/2026",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Die PCGH 11/2026 bringt satte 23 Seiten DLSS 5, FSR 4.1.1b auf RX 6000 und Geforce, Valves Steam Frame und Chinas stärkste Gaming-GPU. Dazu: RAM-, Mainboard-Tests und mehr!",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-11-2026-Magazin-313-DVD-Download-PDF-1554992/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "NVIDIA priorisiert KI-Rechenzentren: Rubin für Gamer soll frühestens 2028 erscheinen",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Laut dem Hardware-Insider Kepler_L2 könnte die Mittelklasse der nächsten GeForce-Generation auf Rubin-Basis deutlich später erscheinen als bisher angenommen.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70670-nvidia-priorisiert-ki-rechenzentren-rubin-fuer-gamer-soll-erst-2029-erscheinen.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/Jan/brave_energy_zx/nvidia-geforce-rtx-5090-fe-00002_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Cinebench-Rekorde: Haswell-CPU sorgt auch 13 Jahre nach dem Start noch für Bestwerte",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Im Jahre 2013 stellte Intel die Haswell-Desktop-Prozessoren vor.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/70668-cinebench-rekorde-haswell-cpu-sorgt-auch-13-jahre-nach-dem-start-noch-fuer-bestwerte.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/elite_circuit_e8/intel_core_i5_4670k_rekord_luumi_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Versöhnliche Worte und eine Warnung: Merz und Nvidia-Chef Huang diskutieren über KI in Deutschland",
-    "date": "2026-10-20",
-    "category": "Industrie",
-    "description": "Beim \"Invest in Germany Summit\" in Berlin haben Bundeskanzler Friedrich Merz und NVIDIA-Chef Jensen Huang über die Bedeutung künstlicher Intelligenz für den Industriestandort Deutschland gesprochen.",
-    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70667-versoehnliche-worte-und-eine-warnung-merz-und-nvidia-chef-huang-diskutieren-ueber-ki-in.html",
-    "image": "https://www.hardwareluxx.de/tmpl/android-chrome-192x192.png",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Dell warnt vor verschärfter Speicherkrise: DRAM und HBM werden 2027 noch knapper",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Der weltweite Ausbau von KI-Rechenzentren dürfte die ohnehin angespannte Versorgung mit Speicherchips in den kommenden Jahren weiter verschärfen.",
-    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70662-dell-warnt-vor-verschaerfter-speicherkrise-dram-und-hbm-werden-2027-noch-knapper.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Feb/richer_heatsink_sq/speicherknappheit_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Warframe Alters Gameplay Metas Again with Riven Mod Rework and End of Infinite Ammo Builds",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "When Digital Extremes introduced the powerful Riven mods system, the weapon-specific mods all had dispositions that would be adjusted quarterly as a balance for the resulting high damage output and subsequent populari...",
-    "url": "https://www.techpowerup.com/353943/warframe-alters-gameplay-metas-again-with-riven-mod-rework-and-end-of-infinite-ammo-builds",
-    "image": "https://www.techpowerup.com/img/UqDBxXFFF8s22O8o.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AWOL Vision Opens Pre-Orders for LuxVision: World's First Optical-Shift 4K 120Hz Projector",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "AWOL Vision, a global home entertainment brand delivering immersive audiovisual experiences through large-format displays, home cinema technology, and connected entertainment, announced that the AWOL LuxVision, first...",
-    "url": "https://www.techpowerup.com/353730/awol-vision-opens-pre-orders-for-luxvision-worlds-first-optical-shift-4k-120hz-projector",
-    "image": "https://www.techpowerup.com/img/t5ez0AGyZWfqNp3N.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "PlayStation Physical Game Share Still As High As 32%",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Since Sony announced that it would be ending physical media production for the PlayStation 5 and PlayStation 5 Pro, there has been much discussion about the value of physical games media in the modern gaming landscape...",
-    "url": "https://www.techpowerup.com/353939/playstation-physical-game-share-still-as-high-as-32",
-    "image": "https://www.techpowerup.com/img/oBizuhtgkjKVfcd5.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "NVIDIA Has January Discontinuation Dates Set for RTX 5090 and RTX 5080 16 GB, Claims Leaker",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Earlier this month, leakers claimed NVIDIA had stopped allocating GB202 silicon to the GeForce RTX 5090, effectively discontinuing the Blackwell flagship. NVIDIA denied it a few days later, with SVP Jeff Fisher saying...",
-    "url": "https://www.techpowerup.com/353942/nvidia-has-january-discontinuation-dates-set-for-rtx-5090-and-rtx-5080-16-gb-claims-leaker",
-    "image": "https://www.techpowerup.com/img/JMwD57E6BiUpXbcs.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Keychron Launches J3 SE QMK Wireless Mechanical Keyboard With Soft Pastel Color Palette",
-    "date": "2026-10-20",
-    "category": "Markt",
-    "description": "Deviating from its usual line-up of understated, almost professional keyboard designs that mostly feature matte black and white designs with small splashes of color, Keychron has just released the J3 SE wireless mecha...",
-    "url": "https://www.techpowerup.com/353940/keychron-launches-j3-se-qmk-wireless-mechanical-keyboard-with-soft-pastel-color-palette",
-    "image": "https://www.techpowerup.com/img/bRVJWkFaUeJwskiv.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
-    "date": "2026-10-20",
-    "category": "Angebote",
-    "description": "Microsoft 365 Personal now costs $99.99 per year after Microsoft bundled its Copilot AI into the plan. For a one-time payment of less than a third of an annual subscription, a Microsoft Office Professional 2021 for Wi...",
-    "url": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
-    "image": "https://www.techpowerup.com/img/2oPvLX47nMskenDI.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AMD Software Adrenalin 26.10.1 WHQL Drivers Released",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "AMD has released its Adrenalin 26.10.1 WHQL graphics drivers, adding FSR Upscaling 4.1 support for Radeon RX 6000 series graphics cards and several Ryzen AI processor families. The release follows yesterday's announce...",
-    "url": "https://www.techpowerup.com/353938/amd-software-adrenalin-26-10-1-whql-drivers-released",
-    "image": "https://www.techpowerup.com/img/4IKuB0sx13klFBnh.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Xbox Game Pass \"Á La Carte\" System May Let Players Choose Features",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Xbox's Game Pass has long offered relatively few choices, with just three tiers to choose from, with the more expensive plans offering features like day-one game availability, access to certain online games and their...",
-    "url": "https://www.techpowerup.com/353937/xbox-game-pass-a-la-carte-system-may-let-players-choose-features",
-    "image": "https://www.techpowerup.com/img/8Szs4YKFp0fNQi47.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Helldivers 2 Anti-Cheat Change Breaks Mods but Keeps Steam Deck Compatibility",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Helldivers 2 developer, Arrowhead, has just announced a substantial change to the game's anti-cheat systems: A move away from GameGuard to Easy Anti-Cheat. The change will take place on October 20, and Arrowhead expla...",
-    "url": "https://www.techpowerup.com/353927/helldivers-2-anti-cheat-change-breaks-mods-but-keeps-steam-deck-compatibility",
-    "image": "https://www.techpowerup.com/img/58JesdAT4QMEzDEn.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Xbox Helix Console Reportedly Headed for Holiday 2028 at $1,200 to $1,800",
-    "date": "2026-10-20",
-    "category": "Industrie",
-    "description": "Microsoft's next-gen Xbox console could cost a lot more than anyone hoped. A new Fortune profile of Xbox CEO Asha Sharma says the Project Helix console has internally been projected to cost consumers between $1,200 an...",
-    "url": "https://www.techpowerup.com/353935/xbox-helix-console-reportedly-headed-for-holiday-2028-at-usd-1-200-to-usd-1-800",
-    "image": "https://www.techpowerup.com/img/UyZltFjvI0q6nAiU.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GTA 6 Digital Pre-Orders Climb to 6.45 Million, PlayStation Holds 74% Share",
-    "date": "2026-10-20",
-    "category": "Software",
-    "description": "GTA 6 has now racked up an estimated 6.45 million digital pre-orders worldwide, worth roughly $630 million net of returns, according to the latest weekly update from Sensor Tower's sales tracker. PlayStation accounts...",
-    "url": "https://www.techpowerup.com/353934/gta-6-digital-pre-orders-climb-to-6-45-million-playstation-holds-74-share",
-    "image": "https://www.techpowerup.com/img/XEXni4RStDBU0IY0.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Xbox Is Asking Inactive Owners to Sell Their Consoles to Best Buy",
-    "date": "2026-10-20",
-    "category": "Angebote",
-    "description": "Microsoft is reportedly emailing Xbox Series X|S owners who haven't touched their consoles in a while, nudging them to trade those consoles in at Best Buy. The email, first shared by Nintendeal on X, opens with \"Haven...",
-    "url": "https://www.techpowerup.com/353930/xbox-is-asking-inactive-owners-to-sell-their-consoles-to-best-buy",
-    "image": "https://www.techpowerup.com/img/cSET0lDOHeLz6gZa.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "PS5 Firmware 14.10 Reportedly Jailbroken in Private, Hypervisor Still Holding Up",
-    "date": "2026-10-20",
-    "category": "Software",
-    "description": "PS5 homebrew developer Gezine has shown a working exploit on firmware 14.10, the latest PlayStation 5 software, just a month before GTA 6 launches. In a short video posted on X with the caption \"Hello 14.10,\" Gezine o...",
-    "url": "https://www.techpowerup.com/353929/ps5-firmware-14-10-reportedly-jailbroken-in-private-hypervisor-still-holding-up",
-    "image": "https://www.techpowerup.com/img/laFBmxhWcXvHCNt6.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Linux Foundation Finds \"25% Of Incoming Pull Requests are Considered AI Slop\"",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "AI-generated code in the realm of Linux has been responsible for more than a little upheaval in recent months, with some projects seeing heated debates surrounding the topic. Other project developers have expressed fr...",
-    "url": "https://www.techpowerup.com/353924/linux-foundation-finds-25-of-incoming-pull-requests-are-considered-ai-slop",
-    "image": "https://www.techpowerup.com/img/0VG1mhO6VXuZ8CLF.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Corsair Updates Sabre V3 Pro Line-Up With New PureVector Ergo, Carbon Fiber, and Magnesium Gaming Mice",
-    "date": "2026-10-20",
-    "category": "Software",
-    "description": "Corsair has officially updated its Sabre V3 Pro mouse line-up with the PureVector series, a new partnership with Aimlabs that the brand claims can reduce aiming and correction time by as much as 33%. The PureVector no...",
-    "url": "https://www.techpowerup.com/353914/corsair-updates-sabre-v3-pro-line-up-with-new-purevector-ergo-carbon-fiber-and-magnesium-gaming-mice",
-    "image": "https://www.techpowerup.com/img/FHEqbfbyVkB9jHYd.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AMD and Microsoft Bring FSR 4.1 to Xbox Series X|S, FSR Diamond Teased for Project Helix",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "AMD and Microsoft have confirmed that FSR Upscaling 4.1 is coming to the Xbox Series X and Series S. The news came in an AMD video presentation led by Jack Huynh, joined by Xbox CTO Scott Van Vliet and ASUS. The ROG X...",
-    "url": "https://www.techpowerup.com/353922/amd-and-microsoft-bring-fsr-4-1-to-xbox-series-x-s-fsr-diamond-teased-for-project-helix",
-    "image": "https://www.techpowerup.com/img/8qWDfa5SyEgwKrAj.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) GameSir Announces Official Fortnite Mobile Controller Collection",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "GameSir, a global leader in gaming peripherals, today announced its collaboration with Fortnite, introducing an all-new collection of officially licensed mobile controllers that combine GameSir's award-winning technol...",
-    "url": "https://www.techpowerup.com/353921/gamesir-announces-official-fortnite-mobile-controller-collection",
-    "image": "https://www.techpowerup.com/img/rsWszuZhphMKE7HY.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Turtle Beach Announces the Stealth Ultra II Game Controller",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Turtle Beach revealed its new flagship controller, the Turtle Beach Stealth Ultra II High-Performance Wireless Controller with Rapid Charge Dock. Now available for pre-order ahead of its November 12, 2026, global laun...",
-    "url": "https://www.techpowerup.com/353920/turtle-beach-announces-the-stealth-ultra-ii-game-controller",
-    "image": "https://www.techpowerup.com/img/YcEgS8FI53FaASsj.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AMD Announces FSR 4.1 for Radeon RX 6000 Series, APUs, and Xbox",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "AMD is bringing FSR 4.1 to even more graphics cards and gaming platforms; in a major announcement today by Jack Huynh, SVP & GM, Computing & Graphics, the company announced that it is bringing FSR 4.1 to Radeon RX 600...",
-    "url": "https://www.techpowerup.com/353919/amd-announces-fsr-4-1-for-radeon-rx-6000-series-apus-and-xbox",
-    "image": "https://www.techpowerup.com/img/RAd3jV3mIrWt0bOH.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Cyberpunk 2077 Gets a Surprise Update This Week, Tied to Edgerunners 2",
-    "date": "2026-10-20",
-    "category": "Software",
-    "description": "CD Projekt RED has announced Cyberpunk 2077 Update 2.5, a free patch arriving on October 22 for PC, PS5, and Xbox Series X|S. The Switch 2 version will follow \"shortly,\" though there's no date for it yet. The update t...",
-    "url": "https://www.techpowerup.com/353917/cyberpunk-2077-gets-a-surprise-update-this-week-tied-to-edgerunners-2",
-    "image": "https://www.techpowerup.com/img/Xhc5hP42HlVaekuz.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Rumor: NVIDIA RTX 6060 May Be Years Away, and Possibly Slower Than the PS6",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Anyone holding out for an affordable next-gen NVIDIA card might have a long wait. Hardware leaker Kepler_L2 claims on NeoGAF that the GeForce RTX 6060 will \"launch much later,\" adding that, based on recent trends, he...",
-    "url": "https://www.techpowerup.com/353916/rumor-nvidia-rtx-6060-may-be-years-away-and-possibly-slower-than-the-ps6",
-    "image": "https://www.techpowerup.com/img/bfQ7GGEg1yfjm4Ef.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Pool of Radiance: Ruins of Myth Drannor Comes to Steam and GOG.com on November 6th",
-    "date": "2026-10-20",
-    "category": "Hardware",
-    "description": "Boutique publisher SNEG, in collaboration with Wizards of the Coast, a subsidiary of Hasbro, Inc., are proud to announce the restoration of heritage Dungeons & Dragons title Pool of Radiance: Ruins of Myth Drannor wil...",
-    "url": "https://www.techpowerup.com/353913/pool-of-radiance-ruins-of-myth-drannor-comes-to-steam-and-gog-com-on-november-6th",
-    "image": "https://www.techpowerup.com/img/y1XwYBXwkFixj5uu.jpg",
+    "description": "With little over a day to go before the launch of Activision's Call of Duty: Modern Warfare 4, the game has apparently already reached the number-one spot in both the US and global Top Sellers chart on Steam, even bla...",
+    "url": "https://www.techpowerup.com/353996/call-of-duty-modern-warfare-4-rockets-to-1st-on-steams-top-sellers-list-ahead-of-launch",
+    "image": "https://www.techpowerup.com/img/hBA5Ffnuk3HtJMVD.jpg",
     "source": "TechPowerUp"
   }
 ]
