@@ -20,6 +20,7 @@ jobs:
     timeout-minutes: 300
     permissions:
       contents: write
+      id-token: write   # GitHub OIDC token for the Tailscale trust credential
 
     steps:
       - name: Checkout repository
@@ -27,10 +28,15 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Authenticates via OIDC workload identity (no secret, never expires).
+      # The trust credential only accepts this repo's main branch and mints
+      # ephemeral tag:ci nodes, so finished runners drop out of the tailnet.
       - name: Connect to Tailscale exit node (residential IP)
-        uses: tailscale/github-action@v2
+        uses: tailscale/github-action@v4
         with:
-          authkey: ${{ secrets.TS_AUTHKEY }}
+          oauth-client-id: ${{ vars.TS_OIDC_CLIENT_ID }}
+          audience: ${{ vars.TS_OIDC_AUDIENCE }}
+          tags: tag:ci
           args: --exit-node=100.101.155.64 --exit-node-allow-lan-access=false
 
       # The HTTP-first scrape path uses the global fetch API, which needs
