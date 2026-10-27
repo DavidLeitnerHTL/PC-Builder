@@ -1,12 +1,255 @@
 [
   {
-    "title": "Grenzen lokaler KI: Was iPhone, Galaxy, Pixel und iPad leisten",
+    "title": "Erste KI-Blase geplatzt? Chinas KI-Leitindex 40 Prozent unter dem Höchststand",
+    "date": "2026-10-27",
+    "category": "Industrie",
+    "description": "Chinas Aktienindex für KI- und Halbleiterfirmen hat seit dem Sommer massiv an Wert verloren. Dem ist aber eine viel größere Rallye vorausgegangen als anderswo.",
+    "url": "https://www.heise.de/news/Erste-KI-Blase-geplatzt-Chinas-KI-Leitindex-40-Prozent-unter-dem-Hoechststand-11501107.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/9/4/1/1/shutterstock_2147326075-00d1c4bbd48c2f06.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Space X: Vereinbarung zur Finanzierung von KI-Chips über 40 Milliarden US-Dollar",
+    "date": "2026-10-27",
+    "category": "Industrie",
+    "description": "Das Raumfahrtunternehmen SpaceX schließt eine milliardenschwere Leasing-Vereinbarung mit dem Vermögensverwalter Apollo zur Finanzierung von Nvidia-Chips.",
+    "url": "https://www.heise.de/news/Space-X-Vereinbarung-zur-Finanzierung-von-KI-Chips-ueber-40-Milliarden-US-Dollar-11501039.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/9/3/7/6/shutterstock_2794316659-502d77068b205d75.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Schalter entdeckt: Windows 11 wird für Advanced Performance Extensions gerüstet",
+    "date": "2026-10-27",
+    "category": "Software",
+    "description": "In einer Insider-Version von Windows 11 wurde ein neuer Schalter entdeckt. Mit diesem lassen sich die Advanced Performance Extensions (APX) aktivieren. Dabei handelt es sich um eine x86-Befehlssatzerweiterung für mehr...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/schalter-entdeckt-windows-11-wird-fuer-advanced-performance-extensions-geruestet.100018/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Anzeige: Kabelloses Gaming-Headset von SteelSeries günstig wie nie bei Amazon",
+    "date": "2026-10-27",
+    "category": "Angebote",
+    "description": "Ein kabelloses Gaming-Headset von SteelSeries mit Neodym-Treibern, Schnellladefunktion und Audio-Presets gibt es zum Tiefstpreis bei Amazon. (Steelseries, Technik/Hardware)",
+    "url": "https://www.golem.de/news/anzeige-kabelloses-gaming-headset-von-steelseries-guenstig-wie-nie-bei-amazon-2610-214547.html",
+    "image": "https://www.golem.de/2610/214547-605400-605398_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Intel-CPUs: Neue Hinweise auf Raptor-Lake-Refresh, Benchmarks zu Nova Lake",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "Die Hinweise auf neue Intel-Prozessoren mit DDR4-Unterstützung mehren sich. Erste Nova-Lake-Samples liegen noch hinter der Leistung des Vorgängers. (Prozessor, Intel)",
+    "url": "https://www.golem.de/news/intel-cpus-neue-hinweise-auf-raptor-lake-refresh-benchmarks-zu-nova-lake-2610-214541.html",
+    "image": "https://www.golem.de/2610/214541-605379-605377_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Halbleiterproduktion: USA drohen weltweiten Heliummangel zu verschärfen",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "Die USA wollen ihre Heliumproduktion besser schützen. Der weltweit größte Förderer des unersetzlichen Gases droht den Markt durcheinanderzubringen. (Rohstoffe, Prozessor)",
+    "url": "https://www.golem.de/news/halbleiterproduktion-usa-drohen-weltweiten-heliummangel-zu-verschaerfen-2610-214542.html",
+    "image": "https://www.golem.de/2610/214542-605383-605381_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Nvidia, OpenAI, Oracle: Wie sich die KI-Konzerne gegenseitig Milliarden zuschieben",
+    "date": "2026-10-27",
+    "category": "Industrie",
+    "description": "Nvidia investiert in eigene Kunden, die sich für neue KI-Rechenzentren hoch verschulden. Solange der Boom anhält, funktioniert das. Aber wer trägt das Risiko, wenn er endet? Eine Analyse von Björn Meschkat (Rechenzent...",
+    "url": "https://www.golem.de/news/nvidia-openai-oracle-wie-sich-die-ki-konzerne-gegenseitig-milliarden-zuschieben-2610-214529.html",
+    "image": "https://www.golem.de/2610/214529-605366-605364_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "[PLUS] Radeon RX 9070 \"XTX\" per Tuning: Mit PCGH-i2c-Tool zu mehr Leistung",
+    "date": "2026-10-27",
+    "category": "Software",
+    "description": "Ein direkter Zugriff auf Spannungs- und Power-Regler eröffnet neuen Tuning-Spielraum für RDNA 4 - über Linux mit Wirkung in Windows. Der Artikel stammt aus PC Games Hardware 03/2026.",
+    "url": "https://www.pcgameshardware.de/Radeon-RX-9070-XT-Grafikkarte-281023/Specials/Tuning-fuer-RDNA-4-per-i2c-Bus-1493877/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/01/aufmacher_rx9070_Linux-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "5.000 Dollar für einen KI-PC? Was AMDs Rechnung verschweigt [PCGH-Report]",
+    "date": "2026-10-27",
+    "category": "Markt",
+    "description": "AMD verspricht mit lokaler KI bis zu 750 Dollar Ersparnis im Monat. Doch reale Hardwarepreise und erste Benchmarks werfen Fragen auf. PCGH hat bei AMD, Ionos und Adesso nachgefragt und die Kosten verglichen.",
+    "url": "https://www.pcgameshardware.de/PCGH-Report-Brands-286015/Specials/AMD-Ryzen-AI-Max-KI-PC-Cloud-Kosten-Vergleich-Report-1557877/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/AMD-verspricht-750-Dollar-KI-Ersparnis-was-ist-dran-1-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Ryzen 7 9800X3D bei 95 Grad: Reddit-Nutzer feiert Lösung, doch die Erklärung greift zu kurz",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "Einem Nutzer bei Reddit half ein BIOS-Update, seinen AMD Ryzen 7 9800X3D kühler zu betreiben. Dass das eine mit dem anderen aber nichts zu tun haben muss, greifen wir kurzerhand auf.",
+    "url": "https://www.pcgameshardware.de/Ryzen-7-9800X3D-CPU-280948/News/BIOS-AGESA-Temperatur-Fix-Loesung-1557922/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/07/9800X3D-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Core Ultra 4000: Offenbar Passmark-Ergebnisse zu den neuen Nova-Lake-CPUs durchgesickert",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "Von Intels noch unveröffentlichten Nova-Lake-CPUs sind offenbar Benchmark-Ergebnisse aufgetaucht. Bei der Single-Thread-Leistung im Passmark soll ein Modell mit 28 Kernen die Konkurrenz in den Schatten stellen, lässt...",
+    "url": "https://www.pcgameshardware.de/Intel-Core-Ultra-Architektur-280887/News/4000-Nova-Lake-Passmark-Benchmark-1557890/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/INTEL-NOVA-LAKE-S-PASSMARK-SCORE-1-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "Intel Nova Lake-S: Warum Spiele für APX nicht neu programmiert werden müssen",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "Intels Nova Lake-S soll APX in Gaming-PCs bringen. Die CPU-Erweiterung könnte Spiele beschleunigen, ohne dass Entwickler dafür ihren Quellcode grundlegend umbauen müssen.",
+    "url": "https://www.pcgameshardware.de/Nova-Lake-S-Codename-285922/News/APX-Gaming-Spiele-Entwickler-1557895/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Nova-Lake-S-Spieleentwickler-haben-es-mit-APX-leichter-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Windows-Tuning mit Nebenwirkung: Was das Löschen von Prefetch bringt",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "Der Prefetch-Ordner von Windows 11 enthält mitunter Hunderte Dateien. Wer diese löscht, will meist Speicherplatz freigeben oder den PC beschleunigen. Doch der vermeintliche Tuning-Trick kann sich negativ auf die Leist...",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-Prefetch-loeschen-PC-langsamer-Tuning-1557858/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Windows-11-Warum-ein-Tuning-Trick-den-PC-langsamer-macht-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Arc Pro B70 mit 32 GiB: Asus’ erste Arc-Grafikkarte kostet 1.799 Euro",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "Asus verkauft die UGen Arc Pro B70 mit 32 GiB ECC-Speicher ab sofort für 1.799 Euro (UVP) in Deutschland und Österreich. Gegenüber Intels Referenzdesign bietet sie mehr Boardpower und HDMI, kostet im deutschen Handel...",
+    "url": "https://www.pcgameshardware.de/Intel-Arc-Grafikkarte-267650/News/Asus-UGen-Preis-1799-Euro-Deutschland-1557894/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Asus-UGen-Arc-Pro-B70-_-2-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "Neues iPad mini: OLED, A20 Pro und IP67 für 749 Euro, aber weiter nur 60 Hz",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "Apple bringt das iPad mini mit OLED-Display, dem 2-nm-Prozessor A20 Pro und einem Gehäuse nach IP67 auf den Markt. Vorbestellungen starten am 28. Oktober, die Preise beginnen in Deutschland bei 749 Euro.",
+    "url": "https://www.pcgameshardware.de/iPad-Hardware-234526/News/Mini-OLED-A20-Pro-Preis-Release-1557897/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Apple-iPad-mini-water-resistance-261026-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "ROG NUC 16 x Phantom Blade Zero: Sonderedition mit RTX 5080 Laptop startet in China",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "Zur CES 2026 zu Beginn des Jahres kündigte ASUS eine Reihe neuer Mini-PCs an – darunter den ROG NUC 16, welchen man wenig später mit Blick auf die hohen Speicher- und Komponentenpreise um eine günstigere Version mit N...",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/komplettsysteme/70744-rog-nuc-16-x-phantom-blade-zero-sonderedition-mit-rtx-5080-laptop-startet-in-china.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/swank_bit_pd/asus_rog_nuc16_phantom_blade_zero_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "(PR) Team Group ACE 8K MicroSDXC Card Delivers Stable Performance for 8K Video Capture",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "With the rapid growth of high-resolution and high-frame-rate video production, sustained write stability has become just as important as transfer speed for memory cards. Designed for demanding 8K imaging applications,...",
+    "url": "https://www.techpowerup.com/354169/team-group-ace-8k-microsdxc-card-delivers-stable-performance-for-8k-video-capture",
+    "image": "https://www.techpowerup.com/img/zQTj9RjxyCScWKlq.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) ASUS Announces TUF Gaming Radeon RX 9070 XT Onimusha Special Edition",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "ASUS today announced the TUF Gaming Radeon RX 9070 XT Onimusha Special Edition graphics card, arriving alongside Onimusha: Way of the Sword, which releases on September 4, 2026. More than a performance powerhouse, thi...",
+    "url": "https://www.techpowerup.com/354168/asus-announces-tuf-gaming-radeon-rx-9070-xt-onimusha-special-edition",
+    "image": "https://www.techpowerup.com/img/Cm2rBSRNWP32ViLd.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "LattePanda Launches LattePanda Sigma 2: The Embeddable AI Single Board Server",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "The LattePanda Team today launched LattePanda Sigma 2, an x86 single-board server designed to bring high-performance local AI computing directly into intelligent products and systems. Built around the Intel Core Ultra...",
+    "url": "https://www.techpowerup.com/353798/lattepanda-launches-lattepanda-sigma-2-the-embeddable-ai-single-board-server",
+    "image": "https://www.techpowerup.com/img/uUhk4796OGS7H1Tn.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Micron Plans 400-Layer 3D NAND with Wafer-to-Wafer Bonding in 2027",
+    "date": "2026-10-27",
+    "category": "Industrie",
+    "description": "Micron is actively working on bringing its next-generation G11 NAND Flash technology to production, as the company has announced that G11 will be its first 3D NAND Flash. With the current G9 technology shipping across...",
+    "url": "https://www.techpowerup.com/354167/micron-plans-400-layer-3d-nand-with-wafer-to-wafer-bonding-in-2027",
+    "image": "https://www.techpowerup.com/img/BYWcDY9zMSgv4VKQ.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Windows 11 Gets New Command Palette Features and Mouse Button Lock in PowerToys 0.102",
+    "date": "2026-10-27",
+    "category": "Software",
+    "description": "Microsoft's in-house PowerToys utility may be one of the most useful tools for fixing many of the shortcomings of Windows 11, and its latest update, version 0.102, adds a number of new features to the productivity sui...",
+    "url": "https://www.techpowerup.com/354164/windows-11-gets-new-command-palette-features-and-mouse-button-lock-in-powertoys-0-102",
+    "image": "https://www.techpowerup.com/img/TCgEEUNTAJyJ3ySs.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "CD Projekt Red Thanks BioWare on The Witcher's 19th Anniversary",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "CD Projekt Red marked the 19th anniversary of The Witcher on October 26 with a post on X, and most of it went to thanking BioWare. The timing probably isn't a coincidence. Just five days earlier, EA shut down BioWare...",
+    "url": "https://www.techpowerup.com/354162/cd-projekt-red-thanks-bioware-on-the-witchers-19th-anniversary",
+    "image": "https://www.techpowerup.com/img/OtKn51TkSRbh7U4H.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "AI image generators can draw a character once, but keeping that character's look consistent across page 12 usually means regenerating images repeatedly. Turning those images into a laid-out book takes another program...",
+    "url": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
+    "image": "https://www.techpowerup.com/img/5VFDr21mU89xNZn0.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Anthropic Files to Go Public on Nasdaq, Reveals $16.3 Billion in First-Half Revenue",
+    "date": "2026-10-27",
+    "category": "Hardware",
+    "description": "Anthropic has publicly filed for an IPO, submitting an S-1 to the SEC on October 26 with plans to list on the Nasdaq under the ticker \"ANT.\" The filing leaves the price range and share count blank for now, but the Wal...",
+    "url": "https://www.techpowerup.com/354157/anthropic-files-to-go-public-on-nasdaq-reveals-usd-16-3-billion-in-first-half-revenue",
+    "image": "https://www.techpowerup.com/img/3WgkoiBk2uxFLVdA.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Windows-Insider: Vorschauversionen zeigen eingebauten Internet-Speedtest",
     "date": "2026-10-26",
     "category": "Software",
-    "description": "Transkribieren, Übersetzen, Zusammenfassen: Wie gut KI lokal auf iPhone, Galaxy, Pixel und iPad funktioniert, zeigen aktuelle Tests und Benchmarks.",
-    "url": "https://www.heise.de/hintergrund/Grenzen-lokaler-KI-Was-iPhone-Galaxy-Pixel-und-iPad-leisten-11492816.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/5/1/8/7/Aufmacher_jpg-6301535d46358a1b.jpeg",
+    "description": "Microsoft hat Insider-Vorschau-Builds von Windows 11 veröffentlicht. Sie bringen ein neues Kontextmenü und einen Internet-Speedtest.",
+    "url": "https://www.heise.de/news/Windows-Insider-Vorschauversionen-zeigen-eingebauten-Internet-Speedtest-11500409.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/9/0/5/7/2026-10-26-Microsoft-Windows-Insider-Speedtest-Aufmacher-06e4b997fe411449.png",
     "source": "Heise"
+  },
+  {
+    "title": "KI-Update kompakt: Nvidia GTC, KI-Agenten, Kimi K3.1 Pro, Perplexity Computer",
+    "date": "2026-10-26",
+    "category": "Software",
+    "description": "Das „KI-Update“ liefert dreimal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
+    "url": "https://www.heise.de/news/KI-Update-kompakt-Nvidia-GTC-KI-Agenten-Kimi-K3-1-Pro-Perplexity-Computer-11499987.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/8/8/4/4/heise_Podcasts_KIUpdate_ho_16_9-e43012251deae576.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Kimi K3.1 Pro: Chinesisches Open-Weight-Modell fordert US-Weltspitze heraus",
+    "date": "2026-10-26",
+    "category": "Software",
+    "description": "Moonshot AI stellt Kimi K3.1 Pro vor. Das Open-Weight-Modell konkurriert laut unabhängigen Benchmarks mit proprietären Spitzenmodellen aus den USA.",
+    "url": "https://www.heise.de/news/Chinesisches-Open-Weight-Modell-Kimi-K3-1-Pro-rueckt-an-US-Spitzenmodelle-heran-11500459.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/9/0/8/2/Kimi-K3-Pro-f44a284e3885bc73.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Neue Spezifikationen: Nvidia Rubin ist bei HBM4 und NVLink jetzt langsamer",
+    "date": "2026-10-26",
+    "category": "Hardware",
+    "description": "Während Nvidia immer schnellere HBM4-Chips gefordert hatte, geht es bei den neuen Spezifikationen für Nvidia Rubin in die andere Richtung. Nvidia hat die Angaben zum Durchsatz nämlich reduziert, das gilt auch für den...",
+    "url": "https://www.computerbase.de/news/grafikkarten/neue-spezifikationen-nvidia-rubin-ist-bei-hbm4-und-nvlink-jetzt-langsamer.100010/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
     "title": "Ugreen DXP8800 Ultra im Test: High-End-8-Bay-NAS mit Intel Core 7 150U",
@@ -18,112 +261,58 @@
     "source": "ComputerBase"
   },
   {
-    "title": "M5 Ultra: Der Mac Studio macht bei KI reinen GPUs Konkurrenz",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "Apples Mac Studio überzeugt bei KI und rechenintensiven Aufgaben. Das kann den hohen Preis relativieren - es kann aber bessere Alternativen geben. Ein Test von Johannes Hiltscher (Apple, Prozessor)",
-    "url": "https://www.golem.de/news/m5-ultra-der-mac-studio-macht-bei-ki-reinen-gpus-konkurrenz-2610-214325.html",
-    "image": "https://www.golem.de/2610/214325-604591-604589_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Laut Elon Musk: Neoclouds bekommen kaum noch Geld am Anleihenmarkt",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "SpaceX soll dennoch eine Milliardenfinanzierung für neue GPUs erhalten. Viel Rechenleistung könnte 2027 zudem ungenutzt bleiben. (KI, Rechenzentrum)",
-    "url": "https://www.golem.de/news/laut-elon-musk-neoclouds-bekommen-kaum-noch-geld-am-anleihenmarkt-2610-214506.html",
-    "image": "https://www.golem.de/2610/214506-605216-605214_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Windows 11: Microsoft testet Recall ohne automatische Screenshots",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "Statt im Sekundentakt den gesamten Bildschirm aufzunehmen, soll die kommende Context Vault für Windows 11 mehr Kontrolle über Daten bieten. (Windows 11, Microsoft)",
-    "url": "https://www.golem.de/news/windows-11-microsoft-testet-recall-ohne-automatische-screenshots-2610-214496.html",
-    "image": "https://www.golem.de/2610/214496-605172-605170_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Wie schnell ist meine Grafikkarte? Mega-Ranking 2026 mit 84 GPUs über 12 Jahre [Update]",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "Wie schnell ist meine Grafikkarte? Sie fehlt in jedem Vergleich, niemand testet sie mit. Nicht verzagen, unser großes Ranking mit 84 Grafikkarten hilft Ihnen auch im Jahr 2026 weiter. Außerdem geben wir Tipps, mit den...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Wie-schnell-ist-meine-Grafikkarte-1448735/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2017/11/Nvidia-Titan-Xp-Collectors-Edition-Jedi-12--pcgh.JPG",
-    "source": "PCGH"
-  },
-  {
-    "title": "Ryzen-RAM: Warum ein BIOS-Update plötzlich andere DDR5-Timings aktiviert",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "Ein BIOS-Update soll die Kompatibilität und Stabilität eines Mainboards verbessern. Auf AMDs AM5-Plattform kann eine neue Firmware allerdings auch für Ärger sorgen. Das hat mit einer Sicherheitslücke zu tun.",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/AGESA-BIOS-Update-1557784/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/DDR5-BIOS-Update_-Speicher-Timings-im-Wandel-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS] 12V-2×6 bei Grafikkarten in der Praxis: 5 Kabel, 50 Steckzyklen - Wie sensibel reagiert der Stecker?",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "PCGH Plus: Nach einem ausführlichen Steckerwächter-Test nehmen wir uns den 12+4‑Pin‑Stecker schon wieder vor: Unser Praxistest zeigt, wie sensibel dieser auf wiederholte Nutzung reagiert. Der Artikel stammt aus PC Gam...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/12V-26-Praxis-Anschluss-Stecker-Kabel-Test-1547539/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/12v2x6_01-pcgh.png",
-    "source": "PCGH"
-  },
-  {
-    "title": "Phantom Blade Zero ist bereits 145 GB groß – doch warum braucht der Preload 300 GB?",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "Wer das neue Action-Adventure Phantom Blade Zero vor dem Release am 29. Oktober herunterladen möchte, muss dafür ordentlich Platz auf seiner SSD schaffen – laut Entwickler sollten zunächst 300 GB freier SSD-Speicher b...",
-    "url": "https://www.pcgameshardware.de/Phantom-Blade-Zero-Spiel-74287/News/PC-PS5-Preload-Speicherplatz-Action-Adventure-1557751/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Phantom-Blade-Zero-314304-pc-games.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11 bekommt einen Leistungsschalter – mit einer Hardware-Hürde",
+    "title": "Windows 11 passt auf eine CD-ROM: Pico11 bootet zum Desktop, ohne Windows Update",
     "date": "2026-10-26",
     "category": "Software",
-    "description": "Microsoft testet in Windows 11 eine neue Einstellung für mehr Leistung. Allerdings hängt deren Nutzen von einer CPU-Erweiterung ab, die bislang kaum ein Prozessor unterstützt.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-News-Performance-Schalter-Intel-APX-CPU-1557762/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Windows-11-Neuer-Leistungsschalter-schliesst-viele-PCs-aus-pcgh.jpg",
+    "description": "Tiny11-Entwickler NTDEV hat mit Pico11 ein Windows-11-Installationsabbild erstellt, das auf eine CD-ROM passt. Das Werkzeug ist noch nicht veröffentlicht. Desktop und Apps funktionieren, aber ohne Windows Update bleib...",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Pico11-Windows-11-CD-ROM-ISO-1557893/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Pico11_CD_ROM-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "Ryzen 5 5500F bei Tom’s Hardware im Test: Knapp 9 Prozent schneller als der Ryzen 5 5500?",
+    "title": "Die beliebtesten CPUs: Top 5 Prozessoren für Gaming-PCs im Vergleich [Update]",
     "date": "2026-10-26",
     "category": "Hardware",
-    "description": "Mit dem Ryzen 5 5500F hat AMD im September einen weiteren Prozessor für den betagten Sockel AM4 veröffentlicht. Die Nähe des Namens zum Ryzen 5 5500 täuscht allerdings gewaltig.",
-    "url": "https://www.pcgameshardware.de/Ryzen-5-5500-CPU-278287/News/AM4-Budget-Prozessor-1557749/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/AMD-Ryzen-5-5500F-im-Gamingglanz-pcgh.jpg",
+    "description": "Sie suchen die beste oder schnellste CPU fürs Gaming? Dann finden Sie bei PCGH einen Vergleich der aktuell fünf beliebtesten Prozessoren, die sich ideal fürs Spielen eignen oder aufgrund anderer positiver Eigenschafte...",
+    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/beste-Prozessoren-Gaming-PCs-Vergleich-Preis-kaufen-1466965/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2024/11/AMD-Ryzen-7-9800X3D-3D-V-Cache-CPU-Official-pcgh.png",
     "source": "PCGH"
   },
   {
-    "title": "11.000 Euro für einfachere PC-Upgrades: PCGH-Leser baut seinen Rechner um",
+    "title": "[PLUS] Retro-Wunder: Billig gekauft, High-End getunt – Tuning der Radeon 9500",
     "date": "2026-10-26",
     "category": "Hardware",
-    "description": "Wer seinen Gaming-PC aufrüsten will, muss mitunter auch die Wasserkühlung zerlegen. Ein PCGH-Leser wollte sich das künftig ersparen und hat dafür eine ungewöhnliche Lösung gefunden. Die kostet allerdings einiges.",
-    "url": "https://www.pcgameshardware.de/PCGH-Community-Brands-286041/News/Gaming-PC-Server-Rack-11000-Euro-Umbau-Wasserkuehlung-Upgrades-1557715/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Gaming-PC-im-Server-Rack-11.000-Euro-fuer-die-Zukunft-pcgh.jpg",
+    "description": "Früher ließ sich aus manchen günstigen Grafikkarten mit Softmods und Overclocking deutlich mehr Leistung herausholen, als der Hersteller eigentlich vorgesehen hatte.",
+    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/Specials/retro-radeon-9500-high-end-tuning-unlocked-oc-1557643/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Aufmacher-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "Phantom Blade Zero im Technik-Benchmark-Test: Welche Hardware ist nötig?",
+    "title": "Nach dem Ausstieg: Nvidia prüft Umfunktionierung deutscher Kernkraftwerke zu KI-Rechenzentren",
     "date": "2026-10-26",
-    "category": "Software",
-    "description": "Mit Phantom Blade Zero bringt das chinesische Entwicklerstudio S-GAME Ende Oktober ein Action-Rollenspiel auf Basis der Unreal Engine 5 auf den Markt. Technisch hat die PC-Version einiges zu bieten. Wir schauen uns di...",
-    "url": "https://www.pcgameshardware.de/Phantom-Blade-Zero-Spiel-74287/Specials/CPU-GPU-Benchmark-Performance-Fps-1557577/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/PBZ-Frametimes-pcgh.png",
+    "category": "Industrie",
+    "description": "Nvidia und Preussenelektra wollen prüfen, ob sich ehemalige Kernkraftwerksstandorte des Unternehmens in Deutschland für die Errichtung von KI-Rechenzentren eignen.",
+    "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Nvidia-prueft-Umfunktionierung-deutscher-Kernkraftwerke-zu-KI-Rechenzentren-1557846/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Nvidia-Kernkraftwerke-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "AMD Zen 6: Raytracing-Bibliothek nennt Medusa-iGPUs mit RDNA 4m und RDNA 3.5",
+    "title": "Nvidias DLSS-5-Grafikwunder hat einen Fps-Haken: Das und mehr in PCGH 11/2026",
     "date": "2026-10-26",
     "category": "Hardware",
-    "description": "Mit HIP RT 3.2 nennt AMD erstmals drei Grafik-Kennungen der Zen-6-APUs Medusa. GFX1170 und GFX1171 gehören zu RDNA 4m, GFX115E zu RDNA 3.5. Die Raytracing-Bibliothek ist noch eine Vorabversion und bringt einen ABI-Bru...",
-    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/AMD-Zen-6-Medusa-HIP-RT-RDNA-4m-RDNA-3-5-1557741/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/AMD-Zen-6-Medusa-Point-Benchmark-pcgh.jpg",
+    "description": "Die PCGH 11/2026 bringt satte 23 Seiten DLSS 5, FSR 4.1.1b auf RX 6000 und Geforce, Valves Steam Frame und Chinas stärkste Gaming-GPU. Dazu: RAM-, Mainboard-Tests und mehr!",
+    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-11-2026-Magazin-313-DVD-Download-PDF-1554992/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
     "source": "PCGH"
+  },
+  {
+    "title": "Gaming ohne Kompromisse: Drei Powered by MSI Systeme von Dubaro",
+    "date": "2026-10-26",
+    "category": "Hardware",
+    "description": "Advertorial / Anzeige:Schnelle Hardware macht noch lange keinen außergewöhnlichen Gaming-PC.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/komplettsysteme/70598-gaming-ohne-kompromisse-drei-powered-by-msi-systeme-von-dubaro.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/heroic_binary_wj/msi_dubaro_advertorial_high_00_680px.jpg",
+    "source": "HardwareLuxx"
   },
   {
     "title": "Asus erweitert die Vivobook-S-Serie: Neue Notebooks mit Snapdragon X und Intel Core 7",
@@ -162,170 +351,26 @@
     "source": "HardwareLuxx"
   },
   {
-    "title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "TechPowerUp partners with Chieftec to bring our readers from the European Union a unique opportunity to bag one of six fine pieces of Chieftec hardware. The company specializes in gaming PC case, cooling, and power-su...",
-    "url": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus",
-    "image": "https://www.techpowerup.com/img/WDliYXlcs7Wsw4jg.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Intel APX Support Lands in Windows 11 Ahead of \"Nova Lake\" Launch",
+    "title": "PS5 Linux Project Gets Support for PS5 Pro and Up To Firmware Version 13.60",
     "date": "2026-10-26",
     "category": "Software",
-    "description": "Intel's Advanced Performance Extensions (APX) are officially supported on Windows 11 PCs. However, there are currently no consumer PCs capable of utilizing APX. Intel's APX is set to debut with the \"Nova Lake\" process...",
-    "url": "https://www.techpowerup.com/354134/intel-apx-support-lands-in-windows-11-ahead-of-nova-lake-launch",
-    "image": "https://www.techpowerup.com/img/kFbMsW3bjztOsOVd.jpg",
+    "description": "Following the launch of the PS5 Linux project and the lead developer's subsequent exit from the PlayStation modding scene, it appears as though the project has continued to receive contributions. Recent updates to the...",
+    "url": "https://www.techpowerup.com/354159/ps5-linux-project-gets-support-for-ps5-pro-and-up-to-firmware-version-13-60",
+    "image": "https://www.techpowerup.com/img/b9pIBIUi2mpqG25A.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "LattePanda Launches LattePanda Sigma 2: The Embeddable AI Single Board Server",
+    "title": "Linux Kernel 7.4 HID Support Includes Nintendo Switch 2 Controllers and Pulsar Gaming Mice",
     "date": "2026-10-26",
     "category": "Hardware",
-    "description": "The LattePanda Team today launched LattePanda Sigma 2, an x86 single-board server designed to bring high-performance local AI computing directly into intelligent products and systems. Built around the Intel Core Ultra...",
-    "url": "https://www.techpowerup.com/353798/lattepanda-launches-lattepanda-sigma-2-the-embeddable-ai-single-board-server",
-    "image": "https://www.techpowerup.com/img/uUhk4796OGS7H1Tn.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "NVIDIA Cuts HBM4 Speed and NVLink Bandwidth Targets for \"Vera Rubin\"",
-    "date": "2026-10-26",
-    "category": "Software",
-    "description": "NVIDIA has officially implemented changes across its \"Vera Rubin\" product line, reducing target specifications for memory and interconnect fabric. According to the updated product specification sheet, the first change...",
-    "url": "https://www.techpowerup.com/354133/nvidia-cuts-hbm4-speed-and-nvlink-bandwidth-targets-for-vera-rubin",
-    "image": "https://www.techpowerup.com/img/WQi0VUCf0Wo6FwYE.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Vantex V1 Launches as No-Frills Ergonomic Mechanical Keyboard with Built-in Trackpad",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "The Vantex V1 is a new mechanical keyboard project that recently launched on Kickstarter. It takes the columnar stagger ergonomic layout found on split keyboards, like the Corne or Silakka54 and builds it into a more...",
-    "url": "https://www.techpowerup.com/354128/vantex-v1-launches-as-no-frills-ergonomic-mechanical-keyboard-with-built-in-trackpad",
-    "image": "https://www.techpowerup.com/img/W0Lz1hujDAJmWaDf.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "SteamOS 3.9.0 Preview Launches With KDE 6.7.3 and Linux Kernel 7.2",
-    "date": "2026-10-26",
-    "category": "Software",
-    "description": "Following a recent small patch to the beta branch of SteamOS, which heralded fixes to many of the Linux distribution's desktop and gaming mode features, Valve has announced the SteamOS 3.9.0 Preview, which upgrades th...",
-    "url": "https://www.techpowerup.com/352133/steamos-3-9-0-preview-launches-with-kde-6-7-3-and-linux-kernel-7-2",
-    "image": "https://www.techpowerup.com/img/UWhSmQFdGg9IwdxI.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "AI image generators can draw a character once, but keeping that character's look consistent across page 12 usually means regenerating images repeatedly. Turning those images into a laid-out book takes another program...",
-    "url": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
-    "image": "https://www.techpowerup.com/img/5VFDr21mU89xNZn0.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Epic Games Makes Fortnite x One Piece Official, Mini-Season Starts November 1",
-    "date": "2026-10-26",
-    "category": "Hardware",
-    "description": "After plenty of rumors, Epic Games has finally made it official: One Piece is coming to Fortnite. The official Fortnite account on X posted three straw hat emojis on October 24, along with a short teaser showing the G...",
-    "url": "https://www.techpowerup.com/354125/epic-games-makes-fortnite-x-one-piece-official-mini-season-starts-november-1",
-    "image": "https://www.techpowerup.com/img/9GwY3iqunv0F5xjx.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "NVIDIA RTXPT 1.9 Path Tracer Gets Around 20% Faster, Adds Windows on Arm Support",
-    "date": "2026-10-26",
-    "category": "Software",
-    "description": "NVIDIA has released version 1.9.0 of RTX Path Tracing (RTXPT), its open-source reference path tracer on GitHub, claiming roughly 20% better performance than the previous 1.8.1 release, with comparable or better image...",
-    "url": "https://www.techpowerup.com/354124/nvidia-rtxpt-1-9-path-tracer-gets-around-20-faster-adds-windows-on-arm-support",
-    "image": "https://www.techpowerup.com/img/til6TskHYg9K8qUn.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "DLSS 5 für Klassiker: Nvidia bringt Neural Rendering in Portal und Half-Life 2 RTX",
-    "date": "2026-10-25",
-    "category": "Hardware",
-    "description": "Portal with RTX war im Dezember 2022 das erste Projekt, welches mit RTX Remix entstanden ist, nun wird es erneut zum Ausstellungsstück: Nvidia integriert DLSS 5 und damit Neural Rendering in den Titel aus 2007. Gleich...",
-    "url": "https://www.computerbase.de/news/gaming/dlss-5-rtx-remix-1-6-bringt-neural-rendering-in-portal-und-half-life-2.99995/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "GeForce RTX 20, 30 & 40: Modder lösen Nvidias Bremse für KI-Berechnungen",
-    "date": "2026-10-25",
-    "category": "Hardware",
-    "description": "Nvidia drosselt bei GeForce-GPUs die Tensor-Leistung gegenüber den Workstation-GPUs deutlich. Neue Mods heben Nvidias Bremse nun auf und ermöglichen einen deutlich höheren Tensor-Durchsatz für Turing, Ampere und Ada L...",
-    "url": "https://www.computerbase.de/news/grafikkarten/geforce-rtx-20-30-und-40-modder-loesen-nvidias-bremse-fuer-ki-berechnungen.99994/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Nvidia GTC 2026: Berliner Event enthüllt KI, Quanten und Robotik und fordert mehr Mut",
-    "date": "2026-10-25",
-    "category": "Industrie",
-    "description": "In über 150 Sessions deckten Nvidia und Partner auf der GTC Berlin 2026 unzählige Themengebiete ab. Mit dabei sind sehr interessante Einblicke und Dinge, die man dann doch nicht jeden Tag sieht. Der Tenor dabei ist st...",
-    "url": "https://www.computerbase.de/news/wirtschaft/nvidia-gtc-berlin-2026-ki-datacenter-greenpeace-quanten-robots-autos-und-mehr.99924/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Wochenrück- und ausblick: Darum ist Half-Life 3 immer und überall Thema",
-    "date": "2026-10-25",
-    "category": "Software",
-    "description": "Was konnten unsere Benchmarks zu Call of Duty: Modern Warfare 4, AMDs absolut überraschende, Monate früher als erwartet durchgezogene Veröffentlichung von FSR 4.1 Upscaling für RDNA 2, der PHP-Sicherheitsvorfall PHP2S...",
-    "url": "https://www.computerbase.de/news/in-eigener-sache/wochenrueckblick-und-ausblick-2026-w43.99973/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "[PLUS] Tuning-Guide: Geforce RTX 5080 im Griff - Mehr Fps, weniger Lärm, höhere Effizienz",
-    "date": "2026-10-25",
-    "category": "Hardware",
-    "description": "PCGH Plus: Ganzer Generationssprung, halber Leistungshüpfer - das ist Nvidias Geforce RTX 5080. Wie viel Tuning lässt sie zu? Gelingt der Satz über die Zehn-Prozent-Hürde? Bühne frei, jetzt spricht sie für sich selbst...",
-    "url": "https://www.pcgameshardware.de/Geforce-RTX-5080-Grafikkarte-281030/Specials/Tuning-Geforce-RTX-5080-im-Griff-1469747/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/04/aufmacher_tuning_geforce_RTX2080-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Geforce RTX 20, 30 und 40: Linux-Unlock bringt bis zu doppelte Tensor-Leistung",
-    "date": "2026-10-25",
-    "category": "Hardware",
-    "description": "Drei Projekte umgehen unter Linux das Tensor-Limit ausgewählter Geforce-Grafikkarten mit Turing, Ampere und Ada Lovelace. Bei bestimmten Matrixberechnungen verdoppelt sich die Leistung nahezu. Spiele-Fps steigen dadur...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Nvidia-Geforce-RTX-Tensor-Unlock-Linux-KI-Leistung-1557737/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2018/09/Nvidia-Turing-Geforce-RTX-2080-Ti-Aufmacher-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Nvidias DLSS-5-Grafikwunder hat einen Fps-Haken: Das und mehr in PCGH 11/2026",
-    "date": "2026-10-25",
-    "category": "Hardware",
-    "description": "Die PCGH 11/2026 bringt satte 23 Seiten DLSS 5, FSR 4.1.1b auf RX 6000 und Geforce, Valves Steam Frame und Chinas stärkste Gaming-GPU. Dazu: RAM-, Mainboard-Tests und mehr!",
-    "url": "https://www.pcgameshardware.de/PC-Games-Hardware-Brands-18366/Specials/PCGH-11-2026-Magazin-313-DVD-Download-PDF-1554992/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Hauptbanner_PCGH_neutral_zentriert_NEU-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "ASUS ExpertBook Ultra im Test: Viel Ausstattung, mattes OLED und großer Speicher",
-    "date": "2026-10-25",
-    "category": "Hardware",
-    "description": "Intel Core Ultra X7 samt Intel Arc B390, 64 GB Arbeitsspeicher, eine 2 TB große SSD und ein mattes OLED-Touchdisplay mit 120 Hz.",
-    "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/notebooks/70519-asus-expertbook-ultra-im-test-viel-ausstattung-mattes-oled-und-grosser-speicher.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/pretty_process_v8/asus_expertbook_ultra_b9406caa_review_00_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Netflix Reportedly Walked Away After Xbox Asked $800 Million for Its Game IP",
-    "date": "2026-10-25",
-    "category": "Hardware",
-    "description": "Netflix reportedly offered Microsoft $500 million for seven years of exclusive film and TV adaptation rights to Xbox games, but the two sides never reached a middle ground. According to Matthew Belloni's What I'm Hear...",
-    "url": "https://www.techpowerup.com/354119/netflix-reportedly-walked-away-after-xbox-asked-usd-800-million-for-its-game-ip",
-    "image": "https://www.techpowerup.com/img/KPxFR2qO3Nim6HCQ.jpg",
+    "description": "Valve has been a major contributor to the Linux gaming scene since it launched the Arch-based SteamOS alongside the Steam Deck, and the company's latest contribution to the Linux gaming ecosystem comes by way of a ser...",
+    "url": "https://www.techpowerup.com/354158/linux-kernel-7-4-hid-support-includes-nintendo-switch-2-controllers-and-pulsar-gaming-mice",
+    "image": "https://www.techpowerup.com/img/44gVxpTJMtGxIloc.jpg",
     "source": "TechPowerUp"
   },
   {
     "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "category": "Angebote",
     "description": "Microsoft 365 Personal now costs $99.99 per year after Microsoft bundled its Copilot AI into the plan. For a one-time payment of less than a third of an annual subscription, a Microsoft Office Professional 2021 for Wi...",
     "url": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
@@ -333,120 +378,75 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "New Linux Tool Brings Resizable BAR to Intel Arc GPUs on Old Motherboards",
-    "date": "2026-10-25",
+    "title": "Arc Raiders Developer Still Split on Permanent PvE Mode After Divisive Test",
+    "date": "2026-10-26",
     "category": "Hardware",
-    "description": "Intel Arc cards have always leaned heavily on Resizable BAR, to the point where Intel once told Alchemist buyers without it to stick with other vendors, and TechPowerUp's B580 review listed it as required for good per...",
-    "url": "https://www.techpowerup.com/354116/new-linux-tool-brings-resizable-bar-to-intel-arc-gpus-on-old-motherboards",
-    "image": "https://www.techpowerup.com/img/sBjKFtfAzB82NAXc.jpg",
+    "description": "Embark recently concluded a short test of a new PvE mode in Arc Raiders, which may have been partially behind a six-month player count high, and the game studio has now started to reflect on the data it gathered from...",
+    "url": "https://www.techpowerup.com/354155/arc-raiders-developer-still-split-on-permanent-pve-mode-after-divisive-test",
+    "image": "https://www.techpowerup.com/img/oJ9Rz2mjvkSwU5ad.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
-    "date": "2026-10-25",
+    "title": "(PR) Apple Unveils the All-New iPad mini",
+    "date": "2026-10-26",
     "category": "Hardware",
-    "description": "A fan petition asking EA to keep Mass Effect alive has picked up close to 180,000 signatures in just a few days. The #SaveMassEffect petition went up on Change.org on October 21, the same day EA shut down BioWare and...",
-    "url": "https://www.techpowerup.com/354114/nearly-180-000-fans-sign-savemasseffect-petition-following-bioware-shutdown",
-    "image": "https://www.techpowerup.com/img/FaljDpmWpUBAh0RK.jpg",
+    "description": "Apple today unveiled the all-new iPad mini, featuring a stunning OLED display in an even thinner and lighter design, a huge leap in performance with A20 Pro, and water and dust resistance. The larger 8.5-inch OLED dis...",
+    "url": "https://www.techpowerup.com/354156/apple-unveils-the-all-new-ipad-mini",
+    "image": "https://www.techpowerup.com/img/N9T46G0XDeZWxX51.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "NVIDIA Eyes Software Revenue With a $2,000 per GPU Yearly Figure From Huang",
-    "date": "2026-10-25",
-    "category": "Industrie",
-    "description": "NVIDIA CEO Jensen Huang has put a rough price on the software side of the company's AI business. During a Q&A session at GTC Berlin last week, Huang said software licensing will become a growing part of NVIDIA's busin...",
-    "url": "https://www.techpowerup.com/354113/nvidia-eyes-software-revenue-with-a-usd-2-000-per-gpu-yearly-figure-from-huang",
-    "image": "https://www.techpowerup.com/img/iNg6ERFfjTAylKUP.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Xbox Loses Its First Chief Operating Officer Mid-Reset",
-    "date": "2026-10-25",
-    "category": "Industrie",
-    "description": "Helen Chiang, Xbox's first-ever chief operating officer, has left Microsoft just three months after taking on the role. The news comes from a short internal memo by Microsoft Gaming CEO Asha Sharma, obtained by The Ve...",
-    "url": "https://www.techpowerup.com/354105/xbox-loses-its-first-chief-operating-officer-mid-reset",
-    "image": "https://www.techpowerup.com/img/vqpsPKgkomTCEbdU.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "This Week in Gaming (Week 44)",
-    "date": "2026-10-25",
-    "category": "Markt",
-    "description": "Welcome to the last week of October and we end this month with what looks to be a big release for those that are into martial arts action RPGs. This week's regular releases are a bit of a mix, starting off with a co-o...",
-    "url": "https://www.techpowerup.com/354111/this-week-in-gaming-week-44",
-    "image": "https://www.techpowerup.com/img/GAJin9gd1fnDFzNP.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GeForce Unlocked: Modders Boost RTX 20, RTX 30, and RTX 40 Compute Performance by Up to 2x",
-    "date": "2026-10-25",
-    "category": "Hardware",
-    "description": "NVIDIA's GeForce RTX 30-series and RTX 40-series graphics cards are based on the same dies as their professional-grade GPUs. This means the compute potential of consumer-oriented RTX GPUs is restricted by NVIDIA's fir...",
-    "url": "https://www.techpowerup.com/354110/geforce-unlocked-modders-boost-rtx-20-rtx-30-and-rtx-40-compute-performance-by-up-to-2x",
-    "image": "https://www.techpowerup.com/img/6x8MrJbTI4GhYSDg.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "YouTube Sets Early 2027 Target for AV2 Streams on the Web",
-    "date": "2026-10-25",
+    "title": "Surface Laptop Ultra Gets Its First Firmware Fix for Flickering and Slow Reboots",
+    "date": "2026-10-26",
     "category": "Software",
-    "description": "The Alliance for Open Media (AOMedia) shared an update on AV2 this week, and the clearest date in it comes from YouTube. Des Keane, Engineering Director at YouTube, confirmed the platform will begin streaming in AV2,...",
-    "url": "https://www.techpowerup.com/354107/youtube-sets-early-2027-target-for-av2-streams-on-the-web",
-    "image": "https://www.techpowerup.com/img/EZscH0d7qwShzdCB.jpg",
+    "description": "Microsoft has rolled out the first firmware update for its RTX Spark-powered Surface Laptop Ultra, less than a week after the laptop started shipping on October 16. Listed in Windows Update as \"System Hardware Update...",
+    "url": "https://www.techpowerup.com/354152/surface-laptop-ultra-gets-its-first-firmware-fix-for-flickering-and-slow-reboots",
+    "image": "https://www.techpowerup.com/img/kTlJ3J7GGAotBLdZ.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Sony Patent Turns Game Audio Into Visual Cues for Deaf and Hard-of-Hearing Players",
-    "date": "2026-10-25",
-    "category": "Hardware",
-    "description": "A newly published Sony Interactive Entertainment patent application, titled \"Audio Processing System and Method,\" describes a way to turn in-game sounds into visual cues for players who are deaf or hard of hearing. Th...",
-    "url": "https://www.techpowerup.com/354106/sony-patent-turns-game-audio-into-visual-cues-for-deaf-and-hard-of-hearing-players",
-    "image": "https://www.techpowerup.com/img/FGVm8zahRvRnSnge.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "KI statt Gaming: Fabriken zerlegen massenhaft GeForce RTX 5090",
-    "date": "2026-10-24",
-    "category": "Hardware",
-    "description": "Während die GeForce RTX 5090 im deutschen Handel kaum verfügbar ist, zeigen neue Filmaufnahmen, wie fabrikneue Modelle in einer fachmännisch organisierten Werkstatt auseinandergebaut werden. Selbst Nvidias Founders Ed...",
-    "url": "https://www.computerbase.de/news/grafikkarten/ki-statt-gaming-fabriken-zerlegen-massenhaft-geforce-rtx-5090.99985/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "GeForce-Treiber 621.01: Nvidia bestätigt Black­screens nach Update",
-    "date": "2026-10-24",
-    "category": "Hardware",
-    "description": "Seit der Freigabe des GeForce Game Ready Drivers 621.01 am 21. Oktober melden Anwender über hängende Videos und vorübergehend schwarze Bildschirme. Die Schwierigkeiten treten auch ohne laufendes Spiel auf. Nvidia hat...",
-    "url": "https://www.computerbase.de/news/grafikkarten/geforce-treiber-621-01-nvidia-bestaetigt-blackscreens-nach-update.99982/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "SOCAMM3: Neuer RAM für Nvidia Rosa Feynman und AMD Florence",
-    "date": "2026-10-24",
-    "category": "Hardware",
-    "description": "SOCAMM hat sich binnen kurzer Zeit zu einem festen Speicherstandard etabliert. Die dritte Generation zielt auf CPUs ab dem Jahr 2028 ab. In erster Linie sind damit Nvidia Rosa und die kombinierte Plattform Rosa Feynma...",
-    "url": "https://www.computerbase.de/news/arbeitsspeicher/socamm3-neuer-ram-fuer-nvidia-rosa-feynman-und-amd-florence.99970/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Im Test vor 15 Jahren: Als 768 MB VRAM bei ATi/AMD und Nvidia noch üppig waren",
-    "date": "2026-10-24",
-    "category": "Hardware",
-    "description": "Im Oktober 2011 ließen wir 14 ATi/AMD Radeon und Nvidia GeForce aus sechs Baujahren gegeneinander antreten. Die Grafikkarten-Benchmarks reichten von F.E.A.R. bis The Witcher 2. Zwischen alten und neuen Topmodellen lag...",
-    "url": "https://www.computerbase.de/news/grafikkarten/im-test-vor-15-jahren-als-768-mb-vram-bei-ati-amd-und-nvidia-noch-ueppig-waren.99954/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "DLSS 5 Neural Rendering: Metro 2033 Redux und Last Light Redux erhalten überraschendes Update",
-    "date": "2026-10-24",
+    "title": "(PR) Intel to Acquire Classiq to Create a Full-stack Quantum Computing Platform",
+    "date": "2026-10-26",
     "category": "Software",
-    "description": "Noch vor wenigen Tagen wurde die Erweiterung von DLSS 5 seitens NVIDIA auf Hogwarts Legacy und Where Winds Meet beschränkt.",
-    "url": "https://www.hardwareluxx.de/index.php/news/software/spiele/70714-dlss-5-neural-rendering-metro-2033-und-last-light-erhalten-ueberraschendes-update.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/keen_query_rh/metro_2033_dlss_5_680px.jpeg",
-    "source": "HardwareLuxx"
+    "description": "Intel Corporation today announced that it has entered into a definitive agreement to acquire Classiq, a leading provider of quantum computing software. The combination of Classiq's synthesis platform with Intel's spin...",
+    "url": "https://www.techpowerup.com/354153/intel-to-acquire-classiq-to-create-a-full-stack-quantum-computing-platform",
+    "image": "https://www.techpowerup.com/img/A3TGv7qEwG9NTTQq.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "NVIDIA Allegedly Stops Accepting RTX 5090 Orders",
+    "date": "2026-10-26",
+    "category": "Hardware",
+    "description": "Although NVIDIA has officially denied the discontinuation of the GeForce RTX 5090, more rumors are emerging that substantiate claims about the flagship gaming GPU being discontinued. This time, NVIDIA board partners a...",
+    "url": "https://www.techpowerup.com/354144/nvidia-allegedly-stops-accepting-rtx-5090-orders",
+    "image": "https://www.techpowerup.com/img/uDzqIIp6JiN5gFJt.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "New Project Lets Nintendo Switch Games Run Natively on Apple Silicon Macs and iPhones",
+    "date": "2026-10-26",
+    "category": "Software",
+    "description": "An open-source project called nxnative lets Nintendo Switch games run natively on Apple Silicon, without an emulator in between. Built by developer seedds, the tool takes a user's own game files and prod.keys and turn...",
+    "url": "https://www.techpowerup.com/354151/new-project-lets-nintendo-switch-games-run-natively-on-apple-silicon-macs-and-iphones",
+    "image": "https://www.techpowerup.com/img/VqMryDiYv2ByrE2f.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Microsoft Offers Exit Package to 60,000 Employees",
+    "date": "2026-10-26",
+    "category": "Hardware",
+    "description": "Microsoft is offering a Voluntary Exit Offer (VEO) to roughly 60,000 employees, about a quarter of its workforce, in its second buyout program this year. The offer, announced in a memo from Chief People Officer Amy Co...",
+    "url": "https://www.techpowerup.com/354150/microsoft-offers-exit-package-to-60-000-employees",
+    "image": "https://www.techpowerup.com/img/dMXTJqegZP1fCPWj.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "New DLSS 5 Mod Borrows a VR Trick for Better Ultrawide Performance",
+    "date": "2026-10-26",
+    "category": "Hardware",
+    "description": "A new DLSS 5 mod borrows a trick from VR headsets to make Neural Rendering less punishing on ultrawide monitors. FoveatedDLSS5, a ReShade add-on built by maximedgoulet, keeps neural rendering at full resolution in the...",
+    "url": "https://www.techpowerup.com/354149/new-dlss-5-mod-borrows-a-vr-trick-for-better-ultrawide-performance",
+    "image": "https://www.techpowerup.com/img/RaUjHCAYM0Ob3aod.jpg",
+    "source": "TechPowerUp"
   }
 ]
