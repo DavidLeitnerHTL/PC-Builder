@@ -1,5 +1,212 @@
 [
   {
+    "title": "Mittwoch: AMD-Gewinnexplosion dank KI-Boom, Mobilfunker-Warnung vor Extremwetter",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "AMDs Server-Business floriert + Mobilfunker rufen nach Politik + Führerschein bald in Smartphone-App + EuGH zu Raupkopien durch KI + Bit-Rauschen zu Billig-CPUs",
+    "url": "https://www.heise.de/news/Mittwoch-AMD-Gewinnexplosion-dank-KI-Boom-Mobilfunker-Warnung-vor-Extremwetter-11510784.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/4/3/2/8/mittwoch-b9929e5105679f26.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Bit-Rauschen, der Prozessor-Podcast: Wie Intel einen guten Billigprozessor baut",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Bei der CPU-Baureihe Core 300 für Billig-Notebooks spart Intel Fertigungskosten. Wie und an welchen Stellen, erklärt Folge 2026/22 des Podcasts Bit-Rauschen.",
+    "url": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Wie-Intel-einen-guten-Billigprozessor-baut-11508341.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/3/0/8/4/Podcast_Bitrauschen_16_9-9bdff0d53ac3c8a7.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Reicht das?: Windows 11 mit 8 GB RAM läuft zu 40 Prozent schneller",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Windows 11 soll schon jetzt wesentlich besser mit 8 GB RAM auskommen, verkündet Microsoft in einem Blog-Beitrag. Bis zu 40 Prozent schneller ist das Betriebssystem demnach bei Multitasking-Aufgaben auf entsprechenden...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/reicht-das-windows-11-mit-8-gb-ram-laeuft-zu-40-prozent-schneller.100169/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Sandisk Extreme Pro (V3) 2 TB im Test: Schnelle USB4-SSD schreibt allen davon",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Sandisk macht seine USB4-SSD der Serie Extreme Pro in der neuen V3-Version kompakter und schneller. So viel sei schon verraten: Sie zählt nicht nur zu den schnellsten externen SSDs im Testfeld, sondern lässt im Schrei...",
+    "url": "https://www.computerbase.de/artikel/storage/sandisk-extreme-pro-v3-usb-4-2-tb-test.99747/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "(g+) Rust-Programmierung: Wie sich mehrere CPU-Kerne effizient auslasten lassen",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Rust macht die parallele Verarbeitung einfach und sicher. Bibliotheken wie Rayon helfen dabei, mehrere Prozessorkerne effizient auszulasten. Eine Anleitung von Gerhard Völkl (Rust, Prozessor)",
+    "url": "https://www.golem.de/news/rust-programmierung-wie-sich-mehrere-cpu-kerne-effizient-auslasten-lassen-2611-214843.html",
+    "image": "https://www.golem.de/2611/214843-606794-606792_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Anzeige: Sabrent Dual-NVMe-Dockingstation mit Klonfunktion jetzt reduziert bei Amazon",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Das Sabrent Dual-NVMe-Gehäuse klont M.2-SSDs per Tastendruck, kühlt per Lüfter und macht den SSD-Umzug jetzt auch preislich leichter. (Technik/Hardware, Speichermedien)",
+    "url": "https://www.golem.de/news/anzeige-sabrent-dual-nvme-dockingstation-mit-klonfunktion-jetzt-reduziert-bei-amazon-2611-214830.html",
+    "image": "https://www.golem.de/2611/214830-606728-606726_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Windows 11 mit 8 GByte RAM: Microsoft verspricht bis zu 40 Prozent mehr Tempo",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Windows 11 hält bis zu 2 GByte mehr Daten im Arbeitsspeicher. Auf 8-GByte-PCs soll das Multitasking laut Microsoft dadurch bis zu 40 Prozent schneller laufen. (Windows 11, Microsoft)",
+    "url": "https://www.golem.de/news/windows-11-mit-8-gb-ram-microsoft-verspricht-bis-zu-40-prozent-mehr-tempo-2611-214826.html",
+    "image": "https://www.golem.de/2611/214826-606716-606714_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Windows 11 mit 8 GiB RAM: Bis zu 40 Prozent schnelleres Multitasking",
+    "date": "2026-11-04",
+    "category": "Software",
+    "description": "Microsoft meldet für Windows 11 mit 8 GiB RAM bis zu 20 Prozent kürzere Reaktionszeiten und 40 Prozent schnelleres Multitasking. Ein Teil der Werte stammt jedoch aus 25H2-Tests, während die aktuellen Optimierungen für...",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/8-GiB-RAM-schneller-Multitasking-1558924/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Microsoft-Nutzer-spueren-bereits-dass-Windows-11-schneller-wird-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Windows 11 26H2 mit 128 MiB RAM: Desktop läuft, aber quälend langsam",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Tiny11-Entwickler NTDEV zeigt Windows 11 26H2 mit 128 MiB RAM in einer VM. Explorer und Editor funktionieren, doch einen Kaltstart belegt das Youtube-Video vom 1. November nicht. Für den Alltag taugt die stark abgespe...",
+    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/26H2-128-MiB-RAM-Tiny11-NTDEV-1558923/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Windows_11_26H2_128_MiB_RAM-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Radikal Retro: HDMI-Grafikkarte für IBMs 45 Jahre alten Ur-PC und andere ISA-Rechner",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Ein belgischer Retro-Spezialist hat eine Raspberry-basierte Grafikkarte entwickelt, die Systemen aus den Anfangstagen des PCs die Bildausgabe auf moderne Monitore ermöglicht.",
+    "url": "https://www.pcgameshardware.de/PCGH-Retro-Thema-284165/News/HDMI-Grafikkarte-fuer-ISA-1558805/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/serdavision-revb-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "Nvidia Brev: 16 Tage unbefugte Aktivitäten – SSH-Schlüssel könnten betroffen sein",
+    "date": "2026-11-04",
+    "category": "Industrie",
+    "description": "Bei Nvidias Cloud-Dienst Brev hat es offenbar über mehrere Tage unbefugte Aktivitäten gegeben. Betroffen sein könnten SSH-Schlüssel, mit denen Entwickler auf virtuelle Maschinen zugreifen.",
+    "url": "https://www.pcgameshardware.de/Sicherheit-Thema-229955/News/nvidia-brev-sicherheitsvorfall-ssh-schluessel-cloud-zugriff-1558790/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Nvidia-16-Tage-unbefugter-Zugriff-was-ist-passiert-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Ryzen übertaktet, aber langsamer? Warum der angezeigte CPU-Takt täuschen kann",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Es gibt einen Unterschied zwischen dem Kerntakt und dem effektiven Kerntakt. Das Tool Hwinfo ist in der Lage, beide zu trennen. Doch was bedeutet das fürs Curve-Tuning?",
+    "url": "https://www.pcgameshardware.de/Ryzen-7-9800X3D-CPU-280948/News/Curve-Optimizer-Tuning-1558771/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/09/Ryzen-Prozessor-8-Kerne-16-Threads-Leistung-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Welche Grafikkarten die stabilste Framerate liefern: GPU-Perzentil-Index 2026",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Nicht der Durchschnitt zählt: Der GPU-Perzentil-Index 2026 zeigt, welche Grafikkarten selbst unter Last die stabilsten Bildraten halten – aufgeteilt in Rasterizing und Raytracing. Vorhang auf für den „Smoothness-Index...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Perzentil-Ranking-Vergleich-hoechste-Fps-geringste-Latenz-1477566/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/03/AMD-Radeon-RX-9070-XT-Test_AMD-Radeon-RX-9070-Review_Sapphire-Pulse-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "RAM-Knappheit: Teamgroup erwartet den Höhepunkt erst im ersten Halbjahr 2027",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "Teamgroup erwartet die stärkste RAM-Knappheit zwischen Ende 2026 und Mitte 2027. Auch zahlungswillige Abnehmer könnten leer ausgehen. Der Vertragspreis der DDR5-Chips eines 32-GiB-Kits liegt rechnerisch schon über dem...",
+    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/Teamgroup-RAM-Knappheit-2027-DDR5-Speicherkrise-1558837/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/DDR5-Speicher-von-TeamGroup-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "(PR) Thermal Grizzly Releases New PhaseSheet PTM Pro With Improved Thermal Conductivity",
+    "date": "2026-11-04",
+    "category": "Markt",
+    "description": "With PhaseSheet PTM Pro, Thermal Grizzly introduces a further development of PhaseSheet PTM with increased thermal conductivity. A composition optimized for improved thermal conductivity, combined with a new carrier f...",
+    "url": "https://www.techpowerup.com/354457/thermal-grizzly-releases-new-phasesheet-ptm-pro-with-improved-thermal-conductivity",
+    "image": "https://www.techpowerup.com/img/dPl4OY2aMfjxhKH6.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) ASUS Republic of Gamers Announces ROG XG Station 3 With Thunderbolt 5",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "ASUS Republic of Gamers (ROG) today announced the ROG XG Station 3 external graphics card dock, featuring a Thunderbolt 5 connection capable of up to 80 Gbps of bidirectional bandwidth or up to 120 Gbps with Thunderbo...",
+    "url": "https://www.techpowerup.com/354456/asus-republic-of-gamers-announces-rog-xg-station-3-with-thunderbolt-5",
+    "image": "https://www.techpowerup.com/img/gPAfxIObhD98fKn3.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "TechPowerUp x Chieftec Giveaway: Entries Close Soon, Hurry!",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "TechPowerUp partners with Chieftec to bring our readers in European Union countries a chance to bag one of six pieces of Chieftec hardware spanning cases, AIO CPU coolers, and power supplies. Up for grabs are one each...",
+    "url": "https://www.techpowerup.com/354458/techpowerup-x-chieftec-giveaway-entries-close-soon-hurry",
+    "image": "https://www.techpowerup.com/img/aEoG8ylzEcVpJ9qh.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "The V16Q is a 16-inch portable monitor designed for mobile work and entertainment. It features a 2560×1600 IPS screen with a refresh rate of up to 144 Hz. It can serve as an extended display for a laptop and can also...",
+    "url": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen",
+    "image": "https://www.techpowerup.com/img/DBWUjFPD4kJA7DEj.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "NVIDIA DLSS 5 Arrives in Hogwarts Legacy, War Thunder, and Where Winds Meet, Promising Impressive Performance Boost",
+    "date": "2026-11-04",
+    "category": "Software",
+    "description": "NVIDIA is bringing its DLSS 5 neural rendering technology to three more games this month, starting with Hogwarts Legacy on November 5. According to NVIDIA, War Thunder will follow in mid-November, while Where Winds Me...",
+    "url": "https://www.techpowerup.com/354455/nvidia-dlss-5-arrives-in-hogwarts-legacy-war-thunder-and-where-winds-meet-promising-impressive-performance-boost",
+    "image": "https://www.techpowerup.com/img/OInLFFmmhxm0kTEk.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Intel Releases 0.9 PDK for 14A Node, Final Version in Q1 2027",
+    "date": "2026-11-04",
+    "category": "Industrie",
+    "description": "In late October, Intel released its process design kit (PDK) version 0.9 for the 14A node, marking a significant milestone for the Intel Foundry business. Intel's CEO, Lip-Bu Tan, referred to this version as the \"holy...",
+    "url": "https://www.techpowerup.com/354442/intel-releases-0-9-pdk-for-14a-node-final-version-in-q1-2027",
+    "image": "https://www.techpowerup.com/img/HR7c6C6KjCSvI13j.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Intel Readies \"Moon Lake\" and \"Wildcat Lake Refresh\" Built on 18A Node",
+    "date": "2026-11-04",
+    "category": "Industrie",
+    "description": "Intel is reportedly preparing two new processor SKUs focused on extremely low-power computing. The first, called \"Moon Lake,\" is designed as a pure low-power efficiency (LPE) core SoC. The \"Moon Lake\" generation featu...",
+    "url": "https://www.techpowerup.com/354255/intel-readies-moon-lake-and-wildcat-lake-refresh-built-on-18a-node",
+    "image": "https://www.techpowerup.com/img/Oaaap8MMIbRcNgri.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GIGABYTE AORUS and Capcom Team Up for Resident Evil-Themed PC Giveaway",
+    "date": "2026-11-04",
+    "category": "Hardware",
+    "description": "GIGABYTE AORUS has teamed up with Capcom and custom PC modder Sarah Carlos for its \"Evil Season Is Here\" campaign, bringing a Resident Evil-inspired custom PC build to TwitchCon 2026 alongside an online giveaway runni...",
+    "url": "https://www.techpowerup.com/354163/gigabyte-aorus-and-capcom-team-up-for-resident-evil-themed-pc-giveaway",
+    "image": "https://www.techpowerup.com/img/1mOlqKUbbWm31KUD.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GTA 6 Will Need Up to 212 GB of Storage, Pre-Load Now Starts November 10",
+    "date": "2026-11-04",
+    "category": "Software",
+    "description": "Rockstar has moved GTA 6's pre-load up by two days. According to an updated Newswire post and support page, digital pre-orders can now start downloading on November 10, instead of the November 12 date announced back i...",
+    "url": "https://www.techpowerup.com/354448/gta-6-will-need-up-to-212-gb-of-storage-pre-load-now-starts-november-10",
+    "image": "https://www.techpowerup.com/img/MLAdMMEvujlAUJjd.jpg",
+    "source": "TechPowerUp"
+  },
+  {
     "title": "Lüfterlose Mini-PC-Barebones mit Intel Core 300 und Thunderbolt 4",
     "date": "2026-11-03",
     "category": "Hardware",
@@ -16,6 +223,24 @@
     "url": "https://www.heise.de/news/Mit-Nvidias-Segen-Marvell-will-Lumentum-fuer-115-Milliarden-US-Dollar-kaufen-11508781.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
     "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/3/3/0/9/shutterstock_1996549373-7cabfa6c921f65eb.jpeg",
     "source": "Heise"
+  },
+  {
+    "title": "Monster-Grafikkarte: Viermal Radeon RX 470 auf einem PCB vereint",
+    "date": "2026-11-03",
+    "category": "Hardware",
+    "description": "Mutmaßlich ein kurioser Eigenbau für den Einsatz in Mining-Rigs zeigt sich auf Fotos. Auf einer überbreiten Platine sind gleich vier Grafikkarten vom Typ Radeon RX 470 vereint. Die vier GPUs und die 32 Speicherchips w...",
+    "url": "https://www.computerbase.de/news/grafikkarten/monster-grafikkarte-viermal-radeon-rx-470-auf-einem-pcb-vereint.100164/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Nvidia verschärft Regeln: 51 Prozent der KI-Leistung muss an Nicht-China-Kunden gehen",
+    "date": "2026-11-03",
+    "category": "Industrie",
+    "description": "Nvidia zieht die Zügel bei der Vermietung seiner KI-Rechenleistung an: Cloud- und Datacenter-Anbieter sollen künftig mindestens 51 Prozent ihrer Dienste an nicht­chinesische Unternehmen verkaufen. Die Vorgabe wurde la...",
+    "url": "https://www.computerbase.de/news/wirtschaft/nvidia-verschaerft-regeln-51-prozent-der-ki-leistung-muss-an-nicht-china-kunden-gehen.100155/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
     "title": "Super Mario Odyssey: Nativer PC-Port läuft mit 4K und 60 FPS",
@@ -36,121 +261,22 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Anzeige: Kabellose vertikale Maus für unter 25 Euro bei Amazon",
+    "title": "Ryzen AI 500 und Core Ultra 400: Microsoft listet Next-Gen-CPUs für Windows AI",
     "date": "2026-11-03",
     "category": "Hardware",
-    "description": "Eine ergonomische Maus in vertikaler Bauweise und mit einem ungewöhnlichen Design gibt es von Protoarc bei Amazon zum Angebotspreis. (Maus, Amazon)",
-    "url": "https://www.golem.de/news/anzeige-kabellose-vertikale-maus-fuer-unter-25-euro-bei-amazon-2611-214795.html",
-    "image": "https://www.golem.de/2611/214795-606578-606576_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Nvidia, AMD, Intel: Grafikkarten werden knapp und fast unbezahlbar",
-    "date": "2026-11-03",
-    "category": "Industrie",
-    "description": "Die hohe Nachfrage nach Grafikkarten hat die Preise bei allen Herstellern noch einmal merklich nach oben getrieben. (Grafikkarten, AMD)",
-    "url": "https://www.golem.de/news/nvidia-amd-intel-grafikkarten-werden-knapp-und-fast-unbezahlbar-2611-214790.html",
-    "image": "https://www.golem.de/2611/214790-606551-606549_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Prodigy-Prozessor: Entwickler Tachyum meldet selbst Insolvenz an",
-    "date": "2026-11-03",
-    "category": "Hardware",
-    "description": "Die slowakische Tochter hat den Antrag selbst gestellt. Das Gericht hat das Verfahren eingeleitet, aber noch keinen Konkurs erklärt. (Tachyum, Prozessor)",
-    "url": "https://www.golem.de/news/prodigy-prozessor-entwickler-tachyum-meldet-selbst-insolvenz-an-2611-214777.html",
-    "image": "https://www.golem.de/2611/214777-606495-606493_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Geforce RTX 3060 und 3050 statt RTX 50: Hersteller in China lenken Händler um",
-    "date": "2026-11-03",
-    "category": "Hardware",
-    "description": "Weil die Lagerbestände der Geforce RTX 50 in China schwinden, sollen Distributoren laut einem Branchenbericht auf RTX 3060, RTX 3050 und Radeon ausweichen. Für Käufer in Deutschland sind die älteren Modelle erhältlich...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/RTX-50-Engpass-China-Distributoren-RTX-3060-RTX-3050-1558754/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/11/ChannelGate-pcgh.jpg",
+    "description": "Eine auf X verbreitete Microsoft-Folie teilt Windows-PCs für lokale KI in vier Klassen ein und nennt Ryzen AI 500 und Core Ultra Series 4. Für die Einstufung zählt vor allem der Arbeitsspeicher. Offiziell bestätigt is...",
+    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/Microsoft-Windows-KI-Roadmap-Ryzen-AI-500-Core-Ultra-400-1558836/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/01/amd-ryzen-ai-max-right-facing-pcgh.webp",
     "source": "PCGH"
   },
   {
-    "title": "PC von 2002 für 10 Euro: Windows 2000 startet noch, Nvidia Geforce 4 Ti inklusive",
+    "title": "Unanständiges Angebot: PS5-Besitzer sollen ihre ungenutzte Konsole weitergeben",
     "date": "2026-11-03",
     "category": "Hardware",
-    "description": "Unversehrte Garantiesiegel auf Grafikkarte und RAM, eine Canon-CD im Laufwerk und Dateien von 2003: PCGHX-Mitglied modx zeigt am 2. November einen Athlon-XP-PC, der offenbar seit mehr als zwei Jahrzehnten kaum verände...",
-    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/News/Retro-PC-2002-Windows-2000-Geforce-4-Ti-Athlon-XP-1558746/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Retro-PC-6-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Intel Arc B580 angeblich vor dem Aus – PCGH-Einschätzung",
-    "date": "2026-11-03",
-    "category": "Hardware",
-    "description": "Seit ihrem Release Ende 2024 ist Intels Arc B580 ein Spartipp für alle, die viel Leistung für wenig Geld haben möchten. Nun steht die Gaming-Grafikkarte angeblich vor dem Aus. PCGH ordnet die Lage ein.",
-    "url": "https://www.pcgameshardware.de/Arc-B580-Grafikkarte-280998/News/Grafikkarte-guenstig-kaufen-2026-1558725/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/12/Guenstige-Gaming-Grafikkarten_Geforce-RTX-5060-Ti-RTX-5050-Radeon-RX-9060-XT-Arc-B580-B570-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11: Microsoft behebt Smart-App-Control-Fehler nur für 25H2 und 26H2",
-    "date": "2026-11-03",
-    "category": "Software",
-    "description": "Microsoft hat einen Fehler in der Sicherheitsfunktion Smart App Control unter Windows 11 behoben. Der Patch steht jedoch nicht für alle betroffenen Versionen bereit.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/windows-11-smart-app-control-fehler-kb5127936-24h-1558675/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Windows-11-Trotz-Secure-Boot-Update-droht-eine-Sicherheitsluecke-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS] Retro-Wunder: Billig gekauft, High-End getunt – Tuning der Radeon 9500",
-    "date": "2026-11-03",
-    "category": "Hardware",
-    "description": "Früher ließ sich aus manchen günstigen Grafikkarten mit Softmods und Overclocking deutlich mehr Leistung herausholen, als der Hersteller eigentlich vorgesehen hatte.",
-    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/Specials/retro-radeon-9500-high-end-tuning-unlocked-oc-1557643/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Aufmacher-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Sechs ×16-GPUs ohne Sharing, Dual-Lüfter für RAM: Gigabyte stellt drittes WRX90-Mainboard nach Asus und Asrock vor",
-    "date": "2026-11-03",
-    "category": "Hardware",
-    "description": "Totgesagte leben länger: Mit Gigabytes WRX90 AI Top wurde jetzt ein drittes Retail-Mainboard für AMDs Threadripper-Pro-Top-CPUs vorgestellt. Bislang wurde die Plattform nur von Asrock und Asus bedient, MSI fehlt weite...",
-    "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/Gigabyte-WRX-90-AI-Top-dritte-WRX-Platine-1558641/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/WRX90-AI-TOP_01-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Geforce RTX 2080 Ti 22GB: Nvidia-Kuriosität im Test – was bringt der verdoppelte Speicher?",
-    "date": "2026-11-03",
-    "category": "Hardware",
-    "description": "Jetzt mit Video: Speicher kann man nie genug haben, doch neue Grafikkarten mit dreistelligem Preisschild geizen bei der Kapazität. Eine Geforce RTX 2080 Ti 22GB aus inoffiziellen Kanälen verspricht Abhilfe – höchste Z...",
-    "url": "https://www.pcgameshardware.de/Geforce-RTX-2080-Ti-Grafikkarte-267862/Tests/RTX-2080-Ti-22GB-Alibaba-Hardware-Mod-Test-1554585/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/08/Geforce-RTX-2080-Ti-22GB-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "SteamOS im Mini-PC: PCGH-Leser kombiniert alte Intel-Hardware mit Geforce [PCGH Community]",
-    "date": "2026-11-03",
-    "category": "Hardware",
-    "description": "Ein PCGH-Forennutzer hat aus älterer Intel-Hardware und wenigen Neuteilen einen kompakten SteamOS-Rechner gebaut. Interessant ist dabei vor allem die Kombination aus Geforce-Grafikkarte und möglichst leisem Betrieb.",
-    "url": "https://www.pcgameshardware.de/PCGH-Community-Brands-286041/News/SteamOS-Mini-PC-Geforce-RTX-3050-30-Euro-Gehaeuse-1558654/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Lautlose-Steam-Machine-aus-PC-Resten-RTX-3050-im-Mini-Case-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "DDR5-Kauf ohne IC-Lotterie? AMD verrät, welche Speicherchips auf RAM-Kits stecken",
-    "date": "2026-11-03",
-    "category": "Hardware",
-    "description": "Von außen kann nicht erkannt werden, welcher Chip auf den begehrten Arbeitsspeichern verbaut ist. Doch AMD pflegt eine praktische Liste, die dabei helfen kann.",
-    "url": "https://www.pcgameshardware.de/Ryzen-7-7800X3D-CPU-279471/News/RAM-IC-Uebersicht-1558670/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/articles-gaming-amd-ryzen-ddr5-memory-guide-hero960-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11: Microsoft verteidigt die Taskleiste und schließt Änderungen nicht aus",
-    "date": "2026-11-03",
-    "category": "Software",
-    "description": "Microsofts Designchef Diego Baca hat die Kritik an der Windows-11-Taskleiste zurückgewiesen und zugleich frühere Berichte korrigiert. Die Rückkehr einer von Windows 10 bekannten Bedienung bleibt damit offen.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-Taskleiste-Microsoft-Designchef-Drag-and-Drop-Kritik-1558621/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Glassy-Windows-Style-Taskbar-with-Directional-Arrows-pcgh.jpg",
-    "source": "PCGH"
+    "description": "Nachdem OpenAI-Chef Sam Altman zuletzt die ineffiziente Nutzung von Arbeitsspeicher in privaten Computern kritisierte, wirbt nun auch Sony dafür, nicht mehr genutzt PlayStation-5-Konsolen zurückzugeben.",
+    "url": "https://www.hardwareluxx.de/index.php/news/consumer-electronics/konsolen/70844-unanstaendiges-angebot-ps5-besitzer-sollen-ihre-ungenutzte-konsole-weitergeben.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2023/Jan/blithe_solar_dv/_mg_6327_e6acb2fd78ef4388b1d98689dba65bea_680px.jpg",
+    "source": "HardwareLuxx"
   },
   {
     "title": "Kioxia Exceria G3 mit 4 TB im Test: Ein weiteres Modell mit QLC-Speicher",
@@ -169,6 +295,132 @@
     "url": "https://www.hardwareluxx.de/index.php/news/hardware/arbeitsspeicher/70837-hbm-alternative-fuer-dragonfly-qualcomm-validiert-hbc-speicher.html",
     "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/speedy_process_pe/qualcomm_hbc_1_680px.jpg",
     "source": "HardwareLuxx"
+  },
+  {
+    "title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
+    "date": "2026-11-03",
+    "category": "Hardware",
+    "description": "TechPowerUp partners with Chieftec to bring our readers from the European Union a unique opportunity to bag one of six fine pieces of Chieftec hardware. The company specializes in gaming PC case, cooling, and power-su...",
+    "url": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus",
+    "image": "https://www.techpowerup.com/img/WDliYXlcs7Wsw4jg.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Xbox Loses Its First Chief Operating Officer Mid-Reset",
+    "date": "2026-11-03",
+    "category": "Industrie",
+    "description": "Helen Chiang, Xbox's first-ever chief operating officer, has left Microsoft just three months after taking on the role. The news comes from a short internal memo by Microsoft Gaming CEO Asha Sharma, obtained by The Ve...",
+    "url": "https://www.techpowerup.com/354105/xbox-loses-its-first-chief-operating-officer-mid-reset",
+    "image": "https://www.techpowerup.com/img/vqpsPKgkomTCEbdU.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) AMD Reports Record $13.4B Third Quarter 2026 Revenue",
+    "date": "2026-11-03",
+    "category": "Industrie",
+    "description": "AMD (NASDAQ:AMD) today announced financial results for the third quarter of 2026. Third quarter revenue was $13.4 billion, gross margin was 54%, operating income was $2.8 billion, net income was $2.4 billion and dilut...",
+    "url": "https://www.techpowerup.com/354446/amd-reports-record-usd-13-4b-third-quarter-2026-revenue",
+    "image": "https://www.techpowerup.com/img/WY1G13nwUHgZN3Ai.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GPU Prices Up Again in October, RTX 5090 Now Sells for 262% Over MSRP Worldwide",
+    "date": "2026-11-03",
+    "category": "Hardware",
+    "description": "In a big surprise to no one, graphics card prices went up again in October. TechSpot's latest survey across 10 countries shows GPU prices rising 11% month over month, following a 15% jump in August and 7% in September...",
+    "url": "https://www.techpowerup.com/354445/gpu-prices-up-again-in-october-rtx-5090-now-sells-for-262-over-msrp-worldwide",
+    "image": "https://www.techpowerup.com/img/GOQ2ejKgtnECNnqV.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Massive Four-GPU RX 470 Card Surfaces, Probably Built for Crypto Miners",
+    "date": "2026-11-03",
+    "category": "Hardware",
+    "description": "X user GOK has shared photos of a huge red graphics card that carries four Polaris GPUs on a single PCB, jokingly asking whether it might be the biggest PCIe graphics card in the world. The four GPUs sit in a 2x2 layo...",
+    "url": "https://www.techpowerup.com/354444/massive-four-gpu-rx-470-card-surfaces-probably-built-for-crypto-miners",
+    "image": "https://www.techpowerup.com/img/RlWtPmL5LJ4DiMzH.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "The Elder Scrolls VI: Sentinel Is Official, Release Date Still Nowhere in Sight",
+    "date": "2026-11-03",
+    "category": "Markt",
+    "description": "The Elder Scrolls VI finally has its full name. Bethesda Game Studios revealed it as The Elder Scrolls VI: Sentinel at the end of a video celebrating the studio's 40th anniversary, with Todd Howard walking through Bet...",
+    "url": "https://www.techpowerup.com/354443/the-elder-scrolls-vi-sentinel-is-official-release-date-still-nowhere-in-sight",
+    "image": "https://www.techpowerup.com/img/WDrir3jmbj0qnfWV.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Intel Might Discontinue the Arc B580 to Prioritize Higher-Margin Arc Pro Cards",
+    "date": "2026-11-03",
+    "category": "Hardware",
+    "description": "Leaker Haze2K1 says on X that Intel might put the Arc B580 on the end-of-life (EOL) list. Apparently, Intel wants to prioritize workstation and AI inference cards like the Arc Pro B50, which are reportedly selling rea...",
+    "url": "https://www.techpowerup.com/354440/intel-might-discontinue-the-arc-b580-to-prioritize-higher-margin-arc-pro-cards",
+    "image": "https://www.techpowerup.com/img/dj3FofIiBSdUs2Qf.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Windows 11 Optimizations Bring Up to 40% Faster Multitasking to 8 GB PCs",
+    "date": "2026-11-03",
+    "category": "Markt",
+    "description": "Microsoft today released a series of optimizations for Windows 11 PCs running on 8 GB of system RAM, promising significant improvements for those with smaller RAM capacities. Especially in the age of RAM shortages, Wi...",
+    "url": "https://www.techpowerup.com/354441/windows-11-optimizations-bring-up-to-40-faster-multitasking-to-8-gb-pcs",
+    "image": "https://www.techpowerup.com/img/TUil0h22tbC6HuFO.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Intel Moves Select Core Ultra 200H and 200U CPUs to Embedded Market",
+    "date": "2026-11-03",
+    "category": "Software",
+    "description": "Intel has released the latest Product Change Notice (PCN) document, stating that the company's mobile \"Arrow Lake-H\" and \"Arrow Lake-U\" processors, with the Core Ultra 200H and Core Ultra 200U naming schemes, will no...",
+    "url": "https://www.techpowerup.com/354439/intel-moves-select-core-ultra-200h-and-200u-cpus-to-embedded-market",
+    "image": "https://www.techpowerup.com/img/8FZgQ8bDXpsOu8kk.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) HATOR Launches the Pulsar 4 Wireless Gaming Mouse",
+    "date": "2026-11-03",
+    "category": "Markt",
+    "description": "HATOR Gaming B.V. a pioneering gaming brand proudly born in Ukraine, announced today that its entry into the UK continues, with the launch of the HATOR Pulsar 4 Wireless Gaming Mouse, shipping online via hator.com. Re...",
+    "url": "https://www.techpowerup.com/354438/hator-launches-the-pulsar-4-wireless-gaming-mouse",
+    "image": "https://www.techpowerup.com/img/6ToqGcik6wD1vCqm.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Global Semiconductor Sales Increase 24.1% From Q2 2026 to Q3 2026",
+    "date": "2026-11-03",
+    "category": "Industrie",
+    "description": "The Semiconductor Industry Association (SIA) today announced global semiconductor sales were $517.7 billion during the third quarter of 2026, an increase of 24.1% compared to the second quarter of 2026. Global sales w...",
+    "url": "https://www.techpowerup.com/354437/global-semiconductor-sales-increase-24-1-from-q2-2026-to-q3-2026",
+    "image": "https://www.techpowerup.com/img/cZzw36szGMJFFyCC.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Razer Unveils the Raiju V3 Pro Signature Edition",
+    "date": "2026-11-03",
+    "category": "Hardware",
+    "description": "Razer, the leading global lifestyle brand for gamers, today announced the Razer Raiju V3 Pro Signature Edition, its flagship controller officially licensed for the PlayStation 5 console, built for players who want the...",
+    "url": "https://www.techpowerup.com/354434/razer-unveils-the-raiju-v3-pro-signature-edition",
+    "image": "https://www.techpowerup.com/img/RU8q9LKvu7rkNEsc.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) FSP Announces New Flagship 1200W Gold Non-Modular FSP1200-50ADA Power Supply",
+    "date": "2026-11-03",
+    "category": "Markt",
+    "description": "With the booming development of next-generation graphics cards and AI applications, global power supply leading brand FSP Group announces the expansion of its highly popular 50ADA series, launching the new flagship 12...",
+    "url": "https://www.techpowerup.com/354433/fsp-announces-new-flagship-1200w-gold-non-modular-fsp1200-50ada-power-supply",
+    "image": "https://www.techpowerup.com/img/EKDdqM1Lm5GdJ9aC.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "The Worst Is Yet to Come for Memory Shortages, Warns Team Group",
+    "date": "2026-11-03",
+    "category": "Markt",
+    "description": "We might not be past the worst part of the global memory shortages, as the most severe supply chain squeeze could happen soon. During Team Group's earnings conference on November 2, the company stated that the worst p...",
+    "url": "https://www.techpowerup.com/354432/the-worst-is-yet-to-come-for-memory-shortages-warns-team-group",
+    "image": "https://www.techpowerup.com/img/0fJ7wQjkpk75E6s8.jpg",
+    "source": "TechPowerUp"
   },
   {
     "title": "NVIDIA GeForce RTX 50-Series Scheduled for up to $500 Price Hike This Week",
@@ -196,257 +448,5 @@
     "url": "https://www.heise.de/news/Auch-Preis-fuer-RTX-5080-steigt-stark-Nachfolger-verzoegert-11508541.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
     "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/3/1/8/5/5090-f921b6d49a163215.jpeg",
     "source": "Heise"
-  },
-  {
-    "title": "iX-Workshop: Sicherer Betrieb von Windows 11 im Unternehmen",
-    "date": "2026-11-02",
-    "category": "Software",
-    "description": "Lernen Sie an praktischen Beispielen, wie Sie Windows 11 Pro und Enterprise in Ihrem Unternehmen sicher und effektiv einsetzen.",
-    "url": "https://www.heise.de/news/iX-Workshop-Sicherer-Betrieb-von-Windows-11-im-Unternehmen-11492898.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/5/2/2/9/Windows-10-11-Ticker-Header-16-9-ac7090d82164fb99.png",
-    "source": "Heise"
-  },
-  {
-    "title": "Der teuerste Raspi wird noch teurer: 16-Gigabyte-Version kostet 385 US-Dollar",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Der Hersteller hebt den Preis des Raspberry Pi 5 mit 16 GByte RAM von 305 auf 385 US-Dollar an; auch einige andere Raspis werden noch teurer.",
-    "url": "https://www.heise.de/news/Der-teuerste-Raspi-wird-noch-teurer-16-Gigabyte-Version-kostet-385-US-Dollar-11507912.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/2/8/6/1/Raspi-16GB-wod-d796362b4aed47be.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "NAND-Hersteller: „Rache“ an Apple genommen?",
-    "date": "2026-11-02",
-    "category": "Angebote",
-    "description": "Apple verhandelte einst hart um die günstigsten NAND-Tarife. Doch mittlerweile hat der Konzern dank des KI-Booms nicht mehr die Oberhand, so ein Bericht.",
-    "url": "https://www.heise.de/news/NAND-Hersteller-Rache-an-Apple-genommen-11506968.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/2/3/8/1/SSD-800-2a26c50204a6a721.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "HBM4-Alternative: Qualcomm validiert HBC-Speicher für Dragonfly",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Qualcomm hat die erste Validierung seiner Speicherarchitektur High Bandwidth Compute (HBC) abgeschlossen. Die Technik soll in den kommenden Dragonfly-Beschleunigern zum Einsatz kommen und eine hohe Speicherbandbreite...",
-    "url": "https://www.computerbase.de/news/arbeitsspeicher/hbm4-alternative-qualcomm-validiert-hbc-speicher-fuer-dragonfly.100136/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Für KI-Systeme der Zukunft: Marvell kauft Lumentum für 115 Mrd. Dollar",
-    "date": "2026-11-02",
-    "category": "Industrie",
-    "description": "Zumindest auf dem Papier ist es einer der größten Deals der IT-Branche. Der Halbleiterriese Marvell investiert 115 Milliarden US-Dollar in Aktien zur Übernahme des vergleichsweise jungen Unternehmens Lumentum, das sic...",
-    "url": "https://www.computerbase.de/news/wirtschaft/fuer-satte-115-mrd-dollar-marvell-uebernimmt-photonik-spezialisten-lumentum.100135/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Tachyum ist bankrott: Wer hätte es ahnen können!?",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Seit Jahren bereits eher ein Meme, wird das Unternehmen nun von der Realität eingeholt: Tachyum wird keine Über-CPU auf den Markt bringen, sondern ist stattdessen bankrottgegangen. Slowakische Medien berichten über di...",
-    "url": "https://www.computerbase.de/news/prozessoren/kein-wunderchip-tachyum-mit-prodigy-cpu-ist-bankrott.100134/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "FSR Frame Generation 4 im Test: Der Adrenalin 26.10.1 verbessert das Frame Pacing deutlich",
-    "date": "2026-11-02",
-    "category": "Software",
-    "description": "FSR Frame Generation 4 hat häufig Probleme mit dem Frame Pacing. Mal weniger, mal aber auch extrem, ganz gleich welche Hardware im Rechner steckt. AMD will die Bildabfolge mit dem Adrenalin 26.10.1 für FSR Frame Gener...",
-    "url": "https://www.computerbase.de/artikel/grafikkarten/fsr-4-frame-generation-frame-pacing-adrenalin-26-10-1.100067/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Hardwareumfrage: RTX 3060 erobert sich den ersten Platz von der RTX 5070 zurück",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "NVIDIAs GeForce RTX 3060 konnte sich in der Steam-Hardwareumfrage für Oktober 2026 den ersten Platz unter den Grafikkarten zurückerobern.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70833-hardwareumfrage-rtx-3060-erobert-sich-den-ersten-platz-von-der-rtx-5070-zurueck.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/roomy_lithium_84/steam_oktober_gpu_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Vom Wunderchip zum Insolvenzverfahren: Tachyums Luftschlösser sind geplatzt",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Noch im Februar 2026 wurden für Prodigy unter anderem bis zu 21x höhere Leistungswerte gegenüber NVIDIAs Rubin Ultra in Aussicht gestellt.",
-    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70835-vom-wunderchip-zum-insolvenzverfahren-tachyums-luftschloesser-sind-geplatzt.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/Nov/secure_wafer_sq/tachyum_prodigy_announcement_1_680px.png",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "In China gelistet: Neuer AOC Agon Ultra AGP277UZD mit 4K-Dual-Hz und RGB-Tandem-WOLED",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "AOC China hat einen Gaming-Monitor namens Agon Ultra AGP277UZD auf der Agenda stehen, der Feature-seitig in direkte Konkurrenz zum ASUS ROG Swift OLED PG27UCWM zu treten scheint.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/monitore/70826-in-china-gelistet-neuer-aoc-agon-ultra-agp277uzd-mit-4k-dual-hz-und-rgb-tandem-woled.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/trendy_lab_t6/aoc_agp277uzd_001_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Trotz offizieller DLSS-Hardware-Unterstützung: Das neue Zelda-Remake nutzt nur FSR 1.0",
-    "date": "2026-11-02",
-    "category": "Software",
-    "description": "Drei Tage vor der Veröffentlichung am 5. November deuten die Lizenzhinweise des Remakes zu The Legend of Zelda - Ocarina of Time auf AMDs FSR 1.0 als Upscaler-Technologie hin.",
-    "url": "https://www.hardwareluxx.de/index.php/news/software/spiele/70823-trotz-offizieller-dlss-hardware-unterstuetzung-das-neue-zelda-remake-nutzt-nur-fsr-1-0.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/divine_sensor_t0/zelda_ocarina_of_time_remake_000_000_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "GeForce RTX 5080 mit 24 GB: NVIDIA soll noch keine Design-Kits an Boardpartner geliefert haben",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Eine GeForce RTX 5080 mit 24 GB Grafikspeicher wurde bereits als möglicher Ersatz für die inzwischen nur noch eingeschränkt verfügbare GeForce RTX 5090 gehandelt.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70822-geforce-rtx-5080-mit-24-gb-nvidia-soll-noch-keine-design-kits-an-boardpartner-geliefert-haben.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/Jan/loved_backend_1l/nvidia-geforce-rtx-5090-fe-00002_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Alphacool: Apex 1 CPU-Wasserkühler nun auch in weiß erhältlich",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Mit dem Apex 1 stellt Alphacool im Januar 2024 den ersten CPU-Wasserkühler seiner Apex-Serie vor. Die Markteinführung erfolgte ein Jahr später.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/wasserkuehlung/70819-alphacool-apex-1-cpu-wasserkuehler-nun-auch-in-weiss-erhaeltlich.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/galore_bot_p7/alphacool_apex_1_weiss_1_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "AiO-Wasserkühlung im Lesertest: Das sind die Tester der TCOMAS Cube 360 AIOs!",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Im September riefen wir unsere Leser und Community-Mitglieder auf, sich für unseren neusten Lesertest in Zusammenarbeit mit TCOMAS zu bewerben.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/wasserkuehlung/70821-aio-wasserkuehlung-im-lesertest-das-sind-die-tester-der-tcomas-cube-360-aios.html",
-    "image": null,
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "The V16Q is a 16-inch portable monitor designed for mobile work and entertainment. It features a 2560×1600 IPS screen with a refresh rate of up to 144 Hz. It can serve as an extended display for a laptop and can also...",
-    "url": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen",
-    "image": "https://www.techpowerup.com/img/DBWUjFPD4kJA7DEj.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Need for Speed Underground 2 Gets a Free Browser Port With Multiplayer Free Roam",
-    "date": "2026-11-02",
-    "category": "Markt",
-    "description": "A fan project called Underground 2 Revived lets you play Need for Speed: Underground 2 in a web browser, complete with online free roam. It was released in late October and runs in Chrome and Firefox using WebAssembly...",
-    "url": "https://www.techpowerup.com/354422/need-for-speed-underground-2-gets-a-free-browser-port-with-multiplayer-free-roam",
-    "image": "https://www.techpowerup.com/img/NYAp2HcL1Nospuos.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Intel Z970 Motherboards From ASRock Spotted in Shipping Records Ahead of Nova Lake",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "As spotted by Club386, two motherboards based on Intel's Z970 chipset have shown up in the NBD shipping database, which logs Vietnamese customs records. Going by the names, both appear to be from ASRock: the Z970 Live...",
-    "url": "https://www.techpowerup.com/354420/intel-z970-motherboards-from-asrock-spotted-in-shipping-records-ahead-of-nova-lake",
-    "image": "https://www.techpowerup.com/img/ozV323XiIaqiRwHO.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GPU Makers Focus on RTX 3060/3050 as RTX 50 Series Inventory Dries Up",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "GPU makers across Asia, particularly in China, are reportedly redirecting their sellers to older graphics cards as an alternative due to the low supply of NVIDIA's latest GeForce RTX 50-series \"Blackwell\" graphics car...",
-    "url": "https://www.techpowerup.com/354418/gpu-makers-focus-on-rtx-3060-3050-as-rtx-50-series-inventory-dries-up",
-    "image": "https://www.techpowerup.com/img/iWFJNq8Ux8rFxV5d.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GIGABYTE AORUS and Capcom Team Up for Resident Evil-Themed PC Giveaway",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "GIGABYTE AORUS has teamed up with Capcom and custom PC modder Sarah Carlos for its \"Evil Season Is Here\" campaign, bringing a Resident Evil-inspired custom PC build to TwitchCon 2026 alongside an online giveaway runni...",
-    "url": "https://www.techpowerup.com/354163/gigabyte-aorus-and-capcom-team-up-for-resident-evil-themed-pc-giveaway",
-    "image": "https://www.techpowerup.com/img/1mOlqKUbbWm31KUD.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Satechi Launches ExtendView USB4 Dual HDMI Multiport Adapter",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Satechi has introduced the ExtendView USB4 Dual HDMI Multiport Adapter. This is a compact, seven-port hub that connects two 4K displays at 60 Hz through a USB4 cable. The adapter works with Mac and Windows laptops wit...",
-    "url": "https://www.techpowerup.com/354419/satechi-launches-extendview-usb4-dual-hdmi-multiport-adapter",
-    "image": "https://www.techpowerup.com/img/unaD2uihWlO6mOnL.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "TechPowerUp partners with Chieftec to bring our readers from the European Union a unique opportunity to bag one of six fine pieces of Chieftec hardware. The company specializes in gaming PC case, cooling, and power-su...",
-    "url": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus",
-    "image": "https://www.techpowerup.com/img/WDliYXlcs7Wsw4jg.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "ASUS XG Core Radeon RX 9060 XT LP Heavily Downclocked to Meet 75 W Power Limit",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "According to the latest update on the ASUS page, the official specifications for the PCIe slot-powered 75 W ASUS XG Core Radeon RX 9060 XT LP differ significantly from those of the regular desktop card. As an external...",
-    "url": "https://www.techpowerup.com/354412/asus-xg-core-radeon-rx-9060-xt-lp-heavily-downclocked-to-meet-75-w-power-limit",
-    "image": "https://www.techpowerup.com/img/IqMsaGAHr7HsQ4Qu.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Marvell Acquires Lumentum for $115 Billion All-Stock Deal",
-    "date": "2026-11-02",
-    "category": "Angebote",
-    "description": "Marvell Technology, Inc. (NASDAQ: MRVL) and Lumentum (NASDAQ: LITE) today announced that they have entered into a definitive agreement for Marvell to acquire Lumentum in an all-stock transaction. Under the terms of th...",
-    "url": "https://www.techpowerup.com/354410/marvell-acquires-lumentum-for-usd-115-billion-all-stock-deal",
-    "image": "https://www.techpowerup.com/img/hlkXmHFmgQwdNwb0.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Raspberry Pi 5 16 GB Hits $385 Following Latest Price Hikes",
-    "date": "2026-11-02",
-    "category": "Markt",
-    "description": "Raspberry Pi has raised prices again, and this time the 16 GB Raspberry Pi 5 takes the hit. CEO Eben Upton announced in a blog post that the 16 GB model goes up by $80 to $385, more than triple the $120 it launched at...",
-    "url": "https://www.techpowerup.com/354405/raspberry-pi-5-16-gb-hits-usd-385-following-latest-price-hikes",
-    "image": "https://www.techpowerup.com/img/uHMJcj5LWlT6k19Y.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Qualcomm Validates HBC Silicon, Samples Appear in First Half of 2027",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Qualcomm has officially validated its High Bandwidth Compute (HBC) concept, which the company showcased this summer. Instead of using traditional HBM and compute dies, Qualcomm has developed a technology that stacks m...",
-    "url": "https://www.techpowerup.com/354409/qualcomm-validates-hbc-silicon-samples-appear-in-first-half-of-2027",
-    "image": "https://www.techpowerup.com/img/MXEl7cU2DLxb2odz.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Steam Hardware Survey: Old Leaders Return as 16 GB RAM and RTX 3060 Are Back on Top",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Valve's October 2026 Steam Hardware & Software Survey shows much of September's odd data snapping back. After 32 GB system RAM overtook 16 GB last month, the 16 GB tier is back in first place at 41.42% (up 3.60 points...",
-    "url": "https://www.techpowerup.com/354406/steam-hardware-survey-old-leaders-return-as-16-gb-ram-and-rtx-3060-are-back-on-top",
-    "image": "https://www.techpowerup.com/img/cfI0EwXZBM4GeVDA.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Microsoft Windows 11 Pro is available for $9.97 (MSRP $199) through Nov. 1, a saving of $189.03. The purchase provides a lifetime license for one PC, with no subscription or recurring fees. The license is non-transfer...",
-    "url": "https://www.techpowerup.com/354241/windows-11-pro-lifetime-license-is-just-usd-10-through-nov-1",
-    "image": "https://www.techpowerup.com/img/lzqXZ5HCx5H5QI3A.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AMD Zen 7 \"Grimlock\" APUs to Feature New RDNA 5+ Graphics in 2029, Leaker Claims",
-    "date": "2026-11-02",
-    "category": "Hardware",
-    "description": "Leaker Kepler_L2 says AMD will bring RDNA 5+ to its Zen 7 \"Grimlock\" APUs in 2029. He posted on the NeoGAF forum, replying to a user who guessed RDNA 5 would trickle down to regular mobile chips in 2028 or later. His...",
-    "url": "https://www.techpowerup.com/354404/amd-zen-7-grimlock-apus-to-feature-new-rdna-5-graphics-in-2029-leaker-claims",
-    "image": "https://www.techpowerup.com/img/RLq1mlznPxZycO7f.jpg",
-    "source": "TechPowerUp"
   }
 ]
