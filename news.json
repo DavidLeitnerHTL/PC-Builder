@@ -1,11 +1,263 @@
 [
   {
-    "title": "Seagate Firecuda Forge im Test: USB-Festplatte mit SSD-Cache",
+    "title": "Nighthawk r3: IBMs neuer Quantenprozessor mit 520 Qubits",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Auf seiner Quanten-Entwicklerkonferenz stellte IBM seinen neuesten Quantenchip vor. Kommerziell relevante Anwendungen sollen schon sehr bald möglich sein.",
+    "url": "https://www.heise.de/news/IBM-praesentiert-naechste-Generation-seines-Quantenchips-Nighthawk-11520831.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/8/2/1/3/IBM_Quantum_Nighthawk_r2_angle_in_hand-2d130d16c735fee7.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Auto SR: Microsofts KI-Upscaler läuft auf der Xbox Ally X jetzt auch mobil",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Microsofts KI-Upscaler Auto SR ist auf der ROG Xbox Ally X offiziell verfügbar und läuft nun auch im Handheld-Modus. Neu ist ein Modus für bis zu 120 fps.",
+    "url": "https://www.heise.de/news/Auto-SR-Microsofts-KI-Upscaler-laeuft-auf-der-Xbox-Ally-X-jetzt-auch-mobil-11520596.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/3/0/4/image-2-b91b6c4278e17db0.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Nvidia-Aktien fallen und fallen: Microsoft zieht beim Marktwert kurz vorbei",
+    "date": "2026-11-11",
+    "category": "Industrie",
+    "description": "Während sich die Finanzmärkte größtenteils erholen, geht es für Nvidia-Anteile seit Wochenbeginn nur nach unten. Beim Marktwert könnte Microsoft vorbeiziehen.",
+    "url": "https://www.heise.de/news/Skandal-bei-Nvidia-Aktienkurs-faellt-auf-den-tiefsten-Stand-seit-Maerz-11520096.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/0/5/3/shutterstock_2155610545-0e32ba903f2aa8c3.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Gigabit ist nicht alles: fireperf stresst die Firewall",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Wie gut bewältigen Firewalls viele Verbindungen? fireperf prüft das – und benötigt im Benchmark weniger CPU-Zeit als iperf3.",
+    "url": "https://www.heise.de/news/Gigabit-ist-nicht-alles-fireperf-stresst-die-Firewall-11519834.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/8/9/2/2/screenshot-dark-8e11e089dcd401f3.png",
+    "source": "Heise"
+  },
+  {
+    "title": "Mittwoch: US-Hitparaden wieder mit YouTube, Vorwürfe an Freundin des Nvidia-CEO",
+    "date": "2026-11-11",
+    "category": "Industrie",
+    "description": "Stärkung von Streams + Huang-Affäre mit Milliarden-Geschäften + Streit um Transceiver-Importverbot + Blender mit Gaussian Splats + Apple mit Sicherheitsupdates",
+    "url": "https://www.heise.de/news/Mittwoch-US-Hitparaden-wieder-mit-YouTube-Vorwuerfe-an-Freundin-des-Nvidia-CEO-11520074.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/0/4/2/mittwoch-c4d09f3b1ea16de7.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Bericht: Jensen Huangs Affäre brachte Nvidia-Chips im Milliardenwert nach China",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Die außereheliche Freundin des Nvidia-Chefs soll mit einem Firmengeflecht Exportbeschränkungen umgangen haben. Nvidia ist weiter unter Druck, aber auch Trump.",
+    "url": "https://www.heise.de/news/Bericht-Jensen-Huangs-Affaere-brachte-Nvidia-Chips-im-Milliardenwert-nach-China-11520058.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/0/3/4/huang-fd6364f122653b61.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Radeon-atieclxx-SSD-Fix: Tool stoppt das Dauerschreiben des Radeon-Treibers",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Community-Mitglied Necandi hat auf GitHub mit dem Radeon-atieclxx-SSD-Fix ein kleines Tool veröffentlicht, das einen inoffiziellen Workaround gegen das Dauerschreiben von atieclxx.exe (AMD External Events Utility) auf...",
+    "url": "https://www.computerbase.de/news/grafikkarten/radeon-atieclxx-ssd-fix-tool-stoppt-das-dauerschreiben-des-radeon-treibers.100286/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "November-Patchday: Windows 11 erhält das neue Rechtsklick-Menü",
+    "date": "2026-11-11",
+    "category": "Software",
+    "description": "Im Rahmen des November-Patchdays schließt Microsoft insgesamt 1.094 Sicherheitslücken, allein 726 entfallen davon auf Windows 11. Zusätzlich gibt es die Neuerungen vom optionalen Oktober-Update. Bemerkenswert ist vor...",
+    "url": "https://www.computerbase.de/news/betriebssysteme/november-patchday-microsoft-schliesst-1-094-sicherheitsluecken-in-windows-11-und-co.100267/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Ashes of the Singularity 2 im Test: DLSS und FSR stehen GPUs in diesem Spiel nicht bei",
+    "date": "2026-11-11",
+    "category": "Software",
+    "description": "Ashes of the Singularity 2 schickt wieder viele Gegner auf das Strategie-Schlachtfeld. Wir haben uns die PC-Version genauer angesehen. Im Fokus steht wie gewohnt die Grafikkarten-Performance auf Nvidia GeForce, AMD Ra...",
+    "url": "https://www.computerbase.de/artikel/gaming/ashes-of-the-singularity-2-benchmark-test.100168/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "RDNA 5 im Linux-Kernel: AMD reicht GFX13-Support für Linux 7.5 ein",
+    "date": "2026-11-11",
+    "category": "Software",
+    "description": "AMDGPU-Maintainer Alex Deucher hat am 9. November acht Patches für den RDNA-5-Grafikkern GC 13 eingereicht. Die Unterstützung könnte mit Linux 7.5 Anfang 2027 kommen. Für Spiele sind zusätzlich Mesa-Treiber und passen...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/AMD-RDNA-5-GFX13-Linux-Kernel-Patches-1559580/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/AMD-RDNA-5-Spezifikationen-pcgh.jpeg",
+    "source": "PCGH"
+  },
+  {
+    "title": "2027 ohne neue Desktop-GPUs von Nvidia? RTX 5080 mit 24 GiByte offenbar zu teuer",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Die Geforce RTX 5080 mit 24 GiByte soll nun komplett gestrichen worden sein, heißt es aus China. Die Preise für 3-GiByte-GDDR7-Module seien zu hoch; Boardpartner sollen sich nicht auf einen Launch Anfang 2027 vorberei...",
+    "url": "https://www.pcgameshardware.de/Geforce-RTX-5080-Grafikkarte-281030/News/Nvidia-streicht-24-GiB-Modell-1559572/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/RTX-5080-Gestrichen-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Grafikkarten im Preis-Leistungs-Check: Welche GPU lohnt sich im November 2026?",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Welche Grafikkarte lohnt sich in Sachen Preis-Leistung? In diesem Artikel finden Sie eine aktuelle Rangliste und einen Vergleich, welche Grafikkarten am meisten Spaß pro Euro bringen – für Rasterizing und Raytracing,...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Grafikkarten-Preise-Vergleich-Kauftipps-1418023/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/03/Acer-Arc-B580-Nitro-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS] Retro-Grafikkarten-Wunder: Billig gekauft, High-End getunt – Tuning der Radeon 9500",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Früher ließ sich aus manchen günstigen Grafikkarten mit Softmods und Overclocking deutlich mehr Leistung herausholen, als der Hersteller eigentlich vorgesehen hatte.",
+    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/Specials/retro-radeon-9500-high-end-tuning-unlocked-oc-1557643/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Aufmacher-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "20 TB mit SSD-Tempo? Seagate Firecuda Forge mit USB4 als „moderne SSHD“ im Test",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "20 TByte Speicherplatz und bis zu 2.500 MB/s: Die Seagate Firecuda Forge soll HDD-Kapazität mit SSD-Tempo vereinen. Unser Test zeigt, wie gut „Alkemi“ funktioniert und wo die Hybridlösung an ihre Grenzen stößt.",
+    "url": "https://www.pcgameshardware.de/Festplatte-Hardware-255553/Tests/seagate-firecuda-forge-test-20-tb-ssd-cache-sshd-1559468/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Seagate-Firecuda-Forge-20-TB-1--pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Unnötige Schreibzugriffe: SSD-Verschleiß durch AMD-Treiber betrifft nur Windows-Nutzer",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Ein Fehler in AMDs Radeon-Grafiktreiber kann zur Zeit auf Windows-Systemen zu einer dauerhaft erhöhten Schreibbelastung der System-SSD führen.",
+    "url": "https://www.hardwareluxx.de/index.php/news/software/treiber/70905-unnoetige-schreibzugriffe-ssd-verschleiss-durch-amd-treiber-betrifft-nur-windows-nutzer.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2024/Feb/nice_memory_r3/gigabyte-radeon-rx-7900-gre-gaming-00001_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Ein Hin und Her: GeForce RTX 5080 mit 16 GB soll bleiben, 24-GB-Modell nicht kommen",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Rund um das High-End-Segment herrscht aktuell keine gesicherte Informationslage.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70936-ein-hin-und-her-geforce-rtx-5080-mit-16-gb-soll-bleiben-24-gb-modell-nicht-kommen.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/Jan/mature_exchange_4g/nvidia-geforce-rtx-5090-fe-00008_680px.jpg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "AMD EPYC Embedded 9006: Zen 6 für spezialisierte Systeme mit sieben Jahren Verfügbarkeit",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Mit den EPYC Embedded 9006 überträgt AMD die aktuelle Zen-6-Architektur auf Prozessoren für spezialisierte Embedded-Systeme.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/70929-amd-epyc-embedded-9006-zen-6-fuer-spezialisierte-systeme-mit-sieben-jahren-verfuegbarkeit.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/trusty_network_ea/amd_epyc_9006_embedded_001_680px.jpeg",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "(PR) Chieftec Launches ATLAS BA-30B-OP Workstation Case",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Chieftec is excited to introduce the CHIEFTEC ATLAS, a professional E-ATX workstation chassis designed for high-performance systems that demand extensive expansion capabilities and efficient cooling. With its modern d...",
+    "url": "https://www.techpowerup.com/354688/chieftec-launches-atlas-ba-30b-op-workstation-case",
+    "image": "https://www.techpowerup.com/img/r7mcZ3MnEYBNC7BP.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "TechPowerUp Formula V Line Giveaway: Win Air Power G10 Cases, Ice Nova Coolers, and More!",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "TechPowerUp partners with Formula V Line to bring our readers from all over the world a chance to win one of dozens of pieces of Formula V One cases, CPU coolers, and case fans! The star attraction here is the Formula...",
+    "url": "https://www.techpowerup.com/354601/techpowerup-formula-v-line-giveaway-win-air-power-g10-cases-ice-nova-coolers-and-more",
+    "image": "https://www.techpowerup.com/img/cH0XRnoAoJxFUlpH.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "NVIDIA GeForce RTX 5080 24 GB Reportedly Cancelled, 16 GB Model Remains",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "NVIDIA's rumored GeForce RTX 5080 24 GB model has reportedly been put on hold. The company is struggling to secure enough 3 GB GDDR7 memory modules and is instead opting for the less expensive 2 GB modules for the sta...",
+    "url": "https://www.techpowerup.com/354686/nvidia-geforce-rtx-5080-24-gb-reportedly-cancelled-16-gb-model-remains",
+    "image": "https://www.techpowerup.com/img/043GnDkFDO8jZXsj.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) ASUS Showcases ProArt GR1X, ProArt P16 & P14 Laptops, ProArt OLED Monitors, and AI-Powered Solutions for Creativ...",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "ProArt, the ASUS sub-brand created by creators, for creators, today announced its participation at Adobe MAX 2026, where it will showcase a complete ecosystem of AI-powered creator solutions designed to accelerate con...",
+    "url": "https://www.techpowerup.com/354685/asus-showcases-proart-gr1x-proart-p16-p14-laptops-proart-oled-monitors-and-ai-powered-solutions-for-creatives-at-adobe-max-2026",
+    "image": "https://www.techpowerup.com/img/dCDqIsRDDequBUCU.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AskAnyModel Puts Six AI Responses Side by Side for Just $39.99",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "AskAnyModel AI Pro Plan is now available for $39.99 (MSRP $499) for lifetime access through Nov. 8. The browser-based platform brings more than 50 AI models into one workspace, with tools for comparing responses, gene...",
+    "url": "https://www.techpowerup.com/354602/askanymodel-puts-six-ai-responses-side-by-side-for-just-usd-39-99",
+    "image": "https://www.techpowerup.com/img/j9arGKkJHTrjnRDn.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Epomaker Launches Bamboo75 and Galaxy75 Wireless Mechanical Keyboards",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "Epomaker previously revealed the Galaxy75 in an official livestream video, but the peripheral maker has now officially launched the Galaxy75 alongside a new keyboard, the Bamboo75. As we covered previously, the Galaxy...",
+    "url": "https://www.techpowerup.com/354683/epomaker-launches-bamboo75-and-galaxy75-wireless-mechanical-keyboards",
+    "image": "https://www.techpowerup.com/img/gh0FXqOcxS8sND0M.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Epomaker Launches Alice40 40% Mechanical Keyboard With Ergonomic Layout and $70 Pricetag",
+    "date": "2026-11-11",
+    "category": "Software",
+    "description": "Epomaker has officially unveiled the Alice40 as its latest foray into the world of 40% mechanical keyboards—after the TH40 we reviewed previously and the Luma40 after that—and this time, the brand has gone for yet ano...",
+    "url": "https://www.techpowerup.com/354682/epomaker-launches-alice40-40-mechanical-keyboard-with-ergonomic-layout-and-usd-70-pricetag",
+    "image": "https://www.techpowerup.com/img/YLG02Od9RQ5WW9X5.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AMD Pushes Back on NVIDIA and Arm's \"Agentic CPU\" Marketing",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "AMD's Madhu Rangarajan, corporate VP of Compute and Enterprise AI, says the company never set out to build its Zen 6 EPYC 9006 \"Venice\" chips around agentic AI, a not-so-subtle dig at NVIDIA and Arm, which both pitch...",
+    "url": "https://www.techpowerup.com/354678/amd-pushes-back-on-nvidia-and-arms-agentic-cpu-marketing",
+    "image": "https://www.techpowerup.com/img/vgoIoXbvWuxhFGlA.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GTA 6 Breaks PlayStation and Xbox Store Pre-Order Records",
+    "date": "2026-11-11",
+    "category": "Hardware",
+    "description": "GTA 6 is now the most pre-ordered game ever on both the PlayStation Store and the Microsoft Store, according to Sony and Microsoft. Sony announced the record in a PlayStation Blog post that opened PS5 pre-loading nine...",
+    "url": "https://www.techpowerup.com/354675/gta-6-breaks-playstation-and-xbox-store-pre-order-records",
+    "image": "https://www.techpowerup.com/img/hRv3R44dHNLKaIgY.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AMD Zen 6 soll agentische KI beflügeln: Erste Leistungswerte",
     "date": "2026-11-10",
     "category": "Hardware",
-    "description": "Seagate will viel Kapazität mit hoher Geschwindigkeit vereinen: Eine 20-TByte-Festplatte bekommt Unterstützung von einer PCIe-SSD. 1 TByte sollte es schon sein.",
-    "url": "https://www.heise.de/tests/Seagate-Firecuda-Forge-im-Test-USB-Festplatte-mit-SSD-Cache-11502629.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/0/1/9/0/ll.SeagateFi-2037903893-wod_mibu_frei_digi-58a1bd5b7be6f707.jpeg",
+    "description": "AMDs Epyc-Prozessoren mit Zen-6-Architektur sind da. Erste Messungen bescheinigen ihnen deutlich mehr Leistung, von der laut AMD agentische KI profitieren soll.",
+    "url": "https://www.heise.de/news/AMD-Zen-6-soll-agentische-KI-befluegeln-Erste-Leistungswerte-11518546.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/8/2/7/1/Epyc-eb62ae1bf61b5dbc.png",
+    "source": "Heise"
+  },
+  {
+    "title": "Kommentar: Der Fall (des) Jensen Huang – zu viel Macht für einen Einzelnen",
+    "date": "2026-11-10",
+    "category": "Industrie",
+    "description": "KI-Hype, Hybris und Hyperkapitalismus bilden eine gefährliche Mischung. Die Affäre des Nvidia-Chefs zeigt, wie Gier alle Regeln sprengt, meint Christof Windeck.",
+    "url": "https://www.heise.de/meinung/Kommentar-Der-Fall-des-Jensen-Huang-zu-viel-Macht-fuer-einen-Einzelnen-11518908.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/8/4/5/4/gtc25-keynote-bm-xl770-d_2x-838883b165386e5f-18580bdcdec0eef4.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "„GTA 6“: Rockstar peilt auf allen Konsolen 30 fps an",
+    "date": "2026-11-10",
+    "category": "Software",
+    "description": "„GTA 6“ zielt auf allen Konsolen auf 30 fps, Raytracing-Schatten gibt es nur auf der PS5 Pro. Die Cloud streamt in Series-S-Qualität – der PC bleibt außen vor.",
+    "url": "https://www.heise.de/news/GTA-6-Rockstar-peilt-auf-allen-Konsolen-30-fps-an-11519672.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/8/8/4/0/57f224b0-78b4-43fa-9a54-2d10caaabd5f-43bc186bfcf2b025.jpeg",
     "source": "Heise"
   },
   {
@@ -27,11 +279,47 @@
     "source": "Heise"
   },
   {
-    "title": "Steam Deck: Valve zeigt durchschnittliche FPS vor dem Kauf eines Spiels",
+    "title": "Fritz!Box 5690 Pro: Router mit halbiertem Speicher bei gleicher Artikelnummer",
     "date": "2026-11-10",
     "category": "Hardware",
-    "description": "Ob ein Spiel überhaupt auf dem Steam Deck läuft, lässt sich bislang anhand von Valves Kompatibilitätskennzeichnung einschätzen. Sie sagt jedoch nicht aus, wie flüssig ein Titel auf dem Handheld läuft. Ab heute können...",
-    "url": "https://www.computerbase.de/news/gaming/steam-deck-valve-zeigt-durchschnittliche-fps-vor-dem-kauf-eines-spiels.100271/",
+    "description": "Wer eine Fritz!Box 5690 Pro kauft, erhält offenbar nicht immer dieselbe Hardware. Während ältere Geräte mit 2 GB RAM und 4 GB Flash ausgestattet sind, besitzen untersuchte neuere Exemplare nur noch die Hälfte. Fritz s...",
+    "url": "https://www.computerbase.de/news/internet/fritz-box-5690-pro-router-mit-halbiertem-speicher-bei-gleicher-artikelnummer.100274/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "NZXT: Gehäusenachschub mit H5 und H7, Platinum-Netzteile und AiOs",
+    "date": "2026-11-10",
+    "category": "Hardware",
+    "description": "NZXT baut seine H-Gehäuseserie weiter aus und präsentiert mit dem neuen H7 und H5 sowie deren RGB-Ableger zwei Show-Gehäuse mit gebogenem Glas. Weiter werden neue Platinum-Netzteile und neue AiO-Wasserkühlungen vorges...",
+    "url": "https://www.computerbase.de/news/gehaeuse/nzxt-h-serie-erweitert-um-h7-h5-platinum-netzteile-und-neue-aios.100254/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "AMD Verano: 192 N2P-Kerne mit 500 Watt und zwei Dummy-Chips im Sockel SB1",
+    "date": "2026-11-10",
+    "category": "Hardware",
+    "description": "AMD hat weitere Details zum sehr interessanten Zen-6-Prozessor Verano bekanntgegeben, der wohl als erste Epyc-CPU TSMC N2P und neue IO-Dies nutzt. Ein weiteres Unterscheidungsmerkmal zu Venice: Es gibt nur sechs CCDs...",
+    "url": "https://www.computerbase.de/news/prozessoren/amd-verano-192-n2p-kerne-mit-500-watt-und-zwei-dummy-chips-im-sockel-sb1.100266/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Venice-X mit Zen 6 + 3D V-Cache: AMD schiebt „X3D“ auch bei Epyc für mehr Takt drunter",
+    "date": "2026-11-10",
+    "category": "Hardware",
+    "description": "AMD hat eine Vorschau auf Venice-X gegeben, die Zen-6-Plattform mit 3D V-Cache („X3D“) für Epyc 9006 „Venice“. Bei Epyc 9005 „Turin“ gab es sie nicht. Das Server-Comeback legt dabei wie Ryzen 9000X3D das bis dato größ...",
+    "url": "https://www.computerbase.de/news/prozessoren/venice-x-mit-zen-6-plus-3d-v-cache-amd-schiebt-x3d-auch-bei-epyc-fuer-mehr-takt-drunter.100222/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "AMD Zen 6 im Detail: Mit +27 Prozent IPC zum schnellsten AMD-Prozessor",
+    "date": "2026-11-10",
+    "category": "Hardware",
+    "description": "AMD hat endlich viele technische Details zu den ersten Zen-6-CPUs verraten und auch eine Angabe zum IPC-Zuwachs gemacht: +27 Prozent. Zusammen mit in Zukunft bis zu 256 Kernen und höherem Takt wird Epyc 9006 „Venice“...",
+    "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/",
     "image": null,
     "source": "ComputerBase"
   },
@@ -54,103 +342,49 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Jensen Huang: FBI ermittelt zum Spionageverdacht bei Nvidia",
-    "date": "2026-11-10",
-    "category": "Industrie",
-    "description": "Die Affäre von Nvidia-Chef Jensen Huang mit einer mutmaßlichen chinesischen Spionin beschäftigt nun auch die US-Bundesbehörden. (Nvidia, KI)",
-    "url": "https://www.golem.de/news/jensen-huang-fbi-ermittelt-zum-spionageverdacht-bei-nvidia-2611-215024.html",
-    "image": "https://www.golem.de/2611/215024-607635-607633_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Infineon: 300-mm-SiC-Wafer für leistungsfähige KI-Chips aus Deutschland",
+    "title": "GTA 6 auf Xbox Series X|S: AMD-Dateien deuten auf FSR 4 hin, Version unklar",
     "date": "2026-11-10",
     "category": "Hardware",
-    "description": "Die größeren Siliziumcarbid-Wafer von Infineon bringen mehr Ausbeute und halten besser hohen Belastungen stand. (Prozessor, KI)",
-    "url": "https://www.golem.de/news/infineon-300-mm-sic-wafer-fuer-leistungsfaehige-ki-chips-aus-deutschland-2611-215023.html",
-    "image": "https://www.golem.de/2611/215023-607622-607620_rc.jpg",
-    "source": "Golem"
+    "description": "Dataminer haben im Xbox-Paket von GTA 6 zwei AMD-Bibliotheken entdeckt, deren Namen zur FSR-4.1.2-Integration im Microsoft GDK passen. Ob Rockstar den KI-Upscaler nutzt oder nur die ältere FSR-Variante einbindet, ist...",
+    "url": "https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/FSR-4-Xbox-Series-Dataminer-AMD-Dateien-1559502/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/GTA-6-2--pcgh.jpg",
+    "source": "PCGH"
   },
   {
-    "title": "Adrenalin-Bug: Radeon-Treiber schreibt im Leerlauf ständig auf SSDs",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "AMD bestätigt den Fehler. Der Fix soll mit Adrenalin 26.11.1 kommen, bis dahin helfen nur Notlösungen. (Grafikkarten, AMD)",
-    "url": "https://www.golem.de/news/adrenalin-bug-radeon-treiber-schreibt-im-leerlauf-staendig-auf-ssds-2611-215020.html",
-    "image": "https://www.golem.de/2611/215020-607614-607612_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "50 Entwickler gegen Microsoft: KORA soll Windows auch auf dem Gaming-PC ersetzen [PCGH Report]",
+    "title": "[PLUS] KI-Revolution auf dem Gaming-PC: Was „Strata“ selbst aus älterer Hardware herausholt",
     "date": "2026-11-10",
     "category": "Software",
-    "description": "Ein Team um Cyanogen-Mitgründer Kirt McMaster hat KORA vorgestellt: ein Linux-Betriebssystem mit lokalen KI-Modellen, KI-Agenten und isolierten Workspaces. 2027 soll es auf PCs und Arm-Notebooks erscheinen. GameFrame...",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/Specials/KORA-Microsoft-Alternative-Linux-KI-Betriebssystem-PC-Spiele-1559421/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/11/KORA-model-question-en-1-pcgh.png",
+    "description": "125 Milliarden Parameter und keine RTX 5090 nötig: „Strata“ bringt leistungsfähige KI selbst auf betagte Gaming-PCs. Wir zeigen mit eigenen Benchmarks, was die kostenlose Engine wirklich leistet, wie einfach der Einst...",
+    "url": "https://www.pcgameshardware.de/Kuenstliche-Intelligenz-Hardware-279517/Specials/strata-ki-test-125-milliarden-parameter-gaming-pc-1559417/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Lokale-KI-im-Gaming-Setup-pcgh.jpg",
     "source": "PCGH"
   },
   {
-    "title": "RAM-Krise: 64 GB verlieren an Boden – DDR4 feiert ein Comeback",
+    "title": "AMD in Depth 2026: AMD bekräftigt EPYC- und Helios-Roadmap bis 2030",
     "date": "2026-11-10",
     "category": "Hardware",
-    "description": "Aufgrund gestiegener RAM-Preise greifen PC-Nutzer offenbar verstärkt auf ältere und günstigere Hardware zurück. Vor allem 16GB erfreuen sich großer Beliebtheit, während DDR4 als Plattform ein Comeback erlebt.",
-    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/64GB-verlieren-an-Boden-DDR4-feiert-Comeback-1559441/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2005/02/RAM.JPG",
-    "source": "PCGH"
+    "description": "Mit der sechsten EPYC-Generation alias Venice setzt AMD die Weiterentwicklung seiner Serverprozessoren fort.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/70909-amd-in-depth-2026-amd-bekraeftigt-epyc-und-helios-roadmap-bis-2030.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/swank_backend_1u/amd_epyc_9006_kaynote_051_680px.jpeg",
+    "source": "HardwareLuxx"
   },
   {
-    "title": "Intel Razor Lake-S: Nova-Lake-Nachfolger soll 2028 erscheinen und auf LGA-1954 setzen [Gerücht]",
+    "title": "EPYC 9006 Venice: Welche Rückschlüsse auf die kommenden Ryzen-CPUs möglich sind",
     "date": "2026-11-10",
     "category": "Hardware",
-    "description": "Mehrere Prozessor-Generationen auf einem Sockel? Was bei AMD Standard ist, ist es bei Intel vielleicht bald auch. Gerüchteweise soll Razor Lake auch auf Sockel 1954 passen.",
-    "url": "https://www.pcgameshardware.de/Nova-Lake-S-Codename-285922/News/Nachfolger-gleicher-Sockel-1559438/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Intel-Xeon-pcgh.jpg",
-    "source": "PCGH"
+    "description": "In einem separaten Artikel beleuchten wir die EPYC-9006-Serie sowie die zugrunde liegende Zen-6-Architektur ausführlich und gehen auf die technischen Neuerungen ein.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/70898-epyc-9006-venice-welche-rueckschluesse-auf-die-kommenden-ryzen-cpus-moeglich-sind.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/crisp_server_le/amd_epyc_9006_day1_014_680px.jpeg",
+    "source": "HardwareLuxx"
   },
   {
-    "title": "DLSS 5 auf Radeon RX 9070 (XT): AMDLSS5 2.0 soll andere Mods um 64 % schlagen",
+    "title": "AMD MEXT: KI-gestützte Speicherverwaltung soll den DRAM-Bedarf Servern deutlich reduzieren",
     "date": "2026-11-10",
     "category": "Hardware",
-    "description": "Seit wenigen Tagen steht AMDLSS5 2.0 kostenlos bereit: Die Mod rechnet Nvidias DLSS-5-Netz erstmals mit eigener Engine auf Radeon-Grafikkarten. Offiziell unterstützt sind nur RX 9070 und 9070 XT, RDNA 3 läuft als Alpha.",
-    "url": "https://www.pcgameshardware.de/Deep-Learning-Super-Sampling-Software-277618/News/AMDLSS5-2-DLSS-5-Mod-Radeon-RX-9070-XT-Neural-Rendering-1559435/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/05/AMD-Radeon-RX-9070-GRE-Review-Test-Benchmarks_XFX-Swift-3-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Hogwarts Legacy mit DLSS 5: Sieht es aus wie im Nivdia-Trailer?",
-    "date": "2026-11-10",
-    "category": "Software",
-    "description": "Wir vergleichen Hogwarts Legacy mit DLSS 5 und dem Nvidia-Trailer. Der Vergleich ist ein treffliches Anschauungsbeispiel dafür, wie viel Einfluss der Entwickler trotz der KI-Eingriffe behält.",
-    "url": "https://www.pcgameshardware.de/Hogwarts-Legacy-Spiel-73015/Specials/DLSS-5-Neural-Rendering-Vergleich-Performance-Benchmarks-1559228/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Hogwarts-DLSS-5-Aufmacher-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Neuer Open-Source-GPU-Taskmanager: So verliert man den VRAM nicht mehr aus dem Blick",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "Microsofts Vice President Scott Hanselman hat einen Open-Source-GPU-Taskmanager vorgestellt. Dieser zeigt dem Nutzer detailliert an, wie es um VRAM-Belegung pro Prozess und GPU-Auslastung steht und gibt Informationen...",
-    "url": "https://www.pcgameshardware.de/Tools-Software-156186/News/GPU-Taskmanager-VRAM-Belegung-GPU-Auslastung-1559387/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/GPU-Taskmanager-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Effizienz-Rangliste Radeon, Geforce, Arc: Welche Grafikkarte verbraucht am wenigsten Strom?",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "Die Grafikkarte ist der Hauptverbraucher im Gaming-PC, sodass gilt: Wer viel spielt, erzeugt damit laufende Kosten. Doch wie viel Strom „verbrauchen“ aktuelle Grafikkarten mit Geforce, Radeon oder Arc eigentlich und w...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Welche-Grafikkarte-verbraucht-am-wenigsten-Strom-1450597/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/12/Guenstige-Gaming-Grafikkarten_Geforce-RTX-5060-Ti-RTX-5050-Radeon-RX-9060-XT-Arc-B580-B570-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "GLM-5.3 auf Arduino: Drei Planeten kosten rund sieben Minuten",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "Ein KI-Modell mit 744 Milliarden Parametern auf einem Arduino betreiben? Ein Entwickler hat genau das ausprobiert. Mit lediglich 16 GB RAM und einer NVMe-SSD gelingt die lokale Ausführung, allerdings mit Einschränkungen.",
-    "url": "https://www.pcgameshardware.de/Kuenstliche-Intelligenz-Hardware-279517/News/Arduino-744-Milliarden-KI-Parameter-GLM-5-3-ohne-GPU-1558678/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/744-Milliarden-KI-auf-Arduino-7-Minuten-fuer-3-Woerter-pcgh.jpg",
-    "source": "PCGH"
+    "description": "Mit MEXT verfolgt AMD einen Ansatz, um den stetig steigenden Arbeitsspeicherbedarf moderner Serveranwendungen zu bewältigen und gleichzeitig die Kosten für DRAM zu reduzieren.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/70894-amd-mext-ki-gestuetzte-speicherverwaltung-soll-den-dram-bedarf-in-servern-deutlich-reduzieren.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/soft_data_x7/amd_epyc_9006_day1_063_680px.jpeg",
+    "source": "HardwareLuxx"
   },
   {
     "title": "Probleme bei der SRAM-Fertigung: Rapidus droht Zeitplan für 2-nm-Produktion zu verfehlen",
@@ -189,87 +423,6 @@
     "source": "HardwareLuxx"
   },
   {
-    "title": "ASRock Updates VBIOS Flashing Utility Following Radeon RX 7900 XT/XTX Bricking Reports",
-    "date": "2026-11-10",
-    "category": "Software",
-    "description": "ASRock has released an updated version of the ASRVBFlash utility, version 1.0.6, which is intended to fix issues caused by the previous version, 1.0.5, for Radeon RX 7900 XT/XTX users. The earlier version led to repor...",
-    "url": "https://www.techpowerup.com/354643/asrock-updates-vbios-flashing-utility-following-radeon-rx-7900-xt-xtx-bricking-reports",
-    "image": "https://www.techpowerup.com/img/RRVY6Fckb25DjL8E.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "TechPowerUp Formula V Line Giveaway: Win Air Power G10 Cases, Ice Nova Coolers, and More!",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "TechPowerUp partners with Formula V Line to bring our readers from all over the world a chance to win one of dozens of pieces of Formula V One cases, CPU coolers, and case fans! The star attraction here is the Formula...",
-    "url": "https://www.techpowerup.com/354601/techpowerup-formula-v-line-giveaway-win-air-power-g10-cases-ice-nova-coolers-and-more",
-    "image": "https://www.techpowerup.com/img/cH0XRnoAoJxFUlpH.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "KORA Introduces AI-Focused Operating System with Local AI and Agentic Workspaces",
-    "date": "2026-11-10",
-    "category": "Angebote",
-    "description": "There is a new player in the operating systems arena from KORA Systems Inc. Called KORA, this operating system is the first bottom-up OS designed specifically for AI PCs, enabling agentic workflows. It is one of the f...",
-    "url": "https://www.techpowerup.com/354608/kora-introduces-ai-focused-operating-system-with-local-ai-and-agentic-workspaces",
-    "image": "https://www.techpowerup.com/img/uEUBLuuqTCAsCA03.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Seagate Launches the FireCuda Forge Powered by the New Alkemi Intelligent Platform",
-    "date": "2026-11-10",
-    "category": "Markt",
-    "description": "Seagate Technology Holdings plc, a mass-capacity data storage leader, today introduced the Seagate FireCuda Forge drive, representing the first Seagate hard drive powered by the Alkemi intelligent storage platform. Wi...",
-    "url": "https://www.techpowerup.com/354640/seagate-launches-the-firecuda-forge-powered-by-the-new-alkemi-intelligent-platform",
-    "image": "https://www.techpowerup.com/img/Iv1EDFVL5HIjOzWO.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AskAnyModel Puts Six AI Responses Side by Side for Just $39.99",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "AskAnyModel AI Pro Plan is now available for $39.99 (MSRP $499) for lifetime access through Nov. 8. The browser-based platform brings more than 50 AI models into one workspace, with tools for comparing responses, gene...",
-    "url": "https://www.techpowerup.com/354602/askanymodel-puts-six-ai-responses-side-by-side-for-just-usd-39-99",
-    "image": "https://www.techpowerup.com/img/j9arGKkJHTrjnRDn.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Rapidus Could Miss 2 nm Mass Production Timeline Amid SRAM Issues",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "Japanese semiconductor maker Rapidus might miss the planned timeline for its 2 nm node production, as the company is reportedly struggling with its initial attempts at risk production and trial runs. According to a re...",
-    "url": "https://www.techpowerup.com/354639/rapidus-could-miss-2-nm-mass-production-timeline-amid-sram-issues",
-    "image": "https://www.techpowerup.com/img/uBphEBufhwxO7X21.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AMD's RDNA 5 Inches Closer as GFX13 Support Lands in Linux Driver Patches",
-    "date": "2026-11-10",
-    "category": "Software",
-    "description": "AMD has begun integrating its next-generation graphics IP into the Linux kernel, releasing a series of eight patches that add GFX13 support to the open-source AMDGPU driver. These patches, submitted to the mailing lis...",
-    "url": "https://www.techpowerup.com/354637/amds-rdna-5-inches-closer-as-gfx13-support-lands-in-linux-driver-patches",
-    "image": "https://www.techpowerup.com/img/iT09wDGBC5ze5s5Z.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Anthropic's Fable 5.2 One-Shots a Playable FPS Game in Just 8 Hours",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "The power of frontier AI models is increasing, and the gaming realm has already experienced what AI can do in terms of mods, changes, bug fixes, and many other aspects when a powerful model is put to work. Late last n...",
-    "url": "https://www.techpowerup.com/354636/anthropics-fable-5-2-one-shots-a-playable-fps-game-in-just-8-hours",
-    "image": "https://www.techpowerup.com/img/rgdUuDmtwgHTzsoZ.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "TechPowerUp x Chieftec Giveaway: The Winners!",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "TechPowerUp, in partnership with Chieftec, brought our readers from the EU a unique opportunity to bag one of six pieces of Chieftec hardware spanning cases, AIO CPU coolers, and power supplies. Up for grabs were one...",
-    "url": "https://www.techpowerup.com/354625/techpowerup-x-chieftec-giveaway-the-winners",
-    "image": null,
-    "source": "TechPowerUp"
-  },
-  {
     "title": "G.SKILL and Micro Center Offer Intel Core Ultra 7 270K Plus Combo Deal Featuring Ripjaws S5 DDR5 Memory",
     "date": "2026-11-10",
     "category": "Hardware",
@@ -279,174 +432,21 @@
     "source": "TechPowerUp"
   },
   {
-    "title": "(PR) Ocypus Unveils Omega L36 Ultra Eng Limited: Precision Engineering Meets Dynamic Thermals",
-    "date": "2026-11-10",
-    "category": "Markt",
-    "description": "Ocypus today officially announces the global launch of the Omega L36 Ultra Eng Limited, a flagship 360 mm liquid cooler engineered for high-performance computing platforms. Strictly limited to 200 units worldwide, thi...",
-    "url": "https://www.techpowerup.com/354623/ocypus-unveils-omega-l36-ultra-eng-limited-precision-engineering-meets-dynamic-thermals",
-    "image": "https://www.techpowerup.com/img/71w4O5gENgmqQ2vF.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Valve Adds Steam Deck FPS Data To Game Compatibility Screen in Latest Update",
+    "title": "(PR) Philips Launches Evnia 27M2D5901A 27-inch 5K 180 Hz Monitor",
     "date": "2026-11-10",
     "category": "Hardware",
-    "description": "Valve recently announced that it was adding an opt-in toggle to enable data collection in Steam for the Steam Deck, with the idea behind the new feature being that developers could analyze the reported framerate data...",
-    "url": "https://www.techpowerup.com/354634/valve-adds-steam-deck-fps-data-to-game-compatibility-screen-in-latest-update",
-    "image": "https://www.techpowerup.com/img/c7jexJuEX0zKAsYf.jpg",
+    "description": "The Philips Evnia 27M2D5901A is a 27-inch (68.58 cm) Dual Mode gaming monitor that lets users switch between detailed 5K visuals and high-speed QHD performance. The Philips Evnia 27M2D5901A features a Fast IPS panel w...",
+    "url": "https://www.techpowerup.com/354677/philips-launches-evnia-27m2d5901a-27-inch-5k-180-hz-monitor",
+    "image": "https://www.techpowerup.com/img/fATwfuTY7IhDUPzv.jpg",
     "source": "TechPowerUp"
   },
   {
-    "title": "Microsoft Visual Studio Pro 2026 Is Available for $29.97",
+    "title": "(PR) STORMCRAFT PC Launches Fantasy Gaming PCs",
     "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "Microsoft Visual Studio Professional 2026 is available for just $29.97, compared with an MSRP of $499.99. The development environment combines tools for writing, debugging, testing, and collaborating on code, with sup...",
-    "url": "https://www.techpowerup.com/354603/microsoft-visual-studio-pro-2026-is-available-for-usd-29-97",
-    "image": "https://www.techpowerup.com/img/hjwdevI2AgOKVSuB.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Pulsar Previews Silent HE Gaming Keyboards With 3.5 mm Audio Jack and 8 kHz Polling",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "Pulsar has apparently been busy in recent months, with the gaming peripherals maker previously showing off an upcoming ergonomic gaming mouse designed for gamers with large hands and more recently teasing new dual-sen...",
-    "url": "https://www.techpowerup.com/354628/pulsar-previews-silent-he-gaming-keyboards-with-3-5-mm-audio-jack-and-8-khz-polling",
-    "image": "https://www.techpowerup.com/img/z6zO0O3edOnrKVzB.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Microsoft Patent Describes Paying PC Owners to Train AI on Idle GPUs",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "Gaming PCs sitting idle could one day earn their owners credits, or even cash, by training AI models, at least if a newly published Microsoft patent application ever becomes a product. Titled \"Opportunistic Micro-trai...",
-    "url": "https://www.techpowerup.com/354630/microsoft-patent-describes-paying-pc-owners-to-train-ai-on-idle-gpus",
-    "image": "https://www.techpowerup.com/img/Fii5M3n1dVD27K5w.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GTA 6's PlayStation Store Data Hints at Multiplayer Support",
-    "date": "2026-11-10",
-    "category": "Markt",
-    "description": "PlayStation Game Size, the X account that pulls data from the PlayStation Store backend, has found three multiplayer-related entries tied to GTA 6 on PS5: \"joinSession,\" \"launchActivity,\" and \"launchMultiplayerActivit...",
-    "url": "https://www.techpowerup.com/354616/gta-6s-playstation-store-data-hints-at-multiplayer-support",
-    "image": "https://www.techpowerup.com/img/1b3sj1PFdXse5dkf.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "DLSS 5 on Radeon Gets Faster With AMDLSS5 2.0, Up to 64% Performance Uplift",
-    "date": "2026-11-10",
-    "category": "Hardware",
-    "description": "AMDLSS5, a free mod that runs NVIDIA's DLSS 5 Neural Rendering on AMD's Radeon RX 9070 and RX 9070 XT, has reached version 2.0 with an engine its developer, Wehaveall, built for the project. Earlier builds were based...",
-    "url": "https://www.techpowerup.com/354629/dlss-5-on-radeon-gets-faster-with-amdlss5-2-0-up-to-64-performance-uplift",
-    "image": "https://www.techpowerup.com/img/6ud29060LWgRyFTj.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Neue Gallium- und Germanium-Materialien für Leistungshalbleiter reifen heran",
-    "date": "2026-11-09",
-    "category": "Software",
-    "description": "Halbleiter aus Gallium(III)-oxid und Germanium(IV)-oxid versprechen Vorteile gegenüber solchen aus Galliumnitrid (GaN) oder Siliziumkarbid (SiC).",
-    "url": "https://www.heise.de/news/Neue-Gallium-und-Germanium-Materialien-fuer-Leistungshalbleiter-reifen-heran-11517812.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/7/9/0/0/Ga2O3-Wafer-4-Zoll-16-9-NCT-baeb4540f47d729e.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Fall um Nvidia-Chef: China weist Spionagevorwurf zurück",
-    "date": "2026-11-09",
     "category": "Industrie",
-    "description": "Eine Affäre bringt Nvidias Chef in Bedrängnis: Stand seine Geliebte im Dienst Chinas? Peking weist die Spionagevorwürfe nun zurück.",
-    "url": "https://www.heise.de/news/Fall-um-Nvidia-Chef-China-weist-Spionagevorwurf-zurueck-11517104.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/7/5/3/9/jensen-huang-nvidia-f4b3574bf99d4d22.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Montag: Reaktor für Atommüll-Recycling, Untersuchung von Nvidia-Chef nach Affäre",
-    "date": "2026-11-09",
-    "category": "Angebote",
-    "description": "Atomreaktor ohne Endlager + Huang-Affäre mit möglicher Spionin + Geheimdienste prüfen Kühl-Attacken + Rechenzentren mit wenig Transparenz + Doku über KI-Partner",
-    "url": "https://www.heise.de/news/Montag-Reaktor-fuer-Atommuell-Recycling-Untersuchung-von-Nvidia-Chef-nach-Affaere-11516797.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/7/3/8/6/monday-c608639d7324b48b.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Telekom × Nvidia: KI-Fabrik wird mit Blackwell Ultra auf 20 Megawatt erweitert",
-    "date": "2026-11-09",
-    "category": "Hardware",
-    "description": "Die erste Ausbaustufe der „Industrial AI Cloud“ ist laut Telekom ausgelastet. Deshalb investiert der Konzern weitere 250 Millionen Euro in den Standort München. Neue Systeme mit Nvidia Blackwell Ultra B300 und RTX Pro...",
-    "url": "https://www.computerbase.de/news/prozessoren/telekom-x-nvidia-ki-fabrik-wird-mit-blackwell-ultra-auf-20-megawatt-erweitert.100241/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "SK Telecom und Rebellions: Nvidia gewinnt weitere NVLink-Fusion-Abnehmer",
-    "date": "2026-11-09",
-    "category": "Industrie",
-    "description": "Nvidia und SK Telecom wollen Rebellions’ R200-NPUs in eine Nvidia-Infrastruktur auf Basis von NVLink Fusion und MGX integrieren. Geplant ist eine Arbeitsteilung bei der Inferenz: GPUs sollen Prompts vorverarbeiten, NP...",
-    "url": "https://www.computerbase.de/news/prozessoren/sk-telecom-und-rebellions-nvidia-gewinnt-weitere-nvlink-fusion-abnehmer.100239/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Schnelle SSD-Alterung: Radeon-Treiber schreibt fortwährend Daten auf die SSD",
-    "date": "2026-11-09",
-    "category": "Hardware",
-    "description": "Ein Fehler in AMDs Adrenalin-Treiber sorgt bei einigen Nutzern für fortlaufende Schreibzugriffe auf das Windows-Startlaufwerk, was die SSD schnell altern lässt. AMD hat den Fehler bereits bestätigt und arbeitet an ein...",
-    "url": "https://www.computerbase.de/news/grafikkarten/schnelle-ssd-alterung-radeon-treiber-schreibt-fortwaehrend-daten-auf-die-ssd.100237/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Kommentar: Jetzt hat auch mich der 12V-2×6-Stromstecker erwischt",
-    "date": "2026-11-09",
-    "category": "Hardware",
-    "description": "Der 12V-2×6-Stromstecker ist seit jeher ein Problem. Jetzt hat es mich auch zu Hause auf meiner privaten GeForce RTX 5090 erwischt. Ich habe es frühzeitig gemerkt – Zusatzinvestition sei Dank. Doch ich bin mir sicher,...",
-    "url": "https://www.computerbase.de/news/grafikkarten/12v-2x6-stromstecker-an-rtx-5090.100186/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Anzeige: SATA-Festplattengehäuse von Ugreen für SSDs und HDDs für unter 9 Euro",
-    "date": "2026-11-09",
-    "category": "Hardware",
-    "description": "Alte SSD weiterverwenden statt wegwerfen: Ugreens werkzeugfreies USB-C-Gehäuse für 2,5-Zoll-Laufwerke gibt es bei Amazon wieder für unter neun Euro. (PC-Hardware, Speichermedien)",
-    "url": "https://www.golem.de/news/anzeige-sata-festplattengehaeuse-von-ugreen-fuer-ssds-und-hdds-fuer-unter-9-euro-2611-215006.html",
-    "image": "https://www.golem.de/2611/215006-607549-607547_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Unnötige Schreibzugriffe: SSD-Verschleiß durch AMD-Treiber betrifft nur Windows-Nutzer",
-    "date": "2026-11-09",
-    "category": "Hardware",
-    "description": "Ein Fehler in AMDs Radeon-Grafiktreiber kann zur Zeit auf Windows-Systemen zu einer dauerhaft erhöhten Schreibbelastung der System-SSD führen.",
-    "url": "https://www.hardwareluxx.de/index.php/news/software/treiber/70905-unnoetige-schreibzugriffe-ssd-verschleiss-durch-amd-treiber-betrifft-nur-windows-nutzer.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2024/Feb/nice_memory_r3/gigabyte-radeon-rx-7900-gre-gaming-00001_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Gut ausgewogen: ADATA XPG NOVAKEY DDR5-6000 CL30 im Test",
-    "date": "2026-11-09",
-    "category": "Hardware",
-    "description": "Trotz anhaltend hoher Speicherpreise gibt es Situationen, an denen man an einer Neuanschaffung eines Speicherkits nicht vorbeikommt.",
-    "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/arbeitsspeicher/70741-gut-ausgewogen-adata-xpg-novakey-ddr5-6000-cl30-im-test.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/zippy_radar_mq/img_0025_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "NVIDIA NVLink Fusion: Rebellions und SK Telecom binden eigene NPUs im Rack an",
-    "date": "2026-11-09",
-    "category": "Hardware",
-    "description": "NVIDIA setzt für die Kommunikation zwischen seinen Prozessoren und Beschleunigern auf die hauseigene NVLink-Technologie.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/70902-nvidia-nvlink-fusion-rebellions-und-sk-telecom-binden-eigene-npus-im-rack-an.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2025/May/free_domain_p5/nvlink_fusion_image_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "NVIDIA B300: Telekom erweitert KI-Fabrik in München um 20 MW",
-    "date": "2026-11-09",
-    "category": "Industrie",
-    "description": "Die Deutsche Telekom hat angekündigt, dass man die KI-Fabrik im Münchner Tucherpark weiter ausbauen wird.",
-    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70896-nvidia-b300-telekom-erweitert-ki-fabrik-in-muenchen-um-20-mw.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/smooth_app_eu/deutsche_telekom_ki_fabrik_muenchen_680px.jpg",
-    "source": "HardwareLuxx"
+    "description": "STORMCRAFT PC, a California gaming PC brand founded by gamers and engineers, today announced the launch of its Fantasy Series prebuilt gaming desktops, introducing 10 configurations across Intel and AMD platforms. Fea...",
+    "url": "https://www.techpowerup.com/354676/stormcraft-pc-launches-fantasy-gaming-pcs",
+    "image": "https://www.techpowerup.com/img/kiZLsW1AyIyCmeih.jpg",
+    "source": "TechPowerUp"
   }
 ]
