@@ -1,5 +1,311 @@
 [
   {
+    "title": "Ceph in Rust: Neuer Code, alter Cluster",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Ceph schrittweise auf Rust umstellen: Croits neuer NVMe-OSD läuft neben klassischen OSDs. Die Komponenten stehen jetzt als Preview bereit.",
+    "url": "https://www.heise.de/news/Ceph-in-Rust-Neuer-Code-alter-Cluster-11524238.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/1/1/5/0/ceph-logo-66f5ea09a6177c6a.png",
+    "source": "Heise"
+  },
+  {
+    "title": "Asus ProArt P14 und Microsoft Surface Laptop Ultra im Test: Nvidia RTX Spark N1X",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Nach AMD, Apple, Intel und Qualcomm verkauft nun auch Nvidia starke Mobilprozessoren. Wir haben zwei Windows-11-Notebooks mit RTX Spark getestet.",
+    "url": "https://www.heise.de/tests/Asus-ProArt-P14-und-Microsoft-Surface-Laptop-Ultra-im-Test-Nvidia-RTX-Spark-N1X-11472321.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/4/7/9/2/mue.ErstesNot-2037124295-ONLINE-wod-bfa0e033335d8507.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "KI-Update kompakt: Wirbel um Nvidia, Grundrechte, Gemini 4 Hydrogen, Roboter",
+    "date": "2026-11-13",
+    "category": "Software",
+    "description": "Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
+    "url": "https://www.heise.de/news/KI-Update-kompakt-Wirbel-um-Nvidia-Grundrechte-Gemini-4-Hydrogen-Roboter-11522165.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/0/0/9/7/heise_Podcasts_KIUpdate_ho_16_9-e43012251deae576.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Gemini 4 Hydrogen: Googles effiziente Alternative zu Argon und Carbon",
+    "date": "2026-11-13",
+    "category": "Software",
+    "description": "Gemini 4 Hydrogen treibt den KI-Modus der Google-Suche an. Unabhängige Benchmarks zeigen je nach Denkstufe große Unterschiede bei Bearbeitungszeit und Kosten.",
+    "url": "https://www.heise.de/news/Gemini-4-Hydrogen-Googles-effiziente-Alternative-zu-Argon-und-Carbon-11523818.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/0/9/3/6/Gemini-4-Hydrogen-dd631dcbdbcc8d32.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Freitag: Störungen bei Microsoft-Diensten, Ukraine-Abwehr von Starlink gebremst",
+    "date": "2026-11-13",
+    "category": "Industrie",
+    "description": "Serverausfälle bei Outlook & Co + Vorwürfe der Ukraine wegen Starlink + Nvidia-Ermittlungen & Jensen-Affären + Angriffe auf Webhoster + Datenschutz-Geschichte",
+    "url": "https://www.heise.de/news/Freitag-Stoerungen-bei-Microsoft-Diensten-Ukraine-Abwehr-von-Starlink-gebremst-11523646.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/0/8/4/9/friday-4dda6506d10d0f16.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Berichte über kartellrechtliche Prüfung Nvidias und weitere Affäre des Ex-Chefs",
+    "date": "2026-11-13",
+    "category": "Industrie",
+    "description": "Ermittlungen des US-Justizministeriums könnten die KI-Branche belasten. Es gab wohl noch eine Liaison des zurückgetretenen Nvidia-CEOs mit einer Mitarbeiterin.",
+    "url": "https://www.heise.de/news/Berichte-ueber-kartellrechtliche-Pruefung-Nvidias-und-weitere-Affaere-des-Ex-Chefs-11523636.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/0/8/4/4/jensen-huang-nvidia-0e5a3795258af86f.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "AMD: Bis zu 50 % weniger GPUs für AIB-Partner in China",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "AMD könnte im vierten Quartal 2026 deutlich weniger Radeon-GPUs an seine Board-Partner in China liefern. Im chinesischen Forum Board Channels wird ein Rückgang der Lieferungen zwischen 20 und 50 Prozent gemeldet. Welc...",
+    "url": "https://www.computerbase.de/news/grafikkarten/amd-bis-zu-50-prozent-weniger-gpus-fuer-aib-partner-in-china.100320/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Gemini 4 Hydrogen: Google setzt bei neu­em Mo­dell auf Tempo und Effizienz",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Google erweitert seine KI-Modellfamilie mit Gemini 4 Hydrogen um eine schnellere und kostengünstigere Variante, die in ersten Benchmarks teilweise sogar Gemini 4 Argon übertrifft. Fortschritte verspricht Google insbes...",
+    "url": "https://www.computerbase.de/news/apps/gemini-4-hydrogen-google-setzt-bei-neuem-modell-auf-tempo-und-effizienz.100317/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Zirkuläre Finanzierung: Neue Nvidia-Chefin stellte Finanzhilfen für KI-Branche infrage",
+    "date": "2026-11-13",
+    "category": "Industrie",
+    "description": "Der Verwaltungsrat von Nvidia hat Finanzchefin Colette Kress nach dem Abgang von Jensen Huang zur Interimschefin gemacht. Sie übernimmt in einer Phase, in der Nvidia sein Engagement bei KI-Cloud-Anbietern prüft: Milli...",
+    "url": "https://www.computerbase.de/news/wirtschaft/zirkulaere-finanzierung-neue-nvidia-chefin-stellte-finanzhilfen-fuer-ki-branche-infrage.100318/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Golem-Umfrage: Das beliebteste Windows der Golem-Community ist ...",
+    "date": "2026-11-13",
+    "category": "Software",
+    "description": "Per Umfrage und über Golem Talk haben wir außerdem das meistgehasste Windows gefunden - und das, das ihr als erstes genutzt habt. Von Oliver Nickel (Windows 11, Microsoft)",
+    "url": "https://www.golem.de/news/golem-umfrage-das-beliebteste-windows-der-golem-community-ist-2611-215086.html",
+    "image": "https://www.golem.de/2611/215086-607922-607920_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Nach Rücktritt: Jensen Huang und Nvidia stehen vor stürmischen Zeiten",
+    "date": "2026-11-13",
+    "category": "Industrie",
+    "description": "Der Rücktritt von Jensen Huang könnte für Nvidia erst der Anfang sein. Der zurückgetretene CEO hinterlässt ein schweres Erbe, diverse Probleme könnten den Absatz gefährden. Eine Analyse von Johannes Hiltscher (Nvidia,...",
+    "url": "https://www.golem.de/news/nach-ruecktritt-jensen-huang-und-nvidia-stehen-vor-stuermischen-zeiten-2611-215183.html",
+    "image": "https://www.golem.de/2611/215183-608400-608398_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Agile Robots: Humanoide Roboter aus München bekommen 500 Millionen Dollar",
+    "date": "2026-11-13",
+    "category": "Industrie",
+    "description": "Nvidia und Softbank investieren in den Münchner Roboterbauer Agile Robots. Die Bewertung liegt nach der Runde bei 8,5 Milliarden US-Dollar. (Roboter, Wirtschaft)",
+    "url": "https://www.golem.de/news/finanzierungsrunde-agile-robots-aus-muenchen-mit-8-5-milliarden-us-dollar-bewertet-2611-215167.html",
+    "image": "https://www.golem.de/2611/215167-608302-608300_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Nvidia-Chefposten: Trump empfiehlt Tim Cook als Nachfolger von Jensen Huang",
+    "date": "2026-11-13",
+    "category": "Industrie",
+    "description": "Nach dem Rücktritt von Jensen Huang als Nvidia-Chef hat US-Präsident Trump einen potenziellen Nachfolger genannt: Apple-Chairman Tim Cook. (Nvidia, Wirtschaft)",
+    "url": "https://www.golem.de/news/nvidia-chefposten-trump-empfiehlt-tim-cook-als-nachfolger-von-jensen-huang-2611-215166.html",
+    "image": "https://www.golem.de/2611/215166-608307-608305_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Nvidia-Affäre um Jensen Huang: Chronologie vom Spionageverdacht zum Rücktritt [PCGH Report]",
+    "date": "2026-11-13",
+    "category": "Industrie",
+    "description": "Jensen Huang ist nicht mehr Nvidia-Chef. Am 12. November bestätigte das Unternehmen den Rücktritt des Gründers, ohne Gründe zu nennen. Berichte über drei mutmaßliche Affären und einen Spionageverdacht hatten zuvor den...",
+    "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/Specials/Nvidia-Affaere-Jensen-Huang-Chronologie-Ruecktritt-1559905/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Jensen-Huang-mit-PCGH-Report-Schild-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS] Geforce RTX 5080 im Test: Custom-Modelle auf Temperaturen, Lautheit und Taktrate geprüft",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Im erweiterten Test überprüfen wir fünf Custom-Designs der Geforce RTX 5080 auf Temperaturen und Lautstärke und verraten, welches Modell überzeugen konnte. Mit dabei: Asus, MSI, Gigabyte, Zotac und Palit. Mittels laut...",
+    "url": "https://www.pcgameshardware.de/Geforce-RTX-5080-Grafikkarte-281030/Specials/Custom-Designs-erweiterter-Test-1465808/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2025/02/5080-Tabelle-1-3-Version-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "Corsair HX1000i Shift Crystal: Transparentes 1.000-Watt-Netzteil mit PinProtect+ für den 12V-2×6-Anschluss",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Corsair bringt das HX1000i Shift Crystal mit 1.000 Watt, transparentem Gehäuse und PinProtect+ für den 12V-2×6-Anschluss gegen Schäden jetzt auf den Markt.",
+    "url": "https://www.pcgameshardware.de/Netzteil-Hardware-219902/News/Neues-Netzteil-soll-Sicherheit-gegen-Steckerschmelzen-bringen-1559877/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Corsair_HX1000i_SHIFT_CRYSTAL-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Konsequent „externe“ Wakü: Außenradiator mit Taupunktregelung bringt Wasser auf 15 °C",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Ein Reddit-Bastler hat seinen Wasserkühlungsradiator auf der Terrasse installiert und hält so nicht nur die stark übertaktete Hardware auf konkurrenzlos niedrigen Temperaturen, sondern kühlt sogar das gesamte Gaming-Z...",
+    "url": "https://www.pcgameshardware.de/Wasserkuehlung-Hardware-217994/News/echt-externe-Wasserkuehlung-mit-Taupunktregelung-1559849/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/4gsd9wlhmf0i1-pcgh.jpeg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Über 100.000 CPU-Kerne und 7.500 GPUs simulieren das Universum auf neuartige Weise",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Die Computersimulation „Lumina“ erlaubt es, kosmische Strukturen samt Materie, Galaxien und Sterne des Universums detailliert zu verfolgen – mithilfe von über 100.000 CPU-Kernen und 7.500 GPUs.",
+    "url": "https://www.pcgameshardware.de/Wissenschaft-Thema-237118/News/Lumina-Universum-Simulation-Materie-Galaxien-Sterne-1559839/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Lumina-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Geforce 8800 GTX gegen aktuelle GPUs: Kann G80-Triple-SLI noch mithalten?",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Die Geforce 8800 GTX mit dem legendären G80-Chip wurde just 20 Jahre alt. Wir bitten den Altmeister um eine letzte Vorstellung – als Solist, im Duett und als Trio. Kann sich ein damals sündhaft teures Triple-SLI-Gespa...",
+    "url": "https://www.pcgameshardware.de/Geforce-8800-GTX-Grafikkarte-265247/Specials/8800-GTX-SLI-vs-RTX-5090-1559259/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2006/11/Addriane2.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Nvidia CMP 170HX: Spannungs-Hack macht 8-GiB-Mining-Karte zur A100 mit 80 GiB",
+    "date": "2026-11-13",
+    "category": "Industrie",
+    "description": "Durch gezieltes Voltage Glitching hat Sicherheitsforscherin Kate die Sperren der Nvidia CMP 170HX ausgehebelt. Statt 8 GiB HBM2e und 70 SMs stehen bis zu 80 GiB und 126 SMs bereit. Die Modifikation erfordert Lötarbeit...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Nvidia-CMP-170HX-A100-Hack-80-GiB-VRAM-Voltage-Glitching-1559861/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/CMP-170HX-wird-zur-A100-_-3-pcgh.png",
+    "source": "PCGH"
+  },
+  {
+    "title": "AMD Adrenalin 26.11.1 fixt SSD-Wahnsinn auf Radeon RX 7000 und Radeon RX 9000",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Bis zu 5 MB/s schrieb die AMD External Events Utility auf betroffenen PCs im Leerlauf auf die SSD. Mit Adrenalin 26.11.1 behebt AMD den Fehler. Wer den Dienst als Notlösung abgeschaltet hatte, kann ihn nach dem Update...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/AMD-Adrenalin-26-11-1-SSD-Schreibzugriffe-atieclxx-Fix-1559860/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2020/12/6900-XT-pcgh.JPG",
+    "source": "PCGH"
+  },
+  {
+    "title": "Neue Treiber von AMD und NVIDIA: Radeon Software 26.11.1 und GeForce 621.24",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Sowohl AMD als auch NVIDIA haben einen neuen Treiber veröffentlicht.",
+    "url": "https://www.hardwareluxx.de/index.php/news/software/treiber/70960-neue-treiber-von-amd-und-nvidia-radeon-software-26-11-1-und-geforce-621-24.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/liked_oc_ng/nvidia_treiber__grafikkarte_im_neonlicht_680px.png",
+    "source": "HardwareLuxx"
+  },
+  {
+    "title": "Xbox Confirms Wolfenstein 3 Coming Soon and Id Software Teases Next Doom Game",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "It's been a busy week at Xbox Game Studios, with the gaming giant celebrating its 25th anniversary with a slew of new additions to its Xbox Backwards Compatibility on PC program, but it seems as though Xbox CEO, Asha...",
+    "url": "https://www.techpowerup.com/354770/xbox-confirms-wolfenstein-3-coming-soon-and-id-software-teases-next-doom-game",
+    "image": "https://www.techpowerup.com/img/PXoYtpJRDE4Yji24.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "SteamOS Beta Drops Fixes For High Refresh Displays and HDR Content",
+    "date": "2026-11-13",
+    "category": "Software",
+    "description": "Valve has been seemingly working non-stop on developing SteamOS in order to deliver a competitive advantage over alternatives like Windows, with recent updates frequently polishing the overall user experience and fixi...",
+    "url": "https://www.techpowerup.com/354769/steamos-beta-drops-fixes-for-high-refresh-displays-and-hdr-content",
+    "image": "https://www.techpowerup.com/img/YbyQ3704Xvy2y4sa.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Long-Time Linux Kernel Maintainer Inundated With AI-Generated Submissions Steps Down",
+    "date": "2026-11-13",
+    "category": "Software",
+    "description": "It's been well documented that the rise of AI coding agents has resulted in an influx of new submissions to open-source and Linux projects. One recent study found that as much of 25% of new pull requests were reported...",
+    "url": "https://www.techpowerup.com/354764/long-time-linux-kernel-maintainer-inundated-with-ai-generated-submissions-steps-down",
+    "image": "https://www.techpowerup.com/img/QFj7NAH0V6C0wKjp.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AskAnyModel Puts Six AI Responses Side by Side for Just $39.99",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "AskAnyModel AI Pro Plan is now available for $39.99 (MSRP $499) for lifetime access through Nov. 8. The browser-based platform brings more than 50 AI models into one workspace, with tools for comparing responses, gene...",
+    "url": "https://www.techpowerup.com/354602/askanymodel-puts-six-ai-responses-side-by-side-for-just-usd-39-99",
+    "image": "https://www.techpowerup.com/img/j9arGKkJHTrjnRDn.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Kioxia and Dell Build a 157 PB Rack With 640 SSDs",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Kioxia and Dell have managed to fit a massive 157 PB of raw flash storage into a single 42U server rack. The configuration runs Dell's software-defined ObjectScale object storage platform on 16 PowerEdge R7725xd serve...",
+    "url": "https://www.techpowerup.com/354767/kioxia-and-dell-build-a-157-pb-rack-with-640-ssds",
+    "image": "https://www.techpowerup.com/img/4ddIZa4Wwc6ECaJK.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Applied Materials Announces Fourth Quarter and Fiscal Year 2026 Results",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "Applied Materials, Inc. (NASDAQ: AMAT) today reported results for its fourth quarter and fiscal year ended Oct. 25, 2026. Fourth Quarter Results Applied generated record revenue of $10.41 billion. On a GAAP basis, the...",
+    "url": "https://www.techpowerup.com/354766/applied-materials-announces-fourth-quarter-and-fiscal-year-2026-results",
+    "image": "https://www.techpowerup.com/img/Ck5PgDHAg1VqZCaH.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Build Your Dream Anime-Inspired PC with the AORUS ARI Bundle, Exclusively at Newegg",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "GIGABYTE brings anime aesthetics and gaming performance together with the AORUS ARI Bundle, featuring the AORUS GeForce RTX 5060 ARI 8G graphics card and B850 AORUS ELITE-P ICE motherboard. Inspired by Ari, AORUS's or...",
+    "url": "https://www.techpowerup.com/354726/build-your-dream-anime-inspired-pc-with-the-aorus-ari-bundle-exclusively-at-newegg",
+    "image": "https://www.techpowerup.com/img/4I7yUYsJinNeUE29.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "AMD \"Siren Halo\" APU Rumored to Pair Dedicated GDDR7 With LPDDR Memory",
+    "date": "2026-11-13",
+    "category": "Hardware",
+    "description": "AMD's next big Halo APU might ship with two separate memory pools, if a new leak from Gotou_3rd on X is accurate. In a short post on November 12, the leaker wrote that \"Siren Halo has dedicated GD7 VRAM.\" When asked w...",
+    "url": "https://www.techpowerup.com/354765/amd-siren-halo-apu-rumored-to-pair-dedicated-gddr7-with-lpddr-memory",
+    "image": "https://www.techpowerup.com/img/25vYmEeFvug2DdTr.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Windows 11 Beta Insiders Can Now Toggle Settings Straight From Taskbar Search",
+    "date": "2026-11-13",
+    "category": "Software",
+    "description": "Windows Insiders in the Beta Channel can now change common system settings straight from the taskbar search box, in many cases without opening the Settings app. The new Windows Search, which Microsoft first showed off...",
+    "url": "https://www.techpowerup.com/354758/windows-11-beta-insiders-can-now-toggle-settings-straight-from-taskbar-search",
+    "image": "https://www.techpowerup.com/img/KPl3dlQoSUjNi1HR.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Nvidia ohne Jensen Huang: Wie laufen die Geschäfte weiter?",
+    "date": "2026-11-12",
+    "category": "Industrie",
+    "description": "Nvidia versucht, die Affäre um den zurückgetreten CEO Jensen Huang in den Griff zu bekommen. Wie könnte es nun weitergehen?",
+    "url": "https://www.heise.de/news/Nvidia-ohne-Jensen-Huang-Wie-laufen-die-Geschaefte-weiter-11523360.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/0/7/0/4/IMG_4826_DxO-Huang-chh-2024-Taipeh-2ce49d00ebbc4101.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Gerüchte um Nvidia-Nachfolge: Wer wird CEO?",
+    "date": "2026-11-12",
+    "category": "Industrie",
+    "description": "Nach dem Rücktritt von Nvidia-Chef Jensen Huang wird spekuliert, wer seine Nachfolge antreten könnte. Es gibt ein paar Kandidaten – unter anderem von Apple.",
+    "url": "https://www.heise.de/news/Geruechte-um-Nvidia-Nachfolge-Wer-wird-CEO-11523074.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/0/5/6/1/heads-e24e45e6f4d69b66.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "htop für die Grafikkarte: GPU Taskman leuchtet den Grafikspeicher aus",
+    "date": "2026-11-12",
+    "category": "Hardware",
+    "description": "Was belegt gerade den Grafikspeicher? Der quelloffene GPU Taskman zeigt die VRAM-Nutzung pro Prozess und liefert Details zu laufenden LLMs.",
+    "url": "https://www.heise.de/news/GPU-Taskman-Neuer-Task-Manager-fuer-Grafikkarten-und-KI-11522367.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/0/1/9/9/gputaskman-9fdc5c19316bcf90.png",
+    "source": "Heise"
+  },
+  {
     "title": "Außereheliche Affären: Nvidia-CEO Jensen Huang tritt mit sofortiger Wirkung ab",
     "date": "2026-11-12",
     "category": "Industrie",
@@ -15,15 +321,6 @@
     "description": "Ein Fehler in AMDs Adrenalin-Treiber belastet Systemlaufwerke seit Monaten. Ein Tool eines unabhängigen Entwicklers misst den Schaden und umschifft den Bug.",
     "url": "https://www.heise.de/news/SSD-Lebensdauer-gefaehrdet-AMD-Treiber-verursacht-hohe-Schreiblast-11522544.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
     "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/0/2/9/0/Adrenalin-neu-8d6b1638e0e57d94.png",
-    "source": "Heise"
-  },
-  {
-    "title": "Große LLMs auf Desktop-Hardware im Test",
-    "date": "2026-11-12",
-    "category": "Software",
-    "description": "Die Inferenz-Engine Strata verspricht schnelle Antwortzeiten selbst auf einem durchschnittlichen Gaming-PC. Unsere Tests zeigen, ob und wie das funktioniert.",
-    "url": "https://www.heise.de/tests/Grosse-LLMs-auf-Desktop-Hardware-im-Test-11515298.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/6/6/2/7/strata_inference_aufmacher_digital-587232ecd3c35c10.png",
     "source": "Heise"
   },
   {
@@ -52,6 +349,24 @@
     "url": "https://www.heise.de/news/Jensen-Huang-nach-weiterer-Affaere-mit-Mitarbeiterin-wohl-vor-dem-Aus-bei-Nvidia-11521625.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
     "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/8/2/6/shutterstock_2470895321-a44039cb472a37c7.jpeg",
     "source": "Heise"
+  },
+  {
+    "title": "Adrenalin 26.11.1: AMD bringt Treiberupdate gegen übermäßige Schreibvorgänge",
+    "date": "2026-11-12",
+    "category": "Hardware",
+    "description": "Jetzt liefert AMD per Treiberupdate eine offizielle Lösung für das Problem mit ungewöhnlich hoher SSD-Schreibaktivität, das manche Nutzer von Radeon-Grafikkarten beobachtet haben. Mit dem optionalen Adrenalin-Treiber...",
+    "url": "https://www.computerbase.de/news/grafikkarten/adrenalin-26-11-1-amd-bringt-treiberupdate-gegen-uebermaessige-schreibvorgaenge.100311/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Nvidia-Mining-GPU: 80 GB statt 8 GB VRAM und 80 % mehr Kerne per Hack",
+    "date": "2026-11-12",
+    "category": "Hardware",
+    "description": "Eine Mining-Grafikkarte von Nvidia hat weit mehr HBM2e-Speicher an Bord, als ihr Datenblatt vermuten lässt. Bei neun von zehn untersuchten CMP 170HX schaltete eine Entwicklerin die vollen 80 statt 8 GB frei. Auch zusä...",
+    "url": "https://www.computerbase.de/news/grafikkarten/nvidia-mining-gpu-80-gb-statt-8-gb-vram-und-80-prozent-mehr-kerne-per-hack.100309/",
+    "image": null,
+    "source": "ComputerBase"
   },
   {
     "title": "„Mr. Nvidia“ muss gehen: Jensen Huang tritt nach 33 Jahren als CEO zurück",
@@ -90,363 +405,48 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Jensen Huang: Der Mann, der Nvidia war",
+    "title": "Anzeige: Mini-LED-Gaming-Monitor mit 27 Zoll und 320 Hz von TCL günstig wie nie",
+    "date": "2026-11-12",
+    "category": "Markt",
+    "description": "Im frühen Black Friday Angebot verkauft Amazon den TCL 27P2A Pro zum neuen Tiefstpreis für unter 265 Euro. (Black Friday, Display)",
+    "url": "https://www.golem.de/news/anzeige-mini-led-gaming-monitor-mit-27-zoll-und-320-hz-von-tcl-guenstig-wie-nie-2611-215154.html",
+    "image": "https://www.golem.de/2611/215154-608248-608246_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Das Betriebssystem der Zukunft und die schnellste 3dfx-Grafikkarte (PCGH-Retro, 13. November)",
+    "date": "2026-11-12",
+    "category": "Markt",
+    "description": "IBM propagiert Windows 2.0 als Betriebssystem der Zukunft und 3dfx verkauft Voodoo 5 6000 an Quantum 3D - das geschah am 13. November. Jeden Tag wagt PC Games Hardware einen Blick zurück in die noch junge, aber bewegt...",
+    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/News/Das-Betriebssystem-der-Zukunft-und-die-schnellste-3dfx-Grafikkarte-PCGH-Retro-13-November-666761/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2008/03/1206307185705.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Jensen geht, Game-Ready kommt: Geforce 621.24 ist bereit für Dawn of War 4",
     "date": "2026-11-12",
     "category": "Industrie",
-    "description": "Nvidia hatte in seiner Geschichte nur einen CEO. Jensen Huangs Ausstieg wird das Unternehmen verändern - er könnte der Beginn eines Abstiegs sein. Eine Analyse von Johannes Hiltscher (Nvidia, Grafikkarten)",
-    "url": "https://www.golem.de/news/jensen-huang-der-mann-der-nvidia-war-2611-215141.html",
-    "image": "https://www.golem.de/2611/215141-608188-608186_rc.jpg",
-    "source": "Golem"
+    "description": "Nvidia hat am 12. November Geforce 621.24 WHQL für Dawn of War 4 veröffentlicht. Unterstützt werden Grafikkarten ab der GTX 1630, Pascal bleibt außen vor. Am selben Tag gab der Hersteller den Rücktritt von CEO Jensen...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Geforce-62124-Dawn-of-War-4-Huang-Ruecktritt-1559859/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/05/Asus-RTX-5090-Proart-1--pcgh.jpg",
+    "source": "PCGH"
   },
   {
-    "title": "Jensen Huang: Nvidia-Chef tritt wegen Spionage- und Affärenskandalen zurück",
+    "title": "[PLUS] 360er-AiO-Wasserkühlungen im Test: Teure bis günstige Modelle diverser Hersteller",
     "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Nvidia hat mitgeteilt, dass Jensen Huang mit sofortiger Wirkung als Präsident, Chief Executive Officer und Mitglied des Verwaltungsrats zurückgetreten ist. (Nvidia, Wirtschaft)",
-    "url": "https://www.golem.de/news/jensen-huang-nvidia-chef-tritt-wegen-spionage-und-affaerenskandalen-zurueck-2611-215142.html",
-    "image": "https://www.golem.de/2611/215142-608192-608190_rc.jpg",
-    "source": "Golem"
+    "category": "Hardware",
+    "description": "Wir schicken 360-mm-Kompaktwasserkühlungen durch unseren lautheitsnormierten Testparcours. Von günstig bis teuer prüfen wir acht verschiedene Kühlsysteme auf Herz und Nieren.",
+    "url": "https://www.pcgameshardware.de/Kompaktwasserkuehlung-Hardware-267963/Specials/360-mm-AiO-Test-Corsair-Weiss-Preis-1471604/",
+    "image": "https://www.pcgameshardware.de/screenshots/original/2025/08/360er-Tabelle-mit-Awards-pcgh.png",
+    "source": "PCGH"
   },
   {
-    "title": "Anzeige: Smarter Mini-Beamer mit Akku zum Jahrestiefstpreis bei Amazon",
-    "date": "2026-11-12",
-    "category": "Angebote",
-    "description": "Als Mini-Beamer mit Akku und Google TV bietet der Anker Nebula Capsule 3 ortsunabhängiges Streaming. Bei Amazon ist er zurzeit reduziert. (Beamer, Audio/Video)",
-    "url": "https://www.golem.de/news/anzeige-smarter-mini-beamer-mit-akku-zum-jahrestiefstpreis-bei-amazon-2611-215138.html",
-    "image": "https://www.golem.de/2611/215138-608163-608161_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Mittelsfrau statt Spionin: Megaspeed folgt in China verbreitetem Geschäftsmodell",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Statt unbewiesenen Spionagevorwürfen nachzujagen, fordert ein chinesischer Dissident, dem Geld aus China zu Nvidia zu folgen. (Nvidia, Wirtschaft)",
-    "url": "https://www.golem.de/news/mittelsfrau-statt-spionin-megaspeed-folgt-in-china-verbreitetem-geschaeftsmodell-2611-215130.html",
-    "image": "https://www.golem.de/2611/215130-608140-608138_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Patch Tuesday: Neuer Windows-11-Patch installiert nicht",
+    "title": "Apex Neural Rendering: Neue Konkurrenz für Nvidias DLSS",
     "date": "2026-11-12",
     "category": "Software",
-    "description": "Mehrere User wollten zum Patch Tuesday das aktuelle Windows-11-Update aufspielen. Stattdessen gibt es einen Fehler. (Windows 11, Microsoft)",
-    "url": "https://www.golem.de/news/patch-tuesday-neuer-windows-11-patch-installiert-nicht-2611-215124.html",
-    "image": "https://www.golem.de/2611/215124-608105-608103_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Nachfolge-Debatte: Zwei Manager könnten Jensen Huang als Nvidia-Chef ablösen",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Nvidias Verwaltungsrat prüft Huangs Abberufung. Als potenzielle Nachfolger gelten Ingenieur Ian Buck und Finanzchefin Colette Kress. (Nvidia, Wirtschaft)",
-    "url": "https://www.golem.de/news/nachfolge-debatte-zwei-manager-koennten-jensen-huang-als-nvidia-chef-abloesen-2611-215117.html",
-    "image": "https://www.golem.de/2611/215117-608066-608064_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Führungskrise bei Nvidia: Elon Musk würde Jensen Huang gern einstellen",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Nvidias Vorstand berät über die Abberufung von Jensen Huang. Elon Musk sagt, ihn einzustellen, wäre ihm eine Ehre. (Nvidia, Wirtschaft)",
-    "url": "https://www.golem.de/news/fuehrungskrise-bei-nvidia-musk-wuerde-jensen-huang-gern-einstellen-2611-215116.html",
-    "image": "https://www.golem.de/2611/215116-608058-608056_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Zweite Affäre: Nvidia erwägt offenbar Jensen Huangs Absetzung",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Nach einem Bericht über eine zweite mutmaßliche Affäre könnte der Nvidia-Verwaltungsrat über Jensen Huangs Zukunft entscheiden. (Nvidia, Wirtschaft)",
-    "url": "https://www.golem.de/news/zweite-affaere-nvidia-erwaegt-offenbar-jensen-huangs-absetzung-2611-215113.html",
-    "image": "https://www.golem.de/2611/215113-608038-608036_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Nvidia: Jensen Huang tritt als CEO zurück – Colette Kress übernimmt",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Nvidia hat den Rücktritt von CEO und Mitgründer Jensen Huang bestätigt. Nach 33 Jahren an der Unternehmensspitze übernimmt zunächst Finanzchefin Colette Kress. Die Suche nach einer dauerhaften Nachfolge läuft.",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Nvidia-Jensen-Huang-Ruecktritt-CEO-Colette-Kress-Nachfolgerin-1559816/",
-    "image": "https://www.pcgameshardware.de/screenshots/original/2026/11/Nvidia-Jensen-Huang-tritt-zurueck-Nachfolgerin-steht-fest-pcgh.jpg",
+    "description": "Apex Compute möchte eine Alternative zu Nvidias DLSS etablieren und Nvidia bei der Frame Generation, Ray Reconstruction und Upsampling Konkurrenz machen. Die ANR Frame Generation ist bereits als Beta verfügbar. Wir la...",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Apex-Compute-Apex-Neural-Rendering-ANR-Frame-Generation-Hands-on-Vergleich-mit-DLSS-FG-1559763/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Apex-Compute-ANR-FG-versus-Nvidia-DLSS-FG-Aufmacher-pcgh.jpg",
     "source": "PCGH"
-  },
-  {
-    "title": "1996 in der Vogue, 1999 als erster PHP geschrieben, bis heute einsatzbereit: Das älteste Notebook der Community?",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "Wie lange hält ein Laptop? „Plattfrosch“ sagt: 30 Jahre – wenn einem eine Schreibmaschine mit Pentium 1 und 48 MiB RAM reicht. So alt ist sein IBM Thinkpad 760EL, das er zusammen mit Anekdoten im PCGH-X-Forum präsenti...",
-    "url": "https://www.pcgameshardware.de/PCGH-Retro-Thema-284165/News/30-jahre-altes-IBM-Thinkpad-760EL-1559762/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/WhatsApp-Image-2026-11-07-at-07.41.54-2--pcgh.jpeg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Geforce RTX 5090 mit 96 GiByte Speicher: Modifikation taucht auf „chinesischem Ebay\" auf",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "Die Geforce RTX 5090 kommt eigentlich mit 32 GiByte Speicher. Auf einem chinesischen Marktplatz wurde nun ein modifiziertes Modell mit der dreifachen Menge angeboten, doch Fragen bleiben offen.",
-    "url": "https://www.pcgameshardware.de/Geforce-RTX-5090-Grafikkarte-281029/News/96-GiByte-Speicher-Modifikation-1559779/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/RTX-5090-96-GiByte-Grafikkarte-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS] Ryzen 7 5800X3D mit drei GPUs im Test: Wo Upsampling wie DLSS an seine Grenzen stößt",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "PCGH Plus: Mit DLSS, FSR und XeSS haben Sie die Qual der Wahl, welche Komponente zuerst limitiert: Prozessor oder Grafikkarte. Wir haben getestet, wie sich ein Ryzen 7 5800X3D mit drei Grafikkarten schlägt. Der Artike...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/DLSS-FSR-XeSS-CPU-oder-GPU-Limit-Ryzen-7-5800X3D-1547135/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/07/aufmacher_upsampling_dreamteams-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11: KB5132061 behebt Audiofehler und verschärft Sicherheitsprüfungen",
-    "date": "2026-11-12",
-    "category": "Software",
-    "description": "Microsoft hat KB5132061 für Windows 11 veröffentlicht. Das November-Update behebt mehrere Fehler und verändert Sicherheitsfunktionen. Bei der Installation berichten Nutzer allerdings von Problemen.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-KB5132061-November-Update-2026-Fehler-Sicherheit-1559695/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Windows-11-KB5132061-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Ryzen 9000 doch betroffen: AMD muss Sicherheitsbewertung für Zen 5 korrigieren",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "AMD hat seine frühere Entwarnung zurückgezogen: Zen 5 ist doch von zwei TSA-Sicherheitslücken betroffen. Für Ryzen-9000-Nutzer heißt das vor allem, den BIOS-Stand zu prüfen.",
-    "url": "https://www.pcgameshardware.de/AMD-Zen-Architektur-261795/News/Sicherheit-Patch-Erweiterung-Update-1559668/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Lisa-Su-verteidigt-den-Ryzen-Chip-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "CPU-Kaufberatung: AMD- und Intel-Prozessoren im Vergleich [Update]",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "Sie möchten sich einen neuen Prozessor gönnen? Sie suchen eine CPU, um die beste Gaming-Erfahrung zu bekommen oder möchten sich über das derzeitige Angebot informieren? PCGH gibt Kaufempfehlungen für verschiedene Prei...",
-    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/Tests/CPU-Test-Benchmark-AMD-Intel-675663/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/11/Black-Friday-AMD-Ryzen-9-9950X3D-Ryzen-5-7500X3D-7600-Ryzen-7-8700G-Intel-Core-Ultra-5-225-guenstig-kaufen-Computeruniverse-Amazon-Angebot-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Jensen Huang vor dem Aus: Nvidia sucht wohl neuen CEO",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Nvidias Verwaltungsrat soll die Ablösung von Jensen Huang prüfen. Anlass sind Berichte über eine weitere Affäre mit einer direkt unterstellten Managerin. Offenbar läuft bereits eine Nachfolgersuche. Ein Beschluss ist...",
-    "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Nvidia-Jensen-Huang-Affaere-Abloesung-CEO-Nachfolger-1559660/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/jensen-1920x1920-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Nach 33 Jahren an der Spitze: Jensen Huang tritt als NVIDIA-Chef zurück",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Nicht etwa neue Hardware oder sonstige Meldungen beherrschten die Tech-Presse in den vergangenen Tagen so sehr, wie die Meldungen um die zwei (bisher) bekannten Affären des NVIDIA-Mitgründers Jensen Huang.",
-    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70958-nach-33-jahren-und-zwei-affaeren-nvidias-ceo-jensen-huang-tritt-zurueck.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2023/May/rapid_network_28/img_2050_680px.jpeg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Apex Neural Rendering: Neue KI-Technik will DLSS und FSR Konkurrenz machen",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Mit Apex Neural Rendering (ANR) stellt das bislang wenig bekannte Unternehmen Apex Compute eine neue Rendering-Technologie vor, die mit NVIDIAs DLSS, AMDs FSR und Intels XeSS konkurrieren soll.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70956-apex-neural-rendering-neue-ki-technik-will-dlss-und-fsr-konkurrenz-machen.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/golden_oc_2p/bildschirmfoto_2026_11_12_um_14_47_19_680px.png",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "ASUS ExpertBook A7: Schlankes Business-Notebook mit OLED und maximal 16 GB RAM",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "Mit dem ExpertBook A7 hat ASUS ein weiteres Ultrabook präsentiert, das in Deutschland zu einem Preis ab 1.200 Euro starten wird.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/notebooks/70954-asus-expertbook-a7-schlankes-business-notebook-mit-oled-und-maximal-16-gb-ram.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/proud_security_60/expertbook_a7_a7406cma_am7406cka_product_photo_1c_lunar_silver_12_680px.jpg",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "Weitere Affäre von NVIDIA-CEO: Verwaltungsrat soll Entlassung von Jensen Huang vorbereiten",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Es klingt fast wie ein Spionage-Krimi: Eine Ex-Managerin eines Großkunden von NVIDIA soll vom chinesischen Ministerium für Staatssicherheit angeworben worden sein, um den NVIDIA-CEO Jensen Huang auszuspähen.",
-    "url": "https://www.hardwareluxx.de/index.php/news/allgemein/wirtschaft/70948-weitere-affaere-von-nvidia-ceo-verwaltungsrat-soll-entlassung-von-jensen-huang-vorbereiten.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/slick_media_ys/nvidia_keynote_mit_rotem_kurschart_680px.png",
-    "source": "HardwareLuxx"
-  },
-  {
-    "title": "NVIDIA Co-Founder and CEO Jensen Huang Officially Resigns",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "NVIDIA's co-founder, chief executive officer, and president has officially signed a letter of resignation, stepping down from the role he has held since 1993. Following a series of controversies, NVIDIA announced on S...",
-    "url": "https://www.techpowerup.com/354732/nvidia-co-founder-and-ceo-jensen-huang-officially-resigns",
-    "image": "https://www.techpowerup.com/img/8FRRlQyz1JVQiiHT.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Montech Announces King 95 3D Case and Link Fan INF 120",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "MONTECH marks its 10th anniversary with the launch of KING 95 3D and KING 95 3D PRO, alongside LINK FAN INF 120 magnetic ARGB fans and LUMI software. The new dual-chamber ATX mid-tower case adds a tempered-glass top t...",
-    "url": "https://www.techpowerup.com/354687/montech-announces-king-95-3d-case-and-link-fan-inf-120",
-    "image": "https://www.techpowerup.com/img/do0yO1mDbmkxed9U.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Build Your Dream Anime-Inspired PC with the AORUS ARI Bundle, Exclusively at Newegg",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "GIGABYTE brings anime aesthetics and gaming performance together with the AORUS ARI Bundle, featuring the AORUS GeForce RTX 5060 ARI 8G graphics card and B850 AORUS ELITE-P ICE motherboard. Inspired by Ari, AORUS's or...",
-    "url": "https://www.techpowerup.com/354726/build-your-dream-anime-inspired-pc-with-the-aorus-ari-bundle-exclusively-at-newegg",
-    "image": "https://www.techpowerup.com/img/4I7yUYsJinNeUE29.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Noctua Introduces NT-CP1 Carbice Carbon Nanotube Thermal Pad for AM5",
-    "date": "2026-11-12",
-    "category": "Industrie",
-    "description": "Noctua today introduced the new NT-CP1 AM5/4 carbon nanotube thermal pad for AMD AM5 and AM4 processors. Leveraging Carbice's novel, space-grade carbon nanotube technology, the NT-CP1 is a premium-quality, easy-to-app...",
-    "url": "https://www.techpowerup.com/354729/noctua-introduces-nt-cp1-carbice-carbon-nanotube-thermal-pad-for-am5",
-    "image": "https://www.techpowerup.com/img/3S4yF8WudhN239pt.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "AskAnyModel Puts Six AI Responses Side by Side for Just $39.99",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "AskAnyModel AI Pro Plan is now available for $39.99 (MSRP $499) for lifetime access through Nov. 8. The browser-based platform brings more than 50 AI models into one workspace, with tools for comparing responses, gene...",
-    "url": "https://www.techpowerup.com/354602/askanymodel-puts-six-ai-responses-side-by-side-for-just-usd-39-99",
-    "image": "https://www.techpowerup.com/img/j9arGKkJHTrjnRDn.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Apex Neural Rendering Beats NVIDIA DLSS in Both Image Quality and Performance",
-    "date": "2026-11-12",
-    "category": "Software",
-    "description": "According to a company called Apex Compute, there is a new player in neural rendering. The company has developed Apex Neural Rendering, which reportedly offers higher quality and performance than NVIDIA's DLSS impleme...",
-    "url": "https://www.techpowerup.com/354727/apex-neural-rendering-beats-nvidia-dlss-in-both-image-quality-and-performance",
-    "image": "https://www.techpowerup.com/img/tCSWBGFUTx5bk4RR.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Linux Finally Gets 64-Bit Steam Client and New Game Achievements Management",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "Even while Valve transitioned its Steam client to 64-bit, its Linux client has remained stuck in 32-bit land, but it appears as though that is finally slated to change, with a new 64-bit Steam client for Linux finally...",
-    "url": "https://www.techpowerup.com/353772/linux-finally-gets-64-bit-steam-client-and-new-game-achievements-management",
-    "image": "https://www.techpowerup.com/img/zaWjAQGhyIXDZGJq.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "CD Projekt Red Turns to AI to Restore Polish Geralt's Voice in Witcher 3 Expansion",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "Jacek Rozenek, who has voiced Geralt in Polish since the first Witcher game, is returning for The Witcher 3: Songs of the Past, though his new lines are being run through an AI voice model so they match his original W...",
-    "url": "https://www.techpowerup.com/354720/cd-projekt-red-turns-to-ai-to-restore-polish-geralts-voice-in-witcher-3-expansion",
-    "image": "https://www.techpowerup.com/img/OLHerkGbh85FQ1xO.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Radeon Users Get a Stopgap Open-Source Fix for AMD's SSD Write Bug",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "AMD's Radeon SSD write bug now has a community workaround that doesn't require disabling the External Events Utility. ComputerBase forum member Necandi (necanditool on GitHub) has released Radeon-atieclxx-SSD-Fix, a f...",
-    "url": "https://www.techpowerup.com/354719/radeon-users-get-a-stopgap-open-source-fix-for-amds-ssd-write-bug",
-    "image": "https://www.techpowerup.com/img/KSOlZUsAFoBf2Ew9.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "TechPowerUp Formula V Line Giveaway: Win Air Power G10 Cases, Ice Nova Coolers, and More!",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "TechPowerUp partners with Formula V Line to bring our readers from all over the world a chance to win one of dozens of pieces of Formula V One cases, CPU coolers, and case fans! The star attraction here is the Formula...",
-    "url": "https://www.techpowerup.com/354601/techpowerup-formula-v-line-giveaway-win-air-power-g10-cases-ice-nova-coolers-and-more",
-    "image": "https://www.techpowerup.com/img/cH0XRnoAoJxFUlpH.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "G.SKILL and Micro Center Offer Intel Core Ultra 7 270K Plus Combo Deal Featuring Ripjaws S5 DDR5 Memory",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "G.SKILL, a leading manufacturer of high-performance memory and PC gaming peripherals, has teamed up with Micro Center to offer a specially priced PC hardware combo deal featuring the Intel Core Ultra 7 270K Plus proce...",
-    "url": "https://www.techpowerup.com/354466/g-skill-and-micro-center-offer-intel-core-ultra-7-270k-plus-combo-deal-featuring-ripjaws-s5-ddr5-memory",
-    "image": "https://www.techpowerup.com/img/WsMLLZGkXAXUamNE.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Microsoft's Auto SR Upscaler Goes Handheld on Xbox Ally X and X20, Gains 120 FPS Mode",
-    "date": "2026-11-12",
-    "category": "Hardware",
-    "description": "ROG Xbox Ally X and X20 owners can now use Microsoft's Automatic Super Resolution (Auto SR) upscaler on the handheld's own screen. Microsoft says Auto SR is out of preview on both devices and on select AMD Ryzen Copil...",
-    "url": "https://www.techpowerup.com/354715/microsofts-auto-sr-upscaler-goes-handheld-on-xbox-ally-x-and-x20-gains-120-fps-mode",
-    "image": "https://www.techpowerup.com/img/1af7fnLa3M3r6OE6.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Fritzbox 5690 Pro bekommt FritzOS 8.51 – und weniger Speicher",
-    "date": "2026-11-11",
-    "category": "Hardware",
-    "description": "Für die Fritzbox 5690 Pro steht die Firmware 8.51 bereit, die einen Adblocker per DNS-Sperrliste mitbringt. Neue Hardwarerevisionen haben weniger RAM und Flash.",
-    "url": "https://www.heise.de/news/Fritzbox-5690-Pro-bekommt-FritzOS-8-51-und-weniger-Speicher-11521196.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/5/9/8/AVM_Lifestyle_2023_0615_FRITZBox_5690_Pro-bed054e800505421.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "KI-Update kompakt: Nvidia-Affäre, Coding-Agenten, Gemini 4 Carbon, Muse Ember",
-    "date": "2026-11-11",
-    "category": "Software",
-    "description": "Das „KI-Update“ liefert dreimal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
-    "url": "https://www.heise.de/news/KI-Update-kompakt-Nvidia-Affaere-Coding-Agenten-Gemini-4-Carbon-Muse-Ember-11520732.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/3/7/2/heise_Podcasts_KIUpdate_ho_16_9-e43012251deae576.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Nighthawk r3: IBMs neuer Quantenprozessor mit 520 Qubits",
-    "date": "2026-11-11",
-    "category": "Hardware",
-    "description": "Auf seiner Quanten-Entwicklerkonferenz stellte IBM seinen neuesten Quantenchip vor. Kommerziell relevante Anwendungen sollen schon sehr bald möglich sein.",
-    "url": "https://www.heise.de/news/IBM-praesentiert-naechste-Generation-seines-Quantenchips-Nighthawk-11520831.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/8/2/1/3/IBM_Quantum_Nighthawk_r2_angle_in_hand-2d130d16c735fee7.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Auto SR: Microsofts KI-Upscaler läuft auf der Xbox Ally X jetzt auch mobil",
-    "date": "2026-11-11",
-    "category": "Hardware",
-    "description": "Microsofts KI-Upscaler Auto SR ist auf der ROG Xbox Ally X offiziell verfügbar und läuft nun auch im Handheld-Modus. Neu ist ein Modus für bis zu 120 fps.",
-    "url": "https://www.heise.de/news/Auto-SR-Microsofts-KI-Upscaler-laeuft-auf-der-Xbox-Ally-X-jetzt-auch-mobil-11520596.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/3/0/4/image-2-b91b6c4278e17db0.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Nvidia-Aktien fallen und fallen: Microsoft zieht beim Marktwert kurz vorbei",
-    "date": "2026-11-11",
-    "category": "Industrie",
-    "description": "Während sich die Finanzmärkte größtenteils erholen, geht es für Nvidia-Anteile seit Wochenbeginn nur nach unten. Beim Marktwert könnte Microsoft vorbeiziehen.",
-    "url": "https://www.heise.de/news/Skandal-bei-Nvidia-Aktienkurs-faellt-auf-den-tiefsten-Stand-seit-Maerz-11520096.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/0/5/3/shutterstock_2155610545-0e32ba903f2aa8c3.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Gigabit ist nicht alles: fireperf stresst die Firewall",
-    "date": "2026-11-11",
-    "category": "Hardware",
-    "description": "Wie gut bewältigen Firewalls viele Verbindungen? fireperf prüft das – und benötigt im Benchmark weniger CPU-Zeit als iperf3.",
-    "url": "https://www.heise.de/news/Gigabit-ist-nicht-alles-fireperf-stresst-die-Firewall-11519834.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/8/9/2/2/screenshot-dark-8e11e089dcd401f3.png",
-    "source": "Heise"
-  },
-  {
-    "title": "Mittwoch: US-Hitparaden wieder mit YouTube, Vorwürfe an Freundin des Nvidia-CEO",
-    "date": "2026-11-11",
-    "category": "Industrie",
-    "description": "Stärkung von Streams + Huang-Affäre mit Milliarden-Geschäften + Streit um Transceiver-Importverbot + Blender mit Gaussian Splats + Apple mit Sicherheitsupdates",
-    "url": "https://www.heise.de/news/Mittwoch-US-Hitparaden-wieder-mit-YouTube-Vorwuerfe-an-Freundin-des-Nvidia-CEO-11520074.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/0/4/2/mittwoch-c4d09f3b1ea16de7.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Bericht: Jensen Huangs Affäre brachte Nvidia-Chips im Milliardenwert nach China",
-    "date": "2026-11-11",
-    "category": "Hardware",
-    "description": "Die außereheliche Freundin des Nvidia-Chefs soll mit einem Firmengeflecht Exportbeschränkungen umgangen haben. Nvidia ist weiter unter Druck, aber auch Trump.",
-    "url": "https://www.heise.de/news/Bericht-Jensen-Huangs-Affaere-brachte-Nvidia-Chips-im-Milliardenwert-nach-China-11520058.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/0/3/4/huang-fd6364f122653b61.jpeg",
-    "source": "Heise"
   }
 ]
