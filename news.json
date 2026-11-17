@@ -1,5 +1,338 @@
 [
   {
+    "title": "Flash-Talk: NAND mit 400 Lagen, neue SSD-Technik und Flash auf dem Mond",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Mehr Lagen, schnellere Schnittstellen und knapper Speicher: Die Flash-Branche arbeitet an neuen Architekturen, während KI-Rechenzentren die Nachfrage antreiben.",
+    "url": "https://www.heise.de/hintergrund/Flash-Talk-NAND-mit-400-Lagen-neue-SSD-Technik-und-Flash-auf-dem-Mond-11518670.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/8/3/3/4/ll.Flash_Tal-2031506163-mbr_ONLINE-cbd32e0f61794eef.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "Trotz Trump-Unterstützung: Keine Rückkehr für Nvidia-Gründer Huang",
+    "date": "2026-11-17",
+    "category": "Industrie",
+    "description": "Trotz des Drucks von Verbündeten plant Nvidia laut Medienberichten nicht, den zurückgetretenen Mitgründer Jensen Huang als Chef zurückzuholen.",
+    "url": "https://www.heise.de/news/Bericht-Nvidia-hat-keine-Plaene-fuer-Rueckkehr-Huangs-als-Chef-11527137.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
+    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/2/6/1/1/shutterstock_2470895321-a44039cb472a37c7.jpeg",
+    "source": "Heise"
+  },
+  {
+    "title": "„Hyper Hyper“: Xiaomi 18 Pro und 18 Pro Max kommen mit Doppel-Display",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Nach der Vorstellung für China im September kommen Xiaomi 18 Pro und Xiaomi 18 Pro Max nun auch nach Deutschland. Die Modelle unterscheiden sich bei Displaygröße, Prozessor, Akku und Ladeleistung. Beide bieten ein rüc...",
+    "url": "https://www.computerbase.de/news/smartphones/hyper-hyper-xiaomi-18-pro-und-18-pro-max-kommen-mit-doppel-display.99822/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "AMD Gorgon Halo im Test: 192 GB stemmen im GMKtec EVO-X5 Pro riesige LLMs",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Gorgon Halo bietet bis zu 192 GB Unified Memory für lokale KI, Nvidia RTX Spark bietet so viel Speicher nicht. Wir haben uns anhand des GMKtec EVO-X5 Pro mit AMD Ryzen AI Max+ PRO 495 im Test angesehen, was mit 192 GB...",
+    "url": "https://www.computerbase.de/artikel/pc-systeme/gmktec-evo-x5-amd-ryzen-ai-max-pro-495-192-gb-ram-test.100129/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "KI-Benchmarks: Nvidia Rubin bis zu doppelt so schnell wie Blackwell",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Die neue Runde der MLPerf-Benchmarks widmet sich dem Training. Dabei geht es um große Skalierungen und neue GPUs, aber auch fehlende Chips. So sind zum Beispiel Nvidia Vera Rubin und Google Ironwood ganz offiziell dab...",
+    "url": "https://www.computerbase.de/news/grafikkarten/mlperf-training-benchmarks-blackwell-skaliert-10-240-mal-rubin-und-ironwood-sind-hier.100294/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Neue Sicherheitsfunktion: Microsoft testet Remote-Sperre für Windows-Geräte",
+    "date": "2026-11-17",
+    "category": "Software",
+    "description": "Die Sperrfunktion richtet sich an verwaltete Geräte mit Windows 11 und verzichtet auf eine Löschung von Daten. (Windows 11, Microsoft)",
+    "url": "https://www.golem.de/news/neue-sicherheitsfunktion-microsoft-testet-remote-sperre-fuer-windows-geraete-2611-215314.html",
+    "image": "https://www.golem.de/2611/215314-608975-608973_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Anzeige: Gaming-Headset HyperX Cloud III S reduziert bei Amazon",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Das kabellose Gaming-Headset HyperX Cloud III S mit DTS Headphone:X und abnehmbarem Mikrofon gibt es zum Black Friday Preis bei Amazon. (Technik/Hardware)",
+    "url": "https://www.golem.de/news/anzeige-gaming-headset-hyperx-cloud-iii-s-reduziert-bei-amazon-2611-215312.html",
+    "image": "https://www.golem.de/2611/215312-608966-608964_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Anzeige: 27 Zoll großer OLED-Gaming-Monitor von AOC mit 260 Hz günstig wie nie",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Amazon verkauft den AOC Q27G4ZDRAD zum bisherigen Tiefstpreis im frühen Black Friday Angebot. Weitere Monitore des Herstellers sind ebenfalls günstiger. (Black Friday, Display)",
+    "url": "https://www.golem.de/news/anzeige-27-zoll-grosser-oled-gaming-monitor-von-aoc-mit-260-hz-guenstig-wie-nie-2611-215310.html",
+    "image": "https://www.golem.de/2611/215310-608956-608954_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Datensammlung: Windows 11 meldet Coding-Agenten und Entwickler-Tools an Microsoft",
+    "date": "2026-11-17",
+    "category": "Software",
+    "description": "Die Nutzungsdaten von Coding-Agenten und Developer-Tools sammelt Windows 11 zusammen mit optionalen Diagnosedaten. (Betriebssysteme, KI)",
+    "url": "https://www.golem.de/news/datensammlung-windows-11-meldet-coding-agenten-und-entwickler-tools-an-microsoft-2611-215308.html",
+    "image": "https://www.golem.de/2611/215308-608943-608941_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Rubin HPC: Nvidia bringt eigene Rubin-GPU für Supercomputer",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Nvidias Fokus verschob sich bei Hardware für Rechenzentren zu KI. Supercomputer profitieren davon aber nicht immer. AMD hatte hier vorgelegt. (Supercomputer, Grafikkarten)",
+    "url": "https://www.golem.de/news/rubin-hpc-nvidia-bringt-eigene-rubin-gpu-fuer-supercomputer-2611-215305.html",
+    "image": "https://www.golem.de/2611/215305-608934-608932_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Anzeige: Smartphone Samsung Galaxy A57 5G zum günstigen Black Friday Preis",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Das Smartphone Samsung Galaxy A57 5G mit 6,7\"-AMOLED-Display, 50-MP-Hauptkamera und 8 GByte RAM ist bei Amazon stark reduziert. (Black Friday, Smartphone)",
+    "url": "https://www.golem.de/news/anzeige-smartphone-samsung-galaxy-a57-5g-zum-guenstigen-black-friday-preis-2611-215303.html",
+    "image": "https://www.golem.de/2611/215303-608921-608919_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Linux: Neues Librem-Smartphone mit Risc-V kostet 1.900 Euro",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Purism hat das Crowdfunding zum Librem 5 v2 gestartet. Neben einem Risc-V-Prozessor gibt es herausnehmbare Modemkarten. (Purism, Smartphone)",
+    "url": "https://www.golem.de/news/linux-neues-librem-smartphone-mit-risc-v-kostet-1-900-euro-2611-215294.html",
+    "image": "https://www.golem.de/2611/215294-608874-608872_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "Rechenzentren: KI-Racks könnten 2030 ein Megawatt Leistung erreichen",
+    "date": "2026-11-17",
+    "category": "Software",
+    "description": "Racks liegen heute bei 15 bis 25 kW. IDTechEx erwartet bis 2030 bis zu 1.000 kW. Das hat Auswirkungen auf Kühlung und Stromversorgung. (Rechenzentrum, Nvidia)",
+    "url": "https://www.golem.de/news/rechenzentren-ki-racks-koennten-2030-ein-megawatt-leistung-erreichen-2611-215290.html",
+    "image": "https://www.golem.de/2611/215290-608853-608851_rc.jpg",
+    "source": "Golem"
+  },
+  {
+    "title": "161 Fps in Cyberpunk 2077: GPD zeigt, was Intels Arc G3 Extreme im Handheld leisten kann",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Der neue Win Mini Ultra soll viel Leistung im Handheld-Format liefern: GPD nennt 161 Fps in Cyberpunk 2077, allerdings mit XeSS und Frame Generation.",
+    "url": "https://www.pcgameshardware.de/Handheld-PC-Hardware-279763/News/161-Fps-Cyberpunk-2077-GPD-Intel-Arc-G3-Extreme-Handheld-1560277/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Win-Mini-Ultra-Bildschirmfoto_17-11-2026_151510_www.gpd.hk-pcgh.jpeg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Rubin HPC: Nvidia kündigt neue GPU mit über 50.000 Recheneinheiten an",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Nvidia hat Rubin HPC vorgestellt: Die neue GPU soll über 50.000 CUDA-Kerne bieten und 2028 für wissenschaftliche Berechnungen erscheinen.",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Rubin-HPC-Nvidia-kuendigt-neue-GPU-an-ueber-50000-Recheneinheiten-1560248/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Nvidia-Rubin-HPC-Neue-GPU-mit-ueber-50.000-Recheneinheiten-2--pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "FSR 4.1 erstmals unter Vulkan: Doom bringt KI-Upscaling auf Radeon ab RX 6000",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Update 5 bringt AMDs FSR Upscaling 4.1 und Frame Generation seit dem 16. November nativ in Doom: The Dark Ages unter Vulkan. Radeon-Grafikkarten ab RX 6000 erhalten KI-Upscaling, die KI-Frame-Generation ist dagegen de...",
+    "url": "https://www.pcgameshardware.de/FidelityFX-Super-Resolution-Software-277617/News/FSR-4-1-Vulkan-Doom-The-Dark-Ages-Update-5-Radeon-1560264/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/Doom-The-Dark-Ages-Revelations-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "Nvidia: Trump ist für Huangs Rückkehr, der Verwaltungsrat nicht",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Donald Trump hat am Montag erklärt, er hätte gegen ein Comeback von Jensen Huang bei Nvidia nichts einzuwenden. Laut CNBC spricht der Verwaltungsrat nicht über dessen Rückkehr. Heute Abend präsentiert der Chipkonzern...",
+    "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Trump-Jensen-Huang-Rueckkehr-Nvidia-CEO-Verwaltungsrat-1560247/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Jensen-Huang-Comeback-Nvidia-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "[PLUS] Die besten GPU- und CPU-Paare: Prozessor und Grafikkarte perfekt kombinieren",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "PCGH Plus: Welcher Prozessor passt zu welcher Grafikkarte? Lohnt sich das Upgrade oder bremst da was? Wir haben wieder Tag und Nacht gebencht, um Ihnen aktuelle Antworten auf diese Fragen zu liefern. Der Artikel stamm...",
+    "url": "https://www.pcgameshardware.de/CPU-CPU-154106/Specials/Prozessor-und-Grafikkarte-perfekt-kombinieren-1546462/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/06/aufmacher_CPU-GPU_Dreamteams2026-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "GPU-Roadmap 2027+: Speicherkrise dämpft die Aussichten für Nvidia, AMD und Intel [Update]",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Die GPU-Roadmap von PCGH zeigt alle neuen und gemutmaßten dedizierten Grafikkarten, die Nvidia, AMD und Intel in Zukunft veröffentlichen könnten – Spezifikationen und Erscheinungsfenster inklusive.",
+    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Roadmap-Grafikkarten-Liste-Radeon-Geforce-1128937/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/GPU-Roadmap-November-2026-revisited-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Intel-Übertaktungssperre umgehen: Modder will Asrocks SkyOC mit KI wiederbeleben",
+    "date": "2026-11-17",
+    "category": "Software",
+    "description": "Vor zehn Jahren ließ sich mit Asrocks SkyOC ein Intel-Prozessor mit gesperrtem Multiplikator übertakten. Anfang 2016 verschwand die Funktion wieder. Jetzt versucht der Enthusiast Hardware 360°, den Mechanismus mithilf...",
+    "url": "https://www.pcgameshardware.de/Skylake-S-Codename-260925/News/OC-Tuning-Sperre-umgehen-1560199/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/KI-gestuetztes-SkyOC-auf-Intel-CPU-pcgh.webp",
+    "source": "PCGH"
+  },
+  {
+    "title": "Speicherkrise 2027: Selbst Geld garantiert keinen RAM mehr, warnt Teamgroup",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Teamgroup-Chef Gerry Chen erklärt, warum hohe Gebote bei knappem DRAM keine Lieferung garantieren: Verträge und Kundenbeziehungen geben den Ausschlag. PC-Käufer stehen hinten an, und die Speicherkrise könnte sich 2027...",
+    "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/Teamgroup-Speicherkrise-2027-RAM-Geld-Langzeitvertraege-1560186/",
+    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Teamgroup-T-CREATE-DDR5-pcgh.jpg",
+    "source": "PCGH"
+  },
+  {
+    "title": "Intel Publishes Benchmarks for D270 \"Crescent Island\" GPU, Claims Wins Over RTX PRO 6000",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Intel's GPU D270 AI accelerator card, previously known as \"Crescent Island,\" just got some first-party benchmarks. According to Intel, the GPU is up to 5.9 times faster than NVIDIA's RTX PRO 6000 Blackwell Server Edit...",
+    "url": "https://www.techpowerup.com/354944/intel-publishes-benchmarks-for-d270-crescent-island-gpu-claims-wins-over-rtx-pro-6000",
+    "image": "https://www.techpowerup.com/img/p8YBsPO7J3RC5W1f.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) AMD Completes Acquisition of Taalas to Advance AI Inference Innovation",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "AMD today announced the completion of its acquisition of Taalas, a pioneer in specialized AI inference silicon, further strengthening the company's full-stack AI portfolio and long-term inference roadmap. As demand fo...",
+    "url": "https://www.techpowerup.com/354943/amd-completes-acquisition-of-taalas-to-advance-ai-inference-innovation",
+    "image": "https://www.techpowerup.com/img/CfPGDpGIXBAIXOlD.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Block Ads, Encrypt Traffic—This AdGuard Bundle is $44 This Week",
+    "date": "2026-11-17",
+    "category": "Angebote",
+    "description": "A VPN and an ad blocker usually come as two separate subscriptions, with two renewal dates to keep track of. A simpler option is the AdGuard VPN + Ad Blocker Family Security Suite, a bundle with a 5-year VPN subscript...",
+    "url": "https://www.techpowerup.com/354892/block-ads-encrypt-traffic-this-adguard-bundle-is-usd-44-this-week",
+    "image": "https://www.techpowerup.com/img/n1IBDoD15LyfjwcR.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Geometric Future Introduces the Eskimo Ultra 42 AIO and Squama Ultimate 3003-14 Fans",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Geometric Future, an innovative PC components and peripherals brand, expands its cooling lineup with the launch of high-performance Eskimo Ultra 42 AIO and Squama Ultimate 3003-14 fans. The Eskimo Ultra 42 features a...",
+    "url": "https://www.techpowerup.com/354942/geometric-future-introduces-the-eskimo-ultra-42-aio-and-squama-ultimate-3003-14-fans",
+    "image": "https://www.techpowerup.com/img/nQtu08v7L0EKdaqD.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) NVIDIA Establishes National Security and Export Control Oversight Committee",
+    "date": "2026-11-17",
+    "category": "Industrie",
+    "description": "NVIDIA (NASDAQ: NVDA) today announced that the Board of Directors has established the National Security and Export Control Oversight Committee, a new standing committee responsible for board-level oversight of the com...",
+    "url": "https://www.techpowerup.com/354939/nvidia-establishes-national-security-and-export-control-oversight-committee",
+    "image": "https://www.techpowerup.com/img/ef9ZJOXnfIIAYEgD.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) GAMDIAS Unveils ATLAS P7 Mid-Tower PC Case",
+    "date": "2026-11-17",
+    "category": "Software",
+    "description": "GAMDIAS, a global provider of high-performance gaming hardware, proudly announces the latest addition to its ATLAS Series, the ATLAS P7. As a key expression of GAMDIAS's 2026 vision, \"AUGMENTED IMMERSION,\" the ATLAS P...",
+    "url": "https://www.techpowerup.com/354937/gamdias-unveils-atlas-p7-mid-tower-pc-case",
+    "image": "https://www.techpowerup.com/img/k1354ykXGeYt2DLm.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Q.ANT Unveils NPU Gen 2+: Photonic Fourier Transforms Power Large Language Model",
+    "date": "2026-11-17",
+    "category": "Software",
+    "description": "Q.ANT, the pioneer in commercial photonic computing, today unveiled the NPU Gen 2+, the latest generation of its Native Processing Unit (NPU) technology, at SC26 in Chicago. The NPU Gen 2+ adds optical Discrete Fourie...",
+    "url": "https://www.techpowerup.com/354936/q-ant-unveils-npu-gen-2-photonic-fourier-transforms-power-large-language-model",
+    "image": "https://www.techpowerup.com/img/uG6ATt4Q7ff5AQoH.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Kensington Launches the Expert Mouse Pro TB900 EQ Trackball",
+    "date": "2026-11-17",
+    "category": "Markt",
+    "description": "Kensington, a worldwide leader in desktop computing and mobility solutions for IT, business, and home office professionals, today announced the launch of Expert Mouse Pro TB900 EQ Trackball, a wired and wireless track...",
+    "url": "https://www.techpowerup.com/354935/kensington-launches-the-expert-mouse-pro-tb900-eq-trackball",
+    "image": "https://www.techpowerup.com/img/6qyd2Bj8BA94ZtJk.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Pay $25 once for Microsoft Office Pro 2021 and drop the Monthly Fees",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Microsoft 365 is a money-hole for most people—you don't really need most of it, the plan bills you monthly or annually, and you lose full access to the apps when payments stop. To keep Office on your PC without a recu...",
+    "url": "https://www.techpowerup.com/354893/pay-usd-25-once-for-microsoft-office-pro-2021-and-drop-the-monthly-fees",
+    "image": "https://www.techpowerup.com/img/kEOcrUKZ7ebEbFSz.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) Meet Kandao Focus & Focus SE: 4K AI Webcams",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "KanDao Technology, a global pioneer in the video camera and imaging industry, has launched Kandao Focus & Focus SE, the 4K AI webcam. This series of webcams is designed to provide a professional image experience at an...",
+    "url": "https://www.techpowerup.com/354934/meet-kandao-focus-focus-se-4k-ai-webcams",
+    "image": "https://www.techpowerup.com/img/KDEMM3qBn1MKADXD.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "(PR) SSSTC Introduces PCIe Gen4 QLC SSDs for AI PCs and Industrial Applications",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Solid State Storage Technology Corporation (SSSTC), a subsidiary of Kioxia Corporation, today announced the PQ2 series, the company's first industrial-grade QLC SSD. Featuring a PCIe Gen 4 x4 interface and BiCS FLASH...",
+    "url": "https://www.techpowerup.com/354931/ssstc-introduces-pcie-gen4-qlc-ssds-for-ai-pcs-and-industrial-applications",
+    "image": "https://www.techpowerup.com/img/xP4WNzEIaxi5v79n.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Build Your Dream Anime-Inspired PC with the AORUS ARI Bundle, Exclusively at Newegg",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "GIGABYTE brings anime aesthetics and gaming performance together with the AORUS ARI Bundle, featuring the AORUS GeForce RTX 5060 ARI 8G graphics card and B850 AORUS ELITE-P ICE motherboard. Inspired by Ari, AORUS's or...",
+    "url": "https://www.techpowerup.com/354726/build-your-dream-anime-inspired-pc-with-the-aorus-ari-bundle-exclusively-at-newegg",
+    "image": "https://www.techpowerup.com/img/4I7yUYsJinNeUE29.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "U.S. Cracks Down on China Renting AI GPUs Through Overseas Data Centers",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "Yesterday, the U.S. Commerce Department's Bureau of Industry and Security (BIS) released an interim final rule to address remote access to advanced AI chips and servers. This rule significantly addresses a long-standi...",
+    "url": "https://www.techpowerup.com/354927/u-s-cracks-down-on-china-renting-ai-gpus-through-overseas-data-centers",
+    "image": "https://www.techpowerup.com/img/Ls8NjGVQeNnoa5pd.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "U.S. Departments of Commerce and Justice Issue Rare Joint-Statement on the NVIDIA-Megaspeed Investigation",
+    "date": "2026-11-17",
+    "category": "Angebote",
+    "description": "The U.S. Department of Commerce and Department of Justice just issued a rare joint-statement on their ongoing investigation into NVIDIA's dealings with Singapore-based Megaspeed Corporation, a cloud computing firm tha...",
+    "url": "https://www.techpowerup.com/354921/u-s-departments-of-commerce-and-justice-issue-rare-joint-statement-on-the-nvidia-megaspeed-investigation",
+    "image": "https://www.techpowerup.com/img/hXIxo4vDvFhqfU5V.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "GPD Publishes Full WIN Mini Ultra Specs, Pricing Still Under Wraps",
+    "date": "2026-11-17",
+    "category": "Hardware",
+    "description": "GPD has published the full spec sheet for the WIN Mini Ultra. The company's new product page confirms the Intel Arc G3 Extreme inside, with 14 CPU cores in a 2P+8E+4LPE configuration. The chip can boost up to 4.7 GHz,...",
+    "url": "https://www.techpowerup.com/354917/gpd-publishes-full-win-mini-ultra-specs-pricing-still-under-wraps",
+    "image": "https://www.techpowerup.com/img/N8NrXXf2dUV2bgMh.jpg",
+    "source": "TechPowerUp"
+  },
+  {
+    "title": "Overclocker Tries to Revive SkyOC BCLK Overclocking via BIOS Mod",
+    "date": "2026-11-17",
+    "category": "Software",
+    "description": "Back in 2015, ASRock introduced SkyOC, a feature that let users overclock locked non-K series Intel CPUs via BCLK overclocking. That BIOS trick might be making an unofficial comeback, thanks to a decompilation attempt...",
+    "url": "https://www.techpowerup.com/354909/overclocker-tries-to-revive-skyoc-bclk-overclocking-via-bios-mod",
+    "image": "https://www.techpowerup.com/img/NybfxtXMmKlr3uSU.jpg",
+    "source": "TechPowerUp"
+  },
+  {
     "title": "KI-Update kompakt: Nvidia-Drama, Berufseinstieg, Siri AI, Home Assistant mit KI",
     "date": "2026-11-16",
     "category": "Hardware",
@@ -36,6 +369,33 @@
     "source": "Heise"
   },
   {
+    "title": "445.000 im Durchschnitt: Top500-Supercomputer bieten viel mehr Kerne",
+    "date": "2026-11-16",
+    "category": "Hardware",
+    "description": "Der verstärkte Einsatz von hybriden Systemen mit GPU-basierten Beschleunigern treibt die Anzahl der Rechenkerne bei den schnellsten Supercomputern nach oben. Jetzt sind es durchschnittlich 445.441 Kerne pro System – a...",
+    "url": "https://www.computerbase.de/news/wirtschaft/445-000-im-durchschnitt-top500-supercomputer-bieten-viel-mehr-kerne.100339/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Rubin HPC: Nvidia bannt „mehr als 50.000 CUDA-Kerne“ auf „eine“ GPU",
+    "date": "2026-11-16",
+    "category": "Software",
+    "description": "Nvidia hat mit Rubin HPC eine neue GPU für High Performance Computing vorgestellt. Der Beschleuniger ergänzt die normale Rubin-GPU um eine stärker auf wissenschaftliche Berechnungen und Datenverarbeitung ausgelegte Ar...",
+    "url": "https://www.computerbase.de/news/grafikkarten/rubin-hpc-nvidia-bannt-mehr-als-50-000-cuda-kerne-auf-eine-gpu.100359/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
+    "title": "Auch mal gute Neuigkeiten: OLED-Monitore starten nun schon bei unter 300 Euro",
+    "date": "2026-11-16",
+    "category": "Hardware",
+    "description": "Zum Glück wird doch nicht alles teurer rund um den PC. Eine begrüßenswerte Ausnahme bilden Monitore. Auch Modelle mit OLED-Panel werden sogar immer erschwinglicher. Ein Einstieg bei unter 300 Euro ist inzwischen möglich.",
+    "url": "https://www.computerbase.de/news/monitore/auch-mal-gute-neuigkeiten-oled-monitore-starten-nun-schon-bei-unter-300-euro.100346/",
+    "image": null,
+    "source": "ComputerBase"
+  },
+  {
     "title": "Verschiebung der Gamer-CPU: 12 P-Cores mit bLLC kommen erst mit Intel Razor Lake",
     "date": "2026-11-16",
     "category": "Hardware",
@@ -63,390 +423,30 @@
     "source": "ComputerBase"
   },
   {
-    "title": "Mini-Rechner: Windows 11 läuft ohne Jailbreak auf iPhone Duo",
-    "date": "2026-11-16",
-    "category": "Software",
-    "description": "Windows 11 lässt sich auf Apples faltbarem iPhone Duo wie auf einem kleinen Laptop verwenden - ohne Jailbreak. Es gibt aber einige gewichtige Abstriche. (iPhone Duo, Smartphone)",
-    "url": "https://www.golem.de/news/mini-rechner-windows-11-laeuft-ohne-jailbreak-auf-iphone-duo-2611-215257.html",
-    "image": "https://www.golem.de/2611/215257-608706-608704_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Schon seit 2025: Alice Huang arbeitet nicht mehr bei Megaspeed",
-    "date": "2026-11-16",
-    "category": "Industrie",
-    "description": "Megaspeed weist alle Vorwürfe von sich, Nvidia-Hardware nach China weitergeleitet zu haben. (Nvidia, Cloud Computing)",
-    "url": "https://www.golem.de/news/schon-seit-2025-alice-huang-arbeitet-nicht-mehr-bei-megaspeed-2611-215255.html",
-    "image": "https://www.golem.de/2611/215255-608702-608700_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Nvidia: Jensen Huang soll über Rückkehr sprechen",
-    "date": "2026-11-16",
-    "category": "Industrie",
-    "description": "Mit seinem Weggang scheint sich Ex-Nvidia-Chef Jensen Huang offenbar nicht abfinden zu wollen: Er soll seine Rückkehr planen. (Nvidia, KI)",
-    "url": "https://www.golem.de/news/nvidia-jensen-huang-soll-ueber-rueckkehr-sprechen-2611-215246.html",
-    "image": "https://www.golem.de/2611/215246-608657-608655_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Nvidia-CEO: ARM-Chef Rene Haas als Nachfolger von Jensen Huang im Gespräch",
-    "date": "2026-11-16",
-    "category": "Industrie",
-    "description": "Haas hat jahrelang bei Nvidia gearbeitet und wurde von Jensen Huang persönlich gefördert. (Nvidia, Embedded Systems)",
-    "url": "https://www.golem.de/news/nvidia-ceo-arm-chef-rene-haas-als-nachfolger-von-jensen-huang-im-gespraech-2611-215244.html",
-    "image": "https://www.golem.de/2611/215244-608649-608647_rc.jpg",
-    "source": "Golem"
-  },
-  {
-    "title": "Gears of War: E-Day liest bis zu 3,7 GiB/s von der SSD – und spart dabei Arbeitsspeicher",
+    "title": "Rubin HPC: Nächste GPU-Generation von NVIDIA kommt mit mehr als 50.000 CUDA-Kernen",
     "date": "2026-11-16",
     "category": "Hardware",
-    "description": "Gears of War: E-Day beansprucht nicht nur CPU und GPU, sondern beschäftigt auch die SSD ordentlich. Dahinter steckt eine Streaming-Technik, mit der Entwickler The Coalition bereits auf der Xbox Series S den begrenzten...",
-    "url": "https://www.pcgameshardware.de/Gears-of-War-E-Day-Spiel-74725/News/SSD-RAM-Leistung-Performance-1560129/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/10/Gears-of-War-E-Day-SP-Test-Review-PCGAMES-Teaser-1-pc-games.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11 Remote Lock: Notebooks dauerhaft aus der Ferne abschalten",
-    "date": "2026-11-16",
-    "category": "Software",
-    "description": "Mit der Windows 11 Insider Preview 29708.1001 lassen sich PCs via Remote-Zugriff so sperren, dass eine lokale Reaktivierung ausgeschlossen wird.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/windows-remote-lock-1560119/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/remote-lock-device-locked-screen-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Geforce RTX 4090 Ti: Fast vier Jahre nach den Gerüchten taucht der vermeintliche Prototyp in China auf",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "Manche Grafikkarten schaffen es trotz weit fortgeschrittener Entwicklung nie in den Handel. Ein aktueller Fund wirft jetzt neues Licht auf ein solches Nvidia-Projekt, dass viele Spieler damals sicherlich gerne in den...",
-    "url": "https://www.pcgameshardware.de/Geforce-RTX-4090-Grafikkarte-279170/News/Geforce-RTX-4090-Ti-Fast-vier-Jahre-nach-den-Geruechten-taucht-der-vermeintliche-Prototyp-in-China-auf-1560111/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/RTX-4090-TI-02-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Nvidia: Nach seinem Rücktritt denkt Jensen Huang offenbar an eine Rückkehr",
-    "date": "2026-11-16",
-    "category": "Industrie",
-    "description": "Der überraschende Führungswechsel bei Nvidia könnte noch eine weitere Wendung nehmen. Hinter den Kulissen formiert sich offenbar Widerstand gegen den bisherigen Kurs bei der Nachfolgeregelung.",
-    "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Nvidia-Nach-seinem-Ruecktritt-denkt-Jensen-Huang-offenbar-an-eine-Rueckkehr-1560090/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2025/03/nvidia-ceo-jensen-huang-project-digits-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "SSD wird konstant beschrieben: AMD rollt Adrenalin 26.11.1 zur Rettung aus [Update]",
-    "date": "2026-11-16",
-    "category": "Software",
-    "description": "Nutzerberichten zufolge hat ein Hintergrunddienst des AMD-Adrenalin-Grafiktreibers einen unschönen Nebeneffekt. Dieser verursacht eine konstante Schreibaktivität auf der SSD. AMD ist sich des Problems bewusst; Lösunge...",
-    "url": "https://www.pcgameshardware.de/AMD-Radeon-Grafikkarte-255597/News/SSD-Treiber-Bug-konstantes-Schreiben-Problemloesung-1559335/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/AMD-Treiber-SSD-Problem-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "[PLUS] Aqua Computer vs. Thermal Grizzly: Smarte 12V-2×6-Wächter im Test",
-    "date": "2026-11-16",
-    "category": "Software",
-    "description": "PCGH Plus: Der längst nicht mehr neue 12+4-Pin-GPU‑Stecker bleibt trotz Überarbeitung ein heißes Eisen. Wir testen, wie effektiv Aqua Computers Ampinel sowie Thermal Grizzlys Wireview Pro II Schwachstellen am Stecker...",
-    "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/Specials/Thermal-Grizzly-Wireview-Pro-2-Aqua-Computer-Ampinel-Test-12VHPWR-1527929/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/04/aufmacher_Aqua_Computer_Ampinel-pcgh.webp",
-    "source": "PCGH"
-  },
-  {
-    "title": "Nvidia-Gedenktafel: Denny’s bringt die Plakette nach Jensen Huangs Rücktritt wieder an",
-    "date": "2026-11-16",
-    "category": "Industrie",
-    "description": "Eine Gedenktafel in einem Denny’s erinnert an den Ort, an dem Jensen Huang und seine Mitgründer einst über die Gründung von Nvidia sprachen. Nun wurde sie entfernt und später wieder angebracht.",
-    "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Nvidia-Gedenktafel-Dennys-bringt-die-Plakette-nach-Jensen-Huangs-Ruecktritt-wieder-an-1560049/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Jensen-Huang-Dennys-scaled-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Windows 11: Reparaturhilfe ermöglichte volle Systemkontrolle",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "Eine Sicherheitslücke in der Windows-11-Hilfe ermöglichte die Ausführung von Programmen mit höchsten Systemrechten. Microsoft hat die Ursache nach Angaben des Entdeckers bereits im September behoben.",
-    "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-Sicherheitsluecke-Get-Help-System-Rechte-ohne-CVE-1560044/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Windows-11-Volle-Systemrechte-durch-harmlose-Hilfe-App-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Intel gegen AMD X3D: Razor Lake soll zwölf P-Kerne, großen Cache und keine klassischen E-Kerne erhalten",
-    "date": "2026-11-16",
-    "category": "Industrie",
-    "description": "Bisher blieb Intel Desktop-Nutzern einen 12-Kerner schuldig, den man frei übertakten konnte und der es mit AMDs X3D-Riege aufnehmen kann. Doch das könnte sich bald ändern.",
-    "url": "https://www.pcgameshardware.de/Intel-Core-Architektur-267419/News/Back-to-the-Roots-Kampf-gegen-AMD-1560051/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/Intel-AMD.versus-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "SteamOS 3.10 als Vorschau: HDMI 2.1 für Radeon, Mesh-Shader für Geforce",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "SteamOS 3.10 steht seit dem 13. November als Vorschau bereit. Valve liefert Linux 7.3, Plasma 6.8.2 und HDMI 2.1 mit VRR für AMD-Grafik. Vor allem Steam-Machine-Besitzer profitieren, müssen aber mit Problemen der Test...",
-    "url": "https://www.pcgameshardware.de/SteamOS-Software-258049/News/Version-3-10-Vorschau-HDMI-2-1-VRR-Radeon-Steam-Machine-1560040/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/SteamOS-auf-dem-Gaming-PC-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "Autolack und Trockeneis: PCGH-Leser zeigt Gaming-PCs von 2006 [PCGH Community]",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "PCGH-X-Mitglied FoxX11 hat sein Fotoarchiv aus den Jahren 2006 und 2007 geöffnet. Darin finden sich PC-Gehäuse in Lamborghini-Orange, ein Pitbull-Motiv für einen Battlefield-2-Clan, ein geschweißter Trockeneis-Pod und...",
-    "url": "https://www.pcgameshardware.de/Retrospektive-Thema-214694/News/Casemod-2006-Autolack-Trockeneis-Gaming-PC-1560039/",
-    "image": "https://www.pcgameshardware.de/screenshots/970x546/2026/11/DSC06368-pcgh.jpg",
-    "source": "PCGH"
-  },
-  {
-    "title": "TG PadMate: Thermal Grizzly entwickelt Messwerkzeug und bietet Minus-Pad-Multipack",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "Wer bei einer Grafikkarte die Wärmeleitpads austauschen möchte, steht häufig vor dem Problem, die richtige Dicke der Ersatzpads bestimmen zu müssen.",
-    "url": "https://www.hardwareluxx.de/index.php/news/hardware/kuehlung/70988-tg-padmate-thermal-grizzly-entwickelt-messwerkzeug-und-bietet-minus-pad-multipack.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/trusty_os_ci/tg_padmate_1_680px.jpg",
+    "description": "Zur Supercomputing-Konferenz SC26 hat NVIDIA mit Rubin HPC einen neuen Beschleuniger vorgestellt, der speziell auf wissenschaftliche Berechnungen, technische Simulationen und datenintensive Analysen ausgelegt ist.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/70991-rubin-hpc-naechste-gpu-generation-von-nvidia-kommt-mit-mehr-als-50-000-cuda-kernen.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/heroic_terminal_ct/hpc_blog_rubin_hpc_gpu_1920x1080_5957124_1_680px.jpg",
     "source": "HardwareLuxx"
   },
   {
-    "title": "ASUS ROG Kithara im Test: Wenn Gaming-Headset auf Hi-Fi-Ambitionen trifft",
+    "title": "MLPerf Training v6.1: NVIDIA skaliert bis 10.240 GPUs und Google hält Schritt",
     "date": "2026-11-16",
     "category": "Hardware",
-    "description": "Gaming-Headsets gibt es in nahezu jeder Preisklasse, doch nur wenige Modelle treten mit dem Anspruch an, die Grenzen zur audiophilen Musikwiedergabe ernsthaft zu überwinden.",
-    "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/multimedia/70339-asus-rog-kithara-im-test-wenn-gaming-headset-auf-hi-fi-ambitionen-trifft.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Oct/handy_wifi_0p/01_asus_rog_kithara_680px.jpg",
+    "description": "Die MLCommons hat mit MLPerf Training v6.1 die nächste Runde der unabhängigen KI-Benchmarks veröffentlicht.",
+    "url": "https://www.hardwareluxx.de/index.php/news/software/benchmarks/70961-mlperf-training-v6-1-nvidia-skaliert-bis-10-240-gpus-und-google-haelt-schritt.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/peppy_lab_rt/mlperf_training_61_pressdeck_003_680px.jpeg",
     "source": "HardwareLuxx"
   },
   {
-    "title": "(PR) Kingston Technology Highlights Enterprise Solutions for HPC, AI Applications at Supercomputing 2026",
+    "title": "SC26: Intel nennt neue Details zu Diamond Rapids und der GPU D270",
     "date": "2026-11-16",
     "category": "Hardware",
-    "description": "Kingston Technology Company, Inc., a world leader in memory products and technology solutions, today announced it will showcase its industry-leading server DRAM and latest NVMe PCIe Gen 5 Flash solutions for high-perf...",
-    "url": "https://www.techpowerup.com/354897/kingston-technology-highlights-enterprise-solutions-for-hpc-ai-applications-at-supercomputing-2026",
-    "image": "https://www.techpowerup.com/img/yq6cCTEUHQ1Oo9mK.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) TCL CSOT Showcases Latest IJP OLED Developments and Display Innovations at DTC2026",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "TCL CSOT's Global Display Tech-Ecosystem Conference 2026 (DTC2026) kicked off on November 13, 2026 in Wuhan. With this year's theme \"True Vision, AI in Motion,\" the event brought together company executives, academics...",
-    "url": "https://www.techpowerup.com/354896/tcl-csot-showcases-latest-ijp-oled-developments-and-display-innovations-at-dtc2026",
-    "image": "https://www.techpowerup.com/img/RItvJwKpGzPEdz3b.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Block Ads, Encrypt Traffic—This AdGuard Bundle is $44 This Week",
-    "date": "2026-11-16",
-    "category": "Angebote",
-    "description": "A VPN and an ad blocker usually come as two separate subscriptions, with two renewal dates to keep track of. A simpler option is the AdGuard VPN + Ad Blocker Family Security Suite, a bundle with a 5-year VPN subscript...",
-    "url": "https://www.techpowerup.com/354892/block-ads-encrypt-traffic-this-adguard-bundle-is-usd-44-this-week",
-    "image": "https://www.techpowerup.com/img/n1IBDoD15LyfjwcR.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) Penguin Solutions Unveils Industry's First Photonics-Based HBM-Class Memory Appliance",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "Penguin Solutions, Inc. (Nasdaq: PENG), the AI Factory Platform Company, today unveiled the MemoryAI Photonic Appliance, the industry's first photonics-based HBM-class memory appliance designed to overcome GPU memory...",
-    "url": "https://www.techpowerup.com/354895/penguin-solutions-unveils-industrys-first-photonics-based-hbm-class-memory-appliance",
-    "image": "https://www.techpowerup.com/img/eaMEw3wW8n3ZZ2Im.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) GameSir Releases G7 Pro Yakuza & Like a Dragon Edition Controller",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "Level up from the celebrated G7 lineage with the GameSir G7 Pro Yakuza & Like A Dragon Edition, inspired by SEGA's legendary Like a Dragon. Delivering cord-free freedom with native XBOX Wireless technology, it lets yo...",
-    "url": "https://www.techpowerup.com/354894/gamesir-releases-g7-pro-yakuza-like-a-dragon-edition-controller",
-    "image": "https://www.techpowerup.com/img/qi8zd9KqgXzFCQ6E.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) GameSir Introduces G7 Pro Sunset Boulevard & Ocean Breeze Edition Controllers with Miami Inspired Designs",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "GameSir has announced the G7 Pro Sunset Boulevard and Ocean Breeze Editions, introducing two new designs to its G7 Pro controller range inspired by Miami's vibrant coastlines and distinctive Art Deco style. Arriving a...",
-    "url": "https://www.techpowerup.com/354891/gamesir-introduces-g7-pro-sunset-boulevard-ocean-breeze-edition-controllers-with-miami-inspired-designs",
-    "image": "https://www.techpowerup.com/img/tEg2GoCGIDXh8zgz.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "GIGABYTE to Host AI Partner Summit, Empowering Businesses to Build Real-World AI Solutions",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "GIGABYTE, a global leader in computer hardware and innovative technology solutions, will host its AI Partner Summit on November 13, 2026, at Pacific Palms Resort in Southern California. Centered around the theme \"Buil...",
-    "url": "https://www.techpowerup.com/354805/gigabyte-to-host-ai-partner-summit-empowering-businesses-to-build-real-world-ai-solutions",
-    "image": "https://www.techpowerup.com/img/s8I1AIeMzEvETRsn.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) QNAP Launches the New Dual Active Controller ES1686Adc Hybrid Storage Array",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "QNAP Systems, Inc., a leading innovator in storage, networking, and data protection solutions, today launched the ES1686Adc, a 3U 16-bay high availability (HA) storage array designed for businesses at a critical stage...",
-    "url": "https://www.techpowerup.com/354890/qnap-launches-the-new-dual-active-controller-es1686adc-hybrid-storage-array",
-    "image": "https://www.techpowerup.com/img/vM6sOgGuwIYw8WF9.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) ElecWave Debuts Foldable KF01 Keyboard",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "ElecWave today announced its brand debut with the launch of its first product, the ElecWave KF01 foldable keyboard. Guided by its brand slogan, \"Convenient, No Compromise,\" ElecWave believes that working from anywhere...",
-    "url": "https://www.techpowerup.com/354888/elecwave-debuts-foldable-kf01-keyboard",
-    "image": "https://www.techpowerup.com/img/W9WyM8Ezu0Qr6GiH.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Pay $25 once for Microsoft Office Pro 2021 and drop the Monthly Fees",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "Microsoft 365 is a money-hole for most people—you don't really need most of it, the plan bills you monthly or annually, and you lose full access to the apps when payments stop. To keep Office on your PC without a recu...",
-    "url": "https://www.techpowerup.com/354893/pay-usd-25-once-for-microsoft-office-pro-2021-and-drop-the-monthly-fees",
-    "image": "https://www.techpowerup.com/img/kEOcrUKZ7ebEbFSz.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) ASUS Republic of Gamers Unveils the ROG Harpe II Ace Mini and Special Demon1 Edition",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "ASUS Republic of Gamers (ROG) today unveiled the ROG Harpe II Ace Mini, an ultralight 47-gram esports gaming mouse developed through sports-science research and extensive collaboration with professional players. The m...",
-    "url": "https://www.techpowerup.com/354884/asus-republic-of-gamers-unveils-the-rog-harpe-ii-ace-mini-and-special-demon1-edition",
-    "image": "https://www.techpowerup.com/img/kcJNnzBRjNqfZL3w.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "(PR) ASUS Announces ExpertCenter P300 Mini Tower",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "ASUS today announced the ASUS ExpertCenter P300 Mini Tower (P302MV), a business desktop designed to deliver reliable performance and exceptional value for small businesses. Powered by up to an Intel Core 7 processor a...",
-    "url": "https://www.techpowerup.com/354881/asus-announces-expertcenter-p300-mini-tower",
-    "image": "https://www.techpowerup.com/img/uDejN82iRms1bsUY.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Build Your Dream Anime-Inspired PC with the AORUS ARI Bundle, Exclusively at Newegg",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "GIGABYTE brings anime aesthetics and gaming performance together with the AORUS ARI Bundle, featuring the AORUS GeForce RTX 5060 ARI 8G graphics card and B850 AORUS ELITE-P ICE motherboard. Inspired by Ari, AORUS's or...",
-    "url": "https://www.techpowerup.com/354726/build-your-dream-anime-inspired-pc-with-the-aorus-ari-bundle-exclusively-at-newegg",
-    "image": "https://www.techpowerup.com/img/4I7yUYsJinNeUE29.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Neural Rendering Could Keep Xbox Project Helix Affordable",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "For the 25th anniversary of Xbox, celebrating one of its longest-running projects, Microsoft announced that it sees great potential in new technologies that could lower hardware costs while enhancing visual fidelity....",
-    "url": "https://www.techpowerup.com/354878/neural-rendering-could-keep-xbox-project-helix-affordable",
-    "image": "https://www.techpowerup.com/img/PyYRGQRXSKRIBYk5.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Intel Razor Lake Gets a 12 P-Core bLLC Chip With No E-Cores, Per Leak",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "Intel's Razor Lake desktop lineup could include an unlocked gaming chip with 12 P-cores and no regular E-cores at all. Well-known Intel leaker Jaykihn shared the \"12+0+4\" configuration on X, which pairs those 12 P-cor...",
-    "url": "https://www.techpowerup.com/354867/intel-razor-lake-gets-a-12-p-core-bllc-chip-with-no-e-cores-per-leak",
-    "image": "https://www.techpowerup.com/img/pQjo5Fl0B4BLUs9S.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Thermal Grizzly Details WireView Pro II Extended GPU Warranty Conditions",
-    "date": "2026-11-16",
-    "category": "Hardware",
-    "description": "Thermal Grizzly has published an FAQ clarifying the conditions of its WireView Pro II extended GPU warranty, covering cables, settings, adapters, and claims. Neither the USB cable nor the motherboard Y-splitter has to...",
-    "url": "https://www.techpowerup.com/354864/thermal-grizzly-details-wireview-pro-ii-extended-gpu-warranty-conditions",
-    "image": "https://www.techpowerup.com/img/7sc07xPGO9UN5v6o.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Report: Jensen Huang Eyes NVIDIA Comeback",
-    "date": "2026-11-16",
-    "category": "Industrie",
-    "description": "Jensen Huang has talked with close confidants about returning as NVIDIA's CEO, according to a Sunday report from the Financial Times citing people familiar with the matter. Huang resigned as CEO and left the board on...",
-    "url": "https://www.techpowerup.com/354866/report-jensen-huang-eyes-nvidia-comeback",
-    "image": "https://www.techpowerup.com/img/hNa8I8XKgsr6eguX.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Nvidia-Angestellte wollen Jensen Huang zurück",
-    "date": "2026-11-15",
-    "category": "Industrie",
-    "description": "Nachdem eine dritte Affäre des vormaligen Nvidia-Chefs Jensen Huang bekannt wurde, setzt der Fallout ein. Trotzdem wollen manche, dass er wiederkehrt.",
-    "url": "https://www.heise.de/news/Nvidia-Angestellte-wollen-Jensen-Huang-zurueck-11525279.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/1/6/7/4/shutterstock_2470895321-a44039cb472a37c7.jpeg",
-    "source": "Heise"
-  },
-  {
-    "title": "Megaspeed bestätigt: Alice Huang hat Unternehmen verlassen",
-    "date": "2026-11-15",
-    "category": "Industrie",
-    "description": "Alice Huang soll eine chinesische Spionin gewesen sein und hatte eine Affäre mit dem Nvidia-Chef. Sie hat das Unternehmen Megaspeed vor Monaten verlassen.",
-    "url": "https://www.heise.de/news/Megaspeed-bestaetigt-Alice-Huang-hat-Unternehmen-verlassen-11525549.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag",
-    "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/1/8/0/9/Huang-Trump-eb2222563a7488b4.png",
-    "source": "Heise"
-  },
-  {
-    "title": "Nvidia: US-Kongress will KI-Chip-Exporte schärfer kontrollieren",
-    "date": "2026-11-15",
-    "category": "Hardware",
-    "description": "Nach dem Skandal um Nvidia-Chef Jensen Huang wächst in Washington der Druck, den Export leistungsfähiger KI-Chips stärker zu kontrollieren. Demokraten und Republikaner wollen mehrere Vorhaben vorantreiben. Einige könn...",
-    "url": "https://www.computerbase.de/news/wirtschaft/nvidia-us-kongress-will-ki-chip-exporte-schaerfer-kontrollieren.100340/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Windows 11: Bug soll Einrichtung in IPv6-Netzen scheitern lassen",
-    "date": "2026-11-15",
-    "category": "Software",
-    "description": "Die Ersteinrichtung von Windows 11 kann Aussagen von Nutzern zufolge in reinen IPv6-Netzwerken scheitern. Obwohl eine Internetverbindung besteht, meldet der Assistent einen Verbindungsabbruch. Das Problem trete auch i...",
-    "url": "https://www.computerbase.de/news/betriebssysteme/windows-11-bug-soll-einrichtung-in-ipv6-netzen-scheitern-lassen.100338/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Au­to-Play und Aus­führen: Microsoft modernisiert wei­tere Windows-11-Dialoge",
-    "date": "2026-11-15",
-    "category": "Hardware",
-    "description": "Microsoft hat mit der Modernisierung älterer Dialogfenster in Windows 11 begonnen. Den Auftakt bildet AutoPlay mit überarbeiteter Oberfläche und dauerhaft speicherbaren Aktionen. Noch 2026 soll der Ausführen-Dialog fo...",
-    "url": "https://www.computerbase.de/news/betriebssysteme/windows-11-microsoft-modernisiert-mit-auto-play-und-ausfuehren-weitere-dialoge.100337/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Wochenrück- und Ausblick: Erst redet AMD über Zen 6, dann muss Jensen gehen",
-    "date": "2026-11-15",
-    "category": "Hardware",
-    "description": "Im Fokus der Woche stand AMDs Vorstellung der professionellen Zen-6-CPUs der Epyc-Serie. Wir haben die technischen Details zusammengefasst. Die IPC wird gegenüber dem Vorgänger deutlich ansteigen: AMD nennt plus 27 Pr...",
-    "url": "https://www.computerbase.de/news/in-eigener-sache/wochenrueckblick-und-ausblick-2026-w46.100323/",
-    "image": null,
-    "source": "ComputerBase"
-  },
-  {
-    "title": "Wenn der GPU-Speicher nicht mehr ausreicht: Wie Enterprise-SSDs die KI-Infrastruktur unterstützen",
-    "date": "2026-11-15",
-    "category": "Hardware",
-    "description": "Advertorial / AnzeigeLängere Kontextfenster, mehr parallele Anfragen und komplexere KI-Agenten stellen neue Anforderungen an die Speicherarchitektur moderner Server.",
-    "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/storage/70889-wenn-der-gpu-speicher-nicht-mehr-ausreicht-wie-enterprise-ssds-die-ki-infrastruktur-unterstuetzen.html",
-    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Nov/flashy_structure_us/metabanner_680px.jpg",
+    "description": "Zur Supercomputing 2026 (SC26) hat Intel neue technische Details zur kommenden Xeon-Generation Diamond Rapids und zur GPU D270 veröffentlicht.",
+    "url": "https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/70986-sc26-intel-nennt-neue-details-zu-diamond-rapids-und-der-gpu-d270.html",
+    "image": "https://www.hardwareluxx.de/images/cdn02/uploads/2026/Aug/brisk_blockchain_u0/hot_chips_2026_intel_diamond_rapids_015_680px.jpeg",
     "source": "HardwareLuxx"
-  },
-  {
-    "title": "AskAnyModel Puts Six AI Responses Side by Side for Just $39.99",
-    "date": "2026-11-15",
-    "category": "Hardware",
-    "description": "AskAnyModel AI Pro Plan is now available for $39.99 (MSRP $499) for lifetime access through Nov. 8. The browser-based platform brings more than 50 AI models into one workspace, with tools for comparing responses, gene...",
-    "url": "https://www.techpowerup.com/354602/askanymodel-puts-six-ai-responses-side-by-side-for-just-usd-39-99",
-    "image": "https://www.techpowerup.com/img/j9arGKkJHTrjnRDn.jpg",
-    "source": "TechPowerUp"
-  },
-  {
-    "title": "Samsung, SK hynix, and Micron Fail to Get DRAM Antitrust Suit Dismissed",
-    "date": "2026-11-15",
-    "category": "Industrie",
-    "description": "The class-action lawsuit accusing Samsung, SK hynix, and Micron of restricting DRAM supply is moving forward. On November 14, U.S. District Judge Noël Wise of the Northern District of California denied the three compa...",
-    "url": "https://www.techpowerup.com/354863/samsung-sk-hynix-and-micron-fail-to-get-dram-antitrust-suit-dismissed",
-    "image": "https://www.techpowerup.com/img/keC6j8PER4FJtOB0.jpg",
-    "source": "TechPowerUp"
   }
 ]
